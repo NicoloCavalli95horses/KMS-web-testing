@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "55fcadbd1447fcee",
+        "id": "e5d13139f4356a3f",
         "type": "tabs",
         "children": [
           {
-            "id": "a6a2367b771f1e73",
+            "id": "bb2829e02b4fe25a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00  Inbox/To do/TO DO.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00  Inbox/To do/TO DO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00  Inbox/To do/TO DO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "00  Inbox/To do/TO DO.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,9 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a6a2367b771f1e73",
+  "active": "bb2829e02b4fe25a",
   "lastOpenFiles": [
-    "00  Inbox/To do/TO DO.md",
+    "01 🤔 Basics/Concepts/canvas DOM element.md",
+    "00  Inbox/To do.md",
     "00  Inbox/To do",
     "02 📚 Literature/Automatically inferring user behavior models in large-scale web applications.md",
     "02 📚 Literature/Automatic program repair.md",
@@ -157,7 +150,6 @@
     "01 🤔 Basics/Theories",
     "03 🏆 References/Papers/ref_automatically_inferring_user_behavior.md",
     "98 ⌛ Templates/Temp_Reference.md",
-    "01 🤔 Basics/Concepts/canvas DOM element.md",
     "canvas DOM element.md",
     "01 🤔 Basics/Concepts/error.md",
     "03 🏆 References/Papers/ref_taxonomy_of_testable_html5_canvas_issues.md",
