@@ -26,4 +26,4 @@
 - Assuring patch quality is an unsolved problem
 - Challenges in applying these techniques to large systems: most repair approaches require expensive and complex recompile-test-and-check loops.
 ## References
-[Automatic program repair]([https://www.researchgate.net/publication/352884909_Automatic_Program_Repair](https://www.researchgate.net/publication/352884909_Automatic_Program_Repair))
+[[ref_automatic_program_repair]]

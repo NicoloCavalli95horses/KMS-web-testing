@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2ad3c62682c9cb1b",
+        "id": "55fcadbd1447fcee",
         "type": "tabs",
         "children": [
           {
-            "id": "cca0c8bf98d0d9a1",
+            "id": "a6a2367b771f1e73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02_Literature/TEST.md",
+                "file": "00  Inbox/To do/TO DO.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02_Literature/TEST.md",
+                "file": "00  Inbox/To do/TO DO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02_Literature/TEST.md",
+                "file": "00  Inbox/To do/TO DO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02_Literature/TEST.md"
+                "file": "00  Inbox/To do/TO DO.md"
               }
             }
           }
@@ -146,25 +146,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cca0c8bf98d0d9a1",
+  "active": "a6a2367b771f1e73",
   "lastOpenFiles": [
-    "02_Literature/Automated program repair.md",
-    "02_Literature/TEST.md",
+    "00  Inbox/To do/TO DO.md",
+    "00  Inbox/To do",
+    "02 📚 Literature/Automatically inferring user behavior models in large-scale web applications.md",
+    "02 📚 Literature/Automatic program repair.md",
+    "02 📚 Literature/A taxonomy of testable HTML5 Canvas Issues.md",
+    "01 🤔 Basics/Theories/Markov’s chain and clickstream analysis.md",
+    "01 🤔 Basics/Theories",
+    "03 🏆 References/Papers/ref_automatically_inferring_user_behavior.md",
+    "98 ⌛ Templates/Temp_Reference.md",
+    "01 🤔 Basics/Concepts/canvas DOM element.md",
+    "canvas DOM element.md",
+    "01 🤔 Basics/Concepts/error.md",
+    "03 🏆 References/Papers/ref_taxonomy_of_testable_html5_canvas_issues.md",
     "PhD DiverSE Team.md",
-    "02_Literature/A taxonomy of testable HTML5 Canvas Issues.md",
-    "01_Basics/error.md",
-    "98_Templates/Temp_Literature.md",
-    "98_Templates/Untitled.md",
-    "98_Templates",
-    "99_Archive",
-    "04_Projects",
-    "03_References",
-    "02_Literature",
-    "01_Basics",
-    "00_Inbox/Untitled",
+    "03_References/Websites.md",
+    "03 🏆 References/Websites",
+    "03_References/Book.md",
+    "03 🏆 References/Books",
+    "03_References/Papers.md",
+    "03 🏆 References/Papers/ref_automatic_program_repair.md",
+    "98 ⌛ Templates/Temp_Literature.md",
+    "03 🏆 References/Papers",
+    "01 🤔 Basics/Concepts",
+    "02_Literature/TEST.md",
+    "98 ⌛ Templates",
+    "99 👴🏻 Archive",
+    "04 💪 Projects",
+    "03 🏆 References",
     "test.md",
     "create a link.md",
-    "Job.md",
-    "00_Inbox"
+    "Job.md"
   ]
 }
