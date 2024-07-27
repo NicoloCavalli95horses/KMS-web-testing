@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2b52f573a28f467c",
+        "id": "a9f97e52ebf108f9",
         "type": "tabs",
         "children": [
           {
-            "id": "15d0cb5187c53284",
+            "id": "a04d587a6dca254c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PhD DiverSE Team.md",
-                "mode": "preview",
+                "file": "01 🤔 Basics/Concepts/CORS policies.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PhD DiverSE Team.md",
+                "file": "01 🤔 Basics/Concepts/CORS policies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PhD DiverSE Team.md",
+                "file": "01 🤔 Basics/Concepts/CORS policies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +125,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PhD DiverSE Team.md"
+                "file": "01 🤔 Basics/Concepts/CORS policies.md"
               }
             }
+          },
+          {
+            "id": "ef7cfde84acee436",
+            "type": "leaf",
+            "state": {
+              "type": "tags-overview-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -144,26 +152,30 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "tags-overview:Tags overview": false
     }
   },
-  "active": "15d0cb5187c53284",
+  "active": "ef7cfde84acee436",
   "lastOpenFiles": [
+    "01 🤔 Basics/Concepts/canvas DOM element.md",
+    "98_Templates/Temp_Basics.md",
+    "01 🤔 Basics/Concepts/CORS policies.md",
+    "01 🤔 Basics/Concepts/error.md",
+    "98_Templates/Temp_Literature.md",
+    "01 🤔 Basics/Theories/Markov’s chain and clickstream analysis.md",
+    "02 📚 Literature/A taxonomy of testable HTML5 Canvas Issues.md",
+    "PhD DiverSE Team.md",
     "2024-07-26.md",
     "Untitled.canvas",
-    "PhD DiverSE Team.md",
-    "01 🤔 Basics/Concepts/canvas DOM element.md",
     "00  Inbox/To do.md",
     "00  Inbox/To do",
     "02 📚 Literature/Automatically inferring user behavior models in large-scale web applications.md",
     "02 📚 Literature/Automatic program repair.md",
-    "02 📚 Literature/A taxonomy of testable HTML5 Canvas Issues.md",
-    "01 🤔 Basics/Theories/Markov’s chain and clickstream analysis.md",
     "01 🤔 Basics/Theories",
     "03 🏆 References/Papers/ref_automatically_inferring_user_behavior.md",
-    "98 ⌛ Templates/Temp_Reference.md",
+    "98_Templates/Temp_Reference.md",
     "canvas DOM element.md",
-    "01 🤔 Basics/Concepts/error.md",
     "03 🏆 References/Papers/ref_taxonomy_of_testable_html5_canvas_issues.md",
     "03_References/Websites.md",
     "03 🏆 References/Websites",
@@ -171,12 +183,11 @@
     "03 🏆 References/Books",
     "03_References/Papers.md",
     "03 🏆 References/Papers/ref_automatic_program_repair.md",
-    "98 ⌛ Templates/Temp_Literature.md",
     "03 🏆 References/Papers",
     "01 🤔 Basics/Concepts",
     "02_Literature/TEST.md",
-    "98 ⌛ Templates",
-    "99 👴🏻 Archive",
+    "98_Templates",
+    "99_Archive",
     "04 💪 Projects",
     "03 🏆 References",
     "test.md",
