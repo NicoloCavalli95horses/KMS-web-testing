@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d18524e57ee01a6f",
+        "id": "3817b9573497520f",
         "type": "tabs",
         "children": [
           {
-            "id": "222fc12ed9dc90f0",
+            "id": "218eb480ded0408d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00_Inbox/genetic algorithms.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00_Inbox/genetic algorithms.md",
+                "file": "01 🤔 Basics/Theories/Markov’s chain and clickstream analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00_Inbox/genetic algorithms.md",
+                "file": "01 🤔 Basics/Theories/Markov’s chain and clickstream analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00_Inbox/genetic algorithms.md"
+                "file": "01 🤔 Basics/Theories/Markov’s chain and clickstream analysis.md"
               }
             }
           },
@@ -157,13 +153,14 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "222fc12ed9dc90f0",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
+    "01 🤔 Basics/Theories/genetic algorithms.md",
+    "PhD DiverSE Team.md",
+    "01 🤔 Basics/Concepts/error.md",
     "02 📚 Literature/Automatic program repair.md",
-    "00_Inbox/genetic algorithms.md",
     "02 📚 Literature/Automatically inferring user behavior models in large-scale web applications.md",
     "02 📚 Literature/A taxonomy of testable HTML5 Canvas Issues.md",
-    "01 🤔 Basics/Concepts/error.md",
     "98_Templates/Temp_Reference.md",
     "00_Inbox/ciao.md",
     "01 🤔 Basics/Theories/Markov’s chain and clickstream analysis.md",
@@ -171,7 +168,6 @@
     "01 🤔 Basics/Concepts/canvas DOM element.md",
     "98_Templates/Temp_Literature.md",
     "98_Templates/Temp_Basics.md",
-    "PhD DiverSE Team.md",
     "2024-07-26.md",
     "Untitled.canvas",
     "00  Inbox/To do.md",
