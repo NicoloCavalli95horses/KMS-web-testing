@@ -1,4 +1,9 @@
-The Markov chain is a mathematical model that describes a system that transitions from one state to another in a probabilistic manner. A key feature of Markov chains is that the probability of moving to a new state depends only on the current state and not on the sequence of previous states. This principle is known as the "no-memory" or "Markovian" property.
+
+| ID       | 2024-07-27-11:36                                                     |
+| -------- | -------------------------------------------------------------------- |
+| **Tags** | #techniques #clickstreamAnalysis #probabilisticTransitions #noMemory |
+
+The Markov chain is a mathematical model that describes a system that transitions from one state to another in a probabilistic manner. A key feature of Markov chains is that the probability of moving to a new state ==depends only on the current state== and not on the sequence of previous states. This principle is known as the "no-memory" or "Markovian" property.
 
 ### How a Markov Chain Works
 
@@ -11,11 +16,11 @@ Imagine having a series of states S1, S2, S3,…,Sn. A Markov chain is defined b
 
 If we have three states A, B and C, a transition matrix could be:
 
-|  | A | B | C |
+|     | A   | B   | C   |
 | --- | --- | --- | --- |
-| A | 0.2 | 0.5 | 0.3 |
-| B | 0.1 | 0.6 | 0.3 |
-| C | 0.4 | 0.4 | 0.2 |
+| A   | 0.2 | 0.5 | 0.3 |
+| B   | 0.1 | 0.6 | 0.3 |
+| C   | 0.4 | 0.4 | 0.2 |
 This matrix means that:
 
 - If the system is in state A, there is a 20% probability that it will remain in A, a 50% probability that it will go to B, and a 30% probability that it will go to C
@@ -44,12 +49,12 @@ Use the transition matrix to make predictions about future user behavior. For ex
 
 Imagine you have a site with four pages: "Home", "Products", "Cart", "Checkout". After collecting click stream data, you get the following transition matrix:
 
-|  | Home | Prodotti | Carrello | Pagamento |
-| --- | --- | --- | --- | --- |
-| Home | 0.1 | 0.6 | 0.2 | 0.1 |
-| Prodotti | 0.3 | 0.4 | 0.3 | 0 |
-| Carrello | 0.2 | 0.3 | 0.4 | 0.1 |
-| Pagamento | 0 | 0 | 0 | 1 |
+|          | Home | Products | Shop | Payment |
+| -------- | ---- | -------- | ---- | ------- |
+| Home     | 0.1  | 0.6      | 0.2  | 0.1     |
+| Products | 0.3  | 0.4      | 0.3  | 0       |
+| Shop     | 0.2  | 0.3      | 0.4  | 0.1     |
+| Payment  | 0    | 0        | 0    | 1       |
 ### Conclusion
 
-Markov chains are powerful tools for modeling systems with probabilistic transitions between states, such as user behavior on a website. By analyzing the click stream with a Markov chain, we can gain valuable insights that help improve user interaction with the site.
+Markov chains are powerful tools for modeling systems with ==probabilistic transitions== between states, such as user behavior on a website. By analyzing the click stream with a Markov chain, we can gain valuable insights that help improve user interaction with the site.

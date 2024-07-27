@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a9f97e52ebf108f9",
+        "id": "d18524e57ee01a6f",
         "type": "tabs",
         "children": [
           {
-            "id": "a04d587a6dca254c",
+            "id": "222fc12ed9dc90f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 🤔 Basics/Concepts/CORS policies.md",
+                "file": "00_Inbox/genetic algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 🤔 Basics/Concepts/CORS policies.md",
+                "file": "00_Inbox/genetic algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 🤔 Basics/Concepts/CORS policies.md",
+                "file": "00_Inbox/genetic algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 🤔 Basics/Concepts/CORS policies.md"
+                "file": "00_Inbox/genetic algorithms.md"
               }
             }
           },
@@ -138,11 +138,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,25 +157,27 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "ef7cfde84acee436",
+  "active": "222fc12ed9dc90f0",
   "lastOpenFiles": [
-    "01 🤔 Basics/Concepts/canvas DOM element.md",
-    "98_Templates/Temp_Basics.md",
-    "01 🤔 Basics/Concepts/CORS policies.md",
-    "01 🤔 Basics/Concepts/error.md",
-    "98_Templates/Temp_Literature.md",
-    "01 🤔 Basics/Theories/Markov’s chain and clickstream analysis.md",
+    "02 📚 Literature/Automatic program repair.md",
+    "00_Inbox/genetic algorithms.md",
+    "02 📚 Literature/Automatically inferring user behavior models in large-scale web applications.md",
     "02 📚 Literature/A taxonomy of testable HTML5 Canvas Issues.md",
+    "01 🤔 Basics/Concepts/error.md",
+    "98_Templates/Temp_Reference.md",
+    "00_Inbox/ciao.md",
+    "01 🤔 Basics/Theories/Markov’s chain and clickstream analysis.md",
+    "01 🤔 Basics/Concepts/CORS policies.md",
+    "01 🤔 Basics/Concepts/canvas DOM element.md",
+    "98_Templates/Temp_Literature.md",
+    "98_Templates/Temp_Basics.md",
     "PhD DiverSE Team.md",
     "2024-07-26.md",
     "Untitled.canvas",
     "00  Inbox/To do.md",
     "00  Inbox/To do",
-    "02 📚 Literature/Automatically inferring user behavior models in large-scale web applications.md",
-    "02 📚 Literature/Automatic program repair.md",
     "01 🤔 Basics/Theories",
     "03 🏆 References/Papers/ref_automatically_inferring_user_behavior.md",
-    "98_Templates/Temp_Reference.md",
     "canvas DOM element.md",
     "03 🏆 References/Papers/ref_taxonomy_of_testable_html5_canvas_issues.md",
     "03_References/Websites.md",

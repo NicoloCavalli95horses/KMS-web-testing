@@ -1,49 +1,54 @@
-Errors in software design refer to flaws, mistakes, or failures in the design phase of software development that can lead to various issues during the implementation, execution, or maintenance of software. These errors can originate from different sources, including misunderstandings of requirements, poor architectural decisions, inadequate design specifications, and more. Understanding these errors is crucial for developing robust, efficient, and maintainable software systems.
+
+| ID       | 2024-07-27-11:36 |
+| -------- | ---------------- |
+| **Tags** | #issues          |
+
+Errors in software design refer to flaws, mistakes, or failures in the design phase of software development that can lead to various issues during the implementation, execution, or maintenance of software.
+
+These errors can originate from different sources, including misunderstandings of requirements, poor architectural decisions, inadequate design specifications, and more. Understanding these errors is crucial for developing robust, efficient, and maintainable software systems.
 
 ### Types of Errors in Software Design
 
-1. **Requirement Errors:**
-    
-    - **Ambiguity**: Vague or unclear requirements can lead to incorrect interpretations.
-    - **Incomplete Requirements**: Missing or incomplete requirements result in missing functionalities.
-    - **Contradictory Requirements**: Conflicting requirements can cause confusion and inconsistencies in the design.
-    - **Unfeasible Requirements**: Requirements that are technically or practically impossible to implement.
-2. **Architectural Errors:**
-    
-    - **Poor Modularity**: Incorrect separation of concerns leading to tightly coupled components.
-    - **Scalability Issues**: Designs that do not account for future growth in data volume or user base.
-    - **Security Flaws**: Overlooking security considerations, leading to vulnerabilities.
-    - **Performance Bottlenecks**: Design choices that lead to inefficiencies and slow performance.
-3. **Design Specification Errors:**
-    
-    - **Inaccurate Specifications**: Misunderstandings or incorrect documentation of the system design.
-    - **Omitted Design Elements**: Missing design elements that are crucial for functionality.
-    - **Overly Complex Design**: Over-engineering solutions that complicate maintenance and understanding.
-4. **Interface Errors:**
-    
-    - **User Interface (UI) Errors**: Poor design of user interfaces leading to usability issues.
-    - **Application Programming Interface (API) Errors**: Flaws in the design of APIs that can cause integration problems.
-5. **Algorithmic Errors:**
-    
-    - **Inefficient Algorithms**: Choosing algorithms that are not optimal for the given problem, leading to performance issues.
-    - **Incorrect Algorithms**: Algorithms that do not correctly implement the intended functionality.
+**Requirement Errors:**
+- **Ambiguity**: Vague or unclear requirements can lead to incorrect interpretations.
+- **Incomplete Requirements**: Missing or incomplete requirements result in missing functionalities.
+- **Contradictory Requirements**: Conflicting requirements can cause confusion and inconsistencies in the design.
+- **Unfeasible Requirements**: Requirements that are technically or practically impossible to implement.
+
+**Architectural Errors:**
+- **Poor Modularity**: Incorrect separation of concerns leading to tightly coupled components.
+- **Scalability Issues**: Designs that do not account for future growth in data volume or user base.
+- **Security Flaws**: Overlooking security considerations, leading to vulnerabilities.
+- **Performance Bottlenecks**: Design choices that lead to inefficiencies and slow performance.
+
+**Design Specification Errors:**
+- **Inaccurate Specifications**: Misunderstandings or incorrect documentation of the system design.
+- **Omitted Design Elements**: Missing design elements that are crucial for functionality.
+- **Overly Complex Design**: Over-engineering solutions that complicate maintenance and understanding.
+
+**Interface Errors:**
+- **User Interface (UI) Errors**: Poor design of user interfaces leading to usability issues.
+- **Application Programming Interface (API) Errors**: Flaws in the design of APIs that can cause integration problems.
+
+**Algorithmic Errors:**
+- **Inefficient Algorithms**: Choosing algorithms that are not optimal for the given problem, leading to performance issues.
+- **Incorrect Algorithms**: Algorithms that do not correctly implement the intended functionality.
 
 ### Sources of Errors in Software Design
 
-1. **Human Factors:**
-    
-    - **Lack of Expertise**: Designers without adequate knowledge or experience.
-    - **Communication Issues**: Poor communication among team members or with stakeholders.
-    - **Time Constraints**: Rushed design processes leading to oversight and mistakes.
-2. **Process Issues:**
-    
-    - **Inadequate Requirement Analysis**: Failing to thoroughly analyze and understand requirements.
-    - **Insufficient Design Reviews**: Lack of thorough reviews and critiques of the design.
-    - **Poor Documentation**: Incomplete or unclear documentation of design decisions and specifications.
-3. **Technological Factors:**
-    
-    - **Tool Limitations**: Limitations or bugs in the design tools being used.
-    - **Technological Changes**: Rapid changes in technology that render design decisions obsolete.
+**Human Factors:**
+- **Lack of Expertise**: Designers without adequate knowledge or experience.
+- **Communication Issues**: Poor communication among team members or with stakeholders.
+- **Time Constraints**: Rushed design processes leading to oversight and mistakes.
+
+**Process Issues:**
+- **Inadequate Requirement Analysis**: Failing to thoroughly analyze and understand requirements.
+- **Insufficient Design Reviews**: Lack of thorough reviews and critiques of the design.
+- **Poor Documentation**: Incomplete or unclear documentation of design decisions and specifications.
+
+**Technological Factors:**
+- **Tool Limitations**: Limitations or bugs in the design tools being used.
+- **Technological Changes**: Rapid changes in technology that render design decisions obsolete.
 
 ### Impacts of Design Errors
 
