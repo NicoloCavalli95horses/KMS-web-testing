@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e5d13139f4356a3f",
+        "id": "2b52f573a28f467c",
         "type": "tabs",
         "children": [
           {
-            "id": "bb2829e02b4fe25a",
+            "id": "15d0cb5187c53284",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "PhD DiverSE Team.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "PhD DiverSE Team.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "PhD DiverSE Team.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "PhD DiverSE Team.md"
+              }
             }
           }
         ]
@@ -135,11 +143,15 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "bb2829e02b4fe25a",
+  "active": "15d0cb5187c53284",
   "lastOpenFiles": [
+    "2024-07-26.md",
+    "Untitled.canvas",
+    "PhD DiverSE Team.md",
     "01 🤔 Basics/Concepts/canvas DOM element.md",
     "00  Inbox/To do.md",
     "00  Inbox/To do",
@@ -153,7 +165,6 @@
     "canvas DOM element.md",
     "01 🤔 Basics/Concepts/error.md",
     "03 🏆 References/Papers/ref_taxonomy_of_testable_html5_canvas_issues.md",
-    "PhD DiverSE Team.md",
     "03_References/Websites.md",
     "03 🏆 References/Websites",
     "03_References/Book.md",
