@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "3817b9573497520f",
+        "id": "95a5d5791e76d972",
         "type": "tabs",
         "children": [
           {
-            "id": "218eb480ded0408d",
+            "id": "81da7779aba0e907",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -81,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 🤔 Basics/Theories/Markov’s chain and clickstream analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 🤔 Basics/Theories/Markov’s chain and clickstream analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "01 🤔 Basics/Theories/Markov’s chain and clickstream analysis.md"
-              }
+              "state": {}
             }
           },
           {
@@ -134,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -153,19 +149,26 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "81da7779aba0e907",
   "lastOpenFiles": [
-    "01 🤔 Basics/Theories/genetic algorithms.md",
+    "01 🤔 Basics/error.md",
+    "01 🤔 Basics/CORS (Cross-Origin Resource Sharing).md",
+    "01 🤔 Basics/canvas DOM element.md",
+    "01 🤔 Basics/principle of least astonishment.md",
+    "01 🤔 Basics/Markov’s chain and clickstream analysis.md",
+    "01 🤔 Basics/genetic algorithms.md",
     "PhD DiverSE Team.md",
-    "01 🤔 Basics/Concepts/error.md",
-    "02 📚 Literature/Automatic program repair.md",
-    "02 📚 Literature/Automatically inferring user behavior models in large-scale web applications.md",
+    "01 🤔 Basics/AIF (Application Independent Functionalities).md",
+    "02 📚 Literature/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
     "02 📚 Literature/A taxonomy of testable HTML5 Canvas Issues.md",
+    "02 📚 Literature/Automatically inferring user behavior models in large-scale web applications.md",
+    "03 🏆 References/Papers/ref_augusto_exploiting_popular_functionalities_generation_semantic_gui_test.md",
+    "02 📚 Literature/Automatic program repair.md",
+    "03 🏆 References/Papers/ref_automatically_inferring_user_behavior.md",
+    "03 🏆 References/Papers/ref_automatic_program_repair.md",
+    "03 🏆 References/Papers/ref_taxonomy_of_testable_html5_canvas_issues.md",
     "98_Templates/Temp_Reference.md",
     "00_Inbox/ciao.md",
-    "01 🤔 Basics/Theories/Markov’s chain and clickstream analysis.md",
-    "01 🤔 Basics/Concepts/CORS policies.md",
-    "01 🤔 Basics/Concepts/canvas DOM element.md",
     "98_Templates/Temp_Literature.md",
     "98_Templates/Temp_Basics.md",
     "2024-07-26.md",
@@ -173,24 +176,17 @@
     "00  Inbox/To do.md",
     "00  Inbox/To do",
     "01 🤔 Basics/Theories",
-    "03 🏆 References/Papers/ref_automatically_inferring_user_behavior.md",
     "canvas DOM element.md",
-    "03 🏆 References/Papers/ref_taxonomy_of_testable_html5_canvas_issues.md",
     "03_References/Websites.md",
     "03 🏆 References/Websites",
     "03_References/Book.md",
     "03 🏆 References/Books",
     "03_References/Papers.md",
-    "03 🏆 References/Papers/ref_automatic_program_repair.md",
     "03 🏆 References/Papers",
     "01 🤔 Basics/Concepts",
-    "02_Literature/TEST.md",
     "98_Templates",
     "99_Archive",
     "04 💪 Projects",
-    "03 🏆 References",
-    "test.md",
-    "create a link.md",
-    "Job.md"
+    "03 🏆 References"
   ]
 }

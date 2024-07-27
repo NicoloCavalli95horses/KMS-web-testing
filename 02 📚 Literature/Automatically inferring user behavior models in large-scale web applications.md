@@ -4,8 +4,6 @@
 | **Tags** | #UX #userModels  |
 ## Main concepts
 
-## Introduction
-
 - dead-ends and navigational anomalies are frequent in large-scale web applications
 - it is almost impossible to predict and address all of the user’s interaction expectations
 
@@ -15,10 +13,9 @@ How to obtain information about the user navigation:
 - **Proxy servers:** user requests are sended to a proxy-server that collect and analyze them and then send the requests to their destination.
 - It is possible to modify the source code of browsers with JavaScript in order to gather data about the user navigation
 - Classify user behaviour:
-    - using clickstream method with the [[Markov’s chain and clickstream analysis]]
-    
+	- using clickstream method with the [[Markov’s chain and clickstream analysis]]
     - using  clickstream graph
-    - three phases process: pre-processing, pattern discovery, pattern analysis
+    - three phases process: preprocessing, pattern discovery, pattern analysis
     - analyzing the mean time spent on page
 
 > In order to address navigation-related issues and to better understand where to maximize the testing efforts it is crucial to rank the web pages from the most visited to the last visited> 

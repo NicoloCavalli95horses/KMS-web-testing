@@ -71,7 +71,7 @@ drawHistogram(ctx, values, labels);
 
 ==**Web architecture issues (17%)==:** issues related to different behavior across browsers and cross-origin resource sharing
 - **Different behavior across browsers** → issues related to unexpected behavior while using different browsers
-- **Cross-origin resource sharing issues** → issues related to incorrect use of [[CORS policies]] with \<canvas>
+- **Cross-origin resource sharing issues** → issues related to incorrect use of [[CORS (Cross-Origin Resource Sharing)]] with \<canvas>
 
 ==**User interaction issues (14%)==:** issues related to DOM events that are triggered from the
 \<canvas> element
