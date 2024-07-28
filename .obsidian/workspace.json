@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c101cca962ef8b41",
+        "id": "d410dec58215d56c",
         "type": "tabs",
         "children": [
           {
-            "id": "1f659a6860007d93",
+            "id": "f73c22c4cad4bdd7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PhD DiverSE Team.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#HTML",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PhD DiverSE Team.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PhD DiverSE Team.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "PhD DiverSE Team.md"
-              }
+              "state": {}
             }
           },
           {
@@ -138,12 +131,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 493.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,21 +149,21 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "1f659a6860007d93",
+  "active": "f73c22c4cad4bdd7",
   "lastOpenFiles": [
+    "01 🤔 Basics/canvas DOM element.md",
+    "02 📚 Literature/A taxonomy of testable HTML5 Canvas Issues.md",
+    "03 🏆 References/Papers/ref_augusto_exploiting_popular_functionalities_generation_semantic_gui_test.md",
+    "PhD DiverSE Team.md",
     "00_Inbox/CRUD (Create, Read, Update, Delete) operations.md",
     "01 🤔 Basics/error.md",
     "01 🤔 Basics/CORS (Cross-Origin Resource Sharing).md",
-    "01 🤔 Basics/canvas DOM element.md",
     "01 🤔 Basics/principle of least astonishment.md",
     "01 🤔 Basics/Markov’s chain and clickstream analysis.md",
     "01 🤔 Basics/genetic algorithms.md",
-    "PhD DiverSE Team.md",
     "01 🤔 Basics/AIF (Application Independent Functionalities).md",
     "02 📚 Literature/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
-    "02 📚 Literature/A taxonomy of testable HTML5 Canvas Issues.md",
     "02 📚 Literature/Automatically inferring user behavior models in large-scale web applications.md",
-    "03 🏆 References/Papers/ref_augusto_exploiting_popular_functionalities_generation_semantic_gui_test.md",
     "02 📚 Literature/Automatic program repair.md",
     "03 🏆 References/Papers/ref_automatically_inferring_user_behavior.md",
     "03 🏆 References/Papers/ref_automatic_program_repair.md",
