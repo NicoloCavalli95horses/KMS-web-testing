@@ -7,7 +7,7 @@
 AIFs are very common functionalities shared between the majority of the application.
 Examples of AIFs are, for example:
 - The authentication process, composed of the sign in, sing up, and sign out operations
-- Creating, reading, updating and deleting information ([[CRUD operations]])
+- Creating, reading, updating and deleting information ([[CRUD (Create, Read, Update, Delete) operations]])
 - Saving the work on a file and then reloading it
 - Searching and then booking a certain service (car, hotel, flight),
 - Handling an e-commerce cart, etc.
