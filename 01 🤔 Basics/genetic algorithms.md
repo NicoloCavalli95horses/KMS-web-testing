@@ -1,7 +1,7 @@
 
-| ID       | 2024-07-27-11:56                            |
-| -------- | ------------------------------------------- |
-| **Tags** | #evolutionaryComputation #geneticAlgorithms |
+| ID       | 2024-07-27-11:56                          |
+| -------- | ----------------------------------------- |
+| **Tags** | #evolutionaryComputation #algorithm #math |
 ## Evolutionary computation
 
 Evolutionary computation is a field of computer science inspired by natural evolutionary processes to solve complex problems. It makes use of algorithms based on natural selection principles that consider mutation, reproduction and the survival of the fittest to find optimal or sub-optimal solutions.
