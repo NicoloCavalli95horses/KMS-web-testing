@@ -3,7 +3,7 @@
 | **Tags** | #ref             |
 ## External Link
 
-[Automatically inferring user behavior models in large-scale web applications SSS Ghaemmaghami et al, Information and Software, 2022](https://www.sciencedirect.com/science/article/abs/pii/S0950584921001579?via%3Dihub)
+[Automatically inferring user behavior models in large-scale web applications](https://www.sciencedirect.com/science/article/abs/pii/S0950584921001579?via%3Dihub)
 ## BibTeX
 
 @article{GHAEMMAGHAMI2022106704,

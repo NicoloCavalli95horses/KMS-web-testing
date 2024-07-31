@@ -1,6 +1,6 @@
 | ID       | 2024-07-28-18:15 |
-| -------- | ----------------- |
-| **Tags** | #ref              |
+| -------- | ---------------- |
+| **Tags** | #ref             |
 ## External Link
 
 [Untangling spaghetti of evolutions in software histories to identify code and test co-evolutions](https://www.researchgate.net/publication/356515553_Untangling_Spaghetti_of_Evolutions_in_Software_Histories_to_Identify_Code_and_Test_Co-evolutions)
