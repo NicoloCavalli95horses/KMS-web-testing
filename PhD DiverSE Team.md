@@ -7,7 +7,7 @@
 | **Start Date**     | 01/11/2024                                                             |
 | **End (estimate)** | 01/11/2027                                                             |
 | **Site**           | Department of Computer Science, University of Rennes 1                 |
-## Progress
+## PhD progress
 
 ```dataviewjs
 const startDate = new Date("2024-11-01");
@@ -24,14 +24,9 @@ const progressBar = `${'🟩'.repeat(filledLength)}${'🟪'.repeat(emptyLength)}
 dv.span(progressBar);
 ```
 
-## To do
-
-
+## Inbox
 ```dataview
-searchType: frontmatter
-searchTarget: complete 
-folder: $=dv.pages("").length
-summary: 
-    template: "Total Notes: {{sum()}}"
+LIST
+FROM "00 📩 Inbox"
 
 ```
