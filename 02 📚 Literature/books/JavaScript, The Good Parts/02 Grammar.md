@@ -1,6 +1,6 @@
 | ID       | 2024-08-03-15:01 |
 | -------- | ---------------- |
-| **Tags** | #tag             |
+| **Tags** | #JavaScript      |
 # Whitespace
 
 JavaScript offers two forms of comments:
@@ -103,3 +103,28 @@ Using a labeled statements:
 
 ### For in loops
 
+The for in loop enumerates the property names (keys) of an object. This loop may be dangerous because when explicitly iterating over an object to find a key, the whole prototype chain is considered. It is then necessary to explicit check the presence of the key in that particular object:
+
+```JavaScript
+const name = 'nick';
+
+for (nick in obj) {
+  if (obj.hasOwnProperty(name)) {
+    ...
+  }
+}
+```
+
+### Operator precedence
+
+| Operator                | Description                         |
+| ----------------------- | ----------------------------------- |
+| . [] ()                 | Refinement and invocation           |
+| delete new typeof + - ! | Unary operators                     |
+| * / %                   | Multiplication, division, module    |
+| + -                     | Addition/concatenation, subtraction |
+| \>= <= > <              | Inequality                          |
+| \== \=== \!==           | Equality                            |
+| &&                      | Logical and                         |
+| \|\|                    | Logical or                          |
+| ?:                      | Ternary operator                    |

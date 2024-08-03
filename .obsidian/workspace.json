@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "54454660050121f5",
+        "id": "3dfd18f4bb8e09ea",
         "type": "tabs",
         "children": [
           {
-            "id": "da96bca48ba14e90",
+            "id": "0472e6bcaada8972",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 📚 Literature/books/JavaScript, The Good Parts/02 Grammar.md",
+                "file": "PhD DiverSE Team.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -48,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "radians",
+                "query": "tag:#math",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 📚 Literature/books/JavaScript, The Good Parts/02 Grammar.md",
+                "file": "PhD DiverSE Team.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 📚 Literature/books/JavaScript, The Good Parts/02 Grammar.md",
+                "file": "PhD DiverSE Team.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 📚 Literature/books/JavaScript, The Good Parts/02 Grammar.md"
+                "file": "PhD DiverSE Team.md"
               }
             }
           },
@@ -157,24 +158,29 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "da96bca48ba14e90",
+  "active": "0472e6bcaada8972",
   "lastOpenFiles": [
-    "02 📚 Literature/books/JavaScript, The Good Parts/03 Objects.md",
+    "00 📩 Inbox/AST (Abstract Syntax Tree).md",
+    "PhD DiverSE Team.md",
+    "00 📩 Inbox/tree difference algorithms.md",
+    "00 📩 Inbox/CRUD (Create, Read, Update, Delete) operations.md",
+    "00 📩 Inbox/03 Objects.md",
     "02 📚 Literature/books/JavaScript, The Good Parts/02 Grammar.md",
-    "02 📚 Literature/books/JavaScript, The Good Parts/00 Index.md",
+    "02 📚 Literature/books/JavaScript, The Good Parts/JavaScript, The Good Parts.md",
+    "02 📚 Literature/papers/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
+    "02 📚 Literature/papers/Automatically inferring user behavior models in large-scale web applications.md",
+    "02 📚 Literature/papers/Automatic program repair.md",
+    "02 📚 Literature/papers/A taxonomy of testable HTML5 Canvas Issues.md",
+    "02 📚 Literature/papers/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
+    "01 🤔 Basics/sine and cosine.md",
+    "01 🤔 Basics/radians.md",
     "00 📩 Inbox/RegEx (Regular Expression).md",
     "98 🏛️ Templates/Temp_Book.md",
     "03 🏆 References/ref_javascript_the_good_parts.md",
     "02 📚 Literature/books/JavaScript, The Good Parts/99 Ref.md",
     "98 🏛️ Templates/Temp_Literature.md",
     "02 📚 Literature/books/JavaScript, The Good Parts",
-    "02 📚 Literature/papers/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
-    "02 📚 Literature/papers/Automatically inferring user behavior models in large-scale web applications.md",
-    "02 📚 Literature/papers/Automatic program repair.md",
-    "02 📚 Literature/papers/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
-    "02 📚 Literature/papers/A taxonomy of testable HTML5 Canvas Issues.md",
     "02 📚 Literature/books",
-    "PhD DiverSE Team.md",
     "02 📚 Literature/papers",
     "01 🤔 Basics/AIF (Application Independent Functionalities).md",
     "01 🤔 Basics/canvas DOM element.md",
@@ -183,11 +189,6 @@
     "01 🤔 Basics/dynamic analysis.md",
     "01 🤔 Basics/static analysis.md",
     "01 🤔 Basics/error.md",
-    "01 🤔 Basics/genetic algorithms.md",
-    "01 🤔 Basics/Markov’s chain and clickstream analysis.md",
-    "01 🤔 Basics/principle of least astonishment.md",
-    "01 🤔 Basics/sine and cosine.md",
-    "01 🤔 Basics/radians.md",
     "97 🎨 Assets/sine_cosine.png",
     "97 🎨 Assets/circle_radians.gif",
     "Pasted image 20240731160838.png",

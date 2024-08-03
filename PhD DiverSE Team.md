@@ -22,3 +22,16 @@ const emptyLength = barLength - filledLength;
 const progressBar = `${'🟩'.repeat(filledLength)}${'🟪'.repeat(emptyLength)} ${progressPerc}%`;
 
 dv.span(progressBar);
+```
+
+## To do
+
+
+```dataview
+searchType: frontmatter
+searchTarget: complete 
+folder: $=dv.pages("").length
+summary: 
+    template: "Total Notes: {{sum()}}"
+
+```
