@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PhD DiverSE Team.md",
+                "file": "02 📚 Literature/books/JavaScript, The Good Parts/02 Grammar.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PhD DiverSE Team.md",
+                "file": "02 📚 Literature/books/JavaScript, The Good Parts/02 Grammar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PhD DiverSE Team.md",
+                "file": "02 📚 Literature/books/JavaScript, The Good Parts/02 Grammar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PhD DiverSE Team.md"
+                "file": "02 📚 Literature/books/JavaScript, The Good Parts/02 Grammar.md"
               }
             }
           },
@@ -159,6 +159,22 @@
   },
   "active": "da96bca48ba14e90",
   "lastOpenFiles": [
+    "00 📩 Inbox/RegEx (Regular Expression).md",
+    "02 📚 Literature/books/JavaScript, The Good Parts/02 Grammar.md",
+    "98 🏛️ Templates/Temp_Book.md",
+    "02 📚 Literature/books/JavaScript, The Good Parts/00 Index.md",
+    "03 🏆 References/ref_javascript_the_good_parts.md",
+    "02 📚 Literature/books/JavaScript, The Good Parts/99 Ref.md",
+    "98 🏛️ Templates/Temp_Literature.md",
+    "02 📚 Literature/books/JavaScript, The Good Parts",
+    "02 📚 Literature/papers/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
+    "02 📚 Literature/papers/Automatically inferring user behavior models in large-scale web applications.md",
+    "02 📚 Literature/papers/Automatic program repair.md",
+    "02 📚 Literature/papers/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
+    "02 📚 Literature/papers/A taxonomy of testable HTML5 Canvas Issues.md",
+    "02 📚 Literature/books",
+    "PhD DiverSE Team.md",
+    "02 📚 Literature/papers",
     "01 🤔 Basics/AIF (Application Independent Functionalities).md",
     "01 🤔 Basics/canvas DOM element.md",
     "01 🤔 Basics/co-evolving systems.md",
@@ -171,34 +187,18 @@
     "01 🤔 Basics/principle of least astonishment.md",
     "01 🤔 Basics/sine and cosine.md",
     "01 🤔 Basics/radians.md",
-    "PhD DiverSE Team.md",
-    "97_Assets/sine_cosine.png",
-    "97_Assets/circle_radians.gif",
+    "97 🎨 Assets/sine_cosine.png",
+    "97 🎨 Assets/circle_radians.gif",
     "Pasted image 20240731160838.png",
     "Pasted image 20240731161249.png",
-    "97_Assets",
+    "97 🎨 Assets",
     "Untitled.canvas",
-    "00_Inbox/RegEx (Regular Expression).md",
-    "00_Inbox/recommendation engine.md",
-    "00_Inbox/proxy-server.md",
-    "00_Inbox/overfitting.md",
-    "00_Inbox/CRUD (Create, Read, Update, Delete) operations.md",
-    "00_Inbox/AST (Abstract Syntax Tree).md",
-    "02 📚 Literature/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
-    "02 📚 Literature/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
-    "03 🏆 References/ref_automatically_inferring_user_behavior.md",
-    "03 🏆 References/ref_automatic_program_repair.md",
-    "03 🏆 References/ref_augusto_exploiting_popular_functionalities_generation_semantic_gui_test.md",
-    "03 🏆 References/ref_untangling_spaghetti_of_evolutions.md",
-    "03 🏆 References/ref_taxonomy_of_testable_html5_canvas_issues.md",
+    "00 📩 Inbox/recommendation engine.md",
     "00  Inbox/To do",
     "01 🤔 Basics/Theories",
     "03 🏆 References/Websites",
     "03 🏆 References/Books",
     "03 🏆 References/Papers",
-    "01 🤔 Basics/Concepts",
-    "98_Templates",
-    "99_Archive",
-    "04 💪 Projects"
+    "01 🤔 Basics/Concepts"
   ]
 }
