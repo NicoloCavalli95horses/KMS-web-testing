@@ -3,6 +3,6 @@
 | **Tags** | #tag             |
 ## Index
 [[02 Grammar]]
-
+[[03 Objects]]
 ## Reference
 [[ref_javascript_the_good_parts]]
