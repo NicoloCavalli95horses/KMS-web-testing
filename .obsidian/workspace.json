@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d55dbd40234beab3",
+        "id": "54454660050121f5",
         "type": "tabs",
         "children": [
           {
-            "id": "8c47b749d325e779",
+            "id": "da96bca48ba14e90",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 🤔 Basics/sine and cosine.md",
+                "file": "PhD DiverSE Team.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01 🤔 Basics/sine and cosine.md",
+                "file": "PhD DiverSE Team.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 🤔 Basics/sine and cosine.md",
+                "file": "PhD DiverSE Team.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 🤔 Basics/sine and cosine.md"
+                "file": "PhD DiverSE Team.md"
               }
             }
           },
@@ -157,19 +157,27 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "8c47b749d325e779",
+  "active": "da96bca48ba14e90",
   "lastOpenFiles": [
-    "01 🤔 Basics/radians.md",
-    "01 🤔 Basics/sine and cosine.md",
-    "01 🤔 Basics/co-evolving systems.md",
+    "01 🤔 Basics/AIF (Application Independent Functionalities).md",
     "01 🤔 Basics/canvas DOM element.md",
+    "01 🤔 Basics/co-evolving systems.md",
+    "01 🤔 Basics/CORS (Cross-Origin Resource Sharing).md",
+    "01 🤔 Basics/dynamic analysis.md",
+    "01 🤔 Basics/static analysis.md",
+    "01 🤔 Basics/error.md",
+    "01 🤔 Basics/genetic algorithms.md",
+    "01 🤔 Basics/Markov’s chain and clickstream analysis.md",
+    "01 🤔 Basics/principle of least astonishment.md",
+    "01 🤔 Basics/sine and cosine.md",
+    "01 🤔 Basics/radians.md",
+    "PhD DiverSE Team.md",
+    "97_Assets/sine_cosine.png",
     "97_Assets/circle_radians.gif",
     "Pasted image 20240731160838.png",
     "Pasted image 20240731161249.png",
     "97_Assets",
     "Untitled.canvas",
-    "01 🤔 Basics/genetic algorithms.md",
-    "01 🤔 Basics/AIF (Application Independent Functionalities).md",
     "00_Inbox/RegEx (Regular Expression).md",
     "00_Inbox/recommendation engine.md",
     "00_Inbox/proxy-server.md",
@@ -178,18 +186,11 @@
     "00_Inbox/AST (Abstract Syntax Tree).md",
     "02 📚 Literature/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
     "02 📚 Literature/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
-    "PhD DiverSE Team.md",
     "03 🏆 References/ref_automatically_inferring_user_behavior.md",
     "03 🏆 References/ref_automatic_program_repair.md",
     "03 🏆 References/ref_augusto_exploiting_popular_functionalities_generation_semantic_gui_test.md",
     "03 🏆 References/ref_untangling_spaghetti_of_evolutions.md",
     "03 🏆 References/ref_taxonomy_of_testable_html5_canvas_issues.md",
-    "02 📚 Literature/Automatically inferring user behavior models in large-scale web applications.md",
-    "02 📚 Literature/Automatic program repair.md",
-    "02 📚 Literature/A taxonomy of testable HTML5 Canvas Issues.md",
-    "00_Inbox/tree difference algorithms.md",
-    "01 🤔 Basics/error.md",
-    "01 🤔 Basics/static analysis.md",
     "00  Inbox/To do",
     "01 🤔 Basics/Theories",
     "03 🏆 References/Websites",
