@@ -4,5 +4,6 @@
 ## Index
 [[02 Grammar]]
 [[03 Objects]]
+[[04 Functions]]
 ## Reference
 [[ref_javascript_the_good_parts]]
