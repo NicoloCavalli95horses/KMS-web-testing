@@ -62,8 +62,48 @@ test(10, 20, true, []);
 
 ### Method invocation
 
-When a function is stored as a property of an object, it is called method
-- *this* points to the local object
+When a function is stored as a property of an object, it is called *method*.
+- In this scenario, *this* points to the local object
+
+```JavaScript
+const obj = {
+  val: 0,
+  text: 'test',
+  increment: function (inc) {
+    this.val += (typeof inc === 'number') ? inc : 1;
+    return this.val;
+  },
+  // note that we cannot access 'this' with an arrow function 
+  getText: () => {
+    // will return undefined
+    return this.text;
+  }
+};
+
+const incr = obj.increment(2);
+const txt = obj.getText();
+console.log( incr ); // 2
+console.log( txt ); // undefined
+
+```
+
+### Function invocation pattern
+
+When a function is not a property of an object, it is invoked as a function:
+- In this scenario, *this* points to the global object
+- This was a mistake in the design of the language
+
+```JavaScript
+function add(a,b){
+    console.log(this); // global object
+    return a+b;
+}
+
+const sum = add(3,4);
+console.log(sum)
+```
+
+As a consequence, an inner function inside a method has an unexpected output regarding the keyword *this*:
 
 ```JavaScript
 const obj = {
@@ -71,12 +111,24 @@ const obj = {
   increment: function (inc) {
     this.val += (typeof inc === 'number') ? inc : 1;
     return this.val;
+  },
+  decrement: function() {
+    let that = this;
+    // here 'this' and 'that' are the same {val: 2, increment: fn, decrement: fn}
+      const helper = function () {
+        // here, 'this' points to the global object
+        // we can use 'that' to access the local 'this'
+        console.log( that ); // {val: 2, increment: fn, decrement: fn}
+      }
+    helper()
   }
 };
 
-const incr = obj.increment(2);
-console.log( incr ); // 2
+// note that the decrement method could have been defined even as follows, with the same results
+obj.decrement = function() {
+    ...
+}
 
+obj.decrement()
 ```
 
- 
