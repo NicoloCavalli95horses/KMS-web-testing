@@ -212,3 +212,35 @@ add('four', 'two'); // { name: 'TypeError', message: 'add needs numbers' }
 ```
 
 The exception object will be delivered to the catch clause of a try statement
+
+```JavaScript
+try {
+  add('four', 'two');
+} catch (e) {
+  console.log(e); // { name: 'TypeError', message: 'add needs numbers' }
+}
+```
+
+Note that a *catch* statement will catch all exceptions - if you have more than one error, inspect the name or the id of the exception object.
+
+# Augmenting types
+
+We can make a method available to all functions by augmenting the Function.prototype. This practice may have limited advantages in few scenarios but it is typically discouraged
+
+This example create a new method called 'method', that allow to recall the prototype object without typing .prototype:
+
+```JavaScript
+// The method 'method' is now globally available
+Function.prototype.method = function (name, func) {
+  this.prototype[name] = func;
+  return this;
+}
+```
+
+Adding global methods directly on the prototype is generally discouraged because of:
+- polluting of the global scope
+- possibility of names collision, especially while using libraries or plugins
+- negative impact on performance (with lots of global methods available everywhere)
+- less predictability and maintainability of the code
+- compatibility problems with different version of JavaScript
+
