@@ -73,18 +73,17 @@ const obj = {
     this.val += (typeof inc === 'number') ? inc : 1;
     return this.val;
   },
-  // note that we cannot access 'this' with an arrow function 
+  // (!) note that we cannot access the local object in an arrow function 
   getText: () => {
-    // will return undefined
     return this.text;
   }
 };
 
 const incr = obj.increment(2);
 const txt = obj.getText();
+
 console.log( incr ); // 2
 console.log( txt ); // undefined
-
 ```
 
 ### Function invocation pattern
@@ -100,7 +99,6 @@ function add(a,b){
 }
 
 const sum = add(3,4);
-console.log(sum)
 ```
 
 As a consequence, an inner function inside a method has an unexpected output regarding the keyword *this*:
@@ -113,6 +111,7 @@ const obj = {
     return this.val;
   },
   decrement: function() {
+    // the variable name 'that' is a common convention
     let that = this;
     // here 'this' and 'that' are the same {val: 2, increment: fn, decrement: fn}
       const helper = function () {
@@ -124,11 +123,33 @@ const obj = {
   }
 };
 
-// note that the decrement method could have been defined even as follows, with the same results
 obj.decrement = function() {
-    ...
+// the decrement method could have been defined even as follows, with the same results
 }
 
+obj.decrement = () => {
+// with an arrow function, the value of 'this' is an empty object at the first level and a global object inside the inner function
+}
+	
 obj.decrement()
 ```
 
+### Construct invocation pattern
+
+If a function is invoked with the *new* prefix, a new object will be created with a hidden link to the function's prototype
+- In this scenario, *this* points to the function's prototype object
+- This i
+
+```JavaScript
+// functions to be called with the 'new' prefix have a capitalized name by convention
+const Quo = function (str) {
+  this.state = str;
+}
+
+Quo.prototype.get_status = function () {
+  return this.state;
+}
+
+const qui = new Quo('confused');
+console.log( qui.get_status() ); // confused
+```
