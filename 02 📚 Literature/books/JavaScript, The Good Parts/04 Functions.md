@@ -277,5 +277,20 @@ The scope controls the visibility and lifetimes of variables and parameters. It 
 
 # Closure
 
+A closure is created ==when a nested (inner) function "remembers" the scope in which it was defined, even after the outer scope has finished executing==. In other words, a closure is a function that has access to the variables of its external lexical scope even after the external scope has ended.
 
+```JavaScript
+function incr() {
+  let tot = 0;
+  return function() {
+    tot +=1;
+    return tot;
+  }
+}
 
+const counter = incr(); // a function is assigned to counter
+console.log( counter() ); // 1
+console.log( counter() ); // 2 the previous tot value is saved
+console.log( counter() ); // 3 the previous tot value is saved
+
+```
