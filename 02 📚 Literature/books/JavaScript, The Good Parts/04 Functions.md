@@ -244,3 +244,7 @@ Adding global methods directly on the prototype is generally discouraged because
 - less predictability and maintainability of the code
 - compatibility problems with different version of JavaScript
 
+A better solution simply relies on importing and exporting utilities functions
+
+# Recursion
+
