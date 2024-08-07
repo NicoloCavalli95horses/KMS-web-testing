@@ -138,7 +138,7 @@ obj.decrement()
 
 If a function is invoked with the *new* prefix, a new object will be created with a hidden link to the function's prototype
 - In this scenario, *this* points to the function's prototype object
-- This i
+- This pattern is not recommended
 
 ```JavaScript
 // functions to be called with the 'new' prefix have a capitalized name by convention
@@ -153,3 +153,5 @@ Quo.prototype.get_status = function () {
 const qui = new Quo('confused');
 console.log( qui.get_status() ); // confused
 ```
+
+### Apply invocation pattern
