@@ -248,3 +248,23 @@ A better solution simply relies on importing and exporting utilities functions
 
 # Recursion
 
+```JavaScript
+function factorial(n, incr = 1) {
+  return n < 2 ? incr : factorial(n - 1, incr*n );
+}
+
+const out = factorial(5);
+console.log( out ); // 120
+
+/* 
+factorial(5, undefined) {
+  return factorial(4, 5);
+    return factorial(3, 5*4)
+	  return factorial(2, 20*3);
+        return factorial(1, 60*2);
+	      return 120;
+}
+*/
+
+
+```
