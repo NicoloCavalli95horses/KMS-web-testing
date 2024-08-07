@@ -258,13 +258,24 @@ console.log( out ); // 120
 
 /* 
 factorial(5, undefined) {
-  return factorial(4, 5);
-    return factorial(3, 5*4)
-	  return factorial(2, 20*3);
-        return factorial(1, 60*2);
-	      return 120;
+  ⏎ factorial(4, 5);
+    ⏎ factorial(3, 5*4)
+	  ⏎ factorial(2, 20*3);
+        ⏎ factorial(1, 60*2);
+	      ⏎ 120;
 }
 */
 
 
 ```
+
+JavaScript does not have native tail recursion optimization. If a function returns the result of invoking itself recursively, the invocation is not replaced with a loop. ==Valid functions that recurse very deeply may fail by exhausting the return stack==
+
+# Scope
+
+The scope controls the visibility and lifetimes of variables and parameters. It is best to declare all of the variables used in a function, at the top of the function body.
+
+# Closure
+
+
+
