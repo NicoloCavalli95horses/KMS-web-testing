@@ -32,6 +32,8 @@ So what is the difference between an object and a function?
 *Arguments* is a silent keyword that we can use to get an array of all the parameters, without specifying their name. This give us some flexibility but it is not very used
 
 ```JavaScript
+
+// Example 1: predefined number of arguments
 function func1(a, b, c) {
   console.log(arguments[0]); // 1
   console.log(arguments[1]); // 2
@@ -39,6 +41,18 @@ function func1(a, b, c) {
 }
 
 func1(1, 2, 3);
+
+// Example 2: undefined number of arguments
+function sum() {
+  let out = 0;
+  for (let i=0; i<arguments.length; i++) {
+    out += arguments[i];
+  }
+  return out;
+}
+
+const ret = sum(1, 2, 3);
+console.log( ret ); // 6
 ```
 
 The rest operator '...' has a similar function, but it allows us to freeze some parameters while simultaneously allowing an indefinite number of parameters.
@@ -155,3 +169,46 @@ console.log( qui.get_status() ); // confused
 ```
 
 ### Apply invocation pattern
+
+The *apply()* method lets us to:
+- choose the object to which *this* points (first parameter)
+- construct an array of arguments to use to invoke the function (second parameter)
+
+```JavaScript
+function sum(a,b,c) {
+  console.log(this); // {test: true}
+  return a + b + c;
+}
+
+const arr = [1, 2, 3];
+const out = sum.apply({test: true}, arr);
+console.log(out); // 6
+
+```
+
+# Return
+
+A function always return a value.
+- If the return value is not specified, then undefined is returned
+- If the function is invoked with the *new* prefix, and the return value is not an object, then the new object (local *this*) is returned
+
+# Exceptions 
+
+Exceptions are used to prevent error and to define custom responses in error scenarios. With the *throw* statement the function is interrupted. 
+- the keys name and message are not mandatory but conventional
+
+```JavaScript
+function add(a, b) {
+  if (typeof a !== 'number' || typeof b !== 'number') {
+    throw {
+      name: 'TypeError',
+      message: 'add needs numbers'
+    }
+  }
+  return a + b;
+}
+
+add('four', 'two'); // { name: 'TypeError', message: 'add needs numbers' }
+```
+
+The exception object will be delivered to the catch clause of a try statement
