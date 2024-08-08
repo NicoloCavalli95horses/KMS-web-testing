@@ -381,3 +381,6 @@ const double = multiply(2);
 console.log( double(5) );   // 10
 
 ```
+
+# Memoization
+
