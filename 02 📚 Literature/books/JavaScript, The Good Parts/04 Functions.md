@@ -294,3 +294,45 @@ console.log( counter() ); // 2 the previous tot value is saved
 console.log( counter() ); // 3 the previous tot value is saved
 
 ```
+
+# Callbacks
+
+JavaScript is single threaded but support asynchronous programming and [[web workers]], that allow it to perform parallel computations.
+
+# Module
+
+The module pattern refers to the possibility of creating an independent piece of code that exposes public variables and methods, maintaining its private variables for itself
+- This pattern exploit the *closure* principle to create a private space that is not accessible unless it is explicitly exposed
+
+The following example makes use of an [[IIFE (immediately invoked function expression)]]
+```JavaScript
+const myModule = (function () {
+  // private variables
+  const privateVariable = "I am private";
+    
+  function privateFunction() {
+    console.log(privateVariable);
+  }
+
+  // Public functions and variables (exposed)
+  return {
+    publicMethod: function () {
+      privateFunction();
+    }
+  };
+})();
+
+myModule.publicMethod();  // "I am private"
+console.log(myModule.privateVariable);  // undefined
+
+```
+
+Advantages:
+- *encapsulation*: implementation details and complexity is hidden
+- clear *differentiation* between private state and public state
+- *name space management*: an isolation of private variables and methods prevents name collisions reducing the global namespace pollution
+
+Disadvantages:
+- a private state is complex to debug and to test
+- difficult to integrate with other dependencies 
+- omplex debugging

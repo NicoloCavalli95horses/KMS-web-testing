@@ -11,14 +11,12 @@
             "id": "0472e6bcaada8972",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Untitled 1.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "02 📚 Literature/books/JavaScript, The Good Parts/04 Functions.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -51,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#math",
+                "query": "# module",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +66,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled 1.canvas",
+                "file": "02 📚 Literature/books/JavaScript, The Good Parts/04 Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled 1.canvas",
+                "file": "02 📚 Literature/books/JavaScript, The Good Parts/04 Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 1.canvas"
+                "file": "02 📚 Literature/books/JavaScript, The Good Parts/04 Functions.md"
               }
             }
           },
@@ -162,16 +161,20 @@
   },
   "active": "0472e6bcaada8972",
   "lastOpenFiles": [
+    "00 📩 Inbox/IIFE (immediately invoked function expression).md",
+    "01 🤔 Basics/co-evolving systems.md",
+    "01 🤔 Basics/canvas DOM element.md",
+    "00 📩 Inbox/tree difference algorithms.md",
+    "02 📚 Literature/books/JavaScript, The Good Parts/04 Functions.md",
+    "00 📩 Inbox/web workers.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "02 📚 Literature/books/JavaScript, The Good Parts/04 Functions.md",
     "PhD DiverSE Team.md",
     "02 📚 Literature/books/JavaScript, The Good Parts/03 Objects.md",
     "02 📚 Literature/books/JavaScript, The Good Parts/02 Grammar.md",
     "03 🏆 References/ref_javascript_the_good_parts.md",
     "02 📚 Literature/books/JavaScript, The Good Parts/JavaScript, The Good Parts.md",
     "00 📩 Inbox/AST (Abstract Syntax Tree).md",
-    "00 📩 Inbox/tree difference algorithms.md",
     "00 📩 Inbox/CRUD (Create, Read, Update, Delete) operations.md",
     "02 📚 Literature/papers/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
     "02 📚 Literature/papers/Automatically inferring user behavior models in large-scale web applications.md",
@@ -188,10 +191,7 @@
     "02 📚 Literature/books",
     "02 📚 Literature/papers",
     "01 🤔 Basics/AIF (Application Independent Functionalities).md",
-    "01 🤔 Basics/canvas DOM element.md",
-    "01 🤔 Basics/co-evolving systems.md",
     "01 🤔 Basics/CORS (Cross-Origin Resource Sharing).md",
-    "01 🤔 Basics/dynamic analysis.md",
     "97 🎨 Assets/sine_cosine.png",
     "97 🎨 Assets/circle_radians.gif",
     "Pasted image 20240731160838.png",
