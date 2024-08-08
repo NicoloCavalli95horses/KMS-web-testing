@@ -24,7 +24,7 @@ const progressBar = `${'🟩'.repeat(filledLength)}${'🟪'.repeat(emptyLength)}
 dv.span(progressBar);
 ```
 
-## Inbox
+## Inbox (to do)
 ```dataview
 LIST
 FROM "00 📩 Inbox"

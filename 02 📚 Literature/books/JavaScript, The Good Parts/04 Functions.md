@@ -334,5 +334,50 @@ Advantages:
 
 Disadvantages:
 - a private state is complex to debug and to test
-- difficult to integrate with other dependencies 
-- omplex debugging
+- difficult to integrate with other external dependencies or functions
+- ES6 offers a better solution with the import/export syntax, allowing a simpler management of isolated modules
+
+# Cascade (or method chaining)
+
+If a method of an object return *this*, we can enable cascades of functions. Cascades can produce interfaces that are very expressive.
+- this pattern can help control the tendency to make interfaces that try to do too much at once and promotes separation of concerns
+- it also makes extremely clear the order of execution
+
+```JavaScript
+const snake = {
+ moveHead: function () {
+    console.log('moving head');
+    return this;
+ },
+ moveBody: function() {
+     console.log('moving body');
+     return this;
+ },
+ moveTail: function() {
+     console.log('shaking the tail');
+     return this;
+ }
+}
+    
+snake
+  .moveHead()  // 'moving head'
+  .moveBody()  // 'moving body'
+  .moveTail(); // 'shaking the tail'
+```
+
+# Curry
+
+**Currying** is a functional programming technique that involves splitting a function that takes multiple arguments into a series of functions that take one argument each.
+- This allows you to apply arguments to a function incrementally, and can lead to more modular and reusable code.
+
+```JavaScript
+function multiply(a) {
+  return function(b) {
+    return a * b;
+  };
+}
+
+const double = multiply(2);
+console.log( double(5) );   // 10
+
+```

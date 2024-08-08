@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "# module",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -161,15 +160,15 @@
   },
   "active": "0472e6bcaada8972",
   "lastOpenFiles": [
-    "00 📩 Inbox/IIFE (immediately invoked function expression).md",
+    "PhD DiverSE Team.md",
+    "01 🤔 Basics/IIFE (immediately invoked function expression).md",
+    "02 📚 Literature/books/JavaScript, The Good Parts/04 Functions.md",
     "01 🤔 Basics/co-evolving systems.md",
     "01 🤔 Basics/canvas DOM element.md",
     "00 📩 Inbox/tree difference algorithms.md",
-    "02 📚 Literature/books/JavaScript, The Good Parts/04 Functions.md",
     "00 📩 Inbox/web workers.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "PhD DiverSE Team.md",
     "02 📚 Literature/books/JavaScript, The Good Parts/03 Objects.md",
     "02 📚 Literature/books/JavaScript, The Good Parts/02 Grammar.md",
     "03 🏆 References/ref_javascript_the_good_parts.md",
