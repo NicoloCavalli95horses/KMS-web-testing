@@ -384,3 +384,27 @@ console.log( double(5) );   // 10
 
 # Memoization
 
+Memoization is an optimization technique used to optimize the performance of a function that has to be called several time. It is basically a cache technique that exploits the *closure* principle.
+
+With memoization, results are cached and immediately returned, preventing unnecessary computations.
+
+An example without memoization
+
+```JavaScript
+function testPerformance( func, ...args ) {
+  const t0 = window.performance.now();
+  func( ...args );
+  const t1 = window.performance.now();
+  return t1 - t0;
+}
+
+function factorial(n) {
+  if (n == 0 || n == 1 ) return 1;
+  return n *factorial( n - 1 );
+}
+
+const t1 = testPerformance( factorial, 5);
+const t2 = testPerformance( factorial, 6);
+const t3 = testPerformance( factorial, 5);
+console.log( t3 < t1 ); // false
+```
