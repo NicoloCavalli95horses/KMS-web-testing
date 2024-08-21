@@ -388,23 +388,59 @@ Memoization is an optimization technique used to optimize the performance of a f
 
 With memoization, results are cached and immediately returned, preventing unnecessary computations.
 
-An example without memoization
+The memoized version is better even with a single call, because
 
 ```JavaScript
 function testPerformance( func, ...args ) {
-  const t0 = window.performance.now();
-  func( ...args );
-  const t1 = window.performance.now();
-  return t1 - t0;
+  const iterations = 5000;
+  let totalTime = 0;
+
+  for (let i = 0; i < iterations; i++) {
+    const t0 = performance.now();
+    func( ...args );
+    const t1 = performance.now();
+    totalTime += t1 - t0;
+  }
+
+  // return an average for more precision
+  return totalTime / iterations;
 }
+
 
 function factorial(n) {
   if (n == 0 || n == 1 ) return 1;
   return n *factorial( n - 1 );
 }
 
-const t1 = testPerformance( factorial, 5);
-const t2 = testPerformance( factorial, 6);
-const t3 = testPerformance( factorial, 5);
-console.log( t3 < t1 ); // false
+
+function memoizedFactorial() {
+  const cache = {}; // persistent cache
+  
+  return function _factorial(n) {
+    if (n in cache) {
+      return cache[n];
+    }        
+    if (n == 0 || n == 1 ) {
+      cache[n] = 1;
+      return 1;
+    }
+      
+    const res = n * _factorial(n - 1);
+    cache[n] = res;
+    return res;
+  };
+}
+
+const num = 2000;
+const t1 = testPerformance(factorial, num);
+const t2 = testPerformance(factorial, num);
+const t3 = testPerformance(factorial, num);
+const avg = (t1+t2+t3)/3
+console.log( 'avg time: ', avg );
+
+const t4 = testPerformance(memoizedFactorial, num);
+const t5 = testPerformance(memoizedFactorial, num);
+const t6 = testPerformance(memoizedFactorial, num);
+const avgMemo = (t4+t5+t6)/3;
+console.log( 'avg time memoization: ', avgMemo );
 ```

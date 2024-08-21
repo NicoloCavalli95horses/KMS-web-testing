@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 📚 Literature/books/JavaScript, The Good Parts/04 Functions.md",
+                "file": "PhD DiverSE Team.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02 📚 Literature/books/JavaScript, The Good Parts/04 Functions.md",
+                "file": "PhD DiverSE Team.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 📚 Literature/books/JavaScript, The Good Parts/04 Functions.md",
+                "file": "PhD DiverSE Team.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 📚 Literature/books/JavaScript, The Good Parts/04 Functions.md"
+                "file": "PhD DiverSE Team.md"
               }
             }
           },
@@ -160,10 +160,10 @@
   },
   "active": "4a7e28e5c1becc94",
   "lastOpenFiles": [
+    "02 📚 Literature/books/JavaScript, The Good Parts/04 Functions.md",
     "02 📚 Literature/books/JavaScript, The Good Parts/JavaScript, The Good Parts.md",
     "00 📩 Inbox/09 Style.md",
     "00 📩 Inbox/08 Methods.md",
-    "02 📚 Literature/books/JavaScript, The Good Parts/04 Functions.md",
     "00 📩 Inbox/07 Regular Expressions.md",
     "00 📩 Inbox/06 Arrays.md",
     "00 📩 Inbox/05 Inheritance.md",
