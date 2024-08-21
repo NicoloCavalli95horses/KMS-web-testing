@@ -24,12 +24,22 @@ const progressBar = `${'🟩'.repeat(filledLength)}${'🟪'.repeat(emptyLength)}
 dv.span(progressBar);
 ```
 
-## Missing references
 
+
+## Missing references
 ```dataviewjs
-let pages = dv.pages("#books and -#books/finished").where(b => b.rating >= 7);
-for (let group of pages.groupBy(b => b.genre)) {
-   dv.header(3, group.key);
-   dv.list(group.rows.file.name);
+function countNotes(folder) {
+    return dv.pages(`"${folder}"`).length;
+}
+
+const nBooks = dv.pages("#book").length;
+const nPapers = countNotes("02 Literature/papers");
+const nRef = countNotes("03 References");
+const tot = nBooks + nPapers - nRef;
+
+if (tot === 0) {
+dv.paragraph('<span style="color: #90EE90;">No missing references. Every paper and every book has a reference</span>');
+} else {
+dv.paragraph('<span style="color: #ff474c;">`Missing references: ${tot}`</span>');
 }
 ```
