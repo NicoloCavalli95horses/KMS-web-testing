@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "481faeb1c4243b7d",
+        "id": "bc0c3b7e37624fac",
         "type": "tabs",
         "children": [
           {
-            "id": "06935186b68c5d1a",
+            "id": "88015cdc87d6be6b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PhD DiverSE Team.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -81,29 +76,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fca157e0030e88db",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "PhD DiverSE Team.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "b050703746c373d8",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PhD DiverSE Team.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +102,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "PhD DiverSE Team.md"
-              }
+              "state": {}
             }
           },
           {
@@ -139,7 +114,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -158,36 +133,36 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "88015cdc87d6be6b",
   "lastOpenFiles": [
-    "02 Literature/books/test.md",
+    "01 Basics/dynamic analysis.md",
+    "98 Templates/Temp_Literature.md",
+    "98 Templates/Temp_Reference.md",
+    "98 Templates/Temp_Book.md",
+    "00 Antilibrary/Untitled.md",
+    "01 Basics/radians.md",
     "PhD DiverSE Team.md",
-    "02 Literature/books/JavaScript, The Good Parts/JavaScript, The Good Parts.md",
-    "02 Literature/books/JavaScript, The Good Parts/06 Arrays.md",
-    "02 Literature/books/JavaScript, The Good Parts/09 Style.md",
-    "00 Inbox/web workers.md",
-    "02 Literature/books/JavaScript, The Good Parts/04 Functions.md",
-    "00 📩 Inbox/08 Methods.md",
-    "00 📩 Inbox/07 Regular Expressions.md",
-    "00 📩 Inbox/05 Inheritance.md",
-    "00 Inbox/RegEx (Regular Expression).md",
-    "00 Inbox/tree difference algorithms.md",
-    "01 Basics/IIFE (immediately invoked function expression).md",
-    "01 Basics/co-evolving systems.md",
-    "01 Basics/canvas DOM element.md",
-    "Untitled 1.canvas",
-    "Untitled.canvas",
-    "02 Literature/books/JavaScript, The Good Parts/03 Objects.md",
-    "02 Literature/books/JavaScript, The Good Parts/02 Grammar.md",
+    "03 References/ref_untangling_spaghetti_of_evolutions.md",
+    "03 References/ref_taxonomy_of_testable_html5_canvas_issues.md",
     "03 References/ref_javascript_the_good_parts.md",
-    "00 Inbox/AST (Abstract Syntax Tree).md",
-    "00 Inbox/CRUD (Create, Read, Update, Delete) operations.md",
+    "03 References/ref_automatically_inferring_user_behavior.md",
+    "03 References/ref_automatic_program_repair.md",
+    "03 References/ref_augusto_exploiting_popular_functionalities_generation_semantic_gui_test.md",
+    "00 Antilibrary/ciao.md",
     "02 Literature/papers/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
     "02 Literature/papers/Automatically inferring user behavior models in large-scale web applications.md",
     "02 Literature/papers/Automatic program repair.md",
-    "02 Literature/papers/A taxonomy of testable HTML5 Canvas Issues.md",
     "02 Literature/papers/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
+    "02 Literature/papers/A taxonomy of testable HTML5 Canvas Issues.md",
     "01 Basics/sine and cosine.md",
+    "01 Basics/principle of least astonishment.md",
+    "01 Basics/Markov’s chain and clickstream analysis.md",
+    "01 Basics/IIFE (immediately invoked function expression).md",
+    "01 Basics/genetic algorithms.md",
+    "01 Basics/error.md",
+    "01 Basics/CORS (Cross-Origin Resource Sharing).md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
     "02 Literature/books/JavaScript, The Good Parts",
     "02 Literature/books",
     "02 Literature/papers",

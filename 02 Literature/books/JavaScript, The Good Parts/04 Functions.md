@@ -265,8 +265,6 @@ factorial(5, undefined) {
 	      ⏎ 120;
 }
 */
-
-
 ```
 
 JavaScript does not have native tail recursion optimization. If a function returns the result of invoking itself recursively, the invocation is not replaced with a loop. ==Valid functions that recurse very deeply may fail by exhausting the return stack==
