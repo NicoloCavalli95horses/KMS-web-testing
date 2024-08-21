@@ -24,9 +24,12 @@ const progressBar = `${'🟩'.repeat(filledLength)}${'🟪'.repeat(emptyLength)}
 dv.span(progressBar);
 ```
 
-## Inbox (to do)
-```dataview
-LIST
-FROM "00 📩 Inbox"
+## Missing references
 
+```dataviewjs
+let pages = dv.pages("#books and -#books/finished").where(b => b.rating >= 7);
+for (let group of pages.groupBy(b => b.genre)) {
+   dv.header(3, group.key);
+   dv.list(group.rows.file.name);
+}
 ```
