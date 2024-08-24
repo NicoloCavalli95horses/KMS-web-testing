@@ -11,8 +11,13 @@
             "id": "88015cdc87d6be6b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "00 Antilibrary/Docker.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.5
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -81,6 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "00 Antilibrary/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,7 +108,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "00 Antilibrary/Docker.md"
+              }
             }
           },
           {
@@ -126,7 +134,6 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
@@ -135,13 +142,14 @@
   },
   "active": "88015cdc87d6be6b",
   "lastOpenFiles": [
+    "00 Antilibrary/Untitled.md",
+    "00 Antilibrary/Docker.md",
+    "PhD DiverSE Team.md",
     "01 Basics/dynamic analysis.md",
     "98 Templates/Temp_Literature.md",
     "98 Templates/Temp_Reference.md",
     "98 Templates/Temp_Book.md",
-    "00 Antilibrary/Untitled.md",
     "01 Basics/radians.md",
-    "PhD DiverSE Team.md",
     "03 References/ref_untangling_spaghetti_of_evolutions.md",
     "03 References/ref_taxonomy_of_testable_html5_canvas_issues.md",
     "03 References/ref_javascript_the_good_parts.md",
@@ -160,7 +168,6 @@
     "01 Basics/IIFE (immediately invoked function expression).md",
     "01 Basics/genetic algorithms.md",
     "01 Basics/error.md",
-    "01 Basics/CORS (Cross-Origin Resource Sharing).md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "02 Literature/books/JavaScript, The Good Parts",
