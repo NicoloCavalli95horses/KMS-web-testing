@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bc0c3b7e37624fac",
+        "id": "a0168d24c2136bd4",
         "type": "tabs",
         "children": [
           {
-            "id": "88015cdc87d6be6b",
+            "id": "88e70e23012c2ea1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -140,10 +140,13 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "88015cdc87d6be6b",
+  "active": "88e70e23012c2ea1",
   "lastOpenFiles": [
-    "00 Antilibrary/Untitled.md",
+    "00 Antilibrary/WSL (Windows Subsystem for Linux).md",
     "00 Antilibrary/Docker.md",
+    "00 Antilibrary/port.md",
+    "00 Antilibrary/web workers.md",
+    "00 Antilibrary/Untitled.md",
     "PhD DiverSE Team.md",
     "01 Basics/dynamic analysis.md",
     "98 Templates/Temp_Literature.md",
@@ -165,9 +168,6 @@
     "01 Basics/sine and cosine.md",
     "01 Basics/principle of least astonishment.md",
     "01 Basics/Markov’s chain and clickstream analysis.md",
-    "01 Basics/IIFE (immediately invoked function expression).md",
-    "01 Basics/genetic algorithms.md",
-    "01 Basics/error.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "02 Literature/books/JavaScript, The Good Parts",
