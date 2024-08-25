@@ -16,7 +16,7 @@ The development environment includes a collection of procedures and tools requir
 
 ## A manual solution
 
-In order to solve the aforementioned problem, you could manually install the required software versions, download all the dependencies manually and install them, solve conflicts, clean caches. You can install a Virtual Machine in order to emulate a different Operating System in your machine. This will work. But, obviously, it is very time and resource consuming. That's why Docker was an immediate success.
+In order to solve the aforementioned problem, you could manually install the required software versions, download all the dependencies manually and install them, solve conflicts, clean caches. You can install a [[VM (virtual machine)]] in order to emulate a different Operating System in your machine. This will work. But, obviously, it is very time and resource consuming. That's why Docker was an immediate success.
 
 Problems related to VM installation:
 - a VM has its own full operating system with its own kernel, and is typically slower, because it has to run on top on your current OS
@@ -28,12 +28,12 @@ Docker was create to effortless replicate the development environment to ensure 
 ## Images and containers
 
 Docker is basically a tool to create and manage *containers* and *images*
-- an ==image== is a template for a container. It describes what a container should have in order to run smoothly
+- an [[image]] is a template for a container. It describes what a container should have in order to run smoothly
 - a ==container== is a running instance of an image: a lightweight, standalone, executable package of software that includes everything needed to run an application
 - containers can communicate to each other or to the machine, if they need to, by exposing a [[port]]
 
 This kind of isolation and standardization of the execution:
-- prevent a time consuming and error prone manual configuration
+- prevent a time consuming and [[error]] prone manual configuration
 - create a standard solution that is portable and replicable
 - is lightweight: containers share the machine's OS system kernel and do not require an OS per application, reducing allocation costs and improving efficiency
 - is secure, preventing unintentional or malicious communication between the container and its surroundings

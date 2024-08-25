@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a0168d24c2136bd4",
+        "id": "63aba2a8cd70c420",
         "type": "tabs",
         "children": [
           {
-            "id": "88e70e23012c2ea1",
+            "id": "efcd361fddb03056",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Antilibrary/Docker.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 Antilibrary/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,9 +102,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "00 Antilibrary/Docker.md"
-              }
+              "state": {}
             }
           },
           {
@@ -140,10 +132,16 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "88e70e23012c2ea1",
+  "active": "efcd361fddb03056",
   "lastOpenFiles": [
-    "00 Antilibrary/WSL (Windows Subsystem for Linux).md",
-    "00 Antilibrary/Docker.md",
+    "01 Basics/error.md",
+    "01 Basics/Docker.md",
+    "02 Literature/books/JavaScript, The Good Parts/JavaScript, The Good Parts.md",
+    "00 Antilibrary/image.md",
+    "01 Basics/dual boot.md",
+    "01 Basics/WSL (Windows Subsystem for Linux).md",
+    "00 Antilibrary/VM (virtual machine).md",
+    "01 Basics/AIF (Application Independent Functionalities).md",
     "00 Antilibrary/port.md",
     "00 Antilibrary/web workers.md",
     "00 Antilibrary/Untitled.md",
@@ -162,12 +160,6 @@
     "00 Antilibrary/ciao.md",
     "02 Literature/papers/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
     "02 Literature/papers/Automatically inferring user behavior models in large-scale web applications.md",
-    "02 Literature/papers/Automatic program repair.md",
-    "02 Literature/papers/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
-    "02 Literature/papers/A taxonomy of testable HTML5 Canvas Issues.md",
-    "01 Basics/sine and cosine.md",
-    "01 Basics/principle of least astonishment.md",
-    "01 Basics/Markov’s chain and clickstream analysis.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "02 Literature/books/JavaScript, The Good Parts",
