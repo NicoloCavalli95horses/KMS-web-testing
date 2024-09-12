@@ -44,7 +44,7 @@ While for both Linux and Mac the installation is quite straightforward, Windows 
 
 ## Create an image with a docker file
 
-A [[Docker File]] is a list of the different layers of an image (or instructions used to create that layer). With a Docker File, your application could be addressed as "*dockerized*"
+A [[Dockerfile]] is a list of the different layers of an image (or instructions used to create that layer). With a Docker File, your application could be addressed as "*dockerized*"
 
 ## References
 [Docker](https://www.docker.com/resources/what-container/)
