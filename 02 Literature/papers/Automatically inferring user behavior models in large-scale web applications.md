@@ -1,7 +1,7 @@
 
-| ID       | 2024-07-26-18:17 |
-| -------- | ---------------- |
-| **Tags** | #UX #userModels  |
+| ID       | 2024-07-26-18:17       |
+| -------- | ---------------------- |
+| **Tags** | #UX #userModels #paper |
 ## Main concepts
 
 - Dead-ends and navigational anomalies are frequent in large-scale web applications

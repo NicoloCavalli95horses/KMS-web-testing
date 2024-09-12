@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "63aba2a8cd70c420",
+        "id": "cf6dad998a40b1ae",
         "type": "tabs",
         "children": [
           {
-            "id": "efcd361fddb03056",
+            "id": "ca9825172b36c13a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Basics/Docker.md",
+                "file": "PhD DiverSE Team.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Basics/Docker.md",
+                "file": "PhD DiverSE Team.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Basics/Docker.md"
+                "file": "PhD DiverSE Team.md"
               }
             }
           },
@@ -140,8 +140,15 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "efcd361fddb03056",
+  "active": "ca9825172b36c13a",
   "lastOpenFiles": [
+    "02 Literature/books/JavaScript, The Good Parts/JavaScript, The Good Parts.md",
+    "02 Literature/papers/A taxonomy of testable HTML5 Canvas Issues.md",
+    "02 Literature/papers/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
+    "02 Literature/papers/Automatic program repair.md",
+    "02 Literature/papers/Automatically inferring user behavior models in large-scale web applications.md",
+    "02 Literature/papers/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
+    "PhD DiverSE Team.md",
     "01 Basics/Docker.md",
     "01 Basics/CORS (Cross-Origin Resource Sharing).md",
     "00 Antilibrary/proxy-server.md",
@@ -158,16 +165,9 @@
     "00 Antilibrary/recommendation engine.md",
     "00 Antilibrary/VM (virtual machine).md",
     "01 Basics/error.md",
-    "02 Literature/books/JavaScript, The Good Parts/JavaScript, The Good Parts.md",
     "01 Basics/dual boot.md",
     "01 Basics/WSL (Windows Subsystem for Linux).md",
     "00 Antilibrary/Untitled.md",
-    "PhD DiverSE Team.md",
-    "98 Templates/Temp_Literature.md",
-    "98 Templates/Temp_Reference.md",
-    "98 Templates/Temp_Book.md",
-    "01 Basics/radians.md",
-    "03 References/ref_untangling_spaghetti_of_evolutions.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "02 Literature/books/JavaScript, The Good Parts",

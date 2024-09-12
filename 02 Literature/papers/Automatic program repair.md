@@ -1,6 +1,6 @@
-| ID       | 2024-07-26-17:10 |
-| -------- | ---------------- |
-| **Tags** | #programRepair   |
+| ID       | 2024-07-26-17:10      |
+| -------- | --------------------- |
+| **Tags** | #programRepair #paper |
 ## Main concepts
 - emerging suite of technologies for automatically fixing [[error]] or vulnerabilities
 - software that produces source code-level patches for bug fixing without negatively influencing other correct functionalities

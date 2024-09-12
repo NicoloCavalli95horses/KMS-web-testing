@@ -1,6 +1,6 @@
-| ID       | 2024-07-26-17:18      |
-| -------- | --------------------- |
-| **Tags** | #issues #HTML #canvas |
+| ID       | 2024-07-26-17:18             |
+| -------- | ---------------------------- |
+| **Tags** | #issues #HTML #canvas #paper |
 ## Main concepts
 
 The [[canvas DOM element]] is widely used to develop web applications such as data visualizations, animations, and web games

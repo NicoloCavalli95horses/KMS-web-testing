@@ -11,9 +11,9 @@
 
 ```dataviewjs
 
-const startDate = new Date("2024-11-01");
-const endDate = new Date("2027-11-01");
-const today = new Date("2024-11-01"); // to edit on starting date
+const startDate = new Date("2024-12-01");
+const endDate = new Date("2027-12-01");
+const today = new Date("2025-11-01"); // to empty on starting date
 const total = (endDate - startDate) / (1000 * 60 * 60 * 24);
 const elapsed = (today - startDate) / (1000 * 60 * 60 * 24);
 const progressPerc = Math.min(100, (elapsed / total) * 100).toFixed(2);
@@ -35,7 +35,9 @@ const nBooks = dv.pages("#book").length;
 const nPapers = countNotes("02 Literature/papers");
 const nRef = countNotes("03 References");
 const tot = nBooks + nPapers - nRef;
-
+dv.header(2, 'Read count');
+dv.el('li', `Papers: ${nPapers}`);
+dv.el('li', `Papers: ${nPapers}`);
 dv.header(2, 'Missing references');
 
 if (tot === 0) {
