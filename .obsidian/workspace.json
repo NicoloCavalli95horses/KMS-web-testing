@@ -11,11 +11,30 @@
             "id": "efcd361fddb03056",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "01 Basics/Docker.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47a5e7f8e00b4eaf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Antilibrary/Docker File.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "00 Antilibrary/Docker File.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -102,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "00 Antilibrary/Docker File.md"
+              }
             }
           },
           {
@@ -132,21 +154,26 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "efcd361fddb03056",
+  "active": "47a5e7f8e00b4eaf",
   "lastOpenFiles": [
-    "01 Basics/error.md",
     "01 Basics/Docker.md",
+    "00 Antilibrary/Docker File.md",
+    "00 Antilibrary/proxy-server.md",
+    "00 Antilibrary/web workers.md",
+    "01 Basics/Docker Hub.md",
+    "01 Basics/Docker Image.md",
+    "00 Antilibrary/env variables.md",
+    "01 Basics/dynamic analysis.md",
+    "00 Antilibrary/recommendation engine.md",
+    "00 Antilibrary/VM (virtual machine).md",
+    "01 Basics/error.md",
     "02 Literature/books/JavaScript, The Good Parts/JavaScript, The Good Parts.md",
-    "00 Antilibrary/image.md",
     "01 Basics/dual boot.md",
     "01 Basics/WSL (Windows Subsystem for Linux).md",
-    "00 Antilibrary/VM (virtual machine).md",
     "01 Basics/AIF (Application Independent Functionalities).md",
     "00 Antilibrary/port.md",
-    "00 Antilibrary/web workers.md",
     "00 Antilibrary/Untitled.md",
     "PhD DiverSE Team.md",
-    "01 Basics/dynamic analysis.md",
     "98 Templates/Temp_Literature.md",
     "98 Templates/Temp_Reference.md",
     "98 Templates/Temp_Book.md",
@@ -155,11 +182,6 @@
     "03 References/ref_taxonomy_of_testable_html5_canvas_issues.md",
     "03 References/ref_javascript_the_good_parts.md",
     "03 References/ref_automatically_inferring_user_behavior.md",
-    "03 References/ref_automatic_program_repair.md",
-    "03 References/ref_augusto_exploiting_popular_functionalities_generation_semantic_gui_test.md",
-    "00 Antilibrary/ciao.md",
-    "02 Literature/papers/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
-    "02 Literature/papers/Automatically inferring user behavior models in large-scale web applications.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
     "02 Literature/books/JavaScript, The Good Parts",

@@ -28,7 +28,7 @@ Docker was create to effortless replicate the development environment to ensure 
 ## Images and containers
 
 Docker is basically a tool to create and manage *containers* and *images*
-- an [[image]] is a template for a container. It describes what a container should have in order to run smoothly
+- a [[Docker Image]] is a template for a container. It describes what a container should have in order to run smoothly
 - a ==container== is a running instance of an image: a lightweight, standalone, executable package of software that includes everything needed to run an application
 - containers can communicate to each other or to the machine, if they need to, by exposing a [[port]]
 
@@ -41,6 +41,10 @@ This kind of isolation and standardization of the execution:
 ## Installation notes
 
 While for both Linux and Mac the installation is quite straightforward, Windows require a prior installation of a [[WSL (Windows Subsystem for Linux)]]. This because we need a Linux environment to run Docker and a WSL allows us to avoid the installation of a whole OS.
+
+## Create an image with a docker file
+
+A [[Docker File]] is a list of the different layers of an image (or instructions used to create that layer). With a Docker File, your application could be addressed as "*dockerized*"
 
 ## References
 [Docker](https://www.docker.com/resources/what-container/)
