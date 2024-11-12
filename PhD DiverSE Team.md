@@ -27,23 +27,17 @@ dv.span(progressBar);
 
 ```dataviewjs
 
-function countNotes(folder) {
-    return dv.pages(`"${folder}"`).length;
-}
-
+const countNotes = (folder) => dv.pages(`"${folder}"`).length;
 const nBooks = dv.pages("#book").length;
 const nPapers = countNotes("02 Literature/papers");
 const nRef = countNotes("03 References");
 const tot = nBooks + nPapers - nRef;
-dv.header(2, 'Read count');
-dv.el('li', `Papers: ${nPapers}`);
-dv.el('li', `Papers: ${nPapers}`);
-dv.header(2, 'Missing references');
 
-if (tot === 0) {
-dv.paragraph('<span style="color: #90EE90;">No missing references. Every paper and every book has a reference</span>');
-} else {
-dv.paragraph(`<span style="color: #ff474c;">Missing references: ${tot}</span>`);
-}
+dv.table(["Category", "Count"], [
+  ["Papers read", nPapers],
+  ["Books read", nBooks],
+  ["Missing references", tot]
+]);
+
 
 ```

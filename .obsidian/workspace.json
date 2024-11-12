@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "PhD DiverSE Team.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -135,9 +135,7 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false,
-      "tags-overview:Tags overview": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "ca9825172b36c13a",
