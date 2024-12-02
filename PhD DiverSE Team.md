@@ -13,7 +13,7 @@
 
 const startDate = new Date("2024-12-01");
 const endDate = new Date("2027-12-01");
-const today = new Date("2025-11-01"); // to empty on starting date
+const today = new Date(); // to empty on starting date
 const total = (endDate - startDate) / (1000 * 60 * 60 * 24);
 const elapsed = (today - startDate) / (1000 * 60 * 60 * 24);
 const progressPerc = Math.min(100, (elapsed / total) * 100).toFixed(2);
