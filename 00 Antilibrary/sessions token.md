@@ -6,7 +6,6 @@
 
 Session tokens are essential components of session management in web application
 
-
 ### Life cycle of a session token
 
 **Token generation**
@@ -18,39 +17,25 @@ Session tokens are essential components of session management in web application
 - the client stores the token, generally in a [[cookie]] or in [[LocalStorage]] or [[SessionStorage]] (not recommended because of exposure to [[XSS (cross site scripting) attacks]]). This allows the user to avoid a manual login each time
 
 **Subsequent requests**
-- the client sends the token at each new HTTP requests (e.g., to access a particular section of the application or to get resources), usually in the header (as bearer token), or as cookie (cookies are automatically sent by the browser, no manual operation is needed)
+- the client sends the token at each new HTTP requests (e.g., to access a particular section of the application or to get resources), usually in the header (as bearer token), or as cookie (cookies are automatically sent by the browser (no manual operation is needed)
+- the server validate the token, analyzing the token integrity (the token should be signed) and the expiration time
+- if the token is valid, the server uses the information embedded in the token itself (JWT case), or a reference table, to get user permissions and roles
+- with the user permissions and the user roles, the server can answer the client request properly
 
+**Token transmission**
+- sessions token are transmitted on HTTPS requests to prevent [[man-in-the-middle attacks]]
+- the options "secure" and "HttpOnly" prevent the client to access the cookie content with JavaScript
 
-Il client invia il token con ogni richiesta al server, di solito nell’header HTTP Authorization (es. Bearer token), oppure come cookie.
-Il server verifica la validità del token, analizzando:
-L'integrità del token (firma valida, nessuna modifica).
-La scadenza (exp) per assicurarsi che il token non sia troppo vecchio.
-Se il token è valido, il server utilizza i dati inclusi nel token (es. role) o i dati referenziati per determinare i permessi dell'utente.
-Autorizzazione:
+```
+Set-Cookie: id=a3fWa; Expires=Thu, 21 Oct 2021 07:28:00 GMT; Secure; HttpOnly
+```
 
-Una volta autenticato il token, il server confronta il ruolo e i permessi con le regole RBAC definite per la risorsa richiesta.
-Questo può comportare controlli come:
-L’utente ha il ruolo corretto per accedere a questa risorsa?
-La richiesta rientra nei limiti della sessione?
-Non è solo un matching di stringhe:
-Anche se il token è rappresentato da una stringa, il sistema di gestione dei token coinvolge diversi aspetti di sicurezza:
+A cookie with the **Secure** attribute is only sent to the server with an encrypted request over the HTTPS protocol. It's never sent with unsecured HTTP, so insecure sites (with http: in the URL) can't set cookies with the Secure attribute. However, don't assume that "Secure" prevents all access to sensitive information in cookies.
+- For example, someone with access to the client's hard disk (or JavaScript if the HttpOnly attribute isn't set) can read and modify the information.
 
-Firmare e verificare il token:
-
-I token JWT, ad esempio, sono firmati con un algoritmo crittografico (es. HMAC o RSA). La firma garantisce che i dati nel token non siano stati manomessi.
-Il server utilizza la chiave segreta (o pubblica, in caso di RSA) per verificare che il token sia autentico.
-Scadenza e revoca:
-
-I token possono includere un timestamp di scadenza (exp). Questo impedisce che un token vecchio possa essere riutilizzato.
-Per revocare un token prima della scadenza, si può mantenere una blacklist lato server o rigenerare i token per invalidare quelli esistenti.
-Sicurezza del trasporto:
-
-I token sono trasmessi su connessioni HTTPS, per proteggerli da intercettazioni (es. attacchi man-in-the-middle).
-Nei cookie, le opzioni Secure e HttpOnly impediscono l'accesso tramite script lato client.
-Difesa contro attacchi:
-
-XSS: I cookie HttpOnly prevengono l'accesso tramite JavaScript.
-CSRF: Si utilizzano token anti-CSRF abbinati ai session token.
-Session fixation: I token sono rigenerati dopo eventi critici, come il login.
+A cookie with the "HttpOnly" attribute can't be accessed by JavaScript, for example using Document.cookie; it can only be accessed when it reaches the server. Cookies that persist user sessions for example should have the HttpOnly attribute set) it would be really insecure to make them available to JavaScript). This precaution helps mitigate [[XSS (cross site scripting) attacks]].
 
 ## References
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
+https://sencode.co.uk/glossary/session-token/
