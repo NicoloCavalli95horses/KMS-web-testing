@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/RBAC (role-based access control).md",
+                "file": "00 Antilibrary/sessions token.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RBAC (role-based access control)"
+              "title": "sessions token"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 267.5
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -158,6 +158,8 @@
   },
   "active": "20c94b5ef1a9c689",
   "lastOpenFiles": [
+    "01 Notes/RBAC (role-based access control).md",
+    "00 Antilibrary/sessions token.md",
     "00 Antilibrary/web workers.md",
     "00 Antilibrary/AST (Abstract Syntax Tree).md",
     "00 Antilibrary/CRUD (Create, Read, Update, Delete) operations.md",
@@ -169,7 +171,6 @@
     "00 Antilibrary/RegEx (Regular Expression).md",
     "00 Antilibrary/tree difference algorithms.md",
     "00 Antilibrary/VM (virtual machine).md",
-    "01 Notes/RBAC (role-based access control).md",
     "01 Notes/Cisco RBAC CVE.md",
     "01 Notes/CVE (common vulnerabilities and exposures).md",
     "00 Antilibrary/RBAC.md",
@@ -184,7 +185,6 @@
     "01 Notes/genetic algorithms.md",
     "01 Notes/Dockerfile.md",
     "01 Notes/Docker Image.md",
-    "01 Notes/co-evolving systems.md",
     "Untitled 1.canvas",
     "02 Literature/books/JavaScript, The Good Parts",
     "02 Literature/books",
