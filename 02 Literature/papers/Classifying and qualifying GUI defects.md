@@ -4,7 +4,7 @@
 | **Tags** | #paper #gui      |
 ## Main concepts
 
-
+![[user_interface_faults.png]]
 
 ## References
 [[ref_classifying_and_qualifying_gui_defects]]
