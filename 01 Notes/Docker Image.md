@@ -8,7 +8,7 @@ Images are ==blueprint== for containers and are ==read only==. An image include:
 - a runtime environment (e.g., Node, the runtime environment for JavaScript)
 - the whole application code
 - any dependencies
-- extra configuration (e.g., [[env variables]])
+- extra configuration (e.g., [[ENV (environment variables)]])
 - commands (e.g., `npm install`)
 
 Containers are ==running instance of an image==:  a container runs our application
