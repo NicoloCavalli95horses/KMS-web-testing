@@ -56,9 +56,11 @@ In an effort to enforce strict access controls, RBAC systems may inadvertently o
 
 ## Example of a vulnerability
 
-In a web application implementing RBAC principles, URLs would be associated to specific permissions, that determine what resources can be accessed. 
+In a web application implementing RBAC principles, URLs would be associated to specific permissions, that determine what resources can be accessed:
 - https://app.com/admin/dashboard 
 - https://app.com/user-name/profile
+
+URLs should be protected by[[ sessions token]] or by other controls executed by the server.
 ## References
 
 https://www.neumetric.com/role-based-access-control-rbac-for-cybersecurity/
