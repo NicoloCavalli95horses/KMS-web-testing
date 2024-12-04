@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9ab71b3364a864e8",
+        "id": "6e4288022c1f8d49",
         "type": "tabs",
         "children": [
           {
-            "id": "8eec50220e45c149",
+            "id": "d0227676a69db490",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PhD DiverSE Team.md",
-                "mode": "preview",
+                "file": "00 Antilibrary/fuzzling.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PhD DiverSE Team"
+              "title": "fuzzling"
             }
           }
         ]
@@ -156,8 +156,13 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "8eec50220e45c149",
+  "active": "d0227676a69db490",
   "lastOpenFiles": [
+    "02 Literature/papers/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md",
+    "00 Antilibrary/fuzzling.md",
+    "01 Notes/test oracle.md",
+    "00 Antilibrary/ref_janus_detecting_rendering_bugs_web_browsers.md",
+    "98 Templates/Temp_Literature.md",
     "02 Literature/papers/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
     "02 Literature/papers/On model-based testing advanced GUIs.md",
     "02 Literature/papers/Classifying and qualifying GUI defects.md",
@@ -165,6 +170,8 @@
     "02 Literature/papers/Automatic program repair.md",
     "02 Literature/papers/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
     "02 Literature/papers/A taxonomy of testable HTML5 Canvas Issues.md",
+    "01 Notes/Docker.md",
+    "01 Notes/multi-modal interactions.md",
     "PhD DiverSE Team.md",
     "00 Antilibrary/machine learning.md",
     "01 Notes/fault model.md",
@@ -172,18 +179,11 @@
     "01 Notes/WSL (Windows Subsystem for Linux).md",
     "01 Notes/WIMP (windows, icon, menu, pointers).md",
     "01 Notes/UIDL (User Interface Description Language).md",
-    "01 Notes/test oracle.md",
     "01 Notes/SUT (system under test).md",
     "01 Notes/static analysis.md",
     "01 Notes/standard widgets.md",
     "01 Notes/sine and cosine.md",
     "01 Notes/sessions token.md",
-    "01 Notes/RBAC (role-based access control).md",
-    "01 Notes/radians.md",
-    "01 Notes/principle of least astonishment.md",
-    "01 Notes/post-WIMP.md",
-    "01 Notes/multi-modal interactions.md",
-    "01 Notes/multi-modal fusion.md",
     "97 Assets/malai_design_pattern.png",
     "97 Assets/malai_model.png",
     "97 Assets/event_flow_graph.png",

@@ -1,7 +1,7 @@
 
 | ID       | {{date}}-{{time}} |
 | -------- | ----------------- |
-| **Tags** | #tag              |
+| **Tags** | #paper            |
 ## Abstract
 
 ## References
