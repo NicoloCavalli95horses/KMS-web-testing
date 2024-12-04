@@ -1,7 +1,6 @@
-
 | ID       | {{date}}-{{time}} |
 | -------- | ----------------- |
-| **Tags** | #tag              |
-## Abstract
+| **Tags** | #definition       |
+## Definition
 
 ## References

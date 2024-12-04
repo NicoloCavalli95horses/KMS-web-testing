@@ -1,7 +1,7 @@
 
-| ID       | 2024-12-03-15:18 |
-| -------- | ---------------- |
-| **Tags** | #gui             |
+| ID       | 2024-12-03-15:18  |
+| -------- | ----------------- |
+| **Tags** | #gui #definition  |
 ### What is WIMP?
 
 WIMP is a collection of a GUI elements/widgets, that is often cited in GUIs related issues or bugs.

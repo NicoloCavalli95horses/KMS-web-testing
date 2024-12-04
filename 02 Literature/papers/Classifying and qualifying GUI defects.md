@@ -2,30 +2,23 @@
 | ID       | 2024-12-03-15:07 |
 | -------- | ---------------- |
 | **Tags** | #paper #gui      |
-## Main concepts
+## Abstract
+GUIs are integral parts of software systems that require interactions from their users.
+Software testers have paid special attention to GUI testing in the last decade, and have devised techniques that are effective in finding several kinds of GUI errors. However, the introduction of
+new types of interactions in GUIs presents new kinds of errors that are not targeted by current testing techniques. We believe that to advance GUI testing, the community needs a comprehensive and high level GUI fault model, which incorporates all types of interactions.
 
-**Widget**: graphical object in a GUI (e.g., a button, or a dropdown)
+The work detailed in this paper establishes 4 contributions:
+1) A GUI [[fault model]] designed to identify and classify GUI faults.
+2) An empirical analysis for assessing the relevance of the proposed fault model against failures found in real GUIs
+3) An empirical assessment of two GUI testing tools (i.e. GUITAR and Jubula) against those failures
+4) GUI mutants we’ve developed according to our fault model. These mutants are freely available and can be reused by developers for benchmarking their GUI testing tools.
 
-**Mono-event interactions**: when a widget allows the user to performe a single action (e.g., clicking, or swiping)
-
-**Multi-event interactions**: when a widget allows the user to performe multiple actions/interactions (e.g., zooming or drawing on a canvas)
-
-**Standard widget**: predictable and mono-event widgets
-
-**WIMP**: GUI with simple widgets, such as windows, icons, menu and pointers
-
-**Post-WIMP**: GUI that includes multi-event interactions and non-standard widgets
-
-==The current trend in GUI design is the shift from designing standard widgets to designing *ad hoc* widgets that can handle multi-event interactions.==
+==The current trend in GUI design is the shift from designing standard widgets to designing [[ad hoc widgets]] that can handle [[multi-event interactions]] and [[multi-modal interactions]]==
 
 The GUI serves:
 - aesthetics purposes
 - presents data
 - allow the user to reach his goals by performing certain actions that modify the system state
-
-**Multi-modal interaction**: when inputs from different modalities are combined to perform an actions (e.g., moving the mouse and speaking). Such interactions can be modeled as finite-state machine
-
-**Multi-modal fusion**: it concerns the understanding of the synchronization between the different input devices in a multi-modal interaction context
 
 **Direct manipulation**: aims at minimizing the mental effort required to use systems (e.g., drawing application)
 
