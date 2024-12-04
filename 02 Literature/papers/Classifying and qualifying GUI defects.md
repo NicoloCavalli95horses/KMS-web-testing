@@ -23,17 +23,31 @@ The GUI serves:
 - presents data
 - allow the user to reach his goals by performing certain actions that modify the system state
 
-**Multi-modal interaction**: when inputs from different modalities are combined to perform an actions (e.g., moving the mouse and speaking)
+**Multi-modal interaction**: when inputs from different modalities are combined to perform an actions (e.g., moving the mouse and speaking). Such interactions can be modeled as finite-state machine
 
 **Multi-modal fusion**: it concerns the understanding of the synchronization between the different input devices in a multi-modal interaction context
+
+**Direct manipulation**: aims at minimizing the mental effort required to use systems (e.g., drawing application)
+
+**Feedback**: the response of the system after an user action
+
+**Reversible action**: it reduce user anxiety about making mistakes. It consists in the possibility to cancel an action in progress (e.g., ctrl + z)
+
+![[user_interaction_faults.png]]
 ## GUI fault model
 
-The paper proposes a GUI fault model to be used to *test GUI testers*. The model serves as a benchmark tool, to evaluate the ability of GUI testing tools to detect GUI failures. 
+A fault model describes a high level set of faults and issues that may concerns a system
+- faults are graphical or textual differences between an incorrect and a correct behavior
+
+==The paper proposes a GUI fault model to be used to *test GUI testers*.== 
+- The model serves as a benchmark tool, to evaluate the ability of GUI testing tools to detect GUI failures. 
+- Given this model is possible to build a set of benchmark mutations to evaluate the ability of GUI testing tools further
 
 ![[user_interface_faults.png]]
 
-This fault model has been empirically assessed by analyzing and classifying into it 279
-GUI bug reports of different open-source GUIs. 
+Q: Is usability a GUI fault? usability issues are related to a poor design but are not faults per se, considering a fault as a mismatch between the observed behavior and the expected one. This reasoning can be extended to other topics, such as performance or accessibility
+
+The proposed fault model has been empirically assessed by analyzing and classifying into it 279 GUI bug reports. of different open-source GUIs. 
 
 To demonstrate the benefits of the proposed fault model, mutants have then been developed from it on a Java open-source GUI. As an illustrative use case of these mutants, we executed two GUI testing tools on these mutants to evaluate their ability to detect them. This experiment shows that if current GUI testing tools have demonstrated their ability for finding several kinds of GUI errors, they also fail at detecting several GUI faults we identified. The underlying reasons are twofold.
 - First, GUI failures may be related to the graphical rendering of GUIs. Testing a GUI rendering is a complex task since current testing techniques mainly rely on code analysis that can hardly capture graphical properties.
