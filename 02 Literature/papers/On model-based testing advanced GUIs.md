@@ -17,6 +17,15 @@ As a consequence, the current GUI model-based testing approaches, which target e
 - an industrial project and an open-source application, where the proposed approach has been applied.
 
 **1. Limits of traditional testing frameworks**
+Traditional testing frameworks are based on [[UIDL (User Interface Description Language)]] that presents the following limits:
+- ==UIDL that are commonly used to build GUI models, describe the widget but not the interaction.== This is because current GUI testing framework are applied only to standard widget, which interaction is always the same.
+- UIDL ==do not support multi-event interactions==
+- UIDL ==do not (and cannot) describe the expected result== of the use of a widget in the SUT
+- UIDL ==do not show the dependencies between actions or interactions== (e.g. the "paste" function depends on the "copy" function)
+
+ [[EFG (event flow graph)]] have also a role in the developing of traditional testing frameworks. But EFG:
+ - mix both interaction, widget and action under the term event. This can lead to confusion in ad hoc widgets that support multi-event interactions
+ - 
 
 ### Main concepts
 
