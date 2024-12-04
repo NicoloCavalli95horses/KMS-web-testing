@@ -12,7 +12,7 @@ interactions).
 
 As a consequence, the current GUI model-based testing approaches, which target event-based systems, show their limits when applied to test such new advanced GUIs. The work introduced in this paper establishes the following contributions:
 - a precise analysis of these limits (1)
-- a proposition to tackle the identified limits by leveraging the Malai GUI specification language and by proposing the concept of interaction-action-flow graph
+- a proposition to tackle the identified limits by leveraging the [[Malai]] GUI specification language and by proposing the concept of interaction-action-flow graph
 - feedback from two use cases
 - an industrial project and an open-source application, where the proposed approach has been applied.
 
@@ -25,7 +25,8 @@ Traditional testing frameworks are based on [[UIDL (User Interface Description L
 
  [[EFG (event flow graph)]] have also a role in the developing of traditional testing frameworks. But EFG:
  - mix both interaction, widget and action under the term event. This can lead to confusion in ad hoc widgets that support multi-event interactions
- - 
+
+*There is a lack of proper abstractions to build test model for testing advanced GUIs*
 
 ### Main concepts
 
