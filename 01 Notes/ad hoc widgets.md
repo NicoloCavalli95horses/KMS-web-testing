@@ -9,3 +9,4 @@ A simple example of such widgets is the drawing area of graphical editors with w
 GUIs containing such widgets are called post-WIMP GUIs 
 ## References
 [[ref_classifying_and_qualifying_gui_defects]]
+[[ref_on_model_based_testing_advanced_guis]]
