@@ -1,6 +1,6 @@
 | ID       | 2024-12-04-11:10 |
-| -------- | ----------------- |
-| **Tags** | #definition       |
+| -------- | ---------------- |
+| **Tags** | #definition      |
 ## Definition
 SUT: system under test
 ## References
