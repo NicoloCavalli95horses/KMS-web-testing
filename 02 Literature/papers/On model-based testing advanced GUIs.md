@@ -12,7 +12,8 @@ interactions).
 
 As a consequence, the current GUI model-based testing approaches, which target event-based systems, show their limits when applied to test such new advanced GUIs. The work introduced in this paper establishes the following contributions:
 - a precise analysis of these limits (1)
-- a proposition to tackle the identified limits by leveraging the [[Malai]] GUI specification language and by proposing the concept of interaction-action-flow graph (2)
+- a proposition to tackle the identified limits by leveraging the [[Malai]] design pattern (2)
+- an introduction of the concept of interaction-action-flow graph (2)
 - feedback from two use cases
 - an industrial project and an open-source application, where the proposed approach has been applied.
 
@@ -34,8 +35,12 @@ Traditional testing frameworks are based on [[UIDL (User Interface Description L
 *There is a lack of proper abstractions to build test model for testing advanced GUIs*
 
 **2. A proposal to tackle these limits using Malai**
-Malai decomposes an interactive system as a set of presentations and instruments.
+[[Malai]] decomposes an interactive system as a set of presentations and instruments.
 An action of the user is represented by a [[FSM (finite-state machine)]] where each transition corresponds to an event.
+- Using FSMs permits the definition of structured multi-event interactions, such as drag and drop, multi-touch or multi-modal interactions 
 
+**3. Interaction-action flow graph**
+Interaction-action flow graph (IFG) follows the same idea than an EFG, by sequencing all the possible user interactions. The difference is that the concepts of interaction, action, and
+widget are clearly separated, and interactions and actions are included in IFGs. 
 ## References
 [[ref_on_model_based_testing_advanced_guis]]

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "77dcf75b14ffc387",
+        "id": "9ab71b3364a864e8",
         "type": "tabs",
         "children": [
           {
-            "id": "885c9b9cb996df52",
+            "id": "8eec50220e45c149",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -156,14 +156,15 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "885c9b9cb996df52",
+  "active": "8eec50220e45c149",
   "lastOpenFiles": [
+    "01 Notes/Malai.md",
+    "02 Literature/papers/On model-based testing advanced GUIs.md",
+    "97 Assets/malai_design_pattern.png",
+    "97 Assets/malai_model.png",
     "01 Notes/test oracle.md",
     "01 Notes/SUT (system under test).md",
-    "02 Literature/papers/On model-based testing advanced GUIs.md",
     "00 Antilibrary/FSM (finite-state machine).md",
-    "01 Notes/Malai.md",
-    "97 Assets/malai_design_pattern.png",
     "01 Notes/design pattern.md",
     "00 Antilibrary/MVW (model-view-controller).md",
     "01 Notes/Memento (design pattern).md",
@@ -185,7 +186,6 @@
     "03 References/ref_fault_models_in_testing.md",
     "01 Notes/WIMP (windows, icon, menu, pointers).md",
     "01 Notes/multi-modal fusion.md",
-    "01 Notes/mono-event interaction.md",
     "Untitled.canvas",
     "97 Assets/user_interaction_faults.png",
     "04 Research paths",
