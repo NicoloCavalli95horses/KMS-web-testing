@@ -1,6 +1,6 @@
 | ID       | 2024-12-04-13:56 |
-| -------- | ----------------- |
-| **Tags** | #definition       |
+| -------- | ---------------- |
+| **Tags** | #definition      |
 ## Definition
 
 The memento pattern is a [[design pattern]] that ==exposes the private internal state of an object for restoring or backup purposes==
