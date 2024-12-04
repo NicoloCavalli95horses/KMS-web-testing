@@ -11,9 +11,13 @@ Standard widgets (e.g. buttons) are more and more replaced by ad hoc ones (e.g. 
 interactions). 
 
 As a consequence, the current GUI model-based testing approaches, which target event-based systems, show their limits when applied to test such new advanced GUIs. The work introduced in this paper establishes the following contributions:
-- a precise analysis of the reasons of these current limits
+- a precise analysis of these limits
 - a proposition to tackle the identified limits by leveraging the Malai GUI specification language and by proposing the concept of interaction-action-flow graph
 - feedback from two use cases
 - an industrial project and an open-source application, where the proposed approach has been applied.
+
+### Main concepts
+
+
 ## References
 [[ref_on_model_based_testing_advanced_guis]]

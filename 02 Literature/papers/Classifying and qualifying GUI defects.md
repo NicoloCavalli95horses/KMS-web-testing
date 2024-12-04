@@ -16,9 +16,9 @@ The work detailed in this paper establishes 4 contributions:
 ==The current trend in GUI design is the shift from designing standard widgets to designing [[ad hoc widgets]] that can handle [[multi-event interactions]] and [[multi-modal interactions]]==
 
 The GUI serves:
+- allow the user to reach his goals by performing certain actions that modify the system state
 - aesthetics purposes
 - presents data
-- allow the user to reach his goals by performing certain actions that modify the system state
 
 **Direct manipulation**: aims at minimizing the mental effort required to use systems (e.g., drawing application)
 
