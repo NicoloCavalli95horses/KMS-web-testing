@@ -81,6 +81,7 @@ drawHistogram(ctx, values, labels);
 ==**Performance issues (5%)==:** issues related to inefficient memory usage (rendering too often, memory not emptied correctly)
 
 ## Notes
+
 - More of these issues could occur together
 - Testing has additional complexities that are not seen in desktop GUIs
 

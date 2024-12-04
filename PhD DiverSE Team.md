@@ -31,12 +31,10 @@ const countNotes = (folder) => dv.pages(`"${folder}"`).length;
 const nBooks = dv.pages("#book").length;
 const nPapers = countNotes("02 Literature/papers");
 const nRef = countNotes("03 References");
-const tot = nBooks + nPapers - nRef;
 
 dv.table(["Category", "Count"], [
   ["Papers read", nPapers],
   ["Books read", nBooks],
-  ["Missing references", tot]
 ]);
 
 

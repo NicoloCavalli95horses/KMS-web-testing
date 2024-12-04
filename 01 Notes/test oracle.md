@@ -1,6 +1,6 @@
 | ID       | 2024-12-04-14:52 |
-| -------- | ----------------- |
-| **Tags** | #definition       |
+| -------- | ---------------- |
+| **Tags** | #definition      |
 ## What is an oracle
 
 In software testing, a test oracle (or just oracle) is ==a provider of information that describes correct output based on the input of a test case.== Testing with an oracle involves comparing actual results of the [[SUT (system under test)]] with the expected results.

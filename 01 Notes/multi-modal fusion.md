@@ -1,6 +1,6 @@
 | ID       | 2024-12-04-10:02 |
-| -------- | ----------------- |
-| **Tags** | #definition       |
+| -------- | ---------------- |
+| **Tags** | #definition      |
 ## Definition
 Multimodal fusion refers to the process of combining information from multiple modalities in order to enhance the understanding or analysis of a certain phenomenon or problem. In essence, it involves integrating data from different sources, such as text, images, audio, video, and sensor readings to gain a more comprehensive and accurate representation of the underlying information.
 

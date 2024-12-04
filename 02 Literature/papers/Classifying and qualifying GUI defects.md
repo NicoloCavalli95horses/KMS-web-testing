@@ -3,9 +3,8 @@
 | -------- | ---------------- |
 | **Tags** | #paper #gui      |
 ## Abstract
-GUIs are integral parts of software systems that require interactions from their users.
-Software testers have paid special attention to GUI testing in the last decade, and have devised techniques that are effective in finding several kinds of GUI errors. However, the introduction of
-new types of interactions in GUIs presents new kinds of errors that are not targeted by current testing techniques. We believe that to advance GUI testing, the community needs a comprehensive and high level GUI fault model, which incorporates all types of interactions.
+
+The introduction of new types of interactions in GUIs presents new kinds of errors that are not targeted by current testing techniques. We believe that to advance GUI testing, the community needs a comprehensive and high level GUI fault model, which incorporates all types of interactions.
 
 The work detailed in this paper establishes 4 contributions:
 1) A GUI [[fault model]] designed to identify and classify GUI faults.
@@ -15,10 +14,10 @@ The work detailed in this paper establishes 4 contributions:
 
 ==The current trend in GUI design is the shift from designing standard widgets to designing [[ad hoc widgets]] that can handle [[multi-event interactions]] and [[multi-modal interactions]]==
 
-The GUI serves:
+The GUI goals are:
 - allow the user to reach his goals by performing certain actions that modify the system state
-- aesthetics purposes
 - presents data
+- aesthetics purposes
 
 **Direct manipulation**: aims at minimizing the mental effort required to use systems (e.g., drawing application)
 
@@ -30,7 +29,7 @@ The GUI serves:
 ## GUI fault model
 
 A fault model describes a high level set of faults and issues that may concerns a system
-- faults are graphical or textual differences between an incorrect and a correct behavior
+- ==faults are graphical or textual differences between an incorrect and a correct behavior==
 
 ==The paper proposes a GUI fault model to be used to *test GUI testers*.== 
 - The model serves as a benchmark tool, to evaluate the ability of GUI testing tools to detect GUI failures. 
@@ -38,7 +37,7 @@ A fault model describes a high level set of faults and issues that may concerns 
 
 ![[user_interface_faults.png]]
 
-Q: Is usability a GUI fault? usability issues are related to a poor design but are not faults per se, considering a fault as a mismatch between the observed behavior and the expected one. This reasoning can be extended to other topics, such as performance or accessibility
+**Q: Is usability a GUI fault?** usability issues are related to a poor design but are not faults per se, considering a fault as a mismatch between the observed behavior and the expected one. This reasoning can be extended to other topics, such as performance or accessibility
 
 The proposed fault model has been empirically assessed by analyzing and classifying into it 279 GUI bug reports. of different open-source GUIs. 
 

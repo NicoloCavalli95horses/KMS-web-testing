@@ -2,6 +2,7 @@
 | -------- | --------------------- |
 | **Tags** | #programRepair #paper |
 ## Main concepts
+
 - emerging suite of technologies for automatically fixing [[error]] or vulnerabilities
 - software that produces source code-level patches for bug fixing without negatively influencing other correct functionalities
 - bugs or errors are identified by failing tests or program crashes, then a patch changes the program correctly
@@ -19,7 +20,7 @@
 - **Code synthesis:** using semantic analysis to construct patches. The problem of bug repair is converted to constraint solving and program synthesis
 - **Machine learning techniques** that prioritize candidate patches
 
-> Regardless of how the patches are constructed all the techniques are subject to the [[overfitting]] problem patches could be able to address only the symptom represented by a failing test rather than the true underlying cause of the problem 
+> Regardless of how the patches are constructed all the techniques are subject to the [[overfitting]] problem. Patches could be able to address only the symptom represented by a failing test, rather than the true underlying cause of the problem 
 
 ### Limitations
 
