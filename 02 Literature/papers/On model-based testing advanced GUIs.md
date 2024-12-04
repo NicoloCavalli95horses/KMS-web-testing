@@ -2,7 +2,7 @@
 | ID       | 2024-12-04-09:40 |
 | -------- | ---------------- |
 | **Tags** | #paper #gui      |
-## Abstract
+## Main concepts
 
 GUI design is currently shifting from designing GUIs composed of [[standard widgets]] to designing GUIs relying on more natural interactions and [[ad hoc widgets]].  
 This shift is meant to support the advent of GUIs providing users with more adapted and natural interactions, and the support of new input devices such as multi-touch screens with [[multi-modal interactions]].
@@ -33,8 +33,9 @@ Traditional testing frameworks are based on [[UIDL (User Interface Description L
 
 *There is a lack of proper abstractions to build test model for testing advanced GUIs*
 
-**2. A proposal to tackle limits using Malai**
-
+**2. A proposal to tackle these limits using Malai**
+Malai decomposes an interactive system as a set of presentations and instruments.
+An action of the user is represented by a [[FSM (finite-state machine)]] where each transition corresponds to an event.
 
 ## References
 [[ref_on_model_based_testing_advanced_guis]]
