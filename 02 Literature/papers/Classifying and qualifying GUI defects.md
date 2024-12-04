@@ -4,7 +4,31 @@
 | **Tags** | #paper #gui      |
 ## Main concepts
 
-The paper proposes a GUI fault model for providing GUI testers with benchmark tools to evaluate the ability of GUI testing tools to detect GUI failures. 
+**Widget**: graphical object in a GUI (e.g., a button, or a dropdown)
+
+**Mono-event interactions**: when a widget allows the user to performe a single action (e.g., clicking, or swiping)
+
+**Multi-event interactions**: when a widget allows the user to performe multiple actions/interactions (e.g., zooming or drawing on a canvas)
+
+**Standard widget**: predictable and mono-event widgets
+
+**WIMP**: GUI with simple widgets, such as windows, icons, menu and pointers
+
+**Post-WIMP**: GUI that includes multi-event interactions and non-standard widgets
+
+==The current trend in GUI design is the shift from designing standard widgets to designing *ad hoc* widgets that can handle multi-event interactions.==
+
+The GUI serves:
+- aesthetics purposes
+- presents data
+- allow the user to reach his goals by performing certain actions that modify the system state
+
+**Multi-modal interaction**: when inputs from different modalities are combined to perform an actions (e.g., moving the mouse and speaking)
+
+**Multi-modal fusion**: it concerns the understanding of the synchronization between the different input devices in a multi-modal interaction context
+## GUI fault model
+
+The paper proposes a GUI fault model to be used to *test GUI testers*. The model serves as a benchmark tool, to evaluate the ability of GUI testing tools to detect GUI failures. 
 
 ![[user_interface_faults.png]]
 
