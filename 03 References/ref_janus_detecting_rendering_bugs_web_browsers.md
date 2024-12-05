@@ -1,6 +1,6 @@
 | ID       | 2024-12-04-17:13 |
-| -------- | ----------------- |
-| **Tags** | #ref              |
+| -------- | ---------------- |
+| **Tags** | #ref             |
 ## External Link
 
 http://www.wingtecher.com/themes/WingTecherResearch/assets/papers/paper_from_25/janus_icse25.pdf

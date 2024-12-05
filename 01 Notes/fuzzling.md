@@ -1,6 +1,6 @@
-| ID       | 2024-12-04-17:31 |
-| -------- | ----------------- |
-| **Tags** | #definition       |
+| ID       | 2024-12-04-17:31               |
+| -------- | ------------------------------ |
+| **Tags** | #definition #testingTechniques |
 ## Definition
 
 ==Fuzzing or fuzz testing is an automated software testing technique that involves providing **invalid**, **unexpected**, or **random** data as inputs to a computer program:==
