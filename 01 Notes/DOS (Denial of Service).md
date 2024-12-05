@@ -4,9 +4,9 @@
 ## Definition
 
 The **Denial of Service (DoS)** attack is focused on making a resource (site, application, server) unavailable for the purpose it was designed. There are many ways to make a service unavailable for legitimate users:
-- manipulating network packets,
-- programming,
-- logical,
+- manipulating network packets
+- programming
+- logical
 - resources handling vulnerabilities
 
 If a service receives a very large number of requests, it may cease to be available to legitimate users. In the same way, a service may stop if a programming vulnerability is exploited, or the way the service handles resources it uses.

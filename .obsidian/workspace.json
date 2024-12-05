@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/DOS (Denial of Service).md",
+                "file": "98 Templates/Temp_Reference.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DOS (Denial of Service)"
+              "title": "Temp_Reference"
             }
           }
         ],
@@ -172,10 +172,11 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "4e529ae0595c466f",
   "lastOpenFiles": [
-    "01 Notes/ReDos (Regular Expression Denial of Service).md",
+    "98 Templates/Temp_Definition.md",
     "01 Notes/DOS (Denial of Service).md",
+    "01 Notes/ReDos (Regular Expression Denial of Service).md",
     "01 Notes/OSV (open source vulnerabilities).md",
     "02 Literature/papers/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md",
     "00 Antilibrary/fuzzling.md",
@@ -199,7 +200,6 @@
     "01 Notes/WIMP (windows, icon, menu, pointers).md",
     "01 Notes/UIDL (User Interface Description Language).md",
     "01 Notes/SUT (system under test).md",
-    "01 Notes/static analysis.md",
     "97 Assets/malai_design_pattern.png",
     "97 Assets/malai_model.png",
     "97 Assets/event_flow_graph.png",
