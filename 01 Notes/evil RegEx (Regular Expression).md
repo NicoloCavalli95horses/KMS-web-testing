@@ -3,7 +3,7 @@
 | **Tags** | #definition       |
 ## Definition
 
-An evil RegEx is a [[RegEx (Regular Expression)]] that present a dangerous pattern that can lead to [[ReDos (Regular Expression Denial of Service)]] issues. Evil RegEx contains:
+An evil RegEx is a [[RegEx (Regular Expression)]] that present a dangerous pattern that can lead to [[ReDoS (Regular Expression Denial of Service)]] issues. Evil RegEx contains:
 - grouping with repetition
 - repetition inside a group
 - alternation with overlapping
