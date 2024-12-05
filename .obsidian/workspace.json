@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Antilibrary/DOS (Denial of Service).md",
+                "file": "01 Notes/DOS (Denial of Service).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -172,10 +172,10 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "4e529ae0595c466f",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
     "01 Notes/ReDos (Regular Expression Denial of Service).md",
-    "00 Antilibrary/DOS (Denial of Service).md",
+    "01 Notes/DOS (Denial of Service).md",
     "01 Notes/OSV (open source vulnerabilities).md",
     "02 Literature/papers/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md",
     "00 Antilibrary/fuzzling.md",
