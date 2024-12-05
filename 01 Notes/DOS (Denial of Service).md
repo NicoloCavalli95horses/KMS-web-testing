@@ -1,6 +1,6 @@
-| ID       | 2024-12-05-11:24            |
-| -------- | --------------------------- |
-| **Tags** | #definition #cyberSecurity  |
+| ID       | 2024-12-05-11:24           |
+| -------- | -------------------------- |
+| **Tags** | #definition #cyberSecurity |
 ## Definition
 
 The **Denial of Service (DoS)** attack is focused on making a resource (site, application, server) unavailable for the purpose it was designed. There are many ways to make a service unavailable for legitimate users:
@@ -14,7 +14,7 @@ If a service receives a very large number of requests, it may cease to be availa
 > **A typical hacker move**
 > Sometimes the attacker can ==inject and execute arbitrary code while performing a DoS attack== in order to access critical information or execute commands on the server.
 > *How is this even possible?*
-> 	- Even if the system is overloaded with requests the malicious code could be executed during a buffer overflow (input data are not validated and sanitized correctly and this could lead to unexpected behaviors)
+> 	- Even if the system is overloaded with requests the malicious code could be executed during a [[buffer overflow]] (input data are not validated and sanitized correctly and this could lead to unexpected behaviors)
 > 	- The code could be inject from a low-level and immediately executed
 > 	- Some systems, even under a DoS attacks, have critical processes that still run and that can be exploited
 > 	- The DoS attack often act as a cover, distracting the developers and allowing hacker to execute more damaging attack undisturbed
