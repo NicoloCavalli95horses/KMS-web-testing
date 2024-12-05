@@ -14,7 +14,7 @@ We implemented a practical fuzzer named JANUS (see [[fuzzling]]), that:
 - we evaluated it on three widely-used browsers: Chrome, Safari, and Firefox
 - JANUS detected 31 non-crash rendering bugs, out of which 24 confirmed with 8 fixes
 
-
+> Through manual verification it is confirmed that JANUS founded bugs that existed since the initial implementation of certain rendering features in browsers. In fact, only 4 bugs were recently-introduced regression bugs.
 
 
 
