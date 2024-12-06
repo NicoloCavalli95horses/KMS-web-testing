@@ -7,7 +7,9 @@ Black Box Testing is the method that does not consider the internal structure, d
 
 **Key features:**
 - considers only external behavior
-- carried out by testers
+- carried out by testers (with an end-user perspective)
+- no need to have knowledge on specific programming languages or implementation details
+- it exposes ambiguities or inconsistencies in the requirements specifications
 - used in system testing or [[acceptance testing]]
 - less time consuming compared to [[white-box testing]]
 - it focuses on the behavior of the system
@@ -16,4 +18,3 @@ Black Box Testing is the method that does not consider the internal structure, d
 Also known as: *data-driven testing, functional testing, closed-box testing*
 ## References
 [[ref_white_and_black_box_testing]]
-https://www.practitest.com/resource-center/article/black-box-vs-white-box-testing/
