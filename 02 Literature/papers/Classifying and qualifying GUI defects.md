@@ -4,7 +4,7 @@
 | **Tags** | #paper #gui      |
 ## Abstract
 
-The introduction of new types of interactions in GUIs presents new kinds of errors that are not targeted by current testing techniques. We believe that to advance GUI testing, the community needs a comprehensive and high level GUI fault model, which incorporates all types of interactions.
+The introduction of new types of interactions in GUIs presents new kinds of [[error]] that are not targeted by current testing techniques. We believe that to advance GUI testing, the community needs a comprehensive and high level GUI fault model, which incorporates all types of interactions.
 
 The work detailed in this paper establishes 4 contributions:
 1) A GUI [[fault model]] designed to identify and classify GUI faults.
