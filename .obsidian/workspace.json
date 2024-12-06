@@ -21,6 +21,36 @@
               "icon": "lucide-file",
               "title": "Lightweight Static Analysis for GUI testing"
             }
+          },
+          {
+            "id": "865b037c5886ae65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Antilibrary/white-box.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "white-box"
+            }
+          },
+          {
+            "id": "6d3f29c9d652a416",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Antilibrary/black-box.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "black-box"
+            }
           }
         ]
       }
@@ -158,9 +188,14 @@
   },
   "active": "43d9ec5a07232721",
   "lastOpenFiles": [
-    "00 Antilibrary/ESG (event sequence graph).md",
-    "01 Notes/EFG (event flow graph).md",
+    "00 Antilibrary/white-box.md",
     "02 Literature/papers/Lightweight Static Analysis for GUI testing.md",
+    "00 Antilibrary/black-box.md",
+    "00 Antilibrary/EDG (Event Dependency Graph).md",
+    "00 Antilibrary/ESG (event sequence graph).md",
+    "00 Antilibrary/reflection (Java).md",
+    "97 Assets/test_extraction_esg.png",
+    "01 Notes/EFG (event flow graph).md",
     "97 Assets/event_sequences.png",
     "97 Assets/event_flow_graph 1.png",
     "97 Assets/event_sequence_graph.png",
@@ -184,9 +219,6 @@
     "01 Notes/co-evolving systems.md",
     "01 Notes/Cisco RBAC CVE.md",
     "01 Notes/canvas DOM element.md",
-    "01 Notes/AIF (Application Independent Functionalities).md",
-    "01 Notes/ad hoc widgets.md",
-    "00 Antilibrary/XSS (cross site scripting) attacks.md",
     "97 Assets/malai_design_pattern.png",
     "97 Assets/malai_model.png",
     "97 Assets/event_flow_graph.png",
@@ -202,7 +234,6 @@
     "02 Literature/books/JavaScript, The Good Parts",
     "02 Literature/books",
     "02 Literature/papers",
-    "97 Assets/sine_cosine.png",
     "97 Assets",
     "00  Inbox/To do"
   ]

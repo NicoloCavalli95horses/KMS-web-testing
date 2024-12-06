@@ -12,8 +12,12 @@ Then, an event flow graph is create, abstracting away the interface details:
 
 ![[event_flow_graph 1.png]]
 
-Finally, all the valid sequences are identifies:
+All the valid sequences are identifies:
 
 ![[event_sequences.png]]
+
+The test sequences are logically inferred (since a test cannot start on e4, a step back is required)
+
+![[test_extraction_esg.png]]
 ## References
 [[ref_lightweight_static_analysis_gui_testing]]
