@@ -159,8 +159,11 @@
   "active": "43d9ec5a07232721",
   "lastOpenFiles": [
     "00 Antilibrary/ESG (event sequence graph).md",
-    "02 Literature/papers/Lightweight Static Analysis for GUI testing.md",
     "01 Notes/EFG (event flow graph).md",
+    "02 Literature/papers/Lightweight Static Analysis for GUI testing.md",
+    "97 Assets/event_sequences.png",
+    "97 Assets/event_flow_graph 1.png",
+    "97 Assets/event_sequence_graph.png",
     "03 References/ref_lightweight_static_analysis_gui_testing.md",
     "02 Literature/papers/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
     "02 Literature/papers/On model-based testing advanced GUIs.md",
@@ -184,7 +187,6 @@
     "01 Notes/AIF (Application Independent Functionalities).md",
     "01 Notes/ad hoc widgets.md",
     "00 Antilibrary/XSS (cross site scripting) attacks.md",
-    "00 Antilibrary/web workers.md",
     "97 Assets/malai_design_pattern.png",
     "97 Assets/malai_model.png",
     "97 Assets/event_flow_graph.png",
@@ -201,9 +203,6 @@
     "02 Literature/books",
     "02 Literature/papers",
     "97 Assets/sine_cosine.png",
-    "97 Assets/circle_radians.gif",
-    "Pasted image 20240731160838.png",
-    "Pasted image 20240731161249.png",
     "97 Assets",
     "00  Inbox/To do"
   ]
