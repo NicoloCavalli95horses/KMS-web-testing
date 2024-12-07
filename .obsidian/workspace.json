@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "black-box testing"
             }
+          },
+          {
+            "id": "8eaf36961c02f816",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.7"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -151,12 +164,10 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false,
-      "tags-overview:Tags overview": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "d73bc5093b2b5628",
+  "active": "8eaf36961c02f816",
   "lastOpenFiles": [
     "01 Notes/white-box testing.md",
     "01 Notes/integration testing.md",
