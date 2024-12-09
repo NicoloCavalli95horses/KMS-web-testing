@@ -31,13 +31,16 @@ SQLIA detection techniques have improved with the development of big data, AI an
 | alternate encodings          | the attacker bypasses attack detention systems by encoding the query or part of it                                                                                | SELECT * FROM accounts WHERE user='jiayue' AND pass='123'; EXEC(char(0X53485554444F574E));                      |
 | stored procedure attacks     |                                                                                                                                                                   | SELECT * FROM accounts WHERE user='jiayue' AND pass='123'; SHUTDOWN;                                            |
 
+### **SQLIA detection methods**
 
-**SQLIA detection methods**
-
-Based on data analysis, most techniques focus on:
+Techniques based on data analysis:
 - *monitoring and analyzing real-time network data*: when an injection occurs, anomalies in the traffic flowing into the web application would be found (e.g., large input, an intense traffic in a short period of time, drastic changes in HTTP requests)
 - *monitoring the flow of tainted/corrupted data*: the legitimacy of data propagation in programs is checked. CRUD operations may be protected by a token system or tracked in other ways to prevent unauthorized actions.
- 
+
+Techniques based on machine learning algorithms:
+- the validity of the SQL statement is determined by a ML algorithm that classify the code as trustful or malicious
+
+![[summary_SQLIA_detections.png]]
 
 
 ## References

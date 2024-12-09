@@ -156,8 +156,9 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "d73bc5093b2b5628",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
+    "97 Assets/summary_SQLIA_detections.png",
     "00 Antilibrary/SQLIA (SQL injection attack).md",
     "02 Literature/papers/Overview of SQL injection attack detection techniques.md",
     "03 References/ref_overview_sql_injection_detection.md",
@@ -184,7 +185,6 @@
     "01 Notes/regression testing.md",
     "00 Antilibrary/reflection (Java).md",
     "00 Antilibrary/recommendation engine.md",
-    "00 Antilibrary/proxy-server.md",
     "97 Assets/test_extraction_esg.png",
     "97 Assets/event_sequences.png",
     "97 Assets/event_flow_graph 1.png",
