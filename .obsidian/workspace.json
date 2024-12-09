@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/black-box testing.md",
+                "file": "01 Notes/white-box testing.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "black-box testing"
+              "title": "white-box testing"
             }
           }
         ]
@@ -158,6 +158,7 @@
   },
   "active": "d73bc5093b2b5628",
   "lastOpenFiles": [
+    "01 Notes/black-box testing.md",
     "01 Notes/white-box testing.md",
     "01 Notes/integration testing.md",
     "00 Antilibrary/XSS (cross site scripting) attacks.md",
@@ -183,7 +184,6 @@
     "00 Antilibrary/direct manipulation (design pattern).md",
     "00 Antilibrary/CRUD (Create, Read, Update, Delete) operations.md",
     "00 Antilibrary/cookie.md",
-    "00 Antilibrary/buffer overflow.md",
     "97 Assets/test_extraction_esg.png",
     "97 Assets/event_sequences.png",
     "97 Assets/event_flow_graph 1.png",
