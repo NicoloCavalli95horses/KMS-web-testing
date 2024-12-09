@@ -21,8 +21,15 @@ If we can isolate GUI components (see [[standard widgets]]), then we can analyze
 
 A GUI component can be described with a [[EFG (event flow graph)]]
 
+**Goals:**
 We present algorithms to automatically construct EFG and integration trees.
 We present a case study to demonstrate the correlation between event-based coverage and statement coverage, and the usefulness of the coverage report.
 
+**Classification of GUI events:**
+- *restricted-focus events*: events that open modal windows (e.g., a full-screen modal to change the language)
+- *unrestricted-focus events*: events that open modeless windows (e.g., an input form)
+- *termination events*: events that causes a flow to interrupt (e.g., "ok" and "cancel" actions on a modal)
+- *menu-open events*: events that toggle a menu. No need to be explicitly terminated by the user
+- *system-interaction events:* events used to communicate with the underlying software (e.g., "copy" and "paste" actions)
 ## References
 [[ref_coverage_criteria_gui_testing]]
