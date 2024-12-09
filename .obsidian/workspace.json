@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Antilibrary/integration tree.md",
+                "file": "01 Notes/FSM (finite-state machine).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "integration tree"
+              "title": "FSM (finite-state machine)"
             }
           }
         ],
@@ -172,11 +172,11 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "acd1a4bba177e5fb",
   "lastOpenFiles": [
+    "00 Antilibrary/integration tree.md",
     "97 Assets/integration_tree.png",
     "02 Literature/papers/Coverage criteria for GUI testing.md",
-    "00 Antilibrary/integration tree.md",
     "01 Notes/GUI (graphical user interface).md",
     "01 Notes/coverage criteria.md",
     "03 References/ref_coverage_criteria_gui_testing.md",
@@ -211,7 +211,6 @@
     "Untitled.canvas",
     "97 Assets/user_interaction_faults.png",
     "04 Research paths",
-    "97 Assets/user_interface_faults.png",
     "02 Literature/papers/Classifying and qualifying GUI defects/Classifying and qualifying GUI defects.pdf",
     "02 Literature/papers/Classifying and qualifying GUI defects/Classifying and qualifying GUI defects.pdf.crdownload",
     "02 Literature/papers/Classifying and qualifying GUI defects",
