@@ -13,29 +13,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/white-box testing.md",
+                "file": "01 Notes/coverage criteria.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "white-box testing"
-            }
-          },
-          {
-            "id": "8eaf36961c02f816",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "coverage criteria"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,13 +151,18 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "tags-overview:Tags overview": false
     }
   },
-  "active": "8eaf36961c02f816",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
-    "01 Notes/black-box testing.md",
+    "02 Literature/papers/Coverage criteria for GUI testing.md",
+    "01 Notes/coverage criteria.md",
+    "03 References/ref_coverage_criteria_gui_testing.md",
     "01 Notes/white-box testing.md",
+    "01 Notes/black-box testing.md",
     "01 Notes/integration testing.md",
     "00 Antilibrary/XSS (cross site scripting) attacks.md",
     "00 Antilibrary/web workers.md",
@@ -192,9 +184,6 @@
     "00 Antilibrary/machine learning.md",
     "01 Notes/ESG (event sequence graph).md",
     "00 Antilibrary/EDG (Event Dependency Graph).md",
-    "00 Antilibrary/direct manipulation (design pattern).md",
-    "00 Antilibrary/CRUD (Create, Read, Update, Delete) operations.md",
-    "00 Antilibrary/cookie.md",
     "97 Assets/test_extraction_esg.png",
     "97 Assets/event_sequences.png",
     "97 Assets/event_flow_graph 1.png",
