@@ -11,17 +11,15 @@
             "id": "149123e936eba2aa",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Research paths/Literature review.canvas",
-                "viewState": {
-                  "x": 110,
-                  "y": 290,
-                  "zoom": -0.5804470195986634
-                }
+                "file": "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Literature review"
+              "icon": "lucide-file",
+              "title": "Managing security vulnerabilities introduced by dependencies in React.js"
             }
           }
         ]
@@ -80,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -160,8 +158,8 @@
   },
   "active": "149123e936eba2aa",
   "lastOpenFiles": [
-    "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
     "04 Research paths/Literature review.canvas",
+    "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
     "03 References/ref_managing_security_vulnerabilities_dependencies_react.md",
     "01 Notes/fuzzling.md",
     "02 Literature/papers/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md",
