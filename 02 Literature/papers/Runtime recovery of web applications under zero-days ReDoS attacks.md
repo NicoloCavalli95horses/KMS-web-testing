@@ -30,6 +30,6 @@ Solutions have been proposed:
 **DNN model design**
 - the model takes web request as input and classifies whether the request is benign or malicious
 - a web request is an array of characters (input), and a binary classification is the output (0, 1)
-- 
+- an embedded layer is used, to better encode distances between characters and to show their similarity
 ## References
 [[ref_runtime_recovery_web_app_under_redos]]
