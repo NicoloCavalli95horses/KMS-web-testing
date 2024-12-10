@@ -27,5 +27,9 @@ Solutions have been proposed:
 - An online feedback loop is used to improve the model constantly (false positives or negatives are often possible)
 - ==the recover time is within sub-minute (!)==
 
+**DNN model design**
+- the model takes web request as input and classifies whether the request is benign or malicious
+- a web request is an array of characters (input), and a binary classification is the output (0, 1)
+- 
 ## References
 [[ref_runtime_recovery_web_app_under_redos]]
