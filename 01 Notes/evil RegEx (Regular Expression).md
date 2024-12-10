@@ -21,5 +21,14 @@ While the following simple regex required to explore just three paths: **(a|b)c*
 This evil RegEx required to explore potentially a large number of paths: **(a|b)\*c** 
 It means: "a" or "b" repeated an indefinite number of times, and followed by "c"
 - with an input like "aaaaaaaaaaaaaac" an [[NFA (Nondeterministic Finite Automation)]] algorithm would have to check 2^15 (32768) combinations to determine if there is match
+
+The process could be simplified as follows:
+- 1) the all input is read: aaaaaaaaaaaaaac, a match is found
+- 2) other matches could be found inside the input, so the input it analyzed step by step:
+	- aaaaaaaaaaaaaa does not finish by 'c' so is not valid
+	- aaaaaaaaaaaaa does not finish by 'c' so is not valid
+	- aaaaaaaaaaaa does not finish by 'c' so is not valid
+	- ...
+	- presence of 'b' followed by 'c' is also checked
 ## References
 https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS#

@@ -7,5 +7,8 @@ The Regular expression Denial of Service (ReDoS) is a type of [[DOS (Denial of S
 
 > The general advice is to ==avoid, if possible, using RegEx that allow very long repetitions of characters==, especially when it comes to repetitions with * (Kleene star) or +, which can lead to exponential combinatoric explorations in regex engines like JavaScript.
 
+### Types of ReDoS
+- **Reflected**: an attacker keeps sending malicious requests to the vulnerable web server. Each request may be polymorphic in contents and origins (e.g., different IP addresses are used and different input are used)
+- **Stored**: an attacker manages to store a malicious request/input to the vulnerable web server. The malicious content is then fetched and matched agains a vulnerable RegEx repea
 ## References
 https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS#
