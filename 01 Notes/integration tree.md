@@ -1,6 +1,6 @@
 | ID       | 2024-12-09-11:50 |
-| -------- | ----------------- |
-| **Tags** | #definition       |
+| -------- | ---------------- |
+| **Tags** | #definition      |
 ## Definition
 
 An integration tree is a 3-tuple  <N, R B>, where:

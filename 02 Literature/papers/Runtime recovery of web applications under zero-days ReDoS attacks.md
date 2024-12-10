@@ -24,5 +24,8 @@ Solutions have been proposed:
 ### REGEXNET: payload-based, runtime, reactive ReDoS recovery system for web services
 -  **key insight**: malicious payload have to obey certain patterns, which stay invariant
 - A [[machine learning]] solution: invariant pattern are automatically recognized, in linear time, and potentially dangerous requests are addressed to a [[sandbox environment]]
+- An online feedback loop is used to improve the model constantly (false positives or negatives are often possible)
+- ==the recover time is within sub-minute (!)==
+
 ## References
 [[ref_runtime_recovery_web_app_under_redos]]
