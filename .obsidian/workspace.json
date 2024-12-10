@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/Runtime recovery of web applications under zero-days ReDoS attacks.md",
+                "file": "01 Notes/sandbox environment.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Runtime recovery of web applications under zero-days ReDoS attacks"
+              "title": "sandbox environment"
             }
           }
         ]
@@ -156,10 +156,14 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "d73bc5093b2b5628",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
-    "03 References/ref_runtime_recovery_web_app_under_redos.md",
     "02 Literature/papers/Runtime recovery of web applications under zero-days ReDoS attacks.md",
+    "01 Notes/sandbox environment.md",
+    "01 Notes/ReDoS (Regular Expression Denial of Service).md",
+    "00 Antilibrary/NFA (Nondeterministic Finite Automation).md",
+    "01 Notes/evil RegEx (Regular Expression).md",
+    "03 References/ref_runtime_recovery_web_app_under_redos.md",
     "02 Literature/papers/Overview of SQL injection attack detection techniques.md",
     "97 Assets/summary_SQLIA_detections.png",
     "00 Antilibrary/SQLIA (SQL injection attack).md",
@@ -182,10 +186,6 @@
     "00 Antilibrary/XSS (cross site scripting) attacks.md",
     "00 Antilibrary/web workers.md",
     "00 Antilibrary/VM (virtual machine).md",
-    "00 Antilibrary/tree difference algorithms.md",
-    "00 Antilibrary/SessionStorage.md",
-    "01 Notes/regression testing.md",
-    "00 Antilibrary/reflection (Java).md",
     "97 Assets/test_extraction_esg.png",
     "97 Assets/event_sequences.png",
     "97 Assets/event_flow_graph 1.png",

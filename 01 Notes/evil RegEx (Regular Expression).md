@@ -1,6 +1,6 @@
 | ID       | 2024-12-05-15:24 |
-| -------- | ----------------- |
-| **Tags** | #definition       |
+| -------- | ---------------- |
+| **Tags** | #definition      |
 ## Definition
 
 An evil RegEx is a [[RegEx (Regular Expression)]] that present a dangerous pattern that can lead to [[ReDoS (Regular Expression Denial of Service)]] issues. Evil RegEx contains:
