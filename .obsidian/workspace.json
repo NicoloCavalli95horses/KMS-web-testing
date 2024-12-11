@@ -4,24 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "92345188559b5763",
+        "id": "3987a5fb94647ed5",
         "type": "tabs",
         "children": [
           {
-            "id": "a295abf8a503d483",
+            "id": "46ec7af00599171f",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Research paths/Literature review.canvas",
-                "viewState": {
-                  "x": 456.7469284486868,
-                  "y": 47.82067764849694,
-                  "zoom": -0.17862249352060203
-                }
+                "file": "TODOs.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Literature review"
+              "icon": "lucide-file",
+              "title": "TODOs"
             }
           }
         ]
@@ -158,8 +156,10 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "a295abf8a503d483",
+  "active": "46ec7af00599171f",
   "lastOpenFiles": [
+    "02 Literature/papers/Classifying and qualifying GUI defects.md",
+    "TODOs.md",
     "PhD DiverSE Team.md",
     "04 Research paths/Literature review.canvas",
     "02 Literature/papers/STILE, a tool for optimizing E2E web test scripts parallelization.md",
@@ -183,7 +183,6 @@
     "02 Literature/papers/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
     "02 Literature/papers/Automatic program repair.md",
     "02 Literature/papers/Automatically inferring user behavior models in large-scale web applications.md",
-    "02 Literature/papers/Classifying and qualifying GUI defects.md",
     "02 Literature/papers/Coverage criteria for GUI testing.md",
     "02 Literature/papers/Lightweight Static Analysis for GUI testing.md",
     "02 Literature/papers/On model-based testing advanced GUIs.md",
