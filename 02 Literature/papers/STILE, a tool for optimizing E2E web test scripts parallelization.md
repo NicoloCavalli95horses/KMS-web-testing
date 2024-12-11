@@ -32,7 +32,7 @@ The dependency graph can be manually maintained by testers or automatically comp
 - a [[prefix tree]] is used to optimize the parallel execution of the tests, by avoiding the repeated execution of common prefixes. The common prefixes run only once, then a snapshot of the state of the GUI is saved and used as reference for n tests that depend on that state.
 - a number of Docker containers are used to run all the schedules in parallel
 
-STILE reduces the execution time up to  80% and the CPU-time up to 75%.
+STILE reduces the execution time up to 80% and the CPU-time up to 75%.
 
 
 ## References
