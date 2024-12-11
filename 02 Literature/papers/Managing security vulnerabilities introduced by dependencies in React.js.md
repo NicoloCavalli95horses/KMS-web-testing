@@ -30,19 +30,20 @@ Goals of the paper:
 In React, dependency smells are introduced more frequently than they are fixed
 
 ![[dependencies_variables_classiification.png]]
+
 ### Most common security vulnerabilities introduced by third-party dependencies
 
 42 vulnerability types with 10 vulnerability that cover over 90% of the observed variance.
-- [[DOS (Denial of Service)]] (40%): overwhelms the service or app to render it unusable
-- [[prototype pollution]] (25%): allows manipulation of JavaScript's objects and properties
-- [[code-injection]] (6%): enables an attacker to run malicious commands on the target OS
-- Arbitrary-file access (5%): unauthorized manipulation of files
-- Open-Redirect (4%): accepts user-controlled input leading to link redirect. This facilitate phishing attacks
-- Information exposure (4%): information that should be encrypted are exposed
-- Improper input validation (3%): enabling malicious code-injection
-- Improper verification of cryptographic signature (2%): allows constructuring signatures that are verified by any public key leading to [[signature forgery]]
-- Remote-code execution (1%): enable malicious attackers to execute arbitrary code
-- Authorization bypass (1%): enable
+- ==[[DOS (Denial of Service)]] (40%):== overwhelms the service or app to render it unusable
+- ==[[prototype pollution]] (25%):== allows manipulation of JavaScript's objects and properties
+- ==[[code-injection]] (6%): ==enables an attacker to run malicious commands on the target OS
+- ==Arbitrary-file access (5%):== unauthorized manipulation of files
+- ==Open-Redirect (4%):== accepts user-controlled input leading to link redirect. This facilitate phishing attacks
+- ==Information exposure (4%):== information that should be encrypted are exposed
+- ==Improper input validation (3%):== enabling malicious code-injection
+- ==Improper verification of cryptographic signature (2%)==: allows constructuring signatures that are verified by any public key leading to [[signature forgery]]
+- ==Remote-code execution (1%):== enable malicious attackers to execute arbitrary code
+- ==Authorization bypass (1%)==: enable attackers to access sensitive information
 
 ### The impact in the client application
 
