@@ -4,71 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "de19224f379f2781",
+        "id": "92345188559b5763",
         "type": "tabs",
         "children": [
           {
-            "id": "149123e936eba2aa",
+            "id": "a295abf8a503d483",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Managing security vulnerabilities introduced by dependencies in React.js"
-            }
-          },
-          {
-            "id": "161069843257abda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Antilibrary/prototype pollution.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "prototype pollution"
-            }
-          },
-          {
-            "id": "8ac5666283af038c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Antilibrary/signature forgery.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "signature forgery"
-            }
-          },
-          {
-            "id": "867a9eef2f2d835c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Antilibrary/code-injection.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "code-injection"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,14 +151,14 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "161069843257abda",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
-    "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
-    "00 Antilibrary/signature forgery.md",
     "00 Antilibrary/code-injection.md",
-    "00 Antilibrary/prototype pollution.md",
-    "97 Assets/dependencies_variables_classiification.png",
+    "01 Notes/prototype pollution.md",
+    "00 Antilibrary/signature forgery.md",
     "04 Research paths/Literature review.canvas",
+    "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
+    "97 Assets/dependencies_variables_classiification.png",
     "03 References/ref_managing_security_vulnerabilities_dependencies_react.md",
     "01 Notes/fuzzling.md",
     "02 Literature/papers/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md",
@@ -231,7 +180,6 @@
     "01 Notes/sessions token.md",
     "00 Antilibrary/cookie.md",
     "00 Antilibrary/XSS (cross site scripting) attacks.md",
-    "00 Antilibrary/web workers.md",
     "97 Assets/lts.png",
     "97 Assets/summary_SQLIA_detections.png",
     "97 Assets/integration_tree.png",
