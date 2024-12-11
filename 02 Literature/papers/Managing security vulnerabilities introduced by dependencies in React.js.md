@@ -45,15 +45,14 @@ In React, dependency smells are introduced more frequently than they are fixed
 - ==Remote-code execution (1%):== enable malicious attackers to execute arbitrary code
 - ==Authorization bypass (1%)==: enable attackers to access sensitive information
 
-### The impact in the client application
+The vulnerabilities are classified as high-risk, medium risk and low risk
 
+The ability to fix the issues are determined based on dependency update
 
-### Which vulnerabilities can be fixed and which are actually fixed
+Developer often ignore low-risk vulnerability
 
-
-### What are third-party dependency updates correlated with?
-
-
-
+**Threats to validity**
+- ==construct validity==: the vulnerabilities were found using Snyk.io. The paper is based on the assumption that the database records all the relevant vulnerabilities introduced by third-party packages
+- ==internal validity==: the results cannot be generalized since the research focuses on React.js
 ## References
 [[ref_managing_security_vulnerabilities_dependencies_react]]
