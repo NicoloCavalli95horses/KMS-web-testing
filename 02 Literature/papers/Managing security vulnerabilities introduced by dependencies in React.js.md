@@ -17,8 +17,5 @@ Risks associated to third party dependencies:
 - [[DOS (Denial of Service)]]
 - [[prototype pollution]] issues
 
-
-
-
 ## References
 [[ref_managing_security_vulnerabilities_dependencies_react]]
