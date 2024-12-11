@@ -11,10 +11,15 @@
             "id": "a295abf8a503d483",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature/papers/STILE, a tool for optimizing E2E web test scripts parallelization.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "STILE, a tool for optimizing E2E web test scripts parallelization"
             }
           }
         ]
@@ -151,8 +156,11 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "a295abf8a503d483",
   "lastOpenFiles": [
+    "PhD DiverSE Team.md",
+    "02 Literature/papers/STILE, a tool for optimizing E2E web test scripts parallelization.md",
+    "03 References/ref_stile_tool_for_e2e_parallelization.md",
     "00 Antilibrary/code-injection.md",
     "01 Notes/prototype pollution.md",
     "00 Antilibrary/signature forgery.md",
@@ -176,10 +184,8 @@
     "01 Notes/regression testing.md",
     "01 Notes/EFG (event flow graph).md",
     "04 Research paths/Literature review.md",
-    "PhD DiverSE Team.md",
     "01 Notes/sessions token.md",
     "00 Antilibrary/cookie.md",
-    "00 Antilibrary/XSS (cross site scripting) attacks.md",
     "97 Assets/lts.png",
     "97 Assets/summary_SQLIA_detections.png",
     "97 Assets/integration_tree.png",
