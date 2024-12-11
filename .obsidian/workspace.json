@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODOs.md",
+                "file": "PhD DiverSE Team.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODOs"
+              "title": "PhD DiverSE Team"
             }
           }
         ]
@@ -158,8 +158,8 @@
   },
   "active": "46ec7af00599171f",
   "lastOpenFiles": [
-    "02 Literature/papers/Classifying and qualifying GUI defects.md",
     "TODOs.md",
+    "02 Literature/papers/Classifying and qualifying GUI defects.md",
     "PhD DiverSE Team.md",
     "04 Research paths/Literature review.canvas",
     "02 Literature/papers/STILE, a tool for optimizing E2E web test scripts parallelization.md",
