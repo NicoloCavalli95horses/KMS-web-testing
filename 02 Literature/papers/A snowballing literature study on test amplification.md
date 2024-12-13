@@ -14,11 +14,29 @@ localization).
 
 A key difference from other types of testing: ==the input used for test amplification are the manually coded test cases==
 
-### Types of test amplification
-1. amplification by adding new tests as variants of existing ones
-2. amplification by modifying test execution
-3. amplification by synthesizing new tests with respect to changes
-4. amplification by modifying existing test code
+### Amplification by adding new tests as variants of existing ones
+
+A test amplification technique AMPadd consists of creating new tests from existing ones to achieve a given engineering goal. The most commonly used engineering goal is to improve coverage according to a coverage criterion.
+
+Tests generated in this way are effective in achieving multiple engineering goals, such as:
+- improving code coverage,
+- fault detection ability,
+- debugging effectiveness
+
+**Challenges**: the number of added tests can sometimes be large, hence, filter the most useful tests is a challenge. The generalization of the methods is often limited. Some of the techniques used have known performance issues.
+
+### Amplification by synthesizing new tests with respect to changes
+
+
+
+### Amplification by modifying test execution
+
+
+
+
+### Amplification by modifying existing test code
+
+
 
 
 
