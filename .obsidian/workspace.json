@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e74cb95aef5fe523",
+        "id": "6ad7da42a4556c11",
         "type": "tabs",
         "children": [
           {
-            "id": "f99d91eb437f6d9b",
+            "id": "473efb4183ae158a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -146,13 +146,12 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false,
-      "tags-overview:Tags overview": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "473efb4183ae158a",
   "lastOpenFiles": [
+    "00 Antilibrary/Untitled.md",
     "index.md",
     "02 Literature/papers/STILE, a tool for optimizing E2E web test scripts parallelization.md",
     "00 Antilibrary/Parallel programming.md",
@@ -181,7 +180,6 @@
     "02 Literature/papers/Automatic program repair.md",
     "02 Literature/papers/Automatically inferring user behavior models in large-scale web applications.md",
     "02 Literature/papers/Coverage criteria for GUI testing.md",
-    "02 Literature/papers/Lightweight Static Analysis for GUI testing.md",
     "97 Assets/lts.png",
     "97 Assets/summary_SQLIA_detections.png",
     "97 Assets/integration_tree.png",
