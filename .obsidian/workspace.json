@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6ad7da42a4556c11",
+        "id": "e3b9692cf79c4dad",
         "type": "tabs",
         "children": [
           {
-            "id": "473efb4183ae158a",
+            "id": "1dfffc09bf885651",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00 Antilibrary/snowballing study.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "snowballing study"
             }
           }
         ]
@@ -73,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 324.5
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -142,6 +147,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "tags-overview:Tags overview": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -149,16 +156,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "473efb4183ae158a",
+  "active": "1dfffc09bf885651",
   "lastOpenFiles": [
-    "00 Antilibrary/Untitled.md",
+    "02 Literature/papers/A snowballing literature study on test amplification.md",
+    "00 Antilibrary/snowballing study.md",
     "index.md",
+    "03 References/ref_snowballing_literature_study_test_amplification.md",
+    "04 Research paths/Literature review.canvas",
+    "00 Antilibrary/Untitled.md",
     "02 Literature/papers/STILE, a tool for optimizing E2E web test scripts parallelization.md",
     "00 Antilibrary/Parallel programming.md",
     "PhD DiverSE Team.md",
     "TODOs.md",
     "02 Literature/papers/Classifying and qualifying GUI defects.md",
-    "04 Research paths/Literature review.canvas",
     "01 Notes/prefix tree.md",
     "97 Assets/prefix_tree.png",
     "01 Notes/E2E (end-to-end) testing.md",
@@ -177,9 +187,6 @@
     "02 Literature/papers/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md",
     "01 Notes/principle of least astonishment.md",
     "02 Literature/papers/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
-    "02 Literature/papers/Automatic program repair.md",
-    "02 Literature/papers/Automatically inferring user behavior models in large-scale web applications.md",
-    "02 Literature/papers/Coverage criteria for GUI testing.md",
     "97 Assets/lts.png",
     "97 Assets/summary_SQLIA_detections.png",
     "97 Assets/integration_tree.png",
