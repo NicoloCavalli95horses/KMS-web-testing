@@ -36,9 +36,7 @@ The dependency graph can be manually maintained by testers or automatically comp
 
 STILE reduces the execution time up to 80% and the CPU-time up to 75%.
 
-### How STILE works
-1.  The test dependency graph of the test suite is the input. Warranted schedules are extracted, covering every node (that is, a test)
-2. the redundancy among the test scripts is reduced using a prefix tree
+If the dependency graph contains a long-lasting warranted schedule, the advantages given by parallelization are less pronounced. However, the time saving cannot be predicted only by analyzing the graph structure, since the execution time of the test scripts also has a strong influence
 
 ## References
 [[ref_stile_tool_for_e2e_parallelization]]
