@@ -146,7 +146,9 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "tags-overview:Tags overview": false
     }
   },
   "active": "3bfeed8f4b304b36",
