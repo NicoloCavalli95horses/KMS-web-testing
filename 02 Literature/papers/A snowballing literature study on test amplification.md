@@ -16,7 +16,7 @@ A key difference from other types of testing: ==the input used for test amplific
 
 ### Amplification by adding new tests as variants of existing ones
 
-A test amplification technique AMPadd consists of creating new tests from existing ones to achieve a given engineering goal. The most commonly used engineering goal is to improve coverage according to a coverage criterion.
+> A test amplification technique AMPadd consists of creating new tests from existing ones to achieve a given engineering goal. The most commonly used engineering goal is to improve coverage according to a coverage criterion.
 
 Tests generated in this way are effective in achieving multiple engineering goals, such as:
 - improving code coverage,
@@ -27,8 +27,13 @@ Tests generated in this way are effective in achieving multiple engineering goal
 
 ### Amplification by synthesizing new tests with respect to changes
 
+Software applications are typically not tested at a single point in time; they are rather
+tested incrementally, along with the natural evolution of the code base: new tests are typically added together with a change or a commit, to verify, for instance, that a bug has been fixed or that a new feature is correctly implemented.
+In the context of test amplification, it directly translates to the idea of synthesizing new tests as a reaction to a change
 
+> Test amplification technique AMPchange consists of adding new tests to the current test suite, by creating new tests that cover and/or observe the effects of a change in the application code
 
+Techniques and algorithms used in this cases: [[genetic algorithms]], [[concolic execution]]
 ### Amplification by modifying test execution
 
 
