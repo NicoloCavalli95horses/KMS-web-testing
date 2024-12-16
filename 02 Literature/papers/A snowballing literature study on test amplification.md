@@ -57,5 +57,7 @@ In testing, it is usually up to the developer to design integration (large) or u
 
 **Challenges**: even if impressive results have been obtained, no experiments have been carried out to study the acceptability (likelihood to commit) and the maintainability of amplified tests
 
+JavaScript application have received very little attention in the test amplification context (p.25)
+
 ## References
 [[ref_snowballing_literature_study_test_amplification]]
