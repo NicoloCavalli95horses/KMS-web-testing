@@ -147,6 +147,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "tags-overview:Tags overview": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -154,7 +156,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8187dbabd21bb8da",
+  "active": "7317d27c84eb1199",
   "lastOpenFiles": [
     "00 Antilibrary/concolic execution.md",
     "01 Notes/symbolic execution.md",

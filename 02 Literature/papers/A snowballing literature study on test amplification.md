@@ -16,11 +16,11 @@ A key difference from other types of testing: ==the input used for test amplific
 
 ### Amplification by adding new tests as variants of existing ones
 
-> A test amplification technique AMPadd consists of creating new tests from existing ones to achieve a given engineering goal. The most commonly used engineering goal is to improve coverage according to a coverage criterion.
+> A test amplification technique AMPadd consists of creating new tests from existing ones to achieve a given engineering goal. The most commonly used engineering goal is to improve coverage
 
 Tests generated in this way are effective in achieving multiple engineering goals, such as:
-- improving code coverage,
-- fault detection ability,
+- improving code coverage
+- fault detection ability
 - debugging effectiveness
 
 **Challenges**: the number of added tests can sometimes be large, hence, filter the most useful tests is a challenge. The generalization of the methods is often limited. Some of the techniques used have known performance issues.
@@ -37,10 +37,15 @@ Techniques and algorithms used in this cases: [[genetic algorithms]], [[concolic
 
 **Challenges**: many of the works in this area consider a single change in a single statement, but realistic scenarios have not been covered yet (e.g., usually a developer modify the code in multiple parts, within a single commit). The solutions proposed in this area are still not scalable.
 
-
 ### Amplification by modifying test execution
 
+In order to explore new program states and behavior, it is possible to interfere with the
+execution at runtime so as to modify the execution of the program under test.
 
+> Test amplification technique AMPexec consists of modifying the test execution process or the test harness in order to maximize the knowledge gained
+> from the testing process.
+
+AMPexec technique would randomize the order in which the tests are executed, to reveal hidden dependencies between tests and potential bugs derived from this situation
 
 ### Amplification by modifying existing test code
 
