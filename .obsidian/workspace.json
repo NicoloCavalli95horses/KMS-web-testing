@@ -11,10 +11,15 @@
             "id": "7317d27c84eb1199",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature/papers/A snowballing literature study on test amplification.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "A snowballing literature study on test amplification"
             }
           }
         ]
@@ -69,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -150,11 +154,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7317d27c84eb1199",
+  "active": "8187dbabd21bb8da",
   "lastOpenFiles": [
-    "00 Antilibrary/symbolic execution.md",
-    "00 Antilibrary/integer overflow.md",
     "00 Antilibrary/concolic execution.md",
+    "01 Notes/symbolic execution.md",
+    "00 Antilibrary/integer overflow.md",
     "00 Antilibrary/buffer overflow.md",
     "02 Literature/papers/A snowballing literature study on test amplification.md",
     "04 Research paths/Literature review.canvas",

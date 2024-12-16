@@ -34,8 +34,13 @@ Symbolic execution is mostly used to identify vulnerabilities such as:
 - [[integer overflow]]
 - input validation
 
-See [[concolic execution]].
+**Limits**
+- symbolically executing all feasible program paths does not scale to large programs, since the number of paths grows exponentially with an increase in program size and can be even infinite in case of loops
 
+**ExpoSE**: dynamic symbolic execution engine for JavaScript (https://github.com/ExpoSEJS/ExpoSE)
+
+Also known as: symbolic evaluation, symbex
+See [[concolic execution]].
 
 ## References
 https://it.eitca.org/cybersecurity/eitc-is-acss-advanced-computer-systems-security/security-analysis/symbolic-execution/examination-review-symbolic-execution/what-is-the-basic-idea-behind-symbolic-execution-and-how-does-it-differ-from-ordinary-testing-or-fuzzing/

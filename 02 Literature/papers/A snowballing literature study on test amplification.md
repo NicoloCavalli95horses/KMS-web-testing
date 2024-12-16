@@ -34,8 +34,11 @@ In the context of test amplification, it directly translates to the idea of synt
 > Test amplification technique AMPchange consists of adding new tests to the current test suite, by creating new tests that cover and/or observe the effects of a change in the application code
 
 Techniques and algorithms used in this cases: [[genetic algorithms]], [[concolic execution]]
-### Amplification by modifying test execution
 
+**Challenges**: many of the works in this area consider a single change in a single statement, but realistic scenarios have not been covered yet (e.g., usually a developer modify the code in multiple parts, within a single commit). The solutions proposed in this area are still not scalable.
+
+
+### Amplification by modifying test execution
 
 
 
