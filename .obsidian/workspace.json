@@ -121,10 +121,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PhD DiverSE Team.md"
+                "file": "02 Literature/papers/A snowballing literature study on test amplification.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of PhD DiverSE Team"
+              "title": "Outline of A snowballing literature study on test amplification"
             }
           },
           {
@@ -133,12 +133,12 @@
             "state": {
               "type": "tags-overview-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "tag",
+              "title": "Tags overview"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -158,11 +158,11 @@
   },
   "active": "7317d27c84eb1199",
   "lastOpenFiles": [
+    "01 Notes/buffer overflow.md",
+    "02 Literature/papers/A snowballing literature study on test amplification.md",
     "00 Antilibrary/concolic execution.md",
     "01 Notes/symbolic execution.md",
     "00 Antilibrary/integer overflow.md",
-    "00 Antilibrary/buffer overflow.md",
-    "02 Literature/papers/A snowballing literature study on test amplification.md",
     "04 Research paths/Literature review.canvas",
     "Untitled.canvas",
     "01 Notes/genetic algorithms.md",

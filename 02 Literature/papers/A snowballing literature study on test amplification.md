@@ -47,14 +47,15 @@ execution at runtime so as to modify the execution of the program under test.
 
 AMPexec technique would randomize the order in which the tests are executed, to reveal hidden dependencies between tests and potential bugs derived from this situation
 
+**Challenges**: the literature in this field is still young and techniques for test execution modification have not been widely explored yet.
+
 ### Amplification by modifying existing test code
 
+In testing, it is usually up to the developer to design integration (large) or unit (small) tests. Techniques have been proposed to modifying existing tests with respect to a certain engineering goal
 
+> Test amplification technique AMPmod refers to modifying the body of existing test methods. The goal here is to make the scope of each test cases more precise or to improve the ability of test cases at assessing correctness (with better oracles). Differently from AMPadd, it is not about adding new test methods or new tests classes but it is about changing existing tests
 
-
-
-
-
+**Challenges**: even if impressive results have been obtained, no experiments have been carried out to study the acceptability (likelihood to commit) and the maintainability of amplified tests
 
 ## References
 [[ref_snowballing_literature_study_test_amplification]]
