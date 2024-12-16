@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/A snowballing literature study on test amplification.md",
+                "file": "01 Notes/content spoofing.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A snowballing literature study on test amplification"
+              "title": "content spoofing"
             }
           }
         ]
@@ -121,10 +121,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 Literature/papers/A snowballing literature study on test amplification.md"
+                "file": "01 Notes/content spoofing.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of A snowballing literature study on test amplification"
+              "title": "Outline of content spoofing"
             }
           },
           {
@@ -158,8 +158,11 @@
   },
   "active": "7317d27c84eb1199",
   "lastOpenFiles": [
-    "01 Notes/buffer overflow.md",
+    "00 Antilibrary/code-injection.md",
+    "01 Notes/content spoofing.md",
+    "00 Antilibrary/XSS (cross site scripting).md",
     "02 Literature/papers/A snowballing literature study on test amplification.md",
+    "01 Notes/buffer overflow.md",
     "00 Antilibrary/concolic execution.md",
     "01 Notes/symbolic execution.md",
     "00 Antilibrary/integer overflow.md",
@@ -183,10 +186,7 @@
     "01 Notes/test oracle.md",
     "01 Notes/DDT (dependency detection tool).md",
     "03 References/ref_stile_tool_for_e2e_parallelization.md",
-    "00 Antilibrary/code-injection.md",
     "01 Notes/prototype pollution.md",
-    "00 Antilibrary/signature forgery.md",
-    "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
     "97 Assets/dependencies_variables_classiification.png",
     "97 Assets/lts.png",
     "97 Assets/summary_SQLIA_detections.png",
