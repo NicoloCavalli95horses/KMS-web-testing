@@ -4,131 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "edfe0ec4aa784125",
+        "id": "1181c541c1a99897",
         "type": "tabs",
         "children": [
           {
-            "id": "7317d27c84eb1199",
+            "id": "b1fcc56d4e35af71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Antilibrary/directory traversal.md",
+                "file": "02 Literature/papers/Mining Android App Usages for Generating Actionable GUI-based Execution Scenarios.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "directory traversal"
-            }
-          },
-          {
-            "id": "2d7451d543b9aa87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Antilibrary/cache poisoning.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "cache poisoning"
-            }
-          },
-          {
-            "id": "508e90fa4b953e60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Antilibrary/context isolation bypass.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "context isolation bypass"
-            }
-          },
-          {
-            "id": "787344820fc9dd60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Antilibrary/ASAR integrity.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ASAR integrity"
-            }
-          },
-          {
-            "id": "963ce915d78fed08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Antilibrary/trojan horse.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "trojan horse"
-            }
-          },
-          {
-            "id": "8ad90c61314d9566",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Antilibrary/smuggling.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "smuggling"
-            }
-          },
-          {
-            "id": "828079011dc56253",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Antilibrary/spoofing.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "spoofing"
-            }
-          },
-          {
-            "id": "a3a1c82615f03fb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Antilibrary/open redirect attack.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "open redirect attack"
+              "title": "Mining Android App Usages for Generating Actionable GUI-based Execution Scenarios"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 372.5
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -262,20 +156,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a3a1c82615f03fb5",
+  "active": "b1fcc56d4e35af71",
   "lastOpenFiles": [
-    "00 Antilibrary/spoofing.md",
+    "03 References/ref_mining_android_app_usages.md",
+    "02 Literature/papers/Mining Android App Usages for Generating Actionable GUI-based Execution Scenarios.md",
+    "00 Antilibrary/directory traversal.md",
+    "02 Literature/papers/A snowballing literature study on test amplification.md",
     "00 Antilibrary/open redirect attack.md",
+    "00 Antilibrary/spoofing.md",
     "00 Antilibrary/smuggling.md",
     "00 Antilibrary/trojan horse.md",
     "00 Antilibrary/ASAR integrity.md",
     "00 Antilibrary/context isolation bypass.md",
     "00 Antilibrary/cache poisoning.md",
-    "00 Antilibrary/directory traversal.md",
     "01 Notes/content spoofing.md",
     "00 Antilibrary/code-injection.md",
     "00 Antilibrary/XSS (cross site scripting).md",
-    "02 Literature/papers/A snowballing literature study on test amplification.md",
     "01 Notes/buffer overflow.md",
     "00 Antilibrary/concolic execution.md",
     "01 Notes/symbolic execution.md",
@@ -290,8 +186,6 @@
     "02 Literature/papers/STILE, a tool for optimizing E2E web test scripts parallelization.md",
     "00 Antilibrary/Parallel programming.md",
     "PhD DiverSE Team.md",
-    "TODOs.md",
-    "02 Literature/papers/Classifying and qualifying GUI defects.md",
     "97 Assets/prefix_tree.png",
     "97 Assets/dependencies_variables_classiification.png",
     "97 Assets/lts.png",
