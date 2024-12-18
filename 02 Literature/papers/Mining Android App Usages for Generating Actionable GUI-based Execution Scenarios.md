@@ -16,7 +16,20 @@ Although several tools are available to support automated execution of Android a
 
 The Android ecosystem is so heterogeneous that some apps may have users coming from up to 132 unique devices.
 
-**What are GUI models**: abstract representations that are de
+**What are GUI models**: abstract representations that can be decoupled from device dimensions and event locations and that remain valid if small changes occur (e.g., a change in a button location). 
+- dynamic and static analysis are currently used to get GUI models, but these approaches fail to generate representative scenarios. The typical, normale end-user experience and the common application usage is not easily detected
+- industrial usage of these models is challenging, because (1) creating these models require extensive expertise and (2) using these models assumes a logical mapping between the model and the actual system
+
+>All the data that is produced from regular app usages by developers, testers, or even end-users, can be effectively recorded and mined to generate representative app usage scenarios, as well as the corner cases. These scenarios can be useful for automated validation purposes
+
+Mining GUI-based models from ==event logs== collected during routine executions
+To generate [[event se]]:
+- filter the events mined from the app with "feasible events", detected with a static analysis
+- exploits a space of possible interaction paths
+
+Monkeylab is independent from specific Android devices or API platform versions
+
+
 
 ## References
 [[ref_mining_android_app_usages]]
