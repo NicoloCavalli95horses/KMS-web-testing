@@ -1,6 +1,6 @@
 | ID       | 2024-12-16-14:17 |
-| -------- | ----------------- |
-| **Tags** | #definition       |
+| -------- | ---------------- |
+| **Tags** | #definition      |
 ## Definition
 
 Content spoofing, also referred to as *content injection* (similar but not equal to [[code-injection]]]]), *arbitrary text injection* or *virtual defacement*, is an attack targeting a user made possible by an injection vulnerability in a web application.
