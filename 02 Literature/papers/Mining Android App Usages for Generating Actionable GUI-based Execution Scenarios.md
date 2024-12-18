@@ -29,6 +29,20 @@ To generate [[ESG (event sequence graph)]]:
 
 Monkeylab is independent from specific Android devices or API platform versions
 
+The system:
+- mimics a manual system, interacting with the [[SUT (system under test)]] naturally using GUI based actions or gestures
+- has context awareness of an app's execution history. This is made possible by using  [[LM (statistical language model)]] to generate event sequences, that consider program structure and previous executions. Both static and dynamic analysis are combined to augment the vocabulary used by LMs
+- generate actionable scenarios as sequences of events that can be reproduced automatically. These streams are human readable sequences that developers can easily comprehend and that are not couple to locations in the screen
+- can be executed remotely avoiding instrumentation overhead
+
+The process:
+1. developer/testers use the app naturally
+2. the event logs representing scenarios are recorded
+3. the logs are mined to obtain event sequences described at GUI level
+4. the source code of the app and the event sequence are mined to build a vocabulary of feasible events
+5. language models are derived using that vocabulary
+6. the models are used to generate event sequences
+7. the sequences are validated on the target device and infeasible events are removed
 
 
 ## References
