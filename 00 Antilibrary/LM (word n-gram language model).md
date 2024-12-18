@@ -25,13 +25,48 @@ LM is a simple and intuitive approach that can be used to predict the next node 
 
 ### Example with a bigram (n=2)
 
-Let's suppose we have this body of text:
+**(1) Consider the following body of text:**
 
 > The cat sleeps on the floor. The dog play with the cat
 
-The first step is to tokenize the input
+**(2) The first step is to tokenize the input**
 
-[ "The", "cat", "sleeps", "on", "the", "floor", ".", "The", "dog", ]
+"The", "cat", "sleeps", "on", "the", "floor", ".", "The", "dog", "play", "with", "the", "cat"
+
+**(3) The input can be sanitized or filtered, for example by removing the "." and by lowercasing all the tokens.**
+
+"the", "cat", "sleeps", "on", "the", "floor", "the", "dog", "play", "with", "the", "cat"
+
+**(4) A bigram is created, considering all the possible ==consecutive couples==**
+
+("the", "cat"), ("cat", "sleeps"), ("sleeps", "on") ...
+
+**(5) The number of occurrences is counted**
+
+("the", "cat"): 2
+("cat", "sleeps"): 1
+("sleeps", "on"): 1
+...
+
+**(6) The probability of a token is calculated as follows:**
+
+$$P\left(w_1\left|w_2\right.\right)=\frac{count\left(bigram\left(w_1,w_2\right)\right)}{count\left(unigram\left(w_1\right)\right)}$$
+Therefore:
+
+$$P\left(w_1\left|w_2\right.\right)=\frac{count\left('the', 'cat'\right)}{count\left('the'\right)} = 0.66 $$
+
+The occurrences of the token ("the", "cat") is 2
+The occurrences of the token ("the"), ignoring the surrounding words, (e.g., the total number that the article "the" appears): is 3
+So 2/3 = 0.66,
+
+**(7) The model can be used to predict the next token.** 
+For example, given the word "the", we can predict with a probability of 66% that the next world will be "cat".
+
+### Low n-gram vs. high n-gram
+
+The number of n-gram to be considered is arbitrary and based on the available resources and the goals to be reached. In general:
+- the lower the n-gram, the more accurate the result and the lower the context awareness
+- the higher the n-gram, the higher the context awareness, and the lower the accuracy
 
 ## References
 https://en.wikipedia.org/wiki/Word_n-gram_language_model
