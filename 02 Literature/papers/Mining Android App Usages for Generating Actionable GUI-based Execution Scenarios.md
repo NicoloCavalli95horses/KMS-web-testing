@@ -23,7 +23,7 @@ The Android ecosystem is so heterogeneous that some apps may have users coming f
 >All the data that is produced from regular app usages by developers, testers, or even end-users, can be effectively recorded and mined to generate representative app usage scenarios, as well as the corner cases. These scenarios can be useful for automated validation purposes
 
 Mining GUI-based models from ==event logs== collected during routine executions
-To generate [[event se]]:
+To generate [[ESG (event sequence graph)]]:
 - filter the events mined from the app with "feasible events", detected with a static analysis
 - exploits a space of possible interaction paths
 
