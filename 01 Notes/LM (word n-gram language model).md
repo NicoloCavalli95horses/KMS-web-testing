@@ -65,8 +65,33 @@ For example, given the word "the", we can predict with a probability of 66% that
 ### Low n-gram vs. high n-gram
 
 The number of n-gram to be considered is arbitrary and based on the available resources and the goals to be reached. In general:
-- the lower the n-gram, the more accurate the result and the lower the context awareness
-- the higher the n-gram, the higher the context awareness, and the lower the accuracy
+- the lower the n-gram, the higher the number of couples. The result is more accurate but the context awareness is very low 
+- the higher the n-gram, the lower the number of couples. The result is less accurate but depends on the training set. The context awareness is higher
+
+```Python
+
+from collections import Counter, defaultdict
+
+def train_ngram(corpus, n=2):
+    tokens = corpus.split()
+    ngrams = [tuple(tokens[i:i+n]) for i in range(len(tokens)-n+1)]
+    counts = Counter(ngrams)
+    context_counts = Counter([ngram[:-1] for ngram in ngrams])
+    
+    model = defaultdict(lambda: defaultdict(float))
+    for ngram, count in counts.items():
+        context = ngram[:-1]
+        next_word = ngram[-1]
+        model[context][next_word] = count / context_counts[context]
+    return model
+
+corpus = "The cat sleeps on the floor. The dog play with the cat"
+bigram_model = train_ngram(corpus, n=2)
+
+context = ("the",)
+print(dict(bigram_model[context])) # { "cat": 0.666, "dog": 0.333 }
+
+```
 
 ## References
 https://en.wikipedia.org/wiki/Word_n-gram_language_model

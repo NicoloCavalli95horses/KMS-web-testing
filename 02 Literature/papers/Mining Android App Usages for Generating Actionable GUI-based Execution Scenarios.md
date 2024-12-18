@@ -39,7 +39,7 @@ The process:
 1. developer/testers use the app naturally
 2. the event logs representing scenarios are recorded
 3. the logs are mined to obtain event sequences described at GUI level
-4. the source code of the app and the event sequence are mined to build a vocabulary of feasible events
+4. the source code of the app and the event sequences are mined to build a vocabulary of feasible events
 5. language models are derived using that vocabulary
 6. the models are used to generate event sequences
 7. the sequences are validated on the target device and infeasible events are removed
