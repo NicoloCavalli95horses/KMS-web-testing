@@ -93,5 +93,12 @@ print(dict(bigram_model[context])) # { "cat": 0.666, "dog": 0.333 }
 
 ```
 
+### Model smoothness
+
+N-gram models accuracy depend on the training set as well as the resources available. When the dataset does not include all the n-gram possible combinations, the probability associated to certain sequences is zero, even if those sequences are, in fact, possible. To mitigate this problem, several techniques have been proposed:
+- ==**back-off**:== the context size is reduced when a n-gram is not available in the dataset. So, if the initial configuration was n = 3 (trigram), a step back is taken, and a n = 2 (bigram) is considered too. This will increment the probability to find the word in the token set, and to assign a probability higher than zero
+- ==**interpolation**==: different probabilities of different n-grams are combined together to tune the final probability
+
+
 ## References
 https://en.wikipedia.org/wiki/Word_n-gram_language_model
