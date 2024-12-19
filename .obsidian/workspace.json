@@ -159,8 +159,9 @@
   },
   "active": "54ceab4b7b37950b",
   "lastOpenFiles": [
-    "01 Notes/GA (genetic algorithm).md",
+    "01 Notes/ESG (event sequence graph).md",
     "02 Literature/papers/AutoInSpec, using missing test coverage to improve specifications in GUIs.md",
+    "01 Notes/GA (genetic algorithm).md",
     "00 Antilibrary/XSS (cross site scripting).md",
     "00 Antilibrary/web workers.md",
     "00 Antilibrary/VM (virtual machine).md",
@@ -184,7 +185,6 @@
     "00 Antilibrary/MVW (model-view-controller).md",
     "00 Antilibrary/man-in-the-middle attacks.md",
     "00 Antilibrary/machine learning.md",
-    "00 Antilibrary/LocalStorage.md",
     "04 Research paths/Literature review.canvas",
     "97 Assets/dfs_example.webp",
     "Untitled.canvas",
