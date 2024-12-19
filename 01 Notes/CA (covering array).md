@@ -12,7 +12,21 @@ In software testing, often the most critical bugs are related to the interaction
 
 **Practical example**
 Let's suppose we are testing an application with 4 parameters (*k = 4*)
-- Browser (Chrome, Firefox, )
+- Browser (Chrome, Firefox, Edge)
+- OS (Windows, macOS, Linux)
+- Network (WiFi, Ethernet)
+- User is logged in (true, false)
+
+==The total number of combinations is 36 (3x3x2x2)==, but we can assume that most of the bugs are caused by the interaction between 2 or 3 parameters
+- with *t = 2*,  it means we are considering 2 parameters at the time, and then we create the combination:
+	- (Chrome + Windows) and (WiFi + logged)
+	- (macOS + Edge) and (WiFi + not logged)
+	- ...
+- the total number of couples is 6 (Browser, OS), (Browser, Network), (Browser, Login), (OS, Network), (OS, Login), (Network, Login)
+
+
+
+
 
 A covering array is a matrix with particular properties:
 - it has *N* rows and *k* columns
