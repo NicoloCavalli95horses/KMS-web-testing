@@ -13,16 +13,15 @@ Special tokens are introduced to denote the start and end of a sentence *⟨s⟩
 
 LM is a simple and intuitive approach that can be used to predict the next node in a sequence. The model:
 - has limited memory, ignoring words that are out the *n - 1* window
-- is subject to combinatoric computations, because large combinations of words have to be memorized  as the value of  *n* increases 
+- is subject to combinatoric computations, because large combinations of words have to be memorized as the value of *n* decreases 
 - is trained on a body of text, calculating the probability associated to every n-gram
-
 ### Application
 
 - text auto-completion
 - text correction
 - automatic translation
 - natural language synthesis
-
+- sequence prediction in general - see [[ESG (event sequence graph)]]
 ### Example with a bigram (n=2)
 
 **(1) Consider the following body of text:**
@@ -37,7 +36,7 @@ LM is a simple and intuitive approach that can be used to predict the next node 
 
 "the", "cat", "sleeps", "on", "the", "floor", "the", "dog", "play", "with", "the", "cat"
 
-**(4) A bigram is created, considering all the possible ==consecutive couples==**
+**(4) A bigram is created (n=2), considering all the possible ==consecutive couples==**
 
 ("the", "cat"), ("cat", "sleeps"), ("sleeps", "on") ...
 
@@ -50,7 +49,7 @@ LM is a simple and intuitive approach that can be used to predict the next node 
 
 **(6) The probability of a token is calculated as follows:**
 
-$$P\left(w_1\left|w_2\right.\right)=\frac{count\left(bigram\left(w_1,w_2\right)\right)}{count\left(unigram\left(w_1\right)\right)}$$
+$$P\left(w_1\left|w_2\right.\right)=\frac{count\left(n\right)}{count\left(n-1)\right)}$$
 Therefore:
 
 $$P\left(w_1\left|w_2\right.\right)=\frac{count\left('the', 'cat'\right)}{count\left('the'\right)} = 0.66 $$
