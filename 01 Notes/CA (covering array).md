@@ -23,15 +23,15 @@ Let's suppose we are testing an application with 4 parameters (*k = 4*)
 	- (macOS + Edge) and (WiFi + not logged)
 	- ...
 - the total number of couples is 6 (Browser, OS), (Browser, Network), (Browser, Login), (OS, Network), (OS, Login), (Network, Login)
+- the combinations for each couple give us 37, because:
+	- (Browser, OS): 3x3 = 9
+	- (Browser, Network): 3x2 = 6
+	- (Browser, Login): 3x2 = 6
+	- (OS, Network): 3x2 = 6
+	- (OS, Login): 3x2 = 6
+	- (Network, Login): 2x2 = 4
+- 9 rows are enough to cover all the 37 combinations
 
-
-
-
-
-A covering array is a matrix with particular properties:
-- it has *N* rows and *k* columns
-- each cell contains a symbol *v ₁*  that has been chosen among *v* possible symbols
-
-If you take an arbitrary amount of columns from *k*, let's call them *t*, you get a sub-matrix of size (*N * t*). This sub-matrix includes all the possible combinations of symbols
+This seems not convenient, since 37 > 36, but for larger initial combinations it is worth it.
 
 ## References
