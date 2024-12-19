@@ -1,19 +1,21 @@
 {
 	"nodes":[
 		{"id":"ec5f23f2d740d524","type":"text","text":"Testing techniques:\n- [[fuzzling]] testing\n- [[unit testing]]\n- [[integration testing]]\n- [[E2E (end-to-end) testing]]\n- test amplification\n- [[CA (covering array)]]","x":-840,"y":160,"width":250,"height":380},
-		{"id":"b7e24bf0c956fd02","type":"text","text":"Analyzing GUIs output (graphical rendering)\n- visual consistency ([[JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency]])\n- HTML5 Canvas related issues ([[A taxonomy of testable HTML5 Canvas Issues]])\n- GUI defects ([[Classifying and qualifying GUI defects]])","x":360,"y":260,"width":440,"height":300},
 		{"id":"b3c0e3324d4558f8","type":"text","text":"Analyzing GUIs vulnerability (cyber security issues):\n- [[ReDoS (Regular Expression Denial of Service)]] attacks\n- [[SQLIA (SQL injection attack)]]\n- dependencies issues [[Managing security vulnerabilities introduced by dependencies in React.js]]","x":610,"y":-389,"width":380,"height":309},
-		{"id":"cbbddaf863f57b40","type":"text","text":"Analyzing GUIs behavior:\n- event sequences ([[EFG (event flow graph)]]. [[ESG (event sequence graph)]])\n- interaction flow\n- clickstream analysis ([[Markov’s chain and clickstream analysis]])\n- [[static analysis]], [[dynamic analysis]], [[concolic execution]], [[symbolic execution]]\n- Event logs analysis with [[LM (word n-gram language model)]] to create ESG","x":-540,"y":385,"width":560,"height":355},
-		{"id":"dee53fec36b24cdb","type":"text","text":"Software repair, recommendation, patching:\n- code synthesis ([[Automatic program repair]])\n- recommendation engines (software linting)\n- evolutionary computation (machine learning, [[genetic algorithms]])","x":-750,"y":-520,"width":320,"height":329},
-		{"id":"aa999716a5f7163c","type":"text","text":"Automatically generate and execute GUI tests","x":-540,"y":820,"width":560,"height":80},
-		{"id":"9aa211ba9fd13796","type":"text","text":"# Graphical User Interface testing techniques on large scale application","x":-160,"y":-40,"width":450,"height":160,"color":"4"}
+		{"id":"cbbddaf863f57b40","type":"text","text":"Analyzing GUIs behavior:\n- interaction flow and event sequences ([[EFG (event flow graph)]]. [[ESG (event sequence graph)]])\n- clickstream analysis ([[Markov’s chain and clickstream analysis]])\n- [[static analysis]], [[dynamic analysis]], [[concolic execution]], [[symbolic execution]]\n- Event logs analysis with [[LM (word n-gram language model)]]","x":-540,"y":385,"width":560,"height":335},
+		{"id":"dee53fec36b24cdb","type":"text","text":"Software repair, recommendation, patching:\n- code synthesis ([[Automatic program repair]])\n- recommendation engines (software linting)\n- evolutionary computation (machine learning, [[GA (genetic algorithm)]])","x":-750,"y":-520,"width":320,"height":329},
+		{"id":"9aa211ba9fd13796","type":"text","text":"# Graphical User Interface testing techniques on large scale application","x":-160,"y":-40,"width":450,"height":160,"color":"4"},
+		{"id":"b7e24bf0c956fd02","type":"text","text":"Analyzing GUIs output (graphical rendering)\n- visual consistency ([[JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency]])\n- HTML5 Canvas related issues ([[A taxonomy of testable HTML5 Canvas Issues]])\n- GUI defects ([[Classifying and qualifying GUI defects]])","x":200,"y":385,"width":440,"height":300},
+		{"id":"be27fee0e5084d0a","x":-540,"y":760,"width":560,"height":150,"type":"text","text":"Manipulate extracted events sequences:\n- reduce combinatorial explosion with [[CA (covering array)]]"},
+		{"id":"aa999716a5f7163c","type":"text","text":"Automatically generate and execute GUI tests","x":-540,"y":940,"width":560,"height":80}
 	],
 	"edges":[
 		{"id":"678742058f640177","fromNode":"9aa211ba9fd13796","fromSide":"left","toNode":"dee53fec36b24cdb","toSide":"right","label":"proactive approaches"},
 		{"id":"ba4df03c0f5d04af","fromNode":"9aa211ba9fd13796","fromSide":"bottom","toNode":"cbbddaf863f57b40","toSide":"top","label":"behavioral analysis"},
 		{"id":"18a9b9329ceb4067","fromNode":"9aa211ba9fd13796","fromSide":"right","toNode":"b3c0e3324d4558f8","toSide":"left","label":"vulnerabilities analysis"},
-		{"id":"204e9272a4afae51","fromNode":"cbbddaf863f57b40","fromSide":"bottom","toNode":"aa999716a5f7163c","toSide":"top"},
+		{"id":"204e9272a4afae51","fromNode":"cbbddaf863f57b40","fromSide":"bottom","toNode":"be27fee0e5084d0a","toSide":"top"},
 		{"id":"a5e62de18c3d1113","fromNode":"9aa211ba9fd13796","fromSide":"bottom","toNode":"b7e24bf0c956fd02","toSide":"top","label":"output analysis"},
-		{"id":"e328f75bab5c0c63","fromNode":"9aa211ba9fd13796","fromSide":"left","toNode":"ec5f23f2d740d524","toSide":"top","label":"traditional testing \ntechniques"}
+		{"id":"e328f75bab5c0c63","fromNode":"9aa211ba9fd13796","fromSide":"left","toNode":"ec5f23f2d740d524","toSide":"top","label":"traditional testing \ntechniques"},
+		{"id":"650b60f79e4ecfb5","fromNode":"be27fee0e5084d0a","fromSide":"bottom","toNode":"aa999716a5f7163c","toSide":"top"}
 	]
 }

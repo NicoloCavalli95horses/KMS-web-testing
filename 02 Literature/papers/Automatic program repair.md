@@ -11,7 +11,7 @@
 
 - [[machine learning]]
 - program synthesis
-- evolutionary computation ([[genetic algorithms]])
+- evolutionary computation ([[GA (genetic algorithm)]])
 - “quick fix” suggestions to address linter checks at commit time
 
 ### Approaches

@@ -20,7 +20,7 @@ Incomplete or incorrect GUI specifications cause non trivial problems for model 
 
 **AutoInSpec**: a tool for GUI model specification inference and invariants detection. It makes use of:
 - [[combinatorial testing]] and [[CA (covering array)]]
-- a by-product of test suite repair (see [[Automatic program repair]]), used to increase the code coverage in test suits
+- a by-product of test suite repair (see [[Automatic program repair]]), used to increase the code coverage in test suits. It makes use of [[GA (genetic algorithm)]]
 - is has been validated on non-trivial GUI applications with at least 45K lines of code
 
 ### Contributions

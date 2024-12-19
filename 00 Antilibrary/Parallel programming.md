@@ -1,6 +1,6 @@
 | ID       | 2024-12-12-10:32 |
-| -------- | ----------------- |
-| **Tags** | #definition       |
+| -------- | ---------------- |
+| **Tags** | #definition      |
 ## Definition
 
 Running the longest task first to reduce the overall execution time

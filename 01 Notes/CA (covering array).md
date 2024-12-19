@@ -37,3 +37,4 @@ Let's suppose we are testing an application with 4 parameters (*k = 4*)
 With 9 tests we can cover all the most important configuration in all the different combinations possible.
 
 ## References
+https://math.nist.gov/coveringarrays/coveringarray.html
