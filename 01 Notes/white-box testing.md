@@ -3,7 +3,9 @@
 | **Tags** | #definition      |
 ## Definition
 
-The White Box Test method is the one that looks at the code and structure of the product to be tested and uses that knowledge to perform the tests. This method is used in the [[unit testing ]]phase, although it can also occur in other stages such as [[integration testing]] ones. For the execution of this method, the tester or the person who will use this method ==must have extensive knowledge of the technology used to develop the program.==
+Dealing with a "white box" implies having complete access to the [[SUT (system under test)]]: it is possible to look at the code and structure of the product and to use that knowledge to perform the tests.
+
+White box testing is used in the [[unit testing ]]phase, although it can also occur in other stages such as [[integration testing]] ones. For the execution of this method, the tester or the person who will use this method ==must have extensive knowledge of the technology used to develop the program.==
 
 **Key features:**
 - it takes in consideration unique characteristics of a software

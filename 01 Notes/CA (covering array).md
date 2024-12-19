@@ -3,7 +3,9 @@
 | **Tags** | #definition #math |
 ## Definition
 
-Most of the time, ==it is not feasible to test all the combinations of variables of a system, because is too computationally expensive or time consuming.== A covering array (CA) is used to extract a sub-section of these combinations, maintaining a high coverage of all the possibilities. 
+Most of the time, ==it is not feasible to test all the combinations of variables of a system, because is too computationally expensive or time consuming.== 
+
+A covering array (CA) is used to extract a sub-section of these combinations, maintaining a high coverage of all the possibilities. 
 - This mathematical abstraction can be useful in [[combinatorial testing]], where the combinations to verify are events or interactions with a GUI 
 - A CA reduces the number of combinations to be studied
 
