@@ -32,6 +32,6 @@ Let's suppose we are testing an application with 4 parameters (*k = 4*)
 	- (Network, Login): 2x2 = 4
 - 9 rows are enough to cover all the 37 combinations
 
-This seems not convenient, since 37 > 36, but for larger initial combinations it is worth it.
+This seems not convenient but it is worth it for larger initial combinations
 
 ## References

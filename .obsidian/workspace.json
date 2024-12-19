@@ -37,8 +37,7 @@
               "title": "CA (covering array)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,11 +172,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "37c816917b54cbf0",
+  "active": "54ceab4b7b37950b",
   "lastOpenFiles": [
+    "01 Notes/CA (covering array).md",
     "02 Literature/papers/AutoInSpec, using missing test coverage to improve specifications in GUIs.md",
     "04 Research paths/Literature review.canvas",
-    "01 Notes/CA (covering array).md",
     "02 Literature/papers/Automatic program repair.md",
     "00 Antilibrary/combinatorial testing.md",
     "01 Notes/LM (word n-gram language model).md",
