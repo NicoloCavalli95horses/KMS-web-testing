@@ -19,7 +19,7 @@ Incomplete or incorrect GUI specifications cause non trivial problems for model 
 	- it is not possible to inference GUI specifications in [[black-box testing]] condition
 
 **AutoInSpec**: a tool for GUI model specification inference and invariants detection. It makes use of:
-- [[combinatorial testing]]
+- [[combinatorial testing]] and [[CA (covering array)]]
 - a by-product of test suite repair (see [[Automatic program repair]]), used to increase the code coverage in test suits
 - is has been validated on non-trivial GUI applications with at least 45K lines of code
 
