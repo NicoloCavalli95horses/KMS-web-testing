@@ -15,8 +15,8 @@
               "state": {
                 "file": "04 Research paths/Literature review.canvas",
                 "viewState": {
-                  "x": 89.58735849056603,
-                  "y": 411.8355974842767,
+                  "x": 335.6435220125787,
+                  "y": 83.21025157232698,
                   "zoom": -0.8283727033266873
                 }
               },
@@ -161,6 +161,7 @@
   },
   "active": "54ceab4b7b37950b",
   "lastOpenFiles": [
+    "04 Research paths/Literature review.canvas",
     "02 Literature/papers/Testing is an Event-Centric Activity.md",
     "index.md",
     "03 References/ref_testing_event_center_activity.md",
@@ -171,7 +172,6 @@
     "01 Notes/GA (genetic algorithm).md",
     "01 Notes/black-box testing.md",
     "01 Notes/white-box testing.md",
-    "04 Research paths/Literature review.canvas",
     "01 Notes/prolog (programming language).md",
     "01 Notes/ESG (event sequence graph).md",
     "00 Antilibrary/XSS (cross site scripting).md",
@@ -187,7 +187,6 @@
     "00 Antilibrary/SessionStorage.md",
     "00 Antilibrary/RNN (recurrent neural network).md",
     "00 Antilibrary/reflection (Java).md",
-    "00 Antilibrary/recommendation engine.md",
     "97 Assets/dfs_example.webp",
     "Untitled.canvas",
     "97 Assets/prefix_tree.png",
