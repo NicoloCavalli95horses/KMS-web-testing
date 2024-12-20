@@ -159,8 +159,9 @@
   },
   "active": "54ceab4b7b37950b",
   "lastOpenFiles": [
-    "03 References/ref_testing_event_center_activity.md",
     "02 Literature/papers/Testing is an Event-Centric Activity.md",
+    "index.md",
+    "03 References/ref_testing_event_center_activity.md",
     "02 Literature/papers/AutoInSpec, using missing test coverage to improve specifications in GUIs.md",
     "01 Notes/CA (covering array).md",
     "01 Notes/combinatorial testing.md",
@@ -169,7 +170,6 @@
     "01 Notes/black-box testing.md",
     "01 Notes/white-box testing.md",
     "04 Research paths/Literature review.canvas",
-    "index.md",
     "01 Notes/prolog (programming language).md",
     "01 Notes/ESG (event sequence graph).md",
     "00 Antilibrary/XSS (cross site scripting).md",
