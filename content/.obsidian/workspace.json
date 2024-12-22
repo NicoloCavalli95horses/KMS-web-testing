@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/CA (covering array).md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CA (covering array)"
+              "title": "index"
             }
           }
         ]
@@ -159,12 +159,13 @@
   },
   "active": "54ceab4b7b37950b",
   "lastOpenFiles": [
+    "03 References/ref_augusto_exploiting_popular_functionalities_generation_semantic_gui_test.md",
+    "index.md",
+    "01 Notes/CA (covering array).md",
     "04 Research paths/Literature review.canvas",
     "02 Literature/papers/Testing is an Event-Centric Activity.md",
-    "index.md",
     "03 References/ref_testing_event_center_activity.md",
     "02 Literature/papers/AutoInSpec, using missing test coverage to improve specifications in GUIs.md",
-    "01 Notes/CA (covering array).md",
     "01 Notes/combinatorial testing.md",
     "01 Notes/CVE (common vulnerabilities and exposures).md",
     "01 Notes/GA (genetic algorithm).md",
