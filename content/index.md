@@ -1,4 +1,3 @@
-[Job description](https://www.diverse-team.fr/positions/front-end-analysis/)
 
 | **Topic**          | Web front-end testing. Large scale analysis and techniques improvement |
 | ------------------ | ---------------------------------------------------------------------- |
@@ -7,7 +6,7 @@
 | **Start Date**     | 01/11/2024                                                             |
 | **End (estimate)** | 01/11/2027                                                             |
 | **Site**           | Department of Computer Science, University of Rennes 1                 |
-## PhD progress
+## Project structure
 
 ```dataviewjs
 
