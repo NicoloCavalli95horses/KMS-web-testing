@@ -11,17 +11,15 @@
             "id": "54ceab4b7b37950b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Research paths/Literature review.canvas",
-                "viewState": {
-                  "x": 119.01039832285119,
-                  "y": 134.70501048218023,
-                  "zoom": -0.8283727033266873
-                }
+                "file": "01 Notes/CA (covering array).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Literature review"
+              "icon": "lucide-file",
+              "title": "CA (covering array)"
             }
           }
         ]
