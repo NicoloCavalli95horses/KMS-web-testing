@@ -1,8 +1,8 @@
 ---
 title: Web front-end testing
 ---
-Hi! I'am Nicolò.
-This is my personal wiki where I
+Hi! I'm Nicolò.
+This is my personal wiki. Here, I store everything I have learned so far during my PhD.
 
 | **Topic**          | Web front-end testing. Large scale analysis and techniques improvement |
 | ------------------ | ---------------------------------------------------------------------- |
@@ -10,7 +10,7 @@ This is my personal wiki where I
 | **Duration**       | 3 years                                                                |
 | **Start Date**     | 01/11/2024                                                             |
 | **End (estimate)** | 01/11/2027                                                             |
-| **Site**           | Department of Computer Science, University of Rennes 1                 |
+| **Site**           | Institute for Research in Computer Science and Random Systems IRISA    |
 ## Project structure
 
 #### 00 Antilibrary
@@ -27,3 +27,7 @@ This folder includes all references used by articles or notes in general. Refere
 
 #### 98 Templates
 Templates are boilerplate notes to standardize the note taking process.
+
+## Contacts
+
+[GitHub](https://github.com/NicoloCavalli95horses) | [LinkedIn](https://www.linkedin.com/in/nicolo-cavalli/) | [Portfolio](https://nicolocavalli.com/)

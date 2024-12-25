@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1d6149b86ae203eb",
+        "id": "9b354e1183214ffc",
         "type": "tabs",
         "children": [
           {
-            "id": "54ceab4b7b37950b",
+            "id": "4eb4a6d71c1a7fe9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -157,15 +157,16 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "54ceab4b7b37950b",
+  "active": "4eb4a6d71c1a7fe9",
   "lastOpenFiles": [
-    "98 Templates/Temp_Definition.md",
-    "98 Templates/Temp_Literature.md",
-    "98 Templates/Temp_Reference.md",
+    "04 Research paths/Literature review.canvas",
     "index.md",
+    "98 Templates/Temp_Reference.md",
+    "98 Templates/Temp_Literature.md",
+    "98 Templates/Temp_Definition.md",
+    "00 Antilibrary/Untitled.md",
     "03 References/ref_augusto_exploiting_popular_functionalities_generation_semantic_gui_test.md",
     "01 Notes/CA (covering array).md",
-    "04 Research paths/Literature review.canvas",
     "02 Literature/papers/Testing is an Event-Centric Activity.md",
     "03 References/ref_testing_event_center_activity.md",
     "02 Literature/papers/AutoInSpec, using missing test coverage to improve specifications in GUIs.md",
@@ -179,13 +180,11 @@
     "00 Antilibrary/XSS (cross site scripting).md",
     "00 Antilibrary/web workers.md",
     "00 Antilibrary/VM (virtual machine).md",
-    "00 Antilibrary/Untitled.md",
     "00 Antilibrary/trojan horse.md",
     "00 Antilibrary/tree difference algorithms.md",
     "00 Antilibrary/statistical language models (n-grams).md",
     "00 Antilibrary/snowballing study.md",
     "00 Antilibrary/smuggling.md",
-    "00 Antilibrary/signature forgery.md",
     "97 Assets/dfs_example.webp",
     "Untitled.canvas",
     "97 Assets/prefix_tree.png",

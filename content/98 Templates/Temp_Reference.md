@@ -1,9 +1,12 @@
-| ID       | {{date}}-{{time}} |
-| -------- | ----------------- |
-| **Tags** | #ref              |
+---
+ID: "{{date}}-{{time}}"
+tags:
+  - ref
+---
 ## External Link
 
 [Link name](https://www.example.it)
+
 ## BibTeX
 
 @article{article,

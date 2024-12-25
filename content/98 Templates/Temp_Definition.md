@@ -1,6 +1,9 @@
-| ID       | {{date}}-{{time}} |
-| -------- | ----------------- |
-| **Tags** | #definition       |
+---
+ID: "{{date}}-{{time}}"
+tags:
+  - "#definition"
+---
 ## Definition
+
 
 ## References
