@@ -1,7 +1,9 @@
-
-| ID       | 2024-08-24-10:55 |
-| -------- | ---------------- |
-| **Tags** | #os              |
+---
+ID: 2024-08-24-10:55
+tags:
+  - definition
+  - os
+---
 ## Main concepts
 
 Dual booting is a computer configuration that allows you to ==install and use two different operating systems on the same device==, choosing which one to boot each time you turn on your computer.

@@ -1,11 +1,18 @@
-| ID       | 2024-12-04-14:27 |
-| -------- | ---------------- |
-| **Tags** | #definition      |
+---
+ID: 2024-12-04-14:27
+tags:
+  - definition
+  - designPattern
+  - model
+---
 ## Definition
 
-A Finite State Machine is a model of computation based on a hypothetical machine made of one or more states. Only one single state of this machine can be active at the same time. It means the machine has to transition from one state to another in to perform different actions.
+A Finite State Machine is a model of computation, based on a hypothetical machine made of one or more states.
+- only one single state of this machine can be active at the same time
+- the machine has to transition from one state to another in to perform different actions
 
-A Finite State Machine is any device storing the state of something at a given time. The state will change based on inputs, providing the resulting output for the implemented changes.
+A Finite State Machine is any device storing the state of something at a given time.
+The state will ==change based on inputs==, providing the resulting output for the implemented changes.
 
 A FSM is characterized as follows:
 - We have a fixed set of states that the machine can be in

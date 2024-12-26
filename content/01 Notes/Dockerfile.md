@@ -1,7 +1,11 @@
-
-| ID       | 2024-09-12-10:43 |
-| -------- | ---------------- |
-| **Tags** | #docker #deploy  |
+---
+ID: 2024-09-12-10:43
+tags:
+  - definition
+  - docker
+  - deploy
+  - ci/cd
+---
 ## Main concepts
 
 A [[Dockerfile]] describes how the image is composed.

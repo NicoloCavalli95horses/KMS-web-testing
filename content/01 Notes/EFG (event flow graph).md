@@ -1,10 +1,12 @@
-| ID       | 2024-12-04-11:20 |
-| -------- | ---------------- |
-| **Tags** | #definition      |
+---
+ID: 2024-12-04-11:20
+tags:
+  - definition
+  - testingTechniques
+---
 ## Definition
 
-Event flow graphs (EFGs) contain all the possible sequences of interactions that can be performed.
-See also: [[ESG (event sequence graph)]].
+Event flow graphs (EFGs) contain all the possible sequences of interactions that can be performed. See also: [[ESG (event sequence graph)]].
 
 ![[97 Assets/event_flow_graph.png]]
 ## References

@@ -1,6 +1,9 @@
-| ID       | 2024-12-05-11:24           |
-| -------- | -------------------------- |
-| **Tags** | #definition #cyberSecurity |
+---
+ID: 2024-12-05-11:24
+tags:
+  - definition
+  - cyberSecurity
+---
 ## Definition
 
 The **Denial of Service (DoS)** attack is focused on making a resource (site, application, server) unavailable for the purpose it was designed. There are many ways to make a service unavailable for legitimate users:
@@ -25,6 +28,7 @@ Denial-of-service attacks significantly degrade the service quality experienced 
 
 Risk factors:
 - the system architecture was not designed to meet traffic demand overflows. This makes it easier to perform a DoS attack and can cause DoS symptoms in the absence of an actual attack
-- an organization should avoid taking action that can make them a target of a DoS attack unless the benefits of doing so outweigh the potential costs or mitigating controls are in place.
+- an organization should avoid taking action that can make them a target of a DoS attack unless the benefits of doing so outweigh the potential costs or mitigating controls are in place
+
 ## References
 https://owasp.org/www-community/attacks/Denial_of_Service

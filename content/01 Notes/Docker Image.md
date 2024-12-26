@@ -1,10 +1,16 @@
-
-| ID       | 2024-08-24-11:04 |
-| -------- | ---------------- |
-| **Tags** | #docker #deploy  |
+---
+ID: 2024-08-24-11:04
+tags:
+  - docker
+  - deploy
+  - definition
+  - ci/cd
+---
 ## Main concepts
 
-Images are ==blueprint== for containers and are ==read only==. An image include:
+Images are ==blueprint== for containers and are ==read only==. 
+
+An image include:
 - a runtime environment (e.g., Node, the runtime environment for JavaScript)
 - the whole application code
 - any dependencies

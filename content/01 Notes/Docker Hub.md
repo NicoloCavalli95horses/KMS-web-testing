@@ -1,7 +1,11 @@
-
-| ID       | 2024-09-12-10:27 |
-| -------- | ---------------- |
-| **Tags** | #docker #deploy  |
+---
+ID: 2024-09-12-10:27
+tags:
+  - definition
+  - docker
+  - deploy
+  - ci/cd
+---
 ## Main concepts
 
 **Docker hub** is an online repository for [[Docker Image]]. 

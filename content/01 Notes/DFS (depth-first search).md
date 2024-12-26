@@ -15,13 +15,12 @@ tags:
 - **Recursive Exploration**: each node is explored recursively, visiting all reachable neighbors from that node. Ensure that each node is visited only once to avoid cycles and redundant work.
 - **Completion**: The process continues until all nodes have been visited, ensuring the traversal covers the entire graph
 
-The process continues until all nodes have been visited, ensuring the traversal covers the entire graph.
 
 ![[dfs_example.webp]]
 
 ### Key Considerations
 
-- Each node must be visited exactly once
+- Each node must be visited ==exactly once==
 - Upon completing the traversal, the search should return to the starting node, ensuring all nodes are visited.
 
 ### Application
@@ -31,5 +30,6 @@ The process continues until all nodes have been visited, ensuring the traversal 
 - Topological sorting in dependency resolution
 - Detecting cycles in graphs
 - Solving puzzles and games that require exhaustive search
+
 ## References
 https://medium.com/@tahsinsoyakk/depth-first-search-dfs-a-comprehensive-guide-89fa4ac94883

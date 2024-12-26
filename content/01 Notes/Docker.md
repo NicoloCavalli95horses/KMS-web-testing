@@ -1,12 +1,16 @@
-
-| ID       | 2024-08-24-09:40 |
-| -------- | ---------------- |
-| **Tags** | #deploy #docker  |
+---
+ID: 2024-08-24-09:40
+tags:
+  - definition
+  - deploy
+  - docker
+  - ci/cd
+---
 ## Introduction
 
-Imagine you are running a web application that requires a specific Node.js version (e.g., v.17). Your application does not work if you try to run it using a different Node.js version, because the application is using the latest syntax and the latest supported methods.
+Imagine you are running a web application that requires a specific Node.js version. Your application does not work if you try to run it using a different Node.js version, because the application is using the latest syntax and the latest supported methods.
 
-In general, if you want to run an application effectively, you must meet a series of software prerequisites. In slang, it is said ==replicate the development environment== (that is the condition in which the application was developed).
+In general, if you want to run an application effectively, you must meet a series of software prerequisites. In slang, it is said ==replicate the development environment== (that is, the condition in which the application was developed).
 
 The development environment includes a collection of procedures and tools required to run a software, ad example:
 - specific Operating System at a specific version
@@ -19,7 +23,8 @@ The development environment includes a collection of procedures and tools requir
 In order to solve the aforementioned problem, you could manually install the required software versions, download all the dependencies manually and install them, solve conflicts, clean caches. You can install a [[VM (virtual machine)]] in order to emulate a different Operating System in your machine. This will work. But, obviously, it is very time and resource consuming. That's why Docker was an immediate success.
 
 Problems related to VM installation:
-- a VM has its own full operating system with its own kernel, and is typically slower, because it has to run on top on your current OS
+- a VM has its own full operating system with its own [[kernel]]
+- is typically slower, because it has to run on top on your current OS
 
 ## Why Docker is helpful
 
