@@ -1,13 +1,16 @@
-| ID       | 2024-12-04-13:56 |
-| -------- | ---------------- |
-| **Tags** | #definition      |
+---
+ID: 2024-12-04-13:56
+tags:
+  - definition
+  - designPattern
+---
 ## Definition
 
 The memento pattern is a [[design pattern]] that ==exposes the private internal state of an object for restoring or backup purposes==
 
 Examples:
-- restore an object to its previous state (undo via rollback),
-- versioning,
+- restore an object to its previous state (undo via rollback)
+- versioning
 - custom serialization
 
 The memento pattern is implemented with three objects: the **originator**, a **caretaker** and a **memento**. 

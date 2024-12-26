@@ -1,6 +1,10 @@
-| ID       | 2024-12-18-14:04 |
-| -------- | ---------------- |
-| **Tags** | #definition      |
+---
+ID: 2024-12-18-14:04
+tags:
+  - definition
+  - languageModel
+  - testingTechniques
+---
 ## Definition
 
 A word n-gram language model is a purely statistical model of language.

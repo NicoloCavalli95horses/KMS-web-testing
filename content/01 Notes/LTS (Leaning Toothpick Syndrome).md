@@ -1,6 +1,8 @@
-| ID       | 2024-12-05-15:48 |
-| -------- | ---------------- |
-| **Tags** | #definition      |
+---
+ID: 2024-12-05-15:48
+tags:
+  - definition
+---
 ## Definition
 
 In computer programming, leaning toothpick syndrome (LTS) is the situation in which a quoted expression becomes unreadable because it contains a large number of escape characters, usually backslashes ("\"), to avoid delimiter collision.

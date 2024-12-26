@@ -1,12 +1,9 @@
 ---
 ID: 2024-12-04-09:40
 tags:
+  - paper
+  - gui
 ---
-
-
-| ID       | 2024-12-04-09:40 |
-| -------- | ---------------- |
-| **Tags** | #paper #gui      |
 ## Main concepts
 
 GUI design is currently shifting from designing GUIs composed of [[standard widgets]] to designing GUIs relying on more natural interactions and [[ad hoc widgets]].  

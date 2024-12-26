@@ -1,7 +1,13 @@
-
-| ID       | 2024-07-27-11:36                                 |
-| -------- | ------------------------------------------------ |
-| **Tags** | #clickstreamAnalysis #math #stateless #algorithm |
+---
+ID: 2024-07-27-11:36
+tags:
+  - testingTechniques
+  - clickstreamAnalysis
+  - math
+  - stateless
+  - algorithm
+---
+## Definition 
 
 The Markov chain is a mathematical model that describes a system that transitions from one state to another in a probabilistic manner. A key feature of Markov chains is that the probability of moving to a new state ==depends only on the current state== and not on the sequence of previous states. This principle is known as the "no-memory" or "Markovian" property.
 

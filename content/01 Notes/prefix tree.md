@@ -1,6 +1,10 @@
-| ID       | 2024-12-11-15:05 |
-| -------- | ---------------- |
-| **Tags** | #definition      |
+---
+ID: 2024-12-11-15:05
+tags:
+  - definition
+  - softwareEngineering
+  - dataStructure
+---
 ## Definition
 
 A prefix tree, also known as **trie** or **digital tree**, is a data structure that allows to efficiently store sequences with common prefixes. The common prefixes are stored only once, and the different parts of the sequences are appended as children of the common prefixes.

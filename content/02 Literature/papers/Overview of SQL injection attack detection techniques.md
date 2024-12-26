@@ -1,7 +1,11 @@
-
-| ID       | 2024-12-09-13:28                         |
-| -------- | ---------------------------------------- |
-| **Tags** | #paper #cyberSecurity #SQL #dataSecurity |
+---
+ID: 2024-12-09-13:28
+tags:
+  - paper
+  - cyberSecurity
+  - SQL
+  - dataSecurity
+---
 ## Main concepts
 [[SQLIA (SQL injection attack)]] is a serious threat to data security
 

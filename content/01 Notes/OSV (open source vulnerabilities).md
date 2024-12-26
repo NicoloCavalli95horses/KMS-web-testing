@@ -1,10 +1,13 @@
-| ID       | 2024-12-05-10:56  |
-| -------- | ----------------- |
-| **Tags** | #definition #tool |
+---
+ID: 2024-12-05-10:56
+tags:
+  - definition
+  - cyberSecurity
+  - tool
+---
 ## What is OSV?
 
 OSV consists of:
-
 - The OSV Schema: An easy-to-use data format that maps precisely to open source versioning schemes
 - Reference infrastructure (OSV.dev website, API, and tooling) that aggregates, enriches and indexes vulnerability data from databases that use the OSV schema.
 - OSV-Scanner, the officially supported frontend for OSV.dev

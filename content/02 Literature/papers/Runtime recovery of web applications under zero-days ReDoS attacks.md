@@ -1,7 +1,10 @@
-
-| ID       | 2024-12-09-15:46             |
-| -------- | ---------------------------- |
-| **Tags** | #paper #redos #cyberSecurity |
+---
+ID: 2024-12-09-15:46
+tags:
+  - paper
+  - redos
+  - cyberSecurity
+---
 ## Abstract
 
 [[ReDoS (Regular Expression Denial of Service)]] is an emerging class of DoS attacks to web services. One challenging question for a victim web service under ReDoS attacks is ==how to quickly recover== its normal operation after ReDoS attacks, especially these zero-day ones exploiting previously unknown vulnerabilities.

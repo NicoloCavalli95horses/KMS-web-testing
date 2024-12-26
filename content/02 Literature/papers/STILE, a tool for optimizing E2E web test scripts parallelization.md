@@ -1,7 +1,12 @@
-
-| ID       | 2024-12-11-13:52                                     |
-| -------- | ---------------------------------------------------- |
-| **Tags** | #paper #JavaScript #testingTechniques #e2e #selenium |
+---
+ID: 2024-12-11-13:52
+tags:
+  - paper
+  - JavaScript
+  - testingTechniques
+  - e2e
+  - selenium
+---
 ## Abstract
 
 Web applications quality is commonly assessed by executing End-to-End (E2E) test scripts interacting with those systems as a human tester would. To avoid setting up the web application state for each test script, ==testers usually create test scripts that may depend on others== previously executed.  However, the presence of dependencies prevents parallelization, a fundamental technique for speedup the execution of large test suites.
