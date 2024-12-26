@@ -28,16 +28,35 @@ In model-based testing, most of the recognized research work is based on state-b
 - since a model based on events ([[ESG (event sequence graph)]]) is decoupled from the internal behavior/state of a SUT, ==it is necessary more abstract and simpler== than a model based on states
 - research have been done to convert events-models to states-models and viceversa 
 
-[[positive testing]] and [[negative testing]] can be modelled wi
+[[positive testing]] and [[negative testing]] can be modeled with an abstract syntax that describe the ESG: 
 
-**Positive testing**: the SUT do produce the expected output
-- e.g. the SUT should allow entering characters that are allowed in a login form
-**Negative testing**: the SUT does not produce the output that is not expected. An undesirable behavior is exercised to confirm to confirm that the system does not display that behavior
-- e.g. the SUT should forbid entering characters that are not allowed in a login form
+\[ A B C \]
 
+Where:
+- \[  starting point
+- event A
+- event B
+- event C
+- \] ending point
 
+Coverage criteria:
+- k-sequence coverage criterion
+- fault event pair (FEP) coverage criterion
 
+Different syntax and diagrams have been proposed in order to better model specific needs of a SUT (p.4)
 
+**Input-Output ESG**: it focuses on the event type, marking the events with "!" (input events) and "?" (output event or system outcomes). Example:
+- \[ ?a !b \]
 
+**Communication ESGs**: it maps the behavior between two agents. Useful with sender-receiver structures.
+
+**Quiescent ESGs**:  includes a symbol representing no actions or outputs of the system
+
+**Timed ESGs**: define event-based model with respect to time
+
+**Pushdown ESGs**: the ESG model comes with a stack component. A sequence of stack operations is performed when an event is executed. The execution of the event is successful if and only if the related sequence of stack operations is also successful
+
+Mixed approaches or custom models that fit the SUT needs are always possible. 
+- the more the model is customized, the more precise is, the less generalizable  is
 ## References
 [[ref_testing_event_center_activity]]

@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "38aa71bbed6115a1",
+            "id": "8d435a8aa29d9a6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -158,10 +158,13 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "38aa71bbed6115a1",
+  "active": "8d435a8aa29d9a6f",
   "lastOpenFiles": [
-    "01 Notes/ESG (event sequence graph).md",
+    "00 Antilibrary/decision table.md",
     "02 Literature/papers/Testing is an Event-Centric Activity.md",
+    "01 Notes/positive testing.md",
+    "01 Notes/negative testing.md",
+    "01 Notes/ESG (event sequence graph).md",
     "01 Notes/systematic testing.md",
     "03 References/ref_testing_event_center_activity.md",
     "02 Literature/papers/On model-based testing advanced GUIs.md",
@@ -184,9 +187,6 @@
     "03 References/ref_overview_sql_injection_detection.md",
     "03 References/ref_on_model_based_testing_advanced_guis.md",
     "03 References/ref_mining_android_app_usages.md",
-    "03 References/ref_managing_security_vulnerabilities_dependencies_react.md",
-    "03 References/ref_lightweight_static_analysis_gui_testing.md",
-    "03 References/ref_javascript_the_good_parts.md",
     "97 Assets/canvas_related_issues.png",
     "97 Assets/taxonomy_canvas_issues.png",
     "04 Research paths/Literature review.canvas",
