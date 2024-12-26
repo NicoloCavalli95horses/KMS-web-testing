@@ -1,7 +1,9 @@
-
-| ID       | 2024-12-03-15:07 |
-| -------- | ---------------- |
-| **Tags** | #paper #gui      |
+---
+ID: 2024-12-03-15:07
+tags:
+  - paper
+  - gui
+---
 ## Abstract
 
 The introduction of new types of interactions in GUIs presents new kinds of [[error]] that are not targeted by current testing techniques. We believe that to advance GUI testing, the community needs a comprehensive and high level GUI fault model, which incorporates all types of interactions.

@@ -1,7 +1,10 @@
-
-| ID       | 2024-12-18-09:41        |
-| -------- | ----------------------- |
-| **Tags** | #paper #android #mobile |
+---
+ID: 2024-12-18-09:41
+tags:
+  - paper
+  - android
+  - mobile
+---
 ## Main concepts
 
 GUI-based models extract from Android app execution traces, events, or source code. These models can be extremely useful for the generation of scenarios or test cases. However, extracting effective models can be an expensive process. Existing approaches for automatically deriving GUI-based models are not able to generate scenarios that include events which were not observed in execution (nor event) traces. 

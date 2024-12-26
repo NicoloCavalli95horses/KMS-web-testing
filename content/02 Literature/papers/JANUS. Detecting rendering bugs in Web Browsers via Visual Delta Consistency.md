@@ -1,7 +1,10 @@
-
-| ID       | 2024-12-04-17:11               |
-| -------- | ------------------------------ |
-| **Tags** | #paper #browser #visualTesting |
+---
+ID: 2024-12-04-17:11
+tags:
+  - paper
+  - browser
+  - visualTesting
+---
 ## Abstract
 
 The correctness of browser rendering is not always guaranteed, often leading to rendering bugs. Traditional differential testing, while successful in various domains, falls short when applied to rendering bug detection because an HTML file is likely yield different rendered outcomes across different browsers.

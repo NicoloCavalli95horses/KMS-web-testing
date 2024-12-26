@@ -1,7 +1,10 @@
-
-| ID       | 2024-12-06-09:24             |
-| -------- | ---------------------------- |
-| **Tags** | #paper #gui #testGeneration  |
+---
+ID: 2024-12-06-09:24
+tags:
+  - paper
+  - gui
+  - testGeneration
+---
 ## Main concepts
 
 The main goal of this paper is to combine a [[black-box testing]] and a [[white-box testing]] approach to generate [[EFG (event flow graph)]] and  [[ESG (event sequence graph)]], that are executable on the GUI, and that eventually lead to automatically generated GUI tests. 

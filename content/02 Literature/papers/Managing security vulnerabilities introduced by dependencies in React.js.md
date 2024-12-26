@@ -1,7 +1,11 @@
-
-| ID       | 2024-12-10-16:02                                      |
-| -------- | ----------------------------------------------------- |
-| **Tags** | #paper #JavaScript #cyberSecurity #React #JavaScript  |
+---
+ID: 2024-12-10-16:02
+tags:
+  - paper
+  - JavaScript
+  - cyberSecurity
+  - React
+---
 ## Main concepts
 
 Third-party packages offer several benefits to the application development, but comes also with challenges and security vulnerabilities. These vulnerabilities have been studied mostly in the context of the hosting software ecosystem (e.g., npm package).
