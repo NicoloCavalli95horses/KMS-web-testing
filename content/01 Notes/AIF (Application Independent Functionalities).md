@@ -1,7 +1,9 @@
-
-| ID       | 2024-07-27-17:11 |
-| -------- | ---------------- |
-| **Tags** | #principle       |
+---
+ID: 2024-07-27-17:11
+tags:
+  - definition
+  - principle
+---
 ## Main concepts
 
 AIFs are very common functionalities shared between the majority of the application.
@@ -13,7 +15,7 @@ Examples of AIFs are, for example:
 - Searching and then booking a certain service (car, hotel, flight),
 - Handling an e-commerce cart, etc.
 
-Despite their diffusion, AIFs can easily include faults, even in extremely popular applications, and thus require careful testing. For instance, faults impacting an extensive number of users have been reported for CRUD operations in Jenkins and for authentication operations in Dropbox.
+Despite their diffusion, AIFs can easily include faults, even in extremely popular applications, and thus require careful testing. For instance, faults impacting an extensive number of users have been reported for CRUD operations in [[Jenkins]] and for authentication operations in Dropbox.
 
 The general idea that functionalities recur in a similar way in the GUI of different applications has been already investigates in the field of UI design. 
 

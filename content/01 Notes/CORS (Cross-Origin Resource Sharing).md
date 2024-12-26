@@ -1,9 +1,25 @@
+---
+ID: 2024-07-27-11:25
+tags:
+  - definition
+  - cyberSecurity
+  - CORS
+---
+## Definition
 
-| ID       | 2024-07-27-11:25     |
-| -------- | -------------------- |
-| **Tags** | #cyberSecurity #CORS |
+Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins ([[domain]], scheme, or [[port]]) other than its own, ==from which a browser should permit loading resources==. CORS a set of rules that control how web applications hosted on one domain can request resources from a different domain.
 
-*CORS (Cross-Origin Resource Sharing)* policies are a set of rules that control how web applications hosted on one domain can request resources from a different domain. They are necessary to enhance **security** by preventing potentially malicious behavior from web pages.
+> They are necessary to enhance **security** by preventing potentially malicious behavior from web pages.
+
+```mermaid
+graph TD
+    A[Browser] -->|Sends Request| B[Server]
+    B -->|Checks Origin| C{Allowed Origin?}
+    C -->|Yes| D[Process Request]
+    C -->|No| E[Reject Request]
+    D -->|Responds| A
+    E -->|Responds with Error| A
+```
 
 ## Why CORS is Necessary
 
@@ -21,12 +37,12 @@ It gives resource owners control over which external domains can interact with t
 **Scenario 1: Simple Request Without CORS**
 Imagine you have a web application running on https://example.com that needs to fetch data from an API hosted on https://api.anotherdomain.com.
 
-Without CORS, a request like this might be blocked by the browser for security reasons, because it is a cross-origin request (requesting resources from a different domain).
+Without CORS, a request like this might be blocked by the browser for security reasons.
 
 **Scenario 2: Enabling CORS**
 To enable CORS, the server at https://api.anotherdomain.com must include specific headers in its response. These headers tell the browser that the requesting domain (https://example.com) is allowed to access the resources.
 
-Here’s a simple example of how CORS headers might be added to the server’s response:
+A simple example of how CORS headers might be added to the server’s response:
 
 ```
 Access-Control-Allow-Origin: https://example.com
@@ -46,7 +62,6 @@ Specifies which headers can be used during the actual request.
 ## Example of a CORS Request and Response
 
 Client-Side JavaScript
-Here is an example of a JavaScript function making a cross-origin request:
 
 ```JavaScript
 fetch('https://api.anotherdomain.com/data', {
@@ -79,3 +94,6 @@ Content-Type: application/json
 ## Conclusion
 
 CORS policies are essential for web security, allowing servers to specify which domains are permitted to access their resources. By including appropriate headers in responses, servers can grant or deny permission to different domains, thus providing control over cross-origin requests and protecting user data from unauthorized access.
+
+## References
+https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS

@@ -23,21 +23,24 @@ Let's suppose we are testing an application with 4 parameters (*k = 4*)
 - User is logged in (true, false)
 
 ==The total number of combinations is 36 (3x3x2x2)==, but we can assume that most of the bugs are caused by the interaction between 2 or 3 parameters
-- with *t = 2*,  it means we are considering 2 parameters at the time. Therefore, the total number of couples is 6:
-	- (Browser, OS)
-	- (Browser, Network)
-	- (Browser, Login)
-	- (OS, Network)
-	- (OS, Login)
-	- (Network, Login)
-- the total combinations to explore are 37, since:
-	- (Browser, OS): 3x3 cases = 9
-	- (Browser, Network): 3x2 = 6
-	- (Browser, Login): 3x2 = 6
-	- (OS, Network): 3x2 = 6
-	- (OS, Login): 3x2 = 6
-	- (Network, Login): 2x2 = 4
-- 9 rows are enough to cover all the 37 combinations
+
+With *t = 2*,  it means we are considering 2 parameters at the time. Therefore, the total number of couples is 6:
+- (Browser, OS)
+- (Browser, Network)
+- (Browser, Login)
+- (OS, Network)
+- (OS, Login)
+- (Network, Login)
+
+The total combinations to explore are 37, since:
+- (Browser, OS): 3x3 cases = 9
+- (Browser, Network): 3x2 = 6
+- (Browser, Login): 3x2 = 6
+- (OS, Network): 3x2 = 6
+- (OS, Login): 3x2 = 6
+- (Network, Login): 2x2 = 4
+
+9 rows are enough to cover all the 37 combinations
 
 With 9 tests we can cover all the most important configuration in all the different combinations possible.
 

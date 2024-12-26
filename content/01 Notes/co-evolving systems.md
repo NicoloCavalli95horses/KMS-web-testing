@@ -1,7 +1,9 @@
-
-| ID       | 2024-07-28-18:20   |
-| -------- | ------------------ |
-| **Tags** | #coevolvingSystems |
+---
+ID: 2024-07-28-18:20
+tags:
+  - definition
+  - coevolvingSystems
+---
 Co-evolving systems identify tightly coupled artifacts that are characterized by high interdependence, such as production code and test code.
 
 In well-tested software systems, tests can even get larger than production code.

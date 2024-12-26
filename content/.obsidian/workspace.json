@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7cf2cb5c63c2d71a",
+        "id": "72b7a76edf3b3339",
         "type": "tabs",
         "children": [
           {
-            "id": "ec904910a03d0921",
+            "id": "72ea5a9103325d7d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/DFS (depth-first search).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "DFS (depth-first search)"
             }
           }
         ]
@@ -48,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#coevolvingSystems",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -152,34 +157,34 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "72ea5a9103325d7d",
   "lastOpenFiles": [
-    "00 Antilibrary/XSS (cross site scripting).md",
-    "00 Antilibrary/web workers.md",
-    "00 Antilibrary/VM (virtual machine).md",
-    "00 Antilibrary/trojan horse.md",
-    "00 Antilibrary/tree difference algorithms.md",
-    "00 Antilibrary/statistical language models (n-grams).md",
-    "00 Antilibrary/snowballing study.md",
-    "00 Antilibrary/smuggling.md",
-    "00 Antilibrary/signature forgery.md",
-    "00 Antilibrary/SessionStorage.md",
-    "00 Antilibrary/RNN (recurrent neural network).md",
-    "00 Antilibrary/reflection (Java).md",
-    "00 Antilibrary/recommendation engine.md",
-    "00 Antilibrary/proxy-server.md",
-    "00 Antilibrary/Parallel programming.md",
-    "00 Antilibrary/port.md",
-    "00 Antilibrary/overfitting.md",
-    "00 Antilibrary/open redirect attack.md",
-    "00 Antilibrary/NFA (Nondeterministic Finite Automation).md",
-    "00 Antilibrary/MVW (model-view-controller).md",
-    "00 Antilibrary/man-in-the-middle attacks.md",
-    "00 Antilibrary/machine learning.md",
-    "00 Antilibrary/LocalStorage.md",
-    "00 Antilibrary/LLM (large language model).md",
-    "00 Antilibrary/JWT (JSON Web Token).md",
-    "00 Antilibrary/integer overflow.md",
+    "01 Notes/design pattern.md",
+    "01 Notes/DDT (dependency detection tool).md",
+    "00 Antilibrary/EDG (Event Dependency Graph).md",
+    "01 Notes/CVE (common vulnerabilities and exposures).md",
+    "01 Notes/CRUD (Create, Read, Update, Delete) operations.md",
+    "01 Notes/coverage criteria.md",
+    "01 Notes/CORS (Cross-Origin Resource Sharing).md",
+    "01 Notes/content spoofing.md",
+    "01 Notes/concolic execution.md",
+    "01 Notes/combinatorial testing.md",
+    "01 Notes/CodeCommons.md",
+    "01 Notes/co-evolving systems.md",
+    "01 Notes/Cisco RBAC CVE.md",
+    "01 Notes/canvas DOM element.md",
+    "01 Notes/CA (covering array).md",
+    "01 Notes/buffer overflow.md",
+    "01 Notes/black-box testing.md",
+    "01 Notes/AIF (Application Independent Functionalities).md",
+    "01 Notes/ad hoc widgets.md",
+    "01 Notes/acceptance testing.md",
+    "00 Antilibrary/domain.md",
+    "00 Antilibrary/social engineering.md",
+    "01 Notes/RBAC (role-based access control).md",
+    "00 Antilibrary/Jenkins.md",
+    "00 Antilibrary/AST (Abstract Syntax Tree).md",
+    "00 Antilibrary/ASAR integrity.md",
     "97 Assets/canvas_related_issues.png",
     "97 Assets/taxonomy_canvas_issues.png",
     "04 Research paths/Literature review.canvas",
