@@ -1,6 +1,9 @@
-| ID       | 2024-12-10-10:39 |
-| -------- | ----------------- |
-| **Tags** | #definition       |
+---
+ID: 2024-12-10-10:39
+tags:
+  - definition
+  - testingTechniques
+---
 ## Definition
 
 A **testbed** is a platform for ==conducting rigorous, transparent, and replicable testing of scientific theories, computing tools, and new technologies.==

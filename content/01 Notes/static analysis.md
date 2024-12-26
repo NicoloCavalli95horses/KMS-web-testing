@@ -1,8 +1,12 @@
-
-| ID       | 2024-07-28-18:28          |
-| -------- | ------------------------- |
-| **Tags** | #AST #RegEx #codeAnalysis |
-# Main concepts
+---
+ID: 2024-07-28-18:28
+tags:
+  - definition
+  - codeAnalysis
+  - AST
+  - RegEx
+---
+## Main concepts
 
 Static Analysis is the automated analysis of the source code that happens ==without executing the code.==
 

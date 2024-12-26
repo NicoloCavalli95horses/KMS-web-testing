@@ -1,14 +1,19 @@
-| ID       | 2024-12-04-11:11 |
-| -------- | ---------------- |
-| **Tags** | #definition      |
+---
+ID: 2024-12-04-11:11
+tags:
+  - definition
+  - softwareEngineering
+  - gui
+---
 ## Definition
 
-A User Interface Description Language (UIDL) is a structured, abstract language used to define the layout, behavior, and structure of a user interface. UIDL typically describes interfaces in a platform-independent way, allowing developers to generate interfaces for various devices and platforms from a single definition.
+A User Interface Description Language (UIDL) is a structured, abstract language used to define the layout, behavior, and structure of a [[GUI (graphical user interface)]].
+UIDL typically describes interfaces in a platform-independent way, allowing developers to generate interfaces for various devices and platforms from a single definition.
 
 **Key Features of UIDL:**
-- Abstract Representation: focuses on what the UI should do, not how it is implemented.
-- Platform Independence: enables deployment on multiple devices or systems.
-- Interoperability: acts as a bridge between designers and developers.
+- ==Abstract Representation==: focuses on what the UI should do, not how it is implemented
+- ==Platform Independence==: enables deployment on multiple devices or systems
+- ==Interoperability==: acts as a bridge between designers and developers
 
 **JSON-based UIDL Example**
 

@@ -1,7 +1,9 @@
-
-| ID       | 2024-12-03-11:26 |
-| -------- | ---------------- |
-| **Tags** | #cyberSecurity   |
+---
+ID: 2024-12-03-11:26
+tags:
+  - definition
+  - cyberSecurity
+---
 ## What is a session token
 
 Session tokens are essential components of session management in web application

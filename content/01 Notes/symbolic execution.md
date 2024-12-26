@@ -1,6 +1,9 @@
-| ID       | 2024-12-13-15:20 |
-| -------- | ---------------- |
-| **Tags** | #definition      |
+---
+ID: 2024-12-13-15:20
+tags:
+  - definition
+  - softwareEngineering
+---
 ## Definition
 
 The core idea in symbolic execution is to work with abstract inputs instead of concrete inputs. For example, considering the following function:

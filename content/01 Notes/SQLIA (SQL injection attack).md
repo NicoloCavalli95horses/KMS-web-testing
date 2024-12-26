@@ -1,6 +1,9 @@
-| ID       | 2024-12-10-10:23           |
-| -------- | -------------------------- |
-| **Tags** | #definition #cyberSecurity |
+---
+ID: 2024-12-10-10:23
+tags:
+  - definition
+  - cyberSecurity
+---
 ## Types of SQL attacks
 
 | **Type of attack**           | **Intent**                                                                                                                                                        | **Example**                                                                                                     |

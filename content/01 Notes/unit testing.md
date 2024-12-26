@@ -1,6 +1,10 @@
-| ID       | 2024-12-06-16:45 |
-| -------- | ---------------- |
-| **Tags** | #definition      |
+---
+ID: 2024-12-06-16:45
+tags:
+  - definition
+  - testingTechniques
+  - codeAnalysis
+---
 ## Definition
 
 A unit test verifies the behavior of a software unit in the system. It verifies whether a small and isolated piece of the codebase called “unit” behaves as the developer intended.

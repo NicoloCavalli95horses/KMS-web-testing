@@ -1,7 +1,11 @@
-
-| ID       | 2024-08-24-10:46 |
-| -------- | ---------------- |
-| **Tags** | #linux #wsl #os  |
+---
+ID: 2024-08-24-10:46
+tags:
+  - linux
+  - wsl
+  - os
+  - tool
+---
 ## Main concepts
 
 WSL (Windows Subsystem for Linux) is a Windows feature that allows you to run a Linux environment directly inside Windows, without having to install a [[VM (virtual machine)]] such  or configure a [[dual boot]]. In practice, it's like having a "virtual" Linux that runs inside your Windows operating system.

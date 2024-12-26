@@ -1,6 +1,9 @@
-| ID       | 2024-12-10-09:39 |
-| -------- | ---------------- |
-| **Tags** | #definition      |
+---
+ID: 2024-12-10-09:39
+tags:
+  - definition
+  - designPattern
+---
 ## Definition
 
 A sandbox is a testing environment that isolates untested code changes and outright experimentation from the production environment.

@@ -1,6 +1,11 @@
-| ID       | 2024-12-11-09:53        |
-| -------- | ----------------------- |
-| **Tags** | #definition #JavaScript |
+---
+ID: 2024-12-11-09:53
+tags:
+  - definition
+  - JavaScript
+  - programmingLanguage
+  - cyberSecurity
+---
 ## Definition
 
 > A prototype pollution occurs when a lot of properties and methods are added on a shared ancestor (object prototype).
