@@ -1,7 +1,9 @@
-
-| ID       | 2024-12-03-08:51    |
-| -------- | ------------------- |
-| **Tags** | #cyberSecurity #cve |
+---
+ID: 2024-12-03-08:51
+tags:
+  - cyberSecurity
+  - cve
+---
 ## What is CVE?
 
 The mission of the CVE Program is to identify, define, and catalog publicly disclosed cyber security vulnerabilities. ==There is one CVE Record for each vulnerability in the catalog.== 

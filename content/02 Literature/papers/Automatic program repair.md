@@ -1,6 +1,10 @@
-| ID       | 2024-07-26-17:10      |
-| -------- | --------------------- |
-| **Tags** | #programRepair #paper |
+---
+ID: 2024-07-26-17:10
+tags:
+  - paper
+  - programRepair
+  - automaticTesting
+---
 ## Main concepts
 
 - emerging suite of technologies for automatically fixing [[error]] or vulnerabilities
@@ -25,5 +29,6 @@
 ### Limitations
 
 Assuring patch quality is an unsolved problem. Challenges in applying these techniques to large systems: most repair approaches require expensive and complex recompile-test-and-check loops.
+
 ## References
 [[ref_automatic_program_repair]]

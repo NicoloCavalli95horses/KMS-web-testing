@@ -1,8 +1,8 @@
-
-| ID       | 2024-07-27-11:36 |
-| -------- | ---------------- |
-| **Tags** | #issues          |
-
+---
+ID: 2024-07-27-11:36
+tags:
+  - definition
+---
 Errors in software design refer to flaws, mistakes, or failures in the design phase of software development that can lead to various issues during the implementation, execution, or maintenance of software.
 
 These errors can originate from different sources, including misunderstandings of requirements, poor architectural decisions, inadequate design specifications, and more. Understanding these errors is crucial for developing robust, efficient, and maintainable software systems.

@@ -1,6 +1,9 @@
-| ID       | 2024-12-19-14:28  |
-| -------- | ----------------- |
-| **Tags** | #definition #math |
+---
+ID: 2024-12-19-14:28
+tags:
+  - definition
+  - math
+---
 ## Definition
  
  Combinatorial testing is a testing method that uses multiple combinations of input parameters to perform testing for a software application.

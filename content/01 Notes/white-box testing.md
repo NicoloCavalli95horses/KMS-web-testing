@@ -1,6 +1,9 @@
-| ID       | 2024-12-06-13:35 |
-| -------- | ---------------- |
-| **Tags** | #definition      |
+---
+ID: 2024-12-06-13:35
+tags:
+  - definition
+  - testingTechniques
+---
 ## Definition
 
 Dealing with a "white box" implies having complete access to the [[SUT (system under test)]]: it is possible to look at the code and structure of the product and to use that knowledge to perform the tests.

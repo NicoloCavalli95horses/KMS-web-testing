@@ -1,6 +1,9 @@
-| ID       | 2024-12-19-10:52  |
-| -------- | ----------------- |
-| **Tags** | #definition #math |
+---
+ID: 2024-12-19-10:52
+tags:
+  - definition
+  - math
+---
 ## Definition
 
 Most of the time, ==it is not feasible to test all the combinations of variables of a system, because is too computationally expensive or time consuming.== 
