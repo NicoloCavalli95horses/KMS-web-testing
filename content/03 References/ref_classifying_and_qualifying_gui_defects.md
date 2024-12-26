@@ -1,6 +1,8 @@
-| ID       | 2024-12-03-15:08 |
-| -------- | ---------------- |
-| **Tags** | #ref             |
+---
+ID: 2024-12-03-15:08
+tags:
+  - ref
+---
 ## BibTeX
 
 @inproceedings{lelli2015classifying,

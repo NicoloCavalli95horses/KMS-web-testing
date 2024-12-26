@@ -1,8 +1,8 @@
-
-| ID       | 2024-08-07-10:27 |
-| -------- | ---------------- |
-| **Tags** | #JavaScript      |
-
+---
+ID: 2024-08-07-10:27
+tags:
+  - JavaScript
+---
 # Functions are objects
 
 Functions are used for code reuse, information hiding, and composition.
@@ -189,7 +189,7 @@ console.log(out); // 6
 # Return
 
 A function always return a value.
-- If the return value is not specified, then undefined is returned
+- If the return value is not specified, then *undefined* is returned
 - If the function is invoked with the *new* prefix, and the return value is not an object, then the new object (local *this*) is returned
 
 # Exceptions 
@@ -295,7 +295,7 @@ console.log( counter() ); // 3 the previous tot value is saved
 
 # Callbacks
 
-JavaScript is single threaded but support asynchronous programming and [[web workers]], that allow it to perform parallel computations.
+JavaScript is single threaded but support asynchronous programming and [[web workers]], that allow it to perform [[Parallel programming]]
 
 # Module
 
@@ -376,7 +376,14 @@ function multiply(a) {
 }
 
 const double = multiply(2);
-console.log( double(5) );   // 10
+
+// double contains:
+//  function(b) {
+//    return 2 * b;
+//  }
+
+
+console.log( double(5) ); // 10
 
 ```
 

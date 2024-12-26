@@ -1,10 +1,12 @@
-| ID       | 2024-08-08-12:33               |
-| -------- | ------------------------------ |
-| **Tags** | #JavaScript #parallelComputing |
-## Main concepts
+---
+ID: 2024-12-26-10:20
+tags:
+  - "#definition"
+  - parallelComputing
+---
+## Definition
 
 
 ## References
-
 [Web workers](https://www.youtube.com/watch?v=JMKLXGwltGc) 
-
+see [[Parallel programming]]

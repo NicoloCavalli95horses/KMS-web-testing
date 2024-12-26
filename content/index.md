@@ -1,5 +1,6 @@
 ---
 title: Web front-end testing
+ID: index
 ---
 Hi! I'm Nicolò.
 This is my personal wiki. Here, I store everything I have learned so far during my PhD.

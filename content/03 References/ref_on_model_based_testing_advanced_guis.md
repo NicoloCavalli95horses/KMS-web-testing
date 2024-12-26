@@ -1,7 +1,8 @@
-
-| ID       | 2024-12-04-09:41 |
-| -------- | ----------------- |
-| **Tags** | #ref              |
+---
+ID: 2024-12-04-09:41
+tags:
+  - ref
+---
 ## External Link
 
 https://inria.hal.science/hal-01123647v1

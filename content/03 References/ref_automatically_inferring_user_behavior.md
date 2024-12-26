@@ -1,6 +1,8 @@
-| ID       | 2024-07-26-18:23 |
-| -------- | ---------------- |
-| **Tags** | #ref             |
+---
+ID: 2024-07-26-18:23
+tags:
+  - ref
+---
 ## External Link
 
 [Automatically inferring user behavior models in large-scale web applications](https://www.sciencedirect.com/science/article/abs/pii/S0950584921001579?via%3Dihub)

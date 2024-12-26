@@ -1,7 +1,10 @@
-
-| ID       | 2024-07-27-11:56                          |
-| -------- | ----------------------------------------- |
-| **Tags** | #evolutionaryComputation #algorithm #math |
+---
+ID: 2024-07-27-11:56
+tags:
+  - evolutionaryComputation
+  - algorithm
+  - math
+---
 ## Evolutionary computation
 
 Evolutionary computation is a field of computer science inspired by natural evolutionary processes to solve complex problems. It makes use of algorithms based on natural selection principles that consider mutation, reproduction and the survival of the fittest to find optimal or sub-optimal solutions.
@@ -17,7 +20,6 @@ A GA process typically involves the followings steps:
 - ==crossover==: a new generation is composed by combining couple of candidates
 - ==mutation==: casual variations are introduced to the new generation to allow a certain degree of freedom
 - ==substitution==: the new generation substitutes the previous one
-
 
 
 ```dataviewjs

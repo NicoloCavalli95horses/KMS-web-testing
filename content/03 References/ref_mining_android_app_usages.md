@@ -1,6 +1,8 @@
-| ID       | 2024-12-18-09:41 |
-| -------- | ---------------- |
-| **Tags** | #ref             |
+---
+ID: 2024-12-18-09:41
+tags:
+  - ref
+---
 ## BibTeX
 
 @misc{linaresvasquez2018miningandroidappusages,

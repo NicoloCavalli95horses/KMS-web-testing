@@ -1,7 +1,8 @@
-| ID       | 2024-12-04-10:12 |
-| -------- | ---------------- |
-| **Tags** | #ref             |
-
+---
+ID: 2024-12-04-10:12
+tags:
+  - ref
+---
 ## BibTeX
 
 @inproceedings{bochmann1991fault,

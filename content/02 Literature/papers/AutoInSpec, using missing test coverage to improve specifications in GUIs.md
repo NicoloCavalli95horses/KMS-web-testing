@@ -1,7 +1,12 @@
-
-| ID       | 2024-12-18-16:49                                                       |
-| -------- | ---------------------------------------------------------------------- |
-| **Tags** | #paper #gui #geneticAlgorithm #specificationMining #testingTechniques  |
+---
+ID: 2024-12-18-16:49
+tags:
+  - paper
+  - gui
+  - geneticAlgorithm
+  - specificationMining
+  - testingTechniques
+---
 ## Abstract
 
 Developers of a software’s graphical user interface (GUI) often *fail to document the interface specifications*. Without these, models used for automated test generation
@@ -30,7 +35,7 @@ Incomplete or incorrect GUI specifications cause non trivial problems for model 
 
 Classification of [[ESG (event sequence graph)]] infeasible events: see link.
 
-The [[prolog (programming language)]] is used to implement the invariant detector as it is suitable for logical inferences, allowing the developers to focus on "what" instead of "how". An output of the program could be, for example:
+The [[Prolog (programming language)]] is used to implement the invariant detector as it is suitable for logical inferences, allowing the developers to focus on "what" instead of "how". An output of the program could be, for example:
 - “Select All" cannot precede "Copy To” because the following t-sets were missed: {(Select All, 0), (Copy To, 1)}  ... }.
 
 ## References

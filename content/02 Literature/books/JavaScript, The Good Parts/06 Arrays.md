@@ -1,9 +1,11 @@
-| ID       | 2024-08-21-14:40 |
-| -------- | ---------------- |
-| **Tags** | #JavaScript      |
+---
+ID: 2024-08-21-14:40
+tags:
+  - JavaScript
+---
+# Arrays
 
-## Arrays
-Every array as a length property. It is not an upper bound, rather a value that increases as the array size increases. The length does not necesserily reflect the number of items stored in the array:
+Every array as a length property. It is not an upper bound, rather a value that increases as the array size increases. The length does not necessarily reflect the number of items stored in the array:
 
 ```JavaScript
   const arr = [ ];
@@ -14,7 +16,7 @@ Every array as a length property. It is not an upper bound, rather a value that 
 You can shorten an array by manually decreasing the length
 
 ```JavaScript
-  const arr = [ 1, 2, 3, 4];
+  const arr = [1, 2, 3, 4];
   arr.length = 3;
   console.log(arr); // [1,2,3];
  ```

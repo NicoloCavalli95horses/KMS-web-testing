@@ -1,6 +1,8 @@
-| ID       | 2024-12-09-10:04 |
-| -------- | ----------------- |
-| **Tags** | #ref              |
+---
+ID: 2024-12-09-10:04
+tags:
+  - ref
+---
 ## BibTeX
 
 @inproceedings{memon2001coverage,

@@ -1,9 +1,11 @@
-| ID       | 2024-08-21-14:43 |
-| -------- | ---------------- |
-| **Tags** | #JavaScript      |
-## Bracketless if statements
+---
+ID: 2024-08-21-14:43
+tags:
+  - JavaScript
+---
+# Bracketless if statements
 
-Even though 'if statements' can be bracketless, it is== highly discouraged to omit the brackets==
+Even though 'if statements' can be bracketless, it is ==highly discouraged to omit the brackets==
 
 ```JavaScript
 // 1) valid use case
@@ -24,7 +26,7 @@ if (a) {
 c();
 ```
 
-## Semicolon insertion
+# Semicolon insertion
 
 JavaScript has a mechanism that tries to correct faulty programs by automatically inserting semicolons. This means that opening a curly bracket after a return will cause unexpected results if is done on a new line:
 

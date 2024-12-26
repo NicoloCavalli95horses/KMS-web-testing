@@ -1,12 +1,11 @@
-
-| ID       | 2024-08-03-15:39 |
-| -------- | ---------------- |
-| **Tags** | #JavaScript      |
-
+---
+ID: 2024-08-03-15:39
+tags:
+  - JavaScript
+---
 # Prototype
 
 JavaScript object inherits properties from a prototype object. The prototype itself can inherits from another object too. This process describes a prototype chain.
-
 
 While primitive values are passed by their value, objects are ==passed as reference==. This means that they are never copied:
 
@@ -17,7 +16,7 @@ a.test = false;
 console.log( b.test ); // false
 ```
 
-Every object is linked to a prototype from which it can inherit properties - by default, this is **Object.prototype**. When you create a new object with *Object.create(),* you can select which object should be its prototype
+Every object is linked to a prototype from which it can inherit properties - by default, this is **Object.prototype**. When you create a new object with *Object.create(),* you can select which object should be its prototype.
 
 ### Delegation
 
@@ -68,4 +67,4 @@ console.log( robot.state ) // idle
 
 ### Global abatement
 
-Use a global object that acts as a container for your application will reduce the chance of bad interactions with other applications, widgets, libraries or plugin
+Use a global object that acts as a container for your application will reduce the chance of bad interactions with other applications, widgets, libraries or plugin (see [[prototype pollution]])

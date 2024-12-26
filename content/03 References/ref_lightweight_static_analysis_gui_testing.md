@@ -1,6 +1,8 @@
-| ID       | 2024-12-06-09:26 |
-| -------- | ---------------- |
-| **Tags** | #ref             |
+---
+ID: 2024-12-06-09:26
+tags:
+  - ref
+---
 ## BibTeX
 
 @inproceedings{arlt2012lightweight,

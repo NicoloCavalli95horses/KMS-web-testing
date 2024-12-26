@@ -1,6 +1,8 @@
-| ID       | 2024-08-03-15:01 |
-| -------- | ---------------- |
-| **Tags** | #JavaScript      |
+---
+ID: 2024-08-03-15:01
+tags:
+  - JavaScript
+---
 # Whitespace
 
 JavaScript offers two forms of comments:
@@ -74,6 +76,7 @@ A compilation unit contains a set of executable statements. In web browsers, eac
 ```
 
 ### Labeled statements
+
 The *switch, while, for* and *do* statements support an optional **label** prefix that interacts with the *break* statement. The label allows us to identify a specific statement and can be useful when a lot of nested loops are required
 
 ```JavaScript

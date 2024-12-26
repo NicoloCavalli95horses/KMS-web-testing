@@ -4,22 +4,97 @@
     "type": "split",
     "children": [
       {
-        "id": "9b354e1183214ffc",
+        "id": "209c184b9121b675",
         "type": "tabs",
         "children": [
           {
-            "id": "4eb4a6d71c1a7fe9",
+            "id": "5dfdbb2448bcc906",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "01 Notes/GA (genetic algorithm).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "GA (genetic algorithm)"
+            }
+          },
+          {
+            "id": "618319b748de5eee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature/papers/Automatic program repair.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Automatic program repair"
+            }
+          },
+          {
+            "id": "7a3aaffd36c5040e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/CA (covering array).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CA (covering array)"
+            }
+          },
+          {
+            "id": "cc388492dd979b44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/combinatorial testing.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "combinatorial testing"
+            }
+          },
+          {
+            "id": "e60eb1482bb64d95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/black-box testing.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "black-box testing"
+            }
+          },
+          {
+            "id": "025b0162dc2437a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/white-box testing.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "white-box testing"
             }
           }
         ]
@@ -157,34 +232,36 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "4eb4a6d71c1a7fe9",
+  "active": "5dfdbb2448bcc906",
   "lastOpenFiles": [
-    "04 Research paths/Literature review.canvas",
-    "index.md",
-    "98 Templates/Temp_Reference.md",
-    "98 Templates/Temp_Literature.md",
-    "98 Templates/Temp_Definition.md",
-    "00 Antilibrary/Untitled.md",
-    "03 References/ref_augusto_exploiting_popular_functionalities_generation_semantic_gui_test.md",
-    "01 Notes/CA (covering array).md",
-    "02 Literature/papers/Testing is an Event-Centric Activity.md",
-    "03 References/ref_testing_event_center_activity.md",
+    "01 Notes/ESG (event sequence graph).md",
+    "01 Notes/Prolog (programming language).md",
+    "02 Literature/books/JavaScript, The Good Parts/04 Functions.md",
     "02 Literature/papers/AutoInSpec, using missing test coverage to improve specifications in GUIs.md",
-    "01 Notes/combinatorial testing.md",
-    "01 Notes/CVE (common vulnerabilities and exposures).md",
+    "02 Literature/books/JavaScript, The Good Parts/JavaScript, The Good Parts.md",
     "01 Notes/GA (genetic algorithm).md",
+    "02 Literature/papers/Automatic program repair.md",
+    "01 Notes/CA (covering array).md",
+    "01 Notes/combinatorial testing.md",
     "01 Notes/black-box testing.md",
     "01 Notes/white-box testing.md",
-    "01 Notes/prolog (programming language).md",
-    "01 Notes/ESG (event sequence graph).md",
-    "00 Antilibrary/XSS (cross site scripting).md",
-    "00 Antilibrary/web workers.md",
-    "00 Antilibrary/VM (virtual machine).md",
-    "00 Antilibrary/trojan horse.md",
-    "00 Antilibrary/tree difference algorithms.md",
-    "00 Antilibrary/statistical language models (n-grams).md",
-    "00 Antilibrary/snowballing study.md",
-    "00 Antilibrary/smuggling.md",
+    "02 Literature/papers/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
+    "02 Literature/papers/A taxonomy of testable HTML5 Canvas Issues.md",
+    "02 Literature/papers/A snowballing literature study on test amplification.md",
+    "03 References/ref_augusto_exploiting_popular_functionalities_generation_semantic_gui_test.md",
+    "01 Notes/POLA (Principle Of Least Astonishment).md",
+    "01 Notes/acceptance testing.md",
+    "97 Assets/taxonomy_canvas_issues.png",
+    "03 References/ref_taxonomy_of_testable_html5_canvas_issues.md",
+    "02 Literature/books/JavaScript, The Good Parts/09 Style.md",
+    "02 Literature/books/JavaScript, The Good Parts/06 Arrays.md",
+    "02 Literature/books/JavaScript, The Good Parts/02 Grammar.md",
+    "02 Literature/books/JavaScript, The Good Parts/03 Objects.md",
+    "04 Research paths/Literature review.canvas",
+    "index.md",
+    "03 References/ref_white_and_black_box_testing.md",
+    "03 References/ref_untangling_spaghetti_of_evolutions.md",
+    "03 References/ref_testing_event_center_activity.md",
     "97 Assets/dfs_example.webp",
     "Untitled.canvas",
     "97 Assets/prefix_tree.png",
@@ -195,7 +272,6 @@
     "97 Assets/test_extraction_esg.png",
     "97 Assets/event_sequences.png",
     "97 Assets/event_flow_graph 1.png",
-    "97 Assets/event_sequence_graph.png",
     "04 Research paths",
     "02 Literature/papers/Classifying and qualifying GUI defects/Classifying and qualifying GUI defects.pdf",
     "02 Literature/papers/Classifying and qualifying GUI defects/Classifying and qualifying GUI defects.pdf.crdownload",

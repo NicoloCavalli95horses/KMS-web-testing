@@ -1,6 +1,8 @@
-| ID       | 2024-12-11-13:52 |
-| -------- | ----------------- |
-| **Tags** | #ref              |
+---
+ID: 2024-12-11-13:52
+tags:
+  - ref
+---
 ## External Link
 https://www.sciencedirect.com/science/article/pii/S0164121224003480?dgcid=rss_sd_all
 

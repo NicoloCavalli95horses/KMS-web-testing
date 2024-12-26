@@ -1,6 +1,9 @@
-| ID       | 2024-12-19-16:10 |
-| -------- | ---------------- |
-| **Tags** | #definition      |
+---
+ID: 2024-12-19-16:10
+tags:
+  - definition
+  - programmingLanguage
+---
 ## Definition
 
 Prolog is a programming language released in the '70, based on logical programming.
@@ -12,23 +15,23 @@ Prolog is still used today in:
 
 Its syntax is minimal and a background in computer science it is not assumed.
 
-The language itself is based on fundamental concepts such as unification, recursion and backtracking.
+The language itself is based on fundamental concepts such as unification, recursion (see JavaScript recursion in: [[04 Functions]]) and backtracking.
 
 ```prolog
 % Facts
-parent(bob, alice).     % Bob is parent of Alice
-parent(alice, charlie). % Alice is parent of Charlie
+parent(Manuele, Tommaso).  % Manuele is parent of Tommaso
+parent(Tommaso, Leonardo). % Tommaso is parent of Leonardo
 
 % Rules
 grandparent(X, Y) :- 
-    parent(X, Z), 
+    parent(X, Z), %Z is searched among the facts
     parent(Z, Y).
 ```
 
 Execution:
 
 ```prolog
-?- grandparent(bob, charlie) % true
+?- grandparent(Manuele, Leonardo) % true
 ```
 ## References
 https://it.wikipedia.org/wiki/Prolog

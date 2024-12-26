@@ -1,6 +1,8 @@
-| ID       | 2024-12-19-16:57 |
-| -------- | ----------------- |
-| **Tags** | #ref              |
+---
+ID: 2024-12-19-16:57
+tags:
+  - ref
+---
 ## External Link
 
 https://ieeexplore.ieee.org/abstract/document/6258472

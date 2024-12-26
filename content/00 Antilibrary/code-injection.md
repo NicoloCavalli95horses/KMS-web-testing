@@ -1,6 +1,9 @@
-| ID       | 2024-12-11-09:53           |
-| -------- | -------------------------- |
-| **Tags** | #definition #cyberSecurity |
+---
+ID: 2024-12-26-10:18
+tags:
+  - "#definition"
+  - cyberSecurity
+---
 ## Definition
 
 
