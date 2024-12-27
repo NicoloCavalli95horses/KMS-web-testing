@@ -18,6 +18,9 @@ A "black box" approach does not consider the internal structure, design, and pro
 - it focuses on the behavior of the system
 - it is not suitable for algorithms testing
 
-Also known as: *data-driven testing, functional testing, closed-box testing*
+**Exhaustive input testing** (p.9): making use of every possible input condition as test case
+
+Also known as: *data-driven testing, functional testing, closed-box testing, input-output-driven testing*
 ## References
 [[ref_white_and_black_box_testing]]
+[[ref_art_of_software_testing]]

@@ -26,3 +26,22 @@ A general negative attitude toward testing is registered:
 # 2. The psychology and Economics of Software Testing
 
 In an ideal world, we would want to test every possible permutation of a program. In most cases, however, this simply is not possible (see [[CA (covering array)]] to redure permutations number).
+
+Definition of testing from the assumption that the program contains errors (p.20):
+
+~~Testing is demonstrating that the code is error-free~~ this is virtually impossible
+
+> [!What is software testing]
+Testing is the process of executing a program with the intent of finding errors
+
+Do not try to demonstrate that a program is error-free. Instead, try to demonstrate that the program has errors. The output of this attitude leads to add value to the code.
+
+The idea is to consider the software as a sick patient:
+- if we test it and we don't find anything, it's like paying a doctor for a useless service that make you question his abilities
+- if a doctor find a problem, both the patient and the doctor are happy because now they can work toward a solution
+
+The best way to prove something it is ==not to find confirmations, rather to deny the disconfirmations== (see [[confirmation bias]])
+
+It is generally impractical, often impossible, to find **all the errors** in a program.
+
+Differences between [[black-box testing]] and [[white-box testing]]
