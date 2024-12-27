@@ -28,7 +28,7 @@ A 4-people team is constituted as follows:
 
 Process:
 1. The author narrates statement by statement the logic of the program. During the discourse, other participants may raise questions. The author usually is the one who find the most issue simply by reading aloud his program.
-2. The program is analyzed with respect to checklists of historically common programming errors
+2. The program is analyzed with respect to checklists of historically common programming errors (p.35-36)
 
 The moderator ==assures that the focus is on finding errors and not correcting them.==
 
@@ -38,5 +38,25 @@ The moderator ==assures that the focus is on finding errors and not correcting t
 Managers should not use the results against the author, otherwise the author himself will adopt a defensive attitude which can complicate the process of finding bugs and issues, that was the goal of the code inspection in the first place
 
 
+**Walkthroughs**
 
+|          | Value                       |
+| -------- | --------------------------- |
+| Duration | 90-120 min                  |
+| People   | 3-5 people                  |
+| Pace     | 100-150 statements per hour |
+Similarly to the code inspections, a team is constituted. The author of the code, a moderator and a skilled tester should be present. Other people that may be involved: a programming-language expert, a new programmer (to give a fresh, unbiased outlook), someone from a different project, someone from the same programming team as the programmer.
+
+The main difference from code inspection is that the participants **play computer**
+- a set of test cases is mentally executed. The test data are walked through the logic of the program
+- the expected state is monitored on paper or whiteboard
+- this inputs serve as a vehicle for getting started and for questioning the author's choices
+
+
+**Desk checking**
+
+A desk check can be viewed as a one-person inspection or walkthrough: a person reads a program, checks it with respect to an error list, and/or walks test data through it. It is relatively unproductive since it is undisciplined process
+
+
+**Peer ratings**
 
