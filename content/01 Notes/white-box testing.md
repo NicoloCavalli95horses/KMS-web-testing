@@ -32,6 +32,9 @@ Structural White box testing
 - Loop testing
 - Data flow testing 
 
-Also known as: *clear box testing, code-based testing, structural testing, transparent testing*
+Testing all the possible path of 
+
+Also known as: *clear box testing, code-based testing, structural testing, transparent testing, logic-driven testing*
 ## References
 [[ref_white_and_black_box_testing]]
+[[ref_art_of_software_testing]]
