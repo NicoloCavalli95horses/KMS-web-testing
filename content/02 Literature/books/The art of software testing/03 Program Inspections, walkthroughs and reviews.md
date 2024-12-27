@@ -52,11 +52,9 @@ The main difference from code inspection is that the participants **play compute
 - the expected state is monitored on paper or whiteboard
 - this inputs serve as a vehicle for getting started and for questioning the author's choices
 
-
 **Desk checking**
-
 A desk check can be viewed as a one-person inspection or walkthrough: a person reads a program, checks it with respect to an error list, and/or walks test data through it. It is relatively unproductive since it is undisciplined process
 
-
 **Peer ratings**
-
+Peer rating is a technique of evaluating anonymous programs in terms of their overall quality, maintainability, extensibility, usability, and clarity. The purpose of the technique is to provide programmer self-evaluation.
+- the rating consists in answering high-level questions on a scale from 1 to 10
