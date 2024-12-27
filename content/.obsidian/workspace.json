@@ -11,10 +11,15 @@
             "id": "5f9911bc09918a57",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature/books/The art of software testing/The art of software testing.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The art of software testing"
             }
           }
         ]
