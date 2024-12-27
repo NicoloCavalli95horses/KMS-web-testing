@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -159,8 +160,9 @@
   },
   "active": "5f9911bc09918a57",
   "lastOpenFiles": [
-    "02 Literature/books/The art of software testing/01-02 Self-assessment test, psychology and economics of software testing.md",
+    "index.md",
     "02 Literature/books/The art of software testing/03 Program Inspections, walkthroughs and reviews.md",
+    "02 Literature/books/The art of software testing/01-02 Self-assessment test, psychology and economics of software testing.md",
     "02 Literature/books/The art of software testing/The art of software testing.md",
     "01 Notes/black-box testing.md",
     "01 Notes/white-box testing.md",
@@ -185,7 +187,6 @@
     "03 References/ref_coverage_criteria_gui_testing.md",
     "03 References/ref_classifying_and_qualifying_gui_defects.md",
     "03 References/ref_automatically_inferring_user_behavior.md",
-    "03 References/ref_automatic_program_repair.md",
     "02 Literature/books/The art of software testing",
     "97 Assets/canvas_related_issues.png",
     "97 Assets/taxonomy_canvas_issues.png",
