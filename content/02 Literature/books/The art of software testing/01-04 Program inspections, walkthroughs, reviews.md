@@ -45,3 +45,15 @@ The best way to prove something it is ==not to find confirmations, rather to den
 It is generally impractical, often impossible, to find **all the errors** in a program.
 
 Differences between [[black-box testing]] and [[white-box testing]]
+
+**Testing guidelines**
+1) Always define clearly the expected output or result of a program (see [[test oracle]])
+2) A programmer should avoid attempting to test his own program, because his judgement is biased. If the implementation is incorrect due to the programmer’s misunderstanding of the specifications, it is likely that the programmer will carry the same misunderstanding into the test
+3) A programming organization should not test its own programs
+4) Any testing process should include a thorough inspection of the results of each test
+5) Test cases must be written for input conditions that are invalid and unexpected, as well as for those that are valid and expected
+6) Examining a program to see if it does not do what it is supposed to do is only half the battle; the other half is seeing whether the program does what it is not supposed to do
+7) Avoid throwaway test cases unless the program is truly a throwaway program
+8) Do not plan a testing effort under the tacit assumption that no errors will be found
+9) The probability of the existence of more errors in a section of a program is proportional to the number of errors already found in that section
+10) Testing is an extremely creative and intellectually challenging task
