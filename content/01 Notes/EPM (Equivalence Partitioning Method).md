@@ -7,6 +7,9 @@ tags:
 ---
 ## Definition
 
+> [!NOTE]
+> Defines condition or error classes to help reduce the number of finite tests. Assumes that a test of a representative value within a class also tests all values or conditions within that class
+
 Equivalence partitioning is a [[black-box testing]] method that ==map software specifications into classes, grouping singular input conditions that are expected to behave similarly.==
 Each class represents a group of inputs that should produce the same outcome when tested:
 - for each group, a test candidate represents all (or most) of the units in that equivalence class. Therefore, executing this test is expected to be enough to cover that specific class
@@ -37,7 +40,7 @@ Each class is composed as follows:
 **Defining the test cases to be executed (2)**
 The test cases must be created from the previous classification. Hence, the test cases must be cover as many single units (ID-n) inside the classes as possible. The best test covers the most classes
 
-> [!NOTE] Title
+> [!NOTE] Note
 The power of a test can be measured by the number of units it actually covers
 
 ### Limits

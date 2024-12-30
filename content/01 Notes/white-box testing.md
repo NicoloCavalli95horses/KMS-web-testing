@@ -27,7 +27,7 @@ Static white box testing (see [[03 Program Inspections, walkthroughs and reviews
 - **Formal Inspections:** a formal review and aimed at detecting all faults, violations and other side effects.
 
 Structural White box testing
-- Control flow (a.k.a. [[coverage testing]])
+- Control flow (a.k.a. [[logic coverage testing]])
 - Basic path testing
 - Loop testing
 - Data flow testing 
