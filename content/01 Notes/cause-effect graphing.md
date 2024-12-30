@@ -14,9 +14,11 @@ A cause-effect graph is a method used in [[black-box testing]]  to translate nat
 2. the causes and effects in the specification are identified (input > output). Each cause-effect chain is assigned a unique number
 3. a boolean graph linking the causes and effects is created
 4. impossible chains are annotated (due to syntactic or environmental contraints)
-5. the graph is converted into a [[decision table]]
+5. the graph is converted into a limited-entry [[decision table]]
 6. each column in the decision table is converted into a test case
 
+**Basic cause-effect graph symbols**
 
+![[cause_effect_graph_symbols.png]]
 ## References
 [[04 Test-case Design]]
