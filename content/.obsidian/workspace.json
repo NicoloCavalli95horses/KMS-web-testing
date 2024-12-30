@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#definition",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,9 +159,11 @@
   },
   "active": "fe4f0fb9d5efcba7",
   "lastOpenFiles": [
+    "01 Notes/compiler.md",
+    "00 Antilibrary/AST (Abstract Syntax Tree).md",
+    "01 Notes/EPM (Equivalence Partitioning Method).md",
     "01 Notes/coverage criteria.md",
     "01 Notes/coverage testing.md",
-    "01 Notes/EPM (Equivalence Partitioning Method).md",
     "02 Literature/books/The art of software testing/04 Test-case Design.md",
     "01 Notes/combinatorial testing.md",
     "01 Notes/white-box testing.md",
@@ -184,8 +186,6 @@
     "03 References/ref_on_model_based_testing_advanced_guis.md",
     "03 References/ref_mining_android_app_usages.md",
     "03 References/ref_managing_security_vulnerabilities_dependencies_react.md",
-    "03 References/ref_lightweight_static_analysis_gui_testing.md",
-    "03 References/ref_javascript_the_good_parts.md",
     "02 Literature/books/The art of software testing",
     "97 Assets/canvas_related_issues.png",
     "97 Assets/taxonomy_canvas_issues.png",
