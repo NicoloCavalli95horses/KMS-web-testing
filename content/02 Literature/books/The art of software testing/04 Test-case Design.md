@@ -1,0 +1,24 @@
+---
+ID: 2024-12-30-09:15
+tags:
+  - softwareEngineering
+  - testingTechniques
+---
+# Design and creation of test cases
+
+Since guaranteeing the absence of all errors, as well as designing all the possible tests, is impossible, the question is: *what subset of all possible test cases has the highest probability of detecting the most errors?*
+
+Most used techniques and methodologies in [[black-box testing]]:
+- [[equivalence partitioning]]
+- [[boundary value analysis]]
+- [[cause-effect graphing]]
+- [[error guessing]]
+
+While, in [[white-box testing]]:
+- [[statement coverage]]
+- [[decision coverage]]
+- [[condition coverage]]
+- [[decision/condition coverage]]
+- [[multiple-condition coverage]]
+
+Using a combination of these techniques provides a solid and rigorous test of a program
