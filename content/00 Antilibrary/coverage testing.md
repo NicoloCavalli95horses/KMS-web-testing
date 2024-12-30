@@ -23,9 +23,9 @@ print(false)
 ```
 
 Types of coverage testing:
-### Decision coverage
+### Decision or branch coverage
 
-Each decision/path in statements such as if, else, while, switch, etc, must be executed at least once. The focus is on executing each branch, not to test every possible condition that satisfies the statements. In the following example *x > 0* and *x < 0* are required:
+Each decision/branch in statements such as *if, else, while, switch*, etc, must be traversed at least once. ==The focus is on executing each branch, not to test every possible condition that satisfies the statements==. Decision coverage usually can satisfy statement coverage.
 
 ```Python
 if (x > 0 or y == 0):
@@ -34,34 +34,40 @@ else:
     print(false)
 
 # In decision coverage, the focus is on the branch execution
-# only x > 0 and x < 0 need to be executed to execute the different paths
+# only x > 0 and x < 0 need to be executed to execute the different paths, while other valid conditions are ignored
 ```
 
 ### Condition coverage
 
-In condition coverage, the condition inputs are tested, regardless of the actual decision/branch. Each condition shall be evaluated ==as true or false, at least once==. The  An improved version is the **decision/condition coverage**, which focus both on the conditions and on the decision/path.
+In condition coverage, the individual condition units are tested, regardless of the actual decision/branch. ==Each unit must be evaluated as true or false, at least once==.
+Not all the possible combination are taken into consideration.
+- An improved version is the **decision/condition coverage**, which focus both on the conditions and on the decision/path.
 
 ```Python
-if (A || B): 
+if (x || y): 
     print("Decision met")
 
-# Not all the possible combination are taken into consideration:
-  #  A = true, B = false and A = false, B = true are enough to 
+# In condition coverage, the units of a condition are under test
+# Each unit should be tested as true/false
+# Therefore, not all the possible combination are tested, because
+  # 1) x = true, y = false
+  # 2) x = false, y = true
+# are enough to satisfy the condition coverage
 ```
 
 ### Multiple-condition coverage
 
-Each possible condition is tested, as well as each possible output. This is the most complete approach, but also the most computationally expensive. Similar to [[combinatorial testing]].
+Each possible point of entry in a condition is tested, as well as each possible output. This is the most complete approach, but also the most computationally expensive. It is associated to [[combinatorial testing]].
 
 ```Python
 if (x > 0 and y < 5):
     print("Condition met")
 
-# 4 tests are needed:
-  # x > 0 true, y < 5 true
-  # x > 0 true, y < 5 false
-  # x > 0 false, y < 5 true
-  # x > 0 false, y < 5 false
+# All the possible input combinations are tested:
+  # 1) x > 0 true, y < 5 true
+  # 2) x > 0 true, y < 5 false
+  # 3) x > 0 false, y < 5 true
+  # 4) x > 0 false, y < 5 false
 ```
 
 ## References
