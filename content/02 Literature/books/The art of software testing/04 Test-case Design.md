@@ -15,10 +15,6 @@ Most used techniques and methodologies in [[black-box testing]]:
 - [[error guessing]]
 
 While, in [[white-box testing]]:
-- [[statement coverage]]
-- [[decision coverage]]
-- [[condition coverage]]
-- [[decision/condition coverage]]
-- [[multiple-condition coverage]]
+- [[coverage testing]]
 
 Using a combination of these techniques provides a solid and rigorous test of a program
