@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/boundary value analysis.md",
+                "file": "00 Antilibrary/decision table.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "boundary value analysis"
+              "title": "decision table"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -157,8 +158,12 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "fe4f0fb9d5efcba7",
   "lastOpenFiles": [
+    "97 Assets/decision_table.png",
+    "00 Antilibrary/decision table.md",
+    "01 Notes/cause-effect graphing.md",
+    "01 Notes/ESG (event sequence graph).md",
     "02 Literature/books/The art of software testing/04 Test-case Design.md",
     "01 Notes/boundary value analysis.md",
     "01 Notes/EPM (Equivalence Partitioning Method).md",
@@ -182,10 +187,6 @@
     "03 References/ref_testing_event_center_activity.md",
     "03 References/ref_taxonomy_of_testable_html5_canvas_issues.md",
     "03 References/ref_stile_tool_for_e2e_parallelization.md",
-    "03 References/ref_snowballing_literature_study_test_amplification.md",
-    "03 References/ref_runtime_recovery_web_app_under_redos.md",
-    "03 References/ref_overview_sql_injection_detection.md",
-    "03 References/ref_on_model_based_testing_advanced_guis.md",
     "02 Literature/books/The art of software testing",
     "97 Assets/canvas_related_issues.png",
     "97 Assets/taxonomy_canvas_issues.png",
@@ -197,7 +198,6 @@
     "97 Assets/summary_SQLIA_detections.png",
     "97 Assets/integration_tree.png",
     "97 Assets/test_extraction_esg.png",
-    "97 Assets/event_sequences.png",
     "04 Research paths",
     "02 Literature/papers/Classifying and qualifying GUI defects/Classifying and qualifying GUI defects.pdf",
     "02 Literature/papers/Classifying and qualifying GUI defects/Classifying and qualifying GUI defects.pdf.crdownload",
