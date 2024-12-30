@@ -9,7 +9,7 @@ tags:
 Since guaranteeing the absence of all errors, as well as designing all the possible tests, is impossible, the question is: *what subset of all possible test cases has the highest probability of detecting the most errors?*
 
 Most used techniques and methodologies in [[black-box testing]]:
-- [[equivalence partitioning]]
+- [[EPM (Equivalence Partitioning Method)]]
 - [[boundary value analysis]]
 - [[cause-effect graphing]]
 - [[error guessing]]
