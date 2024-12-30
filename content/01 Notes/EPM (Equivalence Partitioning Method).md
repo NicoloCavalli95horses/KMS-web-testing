@@ -41,7 +41,7 @@ Each class is composed as follows:
 The test cases must be created from the previous classification. Hence, the test cases must be cover as many single units (ID-n) inside the classes as possible. The best test covers the most classes
 
 > [!NOTE] Note
-The power of a test can be measured by the number of units it actually covers
+> The power of a test can be measured by the number of units it actually covers
 
 ### Limits
 
