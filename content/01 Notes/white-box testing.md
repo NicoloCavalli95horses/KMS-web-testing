@@ -3,6 +3,7 @@ ID: 2024-12-06-13:35
 tags:
   - definition
   - testingTechniques
+  - whiteBoxTesting
 ---
 ## Definition
 
@@ -19,12 +20,13 @@ White box testing is used in the [[unit testing ]]phase, although it can also oc
 - it is suitable for algorithm testing
 - can detect logical [[error]], find random typos, uncover incorrect programming assumption
 
-## White box testing techniques are:
+### White box testing techniques are:
 
 Static white box testing (see [[03 Program Inspections, walkthroughs and reviews]])
-- **Desk checking**: In this process the authors who have knowledge in the programming language very well will be involved in desk checking testing. This can be done very quickly without much dependency on other developers or testers. The main advantages are defects detected in this stage are easily located and correct at same time. 
-- **Code walkthrough**: This testing is also known as technical code walkthrough, in this testing process a group of technical people go through the code. This is one type of semi-formal review technique. In Code walkthrough process a high level employees involved such as technical leads, database administrators and one or more peers. The people who involved in this technical code walkthrough they raise questions on code to author, in this process author explains the logic and if there is any mistake in the logic, the code is corrected immediately
-- **Formal Inspections:** a formal review and aimed at detecting all faults, violations and other side effects.
+- [[desk checking]]: In this process the authors who have knowledge in the programming language very well will be involved in desk checking testing. This can be done very quickly without much dependency on other developers or testers. The main advantages are defects detected in this stage are easily located and correct at same time. 
+- [[code walkthrough]]: this testing is also known as technical code walkthrough, in this testing process a group of technical people go through the code. This is one type of semi-formal review technique. During a code walkthrough high level employees are involved: technical leads, database administrators and one or more peers. The people who involved in this technical code walkthrough they raise questions on code to author, in this process author explains the logic and if there is any mistake in the logic, the code is corrected immediately
+- [[code inspection]]: a formal review aimed at detecting all faults, violations and other side effects
+- [[peer rating]]
 
 Structural White box testing
 - Control flow (a.k.a. [[logic coverage testing]])

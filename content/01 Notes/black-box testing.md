@@ -3,10 +3,11 @@ ID: 2024-12-06-13:34
 tags:
   - definition
   - testingTechniques
+  - blackBoxTesting
 ---
 ## Definition
 
-A "black box" approach does not consider the internal structure, design, and product implementation. In other words, the tester does not know the internal functioning of the [[SUT (system under test)]]. The Black Box only evaluates the external behavior of the system. The inputs received by the system and the outputs or responses it produces are tested.
+A *black box* approach does not consider the internal structure, design, and product implementation. In other words, the tester does not know the internal functioning of the [[SUT (system under test)]]. The black box approach only evaluates the external behavior of the system. The inputs received by the system and the outputs or responses it produces are tested.
 
 **Key features:**
 - considers only external behavior
@@ -20,7 +21,14 @@ A "black box" approach does not consider the internal structure, design, and pro
 
 **Exhaustive input testing** (p.9, [[ref_art_of_software_testing]]): making use of every possible input condition as test case. Since you cannot test a program to guarantee that is error free, the ultimate goal is to find as many issues as possible given time and resources constraints.
 
+**Black-box techniques**
+- [[EPM (Equivalence Partitioning Method)]]
+- [[boundary value analysis]]
+- [[cause-effect graphing]]
+- [[error guessing]]
+
 Also known as: *data-driven testing, functional testing, closed-box testing, input-output-driven testing*
+
 ## References
 [[ref_white_and_black_box_testing]]
 [[ref_art_of_software_testing]]

@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"4d8dc6c843af9d77","type":"text","text":"## [[black-box testing]] techniques","x":-1680,"y":-275,"width":440,"height":75},
+		{"id":"7d3692ed71c2143a","type":"text","text":"## [[white-box testing]] techniques","x":-740,"y":-275,"width":460,"height":75},
+		{"id":"36cd1edded966505","type":"text","text":"[[black-box testing]] techniques:\n- [[EPM (Equivalence Partitioning Method)]]\n- [[boundary value analysis]]\n- [[cause-effect graphing]]\n- [[error guessing]]","x":-1680,"y":-120,"width":440,"height":240},
+		{"id":"311ca34b954f3748","type":"text","text":"**Automatic methods**\n- [[logic coverage testing]]\n- [[unit testing]]: [[non-incremental (big-bang) unit testing]], [[incremental or integration testing]]\n","x":-900,"y":-100,"width":370,"height":240},
+		{"id":"9dfe7a0158487424","type":"text","text":"**Manual methods**\n- [[code inspection]]\n- [[code walkthrough]]\n- [[desk checking]]\n- [[peer rating]]","x":-465,"y":-100,"width":370,"height":240},
+		{"id":"410535d29f741635","type":"text","text":"# The art of software testing\n#book","x":-1240,"y":-460,"width":500,"height":100}
+	],
+	"edges":[
+		{"id":"d5bfd558728f1c83","fromNode":"410535d29f741635","fromSide":"right","toNode":"7d3692ed71c2143a","toSide":"top"},
+		{"id":"ae27686b2242354b","fromNode":"410535d29f741635","fromSide":"left","toNode":"4d8dc6c843af9d77","toSide":"top"},
+		{"id":"2915460327390426","fromNode":"4d8dc6c843af9d77","fromSide":"bottom","toNode":"36cd1edded966505","toSide":"top"},
+		{"id":"152dcddff1ace02b","fromNode":"7d3692ed71c2143a","fromSide":"bottom","toNode":"311ca34b954f3748","toSide":"top"},
+		{"id":"19f5e9ef94525b7f","fromNode":"7d3692ed71c2143a","fromSide":"bottom","toNode":"9dfe7a0158487424","toSide":"top"}
+	]
+}

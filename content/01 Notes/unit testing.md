@@ -28,8 +28,7 @@ Most of the time, a value returned from an object, a function or a class is test
 
 - [[non-incremental (big-bang) unit testing]]: each class or function is tested independently
 - [[incremental or integration testing]]: classes and functions are tested in their relationship and integrated together
-- [[top-down testing]]
-- [[bottom-up testing]]
+
 ## References
 https://www.browserstack.com/guide/unit-testing-in-javascript
 [[ref_white_and_black_box_testing]]

@@ -7,6 +7,19 @@ tags:
 ---
 ## Definition
 
+Logic coverage aims at covering logic paths in a program. It is similar to [[unit testing]], but it does not necessary require a [[test oracle]] to be executed.
+
+```mermaid
+flowchart TD
+    id0(Coverage type) --> id1(statement)
+    id0(Coverage type) --> id2(decision)
+    id0(Coverage type) --> id3(condition)
+    id0(Coverage type) --> id4(multiple-conditions)
+    
+   
+```
+
+**Statement coverage**
 The statement coverage is a [[white-box testing]] technique that ==aims to execute every statement in a program, at least once==.
 
 In practice, this means to stress a function by passing every kind of input possible, in order to execute every statement it includes. The goal is to make every line of code covered. This is mostly useful to detect unreachable paths or statements that throw an [[error]].
@@ -22,9 +35,8 @@ print(false)
 # With x = 1 all the statements are executed, but the case x <= 0 is not considered
 ```
 
-Types of coverage testing:
-### Decision or branch coverage
 
+**Decision or branch coverage**
 Each decision/branch in statements such as *if, else, while, switch*, etc, must be traversed at least once. ==The focus is on executing each branch, not to test every possible condition that satisfies the statements==. Decision coverage usually can satisfy statement coverage.
 
 ```Python
@@ -37,8 +49,8 @@ else:
 # only x > 0 and x < 0 need to be executed to execute the different paths, while other valid conditions are ignored
 ```
 
-### Condition coverage
 
+**Condition coverage**
 In condition coverage, the individual condition units are tested, regardless of the actual decision/branch. ==Each unit must be evaluated as true or false, at least once==.
 Not all the possible combination are taken into consideration.
 - An improved version is the **decision/condition coverage**, which focus both on the conditions and on the decision/path.
@@ -55,8 +67,8 @@ if (x || y):
 # are enough to satisfy the condition coverage
 ```
 
-### Multiple-condition coverage
-
+ 
+ **Multiple-condition coverage**
 Each possible point of entry in a condition is tested, as well as each possible output. This is the most complete approach, but also the most computationally expensive. It is associated to [[combinatorial testing]].
 
 ```Python

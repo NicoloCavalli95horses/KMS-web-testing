@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2616998e39ecb105",
+        "id": "7f1caa7e75a5d705",
         "type": "tabs",
         "children": [
           {
-            "id": "4ea9230376d8b67e",
+            "id": "312338c9a75377a7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Literature/books/The art of software testing/The art of software testing.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "The art of software testing"
+              "title": "New tab"
             }
           }
         ]
@@ -78,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 303.5
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -157,38 +152,41 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "4ea9230376d8b67e",
+  "active": "312338c9a75377a7",
   "lastOpenFiles": [
-    "02 Literature/books/The art of software testing/Untitled.canvas",
-    "02 Literature/books/The art of software testing/The art of software testing.md",
-    "02 Literature/books/The art of software testing/01-02 Self-assessment test, psychology and economics of software testing.md",
-    "02 Literature/books/The art of software testing/09 Testing in the Agile Environment.md",
-    "02 Literature/books/The art of software testing/10 Testing Internet Applications.md",
-    "02 Literature/books/The art of software testing/11 Mobile Application Testing.md",
-    "02 Literature/books/JavaScript, The Good Parts/JavaScript, The Good Parts.md",
-    "00 Antilibrary/non-incremental (big-bang) unit testing.md",
-    "00 Antilibrary/incremental or integration testing.md",
-    "97 Assets/bottom_up_top_down_testing_comparison.png",
-    "02 Literature/books/The art of software testing/05 Module (Unit) Testing.md",
-    "01 Notes/LM (word n-gram language model).md",
-    "00 Antilibrary/bottom-up testing.md",
-    "00 Antilibrary/statistical language models (n-grams).md",
-    "00 Antilibrary/top-down testing.md",
-    "01 Notes/stub.md",
-    "01 Notes/driver.md",
-    "01 Notes/unit testing.md",
-    "00 Antilibrary/- top-down testing.md",
-    "02 Literature/books/The art of software testing/04 Test-case Design.md",
+    "97 Assets/lts.png",
     "index.md",
-    "01 Notes/EPM (Equivalence Partitioning Method).md",
-    "01 Notes/white-box testing.md",
-    "01 Notes/boundary value analysis.md",
-    "01 Notes/cause-effect graphing.md",
-    "01 Notes/sessions token.md",
-    "00 Antilibrary/code-injection.md",
+    "00 Antilibrary/XSS (cross site scripting).md",
+    "00 Antilibrary/web workers.md",
+    "00 Antilibrary/VM (virtual machine).md",
+    "00 Antilibrary/trojan horse.md",
+    "00 Antilibrary/tree difference algorithms.md",
+    "00 Antilibrary/social engineering.md",
+    "00 Antilibrary/snowballing study.md",
+    "00 Antilibrary/smuggling.md",
+    "00 Antilibrary/signature forgery.md",
+    "00 Antilibrary/SessionStorage.md",
+    "00 Antilibrary/RNN (recurrent neural network).md",
+    "00 Antilibrary/reflection (Java).md",
+    "00 Antilibrary/recommendation engine.md",
+    "00 Antilibrary/proxy-server.md",
+    "00 Antilibrary/port.md",
+    "01 Notes/Parallel programming.md",
+    "00 Antilibrary/overfitting.md",
+    "00 Antilibrary/open redirect attack.md",
+    "00 Antilibrary/NFA (Nondeterministic Finite Automation).md",
+    "01 Notes/non-incremental (big-bang) unit testing.md",
+    "00 Antilibrary/MVW (model-view-controller).md",
+    "00 Antilibrary/man-in-the-middle attacks.md",
+    "00 Antilibrary/machine learning.md",
+    "00 Antilibrary/LocalStorage.md",
+    "02 Literature/books/The art of software testing/The art of software testing.canvas",
+    "04 Research paths/Literature review.canvas",
+    "02 Literature/books/JavaScript, The Good Parts/chapters",
+    "02 Literature/books/The art of software testing/chapters",
+    "97 Assets/bottom_up_top_down_testing_comparison.png",
     "97 Assets/cause_effect_graph_symbols.png",
     "97 Assets/decision_table.png",
-    "04 Research paths/Literature review.canvas",
     "02 Literature/books/The art of software testing",
     "97 Assets/canvas_related_issues.png",
     "97 Assets/taxonomy_canvas_issues.png",
@@ -196,7 +194,6 @@
     "Untitled.canvas",
     "97 Assets/prefix_tree.png",
     "97 Assets/dependencies_variables_classiification.png",
-    "97 Assets/lts.png",
     "97 Assets/summary_SQLIA_detections.png",
     "04 Research paths",
     "02 Literature/papers/Classifying and qualifying GUI defects/Classifying and qualifying GUI defects.pdf",
@@ -205,8 +202,6 @@
     "02 Literature/papers/Nouveau dossier",
     "Untitled 1.canvas",
     "02 Literature/books/JavaScript, The Good Parts",
-    "02 Literature/books",
-    "02 Literature/papers",
-    "97 Assets"
+    "02 Literature/books"
   ]
 }

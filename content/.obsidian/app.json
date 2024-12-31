@@ -2,5 +2,6 @@
   "alwaysUpdateLinks": true,
   "autoConvertHtml": false,
   "newFileLocation": "folder",
-  "newFileFolderPath": "00 Antilibrary"
+  "newFileFolderPath": "00 Antilibrary",
+  "promptDelete": false
 }

@@ -3,6 +3,7 @@ ID: 2024-12-30-16:49
 tags:
   - softwareEngineering
   - testingTechniques
+  - whiteBoxTesting
 ---
 An example of [[unit testing]] is provided, combining all the white-box testing techniques described in the previous chapters.
 
