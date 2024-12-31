@@ -9,8 +9,6 @@ An example of [[unit testing]] is provided, combining all the white-box testing 
 Considering the manner in which the modules of a program are combined, we could highlight two types of unit testing:
 - [[non-incremental (big-bang) unit testing]]: each class or function is tested independently
 - [[incremental or integration testing]]: classes and functions are tested in their relationship and integrated together
-- [[top-down testing]]
-- [[bottom-up testing]]
 
 The way functions and classes talk to each other in a program impact:
 - the form in which module tests cases are written
