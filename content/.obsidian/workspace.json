@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/EPM (Equivalence Partitioning Method).md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EPM (Equivalence Partitioning Method)"
+              "title": "index"
             }
           }
         ]
@@ -159,6 +159,8 @@
   },
   "active": "4ea9230376d8b67e",
   "lastOpenFiles": [
+    "01 Notes/EPM (Equivalence Partitioning Method).md",
+    "01 Notes/white-box testing.md",
     "02 Literature/books/The art of software testing/04 Test-case Design.md",
     "01 Notes/boundary value analysis.md",
     "01 Notes/cause-effect graphing.md",
@@ -176,7 +178,6 @@
     "02 Literature/books/The art of software testing/05 Module (Unit) Testing.md",
     "02 Literature/books/The art of software testing/03 Program Inspections, walkthroughs and reviews.md",
     "02 Literature/books/The art of software testing/01-02 Self-assessment test, psychology and economics of software testing.md",
-    "01 Notes/EPM (Equivalence Partitioning Method).md",
     "01 Notes/logic coverage testing.md",
     "01 Notes/error guessing.md",
     "03 References/ref_art_of_software_testing.md",
@@ -186,7 +187,6 @@
     "01 Notes/ESG (event sequence graph).md",
     "01 Notes/error.md",
     "01 Notes/compiler.md",
-    "00 Antilibrary/AST (Abstract Syntax Tree).md",
     "04 Research paths/Literature review.canvas",
     "02 Literature/books/The art of software testing",
     "97 Assets/canvas_related_issues.png",
