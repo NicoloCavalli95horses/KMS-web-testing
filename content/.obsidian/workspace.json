@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "00 Antilibrary/non-incremental (big-bang) unit testing.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "non-incremental (big-bang) unit testing"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 438.5
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -159,34 +159,34 @@
   },
   "active": "4ea9230376d8b67e",
   "lastOpenFiles": [
+    "02 Literature/books/The art of software testing/05 Module (Unit) Testing.md",
+    "01 Notes/unit testing.md",
+    "00 Antilibrary/bottom-up testing.md",
+    "00 Antilibrary/top-down testing.md",
+    "00 Antilibrary/incremental or integration testing.md",
+    "00 Antilibrary/non-incremental (big-bang) unit testing.md",
+    "00 Antilibrary/- top-down testing.md",
+    "02 Literature/books/The art of software testing/04 Test-case Design.md",
+    "02 Literature/books/The art of software testing/The art of software testing.md",
+    "02 Literature/books/The art of software testing/11 Mobile Application Testing.md",
+    "index.md",
     "01 Notes/EPM (Equivalence Partitioning Method).md",
     "01 Notes/white-box testing.md",
-    "02 Literature/books/The art of software testing/04 Test-case Design.md",
     "01 Notes/boundary value analysis.md",
     "01 Notes/cause-effect graphing.md",
     "01 Notes/sessions token.md",
     "00 Antilibrary/code-injection.md",
     "01 Notes/buffer overflow.md",
-    "02 Literature/books/The art of software testing/The art of software testing.md",
     "02 Literature/books/JavaScript, The Good Parts/JavaScript, The Good Parts.md",
-    "02 Literature/books/The art of software testing/11 Mobile Application Testing.md",
     "02 Literature/books/The art of software testing/10 Testing Internet Applications.md",
     "02 Literature/books/The art of software testing/09 Testing in the Agile Environment.md",
     "02 Literature/books/The art of software testing/08 Debugging.md",
     "02 Literature/books/The art of software testing/07 Usability (User) Testing.md",
     "02 Literature/books/The art of software testing/06 Higher-Order Testing.md",
-    "02 Literature/books/The art of software testing/05 Module (Unit) Testing.md",
     "02 Literature/books/The art of software testing/03 Program Inspections, walkthroughs and reviews.md",
     "02 Literature/books/The art of software testing/01-02 Self-assessment test, psychology and economics of software testing.md",
-    "01 Notes/logic coverage testing.md",
-    "01 Notes/error guessing.md",
-    "03 References/ref_art_of_software_testing.md",
     "97 Assets/cause_effect_graph_symbols.png",
-    "01 Notes/decision table.md",
     "97 Assets/decision_table.png",
-    "01 Notes/ESG (event sequence graph).md",
-    "01 Notes/error.md",
-    "01 Notes/compiler.md",
     "04 Research paths/Literature review.canvas",
     "02 Literature/books/The art of software testing",
     "97 Assets/canvas_related_issues.png",
