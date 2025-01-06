@@ -11,17 +11,15 @@
             "id": "39d246f28c182879",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/Paper structure.canvas",
-                "viewState": {
-                  "x": 108.39886231665425,
-                  "y": 309.45521807531475,
-                  "zoom": -1.003120020429296
-                }
+                "file": "index.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Paper structure"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ]
@@ -162,11 +160,11 @@
   "active": "39d246f28c182879",
   "lastOpenFiles": [
     "04 Canvases/Literature review.canvas",
+    "index.md",
     "04 Canvases/Paper structure.canvas",
     "98 Templates/Temp_Definition.md",
     "98 Templates/Temp_Literature.md",
     "98 Templates/Temp_Reference.md",
-    "index.md",
     "97 Assets/lts.png",
     "00 Antilibrary/XSS (cross site scripting).md",
     "00 Antilibrary/web workers.md",
