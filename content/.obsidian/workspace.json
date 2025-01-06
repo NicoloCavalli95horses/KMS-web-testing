@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7f1caa7e75a5d705",
+        "id": "40afd919adf9ffc2",
         "type": "tabs",
         "children": [
           {
-            "id": "312338c9a75377a7",
+            "id": "39d246f28c182879",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/Paper structure.canvas",
+                "viewState": {
+                  "x": 108.39886231665425,
+                  "y": 309.45521807531475,
+                  "zoom": -1.003120020429296
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Paper structure"
             }
           }
         ]
@@ -152,10 +159,15 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "312338c9a75377a7",
+  "active": "39d246f28c182879",
   "lastOpenFiles": [
-    "97 Assets/lts.png",
+    "04 Canvases/Literature review.canvas",
+    "04 Canvases/Paper structure.canvas",
+    "98 Templates/Temp_Definition.md",
+    "98 Templates/Temp_Literature.md",
+    "98 Templates/Temp_Reference.md",
     "index.md",
+    "97 Assets/lts.png",
     "00 Antilibrary/XSS (cross site scripting).md",
     "00 Antilibrary/web workers.md",
     "00 Antilibrary/VM (virtual machine).md",
@@ -177,11 +189,7 @@
     "00 Antilibrary/NFA (Nondeterministic Finite Automation).md",
     "01 Notes/non-incremental (big-bang) unit testing.md",
     "00 Antilibrary/MVW (model-view-controller).md",
-    "00 Antilibrary/man-in-the-middle attacks.md",
-    "00 Antilibrary/machine learning.md",
-    "00 Antilibrary/LocalStorage.md",
     "02 Literature/books/The art of software testing/The art of software testing.canvas",
-    "04 Research paths/Literature review.canvas",
     "02 Literature/books/JavaScript, The Good Parts/chapters",
     "02 Literature/books/The art of software testing/chapters",
     "97 Assets/bottom_up_top_down_testing_comparison.png",
@@ -195,7 +203,7 @@
     "97 Assets/prefix_tree.png",
     "97 Assets/dependencies_variables_classiification.png",
     "97 Assets/summary_SQLIA_detections.png",
-    "04 Research paths",
+    "04 Canvases",
     "02 Literature/papers/Classifying and qualifying GUI defects/Classifying and qualifying GUI defects.pdf",
     "02 Literature/papers/Classifying and qualifying GUI defects/Classifying and qualifying GUI defects.pdf.crdownload",
     "02 Literature/papers/Classifying and qualifying GUI defects",

@@ -1,9 +1,12 @@
 ---
 title: Web front-end testing
 ID: index
+tags:
+  - index
+  - homepage
 ---
-Hi! I'm Nicolò.
-This is my personal wiki. Here, I store everything I have learned so far during my PhD.
+## Hi! I'm Nicolò.
+### This is my personal wiki. Here, I store everything I have learned so far during my PhD.
 
 | **Topic**          | Web front-end testing. Large scale analysis and techniques improvement |
 | ------------------ | ---------------------------------------------------------------------- |
@@ -14,7 +17,7 @@ This is my personal wiki. Here, I store everything I have learned so far during 
 | **Site**           | Institute for Research in Computer Science and Random Systems IRISA    |
 ## Project structure
 
-#### 00 Antilibrary
+### 00 Antilibrary
 An antilibrary is a collection of books that are owned but have not yet been read. The term was coined by Nassim Nicholas Taleb in *The Black Swan: The Impact of the Highly Improbable*. Hence, the antilibrary includes all the notes that are not yet written.
 
 #### 01 Notes
@@ -29,6 +32,8 @@ This folder includes all references used by articles or notes in general. Refere
 #### 98 Templates
 Templates are boilerplate notes to standardize the note taking process.
 
+
+---
 ## Contacts
 
 [GitHub](https://github.com/NicoloCavalli95horses) | [LinkedIn](https://www.linkedin.com/in/nicolo-cavalli/) | [Portfolio](https://nicolocavalli.com/)
