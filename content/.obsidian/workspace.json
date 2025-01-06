@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -158,10 +157,28 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "39d246f28c182879",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
-    "01 Notes/E2E (end-to-end) testing.md",
+    "01 Notes/regression testing.md",
     "02 Literature/books/The art of software testing/chapters/06 Higher-Order Testing.md",
+    "01 Notes/acceptance testing.md",
+    "00 Antilibrary/procedure testing.md",
+    "serviceability/serviceability or maintenance testing.md",
+    "compatibility/compatibility or conversion testing.md",
+    "serviceability",
+    "00 Antilibrary/MTTR (Mean Time To Recover).md",
+    "00 Antilibrary/recovery testing.md",
+    "00 Antilibrary/reliability testing.md",
+    "00 Antilibrary/installation testing.md",
+    "compatibility",
+    "00 Antilibrary/configuration testing.md",
+    "00 Antilibrary/storage testing.md",
+    "00 Antilibrary/performance testing.md",
+    "00 Antilibrary/security testing.md",
+    "00 Antilibrary/usability testing.md",
+    "00 Antilibrary/stress testing.md",
+    "00 Antilibrary/volume testing.md",
+    "01 Notes/E2E (end-to-end) testing.md",
     "02 Literature/books/The art of software testing/chapters/08 Debugging.md",
     "02 Literature/books/The art of software testing/chapters/07 Usability (User) Testing.md",
     "02 Literature/books/The art of software testing/chapters/05 Module (Unit) Testing.md",
@@ -172,24 +189,8 @@
     "02 Literature/papers/A snowballing literature study on test amplification.md",
     "01 Notes/fuzzling.md",
     "01 Notes/integration testing.md",
-    "index.md",
     "04 Canvases/Paper structure.canvas",
-    "98 Templates/Temp_Definition.md",
-    "98 Templates/Temp_Literature.md",
-    "98 Templates/Temp_Reference.md",
     "97 Assets/lts.png",
-    "00 Antilibrary/XSS (cross site scripting).md",
-    "00 Antilibrary/web workers.md",
-    "00 Antilibrary/VM (virtual machine).md",
-    "00 Antilibrary/trojan horse.md",
-    "00 Antilibrary/tree difference algorithms.md",
-    "00 Antilibrary/social engineering.md",
-    "00 Antilibrary/snowballing study.md",
-    "00 Antilibrary/smuggling.md",
-    "00 Antilibrary/signature forgery.md",
-    "00 Antilibrary/SessionStorage.md",
-    "00 Antilibrary/RNN (recurrent neural network).md",
-    "00 Antilibrary/reflection (Java).md",
     "02 Literature/books/JavaScript, The Good Parts/chapters",
     "02 Literature/books/The art of software testing/chapters",
     "97 Assets/bottom_up_top_down_testing_comparison.png",
@@ -208,8 +209,6 @@
     "02 Literature/papers/Classifying and qualifying GUI defects/Classifying and qualifying GUI defects.pdf.crdownload",
     "02 Literature/papers/Classifying and qualifying GUI defects",
     "02 Literature/papers/Nouveau dossier",
-    "Untitled 1.canvas",
-    "02 Literature/books/JavaScript, The Good Parts",
-    "02 Literature/books"
+    "Untitled 1.canvas"
   ]
 }
