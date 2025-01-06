@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "02 Literature/books/The art of software testing/chapters/06 Higher-Order Testing.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "06 Higher-Order Testing"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -159,7 +160,18 @@
   },
   "active": "39d246f28c182879",
   "lastOpenFiles": [
+    "01 Notes/E2E (end-to-end) testing.md",
+    "02 Literature/books/The art of software testing/chapters/06 Higher-Order Testing.md",
+    "02 Literature/books/The art of software testing/chapters/08 Debugging.md",
+    "02 Literature/books/The art of software testing/chapters/07 Usability (User) Testing.md",
+    "02 Literature/books/The art of software testing/chapters/05 Module (Unit) Testing.md",
+    "02 Literature/books/The art of software testing/The art of software testing.canvas",
+    "02 Literature/books/The art of software testing/The art of software testing.md",
     "04 Canvases/Literature review.canvas",
+    "01 Notes/SQLIA (SQL injection attack).md",
+    "02 Literature/papers/A snowballing literature study on test amplification.md",
+    "01 Notes/fuzzling.md",
+    "01 Notes/integration testing.md",
     "index.md",
     "04 Canvases/Paper structure.canvas",
     "98 Templates/Temp_Definition.md",
@@ -178,16 +190,6 @@
     "00 Antilibrary/SessionStorage.md",
     "00 Antilibrary/RNN (recurrent neural network).md",
     "00 Antilibrary/reflection (Java).md",
-    "00 Antilibrary/recommendation engine.md",
-    "00 Antilibrary/proxy-server.md",
-    "00 Antilibrary/port.md",
-    "01 Notes/Parallel programming.md",
-    "00 Antilibrary/overfitting.md",
-    "00 Antilibrary/open redirect attack.md",
-    "00 Antilibrary/NFA (Nondeterministic Finite Automation).md",
-    "01 Notes/non-incremental (big-bang) unit testing.md",
-    "00 Antilibrary/MVW (model-view-controller).md",
-    "02 Literature/books/The art of software testing/The art of software testing.canvas",
     "02 Literature/books/JavaScript, The Good Parts/chapters",
     "02 Literature/books/The art of software testing/chapters",
     "97 Assets/bottom_up_top_down_testing_comparison.png",
