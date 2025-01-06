@@ -2,23 +2,23 @@
 	"nodes":[
 		{"id":"9aa211ba9fd13796","type":"text","text":"# Graphical User Interface testing techniques on large scale application","x":-260,"y":-40,"width":520,"height":200,"color":"4"},
 		{"id":"b7e24bf0c956fd02","type":"text","text":"Analyzing GUIs output (graphical rendering)\n- visual consistency ([[JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency]])\n- HTML5 Canvas related issues ([[A taxonomy of testable HTML5 Canvas Issues]])\n- GUI defects ([[Classifying and qualifying GUI defects]])","x":78,"y":-642,"width":440,"height":300},
-		{"id":"b60c743cf034db82","x":78,"y":-243,"width":440,"height":50,"color":"2","type":"text","text":"## output analysis"},
+		{"id":"b60c743cf034db82","type":"text","text":"## output analysis","x":78,"y":-243,"width":440,"height":60,"color":"2"},
 		{"id":"4bcf8833acf9af39","type":"text","text":"## software testing techniques","x":-215,"y":243,"width":430,"height":90,"color":"2"},
-		{"id":"acf32acdb8c3664a","type":"text","text":"### mixed approach","x":-165,"y":501,"width":250,"height":60},
 		{"id":"00c9c5eec92f6bad","type":"text","text":"### white-box testing","x":345,"y":503,"width":295,"height":50},
 		{"id":"ec5f23f2d740d524","type":"text","text":"- [[fuzzling]] testing\n- test amplification\n","x":-165,"y":621,"width":250,"height":107},
 		{"id":"6ca3589bc5f41400","type":"text","text":"**Automatic methods**\n- [[logic coverage testing]]\n- [[unit testing]]: [[non-incremental (big-bang) unit testing]], [[incremental or integration testing]]\n","x":131,"y":671,"width":325,"height":240},
 		{"id":"6b03fccdd9f45392","type":"text","text":"**Manual methods**\n- [[code inspection]]\n- [[code walkthrough]]\n- [[desk checking]]\n- [[peer rating]]","x":530,"y":671,"width":300,"height":240},
-		{"id":"29378b76814d134e","type":"text","text":"[[black-box testing]] techniques:\n- [[EPM (Equivalence Partitioning Method)]]\n- [[boundary value analysis]]\n- [[cause-effect graphing]]\n- [[E2E (end-to-end) testing]]","x":-655,"y":611,"width":440,"height":240},
+		{"id":"29378b76814d134e","type":"text","text":"[[black-box testing]] techniques:\n- [[EPM (Equivalence Partitioning Method)]]\n- [[boundary value analysis]]\n- [[cause-effect graphing]]\n- [[E2E (end-to-end) testing]]\n- [[decision table]]","x":-655,"y":611,"width":440,"height":240},
 		{"id":"c2d518c6238d9c7e","type":"text","text":"### black-box testing","x":-565,"y":501,"width":260,"height":60},
-		{"id":"885ea7d23616647b","x":-690,"y":25,"width":315,"height":70,"color":"2","type":"text","text":"## behavioral analysis"},
+		{"id":"885ea7d23616647b","type":"text","text":"## behavioral analysis","x":-690,"y":25,"width":315,"height":70,"color":"2"},
 		{"id":"cbbddaf863f57b40","type":"text","text":"Analyzing GUIs behavior:\n- interaction flow and event sequences ([[EFG (event flow graph)]], [[ESG (event sequence graph)]])\n- clickstream analysis ([[Markov’s chain and clickstream analysis]])\n- [[static analysis]], [[dynamic analysis]], [[concolic execution]], [[symbolic execution]]\n- Events sequences analysis with [[LM (word n-gram language model)]]","x":-1360,"y":-107,"width":560,"height":335},
 		{"id":"be27fee0e5084d0a","type":"text","text":"Manipulate extracted events sequences:\n- reduce combinatorial explosion with [[CA (covering array)]]","x":-1360,"y":268,"width":560,"height":120},
 		{"id":"aa999716a5f7163c","type":"text","text":"Automatically generate and execute GUI tests","x":-1360,"y":428,"width":560,"height":80},
 		{"id":"dee53fec36b24cdb","type":"text","text":"Software repair, recommendation, patching:\n- code synthesis ([[Automatic program repair]])\n- recommendation engines (software linting)\n- evolutionary computation (machine learning, [[GA (genetic algorithm)]])","x":-565,"y":-642,"width":380,"height":329},
 		{"id":"95a12bc86762f9fc","type":"text","text":"## proactive approaches","x":-565,"y":-243,"width":380,"height":60,"color":"2"},
 		{"id":"b79ea8dd52f7de57","type":"text","text":"## vulnerabilities analysis","x":390,"y":-10,"width":250,"height":141,"color":"2"},
-		{"id":"b3c0e3324d4558f8","type":"text","text":"Analyzing GUIs vulnerability (cyber security issues):\n- [[ReDoS (Regular Expression Denial of Service)]] attacks\n- [[SQLIA (SQL injection attack)]]\n- dependencies issues [[Managing security vulnerabilities introduced by dependencies in React.js]]","x":800,"y":-107,"width":380,"height":309}
+		{"id":"b3c0e3324d4558f8","type":"text","text":"Analyzing GUIs vulnerability (cyber security issues):\n- [[ReDoS (Regular Expression Denial of Service)]] attacks\n- [[SQLIA (SQL injection attack)]]\n- dependencies issues [[Managing security vulnerabilities introduced by dependencies in React.js]]","x":800,"y":-107,"width":380,"height":309},
+		{"id":"acf32acdb8c3664a","type":"text","text":"### mixed approaches","x":-188,"y":501,"width":296,"height":52}
 	],
 	"edges":[
 		{"id":"204e9272a4afae51","fromNode":"cbbddaf863f57b40","fromSide":"bottom","toNode":"be27fee0e5084d0a","toSide":"top"},
