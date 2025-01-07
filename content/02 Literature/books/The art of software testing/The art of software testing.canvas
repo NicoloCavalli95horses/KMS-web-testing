@@ -5,13 +5,19 @@
 		{"id":"36cd1edded966505","type":"text","text":"[[black-box testing]] techniques:\n- [[EPM (Equivalence Partitioning Method)]]\n- [[boundary value analysis]]\n- [[cause-effect graphing]]\n- [[error guessing]]","x":-1680,"y":-120,"width":440,"height":240},
 		{"id":"311ca34b954f3748","type":"text","text":"**Automatic methods**\n- [[logic coverage testing]]\n- [[unit testing]]: [[non-incremental (big-bang) unit testing]], [[incremental or integration testing]]\n","x":-900,"y":-100,"width":370,"height":240},
 		{"id":"9dfe7a0158487424","type":"text","text":"**Manual methods**\n- [[code inspection]]\n- [[code walkthrough]]\n- [[desk checking]]\n- [[peer rating]]","x":-465,"y":-100,"width":370,"height":240},
-		{"id":"410535d29f741635","type":"text","text":"# The art of software testing\n#book","x":-1240,"y":-460,"width":500,"height":120}
+		{"id":"410535d29f741635","type":"text","text":"# The art of software testing\n#book","x":-1240,"y":-460,"width":500,"height":120},
+		{"id":"a3f1c23292fdc140","type":"text","text":"-  [[volume testing]]\n- [[stress testing]]\n- [[security testing]]\n- [[performance testing]]\n- [[storage testing]]\n- [[configuration testing]]\n- [[compatibility or conversion testing]]\n- [[installation testing]]\n- [[reliability testing]]\n- [[recovery testing]]\n- [[serviceability or maintenance testing]]\n- [[procedure testing]]\n- [[regression testing]]\n- [[acceptance testing]]","x":-935,"y":-1240,"width":440,"height":498},
+		{"id":"319ed8bc08b20d26","type":"text","text":"## higher-order testing","x":-882,"y":-684,"width":335,"height":75},
+		{"id":"64c33187cfed1379","type":"text","text":"## usability testing","x":-1460,"y":-684,"width":280,"height":75}
 	],
 	"edges":[
 		{"id":"d5bfd558728f1c83","fromNode":"410535d29f741635","fromSide":"right","toNode":"7d3692ed71c2143a","toSide":"top"},
 		{"id":"ae27686b2242354b","fromNode":"410535d29f741635","fromSide":"left","toNode":"4d8dc6c843af9d77","toSide":"top"},
 		{"id":"2915460327390426","fromNode":"4d8dc6c843af9d77","fromSide":"bottom","toNode":"36cd1edded966505","toSide":"top"},
 		{"id":"152dcddff1ace02b","fromNode":"7d3692ed71c2143a","fromSide":"bottom","toNode":"311ca34b954f3748","toSide":"top"},
-		{"id":"19f5e9ef94525b7f","fromNode":"7d3692ed71c2143a","fromSide":"bottom","toNode":"9dfe7a0158487424","toSide":"top"}
+		{"id":"19f5e9ef94525b7f","fromNode":"7d3692ed71c2143a","fromSide":"bottom","toNode":"9dfe7a0158487424","toSide":"top"},
+		{"id":"c92a560de1383e80","fromNode":"410535d29f741635","fromSide":"top","toNode":"319ed8bc08b20d26","toSide":"bottom"},
+		{"id":"3811d1243a0bc47f","fromNode":"410535d29f741635","fromSide":"top","toNode":"64c33187cfed1379","toSide":"bottom"},
+		{"id":"8d220559fccbb532","fromNode":"319ed8bc08b20d26","fromSide":"top","toNode":"a3f1c23292fdc140","toSide":"bottom"}
 	]
 }

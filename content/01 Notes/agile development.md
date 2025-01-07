@@ -29,5 +29,13 @@ Agile testing is a form of collaborative testing, in that everyone
 is involved in the process through design, implementation, and execution of the test plan. Customers are involved in defining acceptance tests by defining use cases and program attributes
 - testing is not seen as a 'phase', but rather it is integrated with development
 - agile testing often relies on automated testing
+
+
+**Extreme programming**
+The Extreme Programming model is one of more popular Agile methodologies that focuses on communication, planning, and testing.
+- **extreme testing**: focuses on unit and acceptance tests
+
+Extreme Testing also requires you to create the test harness, based on the program specification, before you start coding your application.
+- In this way, you design your application to pass the unit tests, thus increasing the probability that it will meet the specification
 ## References
 [[09 Testing in the Agile Environment]]
