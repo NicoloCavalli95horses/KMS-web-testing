@@ -4,4 +4,5 @@ tags:
   - testingTechniques
   - softwareEngineering
 ---
-## Definition
+
+Features of the [[agile development]]

@@ -30,3 +30,7 @@ An effective method for locating errors in small programs is to backtrack the in
 
 **Debugging by testing**
 Using ad hoc test suits to detect the bugs in a specific piece of code
+
+> [!NOTE]
+> Corrections are much more error prone than the original code in the program. 
+
