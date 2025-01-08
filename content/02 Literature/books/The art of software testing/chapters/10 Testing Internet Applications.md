@@ -37,3 +37,10 @@ Three-tier structure:
 
 **Data layer**
 Testing the data layer means testing the database management system that the application use to store and retrieve information
+- **response time**
+- **data integrity**
+- **fault tolerance and recoverability**
+
+
+**MTBF**: mean time between failures
+**MTTR**: mean time to respond

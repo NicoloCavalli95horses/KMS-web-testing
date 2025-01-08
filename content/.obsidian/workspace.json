@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/books/The art of software testing/chapters/10 Testing Internet Applications.md",
+                "file": "02 Literature/books/The art of software testing/chapters/11 Mobile Application Testing.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10 Testing Internet Applications"
+              "title": "11 Mobile Application Testing"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -160,8 +159,9 @@
   },
   "active": "7aff401eaa64990d",
   "lastOpenFiles": [
-    "04 Canvases/Literature review.canvas",
     "02 Literature/books/The art of software testing/chapters/10 Testing Internet Applications.md",
+    "00 Antilibrary/Untitled.md",
+    "04 Canvases/Literature review.canvas",
     "02 Literature/books/The art of software testing/chapters/09 Testing in the Agile Environment.md",
     "02 Literature/books/The art of software testing/chapters/08 Debugging.md",
     "index.md",
