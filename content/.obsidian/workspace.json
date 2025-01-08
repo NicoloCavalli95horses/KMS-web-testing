@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "02 Literature/books/The art of software testing/chapters/09 Testing in the Agile Environment.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "09 Testing in the Agile Environment"
             }
           }
         ]
@@ -159,6 +159,9 @@
   },
   "active": "7aff401eaa64990d",
   "lastOpenFiles": [
+    "02 Literature/books/The art of software testing/chapters/08 Debugging.md",
+    "02 Literature/books/The art of software testing/chapters/09 Testing in the Agile Environment.md",
+    "index.md",
     "01 Notes/ESG (event sequence graph).md",
     "01 Notes/EFG (event flow graph).md",
     "02 Literature/papers/A snowballing literature study on test amplification.md",
@@ -182,9 +185,6 @@
     "01 Notes/acceptance testing.md",
     "00 Antilibrary/XSS (cross site scripting).md",
     "00 Antilibrary/web workers.md",
-    "00 Antilibrary/volume testing.md",
-    "00 Antilibrary/VM (virtual machine).md",
-    "00 Antilibrary/trojan horse.md",
     "04 Canvases/Literature review.canvas",
     "02 Literature/books/The art of software testing/The art of software testing.canvas",
     "04 Canvases/Paper structure.canvas",
