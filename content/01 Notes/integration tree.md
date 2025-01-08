@@ -21,3 +21,4 @@ Formally, an integration tree is a 3-tuple  <N, R B>, where:
 ![[integration_tree.png]]
 ## References
 [[ref_coverage_criteria_gui_testing]]
+[[ref_gui_ripping_reverse_engineering_of_gui]]

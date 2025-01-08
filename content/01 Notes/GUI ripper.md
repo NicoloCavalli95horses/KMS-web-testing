@@ -4,7 +4,7 @@ tags:
   - "#definition"
   - testingTechniques
   - ripper
-  - eventModel
+  - graphModel
 ---
 ## Definition
 

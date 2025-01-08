@@ -10,7 +10,7 @@ A sandbox is a testing environment that isolates untested code changes and outri
 
 Sandboxing ==protects== "live" servers and their data, vetted source code distributions, and other collections of code, data and/or content, proprietary or public, ==from changes that could be damaging to a mission-critical system or which could simply be difficult to revert,== regardless of the intent of the author of those changes. 
 
-Sandboxes replicate at least the minimal functionality needed to accurately test the programs or other code under development (e.g. usage of the same environment variables as, or access to an identical database to that used by, the stable prior implementation intended to be modified)
+Sandboxes replicate at least the minimal functionality needed to accurately test the programs or other code under development (e.g. usage of the same [[ENV (environment variables)]] as, or access to an identical database to that used by, the stable prior implementation intended to be modified)
 
 The concept of sandboxing is built into revision control software such as Git, CVS and Subversion (SVN), in which developers "check out" a copy of the source code tree, or a branch thereof, to examine and work on. 
 After the developer has fully tested the code changes in their own sandbox, the changes would be checked back into and merged with the repository and thereby made available to other developers or end users of the software.

@@ -3,6 +3,7 @@ ID: 2024-12-19-10:52
 tags:
   - definition
   - math
+  - samplingTechniques
 ---
 ## Definition
 

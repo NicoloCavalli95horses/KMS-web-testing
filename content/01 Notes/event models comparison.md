@@ -3,7 +3,7 @@ ID: 2025-01-08-11:58
 tags:
   - "#definition"
   - eventModel
-  - userModels
+  - graphModel
 ---
 Different models can be used to analyze the events of a [[GUI (graphical user interface)]], depending on the ultimate goal to achieve.
 - [[EIG (event interaction graph)]]: focuses on dependencies and relationships between events, and on interaction validity
