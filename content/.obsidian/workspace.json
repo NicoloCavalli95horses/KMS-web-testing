@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Antilibrary/GUI ripper.md",
+                "file": "01 Notes/integration tree.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GUI ripper"
+              "title": "integration tree"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -159,10 +160,17 @@
   },
   "active": "7aff401eaa64990d",
   "lastOpenFiles": [
-    "01 Notes/ESG (event sequence graph).md",
-    "00 Antilibrary/GUI ripper.md",
-    "01 Notes/EIG (event interaction graph).md",
     "01 Notes/EFG (event flow graph).md",
+    "01 Notes/GUI ripper.md",
+    "02 Literature/books/The art of software testing/chapters/10 Testing Internet Applications.md",
+    "02 Literature/papers/AutoInSpec, using missing test coverage to improve specifications in GUIs.md",
+    "01 Notes/GUI (graphical user interface).md",
+    "01 Notes/integration tree.md",
+    "03 References/ref_gui_ripping_reverse_engineering_of_gui.md",
+    "00 Antilibrary/EDG (Event Dependency Graph).md",
+    "00 Antilibrary/OCR (optical character recognition).md",
+    "01 Notes/ESG (event sequence graph).md",
+    "01 Notes/EIG (event interaction graph).md",
     "01 Notes/event models comparison.md",
     "01 Notes/EPM (Equivalence Partitioning Method).md",
     "02 Literature/papers/Repairing GUI Test Suites Using a Genetic Algorithm.md",
@@ -171,7 +179,6 @@
     "02 Literature/papers/STILE, a tool for optimizing E2E web test scripts parallelization.md",
     "02 Literature/books/The art of software testing/chapters/11 Mobile Application Testing.md",
     "03 References/ref_repairing_gui_test_ga.md",
-    "02 Literature/books/The art of software testing/chapters/10 Testing Internet Applications.md",
     "00 Antilibrary/Untitled.md",
     "04 Canvases/Literature review.canvas",
     "02 Literature/books/The art of software testing/chapters/09 Testing in the Agile Environment.md",
@@ -180,12 +187,6 @@
     "02 Literature/papers/A snowballing literature study on test amplification.md",
     "01 Notes/concolic execution.md",
     "01 Notes/compiler.md",
-    "01 Notes/combinatorial testing.md",
-    "01 Notes/CodeCommons.md",
-    "01 Notes/code walkthrough.md",
-    "01 Notes/code inspection.md",
-    "01 Notes/co-evolving systems.md",
-    "01 Notes/Cisco RBAC CVE.md",
     "02 Literature/books/The art of software testing/The art of software testing.canvas",
     "04 Canvases/Paper structure.canvas",
     "serviceability",

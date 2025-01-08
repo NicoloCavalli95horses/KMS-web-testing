@@ -13,7 +13,10 @@ Similar to [[ESG (event sequence graph)]] and [[EIG (event interaction graph)]],
 
 ![[97 Assets/event_flow_graph.png]]
 
+An event flow graph is created by identifying the events on a GUI component
+
 See [[event models comparison]]
 
 ## References
 [[ref_on_model_based_testing_advanced_guis]]
+[[ref_gui_ripping_reverse_engineering_of_gui]]
