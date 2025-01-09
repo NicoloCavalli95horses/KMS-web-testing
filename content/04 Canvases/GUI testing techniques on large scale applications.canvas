@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"9aa211ba9fd13796","type":"text","text":"# Graphical User Interface testing techniques on large scale application","x":-260,"y":-40,"width":520,"height":200,"color":"4"},
+		{"id":"9aa211ba9fd13796","type":"text","text":"# Graphical User Interface testing techniques on large scale applications","x":-260,"y":-40,"width":520,"height":200,"color":"4"},
 		{"id":"b7e24bf0c956fd02","type":"text","text":"Analyzing GUIs output (graphical rendering)\n- visual consistency ([[JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency]])\n- HTML5 Canvas related issues ([[A taxonomy of testable HTML5 Canvas Issues]])\n- GUI defects ([[Classifying and qualifying GUI defects]])","x":78,"y":-642,"width":440,"height":300},
 		{"id":"4bcf8833acf9af39","type":"text","text":"## software testing techniques","x":-215,"y":243,"width":430,"height":90,"color":"2"},
 		{"id":"cbbddaf863f57b40","type":"text","text":"Analyzing GUIs behavior:\n- interaction flow and event sequences ([[EFG (event flow graph)]], [[ESG (event sequence graph)]])\n- clickstream analysis ([[Markov’s chain and clickstream analysis]])\n- [[static analysis]], [[dynamic analysis]], [[concolic execution]], [[symbolic execution]]\n- Events sequences analysis with [[LM (word n-gram language model)]]","x":-1360,"y":-107,"width":560,"height":335},

@@ -11,17 +11,15 @@
             "id": "7aff401eaa64990d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/Literature review.canvas",
-                "viewState": {
-                  "x": -50,
-                  "y": 247,
-                  "zoom": -1.0356976765741934
-                }
+                "file": "02 Literature/papers/Classifying and qualifying GUI defects.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Literature review"
+              "icon": "lucide-file",
+              "title": "Classifying and qualifying GUI defects"
             }
           }
         ]
@@ -161,6 +159,13 @@
   },
   "active": "7aff401eaa64990d",
   "lastOpenFiles": [
+    "04 Canvases/GUI vulnerabilities.canvas",
+    "04 Canvases/GUI testing techniques on large scale applications.canvas",
+    "02 Literature/papers/A taxonomy of testable HTML5 Canvas Issues.md",
+    "97 Assets/canvas_related_issues.png",
+    "97 Assets/taxonomy_canvas_issues.png",
+    "01 Notes/buffer overflow.md",
+    "04 Canvases/Untitled",
     "01 Notes/XSS (cross site scripting).md",
     "00 Antilibrary/ELET (Embedded Language Encapsulation Type).md",
     "00 Antilibrary/static taint analysis.md",
@@ -184,10 +189,6 @@
     "00 Antilibrary/EDG (Event Dependency Graph).md",
     "00 Antilibrary/ENV (environment variables).md",
     "00 Antilibrary/integer overflow.md",
-    "00 Antilibrary/installation testing.md",
-    "00 Antilibrary/Jenkins.md",
-    "00 Antilibrary/JWT (JSON Web Token).md",
-    "04 Canvases/Literature review.canvas",
     "02 Literature/books/The art of software testing/The art of software testing.canvas",
     "04 Canvases/Paper structure.canvas",
     "serviceability",
@@ -199,8 +200,6 @@
     "97 Assets/cause_effect_graph_symbols.png",
     "97 Assets/decision_table.png",
     "02 Literature/books/The art of software testing",
-    "97 Assets/canvas_related_issues.png",
-    "97 Assets/taxonomy_canvas_issues.png",
     "97 Assets/dfs_example.webp",
     "Untitled.canvas",
     "97 Assets/prefix_tree.png",
@@ -210,7 +209,6 @@
     "02 Literature/papers/Classifying and qualifying GUI defects/Classifying and qualifying GUI defects.pdf",
     "02 Literature/papers/Classifying and qualifying GUI defects/Classifying and qualifying GUI defects.pdf.crdownload",
     "02 Literature/papers/Classifying and qualifying GUI defects",
-    "02 Literature/papers/Nouveau dossier",
     "Untitled 1.canvas"
   ]
 }

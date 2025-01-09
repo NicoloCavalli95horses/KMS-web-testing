@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"0253f78ebdee5dee","type":"text","text":"# Graphical User Interface vulnerabilities","x":-660,"y":-560,"width":520,"height":200,"color":"4"},
+		{"id":"a2e27d8522670049","type":"text","text":"## presentation layer","x":-30,"y":-220,"width":340,"height":60},
+		{"id":"26decb87164bdb5e","type":"text","text":"[[XSS (cross site scripting)]]","x":-1320,"y":-50,"width":260,"height":110},
+		{"id":"3706c68da0df9e2e","type":"text","text":"[[ReDoS (Regular Expression Denial of Service)]]","x":-1020,"y":-50,"width":240,"height":110},
+		{"id":"feb344a3b97dbca0","type":"text","text":"[[buffer overflow]]","x":-740,"y":-55,"width":220,"height":115},
+		{"id":"2daa04955591aee5","type":"text","text":"## input validation","x":-1040,"y":-220,"width":280,"height":60},
+		{"id":"bf9d6e1f5f804d66","type":"text","text":" [[recovery testing]]","x":-560,"y":250,"width":240,"height":100},
+		{"id":"29cb2dd3c2280171","type":"text","text":"Analyzing GUIs output (graphical rendering)\n- visual consistency ([[JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency]])\n- HTML5 Canvas related issues ([[A taxonomy of testable HTML5 Canvas Issues]])\n- GUI defects ([[Classifying and qualifying GUI defects]])","x":-1220,"y":300,"width":440,"height":300},
+		{"id":"7c2be48738ce7884","type":"text","text":"canvas vulnerabilities\n\n![[taxonomy_canvas_issues.png]]","x":-140,"y":-50,"width":640,"height":300}
+	],
+	"edges":[
+		{"id":"ec73da95e93d03f5","fromNode":"2daa04955591aee5","fromSide":"bottom","toNode":"26decb87164bdb5e","toSide":"top"},
+		{"id":"a573d65951a3bdd6","fromNode":"0253f78ebdee5dee","fromSide":"bottom","toNode":"2daa04955591aee5","toSide":"top"},
+		{"id":"19d66f7825639492","fromNode":"2daa04955591aee5","fromSide":"bottom","toNode":"3706c68da0df9e2e","toSide":"top"},
+		{"id":"c0718fb43afede49","fromNode":"0253f78ebdee5dee","fromSide":"bottom","toNode":"a2e27d8522670049","toSide":"top"},
+		{"id":"148047c05c667ae9","fromNode":"3706c68da0df9e2e","fromSide":"bottom","toNode":"bf9d6e1f5f804d66","toSide":"top"},
+		{"id":"b19aa2f764dd9280","fromNode":"2daa04955591aee5","fromSide":"bottom","toNode":"feb344a3b97dbca0","toSide":"top"},
+		{"id":"8e28e136100859a0","fromNode":"feb344a3b97dbca0","fromSide":"bottom","toNode":"bf9d6e1f5f804d66","toSide":"top"},
+		{"id":"bfcff323f1b2425d","fromNode":"a2e27d8522670049","fromSide":"bottom","toNode":"7c2be48738ce7884","toSide":"top"}
+	]
+}
