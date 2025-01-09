@@ -28,6 +28,19 @@ However, even reducing the total number of permutations, some sequences may be i
 
 This paper propose a solution to automatically repair this kind of test suite, by adding feasible test cases using an evolutionary process ([[GA (genetic algorithm)]])
 
+Different algorithms can be used to repair software statements. But GA performs wells in optimization contexts.
 
+**Process**
+1. execute the initial test cases and remove any infeasible sequence (see constraints in [[ESG (event sequence graph)]])
+2. the infeasible sequences are taken into consideration and the repair phase starts
+3. for each invalid sequence, the GA algorithm returns the best test case and adds it to the final test suite (a better solution may not be found in certain cases)
+
+**How the reparation works**
+- **chromosome**: the chromosome is a single test case, that is an event sequence
+- **alleles**: the events that form the event sequence
+- **population**: is a list of test cases. The first one is generated randomly
+- **stopping criteria**: 1) max number of generation reached 2) max number of bad moves reached (e.g., the best fitness of the current population is worse than that of the previous one) 3) the best case of the population already covers the maximum number of t-way combinations one test case can cover
+- **fitness function**: 1) feasibility of the test case 2) the new coverage a test case brings
+- **crossover and mutation**: test cases are ranked in descending order and pair consecutive chromosomes. A one-point crossover is used.
 ## References
 [[ref_repairing_gui_test_ga]]
