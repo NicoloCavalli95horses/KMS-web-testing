@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/ESG (event sequence graph).md",
+                "file": "02 Literature/books/The art of software testing/chapters/06 Higher-Order Testing.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ESG (event sequence graph)"
+              "title": "06 Higher-Order Testing"
             }
           }
         ]
@@ -74,13 +74,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -162,10 +160,10 @@
   "active": "7aff401eaa64990d",
   "lastOpenFiles": [
     "02 Literature/papers/Repairing GUI Test Suites Using a Genetic Algorithm.md",
+    "01 Notes/ESG (event sequence graph).md",
     "01 Notes/GA (genetic algorithm).md",
     "01 Notes/EFG (event flow graph).md",
     "01 Notes/EIG (event interaction graph).md",
-    "01 Notes/ESG (event sequence graph).md",
     "01 Notes/event models comparison.md",
     "01 Notes/GUI ripper.md",
     "01 Notes/CA (covering array).md",

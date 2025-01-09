@@ -46,6 +46,7 @@ Also called: GUI-based scenarios
 - **Required**: an functionality is disabled/locked if a certain action is not execute before. Some event needs another event to be executed before it is enabled
 - **Consecutive**: two events cannot be executed at the same time, because they are mutually exclusive
 - **Excluded**: similar to the consecutive one, it occurs when enabling the first event causes the second one to disable, and there is no way to change this state even manipulation all the other events available
+- **Compound constraint**: a combination of multiple constraints above
 
 Since a model based on events is decoupled from the internal behavior/state of a SUT, ==it is necessary more abstract and simpler== than a model based on states, such as [[FSM (finite-state machine)]]
 

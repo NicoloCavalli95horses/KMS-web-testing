@@ -24,10 +24,9 @@ The longer the events sequence, the more the possible unique sequences: to reduc
 However, even reducing the total number of permutations, some sequences may be infeasible because of event dependencies.
 
 > [!NOTE] Note
-The presence of infeasible event sequences is much more severe and frequent for long sequences.
+> The presence of infeasible event sequences is much more severe and frequent for long sequences.
 
 This paper propose a solution to automatically repair this kind of test suite, by adding feasible test cases using an evolutionary process ([[GA (genetic algorithm)]])
-
 
 
 ## References
