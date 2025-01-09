@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/Repairing GUI Test Suites Using a Genetic Algorithm.md",
+                "file": "01 Notes/XSS (cross site scripting).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Repairing GUI Test Suites Using a Genetic Algorithm"
+              "title": "XSS (cross site scripting)"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 208.5
+    "width": 252.5
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -157,10 +157,13 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "7aff401eaa64990d",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
-    "01 Notes/ESG (event sequence graph).md",
+    "03 References/ref_current_state_research_xss.md",
+    "01 Notes/XSS (cross site scripting).md",
+    "01 Notes/content spoofing.md",
     "02 Literature/papers/Repairing GUI Test Suites Using a Genetic Algorithm.md",
+    "01 Notes/ESG (event sequence graph).md",
     "02 Literature/books/The art of software testing/chapters/06 Higher-Order Testing.md",
     "01 Notes/GA (genetic algorithm).md",
     "01 Notes/EFG (event flow graph).md",
@@ -178,13 +181,10 @@
     "00 Antilibrary/Jenkins.md",
     "00 Antilibrary/JWT (JSON Web Token).md",
     "00 Antilibrary/kernel.md",
-    "00 Antilibrary/XSS (cross site scripting).md",
     "01 Notes/DFS (depth-first search).md",
     "01 Notes/integration tree.md",
     "02 Literature/books/The art of software testing/chapters/10 Testing Internet Applications.md",
     "02 Literature/papers/AutoInSpec, using missing test coverage to improve specifications in GUIs.md",
-    "01 Notes/GUI (graphical user interface).md",
-    "03 References/ref_gui_ripping_reverse_engineering_of_gui.md",
     "04 Canvases/Literature review.canvas",
     "02 Literature/books/The art of software testing/The art of software testing.canvas",
     "04 Canvases/Paper structure.canvas",
