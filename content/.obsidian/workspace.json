@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/GUI vulnerabilities.canvas",
                 "viewState": {
-                  "x": -221.55114809435096,
-                  "y": 99.07671937935581,
-                  "zoom": 0.6666666666666667
+                  "x": -246.06345855487575,
+                  "y": -66.96201221501221,
+                  "zoom": -0.6666666666666665
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -159,7 +159,7 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "ce908355315c205e",
   "lastOpenFiles": [
     "01 Notes/content spoofing.md",
     "04 Canvases/GUI vulnerabilities.canvas",
