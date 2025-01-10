@@ -11,10 +11,17 @@
             "id": "ce908355315c205e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/GUI vulnerabilities.canvas",
+                "viewState": {
+                  "x": -221.55114809435096,
+                  "y": 99.07671937935581,
+                  "zoom": 0.6666666666666667
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "GUI vulnerabilities"
             }
           }
         ]
@@ -152,11 +159,13 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "ce908355315c205e",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
-    "02 Literature/papers/Classifying and qualifying GUI defects.md",
+    "01 Notes/content spoofing.md",
     "04 Canvases/GUI vulnerabilities.canvas",
+    "00 Antilibrary/clickjacking.md",
     "04 Canvases/GUI testing techniques on large scale applications.canvas",
+    "02 Literature/papers/Classifying and qualifying GUI defects.md",
     "02 Literature/papers/A taxonomy of testable HTML5 Canvas Issues.md",
     "97 Assets/canvas_related_issues.png",
     "97 Assets/taxonomy_canvas_issues.png",
@@ -169,7 +178,6 @@
     "00 Antilibrary/program slicing.md",
     "00 Antilibrary/taint tracking.md",
     "03 References/ref_current_state_research_xss.md",
-    "01 Notes/content spoofing.md",
     "02 Literature/papers/Repairing GUI Test Suites Using a Genetic Algorithm.md",
     "01 Notes/ESG (event sequence graph).md",
     "02 Literature/books/The art of software testing/chapters/06 Higher-Order Testing.md",
@@ -183,8 +191,6 @@
     "01 Notes/sandbox environment.md",
     "00 Antilibrary/domain.md",
     "00 Antilibrary/EDG (Event Dependency Graph).md",
-    "00 Antilibrary/ENV (environment variables).md",
-    "00 Antilibrary/integer overflow.md",
     "02 Literature/books/The art of software testing/The art of software testing.canvas",
     "04 Canvases/Paper structure.canvas",
     "serviceability",
