@@ -11,17 +11,15 @@
             "id": "ce908355315c205e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/GUI vulnerabilities.canvas",
-                "viewState": {
-                  "x": -246.06345855487575,
-                  "y": -66.96201221501221,
-                  "zoom": -0.6666666666666665
-                }
+                "file": "01 Notes/XSS (cross site scripting).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "GUI vulnerabilities"
+              "icon": "lucide-file",
+              "title": "XSS (cross site scripting)"
             }
           }
         ]
@@ -55,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gems",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 727.5
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -161,8 +159,9 @@
   },
   "active": "ce908355315c205e",
   "lastOpenFiles": [
-    "01 Notes/content spoofing.md",
+    "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
     "04 Canvases/GUI vulnerabilities.canvas",
+    "01 Notes/content spoofing.md",
     "00 Antilibrary/clickjacking.md",
     "04 Canvases/GUI testing techniques on large scale applications.canvas",
     "02 Literature/papers/Classifying and qualifying GUI defects.md",
