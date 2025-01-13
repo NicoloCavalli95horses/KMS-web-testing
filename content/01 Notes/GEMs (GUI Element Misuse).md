@@ -18,8 +18,12 @@ GUI is not a reliable mechanism to enforce access control decisions: [[ad hoc wi
 ## Types of GEMs
 
 According to the attributes/states "enabled", "visible", and "value", it is possible to classify the GEMs as follows:
-- ==Unauthorized information disclosure==: the GUI manage read access to data by relying on "visibility" attribute. For instance, the text content is invisible or hidden, but still present in the GUI
-- ==Unauthorized information modification==: the GUI manage write access to data by relying on "enabled" or "visibility" attributes. For instance, an input box is disabled or invisible. Furthermore, *transient* and *persistent* categories can be considered depending on the impact of the GEMs.
+- ==Unauthorized information disclosure==: the GUI manage read access to data by relying on "visibility" attribute. For instance, the text content is invisible or hidden, but still present in the GUI. Two types of GEMs can be distinguished: 
+	- the content is hidden all the time except for the admin
+	- the content is hidden after a user with higher privileges has interacted with the GUI
+- ==Unauthorized information modification==: the GUI manage write access to data by relying on "enabled" or "visibility" attributes. For instance, an input box is disabled or invisible. Two categories may be considered depending on the impact of the GEMs:
+	- *transient* unauthorized information modification are not permanent and last as long as the user session
+	- *persistent* unauthorized information modification are permanent and saved by the system
 - ==Unauthorized callback execution==: the GUI manage callback/execution access by relying on "visibility" attribute. For instance, a disabled button that can execute a function that requires high-privileges
 
 ## GEMs Mining

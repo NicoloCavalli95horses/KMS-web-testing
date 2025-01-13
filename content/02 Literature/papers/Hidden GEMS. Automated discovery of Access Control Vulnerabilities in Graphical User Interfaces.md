@@ -27,10 +27,11 @@ Often developers are tempted to use widget attributes as an access control mecha
 These GEMs can be automatically detected by a GEMs miner.
 
 **Detecting GEMs**
-1. **Application seeding**: a number of test scenario are created (for example, users or roles at distinct privilege levels). These step is application dependent because you need to know how the application work. At least two distinct levels of privilege have to be found.
- 2. **UI exploration**: manually exploration of the GUI of the [[SUT (system under test)]] to get the space of possible UI states
-3. **GEM candidate identification**: a collection of UI states is analyzed to identify candidate access control vulnerabilities
+1. **Application seeding**: a number of test scenario are created (for example, users or roles at distinct privilege levels). These step is application dependent because you need to know how the application work. ==At least two distinct levels of privilege have to be found.==
+ 2. **UI exploration**: semi-automatic exploration of the GUI of the [[SUT (system under test)]] to get the space of possible UI states. ==Reachable widgets and their states are extracted==
+3. **GEM candidate identification**: a collection of UI states is analyzed to identify candidate access control vulnerabilities. The attributes "enabled", "visible" and "value" are checked. Different paths for users with different privileged are tested to compare the different reachable states. ==Discrepancies between attributes for the same widget at two different privilege levels suggest the presence of a GEM.==
 4. **GEM checking**: the candidates and the path through the GUI to reach them is analyzed to confirm their presence
 
+The GEM miner targets Microsoft Windows platform
 ## References
 [[ref_hidden_gems_auto_discovery]]
