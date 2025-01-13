@@ -11,17 +11,15 @@
             "id": "603b895cdbd93075",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/GUI vulnerabilities.canvas",
-                "viewState": {
-                  "x": -653.022570778172,
-                  "y": 809.9922277220519,
-                  "zoom": -1.220186175705307
-                }
+                "file": "02 Literature/papers/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "GUI vulnerabilities"
+              "icon": "lucide-file",
+              "title": "No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications"
             }
           }
         ]
@@ -159,10 +157,13 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "603b895cdbd93075",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
-    "01 Notes/ReDos (Regular Expression Denial of Service).md",
+    "97 Assets/notamper_checkout_example.png",
+    "03 References/ref_notamper_automatic_blackbox_det_parameter_tampering.md",
+    "02 Literature/papers/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
     "04 Canvases/GUI vulnerabilities.canvas",
+    "01 Notes/ReDos (Regular Expression Denial of Service).md",
     "04 Canvases/GUI testing techniques on large scale applications.canvas",
     "01 Notes/XSS (cross site scripting).md",
     "00 Antilibrary/phishing attack.md",
@@ -190,8 +191,6 @@
     "00 Antilibrary/static taint analysis.md",
     "00 Antilibrary/precise alias analysis.md",
     "00 Antilibrary/program slicing.md",
-    "00 Antilibrary/taint tracking.md",
-    "03 References/ref_current_state_research_xss.md",
     "02 Literature/books/The art of software testing/The art of software testing.canvas",
     "serviceability",
     "compatibility",
