@@ -10,7 +10,7 @@
 		{"id":"3706c68da0df9e2e","type":"text","text":"[[ReDoS (Regular Expression Denial of Service)]]","x":-1110,"y":-34,"width":420,"height":63},
 		{"id":"26decb87164bdb5e","type":"text","text":"[[XSS (cross site scripting)]]","x":-1400,"y":-34,"width":260,"height":67},
 		{"id":"bf9d6e1f5f804d66","type":"text","text":" [[recovery testing]]","x":-840,"y":156,"width":240,"height":74},
-		{"id":"1a8f1a12c4223ea8","type":"text","text":"- [[clickjacking]]\n- race conditions in UI\n- UI state inconsistency\n- logical flaws","x":-382,"y":-34,"width":365,"height":168}
+		{"id":"1a8f1a12c4223ea8","type":"text","text":"- [[clickjacking]]\n- race conditions in UI\n- UI state inconsistency\n- logical flaws\n- GEMS","x":-382,"y":-34,"width":365,"height":264}
 	],
 	"edges":[
 		{"id":"ec73da95e93d03f5","fromNode":"2daa04955591aee5","fromSide":"bottom","toNode":"26decb87164bdb5e","toSide":"top"},
