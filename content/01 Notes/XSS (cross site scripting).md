@@ -6,7 +6,7 @@ tags:
 ---
 ## Definition
 
-Cross-site scripting vulnerabilities (XSS henceforth) are a security problem that occurs in web applications. They were discovered in the 1990s in the early days of the World Wide Web.
+Cross-site scripting vulnerabilities (XSS henceforth) are a security problem that occurs in web applications. They were discovered in the 1990s in the early days of the World Wide Web. ==Cross-site scripting works by manipulating a vulnerable web site so that it returns malicious JavaScript to users. When the malicious code executes inside a victim's browser, the attacker can fully compromise their interaction with the application.==
 - They are among the most common and most serious security problems affecting web applications
 - They are injection problems that enable malicious scripts to be injected into trusted websites
 - Most of the time it is a result of a ==failed tentative to validate the user input==
@@ -18,10 +18,39 @@ Successful XSS can:
 - manipulate the web content
 - cause a [[DOS (Denial of Service)]]
 
-**Types of XSS attacks**
-1. **reflected**: executed by the victim's browser. Occur when the user provides input to the target website. Is executed on the server-side. It is the easiest XSS type to detect and most of the literature works on this type of issues.
-2. **stored**: malicious inputs are stored in databases, message forums, comments fields of the attacked server. The malicious code is executed by visiting users. Is executed on the server-side. This is the most dangerous XSS attack
-3. **DOM-based**: executed on the client-side. Attackers are able to collect sensitive information from the user's computer. ==It is the least know type of XSS==
+### Types of XSS attacks
+
+**Reflected**
+Reflected XSS is the simplest variety of cross-site scripting. It arises when an application ==receives data in an HTTP request and includes that data within the response in an unsafe way.==
+
+```HTML
+https://insecure-website.com/status?message=<script>...<script/>
+<p>Status: <script>...<script/>.</p> // the script is executed
+```
+
+If the user visit the URL constructed by the attacker, the attacker's script will be executed in the user's browser. The script can retrieve any information or perform any action the user is allowed to perform. Most of the literature has studied on this type of issues. If the user is presented with the dangerous link in an email, for example, this scenario is also called [[phishing attack]].
+
+**Stored (persistent/second order XSS)**
+If the system does not validate user input provided from message forums or comment sections, malicious inputs can be stored in the vulnerable app's database.
+The malicious code is then executed by each new visiting user. 
+- This is the most dangerous XSS attack because the ==attack is self-contained and there is no need to find external ways to spread the attack to other users.== The user's browser can execute the malicious code by mistake, by landing in the comments section where it is present
+
+ **DOM-based XSS (DOM XSS)**
+ It occur when an application contains some client-side JavaScript that processes data from an untrusted source, in an unsafe way, usually by writing the data back to the DOM. 
+```JavaScript
+var search = document.getElementById('search').value;
+var results = document.getElementById('results');
+results.innerHTML = 'You searched for: ' + search;
+```
+
+If the input field value is under control of the attacker they can easily construct a malicious value that can cause their own script to execute in the user's browser:
+
+```JavaScript
+You searched for: <img src=1 onerror='/* Bad stuff here... */'>
+```
+ 
+ This is ==the least know type of XSS==
+
 
 ### How to find to find XSS vulnerabilities
 
@@ -57,3 +86,4 @@ Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, wit
 
 ## References
 [[ref_current_state_research_xss]]
+https://portswigger.net/web-security/cross-site-scripting#reflected-cross-site-scripting
