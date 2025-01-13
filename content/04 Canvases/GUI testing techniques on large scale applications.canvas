@@ -20,7 +20,7 @@
 		{"id":"92ee8b02584c0be6","type":"text","text":"- [[volume testing]]\n- [[stress testing]]\n- [[performance testing]]\n- [[storage testing]]\n- [[configuration testing]]\n- [[compatibility or conversion testing]]\n- [[installation testing]]\n- [[reliability testing]]\n- [[serviceability or maintenance testing]]\n- [[procedure testing]]\n- [[regression testing]]\n- [[acceptance testing]]","x":590,"y":722,"width":402,"height":414},
 		{"id":"b60c743cf034db82","type":"text","text":"## output analysis (presentation layer)","x":113,"y":-274,"width":370,"height":123,"color":"2"},
 		{"id":"885ea7d23616647b","type":"text","text":"## behavioral analysis (business layer)","x":-690,"y":-7,"width":315,"height":135,"color":"2"},
-		{"id":"b3c0e3324d4558f8","type":"text","text":"Analyzing GUIs vulnerability ([[security testing]]):\n- [[ReDoS (Regular Expression Denial of Service)]] attacks\n- [[SQLIA (SQL injection attack)]]\n- dependencies issues [[Managing security vulnerabilities introduced by dependencies in React.js]]\n- [[recovery testing]]\n- GEMS vulnerabilities","x":740,"y":-97,"width":520,"height":316}
+		{"id":"b3c0e3324d4558f8","type":"text","text":"Analyzing GUIs vulnerability ([[security testing]]):\n- [[ReDoS (Regular Expression Denial of Service)]] attacks\n- [[SQLIA (SQL injection attack)]]\n- dependencies issues [[Managing security vulnerabilities introduced by dependencies in React.js]]\n- [[recovery testing]]\n- [[GEMs (GUI Element Misuse)]] vulnerabilities","x":740,"y":-104,"width":440,"height":330}
 	],
 	"edges":[
 		{"id":"204e9272a4afae51","fromNode":"cbbddaf863f57b40","fromSide":"bottom","toNode":"be27fee0e5084d0a","toSide":"top"},

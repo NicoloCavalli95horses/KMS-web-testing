@@ -55,7 +55,5 @@ Multiple techniques and approaches are often used at the same time to tackle XSS
 Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, with techniques such as: monitoring, taint-tracking and filtering.
 - this because to eliminate the XSS issue we should patch the source code. In many case, access the source code or implementing patches can be difficult
 
-
-
 ## References
 [[ref_current_state_research_xss]]

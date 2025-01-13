@@ -4,6 +4,7 @@ tags:
   - definition
   - cyberSecurity
   - designPattern
+  - rbac
 ---
 ## What is RBAC (role-based access control)
 
@@ -64,6 +65,6 @@ In a web application implementing RBAC principles, URLs would be associated to s
 - https://app.com/user-name/profile
 
 URLs should be protected by [[sessions token]] or by other controls executed by the server.
-## References
 
+## References
 https://www.neumetric.com/role-based-access-control-rbac-for-cybersecurity/
