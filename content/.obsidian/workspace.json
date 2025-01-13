@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Antilibrary/GEMs (GUI Element Misuse).md",
+                "file": "01 Notes/GEMs (GUI Element Misuse).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -37,8 +37,7 @@
               "title": "GEMs (GUI Element Misuse)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,10 +172,10 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "25268467b989e61c",
+  "active": "ce908355315c205e",
   "lastOpenFiles": [
+    "01 Notes/GEMs (GUI Element Misuse).md",
     "02 Literature/papers/Hidden GEMS. Automated discovery of Access Control Vulnerabilities in Graphical User Interfaces.md",
-    "00 Antilibrary/GEMs (GUI Element Misuse).md",
     "04 Canvases/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/GUI vulnerabilities.canvas",
     "03 References/ref_hidden_gems_auto_discovery.md",
