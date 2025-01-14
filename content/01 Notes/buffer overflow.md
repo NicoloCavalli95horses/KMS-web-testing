@@ -15,20 +15,30 @@ The software error focuses on buffers, which are sequential sections of computin
 
 A buffer overflow condition exists when a program attempts to put more data in a  buffer than it can hold, or when a program attempts to put data in a memory area past a buffer. 
 
-> [!WARNING]
-> Writing outside the bounds of a block of allocated memory can corrupt data, crash the program, or cause the execution of malicious code
+**Risks associated to buffer overflow**
+Writing outside the bounds of a block of allocated memory can corrupt data, crash the program, or cause the execution of malicious code
 
 ## Attacks in web applications
 
-Attackers use a buffer overflow to corrupt a web application’s execution stack, execute arbitrary code, and take over a machine.
-Flaws in buffer overflows can exist in both application servers and web servers, ==specially web applications that use libraries like graphics libraries.== 
+Attackers use a buffer overflow to corrupt a web application’s execution stack, execute arbitrary code, and take over a machine. Flaws in buffer overflows can exist in both application servers and web servers, ==specially web applications that use libraries like graphics libraries.== 
 
 Buffer overflows can also exist in custom web application codes. This is more likely because they are given less scrutiny by security teams but are less likely to be discovered by hackers and more difficult to exploit.
 
 ## Detect buffer overflows
 
-- Static analysis techniques
-- Ad hoc tools (STOBO tool execute a systematic testing of buffers overflows)
+- [[static analysis]] techniques:
+	- the program is scanned to discover the code segments that are possibly vulnerable. Each candidate has to be manually inspected to confirm the vulnerability
+	- the number of false positive is often very high, as well as the human effort required
+- [[dynamic analysis]] techniques: a special code is inserted into software so that buffer overflow occurrences can be detected and properly processed.
+	- The false positive are rare because they have software execution information 
+	- The method is computationally expensive because the inserted code need to be executed for each buffer operation and function call
+- Application security tools
+	- STOBO is a tool that can execute a systematic testing of buffers overflows
+	- Checkmarx
+	- HP Fortify: supports most used language, including JavaScript, Java, C/C++, PHP, Python, XML/HTML
+	- Klocwork
+	- Coverty
+	- Splint
 
 ### Example in C
 
@@ -60,6 +70,7 @@ for (let i = 0; i < 1e10; i++) {
 
 ```
 ## References
-https://owasp.org/www-community/vulnerabilities/Buffer_Overflow
-https://www.fortinet.com/resources/cyberglossary/buffer-overflow#:~:text=Also%20known%20as%20a%20buffer,the%20data%20in%20those%20locations.
-[[ref_strengthening_web_app_security_buffer_overflow]]
+- https://owasp.org/www-community/vulnerabilities/Buffer_Overflow
+- https://www.fortinet.com/resources/cyberglossary/buffer-overflow#:~:text=Also%20known%20as%20a%20buffer,the%20data%20in%20those%20locations.
+- [[ref_strengthening_web_app_security_buffer_overflow]]
+- [[ref_empirical_study_detecting_buffer_overflow]]
