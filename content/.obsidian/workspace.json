@@ -4,22 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "4f0fa5cdc01c7d90",
+        "id": "70ca81a7c1aaa250",
         "type": "tabs",
         "children": [
           {
-            "id": "603b895cdbd93075",
+            "id": "b2440346ba500ba2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "02 Literature/papers/An Empirical Study on Detecting and Fixing Buffer Overflow Bugs.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "04 Canvases/GUI vulnerabilities.canvas",
+                "viewState": {
+                  "x": -300.91724485011645,
+                  "y": 487.3467705598641,
+                  "zoom": 0.04338260499404101
+                }
               },
-              "icon": "lucide-file",
-              "title": "An Empirical Study on Detecting and Fixing Buffer Overflow Bugs"
+              "icon": "lucide-layout-dashboard",
+              "title": "GUI vulnerabilities"
             }
           }
         ]
@@ -53,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CVE",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +76,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -158,13 +159,55 @@
       "tags-overview:Tags overview": false
     }
   },
+  "floating": {
+    "id": "29947e1d56fec414",
+    "type": "floating",
+    "children": [
+      {
+        "id": "d46dc01cb7885b82",
+        "type": "window",
+        "children": [
+          {
+            "id": "38d3bd42b1fe61cf",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "603b895cdbd93075",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "01 Notes/buffer overflow.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "buffer overflow"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 3379,
+        "y": 0,
+        "width": 1101,
+        "height": 1392,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "603b895cdbd93075",
   "lastOpenFiles": [
-    "01 Notes/LoC.md",
     "02 Literature/papers/An Empirical Study on Detecting and Fixing Buffer Overflow Bugs.md",
+    "04 Canvases/GUI vulnerabilities.canvas",
+    "04 Canvases/Paper structure.canvas",
+    "01 Notes/boundary value analysis.md",
+    "01 Notes/LoC.md",
     "01 Notes/CVE (common vulnerabilities and exposures).md",
     "01 Notes/buffer overflow.md",
-    "04 Canvases/GUI vulnerabilities.canvas",
     "01 Notes/SUT (system under test).md",
     "03 References/ref_empirical_study_detecting_buffer_overflow.md",
     "03 References/ref_strengthening_web_app_security_buffer_overflow.md",
@@ -179,7 +222,6 @@
     "00 Antilibrary/phishing attack.md",
     "01 Notes/GUI vulnerabilities comparisons.md",
     "01 Notes/symbolic execution.md",
-    "04 Canvases/Paper structure.canvas",
     "02 Literature/papers/On the misuse of Graphical User Interface elements to implement security controls.md",
     "01 Notes/RBAC (role-based access control).md",
     "02 Literature/papers/Hidden GEMS. Automated discovery of Access Control Vulnerabilities in Graphical User Interfaces.md",
@@ -188,8 +230,6 @@
     "01 Notes/GEMs (GUI Element Misuse).md",
     "01 Notes/security testing.md",
     "03 References/ref_hidden_gems_auto_discovery.md",
-    "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
-    "01 Notes/content spoofing.md",
     "97 Assets/canvas_related_issues.png",
     "97 Assets/taxonomy_canvas_issues.png",
     "04 Canvases/Untitled",

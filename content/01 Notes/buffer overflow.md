@@ -7,22 +7,38 @@ tags:
 ---
 ## Definition
 
-Buffer overflow is a software coding error or vulnerability that can be exploited by hackers to gain unauthorized access to corporate systems. It is one of the best-known software security vulnerabilities yet remains fairly common.
+==Buffer overflow is a software vulnerability that occur when the amount of data in a buffer, which is a sequential section of computing memory that hold data temporarily, exceeds its storage capacity.==
 
-The software error focuses on buffers, which are sequential sections of computing memory that hold data temporarily as it is transferred between locations.
-- Buffer overflow occurs when the amount of data in the buffer exceeds its storage capacity
-- ==That extra data overflows into adjacent memory locations and corrupts or overwrites the data in those locations.==
+That extra data overflows into adjacent memory locations and corrupts or overwrites the data in those locations
+- Writing outside the bounds of a block of allocated memory can corrupt data, crash the program, lead to [[DOS (Denial of Service)]] or cause the execution of malicious code
+- the overflow can be exploited by hackers, to gain unauthorized access to corporate systems
 
 A buffer overflow condition exists when a program attempts to put more data in a  buffer than it can hold, or when a program attempts to put data in a memory area past a buffer. 
 
-**Risks associated to buffer overflow**
-Writing outside the bounds of a block of allocated memory can corrupt data, crash the program, or cause the execution of malicious code
+It is one of the best-known software security vulnerabilities yet remains fairly common.
 
-## Attacks in web applications
+## What is a buffer?
 
-Attackers use a buffer overflow to corrupt a web application’s execution stack, execute arbitrary code, and take over a machine. Flaws in buffer overflows can exist in both application servers and web servers, ==specially web applications that use libraries like graphics libraries.== 
+- In a stream video, a buffer may be used to temporarily memorize data so as to assure a fluid reproduction.
+- In an OS, a buffer is used to read or write file on the hard disk
 
-Buffer overflows can also exist in custom web application codes. This is more likely because they are given less scrutiny by security teams but are less likely to be discovered by hackers and more difficult to exploit.
+A buffer is an array-like structure that has a fixed size and that has to be handled manually. Not every programming language let the user directly manipulate buffers. With C/C++ allow memory management, high level languages generally handle automatically this problem.
+
+## Call stack overflow in web applications
+
+Attackers may corrupt a web application’s execution stack, performing a "buffer overflow" attack in a context similar to a low level buffer:
+- technically the call stack may be considered a buffer since it has a limited and fixed size and it is used for storing data temporarily
+- similarly to a buffer overflow attack, a call stack overflow may lead to DOS, to executing arbitrary code, and take control over the machine
+
+Flaws can exist in both application servers and web servers, ==specially web applications that use libraries like graphics libraries.== 
+
+```JavaScript
+function recursiveFunction() {
+  recursiveFunction(); // RangeError: Maximum call stack size exceeded
+}
+
+recursiveFunction();
+```
 
 ## Detect buffer overflows
 
@@ -40,7 +56,7 @@ Buffer overflows can also exist in custom web application codes. This is more li
 	- Coverty
 	- Splint
 
-### Example in C
+### Examples
 
 ```C
 #include <stdio.h>
@@ -69,6 +85,7 @@ for (let i = 0; i < 1e10; i++) {
 }
 
 ```
+
 ## References
 - https://owasp.org/www-community/vulnerabilities/Buffer_Overflow
 - https://www.fortinet.com/resources/cyberglossary/buffer-overflow#:~:text=Also%20known%20as%20a%20buffer,the%20data%20in%20those%20locations.
