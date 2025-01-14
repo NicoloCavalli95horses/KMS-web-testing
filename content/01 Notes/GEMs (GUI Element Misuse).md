@@ -22,8 +22,8 @@ According to the attributes/states "enabled", "visible", and "value", it is poss
 	- the content is hidden all the time except for the admin
 	- the content is hidden after a user with higher privileges has interacted with the GUI
 - ==Unauthorized information modification==: the GUI manage write access to data by relying on "enabled" or "visibility" attributes. For instance, an input box is disabled or invisible. Two categories may be considered depending on the impact of the GEMs:
-	- *transient* unauthorized information modification are not permanent and last as long as the user session
-	- *persistent* unauthorized information modification are permanent and saved by the system
+	- *transient* modification are not permanent and last as long as the user's session
+	- *persistent* modification are permanent and saved by the system
 - ==Unauthorized callback execution==: the GUI manage callback/execution access by relying on "visibility" attribute. For instance, a disabled button that can execute a function that requires high-privileges
 
 ## GEMs Mining

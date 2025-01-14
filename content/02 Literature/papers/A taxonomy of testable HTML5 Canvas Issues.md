@@ -8,7 +8,7 @@ tags:
 ---
 ## Main concepts
 
-The [[canvas DOM element]] is widely used to develop web applications such as data visualizations, animations, and web games
+The [[canvas DOM element]] is widely used to develop web applications rich in data visualizations and animations or web games.
 - Lack of documentation of the Canvas API
 - Not testable as other DOM elements because a \<canvas> is a bitmap (raster image)
 - typically web developers test the UI by analyzing the DOM using Cypress, Selenium or Playwright but the \<canvas> DOM element does not change after every canvas update so this method is not eligible

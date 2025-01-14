@@ -8,20 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b2440346ba500ba2",
+            "id": "fc0d3d4796296227",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/GUI vulnerabilities.canvas",
-                "viewState": {
-                  "x": -300.91724485011645,
-                  "y": 487.3467705598641,
-                  "zoom": 0.04338260499404101
-                }
+                "file": "02 Literature/papers/A taxonomy of testable HTML5 Canvas Issues.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "GUI vulnerabilities"
+              "icon": "lucide-file",
+              "title": "A taxonomy of testable HTML5 Canvas Issues"
             }
           }
         ]
@@ -80,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 257.5
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -159,21 +157,71 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "b2440346ba500ba2",
+  "floating": {
+    "id": "29947e1d56fec414",
+    "type": "floating",
+    "children": [
+      {
+        "id": "14080eb37fa3e80d",
+        "type": "window",
+        "children": [
+          {
+            "id": "d15ad1a29aea99e2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0b315f9cbfbe90b5",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "04 Canvases/GUI vulnerabilities.canvas",
+                    "viewState": {
+                      "x": 812.236969651812,
+                      "y": 655.0147122414451,
+                      "zoom": -1.333333333333333
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "GUI vulnerabilities"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 382,
+        "y": 15,
+        "width": 1618,
+        "height": 992,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "0b315f9cbfbe90b5",
   "lastOpenFiles": [
+    "02 Literature/papers/A taxonomy of testable HTML5 Canvas Issues.md",
+    "04 Canvases/GUI vulnerabilities.canvas",
+    "01 Notes/canvas DOM element.md",
+    "04 Canvases/Paper structure.canvas",
+    "01 Notes/multi-event interactions.md",
+    "04 Canvases/GUI testing techniques on large scale applications.canvas",
+    "02 Literature/papers/Hidden GEMS. Automated discovery of Access Control Vulnerabilities in Graphical User Interfaces.md",
+    "01 Notes/GEMs (GUI Element Misuse).md",
+    "01 Notes/drive-by downloads.md",
+    "03 References/ref_empirical_study_detecting_buffer_overflow.md",
+    "03 References/ref_detection_analysis_drive_by_downloads_attacks.md",
+    "01 Notes/trojan horse.md",
     "01 Notes/buffer overflow.md",
     "02 Literature/papers/An Empirical Study on Detecting and Fixing Buffer Overflow Bugs.md",
-    "04 Canvases/GUI vulnerabilities.canvas",
-    "04 Canvases/Paper structure.canvas",
     "01 Notes/boundary value analysis.md",
     "01 Notes/LoC.md",
     "01 Notes/CVE (common vulnerabilities and exposures).md",
     "01 Notes/SUT (system under test).md",
-    "03 References/ref_empirical_study_detecting_buffer_overflow.md",
     "03 References/ref_strengthening_web_app_security_buffer_overflow.md",
     "02 Literature/papers/Strengthening Web Application Security. A penetration regression test selection algorithm for early detection of buffer overflow vulnerability.md",
     "01 Notes/regression testing.md",
-    "04 Canvases/GUI testing techniques on large scale applications.canvas",
     "02 Literature/papers/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
     "97 Assets/notamper_checkout_example.png",
     "03 References/ref_notamper_automatic_blackbox_det_parameter_tampering.md",
@@ -182,14 +230,6 @@
     "00 Antilibrary/phishing attack.md",
     "01 Notes/GUI vulnerabilities comparisons.md",
     "01 Notes/symbolic execution.md",
-    "02 Literature/papers/On the misuse of Graphical User Interface elements to implement security controls.md",
-    "01 Notes/RBAC (role-based access control).md",
-    "02 Literature/papers/Hidden GEMS. Automated discovery of Access Control Vulnerabilities in Graphical User Interfaces.md",
-    "02 Literature/books/The art of software testing/chapters/10 Testing Internet Applications.md",
-    "03 References/ref_misuse_gui_to_implement_security_checks.md",
-    "01 Notes/GEMs (GUI Element Misuse).md",
-    "01 Notes/security testing.md",
-    "03 References/ref_hidden_gems_auto_discovery.md",
     "97 Assets/canvas_related_issues.png",
     "97 Assets/taxonomy_canvas_issues.png",
     "04 Canvases/Untitled",
