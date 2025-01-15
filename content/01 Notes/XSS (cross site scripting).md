@@ -6,7 +6,9 @@ tags:
 ---
 ## Definition
 
-Cross-site scripting vulnerabilities (XSS henceforth) are a security problem that occurs in web applications. They were discovered in the 1990s in the early days of the World Wide Web. ==Cross-site scripting works by manipulating a vulnerable web site so that it returns malicious JavaScript to users. When the malicious code executes inside a victim's browser, the attacker can fully compromise their interaction with the application.==
+Cross-site scripting vulnerabilities (XSS henceforth) are a security problem that occurs in web applications. They were discovered in the 1990s in the early days of the World Wide Web.
+
+==Cross-site scripting works by manipulating a vulnerable web site so that it returns malicious JavaScript, which is served to users. When the malicious code executes inside a victim's browser, the attacker can fully compromise their interaction with the application.==
 - They are among the most common and most serious security problems affecting web applications
 - They are injection problems that enable malicious scripts to be injected into trusted websites
 - Most of the time it is a result of a ==failed tentative to validate the user input==
@@ -84,6 +86,13 @@ Multiple techniques and approaches are often used at the same time to tackle XSS
 Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, with techniques such as: monitoring, taint-tracking and filtering.
 - this because to eliminate the XSS issue we should patch the source code. In many case, access the source code or implementing patches can be difficult
 
+**General rules**
+- **Don’t trust user input**: take into account that all user input is faulty. If user input is included in HTML output, an XSS is conceivable. Input from verified and/or internal users should be handled similarly to input from the general public.
+- **Use escaping / encoding**: use the appropriate escaping/encoding technique, such as HTML escape, JavaScript escape, CSS escape, URL escape, etc., depending on where user input will be used. Use pre-existing libraries rather than creating your own unless it is absolutely necessary
+- **Sanitise HTML**: if user input needs to contain HTML, you can’t escape or encrypt it because doing so would render any acceptable tags useless. In such cases, parse and sanitise HTML using a trusted and proven library
+- **Content security policy**: use a Content Security Policy as well to mitigate the effects of a potential XSS problem (CSP). The CSP HTTP response header lets you specify which dynamic resources are allowed to load in accordance with the request source
+
 ## References
 [[ref_current_state_research_xss]]
+[[ref_common_vulnerabilities_real_world_web_application]]
 https://portswigger.net/web-security/cross-site-scripting#reflected-cross-site-scripting
