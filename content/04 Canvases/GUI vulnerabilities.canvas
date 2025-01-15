@@ -13,7 +13,9 @@
 		{"id":"2daa04955591aee5","type":"text","text":"## input validation","x":-1510,"y":114,"width":280,"height":60},
 		{"id":"86ffa284c8f6dbde","type":"text","text":"### Features\n- It is a type of [[DoS (Denial of Service)]] attack, that exploits the fact that some [[RegEx (Regular Expression)]] implementations are based on [[NFA (Nondeterministic Finite Automation)]] algorithms that try every possible combinatoric path in order to establish a result.\n- A [[evil RegEx (Regular Expression)]] can be exploited to cause a program to hang for a very long time, due to high request of computing resources\n\n### Types\n\n - **Reflected**: an attacker keeps sending malicious requests to the vulnerable web server. Each request may be different in contents and origins (e.g., different IP addresses are used and different input are used)\n - **Stored**: an attacker stores malicious input to the vulnerable web server (e.g., a comment in a blog). The malicious content is fetched and matched against a vulnerable RegEx (e.g., there is an illegal-content detector). Since the malicious input is stored, each new user of the blog could potentially read that malicious input, which is public, and each time a new ReDoS attack could be triggered (depending on how the illegal-content detector is implemented, it could make sense to filter and validate content *continuously* and not just at the publication time - e.g. new tags are added)","x":-1370,"y":462,"width":687,"height":1239},
 		{"id":"3706c68da0df9e2e","type":"text","text":"### [[ReDoS (Regular Expression Denial of Service)]]","x":-1326,"y":311,"width":600,"height":68},
-		{"id":"fb52945c4d3e1dc4","type":"text","text":"## user identification","x":-260,"y":114,"width":320,"height":60}
+		{"id":"fb52945c4d3e1dc4","type":"text","text":"## user identification","x":-260,"y":114,"width":320,"height":60},
+		{"id":"e0b8ba7ee884ed39","x":-385,"y":329,"width":250,"height":79,"type":"text","text":"biometric behaviour"},
+		{"id":"379a93493fc8dfb2","x":-385,"y":500,"width":250,"height":89,"type":"text","text":"input device usage patterns analysis"}
 	],
 	"edges":[
 		{"id":"ec73da95e93d03f5","fromNode":"2daa04955591aee5","fromSide":"bottom","toNode":"26decb87164bdb5e","toSide":"top"},
@@ -27,6 +29,7 @@
 		{"id":"7126654a2177e823","fromNode":"a2e27d8522670049","fromSide":"bottom","toNode":"1a8f1a12c4223ea8","toSide":"top"},
 		{"id":"dfad562ddd8a9754","fromNode":"1a8f1a12c4223ea8","fromSide":"bottom","toNode":"6e30b31cde9c16a8","toSide":"top"},
 		{"id":"8491f718e22154ef","fromNode":"7c2be48738ce7884","fromSide":"bottom","toNode":"4d13bcc46fe6f5cc","toSide":"top"},
-		{"id":"597fff03221253e8","fromNode":"0253f78ebdee5dee","fromSide":"bottom","toNode":"fb52945c4d3e1dc4","toSide":"top"}
+		{"id":"597fff03221253e8","fromNode":"0253f78ebdee5dee","fromSide":"bottom","toNode":"fb52945c4d3e1dc4","toSide":"top"},
+		{"id":"dbcdff43403a7368","fromNode":"e0b8ba7ee884ed39","fromSide":"bottom","toNode":"379a93493fc8dfb2","toSide":"top"}
 	]
 }
