@@ -7,7 +7,9 @@ tags:
 ---
 ## Definition
 
-Usability testing is a [[black-box testing]] techniques of testing the functionality of a website, app, or product by ==observing real users as they attempt to complete tasks on it==. The users are usually observed by researchers working for a business during either an in-person or, more commonly, a remote usability testing session.
+Usability testing is a [[black-box testing]] techniques of testing the functionality of a website, app, or product by ==observing real users as they attempt to complete tasks on it==
+
+The users are usually observed by researchers working for a business during either an in-person or, more commonly, a remote usability testing session.
 
 Questions related to usability testing:
 - is the user interface tailored to the end user?
@@ -25,7 +27,7 @@ With the usability test, the user experience - and the ability to complete tasks
 **Usability testing techniques**
 - *thinking aloud*: the user speaks aloud his thoughts and observations while he is performing the assigned task
 - *eye tracking*: the way the user read an interface using is eyes is recorded. This data may be associated with the thinking aloud process
-- *usability questionnaire*: 
+- *usability questionnaire*
 
 ## References
 [[07 Usability (User) Testing]]

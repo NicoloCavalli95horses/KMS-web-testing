@@ -63,7 +63,15 @@ Scanners are tools that detect errors which are injected by invalid inputs into 
 - Scanners can be a black-box or a white-box. The tools based on these approach launch attacks against web application and observes the response
 
 **Randomness based testing**
+Providing random input to the application and checking its functional behavior while
+handling the invalid input is random testing. It does not follow the usual practice of generating the set of test cases ahead
+- not usable when a web application involve logical dependencies or sequences of events
 
+**Usability testing**
+[[usability testing]]
 
+**Biometric-based testing**
+Advanced identification processes may rely on biometrics, that are user's unique characteristics. ==The user behavior on Internet can be analyzed to create an unique profile of the user, which can be used for identification purposes.==
+- behavioral biometrics is a passive monitoring of user characteristics and it is a relatively new research direction
 ## References
 [[ref_security_of_web_application_state_of_art]]
