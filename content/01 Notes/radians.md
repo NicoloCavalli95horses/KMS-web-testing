@@ -10,6 +10,6 @@ Radian is a unit used to measure angles. In a circle, a radian is simply the ang
 
 ![[circle_radians.gif]]
 
-This angle is often useful in [[Linear Algebra]] when we need to consider element located clock-like.
+This angle is often useful in linear algebra when we need to consider element located clock-like.
 
 Radian angle is often used in combination with [[sine and cosine]] functions to get the position of elements disposed on a circumference.
