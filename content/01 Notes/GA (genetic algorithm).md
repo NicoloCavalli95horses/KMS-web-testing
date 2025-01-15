@@ -15,7 +15,7 @@ A genetic algorithm (GA) is a type of evolutionary algorithm that simulates the 
 
 A GA process typically involves the followings steps:
 - ==initialization==: creation of an initial population of candidates
-- ==evaluation==: each candidate is evaluated using a fitness function. The candidates are ranked based on their performance
+- ==evaluation==: each candidate is evaluated using a [[fitness function]]. The candidates are ranked based on their performance
 - ==selection==: the best candidates are selected and their properties are used to compose the next generation of candidates
 - ==crossover==: a new generation is composed by combining couple of candidates
 - ==mutation==: casual variations are introduced to the new generation to allow a certain degree of freedom

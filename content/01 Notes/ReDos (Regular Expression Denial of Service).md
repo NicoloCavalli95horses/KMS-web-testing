@@ -7,7 +7,7 @@ tags:
 ---
 ## Definition
 
-The Regular expression Denial of Service (ReDoS) is a type of [[DOS (Denial of Service)]] attack, that exploits the fact that some [[RegEx (Regular Expression)]] implementations are based on [[NFA (Nondeterministic Finite Automation)]] algorithms that try every possible combinatoric path in order to establish a result. This means that a [[evil RegEx (Regular Expression)]] can be exploited to make the system hangs due to combinatoric calculations
+The Regular expression Denial of Service (ReDoS) is a type of [[DoS (Denial of Service)]] attack, that exploits the fact that some [[RegEx (Regular Expression)]] implementations are based on [[NFA (Nondeterministic Finite Automation)]] algorithms that try every possible combinatoric path in order to establish a result. This means that a [[evil RegEx (Regular Expression)]] can be exploited to make the system hangs due to combinatoric calculations
 
 > The general advice is to ==avoid, if possible, using RegEx that allow very long repetitions of characters==, especially when it comes to repetitions with * (Kleene star) or +, which can lead to exponential combinatoric explorations in regex engines like JavaScript.
 

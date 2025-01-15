@@ -17,7 +17,7 @@ Challenges in testing web applications:
 - **large and varied user base**: users have different skill sets and experience, different browsers, OS, devices, connection speeds
 - **business challenges:** for e-commerces, calculating taxes, shipping costs, discounts, completing financial transactions, ...
 - **locales**: users may reside in other countries, so language translations, time zone differences and currency conversions are issues to take into consideration
-- **security**: each web application is exposed to [[DOS (Denial of Service)]] attacks or other cyber security issues
+- **security**: each web application is exposed to [[DoS (Denial of Service)]] attacks or other cyber security issues
 - **testing environment**: to the most accurate simulation of a real world scenario, one should ideally duplicate the whole network infrastructure 
 
 Three-tier structure:

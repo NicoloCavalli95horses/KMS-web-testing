@@ -18,7 +18,7 @@ JavaScript popularity is due to:
 
 Risks associated to third party dependencies:
 - since JS is loosely coupled, security flaws are common
-- [[DOS (Denial of Service)]]
+- [[DoS (Denial of Service)]]
 - [[prototype pollution]] issues
 - asynchronous evolution between third-party packages and client projects
 	- this may lead to adding extra packages to solve the issues
@@ -38,7 +38,7 @@ In React, dependency smells are introduced more frequently than they are fixed
 ### Most common security vulnerabilities introduced by third-party dependencies
 
 42 vulnerability types with 10 vulnerability that cover over 90% of the observed variance.
-- ==[[DOS (Denial of Service)]] (40%):== overwhelms the service or app to render it unusable
+- ==[[DoS (Denial of Service)]] (40%):== overwhelms the service or app to render it unusable
 - ==[[prototype pollution]] (25%):== allows manipulation of JavaScript's objects and properties
 - ==[[code-injection]] (6%): ==enables an attacker to run malicious commands on the target OS
 - ==Arbitrary-file access (5%):== unauthorized manipulation of files

@@ -10,7 +10,7 @@ tags:
 ==Buffer overflow is a software vulnerability that occur when the amount of data in a buffer, which is a sequential section of computing memory that hold data temporarily, exceeds its storage capacity.==
 
 That extra data overflows into adjacent memory locations and corrupts or overwrites the data in those locations
-- Writing outside the bounds of a block of allocated memory can corrupt data, crash the program, lead to [[DOS (Denial of Service)]] or cause the execution of malicious code
+- Writing outside the bounds of a block of allocated memory can corrupt data, crash the program, lead to [[DoS (Denial of Service)]] or cause the execution of malicious code
 - the overflow can be exploited by hackers, to gain unauthorized access to corporate systems
 
 A buffer overflow condition exists when a program attempts to put more data in a  buffer than it can hold, or when a program attempts to put data in a memory area past a buffer. 

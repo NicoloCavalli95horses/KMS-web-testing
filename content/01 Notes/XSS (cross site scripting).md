@@ -16,7 +16,7 @@ Successful XSS can:
 - transfer private information
 - hijack a user's account
 - manipulate the web content
-- cause a [[DOS (Denial of Service)]]
+- cause a [[DoS (Denial of Service)]]
 
 ### Types of XSS attacks
 
