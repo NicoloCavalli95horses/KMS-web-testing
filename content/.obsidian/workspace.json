@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/GUI vulnerabilities.canvas",
                 "viewState": {
-                  "x": 62.298085237801104,
-                  "y": 493.63935637353313,
-                  "zoom": -0.9373281055885812
+                  "x": 163.2013652757238,
+                  "y": 445.25376703671054,
+                  "zoom": -1.2706614389219146
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -161,12 +161,14 @@
   },
   "active": "2df113da9ffbc2cc",
   "lastOpenFiles": [
+    "01 Notes/UML (Unified Modeling Language).md",
+    "04 Canvases/GUI vulnerabilities.canvas",
+    "00 Antilibrary/taint tracking.md",
     "04 Canvases/GUI testing techniques on large scale applications.canvas",
     "00 Antilibrary/volume testing.md",
     "00 Antilibrary/VM (virtual machine).md",
     "00 Antilibrary/tree difference algorithms.md",
     "00 Antilibrary/TDD (test-driven development).md",
-    "00 Antilibrary/taint tracking.md",
     "00 Antilibrary/stress testing.md",
     "00 Antilibrary/storage testing.md",
     "00 Antilibrary/static taint analysis.md",
@@ -186,8 +188,6 @@
     "00 Antilibrary/precise alias analysis.md",
     "00 Antilibrary/phishing attack.md",
     "00 Antilibrary/performance testing.md",
-    "00 Antilibrary/overfitting.md",
-    "04 Canvases/GUI vulnerabilities.canvas",
     "04 Canvases/Paper structure.canvas",
     "97 Assets/notamper_checkout_example.png",
     "97 Assets/canvas_related_issues.png",
