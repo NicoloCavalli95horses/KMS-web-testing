@@ -6,7 +6,7 @@ tags:
 ---
 ## Definition
 
-The core idea in symbolic execution is to work with abstract inputs instead of concrete inputs. For example, considering the following function:
+In general, symbolic execution denotes the process of analyzing what inputs cause each part of a program to execute. ==The core idea in symbolic execution is to work with abstract inputs instead of concrete inputs. ==For example, considering the following function:
 
 ```JavaScript
 
@@ -34,7 +34,7 @@ In order to create useful abstraction, the developer must be aware of the implem
 
 Symbolic execution is mostly used to identify vulnerabilities such as:
 - [[buffer overflow]]
-- [[integer overflow]]
+- integer overflow
 - input validation
 
 **Limits**
@@ -47,3 +47,4 @@ See [[concolic execution]].
 
 ## References
 https://it.eitca.org/cybersecurity/eitc-is-acss-advanced-computer-systems-security/security-analysis/symbolic-execution/examination-review-symbolic-execution/what-is-the-basic-idea-behind-symbolic-execution-and-how-does-it-differ-from-ordinary-testing-or-fuzzing/
+[[ref_guruws_hybrid_platform_detecting_malicious_web_shells]]
