@@ -11,17 +11,15 @@
             "id": "2df113da9ffbc2cc",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/GUI vulnerabilities.canvas",
-                "viewState": {
-                  "x": -656.8765039890974,
-                  "y": 1114.0597701772858,
-                  "zoom": -1.3599589311061036
-                }
+                "file": "01 Notes/GEMs (GUI Element Misuse).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "GUI vulnerabilities"
+              "icon": "lucide-file",
+              "title": "GEMs (GUI Element Misuse)"
             }
           }
         ]
@@ -55,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gems",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -161,35 +160,35 @@
   },
   "active": "2df113da9ffbc2cc",
   "lastOpenFiles": [
+    "03 References/ref_white_and_black_box_testing.md",
+    "03 References/ref_untangling_spaghetti_of_evolutions.md",
+    "03 References/ref_testing_event_center_activity.md",
+    "03 References/ref_taxonomy_of_testable_html5_canvas_issues.md",
+    "03 References/ref_strengthening_web_app_security_buffer_overflow.md",
+    "03 References/ref_stile_tool_for_e2e_parallelization.md",
+    "03 References/ref_snowballing_literature_study_test_amplification.md",
+    "03 References/ref_security_of_web_application_state_of_art.md",
+    "03 References/ref_runtime_recovery_web_app_under_redos.md",
+    "03 References/ref_repairing_gui_test_ga.md",
+    "03 References/ref_recognition_web_user_biometrics.md",
+    "03 References/ref_overview_sql_injection_detection.md",
+    "03 References/ref_on_model_based_testing_advanced_guis.md",
+    "03 References/ref_notamper_automatic_blackbox_det_parameter_tampering.md",
+    "03 References/ref_misuse_gui_to_implement_security_checks.md",
+    "03 References/ref_mining_android_app_usages.md",
+    "03 References/ref_managing_security_vulnerabilities_dependencies_react.md",
+    "03 References/ref_lightweight_static_analysis_gui_testing.md",
+    "03 References/ref_javascript_the_good_parts.md",
+    "03 References/ref_janus_detecting_rendering_bugs_web_browsers.md",
+    "03 References/ref_hidden_gems_auto_discovery.md",
+    "03 References/ref_guruws_hybrid_platform_detecting_malicious_web_shells.md",
+    "03 References/ref_gui_ripping_reverse_engineering_of_gui.md",
+    "03 References/ref_fault_models_in_testing.md",
+    "03 References/ref_empirical_study_detecting_buffer_overflow.md",
     "03 References/ref_current_state_research_xss.md",
     "04 Canvases/GUI vulnerabilities.canvas",
-    "01 Notes/XSS (cross site scripting).md",
-    "02 Literature/papers/Runtime recovery of web applications under zero-days ReDoS attacks.md",
-    "02 Literature/papers/Security of Web Application. State of the Art.md",
-    "02 Literature/papers/STILE, a tool for optimizing E2E web test scripts parallelization.md",
-    "02 Literature/papers/Testing is an Event-Centric Activity.md",
-    "02 Literature/papers/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
-    "01 Notes/DoS (Denial of Service).md",
-    "02 Literature/papers/Repairing GUI Test Suites Using a Genetic Algorithm.md",
-    "02 Literature/papers/Overview of SQL injection attack detection techniques.md",
-    "01 Notes/ReDos (Regular Expression Denial of Service).md",
-    "02 Literature/papers/An Empirical Study on Detecting and Fixing Buffer Overflow Bugs.md",
-    "02 Literature/papers/Common vulnerabilities in real world web applications.md",
-    "02 Literature/papers/Lightweight Static Analysis for GUI testing.md",
-    "02 Literature/papers/Mining Android App Usages for Generating Actionable GUI-based Execution Scenarios.md",
-    "02 Literature/papers/On the misuse of Graphical User Interface elements to implement security controls.md",
-    "01 Notes/evil RegEx (Regular Expression).md",
-    "01 Notes/COIL (Cross-Origin Image Leak).md",
     "Untitled.canvas",
-    "01 Notes/multi-event interactions.md",
-    "03 References/ref_taxonomy_of_testable_html5_canvas_issues.md",
     "04 Canvases/GUI testing techniques on large scale applications.canvas",
-    "01 Notes/canvas DOM element.md",
-    "02 Literature/papers/A taxonomy of testable HTML5 Canvas Issues.md",
-    "03 References/ref_combinng_behavioral_biometrics_enhance_auth.md",
-    "03 References/ref_recognition_web_user_biometrics.md",
-    "03 References/ref_on_model_based_testing_advanced_guis.md",
-    "01 Notes/GEMs (GUI Element Misuse).md",
     "04 Canvases/Paper structure.canvas",
     "97 Assets/notamper_checkout_example.png",
     "97 Assets/canvas_related_issues.png",
