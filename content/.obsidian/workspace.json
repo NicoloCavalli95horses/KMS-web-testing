@@ -4,22 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7e8124cd906f1c04",
+        "id": "86c9092bb351243f",
         "type": "tabs",
         "children": [
           {
-            "id": "2df113da9ffbc2cc",
+            "id": "7cad9adae4821aca",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "02 Literature/books/Web application security/chapters/16 Client-Side Attacks.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "04 Canvases/GUI testing techniques on large scale applications.canvas",
+                "viewState": {
+                  "x": -90,
+                  "y": 247,
+                  "zoom": -1.0356976765741934
+                }
               },
-              "icon": "lucide-file",
-              "title": "16 Client-Side Attacks"
+              "icon": "lucide-layout-dashboard",
+              "title": "GUI testing techniques on large scale applications"
             }
           }
         ]
@@ -74,8 +76,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -158,21 +159,25 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "0d4f777b445aff61",
+  "active": "7cad9adae4821aca",
   "lastOpenFiles": [
+    "04 Canvases/GUI vulnerabilities.canvas",
+    "01 Notes/tabnabbing.md",
+    "01 Notes/clickjacking.md",
+    "02 Literature/books/Web application security/Web application security.md",
+    "03 References/ref_web_application_security_o_reilly.md",
+    "02 Literature/books/Web application security/chapters/16 Client-Side Attacks.md",
+    "01 Notes/ReDoS (Regular Expression Denial of Service).md",
+    "01 Notes/prototype pollution.md",
     "02 Literature/books/JavaScript, The Good Parts/chapters/03 Objects.md",
     "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
-    "01 Notes/prototype pollution.md",
     "02 Literature/books/JavaScript, The Good Parts/chapters/04 Functions.md",
-    "02 Literature/books/Web application security/chapters/16 Client-Side Attacks.md",
     "02 Literature/books/The art of software testing/chapters/01-02 Self-assessment test, psychology and economics of software testing.md",
     "02 Literature/books/The art of software testing/chapters/04 Test-case Design.md",
     "02 Literature/books/The art of software testing/chapters/07 Usability (User) Testing.md",
     "02 Literature/books/The art of software testing/chapters/09 Testing in the Agile Environment.md",
-    "02 Literature/books/Web application security/Web application security.md",
     "02 Literature/books/The art of software testing/The art of software testing.md",
     "02 Literature/books/The art of software testing/The art of software testing.canvas",
-    "03 References/ref_web_application_security_o_reilly.md",
     "02 Literature/books/Web application security/chapters",
     "02 Literature/books/Web application security",
     "03 References/ref_hidden_gems_auto_discovery.md",
@@ -185,11 +190,6 @@
     "03 References/ref_security_of_web_application.md",
     "03 References/ref_security_of_web_application_state_of_art.md",
     "index.md",
-    "02 Literature/papers/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
-    "02 Literature/papers/Testing is an Event-Centric Activity.md",
-    "02 Literature/papers/STILE, a tool for optimizing E2E web test scripts parallelization.md",
-    "02 Literature/papers/Security of Web Application. State of the Art.md",
-    "04 Canvases/GUI vulnerabilities.canvas",
     "Untitled.canvas",
     "04 Canvases/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/Paper structure.canvas",

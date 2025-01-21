@@ -45,7 +45,9 @@ console.log(typeof a.test); // string
 
 Use **Object.freeze()** to prevent any changes to the prototype (it is possible to freeze the prototype directly)
 
-External prototype pollution could be considered a form of [[code-injection]]
+External prototype pollution could be considered a form of code-injection (see [[XSS (cross site scripting)]])
+
 ## References
-https://learn.snyk.io/lesson/prototype-pollution/
-[[ref_managing_security_vulnerabilities_dependencies_react]]
+- https://learn.snyk.io/lesson/prototype-pollution/
+- [[ref_managing_security_vulnerabilities_dependencies_react]]
+- [[ref_web_application_security_o_reilly]]
