@@ -8,6 +8,8 @@ tags:
 ---
 ## Definition
 
+Prototype pollution attacks allow you to *compromise an object you do not have access to*, via *compromising an object you do have access to*, that shares a prototypal inheritance relationship with the object you want to attack
+
 > A prototype pollution occurs when a lot of properties and methods are added on a shared ancestor (object prototype).
 > 	- this can make the prototype heavier and can create conflits with the children objects properties
 > 	- security issues may occur if the prototype pollution affects the behavior of children objects (e.g., obj.role property is changed to 'admin' because the role property is modified on the prototype)
