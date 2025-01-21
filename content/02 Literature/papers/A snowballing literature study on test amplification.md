@@ -20,7 +20,7 @@ A key difference from other types of testing: ==the input used for test amplific
 
 ### Amplification by adding new tests as variants of existing ones
 
-> A test amplification technique **AMPadd** consists of creating new tests from existing ones to achieve a given engineering goal. The most commonly used engineering goal is to improve software coverage
+> A test amplification technique **AMPadd** consists of creating new tests from existing ones to achieve a given engineering goal. The most commonly used engineering goal is to *improve software coverage*
 
 Tests generated in this way are effective in achieving multiple engineering goals, such as:
 - improving code coverage
