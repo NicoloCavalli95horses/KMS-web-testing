@@ -11,17 +11,15 @@
             "id": "7cad9adae4821aca",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/GUI testing techniques on large scale applications.canvas",
-                "viewState": {
-                  "x": -90,
-                  "y": 247,
-                  "zoom": -1.0356976765741934
-                }
+                "file": "03 References/ref_hidden_gems_auto_discovery.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "GUI testing techniques on large scale applications"
+              "icon": "lucide-file",
+              "title": "ref_hidden_gems_auto_discovery"
             }
           }
         ]
@@ -55,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "gems",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -161,13 +160,17 @@
   },
   "active": "7cad9adae4821aca",
   "lastOpenFiles": [
+    "01 Notes/GEMs (GUI Element Misuse).md",
+    "01 Notes/ReDoS (Regular Expression Denial of Service).md",
+    "02 Literature/papers/Runtime recovery of web applications under zero-days ReDoS attacks.md",
+    "03 References/ref_runtime_recovery_web_app_under_redos.md",
+    "04 Canvases/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/GUI vulnerabilities.canvas",
     "01 Notes/tabnabbing.md",
     "01 Notes/clickjacking.md",
     "02 Literature/books/Web application security/Web application security.md",
     "03 References/ref_web_application_security_o_reilly.md",
     "02 Literature/books/Web application security/chapters/16 Client-Side Attacks.md",
-    "01 Notes/ReDoS (Regular Expression Denial of Service).md",
     "01 Notes/prototype pollution.md",
     "02 Literature/books/JavaScript, The Good Parts/chapters/03 Objects.md",
     "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
@@ -188,10 +191,7 @@
     "02 Literature/papers/A taxonomy of testable HTML5 Canvas Issues.md",
     "02 Literature/papers/A snowballing literature study on test amplification.md",
     "03 References/ref_security_of_web_application.md",
-    "03 References/ref_security_of_web_application_state_of_art.md",
-    "index.md",
     "Untitled.canvas",
-    "04 Canvases/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/Paper structure.canvas",
     "97 Assets/notamper_checkout_example.png",
     "97 Assets/canvas_related_issues.png",
