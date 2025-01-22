@@ -30,9 +30,9 @@
               "state": {
                 "file": "04 Canvases/GUI vulnerabilities.canvas",
                 "viewState": {
-                  "x": -1177.2444647423658,
-                  "y": 326.21282920237,
-                  "zoom": -1.1102230246251565e-16
+                  "x": -1768.0378722879864,
+                  "y": 1315.1412084733724,
+                  "zoom": -1.3333333333333333
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -207,8 +207,9 @@
   },
   "active": "92cfc1cd6e1558fb",
   "lastOpenFiles": [
-    "01 Notes/clickjacking.md",
+    "01 Notes/DoS (Denial of Service).md",
     "04 Canvases/GUI vulnerabilities.canvas",
+    "01 Notes/clickjacking.md",
     "01 Notes/prototype pollution.md",
     "02 Literature/books/JavaScript, The Good Parts/chapters/04 Functions.md",
     "02 Literature/books/Web application security/chapters/16 Client-Side Attacks.md",
