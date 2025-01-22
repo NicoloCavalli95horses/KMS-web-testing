@@ -28,6 +28,12 @@ When we call the `toString` method on an object, the language runtime will look 
 
 Merging two objects can expose the code to a prototype pollution attack — in fact, any function which recursively sets nested properties can create an attack vector (using a library like `lodash` or `deepmerge`, to merge JS object could be a valid solution) 
 
+### Risks and issues
+- Privilege escalation issues
+- Property injection
+- Cause a [[DoS (Denial of Service)]]
+- Remote code execution in worst-case scenario (server-side, with `eval()` functions or DOM node generation)
+
 ### Is the prototype pollution a form of [[XSS (cross site scripting)]]?
 
 The attack does not require a script injection. Prototype pollution can be done exploiting:

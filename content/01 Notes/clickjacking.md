@@ -8,7 +8,25 @@ tags:
 ---
 ## Definition
 
+ Clickjacking attacks merge malicious UI elements with non-malicious UI elements, or transparently trick the browser into sending input to a malicious server or function call, rather than an intended function call.
+ 
+There are many methods of attacking an application using clickjacking, with implementations involving JavaScript, HTML, and CSS.
+- It is feasible to consider a clickjacking attack as a form of *user-interface keylogger*
 
+When used against unsuspecting end users, clickjacking attacks can allow an attacker to steal valuable user input that was not intended to be read by a third party.
 
+### How does it work
+
+- The user has to click to a malicious link which points to a legitimate-looking website (may be a copy of a real trusted website)
+- The fake website contains invisible iframes and the actions of the user are captured by this invisible layer
+
+### Examples
+
+**Camera and microphone exploit in Adobe Flash, 2008** 
+The user:
+- was mislead to play a web game, by clicking on a malicious link
+- every click within this game corresponded with a click on a Adobe Flash settings page, that was embedded in a iframe
+- When interacting with the clickjacking web page, the end user was tricked into passing clicks through to the privileged Adobe Flash privacy settings
+- The result was that the Adobe Flash browser plug-in would share both camera and microphone control with the hacker
 ## References
 [[ref_web_application_security_o_reilly]]
