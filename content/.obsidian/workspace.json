@@ -11,20 +11,34 @@
             "id": "92cfc1cd6e1558fb",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/GUI vulnerabilities.canvas",
-                "viewState": {
-                  "x": -515.2244325503432,
-                  "y": 831.4401537381655,
-                  "zoom": -1.3333333333333333
-                }
+                "file": "02 Literature/papers/Mutta. A novel tool for E2E web mutation testing.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "GUI vulnerabilities"
+              "icon": "lucide-file",
+              "title": "Mutta. A novel tool for E2E web mutation testing"
+            }
+          },
+          {
+            "id": "b8ba78bb82e5be52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/Mutation testing.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mutation testing"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -55,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "e2e",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,10 +173,14 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "92cfc1cd6e1558fb",
+  "active": "b8ba78bb82e5be52",
   "lastOpenFiles": [
-    "01 Notes/tabnabbing.md",
+    "02 Literature/papers/Mutta. A novel tool for E2E web mutation testing.md",
+    "01 Notes/Mutation testing.md",
+    "01 Notes/E2E (end-to-end) testing.md",
+    "03 References/ref_mutta_e2e_mutation_testing.md",
     "04 Canvases/GUI vulnerabilities.canvas",
+    "01 Notes/tabnabbing.md",
     "01 Notes/clickjacking.md",
     "01 Notes/prototype pollution.md",
     "03 References/ref_hidden_gems_auto_discovery.md",
@@ -188,9 +206,6 @@
     "02 Literature/books/Web application security",
     "02 Literature/papers/Hidden GEMS. Automated discovery of Access Control Vulnerabilities in Graphical User Interfaces.md",
     "02 Literature/papers/AutoInSpec, using missing test coverage to improve specifications in GUIs.md",
-    "02 Literature/papers/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
-    "02 Literature/papers/An Empirical Study on Detecting and Fixing Buffer Overflow Bugs.md",
-    "02 Literature/papers/A taxonomy of testable HTML5 Canvas Issues.md",
     "Untitled.canvas",
     "04 Canvases/Paper structure.canvas",
     "97 Assets/notamper_checkout_example.png",
