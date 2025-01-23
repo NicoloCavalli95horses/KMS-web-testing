@@ -7,7 +7,8 @@ tags:
 ---
 ## Abstract
 
-The correctness of browser rendering is not always guaranteed, often leading to rendering bugs. Traditional differential testing, while successful in various domains, falls short when applied to rendering bug detection because an HTML file is likely yield different rendered outcomes across different browsers.
+The correctness of browser rendering is not always guaranteed, often leading to rendering bugs. Traditional [[differential testing]], while successful in various domains, falls short when applied to rendering bug detection because an HTML file is likely yield different rendered outcomes across different browsers.
+
 This paper introduces **Visual Delta Consistency,** a [[test oracle]] that detects rendering bugs in web browsers.
 
 > ==Any modifications made to an HTML file should uniformly influence rendering outcomes across browsers.== The reaction of all browsers should be consistent (i.e., either all browsers render them identically or all render them differently).
