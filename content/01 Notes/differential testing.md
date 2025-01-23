@@ -13,6 +13,8 @@ Differential testing consists of a comparison of outcomes: these are generated b
 - One is the ==test version==, modified and needing to be tested
 - The other is the ==base version== that is previously verified and guaranteed to produce a correct outcome
 
+In web development, differential testing can be used to test the rendering behaviors of different software versions. The idea is that two screenshots taken from the same page, which has not undergone any changes, should be identical.
+
 In practice, this approach verifies that the behavior of the software remains unchanged between different software versions. In this sense, it could be considered a type of [[regression testing]].
 
 ## References
