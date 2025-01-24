@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"31993ad85d9120bf","x":-640,"y":840,"width":1643,"height":885,"color":"2","type":"group","label":"blackbox approach"},
+		{"id":"e58568b9239f40a1","x":1173,"y":848,"width":1307,"height":877,"color":"3","type":"group","label":"Mutation testing (white box approach)"},
+		{"id":"a421e274d2287eed","type":"text","text":"Constraints: \n- Large application\n- Freemium features or [[RBAC (role-based access control)]] implementation\n- Premium or high-privilege features have to be displayed as disabled or hidden, relying on the GUI state","x":460,"y":-44,"width":620,"height":304},
+		{"id":"e53e45fea4f402e4","type":"text","text":"### Candidate search","x":-20,"y":58,"width":381,"height":100},
+		{"id":"18ac8a629c0abf82","type":"text","text":"Possible candidates:\n- Canva https://www.canva.com/\n- Medium https://medium.com/\n- Ad hoc application (?)","x":1160,"y":-44,"width":516,"height":304},
+		{"id":"e89c5e3ca188eff9","type":"text","text":"# GEMs testing on large web scale applications","x":20,"y":-580,"width":1696,"height":240,"color":"5"},
+		{"id":"ca9ea099459d241a","type":"text","text":"Challenges:\n- parse each page's DOM\n- collect references to widgets (button, input fields)\n- filter widgets that display a different state depending on the user privilege","x":-55,"y":900,"width":650,"height":270},
+		{"id":"794b191153cae593","type":"text","text":"### Extract structure of the GUI with a [[GUI ripper]]","x":-620,"y":932,"width":451,"height":205},
+		{"id":"72720dc11c5fa32c","type":"text","text":"==Each disabled or hidden element can potentially be a GEM==\n\nTesting process:\n- navigate to the web application\n- identify the candidate widget\n- screenshot the whole page (s1)\n- manipulate the state of the widget (enabling, forcing visibility, forcing z-index position)\n- click or keydown on the widget\n- screenshot the whole page again (s2)\n- if s1 != s2, a potential vulnerability is found ([[differential testing]])","x":-55,"y":1205,"width":650,"height":500},
+		{"id":"e1229a408ef8c3a8","type":"text","text":"Tools:\n- Puppeteer\n- Cypress\n- Node.js","x":655,"y":1339,"width":328,"height":233},
+		{"id":"f2a240b650757717","type":"text","text":"### Create a E2E test suite","x":-620,"y":1381,"width":451,"height":148},
+		{"id":"e19c97b1bb5a292c","type":"text","text":"### Mutate the client-side source code introducing GEMs","x":1193,"y":900,"width":451,"height":205},
+		{"id":"3ad02b195cbdb105","type":"text","text":"### Execute the official E2E test suites to see if they detect the change","x":1193,"y":1349,"width":451,"height":191},
+		{"id":"b873ff39c1fe2edc","type":"text","text":"Challenges:\n- find executable public E2E test suites of large scale application","x":1758,"y":1339,"width":650,"height":210},
+		{"id":"f1cfd4ae8add0f46","type":"text","text":"Challenges:\n- parse each page's DOM\n- collect references to widgets (button, input fields)\n- filter widgets that display a different state depending on the user privilege\n","x":1740,"y":884,"width":650,"height":237}
+	],
+	"edges":[
+		{"id":"82745a9e942f47cf","fromNode":"e53e45fea4f402e4","fromSide":"right","toNode":"a421e274d2287eed","toSide":"left"},
+		{"id":"5e4b97ec2cce503c","fromNode":"794b191153cae593","fromSide":"right","toNode":"ca9ea099459d241a","toSide":"left"},
+		{"id":"9f4181e29014b2e1","fromNode":"794b191153cae593","fromSide":"bottom","toNode":"f2a240b650757717","toSide":"top"},
+		{"id":"a728680722d2859b","fromNode":"f2a240b650757717","fromSide":"right","toNode":"72720dc11c5fa32c","toSide":"left"},
+		{"id":"11874242fd5749f3","fromNode":"a421e274d2287eed","fromSide":"right","toNode":"18ac8a629c0abf82","toSide":"left"},
+		{"id":"171aba7605ea7550","fromNode":"72720dc11c5fa32c","fromSide":"right","toNode":"e1229a408ef8c3a8","toSide":"left"},
+		{"id":"6458866670fc85ce","fromNode":"e53e45fea4f402e4","fromSide":"bottom","toNode":"31993ad85d9120bf","toSide":"top"},
+		{"id":"58c9f874ec9b6262","fromNode":"e19c97b1bb5a292c","fromSide":"bottom","toNode":"3ad02b195cbdb105","toSide":"top"},
+		{"id":"e8db9edbbdd2c0d0","fromNode":"3ad02b195cbdb105","fromSide":"right","toNode":"b873ff39c1fe2edc","toSide":"left"},
+		{"id":"b2e3a5ec7dc6a50a","fromNode":"e53e45fea4f402e4","fromSide":"bottom","toNode":"e58568b9239f40a1","toSide":"top"},
+		{"id":"64d3a4cd276f1395","fromNode":"e19c97b1bb5a292c","fromSide":"right","toNode":"f1cfd4ae8add0f46","toSide":"left"}
+	]
+}

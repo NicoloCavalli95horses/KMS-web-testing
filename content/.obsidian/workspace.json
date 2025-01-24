@@ -11,15 +11,17 @@
             "id": "b8ba78bb82e5be52",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "02 Literature/papers/Bypass testing of web applications.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "04 Canvases/Web GEMs.canvas",
+                "viewState": {
+                  "x": 784.8217274973822,
+                  "y": 1282.4736010321294,
+                  "zoom": -1.6553998360345137
+                }
               },
-              "icon": "lucide-file",
-              "title": "Bypass testing of web applications"
+              "icon": "lucide-layout-dashboard",
+              "title": "Web GEMs"
             }
           }
         ]
@@ -159,13 +161,16 @@
   },
   "active": "b8ba78bb82e5be52",
   "lastOpenFiles": [
-    "03 References/ref_bypass_testing_of_web_app.md",
-    "02 Literature/papers/Bypass testing of web applications.md",
-    "01 Notes/Mutation testing.md",
+    "04 Canvases/GUI testing techniques on large scale applications.canvas",
+    "04 Canvases/Paper structure.canvas",
     "04 Canvases/GUI vulnerabilities.canvas",
+    "04 Canvases/Web GEMs.canvas",
+    "01 Notes/GUI ripper.md",
+    "02 Literature/papers/Bypass testing of web applications.md",
+    "03 References/ref_bypass_testing_of_web_app.md",
+    "01 Notes/Mutation testing.md",
     "03 References/ref_mutta_e2e_mutation_testing.md",
     "02 Literature/papers/Mutta. A novel tool for E2E web mutation testing.md",
-    "04 Canvases/Paper structure.canvas",
     "01 Notes/differential testing.md",
     "00 Antilibrary/direct manipulation (design pattern).md",
     "02 Literature/papers/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md",
@@ -177,7 +182,6 @@
     "02 Literature/books/Web application security/chapters/16 Client-Side Attacks.md",
     "01 Notes/DoS (Denial of Service).md",
     "02 Literature/books/JavaScript, The Good Parts/chapters/04 Functions.md",
-    "04 Canvases/GUI testing techniques on large scale applications.canvas",
     "01 Notes/GEMs (GUI Element Misuse).md",
     "01 Notes/ReDoS (Regular Expression Denial of Service).md",
     "02 Literature/papers/Runtime recovery of web applications under zero-days ReDoS attacks.md",
@@ -186,8 +190,6 @@
     "03 References/ref_web_application_security_o_reilly.md",
     "02 Literature/books/JavaScript, The Good Parts/chapters/03 Objects.md",
     "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
-    "02 Literature/books/The art of software testing/chapters/01-02 Self-assessment test, psychology and economics of software testing.md",
-    "02 Literature/books/The art of software testing/chapters/04 Test-case Design.md",
     "02 Literature/books/The art of software testing/The art of software testing.canvas",
     "02 Literature/books/Web application security/chapters",
     "02 Literature/books/Web application security",
