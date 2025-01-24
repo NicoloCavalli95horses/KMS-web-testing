@@ -8,54 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "92cfc1cd6e1558fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Literature/papers/Mutta. A novel tool for E2E web mutation testing.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Mutta. A novel tool for E2E web mutation testing"
-            }
-          },
-          {
-            "id": "b1d240d31e8a355a",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "04 Canvases/Paper structure.canvas",
-                "viewState": {
-                  "x": 1343.7115761234572,
-                  "y": 658.7381265211244,
-                  "zoom": -0.5096293400803276
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Paper structure"
-            }
-          },
-          {
             "id": "b8ba78bb82e5be52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/Mutation testing.md",
+                "file": "02 Literature/papers/Bypass testing of web applications.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mutation testing"
+              "title": "Bypass testing of web applications"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,16 +157,19 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "b1d240d31e8a355a",
+  "active": "b8ba78bb82e5be52",
   "lastOpenFiles": [
+    "03 References/ref_bypass_testing_of_web_app.md",
+    "02 Literature/papers/Bypass testing of web applications.md",
+    "01 Notes/Mutation testing.md",
+    "04 Canvases/GUI vulnerabilities.canvas",
+    "03 References/ref_mutta_e2e_mutation_testing.md",
+    "02 Literature/papers/Mutta. A novel tool for E2E web mutation testing.md",
+    "04 Canvases/Paper structure.canvas",
     "01 Notes/differential testing.md",
     "00 Antilibrary/direct manipulation (design pattern).md",
-    "02 Literature/papers/Mutta. A novel tool for E2E web mutation testing.md",
     "02 Literature/papers/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md",
-    "01 Notes/Mutation testing.md",
     "01 Notes/E2E (end-to-end) testing.md",
-    "03 References/ref_mutta_e2e_mutation_testing.md",
-    "04 Canvases/GUI vulnerabilities.canvas",
     "01 Notes/tabnabbing.md",
     "01 Notes/clickjacking.md",
     "01 Notes/prototype pollution.md",
@@ -218,13 +188,10 @@
     "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
     "02 Literature/books/The art of software testing/chapters/01-02 Self-assessment test, psychology and economics of software testing.md",
     "02 Literature/books/The art of software testing/chapters/04 Test-case Design.md",
-    "02 Literature/books/The art of software testing/chapters/07 Usability (User) Testing.md",
-    "02 Literature/books/The art of software testing/chapters/09 Testing in the Agile Environment.md",
     "02 Literature/books/The art of software testing/The art of software testing.canvas",
     "02 Literature/books/Web application security/chapters",
     "02 Literature/books/Web application security",
     "Untitled.canvas",
-    "04 Canvases/Paper structure.canvas",
     "97 Assets/notamper_checkout_example.png",
     "97 Assets/canvas_related_issues.png",
     "97 Assets/taxonomy_canvas_issues.png",
