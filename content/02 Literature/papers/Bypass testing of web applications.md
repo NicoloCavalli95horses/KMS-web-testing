@@ -16,6 +16,8 @@ We are developing a strategy called bypass testing to create client-side tests f
 
 This paper describes the strategy, defines specific rules and adequacy criteria for tests, describes a proof-of-concept automated tool, and presents initial empirical results from applying bypass testing.
 
+---
+
 **Client side-checking**
 - check that the required fields are filled in
 - can be done as soon as a user event is triggered or after the user clicks on a submit button
