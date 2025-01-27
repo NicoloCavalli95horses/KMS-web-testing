@@ -34,5 +34,16 @@ Dropdowns can be used to limit the freedom of choice of the user.
 
 **Build-in control flow restriction**
 A fixed URL can be defined by the `action` attribute fixing the target of the HTTP request. Checking URL tampering is important.
+
+### General techniques
+
+![[illegal_characters.png]]
+
+- **Filters**: illegal or special characters should be filtered out
+- **Numeric limits**: numeric input should always be clamped between a min and a max value
+- **Email addresses**: always ensure that the email address is valid
+- **URLs**: always ensure that URLs provided as input are valid and that the destination exist
+-  [[RegEx (Regular Expression)]]: use RegEx to sanitize the input
+
 ## References
 [[ref_bypass_testing_of_web_app]]

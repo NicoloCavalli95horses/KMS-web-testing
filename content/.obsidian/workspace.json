@@ -11,17 +11,15 @@
             "id": "b8ba78bb82e5be52",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/Web GEMs.canvas",
-                "viewState": {
-                  "x": 489.09006037950644,
-                  "y": 282.44711959777317,
-                  "zoom": 0.02114111727973126
-                }
+                "file": "01 Notes/client-side input validations.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Web GEMs"
+              "icon": "lucide-file",
+              "title": "client-side input validations"
             }
           }
         ]
@@ -159,17 +157,18 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "b8ba78bb82e5be52",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
-    "04 Canvases/Paper structure.canvas",
-    "04 Canvases/GUI vulnerabilities.canvas",
+    "97 Assets/illegal_characters.png",
     "04 Canvases/GUI testing techniques on large scale applications.canvas",
+    "04 Canvases/GUI vulnerabilities.canvas",
+    "04 Canvases/Paper structure.canvas",
+    "04 Canvases/Web GEMs.canvas",
     "01 Notes/client-side input validations.md",
     "02 Literature/papers/Bypass testing of web applications.md",
     "01 Notes/SQLIA (SQL injection attack).md",
     "02 Literature/papers/Overview of SQL injection attack detection techniques.md",
     "01 Notes/XSS (cross site scripting).md",
-    "04 Canvases/Web GEMs.canvas",
     "01 Notes/GUI ripper.md",
     "03 References/ref_bypass_testing_of_web_app.md",
     "01 Notes/Mutation testing.md",
