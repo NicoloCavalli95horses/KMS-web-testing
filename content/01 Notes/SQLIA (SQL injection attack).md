@@ -6,6 +6,9 @@ tags:
 ---
 ## What is a SQLIA
 
+> [!WARNING]
+>  Many Web applications use client-supplied data in SQL queries. However, if the application does not strip potentially harmful characters, users, can add SQL statements into their inputs. This is called SQL injection
+
 A SQL Injection attack occurs when an attacker exploits vulnerabilities in a web application's input validation mechanisms to execute malicious SQL statements. This can result in:
 - unauthorized access to database information
 - the ability to manipulate or delete data
@@ -55,3 +58,4 @@ Since the condition '1'='1' always evaluates to true, the query returns all rows
 ## References
 [[ref_overview_sql_injection_detection]]
 [[ref_common_vulnerabilities_real_world_web_application]]
+[[ref_bypass_testing_of_web_app]]

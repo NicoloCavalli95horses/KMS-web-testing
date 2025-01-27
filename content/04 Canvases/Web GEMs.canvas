@@ -2,19 +2,19 @@
 	"nodes":[
 		{"id":"31993ad85d9120bf","type":"group","x":240,"y":560,"width":1643,"height":820,"color":"2","label":"Test amplification (blackbox approach)"},
 		{"id":"e58568b9239f40a1","type":"group","x":240,"y":1580,"width":1260,"height":560,"color":"3","label":"Mutation testing (white box approach)"},
-		{"id":"ca9ea099459d241a","type":"text","text":"Challenges:\n- parse each page's DOM\n- collect references to widgets (button, input fields)\n- filter widgets that display a different state depending on the user privilege","x":825,"y":580,"width":650,"height":270},
+		{"id":"3ad02b195cbdb105","type":"text","text":"### Execute the official E2E test suites to see if they detect the change","x":260,"y":1889,"width":451,"height":191},
+		{"id":"b873ff39c1fe2edc","type":"text","text":"Challenges:\n- find executable public E2E test suites of large scale application","x":825,"y":1880,"width":650,"height":210},
+		{"id":"ca9ea099459d241a","type":"text","text":"Challenges:\n- parse each page's DOM/extract components\n- collect references to widgets' state (button, input fields)\n- filter widgets that display a different state depending on the user privilege","x":825,"y":580,"width":650,"height":270},
 		{"id":"794b191153cae593","type":"text","text":"### Extract structure of the GUI with a [[GUI ripper]]","x":260,"y":612,"width":451,"height":205},
 		{"id":"e1229a408ef8c3a8","type":"text","text":"Tools:\n- Puppeteer\n- Cypress\n- Node.js","x":1535,"y":1019,"width":328,"height":233},
 		{"id":"f2a240b650757717","type":"text","text":"### Create a E2E test suite","x":260,"y":1061,"width":451,"height":148},
 		{"id":"e19c97b1bb5a292c","type":"text","text":"### Mutate the client-side source code introducing GEMs","x":260,"y":1612,"width":451,"height":205},
 		{"id":"f1cfd4ae8add0f46","type":"text","text":"Challenges:\n- find or build a automated mutation testing tool for web application\n","x":807,"y":1623,"width":650,"height":184},
-		{"id":"3ad02b195cbdb105","type":"text","text":"### Execute the official E2E test suites to see if they detect the change","x":260,"y":1889,"width":451,"height":191},
-		{"id":"b873ff39c1fe2edc","type":"text","text":"Challenges:\n- find executable public E2E test suites of large scale application","x":825,"y":1880,"width":650,"height":210},
 		{"id":"a421e274d2287eed","type":"text","text":"Constraints: \n- Large application\n- Freemium features or [[RBAC (role-based access control)]] implementation\n- Premium or high-privilege features have to be displayed as disabled or hidden, relying on the GUI state","x":241,"y":80,"width":620,"height":304},
+		{"id":"72720dc11c5fa32c","type":"text","text":"Testing process:\n- navigate to the web application\n- identify the candidate widget\n- screenshot the whole page (s1)\n- manipulate the state of the widget (enabling, forcing visibility, forcing z-index position)\n- click or keydown on the widget\n- screenshot the whole page again (s2)\n- if s1 != s2, a potential vulnerability is found ([[differential testing]])","x":825,"y":918,"width":650,"height":435},
 		{"id":"e53e45fea4f402e4","type":"text","text":"### Candidate search","x":-239,"y":182,"width":381,"height":100},
-		{"id":"e89c5e3ca188eff9","type":"text","text":"# GEMs testing on large web scale applications","x":-239,"y":-200,"width":879,"height":120,"color":"5"},
 		{"id":"18ac8a629c0abf82","type":"text","text":"Possible candidates:\n- Canva https://www.canva.com/\n- Medium https://medium.com/\n- Ad hoc application (?)","x":959,"y":131,"width":516,"height":202},
-		{"id":"72720dc11c5fa32c","type":"text","text":"Testing process:\n- navigate to the web application\n- identify the candidate widget\n- screenshot the whole page (s1)\n- manipulate the state of the widget (enabling, forcing visibility, forcing z-index position)\n- click or keydown on the widget\n- screenshot the whole page again (s2)\n- if s1 != s2, a potential vulnerability is found ([[differential testing]])","x":825,"y":918,"width":650,"height":435}
+		{"id":"e89c5e3ca188eff9","type":"text","text":"# GEMs testing on large web scale applications","x":-239,"y":-200,"width":879,"height":120,"color":"5"}
 	],
 	"edges":[
 		{"id":"82745a9e942f47cf","fromNode":"e53e45fea4f402e4","fromSide":"right","toNode":"a421e274d2287eed","toSide":"left"},

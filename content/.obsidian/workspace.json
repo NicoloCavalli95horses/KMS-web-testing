@@ -11,17 +11,15 @@
             "id": "b8ba78bb82e5be52",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/Web GEMs.canvas",
-                "viewState": {
-                  "x": 793.1268771529865,
-                  "y": 1103.8411583129846,
-                  "zoom": -0.6553998360345139
-                }
+                "file": "02 Literature/papers/Bypass testing of web applications.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Web GEMs"
+              "icon": "lucide-file",
+              "title": "Bypass testing of web applications"
             }
           }
         ]
@@ -55,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "sql injection",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,11 +74,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 451.5
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -161,12 +160,15 @@
   },
   "active": "b8ba78bb82e5be52",
   "lastOpenFiles": [
+    "01 Notes/SQLIA (SQL injection attack).md",
+    "02 Literature/papers/Overview of SQL injection attack detection techniques.md",
+    "01 Notes/XSS (cross site scripting).md",
+    "02 Literature/papers/Bypass testing of web applications.md",
     "04 Canvases/GUI testing techniques on large scale applications.canvas",
-    "04 Canvases/Paper structure.canvas",
     "04 Canvases/GUI vulnerabilities.canvas",
+    "04 Canvases/Paper structure.canvas",
     "04 Canvases/Web GEMs.canvas",
     "01 Notes/GUI ripper.md",
-    "02 Literature/papers/Bypass testing of web applications.md",
     "03 References/ref_bypass_testing_of_web_app.md",
     "01 Notes/Mutation testing.md",
     "03 References/ref_mutta_e2e_mutation_testing.md",
@@ -188,8 +190,6 @@
     "03 References/ref_runtime_recovery_web_app_under_redos.md",
     "02 Literature/books/Web application security/Web application security.md",
     "03 References/ref_web_application_security_o_reilly.md",
-    "02 Literature/books/JavaScript, The Good Parts/chapters/03 Objects.md",
-    "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
     "02 Literature/books/The art of software testing/The art of software testing.canvas",
     "02 Literature/books/Web application security/chapters",
     "02 Literature/books/Web application security",
