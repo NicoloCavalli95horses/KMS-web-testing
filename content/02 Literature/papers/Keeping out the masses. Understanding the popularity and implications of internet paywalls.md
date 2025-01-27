@@ -18,6 +18,18 @@ People are annoyed by ad-based websites because:
 - Ad-based funding systems suffer from significant and increasing rates of fraud
 - privacy concerns
 
+### Paywall circumvention
+
+We find that all observed paywalls are trivial to circumvent. Well-known techniques includes:
+- changing the screen size dimensions
+- hiding the user’s IP address
+- changing the user agent string
+- using an ad blocker extension
+- enabling “Reader Mode”
+- using the Pocket web service5
+- enabling Incognito/Private Mode
+- emptying the cookie jar
+- blocking HTTP requests for popular paywall libraries
 
 ## References
 [[ref_understanding_popularity_internet_paywalls]]
