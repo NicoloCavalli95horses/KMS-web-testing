@@ -29,6 +29,7 @@ This paper describes the strategy, defines specific rules and adequacy criteria 
 - overriding hidden input fields that are not visible on the screen but send data to the server
 - adding SQL statements to an input ([[XSS (cross site scripting)]])
 - by-passing is not always a bad thing because it can ease the testing process
+- It is possible to leverage different [[client-side input validations]] 
 
 ## References
 [[ref_bypass_testing_of_web_app]]
