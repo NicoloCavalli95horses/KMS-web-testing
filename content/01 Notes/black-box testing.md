@@ -7,7 +7,9 @@ tags:
 ---
 ## Definition
 
-A *black box* approach does not consider the internal structure, design, and product implementation. In other words, the tester does not know the internal functioning of the [[SUT (system under test)]]. The black box approach only evaluates the external behavior of the system. The inputs received by the system and the outputs or responses it produces are tested.
+A *black box* approach does not consider the internal structure, design, and product implementation. In other words, the tester does not know the internal functioning of the [[SUT (system under test)]]. 
+
+The black box approach only evaluates the *external behavior* of the system. The inputs received by the system and the outputs or responses it produces are tested.
 
 **Key features:**
 - considers only external behavior
@@ -26,6 +28,7 @@ A *black box* approach does not consider the internal structure, design, and pro
 - [[boundary value analysis]]
 - [[cause-effect graphing]]
 - [[error guessing]]
+- [[decision table]]
 
 Also known as: *data-driven testing, functional testing, closed-box testing, input-output-driven testing*
 

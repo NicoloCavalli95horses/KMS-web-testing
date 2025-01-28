@@ -13,7 +13,7 @@ That extra data overflows into adjacent memory locations and corrupts or overwri
 - Writing outside the bounds of a block of allocated memory can corrupt data, crash the program, lead to [[DoS (Denial of Service)]] or cause the execution of malicious code
 - the overflow can be exploited by hackers, to gain unauthorized access to corporate systems
 
-A buffer overflow condition exists when a program attempts to put more data in a  buffer than it can hold, or when a program attempts to put data in a memory area past a buffer. 
+A buffer overflow condition exists when a program attempts to put more data in a buffer than it can hold, or when a program attempts to put data in a memory area past a buffer. 
 
 It is one of the best-known software security vulnerabilities yet remains fairly common.
 
@@ -34,7 +34,8 @@ Flaws can exist in both application servers and web servers, ==specially web app
 
 ```JavaScript
 function recursiveFunction() {
-  recursiveFunction(); // RangeError: Maximum call stack size exceeded
+  recursiveFunction();
+  // RangeError: Maximum call stack size exceeded
 }
 
 recursiveFunction();

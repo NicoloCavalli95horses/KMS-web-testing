@@ -11,11 +11,10 @@ Experience shows that test cases that explore boundary conditions have a
 higher payoff than test cases that do not. Boundary conditions are those situations directly *on, above, and beneath the edges*:
 
 > [!NOTE] Boundary values
-*if ( x > 0 && x <= 10 ) { ... } *
- Most of the time, unexpected behaviors occur exactly when x = 0, or x = 10
+   `if ( x > 0 && x <= 10 ) { ... }`
+   Most of the time, unexpected behaviors occur exactly in edge situations, when `x = 0`, or `x = 10`
 
-This method is an improvement of the [[EPM (Equivalence Partitioning Method)]]
-that defines equivalence classes and input conditions.
+This method is an improvement of the [[EPM (Equivalence Partitioning Method)]] that defines equivalence classes and input conditions.
 - It requires ==one or more tests to consider boundary values==.
 
 **Examples**
@@ -31,5 +30,6 @@ A program score the exams of students:
 - What input for a grade of 0?
 - How to get the highest possible grade? And the lowest?
 - What happens if we consider enough students to cover exactly 1 page printout? (to check if blank pages are added by the program)
+
 ## References
 [[04 Test-case Design]]

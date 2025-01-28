@@ -7,7 +7,7 @@ tags:
 ---
 ## Definition
 
-> [!NOTE]
+> [!SUMMARY]
 > Produces Boolean graphical representations of potential test case results, to aid in selecting efficient and complete test cases
 
 One weakness of [[boundary value analysis]] and [[EPM (Equivalence Partitioning Method)]] is that they do not explore combinations of inputs.
