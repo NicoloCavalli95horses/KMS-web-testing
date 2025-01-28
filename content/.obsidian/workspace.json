@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/Web GEMs.canvas",
+                "file": "04 Canvases/GEMs on online graphic design tools.canvas",
                 "viewState": {
-                  "x": 2904.1587629761066,
-                  "y": 76.09106764838157,
-                  "zoom": -1.5904861761392268
+                  "x": 386.795762317726,
+                  "y": -194.65325015599223,
+                  "zoom": -0.3333333333333334
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Web GEMs"
+              "title": "GEMs on online graphic design tools"
             }
           }
         ]
@@ -161,10 +161,12 @@
   },
   "active": "b8ba78bb82e5be52",
   "lastOpenFiles": [
+    "04 Canvases/Web GEMs.canvas",
+    "04 Canvases/GEMs on online graphic design tools.canvas",
+    "04 Canvases/online graphic design tool..md",
     "02 Literature/papers/Keeping out the masses. Understanding the popularity and implications of internet paywalls.md",
     "index.md",
     "01 Notes/RSS (RDF Site Summary).md",
-    "04 Canvases/Web GEMs.canvas",
     "Untitled.canvas",
     "01 Notes/paywalls.md",
     "02 Literature/papers/Automatic program repair.md",
@@ -192,8 +194,6 @@
     "01 Notes/E2E (end-to-end) testing.md",
     "01 Notes/tabnabbing.md",
     "01 Notes/clickjacking.md",
-    "01 Notes/prototype pollution.md",
-    "03 References/ref_hidden_gems_auto_discovery.md",
     "02 Literature/books/The art of software testing/The art of software testing.canvas",
     "02 Literature/books/Web application security/chapters",
     "02 Literature/books/Web application security",
