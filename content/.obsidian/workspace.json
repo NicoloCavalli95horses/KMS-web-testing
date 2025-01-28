@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/GEMs on online graphic design tools.canvas",
                 "viewState": {
-                  "x": -118.71976370896522,
-                  "y": 351.4262761977115,
-                  "zoom": -0.6666666666666667
+                  "x": 532.0095670239239,
+                  "y": 963.7324982518833,
+                  "zoom": -1.1589901668613387
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -161,8 +161,9 @@
   },
   "active": "b8ba78bb82e5be52",
   "lastOpenFiles": [
-    "04 Canvases/Web GEMs.canvas",
+    "04 Canvases/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/GEMs on online graphic design tools.canvas",
+    "04 Canvases/Web GEMs.canvas",
     "04 Canvases/online graphic design tool..md",
     "02 Literature/papers/Keeping out the masses. Understanding the popularity and implications of internet paywalls.md",
     "index.md",
@@ -177,7 +178,6 @@
     "01 Notes/port.md",
     "01 Notes/client-side input validations.md",
     "97 Assets/illegal_characters.png",
-    "04 Canvases/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/GUI vulnerabilities.canvas",
     "04 Canvases/Paper structure.canvas",
     "01 Notes/SQLIA (SQL injection attack).md",
