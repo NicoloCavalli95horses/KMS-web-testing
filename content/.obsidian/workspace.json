@@ -36,26 +36,8 @@
               "icon": "lucide-file",
               "title": "client-side tampering"
             }
-          },
-          {
-            "id": "e1e97e6f408b02f9",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "04 Canvases/gems/GEMs on large scale web application.canvas",
-                "viewState": {
-                  "x": -516.3772839977928,
-                  "y": 1027.972374623228,
-                  "zoom": -1
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "GEMs on large scale web application"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,14 +172,15 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "e1e97e6f408b02f9",
+  "active": "29eb67f29729fd07",
   "lastOpenFiles": [
-    "04 Canvases/gems/GEMs extraction process.canvas",
-    "04 Canvases/gems/GEMs on large scale web application.canvas",
+    "01 Notes/client-side tampering.md",
+    "03 References/ref_business_tampering_vulnerabilities.md",
     "02 Literature/papers/Toward black-box detection of logic flaws in web applications.md",
+    "04 Canvases/gems/GEMs on large scale web application.canvas",
+    "04 Canvases/gems/GEMs extraction process.canvas",
     "03 References/ref_blackbox_detection_logic_flaws_web.md",
     "02 Literature/papers/Finding client-side business flow tampering vulnerabilities.md",
-    "01 Notes/client-side tampering.md",
     "00 Antilibrary/TDD (test-driven development).md",
     "00 Antilibrary/tree difference algorithms.md",
     "00 Antilibrary/VM (virtual machine).md",

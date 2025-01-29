@@ -7,26 +7,29 @@ tags:
 
 Client-side tampering, or exploiting logical flaws, is a significant security issue in web security. Although client-side code is most often minified and obscured, it is still public and can be exploited.
 
-Exploiting client-side business logic can lead to devastating consequences:
+### Exploitation techniques
+
+- changing the interface state (or components state, in component-based GUIs)
+- skip/repeat function execution
+- force a conditional branch
+- mix together values obtained by running several parallel session s of the same web application
+
+### Tampering consequences
+
 - bypass [[paywalls]]
 - skip advertisements
 - earn reward points illegally
 
-Client-side tampering could be automated with tools like:
-- **Greasemonkey** (https://addons.mozilla.org/it/firefox/addon/greasemonkey/)
-- **Tampermonkey** (https://www.tampermonkey.net/)
+> [!ERROR] Client-side tampering
+>  Attackers can bypass paywalls and read an unlimited number of articles without paying on NYTimes and WashingtonPost. Detected flaws on Youtube and CWTV enable attackers to skip in-stream video ads. We also discover a flaw in the popular reward-earning website InboxDollars; attackers can illegitimately earn rewards points without finishing the required steps (e.g. watch videos). In our experiments, we are able to stack $3.44 reward for an hour attack with a single machine without watching videos, and ==if we continue this attack, we could steal around $80 per day==
 
-Although [[OWASP (Open Web Application Security Project)]] strongly recommend enforcing business logic on the server-side, client-side implementation are commonly seen in practice. 
+### Why relying on client-side logic for critical business operations?
 
-This because:
+Although [[OWASP (Open Web Application Security Project)]] strongly recommend enforcing business logic on the server-side, client-side implementation are commonly seen in practice. This because:
 - in certain scenario is not feasible or would be really impractical to keep all the business logic on the back-end
 - third-party integration (e.g., payment services), require the client-side to have an active role
 - large scale web applications which have a huge number of users need to rely on the client-side to ease the server's work
 - often, paywall are added on an existing codebase. To avoid expensive and risky code refactors, third-party services that rely on the client-side are used. Rewrite all the codebase from scratch maintaining the current database in order not to lose any user requires extensive effort and resources
-
-
-> [!ERROR] Client-side tampering
->  Attackers can bypass paywalls and read an unlimited number of articles without paying on NYTimes and WashingtonPost. Detected flaws on Youtube and CWTV enable attackers to skip in-stream video ads. We also discover a flaw in the popular reward-earning website InboxDollars; attackers can illegitimately earn rewards points without finishing the required steps (e.g. watch videos). In our experiments, we are able to stack $3.44 reward for an hour attack with a single machine without watching videos, and ==if we continue this attack, we could steal around $80 per day==
 
 ### Mitigation of client-side tampering
 
@@ -34,5 +37,10 @@ This because:
 - deploying on-the-fly attack detection on the server-side
 - performing sophisticated client-side obfuscation
 
+### Tools used to automate tampering
+- **Greasemonkey** (https://addons.mozilla.org/it/firefox/addon/greasemonkey/)
+- **Tampermonkey** (https://www.tampermonkey.net/)
+
 ## References
 [[ref_business_tampering_vulnerabilities]]
+[[ref_blackbox_detection_logic_flaws_web]]
