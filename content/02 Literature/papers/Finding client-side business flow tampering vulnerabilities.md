@@ -45,6 +45,11 @@ This because:
 - deploying on-the-fly attack detection on the server-side
 - performing sophisticated client-side obfuscation
 
+### Tampering proposal generation
+
+1. **site information collection**: by recording and inspecting user interactions we collect information about DOM objects that should be monitored for mutation event
+2. **identify potential JS tampering opportunities**: we generated candidates that represent functions related to business logic
+3. **vulnerability scanning by tampering testing**: false positives were excluded 
 
 ## References
 [[ref_business_tampering_vulnerabilities]]
