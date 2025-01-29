@@ -10,47 +10,41 @@ tags:
 ---
 ## Introduction
 
-Exploiting client-side business logic can lead to devastating consequences:
-- bypass [[paywalls]]
-- skip advertisements
-- earn reward points illegally
+[[client-side tampering]] can lead to severe business losses, making the attackers access protected resources or executing client-side functions in a way that was not predicted.
 
-Client-side logic tampering could be automated with tools like:
-- **Greasemonkey** (https://addons.mozilla.org/it/firefox/addon/greasemonkey/)
-- **Tampermonkey** (https://www.tampermonkey.net/)
+This paper propose a technique to automatically identify client-side tampering opportunities in 200 websites.
 
-Although OWASP strongly recommend enforcing business logic on the server-side, client-side implementation are commonly seen in practice. 
+### Technique description
 
-This because:
-- in certain scenario is not feasible or would be really impractical to keep all the business logic on the back-end
-- third-party integration (e.g., payment services), require the client-side to have an active role
-- large scale web applications which have a huge number of users need to rely on the client-side to ease the server's work
-- often, paywall are added on an existing codebase. To avoid expensive and risky code refactors, third-party services that rely on the client-side are used. Rewrite all the codebase from scratch maintaining the current database in order not to lose any user requires extensive effort and resources
+**Site information gathering**
+The system records user interactions with the target website to identify DOM objects related to business logic and to generate site navigation automation scripts.
+- ==each target website has been manually explored by human testers== to collect the exact interaction needed to reach the vulnerability
 
-### Examination method
+**Identification of potentially vulnerable JavaScript functions**
+The system monitors DOM mutation events and collects the corresponding call stacks. By analyzing the functions in these stacks, the system identifies those that may be related to business logic.
 
-1. Starting with business operation descriptions, we navigate the website and collect a set of functions that may be relevant to the business logic
-2. We analyze each candidate function and look for potential tampering locations, which may perturb the intended behavior if modified
-3. We develop techniques to select functions that are more likely to be vulnerable and generate tampering proposals for each selected function
-4. We revisit the website with the tampering proposals and confirm if the detection results are indeed business flow tampering vulnerabilities
+**Business control flow analysis**
+For each candidate function, the system dynamically builds a [[BCFG (Business Control Flow Graph)]], which abstracts path conditions that are not related to access control in the business logic.
+- This graph allows identifying potential tampering points.
 
-200 real-world website were evaluated
+**Generating tampering proposals**
+Based on BCFG, the system generates tampering proposals that ==specify the location of the code to be tampered with and the tampering operation to be performed ==. Tampering operation considered:
+- **disable callee**: skip a call that should be executed
+- **disable caller**: override a function with an empty function, to keep the function but to make it useless
+- **forced branching**: a conditional path is forced
+- **repeat callee**: a function is executed multiple times
 
-> [!ERROR] Client-side tampering
->  Attackers can bypass paywalls and read an unlimited number of articles without paying on NYTimes and WashingtonPost. Detected flaws on Youtube and CWTV enable attackers to skip in-stream video ads. We also discover a flaw in the popular reward-earning website InboxDollars; attackers can illegitimately earn rewards points without finishing the required steps (e.g. watch videos). In our experiments, we are able to stack $3.44 reward for an hour attack with a single machine without watching videos, and ==if we continue this attack, we could steal around $80 per day==
+**Evaluating candidate functions**
+The system uses a machine learning method to rank functions based on their likelihood of containing enterprise access controls. This ranking helps focus analysis on the most relevant functions.
 
-### Mitigation of client-side tampering
+**Tampering tests**
+The system repeatedly runs the website with the generated tampering proposals to filter out those that do not lead to tampering attacks (using image comparison with [[SSIM (Structural Similarity Index Method)]]).
+True positives were grouped and a representative candidate was manually checked .
 
-- implement more complicated authentication schemes
-- deploying on-the-fly attack detection on the server-side
-- performing sophisticated client-side obfuscation
+**Vulnerability reporting**
+The system generates a report for each identified vulnerability, explaining the attack.
 
-### Tampering proposal generation
-
-1. **site information collection**: by recording and inspecting user interactions we collect information about DOM objects that should be monitored for mutation event
-2. **identify potential JS tampering opportunities**: we generated candidates that represent functions related to business logic
-3. **vulnerability scanning by tampering testing**: false positives were excluded 
-
+*Tool used*: Python, Node.js, Puppeteer
 ## References
 [[ref_business_tampering_vulnerabilities]]
 https://sites.google.com/view/tampering-cases (examples of tampering)
