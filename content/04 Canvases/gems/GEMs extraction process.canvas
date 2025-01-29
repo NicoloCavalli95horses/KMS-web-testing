@@ -9,7 +9,7 @@
 		{"id":"e53e45fea4f402e4","type":"text","text":"### Candidate search","x":-239,"y":-98,"width":381,"height":100},
 		{"id":"794b191153cae593","type":"text","text":"### Extract structure of the GUI with a [[GUI ripper]]","x":340,"y":532,"width":451,"height":205},
 		{"id":"ca9ea099459d241a","type":"text","text":"[[dynamic analysis]]:\n- parse each page's DOM/extract components\n- collect references to widgets' state (button, input fields)\n- filter widgets that display a different state depending on the user privilege","x":905,"y":500,"width":650,"height":260},
-		{"id":"db8cb7d8cb0db62f","type":"text","text":"see [[GEMs on online graphic design tools.canvas|GEMs on online graphic design tools]]","x":2560,"y":-316,"width":380,"height":124},
+		{"id":"db8cb7d8cb0db62f","type":"text","text":"see [[GEMs on large scale web application.canvas|GEMs on online graphic design tools]]","x":2560,"y":-316,"width":380,"height":124},
 		{"id":"f2a240b650757717","type":"text","text":"### Create a E2E test suite","x":340,"y":981,"width":451,"height":148},
 		{"id":"72720dc11c5fa32c","type":"text","text":"Testing process:\n- navigate to the web application\n- identify the candidate widget\n- screenshot the whole page (s1)\n- manipulate the state of the widget (enabling, forcing visibility, forcing z-index position)\n- click or keydown on the widget\n- screenshot the whole page again (s2)\n- if s1 != s2, a potential vulnerability is found ([[differential testing]])","x":905,"y":838,"width":650,"height":435},
 		{"id":"e1229a408ef8c3a8","type":"text","text":"Tools:\n- Puppeteer\n- Cypress\n- Node.js","x":1600,"y":946,"width":328,"height":219},

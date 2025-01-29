@@ -43,15 +43,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/gems/GEMs on online graphic design tools.canvas",
+                "file": "04 Canvases/gems/GEMs on large scale web application.canvas",
                 "viewState": {
-                  "x": 203.6914548324802,
-                  "y": 657.3249495507453,
-                  "zoom": -0.9661852870077563
+                  "x": -516.3772839977928,
+                  "y": 1027.972374623228,
+                  "zoom": -1
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "GEMs on online graphic design tools"
+              "title": "GEMs on large scale web application"
             }
           }
         ],
@@ -111,7 +111,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 391.5
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -192,9 +192,9 @@
   },
   "active": "e1e97e6f408b02f9",
   "lastOpenFiles": [
-    "04 Canvases/gems/Web GEMs.canvas",
+    "04 Canvases/gems/GEMs extraction process.canvas",
+    "04 Canvases/gems/GEMs on large scale web application.canvas",
     "02 Literature/papers/Toward black-box detection of logic flaws in web applications.md",
-    "04 Canvases/gems/GEMs on online graphic design tools.canvas",
     "03 References/ref_blackbox_detection_logic_flaws_web.md",
     "02 Literature/papers/Finding client-side business flow tampering vulnerabilities.md",
     "01 Notes/client-side tampering.md",
