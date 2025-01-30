@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"5d59fbd8f3885624","type":"group","x":-259,"y":-648,"width":1962,"height":982,"label":"Candidate search"},
+		{"id":"e53e45fea4f402e4","type":"text","text":"### Candidate search","x":-239,"y":-98,"width":381,"height":100},
+		{"id":"9ba5497dfa31af1c","type":"text","text":"### How to find candidates?","x":262,"y":-342,"width":396,"height":70},
+		{"id":"d297713b2cd5d405","type":"text","text":"### Constraints","x":292,"y":177,"width":396,"height":71},
+		{"id":"a421e274d2287eed","type":"text","text":"- Large application\n- Freemium features or [[RBAC (role-based access control)]] implementation\n- Premium or high-privilege features have to be displayed as disabled or hidden, relying on the GUI state","x":778,"y":112,"width":905,"height":202},
+		{"id":"18ac8a629c0abf82","type":"text","text":"Manually list eligible web application:\n- Canva https://www.canva.com/\n- Medium https://medium.com/\n- L'express https://www.lexpress.fr/\n- Le monde https://www.lemonde.fr/","x":778,"y":-628,"width":905,"height":240},
+		{"id":"d9cd58cace40b27a","type":"text","text":"Rely on a database:\n- github databases https://gist.github.com/bejaneps/ba8d8eed85b0c289a05c750b3d825f61\n- https://ahrefs.com/websites\n- https://dataforseo.com/free-seo-stats/top-1000-websites\n","x":778,"y":-221,"width":905,"height":247},
+		{"id":"e89c5e3ca188eff9","type":"text","text":"# GEMs testing on large web scale applications","x":-239,"y":-1040,"width":1922,"height":240,"color":"5"},
+		{"id":"960d684132d09601","type":"text","text":"Build a web crawler that return addresses of eligible websites\n- use Google Dorking techniques to get eligible websites","x":778,"y":-364,"width":905,"height":115},
+		{"id":"794b191153cae593","type":"text","text":"### Extract structure of the GUI with a [[GUI ripper]]","x":1118,"y":1192,"width":451,"height":205},
+		{"id":"f2a240b650757717","type":"text","text":"### Create a E2E test suite","x":1118,"y":1641,"width":451,"height":148},
+		{"id":"ca9ea099459d241a","type":"text","text":"[[dynamic analysis]]:\n- parse each page's DOM/extract components\n- collect references to widgets' state (button, input fields)\n- filter widgets that display a different state depending on the user privilege","x":1683,"y":1160,"width":650,"height":260},
+		{"id":"72720dc11c5fa32c","type":"text","text":"Testing process:\n- navigate to the web application\n- identify the candidate widget\n- screenshot the whole page (s1)\n- manipulate the state of the widget (enabling, forcing visibility, forcing z-index position)\n- click or keydown on the widget\n- screenshot the whole page again (s2)\n- if s1 != s2, a potential vulnerability is found ([[differential testing]])","x":1683,"y":1498,"width":650,"height":435},
+		{"id":"e1229a408ef8c3a8","type":"text","text":"Tools:\n- Puppeteer\n- Cypress\n- Node.js","x":2378,"y":1606,"width":328,"height":219},
+		{"id":"3887d5e55c738576","type":"text","text":"## Create a model of the application","x":-239,"y":1207,"width":381,"height":150},
+		{"id":"9ace12b1db4f320b","x":360,"y":1097,"width":468,"height":80,"type":"text","text":"### Black-box approach"},
+		{"id":"892dbd3b9e5ded29","type":"text","text":"### White-box approach","x":360,"y":1397,"width":468,"height":80}
+	],
+	"edges":[
+		{"id":"5e4b97ec2cce503c","fromNode":"794b191153cae593","fromSide":"right","toNode":"ca9ea099459d241a","toSide":"left"},
+		{"id":"9f4181e29014b2e1","fromNode":"794b191153cae593","fromSide":"bottom","toNode":"f2a240b650757717","toSide":"top"},
+		{"id":"a728680722d2859b","fromNode":"f2a240b650757717","fromSide":"right","toNode":"72720dc11c5fa32c","toSide":"left"},
+		{"id":"171aba7605ea7550","fromNode":"72720dc11c5fa32c","fromSide":"right","toNode":"e1229a408ef8c3a8","toSide":"left"},
+		{"id":"6b67301302218d60","fromNode":"9ba5497dfa31af1c","fromSide":"right","toNode":"18ac8a629c0abf82","toSide":"left"},
+		{"id":"f6894b1c8d994b87","fromNode":"9ba5497dfa31af1c","fromSide":"right","toNode":"d9cd58cace40b27a","toSide":"left"},
+		{"id":"91174156b64e3f4d","fromNode":"9ba5497dfa31af1c","fromSide":"right","toNode":"960d684132d09601","toSide":"left"},
+		{"id":"d2b6818292d2dc93","fromNode":"e53e45fea4f402e4","fromSide":"right","toNode":"9ba5497dfa31af1c","toSide":"left"},
+		{"id":"9fead89d3bf61d0c","fromNode":"e53e45fea4f402e4","fromSide":"right","toNode":"d297713b2cd5d405","toSide":"left"},
+		{"id":"8a6efe1df76bf8f9","fromNode":"d297713b2cd5d405","fromSide":"right","toNode":"a421e274d2287eed","toSide":"left"},
+		{"id":"915fc8b89dfa1e1b","fromNode":"e53e45fea4f402e4","fromSide":"bottom","toNode":"3887d5e55c738576","toSide":"top"},
+		{"id":"04d55b46155cf46d","fromNode":"3887d5e55c738576","fromSide":"right","toNode":"892dbd3b9e5ded29","toSide":"left"},
+		{"id":"eee86ba580df5c35","fromNode":"3887d5e55c738576","fromSide":"right","toNode":"9ace12b1db4f320b","toSide":"left"}
+	]
+}

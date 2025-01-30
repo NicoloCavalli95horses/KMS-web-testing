@@ -22,6 +22,7 @@ Determining the correct output for a given input (and a set of program or system
 - a statistic oracle that provides a correct answer based on statistic probability
 - a consistency oracle that match the results of the execution of a test with the result of the execution of a similar test
 - an oracle based on models
+- an oracle based on logical inference
 - human judgement (the end user decides whether if the SUT display the right behavior)
 ## References
 
