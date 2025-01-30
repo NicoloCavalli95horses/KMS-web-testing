@@ -8,35 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "29eb67f29729fd07",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "04 Canvases/gems/GEMs on large scale web application.canvas",
-                "viewState": {
-                  "x": 100,
-                  "y": 980,
-                  "zoom": -1.3325753390868709
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "GEMs on large scale web application"
-            }
-          },
-          {
             "id": "b95db228505ebd3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/client-side tampering.md",
+                "file": "02 Literature/papers/Toward black-box detection of logic flaws in web applications.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "client-side tampering"
+              "title": "Toward black-box detection of logic flaws in web applications"
             }
           }
         ]
@@ -95,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 391.5
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -174,8 +157,9 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "29eb67f29729fd07",
+  "active": "b95db228505ebd3b",
   "lastOpenFiles": [
+    "02 Literature/papers/Finding client-side business flow tampering vulnerabilities.md",
     "01 Notes/client-side tampering.md",
     "04 Canvases/gems/GEMs on large scale web application.canvas",
     "04 Canvases/gems/GEMs extraction process.canvas",
@@ -184,7 +168,6 @@
     "02 Literature/papers/Toward black-box detection of logic flaws in web applications.md",
     "03 References/ref_business_tampering_vulnerabilities.md",
     "03 References/ref_blackbox_detection_logic_flaws_web.md",
-    "02 Literature/papers/Finding client-side business flow tampering vulnerabilities.md",
     "00 Antilibrary/TDD (test-driven development).md",
     "00 Antilibrary/tree difference algorithms.md",
     "00 Antilibrary/VM (virtual machine).md",
