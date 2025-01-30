@@ -5,7 +5,7 @@ tags:
 ---
 ## Definition
 
-Client-side tampering, or exploiting logical flaws, is a significant security issue in web security. Although client-side code is most often minified and obscured, it is still public and can be exploited.
+Business flow tampering, or client-side tampering, or exploiting logical flaws, is a significant security issue in web security. Although client-side code is most often minified and obscured, it is still public and can be exploited.
 
 ### Exploitation techniques
 

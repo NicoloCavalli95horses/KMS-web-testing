@@ -8,35 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b95db228505ebd3b",
+            "id": "516e21069f862e38",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/gems/GEMs on large scale web application.canvas",
+                "viewState": {
+                  "x": 100,
+                  "y": 980,
+                  "zoom": -1.1831977150486443
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "GEMs on large scale web application"
+            }
+          },
+          {
+            "id": "e629dc87f66c14b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/EFG (event flow graph).md",
+                "file": "02 Literature/papers/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "EFG (event flow graph)"
-            }
-          },
-          {
-            "id": "1dbd81f5653cf1eb",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "04 Canvases/gems/Generate test cases to check GEMs presence.canvas",
-                "viewState": {
-                  "x": 479.1589765040068,
-                  "y": 978.6226334726869,
-                  "zoom": -0.7668247336243059
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Generate test cases to check GEMs presence"
+              "title": "BFT DETECTOR. Automatic detection of business flow tampering for digital content service"
             }
           }
         ],
@@ -96,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5
+    "width": 229.5
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -175,39 +175,40 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "1dbd81f5653cf1eb",
+  "active": "e629dc87f66c14b9",
   "lastOpenFiles": [
-    "01 Notes/GUI ripper.md",
-    "01 Notes/EFG (event flow graph).md",
-    "01 Notes/event models comparison.md",
-    "01 Notes/ESG (event sequence graph).md",
-    "04 Canvases/gems/Generate test cases to check GEMs presence.canvas",
-    "01 Notes/dynamic analysis.md",
-    "01 Notes/EIG (event interaction graph).md",
-    "01 Notes/SSIM (Structural Similarity Index Method).md",
+    "03 References/ref_bft_detector_digital_content_services.md",
+    "02 Literature/papers/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
+    "02 Literature/papers/Finding client-side business flow tampering vulnerabilities.md",
+    "01 Notes/BFT (business flow tampering).md",
     "04 Canvases/gems/GEMs on large scale web application.canvas",
+    "04 Canvases/gems/GEMs-related CVEs.canvas",
+    "04 Canvases/gems/Generate test cases to check GEMs presence.canvas",
+    "01 Notes/GUI ripper.md",
+    "02 Literature/papers/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
+    "01 Notes/client-side input validations.md",
+    "02 Literature/papers/Mutta. A novel tool for E2E web mutation testing.md",
+    "01 Notes/Mutation testing.md",
+    "00 Antilibrary/Pitest.md",
+    "02 Literature/papers/Mining Android App Usages for Generating Actionable GUI-based Execution Scenarios.md",
+    "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
+    "02 Literature/papers/Lightweight Static Analysis for GUI testing.md",
+    "02 Literature/papers/Keeping out the masses. Understanding the popularity and implications of internet paywalls.md",
+    "00 Antilibrary/random forest classifier.md",
+    "02 Literature/papers/Hidden GEMS. Automated discovery of Access Control Vulnerabilities in Graphical User Interfaces.md",
+    "02 Literature/papers/Coverage criteria for GUI testing.md",
+    "02 Literature/papers/Common vulnerabilities in real world web applications.md",
+    "02 Literature/papers/Classifying and qualifying GUI defects.md",
+    "02 Literature/papers/Bypass testing of web applications.md",
+    "02 Literature/papers/Automatically inferring user behavior models in large-scale web applications.md",
+    "02 Literature/papers/Automatic program repair.md",
+    "02 Literature/papers/AutoInSpec, using missing test coverage to improve specifications in GUIs.md",
+    "02 Literature/papers/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
+    "01 Notes/white-box testing.md",
+    "01 Notes/peer rating.md",
     "04 Canvases/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/GUI vulnerabilities.canvas",
     "04 Canvases/Paper structure.canvas",
-    "02 Literature/papers/Toward black-box detection of logic flaws in web applications.md",
-    "01 Notes/test oracle.md",
-    "02 Literature/papers/Finding client-side business flow tampering vulnerabilities.md",
-    "01 Notes/client-side tampering.md",
-    "03 References/ref_business_tampering_vulnerabilities.md",
-    "03 References/ref_blackbox_detection_logic_flaws_web.md",
-    "00 Antilibrary/TDD (test-driven development).md",
-    "00 Antilibrary/tree difference algorithms.md",
-    "00 Antilibrary/VM (virtual machine).md",
-    "00 Antilibrary/volume testing.md",
-    "00 Antilibrary/web workers.md",
-    "00 Antilibrary/recovery testing.md",
-    "00 Antilibrary/reflection (Java).md",
-    "00 Antilibrary/reliability testing.md",
-    "00 Antilibrary/RNN (recurrent neural network).md",
-    "00 Antilibrary/serviceability or maintenance testing.md",
-    "00 Antilibrary/SessionStorage.md",
-    "00 Antilibrary/signature forgery.md",
-    "00 Antilibrary/smuggling.md",
     "04 Canvases/gems",
     "Untitled.canvas",
     "97 Assets/paywall_prevalence.png",

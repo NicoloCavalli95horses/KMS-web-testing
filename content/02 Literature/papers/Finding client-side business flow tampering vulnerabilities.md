@@ -10,7 +10,7 @@ tags:
 ---
 ## Introduction
 
-[[client-side tampering]] can lead to severe business losses, making the attackers access protected resources or executing client-side functions in a way that was not predicted.
+[[BFT (business flow tampering)]] can lead to severe business losses, making the attackers access protected resources or executing client-side functions in a way that was not predicted.
 
 This paper propose a technique to automatically identify client-side tampering opportunities in 200 websites.
 

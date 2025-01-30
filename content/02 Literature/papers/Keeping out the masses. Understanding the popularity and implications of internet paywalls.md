@@ -32,6 +32,7 @@ We find that all observed paywalls are trivial to circumvent. Well-known techniq
 - blocking HTTP requests for popular paywall libraries
 
 ### Paywall detection
+
 Our model consists of two components:
 1. a crawling component that visits a subset of pages on a site, records information about each page’s execution, and extracts some ML features
 	- **text features**: the presence of specific keywords is checked ("subscribe", "sign up", "remaining", translated in 87 languages)
@@ -40,7 +41,6 @@ Our model consists of two components:
 2. a classifier, that uses the extracted features to predict if the site uses a paywall
 	- a [[random forest classifier]] is used from SciKit-Learn python library
 	- the final accuracy was of 77%
-
 
 ## References
 [[ref_understanding_popularity_internet_paywalls]]

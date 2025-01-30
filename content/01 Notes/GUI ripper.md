@@ -8,6 +8,9 @@ tags:
 ---
 ## Definition
 
+> [!SUMMARY] What's a GUI ripper?
+> A website ripper, or site ripper, is a piece of software that copies an entire website or parts of a website so you can download it to read and analyze it offline. You can copy and extract data, images, files, and links and download that data to your computer.
+
 A GUI ripper is an automated tool used in the context of software testing, especially for [[GUI (graphical user interface)]] Its purpose is to =="extract" the structure and behavior of an application's GUI.==
 
 **Why is it called a "ripper"?**
@@ -30,5 +33,16 @@ GUI rippers exist for different GUI applications: desktop, mobile or even web ap
 - In web based application, the DOM can analyzed directly
 - **Screen scraping**: some GUI rippers take screenshots of the GUI and use visual recognition algorithms (e.g., [[OCR (optical character recognition)]]) to recognize widgets
 
+### Useful WEB GUI ripper
+
+- **HTTrack**: download every file, it can be slow
+- **SiteSucker**: only for MacOS
+- **GetLeft**: for Windows users. Can't download JavaScript
+- **Cyotek WebCopy**: intricate and customizable configuration. Can't download JavaScript
+- **Web Scaper**
+- **Cheerio Scraper**
+- **Puppeteer Scraper**
+
 ## References
 [[ref_gui_ripping_reverse_engineering_of_gui]]
+https://blog.apify.com/what-is-a-web-ripper-top-5-website-ripper-tools/
