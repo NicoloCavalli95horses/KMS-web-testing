@@ -38,6 +38,7 @@ Although [[OWASP (Open Web Application Security Project)]] strongly recommend en
 - performing sophisticated client-side obfuscation
 
 ### Tools used to automate tampering
+
 - **Greasemonkey** (https://addons.mozilla.org/it/firefox/addon/greasemonkey/)
 - **Tampermonkey** (https://www.tampermonkey.net/)
 

@@ -57,3 +57,4 @@ to the bounce rate between paywalled and non-paywalled sites
 
 ## References
 [[ref_understanding_popularity_internet_paywalls]]
+[[ref_bft_detector_digital_content_services]]
