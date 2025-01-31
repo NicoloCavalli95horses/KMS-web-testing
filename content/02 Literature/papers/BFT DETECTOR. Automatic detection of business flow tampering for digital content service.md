@@ -19,8 +19,8 @@ tags:
 
 In this paper, we propose an automated approach that discovers BFT flaws in the web client programs of digital content services. The approach is generic and not much dependent on concrete implementations:
 - a web service is run twice, to cover the legitimate business flow and to try to do the same operations without going through the same business flow (e.g. without paying)
-	- the second execution mutates the client-side JavaScript by adding, modifying and removing statements
-- a differential analysis on the two executions pinpoint the critical implementation of the business flow
+- the second execution mutates the client-side JavaScript by adding, modifying and removing statements
+- a differential analysis on the two executions pinpoints the *critical implementation of the business flow*
 - mutated executions achieving similar results to the legitimate executions suggest that there can be BFT flaws
 - test inputs that tamper the client logic are automatically generated
 - 352 real-world digital content service providers were tested, and 315 flaws were found
@@ -28,13 +28,17 @@ In this paper, we propose an automated approach that discovers BFT flaws in the 
 ### BFT Detector implementation
 
 **Dynamic execution and trace collection**
-==Dynamic execution trace (e.g., functions name, execution paths) are collected ==by exercising business processes according to the business model. The output includes call traces and execution result snapshots, which are essentially screenshots and HTML/DOM data (this will be used in the testing phase).
+==Dynamic execution trace (e.g., functions name, execution paths) are collected ==by exercising business processes according to the business model. The output includes:
+- call traces
+- execution result snapshots, which are essentially screenshots and HTML/DOM data (this will be used in the testing phase).
 
 To support this step, the V8 JS engine has been modified to modify the runtime execution of JavaScript
 
 **Call Trace Differential Analysis**
-Our system performs differential analysis on the function call trace collected for different business flows, identifying call divergences points where executions start to differ.
-- **divergence point**: a situation in which critical business logic is involved and you can distinguish between a path leading to the desired business flow and a path bypassing the execution of the regular flow
+Given the collected call traces of the <abbr title="access to premium content with a premium subscription">passing</abbr> and <abbr title="access to premium content with a premium subscription">blocking</abbr> runs (e.g., access premium content with a subscription is a passing run, while being redirected is a blocking run), we perform a differential analysis to identify a divergence
+point representing the critical decision-making point in the
+business model
+Our system performs differential analysis on the function call trace collected, identifying call divergences points. A **divergence point** is a situation in which critical business logic is involved and, from that specific point, you can distinguish between a path leading to the desired business flow and a path bypassing the execution of the regular flow
 
 **Test Input Generation**
 We generate test inputs containing statements data to be mutated by using the call divergence points from the previous step.
