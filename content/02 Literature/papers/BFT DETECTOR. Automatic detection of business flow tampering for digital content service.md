@@ -23,14 +23,18 @@ In this paper, we propose an automated approach that discovers BFT flaws in the 
 - a differential analysis on the two executions pinpoint the critical implementation of the business flow
 - mutated executions achieving similar results to the legitimate executions suggest that there can be BFT flaws
 - test inputs that tamper the client logic are automatically generated
+- 352 real-world digital content service providers were tested, and 315 flaws were found
 
 ### BFT Detector implementation
 
 **Dynamic execution and trace collection**
-Dynamic execution trace are collected by exercising business processes according to the business model. The output includes call traces and execution result snapshots which are essentially screenshots and HTML/DOM data.
+==Dynamic execution trace (e.g., functions name, execution paths) are collected ==by exercising business processes according to the business model. The output includes call traces and execution result snapshots, which are essentially screenshots and HTML/DOM data (this will be used in the testing phase).
+
+To support this step, the V8 JS engine has been modified to modify the runtime execution of JavaScript
 
 **Call Trace Differential Analysis**
 Our system performs differential analysis on the function call trace collected for different business flows, identifying call divergences points where executions start to differ.
+- **divergence point**: a situation in which critical business logic is involved and you can distinguish between a path leading to the desired business flow and a path bypassing the execution of the regular flow
 
 **Test Input Generation**
 We generate test inputs containing statements data to be mutated by using the call divergence points from the previous step.
@@ -40,6 +44,11 @@ Our system repeatedly visits the web page to mutate the execution according to t
 
 **Test Result Verification**
 We measure whether our system successfully tampers with the business process by comparing snapshots from the test and the results from the original execution. A machine learning technique is used to calculate the degree of similarity between snapshots.
+
+
+> [!WARNING] Algorithm shortcomings
+> During the test result verification phase, it is worth noting that most of the text executions led to crashes, because undefined objects were accessed or functions were invoked with the wrong parameters
+
 
 ## References
 [[ref_bft_detector_digital_content_services]]
