@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "98 Templates/Temp_Definition.md",
+                "file": "02 Literature/papers/A Comparison of Online JavaScript Obfuscators.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Temp_Definition"
+              "title": "A Comparison of Online JavaScript Obfuscators"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5110321044922
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -95,12 +95,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "98 Templates/Temp_Definition.md",
+                "file": "02 Literature/papers/A Comparison of Online JavaScript Obfuscators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Temp_Definition"
+              "title": "Outgoing links from A Comparison of Online JavaScript Obfuscators"
             }
           },
           {
@@ -124,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "98 Templates/Temp_Definition.md",
+                "file": "02 Literature/papers/A Comparison of Online JavaScript Obfuscators.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Temp_Definition"
+              "title": "Outline of A Comparison of Online JavaScript Obfuscators"
             }
           },
           {
@@ -164,9 +164,14 @@
   },
   "active": "bac5384fb9fdbac7",
   "lastOpenFiles": [
+    "01 Notes/code obfuscation.md",
+    "97 Assets/deobfuscation_resilience.png",
+    "00 Antilibrary/obfuscator.md",
+    "02 Literature/papers/A Comparison of Online JavaScript Obfuscators.md",
+    "03 References/ref_comparison_js_obfuscator.md",
+    "98 Templates/Temp_Definition.md",
     "98 Templates/Temp_Literature.md",
     "98 Templates/Temp_Reference.md",
-    "98 Templates/Temp_Definition.md",
     "index.md",
     "02 Literature/papers/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "04 Canvases/gems/GEMs-related CVEs.canvas",
@@ -191,11 +196,6 @@
     "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
     "02 Literature/papers/Mining Android App Usages for Generating Actionable GUI-based Execution Scenarios.md",
     "02 Literature/papers/Mutta. A novel tool for E2E web mutation testing.md",
-    "02 Literature/papers/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
-    "02 Literature/papers/On model-based testing advanced GUIs.md",
-    "02 Literature/papers/On the misuse of Graphical User Interface elements to implement security controls.md",
-    "02 Literature/papers/Overview of SQL injection attack detection techniques.md",
-    "02 Literature/papers/Repairing GUI Test Suites Using a Genetic Algorithm.md",
     "04 Canvases/Paper structure.canvas",
     "04 Canvases/gems",
     "Untitled.canvas",
@@ -216,7 +216,6 @@
     "97 Assets/cause_effect_graph_symbols.png",
     "97 Assets/decision_table.png",
     "02 Literature/books/The art of software testing",
-    "97 Assets/dfs_example.webp",
     "04 Canvases",
     "02 Literature/papers/Classifying and qualifying GUI defects/Classifying and qualifying GUI defects.pdf",
     "Untitled 1.canvas"
