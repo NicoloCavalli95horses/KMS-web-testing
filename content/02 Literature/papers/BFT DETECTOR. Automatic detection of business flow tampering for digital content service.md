@@ -43,12 +43,14 @@ We generate test inputs containing statements data to be mutated by using the ca
 Our system repeatedly visits the web page to mutate the execution according to the test inputs generated from the previous step.
 
 **Test Result Verification**
-We measure whether our system successfully tampers with the business process by comparing snapshots from the test and the results from the original execution. A machine learning technique is used to calculate the degree of similarity between snapshots.
+We measure whether our system successfully tampers with the business process by comparing snapshots from the test and the results from the original execution. A machine learning technique is used to calculate the degree of similarity between snapshots ([[BRF (Balance Random Forest)]])
 
 
 > [!WARNING] Algorithm shortcomings
-> During the test result verification phase, it is worth noting that most of the text executions led to crashes, because undefined objects were accessed or functions were invoked with the wrong parameters
-
+> During the test result verification phase, it is worth noting that:
+> - most of the text executions led to crashes, because undefined objects were accessed or functions were invoked with the wrong parameters
+> - the system does not consider BFT flaws due to multiple mutations of the client-side codebase
+> - does not work well in detecting flaws in large and complex codebases (+7100 functions)
 
 ## References
 [[ref_bft_detector_digital_content_services]]

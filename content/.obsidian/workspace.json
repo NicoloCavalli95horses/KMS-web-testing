@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
+                "file": "01 Notes/BRF (Balance Random Forest).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BFT DETECTOR. Automatic detection of business flow tampering for digital content service"
+              "title": "BRF (Balance Random Forest)"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -160,6 +159,9 @@
   },
   "active": "516e21069f862e38",
   "lastOpenFiles": [
+    "00 Antilibrary/machine learning.md",
+    "01 Notes/BRF (Balance Random Forest).md",
+    "02 Literature/papers/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "02 Literature/papers/Finding client-side business flow tampering vulnerabilities.md",
     "02 Literature/papers/Lightweight Static Analysis for GUI testing.md",
     "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
@@ -176,7 +178,6 @@
     "02 Literature/papers/Testing is an Event-Centric Activity.md",
     "02 Literature/papers/Toward black-box detection of logic flaws in web applications.md",
     "02 Literature/papers/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
-    "02 Literature/papers/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "04 Canvases/gems/GEMs on large scale web application.canvas",
     "04 Canvases/gems/GEMs-related CVEs.canvas",
     "04 Canvases/gems/Generate test cases to check GEMs presence.canvas",
@@ -187,8 +188,6 @@
     "01 Notes/client-side input validations.md",
     "01 Notes/Mutation testing.md",
     "00 Antilibrary/Pitest.md",
-    "02 Literature/papers/Keeping out the masses. Understanding the popularity and implications of internet paywalls.md",
-    "00 Antilibrary/random forest classifier.md",
     "04 Canvases/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/GUI vulnerabilities.canvas",
     "04 Canvases/Paper structure.canvas",
