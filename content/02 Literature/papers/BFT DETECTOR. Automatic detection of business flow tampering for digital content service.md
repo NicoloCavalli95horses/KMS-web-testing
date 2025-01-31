@@ -9,7 +9,7 @@ tags:
   - codeAnalysis
   - cyberSecurity
 ---
-## Introduction
+[^1]## Introduction
 
 [[BFT (business flow tampering)]] is a serious issue. Most of the digital content services (Amazon, Netflix, etc) implements one of the following business model:
 - **advertising**: content providers earn revenue from advertisers, which are often protected by anti-adblocker
@@ -27,13 +27,12 @@ tags:
 To support this step, the V8 JS engine has been modified to modify the runtime execution of JavaScript
 
 **Call Trace Differential Analysis**
-Given the collected call traces of the <i title="access to premium content with a premium subscription">passing</i> and <i title="being redirect to the subscription page while trying to access to premium content">blocking</i> runs, we perform a differential analysis to identify a divergence point representing the critical decision-making point in the business model.
+Given the collected call traces of the passing[^1] and blocking[^2] runs, we perform a differential analysis to identify a divergence point representing the critical decision-making point in the business model.
 -  A ==divergence point is a point from which you can distinguish between a path leading to the desired business flow and a path bypassing the execution of the regular flow==
 
 In the following example, `user.isSubscribed` is a divergence point. Tampering this condition may result in access to premium content:
 
 ```JavaScript
-
 if (user.isSubscribed) {
   showPremiumContent()
 } else {
@@ -83,3 +82,7 @@ We measure whether our system successfully tampers with the business process by 
 
 ## References
 [[ref_bft_detector_digital_content_services]]
+
+### Notes
+[^1]: access to premium content with a premium subscription
+[^2]: being redirect to the subscription page while trying to access to premium content
