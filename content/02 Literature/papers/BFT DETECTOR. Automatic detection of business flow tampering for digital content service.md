@@ -29,16 +29,27 @@ In this paper, we propose an automated approach that discovers BFT flaws in the 
 
 **Dynamic execution and trace collection**
 ==Dynamic execution trace (e.g., functions name, execution paths) are collected ==by exercising business processes according to the business model. The output includes:
-- call traces
+- call traces: caller function, function call statement, callstacks
 - execution result snapshots, which are essentially screenshots and HTML/DOM data (this will be used in the testing phase).
 
 To support this step, the V8 JS engine has been modified to modify the runtime execution of JavaScript
 
 **Call Trace Differential Analysis**
-Given the collected call traces of the <abbr title="access to premium content with a premium subscription">passing</abbr> and <abbr title="access to premium content with a premium subscription">blocking</abbr> runs (e.g., access premium content with a subscription is a passing run, while being redirected is a blocking run), we perform a differential analysis to identify a divergence
-point representing the critical decision-making point in the
-business model
-Our system performs differential analysis on the function call trace collected, identifying call divergences points. A **divergence point** is a situation in which critical business logic is involved and, from that specific point, you can distinguish between a path leading to the desired business flow and a path bypassing the execution of the regular flow
+Given the collected call traces of the <i title="access to premium content with a premium subscription">passing</i> and <i title="being redirect to the subscription page while trying to access to premium content">blocking</i> runs, we perform a differential analysis to identify a divergence point representing the critical decision-making point in the business model.
+-  A ==divergence point is a point from which you can distinguish between a path leading to the desired business flow and a path bypassing the execution of the regular flow==
+
+In the following example, `user.isSubscribed` is a divergence point:
+
+```JavaScript
+
+if (user.isSubscribed) {
+  showPremiumContent()
+} else {
+  redirectToSubscribePage()
+}
+```
+
+The divergences points are automatically detected with an algorithm that consider
 
 **Test Input Generation**
 We generate test inputs containing statements data to be mutated by using the call divergence points from the previous step.
