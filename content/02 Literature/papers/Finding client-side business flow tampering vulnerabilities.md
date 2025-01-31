@@ -21,7 +21,7 @@ The system records user interactions with the target website to identify DOM obj
 - ==each target website has been manually explored by human testers== to collect the exact interaction needed to reach the vulnerability
 
 **Identification of potentially vulnerable JavaScript functions**
-The system monitors DOM mutation events and collects the corresponding call stacks. By analyzing the functions in these stacks, the system identifies those that may be related to business logic.
+The system monitors DOM mutation events and collects the corresponding [[callstack]]. By analyzing the functions in these stacks, the system identifies those that may be related to business logic.
 
 **Business control flow analysis**
 For each candidate function, the system dynamically builds a [[BCFG (Business Control Flow Graph)]], which abstracts path conditions that are not related to access control in the business logic.
@@ -29,7 +29,7 @@ For each candidate function, the system dynamically builds a [[BCFG (Business Co
 
 **Generating tampering proposals**
 Based on BCFG, the system generates tampering proposals that ==specify the location of the code to be tampered with and the tampering operation to be performed ==. Tampering operation considered:
-- **disable callee**: skip a call that should be executed
+- **disable [[callee]]**: skip a call that should be executed
 - **disable caller**: override a function with an empty function, to keep the function but to make it useless
 - **forced branching**: a conditional path is forced
 - **repeat callee**: a function is executed multiple times

@@ -21,8 +21,26 @@
               "icon": "lucide-file",
               "title": "BFT DETECTOR. Automatic detection of business flow tampering for digital content service"
             }
+          },
+          {
+            "id": "4b5f0f846c7bcfb9",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/gems/Generate test cases to check GEMs presence.canvas",
+                "viewState": {
+                  "x": 548.0448555869968,
+                  "y": 6.088447755304433,
+                  "zoom": -0.48310060641925
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Generate test cases to check GEMs presence"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 384.5110321044922
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -157,16 +175,27 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "516e21069f862e38",
+  "active": "4b5f0f846c7bcfb9",
   "lastOpenFiles": [
-    "04 Canvases/gems/BFT Detector divergence point algorithm.canvas",
     "02 Literature/papers/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "04 Canvases/gems/Generate test cases to check GEMs presence.canvas",
+    "02 Literature/papers/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
+    "02 Literature/papers/Toward black-box detection of logic flaws in web applications.md",
+    "04 Canvases/GUI vulnerabilities.canvas",
+    "04 Canvases/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/gems/GEMs-related CVEs.canvas",
+    "04 Canvases/gems/GEMs on large scale web application.canvas",
+    "02 Literature/papers/Finding client-side business flow tampering vulnerabilities.md",
+    "01 Notes/BFT (business flow tampering).md",
+    "01 Notes/buffer overflow.md",
+    "01 Notes/DFS (depth-first search).md",
+    "01 Notes/callstack.md",
+    "00 Antilibrary/LIFO (last in, first out).md",
+    "01 Notes/callee.md",
+    "04 Canvases/gems/BFT Detector divergence point algorithm.canvas",
     "01 Notes/BRF (Balance Random Forest).md",
     "01 Notes/random forest.md",
     "00 Antilibrary/machine learning.md",
-    "02 Literature/papers/Finding client-side business flow tampering vulnerabilities.md",
     "02 Literature/papers/Lightweight Static Analysis for GUI testing.md",
     "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
     "02 Literature/papers/Mining Android App Usages for Generating Actionable GUI-based Execution Scenarios.md",
@@ -179,17 +208,6 @@
     "02 Literature/papers/Runtime recovery of web applications under zero-days ReDoS attacks.md",
     "02 Literature/papers/Security of Web Application. State of the Art.md",
     "02 Literature/papers/STILE, a tool for optimizing E2E web test scripts parallelization.md",
-    "02 Literature/papers/Testing is an Event-Centric Activity.md",
-    "02 Literature/papers/Toward black-box detection of logic flaws in web applications.md",
-    "02 Literature/papers/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
-    "04 Canvases/gems/GEMs on large scale web application.canvas",
-    "01 Notes/BFT (business flow tampering).md",
-    "01 Notes/paywalls.md",
-    "03 References/ref_bft_detector_digital_content_services.md",
-    "01 Notes/GUI ripper.md",
-    "01 Notes/client-side input validations.md",
-    "04 Canvases/GUI testing techniques on large scale applications.canvas",
-    "04 Canvases/GUI vulnerabilities.canvas",
     "04 Canvases/Paper structure.canvas",
     "04 Canvases/gems",
     "Untitled.canvas",

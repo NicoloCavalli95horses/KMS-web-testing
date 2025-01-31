@@ -17,14 +17,6 @@ tags:
 - **donation**: from the user
 - **non-profit** model (Wikipedia)
 
-In this paper, we propose an automated approach that discovers BFT flaws in the web client programs of digital content services. The approach is generic and not much dependent on concrete implementations:
-- a web service is run twice, to cover the legitimate business flow and to try to do the same operations without going through the same business flow (e.g. without paying)
-- the second execution mutates the client-side JavaScript by adding, modifying and removing statements
-- a differential analysis on the two executions pinpoints the *critical implementation of the business flow*
-- mutated executions achieving similar results to the legitimate executions suggest that there can be BFT flaws
-- test inputs that tamper the client logic are automatically generated
-- 352 real-world digital content service providers were tested, and 315 flaws were found
-
 ### BFT Detector implementation
 
 **Dynamic execution and trace collection**
@@ -38,7 +30,7 @@ To support this step, the V8 JS engine has been modified to modify the runtime e
 Given the collected call traces of the <i title="access to premium content with a premium subscription">passing</i> and <i title="being redirect to the subscription page while trying to access to premium content">blocking</i> runs, we perform a differential analysis to identify a divergence point representing the critical decision-making point in the business model.
 -  A ==divergence point is a point from which you can distinguish between a path leading to the desired business flow and a path bypassing the execution of the regular flow==
 
-In the following example, `user.isSubscribed` is a divergence point:
+In the following example, `user.isSubscribed` is a divergence point. Tampering this condition may result in access to premium content:
 
 ```JavaScript
 
@@ -49,7 +41,27 @@ if (user.isSubscribed) {
 }
 ```
 
-The divergences points are automatically detected with an algorithm that consider
+The divergences points are automatically detected with the following algorithm:
+1. execution traces are collected two times, one for the passing run and one for the blocking run. The definition of these runs is based on common implementation of the business models
+2. Caller, [[callee]] and several [[callstack]] are used to create a map of the functions called in sequence to get to the current execution point
+3. this map is called *call signature*
+4. the algorithm then identify the *intersection* of the call signatures between passing run and blocking run. The intersection is considered to isolate the code that is relevant to the business model
+5. the intersection is the set of the call signatures that are in common
+6. then, unique call signatures for both passing and blocking runs are detected. A unique call signature occur in a run and not in the other
+7. common call signatures and unique call signatures are matched
+8. a divergence point occur when:
+	- a function is a callee of a common call signature
+	- the same function is a caller of a unique call signature
+	- the callstack before and after the divergence is the same
+
+In other words, a divergence point is a point after which the execution flow of two similar traces changes significantly
+
+> [!EXAMPLE] Example
+> Let's consider the LA Times example:
+> - The passing run occur when the user views an article without an adblocker
+> - The blocking run occur when the user views the same page with an adblocker enabled
+> 
+> The `Hf()` function that checks for adblocker is a divergence point, because it is present in both the passing and blocking runs, but then the blocking run continues by calling the `a.j()` function that displays the adblocker detection message.
 
 **Test Input Generation**
 We generate test inputs containing statements data to be mutated by using the call divergence points from the previous step.
@@ -58,10 +70,12 @@ We generate test inputs containing statements data to be mutated by using the ca
 Our system repeatedly visits the web page to mutate the execution according to the test inputs generated from the previous step.
 
 **Test Result Verification**
-We measure whether our system successfully tampers with the business process by comparing snapshots from the test and the results from the original execution. A machine learning technique is used to calculate the degree of similarity between snapshots ([[BRF (Balance Random Forest)]])
+We measure whether our system successfully tampers with the business process by comparing snapshots from the test and the results from the original execution. A machine learning technique is used to calculate the degree of similarity between snapshots ([[BRF (Balance Random Forest)]] is used to balance the dataset)
+
+352 real-world digital content service providers were tested, and 315 flaws were found.
 
 
-> [!WARNING] Algorithm shortcomings
+> [!WARNING] Limits and shortcomings
 > During the test result verification phase, it is worth noting that:
 > - most of the text executions led to crashes, because undefined objects were accessed or functions were invoked with the wrong parameters
 > - the system does not consider BFT flaws due to multiple mutations of the client-side codebase

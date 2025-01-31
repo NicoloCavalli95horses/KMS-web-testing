@@ -26,7 +26,7 @@ A buffer is an array-like structure that has a fixed size and that has to be han
 
 ## Call stack overflow in web applications
 
-Attackers may corrupt a web application’s execution stack, performing a "buffer overflow" attack in a context similar to a low level buffer:
+Attackers may corrupt a web application’s execution [[callstack]], performing a "buffer overflow" attack in a context similar to a low level buffer:
 - technically the call stack may be considered a buffer since it has a limited and fixed size and it is used for storing data temporarily
 - similarly to a buffer overflow attack, a call stack overflow may lead to DOS, to executing arbitrary code, and take control over the machine
 
