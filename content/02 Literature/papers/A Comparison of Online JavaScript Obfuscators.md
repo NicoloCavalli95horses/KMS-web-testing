@@ -12,7 +12,9 @@ tags:
 
 
 > [!WARNING] Just entertainment tools?
-> Code on the client side can always can be deobfuscated with enough work. Moreover, inside the JavaScript engine, the code is executed more or less in the plain form and it could be dynamically analyzed by the adversary. Therefore, obfuscation never offers an absolute protection
+> Code on the client side can always can be deobfuscated with enough work. Moreover:
+> - browser DevTools allow the user to observe the deobfuscated code during the execution. Using breakpoints it is possible to tamper the code in any case
+> - inside the JavaScript engine, the code has to be machine readable therefore the [[AST (Abstract Syntax Tree)]] will always be available, and the output bytecode, is still tamperable
 
 [[code obfuscation]] refers to obscuring the intended meaning of source or machine code. Therefore, obfuscation can be seen as an approach to increase software security: it deliberately makes code hard to understand and analyze, usually to deter reverse engineering or prevent tampering. 
 

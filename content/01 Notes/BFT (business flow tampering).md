@@ -17,6 +17,7 @@ Business flow tampering, or client-side tampering, or exploiting logical flaws, 
 - force a conditional branch
 - mix together values obtained by running several parallel sessions of the same web application
 - intercept a page send by the server and modify it before the client receives it
+- [[DOM clobbering]]
 
 ### Tampering consequences
 
@@ -51,3 +52,4 @@ Although [[OWASP (Open Web Application Security Project)]] strongly recommend en
 - [[ref_business_tampering_vulnerabilities]]
 - [[ref_blackbox_detection_logic_flaws_web]]
 - [[ref_verification_web_integrity_server_tampering]]
+- [[ref_dom_clobbering_attack_techniques]]
