@@ -13,16 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/A Comparison of Online JavaScript Obfuscators.md",
+                "file": "03 References/ref_comparison_js_obfuscator.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "A Comparison of Online JavaScript Obfuscators"
+              "title": "ref_comparison_js_obfuscator"
+            }
+          },
+          {
+            "id": "310b52243ecf3801",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -42,7 +55,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -95,12 +108,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 Literature/papers/A Comparison of Online JavaScript Obfuscators.md",
+                "file": "03 References/ref_comparison_js_obfuscator.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from A Comparison of Online JavaScript Obfuscators"
+              "title": "Outgoing links from ref_comparison_js_obfuscator"
             }
           },
           {
@@ -124,13 +137,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 Literature/papers/A Comparison of Online JavaScript Obfuscators.md",
+                "file": "03 References/ref_comparison_js_obfuscator.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of A Comparison of Online JavaScript Obfuscators"
+              "title": "Outline of ref_comparison_js_obfuscator"
             }
           },
           {
@@ -162,12 +175,14 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "bac5384fb9fdbac7",
+  "active": "310b52243ecf3801",
   "lastOpenFiles": [
+    "02 Literature/papers/A Comparison of Online JavaScript Obfuscators.md",
+    "00 Antilibrary/Moving Target Defence.md",
+    "97 Assets/js_obfuscators_analysis.png",
     "01 Notes/code obfuscation.md",
     "97 Assets/deobfuscation_resilience.png",
     "00 Antilibrary/obfuscator.md",
-    "02 Literature/papers/A Comparison of Online JavaScript Obfuscators.md",
     "03 References/ref_comparison_js_obfuscator.md",
     "98 Templates/Temp_Definition.md",
     "98 Templates/Temp_Literature.md",
@@ -214,7 +229,6 @@
     "02 Literature/books/The art of software testing/chapters",
     "97 Assets/bottom_up_top_down_testing_comparison.png",
     "97 Assets/cause_effect_graph_symbols.png",
-    "97 Assets/decision_table.png",
     "02 Literature/books/The art of software testing",
     "04 Canvases",
     "02 Literature/papers/Classifying and qualifying GUI defects/Classifying and qualifying GUI defects.pdf",
