@@ -6,10 +6,10 @@
 		{"id":"f73f2d443e9975a3","type":"text","text":"### Pros\n\n- even if a deterrent does not solve the problem, could be useful to prevent most of the less advanced attacks\n- obfuscated and minified code can, in certain scenario, be more efficient to execute\n- a dynamic obfuscation that keeps modifying client-side code, perhaps covering only critical business-related logic, could be extremely difficult to detect and tamper with","x":-351,"y":320,"width":531,"height":480},
 		{"id":"b3c53b0e664461c7","type":"text","text":"### Pros\n- even public large scale web application are addressable with a black-box approaches\n- automatic generation of test cases will be highly beneficial for a number of web application vulnerable to GEMs\n- non-intrusive testing","x":-1606,"y":320,"width":531,"height":480},
 		{"id":"9642afc5d93a1584","type":"text","text":"### Cons\n\n- automatically address multiple tampering is still an open challenge\n- large complex codebases are technically challenging to analyze\n- inferring the [[test oracle]] is not always feasible in black-box approaches\n- GDPR or CMA (computer misuse act) laws might be violated","x":-997,"y":320,"width":531,"height":480},
-		{"id":"c6296eb116986084","type":"text","text":"# GEMs mitigation approches\n\n### How to make the client-side code more secure and prevent tampering","x":-75,"y":-640,"width":600,"height":200},
 		{"id":"6fa0787d4390abcc","type":"text","text":"### Client-side obfuscation","x":-10,"y":-160,"width":470,"height":160},
 		{"id":"d168f7ea0d21d830","type":"text","text":"### Design a web security model","x":1240,"y":-160,"width":476,"height":160},
-		{"id":"2f2cd633a36b8264","type":"text","text":"### Test amplification with a focus on web security\n\nSee: [[Generate test cases to check GEMs presence.canvas|Generate test cases to check GEMs presence]]","x":-1400,"y":-160,"width":740,"height":160}
+		{"id":"2f2cd633a36b8264","type":"text","text":"### Test amplification with a focus on web security\n\nSee: [[Generate test cases to check GEMs presence.canvas|Generate test cases to check GEMs presence]]","x":-1400,"y":-160,"width":740,"height":160},
+		{"id":"c6296eb116986084","type":"text","text":"# GEMs mitigation approches\n\n### How to make the client-side code more secure and prevent tampering","x":-155,"y":-720,"width":760,"height":280}
 	],
 	"edges":[
 		{"id":"c82cdefcea3667d7","fromNode":"2f2cd633a36b8264","fromSide":"bottom","toNode":"b3c53b0e664461c7","toSide":"top"},
