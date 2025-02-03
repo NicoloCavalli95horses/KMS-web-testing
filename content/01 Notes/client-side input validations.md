@@ -29,6 +29,9 @@ Native tags like checkbox and radio boxes restrict the user to a certain predefi
 **Build-in data access**
 Cookies and hidden form fields contains data that are accessible to the user. These fields need checking
 
+> [!WARNING] HTTP REFERER header
+> HTTP provides the REFERER header to help detecting a tampered form: the original URL is included. This is often not enough because even this piece of information in the header can be tampered
+
 **Build-in input field selection**
 Dropdowns can be used to limit the freedom of choice of the user.
 
@@ -45,5 +48,8 @@ A fixed URL can be defined by the `action` attribute fixing the target of the HT
 - **URLs**: always ensure that URLs provided as input are valid and that the destination exist
 -  [[RegEx (Regular Expression)]]: use RegEx to sanitize the input
 
+
+---
 ## References
-[[ref_bypass_testing_of_web_app]]
+- [[ref_bypass_testing_of_web_app]]
+- [[ref_verification_web_integrity_server_tampering]]

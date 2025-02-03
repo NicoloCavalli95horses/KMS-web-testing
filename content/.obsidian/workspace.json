@@ -13,25 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 References/ref_comparison_js_obfuscator.md",
+                "file": "02 Literature/papers/Verification of Web Content Integrity. A new approach to protecting servers against tampering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ref_comparison_js_obfuscator"
+              "title": "Verification of Web Content Integrity. A new approach to protecting servers against tampering"
             }
           },
           {
-            "id": "310b52243ecf3801",
+            "id": "c1ea7cde8c05f570",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.8.4"
+                "file": "01 Notes/applet.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.4"
+              "icon": "lucide-file",
+              "title": "applet"
+            }
+          },
+          {
+            "id": "0ac334c30ceef148",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Antilibrary/data integrity.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "data integrity"
+            }
+          },
+          {
+            "id": "2f9205b18b057b1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/BFT (business flow tampering).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "BFT (business flow tampering)"
             }
           }
         ],
@@ -68,7 +101,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -92,7 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 327.5
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -175,42 +208,42 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "310b52243ecf3801",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
-    "02 Literature/papers/A Comparison of Online JavaScript Obfuscators.md",
-    "00 Antilibrary/Moving Target Defence.md",
-    "97 Assets/js_obfuscators_analysis.png",
-    "01 Notes/code obfuscation.md",
-    "97 Assets/deobfuscation_resilience.png",
-    "00 Antilibrary/obfuscator.md",
-    "03 References/ref_comparison_js_obfuscator.md",
-    "98 Templates/Temp_Definition.md",
-    "98 Templates/Temp_Literature.md",
-    "98 Templates/Temp_Reference.md",
-    "index.md",
-    "02 Literature/papers/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
-    "04 Canvases/gems/GEMs-related CVEs.canvas",
+    "01 Notes/applet.md",
+    "02 Literature/papers/Verification of Web Content Integrity. A new approach to protecting servers against tampering.md",
+    "01 Notes/client-side input validations.md",
+    "03 References/ref_bypass_testing_of_web_app.md",
+    "00 Antilibrary/data integrity.md",
+    "01 Notes/web security.md",
+    "01 Notes/BFT (business flow tampering).md",
+    "03 References/ref_verification_web_integrity_server_tampering.md",
+    "02 Literature/papers/Finding client-side business flow tampering vulnerabilities.md",
     "04 Canvases/gems/GEMs on large scale web application.canvas",
+    "00 Antilibrary/TDD (test-driven development).md",
+    "00 Antilibrary/taint tracking.md",
+    "00 Antilibrary/tree difference algorithms.md",
+    "00 Antilibrary/VM (virtual machine).md",
+    "00 Antilibrary/volume testing.md",
+    "00 Antilibrary/web workers.md",
+    "00 Antilibrary/reflection (Java).md",
+    "00 Antilibrary/recovery testing.md",
+    "00 Antilibrary/recommendation engine.md",
+    "00 Antilibrary/random forest classifier.md",
+    "00 Antilibrary/proxy-server.md",
+    "00 Antilibrary/program slicing.md",
+    "00 Antilibrary/precise alias analysis.md",
+    "00 Antilibrary/procedure testing.md",
+    "00 Antilibrary/Pitest.md",
+    "00 Antilibrary/performance testing.md",
+    "00 Antilibrary/overfitting.md",
     "04 Canvases/gems/Generate test cases to check GEMs presence.canvas",
-    "02 Literature/papers/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
-    "02 Literature/papers/Toward black-box detection of logic flaws in web applications.md",
+    "04 Canvases/gems/GEMs-related CVEs.canvas",
+    "97 Assets/js_obfuscators_analysis.png",
+    "97 Assets/deobfuscation_resilience.png",
     "04 Canvases/GUI vulnerabilities.canvas",
     "04 Canvases/GUI testing techniques on large scale applications.canvas",
-    "02 Literature/papers/Finding client-side business flow tampering vulnerabilities.md",
-    "01 Notes/BFT (business flow tampering).md",
-    "01 Notes/buffer overflow.md",
-    "01 Notes/DFS (depth-first search).md",
-    "01 Notes/callstack.md",
-    "00 Antilibrary/LIFO (last in, first out).md",
-    "01 Notes/callee.md",
     "04 Canvases/gems/BFT Detector divergence point algorithm.canvas",
-    "01 Notes/BRF (Balance Random Forest).md",
-    "01 Notes/random forest.md",
-    "00 Antilibrary/machine learning.md",
-    "02 Literature/papers/Lightweight Static Analysis for GUI testing.md",
-    "02 Literature/papers/Managing security vulnerabilities introduced by dependencies in React.js.md",
-    "02 Literature/papers/Mining Android App Usages for Generating Actionable GUI-based Execution Scenarios.md",
-    "02 Literature/papers/Mutta. A novel tool for E2E web mutation testing.md",
     "04 Canvases/Paper structure.canvas",
     "04 Canvases/gems",
     "Untitled.canvas",

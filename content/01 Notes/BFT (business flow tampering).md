@@ -7,12 +7,16 @@ tags:
 
 Business flow tampering, or client-side tampering, or exploiting logical flaws, is a significant security issue in web security. Although client-side code is most often minified and obscured, it is still public and can be exploited.
 
-### Exploitation techniques
+### Tampering techniques
 
+- changing the style classes
+- changing the references objects (images, audio, video, etc)
+- changing the source code of the page itself
 - changing the interface state (or components state, in component-based GUIs)
 - skip/repeat function execution
 - force a conditional branch
-- mix together values obtained by running several parallel session s of the same web application
+- mix together values obtained by running several parallel sessions of the same web application
+- intercept a page send by the server and modify it before the client receives it
 
 ### Tampering consequences
 
@@ -42,6 +46,8 @@ Although [[OWASP (Open Web Application Security Project)]] strongly recommend en
 - **Greasemonkey** (https://addons.mozilla.org/it/firefox/addon/greasemonkey/)
 - **Tampermonkey** (https://www.tampermonkey.net/)
 
+---
 ## References
-[[ref_business_tampering_vulnerabilities]]
-[[ref_blackbox_detection_logic_flaws_web]]
+- [[ref_business_tampering_vulnerabilities]]
+- [[ref_blackbox_detection_logic_flaws_web]]
+- [[ref_verification_web_integrity_server_tampering]]
