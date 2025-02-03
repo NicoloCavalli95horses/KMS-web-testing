@@ -37,8 +37,7 @@
               "title": "DOM clobbering"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,10 +177,10 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "2cf8cc98663c4ffa",
+  "active": "2b490ec60b977344",
   "lastOpenFiles": [
-    "02 Literature/papers/DOM clobbering. Attack techniques, prevalence, defenses.md",
     "01 Notes/DOM clobbering.md",
+    "02 Literature/papers/DOM clobbering. Attack techniques, prevalence, defenses.md",
     "97 Assets/dom_clobbering_types.png",
     "04 Canvases/GUI vulnerabilities.canvas",
     "04 Canvases/Paper structure.canvas",
