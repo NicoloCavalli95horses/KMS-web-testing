@@ -1,16 +1,15 @@
 {
 	"nodes":[
-		{"id":"6fa0787d4390abcc","type":"text","text":"### Client-side obfuscation","x":44,"y":-40,"width":340,"height":160},
-		{"id":"c6296eb116986084","type":"text","text":"# GEMs mitigation approches\n\n### How to make the client-side code more secure and prevent tampering","x":-75,"y":-440,"width":600,"height":200},
-		{"id":"c138772f7c106bad","type":"text","text":"[[Generate test cases to check GEMs presence.canvas|Generate test cases to check GEMs presence]]","x":-811,"y":1120,"width":485,"height":60},
-		{"id":"27f49c8334daaa38","type":"text","text":"### Pros","x":656,"y":320,"width":356,"height":480},
-		{"id":"bc3f1d0237ffdfeb","type":"text","text":"### Cons\n","x":1065,"y":320,"width":356,"height":480},
-		{"id":"0dbbc21c2f253aa9","type":"text","text":"### Cons\n\n- Code on the client side can always can be deobfuscated\n- browser tools allow the user to observe the deobfuscated code during the execution. Using breakpoints it is possible to tamper the code in any case\n- inside the JavaScript engine, the code has to be machine readable. Therefore the [[AST (Abstract Syntax Tree)]] will always be available, and the output bytecode, is still tamperable","x":231,"y":320,"width":356,"height":660},
-		{"id":"f73f2d443e9975a3","type":"text","text":"### Pros","x":-178,"y":320,"width":356,"height":480},
-		{"id":"b3c53b0e664461c7","type":"text","text":"### Pros","x":-1021,"y":320,"width":356,"height":480},
-		{"id":"9642afc5d93a1584","type":"text","text":"### Cons\n","x":-612,"y":320,"width":356,"height":480},
-		{"id":"2f2cd633a36b8264","type":"text","text":"### Test amplification with a focus on web security","x":-773,"y":-40,"width":322,"height":160},
-		{"id":"d168f7ea0d21d830","type":"text","text":"### Design a web security model","x":823,"y":-40,"width":420,"height":160}
+		{"id":"27f49c8334daaa38","type":"text","text":"### Pros\n\n- models could be easily integrated in the server-side as secondary processes","x":894,"y":320,"width":531,"height":480},
+		{"id":"bc3f1d0237ffdfeb","type":"text","text":"### Cons\n- complicated models that sit in between client and server might cause a non-trivial overhead of the HTTP communication\n- state of the art models are based on observing and recording user actions, which involve critical privacy issues","x":1503,"y":320,"width":531,"height":480},
+		{"id":"0dbbc21c2f253aa9","type":"text","text":"### Cons\n\n- code on the client side can always can be deobfuscated\n- browser tools allow the user to observe the deobfuscated code during the execution. Using breakpoints it is possible to tamper the code in any case\n- inside the JavaScript engine, the code has to be machine readable. Therefore, the [[AST (Abstract Syntax Tree)]] will always be available, and the output bytecode is still tamperable","x":259,"y":320,"width":531,"height":480},
+		{"id":"f73f2d443e9975a3","type":"text","text":"### Pros\n\n- even if a deterrent does not solve the problem, could be useful to prevent most of the less advanced attacks\n- obfuscated and minified code can, in certain scenario, be more efficient to execute\n- a dynamic obfuscation that keeps modifying client-side code, perhaps covering only critical business-related logic, could be extremely difficult to detect and tamper with","x":-351,"y":320,"width":531,"height":480},
+		{"id":"b3c53b0e664461c7","type":"text","text":"### Pros\n- even public large scale web application are addressable with a black-box approaches\n- automatic generation of test cases will be highly beneficial for a number of web application vulnerable to GEMs\n- non-intrusive testing","x":-1606,"y":320,"width":531,"height":480},
+		{"id":"9642afc5d93a1584","type":"text","text":"### Cons\n\n- automatically address multiple tampering is still an open challenge\n- large complex codebases are technically challenging to analyze\n- inferring the [[test oracle]] is not always feasible in black-box approaches\n- GDPR or CMA (computer misuse act) laws might be violated","x":-997,"y":320,"width":531,"height":480},
+		{"id":"c6296eb116986084","type":"text","text":"# GEMs mitigation approches\n\n### How to make the client-side code more secure and prevent tampering","x":-75,"y":-640,"width":600,"height":200},
+		{"id":"6fa0787d4390abcc","type":"text","text":"### Client-side obfuscation","x":-10,"y":-160,"width":470,"height":160},
+		{"id":"d168f7ea0d21d830","type":"text","text":"### Design a web security model","x":1240,"y":-160,"width":476,"height":160},
+		{"id":"2f2cd633a36b8264","type":"text","text":"### Test amplification with a focus on web security\n\nSee: [[Generate test cases to check GEMs presence.canvas|Generate test cases to check GEMs presence]]","x":-1400,"y":-160,"width":740,"height":160}
 	],
 	"edges":[
 		{"id":"c82cdefcea3667d7","fromNode":"2f2cd633a36b8264","fromSide":"bottom","toNode":"b3c53b0e664461c7","toSide":"top"},
