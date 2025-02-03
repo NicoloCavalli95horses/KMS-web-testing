@@ -20,6 +20,7 @@ Successful XSS can:
 - manipulate the web content
 - cause a [[DoS (Denial of Service)]]
 
+XSS is similar to [[CSFR (cross-site request forgery)]] in that both rely on code injection, but CSFR exploits the browser's trust in the user to send malicious HTTP requests, while XSS involves code execution in the user's browser (see more on [[XSS and CSFR comparison]])
 ### Types of XSS attacks
 
 **Reflected**
@@ -92,7 +93,9 @@ Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, wit
 - **Sanitise HTML**: if user input needs to contain HTML, you can’t escape or encrypt it because doing so would render any acceptable tags useless. In such cases, parse and sanitise HTML using a trusted and proven library
 - **Content security policy**: use a Content Security Policy as well to mitigate the effects of a potential XSS problem (CSP). The CSP HTTP response header lets you specify which dynamic resources are allowed to load in accordance with the request source
 
+---
 ## References
-[[ref_current_state_research_xss]]
-[[ref_common_vulnerabilities_real_world_web_application]]
-https://portswigger.net/web-security/cross-site-scripting#reflected-cross-site-scripting
+
+- [[ref_current_state_research_xss]]
+- [[ref_common_vulnerabilities_real_world_web_application]]
+- https://portswigger.net/web-security/cross-site-scripting#reflected-cross-site-scripting
