@@ -16,7 +16,11 @@ A tool (TheThing) is proposed to automatically detect DOM clobbering.
 
 ## Approach
 
-Describe the paper approach in simple term.
+- the authors have studied the existing literature on DOM clobbering, including HackerOne vulnerability reports, CVE database, bugzilla bug reports, and highlighted common pattern used for creating an attack
+- a list of rules was derived, covering all HTML tags, attributes, tags relations and attack targets
+- experimenting with all the possible valid HTML tags and attributes confirm that ==only using `id` and `name` attributes the override behavior occur==
+- the browser behavior was checked in BrowserStack, which include 16 browsers. Also different Safari versions were evaluated, with a total of 19 browsers
+
 
 
 ---

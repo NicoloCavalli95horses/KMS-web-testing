@@ -26,9 +26,16 @@ XSS is similar to [[CSFR (cross-site request forgery)]] in that both rely on cod
 **Reflected**
 Reflected XSS is the simplest variety of cross-site scripting. It arises when an application ==receives data in an HTTP request and includes that data within the response in an unsafe way.==
 
-```HTML
-https://insecure-website.com/status?message=<script>...<script/>
-<p>Status: <script>...<script/>.</p> // the script is executed
+```JavaScript
+// The user clicks on:
+// https://insecure-website.com/status?message=<script>...<script/>
+
+// Let's say that the response is output with no checks
+<p>Response status:
+  <span>
+  ///code will be inserted and executed here
+  <span/>
+</p> // the script is executed
 ```
 
 If the user visit the URL constructed by the attacker, the attacker's script will be executed in the user's browser. The script can retrieve any information or perform any action the user is allowed to perform. Most of the literature has studied on this type of issues. If the user is presented with the dangerous link in an email, for example, this scenario is also called [[phishing attack]].
