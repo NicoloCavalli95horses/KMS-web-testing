@@ -8,7 +8,9 @@ tags:
 ---
 ## Definition
 
-DOM clobbering is a vulnerability that occurs when ==HTML element attributes (`id`, `name`) accidentally override global JavaScript variables or default object properties.== This can lead to unexpected behavior or security issues. It can be considered a type of [[XSS (cross site scripting)]] attack.
+DOM clobbering is a vulnerability that occurs when ==HTML element attributes (`id`, `name`) accidentally override undefined global JavaScript variables or default object properties==.
+
+This can lead to unexpected behavior or security issues: DOM clobbering can be considered a type of [[XSS (cross site scripting)]] attack
 
 ```html
 <a id="globalConfig" href="hacked.js" />
@@ -26,7 +28,9 @@ DOM clobbering is a vulnerability that occurs when ==HTML element attributes (`i
 
 This can happen mostly in legacy JavaScript codebases, where global variables were stored directly in global object, by mistake or by design (using `window`, `document`, `history`, `localStorage`) 
 
-DOM clobbering can leverage this particular browser behavior to mess with object behavior. Similarly to [[prototype pollution]], it can lead to:
+DOM clobbering can leverage this particular browser behavior to mess with object values.
+
+Similarly to [[prototype pollution]], it can lead to:
 - arbitrary code execution
 - client-side [[CSFR (cross-site request forgery)]]
 - privilege escalation issues
@@ -38,7 +42,7 @@ Combine pairs of HTML tags or browser specific markups and attributes, is it pos
 - nested window proxies
 - loops
 
-> [!WARNING] Even the big guys!
+> [!WARNING] A widespread issue
 > DOM clobbering vulnerabilities have been found in **Gmail** and **Google Analytics**
 
 ### The problem is growing over time (!)

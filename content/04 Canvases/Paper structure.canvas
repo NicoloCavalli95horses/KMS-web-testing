@@ -17,19 +17,21 @@
 		{"id":"2084d8e3c78bc1fc","type":"text","text":"Results","x":160,"y":238,"width":760,"height":78,"color":"3"},
 		{"id":"baefac0bde5ccb42","type":"text","text":"Discussions","x":160,"y":356,"width":760,"height":78,"color":"3"},
 		{"id":"34fe9ed6eaf2bee2","type":"text","text":"## Content","x":-560,"y":224,"width":360,"height":92,"color":"3"},
-		{"id":"0c533e5f63497931","type":"text","text":"threads to validity","x":160,"y":859,"width":760,"height":78,"color":"4"},
-		{"id":"2551d789286e16f1","type":"text","text":"related works","x":160,"y":970,"width":760,"height":78,"color":"4"},
-		{"id":"2d8fba3408ecc073","type":"text","text":"future improvements","x":160,"y":1095,"width":760,"height":78,"color":"4"},
-		{"id":"c6f3c1030415c1fb","type":"text","text":"*external validity*: threats related to the generalization of results","x":1280,"y":720,"width":600,"height":95,"color":"4"},
-		{"id":"1237cebea6efaf93","type":"text","text":"*internal validity*: confounding factors that may affect a dependent variable","x":1280,"y":768,"width":600,"height":91,"color":"4"},
-		{"id":"0b157c9b8d257516","type":"text","text":"*construct validity*: concerns the relationship between theory and observation, often related to how results are measured","x":1280,"y":898,"width":600,"height":122,"color":"4"},
-		{"id":"ce0ee8d200ed8fbf","type":"text","text":"*conclusion validity*: concerns issues that may affect the ability to draw a correct conclusion","x":1280,"y":1042,"width":600,"height":92,"color":"4"},
-		{"id":"a87339bbae838017","type":"text","text":"limits ","x":160,"y":728,"width":760,"height":78,"color":"4"},
-		{"id":"6c78db196f73446e","type":"text","text":"## Conclusions","x":-560,"y":847,"width":360,"height":90,"color":"4"},
-		{"id":"68c1254346925281","type":"text","text":"References","x":160,"y":1520,"width":760,"height":78,"color":"5"},
-		{"id":"8564a1d4930a9e09","type":"text","text":"Tables and figures","x":160,"y":1625,"width":760,"height":78,"color":"5"},
-		{"id":"a8c75fa79c00264d","type":"text","text":"Appendix","x":160,"y":1730,"width":760,"height":78,"color":"5"},
-		{"id":"3b534f7838edb858","type":"text","text":"## Resources","x":-560,"y":1598,"width":360,"height":105,"color":"5"}
+		{"id":"6c78db196f73446e","type":"text","text":"## Conclusions","x":-560,"y":967,"width":360,"height":90,"color":"4"},
+		{"id":"0c533e5f63497931","type":"text","text":"threads to validity","x":160,"y":928,"width":760,"height":78,"color":"4"},
+		{"id":"2551d789286e16f1","type":"text","text":"related works","x":160,"y":1039,"width":760,"height":78,"color":"4"},
+		{"id":"61d2a52c6dafa8df","type":"text","text":"ethical consideration (if any)","x":160,"y":1157,"width":760,"height":78,"color":"4"},
+		{"id":"2d8fba3408ecc073","type":"text","text":"future improvements","x":160,"y":1269,"width":760,"height":78,"color":"4"},
+		{"id":"a87339bbae838017","type":"text","text":"limits ","x":160,"y":797,"width":760,"height":78,"color":"4"},
+		{"id":"68c1254346925281","type":"text","text":"References","x":160,"y":1640,"width":760,"height":78,"color":"5"},
+		{"id":"8564a1d4930a9e09","type":"text","text":"Tables and figures","x":160,"y":1745,"width":760,"height":78,"color":"5"},
+		{"id":"a8c75fa79c00264d","type":"text","text":"Appendix","x":160,"y":1850,"width":760,"height":78,"color":"5"},
+		{"id":"3b534f7838edb858","type":"text","text":"## Resources","x":-560,"y":1718,"width":360,"height":105,"color":"5"},
+		{"id":"6fc5a090f23f2ff7","type":"text","text":"summary of the results","x":160,"y":680,"width":760,"height":78,"color":"4"},
+		{"id":"c6f3c1030415c1fb","type":"text","text":"*external validity*: threats related to the generalization of results","x":1280,"y":697,"width":600,"height":95,"color":"4"},
+		{"id":"1237cebea6efaf93","type":"text","text":"*internal validity*: confounding factors that may affect a dependent variable","x":1280,"y":815,"width":600,"height":91,"color":"4"},
+		{"id":"0b157c9b8d257516","type":"text","text":"*construct validity*: concerns the relationship between theory and observation, often related to how results are measured","x":1280,"y":945,"width":600,"height":122,"color":"4"},
+		{"id":"ce0ee8d200ed8fbf","type":"text","text":"*conclusion validity*: concerns issues that may affect the ability to draw a correct conclusion","x":1280,"y":1089,"width":600,"height":92,"color":"4"}
 	],
 	"edges":[
 		{"id":"e593a862030703f3","fromNode":"6c78db196f73446e","fromSide":"right","toNode":"a87339bbae838017","toSide":"left"},
@@ -60,6 +62,8 @@
 		{"id":"90ed239e24e20d2e","fromNode":"0c533e5f63497931","fromSide":"right","toNode":"c6f3c1030415c1fb","toSide":"left"},
 		{"id":"a1af4c76ee645780","fromNode":"0c533e5f63497931","fromSide":"right","toNode":"1237cebea6efaf93","toSide":"left"},
 		{"id":"2402750442daf39d","fromNode":"0c533e5f63497931","fromSide":"right","toNode":"0b157c9b8d257516","toSide":"left"},
-		{"id":"332615017b19b351","fromNode":"0c533e5f63497931","fromSide":"right","toNode":"ce0ee8d200ed8fbf","toSide":"left"}
+		{"id":"332615017b19b351","fromNode":"0c533e5f63497931","fromSide":"right","toNode":"ce0ee8d200ed8fbf","toSide":"left"},
+		{"id":"3290b5b64802955b","fromNode":"6c78db196f73446e","fromSide":"right","toNode":"61d2a52c6dafa8df","toSide":"left"},
+		{"id":"c90855bbeac4544d","fromNode":"6c78db196f73446e","fromSide":"right","toNode":"6fc5a090f23f2ff7","toSide":"left"}
 	]
 }
