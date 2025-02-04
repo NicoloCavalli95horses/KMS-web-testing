@@ -8,10 +8,11 @@ tags:
 ---
 ## Main concepts
 
-The widespread use of GUIs has led to the construction of more and more complex GUIs. Because GUIs have characteristics different from other software, conventional software techniques cannot be directly applied. ==The development of [[coverage criteria]] is a non addressed issue==
+The widespread use of GUIs has led to the construction of more and more complex GUIs. Because GUIs have characteristics different from other software, conventional software techniques cannot be directly applied.
+- ==The development of [[coverage criteria]] is a non addressed issue==
 
 Problems:
-- the source code of GUIs components may not be always available for coverage evaluation
+- the source code of [[GUI (graphical user interface)]] components may not be always available for coverage evaluation
 - the input of a GUI consists of a series of events. The number of permutations may lead to a large number of GUI states to be tested
 - the event sequences cannot be obtained from the code because they are at a higher level of abstraction
 
@@ -27,8 +28,8 @@ If we can isolate GUI components (see [[standard widgets]]), then we can analyze
 A GUI component can be described with a [[EFG (event flow graph)]]
 
 **Goals:**
-We present algorithms to automatically construct EFG and integration trees.
-We present a case study to demonstrate the correlation between event-based coverage and statement coverage, and the usefulness of the coverage report.
+- We present algorithms to automatically construct EFG and integration trees.
+- We present a case study to demonstrate the correlation between event-based coverage and statement coverage, and the usefulness of the coverage report.
 
 **Classification of GUI events:**
 - *restricted-focus events*: events that open modal windows (e.g., a full-screen modal to change the language)
@@ -36,5 +37,7 @@ We present a case study to demonstrate the correlation between event-based cover
 - *termination events*: events that causes a flow to interrupt (e.g., "ok" and "cancel" actions on a modal)
 - *menu-open events*: events that toggle a menu. No need to be explicitly terminated by the user
 - *system-interaction events:* events used to communicate with the underlying software (e.g., "copy" and "paste" actions)
+
+---
 ## References
 [[ref_coverage_criteria_gui_testing]]

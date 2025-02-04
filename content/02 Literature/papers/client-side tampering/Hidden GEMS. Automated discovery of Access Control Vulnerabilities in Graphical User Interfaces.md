@@ -50,5 +50,6 @@ Concepts such as vulnerability or [[security testing]], [[fuzzling]] and GUI tes
 - In web application, [[black-box testing]] techniques are typically used to look for [[XSS (cross site scripting)]] vulnerabilities
 - client side parameter tampering is not new, but automatically detect GUI misuse that lead to privilege escalation it is
 
+---
 ## References
-[[ref_hidden_gems_auto_discovery]]
+- [[ref_hidden_gems_auto_discovery]]

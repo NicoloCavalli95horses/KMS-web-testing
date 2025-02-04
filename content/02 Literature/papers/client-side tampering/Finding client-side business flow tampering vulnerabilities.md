@@ -45,6 +45,8 @@ True positives were grouped and a representative candidate was manually checked 
 The system generates a report for each identified vulnerability, explaining the attack.
 
 *Tool used*: Python, Node.js, Puppeteer
+
+---
 ## References
-[[ref_business_tampering_vulnerabilities]]
-https://sites.google.com/view/tampering-cases (examples of tampering)
+- [[ref_business_tampering_vulnerabilities]]
+- https://sites.google.com/view/tampering-cases (examples of tampering)

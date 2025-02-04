@@ -56,7 +56,9 @@ Different syntax and diagrams have been proposed in order to better model specif
 
 **Pushdown ESGs**: the ESG model comes with a stack component. A sequence of stack operations is performed when an event is executed. The execution of the event is successful if and only if the related sequence of stack operations is also successful
 
+> [!summary]
 > Mixed approaches or custom models that fit the SUT needs are often used. The more the model is customized, the more precise it is and the less generalizable it is
 
+---
 ## References
-[[ref_testing_event_center_activity]]
+- [[ref_testing_event_center_activity]]

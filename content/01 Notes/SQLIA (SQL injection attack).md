@@ -55,7 +55,8 @@ Since the condition '1'='1' always evaluates to true, the query returns all rows
 - **Whitelisting**: user input should always be treated as untrusted and filtered through a whitelist which only allows some of the input that matches a pattern
 - **Employ verified mechanisms**: do not try to build SQLIA protection from scratch. Most modern programming tools can give you access to SQLIA protection features
 
+---
 ## References
-[[ref_overview_sql_injection_detection]]
-[[ref_common_vulnerabilities_real_world_web_application]]
-[[ref_bypass_testing_of_web_app]]
+- [[ref_overview_sql_injection_detection]]
+- [[ref_common_vulnerabilities_real_world_web_application]]
+- [[ref_bypass_testing_of_web_app]]

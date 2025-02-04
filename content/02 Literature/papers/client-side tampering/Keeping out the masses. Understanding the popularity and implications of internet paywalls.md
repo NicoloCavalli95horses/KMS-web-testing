@@ -42,5 +42,6 @@ Our model consists of two components:
 	- a [[random forest classifier]] is used from SciKit-Learn python library
 	- the final accuracy was of 77%
 
+---
 ## References
-[[ref_understanding_popularity_internet_paywalls]]
+- [[ref_understanding_popularity_internet_paywalls]]

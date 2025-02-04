@@ -74,5 +74,6 @@ In essence, NoTamper uses black-box analysis to find discrepancies between clien
 
 It is important to note that black-box analysis cannot guarantee completeness, lacking in accuracy.
 
+---
 ## References
-[[ref_notamper_automatic_blackbox_det_parameter_tampering]]
+- [[ref_notamper_automatic_blackbox_det_parameter_tampering]]

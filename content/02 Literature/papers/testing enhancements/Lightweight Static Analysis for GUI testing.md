@@ -21,6 +21,7 @@ This approach brought to life **Gazoo**, a tool that has been tested on four ope
 - First, the GUI application is executed and all the GUI's widget are identified and enumerated (windows, buttons, text fields)
 - A [[reflection (Java)]] technique is used to obtain the Java object corresponding to each widget. We ask Java to invoke the method getActionListeners that returns the widget's event handlers. The widgets IDs are used as identifiers. If a widget has not a getActionListeners it means no event handler is registered to this widget.
 
+---
 ## References
-[[ref_lightweight_static_analysis_gui_testing]]
+- [[ref_lightweight_static_analysis_gui_testing]]
 

@@ -58,5 +58,7 @@ Developer often ignore low-risk vulnerability
 **Threats to validity**
 - ==construct validity==: the vulnerabilities were found using Snyk.io. The paper is based on the assumption that the database records all the relevant vulnerabilities introduced by third-party packages
 - ==internal validity==: the results cannot be generalized since the research focuses on React.js
+
+---
 ## References
-[[ref_managing_security_vulnerabilities_dependencies_react]]
+- [[ref_managing_security_vulnerabilities_dependencies_react]]

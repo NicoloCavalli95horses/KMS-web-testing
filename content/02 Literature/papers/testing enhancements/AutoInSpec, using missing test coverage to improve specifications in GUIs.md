@@ -9,8 +9,9 @@ tags:
 ---
 ## Abstract
 
-Developers of a software’s graphical user interface (GUI) often *fail to document the interface specifications*. Without these, models used for automated test generation
-and execution remain imperfect and incomplete. This leads to unexpected behavior that creates ==unrecoverable situations for automatically generated test suites, and missed coverage.==
+Developers of a software’s graphical user interface (GUI) often *fail to document the interface specifications*. Without these, models used for automated test generation and execution remain imperfect and incomplete. 
+
+This leads to unexpected behavior that creates ==unrecoverable situations for automatically generated test suites, and missed coverage.==
 - In this paper, we present **AutoInSpec**, a technique to infer an important class of specifications, temporal and state-based invariants between GUI events that have been incorrectly modeled
 - Unlike existing specification mining approaches, that require full execution traces, or source code, and that mine all invariants, we simplify the problem. We guide AutoInSpec with coverage criteria and use a previously developed repair framework that builds coverage-adequate test suites, removing unexecutable sub-sequences from consideration
 - These failing sub-sequences are input to a logic-based inference engine, armed with known invariant templates, to obtain the missing specifications. We validate AutoInSpec on a set of well studied GUI applications
@@ -38,5 +39,6 @@ Classification of [[ESG (event sequence graph)]] infeasible events: see link.
 The [[Prolog (programming language)]] is used to implement the invariant detector as it is suitable for logical inferences, allowing the developers to focus on "what" instead of "how". An output of the program could be, for example:
 - “Select All" cannot precede "Copy To” because the following t-sets were missed: {(Select All, 0), (Copy To, 1)}  ... }.
 
+---
 ## References
 [[ref_autoinspect_using_missing_test_coverage]]

@@ -41,6 +41,8 @@ Array, memcpy and sprintf are the top three APIs related to buffer overflow bugs
 - **Add string end.** All string should end with string end ′∖0′. Otherwise copying it may lead to a buffer overflow. Adding string end to the end of the string can solve the problem 
 - **Malloc check.** The use of failed malloc may cause the buffer overflow problem. Therefore, checking the corresponding malloc parameter and return value can be used to avoid buffer overflow bugs,
 - **String reformat.** Formatting string can control how many bytes are written to a buffer Formatting string can control how many bytes are written to a buffer
+
+---
 ## References
 
 [[ref_empirical_study_detecting_buffer_overflow]]

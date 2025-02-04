@@ -11,9 +11,9 @@ tags:
 
 Web applications are the most vulnerable to SQLIA attacks and other security threats of other applications. SQLIA threats is in the ==top three== web application security risks.
 
-The advancement of the automated injection technology leads to frequent SQLIA incidents
-SQLIA detection techniques have improved with the development of big data, AI and cloud computing technologies, but no clear review or classification has been proposed yet.
+The advancement of the automated injection technology leads to frequent SQLIA incidents.
 
+SQLIA detection techniques have improved with the development of big data, AI and cloud computing technologies, but no clear review or classification has been proposed yet:
 - Many review papers on SQLIA detection lack organization or differentiation by role or method.
 - The reviews often present lists of tools or techniques without a clear framework or point of view
 - This lack of structure makes it hard to visualize the current state and progress in SQLIA detection research
