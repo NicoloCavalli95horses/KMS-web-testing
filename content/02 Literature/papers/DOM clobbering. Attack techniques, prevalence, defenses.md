@@ -21,6 +21,21 @@ A tool (TheThing) is proposed to automatically detect DOM clobbering.
 - experimenting with all the possible valid HTML tags and attributes confirm that ==only using `id` and `name` attributes the override behavior occur==
 - the browser behavior was checked in BrowserStack, which include 16 browsers. Also different Safari versions were evaluated, with a total of 19 browsers
 
+> [!summary] Approaching DOM clobbering
+> Detecting DOM clobbering means executing a data flow analysis to identify clobberable JavaScript variables, whose value reach security-sensitive instructions such as script `src` or `eval`
+
+### Developing of *TheThing*
+
+A web crawler collects data and JS code from the target web pages:
+- Puppeteer and [[CDP (Chrome DevTools Protocol)]] were used to visit the web pages and collect data
+- A depth-first strategy were used to explore the web site. A maximum of 100 URLs per website was considered
+- Fired events and DOM objects' properties were collected with CDP
+
+A vulnerability analysis component that uses property graphs and traversals for identifying DOM clobbering sources
+- *TheThing* creates a property graph of the client-side JavaScript program leveraging a modified engine of JAW
+- the problem of finding potential DOM Clobbering data flows is mapped into a series of graph traversal queries
+
+ A vulnerability verification component that confirms the candidate data flows by instrumenting the code
 
 
 ---
