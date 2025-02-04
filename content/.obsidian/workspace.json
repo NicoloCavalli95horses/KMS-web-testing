@@ -11,17 +11,15 @@
             "id": "2b490ec60b977344",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/gems/GEMs on large scale web application.canvas",
-                "viewState": {
-                  "x": -321.60861304623177,
-                  "y": 824.2838624129188,
-                  "zoom": -0.24402709891476254
-                }
+                "file": "02 Literature/papers/Bypass testing of web applications.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "GEMs on large scale web application"
+              "icon": "lucide-file",
+              "title": "Bypass testing of web applications"
             }
           }
         ]
@@ -81,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 550.5
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -166,40 +164,43 @@
   },
   "active": "2b490ec60b977344",
   "lastOpenFiles": [
+    "02 Literature/papers/Automatically inferring user behavior models in large-scale web applications.md",
+    "02 Literature/papers/Automatic program repair.md",
+    "02 Literature/papers/AutoInSpec, using missing test coverage to improve specifications in GUIs.md",
+    "02 Literature/papers/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
+    "02 Literature/papers/An Empirical Study on Detecting and Fixing Buffer Overflow Bugs.md",
+    "02 Literature/papers/review, taxonomy and meta-analysis/Common vulnerabilities in real world web applications.md",
+    "02 Literature/papers/review, taxonomy and meta-analysis/Classifying and qualifying GUI defects.md",
+    "02 Literature/papers/review, taxonomy and meta-analysis/A taxonomy of testable HTML5 Canvas Issues.md",
+    "02 Literature/papers/review, taxonomy and meta-analysis/A snowballing literature study on test amplification.md",
+    "02 Literature/papers/review, taxonomy and meta-analysis/A Comparison of Online JavaScript Obfuscators.md",
+    "02 Literature/papers/Security of Web Application. State of the Art.md",
+    "02 Literature/papers/review, taxonomy and meta-analysis",
+    "02 Literature/papers/client-side tampering/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
+    "02 Literature/papers/client-side tampering/Keeping out the masses. Understanding the popularity and implications of internet paywalls.md",
+    "02 Literature/papers/client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
+    "02 Literature/papers/client-side tampering/DOM clobbering. Attack techniques, prevalence, defenses.md",
+    "02 Literature/papers/Bypass testing of web applications.md",
+    "02 Literature/papers/client-side tampering/Toward black-box detection of logic flaws in web applications.md",
+    "02 Literature/papers/client-side tampering/Verification of Web Content Integrity. A new approach to protecting servers against tampering.md",
+    "04 Canvases/gems/GEMs-related CVEs.canvas",
+    "02 Literature/papers/client-side tampering",
+    "04 Canvases/gems/GEMs on large scale web application.canvas",
     "04 Canvases/gems/GEMs mitigation approaches.canvas",
     "04 Canvases/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/GUI vulnerabilities.canvas",
     "04 Canvases/Paper structure.canvas",
     "01 Notes/drive-by downloads.md",
     "04 Canvases/gems/Generate test cases to check GEMs presence.canvas",
-    "04 Canvases/gems/GEMs-related CVEs.canvas",
     "01 Notes/DOM clobbering.md",
     "01 Notes/Content-security Policy (CSP).md",
-    "04 Canvases/gems/GEMs on large scale web application.canvas",
-    "02 Literature/papers/DOM clobbering. Attack techniques, prevalence, defenses.md",
     "01 Notes/Sink.md",
     "01 Notes/dynamic analysis.md",
     "01 Notes/Iroh.js.md",
     "01 Notes/Instrumentation.md",
     "01 Notes/CDP (Chrome DevTools Protocol).md",
     "97 Assets/dom_clobbering_types.png",
-    "01 Notes/CSFR (cross-site request forgery).md",
-    "01 Notes/XSS (cross site scripting).md",
-    "01 Notes/XSS and CSFR comparison.md",
-    "03 References/ref_dom_clobbering_attack_techniques.md",
-    "03 References/ref_dom_clobbering_attack_prevalence_defences.md",
-    "02 Literature/papers/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
-    "02 Literature/papers/Toward black-box detection of logic flaws in web applications.md",
-    "03 References/ref_bft_detector_digital_content_services.md",
-    "02 Literature/papers/A Comparison of Online JavaScript Obfuscators.md",
-    "02 Literature/papers/Verification of Web Content Integrity. A new approach to protecting servers against tampering.md",
-    "01 Notes/BFT (business flow tampering).md",
-    "04 Canvases/gems/Web application s.md",
     "97 Assets/wcv_model_web_security.png",
-    "00 Antilibrary/TLS (transport layer security).md",
-    "00 Antilibrary/SSL (secure sockets layer).md",
-    "01 Notes/applet.md",
-    "01 Notes/client-side input validations.md",
     "97 Assets/js_obfuscators_analysis.png",
     "97 Assets/deobfuscation_resilience.png",
     "04 Canvases/gems/BFT Detector divergence point algorithm.canvas",
@@ -218,8 +219,6 @@
     "97 Assets/lts.png",
     "02 Literature/books/JavaScript, The Good Parts/chapters",
     "02 Literature/books/The art of software testing/chapters",
-    "02 Literature/books/The art of software testing",
-    "04 Canvases",
-    "02 Literature/papers/Classifying and qualifying GUI defects/Classifying and qualifying GUI defects.pdf"
+    "02 Literature/books/The art of software testing"
   ]
 }
