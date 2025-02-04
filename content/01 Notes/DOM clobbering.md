@@ -98,9 +98,23 @@ R5 to clobber nested object properties like window.x.y.
 
 ### Mitigation techniques
 
+**HTML sanitizers**
 - HTML sanitizers tailored to protect against DOM clobbering (e.g., DOMPurify, HTML Janitor), or implementing CSP (Content Security Policy)
-- Unfortunately, even these libraries are vulnerable to DOM clobbering, indicating that the problem is more complicated that it seems
+- Unfortunately, even these libraries are vulnerable to DOM clobbering, indicating that they don't offer a complete protection
 
+[[Content-security Policy (CSP)]]
+- to prevent XSS attacks, the `script-src` directive can be used to limit the value of scripts sources to a set of trusted domains
+- CSP cannot guarantee protection against DOM clobbering that affects properties other than `src`
+
+**Object.freeze()**
+- this powerful method prevents the object to be overwritten by named DOM elements
+- detecting all the objects that can be frozen is a non trivial and error-prone task
+- native properties cannot be frozen
+
+Other techniques:
+- do not use global variables (without `let` or `const`)
+- do not rely on `window` or `document` object in sensitive operations
+- double check variables type with `instanceof` and `typeof` operators
 
 ---
 

@@ -18,11 +18,11 @@ A tool (*TheThing*) is proposed to automatically detect DOM clobbering.
 
 - the authors have studied the existing literature on DOM clobbering, including HackerOne vulnerability reports, CVE database, bugzilla bug reports, and highlighted common pattern used for creating an attack
 - a list of rules was derived, covering all HTML tags, attributes, tags relations and attack targets
-- experimenting with all the possible valid HTML tags and attributes confirm that ==only using `id` and `name` attributes the override behavior occur==
+- experimenting with all the possible valid HTML tags and attributes confirm that ==only using `id` and `name` attributes the override behavior occur== and led to the discovery of 31.432 possible attacks
 - the browser behavior was checked in BrowserStack, which include 16 browsers. Also different Safari versions were evaluated, with a total of 19 browsers
 
 > [!summary] Approaching DOM clobbering
-> Detecting DOM clobbering means executing a data flow analysis to identify clobberable JavaScript variables, whose value reach security-sensitive instructions such as script `src` or `eval`
+> Detecting DOM clobbering vulnerabilities mean executing a data flow analysis to identify clobberable JavaScript variables, whose value reach security-sensitive instructions such as script `src` or `eval`
 
 ### Developing of *TheThing*
 
@@ -42,9 +42,13 @@ A vulnerability analysis component that uses property graphs and traversals for 
 ### Prevalence of DOM clobbering
 
 - 9467 DOM clobbering vulnerabilities were found among +5000 web sites
+- Almost half of the vulnerabilities (46.1%) were verified thanks to a dynamic verification
 - 38.8% of these vulnerabilities can lead to [[XSS (cross site scripting)]]
 - 17.2% can lead to [[BFT (business flow tampering)]]
-- 14.8
+- 14.8% to [[CSFR (cross-site request forgery)]]
+- 12.9% to DOM based open redirection
+- Others to JSON injection, Websocket connection hijack
+- even the HTML sanitizers are vulnerable to DOM clobbering
 
 ---
 #### References
