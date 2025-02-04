@@ -9,7 +9,7 @@ tags:
 ---
 This paper examines the [[DOM clobbering]] vulnerability, providing a systematic evaluation of the attack surface, a measurement of affected and vulnerable websites and a review and evaluation of defenses.
 
-A tool (TheThing) is proposed to automatically detect DOM clobbering.
+A tool (*TheThing*) is proposed to automatically detect DOM clobbering.
 
 > [!summary]
 > The authors' findings show that the attack surface of DOM clobbering is large, with ==31.432 possible attacks== (only 481 of which are commonly known), and that the prevalence of the vulnerability affects ==9.8% of the 5,000 most visited websites on the Internet, including GitHub, Fandom, Trello, Vimeo, TripAdvisor, WikiBooks.==
@@ -36,10 +36,16 @@ A vulnerability analysis component that uses property graphs and traversals for 
 - the problem of finding potential DOM Clobbering data flows is mapped into a series of graph traversal queries
 
  A vulnerability verification component that confirms the candidate data flows by instrumenting the code
+ - verify each data flow and eliminate false positives using [[Iroh.js]] (in-browser [[dynamic analysis]] engine)
+ - malicious payloads are injected to the DOM tree of the targets web sites and the source code behavior is observed (by logging values of variables)
 
+### Prevalence of DOM clobbering
+
+- 9467 DOM clobbering vulnerabilities were found among +5000 web sites
+- 38.8% of these vulnerabilities can lead to [[XSS (cross site scripting)]]
+- 17.2% can lead to [[BFT (business flow tampering)]]
+- 14.8
 
 ---
-#### Notes
-[^1]: This is a note example. Use a note to give extra information without interrupting the reading flow
 #### References
 - [[ref_dom_clobbering_attack_techniques]]

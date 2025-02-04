@@ -27,6 +27,7 @@ Dynamic analysis can focus on different aspects of the software, including but n
 **Example tools**
 - **Valgrind**: a framework used to detect memory losses or error and profiling
 - **JMeter**: a tool used to test performances in web application
+- [[Iroh.js]]: intercept and manipulate data during execution
 
 **Limits**
 - The analysis is strongly dependent on the tests, that are manually provided
