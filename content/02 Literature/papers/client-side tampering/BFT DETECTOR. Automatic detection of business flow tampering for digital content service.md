@@ -9,8 +9,6 @@ tags:
   - codeAnalysis
   - cyberSecurity
 ---
-[^1]## Introduction
-
 [[BFT (business flow tampering)]] is a serious issue. Most of the digital content services (Amazon, Netflix, etc) implements one of the following business model:
 - **advertising**: content providers earn revenue from advertisers, which are often protected by anti-adblocker
 - **subscription**: [[paywalls]] are used 
@@ -51,7 +49,7 @@ The divergences points are automatically detected with the following algorithm:
 8. a divergence point occur when:
 	- a function is a callee of a common call signature
 	- the same function is a caller of a unique call signature
-	- the callstack before and after the divergence is the same
+	- the callstack before the divergence is the same
 
 In other words, a divergence point is a point after which the execution flow of two similar traces changes significantly
 
@@ -80,8 +78,9 @@ We measure whether our system successfully tampers with the business process by 
 > - the system does not consider BFT flaws due to multiple mutations of the client-side codebase
 > - does not work well in detecting flaws in large and complex codebases (+7100 functions)
 
+---
 ## References
-[[ref_bft_detector_digital_content_services]]
+- [[ref_bft_detector_digital_content_services]]
 
 ### Notes
 [^1]: access to premium content with a premium subscription

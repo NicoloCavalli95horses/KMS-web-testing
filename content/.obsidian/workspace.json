@@ -8,37 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2b490ec60b977344",
+            "id": "3b42d0e86b32f431",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/web security on large scale web applications/GUI vulnerabilities.canvas",
-                "viewState": {
-                  "x": -3660.720284436033,
-                  "y": 543.5825355247906,
-                  "zoom": -0.5923108413895084
-                }
+                "file": "02 Literature/papers/client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "GUI vulnerabilities"
+              "icon": "lucide-file",
+              "title": "BFT DETECTOR. Automatic detection of business flow tampering for digital content service"
             }
           },
           {
-            "id": "6ac1368be0203912",
+            "id": "7179ce9fcff3ba6b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/client-side tampering/research approaches.canvas",
-                "viewState": {
-                  "x": -855.9829273871476,
-                  "y": 676.1430705098978,
-                  "zoom": -0.41718464372648606
-                }
+                "file": "01 Notes/CDP (Chrome DevTools Protocol).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "research approaches"
+              "icon": "lucide-file",
+              "title": "CDP (Chrome DevTools Protocol)"
             }
           }
         ],
@@ -74,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "devt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +91,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,14 +179,18 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "6ac1368be0203912",
+  "active": "7179ce9fcff3ba6b",
   "lastOpenFiles": [
-    "04 Canvases/client-side tampering/gems/GEMs on large scale web application.canvas",
-    "04 Canvases/client-side tampering/gems/Generate test cases to check GEMs presence.canvas",
+    "04 Canvases/client-side tampering/dataset.canvas",
     "04 Canvases/client-side tampering/research approaches.canvas",
-    "04 Canvases/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
+    "04 Canvases/client-side tampering/tampering prevention with test amplification.canvas",
     "04 Canvases/utils/Paper structure.canvas",
+    "04 Canvases/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
+    "04 Canvases/web security on large scale web applications/GUI vulnerabilities.canvas",
+    "02 Literature/papers/client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
+    "02 Literature/papers/client-side tampering/DOM clobbering. Attack techniques, prevalence, defenses.md",
+    "02 Literature/papers/client-side tampering/Finding client-side business flow tampering vulnerabilities.md",
+    "01 Notes/BFT (business flow tampering).md",
     "04 Canvases/utils",
     "04 Canvases/web security on large scale web applications",
     "04 Canvases/client-side tampering",
@@ -216,10 +217,6 @@
     "02 Literature/papers/testing enhancements/STILE, a tool for optimizing E2E web test scripts parallelization.md",
     "02 Literature/papers/testing enhancements/Repairing GUI Test Suites Using a Genetic Algorithm.md",
     "02 Literature/papers/testing enhancements/Mutta. A novel tool for E2E web mutation testing.md",
-    "02 Literature/papers/testing enhancements/Lightweight Static Analysis for GUI testing.md",
-    "02 Literature/papers/testing enhancements/Coverage criteria for GUI testing.md",
-    "02 Literature/papers/testing enhancements/AutoInSpec, using missing test coverage to improve specifications in GUIs.md",
-    "02 Literature/papers/testing enhancements/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
     "02 Literature/papers/buffer overflow",
     "02 Literature/papers/presentation issues",
     "02 Literature/papers/software obfuscation",
