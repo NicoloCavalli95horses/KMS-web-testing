@@ -13,18 +13,36 @@
             "state": {
               "type": "canvas",
               "state": {
+                "file": "04 Canvases/web security on large scale web applications/GUI vulnerabilities.canvas",
+                "viewState": {
+                  "x": -3660.720284436033,
+                  "y": 543.5825355247906,
+                  "zoom": -0.5923108413895084
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "GUI vulnerabilities"
+            }
+          },
+          {
+            "id": "6ac1368be0203912",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
                 "file": "04 Canvases/client-side tampering/research approaches.canvas",
                 "viewState": {
-                  "x": 238,
-                  "y": -40,
-                  "zoom": -0.5807978528687769
+                  "x": -855.9829273871476,
+                  "y": 676.1430705098978,
+                  "zoom": -0.41718464372648606
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "research approaches"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,15 +182,15 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "6ac1368be0203912",
   "lastOpenFiles": [
-    "04 Canvases/client-side tampering/gems/Generate test cases to check GEMs presence.canvas",
     "04 Canvases/client-side tampering/gems/GEMs on large scale web application.canvas",
+    "04 Canvases/client-side tampering/gems/Generate test cases to check GEMs presence.canvas",
     "04 Canvases/client-side tampering/research approaches.canvas",
-    "04 Canvases/utils/Paper structure.canvas",
-    "04 Canvases/utils",
     "04 Canvases/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
+    "04 Canvases/utils/Paper structure.canvas",
+    "04 Canvases/utils",
     "04 Canvases/web security on large scale web applications",
     "04 Canvases/client-side tampering",
     "04 Canvases/gems/GEMs-related CVEs.canvas",

@@ -2,14 +2,28 @@
 	"nodes":[
 		{"id":"d168f7ea0d21d830","type":"text","text":"### Web security models\n\n\n### Pros\n\n- models could be easily integrated in the server-side as secondary processes\n### Cons\n- complicated models that sit in between client and server might cause a non-trivial overhead of the HTTP communication\n- state of the art models are based on observing and recording user actions, which involve critical privacy issues","x":860,"y":-160,"width":856,"height":720},
 		{"id":"6fa0787d4390abcc","type":"text","text":"### Client-side obfuscation\n\n\n### Pros\n\n- even if a deterrent does not solve the problem, could be useful to prevent most of the less advanced attacks\n- obfuscated and minified code can, in certain scenario, be more efficient to execute\n- a dynamic obfuscation that keeps modifying client-side code, perhaps covering only critical business-related logic, could be extremely difficult to detect and tamper with\n### Cons\n\n- code on the client side can always can be deobfuscated\n- browser tools allow the user to observe the deobfuscated code during the execution. Using breakpoints it is possible to tamper the code in any case\n- inside the JavaScript engine, the code has to be machine readable. Therefore, the [[AST (Abstract Syntax Tree)]] will always be available, and the output bytecode is still tamperable","x":-280,"y":-160,"width":960,"height":720},
-		{"id":"2f2cd633a36b8264","type":"text","text":"### Test amplification with a focus on GEMs\n\nSee: [[Generate test cases to check GEMs presence.canvas|Generate test cases to check GEMs presence]]\n\n### Pros\n- even public large scale web application are addressable with a black-box approaches\n- automatic generation of test cases will be highly beneficial for a number of web application vulnerable to GEMs\n- non-intrusive testing\n\n### Cons\n\n- automatically address multiple tampering is still an open challenge\n- large complex codebases are technically challenging to analyze\n- inferring the [[test oracle]] is not always feasible in black-box approaches\n- GDPR or CMA (computer misuse act) laws might be violated","x":-1240,"y":-160,"width":900,"height":720},
-		{"id":"84f73fef0bda3cb2","x":-1100,"y":-680,"width":540,"height":160,"type":"text","text":"## Test amplification with focus on DOM clobbering"},
-		{"id":"c6296eb116986084","type":"text","text":"# Client-side tampering research approaches","x":-180,"y":-980,"width":860,"height":120}
+		{"id":"2f2cd633a36b8264","type":"text","text":"### Test amplification\n\nSee: [[Generate test cases to check GEMs presence.canvas|Generate test cases to check GEMs presence]]\n\n### Pros\n- even public large scale web application are addressable with a black-box approaches\n- automatic generation of test cases will be highly beneficial for a number of web application vulnerable to GEMs\n- non-intrusive testing\n\n### Cons\n\n- automatically address multiple tampering is still an open challenge\n- large complex codebases are technically challenging to analyze\n- inferring the [[test oracle]] is not always feasible in black-box approaches\n- GDPR or CMA (computer misuse act) laws might be violated","x":-1240,"y":-160,"width":900,"height":720},
+		{"id":"c6296eb116986084","type":"text","text":"# Research approaches","x":-35,"y":-440,"width":470,"height":120},
+		{"id":"84f73fef0bda3cb2","type":"text","text":"## DOM clobbering","x":-1160,"y":960,"width":320,"height":80},
+		{"id":"0c0ce631cc12c60a","type":"text","text":"## Clickjacking","x":-915,"y":830,"width":250,"height":70},
+		{"id":"c3353d37d9e15e7f","x":-600,"y":755,"width":150,"height":60,"type":"text","text":"## CSFR"},
+		{"id":"c00e029c28aa17f0","x":-540,"y":930,"width":130,"height":60,"type":"text","text":"## XSS"},
+		{"id":"961146c57db38358","type":"text","text":"## Tabnabbing","x":-475,"y":1220,"width":250,"height":70},
+		{"id":"8c8f4b137a42094c","type":"text","text":"### Client-side tampering (GEMs)","x":-1240,"y":715,"width":450,"height":70},
+		{"id":"cf518216468ee341","x":-1090,"y":1115,"width":250,"height":70,"type":"text","text":"## DoS/ReDoS"},
+		{"id":"527ddbfa14af8155","x":-790,"y":1040,"width":380,"height":70,"type":"text","text":"## Prototype pollution"}
 	],
 	"edges":[
 		{"id":"a82eb55bf6247b1a","fromNode":"c6296eb116986084","fromSide":"bottom","toNode":"2f2cd633a36b8264","toSide":"top"},
 		{"id":"ef70168407212d5e","fromNode":"c6296eb116986084","fromSide":"bottom","toNode":"6fa0787d4390abcc","toSide":"top"},
 		{"id":"8d4915c064b769a1","fromNode":"c6296eb116986084","fromSide":"bottom","toNode":"d168f7ea0d21d830","toSide":"top"},
-		{"id":"29aa6aaaa81d8127","fromNode":"c6296eb116986084","fromSide":"bottom","toNode":"84f73fef0bda3cb2","toSide":"top"}
+		{"id":"ff78e5bb2c540d93","fromNode":"2f2cd633a36b8264","fromSide":"bottom","toNode":"8c8f4b137a42094c","toSide":"top"},
+		{"id":"eeaec996291824b7","fromNode":"2f2cd633a36b8264","fromSide":"bottom","toNode":"84f73fef0bda3cb2","toSide":"top"},
+		{"id":"6c1b0733457d1c75","fromNode":"2f2cd633a36b8264","fromSide":"bottom","toNode":"0c0ce631cc12c60a","toSide":"top"},
+		{"id":"d0cc24d4becca57d","fromNode":"2f2cd633a36b8264","fromSide":"bottom","toNode":"961146c57db38358","toSide":"top"},
+		{"id":"2819959f045824fe","fromNode":"2f2cd633a36b8264","fromSide":"bottom","toNode":"527ddbfa14af8155","toSide":"top"},
+		{"id":"b3e57d397eaf9a28","fromNode":"2f2cd633a36b8264","fromSide":"bottom","toNode":"cf518216468ee341","toSide":"top"},
+		{"id":"b119c4f4387f2fd5","fromNode":"2f2cd633a36b8264","fromSide":"bottom","toNode":"c00e029c28aa17f0","toSide":"top"},
+		{"id":"4542d5827b5c8d87","fromNode":"2f2cd633a36b8264","fromSide":"bottom","toNode":"c3353d37d9e15e7f","toSide":"top"}
 	]
 }
