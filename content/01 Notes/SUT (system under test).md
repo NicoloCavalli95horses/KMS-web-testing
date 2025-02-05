@@ -6,5 +6,7 @@ tags:
 ## Definition
 
 SUT: system under test
+
+---
 ## References
-[[ref_on_model_based_testing_advanced_guis]]
+- [[ref_on_model_based_testing_advanced_guis]]

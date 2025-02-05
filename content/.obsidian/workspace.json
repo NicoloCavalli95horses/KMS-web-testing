@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/GUI vulnerabilities.canvas",
+                "file": "04 Canvases/client-side tampering/research approaches.canvas",
                 "viewState": {
-                  "x": 2506.7044204961826,
-                  "y": 1411.4119002303232,
-                  "zoom": -0.9010126692185279
+                  "x": 238,
+                  "y": -40,
+                  "zoom": -0.5807978528687769
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "GUI vulnerabilities"
+              "title": "research approaches"
             }
           }
         ]
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "off screen",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,12 +77,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 550.5
+    "width": 342.5
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -165,12 +164,36 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "2b490ec60b977344",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
+    "04 Canvases/client-side tampering/gems/Generate test cases to check GEMs presence.canvas",
+    "04 Canvases/client-side tampering/gems/GEMs on large scale web application.canvas",
+    "04 Canvases/client-side tampering/research approaches.canvas",
+    "04 Canvases/utils/Paper structure.canvas",
+    "04 Canvases/utils",
+    "04 Canvases/web security on large scale web applications/GUI vulnerabilities.canvas",
+    "04 Canvases/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
+    "04 Canvases/web security on large scale web applications",
+    "04 Canvases/client-side tampering",
+    "04 Canvases/gems/GEMs-related CVEs.canvas",
+    "01 Notes/symbolic execution.md",
+    "01 Notes/SUT (system under test).md",
+    "01 Notes/stub.md",
     "01 Notes/COIL (Cross-Origin Image Leak).md",
-    "04 Canvases/GUI vulnerabilities.canvas",
+    "01 Notes/agile development.md",
+    "01 Notes/ad hoc widgets.md",
+    "01 Notes/acceptance testing.md",
+    "00 Antilibrary/VM (virtual machine).md",
+    "00 Antilibrary/volume testing.md",
+    "00 Antilibrary/web workers.md",
+    "00 Antilibrary/cookie.md",
+    "00 Antilibrary/context isolation bypass.md",
+    "00 Antilibrary/configuration testing.md",
+    "00 Antilibrary/compatibility or conversion testing.md",
+    "00 Antilibrary/cache poisoning.md",
+    "00 Antilibrary/bootloader.md",
+    "00 Antilibrary/BCFG (Business Control Flow Graph).md",
     "00 Antilibrary/static taint analysis.md",
-    "04 Canvases/GUI testing techniques on large scale applications.canvas",
     "02 Literature/books/The art of software testing/The art of software testing.canvas",
     "02 Literature/papers/testing enhancements/STILE, a tool for optimizing E2E web test scripts parallelization.md",
     "02 Literature/papers/testing enhancements/Repairing GUI Test Suites Using a Genetic Algorithm.md",
@@ -179,38 +202,13 @@
     "02 Literature/papers/testing enhancements/Coverage criteria for GUI testing.md",
     "02 Literature/papers/testing enhancements/AutoInSpec, using missing test coverage to improve specifications in GUIs.md",
     "02 Literature/papers/testing enhancements/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
-    "02 Literature/papers/testing enhancements/A snowballing literature study on test amplification.md",
-    "02 Literature/papers/software models/Testing is an Event-Centric Activity.md",
-    "02 Literature/papers/software models/On model-based testing advanced GUIs.md",
-    "02 Literature/papers/software models/Automatically inferring user behavior models in large-scale web applications.md",
-    "02 Literature/papers/dependency-related vulnerabilities/Managing security vulnerabilities introduced by dependencies in React.js.md",
-    "02 Literature/papers/client-side tampering/Verification of Web Content Integrity. A new approach to protecting servers against tampering.md",
-    "02 Literature/papers/client-side tampering/Toward black-box detection of logic flaws in web applications.md",
-    "02 Literature/papers/client-side tampering/On the misuse of Graphical User Interface elements to implement security controls.md",
-    "02 Literature/papers/client-side tampering/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
-    "02 Literature/papers/client-side tampering/Keeping out the masses. Understanding the popularity and implications of internet paywalls.md",
-    "02 Literature/papers/client-side tampering/Hidden GEMS. Automated discovery of Access Control Vulnerabilities in Graphical User Interfaces.md",
-    "02 Literature/papers/client-side tampering/Finding client-side business flow tampering vulnerabilities.md",
-    "02 Literature/papers/client-side tampering/DOM clobbering. Attack techniques, prevalence, defenses.md",
-    "02 Literature/papers/client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
-    "03 References/ref_coverage_criteria_gui_testing.md",
-    "02 Literature/papers/SQL injection/Bypass testing of web applications.md",
-    "02 Literature/papers/buffer overflow/An Empirical Study on Detecting and Fixing Buffer Overflow Bugs.md",
     "02 Literature/papers/buffer overflow",
     "02 Literature/papers/presentation issues",
-    "02 Literature/papers/Software obfuscation",
+    "02 Literature/papers/software obfuscation",
     "02 Literature/papers/DoS attacks",
     "02 Literature/papers/SQL injection",
     "02 Literature/papers/software models",
     "02 Literature/papers/software co-evolution",
-    "02 Literature/papers/mobile front-end testing",
-    "02 Literature/papers/testing enhancements",
-    "02 Literature/papers/dependency-related vulnerabilities",
-    "04 Canvases/gems/GEMs-related CVEs.canvas",
-    "04 Canvases/gems/GEMs on large scale web application.canvas",
-    "04 Canvases/gems/GEMs mitigation approaches.canvas",
-    "04 Canvases/Paper structure.canvas",
-    "04 Canvases/gems/Generate test cases to check GEMs presence.canvas",
     "97 Assets/dom_clobbering_types.png",
     "97 Assets/wcv_model_web_security.png",
     "97 Assets/js_obfuscators_analysis.png",

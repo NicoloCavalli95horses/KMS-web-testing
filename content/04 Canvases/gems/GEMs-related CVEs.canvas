@@ -1,6 +1,0 @@
-{
-	"nodes":[
-		{"id":"8f4ad97bf0aeea66","type":"text","text":"\n| ID                  | Summary                                                                       |\n| ------------------- | ----------------------------------------------------------------------------- |\n| GHSA-mmhx-hmjr-r674 | DOMPurify allows tampering by prototype pollution                             |\n| GHSA-r3jq-4r5c-j9hp | Taipy has a Session Cookie without Secure and HTTPOnly flags                  |\n| GHSA-7r7x-4c4q-c4qf |  Missing proper state, nonce and PKCE checks for OAuth authentication<br><br> |\n ","x":-540,"y":-300,"width":980,"height":240}
-	],
-	"edges":[]
-}

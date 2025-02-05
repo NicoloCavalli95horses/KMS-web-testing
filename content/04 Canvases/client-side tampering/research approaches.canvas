@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"d168f7ea0d21d830","type":"text","text":"### Web security models\n\n\n### Pros\n\n- models could be easily integrated in the server-side as secondary processes\n### Cons\n- complicated models that sit in between client and server might cause a non-trivial overhead of the HTTP communication\n- state of the art models are based on observing and recording user actions, which involve critical privacy issues","x":860,"y":-160,"width":856,"height":720},
+		{"id":"6fa0787d4390abcc","type":"text","text":"### Client-side obfuscation\n\n\n### Pros\n\n- even if a deterrent does not solve the problem, could be useful to prevent most of the less advanced attacks\n- obfuscated and minified code can, in certain scenario, be more efficient to execute\n- a dynamic obfuscation that keeps modifying client-side code, perhaps covering only critical business-related logic, could be extremely difficult to detect and tamper with\n### Cons\n\n- code on the client side can always can be deobfuscated\n- browser tools allow the user to observe the deobfuscated code during the execution. Using breakpoints it is possible to tamper the code in any case\n- inside the JavaScript engine, the code has to be machine readable. Therefore, the [[AST (Abstract Syntax Tree)]] will always be available, and the output bytecode is still tamperable","x":-280,"y":-160,"width":960,"height":720},
+		{"id":"2f2cd633a36b8264","type":"text","text":"### Test amplification with a focus on GEMs\n\nSee: [[Generate test cases to check GEMs presence.canvas|Generate test cases to check GEMs presence]]\n\n### Pros\n- even public large scale web application are addressable with a black-box approaches\n- automatic generation of test cases will be highly beneficial for a number of web application vulnerable to GEMs\n- non-intrusive testing\n\n### Cons\n\n- automatically address multiple tampering is still an open challenge\n- large complex codebases are technically challenging to analyze\n- inferring the [[test oracle]] is not always feasible in black-box approaches\n- GDPR or CMA (computer misuse act) laws might be violated","x":-1240,"y":-160,"width":900,"height":720},
+		{"id":"84f73fef0bda3cb2","x":-1100,"y":-680,"width":540,"height":160,"type":"text","text":"## Test amplification with focus on DOM clobbering"},
+		{"id":"c6296eb116986084","type":"text","text":"# Client-side tampering research approaches","x":-180,"y":-980,"width":860,"height":120}
+	],
+	"edges":[
+		{"id":"a82eb55bf6247b1a","fromNode":"c6296eb116986084","fromSide":"bottom","toNode":"2f2cd633a36b8264","toSide":"top"},
+		{"id":"ef70168407212d5e","fromNode":"c6296eb116986084","fromSide":"bottom","toNode":"6fa0787d4390abcc","toSide":"top"},
+		{"id":"8d4915c064b769a1","fromNode":"c6296eb116986084","fromSide":"bottom","toNode":"d168f7ea0d21d830","toSide":"top"},
+		{"id":"29aa6aaaa81d8127","fromNode":"c6296eb116986084","fromSide":"bottom","toNode":"84f73fef0bda3cb2","toSide":"top"}
+	]
+}
