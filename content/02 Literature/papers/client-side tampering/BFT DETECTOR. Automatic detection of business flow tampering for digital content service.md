@@ -80,7 +80,7 @@ We measure whether our system successfully tampers with the business process by 
 
 ---
 ## References
-- [[ref_bft_detector_digital_content_services]]
+- [[ref_BFTDETECTOR_tampering_digital_content]]
 
 ### Notes
 [^1]: access to premium content with a premium subscription

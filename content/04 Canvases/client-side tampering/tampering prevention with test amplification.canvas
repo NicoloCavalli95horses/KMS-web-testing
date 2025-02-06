@@ -23,9 +23,9 @@
 		{"id":"9ba5497dfa31af1c","type":"text","text":"### How to find candidates?","x":262,"y":2,"width":396,"height":70},
 		{"id":"d9cd58cace40b27a","type":"text","text":"Rely on a database:\n- github databases https://gist.github.com/bejaneps/ba8d8eed85b0c289a05c750b3d825f61\n- https://ahrefs.com/websites\n- https://dataforseo.com/free-seo-stats/top-1000-websites\n- https://tranco-list.eu/list/J9PVY/1000000","x":781,"y":2,"width":962,"height":261},
 		{"id":"960d684132d09601","type":"text","text":"Build a web crawler that return addresses of eligible websites\n- use Google Dorking techniques to get eligible websites","x":781,"y":-141,"width":962,"height":115},
-		{"id":"25f4e3b8ce984b2d","type":"text","text":"analyze the call stacks of passing and blocking flows, even for minified production code (see [[ref_bft_detector_digital_content_services]])","x":864,"y":980,"width":876,"height":141},
+		{"id":"25f4e3b8ce984b2d","type":"text","text":"analyze the call stacks of passing and blocking flows, even for minified production code (see [[ref_BFTDETECTOR_tampering_digital_content]])","x":864,"y":980,"width":876,"height":141},
 		{"id":"becf5a01a493efb2","type":"text","text":"By leveraging the application navigation graph, tampering opportunities are identified and test cases are derived (see [[ref_blackbox_detection_logic_flaws_web]])","x":280,"y":2293,"width":880,"height":115},
-		{"id":"72720dc11c5fa32c","type":"text","text":"By leveraging the call divergence points, test cases are derived tampering the expected execution flow (see [[ref_bft_detector_digital_content_services]])","x":280,"y":2133,"width":880,"height":118}
+		{"id":"72720dc11c5fa32c","type":"text","text":"By leveraging the call divergence points, test cases are derived tampering the expected execution flow (see [[ref_BFTDETECTOR_tampering_digital_content]])","x":280,"y":2133,"width":880,"height":118}
 	],
 	"edges":[
 		{"id":"f6894b1c8d994b87","fromNode":"9ba5497dfa31af1c","fromSide":"right","toNode":"d9cd58cace40b27a","toSide":"left"},

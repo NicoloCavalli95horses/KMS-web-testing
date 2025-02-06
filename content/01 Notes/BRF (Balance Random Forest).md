@@ -18,4 +18,4 @@ It is a [[machine learning]] technique used to classify an input into a predeter
 
 
 ## References
-Used in: [[ref_bft_detector_digital_content_services]]
+Used in: [[ref_BFTDETECTOR_tampering_digital_content]]

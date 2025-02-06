@@ -49,7 +49,7 @@ Although [[OWASP (Open Web Application Security Project)]] strongly recommend en
 
 ---
 ## References
-- [[ref_business_tampering_vulnerabilities]]
+- [[ref_finding_client_side_business_tampering]]
 - [[ref_blackbox_detection_logic_flaws_web]]
 - [[ref_verification_web_integrity_server_tampering]]
 - [[ref_dom_clobbering_attack_techniques]]

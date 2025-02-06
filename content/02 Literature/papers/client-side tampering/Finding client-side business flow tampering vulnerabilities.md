@@ -48,5 +48,5 @@ The system generates a report for each identified vulnerability, explaining the 
 
 ---
 ## References
-- [[ref_business_tampering_vulnerabilities]]
+- [[ref_finding_client_side_business_tampering]]
 - https://sites.google.com/view/tampering-cases (examples of tampering)
