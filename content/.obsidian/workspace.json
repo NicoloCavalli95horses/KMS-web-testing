@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/client-side tampering/dataset.canvas",
+                "file": "04 Canvases/meetings/2025_02_06.canvas",
                 "viewState": {
-                  "x": -870.4439659220286,
-                  "y": 692.9141270098075,
-                  "zoom": -0.6182047289958726
+                  "x": 2398.1687328600406,
+                  "y": 328.6436031103167,
+                  "zoom": -0.8973748469361095
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "dataset"
+              "title": "2025_02_06"
             }
           }
         ]
@@ -166,14 +166,17 @@
   },
   "active": "465042f76cb44840",
   "lastOpenFiles": [
+    "02 Literature/papers/client-side tampering/Finding client-side business flow tampering vulnerabilities.md",
+    "02 Literature/papers/client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "04 Canvases/meetings/2025_02_06.canvas",
+    "04 Canvases/client-side tampering/dataset.canvas",
+    "03 References/ref_BFTDETECTOR_tampering_digital_content.md",
     "01 Notes/DOM clobbering.md",
     "00 Antilibrary/volume testing.md",
     "00 Antilibrary/web workers.md",
     "04 Canvases/utils/paper structure.canvas",
     "04 Canvases/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/client-side tampering/dataset.canvas",
     "04 Canvases/client-side tampering/tampering prevention with test amplification.canvas",
     "01 Notes/Parallel programming.md",
     "00 Antilibrary/VM (virtual machine).md",
@@ -195,8 +198,6 @@
     "00 Antilibrary/recovery testing.md",
     "00 Antilibrary/recommendation engine.md",
     "00 Antilibrary/proxy-server.md",
-    "00 Antilibrary/program slicing.md",
-    "00 Antilibrary/procedure testing.md",
     "04 Canvases/client-side tampering/research approaches.canvas",
     "97 Assets/using_human_testers_building_web_crawler.png",
     "97 Assets/bft_img_question.png",
