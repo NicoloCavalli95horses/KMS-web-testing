@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 References/ref_BFTDETECTOR_tampering_digital_content.md",
+                "file": "01 Notes/flaky test.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ref_BFTDETECTOR_tampering_digital_content"
+              "title": "flaky test"
             }
           }
         ]
@@ -164,21 +164,25 @@
   },
   "active": "465042f76cb44840",
   "lastOpenFiles": [
+    "02 Literature/papers/testing enhancements/An Empirical Analysis of UI-Based Flaky Tests.md",
+    "01 Notes/flaky test.md",
+    "03 References/ref_ui_flaky_tests.md",
+    "03 References/ref_art_of_software_testing.md",
+    "04 Canvases/client-side tampering/tampering prevention with test amplification.canvas",
+    "04 Canvases/client-side tampering/dataset.canvas",
+    "03 References/ref_BFTDETECTOR_tampering_digital_content.md",
     "02 Literature/papers/client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "02 Literature/papers/dependency-related vulnerabilities/Managing security vulnerabilities introduced by dependencies in React.js.md",
     "03 References/ref_managing_security_vulnerabilities_dependencies_react.md",
     "02 Literature/papers/DoS attacks/Runtime recovery of web applications under zero-days ReDoS attacks.md",
     "04 Canvases/meetings/2025_02_06.canvas",
     "02 Literature/papers/client-side tampering/Finding client-side business flow tampering vulnerabilities.md",
-    "04 Canvases/client-side tampering/dataset.canvas",
-    "03 References/ref_BFTDETECTOR_tampering_digital_content.md",
     "01 Notes/DOM clobbering.md",
     "00 Antilibrary/volume testing.md",
     "00 Antilibrary/web workers.md",
     "04 Canvases/utils/paper structure.canvas",
     "04 Canvases/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/client-side tampering/tampering prevention with test amplification.canvas",
     "01 Notes/Parallel programming.md",
     "00 Antilibrary/VM (virtual machine).md",
     "00 Antilibrary/tree difference algorithms.md",
@@ -192,10 +196,6 @@
     "00 Antilibrary/smuggling.md",
     "00 Antilibrary/signature forgery.md",
     "00 Antilibrary/SessionStorage.md",
-    "00 Antilibrary/serviceability or maintenance testing.md",
-    "00 Antilibrary/RNN (recurrent neural network).md",
-    "00 Antilibrary/reliability testing.md",
-    "00 Antilibrary/reflection (Java).md",
     "04 Canvases/client-side tampering/research approaches.canvas",
     "97 Assets/using_human_testers_building_web_crawler.png",
     "97 Assets/bft_img_question.png",
