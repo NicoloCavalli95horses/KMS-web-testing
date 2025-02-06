@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/dependency-related vulnerabilities/Managing security vulnerabilities introduced by dependencies in React.js.md",
+                "file": "03 References/ref_BFTDETECTOR_tampering_digital_content.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Managing security vulnerabilities introduced by dependencies in React.js"
+              "title": "ref_BFTDETECTOR_tampering_digital_content"
             }
           }
         ]
@@ -164,12 +164,12 @@
   },
   "active": "465042f76cb44840",
   "lastOpenFiles": [
-    "03 References/ref_managing_security_vulnerabilities_dependencies_react.md",
+    "02 Literature/papers/client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "02 Literature/papers/dependency-related vulnerabilities/Managing security vulnerabilities introduced by dependencies in React.js.md",
+    "03 References/ref_managing_security_vulnerabilities_dependencies_react.md",
     "02 Literature/papers/DoS attacks/Runtime recovery of web applications under zero-days ReDoS attacks.md",
     "04 Canvases/meetings/2025_02_06.canvas",
     "02 Literature/papers/client-side tampering/Finding client-side business flow tampering vulnerabilities.md",
-    "02 Literature/papers/client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "04 Canvases/client-side tampering/dataset.canvas",
     "03 References/ref_BFTDETECTOR_tampering_digital_content.md",
     "01 Notes/DOM clobbering.md",
