@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"fd118f4ceeb5a041","type":"group","x":2040,"y":640,"width":660,"height":450,"label":"Finding Client-side Business Flow Tampering Vulnerabilities"},
+		{"id":"3c8639ce56d0f691","type":"group","x":2040,"y":280,"width":940,"height":280,"label":"BFTDETECTOR: Automatic Detection of Business Flow Tampering"},
+		{"id":"9891489230e0d0ec","type":"text","text":"tampering the ==state of the interface== (attributes or components state) (see [[GEMs (GUI Element Misuse)]])","x":-540,"y":140,"width":370,"height":180},
+		{"id":"95d4225841a1b2c4","type":"text","text":"[[BFT (business flow tampering)]] with ==fine manipulation== of the code by exploiting browsers' debugging tools","x":340,"y":140,"width":420,"height":180},
+		{"id":"44bdd01f322ca15b","type":"text","text":"tampering ==global objects== (window, document, localStorage, ...) injecting HTML tags (see [[DOM clobbering]])","x":-147,"y":140,"width":367,"height":180},
+		{"id":"77ce06f1a0ab7712","type":"text","text":"potentially large scale attacks","x":-320,"y":-60,"width":345,"height":80},
+		{"id":"2e1bb43ce15bcba4","type":"text","text":"targeted attack","x":425,"y":-60,"width":250,"height":80},
+		{"id":"411fd2e6dfc94ac8","type":"text","text":"- [[paywalls]] bypass\n- advertisement bypass\n- access to sensitive information\n- unauthorized financial transactions (for online surveys or betting platforms)","x":-170,"y":480,"width":545,"height":240,"color":"1"},
+		{"id":"d0a3ac3a80ef5040","type":"text","text":"### Client-side obfuscation\n\n\n### Pros\n\n- even if a deterrent does not solve the problem, could be useful to prevent most of the less advanced attacks\n- obfuscated and minified code can, in certain scenario, be more efficient to execute\n- a dynamic obfuscation that keeps modifying client-side code, perhaps covering only critical business-related logic, could be extremely difficult to detect and tamper with\n### Cons\n\n- code on the client side can always can be deobfuscated\n- browser tools allow the user to observe the deobfuscated code during the execution. Using breakpoints it is possible to tamper the code in any case\n- inside the JavaScript engine, the code has to be machine readable. Therefore, the [[AST (Abstract Syntax Tree)]] will always be available, and the output bytecode is still tamperable","x":3641,"y":-60,"width":840,"height":780},
+		{"id":"97f55695be411a25","type":"text","text":"### Firewall/middleware design\n\n\n### Pros\n\n- models could be easily integrated in the server-side as secondary processes\n### Cons\n- complicated models that sit in between client and server might cause a non-trivial overhead of the HTTP communication\n- state of the art models are based on observing and recording user actions, which involve critical privacy issues","x":4540,"y":-60,"width":676,"height":600},
+		{"id":"4bd47fefb3907725","type":"text","text":"## Other research paths","x":4288,"y":-320,"width":387,"height":100},
+		{"id":"9f245eb53bcebff7","type":"text","text":"## Client-side code tampering","x":-120,"y":-300,"width":600,"height":100},
+		{"id":"3447b2d949e6c60b","type":"file","file":"97 Assets/bft_img_question.png","x":2060,"y":400,"width":885,"height":140},
+		{"id":"31bd548f23a30e89","type":"text","text":"[[ref_bft_detector_digital_content_services]]","x":2060,"y":300,"width":440,"height":60},
+		{"id":"180151b45cc334c3","type":"file","file":"97 Assets/using_human_testers_building_web_crawler.png","x":2060,"y":760,"width":620,"height":310},
+		{"id":"688343f09bbc2e41","type":"text","text":"[[ref_business_tampering_vulnerabilities]]","x":2060,"y":660,"width":420,"height":60},
+		{"id":"9cbd536e40e1077f","type":"text","text":"How to bypass authentication, which is often protected by ==captcha==?","x":1370,"y":0,"width":340,"height":160},
+		{"id":"f91fed648b969af2","type":"text","text":"How to ==automatically== navigate applications that have different architectures?","x":1760,"y":0,"width":340,"height":160},
+		{"id":"eafecfb3fe43ed11","type":"text","text":"\n[[dataset.canvas|dataset]]","x":2060,"y":-242,"width":160,"height":80},
+		{"id":"e2bcec68ad2fe8eb","type":"text","text":"## Building a web crawler for test amplification purposes","x":1460,"y":-260,"width":520,"height":115}
+	],
+	"edges":[
+		{"id":"87494763451824f9","fromNode":"9f245eb53bcebff7","fromSide":"bottom","toNode":"2e1bb43ce15bcba4","toSide":"top"},
+		{"id":"7e700bc57503e2ee","fromNode":"2e1bb43ce15bcba4","fromSide":"bottom","toNode":"95d4225841a1b2c4","toSide":"top"},
+		{"id":"e2507cc63ae4c85e","fromNode":"77ce06f1a0ab7712","fromSide":"bottom","toNode":"9891489230e0d0ec","toSide":"top"},
+		{"id":"4fba3b24a0148b51","fromNode":"77ce06f1a0ab7712","fromSide":"bottom","toNode":"44bdd01f322ca15b","toSide":"top"},
+		{"id":"4d2c4b716c47725b","fromNode":"9f245eb53bcebff7","fromSide":"bottom","toNode":"77ce06f1a0ab7712","toSide":"top"},
+		{"id":"f90c09cc7cc30dd6","fromNode":"9891489230e0d0ec","fromSide":"bottom","toNode":"411fd2e6dfc94ac8","toSide":"top"},
+		{"id":"5c85389eb98e4ea1","fromNode":"44bdd01f322ca15b","fromSide":"bottom","toNode":"411fd2e6dfc94ac8","toSide":"top"},
+		{"id":"7c060ff54efbebbc","fromNode":"95d4225841a1b2c4","fromSide":"bottom","toNode":"411fd2e6dfc94ac8","toSide":"top"},
+		{"id":"4b9c55405233b99d","fromNode":"e2bcec68ad2fe8eb","fromSide":"bottom","toNode":"9cbd536e40e1077f","toSide":"top"},
+		{"id":"ef7ff41ddff4df34","fromNode":"e2bcec68ad2fe8eb","fromSide":"bottom","toNode":"f91fed648b969af2","toSide":"top"},
+		{"id":"60bb470449ce9c11","fromNode":"eafecfb3fe43ed11","fromSide":"left","toNode":"e2bcec68ad2fe8eb","toSide":"right"},
+		{"id":"8db23b1a71d8fbef","fromNode":"f91fed648b969af2","fromSide":"bottom","toNode":"3c8639ce56d0f691","toSide":"left"},
+		{"id":"f03b99a97b883e67","fromNode":"f91fed648b969af2","fromSide":"bottom","toNode":"fd118f4ceeb5a041","toSide":"left"},
+		{"id":"06391d0f35d9e162","fromNode":"4bd47fefb3907725","fromSide":"bottom","toNode":"d0a3ac3a80ef5040","toSide":"top"},
+		{"id":"57d6f3c38d95de36","fromNode":"4bd47fefb3907725","fromSide":"bottom","toNode":"97f55695be411a25","toSide":"top"}
+	]
+}

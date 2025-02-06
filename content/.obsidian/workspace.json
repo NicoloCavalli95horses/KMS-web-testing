@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a260d6b98719e4c4",
+        "id": "a6319409c94951a1",
         "type": "tabs",
         "children": [
           {
-            "id": "3b42d0e86b32f431",
+            "id": "465042f76cb44840",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/client-side tampering/dataset.canvas",
+                "file": "04 Canvases/meetings/06_02_2025.canvas",
                 "viewState": {
-                  "x": -1088.6825184126797,
-                  "y": 588.8058021647173,
-                  "zoom": 0.3473743196835741
+                  "x": 2013.7833234491707,
+                  "y": 719.072770876541,
+                  "zoom": -0.3786049663206332
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "dataset"
+              "title": "06_02_2025"
             }
           }
         ]
@@ -44,7 +44,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -164,19 +164,35 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3b42d0e86b32f431",
+  "active": "465042f76cb44840",
   "lastOpenFiles": [
-    "01 Notes/CDP (Chrome DevTools Protocol).md",
     "04 Canvases/client-side tampering/dataset.canvas",
-    "04 Canvases/client-side tampering/research approaches.canvas",
-    "04 Canvases/client-side tampering/tampering prevention with test amplification.canvas",
-    "04 Canvases/utils/Paper structure.canvas",
-    "04 Canvases/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
+    "04 Canvases/meetings/06_02_2025.canvas",
     "04 Canvases/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "02 Literature/papers/client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
-    "02 Literature/papers/client-side tampering/DOM clobbering. Attack techniques, prevalence, defenses.md",
+    "04 Canvases/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
+    "04 Canvases/client-side tampering/tampering prevention with test amplification.canvas",
+    "04 Canvases/client-side tampering/research approaches.canvas",
+    "03 References/ref_business_tampering_vulnerabilities.md",
+    "97 Assets/using_human_testers_building_web_crawler.png",
+    "97 Assets/bft_img_question.png",
+    "Pasted image 20250206095811.png",
     "02 Literature/papers/client-side tampering/Finding client-side business flow tampering vulnerabilities.md",
+    "03 References/ref_bft_detector_digital_content_services.md",
+    "02 Literature/papers/client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
+    "02 Literature/papers/client-side tampering/Keeping out the masses. Understanding the popularity and implications of internet paywalls.md",
+    "00 Antilibrary/random forest classifier.md",
+    "01 Notes/random forest.md",
+    "02 Literature/papers/client-side tampering/Hidden GEMS. Automated discovery of Access Control Vulnerabilities in Graphical User Interfaces.md",
+    "02 Literature/papers/client-side tampering/DOM clobbering. Attack techniques, prevalence, defenses.md",
+    "01 Notes/DOM clobbering.md",
+    "02 Literature/papers/client-side tampering/Toward black-box detection of logic flaws in web applications.md",
     "01 Notes/BFT (business flow tampering).md",
+    "02 Literature/papers/client-side tampering/On the misuse of Graphical User Interface elements to implement security controls.md",
+    "02 Literature/papers/client-side tampering/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
+    "02 Literature/papers/client-side tampering/Verification of Web Content Integrity. A new approach to protecting servers against tampering.md",
+    "04 Canvases/meetings",
+    "01 Notes/CDP (Chrome DevTools Protocol).md",
+    "04 Canvases/utils/paper structure.canvas",
     "04 Canvases/utils",
     "04 Canvases/web security on large scale web applications",
     "04 Canvases/client-side tampering",
@@ -190,37 +206,20 @@
     "01 Notes/acceptance testing.md",
     "00 Antilibrary/VM (virtual machine).md",
     "00 Antilibrary/volume testing.md",
-    "00 Antilibrary/web workers.md",
-    "00 Antilibrary/cookie.md",
-    "00 Antilibrary/context isolation bypass.md",
-    "00 Antilibrary/configuration testing.md",
-    "00 Antilibrary/compatibility or conversion testing.md",
-    "00 Antilibrary/cache poisoning.md",
-    "00 Antilibrary/bootloader.md",
-    "00 Antilibrary/BCFG (Business Control Flow Graph).md",
-    "00 Antilibrary/static taint analysis.md",
     "02 Literature/books/The art of software testing/The art of software testing.canvas",
-    "02 Literature/papers/testing enhancements/STILE, a tool for optimizing E2E web test scripts parallelization.md",
-    "02 Literature/papers/testing enhancements/Repairing GUI Test Suites Using a Genetic Algorithm.md",
-    "02 Literature/papers/testing enhancements/Mutta. A novel tool for E2E web mutation testing.md",
     "02 Literature/papers/buffer overflow",
     "02 Literature/papers/presentation issues",
     "02 Literature/papers/software obfuscation",
     "02 Literature/papers/DoS attacks",
     "02 Literature/papers/SQL injection",
     "02 Literature/papers/software models",
-    "02 Literature/papers/software co-evolution",
     "97 Assets/dom_clobbering_types.png",
     "97 Assets/wcv_model_web_security.png",
     "97 Assets/js_obfuscators_analysis.png",
     "97 Assets/deobfuscation_resilience.png",
     "04 Canvases/gems/BFT Detector divergence point algorithm.canvas",
-    "Untitled.canvas",
     "97 Assets/paywall_prevalence.png",
     "97 Assets/illegal_characters.png",
-    "97 Assets/notamper_checkout_example.png",
-    "97 Assets/canvas_related_issues.png",
-    "97 Assets/taxonomy_canvas_issues.png",
-    "97 Assets/lts.png"
+    "97 Assets/notamper_checkout_example.png"
   ]
 }

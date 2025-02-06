@@ -39,7 +39,7 @@ Our model consists of two components:
 	- **structural features**: if the website has a [[RSS (RDF Site Summary)]] or atom feed, the number of text nodes increases after cookies are cleaned, etc
 	- **visual features**: how many text nodes are obscured before and after cleaning cookies, number of text nodes, number of nodes that have z-index styles (to detect pop-ups)
 2. a classifier, that uses the extracted features to predict if the site uses a paywall
-	- a [[random forest classifier]] is used from SciKit-Learn python library
+	- a [[random forest]] is used from SciKit-Learn python library
 	- the final accuracy was of 77%
 
 ---
