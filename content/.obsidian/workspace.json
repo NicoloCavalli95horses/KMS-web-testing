@@ -11,17 +11,15 @@
             "id": "465042f76cb44840",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/meetings/2025_02_06.canvas",
-                "viewState": {
-                  "x": 2338,
-                  "y": 643.0362839614374,
-                  "zoom": -1.4722713242015513
-                }
+                "file": "02 Literature/papers/dependency-related vulnerabilities/Managing security vulnerabilities introduced by dependencies in React.js.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "2025_02_06"
+              "icon": "lucide-file",
+              "title": "Managing security vulnerabilities introduced by dependencies in React.js"
             }
           }
         ]
@@ -166,9 +164,12 @@
   },
   "active": "465042f76cb44840",
   "lastOpenFiles": [
+    "03 References/ref_managing_security_vulnerabilities_dependencies_react.md",
+    "02 Literature/papers/dependency-related vulnerabilities/Managing security vulnerabilities introduced by dependencies in React.js.md",
+    "02 Literature/papers/DoS attacks/Runtime recovery of web applications under zero-days ReDoS attacks.md",
+    "04 Canvases/meetings/2025_02_06.canvas",
     "02 Literature/papers/client-side tampering/Finding client-side business flow tampering vulnerabilities.md",
     "02 Literature/papers/client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
-    "04 Canvases/meetings/2025_02_06.canvas",
     "04 Canvases/client-side tampering/dataset.canvas",
     "03 References/ref_BFTDETECTOR_tampering_digital_content.md",
     "01 Notes/DOM clobbering.md",
@@ -195,9 +196,6 @@
     "00 Antilibrary/RNN (recurrent neural network).md",
     "00 Antilibrary/reliability testing.md",
     "00 Antilibrary/reflection (Java).md",
-    "00 Antilibrary/recovery testing.md",
-    "00 Antilibrary/recommendation engine.md",
-    "00 Antilibrary/proxy-server.md",
     "04 Canvases/client-side tampering/research approaches.canvas",
     "97 Assets/using_human_testers_building_web_crawler.png",
     "97 Assets/bft_img_question.png",
