@@ -10,12 +10,9 @@ tags:
 ## Context
 
 To investigate [[flaky test]] related to the [[GUI (graphical user interface)]], we collect and analyze 235 real-world flaky UI test examples found in popular web and Android mobile projects. For each flaky test example, we inspect commit descriptions, issue reports, reported causes, and changed code.
+- flaky tests were collected by ==manually inspecting a sample of GitHub commits== and then ==manually analyzed==
 
 ![[flaky_ui_test_findings.png]]
-## Approach
-
-Manual inspection of a sample from GitHub commits (+150 flaky tests found)
-
 ### Causes of flakiness
 
 ![[causes_of_flakiness.png]]
@@ -41,7 +38,5 @@ In some flaky tests, flakiness arose due to ==incorrect logic within the test sc
 - not covering edge cases in using randomness (e.g., a URL generated from a function that returns random characters may sometimes be invalid if the character returned is a space)
 
 ---
-#### Notes
-[^1]: This is a note example. Use a note to give extra information without interrupting the reading flow
 #### References
 - [[ref_ui_flaky_tests]]
