@@ -37,6 +37,28 @@ In some flaky tests, flakiness arose due to ==incorrect logic within the test sc
 - badly implemented test independence (e.g., a test logically depends on the previous one)
 - not covering edge cases in using randomness (e.g., a URL generated from a function that returns random characters may sometimes be invalid if the character returned is a space)
 
+### Fixing strategy
+
+Flaky tests belonging to the same class might be solved in a similar way:
+
+**Async-await class**
+- add or increase the delay in order to reduce the change of encountering flaky behaviors
+- Use proper API to wait until DOM elements are fully loaded or network requests stop
+
+**Environment**
+- change library version (upgrade or downgrade)
+- fix incorrect API access
+
+**API issues**
+- disable animations
+- refactor logic implementation
+
+**Logic issues**
+- remove tests
+- mark tests as flaky or optional
+- blacklist tests
+
 ---
 #### References
+- https://ui-flaky-test.github.io/ (dataset)
 - [[ref_ui_flaky_tests]]
