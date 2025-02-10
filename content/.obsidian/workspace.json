@@ -4,22 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a6319409c94951a1",
+        "id": "1e4da3414b88fce3",
         "type": "tabs",
         "children": [
           {
-            "id": "465042f76cb44840",
+            "id": "8dd5e92d4e8c9df0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "02 Literature/papers/client-side tampering/ZigZag. Automatically hardening web applications against client-side validation vulnerabilities.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/meetings/2025_02_12.canvas",
+                "viewState": {
+                  "x": 1478.711206707091,
+                  "y": 407.5353382710606,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "ZigZag. Automatically hardening web applications against client-side validation vulnerabilities"
+              "icon": "lucide-layout-dashboard",
+              "title": "2025_02_12"
             }
           }
         ]
@@ -162,16 +164,21 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "465042f76cb44840",
+  "active": "8dd5e92d4e8c9df0",
   "lastOpenFiles": [
+    "04 Canvases/meetings/2025_02_06.canvas",
+    "04 Canvases/meetings/2025_02_12.canvas",
+    "01 Notes/C2C (client-to-client) communication.md",
+    "04 Canvases/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
+    "04 Canvases/web security on large scale web applications/GUI vulnerabilities.canvas",
+    "04 Canvases/web security on large scale web applications/tampering prevention with test amplification.canvas",
+    "02 Literature/papers/client-side tampering/ZigZag. Automatically hardening web applications against client-side validation vulnerabilities.md",
     "01 Notes/static analysis.md",
     "01 Notes/dynamic analysis.md",
     "00 Antilibrary/dynamic invariants.md",
-    "02 Literature/papers/client-side tampering/ZigZag. Automatically hardening web applications against client-side validation vulnerabilities.md",
     "03 References/ref_zigzag_web_app_csv.md",
     "01 Notes/JSON-LD (linked data).md",
     "00 Antilibrary/static invariants.md",
-    "01 Notes/C2C (client-to-client) communication.md",
     "98 Templates/Temp_Definition.md",
     "98 Templates/Temp_Literature.md",
     "98 Templates/Temp_Reference.md",
@@ -182,7 +189,6 @@
     "03 References/ref_ui_flaky_tests.md",
     "05 Dataset/A88FB828.tmp",
     "05 Dataset/59F8CF60",
-    "04 Canvases/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/client-side tampering/dataset.canvas",
     "05 Dataset/~$vulnerable_websites.xlsx",
     "05 Dataset",
@@ -195,13 +201,9 @@
     "02 Literature/papers/dependency-related vulnerabilities/Managing security vulnerabilities introduced by dependencies in React.js.md",
     "03 References/ref_managing_security_vulnerabilities_dependencies_react.md",
     "02 Literature/papers/DoS attacks/Runtime recovery of web applications under zero-days ReDoS attacks.md",
-    "04 Canvases/meetings/2025_02_06.canvas",
     "02 Literature/papers/client-side tampering/Finding client-side business flow tampering vulnerabilities.md",
     "01 Notes/DOM clobbering.md",
-    "00 Antilibrary/volume testing.md",
     "04 Canvases/utils/paper structure.canvas",
-    "04 Canvases/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "04 Canvases/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/client-side tampering/research approaches.canvas",
     "97 Assets/using_human_testers_building_web_crawler.png",
     "97 Assets/bft_img_question.png",
@@ -218,7 +220,6 @@
     "97 Assets/wcv_model_web_security.png",
     "97 Assets/js_obfuscators_analysis.png",
     "97 Assets/deobfuscation_resilience.png",
-    "04 Canvases/gems/BFT Detector divergence point algorithm.canvas",
     "97 Assets/paywall_prevalence.png"
   ]
 }

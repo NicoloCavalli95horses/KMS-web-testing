@@ -20,11 +20,13 @@
 		{"id":"a2e27d8522670049","type":"text","text":"# presentation layer","x":1254,"y":47,"width":391,"height":96},
 		{"id":"597938475ec4d731","type":"text","text":"### [[CSFR (cross-site request forgery)]]","x":-4680,"y":348,"width":785,"height":77},
 		{"id":"5c7884a28595e56c","type":"text","text":"### Features\nCross-Site Request Forgery (CSRF) is an attack that forces an authenticated user to perform an unwanted action on a website they are logged in to, without their knowledge or consent. \n- This is because ==many websites trust requests from an authenticated browser, without checking whether the user actually intended them==\n\n### Detection and mitigation\n\n### Risks and issues\n\n## Papers\n\n## CVEs\n","x":-4680,"y":485,"width":785,"height":1756},
-		{"id":"2daa04955591aee5","type":"text","text":"# input validation","x":-3190,"y":0,"width":350,"height":96},
 		{"id":"fb52945c4d3e1dc4","type":"text","text":"# user identification enhancements","x":2927,"y":47,"width":796,"height":96},
 		{"id":"e0b8ba7ee884ed39","type":"text","text":"### Biometric features","x":2927,"y":270,"width":796,"height":78},
 		{"id":"379a93493fc8dfb2","type":"text","text":"## Features\nBiometrics-based user recognition methods can be ==combined with traditional methods== to enhance the recognition of a user, or of categories of users, on the web:\n- input devices such as keyboard, computer mouse or touch screen provide data with hidden biometric characteristics\n- keystroke dynamics have been studied taking into account keys presses latencies, ...\n- mouse patterns have been studied taking into account mouse strokes, clicks, movement velocity, time spent interacting with widgets, ...\n- this field of research is linked to *browser fingerprinting*\n\n## Possible research paths\n- improving user recognition techniques based on input pattern, supporting web authentication processes\n- classifying user to improve the UX (e.g., new users need extra tips in using a complex GUI for the first time compared to experienced users) or for marketing related purposes\n\n## Papers\n- [[ref_recognition_web_user_biometrics]]\n- [[ref_combinng_behavioral_biometrics_enhance_auth]]","x":2920,"y":443,"width":810,"height":1796},
-		{"id":"0253f78ebdee5dee","type":"text","text":"# Graphical User Interface web security","x":-517,"y":-720,"width":1150,"height":320,"color":"4"}
+		{"id":"0253f78ebdee5dee","type":"text","text":"# Graphical User Interface web security","x":-517,"y":-720,"width":1150,"height":320,"color":"4"},
+		{"id":"c54be8dd906623f8","type":"text","text":"### [[C2C (client-to-client) communication]] tampering","x":-5520,"y":346,"width":785,"height":77},
+		{"id":"84ebeba379403bda","type":"text","text":"### Features\nClient-to-client communication tampering is an attack that leverage on the `postMessage` API to perform unauthorized communication with the client-side of a vulnerable website\n- This is because ==many websites trust requests from an authenticated browser, without checking whether the user actually intended them==\n\n### Risks and issues\n- `postMessage` enables applications to communicate purely within the browser, so web servers are not involved in client-to-client communications\n- no security policy are implemented by default, so the developer is responsible for ensuring that no unauthorized communication occur\n## Papers\n[[ref_zigzag_web_app_csv]]\n## CVEs\n","x":-5520,"y":483,"width":785,"height":1756},
+		{"id":"2daa04955591aee5","type":"text","text":"# input validation","x":-3640,"y":-120,"width":350,"height":96}
 	],
 	"edges":[
 		{"id":"ec73da95e93d03f5","fromNode":"2daa04955591aee5","fromSide":"bottom","toNode":"26decb87164bdb5e","toSide":"top"},
@@ -50,6 +52,8 @@
 		{"id":"9acde7caa5508b1b","fromNode":"9a7de0457f363cc4","fromSide":"bottom","toNode":"ae904e5f6f156233","toSide":"top"},
 		{"id":"133fba2dfdc3507a","fromNode":"a2e27d8522670049","fromSide":"bottom","toNode":"9a7de0457f363cc4","toSide":"top"},
 		{"id":"5906e4d13c3e76a0","fromNode":"597938475ec4d731","fromSide":"bottom","toNode":"5c7884a28595e56c","toSide":"top"},
-		{"id":"2372d6be5b6d7177","fromNode":"2daa04955591aee5","fromSide":"bottom","toNode":"597938475ec4d731","toSide":"top"}
+		{"id":"2372d6be5b6d7177","fromNode":"2daa04955591aee5","fromSide":"bottom","toNode":"597938475ec4d731","toSide":"top"},
+		{"id":"10f4fc606e5f4887","fromNode":"c54be8dd906623f8","fromSide":"bottom","toNode":"84ebeba379403bda","toSide":"top"},
+		{"id":"fd114173dbc411b5","fromNode":"2daa04955591aee5","fromSide":"bottom","toNode":"c54be8dd906623f8","toSide":"top"}
 	]
 }
