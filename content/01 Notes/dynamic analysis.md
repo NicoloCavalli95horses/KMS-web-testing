@@ -22,7 +22,7 @@ Dynamic analysis can focus on different aspects of the software, including but n
 **Advantages**
 - Runtime bug detection
 - Performance analysis
-- Output check
+- Input/output check (see [[dynamic invariants]])
 
 **Example tools**
 - **Valgrind**: a framework used to detect memory losses or error and profiling
@@ -33,5 +33,6 @@ Dynamic analysis can focus on different aspects of the software, including but n
 - The analysis is strongly dependent on the tests, that are manually provided
 - Bugs and issues are detected late and only in execution
 
+---
 ## References
 [[ref_mining_android_app_usages]]

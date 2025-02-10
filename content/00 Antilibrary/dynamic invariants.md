@@ -7,7 +7,7 @@ tags:
 ---
 ## Definition
 
-Dynamic program invariants are ==statistically-likely assertions established by observing multiple program executions==
+Dynamic program invariants are ==statistically-likely assertions established by observing multiple program executions==. They are object of a [[dynamic analysis]]
 
 Unlike [[static invariants]], which are determined by analyzing the code without actually executing it, dynamic invariants are inferred by *running the program multiple times on different inputs and observing the values ​​*that the variables take on. If a statement is always true in all these runs, then it may be a dynamic invariant.
 

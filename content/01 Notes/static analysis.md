@@ -37,7 +37,7 @@ Static Analysis is often used to detect:
 
 ## Advantages
 
-- Fast error detection, especially syntax ones 
+- Fast error detection, especially syntax ones (see [[static invariants]])
 - Automation of the process
 ## Limits
 
