@@ -22,7 +22,13 @@ ZigZag is a system for hardening JavaScript-based web applications against clien
 
 ZigZag sits between web servers and browsers to instrument client-side programs. This is possible thanks to a:
 - **learning phase**: ZigZag add to the client-side source code some monitoring functions to collect execution traces. From these traces, [[dynamic invariants]] or models are extracted. Instrumentation is done once and reuses of the same application are faster thanks to caching mechanisms
+	- a [[static analysis]] on the [[AST (Abstract Syntax Tree)]] is performed to fetch all the function definitions
+	- functions that contains: `eval`, `XHR requests`, access to `document` object
 - **enforcement phase**: the invariants that were extracted are now hardened. The target web application is hardened, preserving the original functional behavior, but incorporating runtime checks
+
+Example:
+- when used on a website with `postMessage` API, ZigZag learns that the `origin` attribute can be, with a certain probability, a string or a URL, and depending on the different origins encountered during real executions of the application, it can learn a legitimate set of sending/receiving origins
+- ==Knowing that some origins are not likely, ZigZag can harden client-side logic to prevent these origins from being used== or it may throw an error
 
 ---
 #### References
