@@ -4,6 +4,7 @@ tags:
   - paper
   - android
   - mobile
+  - testingTechniques
 ---
 ## Main concepts
 
@@ -23,7 +24,8 @@ The Android ecosystem is so heterogeneous that some apps may have users coming f
 - dynamic and static analysis are currently used to get GUI models, but these approaches fail to generate representative scenarios. The typical, normale end-user experience and the common application usage is not easily detected
 - industrial usage of these models is challenging, because (1) creating these models require extensive expertise and (2) using these models assumes a logical mapping between the model and the actual system
 
->All the data that is produced from regular app usages by developers, testers, or even end-users, can be effectively recorded and mined to generate representative app usage scenarios, as well as the corner cases. These scenarios can be useful for automated validation purposes
+> [!NOTE]
+> All the data that is produced from regular app usages by developers, testers, or even end-users, can be effectively recorded and mined to generate representative app usage scenarios, as well as the corner cases. These scenarios can be useful for automated validation purposes
 
 Mining GUI-based models from ==event logs== collected during routine executions
 To generate [[ESG (event sequence graph)]]:
@@ -47,6 +49,6 @@ The process:
 6. the models are used to generate event sequences
 7. the sequences are validated on the target device and infeasible events are removed
 
-
+---
 ## References
-[[ref_mining_android_app_usages]]
+- [[ref_mining_android_app_usages]]
