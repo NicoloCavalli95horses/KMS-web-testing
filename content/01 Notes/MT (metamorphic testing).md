@@ -13,6 +13,10 @@ Metamorphic testing is a technique to identify a [[test oracle]] in a context in
 The core idea is to identify **metamorphic properties**, ==that is relationships between input-output pairs or groups that the system should respect.==
 - If the software violates these relationships, there is an anomaly
 
+
+> [!summary]
+> Metamorphic properties/relations are logical properties that describes the behavior of a system
+
 ### Example
 
 Let's say we are testing a function that sorts an array of numbers. It is not always trivial to state if the output is correct, but we can leverage metamorphic properties to better analyse the function's behavior and to state whether the output is acceptable or not.
