@@ -11,15 +11,32 @@
             "id": "f9150d9e981eb25e",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/meetings/2025_02_12.canvas",
+                "viewState": {
+                  "x": -195.0624496017516,
+                  "y": 233.4401815120778,
+                  "zoom": -0.6139730032608937
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "2025_02_12"
+            }
+          },
+          {
+            "id": "e454e182b8da3c57",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "03 References/ref_categorizing_service_worker_attacks.md",
+                "file": "01 Notes/MT (metamorphic testing).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ref_categorizing_service_worker_attacks"
+              "title": "MT (metamorphic testing)"
             }
           }
         ]
@@ -164,10 +181,13 @@
   },
   "active": "f9150d9e981eb25e",
   "lastOpenFiles": [
+    "01 Notes/MT (metamorphic testing).md",
+    "04 Canvases/meetings/2025_02_12.canvas",
+    "02 Literature/papers/mobile front-end testing/A GUI-based metamorphic testing technique for detecting authentication vulnerabilities in Android mobile apps.md",
+    "02 Literature/papers/service worker vulnerabilities/Categorizing Service Worker Attacks and Mitigations.md",
+    "02 Literature/papers/service worker vulnerabilities/A Survey on Vulnerabilities of Service Workers.md",
     "01 Notes/PWA (progressive web application).md",
     "03 References/ref_categorizing_service_worker_attacks.md",
-    "04 Canvases/meetings/2025_02_12.canvas",
-    "02 Literature/papers/service worker vulnerabilities/A Survey on Vulnerabilities of Service Workers.md",
     "02 Literature/papers/review, taxonomy and meta-analysis/Automatic program repair.md",
     "04 Canvases/meetings/2025_02_06.canvas",
     "01 Notes/web worker (service worker).md",
@@ -191,10 +211,6 @@
     "00 Antilibrary/serviceability or maintenance testing.md",
     "00 Antilibrary/RNN (recurrent neural network).md",
     "00 Antilibrary/reliability testing.md",
-    "00 Antilibrary/reflection (Java).md",
-    "00 Antilibrary/recovery testing.md",
-    "00 Antilibrary/recommendation engine.md",
-    "00 Antilibrary/program slicing.md",
     "06 Scripts",
     "04 Canvases/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "05 Dataset/A88FB828.tmp",

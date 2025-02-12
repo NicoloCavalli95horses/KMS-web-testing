@@ -9,13 +9,9 @@ https://arxiv.org/pdf/2111.07153
 
 ## BibTeX
 
-@article{article,
-author = {Goues, Claire and Pradel, Michael and Roychoudhury, Abhik and Chandra, Satish},
-year = {2021},
-month = {07},
-pages = {22-27},
-title = {Automatic Program Repair},
-volume = {38},
-journal = {IEEE Software},
-doi = {10.1109/MS.2021.3072577}
+@article{subramani2021categorizing,
+  title={Categorizing Service Worker Attacks and Mitigations},
+  author={Subramani, Karthika and Jueckstock, Jordan and Kapravelos, Alexandros and Perdisci, Roberto},
+  journal={arXiv preprint arXiv:2111.07153},
+  year={2021}
 }
