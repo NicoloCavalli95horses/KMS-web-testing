@@ -295,7 +295,7 @@ console.log( counter() ); // 3 the previous tot value is saved
 
 # Callbacks
 
-JavaScript is single threaded but support asynchronous programming and [[web workers]], that allow it to perform [[Parallel programming]]
+JavaScript is single threaded but support asynchronous programming and [[web worker (service worker)]], that allow it to perform [[Parallel programming]]
 
 # Module
 
