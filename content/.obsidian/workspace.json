@@ -42,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.51103591918945
+    "width": 213.51103591918945
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -162,7 +162,7 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "cdac18c7836fbf9e",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
     "01 Notes/MT (metamorphic testing).md",
     "04 Canvases/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
