@@ -1,7 +1,6 @@
 {
 	"nodes":[
 		{"id":"f713ecb6ae4e831a","type":"group","x":1360,"y":-880,"width":320,"height":190,"label":"Legend"},
-		{"id":"9891489230e0d0ec","type":"text","text":"- `postMessage` API enables applications to communicate between browsers tabs, or between embedded iframes, purely within the browser, so ==web server is not aware of the communications==\n- no security policy are implemented by default, so the developer is responsible for ensuring that no unauthorized communication occur","x":-330,"y":80,"width":660,"height":280},
 		{"id":"4aa8f9fd913f81a1","type":"text","text":"Puppeteer","x":1728,"y":-460,"width":250,"height":60},
 		{"id":"2eb78912b9456f1a","type":"text","text":"The tool is not recognized and blocked","x":1703,"y":-320,"width":300,"height":120},
 		{"id":"0fd25fa468648266","type":"text","text":"CAPTCHA can be bypassed with libraries of the ecosystem","x":1703,"y":-160,"width":300,"height":120,"color":"4"},
@@ -11,18 +10,19 @@
 		{"id":"ccc1e648f5956107","type":"text","text":"# Building a web crawler for test amplification purposes","x":1905,"y":-740,"width":580,"height":160},
 		{"id":"83947823c40989f9","type":"text","text":"BLOCKING PHASES","x":1380,"y":-860,"width":280,"height":60,"color":"1"},
 		{"id":"9107fc6c47683357","type":"text","text":"INTERESTING RESULTS","x":1380,"y":-770,"width":280,"height":60,"color":"4"},
+		{"id":"9891489230e0d0ec","type":"text","text":"- `postMessage` API enables applications to communicate between browsers tabs, or between embedded iframes, purely within the browser, so ==web server is not aware of the communications==\n- no security policy are implemented by default, so the developer is responsible for ensuring that no unauthorized communication occur","x":-330,"y":80,"width":660,"height":280},
 		{"id":"8f825d31a11d76d4","type":"text","text":"using an existing account","x":1405,"y":260,"width":320,"height":60},
 		{"id":"f973089e9a4ba9d2","type":"text","text":"Google, Outlook, Zimbra","x":1215,"y":420,"width":300,"height":60},
 		{"id":"267e28e293a11483","type":"text","text":"GMX email","x":1565,"y":420,"width":295,"height":60},
 		{"id":"88ee36afde80a241","type":"text","text":"temporary emails are detected and blocked","x":1977,"y":380,"width":355,"height":80,"color":"1"},
 		{"id":"671c153d18f21d4b","type":"text","text":"create a new account","x":2024,"y":260,"width":261,"height":60},
 		{"id":"5067b0f49b2c7bbf","type":"text","text":"2FA is required for accessing emails","x":1215,"y":540,"width":300,"height":100,"color":"1"},
-		{"id":"4e81d52f2925c8b7","type":"text","text":"No 2FA, Puppeteer can read the email directly from the IMAP server","x":1565,"y":540,"width":295,"height":140},
-		{"id":"911874604b1b9ecc","type":"text","text":"verification code can be retrieved and read by puppeteer","x":1565,"y":720,"width":295,"height":120,"color":"4"},
-		{"id":"0d827b6f15368823","type":"text","text":"canva.com detect suspicious interactions and block the login flow anyway","x":1570,"y":880,"width":285,"height":180,"color":"1"},
-		{"id":"9f245eb53bcebff7","type":"text","text":"# New attacks surfaces","x":-235,"y":-240,"width":470,"height":100},
+		{"id":"9f245eb53bcebff7","type":"text","text":"# New client side attacks","x":-235,"y":-240,"width":470,"height":100},
 		{"id":"77ce06f1a0ab7712","type":"text","text":"[[C2C (client-to-client) communication]]","x":-235,"y":-60,"width":470,"height":80},
-		{"id":"411fd2e6dfc94ac8","type":"text","text":"- [[XSS (cross site scripting)]]\n- access to restricted resources or information","x":-265,"y":460,"width":530,"height":110}
+		{"id":"411fd2e6dfc94ac8","type":"text","text":"- [[XSS (cross site scripting)]]\n- access to restricted resources or information","x":-265,"y":460,"width":530,"height":110},
+		{"id":"4e81d52f2925c8b7","type":"text","text":"No 2FA, Puppeteer can read the email directly from the IMAP server","x":1565,"y":540,"width":295,"height":140},
+		{"id":"0d827b6f15368823","type":"text","text":"canva.com detects suspicious interactions and flags the IP address","x":1568,"y":920,"width":290,"height":180,"color":"1"},
+		{"id":"911874604b1b9ecc","type":"text","text":"verification code can be retrieved and read by puppeteer","x":1565,"y":740,"width":295,"height":120,"color":"4"}
 	],
 	"edges":[
 		{"id":"e2507cc63ae4c85e","fromNode":"77ce06f1a0ab7712","fromSide":"bottom","toNode":"9891489230e0d0ec","toSide":"top"},
