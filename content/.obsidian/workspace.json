@@ -4,58 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "1e4da3414b88fce3",
+        "id": "bf4d4df8dd32dfab",
         "type": "tabs",
         "children": [
           {
-            "id": "cdac18c7836fbf9e",
+            "id": "f9150d9e981eb25e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/service worker vulnerabilities/A Survey on Vulnerabilities of Service Workers.md",
+                "file": "03 References/ref_categorizing_service_worker_attacks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "A Survey on Vulnerabilities of Service Workers"
-            }
-          },
-          {
-            "id": "d7e0ab98c2f49237",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Notes/web worker (service worker).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "web worker (service worker)"
-            }
-          },
-          {
-            "id": "4f24f80164713b58",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "04 Canvases/meetings/2025_02_12.canvas",
-                "viewState": {
-                  "x": 837.5,
-                  "y": -154.76747612325465,
-                  "zoom": -1.640940548937188
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "2025_02_12"
+              "title": "ref_categorizing_service_worker_attacks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -75,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -112,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.51103591918945
+    "width": 309.51103591918945
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -195,18 +162,22 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "d7e0ab98c2f49237",
+  "active": "f9150d9e981eb25e",
   "lastOpenFiles": [
+    "01 Notes/PWA (progressive web application).md",
+    "03 References/ref_categorizing_service_worker_attacks.md",
     "04 Canvases/meetings/2025_02_12.canvas",
-    "01 Notes/web worker (service worker).md",
     "02 Literature/papers/service worker vulnerabilities/A Survey on Vulnerabilities of Service Workers.md",
+    "02 Literature/papers/review, taxonomy and meta-analysis/Automatic program repair.md",
+    "04 Canvases/meetings/2025_02_06.canvas",
+    "01 Notes/web worker (service worker).md",
+    "01 Notes/Parallel programming.md",
     "04 Canvases/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "00 Antilibrary/phishing attack.md",
     "02 Literature/papers/review, taxonomy and meta-analysis/Security of Web Application. State of the Art.md",
     "02 Literature/papers/service worker vulnerabilities",
     "02 Literature/papers/review, taxonomy and meta-analysis/Common vulnerabilities in real world web applications.md",
-    "02 Literature/papers/review, taxonomy and meta-analysis/Automatic program repair.md",
     "03 References/ref_vulnerabilities_service_workers.md",
     "00 Antilibrary/VM (virtual machine).md",
     "01 Notes/proxy-server.md",
@@ -224,11 +195,8 @@
     "00 Antilibrary/recovery testing.md",
     "00 Antilibrary/recommendation engine.md",
     "00 Antilibrary/program slicing.md",
-    "00 Antilibrary/procedure testing.md",
-    "00 Antilibrary/precise alias analysis.md",
     "06 Scripts",
     "04 Canvases/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "04 Canvases/meetings/2025_02_06.canvas",
     "05 Dataset/A88FB828.tmp",
     "05 Dataset/59F8CF60",
     "04 Canvases/client-side tampering/dataset.canvas",

@@ -1,16 +1,15 @@
 ---
-ID: "2025-02-12-14:38"
+ID: 2025-02-12-14:38
 tags:
   - paper
+  - cyberSecurity
+  - clientSideAttacks
 ---
 ## Context
 
-A [[web worker (service worker)]] is an essential component of a progressive web application to enhance the users' browsing experience by using a cache, synchronizing in the background, and being executed in a different thread from the browser. 
+A [[web worker (service worker)]] is an essential component of a [[PWA (progressive web application)]] to enhance the users' browsing experience by using a cache, synchronizing in the background, and being executed in a different thread from the browser. 
 
-## Approach
-
-
-
+The main goal of this paper is to introduce the existing studies on the PWA attacks, and discuss their implications for the new researchers who dive into this area.
 
 ---
 #### References
