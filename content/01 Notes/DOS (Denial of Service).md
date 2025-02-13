@@ -31,5 +31,5 @@ Risk factors:
 - an organization should avoid taking action that can make them a target of a DoS attack unless the benefits of doing so outweigh the potential costs or mitigating controls are in place
 
 ## References
-[[ref_security_of_web_application_state_of_art]]
+[[ref_security_web_application_state_art]]
 https://owasp.org/www-community/attacks/Denial_of_Service

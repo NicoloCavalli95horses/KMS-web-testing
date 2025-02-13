@@ -14,5 +14,6 @@ Common vulnerabilities and attacks in web applications:
 - Broken Access Control (see [[RBAC (role-based access control)]])
 - Cryptographic failures
 
+---
 ## References
 [[ref_common_vulnerabilities_real_world_web_application]]

@@ -77,5 +77,7 @@ Advanced identification processes may rely on biometrics, that are user's unique
 **Security testing**
 Web application security testing ensures that the system would continue working under predictable attacks.
 - a modern trend is to breach system security by understanding the logic behind the code rather than by leveraging on an obvious vulnerability
+
+---
 ## References
-[[ref_security_of_web_application_state_of_art]]
+[[ref_security_web_application_state_art]]
