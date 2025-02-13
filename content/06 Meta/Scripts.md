@@ -20,9 +20,6 @@ dv.table(
     ]
 );
 ```
-
-## PhD progress
-
 ```dataviewjs
 
 const t1 = new Date("2024-12-01"); // start
@@ -41,7 +38,7 @@ const progressBar = `
   </div>
 `;
 
-dv.paragraph(`Progress: ${progressPerc.toFixed(2)}%`);
+dv.paragraph(`PhD progress: ${progressPerc.toFixed(2)}%`);
 dv.paragraph(progressBar);
 ```
 

@@ -1,0 +1,12 @@
+**Case study**
+- [ ] add `x-canva-authz` to the header of the requests made with puppeteer's browser to automate the login access
+- [ ] use `tampermonkey` to automate the access to premium resources
+
+**Literature**
+- [ ] Separate "service workers" from "web workers"
+- [ ] read https://arxiv.org/pdf/2111.07153
+
+**Paper**
+- [ ] read guidelines about taxonomies
+- [ ] start a high-level description of the paper composition
+- [ ] start putting resources together
