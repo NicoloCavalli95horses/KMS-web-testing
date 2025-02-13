@@ -25,7 +25,6 @@ The paper :
 **Methods**
 - [[SLR (systematic literature review)]]
 
-
 > [!warning] Different taxonomies
 > Different taxonomies can be constructed depending on the criteria according to which a phenomenon is included or excluded from a category. Vulnerabilities may be classified according to:
 > - prevalence
@@ -33,6 +32,10 @@ The paper :
 > - similar context 
 
 A good taxonomy is based on approved content (peer-reviewed papers), is understandable, exhaustive, deterministic, mutually exclusive, reproducible, conforms to standards, has well-defined terms, unambiguous, useful
+
+## Proposed taxonomy
+
+
 
 
 ---
