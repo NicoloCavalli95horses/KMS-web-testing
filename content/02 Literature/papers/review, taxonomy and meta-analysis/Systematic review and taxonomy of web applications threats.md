@@ -32,6 +32,8 @@ The paper :
 > - severity (risks)
 > - similar context 
 
+A good taxonomy is based on approved content (peer-reviewed papers), is understandable, exhaustive, deterministic, mutually exclusive, reproducible, conforms to standards, has well-defined terms, unambiguous, useful
+
 
 ---
 #### References
