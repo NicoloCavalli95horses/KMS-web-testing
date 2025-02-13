@@ -11,15 +11,17 @@
             "id": "fe08ada3afdfaef3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "06 Meta/To do.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/anatomy.canvas",
+                "viewState": {
+                  "x": 560.1869854743596,
+                  "y": -498.248169079272,
+                  "zoom": -0.8095317616110692
+                }
               },
-              "icon": "lucide-file",
-              "title": "To do"
+              "icon": "lucide-layout-dashboard",
+              "title": "anatomy"
             }
           }
         ]
@@ -79,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 344.51103591918945
+    "width": 381.51103591918945
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -174,12 +176,21 @@
   },
   "active": "fe08ada3afdfaef3",
   "lastOpenFiles": [
-    "06 Meta/Scripts.md",
+    "04 Canvases/papers/paper template.canvas",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/anatomy.canvas",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/paper structure.canvas",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/Web front-end vulnerabilities. A systematic review.md",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
+    "04 Canvases/mind maps",
     "06 Meta/Publication deadlines.md",
+    "04 Canvases/papers",
+    "06 Meta/Scripts.md",
     "06 Meta/To do.md",
-    "04 Canvases/web security on large scale web applications/tampering prevention with test amplification.canvas",
-    "04 Canvases/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
+    "02 Literature/papers/review, taxonomy and meta-analysis/A Taxonomy of Web Security Vulnerabilities.md",
+    "03 References/ref_taxonomy_web_security_vuln.md",
     "04 Canvases/meetings/2025_02_12.canvas",
     "04 Canvases/meetings/2025_02_06.canvas",
     "03 References/ref_vulnerabilities_service_workers.md",
@@ -202,10 +213,6 @@
     "00 Antilibrary/volume testing.md",
     "00 Antilibrary/SSL (secure sockets layer).md",
     "00 Antilibrary/social engineering.md",
-    "00 Antilibrary/smuggling.md",
-    "00 Antilibrary/signature forgery.md",
-    "00 Antilibrary/SessionStorage.md",
-    "00 Antilibrary/serviceability or maintenance testing.md",
     "06 Meta",
     "05 Dataset/A88FB828.tmp",
     "05 Dataset/59F8CF60",
@@ -214,17 +221,12 @@
     "05 Dataset",
     "97 Assets/causes_of_flakiness.png",
     "97 Assets/flaky_ui_test_findings.png",
-    "04 Canvases/utils/paper structure.canvas",
     "04 Canvases/client-side tampering/research approaches.canvas",
     "97 Assets/using_human_testers_building_web_crawler.png",
     "97 Assets/bft_img_question.png",
     "Pasted image 20250206095811.png",
     "04 Canvases/meetings",
-    "04 Canvases/utils",
-    "04 Canvases/web security on large scale web applications",
-    "04 Canvases/client-side tampering",
     "04 Canvases/gems/GEMs-related CVEs.canvas",
-    "02 Literature/books/The art of software testing/The art of software testing.canvas",
     "97 Assets/dom_clobbering_types.png",
     "97 Assets/wcv_model_web_security.png",
     "97 Assets/js_obfuscators_analysis.png",

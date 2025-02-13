@@ -1,3 +1,9 @@
+---
+ID: 2025-02-13-11:15
+tags:
+  - script
+  - meta
+---
 ### Notes analysis
 
 ```dataviewjs
@@ -20,6 +26,9 @@ dv.table(
     ]
 );
 ```
+
+### Time tracker
+
 ```dataviewjs
 
 const t1 = new Date("2024-12-01"); // start

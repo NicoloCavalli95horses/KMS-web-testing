@@ -1,3 +1,8 @@
+---
+ID: 2025-02-13-11:16
+tags:
+  - todo
+---
 **Case study**
 - [ ] add `x-canva-authz` to the header of the requests made with puppeteer's browser to automate the login access
 - [ ] use `tampermonkey` to automate the access to premium resources
