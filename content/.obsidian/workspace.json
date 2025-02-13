@@ -11,17 +11,15 @@
             "id": "f9150d9e981eb25e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/meetings/2025_02_12.canvas",
-                "viewState": {
-                  "x": -195.0624496017516,
-                  "y": 233.4401815120778,
-                  "zoom": -0.6139730032608937
-                }
+                "file": "03 References/ref_vulnerabilities_service_workers.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "2025_02_12"
+              "icon": "lucide-file",
+              "title": "ref_vulnerabilities_service_workers"
             }
           },
           {
@@ -96,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.51103591918945
+    "width": 344.51103591918945
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -181,8 +179,9 @@
   },
   "active": "f9150d9e981eb25e",
   "lastOpenFiles": [
-    "01 Notes/MT (metamorphic testing).md",
+    "01 Notes/web worker (service worker).md",
     "04 Canvases/meetings/2025_02_12.canvas",
+    "01 Notes/MT (metamorphic testing).md",
     "02 Literature/papers/mobile front-end testing/A GUI-based metamorphic testing technique for detecting authentication vulnerabilities in Android mobile apps.md",
     "02 Literature/papers/service worker vulnerabilities/Categorizing Service Worker Attacks and Mitigations.md",
     "02 Literature/papers/service worker vulnerabilities/A Survey on Vulnerabilities of Service Workers.md",
@@ -190,7 +189,6 @@
     "03 References/ref_categorizing_service_worker_attacks.md",
     "02 Literature/papers/review, taxonomy and meta-analysis/Automatic program repair.md",
     "04 Canvases/meetings/2025_02_06.canvas",
-    "01 Notes/web worker (service worker).md",
     "01 Notes/Parallel programming.md",
     "04 Canvases/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/web security on large scale web applications/tampering prevention with test amplification.canvas",
