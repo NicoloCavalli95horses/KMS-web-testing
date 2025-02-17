@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c1ccc8df23eeb39a",
+        "id": "0345867c7c085980",
         "type": "tabs",
         "children": [
           {
-            "id": "87c4808d6bd5cad9",
+            "id": "5a3ad3ab7636dc80",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "04 Canvases/meetings/2025_02_20.canvas",
-                "viewState": {
-                  "x": 4298.738545363725,
-                  "y": -207.53094108713995,
-                  "zoom": -0.05950179963822677
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "2025_02_20"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -174,18 +167,20 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "87c4808d6bd5cad9",
+  "active": "5a3ad3ab7636dc80",
   "lastOpenFiles": [
+    "06 Meta/To do.md",
+    "06 Meta/Publication deadlines.md",
+    "06 Meta/scripts/References analysis.md",
+    "06 Meta/scripts/PhD status.md",
+    "04 Canvases/papers/paper template.canvas",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/anatomy.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/meetings/2025_02_20.canvas",
     "04 Canvases/meetings/2025_02_12.canvas",
     "04 Canvases/meetings/2025_02_06.canvas",
-    "04 Canvases/papers/paper template.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "06 Meta/To do.md",
-    "06 Meta/scripts/References analysis.md",
-    "06 Meta/scripts/PhD status.md",
-    "06 Meta/Publication deadlines.md",
     "01 Notes/RegEx (Regular Expression).md",
     "01 Notes/security testing.md",
     "01 Notes/sink.md",
@@ -209,8 +204,6 @@
     "01 Notes/acceptance testing.md",
     "06 Meta/scripts",
     "Pasted image 20250217120451.png",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "97 Assets/systematic_literature_review.png",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/paper structure.canvas",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review",
@@ -225,7 +218,6 @@
     "05 Dataset",
     "97 Assets/causes_of_flakiness.png",
     "97 Assets/flaky_ui_test_findings.png",
-    "04 Canvases/client-side tampering/research approaches.canvas",
     "97 Assets/using_human_testers_building_web_crawler.png",
     "97 Assets/bft_img_question.png",
     "Pasted image 20250206095811.png",
