@@ -23,22 +23,36 @@
             }
           },
           {
-            "id": "4d804fa4a771ae53",
+            "id": "56d77b680911674b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/taxonomy.md",
+                "file": "00 Antilibrary/MiTB (man-in-the-browser) attack.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "taxonomy"
+              "title": "MiTB (man-in-the-browser) attack"
+            }
+          },
+          {
+            "id": "e5ff8584362e92e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Antilibrary/MiTM (man-in-the-middle) attack.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "MiTM (man-in-the-middle) attack"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,9 +202,16 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "4d804fa4a771ae53",
+  "active": "ada108dc82a366e1",
   "lastOpenFiles": [
+    "06 Meta/Publication deadlines.md",
+    "06 Meta/Scripts.md",
+    "06 Meta/To do.md",
+    "00 Antilibrary/MiTB (man-in-the-browser) attack.md",
     "02 Literature/papers/review, taxonomy and meta-analysis/Systematic review and taxonomy of web applications threats.md",
+    "01 Notes/phishing attack.md",
+    "00 Antilibrary/MiTM (man-in-the-middle) attack.md",
+    "00 Antilibrary/man-in-the-middle attacks.md",
     "01 Notes/taxonomy.md",
     "01 Notes/SLR (systematic literature review).md",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
@@ -209,8 +230,6 @@
     "03 References/ref_taxonomy_of_testable_html5_canvas_issues.md",
     "03 References/ref_taxonomy_web_security_vuln.md",
     "03 References/ref_taxonomy_web_attacks_http.md",
-    "06 Meta/Scripts.md",
-    "06 Meta/Publication deadlines.md",
     "02 Literature/books/Web application security/chapters/16 Client-Side Attacks.md",
     "03 References/ref_security_of_web_application.md",
     "02 Literature/papers/review, taxonomy and meta-analysis/Security of Web Application. State of the Art.md",
@@ -221,13 +240,8 @@
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review",
     "04 Canvases/mind maps",
     "04 Canvases/papers",
-    "06 Meta/To do.md",
     "04 Canvases/meetings/2025_02_12.canvas",
     "04 Canvases/meetings/2025_02_06.canvas",
-    "03 References/ref_vulnerabilities_service_workers.md",
-    "01 Notes/web worker (service worker).md",
-    "01 Notes/MT (metamorphic testing).md",
-    "02 Literature/papers/mobile front-end testing/A GUI-based metamorphic testing technique for detecting authentication vulnerabilities in Android mobile apps.md",
     "02 Literature/papers/service worker vulnerabilities",
     "06 Meta",
     "05 Dataset/A88FB828.tmp",
