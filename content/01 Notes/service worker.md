@@ -1,37 +1,33 @@
 ---
-ID: 2025-02-06-10:35
+ID: 2025-02-17-14:10
 tags:
   - "#definition"
   - parallelComputing
-  - network
+  - serviceWorker
   - JavaScript
 ---
 ## Definition
 
-Web Workers allow ==to run scripts in background threads==: this means that the worker thread can perform tasks without **interfering with the user interface.**
+Service Workers allow ==to run scripts in background threads==: this means that the worker thread can perform tasks without **interfering with the user interface.**
 - In addition, they can make network requests (using `fetch()` or `XMLHttpRequest` APIs)
-- Once created, a worker can send messages to the JavaScript code that created it by posting messages to an event handler specified by that code (and vice versa).
+- Once created, a SW can send messages to the JavaScript code that created it by posting messages to an event handler specified by that code (and vice versa).
+
+They are similar to [[web worker]], but explicitly ==designed to handle network requests and caching mechanisms, even in an offline environment.== See: [[web worker and service worker comparison]] 
 
 > [!WARNING]
 > You can run whatever code you like inside the worker thread, with some exceptions:
 > - you can't directly manipulate the DOM from inside a worker, or use some default methods and properties of the window object
 > - you can use a large number of items available under window, including `WebSockets`, and data storage mechanisms like [[IndexedDB]]
 
-The following script will create a worker w1, that will execute the code in the file `script.js`
-
-```javascript
-const w1 = new Worker("script.js");
-```
-
-### Web worker usage
+### Service Worker usage
 
 - The SW uses a cache to store the recently used or static data to support fast loading and offline access
-- since the SW is executed in its own thread independently, it can execute code in the background even when the browser is close, such as receiving the push notification from the remote server and background synchronizing to support a continuous browsing experience
+- since the SW is executed in its own thread independently, it can ==execute code in the background even when the browser is close,== such as receiving the push notification from the remote server and background synchronizing to support a continuous browsing experience
 
 With these features, the SW can provide prolific services regardless of the browser's network condition.
 
 > [!error] Only HTTPS
-> Web workers are only allowed to be used in application that are built in an HTTPS environment
+> Service workers are only allowed to be used in application that are built in an HTTPS environment
 
 ### Risks and vulnerabilities
 

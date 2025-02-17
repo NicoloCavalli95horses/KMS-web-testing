@@ -7,7 +7,8 @@ tags:
 ## Definition
 
 A progressive web app (PWA) is an app that's built using web platform technologies, but that provides a user experience like that of a platform-specific app
-- PWA can continue to function when the user’s device is offline and that have access to device sensors and capabilities previously accessible only by native applications.
+- PWA can continue to function when the user’s device is offline and that have access to device sensors and capabilities previously accessible only by native applications
+- A PWA heavily relies on [[service worker]]
 
 ---
 #### References

@@ -51,7 +51,7 @@ A web client can be both a human or a bot. This two scenarios can lead to differ
 	- session management threats
 	- [[CSFR (cross-site request forgery)]]
 	- [[XSS (cross site scripting)]]
-- **data vulnerabilities:** any failure to preserve data integration an data
+- **data vulnerabilities:** any failure to preserve data confidence and integrity
 
 ---
 #### References
