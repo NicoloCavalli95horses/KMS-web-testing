@@ -39,7 +39,19 @@ A web client can be both a human or a bot. This two scenarios can lead to differ
 - [[MiTM (man-in-the-middle) attack]]
 - [[MiTB (man-in-the-browser) attack]]
 
-
+**Server-side web threats**
+- **common server-side threats**
+	- injection-based threats
+	- security misconfiguration threats
+	- using components with known vulnerabilities threats
+	- insufficient logging and monitoring threats
+- **web server (Apache, NGINX) vulnerabilities:** it includes HTTP-based [[DoS (Denial of Service)]], which often takes the form of a  [[DDoS (Distributed Denial of Service)]]
+- **application server vulnerabilities:**
+	- business logic threats: due to bad implementations or logic flaws, can lead to access control bypass
+	- session management threats
+	- [[CSFR (cross-site request forgery)]]
+	- [[XSS (cross site scripting)]]
+- **data vulnerabilities:** any failure to preserve data integration an data
 
 ---
 #### References

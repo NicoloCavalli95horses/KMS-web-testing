@@ -2,8 +2,8 @@
 ID: 2024-12-09-15:46
 tags:
   - paper
-  - redos
   - cyberSecurity
+  - dos
 ---
 ## Abstract
 
