@@ -33,7 +33,7 @@ The author's taxonomy integrate the [[OWASP (Open Web Application Security Proje
 A web client can be both a human or a bot. This two scenarios can lead to different taxonomies. In general, we can distinguish the following areas:
 - **social engineering**: the art of manipulating a person to steal confidential information (see [[phishing attack]]).
 - **client side executable code injection**: the code injected through the various inputs of a web application does not affect the server-side, but it can be executed on the client-side and impacts the server security services
-- **security misconfiguration**
+- [[security misconfiguration]]
 - **using components with known vulnerabilities**
 - **sensitive data exposure**
 - [[MiTM (man-in-the-middle) attack]]

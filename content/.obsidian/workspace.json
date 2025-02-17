@@ -204,11 +204,15 @@
   },
   "active": "ada108dc82a366e1",
   "lastOpenFiles": [
+    "01 Notes/security misconfiguration.md",
+    "Pasted image 20250217120451.png",
+    "02 Literature/papers/review, taxonomy and meta-analysis/Systematic review and taxonomy of web applications threats.md",
+    "01 Notes/C2C (client-to-client) communication.md",
+    "01 Notes/XSS (cross site scripting).md",
     "06 Meta/Publication deadlines.md",
     "06 Meta/Scripts.md",
     "06 Meta/To do.md",
     "00 Antilibrary/MiTB (man-in-the-browser) attack.md",
-    "02 Literature/papers/review, taxonomy and meta-analysis/Systematic review and taxonomy of web applications threats.md",
     "01 Notes/phishing attack.md",
     "00 Antilibrary/MiTM (man-in-the-middle) attack.md",
     "00 Antilibrary/man-in-the-middle attacks.md",
@@ -232,11 +236,7 @@
     "03 References/ref_taxonomy_web_attacks_http.md",
     "02 Literature/books/Web application security/chapters/16 Client-Side Attacks.md",
     "03 References/ref_security_of_web_application.md",
-    "02 Literature/papers/review, taxonomy and meta-analysis/Security of Web Application. State of the Art.md",
-    "03 References/ref_common_vulnerabilities_real_world_web_application.md",
-    "00 Antilibrary/ref_security_web_application_state_art.md",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/paper structure.canvas",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/Web front-end vulnerabilities. A systematic review.md",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review",
     "04 Canvases/mind maps",
     "04 Canvases/papers",
@@ -258,7 +258,6 @@
     "04 Canvases/meetings",
     "97 Assets/dom_clobbering_types.png",
     "97 Assets/wcv_model_web_security.png",
-    "97 Assets/js_obfuscators_analysis.png",
-    "97 Assets/deobfuscation_resilience.png"
+    "97 Assets/js_obfuscators_analysis.png"
   ]
 }

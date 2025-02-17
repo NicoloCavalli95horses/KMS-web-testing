@@ -21,6 +21,11 @@ Successful XSS can:
 - cause a [[DoS (Denial of Service)]]
 
 XSS is similar to [[CSFR (cross-site request forgery)]] in that both rely on code injection, but CSFR exploits the browser's trust in the user to send malicious HTTP requests, while XSS involves code execution in the user's browser (see more on [[XSS and CSFR comparison]])
+
+### Prevalence
+
+Two-third of all deployed web applications are vulnerable to XSS attacks, and Cisco 2018 Annual Security Report indicated that 40% of all attacks attempts lead to XSS attacks ([[ref_taxonomy_web_applications_threats]], p.18)
+
 ### Types of XSS attacks
 
 **Reflected**
@@ -106,3 +111,4 @@ Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, wit
 - [[ref_current_state_research_xss]]
 - [[ref_common_vulnerabilities_real_world_web_application]]
 - https://portswigger.net/web-security/cross-site-scripting#reflected-cross-site-scripting
+- [[ref_taxonomy_web_applications_threats]]
