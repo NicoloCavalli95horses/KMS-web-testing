@@ -10,4 +10,4 @@ tags:
 Running the longest task first, to reduce the overall execution time
 
 ## References
-[[ref_stile_tool_for_e2e_parallelization]]
+[[(Olianas, Leotta, Ricca, et al., 2024)]]

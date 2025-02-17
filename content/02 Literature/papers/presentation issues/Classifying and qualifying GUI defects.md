@@ -50,4 +50,4 @@ To demonstrate the benefits of the proposed fault model, mutants have then been 
 New GUI testing techniques have thus to be proposed for fully testing, as automated as possible, GUI rendering and complex interactions using ad hoc widgets.
 
 ## References
-[[ref_classifying_and_qualifying_gui_defects]]
+[[(Lelli, Blouin, Baudry, 2015a)]]

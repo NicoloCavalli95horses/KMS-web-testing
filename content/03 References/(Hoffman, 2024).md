@@ -9,5 +9,5 @@ tags:
   title={Web application security},
   author={Hoffman, Andrew},
   year={2024},
-  publisher={" O'Reilly Media, Inc."}
+  publisher={"O'Reilly Media, Inc."}
 }

@@ -44,5 +44,5 @@ GUI rippers exist for different GUI applications: desktop, mobile or even web ap
 - **Puppeteer Scraper**
 
 ## References
-[[ref_gui_ripping_reverse_engineering_of_gui]]
+[[(Memon, Banerjee, Ishan, et al., 2003)]]
 https://blog.apify.com/what-is-a-web-ripper-top-5-website-ripper-tools/

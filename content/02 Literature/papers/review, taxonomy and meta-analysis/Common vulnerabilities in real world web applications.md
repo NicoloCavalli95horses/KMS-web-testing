@@ -16,4 +16,4 @@ Common vulnerabilities and attacks in web applications:
 
 ---
 ## References
-[[ref_common_vulnerabilities_real_world_web_application]]
+[[(Krishnaraj, Madaan, et al., 2023)]]

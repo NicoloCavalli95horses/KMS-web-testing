@@ -55,4 +55,4 @@ A web client can be both a human or a bot. This two scenarios can lead to differ
 
 ---
 #### References
-- [[ref_taxonomy_web_applications_threats]]
+- [[(Sadqi, Maleh, 2022)]]

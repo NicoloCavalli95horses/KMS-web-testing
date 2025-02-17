@@ -17,5 +17,5 @@ In web testing, several E2E testing tools are commonly used:
 - Cypress
 
 ## References
-[[ref_stile_tool_for_e2e_parallelization]]
-[[ref_mutta_e2e_mutation_testing]]
+[[(Olianas, Leotta, Ricca, et al., 2024)]]
+[[(Leotta, Paparella, Ricca, 2024)]]

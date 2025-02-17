@@ -53,4 +53,4 @@ The test details are dynamically retrieved during execution on the real target.
 The test results are evaluated against a [[test oracle]], which is derived through logical inference (e.g., an order confirmation must not occur before payment is completed).
 
 ## References
-[[ref_blackbox_detection_logic_flaws_web]]
+[[(Pellegrino, Balzarotti, 2014)]]

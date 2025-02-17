@@ -48,6 +48,6 @@ Experimental procedure:
 
 ---
 #### References
-- [[ref_gui_metamorphic_testing_android]]
+- [[(Amalfitano, Misael, et al., 2025)]]
 
 [^1]: This is a note example. Use a note to give extra information without interrupting the reading flow

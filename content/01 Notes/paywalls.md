@@ -56,5 +56,5 @@ to the bounce rate between paywalled and non-paywalled sites
 > People do not generally receive a tracker free version of site content when paying for subscriptions. Instead, paywall systems seem to serve as an additional monetization mechanism on top of existing, privacy harming, ad systems
 
 ## References
-[[ref_understanding_popularity_internet_paywalls]]
-[[ref_BFTDETECTOR_tampering_digital_content]]
+[[(Papadopoulos, Snyder, et al., 2020)]]
+[[(Kim, Wang, Kwon, et al., 2023)]]

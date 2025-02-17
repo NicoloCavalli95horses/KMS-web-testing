@@ -43,4 +43,4 @@ Different algorithms can be used to repair software statements. But GA performs 
 - **fitness function**: 1) feasibility of the test case 2) the new coverage a test case brings
 - **crossover and mutation**: test cases are ranked in descending order and pair consecutive chromosomes. A one-point crossover is used.
 ## References
-[[ref_repairing_gui_test_ga]]
+[[(Huang, Cohen, Memon, 2010)]]

@@ -12,5 +12,5 @@ Multimodal fusion refers to the process of combining information from multiple m
 In the context of HCI, multi-modal fusion concerns the ==understanding of the synchronization between the different input devices in a multi-modal interaction context==
 
 ## References
-[[ref_classifying_and_qualifying_gui_defects]]
+[[(Lelli, Blouin, Baudry, 2015a)]]
 https://www.educative.io/answers/what-is-multimodal-fusion

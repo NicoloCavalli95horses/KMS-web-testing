@@ -17,4 +17,4 @@ In web development, differential testing can be used to test the rendering behav
 In practice, this approach verifies that the behavior of the software remains unchanged between different software versions. In this sense, it could be considered a type of [[regression testing]].
 
 ## References
-[[ref_mutta_e2e_mutation_testing]]
+[[(Leotta, Paparella, Ricca, 2024)]]

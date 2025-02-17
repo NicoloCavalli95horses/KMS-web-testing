@@ -31,4 +31,4 @@ We implemented a practical fuzzer named JANUS (see [[fuzzling]]), that:
 3. Consistency Checking, which observes the visual deltas across browsers and identify rendering bugs (screenshots comparison on Selenium)
 
 ## References
-[[ref_janus_detecting_rendering_bugs_web_browsers]]
+[[(Zhou, Zhang, Qian, et al., 2024)]]

@@ -1,9 +1,30 @@
 ---
-ID: 2025-02-13-11:15
+ID: 2025-02-17-15:38
 tags:
   - script
   - meta
 ---
+```dataviewjs
+const folderPath = dv.pages(`"03 References"`);
+const yearPattern = /\b(19\d{2}|20\d{2}|2100)\b/;
+const tot = folderPath.length;
+
+let yearCounts = {};
+
+for (let note of folderPath) {
+  let match = note.file.name.match(yearPattern);
+  if (match) {
+    let year = match[1];
+    yearCounts[year] = (yearCounts[year] || 0) + 1;
+  }
+}
+
+let sortedYears = Object.entries(yearCounts)
+    .sort((a, b) => b[1] - a[1])
+    .map(([year, count]) => [year, count, ((count / tot) * 100).toFixed(2) + "%"]); 
+
+dv.table(["Years", "N. of References", "Frequency (%)"], sortedYears);
+```
 ### Notes analysis
 
 ```dataviewjs
@@ -25,30 +46,6 @@ dv.table(
         [ "Total", totNotes, "100%"]
     ]
 );
-```
-
-### Time tracker
-
-```dataviewjs
-
-const t1 = new Date("2024-12-01"); // start
-const t2 = new Date("2027-12-01"); // end
-const now = new Date();
-const totalDuration = t2 - t1;
-const elapsedDuration = now - t1;
-
-let progressPerc = (elapsedDuration / totalDuration) * 100;
-progressPerc = Math.min(Math.max(progressPerc, 0), 100);
-
-// HTML progress bar
-const progressBar = `
-  <div style="background-color: #f3f3f3; border: 1px solid #ccc; border-radius: 5px; width: 100%; height: 20px;">
-    <div style="background-color: green; height: 100%; width: ${progressPerc}%; border-radius: 4px;"></div>
-  </div>
-`;
-
-dv.paragraph(`PhD progress: ${progressPerc.toFixed(2)}%`);
-dv.paragraph(progressBar);
 ```
 
 

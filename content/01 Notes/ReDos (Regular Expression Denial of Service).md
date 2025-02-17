@@ -19,4 +19,4 @@ The Regular expression Denial of Service (ReDoS) is a type of [[DoS (Denial of S
 **Stored**: an attacker stores malicious input to the vulnerable web server (e.g., a comment in a blog). The malicious content is fetched and matched against a vulnerable RegEx (e.g., there is an illegal-content detector). Since the malicious input is stored, each new user of the blog could potentially read that malicious input, which is public, and each time a new ReDoS attack could be triggered (depending on how the illegal-content detector is implemented, it could make sense to filter and validate content *continuously* and not just at the publication time - e.g. new tags are added)
 ## References
 https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS#
-[[ref_runtime_recovery_web_app_under_redos]]
+[[(Bai, Wang, Zhu, et al., 2021)]]

@@ -50,4 +50,4 @@ The author’s approach is to dynamically generate a set of probabilistic Markov
 
 ---
 ## References
-- [[ref_automatically_inferring_user_behavior]]
+- [[(Saeedeh Sadat et al., 2022)]]

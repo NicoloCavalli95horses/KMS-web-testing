@@ -14,4 +14,4 @@ The main goal of this paper is to introduce the existing studies on the PWA atta
 
 ---
 #### References
-- [[ref_vulnerabilities_service_workers]]
+- [[(Jeong, Hur, 2022)]]

@@ -72,4 +72,4 @@ JavaScript application have received very little attention in the test amplifica
 
 ---
 #### References
-- [[ref_snowballing_literature_study_test_amplification]]
+- [[(Danglot, Vera-Perez, Yu, et al., 2019)]]

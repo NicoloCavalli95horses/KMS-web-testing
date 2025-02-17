@@ -45,4 +45,4 @@ In very large projects, extensive use of IIFE can make code difficult to manage 
 With the introduction of ES6 modules, the use of IIFEs is less common and considered less modern than current development practices. ES6 modules offer native code import and export capabilities, which are more flexible and powerful.
 
 ## References
-[[ref_javascript_the_good_parts]]
+[[(Crockford, 2008)]]

@@ -34,4 +34,4 @@ This paper describes the strategy, defines specific rules and adequacy criteria 
 - It is possible to leverage different [[client-side input validations]] 
 
 ## References
-[[ref_bypass_testing_of_web_app]]
+[[(Offutt, Wu, Du, 2004)]]

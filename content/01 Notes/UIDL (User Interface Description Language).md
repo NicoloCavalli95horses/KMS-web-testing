@@ -64,5 +64,5 @@ UIDL typically describes interfaces in a platform-independent way, allowing deve
 
 ```
 ## References
-[[ref_on_model_based_testing_advanced_guis]]
+[[(Lelli, Blouin, Baudry, 2015b)]]
 https://www.w3.org/2004/02/mmi-workshop/vanderdonckt-louvain.pdf

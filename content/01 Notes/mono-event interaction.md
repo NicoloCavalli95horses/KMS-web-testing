@@ -9,4 +9,4 @@ tags:
 **Mono-event interactions**: when a widget allows the user to performe a single action (e.g., clicking, or swiping)
 
 ## References
-[[ref_classifying_and_qualifying_gui_defects]]
+[[(Lelli, Blouin, Baudry, 2015a)]]

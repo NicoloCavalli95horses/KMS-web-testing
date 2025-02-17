@@ -13,4 +13,4 @@ The SUT should allow entering characters that are allowed in a login form. The d
 
 Opposed to [[negative testing]].
 ## References
-[[ref_testing_event_center_activity]]
+[[(Belli, Beyazit, Memon, 2012)]]

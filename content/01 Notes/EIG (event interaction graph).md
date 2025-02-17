@@ -23,4 +23,4 @@ Similar to [[EFG (event flow graph)]] and [[ESG (event sequence graph)]], but it
 See [[event models comparison]]
 
 ## References
-[[ref_repairing_gui_test_ga]]
+[[(Huang, Cohen, Memon, 2010)]]

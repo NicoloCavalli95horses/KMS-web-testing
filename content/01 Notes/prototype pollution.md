@@ -66,5 +66,5 @@ External prototype pollution could be considered a form of code-injection (see [
 
 ## References
 - https://learn.snyk.io/lesson/prototype-pollution/
-- [[ref_managing_security_vulnerabilities_dependencies_react]]
-- [[ref_web_application_security_o_reilly]]
+- [[(Anastasia, Stamatia, 2024)]]
+- [[(Hoffman, 2024)]]

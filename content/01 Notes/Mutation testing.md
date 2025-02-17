@@ -21,4 +21,4 @@ Manually generating mutants in a real application is often infeasible, and possi
 
 [[Pitest]] is an automated tool that provide operators for generating a large number of mutants
 ## References
-[[ref_mutta_e2e_mutation_testing]]
+[[(Leotta, Paparella, Ricca, 2024)]]

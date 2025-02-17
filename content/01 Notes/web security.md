@@ -11,5 +11,5 @@ tags:
 
 ---
 #### References
-- [[ref_verification_web_integrity_server_tampering]]
+- [[(Viticchie, Basile, Avancini, et al., 2016)]]
 

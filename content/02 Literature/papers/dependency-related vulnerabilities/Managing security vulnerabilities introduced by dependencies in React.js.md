@@ -61,4 +61,4 @@ Developer often ignore low-risk vulnerability
 
 ---
 ## References
-- [[ref_managing_security_vulnerabilities_dependencies_react]]
+- [[(Anastasia, Stamatia, 2024)]]

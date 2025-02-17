@@ -27,4 +27,4 @@ Can be represented as:
 ![[prefix_tree.png]]
 
 ## References
-[[ref_stile_tool_for_e2e_parallelization]]
+[[(Olianas, Leotta, Ricca, et al., 2024)]]

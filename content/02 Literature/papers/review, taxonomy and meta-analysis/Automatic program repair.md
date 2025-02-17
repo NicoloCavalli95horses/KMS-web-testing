@@ -32,4 +32,4 @@ Assuring patch quality is an unsolved problem. Challenges in applying these tech
 
 ---
 ## References
-[[ref_automatic_program_repair]]
+[[(Goues, Claire, Pradel et al., 2021)]]

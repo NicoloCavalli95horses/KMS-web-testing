@@ -10,5 +10,5 @@ A fault model describes a set of faults responsible for a failure, possibly at a
 - Faults are textual (or graphical) differences between an incorrect and a correct behavior description or [[test oracle]]
 
 ## References
-[[ref_fault_models_in_testing]]
-[[ref_classifying_and_qualifying_gui_defects]]
+[[(Bochmann, Das, Dssouli, 1991)]]
+[[(Lelli, Blouin, Baudry, 2015a)]]

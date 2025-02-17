@@ -47,4 +47,4 @@ See [[concolic execution]].
 
 ## References
 https://it.eitca.org/cybersecurity/eitc-is-acss-advanced-computer-systems-security/security-analysis/symbolic-execution/examination-review-symbolic-execution/what-is-the-basic-idea-behind-symbolic-execution-and-how-does-it-differ-from-ordinary-testing-or-fuzzing/
-[[ref_guruws_hybrid_platform_detecting_malicious_web_shells]]
+[[(Le, Huu-Tung, Pham, et al., 2019)]]

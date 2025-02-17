@@ -17,4 +17,4 @@ The average user:
 
 ---
 #### References
-- [[ref_taxonomy_web_applications_threats]]
+- [[(Sadqi, Maleh, 2022)]]

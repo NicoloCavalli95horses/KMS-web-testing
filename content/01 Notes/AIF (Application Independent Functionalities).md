@@ -24,5 +24,5 @@ Even if the concept of UI design pattern is not exactly the same of AIF, many UI
 
 
 ## References
-[[ref_augusto_exploiting_popular_functionalities_generation_semantic_gui_test]]
+[[(Mariani, Leonardo, et al., 2018)]]
 

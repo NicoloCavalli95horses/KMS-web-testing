@@ -123,5 +123,5 @@ Other techniques:
 ---
 
 #### References
-- [[ref_dom_clobbering_attack_techniques]]
+- [[(Khodayari, Pellegrino, 2023)]]
 

@@ -15,4 +15,4 @@ The SUT should forbid entering characters that are not allowed in a login form. 
 
 Opposed to [[positive testing]].
 ## References
-[[ref_testing_event_center_activity]]
+[[(Belli, Beyazit, Memon, 2012)]]

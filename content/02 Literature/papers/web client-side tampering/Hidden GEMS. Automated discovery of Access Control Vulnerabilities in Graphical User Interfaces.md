@@ -52,4 +52,4 @@ Concepts such as vulnerability or [[security testing]], [[fuzzling]] and GUI tes
 
 ---
 ## References
-- [[ref_hidden_gems_auto_discovery]]
+- [[(Mulliner, Robertson, Kirda, 2014)]]

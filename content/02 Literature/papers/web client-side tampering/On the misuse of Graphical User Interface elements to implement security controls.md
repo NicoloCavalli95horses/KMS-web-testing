@@ -7,7 +7,7 @@ tags:
   - accessControl
   - rbac
 ---
-This papers appears to be a shorter version of [[ref_hidden_gems_auto_discovery]]
+This papers appears to be a shorter version of [[(Mulliner, Robertson, Kirda, 2014)]]
 
 ## Abstract
 
@@ -32,4 +32,4 @@ Based on what the user can do by exploiting the [[GEMs (GUI Element Misuse)]], w
 4) GEM checking
 
 ## References
-[[ref_misuse_gui_to_implement_security_checks]]
+[[(Mulliner, Robertson, Kirda, 2017)]]

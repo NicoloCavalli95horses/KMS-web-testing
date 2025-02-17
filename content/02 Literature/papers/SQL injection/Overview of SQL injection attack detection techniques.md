@@ -34,4 +34,4 @@ Techniques based on machine learning algorithms:
 ![[summary_SQLIA_detections.png]]
 
 ## References
-[[ref_overview_sql_injection_detection]]
+[[(Xu, Ni, Ming, et al., 2024)]]

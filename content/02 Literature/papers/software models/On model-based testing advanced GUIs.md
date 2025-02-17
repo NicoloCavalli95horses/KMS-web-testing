@@ -49,4 +49,4 @@ Interaction-action flow graph (IFG) follows the same idea than an EFG, by sequen
 widget are clearly separated, and interactions and actions are included in IFGs. 
 - The goal is to be able to test a widget using its different interactions
 ## References
-[[ref_on_model_based_testing_advanced_guis]]
+[[(Lelli, Blouin, Baudry, 2015b)]]

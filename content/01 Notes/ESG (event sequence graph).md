@@ -57,8 +57,8 @@ Since a model based on events is decoupled from the internal behavior/state of a
 
 See [[event models comparison]]
 ## References
-[[ref_lightweight_static_analysis_gui_testing]]
-[[ref_mining_android_app_usages]]
-[[ref_autoinspect_using_missing_test_coverage]]
-[[ref_testing_event_center_activity]]
-[[ref_repairing_gui_test_ga]]
+[[(Arlt, Podelski, Bertolini, et al., 2012)]]
+[[(Linares-Vasquez, White, et al., 2018)]]
+[[(Cohen, Myra B., et al., 2012)]]
+[[(Belli, Beyazit, Memon, 2012)]]
+[[(Huang, Cohen, Memon, 2010)]]

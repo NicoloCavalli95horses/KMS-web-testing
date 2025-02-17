@@ -19,4 +19,4 @@ The literature reports two main security testing approaches:
 
 ---
 #### References
-- [[ref_gui_metamorphic_testing_android]]
+- [[(Amalfitano, Misael, et al., 2025)]]

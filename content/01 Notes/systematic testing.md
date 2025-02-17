@@ -16,4 +16,4 @@ Predictability, controllability, observability together lead to a monitorable sy
 It should be possible to measure the grade of testability of a monitorable system. 
 
 ## References
-[[ref_testing_event_center_activity]]
+[[(Belli, Beyazit, Memon, 2012)]]

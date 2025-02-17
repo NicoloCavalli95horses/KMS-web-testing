@@ -9,4 +9,4 @@ tags:
 **Multi-event interactions**: when an [[ad hoc widgets]] allows the user to performe multiple actions/interactions (e.g., zooming or drawing on a [[canvas DOM element]])
 ## References
 
-[[ref_classifying_and_qualifying_gui_defects]]
+[[(Lelli, Blouin, Baudry, 2015a)]]

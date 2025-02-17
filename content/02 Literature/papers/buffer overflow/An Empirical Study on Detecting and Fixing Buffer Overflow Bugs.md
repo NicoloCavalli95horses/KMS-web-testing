@@ -45,4 +45,4 @@ Array, memcpy and sprintf are the top three APIs related to buffer overflow bugs
 ---
 ## References
 
-[[ref_empirical_study_detecting_buffer_overflow]]
+[[(Ye, Zhang, Wang et al., 2016)]]

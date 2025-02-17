@@ -59,4 +59,4 @@ For best security practices, the organization usually monitors network traffic a
 
 ---
 #### References
-- [[ref_taxonomy_web_security_vuln]]
+- [[(Al-Kahla, Shatnawi, Taqieddin, 2021)]]

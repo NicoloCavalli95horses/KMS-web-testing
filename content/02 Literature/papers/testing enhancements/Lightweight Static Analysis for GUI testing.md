@@ -23,5 +23,5 @@ This approach brought to life **Gazoo**, a tool that has been tested on four ope
 
 ---
 ## References
-- [[ref_lightweight_static_analysis_gui_testing]]
+- [[(Arlt, Podelski, Bertolini, et al., 2012)]]
 

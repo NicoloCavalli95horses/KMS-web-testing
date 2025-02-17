@@ -61,4 +61,4 @@ Flaky tests belonging to the same class might be solved in a similar way:
 ---
 #### References
 - https://ui-flaky-test.github.io/ (dataset)
-- [[ref_ui_flaky_tests]]
+- [[(Romano, Song, et al., 2021)]]

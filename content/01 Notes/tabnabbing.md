@@ -43,4 +43,4 @@ function goToLegitWebsite() {
 ```
 
 ## References
-[[ref_web_application_security_o_reilly]]
+[[(Hoffman, 2024)]]

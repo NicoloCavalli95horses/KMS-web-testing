@@ -27,4 +27,4 @@ for i in range(10):
 
 ---
 #### References
-- [[ref_zigzag_web_app_csv]]
+- [[(Weissbacher, Robertson, et al., 2015)]]

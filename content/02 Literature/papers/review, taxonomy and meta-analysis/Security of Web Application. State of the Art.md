@@ -80,4 +80,4 @@ Web application security testing ensures that the system would continue working 
 
 ---
 ## References
-[[ref_security_web_application_state_art]]
+[[(Ur Rehman, Nazir, Mustafa, 2017)]]

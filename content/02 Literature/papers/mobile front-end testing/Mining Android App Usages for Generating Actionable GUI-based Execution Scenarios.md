@@ -51,4 +51,4 @@ The process:
 
 ---
 ## References
-- [[ref_mining_android_app_usages]]
+- [[(Linares-Vasquez, White, et al., 2018)]]

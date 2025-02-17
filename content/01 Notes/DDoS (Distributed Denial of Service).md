@@ -16,5 +16,5 @@ From a high level, a DDoS attack is like an unexpected traffic jam clogging up t
 
 ---
 #### References
-- [[ref_taxonomy_web_applications_threats]]
+- [[(Sadqi, Maleh, 2022)]]
 - https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/

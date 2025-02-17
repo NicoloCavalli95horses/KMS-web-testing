@@ -22,5 +22,5 @@ UI testing involves asynchronous events and the execution speed may vary a lot a
 
 ---
 #### References
-- [[ref_ui_flaky_tests]]
+- [[(Romano, Song, et al., 2021)]]
 

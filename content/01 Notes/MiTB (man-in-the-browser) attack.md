@@ -10,5 +10,5 @@ MiTB attacks can be done through:
 
 ---
 #### References
-- [[ref_taxonomy_web_applications_threats]]
+- [[(Sadqi, Maleh, 2022)]]
 - https://portswigger.net/web-security/web-cache-poisoning

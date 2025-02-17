@@ -31,4 +31,4 @@ According to the attributes/states "enabled", "visible", and "value", it is poss
 A process to automatically reveal GEMs in a GUI. 
 
 ## References
-[[ref_hidden_gems_auto_discovery]]
+[[(Mulliner, Robertson, Kirda, 2014)]]

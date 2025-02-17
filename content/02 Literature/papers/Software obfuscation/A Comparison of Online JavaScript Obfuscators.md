@@ -60,4 +60,4 @@ aaencode's idea is somewhat similar to JSFuck. It uses lots of special character
 
 ---
 #### References
-- [[ref_comparison_js_obfuscator]]
+- [[(Rauti, Leppänen, 2018)]]

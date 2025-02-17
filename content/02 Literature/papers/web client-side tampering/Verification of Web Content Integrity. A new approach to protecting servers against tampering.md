@@ -58,4 +58,4 @@ The authors propose a new web security framework to address the web data integri
 
 ---
 #### References
-- [[ref_verification_web_integrity_server_tampering]]
+- [[(Viticchie, Basile, Avancini, et al., 2016)]]

@@ -10,4 +10,4 @@ Validates that two or more units or other integrations work together properly, a
 inclines to focus on the interfaces specified in low-level design. It represents an higher level of testing w.r.t [[unit testing]].
 
 ## References
-[[ref_white_and_black_box_testing]]
+[[(Nidhra, Dondeti, 2012)]]

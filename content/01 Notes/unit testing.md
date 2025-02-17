@@ -31,5 +31,5 @@ Most of the time, a value returned from an object, a function or a class is test
 
 ## References
 https://www.browserstack.com/guide/unit-testing-in-javascript
-[[ref_white_and_black_box_testing]]
+[[(Nidhra, Dondeti, 2012)]]
 [[05 Module (Unit) Testing]]

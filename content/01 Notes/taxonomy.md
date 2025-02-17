@@ -30,4 +30,4 @@ A good taxonomy is:
 
 ---
 #### References
-- [[ref_taxonomy_web_applications_threats]]
+- [[(Sadqi, Maleh, 2022)]]

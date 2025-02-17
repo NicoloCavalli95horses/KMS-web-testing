@@ -9,4 +9,4 @@ SUT: system under test
 
 ---
 ## References
-- [[ref_on_model_based_testing_advanced_guis]]
+- [[(Lelli, Blouin, Baudry, 2015b)]]

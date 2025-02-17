@@ -18,4 +18,4 @@ tags:
 - Proper authentication on internal services
 
 ## References
-[[ref_common_vulnerabilities_real_world_web_application]]
+[[(Krishnaraj, Madaan, et al., 2023)]]

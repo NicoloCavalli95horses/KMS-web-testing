@@ -35,4 +35,4 @@ Dynamic analysis can focus on different aspects of the software, including but n
 
 ---
 ## References
-[[ref_mining_android_app_usages]]
+[[(Linares-Vasquez, White, et al., 2018)]]

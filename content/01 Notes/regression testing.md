@@ -14,5 +14,5 @@ Regression test minimization (RTM), regression test selection (RTS) and test-cas
 
 
 ## References
-[[ref_white_and_black_box_testing]]
-[[ref_strengthening_web_app_security_buffer_overflow]]
+[[(Nidhra, Dondeti, 2012)]]
+[[(Basu, et al., 2024)]]

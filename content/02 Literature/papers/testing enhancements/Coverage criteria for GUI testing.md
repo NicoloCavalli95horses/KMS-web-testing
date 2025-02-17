@@ -40,4 +40,4 @@ A GUI component can be described with a [[EFG (event flow graph)]]
 
 ---
 ## References
-[[ref_coverage_criteria_gui_testing]]
+[[(Memon, Soffa, Mary, Pollack, 2001)]]

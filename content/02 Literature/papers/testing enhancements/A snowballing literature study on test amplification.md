@@ -12,4 +12,4 @@ This study reviews 70 papers in the context of [[test amplification]], drawing a
 
 ---
 ## References
-- [[ref_snowballing_literature_study_test_amplification]]
+- [[(Danglot, Vera-Perez, Yu, et al., 2019)]]

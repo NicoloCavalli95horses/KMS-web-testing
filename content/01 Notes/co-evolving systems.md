@@ -13,6 +13,6 @@ Co-evolving systems should be evolved together, as a whole.
 - ==Repair of the co-evolution==: the manual correction to restore the functional synchronization between the two systems
 
 ## References
-[[ref_untangling_spaghetti_of_evolutions]]
+[[(Dilavrec, Khelladi, Blouin, et al., 2021)]]
 
 

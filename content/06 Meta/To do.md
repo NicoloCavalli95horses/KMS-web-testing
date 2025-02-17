@@ -8,8 +8,7 @@ tags:
 - [x] use `tampermonkey` to automate the access to premium resources
 
 **Literature**
-- [ ] Separate "service workers" from "web workers"
-- [ ] read https://arxiv.org/pdf/2111.07153
+- [x] Separate "service workers" from "web workers"
 
 **Paper**
 - [x] read guidelines about taxonomies

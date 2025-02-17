@@ -12,4 +12,4 @@ tags:
 - [[06 Arrays]]
 - [[09 Style]]
 ## Reference
-[[ref_javascript_the_good_parts]]
+[[(Crockford, 2008)]]

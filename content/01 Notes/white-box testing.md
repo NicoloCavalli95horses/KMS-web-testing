@@ -34,12 +34,12 @@ Structural White box testing
 - Loop testing
 - Data flow testing 
 
-**Exhaustive path testing**: testing all the possible logic path in a software. This can lead to explosion of combinatorial possibilities (p.11, [[ref_art_of_software_testing]]). Even with a complete exhaustive path testing:
+**Exhaustive path testing**: testing all the possible logic path in a software. This can lead to explosion of combinatorial possibilities (p.11, [[(Myers et al., 2011)]]). Even with a complete exhaustive path testing:
 - *incorrect implementation of specifications*: the program could still not implement correctly the specifications, and there is no way to know it from a white-box perspective
 - *missing necessary paths:* there could be other valid paths that are missing
 - *data-sensitivity errors*: there could be bugs related to actual inputs, which path testing does not consider
 
 Also known as: *clear box testing, code-based testing, structural testing, transparent testing, logic-driven testing*
 ## References
-[[ref_white_and_black_box_testing]]
-[[ref_art_of_software_testing]]
+[[(Nidhra, Dondeti, 2012)]]
+[[(Myers et al., 2011)]]

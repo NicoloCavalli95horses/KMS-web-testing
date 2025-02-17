@@ -18,4 +18,4 @@ tags:
 - [[10 Testing Internet Applications]]
 - [[11 Mobile Application Testing]]
 ## Reference
-[[ref_art_of_software_testing]]
+[[(Myers et al., 2011)]]

@@ -49,5 +49,5 @@ Browser history sniffing attacks: a web worker can be exploited to determine whe
 #### References
 - [Web workers](https://www.youtube.com/watch?v=JMKLXGwltGc) 
 - https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
-- [[ref_vulnerabilities_service_workers]]
+- [[(Jeong, Hur, 2022)]]
 - see also [[Parallel programming]]

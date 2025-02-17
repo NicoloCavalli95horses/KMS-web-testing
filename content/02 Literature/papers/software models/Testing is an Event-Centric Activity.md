@@ -61,4 +61,4 @@ Different syntax and diagrams have been proposed in order to better model specif
 
 ---
 ## References
-- [[ref_testing_event_center_activity]]
+- [[(Belli, Beyazit, Memon, 2012)]]

@@ -44,4 +44,4 @@ Our model consists of two components:
 
 ---
 ## References
-- [[ref_understanding_popularity_internet_paywalls]]
+- [[(Papadopoulos, Snyder, et al., 2020)]]

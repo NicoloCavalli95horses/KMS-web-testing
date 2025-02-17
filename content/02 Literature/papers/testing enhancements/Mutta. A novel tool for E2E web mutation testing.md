@@ -27,4 +27,4 @@ Development process of Mutta:
 The high-level goal of our tool is to enable the tester to compare the bug-detection capability of different test suites, or even of different E2E frameworks.
 
 ## References
-[[ref_mutta_e2e_mutation_testing]]
+[[(Leotta, Paparella, Ricca, 2024)]]

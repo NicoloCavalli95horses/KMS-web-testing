@@ -65,5 +65,5 @@ $$
 #### Notes
 [^1]: See [[BFT (business flow tampering)]]
 #### References
-- [[ref_comparison_js_obfuscator]]
+- [[(Rauti, Leppänen, 2018)]]
 - https://en.wikipedia.org/wiki/Obfuscation_(software)

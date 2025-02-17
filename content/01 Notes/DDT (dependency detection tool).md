@@ -15,4 +15,4 @@ Tools for DDT:
 - **TEDD**
 
 ## References
-[[ref_stile_tool_for_e2e_parallelization]]
+[[(Olianas, Leotta, Ricca, et al., 2024)]]

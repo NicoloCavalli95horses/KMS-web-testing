@@ -51,5 +51,5 @@ A fixed URL can be defined by the `action` attribute fixing the target of the HT
 
 ---
 ## References
-- [[ref_bypass_testing_of_web_app]]
-- [[ref_verification_web_integrity_server_tampering]]
+- [[(Offutt, Wu, Du, 2004)]]
+- [[(Viticchie, Basile, Avancini, et al., 2016)]]

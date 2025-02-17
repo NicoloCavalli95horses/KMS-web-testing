@@ -76,4 +76,4 @@ It is important to note that black-box analysis cannot guarantee completeness, l
 
 ---
 ## References
-- [[ref_notamper_automatic_blackbox_det_parameter_tampering]]
+- [[(Bisht, Hinrichs, Skrupsky, et al., 2010)]]

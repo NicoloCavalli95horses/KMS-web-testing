@@ -31,4 +31,4 @@ Now we can consider the following metamorphic properties to better analyze the f
 
 ---
 #### References
-- [[ref_gui_metamorphic_testing_android]]
+- [[(Amalfitano, Misael, et al., 2025)]]

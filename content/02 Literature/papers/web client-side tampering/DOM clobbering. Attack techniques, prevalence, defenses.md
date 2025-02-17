@@ -52,4 +52,4 @@ A vulnerability analysis component that uses property graphs and traversals for 
 
 ---
 #### References
-- [[ref_dom_clobbering_attack_techniques]]
+- [[(Khodayari, Pellegrino, 2023)]]

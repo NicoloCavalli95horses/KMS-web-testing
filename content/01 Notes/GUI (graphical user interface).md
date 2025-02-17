@@ -15,4 +15,4 @@ There may be also GUIs with:
 - synchronization/timing constraints (e.g. movie players)
 - non-deterministic GUIs (the state of the GUI is not predictable)
 ## References
-[[ref_coverage_criteria_gui_testing]]
+[[(Memon, Soffa, Mary, Pollack, 2001)]]

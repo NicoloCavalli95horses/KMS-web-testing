@@ -44,4 +44,4 @@ The [[canvas DOM element]] is widely used to develop web applications rich in da
 - Testing has additional complexities that are not seen in desktop GUIs
 
 ## References
-[[ref_taxonomy_of_testable_html5_canvas_issues]]
+[[(Macklon, Viggiato, Markos, et al., 2023)]]

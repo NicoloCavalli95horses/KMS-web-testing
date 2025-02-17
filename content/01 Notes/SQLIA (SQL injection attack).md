@@ -57,6 +57,6 @@ Since the condition '1'='1' always evaluates to true, the query returns all rows
 
 ---
 ## References
-- [[ref_overview_sql_injection_detection]]
-- [[ref_common_vulnerabilities_real_world_web_application]]
-- [[ref_bypass_testing_of_web_app]]
+- [[(Xu, Ni, Ming, et al., 2024)]]
+- [[(Krishnaraj, Madaan, et al., 2023)]]
+- [[(Offutt, Wu, Du, 2004)]]

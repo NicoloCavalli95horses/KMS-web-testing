@@ -29,4 +29,4 @@ The user:
 - The result was that the Adobe Flash browser plug-in would share both camera and microphone control with the hacker
 
 ## References
-[[ref_web_application_security_o_reilly]]
+[[(Hoffman, 2024)]]

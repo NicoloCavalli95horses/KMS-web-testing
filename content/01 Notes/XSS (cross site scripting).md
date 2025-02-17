@@ -24,7 +24,7 @@ XSS is similar to [[CSFR (cross-site request forgery)]] in that both rely on cod
 
 ### Prevalence
 
-Two-third of all deployed web applications are vulnerable to XSS attacks, and Cisco 2018 Annual Security Report indicated that 40% of all attacks attempts lead to XSS attacks ([[ref_taxonomy_web_applications_threats]], p.18)
+Two-third of all deployed web applications are vulnerable to XSS attacks, and Cisco 2018 Annual Security Report indicated that 40% of all attacks attempts lead to XSS attacks ([[(Sadqi, Maleh, 2022)]], p.18)
 
 ### Types of XSS attacks
 
@@ -108,7 +108,7 @@ Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, wit
 ---
 ## References
 
-- [[ref_current_state_research_xss]]
-- [[ref_common_vulnerabilities_real_world_web_application]]
+- [[(Isatou, Abu Bakar, et al., 2015)]]
+- [[(Krishnaraj, Madaan, et al., 2023)]]
 - https://portswigger.net/web-security/cross-site-scripting#reflected-cross-site-scripting
-- [[ref_taxonomy_web_applications_threats]]
+- [[(Sadqi, Maleh, 2022)]]

@@ -41,4 +41,4 @@ The [[Prolog (programming language)]] is used to implement the invariant detecto
 
 ---
 ## References
-[[ref_autoinspect_using_missing_test_coverage]]
+[[(Cohen, Myra B., et al., 2012)]]

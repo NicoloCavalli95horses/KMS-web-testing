@@ -22,4 +22,4 @@ By creating a comprehensive dataset of detected co-evolutions, the work of the a
 A limit of the study consists of the overall computational time needed to finalize the detection of co-evolutions, making challenging the replication or the improvement of the whole model.
 
 ## References
-[[ref_untangling_spaghetti_of_evolutions]]
+[[(Dilavrec, Khelladi, Blouin, et al., 2021)]]

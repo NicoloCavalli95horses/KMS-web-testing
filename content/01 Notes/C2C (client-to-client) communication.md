@@ -69,4 +69,4 @@ It allows scripts from one window to safely pass messages to another window, eve
 ---
 #### References
 - https://medium.com/@mrajaeim/understanding-window-postmessage-and-window-parent-postmessage-in-javascript-f09d4eac68ba
-- [[ref_zigzag_web_app_csv]]
+- [[(Weissbacher, Robertson, et al., 2015)]]

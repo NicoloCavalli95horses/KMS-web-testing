@@ -11,4 +11,4 @@ Coverage criteria are sets of rules to help determine whether a test suite has a
 - **structural**: include statement coverage, branch coverage, path coverage
 
 ## References
-[[ref_coverage_criteria_gui_testing]]
+[[(Memon, Soffa, Mary, Pollack, 2001)]]

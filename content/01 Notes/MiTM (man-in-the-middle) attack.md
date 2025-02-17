@@ -18,4 +18,4 @@ In the context of web client-side security, MiTM attacks can compromise the brow
  
 ---
 #### References
-- [[ref_taxonomy_web_applications_threats]]
+- [[(Sadqi, Maleh, 2022)]]
