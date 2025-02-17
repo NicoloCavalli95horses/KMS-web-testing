@@ -26,7 +26,8 @@ We are building the largest archive of software source code ever assembled. We w
 - We will provide unique identifiers, intrinsically bound to the software components. This will ensure that a resilient web of knowledge can be built on top of the Software Heritage archive.
 - Software Heritage will foster the emergence of a variety of services, ranging from documentation to classification, from search to distribution, to release all the potential of this Library of Alexandria of Software.
 
+---
 ## References
-https://www.softwareheritage.org/
-https://en.wikipedia.org/wiki/Software_Heritage
-https://www.inria.fr/en/software-heritage-global-software-archive#:~:text=Inria%20launched%20in%202016%20to,an%20issue%20of%20global%20importance.
+- https://www.softwareheritage.org/
+- https://en.wikipedia.org/wiki/Software_Heritage
+- https://www.inria.fr/en/software-heritage-global-software-archive#:~:text=Inria%20launched%20in%202016%20to,an%20issue%20of%20global%20importance.

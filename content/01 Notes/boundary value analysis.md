@@ -31,5 +31,6 @@ A program score the exams of students:
 - How to get the highest possible grade? And the lowest?
 - What happens if we consider enough students to cover exactly 1 page printout? (to check if blank pages are added by the program)
 
+---
 ## References
-[[04 Test-case Design]]
+- [[04 Test-case Design]]

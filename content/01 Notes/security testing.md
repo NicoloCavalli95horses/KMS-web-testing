@@ -12,5 +12,6 @@ Typical security requirements may include specific elements of ==confidentiality
 
 Actual security requirements tested depend on the security requirements implemented by the system.
 
+---
 ## References
-https://en.wikipedia.org/wiki/Security_testing
+- https://en.wikipedia.org/wiki/Security_testing

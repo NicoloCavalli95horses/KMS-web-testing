@@ -3,6 +3,7 @@ ID: 2025-02-13-09:55
 tags:
   - deadline
   - publication
+  - meta
 ---
 
 | Journal                                                 | Deadline              | Link                                                                |

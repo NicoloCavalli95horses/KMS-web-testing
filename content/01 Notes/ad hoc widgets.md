@@ -10,6 +10,8 @@ tags:
 A simple example of such widgets is the drawing area of graphical editors with which users interact using more complex interactions such as pencil-based or multi-touch interactions.
 
 GUIs containing such widgets are called [[Post-WIMP]] GUIs 
+
+---
 ## References
-[[(Lelli, Blouin, Baudry, 2015a)]]
-[[(Lelli, Blouin, Baudry, 2015b)]]
+- [[(Lelli, Blouin, Baudry, 2015a)]]
+- [[(Lelli, Blouin, Baudry, 2015b)]]

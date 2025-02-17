@@ -1,30 +1,9 @@
 ---
 ID: 2025-02-17-15:38
 tags:
-  - script
   - meta
+  - script
 ---
-```dataviewjs
-const folderPath = dv.pages(`"03 References"`);
-const yearPattern = /\b(19\d{2}|20\d{2}|2100)\b/;
-const tot = folderPath.length;
-
-let yearCounts = {};
-
-for (let note of folderPath) {
-  let match = note.file.name.match(yearPattern);
-  if (match) {
-    let year = match[1];
-    yearCounts[year] = (yearCounts[year] || 0) + 1;
-  }
-}
-
-let sortedYears = Object.entries(yearCounts)
-    .sort((a, b) => b[1] - a[1])
-    .map(([year, count]) => [year, count, ((count / tot) * 100).toFixed(2) + "%"]); 
-
-dv.table(["Years", "N. of References", "Frequency (%)"], sortedYears);
-```
 ### Notes analysis
 
 ```dataviewjs
@@ -48,5 +27,26 @@ dv.table(
 );
 ```
 
+### Papers from year
 
+```dataviewjs
+const folderPath = dv.pages(`"03 References"`);
+const yearPattern = /\b(19\d{2}|20\d{2}|2100)\b/;
+const tot = folderPath.length;
 
+let yearCounts = {};
+
+for (let note of folderPath) {
+  let match = note.file.name.match(yearPattern);
+  if (match) {
+    let year = match[1];
+    yearCounts[year] = (yearCounts[year] || 0) + 1;
+  }
+}
+
+let sortedYears = Object.entries(yearCounts)
+    .sort((a, b) => b[1] - a[1])
+    .map(([year, count]) => [year, count, ((count / tot) * 100).toFixed(2) + "%"]); 
+
+dv.table(["Years", "N. of References", "Frequency (%)"], sortedYears);
+```

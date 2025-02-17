@@ -45,5 +45,6 @@ The total combinations to explore are 37, since:
 
 With 9 tests we can cover all the most important configuration in all the different combinations possible.
 
+---
 ## References
-https://math.nist.gov/coveringarrays/coveringarray.html
+- https://math.nist.gov/coveringarrays/coveringarray.html

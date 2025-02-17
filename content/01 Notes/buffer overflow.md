@@ -87,6 +87,7 @@ for (let i = 0; i < 1e10; i++) {
 
 ```
 
+---
 ## References
 - https://owasp.org/www-community/vulnerabilities/Buffer_Overflow
 - https://www.fortinet.com/resources/cyberglossary/buffer-overflow#:~:text=Also%20known%20as%20a%20buffer,the%20data%20in%20those%20locations.

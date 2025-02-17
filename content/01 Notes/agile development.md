@@ -36,5 +36,7 @@ The Extreme Programming model is one of more popular Agile methodologies that fo
 
 Extreme Testing also requires you to create the test harness, based on the program specification, before you start coding your application.
 - In this way, you design your application to pass the unit tests, thus increasing the probability that it will meet the specification
+
+---
 ## References
-[[09 Testing in the Agile Environment]]
+- [[09 Testing in the Agile Environment]]

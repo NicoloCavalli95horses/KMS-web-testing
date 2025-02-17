@@ -22,7 +22,7 @@ The general idea that functionalities recur in a similar way in the [[GUI (graph
 
 Even if the concept of UI design pattern is not exactly the same of AIF, many UI design patterns turn out to be also AIFs. 
 
-
+---
 ## References
-[[(Mariani, Leonardo, et al., 2018)]]
+- [[(Mariani, Leonardo, et al., 2018)]]
 

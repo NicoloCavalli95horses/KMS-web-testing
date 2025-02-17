@@ -32,6 +32,7 @@ The black box approach only evaluates the *external behavior* of the system. The
 
 Also known as: *data-driven testing, functional testing, closed-box testing, input-output-driven testing*
 
+---
 ## References
-[[(Nidhra, Dondeti, 2012)]]
-[[(Myers et al., 2011)]]
+- [[(Nidhra, Dondeti, 2012)]]
+- [[(Myers et al., 2011)]]

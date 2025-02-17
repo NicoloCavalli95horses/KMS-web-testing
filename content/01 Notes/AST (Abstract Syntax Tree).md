@@ -69,5 +69,6 @@ console.log(JSON.stringify(ast, null, 2));
 
 ```
 
+---
 ## References
-https://en.wikipedia.org/wiki/Abstract_syntax_tree
+- https://en.wikipedia.org/wiki/Abstract_syntax_tree
