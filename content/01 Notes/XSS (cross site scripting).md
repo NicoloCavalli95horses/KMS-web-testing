@@ -43,7 +43,7 @@ Reflected XSS is the simplest variety of cross-site scripting. It arises when an
 </p> // the script is executed
 ```
 
-If the user visit the URL constructed by the attacker, the attacker's script will be executed in the user's browser. The script can retrieve any information or perform any action the user is allowed to perform. Most of the literature has studied on this type of issues. If the user is presented with the dangerous link in an email, for example, this scenario is also called [[phishing attack]].
+If the user visit the URL constructed by the attacker, the attacker's script will be executed in the user's browser. The script can retrieve any information or perform any action the user is allowed to perform. Most of the literature has studied on this type of issues. If the user is presented with the dangerous link in an email, for example, this scenario is also called [[phishing]].
 
 **Stored (persistent/second order XSS)**
 If the system does not validate user input provided from message forums or comment sections, malicious inputs can be stored in the vulnerable app's database.

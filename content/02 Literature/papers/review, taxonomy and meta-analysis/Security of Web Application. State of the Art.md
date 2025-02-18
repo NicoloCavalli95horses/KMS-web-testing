@@ -72,7 +72,7 @@ handling the invalid input is random testing. It does not follow the usual pract
 
 **Biometric-based testing**
 Advanced identification processes may rely on biometrics, that are user's unique characteristics. ==The user behavior on Internet can be analyzed to create an unique profile of the user, which can be used for identification purposes.==
-- behavioral biometrics is a passive monitoring of user characteristics and it is a relatively new research direction
+- [[behavioral biometrics analysis]] is a passive monitoring of user characteristics and it is a relatively new research direction
 
 **Security testing**
 Web application security testing ensures that the system would continue working under predictable attacks.

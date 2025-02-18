@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5a3ad3ab7636dc80",
+            "id": "64bb56289afe9c9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,54 +21,8 @@
               "icon": "lucide-file",
               "title": "Enhancing Front-End Security. Protecting User Data and Privacy in Web Applications"
             }
-          },
-          {
-            "id": "4b8d6824722dc0ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Notes/CSFR (cross-site request forgery).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "CSFR (cross-site request forgery)"
-            }
-          },
-          {
-            "id": "63d32a7d7b8bb6b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Antilibrary/CSRF (cross-site request forgery) token.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "CSRF (cross-site request forgery) token"
-            }
-          },
-          {
-            "id": "fb7122c9ca52a69a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Antilibrary/HTTPS (HyperText Transfer Protocol Secure.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "HTTPS (HyperText Transfer Protocol Secure"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.51103591918945
+    "width": 252.51103591918945
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -141,12 +95,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 References/ref_comparison_js_obfuscator.md",
-                "linksCollapsed": false,
+                "file": "02 Literature/papers/review, taxonomy and meta-analysis/Enhancing Front-End Security. Protecting User Data and Privacy in Web Applications.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ref_comparison_js_obfuscator"
+              "title": "Outgoing links from Enhancing Front-End Security. Protecting User Data and Privacy in Web Applications"
             }
           },
           {
@@ -218,18 +172,31 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "4b8d6824722dc0ee",
+  "active": "64bb56289afe9c9c",
   "lastOpenFiles": [
-    "00 Antilibrary/CSRF (cross-site request forgery) token.md",
-    "01 Notes/CSFR (cross-site request forgery).md",
     "02 Literature/papers/review, taxonomy and meta-analysis/Enhancing Front-End Security. Protecting User Data and Privacy in Web Applications.md",
+    "01 Notes/HTTPS (HyperText Transfer Protocol Secure.md",
+    "03 References/(Tkachenko et al., 2024).md",
+    "01 Notes/Content-security Policy (CSP).md",
+    "03 References/(Solano, Camacho, et al., 2021).md",
+    "00 Antilibrary/behavioral biometrics analysis.md",
+    "00 Antilibrary/browser fingerprinting.md",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
+    "02 Literature/papers/review, taxonomy and meta-analysis/Security of Web Application. State of the Art.md",
+    "02 Literature/papers/buffer overflow/An Empirical Study on Detecting and Fixing Buffer Overflow Bugs.md",
+    "02 Literature/papers/vulnerability management/Demo. Large Scale Analysis on Vulnerability Remediation in Open-Source JavaScript projects.md",
+    "03 References/(Kratky, Chuda, 2018).md",
+    "01 Notes/MiTM (man-in-the-middle) attack.md",
+    "01 Notes/phishing.md",
+    "01 Notes/SQLIA (SQL injection attack).md",
+    "01 Notes/CSFR (cross-site request forgery).md",
+    "00 Antilibrary/CSRF (cross-site request forgery) token.md",
+    "00 Antilibrary/SameSite cookie.md",
     "01 Notes/XSS (cross site scripting).md",
     "00 Antilibrary/static taint analysis.md",
-    "00 Antilibrary/HTTPS (HyperText Transfer Protocol Secure.md",
-    "03 References/(Tkachenko et al., 2024).md",
-    "02 Literature/papers/vulnerability management/Demo. Large Scale Analysis on Vulnerability Remediation in Open-Source JavaScript projects.md",
     "03 References/(Bandara, Rathnayake, et al., 2021).md",
-    "02 Literature/papers/buffer overflow/An Empirical Study on Detecting and Fixing Buffer Overflow Bugs.md",
     "02 Literature/papers/vulnerability management",
     "04 Canvases/meetings/2025_02_20.canvas",
     "06 Meta/To do.md",
@@ -238,23 +205,10 @@
     "06 Meta/scripts/PhD status.md",
     "04 Canvases/papers/paper template.canvas",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/anatomy.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/meetings/2025_02_12.canvas",
     "04 Canvases/meetings/2025_02_06.canvas",
     "01 Notes/RegEx (Regular Expression).md",
     "01 Notes/security testing.md",
-    "01 Notes/sink.md",
-    "01 Notes/sine and cosine.md",
-    "01 Notes/SH (Software Heritage).md",
-    "01 Notes/security testing approaches.md",
-    "01 Notes/CA (covering array).md",
-    "01 Notes/C2C (client-to-client) communication.md",
-    "01 Notes/buffer overflow.md",
-    "01 Notes/BRF (Balance Random Forest).md",
-    "01 Notes/black-box testing.md",
-    "01 Notes/boundary value analysis.md",
     "06 Meta/scripts",
     "Pasted image 20250217120451.png",
     "97 Assets/systematic_literature_review.png",

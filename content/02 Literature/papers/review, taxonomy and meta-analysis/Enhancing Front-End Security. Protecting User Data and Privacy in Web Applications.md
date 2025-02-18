@@ -7,7 +7,7 @@ tags:
 ---
 ## Context
 
-With the growth of online transactions and the use of web applications, users are becoming more vulnerable to cyber-attacks such as identity theft, [[phishing attack]], and other types of fraud.
+With the growth of online transactions and the use of web applications, users are becoming more vulnerable to cyber-attacks such as identity theft, [[phishing]], and other types of fraud.
 - front-end is the first layer of protection for users but also the first target of attacks
 
 The purpose of this study is to identify the most effective security methods and technologies for the front-end, aimed at protecting user data and ensuring their privacy.
@@ -18,8 +18,10 @@ The study includes a comparative analysis and critical review of various front-e
 - [[CSFR (cross-site request forgery)]]
 - [[HTTPS (HyperText Transfer Protocol Secure]]
 - [[XSS (cross site scripting)]]
-- authentication and authorization mechanisms
-
+- authentication and authorization mechanisms:
+	- username, email and password
+	- biometric identification (see [[behavioral biometrics analysis]])
+	- [[sessions token]]
 
 ---
 #### References

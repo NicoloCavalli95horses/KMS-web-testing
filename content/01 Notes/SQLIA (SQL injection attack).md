@@ -7,15 +7,19 @@ tags:
 ## What is a SQLIA
 
 > [!WARNING]
->  Many Web applications use client-supplied data in SQL queries. However, if the application does not strip potentially harmful characters, users, can add SQL statements into their inputs. This is called SQL injection
+>  Many Web applications use client-supplied data in SQL queries. However, if the application does not strip potentially harmful characters, users can add SQL statements into their inputs. This is called SQL injection
 
-A SQL Injection attack occurs when an attacker exploits vulnerabilities in a web application's input validation mechanisms to execute malicious SQL statements. This can result in:
+A SQL Injection attack occurs when an attacker exploits vulnerabilities in a web application's input validation mechanisms to execute malicious SQL statements
+
+### Risks and consequences
+
 - unauthorized access to database information
-- the ability to manipulate or delete data
+- reading, writing, modifying, creating or deleting data
+- extract sensitive information (usernames, passwords, financial data)
 - carry out database administration tasks
 - in some cases, issue commands to the operating system
 
-## A simple example
+## Example
 
 Consider a vulnerable backend that makes use of the following query:
 ```sql
@@ -54,9 +58,12 @@ Since the condition '1'='1' always evaluates to true, the query returns all rows
 - **Parameterised queries:** Many cases of SQLIA can be eliminated simply by using parameterised queries instead of concatenating user input to the SQL query
 - **Whitelisting**: user input should always be treated as untrusted and filtered through a whitelist which only allows some of the input that matches a pattern
 - **Employ verified mechanisms**: do not try to build SQLIA protection from scratch. Most modern programming tools can give you access to SQLIA protection features
+- **Implement [[RBAC (role-based access control)]] policy**: to limit the access to the database
+- **Regular software updates**
 
 ---
 ## References
 - [[(Xu, Ni, Ming, et al., 2024)]]
 - [[(Krishnaraj, Madaan, et al., 2023)]]
 - [[(Offutt, Wu, Du, 2004)]]
+- [[(Tkachenko et al., 2024)]]

@@ -39,7 +39,7 @@ Push notification, managed by web workers can make users click on malicious link
 - The DOM can be manipulated to affect the behavior of a web worker, ==injecting malicious code into a benign web worker==
 - [[IndexedDB]] and Cache API can be used as attack vectors to exploit the SW since they are used in both the SW and the DOM
 - a [[XSS (cross site scripting)]] attack can inject malicious code into a SW, if URL parameters are used to manage a SW
-- a SW can be installed on the computer of a victim, exploiting a [[phishing attack]]. Since the SW works in the background using the computer resources, it is possible to ==conduct crypto-currency mining==, generating darkweb, and conducting [[DDoS (Distributed Denial of Service)]] attacks
+- a SW can be installed on the computer of a victim, exploiting a [[phishing]]. Since the SW works in the background using the computer resources, it is possible to ==conduct crypto-currency mining==, generating darkweb, and conducting [[DDoS (Distributed Denial of Service)]] attacks
 
 **Browser history sniffing**
 Browser history sniffing attacks: a web worker can be exploited to determine whether the users have accessed target sites or not

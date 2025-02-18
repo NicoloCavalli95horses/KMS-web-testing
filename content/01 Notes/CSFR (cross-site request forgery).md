@@ -27,7 +27,9 @@ Common CSFR includes:
 ### Mitigation techniques
 
 - Using [[CSRF (cross-site request forgery) token]]
-- veryfing the source 
+- verifying the source of the request (original header)
+- limiting HTTP request methods
+- using [[SameSite cookie]]
 
 Similar to [[XSS (cross site scripting)]], but focused on performing actions on behalf of an unsuspecting user (see [[XSS and CSFR comparison]]).
 
