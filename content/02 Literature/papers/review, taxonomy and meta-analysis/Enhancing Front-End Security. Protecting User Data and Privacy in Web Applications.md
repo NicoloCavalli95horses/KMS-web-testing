@@ -23,6 +23,11 @@ The study includes a comparative analysis and critical review of various front-e
 	- biometric identification (see [[behavioral biometrics analysis]])
 	- [[sessions token]]
 
+Attacks mitigation and prevention:
+- [[WAFs (web application firewall system)]]
+- [[IDS and IPS (intrusion detection, intrusion prevention system)]]
+- advanced logging monitoring
+
 ---
 #### References
 - [[(Tkachenko et al., 2024)]]
