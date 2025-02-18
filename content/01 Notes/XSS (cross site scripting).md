@@ -66,6 +66,10 @@ You searched for: <img src=1 onerror='/* Bad stuff here... */'>
  
  This is ==the least know type of XSS==
 
+### Typical attacks
+
+- *session theft*: the attacker can steal [[sessions token]] of premium users or admin, getting access to protected resource
+- *content substitution*: malicious forms or redirect pages are injected to steal user credentials ([[(Tkachenko et al., 2024)]])
 
 ### How to find to find XSS vulnerabilities
 
@@ -112,3 +116,4 @@ Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, wit
 - [[(Krishnaraj, Madaan, et al., 2023)]]
 - https://portswigger.net/web-security/cross-site-scripting#reflected-cross-site-scripting
 - [[(Sadqi, Maleh, 2022)]]
+- [[(Tkachenko et al., 2024)]]
