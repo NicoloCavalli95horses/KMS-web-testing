@@ -11,10 +11,17 @@
             "id": "5a3ad3ab7636dc80",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/meetings/2025_02_20.canvas",
+                "viewState": {
+                  "x": 573.2894525879175,
+                  "y": 402.43349034134394,
+                  "zoom": -0.1710101148552171
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "2025_02_20"
             }
           }
         ]
