@@ -11,15 +11,17 @@
             "id": "6fb8ab18136c0e28",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "02 Literature/papers/privacy/Apathy, convenience or irrelevance. Identifying conceptual barriers to safeguarding children’s data privacy.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/meetings/2025_02_20.canvas",
+                "viewState": {
+                  "x": 1778.2507394015552,
+                  "y": 165.0324939134266,
+                  "zoom": -0.4213474320691699
+                }
               },
-              "icon": "lucide-file",
-              "title": "Apathy, convenience or irrelevance. Identifying conceptual barriers to safeguarding children’s data privacy"
+              "icon": "lucide-layout-dashboard",
+              "title": "2025_02_20"
             }
           }
         ]
@@ -174,8 +176,11 @@
   },
   "active": "6fb8ab18136c0e28",
   "lastOpenFiles": [
-    "03 References/(Keen, 2022).md",
+    "06 Meta/scripts/References analysis.md",
+    "06 Meta/scripts/PhD status.md",
     "02 Literature/papers/privacy/Apathy, convenience or irrelevance. Identifying conceptual barriers to safeguarding children’s data privacy.md",
+    "01 Notes/privacy.md",
+    "03 References/(Keen, 2022).md",
     "02 Literature/papers/privacy",
     "02 Literature/papers/review, taxonomy and meta-analysis/Enhancing Front-End Security. Protecting User Data and Privacy in Web Applications.md",
     "02 Literature/papers/review, taxonomy and meta-analysis/A Taxonomy of Web Security Vulnerabilities.md",
@@ -203,9 +208,6 @@
     "01 Notes/phishing.md",
     "01 Notes/SQLIA (SQL injection attack).md",
     "01 Notes/CSFR (cross-site request forgery).md",
-    "00 Antilibrary/CSRF (cross-site request forgery) token.md",
-    "00 Antilibrary/SameSite cookie.md",
-    "01 Notes/XSS (cross site scripting).md",
     "02 Literature/papers/vulnerability management",
     "04 Canvases/meetings/2025_02_20.canvas",
     "04 Canvases/papers/paper template.canvas",
