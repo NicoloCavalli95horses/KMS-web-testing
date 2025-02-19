@@ -6,13 +6,11 @@ tags:
 ---
 ## Definition
 
-Mental models are described as internal models of the external world
-- Their crucial feature is that ==they mimic the causal structure of some real world entity or process==
-- Mental models simulate real-world processes under various conditions, which is the basis of the decision-making faculty.
-
-Our models of the world get richer with experience, which enables more
-true-to-life simulations, and therefore better decisions.
-
+Mental models are described as internal representation of the external world
+- ==they mimic the causal structure of real world to guide the behavior==
+- they at the basis of the decision-making faculty
+- our models of the world get richer with experience, which enables more true-to-life simulations, and therefore better decisions
+- more detailed mental models are not necessarily more useful, and the amount of accuracy needed to make good predictions depends on one’s goals
 ### How a mental model is built
 
 - users develop a mental model as a result of interacting with the user interface
