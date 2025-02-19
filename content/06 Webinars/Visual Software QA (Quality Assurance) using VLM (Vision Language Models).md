@@ -13,7 +13,7 @@ All the example comes from games
 - most of the testing for game is done manually
 
 ![[bugs_in_games.png]]
-fig.1
+*fig.1*
 
 Bugs in games:
 - bodies in unnatural position
@@ -39,6 +39,48 @@ What do a VLM need to create test oracles in fig.1?
 - identify the table cloth
 - identify wrong pattern on the table cloth
 
-**GlitchBench**: 593 images and descriptions of video game glitches from 205 games
+**GlitchBench**: 593 images and descriptions of video game glitches from 205 games (https://glitchbench.github.io/)
 
+ChatGPT is already pretty good at distinguish between legitimate images and images in which the physics is broken
 
+*Rendering and texture bugs are the most common in the game industry*
+
+Models like ChatGPT are trained to **ignore defects on human faces, in order to be politically correct**:
+- As a result, ChatGPT cannot detect bugs in rendering faces in NPC or main players' avatars in a game
+
+**Bugs detection capabilities of VLM in HTML [[canvas DOM element]]**
+- many of these apps are 2D, non-realistic games
+- the canvas is hard to test because it is not represented in the DOM, so VLM can be useful in this context
+
+20 open source canvas applications, 100 screenshots
+- 1 bug-free image
+- 4 buggy images per application
+
+In 2D non-realistic games VLM cannot rely as much on their understanding of the world (approx. 26% accuracy)
+
+How to improve the models?
+- create bigger models, o a model tailored for this kind of tasks
+- specialized models can lead to vendor lock-in
+- better prompts: giving extra context about the application improve the accuracy of the model's response
+
+**Providing extra context about an application**
+- README file which include info about the type of application, its features, game rules, etc
+- description of the types of bugs we are looking for
+	- it is difficult to create valid bugs taxonomies because usually a bug is caused by multiple factors
+- bug-free screenshot to comparison: it gives the biggest improvement to a model
+- examples of image assets
+
+**A model fine-tuned for video games understanding**: VideoGameBunny
+- https://videogamebunny.github.io
+- trained on YouTube gameplay videos: frames were extracted and labels were provided for each frame
+
+Result of the training:
+
+![[LLM_trained_for_videogames.png]]
+
+3K questions about common sense were asked to the model. A 73.3% of accuracy was achieved
+
+---
+
+Email: bezemer@ualberta.ca
+Website: https://asgaard.ece.ualberta.ca

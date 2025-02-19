@@ -21,7 +21,7 @@ help users better protect themselves from cyberattacks. The basic idea is to ==c
 ## Approach
 
 Qualitative description of visual design patterns based on cognitive science literature and on the result of a focus group:
-- [[mental models]] are described as internal models of the external world
+- [[mental model]] are described as internal models of the external world
 - Their crucial feature is that they mimic the causal structure of some real world entity or process
 - Creating the right mental model could improve the attitude of the end-user towards his/her own digital security
 
