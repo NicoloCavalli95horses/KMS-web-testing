@@ -11,17 +11,15 @@
             "id": "6fb8ab18136c0e28",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/meetings/2025_02_20.canvas",
-                "viewState": {
-                  "x": 1694.685048599856,
-                  "y": 151.03940538279198,
-                  "zoom": -0.31276683544514006
-                }
+                "file": "03 References/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "2025_02_20"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ]
@@ -176,6 +174,8 @@
   },
   "active": "6fb8ab18136c0e28",
   "lastOpenFiles": [
+    "04 Canvases/meetings/2025_02_20.canvas",
+    "03 References/Untitled.md",
     "06 Meta/scripts/References analysis.md",
     "06 Meta/scripts/PhD status.md",
     "02 Literature/papers/privacy/Apathy, convenience or irrelevance. Identifying conceptual barriers to safeguarding children’s data privacy.md",
@@ -206,10 +206,7 @@
     "03 References/(Kratky, Chuda, 2018).md",
     "01 Notes/MiTM (man-in-the-middle) attack.md",
     "01 Notes/phishing.md",
-    "01 Notes/SQLIA (SQL injection attack).md",
-    "01 Notes/CSFR (cross-site request forgery).md",
     "02 Literature/papers/vulnerability management",
-    "04 Canvases/meetings/2025_02_20.canvas",
     "04 Canvases/papers/paper template.canvas",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/anatomy.canvas",
     "04 Canvases/meetings/2025_02_12.canvas",
