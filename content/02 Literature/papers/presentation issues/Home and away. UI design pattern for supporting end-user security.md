@@ -54,7 +54,16 @@ Help users minimize their attractiveness to attackers
 
 **Stay in touch**
 Alert users of suspicious activity while they are away, and help them take action to secure their services. Provide users with a conspicuous alert of any suspicious activity taking place on their accounts while they are away
+- power off a device while the user is away if suspicious activity is detected
 
+**Prepare for the worst**
+Help users save state elsewhere and provide advice to aid recovery after a successful attack.
+- suggest backup systems and recovery options
+
+### Conclusions
+
+- security information is largely hidden from UIs. This information may be buried in menus, may require the use of arcane tools to find, or may not be available for anyone
+- The low visibility of security information is a missed opportunity for educating users about security, better preparing them to protect themselves
 
 ---
 #### References

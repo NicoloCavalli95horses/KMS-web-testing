@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/presentation issues/Home and away. UI design pattern for supporting end-user security.md",
+                "file": "06 Webinars/Visual Software Quality Assurance using VLM (Vision Language Models).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Home and away. UI design pattern for supporting end-user security"
+              "title": "Visual Software Quality Assurance using VLM (Vision Language Models)"
             }
           }
         ]
@@ -174,16 +174,19 @@
   },
   "active": "6fb8ab18136c0e28",
   "lastOpenFiles": [
-    "01 Notes/mental models.md",
+    "97 Assets/bugs_in_games.png",
     "02 Literature/papers/presentation issues/Home and away. UI design pattern for supporting end-user security.md",
+    "06 Webinars/Visual Software Quality Assurance using VLM (Vision Language Models).md",
+    "06 Webinars",
+    "04 Canvases/meetings/2025_02_20.canvas",
+    "01 Notes/mental models.md",
     "02 Literature/papers/presentation issues/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md",
     "02 Literature/papers/presentation issues/Classifying and qualifying GUI defects.md",
     "02 Literature/papers/presentation issues/A taxonomy of testable HTML5 Canvas Issues.md",
     "03 References/(Spero, Biddle, 2020).md",
     "03 References/(Zhou, Zhang, Qian, et al., 2024).md",
-    "04 Canvases/meetings/2025_02_20.canvas",
-    "06 Meta/scripts/References analysis.md",
-    "06 Meta/scripts/PhD status.md",
+    "96 Meta/scripts/References analysis.md",
+    "96 Meta/scripts/PhD status.md",
     "02 Literature/papers/privacy/Apathy, convenience or irrelevance. Identifying conceptual barriers to safeguarding children’s data privacy.md",
     "01 Notes/privacy.md",
     "03 References/(Keen, 2022).md",
@@ -202,17 +205,15 @@
     "01 Notes/Content-security Policy (CSP).md",
     "03 References/(Solano, Camacho, et al., 2021).md",
     "00 Antilibrary/behavioral biometrics analysis.md",
-    "00 Antilibrary/browser fingerprinting.md",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "02 Literature/papers/review, taxonomy and meta-analysis/Security of Web Application. State of the Art.md",
     "02 Literature/papers/vulnerability management",
     "04 Canvases/papers/paper template.canvas",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/anatomy.canvas",
     "04 Canvases/meetings/2025_02_12.canvas",
     "04 Canvases/meetings/2025_02_06.canvas",
-    "06 Meta/scripts",
+    "96 Meta/scripts",
     "Pasted image 20250217120451.png",
     "97 Assets/systematic_literature_review.png",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/paper structure.canvas",
@@ -220,7 +221,6 @@
     "04 Canvases/mind maps",
     "04 Canvases/papers",
     "02 Literature/papers/service worker vulnerabilities",
-    "06 Meta",
     "04 Canvases/client-side tampering/dataset.canvas",
     "97 Assets/causes_of_flakiness.png",
     "97 Assets/flaky_ui_test_findings.png",
