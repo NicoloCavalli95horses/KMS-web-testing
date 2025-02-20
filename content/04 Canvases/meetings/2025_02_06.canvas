@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"fd118f4ceeb5a041","type":"group","x":1960,"y":640,"width":660,"height":450,"label":"Finding Client-side Business Flow Tampering Vulnerabilities"},
+		{"id":"fd118f4ceeb5a041","type":"group","x":1960,"y":640,"width":940,"height":450,"label":"Finding Client-side Business Flow Tampering Vulnerabilities"},
 		{"id":"3c8639ce56d0f691","type":"group","x":1960,"y":280,"width":940,"height":280,"label":"BFTDETECTOR: Automatic Detection of Business Flow Tampering"},
 		{"id":"411fd2e6dfc94ac8","type":"text","text":"- [[paywalls]] bypass\n- advertisement bypass\n- access to sensitive information\n- unauthorized financial transactions (for online surveys or betting platforms)","x":-120,"y":520,"width":545,"height":240,"color":"1"},
 		{"id":"44bdd01f322ca15b","type":"text","text":"tampering ==global objects== (window, document, localStorage, ...) injecting HTML tags (see [[DOM clobbering]])","x":-147,"y":140,"width":367,"height":180},

@@ -3,9 +3,7 @@
 		{"id":"e739066a889cc44a","type":"text","text":"#### Context\n- With Web 2.0, more and more functionalities and business logic were pushed to the client-side, because client technologies allowed to lighten the server load and to improve the user experience at the same time\n- JavaScript, a scripting language born to enrich web pages has become one of the most popular programming language, with hundreds of framework built by a huge community\n- as the importance of client-side logic increases, the variety of weaknesses and attack opportunities also increases, because\n\t- (i) web applications are becoming increasingly difficult to test\n\t- (ii) new weaknesses have emerged precisely because of the increased complexity (e.g., dependency or framework related issues)\n\t-  (iii) more advanced attacks have been noticed","x":-40,"y":-822,"width":740,"height":742},
 		{"id":"e2c5ade81191ced7","type":"text","text":"# Introduction","x":-500,"y":-460,"width":300,"height":101},
 		{"id":"844ae91e55f7c8a9","type":"text","text":"#### Rationale of the study\n- even if a number of taxonomies of vulnerabilities has been proposed in web security, there is a lack of focus in the client-side\n- client-side vulnerabilities deserve attention, because severe damages could be done to both businesses and end-users\n- this comprehensive review suggests a frame to unify and better understanding the research efforts that have been down in this field\n- a good classification can help identifying problems faster, and educating software developers and security specialists to design better software\n","x":800,"y":-822,"width":760,"height":742},
-		{"id":"53f28683be872b57","type":"text","text":"#### Contributions and paper structure\n","x":1680,"y":-822,"width":760,"height":742},
-		{"id":"0c533e5f63497931","type":"text","text":"#### Threads to validity","x":-20,"y":3538,"width":760,"height":622},
-		{"id":"2551d789286e16f1","type":"text","text":"#### Related works","x":800,"y":3538,"width":760,"height":622}
+		{"id":"53f28683be872b57","type":"text","text":"#### Contributions and paper structure\n","x":1680,"y":-822,"width":760,"height":742}
 	],
 	"edges":[]
 }

@@ -5,6 +5,7 @@ tags:
   - cyberSecurity
   - clientSideAttacks
   - parallelComputing
+  - serviceWorker
 ---
 ## Context
 

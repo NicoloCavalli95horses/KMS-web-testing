@@ -10,7 +10,8 @@ tags:
 
 *Tabnabbing* and *reverse tabnabbing* are a form of client-side attack that
 combines elements of:
-- phishing attacks (that trick the end user into interacting with a malicious web page) 
+- [[phishing]]
+- attacks (that trick the end user into interacting with a malicious web page) 
 - redirect attacks (attacks that redirect to a malicious web page)
 
 ### How does it work?
@@ -42,5 +43,6 @@ function goToLegitWebsite() {
 };
 ```
 
+---
 ## References
-[[(Hoffman, 2024)]]
+- [[(Hoffman, 2024)]]

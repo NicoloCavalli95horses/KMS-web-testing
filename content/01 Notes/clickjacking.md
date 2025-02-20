@@ -28,5 +28,6 @@ The user:
 - When interacting with the clickjacking web page, the end user was tricked into passing clicks through to the privileged Adobe Flash privacy settings
 - The result was that the Adobe Flash browser plug-in would share both camera and microphone control with the hacker
 
+---
 ## References
-[[(Hoffman, 2024)]]
+- [[(Hoffman, 2024)]]

@@ -7,7 +7,6 @@
 		{"id":"acf32acdb8c3664a","type":"text","text":"### mixed approaches","x":-451,"y":586,"width":312,"height":60},
 		{"id":"c2d518c6238d9c7e","type":"text","text":"### black-box testing","x":-915,"y":596,"width":350,"height":50},
 		{"id":"b60c743cf034db82","type":"text","text":"## output analysis (presentation layer)","x":174,"y":-368,"width":370,"height":123,"color":"2"},
-		{"id":"b7e24bf0c956fd02","type":"text","text":"Analyzing GUIs output (graphical rendering)\n- visual consistency ([[JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency]])\n- HTML5 Canvas related issues ([[A taxonomy of testable HTML5 Canvas Issues]])\n- GUI defects ([[Classifying and qualifying GUI defects]])","x":139,"y":-894,"width":440,"height":444},
 		{"id":"dee53fec36b24cdb","type":"text","text":"Software repair, recommendation, patching:\n- code synthesis ([[Automatic program repair]])\n- recommendation engines (software linting)\n- evolutionary computation (machine learning, [[GA (genetic algorithm)]])","x":-504,"y":-925,"width":380,"height":487},
 		{"id":"95a12bc86762f9fc","type":"text","text":"## proactive approaches","x":-489,"y":-368,"width":350,"height":136,"color":"2"},
 		{"id":"6ca3589bc5f41400","type":"text","text":"**Automatic methods**\n- [[logic coverage testing]]\n- [[unit testing]]: [[non-incremental (big-bang) unit testing]], [[incremental or integration testing]]\n","x":-112,"y":754,"width":325,"height":326},
@@ -20,7 +19,8 @@
 		{"id":"b3c0e3324d4558f8","type":"text","text":"Analyzing GUIs vulnerability ([[security testing]]):\n- [[ReDoS (Regular Expression Denial of Service)]] attacks\n- [[SQLIA (SQL injection attack)]]\n- dependencies issues [[Managing security vulnerabilities introduced by dependencies in React.js]]\n- [[recovery testing]]\n- [[GEMs (GUI Element Misuse)]] vulnerabilities\n- [[drive-by downloads]] vulnerabilities\n- [[tabnabbing]]\n- [[clickjacking]]\n- [[XSS (cross site scripting)]]\n- [[DOM clobbering]]\n- ...","x":760,"y":-240,"width":608,"height":601},
 		{"id":"cbbddaf863f57b40","type":"text","text":"Analyzing GUIs behavior:\n- interaction flow and event sequences ([[EFG (event flow graph)]], [[ESG (event sequence graph)]])\n- clickstream analysis ([[Markov’s chain and clickstream analysis]])\n- [[static analysis]], [[dynamic analysis]], [[concolic execution]], [[symbolic execution]]\n- Events sequences analysis with [[LM (word n-gram language model)]]","x":-1475,"y":-306,"width":560,"height":410},
 		{"id":"be27fee0e5084d0a","type":"text","text":"Manipulate extracted events sequences:\n- reduce combinatorial explosion with [[CA (covering array)]]","x":-1475,"y":153,"width":560,"height":147},
-		{"id":"aa999716a5f7163c","type":"text","text":"Automatically generate and execute GUI tests","x":-1475,"y":349,"width":560,"height":98}
+		{"id":"aa999716a5f7163c","type":"text","text":"Automatically generate and execute GUI tests","x":-1475,"y":349,"width":560,"height":98},
+		{"id":"b7e24bf0c956fd02","type":"text","text":"Analyzing GUIs output (graphical rendering)\n- visual consistency ([[JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency]])\n- HTML5 Canvas related issues ([[A taxonomy of testable HTML5 Canvas Issues]])\n- GUI defects ([[Classifying and qualifying GUI defects]])","x":69,"y":-882,"width":581,"height":444}
 	],
 	"edges":[
 		{"id":"204e9272a4afae51","fromNode":"cbbddaf863f57b40","fromSide":"bottom","toNode":"be27fee0e5084d0a","toSide":"top"},
