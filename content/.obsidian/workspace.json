@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/meetings/2025_02_20.canvas",
                 "viewState": {
-                  "x": 9021.215674685838,
-                  "y": 792.2074221050348,
-                  "zoom": 0
+                  "x": 6555.931971526436,
+                  "y": 585.2408464283747,
+                  "zoom": -0.6614468993293451
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -44,7 +44,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -176,9 +176,14 @@
   },
   "active": "6fb8ab18136c0e28",
   "lastOpenFiles": [
+    "04 Canvases/meetings/2025_02_06.canvas",
+    "04 Canvases/meetings/2025_02_12.canvas",
+    "04 Canvases/meetings/2025_02_20.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "97 Assets/canva_business_model.png",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/anatomy.canvas",
-    "04 Canvases/meetings/2025_02_20.canvas",
     "01 Notes/SLR (systematic literature review).md",
     "index.md",
     "01 Notes/phishing.md",
@@ -210,13 +215,8 @@
     "IDS/IPS (intrusion detection/prevention system).md",
     "IDS/IPS (intrusion detection",
     "IDS",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "02 Literature/papers/vulnerability management",
     "04 Canvases/papers/paper template.canvas",
-    "04 Canvases/meetings/2025_02_12.canvas",
-    "04 Canvases/meetings/2025_02_06.canvas",
     "96 Meta/scripts",
     "Pasted image 20250217120451.png",
     "97 Assets/systematic_literature_review.png",
@@ -230,7 +230,6 @@
     "97 Assets/flaky_ui_test_findings.png",
     "97 Assets/using_human_testers_building_web_crawler.png",
     "97 Assets/bft_img_question.png",
-    "Pasted image 20250206095811.png",
-    "97 Assets/dom_clobbering_types.png"
+    "Pasted image 20250206095811.png"
   ]
 }
