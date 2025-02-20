@@ -1,5 +1,6 @@
 {
 	"nodes":[
+		{"id":"8325a7e2ed9b25a0","x":8860,"y":560,"width":250,"height":60,"type":"text","text":""},
 		{"id":"212b3a3e4427f2c1","type":"text","text":"## database selection","x":261,"y":1686,"width":438,"height":155},
 		{"id":"82beab9a838c73a9","type":"text","text":"| Database       | Query                                                                                                                                                                                                                                      | Results |\n| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |\n| Google Scholar | Title:<br><br>`allintitle: (\"client\" OR \"ui\" OR \"gui\" OR \"javascript\" OR \"web application\" OR \"web applications\") AND (\"security\" OR \"vulnerability\" OR \"issue\" OR \"tampering\" OR \"exploitation\" OR \"hijack\") -\"mobile\" -\"android\" -\"ios\"` | 212     |","x":1058,"y":1118,"width":742,"height":342},
 		{"id":"9a02d9dec8d4616b","type":"text","text":"| IEEE Xplore | Title:<br><br>`((\"Document Title\": \"gui\") OR (\"Document Title\": \"ui\") OR (\"Document Title\": \"client\") OR (\"Document Title\": \"javascript\") OR (\"Document Title\": \"front-end\") OR (\"Document Title\": \"web application\") OR (\"Document Title\": \"web applications\")) AND ((\"Document Title\": \"vulnerability\") OR (\"Document Title\": \"security\")) NOT (\"All Metadata\": \"mobile\") NOT (\"All Metadata\": \"android\") NOT (\"All Metadata\": \"ios\")` | 123 |\n| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |\n","x":1060,"y":1490,"width":740,"height":404},
@@ -18,18 +19,25 @@
 		{"id":"78c8e3482f006f12","type":"text","text":"# [[SLR (systematic literature review)]] design\n\n  ","x":-720,"y":670,"width":800,"height":250},
 		{"id":"30ccbb62d757428c","type":"text","text":"How to automatically get all the PDFs to avoid manual work?","x":2600,"y":1819,"width":360,"height":150,"color":"3"},
 		{"id":"6215d611ad4876aa","type":"text","text":"How to reduce the total number?","x":2600,"y":1617,"width":360,"height":150,"color":"3"},
-		{"id":"afd045899704cd3d","type":"text","text":"Access the React renderer interface object with:\n `const globalHook = window.__REACT_DEVTOOLS_GLOBAL_HOOK__?.rendererInterfaces?.get(1);`","x":4800,"y":-108,"width":1140,"height":110},
-		{"id":"b74ebcea77960e5f","type":"text","text":"Get the `id` of a React component from its DOM element wrapper:\n`const id = rendererInterface.getElementIDForHostInstance(DOMel)`","x":4800,"y":52,"width":1140,"height":120},
-		{"id":"6c4198f4398abbc6","type":"text","text":"Given the `id`, it is possible to access the `props`:\n`const props = rendererInterface.getElementAttributeByPath(id, [\"props\"]);`","x":4800,"y":232,"width":1140,"height":140},
-		{"id":"decebce51502ef59","type":"text","text":"Modify the props as it is needed:\n`props.result.template.Az = \"none\";`\n","x":4800,"y":412,"width":1140,"height":128},
-		{"id":"8d61f6d3e77d5147","type":"text","text":"Confirm the update with an override method:\n`rendererInterface.overrideValueAtPath( {id, path: [\"props\", \"result\", \"template\", \"Az\"], value: \"none\", hookID: null} );``","x":4800,"y":582,"width":1140,"height":160},
-		{"id":"117e7fb562b4dcbb","type":"text","text":"- Now the state of the component has been changed successfully, but the current state that is being used is not changed in real time\n- The component ==must be unmounted and remounted==\n- There are no built-in methods to force this re-rendering behavior, but since we are dealing with DOM elements inside a tab, ==closing and reopening the tab will make the update happen==","x":4800,"y":792,"width":1140,"height":260},
-		{"id":"fbdb7a89e3c36cab","type":"text","text":"It is possible to edit the components state of a React application in production, with a TamperMonkey script","x":5130,"y":1092,"width":480,"height":140,"color":"4"},
-		{"id":"2629f159bdfdc928","x":6000,"y":391,"width":400,"height":170,"color":"3","type":"text","text":"**Limits**: the prop name can change due to software updates or building configuration"},
-		{"id":"ccc1e648f5956107","type":"text","text":"# Canva.com tampering","x":5140,"y":-280,"width":460,"height":98},
-		{"id":"aa17b1705ef41886","x":7320,"y":400,"width":420,"height":220,"type":"text","text":"**Easter's holidays**\n- from 21st to 25th April holidays\n- from 28th to 2nd of May remote working from Italy"},
-		{"id":"0c9abad180ed7c04","x":7800,"y":400,"width":300,"height":220,"type":"text","text":"**CSI constitution**\nFinding an external supervisor to complete the CSI constitution"},
-		{"id":"eb9ce5b5cf5fad45","x":7604,"y":280,"width":273,"height":74,"type":"text","text":"## Reminders"}
+		{"id":"ccc1e648f5956107","type":"text","text":"# Canva.com tampering","x":5990,"y":102,"width":460,"height":98},
+		{"id":"27165234050e0506","x":5560,"y":556,"width":540,"height":80,"type":"text","text":"### can damage the company business"},
+		{"id":"dfb302f224375f00","x":4900,"y":705,"width":590,"height":318,"type":"text","text":"- **Template Creators**: They focus on designing and selling templates for different purposes such as presentations, social media, and more.\n- **Element Creators**: They create and sell individual design elements that can be used in Canva designs.\n- **Education Specialty Creators**: They specialize in creating educational resources and templates for teachers and students."},
+		{"id":"c400d2f318eb59b8","x":4960,"y":556,"width":470,"height":80,"type":"text","text":"### can damage content creators"},
+		{"id":"96ae0d90888a90bd","type":"file","file":"97 Assets/canva_business_model.png","x":4990,"y":1100,"width":440,"height":289},
+		{"id":"1345da99c0c954ca","x":4990,"y":1421,"width":440,"height":60,"type":"text","text":"https://www.canva.com/contributors/"},
+		{"id":"1f8977f732655e02","x":4990,"y":1501,"width":440,"height":60,"type":"text","text":"https://www.canva.com/creators/"},
+		{"id":"b367912423545a00","x":6930,"y":370,"width":180,"height":60,"type":"text","text":"## How"},
+		{"id":"b74ebcea77960e5f","type":"text","text":"Get the `id` of a React component from its DOM element wrapper:\n`const id = rendererInterface.getElementIDForHostInstance(DOMel)`","x":6450,"y":715,"width":1140,"height":120},
+		{"id":"6c4198f4398abbc6","type":"text","text":"Given the `id`, it is possible to access the `props`:\n`const props = rendererInterface.getElementAttributeByPath(id, [\"props\"]);`","x":6450,"y":895,"width":1140,"height":140},
+		{"id":"decebce51502ef59","type":"text","text":"Modify the props as it is needed:\n`props.result.template.Az = \"none\";`\n","x":6450,"y":1075,"width":1140,"height":128},
+		{"id":"8d61f6d3e77d5147","type":"text","text":"Confirm the update with an override method:\n`rendererInterface.overrideValueAtPath( {id, path: [\"props\", \"result\", \"template\", \"Az\"], value: \"none\", hookID: null} );``","x":6450,"y":1245,"width":1140,"height":160},
+		{"id":"117e7fb562b4dcbb","type":"text","text":"- Now the state of the component has been changed successfully, but the current state that is being used is not changed in real time\n- The component ==must be unmounted and remounted==\n- There are no built-in methods to force this re-rendering behavior, but since we are dealing with DOM elements inside a tab, ==closing and reopening the tab will make the update happen==","x":6450,"y":1455,"width":1140,"height":260},
+		{"id":"fbdb7a89e3c36cab","type":"text","text":"It is possible to edit the components state of a React application in production, with a TamperMonkey script","x":6780,"y":1755,"width":480,"height":140,"color":"4"},
+		{"id":"afd045899704cd3d","type":"text","text":"Access the React renderer interface object with:\n `const globalHook = window.__REACT_DEVTOOLS_GLOBAL_HOOK__?.rendererInterfaces?.get(1);`","x":6450,"y":555,"width":1140,"height":110},
+		{"id":"e377bf3b3d944cbe","x":5430,"y":370,"width":160,"height":60,"type":"text","text":"## Who\n"},
+		{"id":"0c9abad180ed7c04","type":"text","text":"**CSI constitution**\nFinding an external supervisor to complete the CSI constitution","x":8860,"y":1000,"width":420,"height":220},
+		{"id":"aa17b1705ef41886","type":"text","text":"**Easter's holidays**\n- from 21st to 25th April holidays\n- from 28th to 2nd of May remote working from Italy","x":8860,"y":734,"width":420,"height":220},
+		{"id":"eb9ce5b5cf5fad45","type":"text","text":"## Reminders","x":8460,"y":844,"width":273,"height":74}
 	],
 	"edges":[
 		{"id":"ef927b7e12c651af","fromNode":"afd045899704cd3d","fromSide":"bottom","toNode":"b74ebcea77960e5f","toSide":"top"},
@@ -38,7 +46,6 @@
 		{"id":"98cbd1d07099a654","fromNode":"decebce51502ef59","fromSide":"bottom","toNode":"8d61f6d3e77d5147","toSide":"top"},
 		{"id":"cd59184408f33f28","fromNode":"8d61f6d3e77d5147","fromSide":"bottom","toNode":"117e7fb562b4dcbb","toSide":"top"},
 		{"id":"f4a459a6b95b44db","fromNode":"117e7fb562b4dcbb","fromSide":"bottom","toNode":"fbdb7a89e3c36cab","toSide":"top"},
-		{"id":"7a8a72800a82106b","fromNode":"ccc1e648f5956107","fromSide":"bottom","toNode":"afd045899704cd3d","toSide":"top"},
 		{"id":"74baf100b84a0df1","fromNode":"58af246e98bd0d32","fromSide":"right","toNode":"5750dcef603a3229","toSide":"left"},
 		{"id":"443284e5339d11c3","fromNode":"78c8e3482f006f12","fromSide":"right","toNode":"58af246e98bd0d32","toSide":"left"},
 		{"id":"7bdeffba9975100d","fromNode":"78c8e3482f006f12","fromSide":"right","toNode":"212b3a3e4427f2c1","toSide":"left"},
@@ -54,6 +61,11 @@
 		{"id":"3ba78b17027961b5","fromNode":"58af246e98bd0d32","fromSide":"right","toNode":"c18f2ddf3484bffb","toSide":"left"},
 		{"id":"a661126c65018bf7","fromNode":"58af246e98bd0d32","fromSide":"right","toNode":"1d421055c5316c80","toSide":"left"},
 		{"id":"f5633cd11b76209a","fromNode":"58af246e98bd0d32","fromSide":"right","toNode":"24902cb4ea3162c3","toSide":"left"},
-		{"id":"5c0cb6b4a80646f5","fromNode":"decebce51502ef59","fromSide":"right","toNode":"2629f159bdfdc928","toSide":"left"}
+		{"id":"13d588313302e001","fromNode":"c400d2f318eb59b8","fromSide":"bottom","toNode":"dfb302f224375f00","toSide":"top"},
+		{"id":"901afaa861fcf90d","fromNode":"b367912423545a00","fromSide":"bottom","toNode":"afd045899704cd3d","toSide":"top"},
+		{"id":"8b1dd4b645191b1c","fromNode":"ccc1e648f5956107","fromSide":"bottom","toNode":"b367912423545a00","toSide":"top"},
+		{"id":"bb0e81353441e4fb","fromNode":"ccc1e648f5956107","fromSide":"bottom","toNode":"e377bf3b3d944cbe","toSide":"top"},
+		{"id":"3897dc544906f64d","fromNode":"e377bf3b3d944cbe","fromSide":"bottom","toNode":"c400d2f318eb59b8","toSide":"top"},
+		{"id":"fb1ef52e44826153","fromNode":"e377bf3b3d944cbe","fromSide":"bottom","toNode":"27165234050e0506","toSide":"top"}
 	]
 }
