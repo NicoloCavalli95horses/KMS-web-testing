@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/meetings/2025_02_20.canvas",
                 "viewState": {
-                  "x": 6555.931971526436,
-                  "y": 585.2408464283747,
-                  "zoom": -0.6614468993293451
+                  "x": 2108.8127155638945,
+                  "y": 1601.5634728972136,
+                  "zoom": -1.5275609511919686
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -176,9 +176,10 @@
   },
   "active": "6fb8ab18136c0e28",
   "lastOpenFiles": [
-    "04 Canvases/meetings/2025_02_06.canvas",
     "04 Canvases/meetings/2025_02_12.canvas",
+    "04 Canvases/meetings/2025_02_06.canvas",
     "04 Canvases/meetings/2025_02_20.canvas",
+    "06 Webinars/Visual Software QA (Quality Assurance) using VLM (Vision Language Models).md",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
@@ -192,7 +193,6 @@
     "01 Notes/mental model.md",
     "02 Literature/papers/presentation issues/Home and away. UI design pattern for supporting end-user security.md",
     "02 Literature/papers/presentation issues/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md",
-    "06 Webinars/Visual Software QA (Quality Assurance) using VLM (Vision Language Models).md",
     "03 References/(Spero, Biddle, 2020).md",
     "03 References/(Spero, Biddle, 2021).md",
     "97 Assets/LLM_trained_for_videogames.png",
