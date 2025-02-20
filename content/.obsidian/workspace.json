@@ -11,18 +11,33 @@
             "id": "6fb8ab18136c0e28",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "01 Notes/phishing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/meetings/2025_02_20.canvas",
+                "viewState": {
+                  "x": 7617.860284997301,
+                  "y": 467.98182724991716,
+                  "zoom": -0.30429029831201493
+                }
               },
-              "icon": "lucide-file",
-              "title": "phishing"
+              "icon": "lucide-layout-dashboard",
+              "title": "2025_02_20"
+            }
+          },
+          {
+            "id": "52c68402031cb0aa",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -54,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "phishing",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,8 +90,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -173,8 +187,13 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "6fb8ab18136c0e28",
+  "active": "52c68402031cb0aa",
   "lastOpenFiles": [
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/anatomy.canvas",
+    "04 Canvases/meetings/2025_02_20.canvas",
+    "01 Notes/SLR (systematic literature review).md",
+    "index.md",
+    "01 Notes/phishing.md",
     "02 Literature/papers/dependency-related vulnerabilities/Managing security vulnerabilities introduced by dependencies in React.js.md",
     "02 Literature/papers/presentation issues/Out of Sight, Out of Mind. UI Design and the Inhibition of Mental Models of Security.md",
     "01 Notes/mental model.md",
@@ -187,7 +206,6 @@
     "96 Meta/scripts/References analysis.md",
     "97 Assets/bugs_in_games.png",
     "06 Webinars",
-    "04 Canvases/meetings/2025_02_20.canvas",
     "02 Literature/papers/presentation issues/Classifying and qualifying GUI defects.md",
     "02 Literature/papers/presentation issues/A taxonomy of testable HTML5 Canvas Issues.md",
     "03 References/(Zhou, Zhang, Qian, et al., 2024).md",
@@ -204,16 +222,11 @@
     "IDS/IPS (intrusion detection/prevention system).md",
     "IDS/IPS (intrusion detection",
     "IDS",
-    "01 Notes/WAFs (web application firewall system).md",
-    "01 Notes/HTTPS (HyperText Transfer Protocol Secure.md",
-    "03 References/(Tkachenko et al., 2024).md",
-    "01 Notes/Content-security Policy (CSP).md",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "02 Literature/papers/vulnerability management",
     "04 Canvases/papers/paper template.canvas",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/anatomy.canvas",
     "04 Canvases/meetings/2025_02_12.canvas",
     "04 Canvases/meetings/2025_02_06.canvas",
     "96 Meta/scripts",
