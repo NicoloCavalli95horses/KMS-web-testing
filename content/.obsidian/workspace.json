@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/meetings/2025_02_20.canvas",
                 "viewState": {
-                  "x": 2094.4716289044527,
-                  "y": 1579.4098647322883,
-                  "zoom": -1.0893662173396403
+                  "x": 3174.878754082303,
+                  "y": 1758.8366813223247,
+                  "zoom": 0.48760865837411627
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.51103591918945
+    "width": 407.51103591918945
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -176,15 +176,18 @@
   },
   "active": "6fb8ab18136c0e28",
   "lastOpenFiles": [
-    "04 Canvases/meetings/2025_02_12.canvas",
-    "04 Canvases/meetings/2025_02_06.canvas",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
     "04 Canvases/meetings/2025_02_20.canvas",
-    "06 Webinars/Visual Software QA (Quality Assurance) using VLM (Vision Language Models).md",
+    "04 Canvases/papers/paper template.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
+    "02 Literature/papers/privacy/Apathy, convenience or irrelevance. Identifying conceptual barriers to safeguarding children’s data privacy.md",
+    "04 Canvases/meetings/2025_02_12.canvas",
+    "04 Canvases/meetings/2025_02_06.canvas",
+    "06 Webinars/Visual Software QA (Quality Assurance) using VLM (Vision Language Models).md",
     "97 Assets/canva_business_model.png",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/anatomy.canvas",
     "01 Notes/SLR (systematic literature review).md",
     "index.md",
     "01 Notes/phishing.md",
@@ -203,7 +206,6 @@
     "02 Literature/papers/presentation issues/A taxonomy of testable HTML5 Canvas Issues.md",
     "03 References/(Zhou, Zhang, Qian, et al., 2024).md",
     "96 Meta/scripts/PhD status.md",
-    "02 Literature/papers/privacy/Apathy, convenience or irrelevance. Identifying conceptual barriers to safeguarding children’s data privacy.md",
     "01 Notes/privacy.md",
     "03 References/(Keen, 2022).md",
     "02 Literature/papers/privacy",
@@ -216,7 +218,6 @@
     "IDS/IPS (intrusion detection",
     "IDS",
     "02 Literature/papers/vulnerability management",
-    "04 Canvases/papers/paper template.canvas",
     "96 Meta/scripts",
     "Pasted image 20250217120451.png",
     "97 Assets/systematic_literature_review.png",
