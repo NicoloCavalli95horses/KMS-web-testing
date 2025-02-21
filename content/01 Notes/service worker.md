@@ -9,7 +9,7 @@ tags:
 ## Definition
 
 Service Workers allow ==to run scripts in background threads==: this means that the worker thread can perform tasks without **interfering with the user interface.**
-- In addition, they can make network requests (using `fetch()` or `XMLHttpRequest` APIs)
+- In addition, they can make network requests (using `fetch()` or `XMLHttpRequest` APIs) and control network request made by the application
 - Once created, a SW can send messages to the JavaScript code that created it by posting messages to an event handler specified by that code (and vice versa).
 
 They are similar to [[web worker]], but explicitly ==designed to handle network requests and caching mechanisms, even in an offline environment.== See: [[web worker and service worker comparison]] 
@@ -19,6 +19,11 @@ They are similar to [[web worker]], but explicitly ==designed to handle network 
 > - you can't directly manipulate the DOM from inside a worker, or use some default methods and properties of the window object
 > - you can use a large number of items available under window, including `WebSockets`, and data storage mechanisms like [[IndexedDB]]
 
+### Life cycle
+
+- once a website registers a SW, the SW code goes through an installation and activation phase
+- before installation completes, the SW can import additional scripts into the worker's context (`importScripts` API). This means that additional code may be imported from any third-party origin
+- installed SW can be updated at any time with `update` API, but automatic checks are scheduled every 24 hours by the browser. Also, whenever the user visits a web page that the SW controls an update is made
 ### Service Worker usage
 
 - The SW uses a cache to store the recently used or static data to support fast loading and offline access
@@ -32,7 +37,7 @@ With these features, the SW can provide prolific services regardless of the brow
 ### Risks and vulnerabilities
 
 **Push notification exploitation**
-Push notification, managed by web workers can make users click on malicious link or track user's location:
+Push notification, managed by web workers can make users click on malicious link or track user's location ([[phishing]]):
 - If an ==HTTP site== uses a ==third-party push notification service== the notifications received by the end user can be manipulated by an attacker
 
 **Exploiting the SW by Utilizing its Features**
@@ -45,9 +50,22 @@ Push notification, managed by web workers can make users click on malicious link
 Browser history sniffing attacks: a web worker can be exploited to determine whether the users have accessed target sites or not
 - As the SW is installed after the users' first visit to the site, is it possible to use the SW as a criterion to determine whether the users' have visited the site before
 
+Other potential vulnerabilities:
+- **Web-based botnet**
+- **Launching [[DDoS (Distributed Denial of Service)]] attacks**
+- **Cryptomining**
+- **Persistent [[XSS (cross site scripting)]] injections**
+
+
+
+
+
 ---
+
+See also [[Parallel programming]]
 #### References
-- [Web workers](https://www.youtube.com/watch?v=JMKLXGwltGc) 
-- https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
 - [[(Jeong, Hur, 2022)]]
-- see also [[Parallel programming]]
+- [[(Subramani, Jueckstock, et al., 2021)]]
+
+#### URLs
+- https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers

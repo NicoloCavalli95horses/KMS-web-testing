@@ -27,6 +27,7 @@ dv.table(
 );
 ```
 
+
 ### Papers from year
 
 ```dataviewjs

@@ -11,15 +11,17 @@
             "id": "6fb8ab18136c0e28",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "02 Literature/papers/service worker vulnerabilities/Categorizing service worker attacks and mitigations.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
+                "viewState": {
+                  "x": 1565.8442298669434,
+                  "y": 1193.0936493242164,
+                  "zoom": -2.130032088184105
+                }
               },
-              "icon": "lucide-file",
-              "title": "Categorizing service worker attacks and mitigations"
+              "icon": "lucide-layout-dashboard",
+              "title": "research questions and databases"
             }
           }
         ]
@@ -174,14 +176,19 @@
   },
   "active": "6fb8ab18136c0e28",
   "lastOpenFiles": [
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
+    "02 Literature/papers/service worker vulnerabilities/Categorizing service worker attacks and mitigations.md",
+    "96 Meta/scripts/References analysis.md",
+    "96 Meta/scripts/PhD status.md",
+    "01 Notes/service worker.md",
+    "01 Notes/web worker.md",
+    "01 Notes/Parallel programming.md",
     "03 References/(Subramani, Jueckstock, et al., 2021).md",
     "03 References/(Subramani, 2021).md",
-    "02 Literature/papers/service worker vulnerabilities/Categorizing service worker attacks and mitigations.md",
     "02 Literature/papers/service worker vulnerabilities/A Survey on Vulnerabilities of Service Workers.md",
     "01 Notes/DEAP.md",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
     "02 Literature/papers/review, taxonomy and meta-analysis/Enhancing Front-End Security. Protecting User Data and Privacy in Web Applications.md",
-    "01 Notes/web worker.md",
     "01 Notes/clickjacking.md",
     "01 Notes/tabnabbing.md",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
@@ -189,7 +196,6 @@
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "01 Notes/drive-by downloads.md",
     "01 Notes/trojan horse.md",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
     "04 Canvases/meetings/2025_02_20.canvas",
     "04 Canvases/meetings/2025_02_12.canvas",
     "04 Canvases/meetings/2025_02_06.canvas",
@@ -205,14 +211,9 @@
     "01 Notes/mental model.md",
     "02 Literature/papers/presentation issues/Home and away. UI design pattern for supporting end-user security.md",
     "02 Literature/papers/presentation issues/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md",
-    "03 References/(Spero, Biddle, 2020).md",
-    "03 References/(Spero, Biddle, 2021).md",
     "97 Assets/LLM_trained_for_videogames.png",
-    "96 Meta/scripts/References analysis.md",
     "97 Assets/bugs_in_games.png",
     "06 Webinars",
-    "02 Literature/papers/presentation issues/Classifying and qualifying GUI defects.md",
-    "02 Literature/papers/presentation issues/A taxonomy of testable HTML5 Canvas Issues.md",
     "02 Literature/papers/privacy",
     "IDS/IPS (intrusion detection",
     "IDS",

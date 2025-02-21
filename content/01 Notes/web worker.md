@@ -37,7 +37,9 @@ console.log("Output:", event.data);
 };
 ```
 
+See also [[Parallel programming]]
+
 ---
 #### References
-- [Web workers](https://www.youtube.com/watch?v=JMKLXGwltGc) 
-- see also [[Parallel programming]]
+- https://www.youtube.com/watch?v=JMKLXGwltGc
+
