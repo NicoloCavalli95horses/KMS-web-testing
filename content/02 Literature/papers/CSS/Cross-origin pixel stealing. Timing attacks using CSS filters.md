@@ -10,7 +10,7 @@ tags:
 ---
 ## Context
 
-Timing attacks rely on systems that take different amounts of time to process different input values.
+A [[timing attack]] rely on a system that take different amounts of time to process different input values.
 - This is usually the result of either conditional branching in code, or differences in input size.
 
 Using CSS default filters, we have discovered a variety of timing attacks that work in multiple browsers and devices.
