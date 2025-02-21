@@ -4,24 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f27c9a3a571eb789",
+        "id": "f98f93025bc4254f",
         "type": "tabs",
         "children": [
           {
-            "id": "6fb8ab18136c0e28",
+            "id": "07d6db431d633134",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
-                "viewState": {
-                  "x": 2491.7159491082416,
-                  "y": 4323.954375477211,
-                  "zoom": -1.8886518579083207
-                }
+                "file": "02 Literature/papers/CSS/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "research questions and databases"
+              "icon": "lucide-file",
+              "title": "Cross-origin pixel stealing. Timing attacks using CSS filters"
             }
           }
         ]
@@ -81,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.51103591918945
+    "width": 351.51103591918945
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -174,10 +172,24 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "6fb8ab18136c0e28",
+  "active": "07d6db431d633134",
   "lastOpenFiles": [
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
+    "02 Literature/papers/web client-side tampering/ZigZag. Automatically hardening web applications against client-side validation vulnerabilities.md",
+    "02 Literature/papers/web client-side tampering/Verification of Web Content Integrity. A new approach to protecting servers against tampering.md",
+    "02 Literature/papers/web client-side tampering/Toward black-box detection of logic flaws in web applications.md",
+    "02 Literature/papers/web client-side tampering/On the misuse of Graphical User Interface elements to implement security controls.md",
+    "02 Literature/papers/web client-side tampering/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
+    "02 Literature/papers/web client-side tampering/Keeping out the masses. Understanding the popularity and implications of internet paywalls.md",
+    "02 Literature/papers/web client-side tampering/Hidden GEMS. Automated discovery of Access Control Vulnerabilities in Graphical User Interfaces.md",
+    "02 Literature/papers/web client-side tampering/Finding client-side business flow tampering vulnerabilities.md",
+    "02 Literature/papers/web client-side tampering/DOM clobbering. Attack techniques, prevalence, defenses.md",
+    "02 Literature/papers/web client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
+    "02 Literature/papers/CSS/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
+    "03 References/(Kotcher, Pei, Jumde, et al., 2013).md",
+    "02 Literature/papers/CSS",
+    "04 Canvases/papers/paper template.canvas",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
     "02 Literature/papers/service worker vulnerabilities/Categorizing service worker attacks and mitigations.md",
     "01 Notes/service worker.md",
     "01 Notes/drive-by downloads.md",
@@ -192,25 +204,13 @@
     "02 Literature/papers/service worker vulnerabilities/A Survey on Vulnerabilities of Service Workers.md",
     "01 Notes/DEAP.md",
     "02 Literature/papers/review, taxonomy and meta-analysis/Enhancing Front-End Security. Protecting User Data and Privacy in Web Applications.md",
-    "01 Notes/clickjacking.md",
-    "01 Notes/tabnabbing.md",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/meetings/2025_02_20.canvas",
     "04 Canvases/meetings/2025_02_12.canvas",
     "04 Canvases/meetings/2025_02_06.canvas",
-    "04 Canvases/papers/paper template.canvas",
-    "02 Literature/papers/privacy/Apathy, convenience or irrelevance. Identifying conceptual barriers to safeguarding children’s data privacy.md",
-    "06 Webinars/Visual Software QA (Quality Assurance) using VLM (Vision Language Models).md",
     "97 Assets/canva_business_model.png",
-    "01 Notes/SLR (systematic literature review).md",
-    "index.md",
-    "01 Notes/phishing.md",
-    "02 Literature/papers/dependency-related vulnerabilities/Managing security vulnerabilities introduced by dependencies in React.js.md",
-    "02 Literature/papers/presentation issues/Out of Sight, Out of Mind. UI Design and the Inhibition of Mental Models of Security.md",
-    "01 Notes/mental model.md",
-    "02 Literature/papers/presentation issues/Home and away. UI design pattern for supporting end-user security.md",
     "97 Assets/LLM_trained_for_videogames.png",
     "97 Assets/bugs_in_games.png",
     "06 Webinars",
@@ -225,7 +225,6 @@
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review",
     "04 Canvases/mind maps",
     "04 Canvases/papers",
-    "02 Literature/papers/service worker vulnerabilities",
     "97 Assets/causes_of_flakiness.png",
     "97 Assets/flaky_ui_test_findings.png",
     "97 Assets/using_human_testers_building_web_crawler.png",
