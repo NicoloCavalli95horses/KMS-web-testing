@@ -11,6 +11,7 @@ A timing attack is a category of side-channel attack in which an attacker ==anal
 
 This type of attack ==uses variations in the execution times of operations to obtain details about internal data, such as cryptographic keys, passwords, or memory structure==
 
+
 ### Attack Mechanism
 
 The basic idea is that the time it takes a system to process an operation *can depend on the internal data*. ==An attacker can send specific inputs and precisely measure the response time to infer information==.
@@ -30,12 +31,12 @@ If a system uses the CPU cache, some operations (e.g. memory accesses) may be fa
 - **Direct timing attack**: can be used to determine boolean values such as a user’s login status or content data size such as the relative size of a shopping cart
 - **Cross-site timing attacks**: rely on a user to visit, and remain on, a malicious page, while a cross-site exchange is made.
 
-### Attack example
+### Attack example in the web
 
-- The victim opens the malicious site (via phishing, infected ads, or other social engineering methods).
+- The victim opens the malicious site (via phishing, infected ads, or other [[social engineering]] methods).
 - The malicious site embeds an ==invisible iframe== with a private page of the victim, such as a social network profile
 - If the victim is logged in, the iframe loads a customized version of the page (with avatar, feed, etc.)
-- If the victim is not logged in, they are redirected to the login page, which has a different layout and loading time
+- If the victim is not logged in, they are redirected to the login page, which has a different layout and loading time. ==Rendering times can be exaggerated by making use of CSS filters==
 - The malicious site measures the time it takes to render the iframe (or uses other techniques such as CSS analysis or fetch errors)
 - ==By comparing the loading times to a reference database==, the attacker can determine whether the victim has an account or is logged in to the site
 

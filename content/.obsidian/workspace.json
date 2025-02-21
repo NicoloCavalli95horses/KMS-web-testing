@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "7d32b464976ba6c3",
+            "id": "0e6e7a38fce16d4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Antilibrary/timing attack.md",
+                "file": "01 Notes/timing attack.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -38,18 +38,33 @@
             }
           },
           {
-            "id": "c65586dc6665077b",
+            "id": "e736a0e61de303d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 Antilibrary/timing attack.md",
+                "file": "00 Antilibrary/social engineering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "timing attack"
+              "title": "social engineering"
+            }
+          },
+          {
+            "id": "ba08eded203f210d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Antilibrary/keylogging.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "keylogging"
             }
           }
         ],
@@ -73,7 +88,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -85,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "keylogg",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -203,38 +218,38 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "7d32b464976ba6c3",
+  "active": "0e6e7a38fce16d4a",
   "lastOpenFiles": [
+    "00 Antilibrary/social engineering.md",
+    "01 Notes/timing attack.md",
     "02 Literature/papers/CSS/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
-    "00 Antilibrary/timing attack.md",
-    "02 Literature/papers/web client-side tampering/ZigZag. Automatically hardening web applications against client-side validation vulnerabilities.md",
-    "02 Literature/papers/web client-side tampering/Verification of Web Content Integrity. A new approach to protecting servers against tampering.md",
-    "02 Literature/papers/web client-side tampering/Toward black-box detection of logic flaws in web applications.md",
-    "02 Literature/papers/web client-side tampering/On the misuse of Graphical User Interface elements to implement security controls.md",
-    "02 Literature/papers/web client-side tampering/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
-    "02 Literature/papers/web client-side tampering/Keeping out the masses. Understanding the popularity and implications of internet paywalls.md",
-    "02 Literature/papers/web client-side tampering/Hidden GEMS. Automated discovery of Access Control Vulnerabilities in Graphical User Interfaces.md",
-    "02 Literature/papers/web client-side tampering/Finding client-side business flow tampering vulnerabilities.md",
-    "02 Literature/papers/web client-side tampering/DOM clobbering. Attack techniques, prevalence, defenses.md",
-    "02 Literature/papers/web client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
-    "03 References/(Kotcher, Pei, Jumde, et al., 2013).md",
-    "02 Literature/papers/CSS",
+    "01 Notes/clickjacking.md",
     "04 Canvases/papers/paper template.canvas",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
+    "00 Antilibrary/keylogging.md",
+    "01 Notes/pixel stealing.md",
+    "00 Antilibrary/Pitest.md",
+    "00 Antilibrary/precise alias analysis.md",
+    "00 Antilibrary/program slicing.md",
+    "00 Antilibrary/procedure testing.md",
+    "00 Antilibrary/recommendation engine.md",
+    "00 Antilibrary/recovery testing.md",
+    "00 Antilibrary/reflection (Java).md",
+    "00 Antilibrary/reliability testing.md",
+    "00 Antilibrary/RNN (recurrent neural network).md",
+    "00 Antilibrary/SameSite cookie.md",
+    "00 Antilibrary/serviceability or maintenance testing.md",
+    "00 Antilibrary/SessionStorage.md",
+    "00 Antilibrary/signature forgery.md",
+    "00 Antilibrary/smuggling.md",
+    "00 Antilibrary/SSL (secure sockets layer).md",
+    "00 Antilibrary/static taint analysis.md",
+    "00 Antilibrary/storage testing.md",
+    "00 Antilibrary/stress testing.md",
+    "00 Antilibrary/taint tracking.md",
+    "00 Antilibrary/TDD (test-driven development).md",
+    "02 Literature/papers/CSS",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
-    "02 Literature/papers/service worker vulnerabilities/Categorizing service worker attacks and mitigations.md",
-    "01 Notes/service worker.md",
-    "01 Notes/drive-by downloads.md",
-    "01 Notes/trojan horse.md",
-    "00 Antilibrary/cryptomining.md",
-    "96 Meta/scripts/References analysis.md",
-    "96 Meta/scripts/PhD status.md",
-    "01 Notes/web worker.md",
-    "01 Notes/Parallel programming.md",
-    "03 References/(Subramani, Jueckstock, et al., 2021).md",
-    "03 References/(Subramani, 2021).md",
-    "02 Literature/papers/service worker vulnerabilities/A Survey on Vulnerabilities of Service Workers.md",
-    "01 Notes/DEAP.md",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
