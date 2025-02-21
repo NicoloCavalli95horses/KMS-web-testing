@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
                 "viewState": {
-                  "x": 1493.2613302590971,
-                  "y": 1815.8671484047688,
-                  "zoom": -0.3672003663482458
+                  "x": 1787.2568167085496,
+                  "y": 3557.220171656466,
+                  "zoom": -1.2800712612842906
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -176,13 +176,13 @@
   },
   "active": "6fb8ab18136c0e28",
   "lastOpenFiles": [
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
     "02 Literature/papers/service worker vulnerabilities/Categorizing service worker attacks and mitigations.md",
     "01 Notes/service worker.md",
     "01 Notes/drive-by downloads.md",
     "01 Notes/trojan horse.md",
     "00 Antilibrary/cryptomining.md",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
     "96 Meta/scripts/References analysis.md",
     "96 Meta/scripts/PhD status.md",
     "01 Notes/web worker.md",
@@ -211,7 +211,6 @@
     "02 Literature/papers/presentation issues/Out of Sight, Out of Mind. UI Design and the Inhibition of Mental Models of Security.md",
     "01 Notes/mental model.md",
     "02 Literature/papers/presentation issues/Home and away. UI design pattern for supporting end-user security.md",
-    "02 Literature/papers/presentation issues/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md",
     "97 Assets/LLM_trained_for_videogames.png",
     "97 Assets/bugs_in_games.png",
     "06 Webinars",
