@@ -54,11 +54,10 @@ If an attacker is successful in registering a SW and obtaining push notification
 **PerformanceTiming**
 The `PerformanceResourceTiming` API can be exploited for history-sniffing purposes
 
-
 > [!WARNING] Mitigation approaches
 > This approaches already exist but need improvement:
-> - termination delay limits (differences in implementation by browsers)
-> - notification UI changes (differences in implementation by browsers)
+> - event signaling
+> - site isolation
 
 ### Hijacking
 
@@ -74,6 +73,12 @@ A malicious SW could issue a notification that displays the Chrome icon and a me
 
 **Malvertising**
 Push notification can be used to reach users even when a given publisher website is not being visited
+
+### Prevalence of SW exploitation
+
+Among the 1,750 websites we monitored, 518 of them have a SW that received at least one push event during our analysis period (i.e., 3 days).
+
+It is feasible to implement and enforce stricter SW security policy without a significant impact on most legitimate production SW
 
 ---
 #### References

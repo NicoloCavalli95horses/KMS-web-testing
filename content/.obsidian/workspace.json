@@ -11,15 +11,17 @@
             "id": "6fb8ab18136c0e28",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "02 Literature/papers/service worker vulnerabilities/Categorizing service worker attacks and mitigations.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
+                "viewState": {
+                  "x": 1493.2613302590971,
+                  "y": 1815.8671484047688,
+                  "zoom": -0.3672003663482458
+                }
               },
-              "icon": "lucide-file",
-              "title": "Categorizing service worker attacks and mitigations"
+              "icon": "lucide-layout-dashboard",
+              "title": "research questions and databases"
             }
           }
         ]
@@ -174,8 +176,8 @@
   },
   "active": "6fb8ab18136c0e28",
   "lastOpenFiles": [
-    "01 Notes/service worker.md",
     "02 Literature/papers/service worker vulnerabilities/Categorizing service worker attacks and mitigations.md",
+    "01 Notes/service worker.md",
     "01 Notes/drive-by downloads.md",
     "01 Notes/trojan horse.md",
     "00 Antilibrary/cryptomining.md",
