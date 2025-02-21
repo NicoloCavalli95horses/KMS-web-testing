@@ -53,12 +53,10 @@ Browser history sniffing attacks: a web worker can be exploited to determine whe
 Other potential vulnerabilities:
 - **Web-based botnet**
 - **Launching [[DDoS (Distributed Denial of Service)]] attacks**
-- **Cryptomining**
+- [[cryptomining]]
 - **Persistent [[XSS (cross site scripting)]] injections**
-
-
-
-
+- distributed password cracking
+- creating a relay proxy
 
 ---
 

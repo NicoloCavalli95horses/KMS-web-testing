@@ -11,17 +11,15 @@
             "id": "6fb8ab18136c0e28",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
-                "viewState": {
-                  "x": 1679.1906984551038,
-                  "y": 3993.6953705741253,
-                  "zoom": -1.5843615595963056
-                }
+                "file": "02 Literature/papers/service worker vulnerabilities/Categorizing service worker attacks and mitigations.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "research questions and databases"
+              "icon": "lucide-file",
+              "title": "Categorizing service worker attacks and mitigations"
             }
           }
         ]
@@ -176,12 +174,15 @@
   },
   "active": "6fb8ab18136c0e28",
   "lastOpenFiles": [
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
+    "01 Notes/service worker.md",
     "02 Literature/papers/service worker vulnerabilities/Categorizing service worker attacks and mitigations.md",
+    "01 Notes/drive-by downloads.md",
+    "01 Notes/trojan horse.md",
+    "00 Antilibrary/cryptomining.md",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
     "96 Meta/scripts/References analysis.md",
     "96 Meta/scripts/PhD status.md",
-    "01 Notes/service worker.md",
     "01 Notes/web worker.md",
     "01 Notes/Parallel programming.md",
     "03 References/(Subramani, Jueckstock, et al., 2021).md",
@@ -194,8 +195,6 @@
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "01 Notes/drive-by downloads.md",
-    "01 Notes/trojan horse.md",
     "04 Canvases/meetings/2025_02_20.canvas",
     "04 Canvases/meetings/2025_02_12.canvas",
     "04 Canvases/meetings/2025_02_06.canvas",
