@@ -24,5 +24,7 @@ Similarly if a person is visiting a site with malicious content, the person may 
 
 A drive-by install (or installation) is a similar event. It refers to installation rather than download (though sometimes the two terms are used interchangeably).
 
+---
 ## References
-https://en.wikipedia.org/wiki/Drive-by_download
+- https://en.wikipedia.org/wiki/Drive-by_download
+- [[(Chen, Shi, 2018)]]

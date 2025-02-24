@@ -67,3 +67,4 @@ Since the condition '1'='1' always evaluates to true, the query returns all rows
 - [[(Krishnaraj, Madaan, et al., 2023)]]
 - [[(Offutt, Wu, Du, 2004)]]
 - [[(Tkachenko et al., 2024)]]
+- Included in literature review, by [[(Onukrane, Skrodelis, et al., 2023)]]

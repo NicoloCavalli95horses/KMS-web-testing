@@ -117,3 +117,4 @@ Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, wit
 - https://portswigger.net/web-security/cross-site-scripting#reflected-cross-site-scripting
 - [[(Sadqi, Maleh, 2022)]]
 - [[(Tkachenko et al., 2024)]]
+- Included in literature review, by [[(Onukrane, Skrodelis, et al., 2023)]]

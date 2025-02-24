@@ -66,5 +66,7 @@ In a web application implementing RBAC principles, URLs would be associated to s
 
 URLs should be protected by [[sessions token]] or by other controls executed by the server.
 
+---
 ## References
-https://www.neumetric.com/role-based-access-control-rbac-for-cybersecurity/
+- RBAC exploitation, review in [[(Onukrane, Skrodelis, et al., 2023)]]
+- https://www.neumetric.com/role-based-access-control-rbac-for-cybersecurity/
