@@ -84,7 +84,8 @@
               "title": "directory traversal"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -234,13 +235,13 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "e15ff3469f76a734",
+  "active": "53c7810a23df2856",
   "lastOpenFiles": [
-    "00 Antilibrary/directory traversal.md",
     "00 Antilibrary/typosquatting.md",
-    "00 Antilibrary/SameSite cookie.md",
     "00 Antilibrary/forced browsing.md",
+    "00 Antilibrary/SameSite cookie.md",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
+    "00 Antilibrary/directory traversal.md",
     "01 Notes/redirect attack.md",
     "01 Notes/CSRF (cross-site request forgery).md",
     "01 Notes/SQLIA (SQL injection attack).md",
@@ -266,7 +267,6 @@
     "00 Antilibrary/smuggling.md",
     "00 Antilibrary/RNN (recurrent neural network).md",
     "00 Antilibrary/reliability testing.md",
-    "00 Antilibrary/reflection (Java).md",
     "02 Literature/papers/redirect attack",
     "02 Literature/papers/CSS",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
