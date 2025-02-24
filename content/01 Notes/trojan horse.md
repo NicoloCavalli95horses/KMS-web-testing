@@ -14,7 +14,7 @@ Trojans are generally spread by some form of social engineering.
 Ransomware attacks are often carried out using a Trojan.
 Unlike computer viruses and worms, Trojans generally do not attempt to inject themselves into other files or otherwise propagate themselves.
 
-See also: [[drive-by downloads]]
+See also: [[drive-by download]]
 
 ## References
 https://en.wikipedia.org/wiki/Trojan_horse_(computing)

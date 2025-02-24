@@ -9,7 +9,7 @@ tags:
 ---
 ## Context
 
-According to the form of attack, malicious web pages are mainly divided into two categories: [[phishing]] pages and malware downloads (see [[drive-by downloads]])
+According to the form of attack, malicious web pages are mainly divided into two categories: [[phishing]] pages and malware downloads (see [[drive-by download]])
 ## Approach
 
 - CSS features can be exploited to hide the hidden [[redirect attack]] page, avoid visual effects and increasing the probability of escape
