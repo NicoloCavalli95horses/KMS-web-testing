@@ -49,7 +49,7 @@ A web client can be both a human or a bot. This two scenarios can lead to differ
 - **application server vulnerabilities:**
 	- business logic threats: due to bad implementations or logic flaws, can lead to access control bypass
 	- session management threats
-	- [[CSFR (cross-site request forgery)]]
+	- [[CSRF (cross-site request forgery)]]
 	- [[XSS (cross site scripting)]]
 - **data vulnerabilities:** any failure to preserve data confidence and integrity
 

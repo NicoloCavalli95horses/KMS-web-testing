@@ -15,7 +15,7 @@ The purpose of this study is to identify the most effective security methods and
 
 The study includes a comparative analysis and critical review of various front-end security technologies:
 - [[Content-security Policy (CSP)]]
-- [[CSFR (cross-site request forgery)]]
+- [[CSRF (cross-site request forgery)]]
 - [[HTTPS (HyperText Transfer Protocol Secure]]
 - [[XSS (cross site scripting)]]
 - authentication and authorization mechanisms:

@@ -20,7 +20,7 @@ Successful XSS can:
 - manipulate the web content
 - cause a [[DoS (Denial of Service)]]
 
-XSS is similar to [[CSFR (cross-site request forgery)]] in that both rely on code injection, but CSFR exploits the browser's trust in the user to send malicious HTTP requests, while XSS involves code execution in the user's browser (see more on [[XSS and CSFR comparison]])
+XSS is similar to [[CSRF (cross-site request forgery)]] in that both rely on code injection, but CSFR exploits the browser's trust in the user to send malicious HTTP requests, while XSS involves code execution in the user's browser (see more on [[XSS and CSFR comparison]])
 
 ### Prevalence
 

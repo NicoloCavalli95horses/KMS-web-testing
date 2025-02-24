@@ -45,7 +45,7 @@ A vulnerability analysis component that uses property graphs and traversals for 
 - Almost half of the vulnerabilities (46.1%) were verified thanks to a dynamic verification
 - 38.8% of these vulnerabilities can lead to [[XSS (cross site scripting)]]
 - 17.2% can lead to [[BFT (business flow tampering)]]
-- 14.8% to [[CSFR (cross-site request forgery)]]
+- 14.8% to [[CSRF (cross-site request forgery)]]
 - 12.9% to DOM based open redirection
 - Others to JSON injection, Websocket connection hijack
 - even the HTML sanitizers are vulnerable to DOM clobbering

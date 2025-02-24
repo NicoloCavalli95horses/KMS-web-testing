@@ -15,13 +15,43 @@
               "state": {
                 "file": "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
                 "viewState": {
-                  "x": 2668.3814580695985,
-                  "y": 2285.2827721811145,
-                  "zoom": -1.5843615595963056
+                  "x": 1542.3748862728135,
+                  "y": 1697.2633686800448,
+                  "zoom": -0.06291006803623089
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "research questions and databases"
+            }
+          },
+          {
+            "id": "9b629138560776fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Antilibrary/SameSite cookie.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "SameSite cookie"
+            }
+          },
+          {
+            "id": "2656ba419c33f22d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Antilibrary/forced browsing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "forced browsing"
             }
           },
           {
@@ -74,7 +104,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -86,7 +116,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "keylogg",
+                "query": "samesite",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +137,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -206,8 +237,15 @@
   },
   "active": "e15ff3469f76a734",
   "lastOpenFiles": [
-    "00 Antilibrary/typosquatting.md",
+    "00 Antilibrary/SameSite cookie.md",
+    "01 Notes/CSRF (cross-site request forgery).md",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
+    "00 Antilibrary/forced browsing.md",
+    "00 Antilibrary/typosquatting.md",
+    "01 Notes/SQLIA (SQL injection attack).md",
+    "01 Notes/OWASP Top 10 (2021).md",
+    "00 Antilibrary/CSRF (cross-site request forgery) token.md",
+    "Untitled.canvas",
     "01 Notes/drive-by download.md",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
     "04 Canvases/papers/paper template.canvas",
@@ -221,7 +259,6 @@
     "00 Antilibrary/VM (virtual machine).md",
     "00 Antilibrary/volume testing.md",
     "00 Antilibrary/XXE (XML external entities).md",
-    "00 Antilibrary/SameSite cookie.md",
     "00 Antilibrary/serviceability or maintenance testing.md",
     "00 Antilibrary/SessionStorage.md",
     "00 Antilibrary/signature forgery.md",
@@ -230,12 +267,6 @@
     "00 Antilibrary/reliability testing.md",
     "00 Antilibrary/reflection (Java).md",
     "00 Antilibrary/recovery testing.md",
-    "00 Antilibrary/recommendation engine.md",
-    "00 Antilibrary/program slicing.md",
-    "00 Antilibrary/procedure testing.md",
-    "00 Antilibrary/precise alias analysis.md",
-    "00 Antilibrary/Pitest.md",
-    "00 Antilibrary/performance testing.md",
     "02 Literature/papers/redirect attack",
     "02 Literature/papers/CSS",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
@@ -254,7 +285,6 @@
     "96 Meta/scripts",
     "Pasted image 20250217120451.png",
     "97 Assets/systematic_literature_review.png",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/paper structure.canvas",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review",
     "04 Canvases/mind maps",
     "97 Assets/causes_of_flakiness.png",

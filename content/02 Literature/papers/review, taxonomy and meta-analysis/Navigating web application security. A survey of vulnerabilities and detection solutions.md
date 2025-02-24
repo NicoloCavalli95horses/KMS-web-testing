@@ -22,7 +22,7 @@ Most relevant vulnerabilities, sorted by prevalence:
 - [[SQLIA (SQL injection attack)]]
 - code execution
 - [[XSS (cross site scripting)]]
-- [[CSFR (cross-site request forgery)]]
+- [[CSRF (cross-site request forgery)]]
 - file inclusion
 - [[DoS (Denial of Service)]]
 - misconfiguration

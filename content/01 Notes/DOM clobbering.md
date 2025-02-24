@@ -32,7 +32,7 @@ DOM clobbering can leverage this particular browser behavior to mess with object
 
 Similarly to [[prototype pollution]], it can lead to:
 - arbitrary code execution
-- client-side [[CSFR (cross-site request forgery)]]
+- client-side [[CSRF (cross-site request forgery)]]
 - privilege escalation issues
 
 Code fragments called **script gadget** can interact to injected HTML markup and transform it into executable code
