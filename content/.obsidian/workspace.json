@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
                 "viewState": {
-                  "x": 1542.3748862728135,
-                  "y": 1697.2633686800448,
-                  "zoom": -0.06291006803623089
+                  "x": 1844.8639898434815,
+                  "y": 1746.1935441848466,
+                  "zoom": -0.6714906646602607
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -116,7 +116,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "samesite",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -137,8 +137,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -237,11 +236,13 @@
   },
   "active": "e15ff3469f76a734",
   "lastOpenFiles": [
-    "00 Antilibrary/SameSite cookie.md",
-    "01 Notes/CSRF (cross-site request forgery).md",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
-    "00 Antilibrary/forced browsing.md",
+    "00 Antilibrary/directory traversal.md",
     "00 Antilibrary/typosquatting.md",
+    "00 Antilibrary/SameSite cookie.md",
+    "00 Antilibrary/forced browsing.md",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
+    "01 Notes/redirect attack.md",
+    "01 Notes/CSRF (cross-site request forgery).md",
     "01 Notes/SQLIA (SQL injection attack).md",
     "01 Notes/OWASP Top 10 (2021).md",
     "00 Antilibrary/CSRF (cross-site request forgery) token.md",
@@ -266,7 +267,6 @@
     "00 Antilibrary/RNN (recurrent neural network).md",
     "00 Antilibrary/reliability testing.md",
     "00 Antilibrary/reflection (Java).md",
-    "00 Antilibrary/recovery testing.md",
     "02 Literature/papers/redirect attack",
     "02 Literature/papers/CSS",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
