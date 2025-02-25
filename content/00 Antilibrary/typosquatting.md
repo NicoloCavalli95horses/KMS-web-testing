@@ -17,11 +17,11 @@ The typosquatter's URL will usually be similar to the victim's site address; the
 - An abuse of the Country Code Top-Level Domain (ccTLD) (.cm, .co, or .om instead of .com)
 
 ### Similar abuses
+- **Combosquatting** – no misspelling, but appending an arbitrary word that appears legitimate, but that anyone could register.
+- **Doppelganger domain** – omitting a period or inserting an extra period
+- Appending terms such as sucks or -suckes to a domain name
 
-Combosquatting – no misspelling, but appending an arbitrary word that appears legitimate, but that anyone could register.
-Doppelganger domain – omitting a period or inserting an extra period
-Appending terms such as sucks or -suckes to a domain name
-Once on the typosquatter's site, the user may also be tricked into thinking that they are actually on the real site through the use of copied or similar logos, website layouts, or content. Spam emails sometimes make use of typosquatting URLs to trick users into visiting malicious sites that look like a given bank's site, for instance.
+Once on the typosquatter's site, ==the user may also be tricked into thinking that they are actually on the real site through the use of copied or similar logos, website layouts, or content.== Spam emails sometimes make use of typosquatting URLs to trick users into visiting malicious sites that look like a given bank's site, for instance
 
 ---
 #### References
