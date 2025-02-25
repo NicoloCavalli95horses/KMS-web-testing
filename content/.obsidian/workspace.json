@@ -11,17 +11,15 @@
             "id": "e15ff3469f76a734",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
-                "viewState": {
-                  "x": 1966.5887329574243,
-                  "y": 1841.234242565877,
-                  "zoom": -0.9757809629722757
-                }
+                "file": "96 Meta/scripts/References analysis.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "research questions and databases"
+              "icon": "lucide-file",
+              "title": "References analysis"
             }
           }
         ]
@@ -44,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -176,36 +174,37 @@
   },
   "active": "e15ff3469f76a734",
   "lastOpenFiles": [
-    "01 Notes/IDOR (Insecure Direct Object Reference).md",
-    "01 Notes/forced browsing.md",
-    "01 Notes/directory traversal.md",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
-    "00 Antilibrary/typosquatting.md",
-    "00 Antilibrary/SameSite cookie.md",
-    "01 Notes/XSS (cross site scripting).md",
-    "01 Notes/CSRF (cross-site request forgery).md",
-    "01 Notes/XSS and CSFR comparison.md",
-    "01 Notes/redirect attack.md",
-    "01 Notes/SQLIA (SQL injection attack).md",
-    "01 Notes/OWASP Top 10 (2021).md",
+    "96 Meta/To do.md",
+    "96 Meta/scripts/References analysis.md",
+    "96 Meta/scripts/PhD status.md",
+    "00 Antilibrary/Moving Target Defence.md",
+    "00 Antilibrary/LocalStorage.md",
+    "00 Antilibrary/LLM (large language model).md",
+    "00 Antilibrary/LIFO (last in, first out).md",
+    "00 Antilibrary/JWT (JSON Web Token).md",
+    "00 Antilibrary/Jenkins.md",
+    "00 Antilibrary/installation testing.md",
+    "00 Antilibrary/IndexedDB.md",
+    "00 Antilibrary/ELET (Embedded Language Encapsulation Type).md",
+    "00 Antilibrary/EDG (Event Dependency Graph).md",
+    "00 Antilibrary/direct manipulation (design pattern).md",
     "00 Antilibrary/CSRF (cross-site request forgery) token.md",
+    "00 Antilibrary/cryptomining.md",
+    "00 Antilibrary/cookie.md",
+    "00 Antilibrary/context isolation bypass.md",
+    "00 Antilibrary/confirmation bias.md",
+    "00 Antilibrary/configuration testing.md",
+    "00 Antilibrary/compatibility or conversion testing.md",
+    "00 Antilibrary/cache poisoning.md",
+    "00 Antilibrary/browser fingerprinting.md",
+    "00 Antilibrary/bootloader.md",
+    "00 Antilibrary/BCFG (Business Control Flow Graph).md",
+    "01 Notes/typosquatting.md",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
     "Untitled.canvas",
-    "01 Notes/drive-by download.md",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
     "04 Canvases/papers/paper template.canvas",
     "04 Canvases/meetings/2025_02_20.canvas",
-    "00 Antilibrary/storage testing.md",
-    "00 Antilibrary/stress testing.md",
-    "00 Antilibrary/taint tracking.md",
-    "00 Antilibrary/TDD (test-driven development).md",
-    "00 Antilibrary/TLS (transport layer security).md",
-    "00 Antilibrary/tree difference algorithms.md",
-    "00 Antilibrary/VM (virtual machine).md",
-    "00 Antilibrary/volume testing.md",
-    "00 Antilibrary/XXE (XML external entities).md",
-    "00 Antilibrary/serviceability or maintenance testing.md",
-    "00 Antilibrary/SessionStorage.md",
-    "00 Antilibrary/signature forgery.md",
     "02 Literature/papers/redirect attack",
     "02 Literature/papers/CSS",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
