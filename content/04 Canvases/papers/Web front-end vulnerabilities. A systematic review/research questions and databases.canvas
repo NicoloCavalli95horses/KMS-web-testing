@@ -2,15 +2,6 @@
 	"nodes":[
 		{"id":"6727ee773ba3f688","type":"group","x":1120,"y":1000,"width":2820,"height":1480,"label":"Issues selection"},
 		{"id":"e9f25ea3baf25bd5","type":"group","x":2580,"y":1116,"width":1226,"height":1240,"color":"2","label":"NOT INCLUDED"},
-		{"id":"212b3a3e4427f2c1","type":"text","text":"## literature selection","x":480,"y":1680,"width":438,"height":117},
-		{"id":"322c27f2960bf5a9","type":"text","text":"Access to restricted resources by client:\n- [[directory traversal]] attack\n- [[forced browsing]]\n\nGUI exploitation:\n- [[clickjacking]]\n- [[GEMs (GUI Element Misuse)]]\n- [[BFT (business flow tampering)]]\n\nParallel threads exploitation:\n- [[service worker]] and [[web worker]] exploitation\n- [[C2C (client-to-client) communication]] tampering\n\nClient-side request manipulation:\n- [[CSRF (cross-site request forgery)]]\n- parameter tampering\n- [[SQLIA (SQL injection attack)]]\n- [[tabnabbing]] \n- [[redirect attack]]","x":1260,"y":1326,"width":1226,"height":1030},
-		{"id":"c972391d8ff0a84d","type":"text","text":"## [A01 Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/) (from [[OWASP Top 10 (2021)]])\n\nFailures typically lead to unauthorized information disclosure, modification, or destruction of all data or performing a business function outside the user's limits.","x":1266,"y":1104,"width":1220,"height":170},
-		{"id":"e0d510c31ee1f051","type":"text","text":"- [[canvas DOM element]] vulnerabilities\n- visual glitches\n- internationalization fails (i18n)\n","x":2653,"y":1636,"width":1080,"height":160},
-		{"id":"f73bd64cea176b8e","type":"text","text":"- Dependency-related vulnerabilities\n- npm packages vulnerabilities","x":2653,"y":1856,"width":1080,"height":100},
-		{"id":"cc0a63da7e37f527","type":"text","text":"- [[drive-by download]]\n- [[trojan horse]]\n- [[keylogging]]","x":2653,"y":1996,"width":1080,"height":140},
-		{"id":"bede35d17605327a","type":"text","text":"\n- [[timing attack]]\n- [[pixel stealing]]\n","x":2653,"y":2176,"width":1080,"height":120},
-		{"id":"245e966fd4c46042","type":"text","text":"-  [[DoS (Denial of Service)]] attack\n- [[ReDoS (Regular Expression Denial of Service)]]\n- [[DDoS (Distributed Denial of Service)]]","x":2653,"y":1196,"width":1080,"height":155},
-		{"id":"cc36df594b496069","type":"text","text":"- [[XSS (cross site scripting)]]\n- code execution\n- [[DOM clobbering]]\n- [[prototype pollution]]","x":2653,"y":1396,"width":1080,"height":205},
 		{"id":"78c8e3482f006f12","type":"text","text":"# [[SLR (systematic literature review)]] design\n\n  ","x":-80,"y":880,"width":400,"height":250},
 		{"id":"24902cb4ea3162c3","type":"text","text":"\n### RQ5 \"How\"\n- What techniques, tools or solutions have been proposed so far?\n- What taxonomy have been proposed to frame these vulnerabilities? \n","x":1120,"y":528,"width":997,"height":232},
 		{"id":"1d421055c5316c80","type":"text","text":"\n### RQ4 \"Why\"\n- What harm can these vulnerabilities cause? (=why this topic is relevant)\n- What are the common causes of these vulnerabilities? (=why these vulnerabilities occur)\n","x":1120,"y":233,"width":997,"height":264},
@@ -18,7 +9,16 @@
 		{"id":"58af246e98bd0d32","type":"text","text":"## Research questions","x":440,"y":55,"width":442,"height":110},
 		{"id":"5750dcef603a3229","type":"text","text":"### RQ1 \"What\"\n- What are the vulnerabilities that may affect web front-end software?","x":1133,"y":-520,"width":987,"height":170},
 		{"id":"9e3eec2931bbb018","type":"text","text":"### RQ2 \"Where\"\n- What is the prevalence of these vulnerabilities?\n- Which issues are more common, and which are less frequent?\n","x":1123,"y":-332,"width":997,"height":227},
-		{"id":"3a6356faaaf72492","type":"link","url":"https://docs.google.com/spreadsheets/d/1GiQBU8HFeC5ckzBsW-WxFpXzZV1OHjyd_xcIgxiKEOg/edit?gid=0#gid=0","x":1120,"y":2640,"width":2820,"height":600}
+		{"id":"3a6356faaaf72492","type":"link","url":"https://docs.google.com/spreadsheets/d/1GiQBU8HFeC5ckzBsW-WxFpXzZV1OHjyd_xcIgxiKEOg/edit?gid=0#gid=0","x":1120,"y":2640,"width":2820,"height":600},
+		{"id":"322c27f2960bf5a9","type":"text","text":"Access to restricted resources by client:\n- [[directory traversal]] attack\n- [[forced browsing]]\n\nGUI exploitation:\n- [[clickjacking]]\n- [[GEMs (GUI Element Misuse)]]\n- [[BFT (business flow tampering)]]\n\nParallel threads exploitation:\n- [[service worker]] and [[web worker]] exploitation\n- [[C2C (client-to-client) communication]] tampering\n\nClient-side request manipulation and session hijacking:\n- [[CSRF (cross-site request forgery)]]\n- parameter tampering\n- cookies theft\n- session hijacking\n- [[SQLIA (SQL injection attack)]]\n- [[tabnabbing]] \n- [[redirect attack]]","x":1260,"y":1326,"width":1226,"height":1030},
+		{"id":"c972391d8ff0a84d","type":"text","text":"## [A01 Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/) (from [[OWASP Top 10 (2021)]])\n\nFailures typically lead to unauthorized information disclosure, modification, or destruction of all data or performing a business function outside the user's limits.","x":1266,"y":1104,"width":1220,"height":170},
+		{"id":"e0d510c31ee1f051","type":"text","text":"- [[canvas DOM element]] vulnerabilities\n- visual glitches\n- internationalization fails (i18n)\n","x":2653,"y":1636,"width":1080,"height":160},
+		{"id":"f73bd64cea176b8e","type":"text","text":"- Dependency-related vulnerabilities\n- npm packages vulnerabilities","x":2653,"y":1856,"width":1080,"height":100},
+		{"id":"cc0a63da7e37f527","type":"text","text":"- [[drive-by download]]\n- [[trojan horse]]\n- [[keylogging]]","x":2653,"y":1996,"width":1080,"height":140},
+		{"id":"bede35d17605327a","type":"text","text":"\n- [[timing attack]]\n- [[pixel stealing]]\n","x":2653,"y":2176,"width":1080,"height":120},
+		{"id":"245e966fd4c46042","type":"text","text":"-  [[DoS (Denial of Service)]] attack\n- [[ReDoS (Regular Expression Denial of Service)]]\n- [[DDoS (Distributed Denial of Service)]]","x":2653,"y":1196,"width":1080,"height":155},
+		{"id":"cc36df594b496069","type":"text","text":"- [[XSS (cross site scripting)]]\n- code execution\n- [[DOM clobbering]]\n- [[prototype pollution]]","x":2653,"y":1396,"width":1080,"height":205},
+		{"id":"212b3a3e4427f2c1","type":"text","text":"## literature selection","x":480,"y":1680,"width":438,"height":117}
 	],
 	"edges":[
 		{"id":"74baf100b84a0df1","fromNode":"58af246e98bd0d32","fromSide":"right","toNode":"5750dcef603a3229","toSide":"left"},

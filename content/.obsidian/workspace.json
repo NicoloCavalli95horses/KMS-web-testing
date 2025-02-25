@@ -15,8 +15,8 @@
               "state": {
                 "file": "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
                 "viewState": {
-                  "x": 1620.480253837767,
-                  "y": 2491.9971734042124,
+                  "x": 2509.7405038821476,
+                  "y": 1640.2391390755424,
                   "zoom": -1.8886518579083207
                 }
               },
@@ -84,8 +84,7 @@
               "title": "directory traversal"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -235,15 +234,17 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "53c7810a23df2856",
+  "active": "e15ff3469f76a734",
   "lastOpenFiles": [
+    "01 Notes/XSS (cross site scripting).md",
+    "01 Notes/CSRF (cross-site request forgery).md",
+    "01 Notes/XSS and CSFR comparison.md",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
+    "00 Antilibrary/directory traversal.md",
     "00 Antilibrary/typosquatting.md",
     "00 Antilibrary/forced browsing.md",
     "00 Antilibrary/SameSite cookie.md",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
-    "00 Antilibrary/directory traversal.md",
     "01 Notes/redirect attack.md",
-    "01 Notes/CSRF (cross-site request forgery).md",
     "01 Notes/SQLIA (SQL injection attack).md",
     "01 Notes/OWASP Top 10 (2021).md",
     "00 Antilibrary/CSRF (cross-site request forgery) token.md",
@@ -266,7 +267,6 @@
     "00 Antilibrary/signature forgery.md",
     "00 Antilibrary/smuggling.md",
     "00 Antilibrary/RNN (recurrent neural network).md",
-    "00 Antilibrary/reliability testing.md",
     "02 Literature/papers/redirect attack",
     "02 Literature/papers/CSS",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
