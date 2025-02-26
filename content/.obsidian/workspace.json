@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f98f93025bc4254f",
+        "id": "4b0c3a0ad87ec395",
         "type": "tabs",
         "children": [
           {
-            "id": "d619e8ee7b7af544",
+            "id": "4ba6204ef88d295b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Antilibrary/framejacking.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "framejacking"
+              "title": "New tab"
             }
           }
         ]
@@ -42,7 +37,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -79,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 229.5110321044922
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -172,10 +167,11 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "4ba6204ef88d295b",
   "lastOpenFiles": [
+    "01 Notes/framejacking.md",
+    "01 Notes/clickjacking.md",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
-    "00 Antilibrary/framejacking.md",
     "96 Meta/scripts/References analysis.md",
     "96 Meta/To do.md",
     "96 Meta/scripts/PhD status.md",
