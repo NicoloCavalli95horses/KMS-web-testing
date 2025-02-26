@@ -11,15 +11,17 @@
             "id": "e15ff3469f76a734",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "96 Meta/scripts/References analysis.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
+                "viewState": {
+                  "x": 3064.3538611491954,
+                  "y": 1466.5173577501696,
+                  "zoom": -2.6324775191303496
+                }
               },
-              "icon": "lucide-file",
-              "title": "References analysis"
+              "icon": "lucide-layout-dashboard",
+              "title": "research questions and databases"
             }
           }
         ]
@@ -174,8 +176,8 @@
   },
   "active": "e15ff3469f76a734",
   "lastOpenFiles": [
-    "96 Meta/To do.md",
     "96 Meta/scripts/References analysis.md",
+    "96 Meta/To do.md",
     "96 Meta/scripts/PhD status.md",
     "00 Antilibrary/Moving Target Defence.md",
     "00 Antilibrary/LocalStorage.md",
