@@ -8,20 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e15ff3469f76a734",
+            "id": "d619e8ee7b7af544",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
-                "viewState": {
-                  "x": 3064.3538611491954,
-                  "y": 1466.5173577501696,
-                  "zoom": -2.6324775191303496
-                }
+                "file": "00 Antilibrary/framejacking.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "research questions and databases"
+              "icon": "lucide-file",
+              "title": "framejacking"
             }
           }
         ]
@@ -44,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -81,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.51103591918945
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -174,8 +172,10 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "e15ff3469f76a734",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
+    "00 Antilibrary/framejacking.md",
     "96 Meta/scripts/References analysis.md",
     "96 Meta/To do.md",
     "96 Meta/scripts/PhD status.md",
@@ -200,9 +200,6 @@
     "00 Antilibrary/cache poisoning.md",
     "00 Antilibrary/browser fingerprinting.md",
     "00 Antilibrary/bootloader.md",
-    "00 Antilibrary/BCFG (Business Control Flow Graph).md",
-    "01 Notes/typosquatting.md",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
     "Untitled.canvas",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
     "04 Canvases/papers/paper template.canvas",
