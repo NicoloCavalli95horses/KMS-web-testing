@@ -11,15 +11,17 @@
             "id": "30f85004ff138af0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "07 Courses/Introduction to Abaca (Inria compute cluster).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/meetings/2025_02_27.canvas",
+                "viewState": {
+                  "x": 1179.2067851028226,
+                  "y": 1354.1130301386256,
+                  "zoom": -1.7632167754885555
+                }
               },
-              "icon": "lucide-file",
-              "title": "Introduction to Abaca (Inria compute cluster)"
+              "icon": "lucide-layout-dashboard",
+              "title": "2025_02_27"
             }
           }
         ]
@@ -172,11 +174,11 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "30f85004ff138af0",
   "lastOpenFiles": [
-    "97 Assets/grid5000_locations.png",
     "05 Dataset/vulnerable webapp.canvas",
     "07 Courses/Introduction to Abaca (Inria compute cluster).md",
+    "97 Assets/grid5000_locations.png",
     "06 Webinars/Visual Software QA (Quality Assurance) using VLM (Vision Language Models).md",
     "04 Canvases/meetings/2025_02_27.canvas",
     "07 Courses",
@@ -228,7 +230,6 @@
     "97 Assets/causes_of_flakiness.png",
     "97 Assets/flaky_ui_test_findings.png",
     "97 Assets/using_human_testers_building_web_crawler.png",
-    "97 Assets/bft_img_question.png",
-    "Pasted image 20250206095811.png"
+    "97 Assets/bft_img_question.png"
   ]
 }
