@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4b0c3a0ad87ec395",
+        "id": "d03b7af8ef77dd91",
         "type": "tabs",
         "children": [
           {
-            "id": "4ba6204ef88d295b",
+            "id": "30f85004ff138af0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "07 Courses/Introduction to Abaca (Inria compute cluster).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Introduction to Abaca (Inria compute cluster)"
             }
           }
         ]
@@ -167,11 +172,20 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "4ba6204ef88d295b",
+  "active": "30f85004ff138af0",
   "lastOpenFiles": [
+    "07 Courses/Introduction to Abaca (Inria compute cluster).md",
+    "06 Webinars/Visual Software QA (Quality Assurance) using VLM (Vision Language Models).md",
+    "07 Courses",
+    "04 Canvases/meetings/2025_02_27.canvas",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
+    "04 Canvases/papers/paper template.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "01 Notes/framejacking.md",
     "01 Notes/clickjacking.md",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
     "96 Meta/scripts/References analysis.md",
     "96 Meta/To do.md",
     "96 Meta/scripts/PhD status.md",
@@ -194,19 +208,11 @@
     "00 Antilibrary/configuration testing.md",
     "00 Antilibrary/compatibility or conversion testing.md",
     "00 Antilibrary/cache poisoning.md",
-    "00 Antilibrary/browser fingerprinting.md",
-    "00 Antilibrary/bootloader.md",
     "Untitled.canvas",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
-    "04 Canvases/papers/paper template.canvas",
     "04 Canvases/meetings/2025_02_20.canvas",
     "02 Literature/papers/redirect attack",
     "02 Literature/papers/CSS",
-    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/meetings/2025_02_12.canvas",
-    "04 Canvases/meetings/2025_02_06.canvas",
     "97 Assets/canva_business_model.png",
     "97 Assets/LLM_trained_for_videogames.png",
     "97 Assets/bugs_in_games.png",
@@ -219,7 +225,6 @@
     "Pasted image 20250217120451.png",
     "97 Assets/systematic_literature_review.png",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review",
-    "04 Canvases/mind maps",
     "97 Assets/causes_of_flakiness.png",
     "97 Assets/flaky_ui_test_findings.png",
     "97 Assets/using_human_testers_building_web_crawler.png",
