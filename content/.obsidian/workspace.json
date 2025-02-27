@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/meetings/2025_02_27.canvas",
+                "file": "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
                 "viewState": {
-                  "x": 5747.05369275923,
-                  "y": 1796.1567910222764,
-                  "zoom": -0.960364944443887
+                  "x": 2655.8759070218657,
+                  "y": 528.0511604171792,
+                  "zoom": -0.4133692666425261
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "2025_02_27"
+              "title": "introduction"
             }
           }
         ]
@@ -176,8 +176,9 @@
   },
   "active": "30f85004ff138af0",
   "lastOpenFiles": [
-    "index.md",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/meetings/2025_02_27.canvas",
+    "index.md",
     "01 Notes/Honeypot.md",
     "01 Notes/fuzzling.md",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR methodology.canvas",
@@ -192,7 +193,6 @@
     "04 Canvases/papers/paper template.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "01 Notes/framejacking.md",
     "01 Notes/clickjacking.md",
     "96 Meta/scripts/References analysis.md",

@@ -23,7 +23,8 @@
 		{"id":"cc0a63da7e37f527","type":"text","text":"- [[drive-by download]]\n- [[trojan horse]]\n- [[keylogging]]","x":4500,"y":1595,"width":427,"height":132},
 		{"id":"bede35d17605327a","type":"text","text":"\n- [[timing attack]]\n- [[pixel stealing]]\n","x":4500,"y":1754,"width":427,"height":105},
 		{"id":"3a6356faaaf72492","type":"link","url":"https://docs.google.com/spreadsheets/d/1GiQBU8HFeC5ckzBsW-WxFpXzZV1OHjyd_xcIgxiKEOg/edit?gid=0#gid=0","x":5200,"y":1381,"width":2040,"height":736},
-		{"id":"78c8e3482f006f12","type":"text","text":"# [[SLR (systematic literature review)]] design\n\n  ","x":-160,"y":1021,"width":520,"height":120}
+		{"id":"78c8e3482f006f12","type":"text","text":"# [[SLR (systematic literature review)]] design\n\n  ","x":-160,"y":1021,"width":520,"height":120},
+		{"id":"69c21190f68016f1","x":1840,"y":659,"width":480,"height":151,"type":"text","text":"output:\n- taxonomy to improve identification\n- improving OWASP for web client"}
 	],
 	"edges":[
 		{"id":"74baf100b84a0df1","fromNode":"58af246e98bd0d32","fromSide":"right","toNode":"5750dcef603a3229","toSide":"left"},
