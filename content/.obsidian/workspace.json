@@ -11,17 +11,15 @@
             "id": "30f85004ff138af0",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/meetings/2025_02_27.canvas",
-                "viewState": {
-                  "x": 1179.2067851028226,
-                  "y": 1354.1130301386256,
-                  "zoom": -1.7632167754885555
-                }
+                "file": "index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "2025_02_27"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ]
@@ -81,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 229.5110321044922
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -176,14 +174,16 @@
   },
   "active": "30f85004ff138af0",
   "lastOpenFiles": [
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR methodology.canvas",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
+    "04 Canvases/meetings/2025_02_27.canvas",
+    "Pasted image 20250227135700.png",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
     "05 Dataset/vulnerable webapp.canvas",
     "07 Courses/Introduction to Abaca (Inria compute cluster).md",
     "97 Assets/grid5000_locations.png",
     "06 Webinars/Visual Software QA (Quality Assurance) using VLM (Vision Language Models).md",
-    "04 Canvases/meetings/2025_02_27.canvas",
     "07 Courses",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
     "04 Canvases/papers/paper template.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
@@ -229,7 +229,6 @@
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review",
     "97 Assets/causes_of_flakiness.png",
     "97 Assets/flaky_ui_test_findings.png",
-    "97 Assets/using_human_testers_building_web_crawler.png",
-    "97 Assets/bft_img_question.png"
+    "97 Assets/using_human_testers_building_web_crawler.png"
   ]
 }
