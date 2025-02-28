@@ -11,17 +11,15 @@
             "id": "d81052c6d0c697ef",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR protocol.canvas",
-                "viewState": {
-                  "x": 1711.1233203413167,
-                  "y": 348.9573004579237,
-                  "zoom": -0.34114473812629187
-                }
+                "file": "01 Notes/POLA (Principle Of Least Astonishment).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "SLR protocol"
+              "icon": "lucide-file",
+              "title": "POLA (Principle Of Least Astonishment)"
             }
           }
         ]
@@ -81,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.51103591918945
+    "width": 344.51103591918945
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -174,9 +172,10 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "d81052c6d0c697ef",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
     "01 Notes/ABAC (attribute based access control).md",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR protocol.canvas",
     "01 Notes/RBAC (role-based access control).md",
     "00 Antilibrary/BCFG (Business Control Flow Graph).md",
     "01 Notes/JEA (Just-Enough-Access) principle.md",
@@ -190,7 +189,6 @@
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "02 Literature/papers/review, taxonomy and meta-analysis/Systematic review and taxonomy of web applications threats.md",
     "01 Notes/SQLIA (SQL injection attack).md",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR protocol.canvas",
     "01 Notes/OWASP Top 10 (2021).md",
     "02 Literature/papers/web client-side tampering/On the misuse of Graphical User Interface elements to implement security controls.md",
     "02 Literature/papers/review, taxonomy and meta-analysis/Navigating web application security. A survey of vulnerabilities and detection solutions.md",
@@ -213,7 +211,6 @@
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
     "07 Courses/Introduction to Abaca (Inria compute cluster).md",
     "97 Assets/grid5000_locations.png",
-    "06 Webinars/Visual Software QA (Quality Assurance) using VLM (Vision Language Models).md",
     "07 Courses",
     "02 Literature/papers/redirect attack",
     "02 Literature/papers/CSS",
