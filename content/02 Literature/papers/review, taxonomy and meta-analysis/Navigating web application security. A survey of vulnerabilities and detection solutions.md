@@ -26,7 +26,7 @@ Most relevant vulnerabilities, sorted by prevalence:
 - file inclusion
 - [[DoS (Denial of Service)]]
 - misconfiguration
-- broken access control ([[RBAC (role-based access control)]] issues)
+- broken [[access control]] ([[RBAC (role-based access control)]] issues)
 - [[SSRF (server-side request forgery)]]
 - bypass
 - identification and authentication failures

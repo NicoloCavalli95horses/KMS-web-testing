@@ -11,17 +11,15 @@
             "id": "30f85004ff138af0",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR protocol.canvas",
-                "viewState": {
-                  "x": 3540,
-                  "y": 1150,
-                  "zoom": -2.431435988626926
-                }
+                "file": "01 Notes/access control.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "SLR protocol"
+              "icon": "lucide-file",
+              "title": "access control"
             }
           }
         ]
@@ -56,8 +54,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "\"access control\"",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -77,11 +75,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 417.51103591918945
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -176,11 +175,29 @@
   },
   "active": "30f85004ff138af0",
   "lastOpenFiles": [
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR protocol.canvas",
-    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR methodology.canvas",
-    "04 Canvases/papers/paper template.canvas",
+    "02 Literature/papers/review, taxonomy and meta-analysis/A Taxonomy of Web Security Vulnerabilities.md",
     "04 Canvases/meetings/2025_02_27.canvas",
+    "03 References/(Mulliner, Robertson, Kirda, 2014).md",
+    "01 Notes/access control.md",
+    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
+    "02 Literature/papers/review, taxonomy and meta-analysis/Systematic review and taxonomy of web applications threats.md",
+    "01 Notes/SQLIA (SQL injection attack).md",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR protocol.canvas",
+    "01 Notes/RBAC (role-based access control).md",
+    "01 Notes/OWASP Top 10 (2021).md",
+    "02 Literature/papers/web client-side tampering/On the misuse of Graphical User Interface elements to implement security controls.md",
+    "02 Literature/papers/review, taxonomy and meta-analysis/Navigating web application security. A survey of vulnerabilities and detection solutions.md",
+    "01 Notes/IDOR (Insecure Direct Object Reference).md",
+    "02 Literature/papers/web client-side tampering/Hidden GEMS. Automated discovery of Access Control Vulnerabilities in Graphical User Interfaces.md",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
+    "01 Notes/GEMs (GUI Element Misuse).md",
+    "01 Notes/forced browsing.md",
+    "02 Literature/papers/web client-side tampering/Finding client-side business flow tampering vulnerabilities.md",
+    "02 Literature/papers/review, taxonomy and meta-analysis/Common vulnerabilities in real world web applications.md",
+    "01 Notes/Cisco RBAC CVE.md",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
+    "04 Canvases/papers/paper template.canvas",
+    "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR methodology.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "index.md",
     "01 Notes/Honeypot.md",
@@ -192,29 +209,10 @@
     "97 Assets/grid5000_locations.png",
     "06 Webinars/Visual Software QA (Quality Assurance) using VLM (Vision Language Models).md",
     "07 Courses",
-    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "01 Notes/framejacking.md",
     "01 Notes/clickjacking.md",
     "96 Meta/scripts/References analysis.md",
     "96 Meta/To do.md",
-    "96 Meta/scripts/PhD status.md",
-    "00 Antilibrary/Moving Target Defence.md",
-    "00 Antilibrary/LocalStorage.md",
-    "00 Antilibrary/LLM (large language model).md",
-    "00 Antilibrary/LIFO (last in, first out).md",
-    "00 Antilibrary/JWT (JSON Web Token).md",
-    "00 Antilibrary/Jenkins.md",
-    "00 Antilibrary/installation testing.md",
-    "00 Antilibrary/IndexedDB.md",
-    "00 Antilibrary/ELET (Embedded Language Encapsulation Type).md",
-    "00 Antilibrary/EDG (Event Dependency Graph).md",
-    "00 Antilibrary/direct manipulation (design pattern).md",
-    "00 Antilibrary/CSRF (cross-site request forgery) token.md",
-    "00 Antilibrary/cryptomining.md",
-    "00 Antilibrary/cookie.md",
-    "00 Antilibrary/context isolation bypass.md",
-    "Untitled.canvas",
     "02 Literature/papers/redirect attack",
     "02 Literature/papers/CSS",
     "97 Assets/canva_business_model.png",

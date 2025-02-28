@@ -8,7 +8,7 @@ tags:
 The OWASP Top 10 is a standard awareness document for developers and web application security. It represents a broad consensus about the most critical security risks to web applications:
 
 **A01:2021-Broken Access Control** 
-- 94% of applications were tested for some form of broken access control
+- 94% of applications were tested for some form of broken [[access control]]
 - The 34 Common Weakness Enumerations (CWEs) mapped to Broken Access Control had more occurrences in applications than any other category
 
 **A02:2021-Cryptographic Failures**

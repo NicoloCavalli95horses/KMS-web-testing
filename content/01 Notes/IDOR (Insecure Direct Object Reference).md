@@ -6,7 +6,7 @@ tags:
 ---
 ## Definition
 
-Insecure Direct Object Reference (IDOR) is a vulnerability that arises when attackers can access or modify objects by manipulating identifiers used in a web application's URLs or parameters. It occurs due to missing access control checks, which fail to verify whether a user should be allowed to access specific data.
+Insecure Direct Object Reference (IDOR) is a vulnerability that arises when attackers can access or modify objects by manipulating identifiers used in a web application's URLs or parameters. It occurs due to missing [[access control]] checks, which fail to verify whether a user should be allowed to access specific data.
 
 ```txt
 https://example.org/users/123

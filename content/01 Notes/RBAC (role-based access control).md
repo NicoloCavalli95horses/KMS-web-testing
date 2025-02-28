@@ -6,7 +6,7 @@ tags:
   - designPattern
   - rbac
 ---
-## What is RBAC (role-based access control)
+## What is RBAC (role-based [[access control]])
 
 RBAC is a foundational principle in cyber security that helps organizations to manage and control access to their critical resources. It implies ==diversify the access to the resources based on roles and permissions.==
 

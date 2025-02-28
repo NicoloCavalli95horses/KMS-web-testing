@@ -12,7 +12,7 @@ tags:
 
 [[GUI (graphical user interface)]] are often rich in [[standard widgets]] and [[ad hoc widgets]]. This visual elements are characterized by a set of properties (status, visibility, writability, etc). These properties, if bad implemented, can be misused by attackers to get access to resources or information that should not be available, in a [[RBAC (role-based access control)]] system.
 
-[[GEMs (GUI Element Misuse)]]: a novel class of access control vulnerabilities on GUIs.
+[[GEMs (GUI Element Misuse)]]: a novel class of [[access control]] vulnerabilities on GUIs.
 - different types of GEMs can be distinguished based on the fact that information access, information editing or callback execution is permitted
 - a general algorithm have been used to automatically identify and confirm the presence of GEMs (GEM Miner)
 - GEM Miner has been evaluated on three complex real-world GUI-based applications

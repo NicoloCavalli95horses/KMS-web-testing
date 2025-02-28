@@ -47,7 +47,7 @@ A web client can be both a human or a bot. This two scenarios can lead to differ
 	- insufficient logging and monitoring threats
 - **web server (Apache, NGINX) vulnerabilities:** it includes HTTP-based [[DoS (Denial of Service)]], which often takes the form of a  [[DDoS (Distributed Denial of Service)]]
 - **application server vulnerabilities:**
-	- business logic threats: due to bad implementations or logic flaws, can lead to access control bypass
+	- business logic threats: due to bad implementations or logic flaws, can lead to [[ access control]] bypass
 	- session management threats
 	- [[CSRF (cross-site request forgery)]]
 	- [[XSS (cross site scripting)]]

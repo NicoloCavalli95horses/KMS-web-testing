@@ -24,7 +24,9 @@
 		{"id":"f73bd64cea176b8e","type":"text","text":"- Dependency-related vulnerabilities\n- npm packages vulnerabilities","x":4500,"y":1455,"width":427,"height":114},
 		{"id":"cc0a63da7e37f527","type":"text","text":"- [[drive-by download]]\n- [[trojan horse]]\n- [[keylogging]]","x":4500,"y":1595,"width":427,"height":132},
 		{"id":"bede35d17605327a","type":"text","text":"\n- [[timing attack]]\n- [[pixel stealing]]\n","x":4500,"y":1754,"width":427,"height":105},
-		{"id":"69c21190f68016f1","type":"text","text":"## Other possible output\n- taxonomy to improve identification\n- improving OWASP for web client","x":1760,"y":316,"width":480,"height":151}
+		{"id":"75d53e8dcc6aae64","x":1700,"y":-120,"width":480,"height":50,"color":"3","type":"text","text":"Aren't these already specified by OWASP?"},
+		{"id":"6742a2ffdffe4bd6","x":1700,"y":-31,"width":480,"height":60,"color":"3","type":"text","text":"Can this research eventually improve OWASP pages?"},
+		{"id":"69c21190f68016f1","type":"text","text":"Other possible output:\n- taxonomy to improve identification\n- improving OWASP for web client","x":1700,"y":60,"width":480,"height":151,"color":"3"}
 	],
 	"edges":[
 		{"id":"74baf100b84a0df1","fromNode":"58af246e98bd0d32","fromSide":"right","toNode":"5750dcef603a3229","toSide":"left"},
@@ -36,6 +38,9 @@
 		{"id":"f5633cd11b76209a","fromNode":"58af246e98bd0d32","fromSide":"right","toNode":"24902cb4ea3162c3","toSide":"left"},
 		{"id":"d87aa65f0db877ac","fromNode":"6727ee773ba3f688","fromSide":"right","toNode":"3a6356faaaf72492","toSide":"left"},
 		{"id":"70c14ef4f6e4a8df","fromNode":"212b3a3e4427f2c1","fromSide":"right","toNode":"df79509072f81fd9","toSide":"left"},
-		{"id":"89a70a21ddb34812","fromNode":"df79509072f81fd9","fromSide":"right","toNode":"6727ee773ba3f688","toSide":"left"}
+		{"id":"89a70a21ddb34812","fromNode":"df79509072f81fd9","fromSide":"right","toNode":"6727ee773ba3f688","toSide":"left"},
+		{"id":"2d5bffc2f2fe149c","fromNode":"75d53e8dcc6aae64","fromSide":"left","toNode":"5750dcef603a3229","toSide":"right"},
+		{"id":"3aff068198873463","fromNode":"6742a2ffdffe4bd6","fromSide":"left","toNode":"5750dcef603a3229","toSide":"right"},
+		{"id":"1898e33a31ed4ddc","fromNode":"69c21190f68016f1","fromSide":"left","toNode":"5750dcef603a3229","toSide":"right"}
 	]
 }
