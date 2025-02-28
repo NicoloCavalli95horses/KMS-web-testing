@@ -5,14 +5,15 @@ tags:
   - cyberSecurity
   - designPattern
   - rbac
+  - accessControl
 ---
-## What is RBAC (role-based [[access control]])
+## Definition
 
 RBAC is a foundational principle in cyber security that helps organizations to manage and control access to their critical resources. It implies ==diversify the access to the resources based on roles and permissions.==
 
 **Mapping users to roles, and roles to permissions**
  At its core, RBAC operates on the principle of assigning permissions to roles, rather than to individual users
- - Users should only have access to the information and the resources necessary for their roles *(principle of least privilege)*
+ - Users should only have access to the information and the resources necessary for their roles ([[PoLP (principle of least privilege)]])
 
 ## Components of RBAC
 
@@ -66,7 +67,27 @@ In a web application implementing RBAC principles, URLs would be associated to s
 
 URLs should be protected by [[sessions token]] or by other controls executed by the server.
 
+### Bad RBAC implementations
+
+```JavaScript
+if ( user.hasRole(ADMIN) || user.hasRole(MANAGER) ) {
+  deleteAccount();
+}
+```
+
+This implementation is not flexible and it is difficult to maintain when new roles need to be created. What if, one day, a new `SUPER_ADMIN` role is needed? You would have to manually insert another condition in all the if statements that are affected.
+
+Using a centralized system with granular permissions is much more easy to maintain:
+
+```JavaScript
+if (user.hasPermission(DELETE_ACCOUNT) ) {
+  deleteAccount();
+}
+```
+
+
 ---
 ## References
 - RBAC exploitation, review in [[(Onukrane, Skrodelis, et al., 2023)]]
 - https://www.neumetric.com/role-based-access-control-rbac-for-cybersecurity/
+- https://top10proactive.owasp.org/archive/2024/the-top-10/c1-accesscontrol/#5-principle-of-least-privilege-just-in-time-jit-just-enough-access-jea

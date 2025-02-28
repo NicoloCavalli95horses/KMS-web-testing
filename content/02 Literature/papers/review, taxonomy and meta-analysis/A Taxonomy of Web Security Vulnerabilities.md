@@ -31,7 +31,7 @@ The taxonomy in this paper starts out by ==classifying vulnerability detection =
 
 **Authentication vulnerability**
 Broken authentication and session management: the attacker get access to protected resources, or to valid and active session of an user, bypassing the auth process
-- Misconfiguration in [[access control ]]policies, inadequate user credential validation, coding mistakes, and uncontrolled web page redirections
+- Misconfiguration in [[access control]]policies, inadequate user credential validation, coding mistakes, and uncontrolled web page redirections
 
 **Injection flaws**
 [[SQLIA (SQL injection attack)]] occurs when the attacker inserts SQL characters into SQL statements constructed using external input, resulting in changing the meaning of the intended SQL query. Thus, the attacker can indirectly get access to the database to obtain, modify and/or delete data.
