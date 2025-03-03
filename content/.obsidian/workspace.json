@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/POLA (Principle Of Least Astonishment).md",
+                "file": "96 Meta/Publication deadlines.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "POLA (Principle Of Least Astonishment)"
+              "title": "Publication deadlines"
             }
           }
         ]
@@ -172,8 +172,13 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "d81052c6d0c697ef",
   "lastOpenFiles": [
+    "96 Meta/To do.md",
+    "96 Meta/Publication deadlines.md",
+    "96 Meta/scripts/References analysis.md",
+    "96 Meta/scripts/PhD status.md",
+    "01 Notes/POLA (Principle Of Least Astonishment).md",
     "01 Notes/ABAC (attribute based access control).md",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR protocol.canvas",
     "01 Notes/RBAC (role-based access control).md",
@@ -204,12 +209,8 @@
     "04 Canvases/papers/paper template.canvas",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR methodology.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "index.md",
-    "01 Notes/Honeypot.md",
-    "01 Notes/fuzzling.md",
     "Pasted image 20250227135700.png",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/research questions and databases.canvas",
-    "07 Courses/Introduction to Abaca (Inria compute cluster).md",
     "97 Assets/grid5000_locations.png",
     "07 Courses",
     "02 Literature/papers/redirect attack",

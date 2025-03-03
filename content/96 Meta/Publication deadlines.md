@@ -6,10 +6,10 @@ tags:
   - meta
 ---
 
-| Journal                                                 | Deadline              | Link                                                                |
-| ------------------------------------------------------- | --------------------- | ------------------------------------------------------------------- |
-| IEEE symposium on security and privacy                  | June 5                | https://sp2026.ieee-security.org/cfpapers.html                      |
-| IEEE/ACM Automated Software Engineering (ASE)           | 30 May                | https://conf.researchr.org/track/ase-2025/ase-2025-papers           |
-| International Conference on Software Engineering (ICSE) | 14 March /<br>18 July | https://conf.researchr.org/track/icse-2026/icse-2026-research-track |
+| Journal                                                 | Rank | Deadline              | Link                                                                |
+| ------------------------------------------------------- | ---- | --------------------- | ------------------------------------------------------------------- |
+| International Conference on Software Engineering (ICSE) | A*   | 14 March /<br>18 July | https://conf.researchr.org/track/icse-2026/icse-2026-research-track |
+| IEEE symposium on security and privacy                  | A    | June 5                | https://sp2026.ieee-security.org/cfpapers.html                      |
+| IEEE/ACM Automated Software Engineering (ASE)           | A    | 30 May                | https://conf.researchr.org/track/ase-2025/ase-2025-papers           |
 Journal ranking:
 - https://www.camille-kurtz.com/index_fichiers/html/CSRank.html
