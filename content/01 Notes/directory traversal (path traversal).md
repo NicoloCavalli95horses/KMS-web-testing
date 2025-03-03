@@ -7,7 +7,9 @@ tags:
 ---
 ## Definition
 
-Directory traversal (path traversal) is a web vulnerability that lets a malicious hacker access and view files located in the web server file system but outside of the web application’s document root folder
+Directory traversal (path traversal) is a web vulnerability that lets a malicious hacker access and view files located in the web server file system but outside of the web application’s document root folder.
+
+This is most common when web applications allow upload functionality and the hacker crafts a malicious input value that is processed by the web application and allows access to sensitive directories on the web server ([[(Pauli, 2013)]])
 
 ### Use cases
 
@@ -26,3 +28,4 @@ http://example.com/my_app/display.php?file=../../../etc/passwd
 ---
 #### References
 - https://www.invicti.com/learn/directory-traversal-path-traversal/
+- [[(Pauli, 2013)]]

@@ -14,7 +14,7 @@ https://example.org/users/123
 
 The 123 in the URL is a direct reference to the user's record in the database, often represented by the primary key. If an attacker changes this number to 124 and gains access to another user's information, the application is vulnerable to Insecure Direct Object Reference. This happens because the app didn't properly check if the user had permission to view data for user 124 before displaying it.
 
-See also: [[directory traversal]] and [[forced browsing]]
+See also: [[directory traversal (path traversal)]] and [[forced browsing]]
 
 ---
 #### References

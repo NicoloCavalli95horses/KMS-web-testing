@@ -32,7 +32,7 @@ Most relevant vulnerabilities, sorted by prevalence:
 - identification and authentication failures
 - [[XXE (XML external entities)]]
 - insecure design
-- [[directory traversal]]
+- [[directory traversal (path traversal)]]
 - software and data integrity failure
 - cryptographic failures
 - vulnerable and outdated components
