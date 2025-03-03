@@ -41,7 +41,7 @@ Most relevant vulnerabilities, sorted by prevalence:
 - [[client-side input validations]]
 - [[redirect attack]]
 - privilege escalation
-- session hijacking
+- [[session hijacking]]
 - [[clickjacking]]
 - brute force attack
 - memory corruption
