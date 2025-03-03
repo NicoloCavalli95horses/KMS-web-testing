@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/books/Web application security/chapters/16. Client-Side Attacks.md",
+                "file": "02 Literature/books/The Basic of Web Hacking/chapters/5. Web Application Exploitation  with Broken Authentication and Path Traversal.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "16. Client-Side Attacks"
+              "title": "5. Web Application Exploitation  with Broken Authentication and Path Traversal"
             }
           }
         ]
@@ -95,12 +95,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 Literature/books/Web application security/chapters/16. Client-Side Attacks.md",
+                "file": "02 Literature/books/The Basic of Web Hacking/chapters/5. Web Application Exploitation  with Broken Authentication and Path Traversal.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 16. Client-Side Attacks"
+              "title": "Outgoing links from 5. Web Application Exploitation  with Broken Authentication and Path Traversal"
             }
           },
           {
@@ -124,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 Literature/books/Web application security/chapters/16. Client-Side Attacks.md",
+                "file": "02 Literature/books/The Basic of Web Hacking/chapters/5. Web Application Exploitation  with Broken Authentication and Path Traversal.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 16. Client-Side Attacks"
+              "title": "Outline of 5. Web Application Exploitation  with Broken Authentication and Path Traversal"
             }
           },
           {
@@ -184,10 +184,14 @@
   },
   "active": "d81052c6d0c697ef",
   "lastOpenFiles": [
-    "02 Literature/books/The Basic of Web Hacking/The Basic of Web Hacking. Tools and Techniques to Attack the Web.md",
-    "03 References/(Pauli, 2013).md",
-    "02 Literature/books/Web application security/Web application security.md",
+    "02 Literature/books/The art of software testing/chapters/01-02 Self-assessment test, psychology and economics of software testing.md",
     "02 Literature/books/The Basic of Web Hacking/chapters/5. Web Application Exploitation  with Broken Authentication and Path Traversal.md",
+    "02 Literature/books/The Basic of Web Hacking/The Basic of Web Hacking. Tools and Techniques to Attack the Web.md",
+    "02 Literature/books/Web application security/Web application security.md",
+    "02 Literature/books/The art of software testing/The art of software testing.md",
+    "02 Literature/books/JavaScript, The Good Parts/JavaScript, The Good Parts.md",
+    "02 Literature/books/Web application security/chapters/16. Client-Side Attacks.md",
+    "03 References/(Pauli, 2013).md",
     "02 Literature/books/The Basic of Web Hacking/chapters",
     "96 Meta/Publication deadlines.md",
     "02 Literature/books/The Basic of Web Hacking",
@@ -212,11 +216,7 @@
     "01 Notes/SQLIA (SQL injection attack).md",
     "01 Notes/OWASP Top 10 (2021).md",
     "02 Literature/papers/web client-side tampering/On the misuse of Graphical User Interface elements to implement security controls.md",
-    "02 Literature/papers/review, taxonomy and meta-analysis/Navigating web application security. A survey of vulnerabilities and detection solutions.md",
-    "01 Notes/IDOR (Insecure Direct Object Reference).md",
-    "02 Literature/papers/web client-side tampering/Hidden GEMS. Automated discovery of Access Control Vulnerabilities in Graphical User Interfaces.md",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "01 Notes/GEMs (GUI Element Misuse).md",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
     "04 Canvases/papers/paper template.canvas",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR methodology.canvas",
