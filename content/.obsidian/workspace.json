@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/books/The Basic of Web Hacking/chapters/5. Web Application Exploitation  with Broken Authentication and Path Traversal.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "5. Web Application Exploitation  with Broken Authentication and Path Traversal"
+              "title": "index"
             }
           }
         ],
@@ -200,9 +200,9 @@
   },
   "active": "b85a7e077546912f",
   "lastOpenFiles": [
+    "02 Literature/books/The Basic of Web Hacking/chapters/5. Web Application Exploitation  with Broken Authentication and Path Traversal.md",
     "01 Notes/directory traversal (path traversal).md",
     "97 Assets/path_traversal.png",
-    "02 Literature/books/The Basic of Web Hacking/chapters/5. Web Application Exploitation  with Broken Authentication and Path Traversal.md",
     "01 Notes/session hijacking.md",
     "01 Notes/forced browsing.md",
     "03 References/(Pauli, 2013).md",
