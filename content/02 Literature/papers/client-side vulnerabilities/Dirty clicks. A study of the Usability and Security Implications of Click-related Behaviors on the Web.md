@@ -44,13 +44,41 @@ Basing on web recommendations/standards and user experience handbooks, the autho
 
 ## Approach
 
-A list of top-ranked domains, according to Alexa, were analyzed. The hypothesis was that the prevalence of "dirty clicks" was higher in "grey" websites (free streaming, porn)
+A list of top-ranked domains (+12k), according to Alexa, were analyzed. The hypothesis was that the prevalence of "dirty clicks" was higher in "grey" websites (free streaming, porn)
 
 The click analysis tool was implemented as a web crawler that:
 - receives as input the main URL of a website
 - loads the page
 - recursively visits three randomly selected pages up to a distance of three clicks from the homepage
+- 13 pages per website were analyzed
+- ==everything that has the "cursor" property on "clickable" is considerate a button==
 
+### Results
+
+**Insecure communication**
+- **Insecure access**: the user clicks on an HTTPS link but the visited page is actually using HTTP
+- **Hidden HTTP connection**: the user click on b.com and eventually lands on b.com, which correctly support HTTPS, but there were intermediate HTTP insecure webpage invisible for the user.. The two endpoint are secure but the entire communication is not
+- **Unexpected mixed content**: by default, over a secure connection, browsers block what is generally known as active mixed content (i.e., elements served over HTTP that can directly interact with the content of the page). However, other elements such as images and video files  are allowed. This opens the door to ==possible security and privacy attacks that use passive mixed content.==
+
+**Misleading clicks**
+- **Invisible Layer**: The user clicks some non-clickable object of the web page (e.g., some random text or image), despite the fact that there should not be any expected result, this triggers a web page redirection or the opening of a new tab
+- **Fake href Attributes**: The user wants to click on a given element, such as a simple `<a>` tag, and the user’s expectation is that the browser will go to the website indicated by the link (as specified in the href attribute). However, the user is redirected to a different website, not related to the expected one
+- **Fake Local Clicks**: The user clicks on a clickable object in a web page that does not explicitly indicate a target URL. As a result, the user expects the destination to be in the same domain of the current website. However, the user is redirected to a completely unrelated domain without any prior notice.
+
+**Misleading redirects**
+- **Different domain**: the user is redirected to a domain different from the one that he was expecting. The user click on a.com and is redirected to c.com instead of b.com
+- **Hidden domain**: the user click to b.com, is redirected to c.com and then again back to b.com. The user is not aware of the redirection
+
+Despite the common intuition that this type of techniques would be prevalently used in gray webpages for aggressive advertisement reasons, ==our results show that most of these bad practices are equally common in both datasets.==
+
+**Misleading cookies**
+- **undesired cookies**: cookies that are added after a redirect without the user being aware of it
+- **undesired HTTP cookies**: cookies can be stolen in a man-in-the-middle attack over an HTTP connection
+- **First party bypass**
+
+
+> [!WARNING] Loading external content over HTTP is very common
+> More than half of the domains indirectly put their users in jeopardy not by performing an insecure redirections, but by loading external content over an insecure channel.
 
 ---
 #### References

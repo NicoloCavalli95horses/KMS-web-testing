@@ -8,6 +8,9 @@ tags:
 ---
 ## Definition
 
+> [!SUMMARY] What is tabnabbing
+> A user on Facebook can click a link to an external website that could act perfectly benign except from replacing the previous Facebook page itself with a fake copy that may be used to phish users into disclosing personal information or login credentials. This makes the scheme very difficult to detect even for an expert user. This type of attack is popularly called as “tabnabbing” [[(Sanchez, 2020)]]
+
 *Tabnabbing* and *reverse tabnabbing* are a form of client-side attack that
 combines elements of:
 - [[phishing]] attacks, that trick the end user into interacting with a malicious web page
@@ -42,6 +45,14 @@ function goToLegitWebsite() {
 };
 ```
 
+
+### Mitigation solutions
+
+- when a website includes links to external resources, it can specify `rel="noopener noreferrer"` to prevent the new page from accessing the parent URL
+- opening an `about:blank` tab  and setting the new window-s opener to `null` will prevent the new tab to have a reference to the original one
+
+
 ---
 ## References
 - [[(Hoffman, 2024)]]
+- [[(Sanchez, 2020)]]
