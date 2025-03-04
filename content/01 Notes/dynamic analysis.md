@@ -30,9 +30,9 @@ Dynamic analysis can focus on different aspects of the software, including but n
 - [[Iroh.js]]: intercept and manipulate data during execution
 
 **Limits**
-- The analysis is strongly dependent on the tests, that are manually provided
+- The analysis is strongly dependent on the tests, that are manually provided (input dependency)
 - Bugs and issues are detected late and only in execution
 
 ---
 ## References
-[[(Linares-Vasquez, White, et al., 2018)]]
+- [[(Linares-Vasquez, White, et al., 2018)]]

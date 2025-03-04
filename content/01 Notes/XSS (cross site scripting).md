@@ -81,8 +81,8 @@ You searched for: <img src=1 onerror='/* Bad stuff here... */'>
 
 Multiple techniques and approaches are often used at the same time to tackle XSS issues:
 
-[[static analysis]]: reviewing the source code of an application to find XSS issues Techniques:
-- [[static taint analysis]]
+[[static analysis]]: reviewing the source code of an application to find XSS issues, possibly before deploying it. Techniques:
+- [[static taint analysis]] 
 - [[symbolic execution]]
 - string analysis
 - [[GA (genetic algorithm)]]
@@ -93,7 +93,7 @@ Multiple techniques and approaches are often used at the same time to tackle XSS
 
  [[dynamic analysis]]: examining the behavior of an application in runtime. Techniques:
 - [[black-box testing]]
-- [[taint tracking]]
+- [[dynamic taint analysis]]
 - flow analysis
 - monitoring
 - filtering
