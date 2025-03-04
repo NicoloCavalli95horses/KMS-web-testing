@@ -22,13 +22,15 @@ Successful XSS can:
 
 XSS is similar to [[CSRF (cross-site request forgery)]] in that both rely on code injection, but CSFR exploits the browser's trust in the user to send malicious HTTP requests, while XSS involves code execution in the user's browser (see more on [[XSS and CSFR comparison]])
 
-### Prevalence
+## Prevalence
 
-Two-third of all deployed web applications are vulnerable to XSS attacks, and Cisco 2018 Annual Security Report indicated that 40% of all attacks attempts lead to XSS attacks ([[(Sadqi, Maleh, 2022)]], p.18)
+Two-third of all deployed web applications are vulnerable to XSS attacks, and Cisco 2018 Annual Security Report indicated that 40% of all attacks attempts lead to XSS attacks [[(Sadqi, Maleh, 2022)]](p.18)
 
-### Types of XSS attacks
 
-**Reflected**
+## Types of XSS attacks
+
+#### Reflected XSS
+
 Reflected XSS is the simplest variety of cross-site scripting. It arises when an application ==receives data in an HTTP request and includes that data within the response in an unsafe way.==
 
 ```JavaScript
@@ -45,20 +47,22 @@ Reflected XSS is the simplest variety of cross-site scripting. It arises when an
 
 If the user visit the URL constructed by the attacker, the attacker's script will be executed in the user's browser. The script can retrieve any information or perform any action the user is allowed to perform. Most of the literature has studied on this type of issues. If the user is presented with the dangerous link in an email, for example, this scenario is also called [[phishing]].
 
-**Stored (persistent/second order XSS)**
+#### Stored (persistent/second order XSS)
+
 If the system does not validate user input provided from message forums or comment sections, malicious inputs can be stored in the vulnerable app's database.
 The malicious code is then executed by each new visiting user. 
 - This is the most dangerous XSS attack because the ==attack is self-contained and there is no need to find external ways to spread the attack to other users.== The user's browser can execute the malicious code by mistake, by landing in the comments section where it is present
 
- **DOM-based XSS (DOM XSS)**
- It occur when an application contains some client-side JavaScript that processes data from an untrusted source, in an unsafe way, usually by writing the data back to the DOM. 
+#### DOM-based XSS (DOM XSS)
+ 
+ Occur when client-side JavaScript processes an input in an unsafe way, usually by writing the data back to the DOM without checking. 
 ```JavaScript
 var search = document.getElementById('search').value;
 var results = document.getElementById('results');
 results.innerHTML = 'You searched for: ' + search;
 ```
 
-If the input field value is under control of the attacker they can easily construct a malicious value that can cause their own script to execute in the user's browser:
+Since the search value is not checked, it is easy to construct a malicious value that can cause an external script to be executed:
 
 ```JavaScript
 You searched for: <img src=1 onerror='/* Bad stuff here... */'>
@@ -66,12 +70,12 @@ You searched for: <img src=1 onerror='/* Bad stuff here... */'>
  
  This is ==the least know type of XSS==
 
-### Typical attacks
+## Typical attacks
 
 - *session theft*: the attacker can steal [[sessions token]] of premium users or admin, getting access to protected resource
 - *content substitution*: malicious forms or redirect pages are injected to steal user credentials ([[(Tkachenko et al., 2024)]])
 
-### How to find to find XSS vulnerabilities
+## How to find to find XSS vulnerabilities
 
 Multiple techniques and approaches are often used at the same time to tackle XSS issues:
 
@@ -98,7 +102,7 @@ Multiple techniques and approaches are often used at the same time to tackle XSS
 
 **Modelling**. Techniques and approaches: abstractions, model checking, model inference and evolutionary fuzzing, input validation, simulation, signature based model, deferred loading, one-time URLs, subdomain watching, threading, control flow graph, data mining, hybrid approach, TTCN-3, [[FSM (finite-state machine)]], primitive and advanced models
 
-### Mitigate XSS vulnerabilities
+## Mitigate XSS vulnerabilities
 
 Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, with techniques such as: monitoring, taint-tracking and filtering.
 - this because to eliminate the XSS issue we should patch the source code. In many case, access the source code or implementing patches can be difficult
@@ -118,3 +122,4 @@ Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, wit
 - [[(Sadqi, Maleh, 2022)]]
 - [[(Tkachenko et al., 2024)]]
 - Included in literature review, by [[(Onukrane, Skrodelis, et al., 2023)]]
+- Cookie banners and XSS [[(Klein, Musch, et al., 2022)]]
