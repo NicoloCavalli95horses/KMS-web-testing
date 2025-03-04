@@ -55,11 +55,13 @@ The malicious code is then executed by each new visiting user.
 
 #### DOM-based XSS (DOM XSS)
  
- Occur when client-side JavaScript processes an input in an unsafe way, usually by writing the data back to the DOM without checking. 
+ Occur when client-side JavaScript processes an input in an unsafe way, usually by writing the data back to the DOM without checking ([[sink function]])
 ```JavaScript
-var search = document.getElementById('search').value;
-var results = document.getElementById('results');
-results.innerHTML = 'You searched for: ' + search;
+function writeToDOM() { //sink function
+  const search = document.getElementById('search').value;
+  const results = document.getElementById('results');
+  results.innerHTML = 'You searched for: ' + search;
+}
 ```
 
 Since the search value is not checked, it is easy to construct a malicious value that can cause an external script to be executed:
