@@ -75,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,7 +183,7 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "20c77fd66e6afdf2",
+  "active": "0d4f777b445aff61",
   "lastOpenFiles": [
     "02 Literature/papers/web client-side tampering/Finding client-side business flow tampering vulnerabilities.md",
     "02 Literature/papers/web client-side tampering/DOM clobbering. Attack techniques, prevalence, defenses.md",
