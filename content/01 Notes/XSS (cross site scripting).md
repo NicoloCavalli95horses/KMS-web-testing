@@ -33,7 +33,7 @@ Two-third of all deployed web applications are vulnerable to XSS attacks, and Ci
 
 Reflected XSS is the simplest variety of cross-site scripting. It arises when an application ==receives data in an HTTP request and includes that data within the response in an unsafe way.==
 
-```JavaScript
+```javascript
 // The user clicks on:
 // https://insecure-website.com/status?message=<script>...<script/>
 
