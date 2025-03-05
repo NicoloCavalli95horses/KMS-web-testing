@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/sink function.md",
+                "file": "06 Webinars/Towards Autonomous Test Agent.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "sink function"
+              "title": "Towards Autonomous Test Agent"
             }
           }
         ]
@@ -42,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -184,8 +184,13 @@
   },
   "active": "20c77fd66e6afdf2",
   "lastOpenFiles": [
-    "02 Literature/papers/cookies/Accept All Exploits. Exploring the Security Impact of Cookie Banners.md",
+    "98 Templates/Temp_Webinars.md",
+    "06 Webinars/Visual Software QA (Quality Assurance) using VLM (Vision Language Models).md",
+    "06 Webinars/Towards Autonomous Test Agent.md",
+    "98 Templates/Temp_Literature.md",
+    "98 Templates/Temp_Definition.md",
     "01 Notes/sink function.md",
+    "02 Literature/papers/cookies/Accept All Exploits. Exploring the Security Impact of Cookie Banners.md",
     "01 Notes/XSS (cross site scripting).md",
     "01 Notes/dynamic taint analysis.md",
     "01 Notes/static taint analysis.md",
@@ -210,11 +215,7 @@
     "97 Assets/path_traversal.png",
     "01 Notes/session hijacking.md",
     "01 Notes/forced browsing.md",
-    "03 References/(Pauli, 2013).md",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR protocol.canvas",
-    "02 Literature/papers/review, taxonomy and meta-analysis/Navigating web application security. A survey of vulnerabilities and detection solutions.md",
-    "02 Literature/books/The Basic of Web Hacking/The Basic of Web Hacking. Tools and Techniques to Attack the Web.md",
-    "00 Antilibrary/path traversal.md",
     "02 Literature/books/The Basic of Web Hacking/chapters",
     "02 Literature/books/The Basic of Web Hacking",
     "Untitled.canvas",
