@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 Webinars/Towards Autonomous Test Agent.md",
+                "file": "02 Literature/papers/web client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Towards Autonomous Test Agent"
+              "title": "BFT DETECTOR. Automatic detection of business flow tampering for digital content service"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 346.51103591918945
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -184,9 +184,13 @@
   },
   "active": "20c77fd66e6afdf2",
   "lastOpenFiles": [
+    "02 Literature/papers/web client-side tampering/Finding client-side business flow tampering vulnerabilities.md",
+    "02 Literature/papers/web client-side tampering/DOM clobbering. Attack techniques, prevalence, defenses.md",
+    "02 Literature/papers/web client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
+    "02 Literature/papers/client-side vulnerabilities/Dirty clicks. A study of the Usability and Security Implications of Click-related Behaviors on the Web.md",
+    "06 Webinars/Towards Autonomous Test Agent.md",
     "98 Templates/Temp_Webinars.md",
     "06 Webinars/Visual Software QA (Quality Assurance) using VLM (Vision Language Models).md",
-    "06 Webinars/Towards Autonomous Test Agent.md",
     "98 Templates/Temp_Literature.md",
     "98 Templates/Temp_Definition.md",
     "01 Notes/sink function.md",
@@ -202,7 +206,6 @@
     "03 References/(Klein, Musch, et al., 2022).md",
     "02 Literature/papers/cookies",
     "01 Notes/tabnabbing.md",
-    "02 Literature/papers/client-side vulnerabilities/Dirty clicks. A study of the Usability and Security Implications of Click-related Behaviors on the Web.md",
     "00 Antilibrary/man-in-the-middle attacks.md",
     "05 Dataset/vulnerable webapp.canvas",
     "02 Literature/books/The Basic of Web Hacking/chapters/5. Web Application Exploitation  with Broken Authentication and Path Traversal.md",
@@ -211,10 +214,7 @@
     "96 Meta/scripts/References analysis.md",
     "96 Meta/scripts/PhD status.md",
     "index.md",
-    "01 Notes/directory traversal (path traversal).md",
     "97 Assets/path_traversal.png",
-    "01 Notes/session hijacking.md",
-    "01 Notes/forced browsing.md",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR protocol.canvas",
     "02 Literature/books/The Basic of Web Hacking/chapters",
     "02 Literature/books/The Basic of Web Hacking",
