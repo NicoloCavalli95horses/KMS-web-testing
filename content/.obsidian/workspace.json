@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "BFT DETECTOR. Automatic detection of business flow tampering for digital content service"
             }
+          },
+          {
+            "id": "6b7942faea24352d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.9"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.9"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,7 +196,7 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "0d4f777b445aff61",
+  "active": "6b7942faea24352d",
   "lastOpenFiles": [
     "02 Literature/papers/web client-side tampering/Finding client-side business flow tampering vulnerabilities.md",
     "02 Literature/papers/web client-side tampering/DOM clobbering. Attack techniques, prevalence, defenses.md",
