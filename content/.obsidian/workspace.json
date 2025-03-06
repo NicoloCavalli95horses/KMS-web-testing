@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "02 Literature/papers/software architecture/Micro-frontends. Principles, implementations and pitfalls.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Micro-frontends. Principles, implementations and pitfalls"
+            }
+          },
+          {
+            "id": "8eab7592fdadeeec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Antilibrary/ESI (Edge Side Includes).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "ESI (Edge Side Includes)"
             }
           }
         ]
@@ -79,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.51103591918945
+    "width": 322.51103591918945
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -184,6 +199,16 @@
   },
   "active": "c096c6fce6ee50f9",
   "lastOpenFiles": [
+    "01 Notes/MF (Micro-Frontend) architecture.md",
+    "00 Antilibrary/ESI (Edge Side Includes).md",
+    "00 Antilibrary/SessionStorage.md",
+    "00 Antilibrary/LocalStorage.md",
+    "00 Antilibrary/IndexedDB.md",
+    "00 Antilibrary/micro-service architecture.md",
+    "02 Literature/papers/software architecture/Micro-frontends. Principles, implementations and pitfalls.md",
+    "03 References/(Taibi, Mezzalira, 2022).md",
+    "02 Literature/papers/software architecture",
+    "index.md",
     "96 Meta/scripts/PhD status.md",
     "96 Meta/scripts/References analysis.md",
     "02 Literature/papers/web client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
@@ -201,19 +226,10 @@
     "01 Notes/dynamic taint analysis.md",
     "01 Notes/static taint analysis.md",
     "01 Notes/dynamic analysis.md",
-    "00 Antilibrary/cookie.md",
-    "01 Notes/static analysis.md",
-    "02 Literature/papers/SQL injection/Overview of SQL injection attack detection techniques.md",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "03 References/(Klein, Musch, et al., 2022).md",
     "02 Literature/papers/cookies",
-    "01 Notes/tabnabbing.md",
-    "00 Antilibrary/man-in-the-middle attacks.md",
     "05 Dataset/vulnerable webapp.canvas",
-    "02 Literature/books/The Basic of Web Hacking/chapters/5. Web Application Exploitation  with Broken Authentication and Path Traversal.md",
-    "03 References/(Sanchez, 2020).md",
     "02 Literature/papers/client-side vulnerabilities",
-    "index.md",
     "97 Assets/path_traversal.png",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR protocol.canvas",
     "02 Literature/books/The Basic of Web Hacking/chapters",
@@ -235,7 +251,6 @@
     "97 Assets/bugs_in_games.png",
     "06 Webinars",
     "02 Literature/papers/privacy",
-    "IDS/IPS (intrusion detection",
     "Pasted image 20250217120451.png",
     "97 Assets/systematic_literature_review.png",
     "97 Assets/causes_of_flakiness.png",
