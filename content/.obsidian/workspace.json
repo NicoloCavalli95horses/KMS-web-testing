@@ -4,38 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "d59112d05acb02d3",
+        "id": "a57c99a2dbbb1067",
         "type": "tabs",
         "children": [
           {
-            "id": "20c77fd66e6afdf2",
+            "id": "c096c6fce6ee50f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/web client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "BFT DETECTOR. Automatic detection of business flow tampering for digital content service"
-            }
-          },
-          {
-            "id": "6b7942faea24352d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
+              "title": "index"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -55,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -88,12 +75,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 346.51103591918945
+    "width": 224.51103591918945
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -196,11 +182,13 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "6b7942faea24352d",
+  "active": "c096c6fce6ee50f9",
   "lastOpenFiles": [
+    "96 Meta/scripts/PhD status.md",
+    "96 Meta/scripts/References analysis.md",
+    "02 Literature/papers/web client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "02 Literature/papers/web client-side tampering/Finding client-side business flow tampering vulnerabilities.md",
     "02 Literature/papers/web client-side tampering/DOM clobbering. Attack techniques, prevalence, defenses.md",
-    "02 Literature/papers/web client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "02 Literature/papers/client-side vulnerabilities/Dirty clicks. A study of the Usability and Security Implications of Click-related Behaviors on the Web.md",
     "06 Webinars/Towards Autonomous Test Agent.md",
     "98 Templates/Temp_Webinars.md",
@@ -225,8 +213,6 @@
     "02 Literature/books/The Basic of Web Hacking/chapters/5. Web Application Exploitation  with Broken Authentication and Path Traversal.md",
     "03 References/(Sanchez, 2020).md",
     "02 Literature/papers/client-side vulnerabilities",
-    "96 Meta/scripts/References analysis.md",
-    "96 Meta/scripts/PhD status.md",
     "index.md",
     "97 Assets/path_traversal.png",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR protocol.canvas",
