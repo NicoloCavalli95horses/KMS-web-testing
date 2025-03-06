@@ -11,15 +11,17 @@
             "id": "c096c6fce6ee50f9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "02 Literature/papers/software architecture/Micro-frontends. Principles, implementations and pitfalls.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/papers/paper template.canvas",
+                "viewState": {
+                  "x": 168.60655209912954,
+                  "y": 1706.364582679731,
+                  "zoom": -0.8095317616110692
+                }
               },
-              "icon": "lucide-file",
-              "title": "Micro-frontends. Principles, implementations and pitfalls"
+              "icon": "lucide-layout-dashboard",
+              "title": "paper template"
             }
           },
           {
@@ -199,13 +201,13 @@
   },
   "active": "c096c6fce6ee50f9",
   "lastOpenFiles": [
+    "02 Literature/papers/software architecture/Micro-frontends. Principles, implementations and pitfalls.md",
     "01 Notes/MF (Micro-Frontend) architecture.md",
     "00 Antilibrary/ESI (Edge Side Includes).md",
     "00 Antilibrary/SessionStorage.md",
     "00 Antilibrary/LocalStorage.md",
     "00 Antilibrary/IndexedDB.md",
     "00 Antilibrary/micro-service architecture.md",
-    "02 Literature/papers/software architecture/Micro-frontends. Principles, implementations and pitfalls.md",
     "03 References/(Taibi, Mezzalira, 2022).md",
     "02 Literature/papers/software architecture",
     "index.md",
