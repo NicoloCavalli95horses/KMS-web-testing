@@ -68,3 +68,4 @@ Since the condition '1'='1' always evaluates to true, the query returns all rows
 - [[(Offutt, Wu, Du, 2004)]]
 - [[(Tkachenko et al., 2024)]]
 - Included in literature review, by [[(Onukrane, Skrodelis, et al., 2023)]]
+- One of the first description of the attacks [[(Watson, 2007)]]

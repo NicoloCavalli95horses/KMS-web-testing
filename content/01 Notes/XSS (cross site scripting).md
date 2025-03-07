@@ -125,3 +125,4 @@ Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, wit
 - [[(Tkachenko et al., 2024)]]
 - Included in literature review, by [[(Onukrane, Skrodelis, et al., 2023)]]
 - Cookie banners and XSS [[(Klein, Musch, et al., 2022)]]
+- One of the first description of the attack [[(Watson, 2007)]]

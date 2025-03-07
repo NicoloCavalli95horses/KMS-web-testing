@@ -19,3 +19,4 @@ See also: [[directory traversal (path traversal)]] and [[forced browsing]]
 ---
 #### References
 - https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html
+- One of the first description of the attack: [[(Watson, 2007)]]
