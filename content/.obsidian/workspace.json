@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/web vulnerabilities reviews/Systematic review and taxonomy of web applications threats.md",
+                "file": "02 Literature/papers/philosophy of science, meta-analysis/(Re)considering the Concept of Literature Review Reproducibility.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Systematic review and taxonomy of web applications threats"
+              "title": "(Re)considering the Concept of Literature Review Reproducibility"
             }
           },
           {
@@ -37,8 +37,7 @@
               "title": "A Taxonomy of Web Security Vulnerabilities"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,12 +197,24 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "c2124d859ec8e71c",
+  "active": "c096c6fce6ee50f9",
   "lastOpenFiles": [
+    "02 Literature/papers/web client-side tampering/DOM clobbering. Attack techniques, prevalence, defenses.md",
+    "02 Literature/papers/philosophy of science, meta-analysis/(Re)considering the Concept of Literature Review Reproducibility.md",
+    "02 Literature/papers/philosophy of science, meta-analysis",
+    "02 Literature/papers/web client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
+    "02 Literature/papers/web client-side tampering/ZigZag. Automatically hardening web applications against client-side validation vulnerabilities.md",
+    "02 Literature/papers/web client-side tampering/Verification of Web Content Integrity. A new approach to protecting servers against tampering.md",
+    "02 Literature/papers/UI and UX issues/Out of Sight, Out of Mind. UI Design and the Inhibition of Mental Models of Security.md",
+    "02 Literature/papers/UI and UX issues/Home and away. UI design pattern for supporting end-user security.md",
+    "02 Literature/papers/UI and UX issues/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md",
+    "02 Literature/papers/UI and UX issues/Classifying and qualifying GUI defects.md",
+    "02 Literature/papers/UI and UX issues/A taxonomy of testable HTML5 Canvas Issues.md",
+    "03 References/(Cram, 2020).md",
+    "02 Literature/papers/web vulnerabilities reviews/Systematic review and taxonomy of web applications threats.md",
+    "02 Literature/papers/web vulnerabilities reviews/A Taxonomy of Web Security Vulnerabilities.md",
     "03 References/(Krishnaraj, Madaan, et al., 2023).md",
     "02 Literature/papers/web vulnerabilities reviews/Common vulnerabilities in real world web applications.md",
-    "02 Literature/papers/web vulnerabilities reviews/A Taxonomy of Web Security Vulnerabilities.md",
-    "02 Literature/papers/web vulnerabilities reviews/Systematic review and taxonomy of web applications threats.md",
     "02 Literature/papers/web vulnerabilities reviews/Security of Web Application. State of the Art.md",
     "03 References/(Ur Rehman, Nazir, Mustafa, 2017).md",
     "02 Literature/papers/web vulnerabilities reviews/Enhancing Front-End Security. Protecting User Data and Privacy in Web Applications.md",
@@ -217,18 +228,7 @@
     "02 Literature/papers/program repair/Automatic program repair.md",
     "02 Literature/papers/program repair",
     "04 Canvases/papers/paper template.canvas",
-    "02 Literature/papers/software architecture/Micro-frontends. Principles, implementations and pitfalls.md",
-    "01 Notes/MF (Micro-Frontend) architecture.md",
-    "00 Antilibrary/ESI (Edge Side Includes).md",
-    "00 Antilibrary/SessionStorage.md",
-    "00 Antilibrary/LocalStorage.md",
-    "00 Antilibrary/IndexedDB.md",
-    "00 Antilibrary/micro-service architecture.md",
-    "03 References/(Taibi, Mezzalira, 2022).md",
     "02 Literature/papers/software architecture",
-    "index.md",
-    "96 Meta/scripts/PhD status.md",
-    "96 Meta/scripts/References analysis.md",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "02 Literature/papers/cookies",
     "05 Dataset/vulnerable webapp.canvas",
@@ -251,7 +251,6 @@
     "97 Assets/canva_business_model.png",
     "97 Assets/LLM_trained_for_videogames.png",
     "97 Assets/bugs_in_games.png",
-    "06 Webinars",
     "Pasted image 20250217120451.png",
     "97 Assets/systematic_literature_review.png",
     "97 Assets/causes_of_flakiness.png",
