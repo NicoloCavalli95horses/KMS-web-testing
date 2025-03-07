@@ -20,11 +20,16 @@ Qualitative analysis of papers related to philosophy of science
 ## Results
 
 Different concepts are crucial to understand if you want to build a good systematic literature review:
-- **systematicity**: refers to the way the review is executed, the rules that follows and the methods used to compose the paper's list
-- **transparency**: is achieved when the elements of the review process are explicitly detailed
-- **reproducibility**: it has been defined as ==the ability to re-perform the methods of a research== but also as ==the ability to duplicate the results of a research==
-- 
+- **systematicity**: a disposition towards organized, methodical, and orderly inquiry that uses various methods and processes to search, screen, assess, analyze and interpret relevant information with a view to achieving a set of specific research goals
+- **transparency**: the extend to which review process are made explicitly
+- **reproducibility**: it has been defined as
+	- the ability to ==re-perform the methods== of a research, but allowing different results
+	- the ability to ==duplicate the results== of a research using the same methods or dataset
+- **replicability**: a study is replicable if the results of a completely new and independent study that use different data and methods corroborate the results of the previous one
 
+The element of a literature review that should be reproducible may vary from discipline to discipline
+
+To solve the problem of having multiple definitions for reproducibility, the author propose to use **repeatability** to indicate the ability to ==re-perform the methods== of a research. This is especially important in the IT field
 
 ---
 #### References
