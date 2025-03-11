@@ -7,6 +7,7 @@ tags:
   - codeAnalysis
   - cyberSecurity
   - clientSideAttacks
+SLR: https://overleaf.irisa.fr/project/67c982e387fa1b0088944647
 ---
 ## Introduction
 
@@ -39,7 +40,7 @@ The system uses a machine learning method to rank functions based on their likel
 
 **Tampering tests**
 The system repeatedly runs the website with the generated tampering proposals to filter out those that do not lead to tampering attacks (using image comparison with [[SSIM (Structural Similarity Index Method)]]).
-True positives were grouped and a representative candidate was manually checked .
+True positives were grouped and a representative candidate was manually checked
 
 **Vulnerability reporting**
 The system generates a report for each identified vulnerability, explaining the attack.

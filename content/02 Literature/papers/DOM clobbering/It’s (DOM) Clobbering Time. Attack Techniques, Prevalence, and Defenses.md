@@ -6,6 +6,7 @@ tags:
   - cyberSecurity
   - clientSideAttacks
   - businessFlowTampering
+SLR: https://overleaf.irisa.fr/project/67c982e387fa1b0088944647
 ---
 This paper examines the [[DOM clobbering]] vulnerability, providing a systematic evaluation of the attack surface, a measurement of affected and vulnerable websites and a review and evaluation of defenses.
 

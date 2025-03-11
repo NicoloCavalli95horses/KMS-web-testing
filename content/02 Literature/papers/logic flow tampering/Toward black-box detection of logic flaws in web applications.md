@@ -38,7 +38,7 @@ The traces are collected from the client, which communicates with multiple serve
 Resource abstraction and clustering:
 - this process synthesizes the application's resources by abstracting away communication details and grouping similar responses. Each cluster contains the essential information for a specific phase or state of the application.
 
-Navigation graph
+**Navigation graph**
 - Each cluster represents a phase or logical operation within the application. Clusters are connected based on timestamps and logical dependencies (e.g., adding items to the shopping cart before viewing the updated cart). The entry and exit points of the graph are predefined (logging in and checking out).
 
 **Generation of attack patterns**
@@ -52,5 +52,6 @@ The test details are dynamically retrieved during execution on the real target.
 
 The test results are evaluated against a [[test oracle]], which is derived through logical inference (e.g., an order confirmation must not occur before payment is completed).
 
+---
 ## References
-[[(Pellegrino, Balzarotti, 2014)]]
+- [[(Pellegrino, Balzarotti, 2014)]]

@@ -8,6 +8,7 @@ tags:
   - JavaScript
   - codeAnalysis
   - cyberSecurity
+SLR: https://overleaf.irisa.fr/project/67c982e387fa1b0088944647
 ---
 [[BFT (business flow tampering)]] is a serious issue. Most of the digital content services (Amazon, Netflix, etc) implements one of the following business model:
 - **advertising**: content providers earn revenue from advertisers, which are often protected by anti-adblocker

@@ -45,7 +45,7 @@ If the delivery instructions are not validated on the server side, a XSS or SQL 
 
 In any case where the server does not replicate the client input validation, there is a ==potential parameter tampering attack vector==
 - client and server logic are usually written in different programming languages
-- over time, the validation checks in these two code basis may become out of sync
+- over time, the ==validation checks in these two code basis may become out of sync==
 
 ## Approach overview
 
@@ -54,7 +54,6 @@ The goal is to perform a black-box analysis of the server to automatically disco
 - less accurate, since false positive and false negative are possible
 
 The more similar a hostile response is to the benign response, the more likely the hostile input is successful
-
 ## Process
 
 NoTamper's black-box analysis is based on comparing the constraints imposed by the client-side code on the user-supplied data with the actual behavior of the server

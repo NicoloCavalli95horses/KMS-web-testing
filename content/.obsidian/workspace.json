@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/web client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "BFT DETECTOR. Automatic detection of business flow tampering for digital content service"
+              "title": "index"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 678.5026054382324
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -182,34 +182,37 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "733729dd1e1c060c",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
+    "01 Notes/SLR (systematic literature review).md",
+    "index.md",
+    "02 Literature/papers/prototype pollution/A Multivocal Literature Review on Prototype Pollution Vulnerability.md",
+    "01 Notes/web worker and service worker comparison.md",
+    "01 Notes/decision table.md",
+    "01 Notes/XSS (cross site scripting).md",
+    "02 Literature/papers/buffer overflow/An Empirical Study on Detecting and Fixing Buffer Overflow Bugs.md",
+    "03 References/(Al-Kahla, Shatnawi, Taqieddin, 2021).md",
+    "03 References/(Hakim, 2023).md",
+    "02 Literature/papers/DOM clobbering/It’s (DOM) Clobbering Time. Attack Techniques, Prevalence, and Defenses.md",
+    "02 Literature/papers/prototype pollution",
+    "03 References/(Khodayari, Pellegrino, 2023).md",
+    "01 Notes/Honeypot.md",
+    "02 Literature/papers/UI and UX issues/Home and away. UI design pattern for supporting end-user security.md",
+    "03 References/(Spero, Biddle, 2021).md",
+    "02 Literature/papers/logic flow tampering/Finding client-side business flow tampering vulnerabilities.md",
+    "02 Literature/papers/logic flow tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
+    "02 Literature/papers/input validation/ZigZag. Automatically hardening web applications against client-side validation vulnerabilities.md",
+    "02 Literature/papers/logic flow tampering/Verification of Web Content Integrity. A new approach to protecting servers against tampering.md",
+    "02 Literature/papers/logic flow tampering/Toward black-box detection of logic flaws in web applications.md",
+    "02 Literature/papers/input validation/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
+    "02 Literature/papers/logic flow tampering/On the misuse of Graphical User Interface elements to implement security controls.md",
+    "02 Literature/papers/logic flow tampering/Keeping out the masses. Understanding the popularity and implications of internet paywalls.md",
+    "02 Literature/papers/logic flow tampering/Hidden GEMS. Automated discovery of Access Control Vulnerabilities in Graphical User Interfaces.md",
+    "02 Literature/papers/DOM clobbering",
+    "02 Literature/papers/logic flow tampering",
     "01 Notes/BRF (Balance Random Forest).md",
-    "02 Literature/papers/web client-side tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "01 Notes/callee.md",
     "02 Literature/papers/web vulnerabilities reviews/Web application attacks.md",
-    "02 Literature/papers/web vulnerabilities reviews/Systematic review and taxonomy of web applications threats.md",
-    "02 Literature/papers/web vulnerabilities reviews/Security of Web Application. State of the Art.md",
-    "02 Literature/papers/web vulnerabilities reviews/Navigating web application security. A survey of vulnerabilities and detection solutions.md",
-    "02 Literature/papers/web vulnerabilities reviews/Enhancing Front-End Security. Protecting User Data and Privacy in Web Applications.md",
-    "02 Literature/papers/web vulnerabilities reviews/Common vulnerabilities in real world web applications.md",
-    "02 Literature/papers/web vulnerabilities reviews/A Taxonomy of Web Security Vulnerabilities.md",
-    "02 Literature/papers/vulnerability management/Demo. Large Scale Analysis on Vulnerability Remediation in Open-Source JavaScript projects.md",
-    "02 Literature/papers/UI and UX issues/Out of Sight, Out of Mind. UI Design and the Inhibition of Mental Models of Security.md",
-    "02 Literature/papers/UI and UX issues/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md",
-    "02 Literature/papers/UI and UX issues/Home and away. UI design pattern for supporting end-user security.md",
-    "02 Literature/papers/UI and UX issues/Dirty clicks. A study of the Usability and Security Implications of Click-related Behaviors on the Web.md",
-    "02 Literature/papers/UI and UX issues/Classifying and qualifying GUI defects.md",
-    "02 Literature/papers/UI and UX issues/A taxonomy of testable HTML5 Canvas Issues.md",
-    "02 Literature/papers/testing enhancements/STILE, a tool for optimizing E2E web test scripts parallelization.md",
-    "02 Literature/papers/testing enhancements/Repairing GUI Test Suites Using a Genetic Algorithm.md",
-    "02 Literature/papers/testing enhancements/Mutta. A novel tool for E2E web mutation testing.md",
-    "02 Literature/papers/testing enhancements/Lightweight Static Analysis for GUI testing.md",
-    "02 Literature/papers/testing enhancements/Coverage criteria for GUI testing.md",
-    "01 Notes/coverage criteria.md",
-    "01 Notes/integration tree.md",
-    "02 Literature/papers/testing enhancements/AutoInSpec, using missing test coverage to improve specifications in GUIs.md",
-    "02 Literature/papers/testing enhancements/Augusto. Exploiting popular functionalities for the generation of semantic GUI tests with Oracles.md",
     "02 Literature/papers/input validation",
     "05 Dataset/vulnerable webapp.canvas",
     "04 Canvases/papers/paper template.canvas",
@@ -228,11 +231,8 @@
     "02 Literature/papers/client-side vulnerabilities",
     "97 Assets/path_traversal.png",
     "02 Literature/books/The Basic of Web Hacking/chapters",
-    "02 Literature/books/The Basic of Web Hacking",
     "Pasted image 20250227135700.png",
     "97 Assets/grid5000_locations.png",
-    "07 Courses",
-    "02 Literature/papers/redirect attack",
     "97 Assets/canva_business_model.png",
     "97 Assets/LLM_trained_for_videogames.png",
     "97 Assets/bugs_in_games.png",

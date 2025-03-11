@@ -12,6 +12,8 @@ The growth of the JavaScript ecosystem has created a shift in business logic fro
 - [[C2C (client-to-client) communication]] can be exploited to get access to sensitive information
 - client-side validation flaws are closely tied to the intended behavior of the system. Therefore, they are hard to identify
 
+
+> [!WARNING]
 Client-side validation attacks are completely invisible to the server.
 
 ZigZag is a system for hardening JavaScript-based web applications against client-side validation attacks.
@@ -29,7 +31,7 @@ ZigZag sits between web servers and browsers to instrument client-side programs.
 	- ZigZag can instrument code dynamically downloaded during execution (e.g., a JS function can potentially modify another function). This is done by wrapping `eval` invocations, script tag insertion and writes to the DOM
 - **enforcement phase**: the invariants that were extracted are now hardened. The target web application is hardened, preserving the original functional behavior, but incorporating runtime checks. This means that tampering operations are caught and stopped by ZigZag
 
-Example:
+**Example**
 - when used on a website with `postMessage` API, ZigZag learns that the `origin` attribute can be, with a certain probability, a string or a URL, and depending on the different origins encountered during real executions of the application, it can learn a legitimate set of sending/receiving origins
 - ==Knowing that some origins are not likely, ZigZag can harden client-side logic to prevent these origins from being used== or it may throw an error
 

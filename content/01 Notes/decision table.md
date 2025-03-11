@@ -15,6 +15,7 @@ A decision table is a concise visual representation for specifying which output/
 - ==a limited-entry decision table==: the condition alternatives are simple boolean values, and the actions are check-marks
 - ==an extended-entry decision table==: no constraints on cells values
 
+---
 ## References
-https://en.wikipedia.org/wiki/Decision_table
-[[04 Test-case Design]]
+- https://en.wikipedia.org/wiki/Decision_table
+- [[04 Test-case Design]]

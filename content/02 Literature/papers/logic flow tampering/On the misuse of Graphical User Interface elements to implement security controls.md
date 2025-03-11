@@ -31,5 +31,6 @@ Based on what the user can do by exploiting the [[GEMs (GUI Element Misuse)]], w
 3) GEM candidate identification
 4) GEM checking
 
+---
 ## References
 [[(Mulliner, Robertson, Kirda, 2017)]]

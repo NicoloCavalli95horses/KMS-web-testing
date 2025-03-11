@@ -47,14 +47,13 @@ Problems with the approach: the system must work on all major browsers without r
 
 #### Web content verification system (WCV)
 
-The authors propose a new web security framework to address the web data integrity issue. The WCV model consists of a firewall between the client and the server, which ensures a clean conversation between the two agents. The system can run as a separate process on the server-side:
+The authors propose ==a new web security framework to address the web data integrity issue==. The WCV model consists of a firewall between the client and the server, which ensures a clean conversation between the two agents. The system can run as a separate process on the server-side:
 - **integrity verifier (manager)**: central component of the model that mediates between client and server. It manages the HTTP requests and responses by executing a state protocol that enforces a number of web policies to each element of the web page (e.g., how and when to render a specific component, or to modify its properties)
 - **response hashing calculator**: it calculates the hash value of each HTTP response on the web server before sending the response to integrity verifier, for further processing, and then to the client
 - **web register**: it monitor and register the user activity (if the system has been tampered with it provides alerts to the web server)
 - **recovery**: it recovers the valid data, in case of tampering (e.g., the integrity verifier is not able to enforce web policy)
 
 ![[wcv_model_web_security.png]]
-
 
 ---
 #### References
