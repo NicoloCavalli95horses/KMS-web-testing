@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d419aef8e15082e7",
+        "id": "9345c8bcbfb7e28d",
         "type": "tabs",
         "children": [
           {
-            "id": "733729dd1e1c060c",
+            "id": "3d9c184b905e7b24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/prototype pollution/A Multivocal Literature Review on Prototype Pollution Vulnerability.md",
+                "file": "06 Courses, webinars/FLE French Course/French Course 03-11-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "A Multivocal Literature Review on Prototype Pollution Vulnerability"
+              "title": "French Course 03-11-2025"
             }
           }
         ]
@@ -57,7 +57,7 @@
                 "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -182,10 +182,19 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "733729dd1e1c060c",
+  "active": "3d9c184b905e7b24",
   "lastOpenFiles": [
-    "01 Notes/prototype pollution.md",
+    "06 Courses, webinars/FLE French Course",
+    "06 Courses, webinars/FLE French Course/French Course 03-11-2025.md",
+    "02 Literature/papers/QR-code exploitation/Malicious QR-code threats and vulnerability of blockchain.md",
+    "00 Antilibrary/QR-code.md",
+    "00 Antilibrary/XXE (XML external entities).md",
+    "02 Literature/papers/buffer overflow/An Empirical Study on Detecting and Fixing Buffer Overflow Bugs.md",
+    "00 Antilibrary/blockchain.md",
+    "03 References/(Averin, 2020).md",
     "02 Literature/papers/prototype pollution/A Multivocal Literature Review on Prototype Pollution Vulnerability.md",
+    "02 Literature/papers/QR-code exploitation",
+    "01 Notes/prototype pollution.md",
     "02 Literature/books/JavaScript, The Good Parts/chapters/03 Objects.md",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "02 Literature/papers/dependency-related vulnerabilities/Managing security vulnerabilities introduced by dependencies in React.js.md",
@@ -198,19 +207,12 @@
     "01 Notes/web worker and service worker comparison.md",
     "01 Notes/decision table.md",
     "01 Notes/XSS (cross site scripting).md",
-    "02 Literature/papers/buffer overflow/An Empirical Study on Detecting and Fixing Buffer Overflow Bugs.md",
     "03 References/(Al-Kahla, Shatnawi, Taqieddin, 2021).md",
     "03 References/(Hakim, 2023).md",
     "02 Literature/papers/DOM clobbering/It’s (DOM) Clobbering Time. Attack Techniques, Prevalence, and Defenses.md",
     "02 Literature/papers/prototype pollution",
     "03 References/(Khodayari, Pellegrino, 2023).md",
     "01 Notes/Honeypot.md",
-    "02 Literature/papers/UI and UX issues/Home and away. UI design pattern for supporting end-user security.md",
-    "03 References/(Spero, Biddle, 2021).md",
-    "02 Literature/papers/logic flow tampering/Finding client-side business flow tampering vulnerabilities.md",
-    "02 Literature/papers/logic flow tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
-    "02 Literature/papers/input validation/ZigZag. Automatically hardening web applications against client-side validation vulnerabilities.md",
-    "02 Literature/papers/logic flow tampering/Verification of Web Content Integrity. A new approach to protecting servers against tampering.md",
     "02 Literature/papers/DOM clobbering",
     "02 Literature/papers/logic flow tampering",
     "02 Literature/papers/input validation",
@@ -229,7 +231,6 @@
     "02 Literature/papers/cookies",
     "02 Literature/papers/client-side vulnerabilities",
     "97 Assets/path_traversal.png",
-    "02 Literature/books/The Basic of Web Hacking/chapters",
     "Pasted image 20250227135700.png",
     "97 Assets/grid5000_locations.png",
     "97 Assets/canva_business_model.png",
