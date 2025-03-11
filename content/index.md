@@ -51,7 +51,8 @@ A new paper is taken into consideration
 - The paper's main concepts and the author's approach to the problem belongs to the paper's note scope, whereas the details of the topic addressed by the study belong to `01 Notes`. The latter includes low-level note, while `02 Literature/papers` just highlights the unique approach or the solution proposed by the authors. In this way *low-level concepts grow in details and nuances as more papers are added*
 - Low-level notes always include references to documents that discuss that concept. This references are both in the paragraph, justifying important statements, and in the footer, referring to the context in which that concept was addressed. I.e., [[cookie]] banners and [[XSS (cross site scripting)]] (Klein, Musch, et al., 2022).
 - Each document and note must have its own `tags`, which facilitate the process of information retrieval
-- Custom property might be added to group specific papers. For example, papers that are actually part of a [[SLR (systematic literature review)]] present the property `SRL`, whose value is the URL of the OverLeaf project. This ease the retrieval of all the scientific studies used in a specific project. Obviously, a paper may be part of more projects: in this case, a new custom property is added. 
+- Custom property might be added to group specific papers. For example, papers that are actually part of a [[SLR (systematic literature review)]] present the property `SRL`, whose value is the URL of the OverLeaf project. This ease the retrieval of all the scientific studies used in a specific project. Obviously, a paper may be part of more projects: in this case, a new custom property is added
+- Custom `Bookmarks` are added when new custom properties are nedded
 
 
 ---

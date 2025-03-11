@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "02 Literature/papers/prototype pollution/A Multivocal Literature Review on Prototype Pollution Vulnerability.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "A Multivocal Literature Review on Prototype Pollution Vulnerability"
             }
           }
         ]
@@ -182,11 +182,19 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "733729dd1e1c060c",
   "lastOpenFiles": [
-    "01 Notes/SLR (systematic literature review).md",
-    "index.md",
+    "01 Notes/prototype pollution.md",
     "02 Literature/papers/prototype pollution/A Multivocal Literature Review on Prototype Pollution Vulnerability.md",
+    "02 Literature/books/JavaScript, The Good Parts/chapters/03 Objects.md",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
+    "02 Literature/papers/dependency-related vulnerabilities/Managing security vulnerabilities introduced by dependencies in React.js.md",
+    "index.md",
+    "96 Meta/scripts/PhD status.md",
+    "96 Meta/scripts/References analysis.md",
+    "96 Meta/Publication deadlines.md",
+    "96 Meta/To do.md",
+    "01 Notes/SLR (systematic literature review).md",
     "01 Notes/web worker and service worker comparison.md",
     "01 Notes/decision table.md",
     "01 Notes/XSS (cross site scripting).md",
@@ -203,23 +211,14 @@
     "02 Literature/papers/logic flow tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "02 Literature/papers/input validation/ZigZag. Automatically hardening web applications against client-side validation vulnerabilities.md",
     "02 Literature/papers/logic flow tampering/Verification of Web Content Integrity. A new approach to protecting servers against tampering.md",
-    "02 Literature/papers/logic flow tampering/Toward black-box detection of logic flaws in web applications.md",
-    "02 Literature/papers/input validation/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
-    "02 Literature/papers/logic flow tampering/On the misuse of Graphical User Interface elements to implement security controls.md",
-    "02 Literature/papers/logic flow tampering/Keeping out the masses. Understanding the popularity and implications of internet paywalls.md",
-    "02 Literature/papers/logic flow tampering/Hidden GEMS. Automated discovery of Access Control Vulnerabilities in Graphical User Interfaces.md",
     "02 Literature/papers/DOM clobbering",
     "02 Literature/papers/logic flow tampering",
-    "01 Notes/BRF (Balance Random Forest).md",
-    "01 Notes/callee.md",
-    "02 Literature/papers/web vulnerabilities reviews/Web application attacks.md",
     "02 Literature/papers/input validation",
     "05 Dataset/vulnerable webapp.canvas",
     "04 Canvases/papers/paper template.canvas",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR protocol.canvas",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/meetings/2025_03_13.canvas",
     "04 Canvases/meetings/2025_03_06.canvas",

@@ -29,10 +29,17 @@ When we call the `toString` method on an object, the language runtime will look 
 Merging two objects can expose the code to a prototype pollution attack — in fact, any function which recursively sets nested properties can create an attack vector (using a library like `lodash` or `deepmerge`, to merge JS object could be a valid solution) 
 
 ### Risks and issues
-- Privilege escalation issues
-- Property injection
+
+On the front-end [[(Hakim, 2023)]]:
+- [[XSS (cross site scripting)]]
+- HTML injection
 - Cause a [[DoS (Denial of Service)]]
-- Remote code execution in worst-case scenario (server-side, with `eval()` functions or DOM node generation)
+- [[SQLIA (SQL injection attack)]]
+- [session fixation]
+
+On the server-side [[(Hakim, 2023)]]:
+- Privilege escalation issues
+- Remote code execution in worst-case scenario (`eval()` functions or DOM node generation)
 
 ### Is the prototype pollution a form of [[XSS (cross site scripting)]]?
 
@@ -60,11 +67,14 @@ console.log(typeof a.test); // string
 
 ```
 
-Use `Object.freeze()` to prevent any changes to the prototype (it is possible to freeze the prototype directly)
+Use `Object.freeze()` to prevent any changes to the prototype (it is possible to freeze the prototype directly) [[(Hakim, 2023)]]
 
 External prototype pollution could be considered a form of code-injection (see [[XSS (cross site scripting)]])
+
+A popular JavaScript utility library, Lodash, implements input filtering to injection sinks against prototype defining keywords, such as __proto__, constructor, and prototype [[(Hakim, 2023)]]
 
 ## References
 - https://learn.snyk.io/lesson/prototype-pollution/
 - [[(Anastasia, Stamatia, 2024)]]
 - [[(Hoffman, 2024)]]
+- [[(Hakim, 2023)]]
