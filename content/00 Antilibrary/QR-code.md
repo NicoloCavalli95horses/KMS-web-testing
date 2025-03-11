@@ -15,7 +15,7 @@ QR-code have become widespread because:
 
 ### Shortcomings
 
-- hard to tell what a QR-code contains
+- hard to tell what a QR-code contains in advance
 
 
 ---

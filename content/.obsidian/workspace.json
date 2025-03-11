@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9345c8bcbfb7e28d",
+        "id": "12f7c0c248816f8a",
         "type": "tabs",
         "children": [
           {
-            "id": "3d9c184b905e7b24",
+            "id": "278a321b2889076c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 Courses, webinars/FLE French Course/French Course 03-11-2025.md",
+                "file": "96 Meta/PhD status.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "French Course 03-11-2025"
+              "title": "PhD status"
             }
           }
         ]
@@ -42,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 332.5026054382324
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -182,15 +182,28 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3d9c184b905e7b24",
+  "active": "278a321b2889076c",
   "lastOpenFiles": [
-    "06 Courses, webinars/FLE French Course",
-    "06 Courses, webinars/FLE French Course/French Course 03-11-2025.md",
+    "96 Meta/scripts/newnote.js.md",
+    "96 Meta/scripts/new_reference.js",
+    "96 Meta/PhD status.md",
+    "02 Literature/new article test.md",
+    "02 Literature/papers/UI and UX issues/Tricking Johnny into Granting Web Permissions.md",
+    "02 Literature/papers/UI and UX issues/test.md",
+    "03 References/test2.md",
+    "98 Templates/Temp_Literature.md",
+    "03 References/null-test.md",
+    "01 Notes/UML (Unified Modeling Language).md",
+    "98 Templates/Temp_Reference.md",
+    "00 Antilibrary/blockchain.md",
+    "00 Antilibrary/03 References.md",
+    "00 Antilibrary/[object Object.md",
     "02 Literature/papers/QR-code exploitation/Malicious QR-code threats and vulnerability of blockchain.md",
     "00 Antilibrary/QR-code.md",
     "00 Antilibrary/XXE (XML external entities).md",
+    "06 Courses, webinars/FLE French Course/French Course 03-11-2025.md",
+    "06 Courses, webinars/FLE French Course",
     "02 Literature/papers/buffer overflow/An Empirical Study on Detecting and Fixing Buffer Overflow Bugs.md",
-    "00 Antilibrary/blockchain.md",
     "03 References/(Averin, 2020).md",
     "02 Literature/papers/prototype pollution/A Multivocal Literature Review on Prototype Pollution Vulnerability.md",
     "02 Literature/papers/QR-code exploitation",
@@ -199,20 +212,8 @@
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "02 Literature/papers/dependency-related vulnerabilities/Managing security vulnerabilities introduced by dependencies in React.js.md",
     "index.md",
-    "96 Meta/scripts/PhD status.md",
-    "96 Meta/scripts/References analysis.md",
-    "96 Meta/Publication deadlines.md",
-    "96 Meta/To do.md",
-    "01 Notes/SLR (systematic literature review).md",
-    "01 Notes/web worker and service worker comparison.md",
-    "01 Notes/decision table.md",
-    "01 Notes/XSS (cross site scripting).md",
-    "03 References/(Al-Kahla, Shatnawi, Taqieddin, 2021).md",
-    "03 References/(Hakim, 2023).md",
-    "02 Literature/papers/DOM clobbering/It’s (DOM) Clobbering Time. Attack Techniques, Prevalence, and Defenses.md",
+    "96 Meta/References analysis.md",
     "02 Literature/papers/prototype pollution",
-    "03 References/(Khodayari, Pellegrino, 2023).md",
-    "01 Notes/Honeypot.md",
     "02 Literature/papers/DOM clobbering",
     "02 Literature/papers/logic flow tampering",
     "02 Literature/papers/input validation",
@@ -228,8 +229,6 @@
     "02 Literature/papers/philosophy of science, meta-analysis",
     "02 Literature/papers/program repair",
     "02 Literature/papers/software architecture",
-    "02 Literature/papers/cookies",
-    "02 Literature/papers/client-side vulnerabilities",
     "97 Assets/path_traversal.png",
     "Pasted image 20250227135700.png",
     "97 Assets/grid5000_locations.png",

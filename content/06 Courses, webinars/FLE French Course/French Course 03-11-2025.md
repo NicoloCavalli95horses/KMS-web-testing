@@ -2,6 +2,7 @@
 ID: 2025-03-05-11:00
 tags:
   - course
+  - french
 speaker:
 ---
 chanceux/chanceuse: to be lucky
