@@ -8,10 +8,12 @@ tags:
 ## Abstract
 
 [[buffer overflow]] is one of the most common types of software security vulnerabilities. 
+
 Although researchers have proposed various static and dynamic techniques for buffer overflow detection, buffer overflow attacks against both legacy and newly-deployed software systems are still quite prevalent. 
 
 Compared with dynamic detection techniques, static techniques are more systematic and scalable. However, there are few studies on the effectiveness of state-of-the-art static buffer overflow detection techniques.
-- In this paper, we perform an in-depth quantitative and qualitative study on static buffer overflow detection. More specifically, we obtain both the buggy and fixed versions of 100 buffer overflow bugs from 63 real-world projects totalling 28 [[LoC]] based on the reports in [[CVE (common vulnerabilities and exposures)]]
+- In this paper, we perform an in-depth ==quantitative and qualitative study on static buffer overflow detection==
+- More specifically, we obtain both the buggy and fixed versions of 100 buffer overflow bugs from 63 real-world projects totalling 28 [[LoC]] based on the reports in [[CVE (common vulnerabilities and exposures)]]
 
 Then, quantitatively, we apply Fortify, Checkmarx, and Splint to all the buggy versions to investigate their false negatives, and also apply them to all the fixed versions to investigate their false positives.
 
@@ -44,5 +46,4 @@ Array, memcpy and sprintf are the top three APIs related to buffer overflow bugs
 
 ---
 ## References
-
-[[(Ye, Zhang, Wang et al., 2016)]]
+- [[(Ye, Zhang, Wang et al., 2016)]]

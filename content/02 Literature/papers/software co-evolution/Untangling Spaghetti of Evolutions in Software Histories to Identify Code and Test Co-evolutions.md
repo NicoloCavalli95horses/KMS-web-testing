@@ -3,6 +3,7 @@ ID: 2024-07-28-18:14
 tags:
   - paper
   - coevolvingSystems
+  - codeAnalysis
 ---
 ## Main concepts
 
@@ -21,5 +22,6 @@ By creating a comprehensive dataset of detected co-evolutions, the work of the a
 
 A limit of the study consists of the overall computational time needed to finalize the detection of co-evolutions, making challenging the replication or the improvement of the whole model.
 
+---
 ## References
-[[(Dilavrec, Khelladi, Blouin, et al., 2021)]]
+- [[(Dilavrec, Khelladi, Blouin, et al., 2021)]]

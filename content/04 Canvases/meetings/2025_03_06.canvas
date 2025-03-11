@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"b545177357d97857","x":-2940,"y":280,"width":2080,"height":180,"type":"group","label":"Task 2"},
+		{"id":"ef7f851ed3454869","x":-2940,"y":40,"width":2080,"height":160,"type":"group","label":"Task 1"},
+		{"id":"f3efdec94bbd8fad","x":-2920,"y":60,"width":280,"height":120,"type":"text","text":"# Data analysis"},
+		{"id":"ade25dd5abea8417","type":"text","text":"# Drafting SLR on OverLeaf","x":-2920,"y":300,"width":280,"height":140},
+		{"id":"67ba6b86a7cb8ad7","type":"text","text":"## RQ review","x":-2570,"y":80,"width":200,"height":80},
+		{"id":"27e0324d7c1262a9","type":"text","text":"## Protocol description","x":-2290,"y":80,"width":360,"height":80},
+		{"id":"9578ecc9328aba2c","type":"text","text":"## SLR queries","x":-1850,"y":80,"width":240,"height":80},
+		{"id":"aba64604da989ee8","type":"text","text":"## Paper list","x":-1530,"y":80,"width":240,"height":80},
+		{"id":"ea7afd918027dd0d","type":"text","text":"## Result analysis","x":-1210,"y":80,"width":280,"height":80},
+		{"id":"9017666577c14abb","x":-2570,"y":330,"width":320,"height":80,"type":"text","text":"## created templates"},
+		{"id":"e8cdba11ecaaeef2","type":"text","text":"## drafting introduction and methods","x":-2170,"y":330,"width":580,"height":80}
+	],
+	"edges":[
+		{"id":"a9ed9a98f3adc2de","fromNode":"67ba6b86a7cb8ad7","fromSide":"right","toNode":"27e0324d7c1262a9","toSide":"left"},
+		{"id":"f32eb556a820a7c6","fromNode":"27e0324d7c1262a9","fromSide":"right","toNode":"9578ecc9328aba2c","toSide":"left"},
+		{"id":"d69844ce3d859491","fromNode":"9578ecc9328aba2c","fromSide":"right","toNode":"aba64604da989ee8","toSide":"left"},
+		{"id":"806e100db0bd666a","fromNode":"aba64604da989ee8","fromSide":"right","toNode":"ea7afd918027dd0d","toSide":"left"},
+		{"id":"03029d0e3cac60c4","fromNode":"9017666577c14abb","fromSide":"right","toNode":"e8cdba11ecaaeef2","toSide":"left"}
+	]
+}

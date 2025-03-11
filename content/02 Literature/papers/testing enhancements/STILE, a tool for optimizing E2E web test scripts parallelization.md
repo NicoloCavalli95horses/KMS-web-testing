@@ -43,5 +43,6 @@ STILE reduces the execution time up to 80% and the CPU-time up to 75%.
 
 If the dependency graph contains a long-lasting warranted schedule, the advantages given by parallelization are less pronounced. However, the time saving cannot be predicted only by analyzing the graph structure, since the execution time of the test scripts also has a strong influence
 
+---
 ## References
-[[(Olianas, Leotta, Ricca, et al., 2024)]]
+- [[(Olianas, Leotta, Ricca, et al., 2024)]]

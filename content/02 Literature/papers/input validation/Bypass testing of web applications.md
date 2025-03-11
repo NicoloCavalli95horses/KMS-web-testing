@@ -8,11 +8,11 @@ tags:
 ---
 Web software applications are increasingly being deployed in sensitive situations, to transmit, accept and store sensitive or confidential data
 
-Input validation testing (IVT) checks user inputs to ensure that they conform to the program’s requirements
+[[client-side input validations]] testing (IVT) checks user inputs to ensure that they conform to the program’s requirements
 - A common technique in Web applications is to perform input validation on the client with scripting languages
 - The problem is that users can bypass this validation. Bypassing validation can cause failures in the software, and can also break the security on Web applications, leading to unauthorized access to data, system failures, invalid purchases and entry of bogus data
 
-We are developing a strategy called bypass testing to create client-side tests for Web applications that intentionally violate explicit and implicit checks on user inputs.
+==We are developing a strategy called *bypass testing* to create client-side tests for Web applications that intentionally violate explicit and implicit checks on user inputs.==
 
 This paper describes the strategy, defines specific rules and adequacy criteria for tests, describes a proof-of-concept automated tool, and presents initial empirical results from applying bypass testing.
 
@@ -33,5 +33,6 @@ This paper describes the strategy, defines specific rules and adequacy criteria 
 - by-passing is not always a bad thing because it can ease the testing process
 - It is possible to leverage different [[client-side input validations]] 
 
+---
 ## References
-[[(Offutt, Wu, Du, 2004)]]
+- [[(Offutt, Wu, Du, 2004)]]

@@ -10,7 +10,7 @@ tags:
 ---
 ## Context
 
-The first comprehensive study of the possible security and privacy implications that clicks can have from a user perspective, analyzing what is shown to users and what actually happens after.
+The first comprehensive study of the possible ==security and privacy implications that clicks can have from a user perspective==, analyzing what is shown to users and what actually happens after.
 - Click-related issues are classified
 - Target websites are analyzed
 - A set of countermeasures is proposed

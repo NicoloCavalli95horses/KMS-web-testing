@@ -30,5 +30,6 @@ We implemented a practical fuzzer named JANUS (see [[fuzzling]]), that:
 2. HTML Transformation, which properly constructs a modified HTML file of the initial HTML file while ensures the soundness of visual delta consistency
 3. Consistency Checking, which observes the visual deltas across browsers and identify rendering bugs (screenshots comparison on Selenium)
 
+---
 ## References
-[[(Zhou, Zhang, Qian, et al., 2024)]]
+- [[(Zhou, Zhang, Qian, et al., 2024)]]

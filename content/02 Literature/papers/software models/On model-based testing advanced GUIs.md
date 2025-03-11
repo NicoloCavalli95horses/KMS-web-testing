@@ -48,5 +48,7 @@ An action of the user is represented by a [[FSM (finite-state machine)]] where e
 Interaction-action flow graph (IFG) follows the same idea than an EFG, by sequencing all the possible user interactions. The difference is that the concepts of interaction, action, and
 widget are clearly separated, and interactions and actions are included in IFGs. 
 - The goal is to be able to test a widget using its different interactions
+
+---
 ## References
-[[(Lelli, Blouin, Baudry, 2015b)]]
+- [[(Lelli, Blouin, Baudry, 2015b)]]

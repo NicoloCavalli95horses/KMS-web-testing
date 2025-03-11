@@ -7,6 +7,7 @@ tags:
   - dataSecurity
 ---
 ## Main concepts
+
 [[SQLIA (SQL injection attack)]] is a serious threat to data security
 
 Web applications are the most vulnerable to SQLIA attacks and other security threats of other applications. SQLIA threats is in the ==top three== web application security risks.
@@ -22,7 +23,7 @@ SQLIA detection techniques have improved with the development of big data, AI an
 - if an input is not effectively verified and sanitized by the server, malicious statements can be executed
 - the attacker can gain unauthorized access to the underlying database and perform [[CRUD (Create, Read, Update, Delete) operations]]
 
-### **SQLIA detection methods**
+### SQLIA detection methods
 
 Techniques based on data analysis:
 - *monitoring and analyzing real-time network data*: when an injection occurs, anomalies in the traffic flowing into the web application would be found (e.g., large input, an intense traffic in a short period of time, drastic changes in HTTP requests)
@@ -33,5 +34,6 @@ Techniques based on machine learning algorithms:
 
 ![[summary_SQLIA_detections.png]]
 
+---
 ## References
-[[(Xu, Ni, Ming, et al., 2024)]]
+- [[(Xu, Ni, Ming, et al., 2024)]]

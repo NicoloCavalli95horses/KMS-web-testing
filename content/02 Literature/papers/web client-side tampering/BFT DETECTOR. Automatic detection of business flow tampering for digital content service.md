@@ -38,7 +38,7 @@ if (user.isSubscribed) {
 }
 ```
 
-The divergences points are automatically detected with the following algorithm:
+==The divergences points are automatically detected== with the following algorithm:
 1. execution traces are collected two times, one for the passing run and one for the blocking run. The definition of these runs is based on common implementation of the business models
 2. Caller, [[callee]] and several [[callstack]] are used to create a map of the functions called in sequence to get to the current execution point
 3. this map is called *call signature*

@@ -43,5 +43,6 @@ The [[canvas DOM element]] is widely used to develop web applications rich in da
 - More of these issues could occur together
 - Testing has additional complexities that are not seen in desktop GUIs
 
+---
 ## References
-[[(Macklon, Viggiato, Markos, et al., 2023)]]
+- [[(Macklon, Viggiato, Markos, et al., 2023)]]

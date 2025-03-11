@@ -26,5 +26,6 @@ Development process of Mutta:
 
 The high-level goal of our tool is to enable the tester to compare the bug-detection capability of different test suites, or even of different E2E frameworks.
 
+---
 ## References
-[[(Leotta, Paparella, Ricca, 2024)]]
+- [[(Leotta, Paparella, Ricca, 2024)]]

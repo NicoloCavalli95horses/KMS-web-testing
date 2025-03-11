@@ -7,7 +7,7 @@ tags:
 
 Modern applications are often built with feature-rich and powerful frontend applications. When the number of functionalities grows, the frontend easily becomes hard to maintain, especially if developed by different teams.
 
-[[MF (Micro-Frontend) architecture]]were introduced in 2016 to solve this problem and are now adopted by several large industries, including SAP, Springer, Zalando, New Relic, Ikea, Starbucks, DAZN.
+[[MF (Micro-Frontend) architecture]] were introduced in 2016 to solve this problem and are now adopted by several large industries, including SAP, Springer, Zalando, New Relic, Ikea, Starbucks, DAZN.
 
 ## Approach
 
