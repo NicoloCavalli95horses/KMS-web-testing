@@ -1,34 +1,11 @@
 {
   "choices": [
     {
-      "id": "4d3935f8-9ea2-4339-bed8-aed265021a96",
-      "name": "Add new paper note",
-      "type": "Template",
+      "id": "7ec44e9d-41c1-4289-becb-631eed081bd0",
+      "name": "Paper + reference",
+      "type": "Macro",
       "command": false,
-      "templatePath": "98 Templates/Temp_Literature.md",
-      "fileNameFormat": {
-        "enabled": false,
-        "format": ""
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "02 Literature"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false,
-        "chooseFromSubfolders": false
-      },
-      "appendLink": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
-      "setFileExistsBehavior": false
+      "macroId": "00dc8bee-0c8e-4a81-92cf-306fc43853c6"
     }
   ],
   "macros": [
@@ -37,10 +14,11 @@
       "id": "00dc8bee-0c8e-4a81-92cf-306fc43853c6",
       "commands": [
         {
-          "name": "Add new paper note",
-          "type": "Choice",
-          "id": "ff9930b1-e284-4278-a932-a031adadd249",
-          "choiceId": "4d3935f8-9ea2-4339-bed8-aed265021a96"
+          "name": "paperAndReference",
+          "type": "UserScript",
+          "id": "3b25657b-3d9b-4854-8453-3ba83b1da21d",
+          "path": "96 Meta/scripts/paperAndReference.js",
+          "settings": {}
         }
       ],
       "runOnStartup": false
