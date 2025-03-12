@@ -11,10 +11,15 @@
             "id": "5232d727e3a6b4d8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "06 Courses, webinars/FLE French Course/French Course 03-11-2025.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "French Course 03-11-2025"
             }
           }
         ]
@@ -70,8 +75,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -178,8 +182,15 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "d078b613d7ff0d60",
+  "active": "5232d727e3a6b4d8",
   "lastOpenFiles": [
+    "96 Meta/References analysis.md",
+    "96 Meta/Publication deadlines.md",
+    "96 Meta/PhD status.md",
+    "index.md",
+    "99 Output/test.bib",
+    "99 Output",
+    "test.bib",
     "03 References/(Kim, Zheng, Park, et al., 2020).md",
     "96 Meta/scripts/addPaperAndReference.js",
     "96 Meta/scripts/fetchBibTexReferences.js",
@@ -192,7 +203,6 @@
     "02 Literature/papers/UI and UX issues/Tricking Johnny into Granting Web Permissions.md",
     "02 Literature/papers/prototype pollution/A Multivocal Literature Review on Prototype Pollution Vulnerability.md",
     "03 References/(Hazhirpasand, 2020).md",
-    "96 Meta/Publication deadlines.md",
     "03 References/(Goues, Claire, Pradel et al., 2021).md",
     "02 Literature/papers/UI and UX issues/Out of Sight, Out of Mind. UI Design and the Inhibition of Mental Models of Security.md",
     "02 Literature/papers/zzz folder/zzz title.md",
@@ -208,15 +218,10 @@
     "02 Literature/papers/zzz new folder",
     "02 Literature/folder test/title test.md",
     "02 Literature/folder test",
-    "03 References/(zzzz, 2000).md",
     "05 Dataset/vulnerable webapp.canvas",
-    "02 Literature/test title.md",
     "96 Meta/scripts/paperAndReference.js",
     "96 Meta/scripts/new_reference.js",
-    "06 Courses, webinars/FLE French Course",
-    "02 Literature/papers/QR-code exploitation",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "02 Literature/papers/prototype pollution",
     "04 Canvases/papers/paper template.canvas",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR protocol.canvas",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/introduction.canvas",

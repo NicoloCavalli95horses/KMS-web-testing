@@ -1,68 +1,83 @@
+
+function YAMLtoObject(yamlText) {
+  let yamlLines = yamlText.split("\n");
+  let yamlData = {};
+  let currentKey = null;
+
+  yamlLines.forEach(line => {
+    let trimmedLine = line.trim();
+
+    if (trimmedLine.startsWith("-")) {
+      if (currentKey) {
+        yamlData[currentKey].push(trimmedLine.substring(1).trim());
+      }
+    } else {
+      let [key, ...value] = line.split(":");
+      if (key && value) {
+        let cleanKey = key.trim();
+        let cleanValue = value.join(":").trim();
+
+        if (cleanValue === "") {
+          yamlData[cleanKey] = [];
+          currentKey = cleanKey;
+        } else {
+          yamlData[cleanKey] = cleanValue;
+          currentKey = null;
+        }
+      }
+    }
+  });
+
+  return yamlData;
+}
+
+
 async function main(params) {
   const vault = app.vault;
 
   // Request file name
-  const fileName = await params.quickAddApi.inputPrompt("Inserisci il nome del file BibTeX (senza estensione)");
+  const fileName = await params.quickAddApi.inputPrompt("Insert the BibTex file name (without extension)");
   if (!fileName) {
-    new Notice("Operazione annullata.");
+    new Notice("Aborted");
     return;
   }
 
   let bibtexEntries = [];
-  let filesChecked = 0; // Contatore per le note esaminate
+  let filesChecked = 0;
 
-  // 2️⃣ Scansiona tutte le note Markdown
   const files = vault.getMarkdownFiles();
-  console.log(`📂 Trovati ${files.length} file Markdown nel vault.`);
 
   for (let file of files) {
     filesChecked++;
     let content = await vault.read(file);
 
-    // 🛠️ Estrai il frontmatter YAML
     const frontmatterMatch = content.match(/^---\n([\s\S]+?)\n---/);
-    let tags = [];
-    let slrExists = false;
+    if (!frontmatterMatch) { continue; }
 
-    if (frontmatterMatch) {
-      try {
-        let yamlData = jsyaml.load(frontmatterMatch[1]); // Converte YAML in oggetto JS
-        tags = yamlData.tags || [];
-        slrExists = yamlData.slr !== undefined; // Controlla se la proprietà SLR esiste
-      } catch (error) {
-        console.error(`⚠️ Errore parsing YAML in ${file.path}:`, error);
-      }
-    }
+    const yamlData = YAMLtoObject(frontmatterMatch[1]);
+    const isMatch = yamlData.tags.includes('ref') && !!yamlData['SLR'];
 
-    // Controlla se la nota contiene il tag #ref e la proprietà slr
-    if (tags.includes("#ref") && slrExists) {
-      console.log(`✅ MATCH trovato in: ${file.path}`);
+    if (isMatch) {
+      console.log(`Match found: ${file.path}`);
 
-      // Cerca il codice BibTeX (tutto ciò che segue '@')
-      let match = content.match(/@[\s\S]*/);
+      let match = content.match(/@[\s\S]*/); // everything that follows '@'
       if (match) {
-        console.log(`📌 BibTeX estratto da ${file.path}`);
-        bibtexEntries.push(match[0]); // Salva il codice BibTeX
-      } else {
-        console.log(`⚠️ Nessun BibTeX trovato in ${file.path}`);
+        bibtexEntries.push(match[0]);
       }
     }
   }
 
-  console.log(`🔎 ${filesChecked} file controllati.`);
-  console.log(`📚 ${bibtexEntries.length} codici BibTeX trovati.`);
-
   if (bibtexEntries.length === 0) {
-    new Notice("Nessun codice BibTeX trovato.");
+    new Notice("No BibTeX was found");
     return;
   }
 
-  // 3️⃣ Salva il file BibTeX
-  const bibFilePath = `SLR web application security/${fileName}.bib`;
-  console.log(`💾 Salvataggio file BibTeX: ${bibFilePath}`);
+  new Notice(`${bibtexEntries.length} BibTeX found in ${filesChecked} files`);
+
+  const bibFilePath = `99 Output/${fileName}.bib`;
   await vault.create(bibFilePath, bibtexEntries.join("\n\n"));
 
-  new Notice(`File BibTeX creato: ${bibFilePath}`);
+  new Notice(`File BibTeX created at: ${bibFilePath}`);
 }
 
 module.exports = main;
