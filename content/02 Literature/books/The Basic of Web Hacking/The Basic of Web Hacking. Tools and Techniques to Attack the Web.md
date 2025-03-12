@@ -6,7 +6,9 @@ tags:
   - hacking
 ---
 ## Index
-[[5. Web Application Exploitation  with Broken Authentication and Path Traversal]]
 
+- [[5. Web Application Exploitation  with Broken Authentication and Path Traversal]]
+
+---
 ## References
-[[(Pauli, 2013)]]
+- [[(Pauli, 2013)]]

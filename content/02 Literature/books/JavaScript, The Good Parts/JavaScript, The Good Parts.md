@@ -6,10 +6,13 @@ tags:
   - JavaScript
 ---
 # Index
+
 - [[02 Grammar]]
 - [[03 Objects]]
 - [[04 Functions]]
 - [[06 Arrays]]
 - [[09 Style]]
+
+---
 ## Reference
-[[(Crockford, 2008)]]
+- [[(Crockford, 2008)]]

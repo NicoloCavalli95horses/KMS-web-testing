@@ -6,7 +6,9 @@ tags:
   - softwareEngineering
 ---
 ## Index
-[[16. Client-Side Attacks]]
 
+- [[16. Client-Side Attacks]]
+
+---
 ## References
-[[(Hoffman, 2024)]]
+- [[(Hoffman, 2024)]]

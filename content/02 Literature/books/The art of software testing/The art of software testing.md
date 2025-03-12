@@ -17,5 +17,7 @@ tags:
 - [[09 Testing in the Agile Environment]]
 - [[10 Testing Internet Applications]]
 - [[11 Mobile Application Testing]]
+
+---
 ## Reference
-[[(Myers et al., 2011)]]
+- [[(Myers et al., 2011)]]
