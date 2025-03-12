@@ -8,7 +8,10 @@ async function main(params) {
   const refName = bibObj.ref;
   const paperKeywords = bibObj.keywords;
 
-  if (!paperName || !bibCode || !paperFolder || !refName) { return };
+  if (!paperName || !bibCode || !paperFolder || !refName) { 
+    new Notice("Aborted");
+    return;
+   };
 
   const refPath = `03 References/${refName}.md`;
   const folderPath = `02 Literature/papers/${paperFolder}`;
@@ -39,7 +42,8 @@ function parseBibTeX(bibtex) {
 
 
   if (!titleMatch || !authorMatch || !yearMatch) {
-    throw new Error("BibTeX format invalid or missing required fields");
+    new Notice("BibTeX format invalid or missing required fields");
+    return;
   }
 
   const title = titleMatch[1];
