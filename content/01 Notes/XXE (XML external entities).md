@@ -1,11 +1,14 @@
 ---
-ID: "2025-02-24-09:49"
+ID: 2025-02-24-09:49
 tags:
   - "#definition"
+  - XXE
 ---
 ## Definition
 
-An XML External Entity attacks is a class of attacks against an application that parses XML input. This attacks happen when XML input comprising a link to an outer entity is processed by a flabbily configured XML parser. Can lead to:
+An XML External Entity attacks is a class of attacks against an application that parses XML input.
+
+This attacks happen when XML input comprising a link to an outer entity is processed by a flabbily configured XML parser. Can lead to:
 - disclosure of confidential data,
 - server side request fake,
 - rejection of service,

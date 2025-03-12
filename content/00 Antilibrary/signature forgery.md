@@ -7,5 +7,6 @@ tags:
 ## Definition
 
 
+---
 ## References
-[[(Anastasia, Stamatia, 2024)]]
+- [[(Anastasia, Stamatia, 2024)]]

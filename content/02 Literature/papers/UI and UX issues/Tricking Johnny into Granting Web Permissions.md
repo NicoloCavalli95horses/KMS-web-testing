@@ -20,13 +20,19 @@ This study aims at answering to the following RQ: *How can the web permission di
 
 ## Results
 
-The participants were told that 
+The participants were told that the goal of the test is to measure how fast people are able to click. They didn't know that the authorization label would be displayed
 
 - 95% of participants were tricked on a ==mobile browser==. This is likely because tapping with your thumb physically obscures the permission panel more than clicking with your mouse
 - 72% on a ==desktop browser==
 - 47% of participants on a desktop browser ==where a prevention mechanism exists==
+- only 8 people out of 120 knew how the granted permission could be revoked from the desktop and mobile browser
 
 ![[furious_clicker_clickjacking.png]]
+
+Suggestions:
+- invalidating the focus of the mouse pointer for a short period to allow users to perceive the instant UI changes
+- Google Chrome in its newest version has patched this problem as follows: if the dialog box appears when the user is busy clicking, ==it does not accept any clicks until the user pauses for a second and clicks again==
+
 
 ---
 #### References
