@@ -75,6 +75,11 @@ async function main(params) {
 
   // Create the .bib file
   const bibFilePath = `99 Output/${key}.bib`;
+
+  if (await app.vault.adapter.exists(bibFilePath)) {
+    await app.vault.adapter.remove(bibFilePath);
+  }
+  
   await app.vault.create(bibFilePath, bibtexEntries.join("\n\n"));
 
   new Notice(`File BibTeX created at: ${bibFilePath}`);

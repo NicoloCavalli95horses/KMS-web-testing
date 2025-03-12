@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "601b030d29c60713",
+        "id": "61094c2f440650d3",
         "type": "tabs",
         "children": [
           {
-            "id": "54cdeacf53929496",
+            "id": "d1e1300a620c1341",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "A Traffic Monitoring and Policy Enforcement Framework for HTTP"
             }
           }
         ]
@@ -37,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -177,18 +182,25 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "d1e1300a620c1341",
   "lastOpenFiles": [
+    "03 References/(Muraleedharan, Thomas, et al., 2020).md",
+    "99 Output/SLR.bib",
+    "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
+    "03 References/(Keen, 2022).md",
+    "02 Literature/papers/HTTP traffic analysis",
+    "index.md",
+    "03 References/(Memon, Soffa, Mary, Pollack, 2001).md",
+    "02 Literature/papers/philosophy of science, meta-analysis/(Re)considering the Concept of Literature Review Reproducibility.md",
+    "03 References/(Klein, Musch, et al., 2022).md",
+    "02 Literature/papers/redirect attack/Malicious hidden redirect attack web page detection based on CSS features.md",
+    "02 Literature/papers/HTTP traffic analysis/ATrafficMonitoringandPolicyEnforcementFrameworkforHTTP.md",
     "03 References/(Kim, Wang, Kwon, et al., 2023).md",
     "03 References/(Muraleedharan, 2020).md",
-    "02 Literature/papers/HTTP traffic analysis/ATrafficMonitoringandPolicyEnforcementFrameworkforHTTP.md",
     "02 Literature/papers/HTTP traffic analysis/2020 Third ISEA Conference on Security and Privacy (ISEA-ISAP).md",
     "03 References/(Kratky, Chuda, 2018).md",
-    "03 References/(Muraleedharan, Thomas, et al., 2020).md",
-    "02 Literature/papers/HTTP traffic analysis",
     "03 References/(Muraleedharan et al., 2020).md",
     "02 Literature/papers/DOM clobbering/It’s (DOM) Clobbering Time. Attack Techniques, Prevalence, and Defenses.md",
-    "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
     "01 Notes/XXE (XML external entities).md",
     "00 Antilibrary/volume testing.md",
     "00 Antilibrary/VM (virtual machine).md",
@@ -199,15 +211,7 @@
     "00 Antilibrary/storage testing.md",
     "00 Antilibrary/SSRF (server-side request forgery).md",
     "00 Antilibrary/SSL (secure sockets layer).md",
-    "00 Antilibrary/social engineering.md",
-    "00 Antilibrary/smuggling.md",
-    "00 Antilibrary/signature forgery.md",
-    "00 Antilibrary/SessionStorage.md",
-    "00 Antilibrary/serviceability or maintenance testing.md",
-    "00 Antilibrary/RNN (recurrent neural network).md",
-    "00 Antilibrary/reliability testing.md",
     "97 Assets/furious_clicker_clickjacking.png",
-    "99 Output/SLR.bib",
     "99 Output/HHH.bib",
     "99 Output/test.bib",
     "99 Output",

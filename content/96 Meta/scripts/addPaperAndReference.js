@@ -6,6 +6,7 @@ async function main(params) {
   const bibObj = parseBibTeX(bibCode);
   const paperName = bibObj.title;
   const refName = bibObj.ref;
+  const paperKeywords = bibObj.keywords;
 
   if (!paperName || !bibCode || !paperFolder || !refName) { return };
 
@@ -18,8 +19,8 @@ async function main(params) {
     await app.vault.createFolder(folderPath);
   }
 
-  const paperContent = getPaperContent(refName);
-  const refContent = getRefContent(bibCode, refURL);
+  const paperContent = getPaperContent(refName, paperKeywords);
+  const refContent = getRefContent(refURL, bibCode);
 
   await app.vault.create(refPath, refContent);
   await app.vault.create(paperPath, paperContent);
@@ -29,10 +30,12 @@ async function main(params) {
 };
 
 function parseBibTeX(bibtex) {
-  bibtex = bibtex.toString().replace(/\s/g, '');
-  const titleMatch = bibtex.match(/,\s*title\s*=\s*{(.*?)}/i);
-  const authorMatch = bibtex.match(/,\s*author\s*=\s*{(.*?)}/i);
-  const yearMatch = bibtex.match(/,\s*year\s*=\s*{(\d{4})}/i);
+  bibtex = bibtex.toString();
+  const titleMatch = bibtex.match(/,\s*title\s*=\s*{\s*(.*?)\s*}/i);
+  const authorMatch = bibtex.match(/,\s*author\s*=\s*{\s*(.*?)\s*}/i);
+  const yearMatch = bibtex.match(/,\s*year\s*=\s*{\s*(\d{4})\s*}/i);
+  const keywordsMatch = bibtex.match(/,\s*keywords\s*=\s*{\s*(.*?)\s*}/i);
+  const keywords = keywordsMatch ? keywordsMatch[1].split(/\s*;\s*/) : [];
 
 
   if (!titleMatch || !authorMatch || !yearMatch) {
@@ -53,16 +56,15 @@ function parseBibTeX(bibtex) {
     ref = `(${singleAuthor}, ${year})`;
   }
 
-  return { title, ref };
+  return { title, ref, keywords };
 }
 
 
 
-function getPaperContent(refName) {
+function getPaperContent(refName, keywords = []) {
   return `---
-ID: ${new Date().toISOString().slice(0, 10)}
-tags:
-  - paper
+ID: ${new Date().toISOString()}
+tags: paper ${toCamelCase(keywords)}
 ---
 ## Context
 
@@ -81,9 +83,8 @@ Describe the paper approach in simple term.
 
 function getRefContent(refURL, bibCode) {
   return `---
-ID: ${new Date().toISOString().slice(0, 10)}
-tags:
-  - ref
+ID: ${new Date().toISOString()}
+tags: ref
 ---
 ## External Link
 
@@ -93,6 +94,18 @@ ${refURL || ''}
 
 ${bibCode}
 `;
+}
+
+function toCamelCase(arr) {
+  return arr
+    .map(tag => 
+      tag
+        .replace(/\./g, '')
+        .split(/\s+/)
+        .map((word, i) => i === 0 ? word.charAt(0).toUpperCase() + word.slice(1).toLowerCase() : word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+        .join('')
+    )
+    .join(' ');
 }
 
 module.exports = main;
