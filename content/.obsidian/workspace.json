@@ -4,22 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "35201087333f3e34",
+        "id": "fa1dced9213ee8aa",
         "type": "tabs",
         "children": [
           {
-            "id": "5232d727e3a6b4d8",
+            "id": "1688e5e703731473",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 Courses, webinars/FLE French Course/French Course 03-11-2025.md",
+                "file": "02 Literature/papers/UI and UX issues/Tricking Johnny into Granting Web Permissions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "French Course 03-11-2025"
+              "title": "Tricking Johnny into Granting Web Permissions"
+            }
+          },
+          {
+            "id": "afcb3c7d9fa8c687",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/clickjacking.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "clickjacking"
             }
           }
         ]
@@ -54,8 +69,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ref [\"slr\"] ",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -79,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5026054382324
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -182,11 +197,17 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "5232d727e3a6b4d8",
+  "active": "1688e5e703731473",
   "lastOpenFiles": [
-    "96 Meta/References analysis.md",
-    "96 Meta/Publication deadlines.md",
+    "01 Notes/clickjacking.md",
+    "02 Literature/papers/UI and UX issues/Tricking Johnny into Granting Web Permissions.md",
     "96 Meta/PhD status.md",
+    "96 Meta/Publication deadlines.md",
+    "96 Meta/References analysis.md",
+    "03 References/(Hazhirpasand, 2020).md",
+    "99 Output/SLR.bib",
+    "99 Output/HHH.bib",
+    "06 Courses, webinars/FLE French Course/French Course 03-11-2025.md",
     "index.md",
     "99 Output/test.bib",
     "99 Output",
@@ -200,9 +221,7 @@
     "02 Literature/papers/logic flow tampering/Finding client-side business flow tampering vulnerabilities.md",
     "03 References/(Kim, Wang, Kwon, et al., 2023).md",
     "02 Literature/papers/logic flow tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
-    "02 Literature/papers/UI and UX issues/Tricking Johnny into Granting Web Permissions.md",
     "02 Literature/papers/prototype pollution/A Multivocal Literature Review on Prototype Pollution Vulnerability.md",
-    "03 References/(Hazhirpasand, 2020).md",
     "03 References/(Goues, Claire, Pradel et al., 2021).md",
     "02 Literature/papers/UI and UX issues/Out of Sight, Out of Mind. UI Design and the Inhibition of Mental Models of Security.md",
     "02 Literature/papers/zzz folder/zzz title.md",
@@ -214,13 +233,9 @@
     "02 Literature/papers/CSS/new title.md",
     "02 Literature/papers/zzz folder/new title.md",
     "02 Literature/papers/zzz new folder/title test.md",
-    "03 References/(zzzz, 0000).md",
     "02 Literature/papers/zzz new folder",
-    "02 Literature/folder test/title test.md",
     "02 Literature/folder test",
     "05 Dataset/vulnerable webapp.canvas",
-    "96 Meta/scripts/paperAndReference.js",
-    "96 Meta/scripts/new_reference.js",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/papers/paper template.canvas",
     "04 Canvases/papers/Web front-end vulnerabilities. A systematic review/SLR protocol.canvas",

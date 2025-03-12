@@ -1,4 +1,4 @@
-module.exports = async function (params) {
+async function main(params) {
   const paperName   = await params.quickAddApi.inputPrompt("Insert the full title of the scientific paper");
   const paperFolder = await params.quickAddApi.inputPrompt("Insert the paper's folder");
   const refName     = await params.quickAddApi.inputPrompt("Insert the reference title. Example: (Rossi et al., 2024)");
@@ -54,3 +54,6 @@ ${bibCode}
   app.workspace.openLinkText(paperName, "", true);
   app.workspace.openLinkText(refName, "", true);
 };
+
+
+module.exports = main;

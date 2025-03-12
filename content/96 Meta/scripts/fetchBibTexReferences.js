@@ -33,38 +33,37 @@ function YAMLtoObject(yamlText) {
 
 
 async function main(params) {
-  const vault = app.vault;
+  // Get the custom property that identifies the references
+  const key = await params.quickAddApi.inputPrompt("Insert the property that identifies the references (e.g., SLR)");
+  const bibtexEntries = [];
+  let filesChecked = 0;
 
-  // Request file name
-  const fileName = await params.quickAddApi.inputPrompt("Insert the BibTex file name (without extension)");
-  if (!fileName) {
+  if (!key) {
     new Notice("Aborted");
     return;
   }
 
-  let bibtexEntries = [];
-  let filesChecked = 0;
-
-  const files = vault.getMarkdownFiles();
+  // Get all the notes
+  const files = app.vault.getMarkdownFiles();
 
   for (let file of files) {
     filesChecked++;
-    let content = await vault.read(file);
+    const content = await app.vault.read(file);
 
-    const frontmatterMatch = content.match(/^---\n([\s\S]+?)\n---/);
-    if (!frontmatterMatch) { continue; }
+    // Get the YAML header
+    const yamlHeader = content.match(/^---\n([\s\S]+?)\n---/);
+    if (!yamlHeader) { continue; }
 
-    const yamlData = YAMLtoObject(frontmatterMatch[1]);
-    const isMatch = yamlData.tags.includes('ref') && !!yamlData['SLR'];
+    // Convert the YAML header to an object
+    const yamlData = YAMLtoObject(yamlHeader[1]);
 
-    if (isMatch) {
-      console.log(`Match found: ${file.path}`);
+    // Consider all the notes that are references and that contain the custom property
+    if (!yamlData.tags.includes('ref') || !yamlData[key]) { continue; }
 
-      let match = content.match(/@[\s\S]*/); // everything that follows '@'
-      if (match) {
-        bibtexEntries.push(match[0]);
-      }
-    }
+    let match = content.match(/@[\s\S]*/); // everything that follows '@'
+    if (!match) { continue; }
+
+    bibtexEntries.push(match[0]);
   }
 
   if (bibtexEntries.length === 0) {
@@ -74,8 +73,9 @@ async function main(params) {
 
   new Notice(`${bibtexEntries.length} BibTeX found in ${filesChecked} files`);
 
-  const bibFilePath = `99 Output/${fileName}.bib`;
-  await vault.create(bibFilePath, bibtexEntries.join("\n\n"));
+  // Create the .bib file
+  const bibFilePath = `99 Output/${key}.bib`;
+  await app.vault.create(bibFilePath, bibtexEntries.join("\n\n"));
 
   new Notice(`File BibTeX created at: ${bibFilePath}`);
 }
