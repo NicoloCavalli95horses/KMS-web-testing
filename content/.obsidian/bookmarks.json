@@ -5,6 +5,12 @@
       "ctime": 1741687381208,
       "query": "[\"slr\"]",
       "title": "SLR papers"
+    },
+    {
+      "type": "search",
+      "ctime": 1741767872454,
+      "query": "-tag:#ref [\"slr\"] ",
+      "title": "SLR papers"
     }
   ]
 }
