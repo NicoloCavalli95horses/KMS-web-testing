@@ -75,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,7 +183,7 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "c0e91f725b0d9787",
   "lastOpenFiles": [
     "99 Output/SLR.bib",
     "03 References/(Sushma, Jayalakshmi, et al., 2022).md",
