@@ -14,15 +14,19 @@ This study aims at answering to the following RQ: *How can the web permission di
 ## Approach
 
 - designed an experimental game, called “Furious Clicker,” to evaluate whether or not users can be tricked into granting webcam permission by clicking on the 'allow' button of the web permission API’s dialog box
-- We asked 120 participants to take part in our web-based game experiment
-- We conducted three experiments, each with 40 different participants, on both desktop and mobile browsers
+- 120 participants took part in our web-based game experiment
+- three experiments were conducted, each with 40 different participants, on both desktop and mobile browsers
 - We used the mobile version of Google Chrome on Android, and the desktop version of Mozilla Firefox and Google Chrome on Mac OS
 
 ## Results
 
-- 95% of participants were tricked on a ==mobile browser==
+The participants were told that 
+
+- 95% of participants were tricked on a ==mobile browser==. This is likely because tapping with your thumb physically obscures the permission panel more than clicking with your mouse
 - 72% on a ==desktop browser==
 - 47% of participants on a desktop browser ==where a prevention mechanism exists==
+
+![[furious_clicker_clickjacking.png]]
 
 ---
 #### References

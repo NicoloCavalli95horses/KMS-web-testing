@@ -30,6 +30,18 @@ The user:
 
 Attackers have used clickjacking attacks to trick users into liking a fan page on Facebook or re-tweeting a message on Twitter [[(Hazhirpasand, 2020)]]
 
+### Types
+
+**Jeopardizing target display integrity**  [[(Hazhirpasand, 2020)]]:
+- a sensitive UI is hidden/made invisible and an attractive decoy is placed over or beneath it, nudging the user to interact with it
+
+**Jeopardizing pointer integrity**  [[(Hazhirpasand, 2020)]]:
+- a fake cursor (pointer) is used instead of the real cursor
+
+**Jeopardizing temporal integrity attack**  [[(Hazhirpasand, 2020)]]:
+- the sensitive element is not hidden, the users can potentially see it but are nonetheless tricked into making an unwanted click because they are engaged in a distracting activity. ==Humans need at least a few hundred milliseconds to react to a sudden visual change ==
+- online games are a perfect example of this attack. Hackers can exploit this situation to get access to webcam, or to bypass security captcha embedded in an iframe
+
 ### Mitigation techniques
 
 **Frame busting** [[(Hazhirpasand, 2020)]]
