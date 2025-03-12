@@ -6,6 +6,13 @@
       "type": "Macro",
       "command": false,
       "macroId": "00dc8bee-0c8e-4a81-92cf-306fc43853c6"
+    },
+    {
+      "id": "24ceea6c-aaf7-476f-b45b-176e558caba5",
+      "name": "Generate .bib file",
+      "type": "Macro",
+      "command": false,
+      "macroId": "2a290c09-1ad5-4a6e-8f41-147005fd81b3"
     }
   ],
   "macros": [
@@ -14,10 +21,24 @@
       "id": "00dc8bee-0c8e-4a81-92cf-306fc43853c6",
       "commands": [
         {
-          "name": "paperAndReference",
+          "name": "addPaperAndReference",
           "type": "UserScript",
-          "id": "3b25657b-3d9b-4854-8453-3ba83b1da21d",
-          "path": "96 Meta/scripts/paperAndReference.js",
+          "id": "c1e8de4f-359e-43c8-839b-49f9b04e57e9",
+          "path": "96 Meta/scripts/addPaperAndReference.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Generate .bib file",
+      "id": "2a290c09-1ad5-4a6e-8f41-147005fd81b3",
+      "commands": [
+        {
+          "name": "fetchBibTexReferences",
+          "type": "UserScript",
+          "id": "5b4d5b3e-903f-4f02-ade9-89f5e0ad3cf5",
+          "path": "96 Meta/scripts/fetchBibTexReferences.js",
           "settings": {}
         }
       ],

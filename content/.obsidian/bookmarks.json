@@ -1,16 +1,23 @@
 {
   "items": [
     {
-      "type": "search",
-      "ctime": 1741687381208,
-      "query": "[\"slr\"]",
-      "title": "SLR papers"
-    },
-    {
-      "type": "search",
-      "ctime": 1741767872454,
-      "query": "-tag:#ref [\"slr\"] ",
-      "title": "SLR papers"
+      "type": "group",
+      "ctime": 1741768082726,
+      "items": [
+        {
+          "type": "search",
+          "ctime": 1741767872454,
+          "query": "-tag:#ref [\"slr\"] ",
+          "title": "SLR papers"
+        },
+        {
+          "type": "search",
+          "ctime": 1741768054766,
+          "query": "tag:#ref [\"slr\"] ",
+          "title": "SLR references"
+        }
+      ],
+      "title": "SLR web application security"
     }
   ]
 }
