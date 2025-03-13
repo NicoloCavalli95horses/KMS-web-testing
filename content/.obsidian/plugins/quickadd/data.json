@@ -13,13 +13,6 @@
       "type": "Macro",
       "command": false,
       "macroId": "2a290c09-1ad5-4a6e-8f41-147005fd81b3"
-    },
-    {
-      "id": "59281d84-651a-41a7-a162-bdbe98688fd7",
-      "name": "test",
-      "type": "Macro",
-      "command": false,
-      "macroId": "198f030e-f5c0-49f7-9623-13a0e09ee706"
     }
   ],
   "macros": [
@@ -30,7 +23,7 @@
         {
           "name": "addPaperAndReference",
           "type": "UserScript",
-          "id": "c1e8de4f-359e-43c8-839b-49f9b04e57e9",
+          "id": "758426bb-a962-40ee-9886-01880f87ea60",
           "path": "96 Meta/scripts/addPaperAndReference.js",
           "settings": {}
         }
@@ -49,12 +42,6 @@
           "settings": {}
         }
       ],
-      "runOnStartup": false
-    },
-    {
-      "name": "test",
-      "id": "198f030e-f5c0-49f7-9623-13a0e09ee706",
-      "commands": [],
       "runOnStartup": false
     }
   ],

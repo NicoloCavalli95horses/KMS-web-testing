@@ -21,17 +21,26 @@ async function main(params) {
 
   if (!folderExists) {
     await app.vault.createFolder(folderPath);
+    new Notice(`Created new ${folderPath} folder`);
   }
 
-  console.log(project, paperKeywords)
   const paperContent = getPaperContent(refName, paperKeywords, project);
   const refContent = getRefContent(refURL, bibCode, project);
 
-  await app.vault.create(refPath, refContent);
-  await app.vault.create(paperPath, paperContent);
+  const refExist = app.vault.getAbstractFileByPath(refPath);
+  if (refExist) {
+    new Notice(`A similar reference was found at: ${refPath}. Unable to solve the merge conflict`);
+  } else {
+    // Creating files
+    await app.vault.create(refPath, refContent);
+    new Notice(`Created new reference at: ${refPath}`);
+    await app.vault.create(paperPath, paperContent);
+    new Notice(`Created new paper's note at: ${paperPath}`);
 
-  app.workspace.openLinkText(paperName, "", true);
-  app.workspace.openLinkText(refName, "", true);
+    // Open new files
+    app.workspace.openLinkText(paperName, "", true);
+    app.workspace.openLinkText(refName, "", true);
+  }
 };
 
 function parseBibTeX(bibtex) {
@@ -48,7 +57,7 @@ function parseBibTeX(bibtex) {
     return;
   }
 
-  const title = titleMatch[1];
+  const title = titleMatch[1].replace(`:`, `.`)
   const authors = authorMatch[1].split(/\s+and\s+/i);  // split using 'and' with optional spaces
   const year = yearMatch[1];
 
@@ -71,8 +80,7 @@ function getPaperContent(refName, keywords = [], project) {
   return `---
 ID: ${new Date().toISOString()}
 tags: paper ${toCamelCase(keywords)}
-${project ? 'Project: ' +
-  '- ' + project : ''}
+${project ? '\nProject:\n - ' + project : ''}
 ---
 ## Context
 
@@ -93,7 +101,7 @@ function getRefContent(refURL, bibCode, project) {
   return `---
 ID: ${new Date().toISOString()}
 tags: ref
-${project ? 'Project: ' + project : ''}
+${project ? '\nProject:\n - ' + project : ''}
 ---
 ## External Link
 

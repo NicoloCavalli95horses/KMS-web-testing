@@ -1,23 +1,3 @@
 {
-  "items": [
-    {
-      "type": "group",
-      "ctime": 1741768082726,
-      "items": [
-        {
-          "type": "search",
-          "ctime": 1741856287690,
-          "query": "tag:#ref [\"project\" : \"SLR\"] ",
-          "title": "SLR references"
-        },
-        {
-          "type": "search",
-          "ctime": 1741856250507,
-          "query": "tag:#paper [\"project\": \"SLR\"] ",
-          "title": "SLR papers"
-        }
-      ],
-      "title": "SLR web application security"
-    }
-  ]
+  "items": []
 }
