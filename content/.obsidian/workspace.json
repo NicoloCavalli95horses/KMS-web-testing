@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "029ef43096ef5c5b",
+        "id": "5e2a08b59ca36264",
         "type": "tabs",
         "children": [
           {
-            "id": "687bcdd63f664cb4",
+            "id": "d8430948a59dd832",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -177,11 +177,14 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "687bcdd63f664cb4",
+  "active": "d8430948a59dd832",
   "lastOpenFiles": [
+    "02 Literature/papers/zzz",
+    "96 Meta/Publication deadlines.md",
+    "01 Notes/XSS (cross site scripting).md",
+    "99 Output/SLR.bib",
     "03 References/(Skrupsky, Monshizadeh, et al., 2012).md",
     "02 Literature/papers/test",
-    "99 Output/SLR.bib",
     "02 Literature/papers/DOM clobbering/It’s (DOM) Clobbering Time. Attack Techniques, Prevalence, and Defenses.md",
     "02 Literature/papers/logic flow tampering/Finding client-side business flow tampering vulnerabilities.md",
     "02 Literature/papers/logic flow tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
@@ -207,9 +210,6 @@
     "02 Literature/papers/HTTP traffic analysis",
     "03 References/(Memon, Soffa, Mary, Pollack, 2001).md",
     "02 Literature/papers/philosophy of science, meta-analysis/(Re)considering the Concept of Literature Review Reproducibility.md",
-    "03 References/(Klein, Musch, et al., 2022).md",
-    "02 Literature/papers/redirect attack/Malicious hidden redirect attack web page detection based on CSS features.md",
-    "02 Literature/papers/HTTP traffic analysis/ATrafficMonitoringandPolicyEnforcementFrameworkforHTTP.md",
     "97 Assets/furious_clicker_clickjacking.png",
     "99 Output/HHH.bib",
     "99 Output/test.bib",

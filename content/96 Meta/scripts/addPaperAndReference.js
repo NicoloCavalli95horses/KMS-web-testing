@@ -23,6 +23,7 @@ async function main(params) {
     await app.vault.createFolder(folderPath);
   }
 
+  console.log(project, paperKeywords)
   const paperContent = getPaperContent(refName, paperKeywords, project);
   const refContent = getRefContent(refURL, bibCode, project);
 
@@ -70,7 +71,7 @@ function getPaperContent(refName, keywords = [], project) {
   return `---
 ID: ${new Date().toISOString()}
 tags: paper ${toCamelCase(keywords)}
-${project ? 'Project: ' + project : null}
+${project ? 'Project: ' + project : ''}
 ---
 ## Context
 
@@ -91,7 +92,7 @@ function getRefContent(refURL, bibCode, project) {
   return `---
 ID: ${new Date().toISOString()}
 tags: ref
-${project ? 'Project: ' + project : null}
+${project ? 'Project: ' + project : ''}
 ---
 ## External Link
 

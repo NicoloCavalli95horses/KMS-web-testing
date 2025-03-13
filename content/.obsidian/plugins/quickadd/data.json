@@ -2,7 +2,7 @@
   "choices": [
     {
       "id": "7ec44e9d-41c1-4289-becb-631eed081bd0",
-      "name": "Paper + reference",
+      "name": "Add new paper and reference",
       "type": "Macro",
       "command": false,
       "macroId": "00dc8bee-0c8e-4a81-92cf-306fc43853c6"
@@ -13,6 +13,13 @@
       "type": "Macro",
       "command": false,
       "macroId": "2a290c09-1ad5-4a6e-8f41-147005fd81b3"
+    },
+    {
+      "id": "59281d84-651a-41a7-a162-bdbe98688fd7",
+      "name": "test",
+      "type": "Macro",
+      "command": false,
+      "macroId": "198f030e-f5c0-49f7-9623-13a0e09ee706"
     }
   ],
   "macros": [
@@ -42,6 +49,12 @@
           "settings": {}
         }
       ],
+      "runOnStartup": false
+    },
+    {
+      "name": "test",
+      "id": "198f030e-f5c0-49f7-9623-13a0e09ee706",
+      "commands": [],
       "runOnStartup": false
     }
   ],
