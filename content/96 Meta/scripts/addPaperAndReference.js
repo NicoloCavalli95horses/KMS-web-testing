@@ -2,6 +2,7 @@ async function main(params) {
   const paperFolder = await params.quickAddApi.inputPrompt("Insert the paper's folder");
   const bibCode     = await params.quickAddApi.inputPrompt("Insert a valid BibTeX code");
   const refURL      = await params.quickAddApi.inputPrompt("Insert the paper's URL, if any");
+  const project     = await params.quickAddApi.inputPrompt("Insert the project name, if any");
 
   const bibObj = parseBibTeX(bibCode);
   const paperName = bibObj.title;
@@ -22,8 +23,8 @@ async function main(params) {
     await app.vault.createFolder(folderPath);
   }
 
-  const paperContent = getPaperContent(refName, paperKeywords);
-  const refContent = getRefContent(refURL, bibCode);
+  const paperContent = getPaperContent(refName, paperKeywords, project);
+  const refContent = getRefContent(refURL, bibCode, project);
 
   await app.vault.create(refPath, refContent);
   await app.vault.create(paperPath, paperContent);
@@ -65,10 +66,11 @@ function parseBibTeX(bibtex) {
 
 
 
-function getPaperContent(refName, keywords = []) {
+function getPaperContent(refName, keywords = [], project) {
   return `---
 ID: ${new Date().toISOString()}
 tags: paper ${toCamelCase(keywords)}
+${project ? 'Project: ' + project : null}
 ---
 ## Context
 
@@ -85,10 +87,11 @@ Describe the paper approach in simple term.
 }
 
 
-function getRefContent(refURL, bibCode) {
+function getRefContent(refURL, bibCode, project) {
   return `---
 ID: ${new Date().toISOString()}
 tags: ref
+${project ? 'Project: ' + project : null}
 ---
 ## External Link
 

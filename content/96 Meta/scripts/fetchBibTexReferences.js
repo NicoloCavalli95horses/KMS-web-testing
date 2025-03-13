@@ -34,7 +34,7 @@ function YAMLtoObject(yamlText) {
 
 async function main(params) {
   // Get the custom property that identifies the references
-  const key = await params.quickAddApi.inputPrompt("Insert the property that identifies the references (e.g., SLR)");
+  const key = await params.quickAddApi.inputPrompt("Insert the project's name (e.g., SLR)");
   const bibtexEntries = [];
   let filesChecked = 0;
 
@@ -58,7 +58,7 @@ async function main(params) {
     const yamlData = YAMLtoObject(yamlHeader[1]);
 
     // Consider all the notes that are references and that contain the custom property
-    if (!yamlData.tags.includes('ref') || !yamlData[key]) { continue; }
+    if (!yamlData.tags.includes('ref') || !yamlData?.Project?.includes(key)) { continue; }
 
     let match = content.match(/@[\s\S]*/); // everything that follows '@'
     if (!match) { continue; }

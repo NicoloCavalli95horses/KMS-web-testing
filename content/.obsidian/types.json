@@ -3,6 +3,7 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "Project": "text"
+    "Project": "multitext",
+    "SLR": "text"
   }
 }

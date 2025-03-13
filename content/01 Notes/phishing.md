@@ -9,7 +9,8 @@ tags:
 ## Definition
 
 Phishing refers to the practice of ==manipulating the user with the goal of stealing confidential information== (login credentials, payment card details, etc). This is usually done:
-- by creating fake web pages or emails that mimic legitimate resources
+- by creating fake web pages that mimic legitimate resources (*phoney web pages*)
+- by using persuasive emails 
 
 **Why people still fall for phishing?**
 The average user is unable to distinguish malicious web pages from legitimate ones and does not have enough technical information about URLs. Therefore:

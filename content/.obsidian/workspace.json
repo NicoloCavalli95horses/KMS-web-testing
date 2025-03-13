@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "62f9867dfb46d8e4",
+        "id": "029ef43096ef5c5b",
         "type": "tabs",
         "children": [
           {
-            "id": "c0e91f725b0d9787",
+            "id": "687bcdd63f664cb4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Literature/papers/phishing/Deep Learning for Phishing Website Detection.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Deep Learning for Phishing Website Detection"
+              "title": "New tab"
             }
           }
         ]
@@ -75,12 +70,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 232.50260543823242
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -183,15 +177,27 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "c0e91f725b0d9787",
+  "active": "687bcdd63f664cb4",
   "lastOpenFiles": [
+    "03 References/(Skrupsky, Monshizadeh, et al., 2012).md",
+    "02 Literature/papers/test",
     "99 Output/SLR.bib",
-    "03 References/(Sushma, Jayalakshmi, et al., 2022).md",
-    "02 Literature/papers/phishing/Deep Learning for Phishing Website Detection.md",
-    "02 Literature/papers/phishing",
+    "02 Literature/papers/DOM clobbering/It’s (DOM) Clobbering Time. Attack Techniques, Prevalence, and Defenses.md",
+    "02 Literature/papers/logic flow tampering/Finding client-side business flow tampering vulnerabilities.md",
+    "02 Literature/papers/logic flow tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
-    "index.md",
+    "02 Literature/papers/prototype pollution/A Multivocal Literature Review on Prototype Pollution Vulnerability.md",
     "03 References/(Muraleedharan, Thomas, et al., 2020).md",
+    "03 References/(Kim, Zheng, Park, et al., 2020).md",
+    "03 References/(Kim, Wang, Kwon, et al., 2023).md",
+    "03 References/(Khodayari, Pellegrino, 2023).md",
+    "03 References/(Hakim, 2023).md",
+    "02 Literature/papers/phishing/Deep Learning for Phishing Website Detection.md",
+    "01 Notes/phishing.md",
+    "00 Antilibrary/SVM (support vector machine).md",
+    "03 References/(Sushma, Jayalakshmi, et al., 2022).md",
+    "02 Literature/papers/phishing",
+    "index.md",
     "02 Literature/books/The Basic of Web Hacking/The Basic of Web Hacking. Tools and Techniques to Attack the Web.md",
     "02 Literature/books/The art of software testing/The art of software testing.md",
     "02 Literature/books/Web application security/Web application security.md",
@@ -204,16 +210,6 @@
     "03 References/(Klein, Musch, et al., 2022).md",
     "02 Literature/papers/redirect attack/Malicious hidden redirect attack web page detection based on CSS features.md",
     "02 Literature/papers/HTTP traffic analysis/ATrafficMonitoringandPolicyEnforcementFrameworkforHTTP.md",
-    "03 References/(Kim, Wang, Kwon, et al., 2023).md",
-    "03 References/(Muraleedharan, 2020).md",
-    "02 Literature/papers/HTTP traffic analysis/2020 Third ISEA Conference on Security and Privacy (ISEA-ISAP).md",
-    "03 References/(Kratky, Chuda, 2018).md",
-    "03 References/(Muraleedharan et al., 2020).md",
-    "02 Literature/papers/DOM clobbering/It’s (DOM) Clobbering Time. Attack Techniques, Prevalence, and Defenses.md",
-    "01 Notes/XXE (XML external entities).md",
-    "00 Antilibrary/volume testing.md",
-    "00 Antilibrary/VM (virtual machine).md",
-    "00 Antilibrary/tree difference algorithms.md",
     "97 Assets/furious_clicker_clickjacking.png",
     "99 Output/HHH.bib",
     "99 Output/test.bib",
@@ -221,7 +217,6 @@
     "test.bib",
     "96 Meta/scripts/addPaperAndReference.js",
     "96 Meta/scripts/fetchBibTexReferences.js",
-    "02 Literature/papers/zzz folder",
     "05 Dataset/vulnerable webapp.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/papers/paper template.canvas",

@@ -6,15 +6,15 @@
       "items": [
         {
           "type": "search",
-          "ctime": 1741767872454,
-          "query": "-tag:#ref [\"slr\"] ",
-          "title": "SLR papers"
+          "ctime": 1741856287690,
+          "query": "tag:#ref [\"project\" : \"SLR\"] ",
+          "title": "SLR references"
         },
         {
           "type": "search",
-          "ctime": 1741768054766,
-          "query": "tag:#ref [\"slr\"] ",
-          "title": "SLR references"
+          "ctime": 1741856250507,
+          "query": "tag:#paper [\"project\": \"SLR\"] ",
+          "title": "SLR papers"
         }
       ],
       "title": "SLR web application security"

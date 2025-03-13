@@ -2,7 +2,8 @@
 ID: 2025-01-28-16:33
 tags:
   - ref
-SLR: https://overleaf.irisa.fr/project/67c982e387fa1b0088944647
+Project:
+  - SLR
 ---
 ## Link
 

@@ -7,7 +7,8 @@ tags:
   - codeAnalysis
   - cyberSecurity
   - clientSideAttacks
-SLR: https://overleaf.irisa.fr/project/67c982e387fa1b0088944647
+Project:
+  - SLR
 ---
 ## Introduction
 
