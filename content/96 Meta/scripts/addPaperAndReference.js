@@ -71,7 +71,8 @@ function getPaperContent(refName, keywords = [], project) {
   return `---
 ID: ${new Date().toISOString()}
 tags: paper ${toCamelCase(keywords)}
-${project ? 'Project: ' + project : ''}
+${project ? 'Project: ' +
+  '- ' + project : ''}
 ---
 ## Context
 
