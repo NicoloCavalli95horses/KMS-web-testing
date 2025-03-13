@@ -10,7 +10,7 @@ let pages = dv.pages()
 let tagCounts = {};
 
 pages.forEach(p => {
-    if (p.tags) {
+    if (p.tags.length) {
         p.tags.forEach(tag => {
             tagCounts[tag] = (tagCounts[tag] || 0) + 1;
         });
@@ -21,6 +21,13 @@ delete tagCounts["paper"];
 
 dv.table(["Tag", "Count"], Object.entries(tagCounts).sort((a, b) => b[1] - a[1]));
 ```
+
+
+
+
+
+
+
 
 
 

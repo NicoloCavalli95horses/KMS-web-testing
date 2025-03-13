@@ -14,5 +14,7 @@ A graphical user interface (GUI) is a hierarchical, graphical front-end to a sof
 There may be also GUIs with:
 - synchronization/timing constraints (e.g. movie players)
 - non-deterministic GUIs (the state of the GUI is not predictable)
+
+---
 ## References
-[[(Memon, Soffa, Mary, Pollack, 2001)]]
+- [[(Memon, Soffa, Mary, Pollack, 2001)]]

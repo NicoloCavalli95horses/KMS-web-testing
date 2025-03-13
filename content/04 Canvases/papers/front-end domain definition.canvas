@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"c727c1adc4de6997","type":"text","text":"# What exactly defines a *web front-end* software?\n\n# What do we mean by *front-end* security?","x":-690,"y":-397,"width":740,"height":260},
+		{"id":"be6cb68b613a2b0d","type":"text","text":"- code served by a server that enable a [[[GUI (graphical user interface)]]]\n- the code is either fully available or dynamically created (as part of the SPA itself)","x":-690,"y":-67,"width":740,"height":160},
+		{"id":"d3d8a095b99a9142","type":"text","text":"## Are these issues part of a low front-end security or are eventually due to a server-side failure?","x":-690,"y":200,"width":740,"height":125},
+		{"id":"6662903f53bf930c","type":"text","text":"## Can we answer this question with a SLR based on OWASP definitions?","x":200,"y":-237,"width":440,"height":170},
+		{"id":"3fdc0d516adb6f63","type":"text","text":"- **help defining domains and responsibilities**: often client and server software are developed by different teams\n- **identifying root causes of a security issue**: by understanding why some steps of a web attack (which may involve the front-end) are not essential and by identify exactly where the vulnerability is","x":-1520,"y":-75,"width":637,"height":275},
+		{"id":"2c5b9ffd5f9f0139","type":"text","text":"## Why is this discussion relevant?","x":-1520,"y":-237,"width":637,"height":100},
+		{"id":"fd2f37957d263b0d","type":"text","text":"storage (localStorage, sessionStorage, IndexedDB)","x":-190,"y":440,"width":280,"height":120},
+		{"id":"0a513a76f2085570","type":"text","text":"cookies theft","x":-410,"y":440,"width":180,"height":120},
+		{"id":"46bf7d44180ce4d2","type":"text","text":"URL manipulation\n","x":-690,"y":440,"width":220,"height":120}
+	],
+	"edges":[
+		{"id":"7fc90462b1150176","fromNode":"d3d8a095b99a9142","fromSide":"bottom","toNode":"46bf7d44180ce4d2","toSide":"top"},
+		{"id":"1d6d0784fe5e13bf","fromNode":"d3d8a095b99a9142","fromSide":"bottom","toNode":"0a513a76f2085570","toSide":"top"},
+		{"id":"3453a2cf7dd05b20","fromNode":"d3d8a095b99a9142","fromSide":"bottom","toNode":"fd2f37957d263b0d","toSide":"top"},
+		{"id":"d42d83668bab5f74","fromNode":"2c5b9ffd5f9f0139","fromSide":"bottom","toNode":"3fdc0d516adb6f63","toSide":"top"},
+		{"id":"8f28a8179eac0c72","fromNode":"c727c1adc4de6997","fromSide":"bottom","toNode":"be6cb68b613a2b0d","toSide":"top"},
+		{"id":"e429a069a635369e","fromNode":"c727c1adc4de6997","fromSide":"right","toNode":"6662903f53bf930c","toSide":"left"},
+		{"id":"57824d76f068e096","fromNode":"c727c1adc4de6997","fromSide":"left","toNode":"2c5b9ffd5f9f0139","toSide":"right"},
+		{"id":"d9eaa369fdad573c","fromNode":"be6cb68b613a2b0d","fromSide":"bottom","toNode":"d3d8a095b99a9142","toSide":"top"}
+	]
+}

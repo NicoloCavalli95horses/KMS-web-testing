@@ -1,17 +1,23 @@
 ---
 ID: 2025-03-13T13:50:54.107Z
-tags: paper 
-
+tags:
+  - paper
+  - inputValidation
 Project:
- - SLR
+  - SLR
 ---
 ## Context
 
-High-level description of the problem. Use links to low-level notes to specify the context details
+In web development often client and server are built separately, by different teams, in different programming languages and platforms. When the client and server are supposed to share application logic but do not, an “*impedance mismatch*” occurs
+- [[client-side input validations]] should be in sync with server-side input validation
 
 ## Approach
 
-Describe the paper approach in simple term.
+Automatically examine the source code of a web application, identify the server-side input validation logic, and replicate that logic on the client. This simplifies the development process and also improve security
+
+**WAVES (Web Application Validation Extraction and Synthesis)**: automatically synthesizes the client-side validation code through:
+- 
+
 
 ---
 #### References
