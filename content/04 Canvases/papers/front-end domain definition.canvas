@@ -1,23 +1,24 @@
 {
 	"nodes":[
-		{"id":"43f5d3894768b88d","type":"text","text":"# RQ1. What web front-end vulnerabilities are more relevant?","x":-3820,"y":-564,"width":420,"height":167},
-		{"id":"d3d8a095b99a9142","type":"text","text":"### ==No clear definition of front-end security==\n#### Are these issues part of a low front-end security or are eventually due to a server-side failure?","x":-3820,"y":-317,"width":420,"height":277},
-		{"id":"65154d6200569b15","type":"text","text":"\n> [!Warning]\n> It forces us to think in terms of isolated boxes and creates doubts about the side who is actually responsible for the successful outcome of an attack\n","x":-3357,"y":-777,"width":450,"height":245},
-		{"id":"280dee36007420c8","type":"text","text":"\n> [!Warning]\n> Implies a clear distinction between *front-end* and *back-end* vulnerabilities, while in fact an attack often requires multiple phases and  issues on both sides\n","x":-3357,"y":-500,"width":450,"height":257},
-		{"id":"0a513a76f2085570","type":"text","text":"cookies theft and [[session hijacking]] , or metadata manipulation in general","x":-4057,"y":80,"width":395,"height":90},
-		{"id":"46bf7d44180ce4d2","type":"text","text":"URL manipulation for [[forced browsing]] or [[IDOR (Insecure Direct Object Reference)]]\n","x":-3555,"y":82,"width":395,"height":86},
-		{"id":"569f9f5935d87ec1","type":"text","text":"## RQ 1.2 \n## What exactly are the responsibilities of the front end software in an attack that ==also affects a server==?\n\n## How is the front end involved in executing an attack that targets the server?","x":-3582,"y":1180,"width":700,"height":320},
-		{"id":"64b21cf9dec536c5","type":"text","text":"## RQ 1.1 \n## What is the role of web front end software in a web attack that does ==not involve a web server==? \n\n## In which scenarios it is possible to carry out an attack on the web front end without the server being aware of it?","x":-4387,"y":1180,"width":700,"height":320},
-		{"id":"c2da02b1a1d2ce74","type":"text","text":"# Real front-end attack","x":-4234,"y":1060,"width":395,"height":80},
-		{"id":"c6417e9d23b4eccf","type":"text","text":"\n## If the attack does not need the server to be carried out, *then* it must be a front-end attack. \n\n## In all other cases, front-end is just a *phase* of the attack, whose importance is not always clear\n","x":-3916,"y":590,"width":599,"height":290},
-		{"id":"3fe086b4b0ef113b","type":"text","text":"# `front-end == !back-end`","x":-3869,"y":480,"width":458,"height":72},
-		{"id":"4fffe7fd014b7dee","type":"text","text":"# Hybrid front-end attack","x":-3480,"y":1060,"width":437,"height":80},
-		{"id":"cf9780ed5e06c172","type":"text","text":"### \\*The other RQs remain the same ","x":-3317,"y":1540,"width":435,"height":80},
-		{"id":"6662903f53bf930c","type":"text","text":"## RQ 1.3\n## Can we answer these question with a SLR based on OWASP definitions?","x":-3916,"y":1540,"width":548,"height":200},
-		{"id":"3fdc0d516adb6f63","type":"text","text":"### **Help defining domains and responsibilities**: often client and server software are developed by different teams. Clarifying the role of each side in a security context could drive better mitigation solutions\n\n### **identifying root causes of a security issue**: by understanding whether some phases of a web attack may not be essential and by identify exactly where the vulnerability is and whose \"fault\" i","x":-3280,"y":2147,"width":637,"height":433},
-		{"id":"3db73b0ba1828603","x":-3688,"y":2329,"width":320,"height":70,"type":"text","text":"## Theoretical reasons"},
-		{"id":"2c5b9ffd5f9f0139","type":"text","text":"# Why is this relevant?","x":-4220,"y":2160,"width":408,"height":100},
-		{"id":"c6d1280618d7dbdf","x":-3688,"y":1960,"width":320,"height":60,"type":"text","text":"## Practical reasons"}
+		{"id":"3fdc0d516adb6f63","type":"text","text":"### **Help defining domains and responsibilities**: often client and server software are developed by different teams. Clarifying the role of each side in a security context could drive better mitigation solutions\n\n### **Identifying root causes of a security issue**: by understanding whether some phases of a web attack may not be essential and by identify exactly where the vulnerability is and whose \"fault\" is","x":-3519,"y":2667,"width":637,"height":433},
+		{"id":"d3d8a095b99a9142","type":"text","text":"### ==No clear definition of front-end security==\n#### Are these issues part of a low front-end security or are eventually due to a server-side failure?","x":-3920,"y":-500,"width":511,"height":220},
+		{"id":"65e933fc7bec68b4","type":"text","text":"### **No need to discard papers that seems not to be focused on the front-end**: every form of attack could potentially be classified as either a *pure front-end attack* and an *hybrid front-end attack*","x":-3519,"y":2337,"width":637,"height":256},
+		{"id":"64b21cf9dec536c5","type":"text","text":"## RQ 1\n\n## In which scenarios it is possible to carry out an attack on the web front-end ==without the server being involved==?\n\n## What is the role of web front-end software in an attack that does ==not involve a web server==?","x":-4387,"y":1180,"width":700,"height":320},
+		{"id":"569f9f5935d87ec1","type":"text","text":"## RQ 2 \n## What exactly are the responsibilities of the front end software in an attack that eventually ==target the server==?\n\n## How does the front-end ==contribute to the defense== of an attack to a web server?","x":-3582,"y":1180,"width":700,"height":320},
+		{"id":"4fffe7fd014b7dee","type":"text","text":"# Hybrid front-end attack","x":-3450,"y":1020,"width":437,"height":80},
+		{"id":"c2da02b1a1d2ce74","type":"text","text":"# Pure front-end attack","x":-4234,"y":1020,"width":395,"height":80},
+		{"id":"6662903f53bf930c","type":"text","text":"## RQ 3\n## Can we answer these questions with a SLR based on OWASP definitions?","x":-4387,"y":1540,"width":700,"height":200},
+		{"id":"cf9780ed5e06c172","type":"text","text":"### \\*The other RQs may be sub-questions of RQ1 and RQ2 (prevalence, life cycle, causes and solutions or mitigation techniques)","x":-3317,"y":1540,"width":435,"height":220,"color":"2"},
+		{"id":"65154d6200569b15","type":"text","text":"\n> [!Warning]\n> It forces us to think in terms of isolated boxes and creates doubts about the side who is actually responsible for the successful outcome of an attack\n","x":-3366,"y":-860,"width":450,"height":245},
+		{"id":"280dee36007420c8","type":"text","text":"\n> [!Warning]\n> It does not highlight the fact that an attack often requires multiple phases to be carried out. In fact, often the front-end side is just one phase of the attack and can be bypassed\n","x":-3366,"y":-583,"width":450,"height":283},
+		{"id":"3db73b0ba1828603","type":"text","text":"## Theoretical reasons","x":-3927,"y":2844,"width":320,"height":79},
+		{"id":"c6d1280618d7dbdf","type":"text","text":"## Practical reasons","x":-3927,"y":2423,"width":320,"height":85},
+		{"id":"2c5b9ffd5f9f0139","type":"text","text":"# Why is this relevant?","x":-4420,"y":2640,"width":408,"height":100},
+		{"id":"43f5d3894768b88d","type":"text","text":"# RQ1. What web front-end vulnerabilities are more relevant?","x":-3920,"y":-698,"width":511,"height":167},
+		{"id":"0a513a76f2085570","type":"text","text":"cookies theft and [[session hijacking]] , or metadata manipulation in general","x":-4037,"y":-200,"width":357,"height":120},
+		{"id":"46bf7d44180ce4d2","type":"text","text":"URL manipulation for [[forced browsing]] or [[IDOR (Insecure Direct Object Reference)]]\n","x":-3631,"y":-198,"width":355,"height":118},
+		{"id":"c6417e9d23b4eccf","type":"text","text":"# `front-end == !back-end`\n## If the attack does not need the server to be carried out, *then* it must be a pure front-end attack. \n\n## In all other cases, front-end is just a *phase* of the attack, whose importance is not always clear\n","x":-3920,"y":550,"width":620,"height":350,"color":"5"},
+		{"id":"3fe086b4b0ef113b","type":"text","text":"# Towards a new definition","x":-3849,"y":440,"width":458,"height":72}
 	],
 	"edges":[
 		{"id":"5eb6106244f8bc5b","fromNode":"43f5d3894768b88d","fromSide":"bottom","toNode":"d3d8a095b99a9142","toSide":"top"},
@@ -27,6 +28,9 @@
 		{"id":"1b6f02cfcc69a42f","fromNode":"c6417e9d23b4eccf","fromSide":"bottom","toNode":"4fffe7fd014b7dee","toSide":"top"},
 		{"id":"dac995cce38c2f3d","fromNode":"2c5b9ffd5f9f0139","fromSide":"right","toNode":"c6d1280618d7dbdf","toSide":"left"},
 		{"id":"0b1d23b00a83310b","fromNode":"2c5b9ffd5f9f0139","fromSide":"right","toNode":"3db73b0ba1828603","toSide":"left"},
-		{"id":"c33f38f84ab09db6","fromNode":"3db73b0ba1828603","fromSide":"right","toNode":"3fdc0d516adb6f63","toSide":"left"}
+		{"id":"c33f38f84ab09db6","fromNode":"3db73b0ba1828603","fromSide":"right","toNode":"3fdc0d516adb6f63","toSide":"left"},
+		{"id":"246f3f7f7b5c1beb","fromNode":"c6d1280618d7dbdf","fromSide":"right","toNode":"65e933fc7bec68b4","toSide":"left"},
+		{"id":"a93c286d4116fa45","fromNode":"c2da02b1a1d2ce74","fromSide":"bottom","toNode":"64b21cf9dec536c5","toSide":"top"},
+		{"id":"494fc5f82ef023f5","fromNode":"4fffe7fd014b7dee","fromSide":"bottom","toNode":"569f9f5935d87ec1","toSide":"top"}
 	]
 }
