@@ -46,8 +46,9 @@ for (let note of folderPath) {
 }
 
 let sortedYears = Object.entries(yearCounts)
-    .sort((a, b) => b[1] - a[1])
+    .sort((a, b) => b[0] - a[0])
     .map(([year, count]) => [year, count, ((count / tot) * 100).toFixed(2) + "%"]); 
 
 dv.table(["Years", "N. of References", "Frequency (%)"], sortedYears);
 ```
+

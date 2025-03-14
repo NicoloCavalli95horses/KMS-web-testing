@@ -23,8 +23,10 @@ Automatically examine the source code of a web application, identify the server-
 - once the candidate have been shortlisted, WAVES determines if the constraints are dependent on the server's environment or not[^1]
 - the required code is generated
 	- server-side, to deal with dynamic constraints implemented on the client side, requiring a client-server communication
-	- client-side, duplicating the static server-side constraint and translating it
-- **integration**: how the synthesized code is integrated into the code bases is up to the discretion of the developers involved, but must be done manually
+	- client-side, duplicating the static server-side constraint and translating into JavaScript
+- **integration**: how the synthesized code is integrated into the code bases is up to the discretion of the developers involved, but must be done manually. It requires adding a couple of files to the code bases
+
+WAVES is implemented in Java and Lisp
 
 ---
 #### References

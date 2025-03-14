@@ -42,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -55,7 +55,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
@@ -205,9 +205,6 @@
     "02 Literature/papers/DOM clobbering/It’s (DOM) Clobbering Time. Attack Techniques, Prevalence, and Defenses.md",
     "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
     "02 Literature/papers/code synthesis",
-    "96 Meta/PhD status.md",
-    "96 Meta/Publication deadlines.md",
-    "96 Meta/References analysis.md",
     "96 Meta/SLR",
     "02 Literature/papers/zzz",
     "index.md",
