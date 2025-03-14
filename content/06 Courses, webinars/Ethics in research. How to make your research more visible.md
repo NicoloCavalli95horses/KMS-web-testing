@@ -42,7 +42,8 @@ OpenAlex database: https://openalex.org/
 **Embargo**
 In academia, an "embargo" is a ==restriction placed on a thesis or dissertation that allows only the title, abstract and citation information to be available to the public==, while the full text of the work is kept hidden for a limited period of time.
 
-**Green road**: once you have published something, you should be able to put an open-access copy of your work in a open-database (e.g., HAL, https://hal.science/?lang=en)
+**Green open access**
+Once you have published something, you should be able to put an open-access copy of your work in a open-database (e.g., HAL, https://hal.science/?lang=en)
 - you need the AAM (author accepted manuscript) from your journal before uploading your paper here
 - you need to change the graphic layout of the paper not to make it related to the journal you have published in
 - sometimes your journal proposed you an embargo, a time you have to wait before publishing
@@ -50,13 +51,65 @@ In academia, an "embargo" is a ==restriction placed on a thesis or dissertation 
 - often you can negotiate the embargo with the journal
 - often you have to wait 3, 6 or 12 months depending on your discipline
 
-**Gold road**
-- aims at an immediate open access
+**Gold open access**
+- aims at an immediate open access without waiting for the embargo
 - you might be requested to pay some charges (article publishing charges - APC)
-- 
-
-**Diamond road:**
+- sometimes your university pays this APCs for you, sometimes is too expensive
 
 > [!WARNING] Making money on science
 > Elsevier has 37.8% of profit margin, does not have to pay researchers, it just exploits its reputation and the hard work of a number of researchers. It is more than Apple profit margin!
 
+**Licenses**
+
+![[research_licenses_type.png]]
+
+**Diamond Open Access**
+- private initiatives to make papers accessible (e.g., vulcanica)
+- no APCs
+- researches have rights on their publications
+
+**Predatory Open Access Publishers**
+- they don't charge you that much and they promise you that the review will be fast
+- often there is no peer-review at all
+- they aim at ==publishing as much as they can, regardless of the quality==
+- they make intensive spamming
+- they use false or dubious metrics
+- they copy reliable journal in design and layout
+- lack of details about APC, peer-review process, publication licence
+- sometimes they even impersonate other people, stealing important people's name and using their celebrity in their field to attract victims
+
+There are black lists of predatory journals but:
+- they are not 100% reliable
+- maintaining the black list is costly
+- white lists combined with criteria could be more useful
+
+There is a large spectrum between the most fraudulent predatory open access publishers and the most reliable and virtuous journal. Most of the journals are placed in the middle of the spectrum
+
+**MDPI**: include both serious and scamming journals (https://www.mdpi.com/)
+
+You can use https://services.lib.uliege.be/compass-to-publish/ to evaluate the quality of a journal:
+- helps you determine the degree of authenticity of open access journals requiring or hiding article processing charges (APCs) using a criteria-based evaluation
+- aims to help the scholarly community to better understand predatory journals and publishers
+- offers a transparent methodology and weighing method 
+
+
+**ARDoISE** https://scienceouverte.univ-rennes.fr/atelier-rennais-de-la-donnee-information-et-soutien-aux-equipes-de-recherche
+- a project to help researcher share their data
+- it helps in reproducing studies
+- helps you to get a DOI even for your dataset
+- **SWHID** (software heritage ID). The [[SH (Software Heritage)]] ID is a permanent link to a codebase (the GitHub link may change)
+
+In HAL you can have links to all the important resources that you have used in your research (code, dataset, etc)
+
+There is a ==plugin to keep the sync between the GitHub repo and the software heritage repo== (UpdateSWH plugin)
+
+**re3data.org** https://www.re3data.org/
+- registry of research data
+
+Making your codebase or dataset completely accessible could be required by your founder
+
+Be F.A.I.R.
+- findable
+- accessible
+- interoperable
+- reusable
