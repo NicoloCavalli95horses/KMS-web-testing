@@ -4,22 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "1952d5741def2350",
+        "id": "c2ca492d76e72111",
         "type": "tabs",
         "children": [
           {
-            "id": "53faeefd0d9c9604",
+            "id": "dd42577bd78c69e8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "06 Courses, webinars/Ethics in research. How to make your research more visible.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/papers/front-end domain definition.canvas",
+                "viewState": {
+                  "x": -440,
+                  "y": 81.5,
+                  "zoom": -0.8102419845595319
+                }
               },
-              "icon": "lucide-file",
-              "title": "Ethics in research. How to make your research more visible"
+              "icon": "lucide-layout-dashboard",
+              "title": "front-end domain definition"
             }
           }
         ]
@@ -182,21 +184,21 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "53faeefd0d9c9604",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
+    "04 Canvases/papers/paper template.canvas",
+    "04 Canvases/papers/front-end domain definition.canvas",
+    "96 Meta/SLR/Paper list.md",
+    "02 Literature/papers/code synthesis/WAVES. Automatic Synthesis of Client-Side Validation Code for Web Applications.md",
+    "96 Meta/SLR/Tags analysis.md",
+    "06 Courses, webinars/Ethics in research. How to make your research more visible.md",
     "06 Courses, webinars/Visual Software QA (Quality Assurance) using VLM (Vision Language Models).md",
     "06 Courses, webinars/Towards Autonomous Test Agent.md",
     "06 Courses, webinars/Introduction to Abaca (Inria compute cluster).md",
-    "06 Courses, webinars/Ethics in research. How to make your research more visible.md",
     "06 Courses, webinars/FLE French Course/French Course 03-11-2025.md",
-    "02 Literature/papers/code synthesis/WAVES. Automatic Synthesis of Client-Side Validation Code for Web Applications.md",
-    "96 Meta/SLR/Tags analysis.md",
-    "96 Meta/SLR/Paper list.md",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
-    "04 Canvases/papers/paper template.canvas",
-    "04 Canvases/papers/front-end domain definition.canvas",
     "01 Notes/GUI (graphical user interface).md",
     "03 References/(Skrupsky, Monshizadeh, et al., 2012).md",
     "02 Literature/papers/prototype pollution/A Multivocal Literature Review on Prototype Pollution Vulnerability.md",
