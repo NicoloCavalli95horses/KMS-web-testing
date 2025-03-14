@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/papers/front-end domain definition.canvas",
                 "viewState": {
-                  "x": -440,
-                  "y": 81.5,
-                  "zoom": -0.8102419845595319
+                  "x": -3136.0415821459715,
+                  "y": 2334.282235755519,
+                  "zoom": 3.3306690738754696e-16
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -184,7 +184,7 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "dd42577bd78c69e8",
   "lastOpenFiles": [
     "04 Canvases/papers/paper template.canvas",
     "04 Canvases/papers/front-end domain definition.canvas",
