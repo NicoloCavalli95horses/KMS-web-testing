@@ -3,7 +3,7 @@ ID: 2025-03-05-11:00
 tags:
   - course
   - french
-speaker:
+speaker: Marjorie Vincent
 ---
 chanceux/chanceuse: to be lucky
 j'ai postulé: I have applied
