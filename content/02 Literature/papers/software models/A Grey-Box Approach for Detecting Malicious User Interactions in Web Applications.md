@@ -31,16 +31,16 @@ The approach of the authors is in between:
 **Behavior graph generator**
 - a set of real world user interactions are processed. These are `http requests`, or access logs
 - unsupervised learning is applied to infer behavior classes
-- common pattern are associated with observable features that are further represented into a statistical model. ==This model captures all user behaviors when they connect to the service==
+- common pattern are associated with observable features that are further represented into a statistical model. ==This model captures all user behaviors when they connect to the service. The different actions are mapped as a set of URLs==
 - the output of this module is a set of different user behaviors
 
 **Attack graph mediator**
 - in order to separate benign and malicious behaviors, our system leverages a semi-supervised learning approach, using ==ground truth attack scenarios ==represented within an attack graph
-- the AGM module operates a mediation step where the attack graph is used as input in order to generate an intermediate event graph
+- this module "translate" the ground truth attack graph into an intermediate event graph that is usable by the next module
 
 **Behavior graph pruning**
 This module applies sub-graph isomorphism to both the event graph and the user behavior graph. The purpose of this module is:
-- identifying and isolating malicious behaviors and attacks that may have occurred during the learning phase, and that are similar to known attack scenarios represented in the event graph
+- identifying and isolating malicious behaviors and attacks that may have occurred during the learning phase, and that are similar to known attack scenarios represented in the previous event graph
 - identifying all benign user interactions with the service, and associates them with different behavior classes
 - unknown patter are classified as new possible attack behavior
 
