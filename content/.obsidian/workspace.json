@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/papers/front-end domain definition.canvas",
                 "viewState": {
-                  "x": -3865.352976903436,
-                  "y": 593.2553267951691,
-                  "zoom": -1.111111066959524
+                  "x": -3919.5931963279672,
+                  "y": 213.88522380088108,
+                  "zoom": -0.5555555334797619
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -44,7 +44,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -186,9 +186,13 @@
   },
   "active": "240e2440e8d4b6f6",
   "lastOpenFiles": [
+    "03 References/(Williams, Vo, et al., 2019).md",
+    "04 Canvases/papers/front-end domain definition.canvas",
+    "01 Notes/IDOR (Insecure Direct Object Reference).md",
+    "02 Literature/papers/definitions/The front-end of projects. a systematic literature review and structuring.md",
+    "02 Literature/papers/definitions",
     "97 Assets/front_end_domain.png",
     "02 Literature/papers/client-side storage vulnerabilities/An investigation into possible attacks on HTML5 indexedDB and their prevention.md",
-    "04 Canvases/papers/front-end domain definition.canvas",
     "02 Literature/papers/HTTP traffic analysis/Machine Learning Based Web Application Plugin for Threat Detection and IP Analysis.md",
     "96 Meta/SLR/Paper list.md",
     "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
@@ -209,10 +213,6 @@
     "00 Antilibrary/VM (virtual machine).md",
     "00 Antilibrary/volume testing.md",
     "00 Antilibrary/Moving Target Defence.md",
-    "00 Antilibrary/man-in-the-middle attacks.md",
-    "00 Antilibrary/machine learning.md",
-    "00 Antilibrary/LLM (large language model).md",
-    "00 Antilibrary/JWT (JSON Web Token).md",
     "97 Assets/subgraph_isomorphism.png",
     "04 Canvases/papers/paper template.canvas",
     "02 Literature/papers/client-side storage vulnerabilities",
@@ -232,7 +232,6 @@
     "02 Literature/books/The art of software testing/The art of software testing.canvas",
     "02 Literature/papers/HTTP traffic analysis",
     "97 Assets/furious_clicker_clickjacking.png",
-    "99 Output/HHH.bib",
     "05 Dataset/vulnerable webapp.canvas",
     "97 Assets/path_traversal.png",
     "Pasted image 20250227135700.png",
@@ -240,7 +239,6 @@
     "97 Assets/canva_business_model.png",
     "97 Assets/LLM_trained_for_videogames.png",
     "97 Assets/bugs_in_games.png",
-    "Pasted image 20250217120451.png",
-    "97 Assets/systematic_literature_review.png"
+    "Pasted image 20250217120451.png"
   ]
 }

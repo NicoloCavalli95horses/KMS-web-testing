@@ -8,19 +8,19 @@
 		{"id":"65154d6200569b15","type":"text","text":"\n> [!Warning]\n> It forces us to think in terms of isolated boxes and creates doubts about the side who is actually responsible for the successful outcome of an attack\n","x":-3498,"y":-1200,"width":450,"height":277},
 		{"id":"43f5d3894768b88d","type":"text","text":"# RQ1. What web front-end vulnerabilities are more relevant?","x":-4092,"y":-1077,"width":551,"height":167},
 		{"id":"280dee36007420c8","type":"text","text":"\n> [!Warning]\n> It does not highlight the fact that an attack often requires multiple phases to be carried out. In fact, often the front-end side is just one phase of the attack and can be bypassed\n","x":-3498,"y":-903,"width":450,"height":283},
-		{"id":"d3d8a095b99a9142","type":"text","text":"### ==No clear definition of front-end security==\n#### Are these issues part of a low front-end security or are eventually due to a server-side failure?","x":-4092,"y":-871,"width":551,"height":251},
-		{"id":"0a513a76f2085570","type":"text","text":"cookies theft and [[session hijacking]] , or metadata manipulation in general","x":-4172,"y":-540,"width":337,"height":140},
-		{"id":"46bf7d44180ce4d2","type":"text","text":"URL manipulation for [[forced browsing]] or [[IDOR (Insecure Direct Object Reference)]]\n","x":-3816,"y":-538,"width":355,"height":138},
-		{"id":"0a8c25f40fb8a694","type":"file","file":"97 Assets/front_end_domain.png","x":-4700,"y":120,"width":1013,"height":260},
-		{"id":"3fe086b4b0ef113b","type":"text","text":"# Towards a new definition [[(Williams, Vo, et al., 2019)]]","x":-4643,"y":0,"width":900,"height":72},
-		{"id":"8c7ef43c0a3d2d45","x":-3620,"y":36,"width":663,"height":420,"type":"text","text":"## RQ1: What is the frontend?\n## RQ2: Why is the front-end important?\n## RQ3: What are the roles and responsibilities in the front-end?\n## RQ4: What happens in the front-end?\n## RQ5: What should a structure for the front-end comprise?"},
+		{"id":"d3d8a095b99a9142","type":"text","text":"### ==No clear definition of front-end security==\n#### Are these issues due to low front-end security or to server-side failure?","x":-4092,"y":-871,"width":551,"height":251},
+		{"id":"0a513a76f2085570","type":"text","text":"Metadata manipulation\n- cookies theft\n- [[session hijacking]]","x":-4172,"y":-540,"width":337,"height":200},
+		{"id":"46bf7d44180ce4d2","type":"text","text":"URL manipulation\n- [[forced browsing]]\n- [[IDOR (Insecure Direct Object Reference)]]\n","x":-3816,"y":-538,"width":355,"height":198},
 		{"id":"c6417e9d23b4eccf","type":"text","text":"# `front-end == !back-end`\n## If the attack does not need the server to be carried out, *then* it must be a pure front-end attack. \n\n## In all other cases, front-end is just a *phase* of the attack, whose importance is not always clear\n","x":-3986,"y":1240,"width":620,"height":350,"color":"5"},
 		{"id":"c2da02b1a1d2ce74","type":"text","text":"# Pure front-end attack","x":-4353,"y":1710,"width":501,"height":80},
 		{"id":"4fffe7fd014b7dee","type":"text","text":"# Hybrid front-end attack","x":-3541,"y":1710,"width":487,"height":80},
 		{"id":"64b21cf9dec536c5","type":"text","text":"## RQ 1\n\n## In which scenarios it is possible to carry out an attack on the web front-end ==without the server being involved==?\n\n## What is the role of web front-end software in an attack that does ==not involve a web server==?","x":-4453,"y":1870,"width":700,"height":320},
 		{"id":"569f9f5935d87ec1","type":"text","text":"## RQ 2 \n## What exactly are the responsibilities of the front end software in an attack that eventually ==target the server==?\n\n## How does the front-end ==contribute to the defense== of an attack to a web server?","x":-3648,"y":1870,"width":700,"height":320},
 		{"id":"6662903f53bf930c","type":"text","text":"## RQ 3\n## Can we answer these questions with a SLR based on OWASP definitions?","x":-4453,"y":2230,"width":700,"height":200},
-		{"id":"cf9780ed5e06c172","type":"text","text":"### \\*The other RQs may be sub-questions of RQ1 and RQ2 (prevalence, life cycle, causes and solutions or mitigation techniques)","x":-3383,"y":2230,"width":435,"height":220,"color":"2"}
+		{"id":"cf9780ed5e06c172","type":"text","text":"### \\*The other RQs may be sub-questions of RQ1 and RQ2 (prevalence, life cycle, causes and solutions or mitigation techniques)","x":-3383,"y":2230,"width":435,"height":220,"color":"2"},
+		{"id":"61e2fa9ced3d6f42","x":-4600,"y":108,"width":520,"height":232,"type":"text","text":"### Front-end described in the project management process (524 papers from 2006 to 2017)\n\nThe front-end of projects: a systematic literature review and structuring [[(Williams, Vo, et al., 2019)]]"},
+		{"id":"3bc929446f3ddb48","x":-4020,"y":159,"width":477,"height":131,"type":"text","text":"A tool that allow the users to achieve their goals \n- no mention to specific tools or technologies"},
+		{"id":"3fe086b4b0ef113b","type":"text","text":"# Towards a definition","x":-4172,"y":-40,"width":408,"height":80}
 	],
 	"edges":[
 		{"id":"5eb6106244f8bc5b","fromNode":"43f5d3894768b88d","fromSide":"bottom","toNode":"d3d8a095b99a9142","toSide":"top"},
@@ -33,6 +33,7 @@
 		{"id":"c33f38f84ab09db6","fromNode":"3db73b0ba1828603","fromSide":"right","toNode":"3fdc0d516adb6f63","toSide":"left"},
 		{"id":"246f3f7f7b5c1beb","fromNode":"c6d1280618d7dbdf","fromSide":"right","toNode":"65e933fc7bec68b4","toSide":"left"},
 		{"id":"a93c286d4116fa45","fromNode":"c2da02b1a1d2ce74","fromSide":"bottom","toNode":"64b21cf9dec536c5","toSide":"top"},
-		{"id":"494fc5f82ef023f5","fromNode":"4fffe7fd014b7dee","fromSide":"bottom","toNode":"569f9f5935d87ec1","toSide":"top"}
+		{"id":"494fc5f82ef023f5","fromNode":"4fffe7fd014b7dee","fromSide":"bottom","toNode":"569f9f5935d87ec1","toSide":"top"},
+		{"id":"154aaef3cffa31f1","fromNode":"61e2fa9ced3d6f42","fromSide":"right","toNode":"3bc929446f3ddb48","toSide":"left"}
 	]
 }
