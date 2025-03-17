@@ -13,11 +13,10 @@ An important aspect of HTML5 is that the web applications can run offline using 
 - If a network failure occurs, the data from the database will be read and the client can still use the application offline
 - Pictures and text from pages could be stored in IndexedDB
 
-
 The advantage of HTML5 compared to desktop programs is that web applications do not require any installation or startup configuration and will also run on any device that supports HTML5, such as laptops, phones or tablets
 ## Approach
 
-Describe the paper approach in simple term.
+Risks and benefit of IndexedDB are highlighted. Mitigations techniques are described 
 
 ---
 #### References
