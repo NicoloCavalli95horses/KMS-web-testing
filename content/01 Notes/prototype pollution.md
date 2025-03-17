@@ -54,6 +54,7 @@ Using the `Object.create()` method instead of `{}` or `new Object()` when creati
 - This way, we can set the prototype of the created object directly via the first argument passed
 - If we pass `null`, the created object will not have a prototype and therefore cannot be polluted
 - ==This also means that common and useful prototype functions aren't available anymore on the prototype-less object== (which is often not a problem because new properties on that object have their own prototype)
+- `Object.create(null)` is effective but lack useful features and methods compared to regular objects [[(Katulanda, Henaka Arachchi, et al., 2023)]] 
 
 ```JavaScript
 
@@ -68,13 +69,16 @@ console.log(typeof a.test); // string
 ```
 
 Use `Object.freeze()` to prevent any changes to the prototype (it is possible to freeze the prototype directly) [[(Hakim, 2023)]]
+- only immediate properties get freezed, not nested objects [[(Katulanda, Henaka Arachchi, et al., 2023)]] 
 
 External prototype pollution could be considered a form of code-injection (see [[XSS (cross site scripting)]])
 
 A popular JavaScript utility library, Lodash, implements input filtering to injection sinks against prototype defining keywords, such as __proto__, constructor, and prototype [[(Hakim, 2023)]]
 
+---
 ## References
 - https://learn.snyk.io/lesson/prototype-pollution/
 - [[(Anastasia, Stamatia, 2024)]]
 - [[(Hoffman, 2024)]]
 - [[(Hakim, 2023)]]
+- Discussed in [[(Katulanda, Henaka Arachchi, et al., 2023)]] in the context of using ML to detect HTTPS-based malware transmission

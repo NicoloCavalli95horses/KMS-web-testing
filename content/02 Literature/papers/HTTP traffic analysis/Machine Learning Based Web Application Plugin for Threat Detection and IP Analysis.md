@@ -2,22 +2,20 @@
 ID: 2025-03-17T13:20:11.162Z
 tags:
   - paper
-  - MachineLearningAlgorithms
-  - Web-trafficAnalysis
-  - ThreatDetection
   - MachineLearning
   - Http
   - prototypePollution
-Project:
-  - SLR
 ---
 ## Context
 
-High-level description of the problem. Use links to low-level notes to specify the context details
+Modern attackers work with HTTPS to hide malware or other malicious communication. Even if TLS encryption in HTTP protects sensitive data sent across networks, it also makes difficult to detect and mitigate these attacks.
+- this research investigate HTTPS-transmitted malware and try to identify them with ML techniques
 
+In the landscape of online malware delivery, HTTPS is utilized in ==37% of malwares. ==However, most businesses ==do not employ advance TLS traffic inspection mechanisms==, leaving their businesses at a huge risk
 ## Approach
 
-Describe the paper approach in simple term.
+Signature-based and anomaly-based malware detection are the major methods utilized today. Since attackers employ TLS to hide their malicious payloads, most signature-based detection techniques are outdated.
+- anomaly-based detection techniques are needed
 
 ---
 #### References
