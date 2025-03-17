@@ -8,17 +8,20 @@ tags:
 ## Definition
 
 A word n-gram language model is a purely statistical model of language.
-It has been superseded by [[RNN (recurrent neural network)]] –based models, which have been superseded by [[LLM (large language model)]].
+It has been superseded by [[RNN (recurrent neural network)]] – based models, which have been superseded by [[LLM (large language model)]].
 
 It is based on an assumption that ==the probability of the next word in a sequence depends only on a fixed size window of previous words.==
-- If only one previous word is considered, it is called a bigram model; if two words, a trigram model; if *n − 1* words, an n-gram model.
+- If only one previous word is considered, it is called a bigram model
+- if two words, a trigram model
+- if *n − 1* words, it is an n-gram model.
 
 Special tokens are introduced to denote the start and end of a sentence *⟨s⟩* and *⟨/s⟩*
 
-LM is a simple and intuitive approach that can be used to predict the next node in a sequence. The model:
+LM is a simple and intuitive approach that can be used to ==predict the next node in a sequence==. The model:
 - has limited memory, ignoring words that are out the *n - 1* window
 - is subject to combinatoric computations, because large combinations of words have to be memorized as the value of *n* decreases 
 - is trained on a body of text, calculating the probability associated to every n-gram
+
 ### Application
 
 - text auto-completion
@@ -102,6 +105,7 @@ N-gram models accuracy depend on the training set as well as the resources avail
 - ==**back-off**:== the context size is reduced when a n-gram is not available in the dataset. So, if the initial configuration was n = 3 (trigram), a step back is taken, and a n = 2 (bigram) is considered too. This will increment the probability to find the word in the token set, and to assign a probability higher than zero
 - ==**interpolation**==: different probabilities of different n-grams are combined together to tune the final probability
 
-
+---
 ## References
-https://en.wikipedia.org/wiki/Word_n-gram_language_model
+- https://en.wikipedia.org/wiki/Word_n-gram_language_model
+- Used by [[(Ben Jaballah, Kheir, et al., 2016)]] to predict user interaction
