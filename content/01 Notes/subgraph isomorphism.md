@@ -5,7 +5,7 @@ tags:
 ---
 ## Definition
 
-Subgraph isomorphism deals with identifying a subgraph inside a bigger graph. These two graphs should have common properties (aka, should be **isomorphic**)
+Subgraph isomorphism concerns the identification of a subgraph within a larger graph (graph G) that has the same property as a second graph (graph H)
 
 ![[subgraph_isomorphism.png]]
 

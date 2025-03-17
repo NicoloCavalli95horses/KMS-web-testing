@@ -1,10 +1,16 @@
 ---
 ID: 2025-03-17T09:51:53.316Z
-tags: paper Black-box,WebSecurity,White-box
-
+tags:
+  - paper
+  - userModels
+  - behavioralModel
+  - blackBoxTesting
+  - whiteBoxTesting
+  - greyBoxTesting
 Project:
- - SLR
+  - SLR
 ---
+This research leverage a graph-based representation of known attack scenarios (sequences of URLs from syslogs) to train an algorithm to classify new user interactions as benign or malicious. Isomorphism in subgraph of the new interactions are verifyied 
 ## Context
 
 Moder applications implement a multi-tier model involving ==multiple application providers that interface together== in order to supply a service. For example, an e-commerce may leverage on an authentication service and on a payment service, and a blog may leverage on a service to handle a comment or forum section.
@@ -42,11 +48,46 @@ The approach of the authors is in between:
 This module applies sub-graph isomorphism to both the event graph and the user behavior graph. The purpose of this module is:
 - identifying and isolating malicious behaviors and attacks that may have occurred during the learning phase, and that are similar to known attack scenarios represented in the previous event graph
 - identifying all benign user interactions with the service, and associates them with different behavior classes
-- unknown patter are classified as new possible attack behavior
-
+- unknown pattern are classified as new possible attack behavior
 
 > [!error] User interactions as a sequence of URLs
 > URLs are used as a way to represent user behaviors
+
+## Testing the model
+
+- a case study was presented. The authors collaborated with a service provider and collected data over a period of six weeks, including 33.7 GB of data in syslog format that consists of 1.3 million active user sessions
+- each log includes: timestamp, anonymized user identity and remote IP address, URL of the service
+- ==the service provider informed the authors of certain malicious patterns (user interaction) that they knew could be exploited. This was the output of a risk analysis==. This malicious interaction could lead to [[CSRF (cross-site request forgery)]], cookie theft, identity theft
+- this information were then mapped into a set of malicious attack graph paths, used then in the **attack graph mediator** (see attack examples)
+- the new interaction were therefore classified into benign or malicious, given the ground truth
+
+## Attack examples
+
+**Video Game Purchase Fraud**
+- an attacker proceeds first by executing a cookie hijack and then impersonates the identity of another victim user
+- after connecting to the service, the attacker is able to edit the user info, and then the attacker changes his email address
+- Later, the attacker commands a game, and receives the confirmation payment. By exploiting the vulnerability of the service, the attacker will let the victim user be charged for the game, and delivered to the new email address
+
+**Phishing with IP spoofing**
+- The attacker connects to the WiFi of the victim user, and behaves as the legitimate user (*IP spoofing*)
+- Then he proceeds with an email [[phishing]] exploit
+- In this scenario, the attacker connects to the service, may access all the account details for the victim user, and may then send as many phishing emails as needed on behalf of the victim user account
+
+**Media access without paying**
+- The attacker connects to the media service, and he exploits a vulnerability in the application that allows him to access from a media content to another without access to the billing service
+
+## Results
+
+32 classes of real user behavior were identified. The most interesting ones includes:
+
+- **Class 1**: This class behavior represents user interactions when connecting to the billing service
+- **Class 2:** This class behavior captures the workflow for the application that provides access to users’ calling history and their internet consumption
+- **Class 3**: This class behavior represents the way users access to the email service, including their ability to send any number of emails (counter)
+- **Class 4**: This class behavior depicts the way users access to the media service, that allows them to pay when accessing contents
+- **Class 5:** This class behavior represents the flow used to buy a new phone
+
+The authors were ==able to identify the malicious interactions, and even new malicious behavior, by recognizing same or similar behavioral patterns that could lead to the same outcomes== (isomorphic sub graphs)
+
 
 ---
 #### References
