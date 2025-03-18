@@ -16,7 +16,7 @@ Session tokens are essential components of session management in web application
 
 **Token storage (client side)**
 - the token is send by the server to the client, as part of the HTTP response
-- the client stores the token, generally in a [[cookie]] or in [[LocalStorage]] or [[SessionStorage]] (not recommended because of exposure to [[XSS (cross site scripting)]]). This allows the user to avoid a manual login each time
+- the client stores the token, generally in a [[cookie]] or in [[Web Storage API (localStorage, sessionStorage)]] (not recommended because of exposure to [[XSS (cross site scripting)]]). This allows the user to avoid a manual login each time
 
 **Subsequent requests**
 - the client sends the token at each new HTTP requests (e.g., to access a particular section of the application or to get resources), usually in the header (as bearer token), or as cookie (cookies are automatically sent by the browser (no manual operation is needed)
@@ -37,7 +37,7 @@ A cookie with the **Secure** attribute is only sent to the server with an encryp
 
 A cookie with the "HttpOnly" attribute can't be accessed by JavaScript, for example using Document.cookie; it can only be accessed when it reaches the server. Cookies that persist user sessions for example should have the HttpOnly attribute set) it would be really insecure to make them available to JavaScript). This precaution helps mitigate [[XSS (cross site scripting)]].
 
+---
 ## References
-
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
-https://sencode.co.uk/glossary/session-token/
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
+- https://sencode.co.uk/glossary/session-token/

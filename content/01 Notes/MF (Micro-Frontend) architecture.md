@@ -29,7 +29,7 @@ Micro-Frontends originated from the evolution of software architectures, and sha
 
 ### How to handle communication between components
 
-- Web storage ([[IndexedDB]], [[LocalStorage]], [[SessionStorage]]) or [[cookie]] can be used as client sides approaches to manage the communication
+- [[IndexedDB]], [[Web Storage API (localStorage, sessionStorage)]] and [[cookie]] can be used as client sides approaches to manage the communication
 - Query string (URL) data can be used as a reference
 - Event bus (event emitter) system
 

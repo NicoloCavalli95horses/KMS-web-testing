@@ -2,11 +2,9 @@
 ID: 2025-03-14T15:39:10.776Z
 tags:
   - paper
-  - memoryForensics
-  - digitalForensics
-  - privateBrowsing
   - IndexedDB
   - clientStorageAttack
+  - forensic
 Project:
   - SLR
 ---

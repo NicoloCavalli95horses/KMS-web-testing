@@ -2,11 +2,10 @@
 ID: 2025-03-12T13:55:55.363Z
 tags:
   - paper
-  - WebApplicationAttack
   - SqlInjection
-  - CrossSiteScripting
-  - UrlFilter
   - WebAccessPolicy
+  - XSS
+  - Http
 Project:
   - SLR
 ---
