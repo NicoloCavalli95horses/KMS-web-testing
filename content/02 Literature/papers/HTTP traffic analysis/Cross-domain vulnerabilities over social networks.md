@@ -15,6 +15,7 @@ In this paper, we present the technical background of the cross-domain mechanism
 
 Current solutions to detect these vulnerabilities use a client-side approach:
 - The purpose of our work is to present a new approach based on **network flows analysis** (HTTP analysis) to detect malicious behavior
+
 ## Main ideas
 
 - In 2012, social media were rapidly acquiring importance and became very attractive targets for cybercrimes

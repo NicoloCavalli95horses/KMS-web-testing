@@ -2,7 +2,6 @@
 	"nodes":[
 		{"id":"d1e23525fa2a8dcf","type":"text","text":"\\[Book] **Front-end development handbook** (2019) https://frontendmasters.com/guides/front-end-handbook/2019/","x":-4440,"y":182,"width":360,"height":152},
 		{"id":"3349bb1d2318ee15","type":"text","text":"**Barriers in Front-End Web Development** [[(Samudio, LaToza, 2022)]]\n- posts examined on Stack Overflow using to assess common issues in ==what the authors think is the front-end development context==","x":-4500,"y":420,"width":420,"height":240},
-		{"id":"c6417e9d23b4eccf","type":"text","text":"# `front-end == !back-end`\n## If the attack does not need the server to be carried out, *then* it must be a pure front-end attack. \n\n## In all other cases, front-end is just a *phase* of the attack, whose importance is not always clear\n","x":-4009,"y":1960,"width":620,"height":350,"color":"5"},
 		{"id":"c2da02b1a1d2ce74","type":"text","text":"# Pure front-end attack","x":-4376,"y":2430,"width":501,"height":80},
 		{"id":"4fffe7fd014b7dee","type":"text","text":"# Hybrid front-end attack","x":-3564,"y":2430,"width":487,"height":80},
 		{"id":"64b21cf9dec536c5","type":"text","text":"## RQ 1\n\n## In which scenarios it is possible to carry out an attack on the web front-end ==without the server being involved==?\n\n## What is the role of web front-end software in an attack that does ==not involve a web server==?","x":-4476,"y":2590,"width":700,"height":320},
@@ -14,9 +13,6 @@
 		{"id":"6662903f53bf930c","type":"text","text":"## RQ 3\n## Can we answer these questions with a SLR based on OWASP definitions?","x":-4475,"y":2960,"width":700,"height":200},
 		{"id":"cf9780ed5e06c172","type":"text","text":"### \\*The other RQs may be sub-questions of RQ1 and RQ2 (prevalence, life cycle, causes and solutions or mitigation techniques)","x":-3406,"y":2960,"width":435,"height":220,"color":"2"},
 		{"id":"65e933fc7bec68b4","type":"text","text":"### **No need to discard papers that seems not to be focused on the front-end**: every form of attack could potentially be classified as either a *pure front-end attack* and an *hybrid front-end attack*","x":-3575,"y":4000,"width":637,"height":256},
-		{"id":"3fdc0d516adb6f63","type":"text","text":"### **Help defining domains and responsibilities**: often client and server software are developed by different teams. Clarifying the role of each side in a security context could drive better mitigation solutions\n\n### **Identifying root causes of a security issue**: by understanding whether some phases of a web attack may not be essential and by identify exactly where the vulnerability is and whose \"fault\" is","x":-3575,"y":4330,"width":637,"height":433},
-		{"id":"3db73b0ba1828603","type":"text","text":"## Theoretical reasons","x":-3983,"y":4489,"width":320,"height":116},
-		{"id":"2c5b9ffd5f9f0139","type":"text","text":"# Why is this relevant?","x":-4476,"y":4303,"width":408,"height":100},
 		{"id":"c6d1280618d7dbdf","type":"text","text":"## Practical reasons","x":-3983,"y":4080,"width":320,"height":97},
 		{"id":"65154d6200569b15","type":"text","text":"\n> [!Warning]\n> It forces us to think in terms of isolated boxes and creates doubts about the side who is actually responsible for the successful outcome of an attack\n","x":-3786,"y":-1240,"width":450,"height":277},
 		{"id":"43f5d3894768b88d","type":"text","text":"# RQ1. What web front-end vulnerabilities are more relevant?","x":-4380,"y":-1117,"width":551,"height":167},
@@ -27,7 +23,12 @@
 		{"id":"3fe086b4b0ef113b","type":"text","text":"# Towards a definition","x":-4161,"y":-40,"width":412,"height":80},
 		{"id":"6ab1bb100f742959","type":"text","text":"Front-end web development, also known as client-side development is the ==practice of producing HTML, CSS and JavaScript== for a website or Web Application so that a user can see and interact with them directly","x":-4029,"y":156,"width":560,"height":204},
 		{"id":"73b59bc0fcedd02c","type":"text","text":"# Life cycle of vulnerability","x":-1720,"y":-34,"width":520,"height":94},
-		{"id":"80bc19ae379c92db","type":"text","text":"[[Adobe Flash]] (1990-2021)","x":-1720,"y":100,"width":340,"height":60}
+		{"id":"80bc19ae379c92db","type":"text","text":"[[Adobe Flash]] (1990-2021)","x":-1720,"y":100,"width":340,"height":60},
+		{"id":"c6417e9d23b4eccf","type":"text","text":"\n## If the attack does not need the server to be carried out, *then* it must be a pure front-end attack. \n\n## In all other cases, front-end is just a *phase* of the attack, whose importance is not always clear\n","x":-4125,"y":1960,"width":719,"height":320,"color":"5"},
+		{"id":"3db73b0ba1828603","type":"text","text":"## Theoretical reasons","x":-3983,"y":4639,"width":320,"height":116},
+		{"id":"3fdc0d516adb6f63","type":"text","text":"### **Help defining domains and responsibilities**: often client and server software are developed by different teams. Clarifying the role of each side in a security context could drive better mitigation solutions\n","x":-3575,"y":4480,"width":695,"height":217},
+		{"id":"f6d29741ef16d3fd","type":"text","text":"### **Identifying root causes of a security issue**: by understanding whether some phases of a web attack may not be essential and by identify exactly where the vulnerability is and whose \"fault\" is","x":-3575,"y":4755,"width":695,"height":195},
+		{"id":"2c5b9ffd5f9f0139","type":"text","text":"# Why is this relevant?","x":-4480,"y":4380,"width":408,"height":100}
 	],
 	"edges":[
 		{"id":"5eb6106244f8bc5b","fromNode":"43f5d3894768b88d","fromSide":"bottom","toNode":"d3d8a095b99a9142","toSide":"top"},
@@ -44,6 +45,7 @@
 		{"id":"52bcee6eedba6646","fromNode":"d1e23525fa2a8dcf","fromSide":"right","toNode":"6ab1bb100f742959","toSide":"left"},
 		{"id":"1441bb8a9c3066e2","fromNode":"3349bb1d2318ee15","fromSide":"right","toNode":"fee5942f326d363c","toSide":"left"},
 		{"id":"7189aa171a8e7ee0","fromNode":"3349bb1d2318ee15","fromSide":"bottom","toNode":"83e1ead12f3740ea","toSide":"top"},
-		{"id":"a391f444a24e5af0","fromNode":"ba5802e2b8e96fc0","fromSide":"right","toNode":"8478cae1b35089de","toSide":"left"}
+		{"id":"a391f444a24e5af0","fromNode":"ba5802e2b8e96fc0","fromSide":"right","toNode":"8478cae1b35089de","toSide":"left"},
+		{"id":"12509b5f6b597464","fromNode":"3db73b0ba1828603","fromSide":"right","toNode":"f6d29741ef16d3fd","toSide":"left"}
 	]
 }

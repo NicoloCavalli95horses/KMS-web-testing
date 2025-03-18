@@ -55,11 +55,11 @@ This module applies sub-graph isomorphism to both the event graph and the user b
 
 ## Testing the model
 
-- a case study was presented. The authors collaborated with a service provider and collected data over a period of six weeks, including 33.7 GB of data in syslog format that consists of 1.3 million active user sessions
+- a case study was presented. The authors collaborated with a service provider and collected data over a period of six weeks, including 33.7 GB of data in **syslog** format that consists of 1.3 million active user sessions
 - each log includes: timestamp, anonymized user identity and remote IP address, URL of the service
-- ==the service provider informed the authors of certain malicious patterns (user interaction) that they knew could be exploited. This was the output of a risk analysis==. This malicious interaction could lead to [[CSRF (cross-site request forgery)]], cookie theft, identity theft
+- ==the service provider informed the authors of certain malicious patterns (user interaction) that they knew could be exploited. This was the output of a risk analysis==. These malicious interactions could lead to [[CSRF (cross-site request forgery)]], cookie theft, identity theft
 - this information were then mapped into a set of malicious attack graph paths, used then in the **attack graph mediator** (see attack examples)
-- the new interaction were therefore classified into benign or malicious, given the ground truth
+- the new interactions were therefore classified into benign or malicious, given the ground truth
 
 ## Attack examples
 
@@ -87,7 +87,6 @@ This module applies sub-graph isomorphism to both the event graph and the user b
 - **Class 5:** This class behavior represents the flow used to buy a new phone
 
 The authors were ==able to identify the malicious interactions, and even new malicious behavior, by recognizing same or similar behavioral patterns that could lead to the same outcomes== (isomorphic sub graphs)
-
 
 ---
 #### References

@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9fc49188f86fadf0",
+        "id": "e01b7fc66bec0693",
         "type": "tabs",
         "children": [
           {
-            "id": "174493a8e23271d4",
+            "id": "f328b8e3d156b029",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06 Courses, webinars/FLE French Course/French Course 03-18-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "French Course 03-18-2025"
+              "title": "New tab"
             }
           }
         ]
@@ -182,20 +177,21 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "174493a8e23271d4",
+  "active": "f328b8e3d156b029",
   "lastOpenFiles": [
+    "02 Literature/papers/software models/A Grey-Box Approach for Detecting Malicious User Interactions in Web Applications.md",
+    "96 Meta/SLR/Paper list.md",
+    "04 Canvases/papers/front-end domain definition.canvas",
+    "02 Literature/papers/HTTP traffic analysis/Cross-domain vulnerabilities over social networks.md",
     "06 Courses, webinars/FLE French Course/French Course 03-11-2025.md",
     "06 Courses, webinars/FLE French Course/French Course 03-18-2025.md",
-    "02 Literature/papers/HTTP traffic analysis/Cross-domain vulnerabilities over social networks.md",
     "01 Notes/cross-domain policies.md",
     "01 Notes/CSP (Content-security Policy).md",
     "01 Notes/CORS (Cross-Origin Resource Sharing).md",
-    "04 Canvases/papers/front-end domain definition.canvas",
     "01 Notes/Adobe Flash.md",
     "01 Notes/COIL (Cross-Origin Image Leak).md",
     "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
     "02 Literature/papers/HTTP traffic analysis/Machine Learning Based Web Application Plugin for Threat Detection and IP Analysis.md",
-    "96 Meta/SLR/Paper list.md",
     "01 Notes/buffer overflow.md",
     "04 Canvases/papers/paper template.canvas",
     "96 Meta/SLR/Tags analysis.md",
@@ -215,7 +211,6 @@
     "02 Literature/papers/client-side storage vulnerabilities/An investigation into possible attacks on HTML5 indexedDB and their prevention.md",
     "03 References/(Katulanda, Henaka Arachchi, et al., 2023).md",
     "01 Notes/prototype pollution.md",
-    "00 Antilibrary/smuggling.md",
     "97 Assets/subgraph_isomorphism.png",
     "02 Literature/papers/client-side storage vulnerabilities",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
