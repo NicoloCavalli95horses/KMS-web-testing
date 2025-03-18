@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/papers/front-end domain definition.canvas",
                 "viewState": {
-                  "x": -3919.5931963279672,
-                  "y": 213.88522380088108,
-                  "zoom": -0.5555555334797619
+                  "x": -4102.71352721302,
+                  "y": 2645.0499044837006,
+                  "zoom": -0.9444443671791674
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -44,7 +44,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 217.50260543823242
+    "width": 283.5026054382324
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -186,12 +186,17 @@
   },
   "active": "240e2440e8d4b6f6",
   "lastOpenFiles": [
-    "03 References/(Williams, Vo, et al., 2019).md",
+    "03 References/(Samudio, LaToza, 2022).md",
     "04 Canvases/papers/front-end domain definition.canvas",
+    "03 References/(Kaur, Tiwari, 2023).md",
+    "97 Assets/furious_clicker_clickjacking.png",
+    "97 Assets/front_end_domain.png",
+    "97 Assets/front_end_development_challenges.png",
+    "02 Literature/papers/software architecture/Micro-frontends. Principles, implementations and pitfalls.md",
+    "03 References/(Williams, Vo, et al., 2019).md",
     "01 Notes/IDOR (Insecure Direct Object Reference).md",
     "02 Literature/papers/definitions/The front-end of projects. a systematic literature review and structuring.md",
     "02 Literature/papers/definitions",
-    "97 Assets/front_end_domain.png",
     "02 Literature/papers/client-side storage vulnerabilities/An investigation into possible attacks on HTML5 indexedDB and their prevention.md",
     "02 Literature/papers/HTTP traffic analysis/Machine Learning Based Web Application Plugin for Threat Detection and IP Analysis.md",
     "96 Meta/SLR/Paper list.md",
@@ -211,8 +216,6 @@
     "00 Antilibrary/TLS (transport layer security).md",
     "00 Antilibrary/tree difference algorithms.md",
     "00 Antilibrary/VM (virtual machine).md",
-    "00 Antilibrary/volume testing.md",
-    "00 Antilibrary/Moving Target Defence.md",
     "97 Assets/subgraph_isomorphism.png",
     "04 Canvases/papers/paper template.canvas",
     "02 Literature/papers/client-side storage vulnerabilities",
@@ -231,14 +234,12 @@
     "02 Literature/papers/phishing",
     "02 Literature/books/The art of software testing/The art of software testing.canvas",
     "02 Literature/papers/HTTP traffic analysis",
-    "97 Assets/furious_clicker_clickjacking.png",
     "05 Dataset/vulnerable webapp.canvas",
     "97 Assets/path_traversal.png",
     "Pasted image 20250227135700.png",
     "97 Assets/grid5000_locations.png",
     "97 Assets/canva_business_model.png",
     "97 Assets/LLM_trained_for_videogames.png",
-    "97 Assets/bugs_in_games.png",
-    "Pasted image 20250217120451.png"
+    "97 Assets/bugs_in_games.png"
   ]
 }

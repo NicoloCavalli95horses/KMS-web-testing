@@ -1,7 +1,9 @@
 ---
-ID: "2025-03-06-10:42"
+ID: 2025-03-06-10:42
 tags:
   - paper
+  - microFrontend
+  - softwareArchitecture
 ---
 ## Context
 
