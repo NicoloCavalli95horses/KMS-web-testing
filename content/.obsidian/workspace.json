@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/HTTP traffic analysis/Cross-domain vulnerabilities over social networks.md",
+                "file": "06 Courses, webinars/FLE French Course/French Course 03-18-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Cross-domain vulnerabilities over social networks"
+              "title": "French Course 03-18-2025"
             }
           }
         ]
@@ -182,10 +182,12 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "174493a8e23271d4",
   "lastOpenFiles": [
-    "01 Notes/cross-domain policies.md",
+    "06 Courses, webinars/FLE French Course/French Course 03-11-2025.md",
+    "06 Courses, webinars/FLE French Course/French Course 03-18-2025.md",
     "02 Literature/papers/HTTP traffic analysis/Cross-domain vulnerabilities over social networks.md",
+    "01 Notes/cross-domain policies.md",
     "01 Notes/CSP (Content-security Policy).md",
     "01 Notes/CORS (Cross-Origin Resource Sharing).md",
     "04 Canvases/papers/front-end domain definition.canvas",
@@ -214,7 +216,6 @@
     "03 References/(Katulanda, Henaka Arachchi, et al., 2023).md",
     "01 Notes/prototype pollution.md",
     "00 Antilibrary/smuggling.md",
-    "00 Antilibrary/social engineering.md",
     "97 Assets/subgraph_isomorphism.png",
     "02 Literature/papers/client-side storage vulnerabilities",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
