@@ -8,7 +8,6 @@
 		{"id":"64b21cf9dec536c5","type":"text","text":"## RQ 1\n\n## In which scenarios it is possible to carry out an attack on the web front-end ==without the server being involved==?\n\n## What is the role of web front-end software in an attack that does ==not involve a web server==?","x":-4476,"y":2590,"width":700,"height":320},
 		{"id":"569f9f5935d87ec1","type":"text","text":"## RQ 2 \n## What exactly are the responsibilities of the front end software in an attack that eventually ==target the server==?\n\n## How does the front-end ==contribute to the defense== of an attack to a web server?","x":-3671,"y":2590,"width":700,"height":320},
 		{"id":"fee5942f326d363c","type":"file","file":"97 Assets/front_end_development_challenges.png","x":-3920,"y":420,"width":925,"height":783},
-		{"id":"6ab1bb100f742959","type":"text","text":"Front-end web development, also known as client-side development is the ==practice of producing HTML, CSS and JavaScript== for a website or Web Application so that a user can see and interact with them directly","x":-3920,"y":156,"width":560,"height":204},
 		{"id":"83e1ead12f3740ea","type":"text","text":"communication with the backend (via HTTP) is seen as a front-end responsibility","x":-4448,"y":720,"width":317,"height":128},
 		{"id":"ba5802e2b8e96fc0","type":"text","text":"**Comparison and Analysis of Popular Frontend Frameworks and Libraries [[(Kaur, Tiwari, 2023)]]**","x":-4460,"y":1370,"width":460,"height":100},
 		{"id":"8478cae1b35089de","type":"text","text":"The **frontend** is concerned with ==displaying data in a visually attractive and engaging fashion==, whereas the backend is in charge of ==storing data, processing requests, and managing communication== between the server and client.","x":-3920,"y":1300,"width":520,"height":240},
@@ -25,7 +24,8 @@
 		{"id":"d3d8a095b99a9142","type":"text","text":"### ==No clear definition of front-end security==\n#### Are these issues due to low front-end security or to server-side failure?","x":-4380,"y":-911,"width":551,"height":251},
 		{"id":"0a513a76f2085570","type":"text","text":"Metadata manipulation\n- cookies theft\n- [[session hijacking]]","x":-4460,"y":-580,"width":337,"height":180},
 		{"id":"46bf7d44180ce4d2","type":"text","text":"URL manipulation\n- [[forced browsing]]\n- [[IDOR (Insecure Direct Object Reference)]]\n","x":-4104,"y":-578,"width":355,"height":178},
-		{"id":"3fe086b4b0ef113b","type":"text","text":"# Towards a definition","x":-4161,"y":-40,"width":412,"height":80}
+		{"id":"3fe086b4b0ef113b","type":"text","text":"# Towards a definition","x":-4161,"y":-40,"width":412,"height":80},
+		{"id":"6ab1bb100f742959","type":"text","text":"Front-end web development, also known as client-side development is the ==practice of producing HTML, CSS and JavaScript== for a website or Web Application so that a user can see and interact with them directly","x":-4029,"y":156,"width":560,"height":204}
 	],
 	"edges":[
 		{"id":"5eb6106244f8bc5b","fromNode":"43f5d3894768b88d","fromSide":"bottom","toNode":"d3d8a095b99a9142","toSide":"top"},

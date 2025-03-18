@@ -4,24 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1e852dbb52cc6baf",
+        "id": "9fc49188f86fadf0",
         "type": "tabs",
         "children": [
           {
-            "id": "240e2440e8d4b6f6",
+            "id": "174493a8e23271d4",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/papers/front-end domain definition.canvas",
-                "viewState": {
-                  "x": -4102.71352721302,
-                  "y": 2645.0499044837006,
-                  "zoom": -0.9444443671791674
-                }
+                "file": "02 Literature/papers/HTTP traffic analysis/Cross-domain vulnerabilities over social networks.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "front-end domain definition"
+              "icon": "lucide-file",
+              "title": "Cross-domain vulnerabilities over social networks"
             }
           }
         ]
@@ -44,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -184,10 +182,21 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "240e2440e8d4b6f6",
+  "active": "174493a8e23271d4",
   "lastOpenFiles": [
-    "03 References/(Samudio, LaToza, 2022).md",
+    "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
+    "02 Literature/papers/HTTP traffic analysis/Cross-domain vulnerabilities over social networks.md",
+    "02 Literature/papers/HTTP traffic analysis/Machine Learning Based Web Application Plugin for Threat Detection and IP Analysis.md",
+    "96 Meta/SLR/Paper list.md",
+    "01 Notes/Flash.md",
+    "01 Notes/buffer overflow.md",
     "04 Canvases/papers/front-end domain definition.canvas",
+    "04 Canvases/papers/paper template.canvas",
+    "96 Meta/SLR/Tags analysis.md",
+    "96 Meta/PhD status.md",
+    "96 Meta/Publication deadlines.md",
+    "03 References/(Bernard, Debar, et al., 2012).md",
+    "03 References/(Samudio, LaToza, 2022).md",
     "03 References/(Kaur, Tiwari, 2023).md",
     "97 Assets/furious_clicker_clickjacking.png",
     "97 Assets/front_end_domain.png",
@@ -198,12 +207,8 @@
     "02 Literature/papers/definitions/The front-end of projects. a systematic literature review and structuring.md",
     "02 Literature/papers/definitions",
     "02 Literature/papers/client-side storage vulnerabilities/An investigation into possible attacks on HTML5 indexedDB and their prevention.md",
-    "02 Literature/papers/HTTP traffic analysis/Machine Learning Based Web Application Plugin for Threat Detection and IP Analysis.md",
-    "96 Meta/SLR/Paper list.md",
-    "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
     "03 References/(Katulanda, Henaka Arachchi, et al., 2023).md",
     "01 Notes/prototype pollution.md",
-    "96 Meta/SLR/Tags analysis.md",
     "00 Antilibrary/smuggling.md",
     "00 Antilibrary/social engineering.md",
     "00 Antilibrary/SSL (secure sockets layer).md",
@@ -211,13 +216,7 @@
     "00 Antilibrary/standard graph matching.md",
     "00 Antilibrary/storage testing.md",
     "00 Antilibrary/stress testing.md",
-    "00 Antilibrary/SVM (support vector machine).md",
-    "00 Antilibrary/TDD (test-driven development).md",
-    "00 Antilibrary/TLS (transport layer security).md",
-    "00 Antilibrary/tree difference algorithms.md",
-    "00 Antilibrary/VM (virtual machine).md",
     "97 Assets/subgraph_isomorphism.png",
-    "04 Canvases/papers/paper template.canvas",
     "02 Literature/papers/client-side storage vulnerabilities",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
