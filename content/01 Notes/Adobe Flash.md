@@ -36,6 +36,40 @@ In 2017, Adobe announced that it would end support for Flash by December 31, 202
 - ==Chronic security issues and ongoing vulnerabilities== that made it a risk.
 - As of January 1, 2021, Flash Player has been officially disabled and browsers have blocked the execution of Flash content
 
+## How did it work
+
+Flash was not a JavaScript library, nor a native browser tag, but an ==external plugin that had to be installed separately==. The browser *communicated with Flash Player to run Flash content within the web page.*
+
+Flash was used in different ways depending on the application goal
+
+**Embedding via `<object>` or `<embed>` tag**
+Flash content was usually `.swf` (Shockwave Flash) files embedded in HTML pages using the tags:
+
+```html
+<object width="800" height="600" data="animation.swf" type="application/x-shockwave-flash">
+    <param name="movie" value="animazione.swf">
+    <param name="allowScriptAccess" value="always">
+</object>
+
+<!-- or -->
+
+<embed src="animazione.swf" width="800" height="600">
+```
+
+**Interacting with JavaScript using `ExternalInterface`**
+
+```actionscript
+import flash.external.ExternalInterface;
+ExternalInterface.call("alert", "Hello by Flash!");
+```
+
+In JavaScript
+
+```javascript
+var flashObj = document.getElementById("myFlashObject");
+flashObj.callFromJavaScript("Messaggio da JS");
+```
+
 ---
 #### References
 - HTTP traffic analysis of web application that used Flash, in [[(Bernard, Debar, et al., 2012)]]

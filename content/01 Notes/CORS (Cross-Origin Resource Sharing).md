@@ -7,7 +7,7 @@ tags:
 ---
 ## Definition
 
-Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins ([[domain]], scheme, or [[port]]) other than its own, ==from which a browser should permit loading resources==. CORS a set of rules that control how web applications hosted on one domain can request resources from a different domain.
+Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins ([[domain]], scheme, or [[port]]) other than its own, ==from which a browser should permit loading resources==. CORS a set of rules that control how web applications hosted on one domain can request resources from a different domain. It is one of the possible [[cross-domain policies]]
 
 > They are necessary to enhance **security** by preventing potentially malicious behavior from web pages.
 
@@ -91,9 +91,6 @@ Content-Type: application/json
 
 ```
 
-## Conclusion
-
-CORS policies are essential for web security, allowing servers to specify which domains are permitted to access their resources. By including appropriate headers in responses, servers can grant or deny permission to different domains, thus providing control over cross-origin requests and protecting user data from unauthorized access.
-
+---
 ## References
 https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS

@@ -25,7 +25,9 @@
 		{"id":"0a513a76f2085570","type":"text","text":"Metadata manipulation\n- cookies theft\n- [[session hijacking]]","x":-4460,"y":-580,"width":337,"height":180},
 		{"id":"46bf7d44180ce4d2","type":"text","text":"URL manipulation\n- [[forced browsing]]\n- [[IDOR (Insecure Direct Object Reference)]]\n","x":-4104,"y":-578,"width":355,"height":178},
 		{"id":"3fe086b4b0ef113b","type":"text","text":"# Towards a definition","x":-4161,"y":-40,"width":412,"height":80},
-		{"id":"6ab1bb100f742959","type":"text","text":"Front-end web development, also known as client-side development is the ==practice of producing HTML, CSS and JavaScript== for a website or Web Application so that a user can see and interact with them directly","x":-4029,"y":156,"width":560,"height":204}
+		{"id":"6ab1bb100f742959","type":"text","text":"Front-end web development, also known as client-side development is the ==practice of producing HTML, CSS and JavaScript== for a website or Web Application so that a user can see and interact with them directly","x":-4029,"y":156,"width":560,"height":204},
+		{"id":"73b59bc0fcedd02c","type":"text","text":"# Life cycle of vulnerability","x":-1720,"y":-34,"width":520,"height":94},
+		{"id":"80bc19ae379c92db","type":"text","text":"[[Adobe Flash]] (1990-2021)","x":-1720,"y":100,"width":340,"height":60}
 	],
 	"edges":[
 		{"id":"5eb6106244f8bc5b","fromNode":"43f5d3894768b88d","fromSide":"bottom","toNode":"d3d8a095b99a9142","toSide":"top"},

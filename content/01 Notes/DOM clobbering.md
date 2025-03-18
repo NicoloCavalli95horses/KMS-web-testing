@@ -106,7 +106,7 @@ R5 to clobber nested object properties like window.x.y.
 - HTML sanitizers tailored to protect against DOM clobbering (e.g., DOMPurify, HTML Janitor), or implementing CSP (Content Security Policy)
 - Unfortunately, even these libraries are vulnerable to DOM clobbering, indicating that they don't offer a complete protection
 
-[[Content-security Policy (CSP)]]
+[[CSP (Content-security Policy)]]
 - to prevent XSS attacks, the `script-src` directive can be used to limit the value of scripts sources to a set of trusted domains
 - CSP cannot guarantee protection against DOM clobbering that affects properties other than `src`
 

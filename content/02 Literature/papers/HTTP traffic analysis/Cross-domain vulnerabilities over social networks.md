@@ -3,15 +3,15 @@ ID: 2025-03-18T09:07:42.050Z
 tags:
   - paper
   - SocialNetworkSecurity
-  - Cross-domainAttack
   - FlashSecurity
   - Http
+  - crossDomainPolicy
 Project:
   - SLR
 ---
 ## Context
 
-In this paper, we present the technical background of the cross-domain mechanisms and the security implications. Several recent studies have demonstrated the weakness of the cross-domain policy, leading to [[session hijacking]] or the leakage of sensitive information
+In this paper, we present the technical background of the cross-domain mechanisms and the security implications. Several recent studies have demonstrated the weakness of the [[cross-domain policies]], leading to [[session hijacking]] or the leakage of sensitive information
 
 Current solutions to detect these vulnerabilities use a client-side approach.
 - The purpose of our work is to present a new approach based on **network flows analysis** to detect malicious behavior
@@ -19,10 +19,20 @@ Current solutions to detect these vulnerabilities use a client-side approach.
 ## Main ideas
 
 - In 2012, social media were rapidly acquiring importance and became very attractive targets for cybercrimes
-- [[XSS (cross site scripting)]], spam, [[phishing]] and other attacks related to [[Flash]][^1] vulnerabilities can be carried out on social media
+- [[XSS (cross site scripting)]], spam, [[phishing]] and other attacks related to [[Adobe Flash]][^1] vulnerabilities can be carried out on social media
 - In 2012, Flash was used by 95% of web applications. Youtube used Flash by default and HTML5 on mobile devices
-- Flash worked generating client-side requests to fetch content from various remote locations
+- Flash worked generating client-side requests to fetch content from various remote locations. This opens the door for cross-domain attacks
+- The authors approach is to analyze the HTTP network flow to detect cross-domain attacks in social media, using Bro[^2]
+- same-origin policy is the default protection against cross-origin attacks, but often web applications need to authorize cross-domain requests. A white-list of trusted domains should be used, but in practice a wildcard policy is implemented (`*`, all the cross-domain requests are allowed)
+- obviously wildcards are misconfiguration and can be exploited
 
+### Wildcard policy exploitation
+
+- `a.com` is under the control of an attacker and a victim access a Flash object on this website
+- the victim is also connected to `b.com` with authenticated access, and `b.com` uses a wildcard, that allows every domain to make requests
+- the Flash object from `a.com` makes a request to `b.com`. ==The user's active session cookie is attached to the cross-domain request by default==
+- the attacker can get the session cookie and perform a [[CSRF (cross-site request forgery)]] 
+- the ==usage of a social media can create a trustful environment== and lead the victim into clicking to `a.com` in the first place
 
 
 ---
@@ -30,3 +40,6 @@ Current solutions to detect these vulnerabilities use a client-side approach.
 - [[(Bernard, Debar, et al., 2012)]]
 
 [^1]: Flash has been deprecated and then has been officially disabled by browser, since 2021
+
+[^2]: The tool is now called Zeek: https://zeek.org/
+	

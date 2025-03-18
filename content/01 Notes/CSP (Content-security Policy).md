@@ -10,6 +10,7 @@ Content Security Policy (CSP) is a feature that helps to prevent or minimize the
 - It consists of a series of instructions from a website to a browser, which ==instruct the browser to place restrictions on the things that the front-end code is allowed to do==
 - It basically allows to define and control which resources (such as scripts, styles, and images) can be downloaded and executed
 - The primary case for CSP is preventing [[XSS (cross site scripting)]] attacks by defining, for example, a limited array of paths that can be used to load a script file
+- it is a type of [[cross-domain policies]]
 
 A CSP can, for example:
 - define the permitted sources (script, images, styles and fonts sources) 
