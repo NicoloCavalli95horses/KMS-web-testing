@@ -57,7 +57,7 @@ function parseBibTeX(bibtex) {
     return;
   }
 
-  const title = titleMatch[1].replace(`:`, `.`)
+  const title = titleMatch[1].replace(`/:|?/g`, `.`);
   const authors = authorMatch[1].split(/\s+and\s+/i);  // split using 'and' with optional spaces
   const year = yearMatch[1];
 
