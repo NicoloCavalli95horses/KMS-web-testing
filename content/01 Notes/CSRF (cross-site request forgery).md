@@ -28,7 +28,7 @@ The hacker has to know pretty well the API structure of the target website in or
 - he exploits common pattern such as `POST /update_profile`
 - In case of private cloud CCI, the URL can be retrieved by reading company documentation, emails, or public discussion forums [[(Felsch, Heiderich, et al., 2015)]]
 
-The attack does not have to exploit complex HTTP request configuration but it might be possible to just include this to the malicious (phishing) website
+The attack does not have to exploit complex HTTP request configuration but it might be possible to just include this to the malicious (phishing) website [[(Felsch, Heiderich, et al., 2015)]]
 
 ```html
 <img src="https://banca.com/transfer?amount=5000&to_account=123456">
@@ -42,10 +42,11 @@ Common CSFR includes:
 
 ### Mitigation techniques
 
-- Using [[CSRF (cross-site request forgery) token]]
+- Using [[CSRF (cross-site request forgery) token]], which are in essence random values embedded into form fields. If the server does not receive the token that expects, the HTTP request is rejected
 - verifying the source of the request (original header)
 - limiting HTTP request methods
 - using [[SameSite cookie]]
+- closing all the tabs except for the one you are using may be an effective mitigation strategy, but ==if you landed on a malicious website *before* reaching the target, malicious HTTP requests may have been hidden and then executed in the background (this can be done with a [[service worker]])==
 
 Similar to [[XSS (cross site scripting)]], but focused on performing actions on behalf of an unsuspecting user (see [[XSS and CSFR comparison]]).
 

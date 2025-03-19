@@ -43,6 +43,7 @@ To analyze a private CCI, the authors
 - used the port 80 (HTTP)
 - performed: [[XSS (cross site scripting)]] and [[CSRF (cross-site request forgery)]]
 - the prerequisite of the attacks is that the victim must visit a (malicious) webpage of the attacker, in order to collect the session cookie
+- successful attacks are categorized as follows: **DoS-level** (use or block resources of the cloud), **control-level** (the state of the cloud is altered, e.g., modify account details), **compromise-level** (complete access of VM data)
 ## Results
 
 - we were able to break security of the web interfaces of Eucalyptus, OpenNebula, and openQRM

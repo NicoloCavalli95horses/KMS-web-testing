@@ -3,6 +3,7 @@ ID: 2025-01-09-11:47
 tags:
   - "#definition"
   - cyberSecurity
+  - XSS
 ---
 ## Definition
 
@@ -20,12 +21,13 @@ Successful XSS can:
 - manipulate the web content
 - cause a [[DoS (Denial of Service)]]
 
-XSS is similar to [[CSRF (cross-site request forgery)]] in that both rely on code injection, but CSFR exploits the browser's trust in the user to send malicious HTTP requests, while XSS involves code execution in the user's browser (see more on [[XSS and CSFR comparison]])
+Only if the code is either embedded in (inline scripts) or loaded into the webpage, it will have read and write access to the contents of this webpage (e. g. session cookies, form fields, etc.)  [[(Felsch, Heiderich, et al., 2015)]]
+
+XSS is similar to [[CSRF (cross-site request forgery)]] in that their harm may be similar, but CSFR exploits the browser's trust in the user to send malicious HTTP requests, while XSS involves code execution in the user's browser (see more on [[XSS and CSFR comparison]])
 
 ## Prevalence
 
 Two-third of all deployed web applications are vulnerable to XSS attacks, and Cisco 2018 Annual Security Report indicated that 40% of all attacks attempts lead to XSS attacks [[(Sadqi, Maleh, 2022)]](p.18)
-
 
 ## Types of XSS attacks
 
@@ -98,11 +100,13 @@ Multiple techniques and approaches are often used at the same time to tackle XSS
 - monitoring
 - filtering
 
-**Secure programming**: ensuring that programming guidelines and rules are followed during the development of an application. Techniques:
+**Secure programming**
+Ensuring that programming guidelines and rules are followed during the development of an application. Techniques:
 - type system: a technique used to automatically enforce programming guidelines
 - [[ELET (Embedded Language Encapsulation Type)]]
 
-**Modelling**. Techniques and approaches: abstractions, model checking, model inference and evolutionary fuzzing, input validation, simulation, signature based model, deferred loading, one-time URLs, subdomain watching, threading, control flow graph, data mining, hybrid approach, TTCN-3, [[FSM (finite-state machine)]], primitive and advanced models
+**Modelling**
+Techniques and approaches: abstractions, model checking, model inference and evolutionary fuzzing, input validation, simulation, signature based model, deferred loading, one-time URLs, subdomain watching, threading, control flow graph, data mining, hybrid approach, TTCN-3, [[FSM (finite-state machine)]], primitive and advanced models
 
 ## Mitigate XSS vulnerabilities
 
