@@ -126,7 +126,7 @@ Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, wit
 - **Use escaping / encoding**: use the appropriate escaping/encoding technique, such as HTML escape, JavaScript escape, CSS escape, URL escape, etc., depending on where user input will be used. Use pre-existing libraries rather than creating your own unless it is absolutely necessary
 - **Sanitise HTML**: if user input needs to contain HTML, you can’t escape or encrypt it because doing so would render any acceptable tags useless. In such cases, parse and sanitise HTML using a trusted and proven library
 - **Content security policy**: use a [[CSP (Content-security Policy)]] to mitigate the effects of a potential XSS problem.
-	- The header `X-XSS-Protection`, `X-Content-SecurityPolicy`ave been implemented by Microsoft to sanitise reflective XSS attacks [[(Aditya Sood, Richard Enbody, et al., 2011)]]
+	- The headers `X-XSS-Protection` (now deprecated), `X-Content-Security-Policy` have been implemented in the past to sanitise reflective XSS attacks [[(Aditya Sood, Richard Enbody, et al., 2011)]]
 
 ---
 ## References

@@ -41,7 +41,11 @@ Prevent a website from cross-origin window reference manipulation ([[tabnabbing]
 - `Cross-Origin-Opener-Policy: same-origin`
 - can be implemented by the client, using the `meta` tag (not recommended) and by the server as HTTP header
 
-## Risks
+### Other policies
+
+- `Strict-Transport-Security` is a declarative header that is used by websites to force browsers to send all types of data over HTTPS [[(Aditya Sood, Richard Enbody, et al., 2011)]]
+
+## Risks in not using cross-domain policies
 
 The malicious exploitation of the cross-domain requests enables a range of attacks such as:
 - [[XSS (cross site scripting)]]
