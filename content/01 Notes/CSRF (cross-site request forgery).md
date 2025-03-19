@@ -54,3 +54,4 @@ Similar to [[XSS (cross site scripting)]], but focused on performing actions on 
 #### References
 - [[(Tkachenko et al., 2024)]]
 - Included in literature review, by [[(Onukrane, Skrodelis, et al., 2023)]]
+- Unsystematic and short literature review by [[(Farah, Shojol, et al., 2016)]]

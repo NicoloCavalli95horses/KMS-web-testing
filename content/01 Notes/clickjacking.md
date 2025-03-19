@@ -46,7 +46,7 @@ Attackers have used clickjacking attacks to trick users into liking a fan page o
 
 **Frame busting** [[(Hazhirpasand, 2020)]]
 Frame busting is a technique to prevent a given web page from being loaded in a sub-frame. Many JS snippet have been proposed to implement that solution
-- using `X-frame-Options` header in `HTTP` will prohibits a website from being rendered in a iframe. This option is currently supported by Firefox and Chrome
+- using `X-frame-Options` header in `HTTP` will prohibits a website from being rendered in a iframe. This option is currently supported by Firefox and Chrome  [[(Aditya Sood, Richard Enbody, et al., 2011)]]
 - only 11.11% of Alexa's top 1 million sites implement `X-Frame-Options` header 
 
 ---
@@ -54,3 +54,4 @@ Frame busting is a technique to prevent a given web page from being loaded in a 
 - [[(Hoffman, 2024)]]
 - Included in literature review, by [[(Onukrane, Skrodelis, et al., 2023)]]
 - Granting web permissions, by [[(Hazhirpasand, 2020)]]
+- HTTP header example from [[(Aditya Sood, Richard Enbody, et al., 2011)]]
