@@ -31,7 +31,7 @@ This can happen mostly in legacy JavaScript codebases, where global variables we
 DOM clobbering can leverage this particular browser behavior to mess with object values.
 
 Similarly to [[prototype pollution]], it can lead to:
-- arbitrary code execution
+- [[RCE (Remote Code Execution)]] (with prototype pollution on Node.js)
 - client-side [[CSRF (cross-site request forgery)]]
 - privilege escalation issues
 

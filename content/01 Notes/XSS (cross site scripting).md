@@ -23,7 +23,7 @@ Successful XSS can:
 
 Only if the code is either embedded in (inline scripts) or loaded into the webpage, it will have read and write access to the contents of this webpage (e. g. session cookies, form fields, etc.)  [[(Felsch, Heiderich, et al., 2015)]]
 
-XSS is similar to [[CSRF (cross-site request forgery)]] in that their harm may be similar, but CSFR exploits the browser's trust in the user to send malicious HTTP requests, while XSS involves code execution in the user's browser (see more on [[XSS and CSFR comparison]])
+XSS is similar to [[CSRF (cross-site request forgery)]] in that their harm may be similar, but CSFR exploits the browser's trust in the user to send malicious HTTP requests, while XSS involves code execution in the user's browser (see more on [[XSS and CSFR comparison]]). [[RCE (Remote Code Execution)]] harms instead the server, using a combination of dangerous functions (`(eval(), exec(), system(), require()`)
 
 ## Prevalence
 
@@ -35,20 +35,28 @@ Two-third of all deployed web applications are vulnerable to XSS attacks, and Ci
 
 Reflected XSS is the simplest variety of cross-site scripting. It arises when an application ==receives data in an HTTP request and includes that data within the response in an unsafe way.==
 
-```javascript
-// The user clicks on:
-// https://insecure-website.com/status?message=<script>...<script/>
+For example, a user may click on:
+- `https://insecure-website.com/status?message=<script>...<script/>`
+- if the vulnerable application ==use the URL parameters without sanification==, the script included in the URL is executed
+- The script can retrieve any information or perform any action the user is allowed to perform
 
-// Let's say that the response is output with no checks
-<p>Response status:
-  <span>
-  ///code will be inserted and executed here
-  <span/>
-</p> // the script is executed
+Most of the literature has studied on this type of issues. If the user is presented with the dangerous link in an email, for example, this scenario is also called [[phishing]].
+
+**Real-world example from [[(Felsch, Heiderich, et al., 2015)]]**
+
+In Sunstone, every account can choose a display language. This choice is stored as an account parameter (e. g. for English `LANG=en_US`). In Sunstone, ==the value of the LANG parameter is used to construct a script tag that loads the corresponding localization script==. For English, this creates the following tag: 
+
+``` JS
+<script src="locale/en_US/en_US.js?v=4.6.1" type="text/javascript"> </script>
+```  
+
+Setting the LANG parameter to a different string directly manipulates the path in the script tag. By setting the LANG parameter to `LANG="onerror =alert(1)//`, the resulting script tag looks as follows:
+
+``` JS
+<script src="locale/" onerror=alert(1) </script>
 ```
 
-If the user visit the URL constructed by the attacker, the attacker's script will be executed in the user's browser. The script can retrieve any information or perform any action the user is allowed to perform. Most of the literature has studied on this type of issues. If the user is presented with the dangerous link in an email, for example, this scenario is also called [[phishing]].
-
+For the web browser, this is a command to fetch the script locale/ from the server. However, this URL points to a folder, not a script. Therefore, what the server returns is no JavaScript. For the browser, this is an error, so the browser executes the JavaScript in the onerror statement: `alert(1)`
 #### Stored (persistent/second order XSS)
 
 If the system does not validate user input provided from message forums or comment sections, malicious inputs can be stored in the vulnerable app's database.

@@ -10,7 +10,7 @@ tags:
 
 [[XSS (cross site scripting)]] and [[CSRF (cross-site request forgery)]] are both client-side attacks that can severely damage a brand reputation, leading to privilege escalation issues and unauthorized operations.
 
-Even if they ==both rely on arbitrary code execution==, the main difference is the type of attack and how they exploit vulnerabilities in a web application
+Even if they ==both rely on code execution==, the main difference is the type of attack and how they exploit vulnerabilities in a web application
 
 ### XSS (Cross-Site Scripting)
 

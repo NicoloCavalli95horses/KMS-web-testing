@@ -22,7 +22,7 @@ In 2012, Flash was used by the vast majority of web applications for several rea
 ## What vulnerabilities did it have and why?
 
 - **Excessive complexity** – Flash Player was a monolithic piece of software with many features, increasing the attack surface
-- **Arbitrary code execution** – Many exploits used [[buffer overflow]] or memory corruption to execute malicious code
+- [[RCE (Remote Code Execution)]] – Many exploits used [[buffer overflow]] or memory corruption to execute malicious code
 - **Lack of effective sandboxing** – Vulnerabilities allowed attacks such as [[drive-by download]], which would execute malicious code just by visiting a website
 - **Frequent zero-days** – Flash was a prime target for hackers and malware, with numerous critical vulnerabilities discovered each year
 - **Performance issues** – High CPU and memory consumption, especially on mobile devices

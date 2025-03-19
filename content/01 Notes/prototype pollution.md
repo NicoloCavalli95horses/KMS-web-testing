@@ -39,7 +39,7 @@ On the front-end [[(Hakim, 2023)]]:
 
 On the server-side [[(Hakim, 2023)]]:
 - Privilege escalation issues
-- Remote code execution in worst-case scenario (`eval()` functions or DOM node generation)
+- [[RCE (Remote Code Execution)]] in worst-case scenario (`eval()` functions or DOM node generation)
 
 ### Is the prototype pollution a form of [[XSS (cross site scripting)]]?
 

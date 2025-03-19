@@ -46,7 +46,7 @@ In React, dependency smells are introduced more frequently than they are fixed
 - ==Information exposure (4%):== information that should be encrypted are exposed
 - ==Improper input validation (3%):== enabling malicious code-injection
 - ==Improper verification of cryptographic signature (2%)==: allows constructuring signatures that are verified by any public key leading to [[signature forgery]]
-- ==Remote-code execution (1%):== enable malicious attackers to execute arbitrary code
+- ==Remote-code execution (1%):== enable malicious attackers to execute arbitrary code ([[RCE (Remote Code Execution)]])
 - ==Authorization bypass (1%)==: enable attackers to access sensitive information
 
 The vulnerabilities are classified as high-risk, medium risk and low risk

@@ -20,7 +20,7 @@ he Russia-Ukraine conflict has led to a 300% increase in cyberattacks targeting 
 
 Most relevant vulnerabilities, sorted by prevalence:
 - [[SQLIA (SQL injection attack)]]
-- code execution
+- [[RCE (Remote Code Execution)]]
 - [[XSS (cross site scripting)]]
 - [[CSRF (cross-site request forgery)]]
 - file inclusion
