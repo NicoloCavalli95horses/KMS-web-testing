@@ -93,4 +93,5 @@ Content-Type: application/json
 
 ---
 ## References
-https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+- [[(Zhu, 2021)]]

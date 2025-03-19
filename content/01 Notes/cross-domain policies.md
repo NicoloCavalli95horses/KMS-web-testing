@@ -14,7 +14,7 @@ There are a number of policies that can be enabled and configured
 
 ### Same-Origin Policy (SOP)
 
-Same-Origin Policy (SOP) is a client-side security policy, implemented by browsers, that prevents a website from accessing resources from another domain unless explicitly allowed.
+Same-Origin Policy (SOP) is a client-side security policy, implemented by browsers, that prevents a website from accessing resources from another domain unless explicitly allowed:
 - For example, if http://example.com/index.html tries to load a video from http://www.youtube.com/mov.swf, the user agent will disallow access since the domains are different. The SOP rule applies an access control to local resources (within the browser) but also to network resources.
 - It is usually implemented by browsers by default and it is not easily editable
 

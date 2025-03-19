@@ -8,8 +8,11 @@ tags:
 
 Cookies are small text files stored on a user's computer and sent to a web server through HTTP messages to identify a user or save the application state. 
 
-Cookies have been a primary source of controversy since they can be misused and  lead to violations of Internet privacy
+Cookies have been a primary source of controversy since they can be misused and lead to violations of Internet privacy.
 
+The storage capacity of a cookie is 4KB [[(Zhu, 2021)]]
+- A cookie will be attached to the header of each HTTP request: if more content is stored it will have a bad impact on HTTP communication efficiency
+- Use [[Web Storage API (localStorage, sessionStorage)]] if more information needs to be stored
 ### Third party cookies
 
 Although cookies may be set only by the visited domain, it is possible for a page to contain images or elements from other domains. Cookies set from external domains while retrieving such elements are called ==third party cookies==
@@ -24,3 +27,4 @@ Stored by the browser and more "permanent" than [[Web Storage API (localStorage,
 ---
 #### References
 - [[(West, Pulimood, et al., 2012)]]
+- [[(Zhu, 2021)]]

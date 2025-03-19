@@ -1,3 +1,10 @@
 {
-  "items": []
+  "items": [
+    {
+      "type": "search",
+      "ctime": 1742401252921,
+      "query": "[\"project\": \"SLR\"] tag:#paper",
+      "title": "SLR papers"
+    }
+  ]
 }
