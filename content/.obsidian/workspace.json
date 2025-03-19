@@ -52,8 +52,7 @@
               "title": "CSRF (cross-site request forgery)"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -213,10 +212,10 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "71cd60535f94eeff",
+  "active": "c4a9e35274c20b16",
   "lastOpenFiles": [
-    "00 Antilibrary/CSRF (cross-site request forgery) token.md",
     "01 Notes/CSRF (cross-site request forgery).md",
+    "00 Antilibrary/CSRF (cross-site request forgery) token.md",
     "01 Notes/XSS (cross site scripting).md",
     "01 Notes/XSS and CSFR comparison.md",
     "02 Literature/papers/cloud control interface (CCI)/How Private is Your Private Cloud. Security Analysis of Cloud Control Interfaces.md",

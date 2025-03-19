@@ -42,13 +42,13 @@ To analyze a private CCI, the authors
 - used a web browser within the company network
 - used the port 80 (HTTP)
 - performed: [[XSS (cross site scripting)]] and [[CSRF (cross-site request forgery)]]
-- the prerequisite of the attacks is that the victim must visit a (malicious) webpage of the attacker, in order to collect the session cookie
+- the prerequisite of the attacks is that the victim must visit a (malicious) webpage of the attacker, in order to perform a CSRF
 - successful attacks are categorized as follows: **DoS-level** (use or block resources of the cloud), **control-level** (the state of the cloud is altered, e.g., modify account details), **compromise-level** (complete access of VM data)
 ## Results
 
 - we were able to break security of the web interfaces of Eucalyptus, OpenNebula, and openQRM
 - at least ==one attack also worked== if access to the web interface was restricted by a ==firewall==, blocking all direct access
-- all three major systems were well designed, but the inclusion of a direct data channel through the web browser to each VM proved to be problematic. For openQRM, nearly no security measures were in place. This seems to be an effect of ==most discussions on cloud security concentrating on the VM level, which does not raise awareness for the criticality of the CCI==
+- all three major systems were well designed, but the inclusion of a direct data channel through the web browser to each VM proved to be problematic. For openQRM, nearly no security measures were in place. This seems to be an effect of ==most discussions on cloud security concentrating on the VM level, which does not raise awareness for the CCI==
 - Multiple SQL injection vulnerabilities were found in openQRM
 - Eucalyptus used AngularJS which does not completely sanitize inputs to its library (version 4.0.0 and 4.0.1). This allowed the execution of arbitrary code which lead to the possibility to start and stop VMs, and read sensitive credentials
 
