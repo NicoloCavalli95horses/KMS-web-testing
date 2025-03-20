@@ -14,8 +14,9 @@ dv.table(["Name", "Date"],
         .sort((a, b) => (b.date || 0) - (a.date || 0))
         .map(p => [p.name, p.date ? p.date.toLocaleDateString("it-IT") : "N/A"])
 );
-
 ```
+
+
 
 
 

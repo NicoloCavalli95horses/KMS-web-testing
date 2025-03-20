@@ -2,15 +2,10 @@
 	"nodes":[
 		{"id":"d1e23525fa2a8dcf","type":"text","text":"\\[Book] **Front-end development handbook** (2019) https://frontendmasters.com/guides/front-end-handbook/2019/","x":-4500,"y":140,"width":420,"height":194},
 		{"id":"3349bb1d2318ee15","type":"text","text":"**Barriers in Front-End Web Development** [[(Samudio, LaToza, 2022)]]\n- posts examined on Stack Overflow using to assess common issues in ==what the authors think is the front-end development context==","x":-4500,"y":380,"width":420,"height":280},
-		{"id":"80bc19ae379c92db","type":"text","text":"### History of Adobe Flash\n\n[[Adobe Flash]] (1990-2021)\n- used by most web application in 2010-2015\n- many vulnerabilities: [[RCE (Remote Code Execution)]] , [[drive-by download]]","x":-1700,"y":130,"width":380,"height":350},
-		{"id":"24ee6ae79f2e6632","type":"text","text":"### Deprecated mitigation techniques against XSS\n\nX-XSS-Protection HTTP, implemented by Microsoft ","x":-1260,"y":130,"width":420,"height":350},
-		{"id":"d3d8a095b99a9142","type":"text","text":"### ==No clear definition of front-end security==\n#### Are these issues due to low front-end security or to server-side failure?","x":-4380,"y":-860,"width":631,"height":160},
+		{"id":"d3d8a095b99a9142","type":"text","text":"### ==No clear definition of front-end security==\n#### Are these issues due to low front-end security or to server-side failure?","x":-4380,"y":-860,"width":631,"height":180},
 		{"id":"43f5d3894768b88d","type":"text","text":"# RQ1. What web front-end vulnerabilities are more relevant?","x":-4380,"y":-1080,"width":631,"height":167},
 		{"id":"ba5802e2b8e96fc0","type":"text","text":"**Comparison and Analysis of Popular Frontend Frameworks and Libraries [[(Kaur, Tiwari, 2023)]]**","x":-4500,"y":730,"width":420,"height":150},
 		{"id":"4fffe7fd014b7dee","type":"text","text":"# Hybrid front-end attack","x":-3841,"y":1930,"width":487,"height":80},
-		{"id":"73b59bc0fcedd02c","type":"text","text":"# RQ3 - Life cycle\n","x":-1700,"y":-40,"width":1380,"height":80},
-		{"id":"f54369e697729d9d","type":"text","text":"### Deprecated web storage\n\n**[Web SQL](https://developer.chrome.com/blog/deprecating-web-sql)**:  allows to store data in a structured manner on the user's computer (internally based on the SQLite database engine).\n- introduced in 2009 and abandoned 2010","x":-780,"y":130,"width":460,"height":350},
-		{"id":"a7111022798a0a81","type":"text","text":"## Why did these attempts fail? What can we learn from it?","x":-1450,"y":560,"width":900,"height":100},
 		{"id":"0a513a76f2085570","type":"text","text":"Metadata manipulation\n- cookies theft\n- [[session hijacking]]","x":-4420,"y":-580,"width":337,"height":220},
 		{"id":"46bf7d44180ce4d2","type":"text","text":"URL manipulation\n- [[forced browsing]]\n- [[IDOR (Insecure Direct Object Reference)]]\n","x":-4064,"y":-578,"width":355,"height":218},
 		{"id":"c2da02b1a1d2ce74","type":"text","text":"# Pure front-end attack","x":-4644,"y":1930,"width":436,"height":80},
@@ -27,7 +22,14 @@
 		{"id":"f6d29741ef16d3fd","type":"text","text":"### ==Identifying root causes of a security issue==: by understanding whether some phases of a web attack may not be essential and by identify exactly where the vulnerability is and whose \"fault\" is","x":-3898,"y":4357,"width":765,"height":213},
 		{"id":"65e933fc7bec68b4","type":"text","text":"### ==No need to discard papers that seems not to be focused on the front-end== :every form of attack could potentially be classified as either a *pure front-end attack* and an *hybrid front-end attack*","x":-3898,"y":3720,"width":765,"height":256},
 		{"id":"c6d1280618d7dbdf","type":"text","text":"## Practical reasons","x":-4306,"y":3800,"width":320,"height":97},
-		{"id":"2c5b9ffd5f9f0139","type":"text","text":"# Why is this relevant?","x":-4840,"y":4032,"width":408,"height":100}
+		{"id":"2c5b9ffd5f9f0139","type":"text","text":"# Why is this relevant?","x":-4840,"y":4032,"width":408,"height":100},
+		{"id":"80bc19ae379c92db","type":"text","text":"### History of Adobe Flash\n\n[[Adobe Flash]] (1990-2021)\n- used by most web application in 2010-2015\n- many vulnerabilities: [[RCE (Remote Code Execution)]] , [[drive-by download]]","x":-1680,"y":-955,"width":380,"height":350},
+		{"id":"24ee6ae79f2e6632","type":"text","text":"### Deprecated mitigation techniques against XSS\n\nX-XSS-Protection HTTP, implemented by Microsoft ","x":-1240,"y":-955,"width":420,"height":350},
+		{"id":"f54369e697729d9d","type":"text","text":"### Deprecated web storage\n\n**[Web SQL](https://developer.chrome.com/blog/deprecating-web-sql)**:  allows to store data in a structured manner on the user's computer (internally based on the SQLite database engine).\n- introduced in 2009 and abandoned 2010","x":-760,"y":-955,"width":460,"height":350},
+		{"id":"a7111022798a0a81","type":"text","text":"## Why did these attempts fail? What can we learn from it?","x":-1430,"y":-525,"width":900,"height":100},
+		{"id":"c7127fb08f496c3f","x":-1427,"y":-1680,"width":795,"height":80,"type":"text","text":"# Observations on the first +16 papers"},
+		{"id":"73b59bc0fcedd02c","type":"text","text":"# About tools or vulnerabilities *Life cycle* (RQ3)\n","x":-1490,"y":-1080,"width":897,"height":80},
+		{"id":"930155de0aed68e5","x":-1430,"y":-1560,"width":795,"height":320,"type":"text","text":"- Many papers focus on HTTP traffic analysis. The role of the front-end in the communication is often not relevant\n- Tools for code synthesis (WAVES): code can be synthesized for both server and client if the same logic has to be implemented (e.g., double input validation)\n- Web client local storage (IndexedDB) it is not 100% secure, even in private mode\n- \"Private\" web applications (in local networks) often are less secure than public web application "}
 	],
 	"edges":[
 		{"id":"af9a9151cd26b795","fromNode":"d3d8a095b99a9142","fromSide":"bottom","toNode":"0a513a76f2085570","toSide":"top"},

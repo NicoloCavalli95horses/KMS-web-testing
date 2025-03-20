@@ -44,4 +44,3 @@ See also: [[EAR (Execution After Redirect)]]
 - [[(Chen, Shi, 2018)]]
 - Included in literature review, by [[(Onukrane, Skrodelis, et al., 2023)]]
 - https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html
-- [[(Payet, Doupe, et al., 2013)]]
