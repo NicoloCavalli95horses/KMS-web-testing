@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/redirect attack/EARs in the wild. large-scale analysis of execution after redirect vulnerabilities.md",
+                "file": "06 Courses, webinars/Code Generation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "EARs in the wild. large-scale analysis of execution after redirect vulnerabilities"
+              "title": "Code Generation"
             }
           },
           {
@@ -199,9 +199,15 @@
   },
   "active": "c51fdde8f3567490",
   "lastOpenFiles": [
+    "01 Notes/prolog (programming language).md",
+    "06 Courses, webinars/Code Generation.md",
+    "06 Courses, webinars/FLE French Course/French Course 03-11-2025.md",
+    "06 Courses, webinars/Visual Software QA (Quality Assurance) using VLM (Vision Language Models).md",
+    "06 Courses, webinars/Towards Autonomous Test Agent.md",
+    "06 Courses, webinars/Introduction to Abaca (Inria compute cluster).md",
+    "02 Literature/papers/redirect attack/EARs in the wild. large-scale analysis of execution after redirect vulnerabilities.md",
     "01 Notes/EAR (Execution After Redirect).md",
     "01 Notes/redirect attack.md",
-    "02 Literature/papers/redirect attack/EARs in the wild. large-scale analysis of execution after redirect vulnerabilities.md",
     "03 References/(Payet, Doupe, et al., 2013).md",
     "02 Literature/papers/redirect attacks",
     "02 Literature/papers/redirect vulnerabilities",
@@ -226,12 +232,6 @@
     "04 Canvases/papers/front-end domain definition.canvas",
     "01 Notes/cookie.md",
     "02 Literature/papers/client-side storage/An investigation into possible attacks on HTML5 indexedDB and their prevention.md",
-    "01 Notes/IndexedDB.md",
-    "96 Meta/PhD status.md",
-    "96 Meta/Publication deadlines.md",
-    "96 Meta/References analysis.md",
-    "03 References/(Zhu, 2021).md",
-    "02 Literature/papers/XSS, CSRF/The state of HTTP declarative security in online banking websites.md",
     "02 Literature/papers/XSS, CSRF",
     "02 Literature/papers/web vulnerabilities review",
     "04 Canvases/meetings/2025_02_27.canvas",
