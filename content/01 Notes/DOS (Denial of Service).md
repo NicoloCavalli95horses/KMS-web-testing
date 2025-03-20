@@ -35,8 +35,6 @@ Denial-of-service attacks significantly degrade the service quality experienced 
 - the system architecture was not designed to meet traffic demand overflows. This makes it easier to perform a DoS attack and can cause DoS symptoms in the absence of an actual attack
 - an organization should avoid taking action that can make them a target of a DoS attack unless the benefits of doing so outweigh the potential costs or mitigating controls are in place
 
-
-
 ---
 ## References
 - [[(Ur Rehman, Nazir, Mustafa, 2017)]]
