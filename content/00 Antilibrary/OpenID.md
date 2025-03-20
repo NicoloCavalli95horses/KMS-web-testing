@@ -12,6 +12,8 @@ The Web as we know it today is site-centric, which results in users having multi
 
 OpenID is a decentralized WSSO solution. ==It is a free protocol and users can choose or even setup their own OpenID provider==
 
+Open ID connect uses [[OAuth]] 2.0 as the basic access authorization protocol and adds identity and interoperability features
+-  [[OAuth]] is an authorization protocol that allows users to access resources without sharing passwords
 ### How does it work
 
 1. **Login Request**: A user selects an identity provider or enters her OpenID URL via a login form presented by an relying party (the website the user is logging in) 
@@ -21,7 +23,6 @@ OpenID is a decentralized WSSO solution. ==It is a free protocol and users can c
 2. **Auth Request**: the relying party fetches the document on the given OpenID URL to discover the identity provider’s endpoint, and then ==redirects the user to the identity provider== for authentication 
 3. The user authenticates to the identity provider by ==entering username and password, and then consents== to the release of her profile information
 4. **Auth Response**: the identity provider redirects the user back to the relying party with the user’s OpenID identifier and profile attributes, both of which are ==signed by the identity provider==
-
 
 ### Known issues with OpenID
 
