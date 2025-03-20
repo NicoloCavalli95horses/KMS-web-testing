@@ -11,7 +11,7 @@ Unvalidated redirects and forwards are possible ==when a web application accepts
 - in this case, the user expect a redirect, but the actual URL is hijacked
 - by modifying untrusted URL input to a malicious site, an attacker may successfully launch a [[phishing]] attack
 
-**Never trust input data without validation!**
+**Never trust input data without validation**
 
 ```java
 response.sendRedirect(request.getParameter("url"));
@@ -37,8 +37,11 @@ But as soon as the victim clicks, an hidden redirect is executed:
 window.location.href = "https://malicious-site.com";
 ```
 
+See also: [[EAR (Execution After Redirect)]]
+
 ---
 #### References
 - [[(Chen, Shi, 2018)]]
 - Included in literature review, by [[(Onukrane, Skrodelis, et al., 2023)]]
 - https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html
+- [[(Payet, Doupe, et al., 2013)]]
