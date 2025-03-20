@@ -16,6 +16,7 @@ combines elements of:
 - [[phishing]] attacks, that trick the end user into interacting with a malicious web page
 - [[redirect attack]], that redirect to a malicious web page
 
+Browser's history sniffing can be used to accurate craft a specific URL to trick the user [[(Fonseka, Pashenna, et al., 2023)]]
 ### How does it work?
 
 - The victim access a malicious website (*website A*), that has a link to a trustful website (*website B*), for example the website of a bank
@@ -50,9 +51,19 @@ function goToLegitWebsite() {
 
 - when a website includes links to external resources, it can specify `rel="noopener noreferrer"` to prevent the new page from accessing the parent URL
 - opening an `about:blank` tab  and setting the new window-s opener to `null` will prevent the new tab to have a reference to the original one
+- the URL switch can be detected by tool that alert the user [[(Fonseka, Pashenna, et al., 2023)]]
+
+**Browser extensions** [[(Fonseka, Pashenna, et al., 2023)]]
+- Firefox plugin called NoTabNab
+- TabShots browser extension: takes snapshots of the browser in regular intervals
+- TabsGuard
+- TabSol
+- TabSecure
+- AgentTab
 
 
 ---
 ## References
 - [[(Hoffman, 2024)]]
 - [[(Sanchez, 2020)]]
+- [[(Fonseka, Pashenna, et al., 2023)]]

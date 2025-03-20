@@ -30,7 +30,7 @@
 		{"id":"c7127fb08f496c3f","x":-1427,"y":-1680,"width":795,"height":80,"type":"text","text":"# Observations on the first +16 papers"},
 		{"id":"73b59bc0fcedd02c","type":"text","text":"# About tools or vulnerabilities *Life cycle* (RQ3)\n","x":-1490,"y":-1080,"width":897,"height":80},
 		{"id":"930155de0aed68e5","x":-1430,"y":-1560,"width":795,"height":320,"type":"text","text":"- Many papers focus on HTTP traffic analysis. The role of the front-end in the communication is often not relevant\n- Tools for code synthesis (WAVES): code can be synthesized for both server and client if the same logic has to be implemented (e.g., double input validation)\n- Web client local storage (IndexedDB) it is not 100% secure, even in private mode\n- \"Private\" web applications (in local networks) often are less secure than public web application "},
-		{"id":"57cd65944a2802bd","x":-3281,"y":1460,"width":250,"height":100,"type":"text","text":"distinguish browser bugs"}
+		{"id":"57cd65944a2802bd","x":-3180,"y":1650,"width":301,"height":100,"type":"text","text":"distinguish browser bugs"}
 	],
 	"edges":[
 		{"id":"af9a9151cd26b795","fromNode":"d3d8a095b99a9142","fromSide":"bottom","toNode":"0a513a76f2085570","toSide":"top"},
