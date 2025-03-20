@@ -61,7 +61,7 @@ Specifies which headers can be used during the actual request.
 
 ## Example of a CORS Request and Response
 
-Client-Side JavaScript
+**Client-Side JavaScript**
 
 ```JavaScript
 fetch('https://api.anotherdomain.com/data', {
@@ -75,7 +75,7 @@ fetch('https://api.anotherdomain.com/data', {
 .catch(error => console.error('Error:', error));
 ```
 
-Server-Side Response
+**Server-Side Response**
 On the server side (https://api.anotherdomain.com), the response would include CORS headers:
 
 ```
@@ -85,11 +85,16 @@ HTTP/1.1 200 OK
 Access-Control-Allow-Origin: https://example.com
 Content-Type: application/json
 
-{
-  "data": "This is the response data"
-}
-
+{ "data": "This is the response data" }
 ```
+
+## Risks and shortcomings
+
+- CORS alone does not solve all the security problem. For example, it cannot protect against [[CSRF (cross-site request forgery)]]
+- bad implementations could still be exploited
+- using a whitelist of trust domains comes with the disadvantage of having to manually update the list from time to time
+- avoid using wildcards (`*`)
+- avoid using `Access-Control-Allow-Origin: null` because the `null` value can be edited
 
 ---
 ## References
