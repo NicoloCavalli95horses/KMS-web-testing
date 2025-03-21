@@ -4,33 +4,20 @@ tags:
   - definition
   - cyberSecurity
   - CORS
+  - crossDomainPolicy
+  - attackMitigation
 ---
 ## Definition
 
 Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a server to indicate any origins ([[domain]], scheme, or [[port]]) other than its own, ==from which a browser should permit loading resources==. CORS a set of rules that control how web applications hosted on one domain can request resources from a different domain. It is one of the possible [[cross-domain policies]]
-
-> They are necessary to enhance **security** by preventing potentially malicious behavior from web pages.
-
-```mermaid
-graph TD
-    A[Browser] -->|Sends Request| B[Server]
-    B -->|Checks Origin| C{Allowed Origin?}
-    C -->|Yes| D[Process Request]
-    C -->|No| E[Reject Request]
-    D -->|Responds| A
-    E -->|Responds with Error| A
-```
+- They are necessary to enhance **security** by preventing potentially malicious behavior from web pages
+- CORS represent a way to customize the default behavior of [[SOP (Same-Origin Policy)]]
 
 ## Why CORS is Necessary
 
-**Security**
-Without CORS, any web page could make requests to any other domain without restriction, which could lead to security vulnerabilities such as data theft or unwanted actions on behalf of the user.
-
-**Privacy**
-CORS helps prevent unauthorized access to private information by ensuring that only trusted websites can access resources.
-
-**Control**
-It gives resource owners control over which external domains can interact with their server.
+- **Security**: without CORS, any web page could make requests to any other domain without restriction, which could lead to security vulnerabilities such as data theft or unwanted actions on behalf of the user.
+- **Privacy**: CORS helps prevent unauthorized access to private information by ensuring that only trusted websites can access resources.
+- **Control**: It gives resource owners control over which external domains can interact with their server.
 
 ## Simple Example Scenarios
 
@@ -100,3 +87,4 @@ Content-Type: application/json
 ## References
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 - [[(Zhu, 2021)]]
+- https://medium.com/datamindedbe/cors-and-the-sop-explained-f59de3a5078

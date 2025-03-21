@@ -3,6 +3,7 @@ ID: 2025-02-04-11:48
 tags:
   - "#definition"
   - cyberSecurity
+  - crossDomainPolicy
 ---
 ## Definition
 
@@ -53,9 +54,19 @@ Client-side (not recommended), with the `<meta>` tag
 
 The implementation of the CSP depends on the needs of the project and must be done manually. As the project evolves, the CSP must grow in synchrony, otherwise unexpected results may occur
 
+### Nonce
+
+With hashes, developers can specify the cryptographic hash of their intended inline scripts in the CSP [[(Trampert, Stock, et al., 2023)]]
+
+```html
+<script nonce="ABCDEF0123456789"> benignJSFunction () ; </script >
+```
+
+The browser then determines for a given script (both inline and external) if the nonce provided in the `nonce` attribute of the `script` tag matches with the CSP-specified one.
 
 ---
 #### References
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
 - [[(Tkachenko et al., 2024)]]
+- [[(Trampert, Stock, et al., 2023)]]
 

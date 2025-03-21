@@ -12,7 +12,7 @@ To mitigate [[CSRF (cross-site request forgery)]] attacks, a random token is use
 - the web server generates an unique random token and sends it to the web client (i)
 - when the web client submit a request, the CSRF token is included
 - the server must verify that the user token matches the one that it has generated. This proves that the request was made by the user and not by an attacker
-- the CSRF token, if randomly generated, cannot be guessed by an attacker. Furthermore, an attacker cannot access this token saved in the user session because browsers block the attempt to access a cookie from another domain (*same-origin policy*)
+- the CSRF token, if randomly generated, cannot be guessed by an attacker. Furthermore, an attacker cannot access this token saved in the user session because browsers block the attempt to access a cookie from another domain (see [[SOP (Same-Origin Policy)]])
 
 **(i) How is the token sent to the client?**
 - if the client is generated server-side (PHP, Laravel), the token is embedded directly into a form
@@ -23,6 +23,7 @@ To mitigate [[CSRF (cross-site request forgery)]] attacks, a random token is use
 - **static token**: tokens that do not change. If stolen, can be exploited
 - **reoccurring tokens**: reused for a certain amount of time or from a rotating pool. An attacker can launch an attack that loop until the same token is found 2 times
 - **predictable tokens**: are not randomly generated and are pretty simple to guess (e.g., username + timestamp)
+
 ### Challenges
 
 - generating unique random numbers for each request introduces additional complexity as the logic has to be maintained and tested

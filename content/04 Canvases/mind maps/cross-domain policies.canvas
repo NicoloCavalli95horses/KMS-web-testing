@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"5b0a066dcdf41a6a","type":"text","text":"# Cross-domain policies\n\n### Critical security features to prevent a number of web attacks (see [[cross-domain policies]])\n","x":-290,"y":-40,"width":610,"height":200,"color":"4"},
+		{"id":"4f986574b0eb3efa","type":"text","text":"## [[COOP (Cross-Origin Opener Policy)]]","x":-290,"y":360,"width":555,"height":100},
+		{"id":"42d802aa71e91a0c","type":"text","text":"## [[COEP (Cross-Origin Embedder Policy)]]","x":360,"y":360,"width":590,"height":100},
+		{"id":"4b08b734f8838e72","type":"text","text":"## [[CSP (Content-security Policy)]]","x":-820,"y":360,"width":460,"height":100},
+		{"id":"5828d8ea310d4d4b","type":"text","text":"## [[SOP (Same-Origin Policy)]]\n\n- default browser behavior\n- HTML and CSS are not covered\n- sometimes the default behavior is too strict or too relaxed for certain purposes","x":-640,"y":-540,"width":420,"height":290},
+		{"id":"bdeba9a038bb0c92","type":"text","text":"## [[CORS (Cross-Origin Resource Sharing\n\n- cus","x":140,"y":-492,"width":575,"height":195}
+	],
+	"edges":[
+		{"id":"6a53285c59f1d040","fromNode":"5b0a066dcdf41a6a","fromSide":"bottom","toNode":"42d802aa71e91a0c","toSide":"top"},
+		{"id":"cdf71fd21dc6e2f5","fromNode":"5b0a066dcdf41a6a","fromSide":"bottom","toNode":"4f986574b0eb3efa","toSide":"top"},
+		{"id":"af8005a318859410","fromNode":"5b0a066dcdf41a6a","fromSide":"bottom","toNode":"4b08b734f8838e72","toSide":"top"},
+		{"id":"ecb30b36f90ee61f","fromNode":"5828d8ea310d4d4b","fromSide":"right","toNode":"bdeba9a038bb0c92","toSide":"left","label":"enhanced with"},
+		{"id":"35c4e5c4348493cb","fromNode":"5b0a066dcdf41a6a","fromSide":"top","toNode":"5828d8ea310d4d4b","toSide":"bottom"}
+	]
+}

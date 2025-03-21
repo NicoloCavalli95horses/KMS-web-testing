@@ -31,7 +31,7 @@ The Canvas API is often an attack vector for COIL because:
 
 ## Summary
 
-COIL is a category of cross-origin vulnerabilities that exploit various vectors (Canvas, WebGL, <img>, Web Workers, etc.) to infer information about resources from different origins. Protection against this vulnerability requires a robust implementation of security policies, such as Same-Origin Policy (SOP), CORS, and other measures specific to each application context.
+COIL is a category of cross-origin vulnerabilities that exploit various vectors (Canvas, WebGL, <img>, Web Workers, etc.) to infer information about resources from different origins. Protection against this vulnerability requires a robust implementation of security policies, such as [[SOP (Same-Origin Policy)]], [[CORS (Cross-Origin Resource Sharing)]], and other measures specific to each application context.
 
 Cross-Origin Image Leak (COIL) via Offscreen Canvas is a security vulnerability that can occur in the context of web applications that use the HTML5 Canvas API.
 
