@@ -23,6 +23,21 @@
             }
           },
           {
+            "id": "45b14d4ae73e07e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/CSP (Content-security Policy).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "CSP (Content-security Policy)"
+            }
+          },
+          {
             "id": "c9604f3aaa9a672a",
             "type": "leaf",
             "state": {
@@ -50,6 +65,21 @@
               },
               "icon": "lucide-file",
               "title": "CSRF (cross-site request forgery)"
+            }
+          },
+          {
+            "id": "09f42eb8d4371ffc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/CSRF (cross-site request forgery) token.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "CSRF (cross-site request forgery) token"
             }
           },
           {
@@ -259,13 +289,14 @@
   },
   "active": "b2fdaf889949f2d6",
   "lastOpenFiles": [
-    "01 Notes/CDN (Content Delivery Network).md",
+    "01 Notes/CSP (Content-security Policy).md",
     "02 Literature/papers/CSRF/Honey, I Cached our Security Tokens Re-usage of Security Tokens in the Wild.md",
+    "01 Notes/CSRF (cross-site request forgery) token.md",
     "01 Notes/CSRF (cross-site request forgery).md",
+    "01 Notes/CDN (Content Delivery Network).md",
     "01 Notes/SameSite cookie.md",
     "01 Notes/cross-domain policies.md",
     "01 Notes/XSS (cross site scripting).md",
-    "01 Notes/CSRF (cross-site request forgery) token.md",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "03 References/(Trampert, Stock, et al., 2023).md",
     "02 Literature/papers/CSRF",
@@ -296,7 +327,6 @@
     "01 Notes/C2C (client-to-client) communication.md",
     "96 Meta/References analysis.md",
     "01 Notes/ReDos (Regular Expression Denial of Service).md",
-    "96 Meta/PhD status.md",
     "97 Assets/ears_in_the_wild.png",
     "02 Literature/papers/redirect attacks",
     "02 Literature/papers/redirect vulnerabilities",

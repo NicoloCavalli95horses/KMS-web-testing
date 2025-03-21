@@ -18,6 +18,11 @@ To mitigate [[CSRF (cross-site request forgery)]] attacks, a random token is use
 - if the client is generated server-side (PHP, Laravel), the token is embedded directly into a form
 - if the client is a SPA application, the token is usually sent in an HTTP header and then saved as a session [[cookie]] or using a [[Web Storage API (localStorage, sessionStorage)]]
 
+### Types of malformed tokens
+
+- **static token**: tokens that do not change. If stolen, can be exploited
+- **reoccurring tokens**: reused for a certain amount of time or from a rotating pool. An attacker can launch an attack that loop until the same token is found 2 times
+- **predictable tokens**: are not randomly generated and are pretty simple to guess (e.g., username + timestamp)
 ### Challenges
 
 - generating unique random numbers for each request introduces additional complexity as the logic has to be maintained and tested
