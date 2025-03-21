@@ -4,13 +4,15 @@ tags:
   - "#definition"
   - cyberSecurity
   - crossDomainPolicy
+  - attackMitigation
 ---
 ## Definition
 
 Content Security Policy (CSP) is a feature that helps to prevent or minimize the risk of certain types of security threats.
 - It consists of a series of instructions from a website to a browser, which ==instruct the browser to place restrictions on the things that the front-end code is allowed to do==
 - It basically allows to define and control which resources (such as scripts, styles, and images) can be downloaded and executed
-- The primary case for CSP is preventing [[XSS (cross site scripting)]] attacks by defining, for example, a limited array of paths that can be used to load a script file
+- The primary case for CSP is preventing [[XSS (cross site scripting)]] attacks by defining, for example, a ==limited array of paths that can be used to load a script file==.
+- It can be used also to defend against [[clickjacking]] or [[tabnabbing]]
 - it is a type of [[cross-domain policies]]
 
 A CSP can, for example:
@@ -21,6 +23,16 @@ A CSP can, for example:
 - disable javascript: URLs
 - disable dangerous APIs like `eval()`
 
+### Example
+
+```http
+Content-Security-Policy: default-src 'self'; img-src 'self' example.com
+```
+
+It sets two directives:
+- `default-src` = 'self':  tells the browser to load only resources that are same-origin with the document, unless other more specific directives set a different policy for other resource types
+- `img-src` = 'self' example.com: tells the browser to load images that are same-origin or that are served from example.com.
+ 
 ### Where are the CSP defined?
 
 Server-side, directly in `.htaccess` or `httpd.conf` files (for Apache o Nginx machines)
@@ -44,15 +56,16 @@ app.use(helmet.contentSecurityPolicy({
 }));
 ```
 
-Client-side (not recommended), with the `<meta>` tag
+Client-side (not recommended), with the `<meta>` tag. Useful in some SPA scenario when the application is pure front-end.
   
 ```HTML
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://apis.example.com; style-src 'self' 'unsafe-inline';">
 ```
 
-### Risks
+### Security concerns and challenges
 
-The implementation of the CSP depends on the needs of the project and must be done manually. As the project evolves, the CSP must grow in synchrony, otherwise unexpected results may occur
+- The implementation of the CSP depends on the needs of the project and must be done manually
+- As the project evolves, the CSP must grow in synchrony, otherwise unexpected results may occur
 
 ### Nonce
 
@@ -66,7 +79,7 @@ The browser then determines for a given script (both inline and external) if the
 
 ---
 #### References
-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
 - [[(Tkachenko et al., 2024)]]
 - [[(Trampert, Stock, et al., 2023)]]
+- https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP
 

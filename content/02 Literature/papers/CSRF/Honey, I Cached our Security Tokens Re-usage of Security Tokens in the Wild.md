@@ -16,7 +16,7 @@ With [[CDN (Content Delivery Network)]], security tokens are often cached (accid
 RQ: *how is randomness used on the Web to aid sites in mitigating Cross-Site Scripting and stopping Cross-Site Request Forgery attacks?*
 ## Approach
 
-We measure the prevalence of reoccurring [[CSP (Content-security Policy)]] nonces and Anti-CSRF tokens for the 10,000 highest-ranking sites based on Tranco. 7210 sites were reached
+We measure the prevalence of reoccurring [[CSP (Content Security Policy)]] nonces and Anti-CSRF tokens for the 10,000 highest-ranking sites based on Tranco. 7210 sites were reached
 
 ## Results
 

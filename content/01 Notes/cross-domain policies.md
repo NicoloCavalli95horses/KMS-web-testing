@@ -11,9 +11,9 @@ tags:
 Cross-domain policy refers to restrictions that ==govern how resources ==(e.g., scripts, data, APIs) ==can be requested== from a domain other than the one where the resource originates. It is a security measure to prevent attacks.
 
 There are a number of policies that can be enabled and configured:
-- [[CSP (Content-security Policy)]]
-- [[SOP (Same-Origin Policy)]]
-- [[CORS (Cross-Origin Resource Sharing)]]
+- [[SOP (Same-Origin Policy)
+- [[CORS (Cross-Origin Resource Sharing)]]]]
+- [[CSP (Content Security Policy)]]
 - [[COEP (Cross-Origin Embedder Policy)]]
 - [[COOP (Cross-Origin Opener Policy)]]
 
