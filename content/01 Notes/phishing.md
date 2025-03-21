@@ -24,6 +24,10 @@ The role of the user interface design is not negligible [[(Spero, Biddle, 2021)]
 
 Often the title of the phishing website mimics a legitimate one (see [[typosquatting]]) or an IP address is used to mask part of the URL address (for instance, `http://192.168.0.1/paypal/login.php` instead of `“https://www.paypal.com/login.php` ) [[(Fonseka, Pashenna, et al., 2023)]]
 
+Simply using a blacklist of malicious websites is not an effective solution, since new phishing websites can be created in any moment and the list should be constantly updated [[(Chanakya, Spoorthi, et al., 2024)]]
+
+Phishing sites often masquerade as useful sites, leading users to unknowingly download malicious software, providing hackers with an easy path to intrude on computers. [[(Chanakya, Spoorthi, et al., 2024)]]
+
 ### Examples
 
 Attackers may study the email communications of an employee for a while, and then at some opportune moment send an email spoofing the identity of a trusted other asking for a transfer of funds, which will be deposited into the attacker’s account
@@ -45,3 +49,4 @@ Malicious URLs often
 - [[(Tkachenko et al., 2024)]]
 - [[(Spero, Biddle, 2021)]]
 - [[(Fonseka, Pashenna, et al., 2023)]]
+- [[(Chanakya, Spoorthi, et al., 2024)]]

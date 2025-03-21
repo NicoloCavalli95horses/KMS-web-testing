@@ -4,24 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "da73494ba62c81ee",
+        "id": "db0b4a381a96874e",
         "type": "tabs",
         "children": [
           {
-            "id": "8c3a746dc23479a3",
+            "id": "218cf5622d79addf",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/mind maps/cross-domain policies.canvas",
-                "viewState": {
-                  "x": 349.88873973519617,
-                  "y": -372.47210979846716,
-                  "zoom": -0.2777777667398809
-                }
+                "file": "02 Literature/papers/phishing/Web Spoofing Prevention. Machine Learning Based Client-Side Defence.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "cross-domain policies"
+              "icon": "lucide-file",
+              "title": "Web Spoofing Prevention. Machine Learning Based Client-Side Defence"
             }
           }
         ]
@@ -184,17 +182,21 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "8c3a746dc23479a3",
+  "active": "218cf5622d79addf",
   "lastOpenFiles": [
-    "01 Notes/COEP (Cross-Origin Embedder Policy).md",
     "04 Canvases/mind maps/cross-domain policies.canvas",
+    "04 Canvases/mind maps/front end security category.canvas",
+    "01 Notes/phishing.md",
+    "02 Literature/papers/phishing/Web Spoofing Prevention. Machine Learning Based Client-Side Defence.md",
+    "96 Meta/SLR/Paper list.md",
+    "03 References/(Chanakya, Spoorthi, et al., 2024).md",
+    "01 Notes/COEP (Cross-Origin Embedder Policy).md",
     "01 Notes/COOP (Cross-Origin Opener Policy).md",
     "01 Notes/CORS (Cross-Origin Resource Sharing).md",
     "01 Notes/cross-domain policies.md",
     "01 Notes/CSP (Content Security Policy).md",
     "01 Notes/SOP (Same-Origin Policy).md",
     "97 Assets/sop_policy_example.png",
-    "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
@@ -218,11 +220,6 @@
     "00 Antilibrary/smuggling.md",
     "00 Antilibrary/signature forgery.md",
     "00 Antilibrary/serviceability or maintenance testing.md",
-    "00 Antilibrary/RNN (recurrent neural network).md",
-    "00 Antilibrary/reliability testing.md",
-    "00 Antilibrary/reflection (Java).md",
-    "00 Antilibrary/recovery testing.md",
-    "00 Antilibrary/recommendation engine.md",
     "02 Literature/papers/CSRF",
     "02 Literature/papers/tabnabbing",
     "97 Assets/ears_in_the_wild.png",
