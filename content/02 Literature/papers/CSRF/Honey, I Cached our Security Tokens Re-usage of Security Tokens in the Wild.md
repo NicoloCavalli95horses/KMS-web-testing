@@ -27,7 +27,7 @@ We measure the prevalence of reoccurring CSP nonces and Anti-CSRF tokens for the
 
 ## Recommendations
 
-
+ - add caching directives via the Cache-Control header to responses to prevent dynamic content to be cached
 
 ---
 #### References
