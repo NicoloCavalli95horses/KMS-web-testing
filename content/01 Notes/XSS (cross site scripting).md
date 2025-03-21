@@ -127,6 +127,7 @@ Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, wit
 - **Sanitise HTML**: if user input needs to contain HTML, you can’t escape or encrypt it because doing so would render any acceptable tags useless. In such cases, parse and sanitise HTML using a trusted and proven library
 - **Content security policy**: use a [[CSP (Content-security Policy)]] to mitigate the effects of a potential XSS problem.
 	- The headers `X-XSS-Protection` (now deprecated), `X-Content-Security-Policy` have been implemented in the past to sanitise reflective XSS attacks [[(Aditya Sood, Richard Enbody, et al., 2011)]]
+- add a nonce (”number used once”) to a script tag and the header-delivered policy. Because those nonces are supposed to be random for each request, attackers can not guess them and thus not execute their malicious scripts. [[(Trampert, Stock, et al., 2023)]]
 
 ---
 ## References
