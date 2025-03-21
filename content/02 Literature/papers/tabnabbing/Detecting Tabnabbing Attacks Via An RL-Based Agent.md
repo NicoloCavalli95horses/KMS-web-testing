@@ -17,6 +17,7 @@ This research evaluates the effectiveness of [[RL (Reinforcement Learning)]] in 
 
 **Dataset**
 A publicly available dataset (Phishpedia) was utilized to train the model. The dataset contained both ==phishing websites and legitimate websites==. 
+- 48,046 data instances, with 19,388 being legitimate and 28,658 being phishing data
 
 **Features of the model**
 - Title
@@ -29,6 +30,16 @@ A publicly available dataset (Phishpedia) was utilized to train the model. The d
 - Favicon URL
 - Percentage of request URLs
 - Percentage of links in `<meta>`, `<script>`, and `<link>` tags
+
+The [[random forest]] algorithm was used to select the most significant features from the initial set. 5 features were identified as the most important
+
+The algorithm used to train the RL agent was DQN algorithm, which combines the principles of [[Q-learning]] with deep neural networks to approximate the Q-values (action values) for each state action pair
+
+## Results
+
+- During the testing phase, the RL agent achieved an accuracy of 83%, indicating its ability to correctly classify phishing and legitimate websites
+- Some false negatives were present
+- The achieved AUC-ROC of 85% suggests that the performance is quite robust
 
 ---
 #### References
