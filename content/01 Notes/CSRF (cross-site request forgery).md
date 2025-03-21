@@ -16,7 +16,7 @@ Cross-Site Request Forgery (CSRF) is an attack that forces an authenticated user
 
 - The user logs into a legitimate website (e.g., bank.com) and remains authenticated (via session cookies).
 - The attacker tricks the user into visiting another malicious website (e.g., via a [[phishing]] email, deceptive link, embedded image, invisible form).
-- The malicious website contains code that sends an HTTP request to the legitimate website (bank.com), exploiting the user's active session. The HTTP request ==will automatically attach the session cookie, therefore the attacker does not have even to know it==
+- The malicious website contains code that sends an HTTP request to the legitimate website (bank.com), exploiting the user's active session. The HTTP request ==will automatically attach the session cookie, therefore the attacker does not have even to know it== (unless [[SameSite cookie]] are activate, which is only true in Chrome by now)
 - Since the user's browser is still authenticated, the legitimate website accepts the request as valid, performing the fraudulent action on behalf of the user.
 
 ### How can the attacker know what HTTP request to send?
@@ -33,6 +33,11 @@ The attack does not have to exploit complex HTTP request configuration but it mi
 ```html
 <img src="https://banca.com/transfer?amount=5000&to_account=123456">
 ```
+
+### CSRF variants
+
+**Login CSRF** [[(Trampert, Stock, et al., 2023)]]
+- the attacker forces the victim to log into the attacker’s account on some service. While this may sound counterintuitive initially, it allows the attacker to track their victim’s activities, e.g., following their search history, since that history is now tied to the attacker’s account.
 
 ### Risks and consequences
 

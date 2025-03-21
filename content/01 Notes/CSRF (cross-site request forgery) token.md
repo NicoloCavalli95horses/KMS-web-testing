@@ -18,6 +18,10 @@ To mitigate [[CSRF (cross-site request forgery)]] attacks, a random token is use
 - if the client is generated server-side (PHP, Laravel), the token is embedded directly into a form
 - if the client is a SPA application, the token is usually sent in an HTTP header and then saved as a session [[cookie]] or using a [[Web Storage API (localStorage, sessionStorage)]]
 
+### Challenges
+
+- generating unique random numbers for each request introduces additional complexity as the logic has to be maintained and tested
+- many Web sites use a [[CDN (Content Delivery Network)]]. Because of caching mechanisms, the protection offered by the CSRF token is undermined in this cases, because the same token can be used by multiple applications, and used multiple times by the same user.
 
 ---
 #### References
