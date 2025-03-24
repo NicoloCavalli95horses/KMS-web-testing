@@ -22,13 +22,26 @@ Browser-based defenses can be an effective mechanism to protect web applications
 ### Contribution
 
 - A design of a semi-automatic method to build a gold set of authentication cookies, that is, ==a verified dataset where authentication cookies are isolated and identified correctly==. The outcome of this process is a real-world dataset derived from a sample of 70 amongst the today’s most popular websites of the Alexa ranking
-- A rigorous evaluation of four existing authentication cookie detectors. Our analysis shows a significant degree of misclassification in these detectors, that ends up generating a false sense of security
+- A ==rigorous evaluation of four existing authentication cookie detectors==. Our analysis shows a significant degree of misclassification in these detectors, that ends up generating a false sense of security
 - development of a binary classifier aimed at automatically and accurately identifying authentication cookies, based on supervised learning techniques.
 
 ## Approach
 
+Building a gold set of cookies consists of two steps:
+1. collecting sets of cookies from different websites (manual process that includes the login)
+2. marking each cookie with a binary label to identify the cookie as an authentication cookie or not (automated process with machine learning)
 
+**Session ID (auth token)**: a ==minimal set of cookies== which allows the server to authenticate the client, restoring the state of the associated user without asking her to log in again.
 
+The authors' solution for step 2., is to iteratively generating and checking subsets of all the cookies, until the smallest subset that still allow the user to be authenticated in is found
+- the output of the script was manually assessed for 70 websites
+- only 2 output were found to be incorrect
+
+### Results
+
+- 70 popular websites were taken from the Alexa ranking, collecting a dataset of 327 cookies, including 103 authentication cookies
+- 52 websites (74.3%) only use one authentication token, while the remaining 18 (25.7%) register two different tokens
+- the most surprising evidence is that ==many cookies which comply with standard naming conventions for authentication cookies are not actually authentication cookies.==
 
 ---
 #### References

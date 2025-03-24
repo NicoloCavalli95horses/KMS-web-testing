@@ -29,7 +29,12 @@ Although cookies may be set only by the visited domain, it is possible for a pag
 
 Stored by the browser and more "permanent" than [[Web Storage API (localStorage, sessionStorage)]], which are stored by the window.
 
-Types of session cookies have been suggested [[(Calzavara, Tolomei, et al., 2014)]]
+ [[(Calzavara, Tolomei, et al., 2014)]] have analyzed differences in session cookies, recognizing that not all the cookie with "random long text" are actually session cookie, or even essential for the user to be authenticated.
+ - multiple cookies may be used together to compose the session token (auth token)
+ - there may be session tokens that are actually not involved in the authentication mechanism
+ - an authentication token is ==a minimal set of cookies which allows the server to authenticate the client,== restoring the state of the associated user without asking her to log in again
+ - this also means that a session is vulnerable if and only if all the components of the session ID are known to the attacker
+ - a defense for cookie-based sessions is effective if can recognize at least 1 essential component of the session ID
 
 ---
 #### References
