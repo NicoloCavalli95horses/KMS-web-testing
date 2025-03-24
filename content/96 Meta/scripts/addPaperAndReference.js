@@ -1,31 +1,53 @@
+//==============================
+// Import
+//==============================
+
+const fs = require('fs');
+const path = require('path');
+
+
+//==============================
+// Functions
+//==============================
+
 async function main(params) {
-  const paperFolder = await params.quickAddApi.inputPrompt("Insert the paper's folder");
-  const bibCode     = await params.quickAddApi.inputPrompt("Insert a valid BibTeX code");
-  const refURL      = await params.quickAddApi.inputPrompt("Insert the paper's URL, if any");
-  const project     = await params.quickAddApi.inputPrompt("Insert the project name, if any");
+  // Select a paper or create one (mandatory)
+  const paperFolder = await selectOrCreateFolder(params);
+
+  if (!paperFolder) {
+    new Notice("Invalid paper folder");
+    return;
+  };
+
+  // Provide a valid bibCode
+  const bibCode = await params.quickAddApi.inputPrompt("Insert a valid BibTeX code");
+
+  if (!bibCode) {
+    new Notice("Invalid bibCode");
+    return;
+  };
+
+  // Provide ref URL and project (not mandatory)
+  const refURL = await params.quickAddApi.inputPrompt("Insert the paper's URL, if any");
+  const project = await params.quickAddApi.inputPrompt("Insert the project name, if any");
 
   const bibObj = parseBibTeX(bibCode);
-  const paperName = bibObj.title;
-  const refName = bibObj.ref;
-  const paperKeywords = bibObj.keywords;
+  const noteTitle = bibObj.title;
+  const bibRef = bibObj.ref;
+  const tags = bibObj.tags;
 
-  if (!paperName || !bibCode || !paperFolder || !refName) { 
-    new Notice("Aborted");
-    return;
-   };
-
-  const refPath = `03 References/${refName}.md`;
+  const refPath = `03 References/${bibRef}.md`;
   const folderPath = `02 Literature/papers/${paperFolder}`;
   const folderExists = app.vault.getAbstractFileByPath(folderPath);
-  const paperPath = `${folderPath}/${paperName}.md`;
+  const paperPath = `${folderPath}/${noteTitle}.md`;
 
   if (!folderExists) {
     await app.vault.createFolder(folderPath);
     new Notice(`Created new ${folderPath} folder`);
   }
 
-  const paperContent = getPaperContent(refName, paperKeywords, project);
-  const refContent = getRefContent(refURL, bibCode, project);
+  const paperContent = getPaperContent({ ref: bibRef, tags, project });
+  const refContent = getRefContent({ url: refURL, bibCode, project });
 
   const refExist = app.vault.getAbstractFileByPath(refPath);
   if (refExist) {
@@ -38,18 +60,76 @@ async function main(params) {
     new Notice(`Created new paper's note at: ${paperPath}`);
 
     // Open new files
-    app.workspace.openLinkText(paperName, "", true);
-    app.workspace.openLinkText(refName, "", true);
+    app.workspace.openLinkText(noteTitle, "", true);
   }
 };
 
+
+/**
+ * Select or create a new folder that will contain the new paper
+ */
+async function selectOrCreateFolder(params) {
+  const folders = await getPapersFolders();
+  const NEW_FOLDER = "➕ New folder...";
+  const options = [NEW_FOLDER, ...folders];
+  const selectedFolder = await params.quickAddApi.suggester(options, options);
+
+  if (!selectedFolder) {
+    new Notice("Invalid paper folder");
+  } else if (selectedFolder == NEW_FOLDER) {
+    return await createNewFolder(params);
+  }
+  return selectedFolder;
+}
+
+
+/**
+ * Create a new folder that will contain the new paper
+ */
+async function createNewFolder(params) {
+  const newFolder = await params.quickAddApi.inputPrompt("Insert the new folder name");
+
+  if (!newFolder) {
+    new Notice("Invalid paper folder");
+    return;
+  }
+
+  try {
+    await app.vault.createFolder(newFolder);
+    return newFolder;
+  } catch (error) {
+    new Notice(`Unable to create the folder ${newFolder}: ${error.message}`);
+    return;
+  }
+}
+
+
+/**
+ * Return all the folders that contain papers
+ */
+async function getPapersFolders() {
+  const parentFolder = app.vault.adapter.getFullPath("02 Literature/papers");
+  try {
+    const subfolders = fs.readdirSync(parentFolder, { withFileTypes: true }).filter(dir => dir.isDirectory()).map(dir => dir.name);
+    return subfolders;
+  } catch (error) {
+    console.error("Unable to read folders: ", error);
+    return;
+  }
+}
+
+/**
+ * Parse the bibtex code and return an object
+ * @param {string} bibtex 
+ * @returns an object { title, ref, tags }
+ */
 function parseBibTeX(bibtex) {
-  bibtex = bibtex.toString();
+  bibtex = bibtex?.toString();
   const titleMatch = bibtex.match(/,\s*title\s*=\s*{\s*(.*?)\s*}/i);
   const authorMatch = bibtex.match(/,\s*author\s*=\s*{\s*(.*?)\s*}/i);
   const yearMatch = bibtex.match(/,\s*year\s*=\s*{\s*(\d{4})\s*}/i);
-  const keywordsMatch = bibtex.match(/,\s*keywords\s*=\s*{\s*(.*?)\s*}/i);
-  const keywords = keywordsMatch ? keywordsMatch[1].split(/\s*;\s*/) : [];
+  const tagsMatch = bibtex.match(/,\s*keywords\s*=\s*{\s*(.*?)\s*}/i);
+  const tags = tagsMatch ? tagsMatch[1].split(/\s*;\s*/) : [];
 
 
   if (!titleMatch || !authorMatch || !yearMatch) {
@@ -71,15 +151,21 @@ function parseBibTeX(bibtex) {
     ref = `(${singleAuthor}, ${year})`;
   }
 
-  return { title, ref, keywords };
+  return { title, ref, tags };
 }
 
 
-
-function getPaperContent(refName, keywords = [], project) {
+/**
+ * Get paper note content in .md
+ * @param {Object} obj
+ * @param {string} obj.ref      - The link to the ref note
+ * @param {string} obj.tags - The tags associated with the paper
+ * @param {string} obj.project  - The project to which the paper belongs
+ */
+function getPaperContent({ ref, tags = [], project }) {
   return `---
 ID: ${new Date().toISOString()}
-tags: paper ${toCamelCase(keywords)}
+tags: paper ${toCamelCase(tags)}
 ${project ? '\nProject:\n - ' + project : ''}
 ---
 ## Context
@@ -92,12 +178,19 @@ Describe the paper approach in simple term.
 
 ---
 #### References
-- [[${refName}]]
+- [[${ref}]]
 `;
 }
 
 
-function getRefContent(refURL, bibCode, project) {
+/**
+ * Get ref note content in .md
+ * @param {Object} obj
+ * @param {string} obj.url     - The URL of the ref
+ * @param {string} obj.bibCode - The research bibCode
+ * @param {string} obj.project - The project to which the paper belongs
+ */
+function getRefContent({ url, bibCode, project }) {
   return `---
 ID: ${new Date().toISOString()}
 tags: ref
@@ -105,7 +198,7 @@ ${project ? '\nProject:\n - ' + project : ''}
 ---
 ## External Link
 
-${refURL || ''}
+${url || ''}
 
 ## BibTeX
 
@@ -115,7 +208,7 @@ ${bibCode}
 
 function toCamelCase(arr) {
   return arr
-    .map(tag => 
+    .map(tag =>
       tag
         .replace(/\./g, '')
         .split(/\s+/)
