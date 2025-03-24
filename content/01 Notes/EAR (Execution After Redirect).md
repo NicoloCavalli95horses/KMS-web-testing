@@ -34,7 +34,7 @@ Since the `header()` function does not halt the execution flow, the `echo` funct
 
 In a real example, this happen:
 - a HTTP response is sent by the server, implying that the user is not logged in and redirecting to the login page
-- the body of the response still contain the resource the user was trying to access
+- the body of the response still contain the resource the user was trying to access, because the logic of the redirect is not well implemented
 
 ```txt
 HTTP/1.1 302 Found
@@ -49,3 +49,4 @@ Content-Type: text/html; charset=ISO-8859-1
 ---
 #### References
 -  [[(Payet, Doupe, et al., 2013)]]
+- As example of logic flaw, pag.6, in [[(Deepa, Thilagam, et al., 2018)]]

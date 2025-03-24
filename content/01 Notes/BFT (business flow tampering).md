@@ -18,7 +18,7 @@ Business flow tampering or exploiting logical flaws, is a significant security i
 - **missing server-side validation**: misuses of client-side scripting to process and validate the user-supplied input for quick processing and for bringing down the server-side loads. A ==parameter manipulation attack== is based on faulty [[client-side input validations]]
 - **missing/Incomplete access check**: inadequate session variables checks that can be tampered with to access restricted content or resources. If [[RBAC (role-based access control)]] is not well implemented, ==authentication/authorization bypass attacks== can occur
 - **Overloading session variables**: uncontrolled creation/population of session objects or usage of identical session variables at various application entry points is called overloading of session variables, and may lead to [[session puzzling]] attacks
-- **Missing sequence check**: In some business workflows, the user must follow a specific sequence of operations. For example, the user is expected to reach page C only after completing actions on pages A and B. However, if the application relies solely on a [[CSRF (cross-site request forgery) token]] without enforcing the sequence of visited pages, an attacker might directly request page C after page A, bypassing page B. ==This happens because the CSRF token validation does not ensure that the expected steps were followed in the correct order.==
+- **Missing sequence check**: In some business workflows, the user must follow a specific sequence of operations. For example, the user is expected to reach page C only after completing actions on pages A and B. However, if the application relies solely on a [[CSRF (cross-site request forgery) token]] without enforcing the sequence of visited pages, an attacker might directly request page C after page A, bypassing page B. ==This happens because the CSRF token validation does not ensure that the expected steps were followed in the correct order.== 
 
 ### Tampering techniques
 
@@ -74,3 +74,4 @@ Although [[OWASP (Open Web Application Security Project)]] strongly recommend en
 - [[(Khodayari, Pellegrino, 2023)]]
 - [[(Deepa, Thilagam, et al., 2018)]]
 
+See also [[workflow constraints]]: how to define and identify "critical" pages in a web application

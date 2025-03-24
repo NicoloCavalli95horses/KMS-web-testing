@@ -21,16 +21,26 @@ Since a number of solutions have been proposed to deal with **injection-related*
 ## Approach
 
 In order to identify logic vulnerabilities, the intended behavior must be analyzed and a way to bypass it must be found. But how to extract the desired behavior of an unknown application?
-1. The requirements placed on user-input are inferred by ==analyzing the HTML/JavaScript code available at the client-side==
-2. The access-control policies related to the application are ==derived from the session variables defined for maintaining state of the application==
-3. The intended workflows in the application are ==derived from a model which is constructed out of the navigations done manually in the application==
+1. The requirements placed on user-input are inferred by analyzing the HTML/JavaScript code available at the client-side
+2. The access-control policies related to the application are *derived from the session variables* defined for maintaining state of the application
+3. The intended workflows in the application are *derived from a model which is constructed out of the navigations done **manually** in the application*
+
+An in-house pseudo-application is used as reference. The PHP application implement a [[RBAC (role-based access control)]] policy and is full of bugs and logic flaws. A FSM is proposed to model this app
 
 ### DetLogic prototype
 
 The prototype works in three phases:
-1. extraction of the intended behavior of the web application under test in a black-box fashion ([[black-box testing]])
-2. construction of concrete attack vectors based on the information gathered
-3. comparison of the responses obtained during normal and attack executions, and reporting vulnerabilities accordingly. The prototype detects three types of logic vulnerabilities: parameter manipulation, access-control, and workflow bypass vulnerabilities.
+1. extraction of the intended behavior of the web application under test in a black-box fashion ([[black-box testing]]), creating a [[FSM (finite-state machine)]]. The FSM is built from execution traces collected using a proxy server that intercepts the HTTP requests and provide details regarding parameters and session variables
+2. construction of concrete attack vectors based on the information gathered. For example, the FSM helps *identify vulnerable flows* where `userID` is null or a user with a certain role tries to access a specific resource
+3. comparison of the responses obtained during normal and attack executions, and reporting vulnerabilities accordingly. Example: forcefully brows a page with a null `userID`
+	- The goal is to detect three types of logic vulnerabilities: parameter manipulation, access-control, and workflow bypass vulnerabilities
+
+DetLogic acts a proxy intercepting the HTTP requests and responses to the application under test during **learning phase**, and places attack requests to the web server of the application under test **during discovery of vulnerabilities**
+
+
+> [!WARNING] Limits
+> - The authors' approach is based on an in-house scenario/application
+> - The modelling phase strictly depends on a manual navigation of the target application
 
 
 ---
