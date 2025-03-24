@@ -31,6 +31,7 @@ tags:
 - Topological sorting in dependency resolution
 - Detecting cycles in graphs
 - Solving puzzles and games that require exhaustive search
+- [[direct graph-based logic flow analysis]]
 
 ---
 ## References
