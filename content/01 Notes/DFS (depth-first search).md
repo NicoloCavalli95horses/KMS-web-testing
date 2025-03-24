@@ -3,6 +3,7 @@ ID: 2024-12-18-11:52
 tags:
   - definition
   - algorithm
+  - softwareEngineering
 ---
 ## Definition
 
@@ -31,5 +32,6 @@ tags:
 - Detecting cycles in graphs
 - Solving puzzles and games that require exhaustive search
 
+---
 ## References
-https://medium.com/@tahsinsoyakk/depth-first-search-dfs-a-comprehensive-guide-89fa4ac94883
+- https://medium.com/@tahsinsoyakk/depth-first-search-dfs-a-comprehensive-guide-89fa4ac94883

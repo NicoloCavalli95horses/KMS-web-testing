@@ -1,15 +1,19 @@
 {
 	"nodes":[
-		{"id":"992ef3ee6b3dca88","x":-360,"y":-140,"width":720,"height":80,"type":"text","text":"### Workflow bypass attack [[(Deepa, Thilagam, et al., 2018)]]"},
-		{"id":"50ac5449f1eb6c96","x":-360,"y":5,"width":360,"height":100,"type":"text","text":"An attacker knows the intended flow of an application"},
-		{"id":"8e6e104e39580974","x":-360,"y":130,"width":360,"height":130,"type":"text","text":" A legitimate CSRF token is issued on visiting the first page (A), to protect against CSRF attacks"},
-		{"id":"55c89d59262b7833","x":67,"y":140,"width":157,"height":50,"type":"text","text":"CSRF token"},
-		{"id":"f5cad4afd5ea18bd","type":"text","text":"A","x":110,"y":40,"width":70,"height":50},
-		{"id":"b9e8088808e0e586","type":"text","text":"B","x":220,"y":40,"width":70,"height":50},
-		{"id":"d762efb0c81cb111","type":"text","text":"C","x":325,"y":40,"width":70,"height":50},
-		{"id":"179c0c68db53d755","type":"text","text":"if the application relies solely on a CSRF without enforcing the sequence of visited pages, an attacker might directly request page C after page A, bypassing page B.","x":-360,"y":420,"width":360,"height":180},
-		{"id":"f610b2087b49a6ef","type":"text","text":"C","x":290,"y":485,"width":70,"height":50},
-		{"id":"80737c55f3efe519","type":"text","text":"A","x":75,"y":485,"width":70,"height":50}
+		{"id":"f5cad4afd5ea18bd","type":"text","text":"A","x":-50,"y":-65,"width":70,"height":50},
+		{"id":"b9e8088808e0e586","type":"text","text":"B","x":60,"y":-65,"width":70,"height":50},
+		{"id":"f610b2087b49a6ef","type":"text","text":"C","x":131,"y":320,"width":70,"height":50},
+		{"id":"d762efb0c81cb111","type":"text","text":"C","x":165,"y":-65,"width":70,"height":50},
+		{"id":"992ef3ee6b3dca88","type":"text","text":"### Workflow bypass attack [[(Deepa, Thilagam, et al., 2018)]]","x":-520,"y":-245,"width":720,"height":80},
+		{"id":"50ac5449f1eb6c96","type":"text","text":"An attacker knows the intended flow of an application","x":-520,"y":-100,"width":360,"height":100},
+		{"id":"8e6e104e39580974","type":"text","text":" A legitimate CSRF token is issued on visiting the first page (A), to protect against CSRF attacks","x":-520,"y":25,"width":360,"height":130},
+		{"id":"55c89d59262b7833","type":"text","text":"CSRF token","x":-93,"y":35,"width":157,"height":50},
+		{"id":"179c0c68db53d755","type":"text","text":"if the application relies solely on a CSRF without enforcing the sequence of visited pages, an attacker might directly request page C after page A, bypassing page B.","x":-519,"y":255,"width":360,"height":180},
+		{"id":"80737c55f3efe519","type":"text","text":"A","x":-84,"y":320,"width":70,"height":50},
+		{"id":"5f7480e353acbff5","x":2200,"y":-440,"width":389,"height":500,"type":"file","file":"97 Assets/control_flow_graph.png"},
+		{"id":"c57ad00ce083d46a","x":1280,"y":120,"width":1344,"height":618,"type":"text","text":"![[graphs_after_removal_critical_pages.png]]"},
+		{"id":"472594e7924f8fc8","type":"text","text":"### Direct graph-based logic flow analysis","x":1320,"y":-440,"width":680,"height":80},
+		{"id":"370cd5d8f930cf77","x":1320,"y":-320,"width":680,"height":240,"type":"text","text":"It is possible to identify the most critical pages in an application, in a black-box fashion, by observing the nodes whose removal\n- increases the number of components of a graph\n- disconnect the graph\n- create unreachable nodes"}
 	],
 	"edges":[
 		{"id":"9e543da14a031f28","fromNode":"f5cad4afd5ea18bd","fromSide":"right","toNode":"b9e8088808e0e586","toSide":"left"},

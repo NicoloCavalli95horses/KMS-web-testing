@@ -18,6 +18,7 @@ An event flow graph is created by identifying the events on a GUI component
 
 See [[event models comparison]]
 
+---
 ## References
-[[(Lelli, Blouin, Baudry, 2015b)]]
-[[(Memon, Banerjee, Ishan, et al., 2003)]]
+- [[(Lelli, Blouin, Baudry, 2015b)]]
+- [[(Memon, Banerjee, Ishan, et al., 2003)]]

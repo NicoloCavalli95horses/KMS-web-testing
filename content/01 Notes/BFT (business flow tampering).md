@@ -74,4 +74,4 @@ Although [[OWASP (Open Web Application Security Project)]] strongly recommend en
 - [[(Khodayari, Pellegrino, 2023)]]
 - [[(Deepa, Thilagam, et al., 2018)]]
 
-See also [[workflow constraints]]: how to define and identify "critical" pages in a web application
+See also [[direct graph-based logic flow analysis]]: how to define and identify "critical" pages in a web application

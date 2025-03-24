@@ -56,9 +56,11 @@ Since a model based on events is decoupled from the internal behavior/state of a
 - at least one finish event is reachable from each event
 
 See [[event models comparison]]
+
+---
 ## References
-[[(Arlt, Podelski, Bertolini, et al., 2012)]]
-[[(Linares-Vasquez, White, et al., 2018)]]
-[[(Cohen, Myra B., et al., 2012)]]
-[[(Belli, Beyazit, Memon, 2012)]]
-[[(Huang, Cohen, Memon, 2010)]]
+- [[(Arlt, Podelski, Bertolini, et al., 2012)]]
+- [[(Linares-Vasquez, White, et al., 2018)]]
+- [[(Cohen, Myra B., et al., 2012)]]
+- [[(Belli, Beyazit, Memon, 2012)]]
+- [[(Huang, Cohen, Memon, 2010)]]

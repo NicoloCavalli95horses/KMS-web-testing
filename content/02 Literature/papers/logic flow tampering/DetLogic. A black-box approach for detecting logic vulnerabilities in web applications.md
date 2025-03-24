@@ -17,15 +17,15 @@ Since a number of solutions have been proposed to deal with **injection-related*
 
 - black-box approaches do not take into consideration the interaction between multiple pages
 - ad-hoc solutions that are not scalable
-- literature on workflow bypass considers session variables but neglect other parameters such as [[CSRF (cross-site request forgery) token]]
+- literature on workflow bypass considers session variables but neglect other parameters such as the role of the [[CSRF (cross-site request forgery) token]]
 ## Approach
 
-In order to identify logic vulnerabilities, the intended behavior must be analyzed and a way to bypass it must be found. But how to extract the desired behavior of an unknown application?
+In order to identify logic vulnerabilities, the intended behavior must be analyzed and a way to bypass it must be found
 1. The requirements placed on user-input are inferred by analyzing the HTML/JavaScript code available at the client-side
 2. The access-control policies related to the application are *derived from the session variables* defined for maintaining state of the application
 3. The intended workflows in the application are *derived from a model which is constructed out of the navigations done **manually** in the application*
 
-An in-house pseudo-application is used as reference. The PHP application implement a [[RBAC (role-based access control)]] policy and is full of bugs and logic flaws. A FSM is proposed to model this app
+An in-house pseudo-application is used as reference to explain the modelization of the problem. The example application implement a [[RBAC (role-based access control)]] policy and is full of bugs and logic flaws. A FSM is proposed to model this app
 
 ### DetLogic prototype
 
@@ -35,13 +35,11 @@ The prototype works in three phases:
 3. comparison of the responses obtained during normal and attack executions, and reporting vulnerabilities accordingly. Example: forcefully brows a page with a null `userID`
 	- The goal is to detect three types of logic vulnerabilities: parameter manipulation, access-control, and workflow bypass vulnerabilities
 
-DetLogic acts a proxy intercepting the HTTP requests and responses to the application under test during **learning phase**, and places attack requests to the web server of the application under test **during discovery of vulnerabilities**
+DetLogic acts a proxy intercepting the HTTP requests and responses to the application under test during **learning phase** (i), generate attacks (ii) and places attacks (iii), assessing the security of the [[SUT (system under test)]]
 
 
 > [!WARNING] Limits
-> - The authors' approach is based on an in-house scenario/application
 > - The modelling phase strictly depends on a manual navigation of the target application
-
 
 ---
 #### References
