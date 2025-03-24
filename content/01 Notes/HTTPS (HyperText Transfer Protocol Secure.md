@@ -19,7 +19,7 @@ It uses encryption to protect the privacy of data transmitted between the browse
 ### Advantages
 
 The advantages of using HTTPS include:
-- protection against eavesdropping and data modification
+- protection against [[HTTP eavesdropping]] and data modification
 - increasing user confidence in a web resource (modern browsers empathize the trustfulness of a web page with a green lock in the URL bar)
 - improving search engine rankings (since HTTPS is a ranking factor for Google)
 

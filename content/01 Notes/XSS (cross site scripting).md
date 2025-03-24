@@ -15,7 +15,7 @@ Cross-site scripting vulnerabilities (XSS henceforth) are a security problem tha
 - Most of the time it is a result of a ==failed tentative to validate the user input==
 
 Successful XSS can:
-- steal session information stored in a [[cookie]]
+- steal session information stored in a [[cookie]] [[(Calzavara, Tolomei, et al., 2014)]]
 - transfer private information
 - hijack a user's account
 - manipulate the web content
@@ -142,3 +142,4 @@ Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, wit
 - One of the first description of the attack [[(Watson, 2007)]]
 - Unsystematic and short literature review by [[(Farah, Shojol, et al., 2016)]]
 - [[(Trampert, Stock, et al., 2023)]]
+- Identification of real session cookies, by [[(Calzavara, Tolomei, et al., 2014)]]

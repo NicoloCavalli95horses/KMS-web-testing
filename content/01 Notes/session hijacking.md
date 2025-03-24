@@ -12,7 +12,8 @@ This is when a user’s session identifier is stolen and used by the an hacker t
 
 **Session fixation**
 This is when an attacker is assigned a valid session identifier by the application and then feeds this session to an unknowing user.
-This is usually done with a web URL that the user must click on the link:
+
+This is usually done with a web URL that the user must click:
 - Once the user clicks the link and signs into the application, the a hacker can then use the same session identifier to assume the identity of the user
 - This a hack also occurs when the web server accepts any session from a user and does not assign a new session upon authentication. In this case, the a hacker will use his or her own, pre-chosen session, to send to the victim.
 - These a hacks work because the session identifier is allowed to be reused (or replayed) in multiple sessions.
@@ -28,3 +29,4 @@ This is when session identifiers are passed as URL parameters during the request
 ---
 #### References
 - [[(Pauli, 2013)]]
+- [[(Calzavara, Tolomei, et al., 2014)]]
