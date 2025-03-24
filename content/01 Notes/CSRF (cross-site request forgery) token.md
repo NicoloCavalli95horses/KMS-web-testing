@@ -28,6 +28,7 @@ To mitigate [[CSRF (cross-site request forgery)]] attacks, a random token is use
 
 - generating unique random numbers for each request introduces additional complexity as the logic has to be maintained and tested
 - many Web sites use a [[CDN (Content Delivery Network)]]. Because of caching mechanisms, the protection offered by the CSRF token is undermined in this cases, because the same token can be used by multiple applications, and used multiple times by the same user.
+- A CSRF token may be used in a legitimate way to tamper the business flow, by skipping the intendet
 
 ---
 #### References
