@@ -30,7 +30,7 @@ An in-house pseudo-application is used as reference to explain the modelization 
 ### DetLogic prototype
 
 The prototype works in three phases:
-1. extraction of the intended behavior of the web application under test in a black-box fashion ([[black-box testing]]), creating a [[FSM (finite-state machine)]]. The FSM is built from execution traces collected using a proxy server that intercepts the HTTP requests and provide details regarding parameters and session variables
+1. extraction of the intended behavior of the web application under test in a black-box fashion ([[black-box testing]]), creating a [[FSM (finite-state machine)]]. The FSM is built from execution traces collected using a proxy server that intercepts the HTTP requests and provide details regarding parameters and session variables (see [[HTTP trace collection]])
 2. construction of concrete attack vectors based on the information gathered. For example, the FSM helps *identify vulnerable flows* where `userID` is null or a user with a certain role tries to access a specific resource
 3. comparison of the responses obtained during normal and attack executions, and reporting vulnerabilities accordingly. Example: forcefully brows a page with a null `userID`
 	- The goal is to detect three types of logic vulnerabilities: parameter manipulation, access-control, and workflow bypass vulnerabilities
