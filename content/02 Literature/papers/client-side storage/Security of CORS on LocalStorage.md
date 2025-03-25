@@ -11,7 +11,7 @@ Project:
 ---
 ## Context
 
-This paper analyze and study the security vulnerabilities of [[CORS (Cross-Origin Resource Sharing)]] on [[Web Storage API (localStorage, sessionStorage)]], present a concrete attack case, and  put forward a practical scheme and some strategy
+This paper analyze and study the security vulnerabilities of [[CORS (Cross-Origin Resource Sharing)]] on [[Web Storage API (localStorage, sessionStorage)]], present a concrete attack case, and put forward a practical scheme and some strategy
 
 ## Approach
 
