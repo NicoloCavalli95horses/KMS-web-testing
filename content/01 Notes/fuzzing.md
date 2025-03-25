@@ -24,11 +24,14 @@ Typically, fuzzers are used to test programs that ==take structured inputs.==
 - **Mutation-based**: the input is obtained modifying existing inputs
 - **Dumb fuzzer**: it is not aware of the expected input structure
 - **Smart fuzzer**: it is aware of the expected input structure
-- **White-fuzzer, grey-fuzzer, or black-box fuzzer:** depending on whether it is aware of the whole program structure
 
-## Black box approach
+Categories according to  [[(Neef, Kleissner, et al., 2024)]]:
+- ==white box fuzzers== have full access to the source code, so they can monitor the internal behavior and states of the fuzzed application. [[symbolic execution]] and [[dynamic taint analysis]] are two such approaches
+- ==black box fuzzers== cannot collect information about the target application’s internal behavior or state. These fuzzers can only monitor the application from the outside and thus have limited ability to optimize test cases
+- ==grey box fuzzers== work with or without source code while still gathering execution information about the fuzzed application. The collected application’s execution coverage becomes the feedback to the fuzzer
 
-Commercial and free web application fuzzers often follow a black box approach, which limits their effectiveness in detecting vulnerabilities due to no or little feedback from the fuzzed application [[(Neef, Kleissner, et al., 2024)]]
+Most of the research focus has been put on binary application [[(Neef, Kleissner, et al., 2024)]]:
+- In traditional binary application fuzzing, a crash of the target application is an indicator that the generated test case resulted in a potential vulnerability or unintended behavior
 
 ---
 ## References

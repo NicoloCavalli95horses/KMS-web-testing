@@ -48,7 +48,7 @@ Widgets should always be destroyed after they are no longer needed. In a client/
 
 ## Related work
 
-Concepts such as vulnerability or [[security testing]], [[fuzzling]] and GUI testing are well-known in SE.
+Concepts such as vulnerability or [[security testing]], [[fuzzing]] and GUI testing are well-known in SE.
 - In web application, [[black-box testing]] techniques are typically used to look for [[XSS (cross site scripting)]] vulnerabilities
 - client side parameter tampering is not new, but automatically detect GUI misuse that lead to privilege escalation it is
 

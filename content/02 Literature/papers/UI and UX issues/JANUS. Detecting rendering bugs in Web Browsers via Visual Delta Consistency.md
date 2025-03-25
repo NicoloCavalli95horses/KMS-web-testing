@@ -14,7 +14,7 @@ This paper introduces **Visual Delta Consistency,** a [[test oracle]] that detec
 > [!summary]
 > ==Any modifications made to an HTML file should uniformly influence rendering outcomes across browsers.== The reaction of all browsers should be consistent (i.e., either all browsers render them identically or all render them differently).
 
-We implemented a practical fuzzer named JANUS (see [[fuzzling]]), that:
+We implemented a practical fuzzer named JANUS (see [[fuzzing]]), that:
 - constructs pairs of slightly modified HTML files and observes the change statuses of the corresponding rendered pages across browsers for bug detection (1)
 - we evaluated it on three widely-used browsers: Chrome, Safari, and Firefox
 - JANUS detected 31 non-crash rendering bugs, out of which 24 confirmed with 8 fixes

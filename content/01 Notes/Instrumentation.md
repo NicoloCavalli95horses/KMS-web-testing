@@ -21,4 +21,5 @@ In more complex systems you can use tools like Valgrind (for memory profiling an
 ---
 #### References
 - https://en.wikipedia.org/wiki/Instrumentation_(computer_programming)
+- PHP instrumentation, by [[(Neef, Kleissner, et al., 2024)]]
 

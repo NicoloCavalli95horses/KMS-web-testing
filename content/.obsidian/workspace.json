@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/zero-day vulnerability.md",
+                "file": "02 Literature/papers/testing enhancements/What All the PHUZZ Is About. A Coverage-guided Fuzzer for Finding Vulnerabilities in PHP Web Applications.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "zero-day vulnerability"
+              "title": "What All the PHUZZ Is About. A Coverage-guided Fuzzer for Finding Vulnerabilities in PHP Web Applications"
+            }
+          },
+          {
+            "id": "c908b673d311277f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/instrumentation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "instrumentation"
             }
           },
           {
@@ -28,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/fuzzling.md",
+                "file": "01 Notes/fuzzing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "fuzzling"
+              "title": "fuzzing"
             }
           }
         ]
@@ -110,12 +125,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Notes/zero-day vulnerability.md",
+                "file": "02 Literature/papers/testing enhancements/What All the PHUZZ Is About. A Coverage-guided Fuzzer for Finding Vulnerabilities in PHP Web Applications.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from zero-day vulnerability"
+              "title": "Outgoing links from What All the PHUZZ Is About. A Coverage-guided Fuzzer for Finding Vulnerabilities in PHP Web Applications"
             }
           },
           {
@@ -139,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01 Notes/zero-day vulnerability.md",
+                "file": "02 Literature/papers/testing enhancements/What All the PHUZZ Is About. A Coverage-guided Fuzzer for Finding Vulnerabilities in PHP Web Applications.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of zero-day vulnerability"
+              "title": "Outline of What All the PHUZZ Is About. A Coverage-guided Fuzzer for Finding Vulnerabilities in PHP Web Applications"
             }
           },
           {
@@ -200,10 +215,11 @@
   },
   "active": "e64623b3c04014b0",
   "lastOpenFiles": [
+    "01 Notes/fuzzing.md",
     "02 Literature/papers/testing enhancements/What All the PHUZZ Is About. A Coverage-guided Fuzzer for Finding Vulnerabilities in PHP Web Applications.md",
-    "01 Notes/zero-day vulnerability.md",
     "01 Notes/instrumentation.md",
-    "01 Notes/fuzzling.md",
+    "01 Notes/XXE (XML external entities).md",
+    "01 Notes/zero-day vulnerability.md",
     "96 Meta/SLR/Paper list.md",
     "02 Literature/papers/code synthesis/WAVES. Automatic Synthesis of Client-Side Validation Code for Web Applications.md",
     "02 Literature/papers/CSRF/The state of HTTP declarative security in online banking websites.md",
@@ -225,7 +241,6 @@
     "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
     "02 Literature/papers/CSRF/A server and browser transparent CSRF defense for web 2.0 applications.md",
     "02 Literature/papers/prototype pollution/A Multivocal Literature Review on Prototype Pollution Vulnerability.md",
-    "02 Literature/papers/software models/A Grey-Box Approach for Detecting Malicious User Interactions in Web Applications.md",
     "04 Canvases/meetings/2025_03_27.canvas",
     "05 Dataset/vulnerable webapp.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",

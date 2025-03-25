@@ -23,7 +23,7 @@ Different approaches have been taken but web security still miss a comprehensive
 - fault-injection-based security testing
 - vulnerability scanning with [[static analysis]]
 - mutant injection approaches
-- [[fuzzling]] approaches
+- [[fuzzing]] approaches
 
 **Model based testing**
 Model based testing applies in graph based techniques, that takes advantage of a model of the events emitted by the GUI ([[ESG (event sequence graph)]], [[EFG (event flow graph)]], [[EIG (event interaction graph)]]) to derive test cases based on covered test statements, paths and branches. A [[FSM (finite-state machine)]] based model can also be used to drive test ases.
