@@ -12,7 +12,7 @@ The work detailed in this paper establishes 4 contributions:
 1) A GUI [[fault model]] designed to identify and classify GUI faults.
 2) An empirical analysis for assessing the relevance of the proposed fault model against failures found in real GUIs
 3) An empirical assessment of two GUI testing tools (i.e. GUITAR and Jubula) against those failures
-4) GUI mutants we’ve developed according to our fault model. These mutants are freely available and can be reused by developers for benchmarking their GUI testing tools.
+4) GUI mutants we’ve developed according to our fault model. These mutants are freely available and can be reused by developers for [[benchmark testing]] their GUI testing tools.
 
 ==The current trend in GUI design is the shift from designing standard widgets to designing [[ad hoc widgets]] that can handle [[multi-event interactions]] and [[multi-modal interactions]]==
 

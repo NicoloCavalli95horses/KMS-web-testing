@@ -47,6 +47,19 @@ This work focuses on ==user-supplied input (HTTP headers, cookies, query, body p
 
 ### Phuzz implementation
 
+### Evaluation
+
+Phuzz was compared with a set of state-of-the-art vulnerability scanners or fuzzers against a set of six different web applications with a diverse set of vulnerabilities. About the [[benchmark testing]]
+- The buggy web app (bWAPP), provided 30 vulnerabilities usable for our comparison
+- The Damn Vulnerable Web Application (DVWA), offered 18 suitable vulnerabilities with varying difficulty levels
+- The Xtreme Vulnerable Web Application (XVWA), that implements 10 vulnerabilities, including insecure deserialization
+- WackoPicko, that had 7 suitable vulnerabilities, after being modified for PHP8 compatibility
+- 22 real-world WordPress plugins with known vulnerabilities. Except for some commercial plugins, a plugin’s source code is open, allowing us to download and install it in our environment.
+
+Phuzz ==identifies 99% of the vulnerabilities== and thus outperforms the state-of-the-art black-box vulnerability scanners BurpSuite, ZAP, Wapiti, and WFuzz
+
+For client-side vulnerabilities, Phuzz finds up to 26% more vulnerabilities than the other fuzzers, although BurpSuite finds almost the same amount (95%).
+
 ---
 #### References
 - [[(Neef, Kleissner, et al., 2024)]]
