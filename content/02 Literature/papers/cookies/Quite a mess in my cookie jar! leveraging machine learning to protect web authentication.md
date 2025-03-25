@@ -29,7 +29,7 @@ Browser-based defenses can be an effective mechanism to protect web applications
 
 Building a gold set of cookies consists of two steps:
 1. collecting sets of cookies from different websites (manual process that includes the login)
-2. marking each cookie with a binary label to identify the cookie as an authentication cookie or not (automated process with machine learning)
+2. marking each cookie with a binary label to identify the cookie as an authentication cookie or not (automated process with [[supervised learning]])
 
 **Session ID (auth token)**: a ==minimal set of cookies== which allows the server to authenticate the client, restoring the state of the associated user without asking her to log in again.
 
@@ -42,6 +42,12 @@ The authors' solution for step 2., is to iteratively generating and checking sub
 - 70 popular websites were taken from the Alexa ranking, collecting a dataset of 327 cookies, including 103 authentication cookies
 - 52 websites (74.3%) only use one authentication token, while the remaining 18 (25.7%) register two different tokens
 - the most surprising evidence is that ==many cookies which comply with standard naming conventions for authentication cookies are not actually authentication cookies.==
+- 82 out of 103 authentication cookies in our gold set ==do not comply with standard naming conventions==
+- most of the authentication cookies ==are rather long as expected==, in that their values include at least 25 characters, even though we observe that some authentication cookies are ==surprisingly short==
+- 53 out of 103 authentication cookies only use one case of letters and digits
+- several authentication cookies present a fairly late expiration date
+- cookies marked as HTTP-Only and/or Secure are likely to be auth cookie, but not always
+- the authors' tool performed quite well in correctly classifying the cookies in the gold dataset. The number of false positives is 33, which is better than all the other four examined solutions
 
 ---
 #### References
