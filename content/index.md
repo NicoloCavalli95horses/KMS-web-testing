@@ -2,7 +2,6 @@
 title: Web front-end testing
 ID: index
 tags:
-  - index
   - homepage
 ---
 

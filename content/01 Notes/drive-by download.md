@@ -3,7 +3,7 @@ ID: 2025-01-14-16:33
 tags:
   - "#definition"
   - cyberSecurity
-  - gui
+  - GUI
 ---
 ## Definition
 

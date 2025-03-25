@@ -4,7 +4,7 @@ tags:
   - definition
   - cyberSecurity
   - designPattern
-  - rbac
+  - RBAC
   - accessControl
 ---
 ## Definition

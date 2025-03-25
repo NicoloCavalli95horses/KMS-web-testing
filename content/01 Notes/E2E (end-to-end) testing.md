@@ -2,7 +2,7 @@
 ID: 2024-12-11-14:28
 tags:
   - definition
-  - e2e
+  - E2E
   - testingTechniques
 ---
 ## Definition

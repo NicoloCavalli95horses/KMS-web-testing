@@ -7,7 +7,7 @@ tags:
   - testingTechniques
   - metamorphicTesting
   - android
-  - blackBoxTesting
+  - blackBox
 ---
 ## Context
 

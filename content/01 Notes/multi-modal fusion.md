@@ -3,7 +3,7 @@ ID: 2024-12-04-10:02
 tags:
   - definition
   - multiModal
-  - gui
+  - GUI
 ---
 ## Definition
 

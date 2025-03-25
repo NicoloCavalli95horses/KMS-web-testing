@@ -2,7 +2,7 @@
 ID: 2025-02-28-10:35
 tags:
   - "#definition"
-  - abac
+  - ABAC
   - accessControl
   - cyberSecurity
 ---

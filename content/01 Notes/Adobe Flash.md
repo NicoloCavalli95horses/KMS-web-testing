@@ -2,7 +2,7 @@
 ID: 2025-03-18-10:48
 tags:
   - "#definition"
-  - FlashSecurity
+  - Flash
 ---
 ## A Brief History of Adobe Flash
 

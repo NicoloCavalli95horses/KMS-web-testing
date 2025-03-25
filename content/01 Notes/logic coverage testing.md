@@ -2,7 +2,7 @@
 ID: 2024-12-30-09:39
 tags:
   - "#definition"
-  - whiteBoxTesting
+  - whiteBox
   - testingTechniques
 ---
 ## Definition

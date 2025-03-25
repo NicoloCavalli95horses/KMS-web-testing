@@ -2,7 +2,7 @@
 ID: 2025-02-28-10:24
 tags:
   - "#definition"
-  - owasp
+  - OWASP
   - accessControl
 ---
 ## Definition

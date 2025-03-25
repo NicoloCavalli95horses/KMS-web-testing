@@ -4,7 +4,7 @@ tags:
   - paper
   - JavaScript
   - testingTechniques
-  - e2e
+  - E2E
   - selenium
 ---
 ## Abstract

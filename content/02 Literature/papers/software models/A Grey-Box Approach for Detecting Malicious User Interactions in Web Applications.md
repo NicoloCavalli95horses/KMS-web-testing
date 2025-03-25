@@ -4,9 +4,10 @@ tags:
   - paper
   - userModels
   - behavioralModel
-  - blackBoxTesting
-  - whiteBoxTesting
-  - greyBoxTesting
+  - blackBox
+  - whiteBox
+  - greyBox
+  - projectSLR
 Project:
   - SLR
 ---

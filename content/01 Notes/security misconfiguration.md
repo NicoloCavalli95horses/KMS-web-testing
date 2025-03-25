@@ -2,7 +2,7 @@
 ID: 2025-02-17-12:04
 tags:
   - "#definition"
-  - owasp
+  - OWASP
   - cyberSecurity
   - webApplication
 ---

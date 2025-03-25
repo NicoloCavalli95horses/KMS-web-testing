@@ -3,7 +3,7 @@ ID: 2025-03-24-16:07
 tags:
   - "#definition"
   - cyberSecurity
-  - Http
+  - HTTP
 ---
 ## Definition
 

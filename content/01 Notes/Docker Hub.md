@@ -4,7 +4,8 @@ tags:
   - definition
   - docker
   - deploy
-  - ci/cd
+  - CI
+  - CD
 ---
 ## Main concepts
 

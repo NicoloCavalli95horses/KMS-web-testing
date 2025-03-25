@@ -4,7 +4,7 @@ tags:
   - "#definition"
   - clientSideAttacks
   - cyberSecurity
-  - gui
+  - GUI
 ---
 ## Definition
 

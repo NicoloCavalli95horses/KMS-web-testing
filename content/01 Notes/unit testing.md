@@ -4,7 +4,7 @@ tags:
   - definition
   - testingTechniques
   - codeAnalysis
-  - whiteBoxTesting
+  - whiteBox
 ---
 ## Definition
 

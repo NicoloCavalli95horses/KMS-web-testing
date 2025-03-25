@@ -2,7 +2,7 @@
 ID: 2025-01-13-09:43
 tags:
   - "#definition"
-  - gui
+  - GUI
   - testingTechniques
   - cyberSecurity
 ---

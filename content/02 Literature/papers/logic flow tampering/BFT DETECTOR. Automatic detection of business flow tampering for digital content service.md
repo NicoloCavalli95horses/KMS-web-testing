@@ -2,12 +2,13 @@
 ID: 2025-03-04T10:59:55.363Z
 tags:
   - paper
-  - blackBoxTesting
+  - blackBox
   - clientSideAttacks
   - businessFlowTampering
   - JavaScript
   - codeAnalysis
   - cyberSecurity
+  - projectSLR
 Project:
   - SLR
 ---

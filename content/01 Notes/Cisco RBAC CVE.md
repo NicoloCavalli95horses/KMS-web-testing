@@ -3,7 +3,7 @@ ID: 2024-12-03-09:38
 tags:
   - definition
   - cyberSecurity
-  - cve
+  - CVE
 ---
 ## Cisco Prime Home authentication bypass vulnerability
 

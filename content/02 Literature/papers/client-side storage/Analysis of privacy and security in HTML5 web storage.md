@@ -4,6 +4,7 @@ tags:
   - paper
   - IndexedDB
   - clientStorageAttack
+  - projectSLR
 Project:
   - SLR
 ---

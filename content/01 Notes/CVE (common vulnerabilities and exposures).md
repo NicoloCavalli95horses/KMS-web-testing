@@ -2,7 +2,7 @@
 ID: 2024-12-03-08:51
 tags:
   - cyberSecurity
-  - cve
+  - CVE
 ---
 ## What is CVE?
 

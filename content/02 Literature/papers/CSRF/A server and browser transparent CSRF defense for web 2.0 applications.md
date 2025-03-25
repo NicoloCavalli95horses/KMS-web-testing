@@ -5,6 +5,7 @@ tags:
   - CSFR
   - attackMitigation
   - SOP
+  - projectSLR
 Project:
   - SLR
 ---

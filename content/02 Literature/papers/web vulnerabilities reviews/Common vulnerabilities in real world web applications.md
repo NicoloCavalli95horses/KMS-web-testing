@@ -2,7 +2,7 @@
 ID: 2025-01-15-13:55
 tags:
   - paper
-  - gui
+  - GUI
   - cyberSecurity
   - metaAnalysis
 ---

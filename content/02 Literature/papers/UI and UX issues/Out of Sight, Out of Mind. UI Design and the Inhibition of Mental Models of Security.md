@@ -3,9 +3,9 @@ ID: 2025-02-19-14:54
 tags:
   - paper
   - cyberSecurity
-  - gui
-  - design
-  - hci
+  - GUI
+  - graphicDesign
+  - HCI
 ---
 ## Context
 

@@ -2,7 +2,7 @@
 ID: 2024-12-06-09:24
 tags:
   - paper
-  - gui
+  - GUI
   - testGeneration
 ---
 ## Main concepts

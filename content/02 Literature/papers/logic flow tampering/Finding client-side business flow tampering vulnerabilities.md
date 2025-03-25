@@ -7,6 +7,7 @@ tags:
   - codeAnalysis
   - cyberSecurity
   - clientSideAttacks
+  - projectSLR
 Project:
   - SLR
 ---

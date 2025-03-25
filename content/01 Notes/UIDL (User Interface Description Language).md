@@ -3,7 +3,7 @@ ID: 2024-12-04-11:11
 tags:
   - definition
   - softwareEngineering
-  - gui
+  - GUI
 ---
 ## Definition
 

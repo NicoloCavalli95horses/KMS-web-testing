@@ -2,10 +2,11 @@
 ID: 2025-03-12T13:55:55.363Z
 tags:
   - paper
-  - SqlInjection
-  - WebAccessPolicy
+  - SQLIA
+  - webAccessPolicy
   - XSS
-  - Http
+  - HTTP
+  - projectSLR
 Project:
   - SLR
 ---

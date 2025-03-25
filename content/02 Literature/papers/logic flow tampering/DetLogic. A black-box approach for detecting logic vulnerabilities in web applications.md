@@ -3,7 +3,8 @@ ID: 2025-03-24T08:23:24.051Z
 tags:
   - paper
   - businessFlowTampering
-  - blackBoxTesting
+  - blackBox
+  - projectSLR
 Project:
   - SLR
 ---

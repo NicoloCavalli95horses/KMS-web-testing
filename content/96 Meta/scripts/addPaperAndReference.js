@@ -165,7 +165,7 @@ function parseBibTeX(bibtex) {
 function getPaperContent({ ref, tags = [], project }) {
   return `---
 ID: ${new Date().toISOString()}
-tags: paper ${toCamelCase(tags)}
+tags: paper ${toCamelCase(tags) + ' project'+ project }
 ${project ? '\nProject:\n - ' + project : ''}
 ---
 ## Context

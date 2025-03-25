@@ -4,7 +4,7 @@ tags:
   - paper
   - visualTesting
   - testAmplification
-  - gui
+  - GUI
   - webApplication
 ---
 ## Context

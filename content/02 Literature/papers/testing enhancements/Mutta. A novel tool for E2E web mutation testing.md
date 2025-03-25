@@ -5,7 +5,7 @@ tags:
   - mutationTesting
   - webApplication
   - selenium
-  - e2e
+  - E2E
 ---
 ## Introduction
 

@@ -2,10 +2,11 @@
 ID: 2025-03-03T13:55:55.363Z
 tags:
   - paper
-  - domClobbering
+  - DOMClobbering
   - cyberSecurity
   - clientSideAttacks
   - businessFlowTampering
+  - projectSLR
 Project:
   - SLR
 ---

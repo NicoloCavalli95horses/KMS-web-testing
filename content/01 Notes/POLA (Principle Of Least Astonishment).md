@@ -2,7 +2,7 @@
 ID: 2024-07-27-17:04
 tags:
   - definition
-  - pola
+  - POLA
   - principle
 ---
 ## Definition

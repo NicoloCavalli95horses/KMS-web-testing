@@ -1,7 +1,7 @@
 ---
 ID: 2024-12-03-15:18
 tags:
-  - gui
+  - GUI
   - definition
 ---
 ## What is WIMP?

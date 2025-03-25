@@ -3,7 +3,7 @@ ID: 2024-12-05-11:23
 tags:
   - definition
   - cyberSecurity
-  - dos
+  - DoS
 ---
 ## Definition
 

@@ -4,7 +4,7 @@ tags:
   - "#definition"
   - metamorphicTesting
   - testingTechniques
-  - gui
+  - GUI
 ---
 ## Definition
 

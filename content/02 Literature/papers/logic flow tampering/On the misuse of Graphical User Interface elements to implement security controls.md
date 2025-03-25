@@ -2,10 +2,10 @@
 ID: 2025-01-13-13:53
 tags:
   - paper
-  - gems
+  - GEM
   - cyberSecurity
   - accessControl
-  - rbac
+  - RBAC
 ---
 This papers appears to be a shorter version of [[(Mulliner, Robertson, Kirda, 2014)]]
 

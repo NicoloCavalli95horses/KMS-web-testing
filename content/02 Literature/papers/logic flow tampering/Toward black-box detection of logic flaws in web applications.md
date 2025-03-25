@@ -2,7 +2,7 @@
 ID: 2025-01-29-11:19
 tags:
   - paper
-  - blackBoxTesting
+  - blackBox
   - clientSideAttacks
   - webApplication
   - cyberSecurity

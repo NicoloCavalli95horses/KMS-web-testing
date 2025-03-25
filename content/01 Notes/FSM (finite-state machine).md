@@ -3,7 +3,7 @@ ID: 2024-12-04-14:27
 tags:
   - definition
   - designPattern
-  - model
+  - softwareModel
 ---
 ## Definition
 

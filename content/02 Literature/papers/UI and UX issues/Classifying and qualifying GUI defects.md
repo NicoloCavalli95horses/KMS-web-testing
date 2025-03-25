@@ -2,7 +2,7 @@
 ID: 2024-12-03-15:07
 tags:
   - paper
-  - gui
+  - GUI
 ---
 ## Abstract
 

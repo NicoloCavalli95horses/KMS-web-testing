@@ -2,7 +2,7 @@
 ID: 2024-12-09-10:04
 tags:
   - paper
-  - gui
+  - GUI
   - componentTesting
   - eventBasedTesting
 ---

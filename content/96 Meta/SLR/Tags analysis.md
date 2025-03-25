@@ -17,10 +17,13 @@ pages.forEach(p => {
     }
 });
 
-delete tagCounts["paper"];
+const GENERAL_TAGS = ['paper', 'cyberSecurity'];
+GENERAL_TAGS.forEach(t => delete tagCounts[t])
 
 dv.table(["Tag", "Count"], Object.entries(tagCounts).sort((a, b) => b[1] - a[1]));
 ```
+
+
 
 
 

@@ -3,6 +3,7 @@ ID: 2024-12-04-17:31
 tags:
   - definition
   - testingTechniques
+  - fuzzing
 ---
 ## Definition
 
@@ -11,7 +12,8 @@ tags:
 
 Typically, fuzzers are used to test programs that ==take structured inputs.== 
 
-> An effective fuzzer generates semi-valid inputs that are "valid enough" in that they are not directly rejected by the parser, but do create unexpected behaviors deeper in the program and are "invalid enough" to expose corner cases that have not been properly dealt with.
+> [!SUMMARY]
+>  An effective fuzzer generates semi-valid inputs that are "valid enough" in that they are not directly rejected by the parser, but do create unexpected behaviors deeper in the program and are "invalid enough" to expose corner cases that have not been properly dealt with.
 
 ==For the purpose of security, input that crosses a trust boundary is often the most useful:==
 - For example, it is more important to fuzz code that handles a file uploaded by any user than it is to fuzz the code that parses a configuration file that is accessible only to a privileged user
@@ -23,5 +25,12 @@ Typically, fuzzers are used to test programs that ==take structured inputs.==
 - **Dumb fuzzer**: it is not aware of the expected input structure
 - **Smart fuzzer**: it is aware of the expected input structure
 - **White-fuzzer, grey-fuzzer, or black-box fuzzer:** depending on whether it is aware of the whole program structure
+
+## Black box approach
+
+Commercial and free web application fuzzers often follow a black box approach, which limits their effectiveness in detecting vulnerabilities due to no or little feedback from the fuzzed application [[(Neef, Kleissner, et al., 2024)]]
+
+---
 ## References
-https://en.wikipedia.org/wiki/Fuzzing
+- https://en.wikipedia.org/wiki/Fuzzing
+- [[(Neef, Kleissner, et al., 2024)]]

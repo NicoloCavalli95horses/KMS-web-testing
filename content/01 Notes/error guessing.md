@@ -3,7 +3,7 @@ ID: 2024-12-30-16:36
 tags:
   - "#definition"
   - testingTechniques
-  - blackBoxTesting
+  - blackBox
 ---
 ## Definition
 

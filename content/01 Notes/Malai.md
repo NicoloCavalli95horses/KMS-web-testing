@@ -2,7 +2,7 @@
 ID: 2024-12-04-13:42
 tags:
   - designPattern
-  - model
+  - softwareModel
   - definition
 ---
 ## What is MALAI

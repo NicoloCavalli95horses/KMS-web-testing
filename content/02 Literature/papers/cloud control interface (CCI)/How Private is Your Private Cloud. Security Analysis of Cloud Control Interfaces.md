@@ -5,7 +5,8 @@ tags:
   - XSS
   - CSFR
   - IaaS
-  - CloudSecurity
+  - cloudSecurity
+  - projectSLR
 Project:
   - SLR
 ---

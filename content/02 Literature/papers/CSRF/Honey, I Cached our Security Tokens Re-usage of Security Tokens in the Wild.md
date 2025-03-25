@@ -4,6 +4,7 @@ tags:
   - paper
   - CSFR
   - CDN
+  - projectSLR
 Project:
   - SLR
 ---

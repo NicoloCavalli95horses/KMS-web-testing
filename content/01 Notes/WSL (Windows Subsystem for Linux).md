@@ -2,8 +2,8 @@
 ID: 2024-08-24-10:46
 tags:
   - linux
-  - wsl
-  - os
+  - WSL
+  - OS
   - tool
 ---
 ## Main concepts

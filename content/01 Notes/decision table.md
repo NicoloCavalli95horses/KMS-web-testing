@@ -3,7 +3,7 @@ ID: 2024-12-26-17:28
 tags:
   - "#definition"
   - softwareEngineering
-  - blackBoxTesting
+  - blackBox
 ---
 ## Definition
 

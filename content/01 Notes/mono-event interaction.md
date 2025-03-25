@@ -2,7 +2,7 @@
 ID: 2024-12-04-09:55
 tags:
   - definition
-  - gui
+  - GUI
 ---
 ## Definition
 

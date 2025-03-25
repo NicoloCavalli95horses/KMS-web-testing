@@ -2,10 +2,11 @@
 ID: 2025-03-18T09:07:42.050Z
 tags:
   - paper
-  - SocialNetworkSecurity
-  - FlashSecurity
-  - Http
+  - socialNetworkSecurity
+  - Flash
+  - HTTP
   - crossDomainPolicy
+  - projectSLR
 Project:
   - SLR
 ---

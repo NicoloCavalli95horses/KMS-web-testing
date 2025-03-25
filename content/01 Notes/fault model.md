@@ -2,7 +2,7 @@
 ID: 2024-12-04-10:09
 tags:
   - definition
-  - model
+  - softwareModel
 ---
 ## Definition
 

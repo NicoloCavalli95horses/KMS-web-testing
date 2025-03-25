@@ -2,11 +2,11 @@
 ID: 2025-01-13-09:36
 tags:
   - paper
-  - gems
-  - gui
+  - GEM
+  - GUI
   - cyberSecurity
   - accessControl
-  - rbac
+  - RBAC
 ---
 ## Abstract
 

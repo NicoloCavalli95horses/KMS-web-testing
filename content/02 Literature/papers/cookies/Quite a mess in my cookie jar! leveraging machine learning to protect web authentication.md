@@ -7,6 +7,7 @@ tags:
   - authentication
   - supervisedLearning
   - machineLearning
+  - projectSLR
 Project:
   - SLR
 ---

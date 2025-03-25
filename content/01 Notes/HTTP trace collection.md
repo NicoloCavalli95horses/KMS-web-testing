@@ -3,7 +3,7 @@ ID: 2025-03-24-13:10
 tags:
   - "#definition"
   - algorithm
-  - Http
+  - HTTP
 ---
 ## Definition
 

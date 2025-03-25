@@ -2,7 +2,7 @@
 ID: 2024-12-04-09:46
 tags:
   - definition
-  - gui
+  - GUI
   - visualTesting
 ---
 ## Definition

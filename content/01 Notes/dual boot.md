@@ -2,7 +2,7 @@
 ID: 2024-08-24-10:55
 tags:
   - definition
-  - os
+  - OS
 ---
 ## Main concepts
 

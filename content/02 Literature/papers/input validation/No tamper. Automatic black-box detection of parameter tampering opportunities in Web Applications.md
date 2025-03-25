@@ -2,7 +2,7 @@
 ID: 2025-01-13-17:22
 tags:
   - paper
-  - blackBoxTesting
+  - blackBox
   - symbolicEvaluation
   - cyberSecurity
   - parameterTampering

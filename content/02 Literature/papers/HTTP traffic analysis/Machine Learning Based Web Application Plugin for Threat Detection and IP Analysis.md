@@ -3,7 +3,7 @@ ID: 2025-03-17T13:20:11.162Z
 tags:
   - paper
   - MachineLearning
-  - Http
+  - HTTP
   - prototypePollution
 ---
 ## Context

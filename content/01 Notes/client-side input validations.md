@@ -4,7 +4,7 @@ tags:
   - inputValidation
   - cyberSecurity
   - clientSideAttacks
-  - gui
+  - GUI
   - JavaScript
 ---
 ### Semantic input validation

@@ -4,7 +4,8 @@ tags:
   - paper
   - XSS
   - CSFR
-  - Http
+  - HTTP
+  - projectSLR
 Project:
   - SLR
 ---
