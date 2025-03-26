@@ -13663,42 +13663,6 @@
         ]
       }
     },
-    "02 Literature/papers/software obfuscation/A Comparison of Online JavaScript Obfuscators.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 1082,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 3.6066666666666665,
-      "characterCount": 7447,
-      "nonWhitespaceCharacterCount": 6319,
-      "readingTimeInMinutes": 4.083018867924529,
-      "linkCount": 5,
-      "embedCount": 1,
-      "aliases": null,
-      "createdDate": 1741599666318,
-      "modifiedDate": 1741684754770,
-      "sizeInBytes": 7572,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 3.6066666666666665,
-        "wordCount": 1082,
-        "characterCount": 7447,
-        "nonWhitespaceCharacterCount": 6319
-      },
-      "frontmatter": {
-        "ID": "2025-01-31-15:43",
-        "tags": [
-          "paper",
-          "cyberSecurity",
-          "obfuscation",
-          "JavaScript",
-          "webApplication",
-          "browser"
-        ]
-      }
-    },
     "02 Literature/papers/software models/Testing is an Event-Centric Activity.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -15431,43 +15395,6 @@
           "paper",
           "bufferOverflow",
           "cyberSecurity"
-        ]
-      }
-    },
-    "02 Literature/papers/auth security/Systematically breaking and fixing OpenID security. Formal analysis, semi-automated empirical evaluation, and practical countermeasures.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 170,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.5666666666666667,
-      "characterCount": 1212,
-      "nonWhitespaceCharacterCount": 1018,
-      "readingTimeInMinutes": 0.6415094339622641,
-      "linkCount": 3,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1742459600711,
-      "modifiedDate": 1742894581879,
-      "sizeInBytes": 1326,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.5666666666666667,
-        "wordCount": 170,
-        "characterCount": 1212,
-        "nonWhitespaceCharacterCount": 1018
-      },
-      "frontmatter": {
-        "ID": "2025-03-20T08:33:20.693Z",
-        "tags": [
-          "paper",
-          "authentication",
-          "OpenID",
-          "projectSLR"
-        ],
-        "Project": [
-          "SLR"
         ]
       }
     },
@@ -17639,6 +17566,79 @@
         "ID": "2025-02-28-10:33",
         "tags": [
           "#definition"
+        ]
+      }
+    },
+    "02 Literature/papers/authentication/Systematically breaking and fixing OpenID security. Formal analysis, semi-automated empirical evaluation, and practical countermeasures.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 170,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.5666666666666667,
+      "characterCount": 1212,
+      "nonWhitespaceCharacterCount": 1018,
+      "readingTimeInMinutes": 0.6415094339622641,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1742459600711,
+      "modifiedDate": 1742894581879,
+      "sizeInBytes": 1326,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-03-20T08:33:20.693Z",
+        "tags": [
+          "paper",
+          "authentication",
+          "OpenID",
+          "projectSLR"
+        ],
+        "Project": [
+          "SLR"
+        ]
+      }
+    },
+    "02 Literature/papers/cryptography/A Comparison of Online JavaScript Obfuscators.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 1082,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 3.6066666666666665,
+      "characterCount": 7447,
+      "nonWhitespaceCharacterCount": 6319,
+      "readingTimeInMinutes": 4.083018867924529,
+      "linkCount": 5,
+      "embedCount": 1,
+      "aliases": null,
+      "createdDate": 1741599666318,
+      "modifiedDate": 1741684754770,
+      "sizeInBytes": 7572,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-01-31-15:43",
+        "tags": [
+          "paper",
+          "cyberSecurity",
+          "obfuscation",
+          "JavaScript",
+          "webApplication",
+          "browser"
         ]
       }
     }
