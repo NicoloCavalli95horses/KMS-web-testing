@@ -186,7 +186,9 @@
   },
   "active": "23007cf94e4e9054",
   "lastOpenFiles": [
+    "01 Notes/JWT (JSON Web Token).md",
     "02 Literature/papers/JWT/JSON Web Token Penetration Testing on Cookie Storage with CSRF Techniques.md",
+    "01 Notes/framejacking.md",
     "03 References/(Darmawan, Karim, et al., 2021).md",
     "02 Literature/papers/JWT",
     "JWT",
@@ -212,8 +214,6 @@
     "03 References/(Buja, Jalil, et al., 2014).md",
     "02 Literature/papers/SQL injection/Detection model for SQL injection attack. An approach for preventing a web application from the SQL injection attack.md",
     "01 Notes/HAR file.md",
-    "00 Antilibrary/energy-based algorithm.md",
-    "02 Literature/papers/testing enhancements/What All the PHUZZ Is About. A Coverage-guided Fuzzer for Finding Vulnerabilities in PHP Web Applications.md",
     "97 Assets/phuzz_implementation.png",
     "04 Canvases/meetings/2025_03_27.canvas",
     "05 Dataset/vulnerable webapp.canvas",
