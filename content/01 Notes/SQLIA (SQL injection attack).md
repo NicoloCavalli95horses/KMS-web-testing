@@ -42,24 +42,24 @@ Since the condition '1'='1' always evaluates to true, the query returns all rows
 
 ## Types of SQL attacks
 
-| **Type of attack**           | **Intent**                                                                                                                                                        | **Example**                                                                                                     |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| tautologies                  | the attacker bypasses the authentication providing conditional SQL query that are always true                                                                     | SELECT * FROM accounts WHERE user='' AND pass='123' or 1=1;                                                     |
-| logically incorrect queries  | the attacker inserts input that will return logical errors or syntax errors, in order to get information about the database schema and other sensitive parameters | SELECT * FROM accounts WHERE user='' AND pass=convert(int, (SELECT last_name FROM sysobjects WHERE xtype='u')); |
-| union query attacks          | the UNION operator is exploited to combine original queries to other malicious ones, in order to get sensitive data                                               | SELECT * FROM accounts WHERE user='jiayue' AND pass='123' UNION SELECT * FROM member WHERE user='admin';        |
-| piggy-backed queries attacks | extra commands are inserted (DROP, INSERT) by using the separator ; to execute forbidden operations                                                               | SELECT * FROM accounts WHERE user='jiayue' AND pass='123'; DROP TABLE accounts;                                 |
-| timing injection attacks     | delays in the response are exploited to verify conditions                                                                                                         | IF (condition) WAITFOR DELAY '00:00:05'                                                                         |
-| blind injection attacks      | logical questions are asked to the database by using complex queries. The answers are analyzed to get sensitive information about the database structure          | SELECT * FROM accounts WHERE user='jiayue' AND 1=1; e SELECT * FROM accounts WHERE user='jiayue' AND 1=0;       |
-| alternate encodings          | the attacker bypasses attack detention systems by encoding the query or part of it                                                                                | SELECT * FROM accounts WHERE user='jiayue' AND pass='123'; EXEC(char(0X53485554444F574E));                      |
-| stored procedure attacks     |                                                                                                                                                                   | SELECT * FROM accounts WHERE user='jiayue' AND pass='123'; SHUTDOWN;                                            |
+| **Type of attack**                                                   | **Intent**                                                                                                                                                        | **Example**                                                                                                     |
+| -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| tautologies [[(D'silva, Vanajakshi, et al., 2017)]]                  | the attacker bypasses the authentication providing conditional SQL query that are always true                                                                     | SELECT * FROM accounts WHERE user='' AND pass='123' or 1=1;                                                     |
+| logically incorrect queries                                          | the attacker inserts input that will return logical errors or syntax errors, in order to get information about the database schema and other sensitive parameters | SELECT * FROM accounts WHERE user='' AND pass=convert(int, (SELECT last_name FROM sysobjects WHERE xtype='u')); |
+| union query attacks [[(D'silva, Vanajakshi, et al., 2017)]]          | the UNION operator is exploited to combine original queries to other malicious ones, in order to get sensitive data                                               | SELECT * FROM accounts WHERE user='jiayue' AND pass='123' UNION SELECT * FROM member WHERE user='admin';        |
+| piggy-backed queries attacks [[(D'silva, Vanajakshi, et al., 2017)]] | extra commands are inserted (DROP, INSERT) by using the separator ; to execute forbidden operations                                                               | SELECT * FROM accounts WHERE user='jiayue' AND pass='123'; DROP TABLE accounts;                                 |
+| timing injection attacks                                             | delays in the response are exploited to verify conditions                                                                                                         | IF (condition) WAITFOR DELAY '00:00:05'                                                                         |
+| blind injection attacks                                              | logical questions are asked to the database by using complex queries. The answers are analyzed to get sensitive information about the database structure          | SELECT * FROM accounts WHERE user='jiayue' AND 1=1; e SELECT * FROM accounts WHERE user='jiayue' AND 1=0;       |
+| alternate encodings                                                  | the attacker bypasses attack detention systems by encoding the query or part of it                                                                                | SELECT * FROM accounts WHERE user='jiayue' AND pass='123'; EXEC(char(0X53485554444F574E));                      |
+| stored procedure attacks                                             |                                                                                                                                                                   | SELECT * FROM accounts WHERE user='jiayue' AND pass='123'; SHUTDOWN;                                            |
 
 ### Common SQLIA prevention techniques
 
 - **Parameterised queries:** Many cases of SQLIA can be eliminated simply by using parameterised queries instead of concatenating user input to the SQL query
 - **Whitelisting**: user input should always be treated as untrusted and filtered through a whitelist which only allows some of the input that matches a pattern
-- **Employ verified mechanisms**: do not try to build SQLIA protection from scratch. Most modern programming tools can give you access to SQLIA protection features
+- **Use verified mitigation techniques**: do not try to build SQLIA protection from scratch. Most modern programming tools can give you access to SQLIA protection features
 - **Implement [[RBAC (role-based access control)]] policy**: to limit the access to the database
-- **Regular software updates**
+- **Using hashing techniques to validate SQL queries** [[(D'silva, Vanajakshi, et al., 2017)]]
 
 ---
 ## References
@@ -69,3 +69,4 @@ Since the condition '1'='1' always evaluates to true, the query returns all rows
 - [[(Tkachenko et al., 2024)]]
 - Included in literature review, by [[(Onukrane, Skrodelis, et al., 2023)]]
 - One of the first description of the attacks [[(Watson, 2007)]]
+- [[(D'silva, Vanajakshi, et al., 2017)]]

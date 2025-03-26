@@ -3,7 +3,6 @@ ID: 2025-03-12T13:55:55.363Z
 tags:
   - paper
   - SQLIA
-  - webAccessPolicy
   - XSS
   - HTTP
   - projectSLR

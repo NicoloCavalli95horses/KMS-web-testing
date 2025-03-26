@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "90a7e45f3b36aaa6",
+        "id": "ccf9a8ef2acfb832",
         "type": "tabs",
         "children": [
           {
-            "id": "23007cf94e4e9054",
+            "id": "c9efddb061dcf14c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Literature/papers/JWT/JSON Web Token Penetration Testing on Cookie Storage with CSRF Techniques.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "JSON Web Token Penetration Testing on Cookie Storage with CSRF Techniques"
+              "title": "New tab"
             }
           }
         ]
@@ -79,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -184,15 +178,21 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "23007cf94e4e9054",
+  "active": "c9efddb061dcf14c",
   "lastOpenFiles": [
-    "01 Notes/JWT (JSON Web Token).md",
+    "96 Meta/SLR/Paper list.md",
+    "03 References/(Muraleedharan, Thomas, et al., 2020).md",
+    "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
+    "01 Notes/SQLIA (SQL injection attack).md",
+    "02 Literature/papers/SQLIA/An effective method for preventing SQL injection attack and session hijacking.md",
+    "03 References/(D'silva, Vanajakshi, et al., 2017).md",
+    "02 Literature/papers/SQLIA/SQLIA detection techniques.md",
     "02 Literature/papers/JWT/JSON Web Token Penetration Testing on Cookie Storage with CSRF Techniques.md",
+    "01 Notes/JWT (JSON Web Token).md",
     "01 Notes/framejacking.md",
     "03 References/(Darmawan, Karim, et al., 2021).md",
     "02 Literature/papers/JWT",
     "JWT",
-    "96 Meta/SLR/Paper list.md",
     "02 Literature/papers/tabnabbing/Detecting Tabnabbing Attacks Via An RL-Based Agent.md",
     "03 References/(Fonseka, Pashenna, et al., 2023).md",
     "02 Literature/papers/redirect vulnerability/EARs in the wild. large-scale analysis of execution after redirect vulnerabilities.md",
@@ -207,13 +207,7 @@
     "02 Literature/papers/HTTP traffic analysis/Cross-domain vulnerabilities over social networks.md",
     "02 Literature/papers/software models/A Grey-Box Approach for Detecting Malicious User Interactions in Web Applications.md",
     "02 Literature/papers/code synthesis/WAVES. Automatic Synthesis of Client-Side Validation Code for Web Applications.md",
-    "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
     "02 Literature/papers/prototype pollution/A Multivocal Literature Review on Prototype Pollution Vulnerability.md",
-    "03 References/(Hakim, 2023).md",
-    "02 Literature/papers/cloud control interface (CCI)/How Private is Your Private Cloud. Security Analysis of Cloud Control Interfaces.md",
-    "03 References/(Buja, Jalil, et al., 2014).md",
-    "02 Literature/papers/SQL injection/Detection model for SQL injection attack. An approach for preventing a web application from the SQL injection attack.md",
-    "01 Notes/HAR file.md",
     "97 Assets/phuzz_implementation.png",
     "04 Canvases/meetings/2025_03_27.canvas",
     "05 Dataset/vulnerable webapp.canvas",
