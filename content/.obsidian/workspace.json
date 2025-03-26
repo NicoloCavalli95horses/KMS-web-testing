@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d10337a7ceeb693d",
+        "id": "f97b0b6115ab5e9b",
         "type": "tabs",
         "children": [
           {
-            "id": "0932d10ebec30141",
+            "id": "d7116fdaaa432ecb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/mind maps/cross-domain policies.canvas",
+                "viewState": {
+                  "x": 45,
+                  "y": -211.61957155060048,
+                  "zoom": -1.04020632239502
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "cross-domain policies"
             }
           }
         ]
@@ -178,8 +185,15 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "0932d10ebec30141",
+  "active": "d7116fdaaa432ecb",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/front end security category.canvas",
+    "04 Canvases/mind maps/cross-domain policies.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
+    "04 Canvases/meetings/2025_03_27.canvas",
+    "05 Dataset/vulnerable webapp.canvas",
     "96 Meta/SLR/Tags analysis.md",
     "96 Meta/SLR/Paper list.md",
     "02 Literature/papers/clickjacking/Vulnerability Analysis of Iframe Attacks on Websites.md",
@@ -190,7 +204,6 @@
     "03 References/(Selim, Tayeb, et al., 2016).md",
     "02 Literature/papers/clickjacking",
     "clickjacking",
-    "04 Canvases/meetings/2025_03_27.canvas",
     "02 Literature/papers/XSS (Cross-Site Scripting)/On Security Issues in Web Applications through Cross Site Scripting (XSS).md",
     "01 Notes/XSS (cross site scripting).md",
     "01 Notes/static analysis.md",
@@ -216,12 +229,6 @@
     "02 Literature/papers/JWT (JSON Web Token)",
     "JWT",
     "97 Assets/phuzz_implementation.png",
-    "05 Dataset/vulnerable webapp.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
-    "04 Canvases/mind maps/cross-domain policies.canvas",
-    "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/models/research model.canvas",
     "97 Assets/tool_evaluation_example.png",
     "97 Assets/control_flow_graph.png",

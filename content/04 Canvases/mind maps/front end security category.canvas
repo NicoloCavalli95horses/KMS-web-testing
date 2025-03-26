@@ -7,7 +7,7 @@
 		{"id":"569f9f5935d87ec1","type":"text","text":"## RQ 2 \n## What exactly are the responsibilities of the front end software in an attack that eventually ==target the server==?\n\n## How does the front-end ==contribute to the defense== of an attack to a web server?","x":-3913,"y":2090,"width":632,"height":390},
 		{"id":"64b21cf9dec536c5","type":"text","text":"## RQ 1\n\n## In which scenarios it is possible to carry out an attack on the web front-end ==without the server being involved==?\n\n## What is the role of web front-end software in an attack that does ==not involve a web server==?","x":-4746,"y":2090,"width":640,"height":390},
 		{"id":"092cddc14827cc9f","type":"text","text":"## Examples\n\n- [[XSS (cross site scripting)]]\n- [[SQLIA (SQL injection attack)]]\n- [[EAR (Execution After Redirect)]]\n- [[directory traversal (path traversal)]]\n- [[CSRF (cross-site request forgery)]]\n- [[cross-domain policies]] misconfiguration (full-stack)\n- [[IDOR (Insecure Direct Object Reference)]]","x":-3913,"y":2560,"width":632,"height":560},
-		{"id":"57cd65944a2802bd","type":"text","text":"distinguish browser bugs","x":-3504,"y":1550,"width":301,"height":100}
+		{"id":"57cd65944a2802bd","type":"text","text":"distinguish browser bugs","x":-3504,"y":1550,"width":301,"height":80,"color":"3"}
 	],
 	"edges":[
 		{"id":"4043ea73a8b322dc","fromNode":"c6417e9d23b4eccf","fromSide":"bottom","toNode":"c2da02b1a1d2ce74","toSide":"top"},
