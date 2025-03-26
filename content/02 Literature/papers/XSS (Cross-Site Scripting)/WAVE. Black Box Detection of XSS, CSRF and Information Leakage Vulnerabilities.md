@@ -30,7 +30,7 @@ To defend against CSFR, the authors propose to check whether a web server regene
 
 ## Evaluation
 
-For evaluation we used three web applications including GetBoo, Yazd, and WebCalendar, for traffic generation. Then, we analyzed these applications and found their vulnerabilities with WAVE. Also, we used Acunetix (version 10.0) as a well-known web vulnerability scanner. Finally, we manually checked vulnerabilities reported by the tools
+WAVE was compared to [[Acunetix]] (version 10.0) in detecting vulnerabilities in  GetBoo, Yazd, and WebCalendar. After manually checking the vulnerabilities reported by the tools, the authors conclude that WAVE is better, even if false positives are possible
 
 ---
 #### References
