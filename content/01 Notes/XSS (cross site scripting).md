@@ -23,7 +23,9 @@ Successful XSS can:
 
 Only if the code is either embedded in (inline scripts) or loaded into the webpage, it will have read and write access to the contents of this webpage (e. g. session cookies, form fields, etc.)  [[(Felsch, Heiderich, et al., 2015)]]
 
-XSS is similar to [[CSRF (cross-site request forgery)]] in that their harm may be similar, but CSFR exploits the browser's trust in the user to send malicious HTTP requests, while XSS involves code execution in the user's browser (see more on [[XSS and CSFR comparison]]). [[RCE (Remote Code Execution)]] harms instead the server, using a combination of dangerous functions (`(eval(), exec(), system(), require()`)
+XSS is similar to [[CSRF (cross-site request forgery)]] in that their harm may be similar, but CSFR exploits the browser's trust in the user to send malicious HTTP requests, while XSS involves code execution in the user's browser (see more on [[XSS and CSFR comparison]]).
+
+[[RCE (Remote Code Execution)]] harms instead the server, using a combination of dangerous functions (`(eval(), exec(), system(), require()`)
 
 ## Prevalence
 
@@ -143,3 +145,4 @@ Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, wit
 - Unsystematic and short literature review by [[(Farah, Shojol, et al., 2016)]]
 - [[(Trampert, Stock, et al., 2023)]]
 - Identification of real session cookies, by [[(Calzavara, Tolomei, et al., 2014)]]
+- [[(Soleimani, Hadavi, et al., 2017)]]
