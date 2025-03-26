@@ -43,3 +43,6 @@ Static Analysis is often used to detect:
 
 - **False positives**: errors or issues that are not really errors can be mistakenly detected
 - **Blindness**: runtime errors cannot be detected
+
+---
+## References

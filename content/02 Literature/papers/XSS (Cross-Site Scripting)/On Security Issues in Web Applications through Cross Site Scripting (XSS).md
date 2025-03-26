@@ -7,13 +7,16 @@ tags:
 Project:
   - SLR
 ---
-## Context
+Unsystematic literature review, but well-written
 
-High-level description of the problem. Use links to low-level notes to specify the context details
+### Context
+
+This work studies [[XSS (cross site scripting)]] and its origin, manifestation, kinds of dangers and mitigation techniques. Different approaches proposed by researchers are presented and analyzed
 
 ## Approach
 
-Describe the paper approach in simple term.
+
+
 
 ---
 #### References

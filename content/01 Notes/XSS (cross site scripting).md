@@ -13,6 +13,19 @@ Cross-site scripting vulnerabilities (XSS henceforth) are a security problem tha
 - They are among the most common and most serious security problems affecting web applications
 - They are injection problems that enable malicious scripts to be injected into trusted websites
 - Most of the time it is a result of a ==failed tentative to validate the user input==
+- It is a very dangerous attack as it provides surface for other type of attacks [[(Malviya, Saurav, et al., 2013)]]
+
+A XSS can be carried with different languages:
+- JavaScript (most used)
+- HTML and event handlers, for example: `<a href="#" onclick="alert('XSS!')">Click me</a>`
+- SVG and JavaScript
+- VBScript (on legacy browsers)
+- Flash (ActionScript) (deprecated)
+- CSS (with `expression()`, only on legacy browsers)
+- Markdown: `[Click me](javascript:alert('XSS!'))
+- JSONP: `<script src="https://malicious.com/api?callback=alert('XSS!')"></script>`
+- WebAssembly (WASM), for example with `WebAssembly.instantiateStreaming(fetch('wasm_malicious.wasm')).then(instance => instance.exports.runXSS());`
+- [[service worker]] and [[web worker]], for example with `navigator.serviceWorker.register("sw.js");`
 
 Successful XSS can:
 - steal session information stored in a [[cookie]] [[(Calzavara, Tolomei, et al., 2014)]]
@@ -29,7 +42,7 @@ XSS is similar to [[CSRF (cross-site request forgery)]] in that their harm may b
 
 ## Prevalence
 
-Two-third of all deployed web applications are vulnerable to XSS attacks, and Cisco 2018 Annual Security Report indicated that 40% of all attacks attempts lead to XSS attacks [[(Sadqi, Maleh, 2022)]](p.18)
+Two-third of all deployed web applications are vulnerable to XSS attacks, and Cisco 2018 Annual Security Report indicated that 40% of all attacks attempts lead to XSS attacks [[(Sadqi, Maleh, 2022)]] (p.18)
 
 ## Types of XSS attacks
 
@@ -78,11 +91,19 @@ function writeToDOM() { //sink function
 
 Since the search value is not checked, it is easy to construct a malicious value that can cause an external script to be executed:
 
-```JavaScript
-You searched for: <img src=1 onerror='/* Bad stuff here... */'>
+```html
+<p>You searched for:</p>
+<img src=1 onerror='/* Bad stuff here... */'>
 ```
  
- This is ==the least know type of XSS==
+In this kind of attack the page doesn’t change but the client side code gets executed in a different manner because of the modification in the DOM environment [[(Malviya, Saurav, et al., 2013)]]
+
+This is ==the least know type of XSS==
+
+#### Induced XSS
+
+Induced XSS are possible in the web applications where web server present an [[HTTP Response Splitting]] vulnerability. As a result of this vulnerability, an attacker can manipulate the HTTP header of the server’s response, injecting a script
+This type of XSS is the less common [[(Malviya, Saurav, et al., 2013)]]
 
 ## Typical attacks
 
@@ -93,6 +114,7 @@ You searched for: <img src=1 onerror='/* Bad stuff here... */'>
 
 Multiple techniques and approaches are often used at the same time to tackle XSS issues:
 
+**Static approaches**
 [[static analysis]]: reviewing the source code of an application to find XSS issues, possibly before deploying it. Techniques:
 - [[static taint analysis]] 
 - [[symbolic execution]]
@@ -102,13 +124,16 @@ Multiple techniques and approaches are often used at the same time to tackle XSS
 - data flow analysis
 - [[precise alias analysis]]
 
-
+**Dynamic approaches**
  [[dynamic analysis]]: examining the behavior of an application in runtime. Techniques:
 - [[black-box testing]]
 - [[dynamic taint analysis]]
 - flow analysis
 - monitoring
 - filtering
+
+**Other approaches**
+- [[supervised learning]] based approach can be implemented to identify reflected XSS, analyzing URLs. Training dataset can be found in: XSSed (positive example), ClueWeb09, Dmoz (negative examples)
 
 **Secure programming**
 Ensuring that programming guidelines and rules are followed during the development of an application. Techniques:
@@ -120,15 +145,30 @@ Techniques and approaches: abstractions, model checking, model inference and evo
 
 ## Mitigate XSS vulnerabilities
 
-Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, with techniques such as: monitoring, taint-tracking and filtering.
-- this because to eliminate the XSS issue we should patch the source code. In many case, access the source code or implementing patches can be difficult
+Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, with techniques such as: ==monitoring, taint-tracking and filtering.==
+- this because to eliminate the XSS issue we should patch the source code
+- In many case, access the source code or implementing patches can be difficult
 
-**General rules**
-- **Don’t trust user input**: take into account that all user input is faulty. If user input is included in HTML output, an XSS is conceivable. Input from verified and/or internal users should be handled similarly to input from the general public.
-- **Use escaping / encoding**: use the appropriate escaping/encoding technique, such as HTML escape, JavaScript escape, CSS escape, URL escape, etc., depending on where user input will be used. Use pre-existing libraries rather than creating your own unless it is absolutely necessary
-- **Sanitise HTML**: if user input needs to contain HTML, you can’t escape or encrypt it because doing so would render any acceptable tags useless. In such cases, parse and sanitise HTML using a trusted and proven library
-- **Content security policy**: use a [[CSP (Content Security Policy)]] to mitigate the effects of a potential XSS problem.
-	- The headers `X-XSS-Protection` (now deprecated), `X-Content-Security-Policy` have been implemented in the past to sanitise reflective XSS attacks [[(Aditya Sood, Richard Enbody, et al., 2011)]]
+#### Input sanitization
+
+Consider all user input as a possible danger. If user input is included in HTML output, an XSS is conceivable. Input from verified and/or internal users should be handled similarly to input from the general public.
+
+Four sanitizing methods [[(Malviya, Saurav, et al., 2013)]]:
+- replacement of malicious characters  with safe ones
+- removal of malicious characters
+- escaping dangerous characters to prevent them from being interpreted in a wrong way
+- if possible, restricting the user input to limited non-malicious options
+
+ **Use escaping / encoding**
+ Use the appropriate escaping/encoding technique, preferring pre-existing libraries rather than creating your own
+
+ **Sanitise HTML** input
+ If user input needs to contain HTML, parse and sanitise HTML using a trusted and proven library
+
+#### Content security policy
+
+Use a [[CSP (Content Security Policy)]] to mitigate the effects of a potential XSS problem.
+- The headers `X-XSS-Protection` (now deprecated), `X-Content-Security-Policy` have been implemented in the past to sanitise reflective XSS attacks [[(Aditya Sood, Richard Enbody, et al., 2011)]]
 - add a nonce (”number used once”) to a script tag and the header-delivered policy. Because those nonces are supposed to be random for each request, attackers can not guess them and thus not execute their malicious scripts. [[(Trampert, Stock, et al., 2023)]]
 
 ---
@@ -146,3 +186,4 @@ Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, wit
 - [[(Trampert, Stock, et al., 2023)]]
 - Identification of real session cookies, by [[(Calzavara, Tolomei, et al., 2014)]]
 - [[(Soleimani, Hadavi, et al., 2017)]]
+- Types of XSS and mitigation techniques: [[(Malviya, Saurav, et al., 2013)]]
