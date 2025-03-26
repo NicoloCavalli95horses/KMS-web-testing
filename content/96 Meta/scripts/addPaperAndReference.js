@@ -74,35 +74,10 @@ async function selectOrCreateFolder(params) {
   const options = [NEW_FOLDER, ...folders];
   const selectedFolder = await params.quickAddApi.suggester(options, options);
 
-  if (!selectedFolder) {
-    new Notice("Invalid paper folder");
-  } else if (selectedFolder == NEW_FOLDER) {
-    return await createNewFolder(params);
-  }
-  return selectedFolder;
+  return selectedFolder === NEW_FOLDER
+    ? await params.quickAddApi.inputPrompt("Insert the new folder name")
+    : selectedFolder
 }
-
-
-/**
- * Create a new folder that will contain the new paper
- */
-async function createNewFolder(params) {
-  const newFolder = await params.quickAddApi.inputPrompt("Insert the new folder name");
-
-  if (!newFolder) {
-    new Notice("Invalid paper folder");
-    return;
-  }
-
-  try {
-    await app.vault.createFolder(newFolder);
-    return newFolder;
-  } catch (error) {
-    new Notice(`Unable to create the folder ${newFolder}: ${error.message}`);
-    return;
-  }
-}
-
 
 /**
  * Return all the folders that contain papers

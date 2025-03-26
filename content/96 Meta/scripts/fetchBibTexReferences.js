@@ -1,4 +1,8 @@
 
+/**
+ * parse a YALM text and return an object
+ * @param {string} yamlText - YAML text
+ */
 function YAMLtoObject(yamlText) {
   let yamlLines = yamlText.split("\n");
   let yamlData = {};

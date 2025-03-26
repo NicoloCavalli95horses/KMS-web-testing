@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "0815d5d1f2542eb3",
+        "id": "d10337a7ceeb693d",
         "type": "tabs",
         "children": [
           {
-            "id": "fdb0d8f4f54ca4a7",
+            "id": "0932d10ebec30141",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Literature/papers/clickjacking/Vulnerability Analysis of Iframe Attacks on Websites.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Vulnerability Analysis of Iframe Attacks on Websites"
+              "title": "New tab"
             }
           }
         ]
@@ -42,7 +37,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -183,11 +178,15 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "fdb0d8f4f54ca4a7",
+  "active": "0932d10ebec30141",
   "lastOpenFiles": [
     "96 Meta/SLR/Tags analysis.md",
     "96 Meta/SLR/Paper list.md",
     "02 Literature/papers/clickjacking/Vulnerability Analysis of Iframe Attacks on Websites.md",
+    "01 Notes/clickjacking.md",
+    "03 References/(Hazhirpasand, 2020).md",
+    "97 Assets/clickjacking_example.png",
+    "02 Literature/papers/UI and UX issues/Tricking Johnny into Granting Web Permissions.md",
     "03 References/(Selim, Tayeb, et al., 2016).md",
     "02 Literature/papers/clickjacking",
     "clickjacking",
@@ -214,10 +213,6 @@
     "02 Literature/papers/XSS (Cross-Site Scripting)",
     "XSS",
     "02 Literature/papers/web vulnerabilities reviews/Enhancing Front-End Security. Protecting User Data and Privacy in Web Applications.md",
-    "03 References/(Tkachenko et al., 2024).md",
-    "02 Literature/papers/JWT (JSON Web Token)/JSON Web Token Penetration Testing on Cookie Storage with CSRF Techniques.md",
-    "02 Literature/papers/input validation/ZigZag. Automatically hardening web applications against client-side validation vulnerabilities.md",
-    "02 Literature/papers/input validation/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
     "02 Literature/papers/JWT (JSON Web Token)",
     "JWT",
     "97 Assets/phuzz_implementation.png",
@@ -239,7 +234,6 @@
     "97 Assets/ears_in_the_wild.png",
     "97 Assets/open_id_login.png",
     "Pasted image 20250320100157.png",
-    "Pasted image 20250320100142.png",
-    "97 Assets/furious_clicker_clickjacking.png"
+    "Pasted image 20250320100142.png"
   ]
 }
