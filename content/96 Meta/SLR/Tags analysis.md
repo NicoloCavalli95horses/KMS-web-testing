@@ -5,8 +5,7 @@ tags:
 ---
 ```dataviewjs
 const GENERAL_TAGS = ['paper', 'cyberSecurity', 'projectSLR'];
-let pages = dv.pages()
-    .filter(p => p.Project && p.Project.includes("SLR") && p.tags && p.tags.includes("paper"));
+let pages = dv.pages("#projectSLR");
 
 let tagCounts = {};
 
@@ -22,6 +21,8 @@ GENERAL_TAGS.forEach(t => delete tagCounts[t])
 
 dv.table(["Tag", "Count"], Object.entries(tagCounts).sort((a, b) => b[1] - a[1]));
 ```
+
+
 
 
 

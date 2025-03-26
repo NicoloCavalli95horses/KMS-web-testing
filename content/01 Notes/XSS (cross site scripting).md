@@ -132,8 +132,10 @@ Multiple techniques and approaches are often used at the same time to tackle XSS
 - monitoring
 - filtering
 
-**Other approaches**
+**Other approaches** [[(Malviya, Saurav, et al., 2013)]]
 - [[supervised learning]] based approach can be implemented to identify reflected XSS, analyzing URLs. Training dataset can be found in: XSSed (positive example), ClueWeb09, Dmoz (negative examples)
+- untrusted HTML may be sanitized using a tree-parser that creates a structured representation of the input and prunes unsafe code
+- a XML document can be generated from the user input, and then validated against a XML schema on server side 
 
 **Secure programming**
 Ensuring that programming guidelines and rules are followed during the development of an application. Techniques:
