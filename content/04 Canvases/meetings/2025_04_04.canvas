@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"370cd5d8f930cf77","type":"text","text":"[[CSP (Content Security Policy)]] may be bypassed if the whitelisted cross-domain is too general. This is often the case with Cloud [[object storage service]]: for example, Google Cloud, an [[(Lv, Shi, et al., 2023)]]\n","x":640,"y":-280,"width":720,"height":280},
+		{"id":"472594e7924f8fc8","type":"text","text":"### Cloud object storage driven XSS","x":640,"y":-400,"width":720,"height":80}
+	],
+	"edges":[]
+}
