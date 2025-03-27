@@ -4,41 +4,42 @@
     "type": "split",
     "children": [
       {
-        "id": "078716f8b952c10d",
+        "id": "04a610caf56e40cc",
         "type": "tabs",
         "children": [
           {
-            "id": "873546ade92585f8",
+            "id": "8fc9748923d68e48",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "02 Literature/papers/SQLIA (SQL Injection Attack)/Minimization of SQL injection in scheduling application development.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/meetings/2025_03_27.canvas",
+                "viewState": {
+                  "x": 1968.0127068180848,
+                  "y": 84.29194401971777,
+                  "zoom": -0.8679714081269412
+                }
               },
-              "icon": "lucide-file",
-              "title": "Minimization of SQL injection in scheduling application development"
+              "icon": "lucide-layout-dashboard",
+              "title": "2025_03_27"
             }
           },
           {
-            "id": "dcdb1f47e5f92ced",
+            "id": "502d1f667f6bbfd1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/PDO.md",
+                "file": "96 Meta/SLR/Tags analysis.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "PDO"
+              "title": "Tags analysis"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 643.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -199,17 +200,20 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "8fc9748923d68e48",
   "lastOpenFiles": [
-    "02 Literature/papers/SQLIA (SQL Injection Attack)/Minimization of SQL injection in scheduling application development.md",
-    "01 Notes/PDO.md",
-    "01 Notes/SQLIA (SQL injection attack).md",
+    "96 Meta/SLR/Tags analysis.md",
     "96 Meta/SLR/Paper list.md",
-    "03 References/(Sendiang, Polii, et al., 2016).md",
     "04 Canvases/mind maps/cross-domain policies.canvas",
+    "04 Canvases/meetings/2025_03_27.canvas",
+    "02 Literature/papers/logic flow tampering/DetLogic. A black-box approach for detecting logic vulnerabilities in web applications.md",
+    "04 Canvases/mind maps/front end security category.canvas",
+    "01 Notes/PDO.md",
+    "02 Literature/papers/SQLIA (SQL Injection Attack)/Minimization of SQL injection in scheduling application development.md",
+    "01 Notes/SQLIA (SQL injection attack).md",
+    "03 References/(Sendiang, Polii, et al., 2016).md",
     "01 Notes/COEP (Cross-Origin Embedder Policy).md",
     "00 Antilibrary/CORP (Cross-Origin Resource Policy).md",
-    "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
@@ -217,9 +221,7 @@
     "01 Notes/SOP (Same-Origin Policy).md",
     "01 Notes/COOP (Cross-Origin Opener Policy).md",
     "01 Notes/CSP (Content Security Policy).md",
-    "04 Canvases/meetings/2025_03_27.canvas",
     "05 Dataset/vulnerable webapp.canvas",
-    "96 Meta/SLR/Tags analysis.md",
     "02 Literature/papers/clickjacking/Vulnerability Analysis of Iframe Attacks on Websites.md",
     "01 Notes/clickjacking.md",
     "03 References/(Hazhirpasand, 2020).md",
@@ -236,8 +238,6 @@
     "01 Notes/HTTP Response Splitting.md",
     "00 Antilibrary/cache poisoning.md",
     "02 Literature/papers/authentication/Systematically breaking and fixing OpenID security. Formal analysis, semi-automated empirical evaluation, and practical countermeasures.md",
-    "02 Literature/papers/cryptography/A Comparison of Online JavaScript Obfuscators.md",
-    "02 Literature/papers/XSS (Cross-Site Scripting)/WAVE. Black Box Detection of XSS, CSRF and Information Leakage Vulnerabilities.md",
     "02 Literature/papers/CMS (Content Management System)",
     "CMS (Content Management System)",
     "02 Literature/papers/XSS (Cross-Site Scripting)",
