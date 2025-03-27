@@ -8,10 +8,10 @@ tags:
 ---
 ## Definition
 
-Content Security Policy (CSP) is a feature that helps to prevent or minimize the risk of certain types of security threats.
+Content Security Policy (CSP) is a feature that helps to prevent or minimize the risk of certain types of security threats
 - It consists of a series of instructions from a website to a browser, which ==instruct the browser to place restrictions on the things that the front-end code is allowed to do==
 - It basically allows to define and control which resources (such as scripts, styles, and images) can be downloaded and executed
-- The primary case for CSP is preventing [[XSS (cross site scripting)]] attacks by defining, for example, a ==limited array of paths that can be used to load a script file==.
+- The primary case for CSP is preventing [[XSS (cross site scripting)]] attacks by defining, for example, a ==limited array of paths that can be used to load a script file== (with `script-src`)
 - It can be used also to defend against [[clickjacking]] or [[tabnabbing]] with `frame-ancestors 'none'`
 - it is a type of [[cross-domain policies]]
 
@@ -22,6 +22,9 @@ A CSP can, for example:
 - disable inline event handlers
 - disable javascript: URLs
 - disable dangerous APIs like `eval()`
+
+![[CSP_directives_example.png]]
+The directive `default-src` serves as a fallback for the other CSP. If there is no whitelist for other directives, the browser will get resources based on the whitelist of the  `default-src` directive [[(Lv, Shi, et al., 2023)]]
 
 ### Example
 
@@ -81,5 +84,6 @@ The browser then determines for a given script (both inline and external) if the
 #### References
 - [[(Tkachenko et al., 2024)]]
 - [[(Trampert, Stock, et al., 2023)]]
+- [[(Lv, Shi, et al., 2023)]]
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP
 

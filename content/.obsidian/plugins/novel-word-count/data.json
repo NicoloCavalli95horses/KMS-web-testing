@@ -14674,19 +14674,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 403,
+      "wordCount": 448,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.3433333333333333,
-      "characterCount": 3130,
-      "nonWhitespaceCharacterCount": 2644,
-      "readingTimeInMinutes": 1.5207547169811322,
-      "linkCount": 7,
-      "embedCount": 0,
+      "pageCount": 1.4933333333333334,
+      "characterCount": 3440,
+      "nonWhitespaceCharacterCount": 2906,
+      "readingTimeInMinutes": 1.6905660377358491,
+      "linkCount": 9,
+      "embedCount": 1,
       "aliases": null,
       "createdDate": 1741599666267,
-      "modifiedDate": 1743002805461,
-      "sizeInBytes": 3243,
+      "modifiedDate": 1743085058730,
+      "sizeInBytes": 3553,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.3433333333333333,
@@ -17947,6 +17947,130 @@
         "Project": [
           "SLR"
         ]
+      }
+    },
+    "03 References/(Lv, Shi, et al., 2023).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 60,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.2,
+      "characterCount": 663,
+      "nonWhitespaceCharacterCount": 573,
+      "readingTimeInMinutes": 0.22641509433962265,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743083873561,
+      "modifiedDate": 1743083873562,
+      "sizeInBytes": 663,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "02 Literature/papers/object storage (blob storage)/Do Not Trust the Clouds Easily. The Insecurity of Content Security Policy Based on Object Storage.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 290,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.9666666666666667,
+      "characterCount": 1998,
+      "nonWhitespaceCharacterCount": 1677,
+      "readingTimeInMinutes": 1.0943396226415094,
+      "linkCount": 4,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743083873602,
+      "modifiedDate": 1743087103448,
+      "sizeInBytes": 2157,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-03-27T13:57:53.557Z",
+        "tags": [
+          "paper",
+          "cloudComputing",
+          "projectSLR",
+          "XSS",
+          "crossDomainPolicy",
+          "CSP",
+          "objectStorage"
+        ],
+        "Project": [
+          "SLR"
+        ]
+      }
+    },
+    "01 Notes/object storage service.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 210,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.7,
+      "characterCount": 1410,
+      "nonWhitespaceCharacterCount": 1174,
+      "readingTimeInMinutes": 0.7924528301886793,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743084509406,
+      "modifiedDate": 1743085715489,
+      "sizeInBytes": 1517,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-03-27-15:08",
+        "tags": [
+          "#definition",
+          "objectStorage",
+          "cloudSecurity",
+          "cloudComputing"
+        ]
+      }
+    },
+    "97 Assets/CSP_directives_example.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1743084788203,
+      "modifiedDate": 1743084788204,
+      "sizeInBytes": 31532,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
       }
     }
   }
