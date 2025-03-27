@@ -17887,6 +17887,67 @@
           "PDO"
         ]
       }
+    },
+    "03 References/(Zaris, Gjermundrød, et al., 2014).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 58,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.19333333333333333,
+      "characterCount": 639,
+      "nonWhitespaceCharacterCount": 551,
+      "readingTimeInMinutes": 0.2188679245283019,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743079793860,
+      "modifiedDate": 1743079793861,
+      "sizeInBytes": 640,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "02 Literature/papers/client-side storage/NoteLocker. Simple Secure Storage Service.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 81,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.27,
+      "characterCount": 624,
+      "nonWhitespaceCharacterCount": 528,
+      "readingTimeInMinutes": 0.30566037735849055,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743079793906,
+      "modifiedDate": 1743080091982,
+      "sizeInBytes": 727,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-03-27T12:49:53.849Z",
+        "tags": [
+          "paper",
+          "projectSLR",
+          "clientStorage"
+        ],
+        "Project": [
+          "SLR"
+        ]
+      }
     }
   }
 }
