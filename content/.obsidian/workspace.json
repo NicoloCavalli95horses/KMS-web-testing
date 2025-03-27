@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/mind maps/cross-domain policies.canvas",
                 "viewState": {
-                  "x": 45,
-                  "y": -211.61957155060048,
-                  "zoom": -1.04020632239502
+                  "x": 47.5,
+                  "y": -351,
+                  "zoom": -1.0791478239568544
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.50260543823242
+    "width": 349.5026054382324
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -187,15 +187,19 @@
   },
   "active": "d7116fdaaa432ecb",
   "lastOpenFiles": [
-    "04 Canvases/mind maps/front end security category.canvas",
+    "96 Meta/SLR/Paper list.md",
     "04 Canvases/mind maps/cross-domain policies.canvas",
+    "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
+    "04 Canvases/models/research model.canvas",
+    "01 Notes/SOP (Same-Origin Policy).md",
+    "01 Notes/COOP (Cross-Origin Opener Policy).md",
+    "01 Notes/CSP (Content Security Policy).md",
     "04 Canvases/meetings/2025_03_27.canvas",
     "05 Dataset/vulnerable webapp.canvas",
     "96 Meta/SLR/Tags analysis.md",
-    "96 Meta/SLR/Paper list.md",
     "02 Literature/papers/clickjacking/Vulnerability Analysis of Iframe Attacks on Websites.md",
     "01 Notes/clickjacking.md",
     "03 References/(Hazhirpasand, 2020).md",
@@ -221,15 +225,11 @@
     "03 References/(Patel, Rathod, et al., 2013).md",
     "02 Literature/papers/CMS (Content Management System)",
     "CMS (Content Management System)",
-    "01 Notes/RCE (Remote Code Execution).md",
-    "03 References/(Soleimani, Hadavi, et al., 2017).md",
     "02 Literature/papers/XSS (Cross-Site Scripting)",
     "XSS",
-    "02 Literature/papers/web vulnerabilities reviews/Enhancing Front-End Security. Protecting User Data and Privacy in Web Applications.md",
     "02 Literature/papers/JWT (JSON Web Token)",
     "JWT",
     "97 Assets/phuzz_implementation.png",
-    "04 Canvases/models/research model.canvas",
     "97 Assets/tool_evaluation_example.png",
     "97 Assets/control_flow_graph.png",
     "97 Assets/graphs_after_removal_critical_pages.png",

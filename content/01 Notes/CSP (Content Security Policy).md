@@ -12,7 +12,7 @@ Content Security Policy (CSP) is a feature that helps to prevent or minimize the
 - It consists of a series of instructions from a website to a browser, which ==instruct the browser to place restrictions on the things that the front-end code is allowed to do==
 - It basically allows to define and control which resources (such as scripts, styles, and images) can be downloaded and executed
 - The primary case for CSP is preventing [[XSS (cross site scripting)]] attacks by defining, for example, a ==limited array of paths that can be used to load a script file==.
-- It can be used also to defend against [[clickjacking]] or [[tabnabbing]]
+- It can be used also to defend against [[clickjacking]] or [[tabnabbing]] with `frame-ancestors 'none'`
 - it is a type of [[cross-domain policies]]
 
 A CSP can, for example:
@@ -30,8 +30,8 @@ Content-Security-Policy: default-src 'self'; img-src 'self' example.com
 ```
 
 It sets two directives:
-- `default-src` = 'self':  tells the browser to load only resources that are same-origin with the document, unless other more specific directives set a different policy for other resource types
-- `img-src` = 'self' example.com: tells the browser to load images that are same-origin or that are served from example.com.
+- `default-src` = 'self':  tells the browser to load only ==src that are same-origin with the document==, unless other more specific directives set a different policy for other resource types
+- `img-src` = 'self' example.com: tells the browser to load ==images that are same-origin== or that are served from example.com.
  
 ### Where are the CSP defined?
 
