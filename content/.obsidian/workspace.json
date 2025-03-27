@@ -8,23 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8fc9748923d68e48",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "04 Canvases/meetings/2025_03_27.canvas",
-                "viewState": {
-                  "x": 1968.0127068180848,
-                  "y": 84.29194401971777,
-                  "zoom": -0.8679714081269412
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "2025_03_27"
-            }
-          },
-          {
             "id": "502d1f667f6bbfd1",
             "type": "leaf",
             "state": {
@@ -200,14 +183,15 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "8fc9748923d68e48",
+  "active": "502d1f667f6bbfd1",
   "lastOpenFiles": [
-    "96 Meta/SLR/Tags analysis.md",
-    "96 Meta/SLR/Paper list.md",
+    "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/mind maps/cross-domain policies.canvas",
     "04 Canvases/meetings/2025_03_27.canvas",
+    "04 Canvases/meetings/2025_03_20.canvas",
+    "96 Meta/SLR/Tags analysis.md",
+    "96 Meta/SLR/Paper list.md",
     "02 Literature/papers/logic flow tampering/DetLogic. A black-box approach for detecting logic vulnerabilities in web applications.md",
-    "04 Canvases/mind maps/front end security category.canvas",
     "01 Notes/PDO.md",
     "02 Literature/papers/SQLIA (SQL Injection Attack)/Minimization of SQL injection in scheduling application development.md",
     "01 Notes/SQLIA (SQL injection attack).md",
@@ -250,7 +234,6 @@
     "97 Assets/graphs_after_removal_critical_pages.png",
     "Untitled.canvas",
     "97 Assets/sop_policy_example.png",
-    "04 Canvases/meetings/2025_03_20.canvas",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)",
     "02 Literature/papers/tabnabbing",
     "97 Assets/ears_in_the_wild.png",
