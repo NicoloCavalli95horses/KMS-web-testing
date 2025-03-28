@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5026054382324
+    "width": 239.50260543823242
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -183,7 +183,7 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "30397126a4240a83",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
     "04 Canvases/mind maps/CSRF based on clipboard poisoning.canvas",
     "01 Notes/XSS (cross site scripting).md",
