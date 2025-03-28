@@ -3,6 +3,7 @@ ID: 2024-12-10-10:23
 tags:
   - definition
   - cyberSecurity
+  - SQLIA
 ---
 ## What is a SQLIA
 
@@ -74,3 +75,4 @@ Since the condition '1'='1' always evaluates to true, the query returns all rows
 - One of the first description of the attacks [[(Watson, 2007)]]
 - [[(D'silva, Vanajakshi, et al., 2017)]]
 - [[(Sendiang, Polii, et al., 2016)]]
+- Runtime input validation in Java, by: [[(Cho, Kim, et al., 2016)]]

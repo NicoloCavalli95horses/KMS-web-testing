@@ -15,6 +15,9 @@ Benchmark testing is performed to evaluate the performance of a product or syste
 - [WackoPicko](https://github.com/adamdoupe/WackoPicko)
 - 22 real-world WordPress plugins with known vulnerabilities. Except for some commercial plugins, a plugin’s source code is open, allowing to download and install it in your environment
 
+Other vulnerable web applications used for evaluating a tool:
+- [ OWASP WebGoat](https://owasp.org/www-project-webgoat/)
+
 ---
 #### References
 - https://www.browserstack.com/guide/benchmark-testing
