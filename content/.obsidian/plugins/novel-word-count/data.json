@@ -18364,6 +18364,31 @@
           "SLR"
         ]
       }
+    },
+    "04 Canvases/mind maps/CSRF based on clipboard poisoning.canvas": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 82,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.2733333333333333,
+      "characterCount": 555,
+      "nonWhitespaceCharacterCount": 466,
+      "readingTimeInMinutes": 0.30943396226415093,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743157757704,
+      "modifiedDate": 1743159048543,
+      "sizeInBytes": 1456,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
     }
   }
 }

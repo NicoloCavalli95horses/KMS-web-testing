@@ -11,10 +11,17 @@
             "id": "30397126a4240a83",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/mind maps/CSRF based on clipboard poisoning.canvas",
+                "viewState": {
+                  "x": 187.19368562678167,
+                  "y": 158.6743300153188,
+                  "zoom": -0.555555533479762
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "CSRF based on clipboard poisoning"
             }
           }
         ]
@@ -180,6 +187,12 @@
   },
   "active": "30397126a4240a83",
   "lastOpenFiles": [
+    "01 Notes/XSS (cross site scripting).md",
+    "04 Canvases/mind maps/CSRF based on clipboard poisoning.canvas",
+    "04 Canvases/meetings/2025_04_04.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "01 Notes/CSRF (cross-site request forgery).md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Scenario-Based Cross-Site Request Forgery (CSRF) Attack Simulation.md",
     "03 References/(Saleh, Malkawi, et al., 2024).md",
@@ -200,12 +213,8 @@
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/The state of HTTP declarative security in online banking websites.md",
     "02 Literature/papers/HTTP traffic analysis/Machine Learning Based Web Application Plugin for Threat Detection and IP Analysis.md",
     "02 Literature/papers/object storage (blob storage)/Do Not Trust the Clouds Easily. The Insecurity of Content Security Policy Based on Object Storage.md",
-    "04 Canvases/meetings/2025_04_04.canvas",
     "03 References/(Lv, Shi, et al., 2023).md",
     "04 Canvases/mind maps/front end security category.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/cross-domain policies.canvas",
     "97 Assets/do_not_trust_clouds_table.png",
     "01 Notes/object storage service.md",
@@ -214,11 +223,9 @@
     "02 Literature/papers/object storage (blob storage)",
     "02 Literature/papers/client-side storage/NoteLocker. Simple Secure Storage Service.md",
     "03 References/(Zaris, Gjermundrød, et al., 2014).md",
-    "96 Meta/SLR/Tags analysis.md",
     "04 Canvases/meetings/2025_03_27.canvas",
     "04 Canvases/meetings/2025_03_20.canvas",
     "04 Canvases/models/research model.canvas",
-    "05 Dataset/vulnerable webapp.canvas",
     "97 Assets/clickjacking_example.png",
     "02 Literature/papers/clickjacking",
     "clickjacking",
