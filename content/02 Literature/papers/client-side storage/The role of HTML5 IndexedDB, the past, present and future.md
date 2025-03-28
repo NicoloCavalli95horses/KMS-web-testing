@@ -21,6 +21,8 @@ Businesses operating over the Internet need to maintain relations with their cus
 **Security risks with IndexedDB**
 - standard forensic tools may be used to identify data stored, and then deleted from IndexedDB
 - data stored on the client file system is unencrypted
+- deleted data is not really deleted and it is recoverable in forensic environment
+- given the IndexedDB design, it is possible to iterate over all tables (object stores) and read the whole content of the database in one fell swoop
 
 ---
 #### References

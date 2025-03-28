@@ -8,14 +8,15 @@ tags:
 
 HTML5's IndexedDB is a client side database integrated into the client’s web browser. The application uses local data stored on a client system.
 - It ==caches large data== (images, video, text) from server to client side using JavaScript Object Stores, equivalent to tables in relational databases 
-- An application stores JavaScript objects into IndexedDB when the application is connected to the Internet. When the connection terminates the application can still fetch data from the local IndexedDB and ==the application may run offline==
+- An application stores JavaScript objects into IndexedDB when the application is connected to the Internet
+- When the connection terminates the application can ==still fetch data from the local IndexedDB==
 
-## How data are stored
+### How data are stored
 
 Unlike other web-based databases such as SQL databases that use tables for storing data, IndexedDB uses **object stores**. 
 
 Multiple object stores use a single database. Keys are assigned to every value in an object store within a database, with keys being assigned by key path or by a key generator.
-## Benefits of client side storage
+### Benefits 
 
 From [[(Kimak, Ellman, et al., 2012)]], [[(Kimak, Ellman, et al., 2015)]]:
 - **connectivity failure**: the application can be used even when connection is not available
@@ -24,18 +25,19 @@ From [[(Kimak, Ellman, et al., 2012)]], [[(Kimak, Ellman, et al., 2015)]]:
 - **mobile-friendly approach**: mobile devices may suffer from weak signal more than desktop devices, which are likely to be used in the same place often
 - **desktop-like experience**: local storage provides functionality similar to that of desktop applications, where application state is persistent
 
-## Risks of client side storage
+### Risks
 
 From [[(Kimak, Ellman, et al., 2012)]]:
 - if an application is vulnerable to [[XSS (cross site scripting)]], then an attacker could steal data from the IndexedDB
 - The ==data stored in IndexedDB is not using any kind of client input validation==, which may be why possible flaws exist. This means that any site can store potentially dangerous JavaScript code into client local machine
 
 From [[(Kimak, Ellman, et al., 2015)]]:
-- standard forensic tools may be used to identify data stored, and then deleted from IndexedDB
-- data stored on the client file system is unencrypted
+- standard forensic tools may be used to identify data stored, and even to ==recover deleted data==, which is not fully deleted from the hard drive 
+- data stored on the client file system is ==unencrypted==
+- IndexedDB does not have a query level access control mechanism. If a script has access to IndexedDB, it can potentially iterate over all tables (object stores) and ==read the entire contents of the database in one fell swoop==
 
 
-## How IndexedDB saves files on the disk (for Gecko-based browsers)
+### How IndexedDB saves files on the disk (for Gecko-based browsers)
 
 - When accessing a web service that uses IndexedDB in Firefox’s private mode, a new “private” folder is initially created in the Firefox storage path
 - Inside this folder, a unique 32 bytes UUID is assigned for each web service and used as the folder name. The web application's data are stored here
