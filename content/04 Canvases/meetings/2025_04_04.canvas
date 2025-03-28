@@ -1,7 +1,7 @@
 {
 	"nodes":[
-		{"id":"370cd5d8f930cf77","type":"text","text":"[[CSP (Content Security Policy)]] may be bypassed if the whitelisted cross-domain is too general. This is often the case with Cloud [[object storage service]]: for example, Google Cloud, an [[(Lv, Shi, et al., 2023)]]\n","x":640,"y":-280,"width":720,"height":280},
-		{"id":"472594e7924f8fc8","type":"text","text":"### Cloud object storage driven XSS","x":640,"y":-400,"width":720,"height":80}
+		{"id":"370cd5d8f930cf77","type":"text","text":"[[CSP (Content Security Policy)]] may be bypassed if the whitelisted cross-domain is too general. This is often the case with Cloud [[object storage service]]: for example, Google Cloud, and Amazon AWS\n- developers often indicate a general domain `storage.googleapis.com`, in the HTTP header, ==trusting Google sources==\n- an attacker can upload a malicious script in Google Cloud, which share the `storage.googleapis.com` root domain\n- in case of XSS attack the CSP will not block the execution of the malicious script because the domain is considered legitimate\n","x":640,"y":-280,"width":820,"height":400},
+		{"id":"472594e7924f8fc8","type":"text","text":"### XSS driven by cloud object storage [[(Lv, Shi, et al., 2023)]]","x":640,"y":-400,"width":820,"height":80}
 	],
 	"edges":[]
 }
