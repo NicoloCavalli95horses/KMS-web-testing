@@ -1,13 +1,15 @@
 {
 	"nodes":[
-		{"id":"937b0ef3eab0fbb3","x":-400,"y":-60,"width":673,"height":80,"type":"text","text":"### 1.  A website is vulnerable to XSS"},
-		{"id":"f68d79827e888544","type":"text","text":"### 2. An attacker inject a script that manipulate the clipboard and intercepts the paste behavior","x":-400,"y":60,"width":673,"height":160},
-		{"id":"41be512a88d23600","x":380,"y":40,"width":680,"height":100,"type":"text","text":"via [[phishing]] email (reflected [[XSS (cross site scripting)]] leveraging unsanitized URL queries)"},
-		{"id":"123e433d75f3d81e","type":"text","text":"### 3. The victim visits the compromised page","x":-400,"y":260,"width":673,"height":100},
-		{"id":"587ad562cea191c9","type":"text","text":"### 5. The victim paste into the vulnerable site","x":-400,"y":605,"width":673,"height":95},
-		{"id":"33ce6039158313da","x":-400,"y":388,"width":673,"height":172,"type":"text","text":"### 4. The victim copies something from any source (another page, a desktop app, a terminal)"},
-		{"id":"c89e3e0998613330","type":"text","text":"### 6. The paste event is intercepted and the malicious script is executed immediately","x":-400,"y":745,"width":673,"height":115},
-		{"id":"1daa55ba89e7d624","x":-400,"y":-280,"width":860,"height":140,"type":"text","text":"# Code execution with clipboard poisoning"}
+		{"id":"937b0ef3eab0fbb3","type":"text","text":"### 1.  A website is vulnerable to stored XSS","x":-400,"y":-60,"width":673,"height":80},
+		{"id":"1daa55ba89e7d624","type":"text","text":"# Code execution with clipboard poisoning","x":-400,"y":-280,"width":860,"height":140},
+		{"id":"f68d79827e888544","type":"text","text":"### 2. An attacker inject a script that manipulate the clipboard and intercepts the paste behavior","x":-400,"y":280,"width":673,"height":160},
+		{"id":"41be512a88d23600","type":"text","text":"via [[phishing]] email (reflected [[XSS (cross site scripting)]] leveraging unsanitized URL queries)","x":380,"y":260,"width":680,"height":100},
+		{"id":"123e433d75f3d81e","type":"text","text":"### 3. The victim visits the compromised page","x":-400,"y":480,"width":673,"height":100},
+		{"id":"587ad562cea191c9","type":"text","text":"### 5. The victim paste into the vulnerable site","x":-400,"y":825,"width":673,"height":95},
+		{"id":"33ce6039158313da","type":"text","text":"### 4. The victim copies something from any source (another page, a desktop app, a terminal)","x":-400,"y":608,"width":673,"height":172},
+		{"id":"c89e3e0998613330","type":"text","text":"### 6. The paste event is intercepted and the malicious script is executed every time the user paste","x":-400,"y":965,"width":673,"height":175},
+		{"id":"816ae8ba0ad7abbc","x":-320,"y":60,"width":513,"height":180,"color":"1","type":"text","text":"This is already enough to execute arbitrary JS persistently and multiple time per visits\nWhat is the point of execute the script on each paste event?"},
+		{"id":"91b680eebb3443ac","x":-280,"y":-640,"width":525,"height":150,"color":"4","type":"text","text":"h1: users copy and paste IMPORTANT information. Accessing the history of copy and paste may leak sensitive information"}
 	],
 	"edges":[
 		{"id":"5e8045d16e15312b","fromNode":"f68d79827e888544","fromSide":"right","toNode":"41be512a88d23600","toSide":"left"}
