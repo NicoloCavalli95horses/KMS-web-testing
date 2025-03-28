@@ -46,8 +46,7 @@ Two-third of all deployed web applications are vulnerable to XSS attacks, and Ci
 
 ## Types of XSS attacks
 
-#### Reflected XSS
-
+**Reflected XSS**
 Reflected XSS is the simplest variety of cross-site scripting. It arises when an application ==receives data in an HTTP request and includes that data within the response in an unsafe way.==
 
 For example, a user may click on:
@@ -58,7 +57,6 @@ For example, a user may click on:
 Most of the literature has studied on this type of issues. If the user is presented with the dangerous link in an email, for example, this scenario is also called [[phishing]].
 
 **Real-world example from [[(Felsch, Heiderich, et al., 2015)]]**
-
 In Sunstone, every account can choose a display language. This choice is stored as an account parameter (e. g. for English `LANG=en_US`). In Sunstone, ==the value of the LANG parameter is used to construct a script tag that loads the corresponding localization script==. For English, this creates the following tag: 
 
 ``` JS
@@ -72,14 +70,13 @@ Setting the LANG parameter to a different string directly manipulates the path i
 ```
 
 For the web browser, this is a command to fetch the script locale/ from the server. However, this URL points to a folder, not a script. Therefore, what the server returns is no JavaScript. For the browser, this is an error, so the browser executes the JavaScript in the onerror statement: `alert(1)`
-#### Stored (persistent/second order XSS)
 
+**Stored (persistent/second order XSS)**
 If the system does not validate user input provided from message forums or comment sections, malicious inputs can be stored in the vulnerable app's database.
 The malicious code is then executed by each new visiting user. 
 - This is the most dangerous XSS attack because the ==attack is self-contained and there is no need to find external ways to spread the attack to other users.== The user's browser can execute the malicious code by mistake, by landing in the comments section where it is present
 
-#### DOM-based XSS (DOM XSS)
- 
+**DOM-based XSS (DOM XSS)**
  Occur when client-side JavaScript processes an input in an unsafe way, usually by writing the data back to the DOM without checking ([[sink function]])
 ```JavaScript
 function writeToDOM() { //sink function
@@ -100,15 +97,14 @@ In this kind of attack the page doesn’t change but the client side code gets e
 
 This is ==the least know type of XSS==
 
-#### Induced XSS
-
+**Induced XSS**
 Induced XSS are possible in the web applications where web server present an [[HTTP Response Splitting]] vulnerability. As a result of this vulnerability, an attacker can manipulate the HTTP header of the server’s response, injecting a script
-This type of XSS is the less common [[(Malviya, Saurav, et al., 2013)]]
+- This type of XSS is the less common [[(Malviya, Saurav, et al., 2013)]]
 
 ## Typical attacks
 
 - *session theft*: the attacker can steal [[sessions token]] of premium users or admin, getting access to protected resource
-- *content substitution*: malicious forms or redirect pages are injected to steal user credentials ([[(Tkachenko et al., 2024)]])
+- *content substitution*: malicious forms or redirect pages are injected to steal user credentials [[(Tkachenko et al., 2024)]]
 
 ## How to find to find XSS vulnerabilities
 
