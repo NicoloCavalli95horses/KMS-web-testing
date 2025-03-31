@@ -27,7 +27,8 @@ Although cookies may be set only by the visited domain, it is possible for a pag
 
 ### Session cookie
 
-Stored by the browser and more "permanent" than [[Web Storage API (localStorage, sessionStorage)]], which are stored by the window. Stealing or guessing this cookie can lead to [[session hijacking]]
+Stored by the browser and more "permanent" than [[Web Storage API (localStorage, sessionStorage)]], which are stored by the window.
+- Stealing or guessing this cookie can lead to [[session hijacking]]
 
  [[(Calzavara, Tolomei, et al., 2014)]] have analyzed differences in session cookies, recognizing that not all the cookie with "random long text" are actually session cookie, or even essential for the user to be authenticated.
  - multiple cookies may be used together to compose the session token (auth token)

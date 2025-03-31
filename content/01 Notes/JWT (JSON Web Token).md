@@ -13,7 +13,7 @@ In token-based authentication:
 - The server verifies the credentials and, if valid, generates a token (it may be a random sequence of characters, or a JWT token)
 - The token is returned to the client and stored locally, using [[Web Storage API (localStorage, sessionStorage)]]
 - On each subsequent request, the client includes the token in the HTTP request header (e.g. `Authorization: Bearer <token>`)
-- The server validates the token without needing to maintain server-side state (*statelessness approach*). This because the token contains all the user information, especially in the JWT case.
+- The server validates the token without needing to maintain server-side state  (*statelessness approach*). This because the token contains all the user information, especially in the JWT case.
 
 ---
 #### References

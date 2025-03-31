@@ -35,7 +35,10 @@ Set-Cookie: id=a3fWa; Expires=Thu, 21 Oct 2021 07:28:00 GMT; Secure; HttpOnly
 A cookie with the **Secure** attribute is only sent to the server with an encrypted request over the HTTPS protocol. It's never sent with unsecured HTTP, so insecure sites (with http: in the URL) can't set cookies with the Secure attribute. However, don't assume that "Secure" prevents all access to sensitive information in cookies.
 - For example, someone with access to the client's hard disk (or JavaScript if the HttpOnly attribute isn't set) can read and modify the information.
 
-A cookie with the "HttpOnly" attribute can't be accessed by JavaScript, for example using Document.cookie; it can only be accessed when it reaches the server. Cookies that persist user sessions for example should have the HttpOnly attribute set) it would be really insecure to make them available to JavaScript). This precaution helps mitigate [[XSS (cross site scripting)]].
+A cookie with the `HttpOnly` attribute can't be accessed by JavaScript, for example using `Document.cookie`; it can only be accessed when it reaches the server.
+
+Cookies that persist user sessions for example should have the `HttpOnly` attribute set) it would be really insecure to make them available to JavaScript).
+- This precaution helps also mitigate [[XSS (cross site scripting)]].
 
 ---
 ## References

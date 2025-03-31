@@ -4,25 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "cdf8697fe5f6f044",
+        "id": "fe60be29250a7964",
         "type": "tabs",
         "children": [
           {
-            "id": "1e3e8c73c5ad52db",
+            "id": "25635a395d35e2dd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/clickjacking/Security assessment of clickjacking risks in web applications. metrics based approach.md",
+                "file": "02 Literature/papers/CSRF (Cross Site Request Forgery)/Browser protection against cross-site request forgery.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Security assessment of clickjacking risks in web applications. metrics based approach"
+              "title": "Browser protection against cross-site request forgery"
+            }
+          },
+          {
+            "id": "efe896798e595eee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/CSRF (cross-site request forgery).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "CSRF (cross-site request forgery)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,16 +200,23 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "1e3e8c73c5ad52db",
+  "active": "efe896798e595eee",
   "lastOpenFiles": [
-    "01 Notes/clickjacking.md",
+    "01 Notes/SOP (Same-Origin Policy).md",
+    "01 Notes/CSRF (cross-site request forgery).md",
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/Browser protection against cross-site request forgery.md",
+    "04 Canvases/meetings/2025_04_04.canvas",
+    "01 Notes/cookie.md",
+    "01 Notes/sessions token.md",
+    "01 Notes/JWT (JSON Web Token).md",
+    "03 References/(Maes, Heyman, et al., 2009).md",
     "02 Literature/papers/clickjacking/Security assessment of clickjacking risks in web applications. metrics based approach.md",
+    "01 Notes/clickjacking.md",
     "03 References/(Shahriar, Haddad, et al., 2015).md",
     "02 Literature/papers/HTTP traffic analysis/A survey. Cloud hosted website protection using soft computing techniques.md",
     "00 Antilibrary/EDoS (Economical Denial of Sustainability).md",
     "03 References/(Bhingarkar, Shah, et al., 2017).md",
     "04 Canvases/mind maps/CSRF based on clipboard poisoning.canvas",
-    "04 Canvases/meetings/2025_04_04.canvas",
     "96 Meta/SLR/Paper list.md",
     "04 Canvases/mind maps/cross-domain policies.canvas",
     "04 Canvases/mind maps/front end security category.canvas",
@@ -202,7 +225,6 @@
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "01 Notes/CSRF (cross-site request forgery).md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Scenario-Based Cross-Site Request Forgery (CSRF) Attack Simulation.md",
     "03 References/(Saleh, Malkawi, et al., 2024).md",
     "01 Notes/IndexedDB.md",
@@ -213,12 +235,6 @@
     "03 References/(Kimak, Ellman, et al., 2015).md",
     "01 Notes/SQLIA (SQL injection attack).md",
     "01 Notes/benchmark testing.md",
-    "01 Notes/instrumentation.md",
-    "03 References/(Cho, Kim, et al., 2016).md",
-    "01 Notes/CURL.md",
-    "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
-    "02 Literature/papers/CSRF (Cross Site Request Forgery)/The state of HTTP declarative security in online banking websites.md",
-    "02 Literature/papers/HTTP traffic analysis/Machine Learning Based Web Application Plugin for Threat Detection and IP Analysis.md",
     "97 Assets/do_not_trust_clouds_table.png",
     "97 Assets/CSP_directives_example.png",
     "02 Literature/papers/object storage (blob storage)",
