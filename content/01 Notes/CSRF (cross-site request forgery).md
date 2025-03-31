@@ -77,14 +77,19 @@ Common CSFR includes:
 - using [[SameSite cookie]] [[(Saleh, Malkawi, et al., 2024)]]
 - closing all the tabs except for the one you are using may be an effective mitigation strategy, but ==if you landed on a malicious website *before* reaching the target, malicious HTTP requests may have been hidden and then executed in the background (this can be done with a [[service worker]])==
 
-From [[(Maes, Heyman, et al., 2009)]]:
-- browser extensions
-- client-side proxy
+Other client-side protections from [[(Maes, Heyman, et al., 2009)]]:
+- browser extensions: RequestPolicy, BEAP, CSRF Protector, SOMA
+- client-side proxy: RequestRodeo
 
 Usually these countermeasures monitor outgoing requests and incoming responses, and filter out implicit authentication or block cross-domain requests. Cons:
 - degrading user experience
 - degrading application performance
 - fail to protect against GET-based CSRF
+
+**Why not blocking all the cross-domain POST request?**
+- sometimes front-end and back-end live in different domains (e.g., `example.com` is a SPA application written in Vue.js ask requests to a PHP back-end which is a completely different application hosted somewhere else)
+- some web applications leverage on public APIs
+- third-party services (Stripe, for payments, [[OAuth]] or [[OpenID]] for authentication) are used
 
 ---
 
