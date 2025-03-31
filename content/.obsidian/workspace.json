@@ -198,8 +198,9 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "c5e2ec36153a03e2",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
+    "97 Assets/licenses_types.png",
     "06 Courses, webinars/Ethics in research. How to make your research more visible.md",
     "06 Courses, webinars/The publishing trap.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Browser protection against cross-site request forgery.md",
@@ -232,7 +233,6 @@
     "02 Literature/papers/service worker vulnerabilities/Categorizing service worker attacks and mitigations.md",
     "02 Literature/papers/client-side storage/The role of HTML5 IndexedDB, the past, present and future.md",
     "02 Literature/papers/input validation/Runtime Input Validation for Java Web Applications using Static Bytecode Instrumentation.md",
-    "03 References/(Kimak, Ellman, et al., 2012).md",
     "97 Assets/do_not_trust_clouds_table.png",
     "97 Assets/CSP_directives_example.png",
     "02 Literature/papers/object storage (blob storage)",
