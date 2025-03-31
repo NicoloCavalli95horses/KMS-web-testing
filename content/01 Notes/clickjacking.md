@@ -39,6 +39,8 @@ The user:
 
 Attackers have used clickjacking attacks to trick users into liking a fan page on Facebook or re-tweeting a message on Twitter [[(Hazhirpasand, 2020)]]
 
+**Tweetbomb and likejacking**  [[(Shahriar, Haddad, et al., 2015)]]
+- using clickjacking to trick an user to like a post on Facebook or share a post Tweeter, causing an increase of traffic to the attacker's content
 ### Types
 
 **Compromising target display integrity**  [[(Hazhirpasand, 2020)]] [[(Selim, Tayeb, et al., 2016)]]
@@ -53,11 +55,34 @@ Attackers have used clickjacking attacks to trick users into liking a fan page o
 
 ### Mitigation techniques
 
-**Frame busting** [[(Hazhirpasand, 2020)]]  [[(Selim, Tayeb, et al., 2016)]]
+**Frame busting** [[(Hazhirpasand, 2020)]]  [[(Selim, Tayeb, et al., 2016)]] [[(Shahriar, Haddad, et al., 2015)]]
 Frame busting is a technique to prevent a given web page from being loaded in a sub-frame. Many JS snippet have been proposed to implement that solution
-- rigid clickjacking prevention are challenging to implement by browser vendors, because it is not easy to distinguish between a legitimate and a malicious usage of iframe [[(Selim, Tayeb, et al., 2016)]]
-- using `X-frame-Options` header in `HTTP` will prohibits a website from being rendered in a iframe. [[(Aditya Sood, Richard Enbody, et al., 2011)]] [[(Selim, Tayeb, et al., 2016)]]
+
+Rigid clickjacking prevention are challenging to implement by browser vendors, because it is not easy to distinguish between a legitimate and a malicious usage of iframe [[(Selim, Tayeb, et al., 2016)]]
+
+**X-Frame-Options on HTTP header**
+using `X-Frame-Options` header in `HTTP` will prohibits a website from being rendered in a iframe. [[(Aditya Sood, Richard Enbody, et al., 2011)]] [[(Selim, Tayeb, et al., 2016)]]  [[(Shahriar, Haddad, et al., 2015)]]
 - only 11.11% of Alexa's top 1 million sites implement `X-Frame-Options` header 
+- Header-based solutions are difficult to scale up for organizations hosting multiple websites referring each other [[(Shahriar, Haddad, et al., 2015)]]
+
+**Confirmation dialog** [[(Shahriar, Haddad, et al., 2015)]]
+A confirmation dialog has been proposed to mitigate clickjacking attacks when there is a possible out-of-context click.
+- the user experience is degraded and the user is involved in a security measure that should be his responsibility
+
+**GUI randomization** [[(Shahriar, Haddad, et al., 2015)]]
+Randomizing the layout of small part of the UI to prevent an attacker to correctly locate the position of the target element
+- the user experience is degraded
+- the performance of the page is degraded
+
+**Blocking of mouse click** [[(Shahriar, Haddad, et al., 2015)]]
+Blocking the mouse if browser detects that the clicked cross-origin frame is not fully visible
+
+**Browser plugins/extensions** [[(Shahriar, Haddad, et al., 2015)]]
+- ClickIDS for Firefox: to detect overlapping clicks by comparing the bitmap of a clicked object to the bitmap of all other objects present in the same page. The user is warned when an overlap is found
+- Noscript: disables all JavaScript elements. It can degrade the user experience or prevent the user to fully access all the functionalities of a web application
+
+**Click-side proxy** [[(Shahriar, Haddad, et al., 2015)]]
+- The approach intercepts requests and responses and uses a set of policies to examine for matching with known clickjacking attacks. The approach delays the generation of response pages due to rigorous checking of JavaScript code.
 
 ---
 ## References
@@ -66,3 +91,4 @@ Frame busting is a technique to prevent a given web page from being loaded in a 
 - Granting web permissions, by [[(Hazhirpasand, 2020)]]
 - HTTP header example from [[(Aditya Sood, Richard Enbody, et al., 2011)]]
 - [[(Selim, Tayeb, et al., 2016)]]
+- Risk assessment, by [[(Shahriar, Haddad, et al., 2015)]]

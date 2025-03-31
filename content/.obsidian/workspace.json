@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "2e3d9d9e8acd7e03",
+        "id": "cdf8697fe5f6f044",
         "type": "tabs",
         "children": [
           {
-            "id": "7d880905074f160d",
+            "id": "1e3e8c73c5ad52db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/HTTP traffic analysis/A survey. Cloud hosted website protection using soft computing techniques.md",
+                "file": "02 Literature/papers/clickjacking/Security assessment of clickjacking risks in web applications. metrics based approach.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "A survey. Cloud hosted website protection using soft computing techniques"
-            }
-          },
-          {
-            "id": "808d0a2bd213c198",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00 Antilibrary/EDoS (Economical Denial of Sustainability).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "EDoS (Economical Denial of Sustainability)"
+              "title": "Security assessment of clickjacking risks in web applications. metrics based approach"
             }
           }
         ]
@@ -94,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.50260543823242
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -198,10 +184,13 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "7d880905074f160d",
+  "active": "1e3e8c73c5ad52db",
   "lastOpenFiles": [
-    "00 Antilibrary/EDoS (Economical Denial of Sustainability).md",
+    "01 Notes/clickjacking.md",
+    "02 Literature/papers/clickjacking/Security assessment of clickjacking risks in web applications. metrics based approach.md",
+    "03 References/(Shahriar, Haddad, et al., 2015).md",
     "02 Literature/papers/HTTP traffic analysis/A survey. Cloud hosted website protection using soft computing techniques.md",
+    "00 Antilibrary/EDoS (Economical Denial of Sustainability).md",
     "03 References/(Bhingarkar, Shah, et al., 2017).md",
     "04 Canvases/mind maps/CSRF based on clipboard poisoning.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",
@@ -230,10 +219,7 @@
     "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/The state of HTTP declarative security in online banking websites.md",
     "02 Literature/papers/HTTP traffic analysis/Machine Learning Based Web Application Plugin for Threat Detection and IP Analysis.md",
-    "02 Literature/papers/object storage (blob storage)/Do Not Trust the Clouds Easily. The Insecurity of Content Security Policy Based on Object Storage.md",
-    "03 References/(Lv, Shi, et al., 2023).md",
     "97 Assets/do_not_trust_clouds_table.png",
-    "01 Notes/object storage service.md",
     "97 Assets/CSP_directives_example.png",
     "02 Literature/papers/object storage (blob storage)",
     "04 Canvases/meetings/2025_03_27.canvas",

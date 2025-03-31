@@ -2,13 +2,10 @@
 ID: 2025-03-28T15:51:31.595Z
 tags:
   - paper
-  - projectSLR
   - DoS
   - DDoS
   - EDoS
   - HTTP
-Project:
-  - SLR
 ---
 Unsystematic literature review about HTTP analysis for EDoS
 ## Context
@@ -18,10 +15,6 @@ Cloud Service Providers usually offers website owners different plans to host th
 - it is therefore very important to distinguish between legitimate users and bots, to save computational resources
 
 This paper proposes a summary of the most used techniques to analyze the HTTP traffic aiming at identifying bots.
-
-## Observations
-
-TO DO
 
 ---
 #### References
