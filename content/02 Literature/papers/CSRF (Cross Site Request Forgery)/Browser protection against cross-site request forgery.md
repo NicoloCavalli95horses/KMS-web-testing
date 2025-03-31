@@ -86,7 +86,6 @@ Policy implementation can be expressed as JSON files, for example:
 
 The policy is client-side by default, but can be improved/supported by other server-side declarations, eliminating false positives and enhancing the overall security:
 - server-side declaration can relax or tighten the client-side policy, claiming which cross-domains are legitimate through high-detailed whitelists or blacklists
-- this require the developer effort
 
 ## Approach
 
@@ -100,11 +99,12 @@ The authors proposal was implemented as a [[Firefox extension]]
 
 The server policy is expressed in JSON syntax, which poses a security challenge when evaluated with the javascript `eval` method.
 - when the policy file contains javascript code, this code is executed in the browser with the privileges of the extension
-- However, this can be mitigated by using the `nsIJson` interface for secure JSON processing
+- however, this can be mitigated by using the `nsIJson` interface for secure JSON processing
 
 A small modification of Firefox engine was necessary to access `Authorization` and `Proxy-Authorization` headers from `nsIHTTPChannel`
 
 Server-side specifications can fine-tune the client-side default policy, but have to be defined manually
+
 ### Evaluation
 
 - a proof-of-concept application was developed to test 59 scenarios in which a CSRF may occur. The policy successful protected against a CSRF attack

@@ -59,10 +59,6 @@ Once you have published something, you should be able to put an open-access copy
 > [!WARNING] Making money on science
 > Elsevier has 37.8% of profit margin, does not have to pay researchers, it just exploits its reputation and the hard work of a number of researchers. It is more than Apple profit margin!
 
-**Licenses**
-
-![[research_licenses_type.png]]
-
 **Diamond Open Access**
 - private initiatives to make papers accessible (e.g., vulcanica)
 - no APCs
