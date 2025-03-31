@@ -51,6 +51,7 @@ A fixed URL can be defined by the `action` attribute fixing the target of the HT
 
 ---
 ## References
+
 - [[(Offutt, Wu, Du, 2004)]]
 - [[(Viticchie, Basile, Avancini, et al., 2016)]]
 - Included in literature review, by [[(Onukrane, Skrodelis, et al., 2023)]]

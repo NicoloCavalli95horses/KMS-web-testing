@@ -38,7 +38,7 @@ Most relevant vulnerabilities, sorted by prevalence:
 - vulnerable and outdated components
 - security logging and monitoring failures
 - information leak
-- [[client-side input validations]]
+- [[string validation]]
 - [[redirect attack]]
 - privilege escalation
 - [[session hijacking]]

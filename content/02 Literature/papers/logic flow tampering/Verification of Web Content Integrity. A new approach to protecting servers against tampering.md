@@ -19,7 +19,7 @@ This paper reviews approaches and researches in web data integrity and proposes 
 
 A form field validation scheme is the first defense against tampering at the application level. Approaches to prevent loss of web content integrity:
 - server-side validation,
-- client-side validation (see [[client-side input validations]]),
+- client-side validation (see [[string validation]]),
 - double-checking validation,
 - digital signature and data validation on the client and/or server-sides.
 

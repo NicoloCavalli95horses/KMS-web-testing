@@ -9,7 +9,7 @@ tags:
 ---
 ## Abstract
 
-Web applications rely heavily on [[client-side input validations]] to examine and validate form inputs that are supplied by a user (e.g., “credit card expiration date must be valid”).
+Web applications rely heavily on [[string validation]] to examine and validate form inputs that are supplied by a user (e.g., “credit card expiration date must be valid”).
 
 This is typically done:
 - to reduce burden on the server

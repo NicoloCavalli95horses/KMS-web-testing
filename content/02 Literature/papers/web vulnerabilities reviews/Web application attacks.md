@@ -11,7 +11,7 @@ tags:
 High-level history of web browser and web technology evolution. Web attacks are described in a general fashion taking in account both server and client issues:
 - [[buffer overflow]]
 - sample code: sample applications or test scripts that are badly coded and can be exploited
-- [[client-side input validations]] attacks
+- [[string validation]] attacks
 - format string attacks
 - canonicalisation attacks: attacks related to file naming exploitation on the server-side
 - **encoding attacks**: used to bypass [[RegEx (Regular Expression)]] checks

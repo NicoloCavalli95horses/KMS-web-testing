@@ -8,7 +8,7 @@ tags:
 ---
 Web software applications are increasingly being deployed in sensitive situations, to transmit, accept and store sensitive or confidential data
 
-[[client-side input validations]] testing (IVT) checks user inputs to ensure that they conform to the program’s requirements
+[[string validation]] testing (IVT) checks user inputs to ensure that they conform to the program’s requirements
 - A common technique in Web applications is to perform input validation on the client with scripting languages
 - The problem is that users can bypass this validation. Bypassing validation can cause failures in the software, and can also break the security on Web applications, leading to unauthorized access to data, system failures, invalid purchases and entry of bogus data
 
@@ -31,7 +31,7 @@ This paper describes the strategy, defines specific rules and adequacy criteria 
 - overriding hidden input fields that are not visible on the screen but send data to the server
 - adding SQL statements to an input ([[XSS (cross site scripting)]])
 - by-passing is not always a bad thing because it can ease the testing process
-- It is possible to leverage different [[client-side input validations]] 
+- It is possible to leverage different [[string validation]] 
 
 ---
 ## References

@@ -13,7 +13,7 @@ Project:
 ---
 ## Context
 
-[[client-side input validations]] vulnerabilities have a long history and many security measures are proposed, but are still in high ranks in vulnerability reports. In this paper, we propose a new technique that can monitor input values and take action if malicious input values are received.
+[[string validation]] vulnerabilities have a long history and many security measures are proposed, but are still in high ranks in vulnerability reports. In this paper, we propose a new technique that can monitor input values and take action if malicious input values are received.
 - The proposed technique finds vulnerable methods and inserts input validation codes in compiled Java web applications (without source codes) using **bytecode [[instrumentation]]**
 - Bytecode instrumentation does not need the program source code, therefore is a [[black-box testing]] approach
 ## Approach

@@ -12,7 +12,7 @@ Project:
 ## Context
 
 In web development often client and server are built separately, by different teams, in different programming languages and platforms. When the client and server are supposed to share application logic but do not, an “*impedance mismatch*” occurs
-- [[client-side input validations]] should be in sync with server-side input validation
+- [[string validation]] should be in sync with server-side input validation
 
 ## Approach
 

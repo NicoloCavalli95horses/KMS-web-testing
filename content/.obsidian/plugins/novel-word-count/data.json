@@ -1539,15 +1539,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.08666666666666667,
-      "characterCount": 387,
+      "characterCount": 385,
       "nonWhitespaceCharacterCount": 254,
       "readingTimeInMinutes": 0.09811320754716982,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1741872688585,
-      "modifiedDate": 1743175209218,
-      "sizeInBytes": 430,
+      "modifiedDate": 1743431952232,
+      "sizeInBytes": 428,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.08666666666666667,
@@ -12124,41 +12124,6 @@
         ]
       }
     },
-    "01 Notes/client-side input validations.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 298,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.9933333333333333,
-      "characterCount": 2038,
-      "nonWhitespaceCharacterCount": 1708,
-      "readingTimeInMinutes": 1.1245283018867924,
-      "linkCount": 4,
-      "embedCount": 1,
-      "aliases": null,
-      "createdDate": 1741599666289,
-      "modifiedDate": 1742892905271,
-      "sizeInBytes": 2155,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.9933333333333333,
-        "wordCount": 298,
-        "characterCount": 2038,
-        "nonWhitespaceCharacterCount": 1708
-      },
-      "frontmatter": {
-        "ID": "2025-01-27-10:13",
-        "tags": [
-          "inputValidation",
-          "cyberSecurity",
-          "clientSideAttacks",
-          "GUI",
-          "JavaScript"
-        ]
-      }
-    },
     "01 Notes/co-clustering.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -12749,19 +12714,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 735,
+      "wordCount": 808,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 2.45,
-      "characterCount": 5498,
-      "nonWhitespaceCharacterCount": 4693,
-      "readingTimeInMinutes": 2.7735849056603774,
-      "linkCount": 17,
+      "pageCount": 2.6933333333333334,
+      "characterCount": 6013,
+      "nonWhitespaceCharacterCount": 5128,
+      "readingTimeInMinutes": 3.049056603773585,
+      "linkCount": 22,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1741599666265,
-      "modifiedDate": 1742819673094,
-      "sizeInBytes": 5550,
+      "modifiedDate": 1743431284150,
+      "sizeInBytes": 6065,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 2.45,
@@ -18727,6 +18692,92 @@
       "createdDate": 1743425484194,
       "modifiedDate": 1743425484194,
       "sizeInBytes": 322194,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "03 References/(Li, Xue, et al., 2013).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 189,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.63,
+      "characterCount": 1573,
+      "nonWhitespaceCharacterCount": 1358,
+      "readingTimeInMinutes": 0.7132075471698113,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743430654174,
+      "modifiedDate": 1743430654175,
+      "sizeInBytes": 1575,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "02 Literature/papers/logic flow tampering/LogicScope. automatic discovery of logic vulnerabilities within web applications.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 135,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.45,
+      "characterCount": 992,
+      "nonWhitespaceCharacterCount": 839,
+      "readingTimeInMinutes": 0.5094339622641509,
+      "linkCount": 5,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743430654226,
+      "modifiedDate": 1743431765890,
+      "sizeInBytes": 1102,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-03-31T14:17:34.152Z",
+        "tags": [
+          "paper",
+          "projectSLR",
+          "businessFlowTampering"
+        ],
+        "Project": [
+          "SLR"
+        ]
+      }
+    },
+    "01 Notes/string validation.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 306,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.02,
+      "characterCount": 2156,
+      "nonWhitespaceCharacterCount": 1801,
+      "readingTimeInMinutes": 1.1547169811320754,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1741599666289,
+      "modifiedDate": 1743430845273,
+      "sizeInBytes": 2156,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
