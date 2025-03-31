@@ -18,11 +18,7 @@ You own your research, but data are property of university or there are constrai
 
 (!) HAL is often the preferred option
 
---- 
+**Data paper:** a paper centered on your dataset and how it was built
 
-POINTS
-- 2 (embargo, code common license)
-- 1 knowledge, 1 impact (paper accepted, dice: 5)
-- 
-
+Data sharing and data management: https://doranum.fr/
 
