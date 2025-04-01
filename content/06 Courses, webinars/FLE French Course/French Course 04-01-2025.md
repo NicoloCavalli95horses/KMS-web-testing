@@ -42,4 +42,4 @@ revenir: to come back, rentrer
 
 sombre/clair
 
-des ty
+des tuyaux: pipes

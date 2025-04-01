@@ -13,16 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 Courses, webinars/FLE French Course/French Course 04-01-2025.md",
+                "file": "01 Notes/WAF (web application firewall).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "French Course 04-01-2025"
+              "title": "WAF (web application firewall)"
+            }
+          },
+          {
+            "id": "f762f856e8c9cdd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature/papers/WAF (Web Application Firewall)/Adaptive Web Application Firewall for Multi-Threat Detection.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Adaptive Web Application Firewall for Multi-Threat Detection"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -42,7 +58,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -79,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5026054382324
+    "width": 248.50260543823242
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -183,18 +199,18 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3f26f6c1ba4ffe87",
+  "active": "f762f856e8c9cdd4",
   "lastOpenFiles": [
     "01 Notes/WAF (web application firewall).md",
-    "06 Courses, webinars/The publishing trap.md",
-    "06 Courses, webinars/FLE French Course/French Course 04-01-2025.md",
-    "06 Courses, webinars/FLE French Course/French Course 03-18-2025.md",
-    "06 Courses, webinars/FLE French Course/French Course 03-11-2025.md",
     "02 Literature/papers/WAF (Web Application Firewall)/Adaptive Web Application Firewall for Multi-Threat Detection.md",
-    "00 Antilibrary/gradient boosting.md",
-    "00 Antilibrary/SVM (support vector machine).md",
     "96 Meta/SLR/Paper list.md",
     "03 References/(Maheshwari, Nayak, et al., 2024).md",
+    "06 Courses, webinars/FLE French Course/French Course 04-01-2025.md",
+    "06 Courses, webinars/The publishing trap.md",
+    "06 Courses, webinars/FLE French Course/French Course 03-18-2025.md",
+    "06 Courses, webinars/FLE French Course/French Course 03-11-2025.md",
+    "00 Antilibrary/gradient boosting.md",
+    "00 Antilibrary/SVM (support vector machine).md",
     "02 Literature/papers/WAF (Web Application Firewall)",
     "02 Literature/papers/web vulnerabilities reviews/Enhancing Front-End Security. Protecting User Data and Privacy in Web Applications.md",
     "03 References/(Tkachenko et al., 2024).md",

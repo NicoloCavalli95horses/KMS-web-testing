@@ -29,6 +29,8 @@ To solve the limitations our proposed solution incorporates lightweight and effi
 
 The model is able to detect [[SQLIA (SQL injection attack)]], [[DDoS (Distributed Denial of Service)]], [[CSRF (cross-site request forgery)]], [[directory traversal (path traversal)]]
 
+### Approach
+
 
 ---
 #### References
