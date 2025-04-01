@@ -24,7 +24,7 @@ The study includes a comparative analysis and critical review of various front-e
 	- [[sessions token]]
 
 Attacks mitigation and prevention:
-- [[WAFs (web application firewall system)]]
+- [[WAF (web application firewall)]]
 - [[IDS and IPS (intrusion detection, intrusion prevention system)]]
 - advanced logging monitoring
 

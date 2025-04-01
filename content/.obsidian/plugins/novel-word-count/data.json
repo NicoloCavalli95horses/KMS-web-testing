@@ -1671,15 +1671,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.08666666666666667,
-      "characterCount": 387,
+      "characterCount": 388,
       "nonWhitespaceCharacterCount": 254,
       "readingTimeInMinutes": 0.09811320754716982,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1741872688585,
-      "modifiedDate": 1743498731771,
-      "sizeInBytes": 430,
+      "modifiedDate": 1743507061022,
+      "sizeInBytes": 431,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.08666666666666667,
@@ -6336,39 +6336,6 @@
         "ID": "2025-02-03-10:01",
         "tags": [
           "#definition"
-        ]
-      }
-    },
-    "01 Notes/WAFs (web application firewall system).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 56,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.18666666666666668,
-      "characterCount": 438,
-      "nonWhitespaceCharacterCount": 365,
-      "readingTimeInMinutes": 0.21132075471698114,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1741599666284,
-      "modifiedDate": 1741599666284,
-      "sizeInBytes": 527,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.18666666666666668,
-        "wordCount": 56,
-        "characterCount": 438,
-        "nonWhitespaceCharacterCount": 365
-      },
-      "frontmatter": {
-        "ID": "2025-02-18-14:36",
-        "tags": [
-          "paper",
-          "cyberSecurity",
-          "attackMitigation"
         ]
       }
     },
@@ -18988,6 +18955,162 @@
         "Project": [
           "SLR"
         ]
+      }
+    },
+    "03 References/(Maheshwari, Nayak, et al., 2024).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 61,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.20333333333333334,
+      "characterCount": 809,
+      "nonWhitespaceCharacterCount": 718,
+      "readingTimeInMinutes": 0.23018867924528302,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743506803516,
+      "modifiedDate": 1743506803516,
+      "sizeInBytes": 809,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "02 Literature/papers/WAF (Web Application Firewall)/Adaptive Web Application Firewall for Multi-Threat Detection.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 304,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.0133333333333334,
+      "characterCount": 2134,
+      "nonWhitespaceCharacterCount": 1816,
+      "readingTimeInMinutes": 1.1471698113207547,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743506803552,
+      "modifiedDate": 1743508168575,
+      "sizeInBytes": 2267,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-01T11:26:43.511Z",
+        "tags": [
+          "paper",
+          "projectSLR",
+          "machineLearning",
+          "SQLIA",
+          "WAF",
+          "HTTP"
+        ],
+        "Project": [
+          "SLR"
+        ]
+      }
+    },
+    "01 Notes/WAF (web application firewall).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 340,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.1333333333333333,
+      "characterCount": 2295,
+      "nonWhitespaceCharacterCount": 1936,
+      "readingTimeInMinutes": 1.2830188679245282,
+      "linkCount": 11,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1741599666284,
+      "modifiedDate": 1743507967338,
+      "sizeInBytes": 2386,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-02-18-14:36",
+        "tags": [
+          "paper",
+          "cyberSecurity",
+          "attackMitigation",
+          "WAF"
+        ]
+      }
+    },
+    "00 Antilibrary/gradient boosting.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743507816933,
+      "modifiedDate": 1743507816933,
+      "sizeInBytes": 0,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "06 Courses, webinars/FLE French Course/French Course 04-01-2025.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 2,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.006666666666666667,
+      "characterCount": 21,
+      "nonWhitespaceCharacterCount": 18,
+      "readingTimeInMinutes": 0.007547169811320755,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743508375395,
+      "modifiedDate": 1743509297368,
+      "sizeInBytes": 104,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-03-05-11:00",
+        "tags": [
+          "course",
+          "french"
+        ],
+        "speaker": "Marjorie Vincent"
       }
     }
   }
