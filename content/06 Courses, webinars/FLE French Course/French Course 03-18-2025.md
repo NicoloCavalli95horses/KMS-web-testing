@@ -17,7 +17,6 @@ colline: hill
 shirt: t shirt
 short: short
 
-
 je pense que...
 je crois que...
 je trouve que...
@@ -34,7 +33,6 @@ Extraterrest: preferred instead of alien
 je ne suis pas d'accord avec toi
 je ne partage pas ton avis
 je ne pense pas, je ne crois pas
-
 
 je suis d'accord avec toi
 absolutment
