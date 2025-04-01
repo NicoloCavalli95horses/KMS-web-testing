@@ -61,7 +61,6 @@ To analyze a private CCI, the authors
 - always use security related HTTP headers and implement [[cross-domain policies]]
 - tools like noVNC should be used carefully, since a connection may be initialized by some malicious JavaScript. Use a [[CAPTCHA (Completely Automated Public Turing-test-to-tell Computers and Humans Apart)]] or a password
 
-
 ---
 #### References
 - [[(Felsch, Heiderich, et al., 2015)]]

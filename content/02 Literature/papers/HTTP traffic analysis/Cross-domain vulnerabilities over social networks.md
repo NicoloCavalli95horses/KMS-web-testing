@@ -46,4 +46,3 @@ Current solutions to detect these vulnerabilities use a client-side approach:
 
 [^1]: Flash has been deprecated and then has been officially disabled by browser, since 2021
 [^2]: The tool is now called Zeek: https://zeek.org/
-	

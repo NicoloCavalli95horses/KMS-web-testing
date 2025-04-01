@@ -3,6 +3,7 @@ ID: 2025-03-25-16:42
 tags:
   - "#definition"
   - HAR
+  - HTTP
 ---
 ## Definition
 

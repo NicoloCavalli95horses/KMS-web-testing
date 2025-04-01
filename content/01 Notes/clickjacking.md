@@ -82,7 +82,7 @@ using `X-Frame-Options` header in `HTTP` will prohibits a website from being ren
 A confirmation dialog has been proposed to mitigate clickjacking attacks when there is a possible out-of-context click.
 - the user experience is degraded and the user is involved in a security measure that should be his responsibility
 
-**GUI randomization** [[(Shahriar, Haddad, et al., 2015)]]
+**GUI randomization** [[(Shahriar, Haddad, et al., 2015)]], [[(Sinha, Uppal, et al., 2014)]]
 Randomizing the layout of small part of the UI to prevent an attacker to correctly locate the position of the target element
 - the user experience is degraded
 - the performance of the page is degraded

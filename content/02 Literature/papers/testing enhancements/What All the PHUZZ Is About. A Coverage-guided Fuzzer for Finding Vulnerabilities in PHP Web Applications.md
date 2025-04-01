@@ -25,6 +25,7 @@ Little work exists on grey box coverage-guided fuzzing to web applications due t
 - A novel [[instrumentation]] approach without modifications to the fuzzed application’s source code or related components (i.e., databases), capable of intercepting PHP exceptions or errors, and bypassing authentication and authorization functionality to collect more code coverage
 - A novel vulnerability detection approach to discover web vulnerability, supporting parallel fuzzing out-of-the-box, making it suitable for large-scale fuzzing testing
 - Two [[zero-day vulnerability]] found and approved by Certified Numbering Authority (CNA) WPScan
+
 ## Background
 
 This work focuses on ==user-supplied input (HTTP headers, cookies, query, body parameters), to PHP functions== that result in a vulnerability.
@@ -44,7 +45,7 @@ This work focuses on ==user-supplied input (HTTP headers, cookies, query, body p
 - **browser and crawler**: the process begins with obtaining endpoints that are to be fuzzed. We define an endpoint as a URL path, and request method with a specific set parameters (HTTP headers, query, body, and cookie parameters). We implement a crawling component to discover fuzzable endpoints automatically, with Playwright. Browser DevTools are used to capture and save all HTTP requests performed while interacting with the application
 - **HARgen**: this component generates configuration files for Phuzz from a given [[HAR file]], which is the output of the previous step.
 - **Composegen**: in order to orchestrate all components and their respective Docker containers to launch Phuzz with the desired configuration in a reproducible manner, we use the docker-compose extension
-- **Login script**: yo support fuzzing of endpoints that require authentication or authorization, a login script can be executed during Phuzz’ startup to obtain session cookies, which will be used in all subsequent fuzzing requests to the target
+- **Login script**: to support fuzzing of endpoints that require authentication or authorization, a login script can be executed during Phuzz startup to obtain session cookies, which will be used in all subsequent fuzzing requests to the target
 - **Fuzzer**: The Fuzzer component is the centerpiece of the Phuzz framework
 	- It takes the endpoints to be fuzzed from the loaded configuration files and generates test cases, which we call *candidates*
 	- The mutation-based candidate generation follows a basic [[energy-based algorithm]]
