@@ -18986,19 +18986,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 305,
+      "wordCount": 515,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.0166666666666666,
-      "characterCount": 2148,
-      "nonWhitespaceCharacterCount": 1827,
-      "readingTimeInMinutes": 1.150943396226415,
-      "linkCount": 6,
+      "pageCount": 1.7166666666666666,
+      "characterCount": 3537,
+      "nonWhitespaceCharacterCount": 2988,
+      "readingTimeInMinutes": 1.9433962264150944,
+      "linkCount": 9,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743506803552,
-      "modifiedDate": 1743516782839,
-      "sizeInBytes": 2281,
+      "modifiedDate": 1743520296256,
+      "sizeInBytes": 3670,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -19111,6 +19111,64 @@
           "french"
         ],
         "speaker": "Marjorie Vincent"
+      }
+    },
+    "00 Antilibrary/KNN (K-Nearest Neighbors).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 57,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.19,
+      "characterCount": 398,
+      "nonWhitespaceCharacterCount": 334,
+      "readingTimeInMinutes": 0.21509433962264152,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743518833243,
+      "modifiedDate": 1743518968125,
+      "sizeInBytes": 493,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-01-16:47",
+        "tags": [
+          "#definition",
+          "machineLearning",
+          "supervisedLearning"
+        ]
+      }
+    },
+    "00 Antilibrary/PCA (Principal Component Analysis).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743519362255,
+      "modifiedDate": 1743519362255,
+      "sizeInBytes": 0,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
       }
     }
   }
