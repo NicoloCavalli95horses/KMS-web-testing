@@ -19,7 +19,7 @@ This paper shows how to ==decrypt client-side storages==, specifically [[Indexed
 - **Identification of candidate CipherKeys** inside physical memory-related data using [[RegEx (Regular Expression)]]. This is possible because physical memory and related data contains fixed pattern
 - **Extraction of a valid CipherKey by** [[brute forcing]]. Bruteforcing is performed on encrypted file to find a key that does not result in a MAC authentication error during AEAD decryption
 - **Decryption of IndexedDB data**: if a key is found that does not result in a MAC authentication error, that key is considered the correct cipherkey for the file. Subsequently, the AEAD algorithm is applied page-by-page to decrypt the encrypted file using the identified cipherkey
-to r
+
 In the case in which PC is shut down, it is not possible to acquire physical memory directly. Therefore, candidate cipherkeys are found in memory-related data such as Hiberfil.sys, Pagefile.sys, Swapfile.sys or in disk’s unallocated area
 
 

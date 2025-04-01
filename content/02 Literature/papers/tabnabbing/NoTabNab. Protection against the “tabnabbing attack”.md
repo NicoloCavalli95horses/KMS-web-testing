@@ -7,7 +7,7 @@ tags:
 Project:
   - SLR
 ---
-A Firefox plugin is developed to defend against tabnabbing. Short paper with no references
+A Firefox plugin is developed to defend against tabnabbing. Short paper
 ## Context
 
 A possible [[tabnabbing]] attack, works as following:
@@ -19,6 +19,15 @@ A possible [[tabnabbing]] attack, works as following:
 - The page captures login information and send them to the attacker
 - The page may redirects the user to the original mail page which the user is already logged in. In this way the attack is completely invisible to the user
 
+### NoTabNab
+
+- Firefox plugin that detect important visual changes in a page, without refresh
+- Track favicon image, page title and layout changes of the topmost elements
+- inform the user if a radical change happened
+
+## Limits
+
+- NoTabNab does not work well for legitimate changes of the page (e.g., after resizing the window)
 
 ---
 #### References

@@ -54,13 +54,16 @@ function goToLegitWebsite() {
 - the URL switch can be detected by tool that alert the user [[(Fonseka, Pashenna, et al., 2023)]]
 
 **Browser extensions** [[(Fonseka, Pashenna, et al., 2023)]]
-- Firefox plugin called NoTabNab
+- Firefox plugin called NoTabNab [[(Unlu, Bicakci, et al., 2010)]]
 - TabShots browser extension: takes snapshots of the browser in regular intervals
 - TabsGuard
 - TabSol
 - TabSecure
 - AgentTab
 
+From [[(Unlu, Bicakci, et al., 2010)]]:
+- By relying on the browser's password manager, it is possible to notice whether a login form is automatically filled in or not
+- Even this strategy can be bypassed since the attacker could pretend that there is an auto-filling mechanism and then could tell the user the password is wrong and to try again
 
 ---
 ## References
