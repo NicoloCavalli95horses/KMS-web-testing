@@ -55,13 +55,25 @@ Attackers have used clickjacking attacks to trick users into liking a fan page o
 
 ### Mitigation techniques
 
-**Frame busting** [[(Hazhirpasand, 2020)]]  [[(Selim, Tayeb, et al., 2016)]] [[(Shahriar, Haddad, et al., 2015)]]
+**Frame busting** [[(Hazhirpasand, 2020)]]  [[(Selim, Tayeb, et al., 2016)]] [[(Shahriar, Haddad, et al., 2015)]] [(Sood, Enbody, et al., 2011)]]
 Frame busting is a technique to prevent a given web page from being loaded in a sub-frame. Many JS snippet have been proposed to implement that solution
+- given that is a client-side implementation, it can be modified by an attacker, so does not really protect against a well-crafted targeted attack
+- using the `sandbox` attribute would allow an attacker to bypass the framebusting[^1]
+
+```javascript
+// framebusting example
+// window.self === self === window
+// window.top is the topmost window on the iframe stack
+if (window.top != window.self) {
+  // if your website is embedded in an <iframe> this will force the page to reload. The malicious website is replaced with the legitimate one
+  top.location.href = location.href;
+}
+```
 
 Rigid clickjacking prevention are challenging to implement by browser vendors, because it is not easy to distinguish between a legitimate and a malicious usage of iframe [[(Selim, Tayeb, et al., 2016)]]
 
 **X-Frame-Options on HTTP header**
-using `X-Frame-Options` header in `HTTP` will prohibits a website from being rendered in a iframe. [[(Aditya Sood, Richard Enbody, et al., 2011)]] [[(Selim, Tayeb, et al., 2016)]]  [[(Shahriar, Haddad, et al., 2015)]]
+using `X-Frame-Options` header in `HTTP` will prohibits a website from being rendered in a iframe. [[(Aditya Sood, Richard Enbody, et al., 2011)]] [[(Selim, Tayeb, et al., 2016)]]  [[(Shahriar, Haddad, et al., 2015)]]  [[(Sood, Enbody, et al., 2011)]]
 - only 11.11% of Alexa's top 1 million sites implement `X-Frame-Options` header 
 - Header-based solutions are difficult to scale up for organizations hosting multiple websites referring each other [[(Shahriar, Haddad, et al., 2015)]]
 
@@ -92,3 +104,6 @@ Blocking the mouse if browser detects that the clicked cross-origin frame is not
 - HTTP header example from [[(Aditya Sood, Richard Enbody, et al., 2011)]]
 - [[(Selim, Tayeb, et al., 2016)]]
 - Risk assessment, by [[(Shahriar, Haddad, et al., 2015)]]
+- Short literature review, by [[(Sood, Enbody, et al., 2011)]]
+
+[^1]: A number of values can be specified to control the behavior of the iframed content. More details [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe)
