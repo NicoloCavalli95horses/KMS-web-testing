@@ -104,6 +104,7 @@ There are similarities between CSRF and [[XSS (cross site scripting)]]. While th
 - Server-side mitigation tool jCSRF, by [[(Pelizzi, Sekar, et al., 2011)]]
 - Attack simulation, by [[(Saleh, Malkawi, et al., 2024)]]
 - client-side defense policies, [[(Maes, Heyman, et al., 2009)]]
+- server-side proxy, [[(Liu, Shen, et al., 2020)]]
 
 [^1]: For more about authentication mechanisms and session management, see [[cookie]], [[sessions token]], [[JWT (JSON Web Token)]]
 

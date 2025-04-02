@@ -1621,15 +1621,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.08666666666666667,
-      "characterCount": 389,
+      "characterCount": 390,
       "nonWhitespaceCharacterCount": 254,
       "readingTimeInMinutes": 0.09811320754716982,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1741872688585,
-      "modifiedDate": 1743516794780,
-      "sizeInBytes": 432,
+      "modifiedDate": 1743585173632,
+      "sizeInBytes": 433,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.08666666666666667,
@@ -15914,19 +15914,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 915,
+      "wordCount": 922,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 3.05,
-      "characterCount": 6504,
-      "nonWhitespaceCharacterCount": 5498,
-      "readingTimeInMinutes": 3.452830188679245,
-      "linkCount": 34,
+      "pageCount": 3.0733333333333333,
+      "characterCount": 6555,
+      "nonWhitespaceCharacterCount": 5541,
+      "readingTimeInMinutes": 3.479245283018868,
+      "linkCount": 35,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1741599666266,
-      "modifiedDate": 1743418346081,
-      "sizeInBytes": 6611,
+      "modifiedDate": 1743584311888,
+      "sizeInBytes": 6662,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 3.05,
@@ -16479,15 +16479,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.2,
-      "characterCount": 453,
-      "nonWhitespaceCharacterCount": 380,
+      "characterCount": 451,
+      "nonWhitespaceCharacterCount": 384,
       "readingTimeInMinutes": 0.22641509433962265,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1741599666267,
-      "modifiedDate": 1741599666267,
-      "sizeInBytes": 511,
+      "modifiedDate": 1743583802241,
+      "sizeInBytes": 525,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.2,
@@ -16498,7 +16498,8 @@
       "frontmatter": {
         "ID": "2024-12-26-11:45",
         "tags": [
-          "#definition"
+          "#definition",
+          "machineLearning"
         ]
       }
     },
@@ -19222,6 +19223,68 @@
         "wordCount": 0,
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "03 References/(Liu, Shen, et al., 2020).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 53,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.17666666666666667,
+      "characterCount": 642,
+      "nonWhitespaceCharacterCount": 559,
+      "readingTimeInMinutes": 0.2,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743584238912,
+      "modifiedDate": 1743584238913,
+      "sizeInBytes": 642,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/CSRF Detection Based on Graph Data Mining.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 153,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.51,
+      "characterCount": 1043,
+      "nonWhitespaceCharacterCount": 863,
+      "readingTimeInMinutes": 0.5773584905660377,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743584238931,
+      "modifiedDate": 1743585166811,
+      "sizeInBytes": 1145,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-02T08:57:18.900Z",
+        "tags": [
+          "paper",
+          "CSFR",
+          "HTTP",
+          "projectSLR"
+        ],
+        "Project": [
+          "SLR"
+        ]
       }
     }
   }

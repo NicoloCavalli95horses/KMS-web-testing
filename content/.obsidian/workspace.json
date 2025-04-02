@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "60f0ffd35857a21e",
+        "id": "992c2dce2db16ed0",
         "type": "tabs",
         "children": [
           {
-            "id": "e7f34fb28375675a",
+            "id": "78cefbf02584a66c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.50260543823242
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -178,8 +178,14 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "e7f34fb28375675a",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
+    "96 Meta/SLR/Paper list.md",
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/CSRF Detection Based on Graph Data Mining.md",
+    "01 Notes/benchmark testing.md",
+    "01 Notes/CSRF (cross-site request forgery).md",
+    "03 References/(Liu, Shen, et al., 2020).md",
+    "01 Notes/CodeCommons.md",
     "01 Notes/WAF (web application firewall).md",
     "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
     "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
@@ -189,7 +195,6 @@
     "02 Literature/papers/WAF (Web Application Firewall)/Adaptive Web Application Firewall for Multi-Threat Detection.md",
     "00 Antilibrary/PCA (Principal Component Analysis).md",
     "00 Antilibrary/KNN (K-Nearest Neighbors).md",
-    "96 Meta/SLR/Paper list.md",
     "03 References/(Maheshwari, Nayak, et al., 2024).md",
     "06 Courses, webinars/FLE French Course/French Course 04-01-2025.md",
     "06 Courses, webinars/The publishing trap.md",
@@ -206,11 +211,7 @@
     "01 Notes/session hijacking.md",
     "02 Literature/papers/software models/A Grey-Box Approach for Detecting Malicious User Interactions in Web Applications.md",
     "02 Literature/papers/testing enhancements/What All the PHUZZ Is About. A Coverage-guided Fuzzer for Finding Vulnerabilities in PHP Web Applications.md",
-    "01 Notes/benchmark testing.md",
     "01 Notes/HAR file.md",
-    "02 Literature/papers/cookies/Quite a mess in my cookie jar! leveraging machine learning to protect web authentication.md",
-    "02 Literature/papers/clickjacking/Clickjacking. Existing defenses and some novel approaches.md",
-    "01 Notes/clickjacking.md",
     "97 Assets/licenses_types.png",
     "04 Canvases/meetings/2025_04_04.canvas",
     "04 Canvases/mind maps/cross-domain policies.canvas",
