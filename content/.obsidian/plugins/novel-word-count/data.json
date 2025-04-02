@@ -19286,6 +19286,67 @@
           "SLR"
         ]
       }
+    },
+    "03 References/(Asish Kumar Dalai, Saroj Kumar Panigrahy, et al., 2012).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 319,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.0633333333333332,
+      "characterCount": 2455,
+      "nonWhitespaceCharacterCount": 2113,
+      "readingTimeInMinutes": 1.2037735849056603,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743588143232,
+      "modifiedDate": 1743588143232,
+      "sizeInBytes": 2457,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "02 Literature/papers/parameter tampering/A Novel Approach for Message Authentication to Prevent Parameter Tampering Attack in Web Applications.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 410,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.3666666666666667,
+      "characterCount": 2678,
+      "nonWhitespaceCharacterCount": 2241,
+      "readingTimeInMinutes": 1.5471698113207548,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743588143247,
+      "modifiedDate": 1743590291004,
+      "sizeInBytes": 2785,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-02T10:02:23.212Z",
+        "tags": [
+          "paper",
+          "projectSLR",
+          "parameterTampering"
+        ],
+        "Project": [
+          "SLR"
+        ]
+      }
     }
   }
 }

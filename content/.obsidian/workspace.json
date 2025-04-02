@@ -11,10 +11,15 @@
             "id": "78cefbf02584a66c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature/papers/parameter tampering/A Novel Approach for Message Authentication to Prevent Parameter Tampering Attack in Web Applications.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "A Novel Approach for Message Authentication to Prevent Parameter Tampering Attack in Web Applications"
             }
           }
         ]
@@ -178,8 +183,11 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "78cefbf02584a66c",
   "lastOpenFiles": [
+    "02 Literature/papers/parameter tampering/A Novel Approach for Message Authentication to Prevent Parameter Tampering Attack in Web Applications.md",
+    "03 References/(Asish Kumar Dalai, Saroj Kumar Panigrahy, et al., 2012).md",
+    "02 Literature/papers/parameter tampering",
     "96 Meta/SLR/Paper list.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/CSRF Detection Based on Graph Data Mining.md",
     "01 Notes/benchmark testing.md",
@@ -210,8 +218,6 @@
     "02 Literature/papers/HTTP traffic analysis/Cross-domain vulnerabilities over social networks.md",
     "01 Notes/session hijacking.md",
     "02 Literature/papers/software models/A Grey-Box Approach for Detecting Malicious User Interactions in Web Applications.md",
-    "02 Literature/papers/testing enhancements/What All the PHUZZ Is About. A Coverage-guided Fuzzer for Finding Vulnerabilities in PHP Web Applications.md",
-    "01 Notes/HAR file.md",
     "97 Assets/licenses_types.png",
     "04 Canvases/meetings/2025_04_04.canvas",
     "04 Canvases/mind maps/cross-domain policies.canvas",
@@ -229,7 +235,6 @@
     "CMS (Content Management System)",
     "02 Literature/papers/XSS (Cross-Site Scripting)",
     "XSS",
-    "02 Literature/papers/JWT (JSON Web Token)",
     "97 Assets/phuzz_implementation.png",
     "97 Assets/tool_evaluation_example.png",
     "97 Assets/control_flow_graph.png",
