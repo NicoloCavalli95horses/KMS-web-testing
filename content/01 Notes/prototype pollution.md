@@ -35,7 +35,7 @@ On the front-end [[(Hakim, 2023)]]:
 - HTML injection
 - Cause a [[DoS (Denial of Service)]]
 - [[SQLIA (SQL injection attack)]]
-- [session fixation]
+- [[session hijacking]]
 
 On the server-side [[(Hakim, 2023)]]:
 - Privilege escalation issues

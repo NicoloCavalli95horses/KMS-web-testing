@@ -101,7 +101,7 @@ Since the search value is not checked, it is easy to construct a malicious value
 <img src=1 onerror='/* Bad stuff here... */'>
 ```
  
-In this kind of attack the page doesn’t change but the client side code gets executed in a different manner because of the modification in the DOM environment [[(Malviya, Saurav, et al., 2013)]]
+In this kind of attack the page doesn’t change but *the client side code gets executed in a different manner* because of the modification in the DOM environment [[(Malviya, Saurav, et al., 2013)]]. This mean that the DOM-based XSS is transparent to the server
 
 This is ==the least know type of XSS==
 
@@ -111,8 +111,14 @@ Induced XSS are possible in the web applications where web server present an [[H
 
 ## Typical attacks
 
-- *session theft*: the attacker can steal [[sessions token]] of premium users or admin, getting access to protected resource
-- *content substitution*: malicious forms or redirect pages are injected to steal user credentials [[(Tkachenko et al., 2024)]]
+**Session hijacking** [[(Johns, Braun, et al., 2011)]]
+[[session hijacking]]: the attacker can steal [[sessions token]] of premium users or admin, getting access to protected resource, or can set session identifier (SID) as cookie and perform a session fixation.
+- If JavaScript can be injected, it is enough to write the SID using `cookie.write()`
+- If JavaScript is rejected but not HTML, an attacker could inject a `<meta http-equiv="Set-Cookie">` tag
+- this can be done either with a stored or a reflected XSS
+
+**Content substitution** [[(Tkachenko et al., 2024)]]
+Malicious forms or redirect pages are injected to steal user credentials 
 
 ## How to find to find XSS vulnerabilities
 

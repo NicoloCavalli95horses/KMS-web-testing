@@ -17,5 +17,7 @@ Authentication vulnerabilities described by [[OWASP (Open Web Application Securi
 
 
 ---
+
+See also [[session hijacking]]
 #### References
 - [[(Amalfitano, Misael, et al., 2025)]]
