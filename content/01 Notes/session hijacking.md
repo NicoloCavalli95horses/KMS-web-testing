@@ -30,6 +30,7 @@ This a hack also occurs when a web server does not assign a new session upon aut
 
 **Mitigation strategies**
 - always generate new SID after critical operations happen (login, logout, sensitive information update, etc)
+- obviously, only the SID should be refreshed, and not other sensitive information related to the user (e.g., the shopping cart content)
 
 ### Session donation
 

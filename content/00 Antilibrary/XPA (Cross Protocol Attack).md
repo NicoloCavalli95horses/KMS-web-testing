@@ -17,10 +17,29 @@ All of the following addresses have the same origin but a different protocol and
 - `ftp://example.com:2021` (custom port 2021)
 - `smtp://example.com` (port 587 by default)
 
-**What can you do with XPA?**
-- **Read cookie in FTP from HTTP**: the [[SameSite cookie]] does not actually defend against XPA because the cookie is always accessible from the other protocols
-- **Send email from HTTP to FTP**:
+### What can you do with XPA?
+
+**Read cookie in FTP from HTTP**: the [[SameSite cookie]] does not actually defend against XPA because the cookie is always accessible from the other protocols
+
+**Send an email from HTTP to SMTP** (to verify)
+
+```html
+<textarea name="foo">
+HELO example.com
+MAIL FROM:<somebody@example.com>
+RCPT TO:<recipient@example.org>
+DATA
+Subject: Hi there!
+From: somebody@example.com
+To: recipient@example.org
+Hello world!
+.
+QUIT
+</textarea>
+```
 
 ---
 #### References
 - Cited as an example of session fixation where a cookie is set illegitimately, by [[(Johns, Braun, et al., 2011)]]
+- https://www.startupdefense.io/cyberattacks/cross-protocol-attack
+- https://img2.helpnetsecurity.com/dl/articles/hfpa.pdf
