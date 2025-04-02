@@ -115,7 +115,7 @@ Induced XSS are possible in the web applications where web server present an [[H
 [[session hijacking]]: the attacker can steal [[sessions token]] of premium users or admin, getting access to protected resource, or can set session identifier (SID) as cookie and perform a session fixation.
 - If JavaScript can be injected, it is enough to write the SID using `cookie.write()`
 - If JavaScript is rejected but not HTML, an attacker could inject a `<meta http-equiv="Set-Cookie">` tag
-- this can be done either with a stored or a reflected XSS
+- This can be done with both stored and reflected XSS, provided that the victim clicks on the URL that includes the malicious executable code
 
 **Content substitution** [[(Tkachenko et al., 2024)]]
 Malicious forms or redirect pages are injected to steal user credentials 

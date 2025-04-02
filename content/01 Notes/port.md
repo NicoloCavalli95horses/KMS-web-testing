@@ -2,6 +2,8 @@
 ID: 2025-01-14-17:45
 tags:
   - "#definition"
+  - port
+  - network
 ---
 ## Definition
 
@@ -17,5 +19,6 @@ Specific port numbers are reserved to identify specific services so that an arri
 
 Ports provide a multiplexing service for multiple services or multiple communication sessions at one network address. In the client–server model of application architecture, multiple simultaneous communication sessions may be initiated for the same service.
 
+---
 ## References
-https://en.wikipedia.org/wiki/Port_(computer_networking)
+- https://en.wikipedia.org/wiki/Port_(computer_networking)

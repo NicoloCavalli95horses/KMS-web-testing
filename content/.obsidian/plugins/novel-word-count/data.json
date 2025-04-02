@@ -10549,19 +10549,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 1627,
+      "wordCount": 1662,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 5.423333333333333,
-      "characterCount": 11668,
-      "nonWhitespaceCharacterCount": 9875,
-      "readingTimeInMinutes": 6.139622641509434,
+      "pageCount": 5.54,
+      "characterCount": 11875,
+      "nonWhitespaceCharacterCount": 10046,
+      "readingTimeInMinutes": 6.271698113207547,
       "linkCount": 50,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1741599666285,
-      "modifiedDate": 1743598744829,
-      "sizeInBytes": 11754,
+      "modifiedDate": 1743599218480,
+      "sizeInBytes": 11961,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 5.26,
@@ -12741,15 +12741,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.78,
-      "characterCount": 1596,
-      "nonWhitespaceCharacterCount": 1334,
+      "characterCount": 1586,
+      "nonWhitespaceCharacterCount": 1338,
       "readingTimeInMinutes": 0.8830188679245283,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1741599666300,
-      "modifiedDate": 1741599666300,
-      "sizeInBytes": 1654,
+      "modifiedDate": 1743600508674,
+      "sizeInBytes": 1661,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.78,
@@ -12760,7 +12760,9 @@
       "frontmatter": {
         "ID": "2025-01-14-17:45",
         "tags": [
-          "#definition"
+          "#definition",
+          "port",
+          "network"
         ]
       }
     },
@@ -19391,19 +19393,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 92,
+      "wordCount": 184,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.30666666666666664,
-      "characterCount": 747,
-      "nonWhitespaceCharacterCount": 640,
-      "readingTimeInMinutes": 0.3471698113207547,
-      "linkCount": 5,
+      "pageCount": 0.6133333333333333,
+      "characterCount": 1337,
+      "nonWhitespaceCharacterCount": 1132,
+      "readingTimeInMinutes": 0.6943396226415094,
+      "linkCount": 8,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743596083734,
-      "modifiedDate": 1743596834538,
-      "sizeInBytes": 871,
+      "modifiedDate": 1743602527858,
+      "sizeInBytes": 1461,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -19421,6 +19423,37 @@
         ],
         "Project": [
           "SLR"
+        ]
+      }
+    },
+    "00 Antilibrary/XPA (Cross Protocol Attack).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 167,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.5566666666666666,
+      "characterCount": 1183,
+      "nonWhitespaceCharacterCount": 997,
+      "readingTimeInMinutes": 0.630188679245283,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743599454280,
+      "modifiedDate": 1743602660570,
+      "sizeInBytes": 1237,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-02-15:11",
+        "tags": [
+          "#definition"
         ]
       }
     }
