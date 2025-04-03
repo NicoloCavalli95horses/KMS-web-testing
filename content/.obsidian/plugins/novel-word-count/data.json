@@ -139,8 +139,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1741599666414,
-      "modifiedDate": 1741709950775,
-      "sizeInBytes": 91,
+      "modifiedDate": 1743678170111,
+      "sizeInBytes": 93,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.0033333333333333335,
@@ -153,7 +153,7 @@
         "tags": [
           "webinar"
         ],
-        "speaker": null,
+        "speaker": [],
         "abstract": null
       }
     },
@@ -19762,6 +19762,42 @@
         "Project": [
           "SLR"
         ]
+      }
+    },
+    "06 Courses, webinars/Internships, legos, and workflows.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 5,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.016666666666666666,
+      "characterCount": 32,
+      "nonWhitespaceCharacterCount": 27,
+      "readingTimeInMinutes": 0.018867924528301886,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743678019233,
+      "modifiedDate": 1743678308746,
+      "sizeInBytes": 144,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-03-05-11:00",
+        "tags": [
+          "webinar"
+        ],
+        "speaker": [
+          "Vincent Gaultier",
+          "Maiwenn Le Goasteller"
+        ],
+        "abstract": null
       }
     }
   }

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/clickjacking/A solution for the automated detection of clickjacking attacks.md",
+                "file": "06 Courses, webinars/Internships, legos, and workflows.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "A solution for the automated detection of clickjacking attacks"
+              "title": "Internships, legos, and workflows"
             }
           },
           {
@@ -200,8 +200,10 @@
   },
   "active": "bfb448f3ed092c33",
   "lastOpenFiles": [
-    "01 Notes/clickjacking.md",
+    "98 Templates/Temp_Webinars.md",
+    "06 Courses, webinars/Internships, legos, and workflows.md",
     "02 Literature/papers/clickjacking/A solution for the automated detection of clickjacking attacks.md",
+    "01 Notes/clickjacking.md",
     "03 References/(Balduzzi, Egele, et al., 2010).md",
     "02 Literature/papers/behavioral biometrics/User Profiling Using Sequential Mining Over Web Elements.md",
     "01 Notes/behavioral biometrics analysis.md",
@@ -229,8 +231,6 @@
     "01 Notes/forced browsing.md",
     "01 Notes/cookie.md",
     "04 Canvases/models/research model.canvas",
-    "03 References/(Johns, Braun, et al., 2011).md",
-    "01 Notes/tabnabbing.md",
     "04 Canvases/meetings/2025_04_04.canvas",
     "02 Literature/papers/parameter tampering",
     "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
