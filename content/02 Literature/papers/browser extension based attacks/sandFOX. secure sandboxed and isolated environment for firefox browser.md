@@ -57,7 +57,7 @@ A browser is indeed an attractive attack surface and can be exploited
 The high privileges of a browser extension may allow to bypass even the [[SOP (Same-Origin Policy)]]
 - extension developers have been forced to implement their security policies
 
-In this paper, we propose sandFOX policies, an OS based sandboxing environment that isolates browser from the OS resources to ensure the protection from extension based browser attacks
+In this paper, we propose sandFOX policies, an [[SELinux (Security-Enhanced Linux)]] based sandboxing environment that isolates browser from the OS resources to ensure the protection from extension based browser attacks
 - this solution allows the extensions to achieve the desired functionality in a *restrictive sandboxed environment*
 
 SandFOX capabilities:
@@ -67,16 +67,25 @@ SandFOX capabilities:
 
 ## Approach
 
+The authors have ==rewritten and modified SELinux configuration files to limit the behavior of Firefox and its extensions==
+ 
 **SandFOX architecture**
 
 ![[sandbox_browser_sandfox.png]]
 
 - We configure the OS using SELinux policies so that the browser can achieve its functionalities in restrictive environment
-- We rewrites the SELinux policies to create a virtual cage (sandFOX) in which we can lock up Firefox browser. The browser running in sandFOX environment is able to achieve required functionalities but in an isolated environment
+- We rewrites the SELinux policies to create a virtual cage (sandFOX) in which we can lock up Firefox browser.
+- The browser running in sandFOX environment is able to achieve required functionalities but in an isolated environment
+
 ## Evaluation
 
-- We evaluate our sandFOX and security policies using malicious and critical resource eating extensions. We show how these extensions can attack if a browser does not use sandFOX policies.
+We evaluate our sandFOX and security policies using malicious and critical resource eating extensions. SandFOX successfully defends against:
+- file system attacks (an extension is not able to read sensitive file, such as `/etc/passwd`)
+- process attacks (an extension is not able to launch an arbitrary process)
+- network attacks (an extension cannot execute cross-domain requests)
+- memory attacks (reduced significantly the opportunities for [[buffer overflow]] or [[RCE (Remote Code Execution)]])
 
+Using sandFOX leads to a minimal performance overhead (max 1 second slower)
 ## Limits
 
 - The author considered only Firefox browser

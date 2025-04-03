@@ -1,7 +1,11 @@
 ---
-ID: "2025-02-18-14:17"
+ID: 2025-02-18-14:17
 tags:
   - "#definition"
+  - biometric
+  - behavioralBiometric
+  - userModels
+  - authentication
 ---
 ## Definition
 
@@ -16,4 +20,5 @@ Biometrics-based user recognition methods can be ==combined with traditional met
 ---
 #### References
 - [[(Ur Rehman, Nazir, Mustafa, 2017)]]
--  [[(Solano, Camacho, et al., 2021)]]
+- [[(Solano, Camacho, et al., 2021)]]
+- [[(Levi, Hazan, et al., 2019)]]
