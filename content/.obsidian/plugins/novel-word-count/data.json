@@ -16951,19 +16951,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 1252,
+      "wordCount": 1325,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 4.173333333333333,
-      "characterCount": 8462,
-      "nonWhitespaceCharacterCount": 7097,
-      "readingTimeInMinutes": 4.724528301886792,
-      "linkCount": 41,
-      "embedCount": 1,
+      "pageCount": 4.416666666666667,
+      "characterCount": 8934,
+      "nonWhitespaceCharacterCount": 7495,
+      "readingTimeInMinutes": 5,
+      "linkCount": 45,
+      "embedCount": 2,
       "aliases": null,
       "createdDate": 1741599666289,
-      "modifiedDate": 1743673804187,
-      "sizeInBytes": 8566,
+      "modifiedDate": 1743682251201,
+      "sizeInBytes": 9038,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 3.9033333333333333,
@@ -19764,40 +19764,29 @@
         ]
       }
     },
-    "06 Courses, webinars/Internships, legos, and workflows.md": {
-      "isCountable": true,
+    "97 Assets/clickjacking_example_twitter.png": {
+      "isCountable": false,
       "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 5,
+      "noteCount": 0,
+      "wordCount": 0,
       "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.016666666666666666,
-      "characterCount": 32,
-      "nonWhitespaceCharacterCount": 27,
-      "readingTimeInMinutes": 0.018867924528301886,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1743678019233,
-      "modifiedDate": 1743678308746,
-      "sizeInBytes": 144,
+      "aliases": [],
+      "createdDate": 1743682237015,
+      "modifiedDate": 1743682237017,
+      "sizeInBytes": 125699,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
         "wordCount": 0,
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0
-      },
-      "frontmatter": {
-        "ID": "2025-03-05-11:00",
-        "tags": [
-          "webinar"
-        ],
-        "speaker": [
-          "Vincent Gaultier",
-          "Maiwenn Le Goasteller"
-        ],
-        "abstract": null
       }
     }
   }

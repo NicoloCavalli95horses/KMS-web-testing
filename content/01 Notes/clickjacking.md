@@ -26,8 +26,11 @@ JavaScript may also be used to position the iframe under the mouse cursor, such 
 
 The victim action on the transparent layer looks "safe" from the browser's point of view, because the [[SOP (Same-Origin Policy)]] it is not technically violated [[(Balduzzi, Egele, et al., 2010)]]
 
+Contrarily to [[SQLIA (SQL injection attack)]], clickjacking does not depend on a bug in the application, such as an input validation failure, but it is just a misuse of HTML/CSS features to trick an user [[(Balduzzi, Egele, et al., 2010)]]
+
 ![[clickjacking_example.png]]
 
+![[clickjacking_example_twitter.png]]
 ## Risks and consequences
 
 **Camera and microphone exploit in Adobe Flash, 2008** 
@@ -62,6 +65,7 @@ The current prevalence of clickjacking it is not clear
 **Compromising temporal integrity attack**  [[(Hazhirpasand, 2020)]] [[(Selim, Tayeb, et al., 2016)]]
 - the sensitive element is not hidden, the users can potentially see it but are nonetheless tricked into making an unwanted click because they are engaged in a distracting activity. ==Humans need at least a few hundred milliseconds to react to a sudden visual change ==
 - online games are a perfect example of this attack. Hackers can exploit this situation to get access to webcam, or to bypass security captcha embedded in an iframe
+- an hidden iframe may be added in front of the mouse just before the user performs the click and removed just after [[(Balduzzi, Egele, et al., 2010)]]
 
 ## Mitigation techniques
 
@@ -84,7 +88,7 @@ if (window.top != window.self) {
 Rigid clickjacking prevention are challenging to implement by browser vendors, because it is not easy to distinguish between a legitimate and a malicious usage of iframe [[(Selim, Tayeb, et al., 2016)]]
 
 **X-Frame-Options on HTTP header**
-using `X-Frame-Options` header in `HTTP` will prohibits a website from being rendered in a iframe. [[(Aditya Sood, Richard Enbody, et al., 2011)]] [[(Selim, Tayeb, et al., 2016)]]  [[(Shahriar, Haddad, et al., 2015)]]  [[(Sood, Enbody, et al., 2011)]] [[(Sinha, Uppal, et al., 2014)]]
+using `X-Frame-Options` header in `HTTP` will prohibits a website from being rendered in a iframe. [[(Aditya Sood, Richard Enbody, et al., 2011)]] ,[[(Selim, Tayeb, et al., 2016)]], [[(Shahriar, Haddad, et al., 2015)]] , [[(Sood, Enbody, et al., 2011)]] [[(Sinha, Uppal, et al., 2014)]], [[(Balduzzi, Egele, et al., 2010)]]
 - only 11.11% of Alexa's top 1 million sites implement `X-Frame-Options` header 
 - Header-based solutions are difficult to scale up for organizations hosting multiple websites referring each other [[(Shahriar, Haddad, et al., 2015)]]
 
@@ -102,14 +106,14 @@ Blocking the mouse if browser detects that the clicked cross-origin frame is not
 
 **Browser plugins/extensions** [[(Shahriar, Haddad, et al., 2015)]]
 - ClickIDS for Firefox: to detect overlapping clicks by comparing the bitmap of a clicked object to the bitmap of all other objects present in the same page. The user is warned when an overlap is found
-- Noscript: disables all JavaScript elements. It can degrade the user experience or prevent the user to fully access all the functionalities of a web application
+- [Noscript](https://addons.mozilla.org/en-US/firefox/addon/noscript/): disables all JavaScript elements. It can degrade the user experience or prevent the user to fully access all the functionalities of a web application
 
 **Client-side proxy** [[(Shahriar, Haddad, et al., 2015)]]
 - The approach intercepts requests and responses and uses a set of policies to examine for matching with known clickjacking attacks. The approach delays the generation of response pages due to rigorous checking of JavaScript code.
 
 From [[(Sinha, Uppal, et al., 2014)]]:
 - **ProClick**: a client-side proxy that analyzes a web page for clickjacking symptoms before its rendering. It leverages on the HTTP communication to detect iframes 
-- **ClearClick**: a browser plugin that monitors the page behavior during click actions. If a user is about to click on a page that has been framed or on a plug-in object, ClearClick takes a screenshot of the iframed page with opacity as zero. This screenshot is compared to the parent page's screenshot and if any difference is found in the two images the click action is prevented
+- **ClearClick**: a browser plugin that monitors the page behavior during click actions. If a user is about to click on a page that has been framed or on a plug-in object, ClearClick takes a screenshot of the iframed page with opacity as zero. This screenshot is compared to the parent page's screenshot and if any difference is found in the two images the click action is prevented [[(Balduzzi, Egele, et al., 2010)]]
 
 ---
 ## References
@@ -121,6 +125,6 @@ From [[(Sinha, Uppal, et al., 2014)]]:
 - Risk assessment, by [[(Shahriar, Haddad, et al., 2015)]]
 - Short literature review, by [[(Sood, Enbody, et al., 2011)]]
 - Short literature review, by [[(Sinha, Uppal, et al., 2014)]]
--  [[(Balduzzi, Egele, et al., 2010)]]
+- [[(Balduzzi, Egele, et al., 2010)]]
 
 [^1]: A number of values can be specified to control the behavior of the iframed content. More details [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe)
