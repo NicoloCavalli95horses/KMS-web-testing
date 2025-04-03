@@ -104,8 +104,8 @@ Randomizing the layout of small part of the UI to prevent an attacker to correct
 **Blocking of mouse click** [[(Shahriar, Haddad, et al., 2015)]]
 Blocking the mouse if browser detects that the clicked cross-origin frame is not fully visible
 
-**Browser plugins/extensions** [[(Shahriar, Haddad, et al., 2015)]]
-- ClickIDS for Firefox: to detect overlapping clicks by comparing the bitmap of a clicked object to the bitmap of all other objects present in the same page. The user is warned when an overlap is found
+**Browser plugins/extensions** [[(Shahriar, Haddad, et al., 2015)]], 
+- ClickIDS for Firefox: to detect overlapping clicks by comparing the mouse position to the position of clickable elements inside an iframe. The user is warned when an overlap is found (implemented by [[(Balduzzi, Egele, et al., 2010)]]) 
 - [Noscript](https://addons.mozilla.org/en-US/firefox/addon/noscript/): disables all JavaScript elements. It can degrade the user experience or prevent the user to fully access all the functionalities of a web application
 
 **Client-side proxy** [[(Shahriar, Haddad, et al., 2015)]]
@@ -114,6 +114,11 @@ Blocking the mouse if browser detects that the clicked cross-origin frame is not
 From [[(Sinha, Uppal, et al., 2014)]]:
 - **ProClick**: a client-side proxy that analyzes a web page for clickjacking symptoms before its rendering. It leverages on the HTTP communication to detect iframes 
 - **ClearClick**: a browser plugin that monitors the page behavior during click actions. If a user is about to click on a page that has been framed or on a plug-in object, ClearClick takes a screenshot of the iframed page with opacity as zero. This screenshot is compared to the parent page's screenshot and if any difference is found in the two images the click action is prevented [[(Balduzzi, Egele, et al., 2010)]]
+
+## Limits of existing studies
+
+- Not all the possible ways to embed a cross-site application have been studied
+- Most of the work focuses on the `<iframe>` tag, but also `<object>` and `<embed>` can be used
 
 ---
 ## References
