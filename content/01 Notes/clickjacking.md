@@ -8,7 +8,7 @@ tags:
 ---
 ## Definition
 
- Clickjacking is a term first introduced by Jeremiah Grossman and Robert Hansen in 2008 to describe a technique whereby cross-domain attacks are performed by ‘hijacking’ user-initiated mouse clicks to perform actions that the user did not intend [[(Selim, Tayeb, et al., 2016)]]
+ Clickjacking, previously known as UI Redress attack, is a term first introduced by Jeremiah Grossman and Robert Hansen in 2008 to describe a technique whereby cross-domain attacks are performed by ‘hijacking’ user-initiated mouse clicks to perform actions that the user did not intend [[(Selim, Tayeb, et al., 2016)]]
  
  Clickjacking attacks merge malicious UI elements with non-malicious UI elements, or transparently trick the browser into sending input to a malicious server or function call, rather than an intended function call
  - Often, iframes and CSS techniques are exploited to create the invisible layer
@@ -18,17 +18,17 @@ There are many methods of attacking an application using clickjacking, with Java
 
 When used against unsuspecting end users, clickjacking attacks can allow an attacker to steal valuable user input (sensitive data, financial transactions, etc...)
 
-> [!SUMMARY]
+> [!SUMMARY] Requirements
 > - The user has to click to a malicious link which points to a legitimate-looking website (may be a copy of a real trusted website)
 > - The fake website contains invisible iframes and the actions of the user are captured by this invisible layer without him being aware of it
 
 JavaScript may also be used to position the iframe under the mouse cursor, such that the user will click on the target no matter where they click on the malicious page. [[(Selim, Tayeb, et al., 2016)]]
 
-### Examples
+The victim action on the transparent layer looks "safe" from the browser's point of view, because the [[SOP (Same-Origin Policy)]] it is not technically violated [[(Balduzzi, Egele, et al., 2010)]]
 
 ![[clickjacking_example.png]]
 
-
+## Risks and consequences
 
 **Camera and microphone exploit in Adobe Flash, 2008** 
 The user:
@@ -41,7 +41,17 @@ Attackers have used clickjacking attacks to trick users into liking a fan page o
 
 **Tweetbomb and likejacking**  [[(Shahriar, Haddad, et al., 2015)]]
 - using clickjacking to trick an user to like a post on Facebook or share a post Tweeter, causing an increase of traffic to the attacker's content
-### Types
+
+From [[(Balduzzi, Egele, et al., 2010)]]:
+- initiate money transfers
+- clicking on banner ads that are part of an advertising click fraud
+- posting blog or forum messages
+
+## Prevalence
+
+The current prevalence of clickjacking it is not clear
+
+## Clickjacking classification
 
 **Compromising target display integrity**  [[(Hazhirpasand, 2020)]] [[(Selim, Tayeb, et al., 2016)]]
 - a sensitive UI is hidden/made invisible and an attractive decoy is placed over or beneath it, nudging the user to interact with it
@@ -53,7 +63,7 @@ Attackers have used clickjacking attacks to trick users into liking a fan page o
 - the sensitive element is not hidden, the users can potentially see it but are nonetheless tricked into making an unwanted click because they are engaged in a distracting activity. ==Humans need at least a few hundred milliseconds to react to a sudden visual change ==
 - online games are a perfect example of this attack. Hackers can exploit this situation to get access to webcam, or to bypass security captcha embedded in an iframe
 
-### Mitigation techniques
+## Mitigation techniques
 
 **Frame busting** [[(Hazhirpasand, 2020)]]  [[(Selim, Tayeb, et al., 2016)]] [[(Shahriar, Haddad, et al., 2015)]] [[(Sood, Enbody, et al., 2011)]] [[(Sinha, Uppal, et al., 2014)]]
 Frame busting is a technique to prevent a given web page from being loaded in a sub-frame. Many JS snippet have been proposed to implement that solution
@@ -111,5 +121,6 @@ From [[(Sinha, Uppal, et al., 2014)]]:
 - Risk assessment, by [[(Shahriar, Haddad, et al., 2015)]]
 - Short literature review, by [[(Sood, Enbody, et al., 2011)]]
 - Short literature review, by [[(Sinha, Uppal, et al., 2014)]]
+-  [[(Balduzzi, Egele, et al., 2010)]]
 
 [^1]: A number of values can be specified to control the behavior of the iframed content. More details [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe)

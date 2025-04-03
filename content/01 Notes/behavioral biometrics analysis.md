@@ -17,6 +17,8 @@ Biometrics-based user recognition methods can be ==combined with traditional met
 - mouse patterns have been studied taking into account mouse strokes, clicks, movement velocity, time spent interacting with widgets, ...
 - this field of research is linked to [[browser fingerprinting]]
 
+Analysis of sequences of actions proposed by [[(Levi, Hazan, et al., 2019)]]
+
 ---
 #### References
 - [[(Ur Rehman, Nazir, Mustafa, 2017)]]
