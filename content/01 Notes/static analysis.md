@@ -24,14 +24,19 @@ Static Analysis is often used to detect:
 ### Types of static analysis
 
 From [[(Kluban, Mannan, et al., 2024)]]:
-- **textual similarity approaches**: the main principle of textual similarity methods is finding matches between examined code instances, and a known vulnerable code dataset
-- **semantic similarity approaches**: use previously discovered vulnerable code to extract vulnerable behaviors and develop patterns of this behavior in an abstracted representation
 
-### Tools
+**Textual similarity approaches**
+The main principle of textual similarity methods is finding ==matches between examined code instances, and a known vulnerable code dataset.==
+The instances are usually represented in a generalized version, e.g., bag-of-tokens, [[AST (Abstract Syntax Tree)]], and then compared:
+- directly
+- using transformations such as cryptographic hashing or vectorization (e.g., with Word2Vec)
+- using other abstract representations, such as CFG (Control Flow Graph), or PDG (Program Dependency Graph)
+- context-sensitive hashing may be used to allow limited alterations in the examined code 
 
-- **SonarQube**: a static analysis tool to detect bugs, vulnerabilities and code smells
-- **ESlint**: a JavaScript linting tool that aims at identifying and correcting syntax issues
-- **Coverity**: a defect detector available for several programming languages
+**Semantic similarity approaches**
+These methods detect semantic (functional) similarities by searching for vulnerability patterns and can be divided into two categories based on how patterns are developed:
+- **manual**: developed by researcher for ad-hoc situations or specific
+- **automated**:
 
 ### Methods
 
@@ -51,6 +56,12 @@ From [[(Kluban, Mannan, et al., 2024)]]:
 
 - **False positives**: errors or issues that are not really errors can be mistakenly detected because the program logic is not actually followed
 - **Blindness**: runtime errors cannot be detected
+
+### Tools
+
+- **SonarQube**: a static analysis tool to detect bugs, vulnerabilities and code smells
+- **ESlint**: a JavaScript linting tool that aims at identifying and correcting syntax issues
+- **Coverity**: a defect detector available for several programming languages
 
 ---
 ## References
