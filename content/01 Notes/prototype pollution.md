@@ -5,15 +5,18 @@ tags:
   - JavaScript
   - programmingLanguage
   - cyberSecurity
+  - prototypePollution
 ---
 ## Definition
 
 Prototype pollution attacks allow you to *compromise an object you do not have access to* via *compromising an object you do have access to*, ==that shares a prototypal inheritance relationship with the object you want to attack==
 
+The prototype pollution attack occurs when the objects receive properties and/or values that they are not designed to have [[(Kluban, Mannan, et al., 2024)]]
+
 > [!SUMMARY]
 > A prototype pollution occurs when a lot of properties and methods are added on a shared ancestor (object prototype).
 > 
->This can make the prototype heavier, slowing down the system or leading to a DoS in the worst case, or it can create conflicts with the properties of child objects.
+>This can make the prototype heavier, slowing down the system or leading to a [[DOS (Denial of Service)]] in the worst case, or it can create conflicts with the properties of child objects.
 > 
 > Security issues may occur if the prototype pollution affects the behavior of children objects (e.g., `user.role` property is changed to `admin` because the role property is modified on the prototype)
 
@@ -36,12 +39,13 @@ On the front-end [[(Hakim, 2023)]]:
 - Cause a [[DoS (Denial of Service)]]
 - [[SQLIA (SQL injection attack)]]
 - [[session hijacking]]
+- [[RCE (Remote Code Execution)]]
 
 On the server-side [[(Hakim, 2023)]]:
 - Privilege escalation issues
 - [[RCE (Remote Code Execution)]] in worst-case scenario (`eval()` functions or DOM node generation)
 
-### Is the prototype pollution a form of [[XSS (cross site scripting)]]?
+### Is prototype pollution a [[XSS (cross site scripting)]]?
 
 The attack does not require a script injection. Prototype pollution can be done exploiting:
 - public REST APIs
@@ -82,3 +86,4 @@ A popular JavaScript utility library, Lodash, implements input filtering to inje
 - [[(Hoffman, 2024)]]
 - [[(Hakim, 2023)]]
 - Discussed in [[(Katulanda, Henaka Arachchi, et al., 2023)]] in the context of using ML to detect HTTPS-based malware transmission
+- [[(Kluban, Mannan, et al., 2024)]]

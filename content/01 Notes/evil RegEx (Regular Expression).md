@@ -38,5 +38,7 @@ The process could be simplified as follows:
 	- presence of 'b' followed by 'c' is also checked
 	- combination of 'a' and 'b' are also checked
 	- ...
+
+---
 ## References
-https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS#
+- https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS#

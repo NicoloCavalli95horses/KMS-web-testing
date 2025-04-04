@@ -13,7 +13,6 @@ An RCE attack allows an attacker to ==execute arbitrary commands or code on the 
 $cmd = $_GET['cmd'];  // ⚠️ not sanitized
 system($cmd);  // command executed on the server
 ?>
-
 ```
 
 ---
