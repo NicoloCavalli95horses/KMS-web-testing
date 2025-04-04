@@ -45,3 +45,4 @@ Technically you can apply taint tracking to any function, even non-native ones, 
 ---
 #### References
 - Used by [[(Klein, Musch, et al., 2022)]] to detect the presence of [[XSS (cross site scripting)]] vulnerabilities in JavaScript code, after the user accept the [[cookie]] from the cookie banner
+- [[(Kluban, Mannan, et al., 2024)]]

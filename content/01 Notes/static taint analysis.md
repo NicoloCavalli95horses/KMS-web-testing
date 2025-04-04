@@ -27,3 +27,4 @@ eval(userInput); // ⚠️ ESLint warn a risk of code injection
 
 ---
 #### References
+- [[(Kluban, Mannan, et al., 2024)]]
