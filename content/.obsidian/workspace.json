@@ -4,25 +4,58 @@
     "type": "split",
     "children": [
       {
-        "id": "03832a4b677cfae8",
+        "id": "9a12ec4888d3852e",
         "type": "tabs",
         "children": [
           {
-            "id": "aa2dc874a5376eee",
+            "id": "e705ad56a452101a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 Courses, webinars/First steps with Zotero.md",
+                "file": "02 Literature/papers/browser extension based attacks/sandFOX. secure sandboxed and isolated environment for firefox browser.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "First steps with Zotero"
+              "title": "sandFOX. secure sandboxed and isolated environment for firefox browser"
+            }
+          },
+          {
+            "id": "56157f570eff927e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "96 Meta/SLR/Tags analysis.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Tags analysis"
+            }
+          },
+          {
+            "id": "16fed5da75071375",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/meetings/2025_04_04.canvas",
+                "viewState": {
+                  "x": 1119.7772953641747,
+                  "y": 710.231473274287,
+                  "zoom": -0.469781753054219
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "2025_04_04"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -183,11 +216,14 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "aa2dc874a5376eee",
+  "active": "16fed5da75071375",
   "lastOpenFiles": [
+    "02 Literature/papers/browser extension based attacks/sandFOX. secure sandboxed and isolated environment for firefox browser.md",
+    "96 Meta/SLR/Paper list.md",
+    "04 Canvases/meetings/2025_04_04.canvas",
+    "96 Meta/SLR/Tags analysis.md",
     "06 Courses, webinars/First steps with Zotero.md",
     "02 Literature/papers/clickjacking/A solution for the automated detection of clickjacking attacks.md",
-    "96 Meta/SLR/Paper list.md",
     "01 Notes/clickjacking.md",
     "97 Assets/clickjacking_example_twitter.png",
     "03 References/(Aditya Sood, Richard Enbody, et al., 2011).md",
@@ -202,22 +238,18 @@
     "03 References/(Solano, Camacho, et al., 2021).md",
     "03 References/(Levi, Hazan, et al., 2019).md",
     "02 Literature/papers/behavioral biometrics",
-    "02 Literature/papers/browser extension based attacks/sandFOX. secure sandboxed and isolated environment for firefox browser.md",
     "01 Notes/SELinux (Security-Enhanced Linux).md",
     "01 Notes/XSS (cross site scripting).md",
     "97 Assets/sandbox_browser_sandfox.png",
     "03 References/(Saini, Gaur, et al., 2015).md",
     "02 Literature/papers/browser extension based attacks",
-    "96 Meta/SLR/Tags analysis.md",
     "01 Notes/session hijacking.md",
     "02 Literature/papers/authentication/Reliable protection against session fixation attacks.md",
     "97 Assets/session_fixation_graph.png",
     "00 Antilibrary/XPA (Cross Protocol Attack).md",
     "01 Notes/port.md",
     "01 Notes/HTTP Response Splitting.md",
-    "01 Notes/sessions token.md",
     "04 Canvases/models/research model.canvas",
-    "04 Canvases/meetings/2025_04_04.canvas",
     "02 Literature/papers/parameter tampering",
     "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
     "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
