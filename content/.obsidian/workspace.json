@@ -11,17 +11,15 @@
             "id": "de540253cf27da85",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/mind maps/vulnerabilities map.canvas",
-                "viewState": {
-                  "x": 0.8333740234375,
-                  "y": 43.35222217374999,
-                  "zoom": -0.277777766739881
-                }
+                "file": "02 Literature/papers/prototype pollution/On Detecting and Measuring Exploitable JavaScript Functions in Real-world Applications.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "vulnerabilities map"
+              "icon": "lucide-file",
+              "title": "On Detecting and Measuring Exploitable JavaScript Functions in Real-world Applications"
             }
           },
           {
@@ -33,8 +31,8 @@
                 "file": "04 Canvases/mind maps/front end security category.canvas",
                 "viewState": {
                   "x": -3846.3040992592396,
-                  "y": 2859.737157113146,
-                  "zoom": 0.11421725766736218
+                  "y": 2424.506578443907,
+                  "zoom": -1.2878779024687879
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -98,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5026054382324
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -204,8 +203,10 @@
   },
   "active": "de540253cf27da85",
   "lastOpenFiles": [
-    "04 Canvases/mind maps/front end security category.canvas",
+    "06 Courses, webinars/First steps with Zotero.md",
+    "02 Literature/papers/prototype pollution/On Detecting and Measuring Exploitable JavaScript Functions in Real-world Applications.md",
     "04 Canvases/mind maps/vulnerabilities map.canvas",
+    "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/mind maps/cross-domain policies.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "01 Notes/prototype pollution.md",
@@ -213,7 +214,6 @@
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
     "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
-    "02 Literature/papers/prototype pollution/On Detecting and Measuring Exploitable JavaScript Functions in Real-world Applications.md",
     "01 Notes/ReDoS (Regular Expression Denial of Service).md",
     "01 Notes/RCE (Remote Code Execution).md",
     "01 Notes/evil RegEx (Regular Expression).md",
@@ -227,7 +227,6 @@
     "02 Literature/papers/browser extension based attacks/sandFOX. secure sandboxed and isolated environment for firefox browser.md",
     "96 Meta/SLR/Tags analysis.md",
     "04 Canvases/meetings/2025_04_04.canvas",
-    "06 Courses, webinars/First steps with Zotero.md",
     "02 Literature/papers/clickjacking/A solution for the automated detection of clickjacking attacks.md",
     "01 Notes/clickjacking.md",
     "97 Assets/clickjacking_example_twitter.png",
