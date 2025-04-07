@@ -51,14 +51,25 @@
     },
     {
       "height": 120,
+      "id": "12b42af85a5cb5be",
+      "styleAttributes": {
+      },
+      "text": "# Knowledge graph (Neo4j)",
+      "type": "text",
+      "width": 520,
+      "x": -1560,
+      "y": 1800
+    },
+    {
+      "height": 120,
       "id": "543a5d799c26ea5a",
       "styleAttributes": {
       },
       "text": "# Feature model\n\nSee [drawio](https://app.diagrams.net/#G1gxcEavCLa2HLIgI9IZcMqhOIOLMlNsT7#%7B%22pageId%22%3A%22OpZ_XEBSkc4lm8gFaxDL%22%7D)\n",
       "type": "text",
-      "width": 1948,
+      "width": 400,
       "x": -1560,
-      "y": -840
+      "y": -880
     }
   ]
 }

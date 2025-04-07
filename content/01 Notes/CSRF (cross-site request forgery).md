@@ -7,6 +7,7 @@ tags:
   - CSFR
 ---
 Also known as XSRF, Confused Deputy, one-click-attack, Session Riding [[(Maes, Heyman, et al., 2009)]]
+
 ## Definition
 
 Cross-Site Request Forgery (CSRF) is an attack that forces an authenticated user to perform an unwanted action on a website they are logged in to, without their knowledge or consent
@@ -67,6 +68,10 @@ div[secret-data] {
 Common CSFR includes:
 - changing user's credentials, making the account unusable for the user and stealing his identity
 - sending unwanted transactions
+
+### Prevalence
+
+Among 5,000 randomly selected scan targets of HTTP requests by Acunetix in 2020, 36% were found vulnerable to CSRF attacks [[(Ramadan, Osama, et al., 2024)]]
 
 ### Mitigation techniques
 
