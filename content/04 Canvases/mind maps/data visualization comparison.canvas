@@ -2,5 +2,40 @@
   "edges": [
   ],
   "nodes": [
+    {
+      "color": "4",
+      "height": 220,
+      "id": "d84b967cccd466c1",
+      "styleAttributes": {
+      },
+      "text": "## Pro\n- clear structure for describing a single feature\n- reusable\n- extendable",
+      "type": "text",
+      "width": 380,
+      "x": -1180,
+      "y": -820
+    },
+    {
+      "color": "1",
+      "height": 220,
+      "id": "6073c1a16c4c63fd",
+      "styleAttributes": {
+      },
+      "text": "## Cons\n- not effective in highlighting relationship between features\n- arbitrary level of detail",
+      "type": "text",
+      "width": 400,
+      "x": -740,
+      "y": -820
+    },
+    {
+      "height": 80,
+      "id": "543a5d799c26ea5a",
+      "styleAttributes": {
+      },
+      "text": "# Feature model",
+      "type": "text",
+      "width": 320,
+      "x": -920,
+      "y": -960
+    }
   ]
 }

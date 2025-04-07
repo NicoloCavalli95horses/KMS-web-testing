@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/mind maps/data visualization comparison.canvas",
                 "viewState": {
-                  "x": 350.2488322309083,
-                  "y": -130.54953315420968,
-                  "zoom": -2.222222133919048
+                  "x": -670,
+                  "y": -695.0000061591463,
+                  "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -97,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 228.50260543823242
+    "width": 267.5026054382324
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -204,6 +204,7 @@
   "active": "4ff562469ded32c0",
   "lastOpenFiles": [
     "04 Canvases/mind maps/data visualization comparison.canvas",
+    "01 Notes/XSS (cross site scripting).md",
     "04 Canvases/mind maps/vulnerabilities map.canvas",
     "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/mind maps/cross-domain policies.canvas",
@@ -238,12 +239,10 @@
     "03 References/(Balduzzi, Egele, et al., 2010).md",
     "02 Literature/papers/behavioral biometrics/User Profiling Using Sequential Mining Over Web Elements.md",
     "01 Notes/behavioral biometrics analysis.md",
-    "00 Antilibrary/HMM (Hidden Markov Model).md",
     "02 Literature/papers/behavioral biometrics",
     "97 Assets/sandbox_browser_sandfox.png",
     "02 Literature/papers/browser extension based attacks",
     "97 Assets/session_fixation_graph.png",
-    "04 Canvases/models/research model.canvas",
     "02 Literature/papers/parameter tampering",
     "04 Canvases/mind maps/ideas",
     "02 Literature/papers/WAF (Web Application Firewall)",
