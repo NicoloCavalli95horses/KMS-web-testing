@@ -83,5 +83,6 @@ Although [[OWASP (Open Web Application Security Project)]] strongly recommend en
 - [[(Khodayari, Pellegrino, 2023)]]
 - [[(Deepa, Thilagam, et al., 2018)]]
 - [[(Li, Xue, et al., 2013)]]
+- [[(Ndiaye, Barais, et al., 2019)]]
 
 See also [[direct graph-based logic flow analysis]]: how to define and identify "critical" pages in a web application
