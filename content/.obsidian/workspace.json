@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "3e01a9cb48c30164",
+        "id": "314832542f54bf91",
         "type": "tabs",
         "children": [
           {
-            "id": "6f220b4eed190c0f",
+            "id": "256cff74bfb86562",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Literature/papers/logic flow tampering/Requirements for preventing logic flaws in the authentication procedure of web applications.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Requirements for preventing logic flaws in the authentication procedure of web applications"
+              "title": "New tab"
             }
           }
         ]
@@ -183,10 +178,11 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "6f220b4eed190c0f",
+  "active": "256cff74bfb86562",
   "lastOpenFiles": [
-    "01 Notes/BFT (business flow tampering).md",
     "02 Literature/papers/logic flow tampering/Requirements for preventing logic flaws in the authentication procedure of web applications.md",
+    "01 Notes/DOS (Denial of Service).md",
+    "01 Notes/BFT (business flow tampering).md",
     "01 Notes/string validation.md",
     "02 Literature/papers/input validation/Bypass testing of web applications.md",
     "03 References/(Ndiaye, Barais, et al., 2019).md",
@@ -223,7 +219,6 @@
     "02 Literature/papers/browser extension based attacks/sandFOX. secure sandboxed and isolated environment for firefox browser.md",
     "96 Meta/SLR/Tags analysis.md",
     "04 Canvases/meetings/2025_04_04.canvas",
-    "02 Literature/papers/clickjacking/A solution for the automated detection of clickjacking attacks.md",
     "97 Assets/clickjacking_example_twitter.png",
     "02 Literature/papers/behavioral biometrics",
     "97 Assets/sandbox_browser_sandfox.png",
