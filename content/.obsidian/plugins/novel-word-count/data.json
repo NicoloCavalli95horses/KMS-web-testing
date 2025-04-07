@@ -13495,19 +13495,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 24,
+      "wordCount": 146,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.08,
-      "characterCount": 194,
-      "nonWhitespaceCharacterCount": 163,
-      "readingTimeInMinutes": 0.09056603773584905,
+      "pageCount": 0.4866666666666667,
+      "characterCount": 1037,
+      "nonWhitespaceCharacterCount": 874,
+      "readingTimeInMinutes": 0.5509433962264151,
       "linkCount": 0,
-      "embedCount": 0,
+      "embedCount": 1,
       "aliases": null,
       "createdDate": 1744012241308,
-      "modifiedDate": 1744014916368,
-      "sizeInBytes": 859,
+      "modifiedDate": 1744019591271,
+      "sizeInBytes": 2160,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0,
@@ -19964,6 +19964,31 @@
         "tags": [
           "#definition"
         ]
+      }
+    },
+    "97 Assets/feature_model_example.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1744018467724,
+      "modifiedDate": 1744018467725,
+      "sizeInBytes": 97435,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
       }
     }
   }
