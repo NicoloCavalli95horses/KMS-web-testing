@@ -1,14 +1,7 @@
 {
 	"nodes":[
-		{"id":"6328a944416af633","x":-380,"y":-100,"width":250,"height":60,"type":"text","text":"[[prototype pollution]]"},
-		{"id":"ae682dd220031b9e","x":140,"y":0,"width":320,"height":60,"type":"text","text":"[[SQLIA (SQL injection attack)]]"},
-		{"id":"54477a3d0e2677ef","x":140,"y":-200,"width":320,"height":60,"type":"text","text":"[[XSS (cross site scripting)]]"},
-		{"id":"80ef3a6e1abda205","x":140,"y":-100,"width":320,"height":60,"type":"text","text":"[[DOS (Denial of Service)]]"},
-		{"id":"6a7f71eec5ea9b42","x":-440,"y":100,"width":640,"height":720,"type":"text","text":"Client-side:\n- [[GEMs (GUI Element Misuse)]] and [[BFT (business flow tampering)]]\n- [[prototype pollution]] (front-end)\n- [[DOM clobbering]]\n- DOM-based and reflected [[XSS (cross site scripting)]]\n- [[ReDoS (Regular Expression Denial of Service)]]\n- [[clickjacking]]\n- [[tabnabbing]]\n- [[Web Storage API (localStorage, sessionStorage)]] security\n- [[cross-domain policies]] misconfiguration (front-end)\n- [[service worker]] exploitation\n- [[C2C (client-to-client) communication]] with `PostMessage` API\n\n\nServer-side:\n- stored [[XSS (cross site scripting)]]\n- [[SQLIA (SQL injection attack)]]\n- [[EAR (Execution After Redirect)]]\n- [[directory traversal (path traversal)]]\n- [[CSRF (cross-site request forgery)]]\n- [[cross-domain policies]] misconfiguration (full-stack)\n- [[IDOR (Insecure Direct Object Reference)]]"}
+		{"id":"abba986892f66c89","type":"text","text":"## Hybrid front-end\n\n- [[XSS (cross site scripting)]]\n- [[SQLIA (SQL injection attack)]]\n- [[EAR (Execution After Redirect)]]\n- [[directory traversal (path traversal)]]\n- [[CSRF (cross-site request forgery)]]\n- [[cross-domain policies]] misconfiguration (full-stack)\n- [[IDOR (Insecure Direct Object Reference)]]","x":49,"y":140,"width":632,"height":640},
+		{"id":"aa941fba2df2924b","type":"text","text":"## Pure front-end\n\n- [[GEMs (GUI Element Misuse)]] and [[BFT (business flow tampering)]]\n- [[prototype pollution]] (front-end)\n- [[DOM clobbering]]\n- DOM-based [[XSS (cross site scripting)]]\n- [[ReDoS (Regular Expression Denial of Service)]]\n- [[clickjacking]]\n- [[tabnabbing]]\n- [[Web Storage API (localStorage, sessionStorage)]] security\n- [[cross-domain policies]] misconfiguration (front-end)\n- [[service worker]] exploitation\n- [[C2C (client-to-client) communication]] with `PostMessage` API\n","x":-920,"y":140,"width":640,"height":640}
 	],
-	"edges":[
-		{"id":"da2a824bfda4b8ed","fromNode":"6328a944416af633","fromSide":"right","toNode":"54477a3d0e2677ef","toSide":"left"},
-		{"id":"65e285ecf96a263c","fromNode":"6328a944416af633","fromSide":"right","toNode":"80ef3a6e1abda205","toSide":"left"},
-		{"id":"28c99f7ff1868a69","fromNode":"6328a944416af633","fromSide":"right","toNode":"ae682dd220031b9e","toSide":"left"}
-	]
+	"edges":[]
 }
