@@ -79,6 +79,8 @@ External prototype pollution could be considered a form of code-injection (see [
 
 A popular JavaScript utility library, Lodash, implements input filtering to injection sinks against prototype defining keywords, such as __proto__, constructor, and prototype [[(Hakim, 2023)]]
 
+Sometimes developers try to fix prototype pollution implementing a partial fix. Checking for the value of `__proto__` is not enough to secure a statement from the issue, because `constructor` or `prototype` can still be used in a malicious way [[(Kluban, Mannan, et al., 2024)]]
+
 ---
 ## References
 - https://learn.snyk.io/lesson/prototype-pollution/
