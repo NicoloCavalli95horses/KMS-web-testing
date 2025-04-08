@@ -11,6 +11,7 @@ c'est tout: that's it
 souvent: often
 parfoit: sometimes
 faire de la muscolation: going to the gym
+toujour: sempre
 
 ---
 Marjorie Vincent, francaise, 46 ans, 21 janvier 1979

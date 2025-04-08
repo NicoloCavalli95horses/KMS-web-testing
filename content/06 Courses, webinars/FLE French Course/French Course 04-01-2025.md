@@ -24,13 +24,13 @@ C'est a' quel nom?
 
 Est-ce que je peut avoir l'addition svp?
 
-#### Est-ce que is after the Q tag in open questions
+==Est-ce que is after the Q tag in open questions==
 
 Combien est-ce que tu as de freres?
 Comment est-ce que tu va?
 Ou est-ce tu va?
 
-#### But it goes first on close questions
+==But it goes first on close questions==
 
 Est-ce que il y a...?
 

@@ -28,16 +28,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/CSRF (cross-site request forgery).md",
+                "file": "06 Courses, webinars/FLE French Course/French Course 08-01-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "CSRF (cross-site request forgery)"
+              "title": "French Course 08-01-2025"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,8 +199,12 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "8bfae0cb5d62394a",
+  "active": "6c65fea0e52499d5",
   "lastOpenFiles": [
+    "06 Courses, webinars/FLE French Course/French Course 03-11-2025.md",
+    "06 Courses, webinars/FLE French Course/French Course 03-18-2025.md",
+    "06 Courses, webinars/FLE French Course/French Course 04-01-2025.md",
+    "06 Courses, webinars/FLE French Course/French Course 08-01-2025.md",
     "01 Notes/CSRF (cross-site request forgery).md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Client-Side Detection of Cross-Site Request Forgery Attacks.md",
     "96 Meta/SLR/Tags analysis.md",
@@ -224,16 +229,12 @@
     "96 Meta/PhD status.md",
     "97 Assets/ml_models_comparison_csrf.png",
     "03 References/(Ramadan, Osama, et al., 2024).md",
-    "01 Notes/XSS (cross site scripting).md",
     "04 Canvases/mind maps/data visualization comparison.canvas",
     "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/mind maps/vulnerabilities map.canvas",
     "97 Assets/xss_feature_model_test.png",
     "97 Assets/feature_model_example.png",
     "04 Canvases/mind maps/cross-domain policies.canvas",
-    "02 Literature/papers/prototype pollution/On Detecting and Measuring Exploitable JavaScript Functions in Real-world Applications.md",
-    "01 Notes/prototype pollution.md",
-    "06 Courses, webinars/First steps with Zotero.md",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",

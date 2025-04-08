@@ -58,7 +58,13 @@ div[secret-data] {
 ### CSRF variants
 
 **Login CSRF** [[(Trampert, Stock, et al., 2023)]]
-- the attacker forces the victim to log into the attacker’s account on some service. While this may sound counterintuitive initially, it allows the attacker to track their victim’s activities, e.g., following their search history, since that history is now tied to the attacker’s account.
+The attacker forces the victim to log into the attacker’s account on some service. While this may sound counterintuitive initially, it allows the attacker to track their victim’s activities, e.g., following their search history, since that history is now tied to the attacker’s account.
+
+**Reflected CSRF** [[(Shahriar, Zulkernine, et al., 2010)]]
+In a reflected CSRF attack, the injected payload is hosted in a web page *other* than a trusted website page. Thus, a victim is exposed to an attack when he logs on to a trusted website and browse to a different website simultaneously (two browsers tabs are therefore open)
+
+**Stored CSRF** [[(Shahriar, Zulkernine, et al., 2010)]]
+In a stored CSRF attack, the payload is present as part of a webpage downloaded from a trusted website. These can be found in blogs, forums, and message boards, due to an XSS vulnerability.
 
 ### Risks and consequences
 
