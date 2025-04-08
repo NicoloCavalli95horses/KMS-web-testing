@@ -74,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5026054382324
+    "width": 343.5026054382324
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -178,7 +178,7 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "4ccbe351ed4c48fb",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
     "01 Notes/tabnabbing.md",
     "02 Literature/papers/tabnabbing/TabShots. client-side detection of tabnabbing attacks.md",
