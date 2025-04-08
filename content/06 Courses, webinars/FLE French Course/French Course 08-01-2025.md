@@ -69,6 +69,7 @@ rivier: river
 lave (/lav): lava
 
 nuage (/niuag): cloud
-
+fer: iron
+tuyau (/tuio'): tubo, canna d'acqua
  
 
