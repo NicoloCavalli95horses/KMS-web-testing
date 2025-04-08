@@ -12,13 +12,14 @@ Project:
 
 [[security misconfiguration]] has become a real concern for the security of web applications. Misconfiguration may happen at different layers of the web architecture
 - misconfiguration at environment and application levels, are the common ones
+- the application level (business code) has received the least attention so far
 
 In PHP web applications, the global configuration settings of Apache and PHP could be redefined either
 - at the level of directories (e.g., using `htaccess` files)
 - at the source code level in scripts (e.g., using the `ini_set()` function)
 
 **Contribution**
-A novel approach to supplement existing web vulnerability analysis techniques by automatically scanning web application directory hierarchy and application source code to ==detect, quantify, and fix configuration vulnerabilities before deployment==
+An approach to supplement existing web vulnerability analysis techniques by scanning web application directory hierarchy and application source code to ==detect, quantify, and fix configuration vulnerabilities before deployment==
 
 A standard metrics based on the Common Configuration Scoring System (CCSS) can be used to *quantify the severity of configuration* vulnerabilities
 
@@ -26,16 +27,23 @@ A standard metrics based on the Common Configuration Scoring System (CCSS) can b
  
 ## Approach
 
-Given a web application and a deployment environment, our approach
-- **configuration parsing**: scans configuration of the environment and the application (through exhaustive traversal of application directory and preliminary source code analysis)
-- analyzes configuration vulnerabilities using a standard vulnerability scoring metrics
+- **configuration parsing**: we scan the configuration of the environment and the application through exhaustive traversal of application directory and preliminary source code analysis. File parsed:
+	- directory specific configurations (`htaccess` files)
+	- run time configuration (located in different scripts in the app). Functions like `ini_set()` were considered.
+	- environment specific configuration from Apache config files
+- **configuration vulnerability analysis**: The output of the previous step is analyzed and compared to a gold standard (CCSS and expert recommendations), that include exploitability metrics. Potential configuration vulnerabilities are then quantified
+	- Exploitability (Exp) is composed of three sub-metrics: Access Vector (AV ), Authentication (Au), and Access Complexity (AC)
 - generates fine-grained vulnerability report
-- facilitates automated fixing of configuration vulnerabilities.
+- **configuration fixing**: Patches are applied with respect to recommended configurations. This phase is not 100% automatic given platform-specific features
 
 ## Evaluation
 
-Confeagle was evaluated on 14 widely deployed open source PHP applications
+- Confeagle was evaluated on 14 widely deployed open source PHP applications: Information Disclosure, [[DOS (Denial of Service)]] due to [[buffer overflow]] and [[session hijacking]] vulnerabilities were found in 10 out of 14 apps
+- 3 popular web application vulnerability scanners were compared to Confeagle (see [[benchmark testing]])
 
+## Limits
+
+- Only PHP web application are considered
 
 ---
 #### References
