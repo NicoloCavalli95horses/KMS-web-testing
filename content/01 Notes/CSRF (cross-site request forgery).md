@@ -105,7 +105,7 @@ Cross-origin policies (a whitelist of valid URLs) have been proposed, but:
 - stored CSRF are not detectable in this way (e.g., CSRF that leverage on a stored XSS and that are lunched each time a user lands to a specific part of an application)
 
 Other client-side protections from [[(Maes, Heyman, et al., 2009)]]:
-- browser extensions: RequestPolicy, BEAP, CSRF Protector, SOMA
+- browser extensions: RequestPolicy, Browser-Enforced Authenticity Protection (BEAP), CSRF Protector, SOMA
 - client-side proxy: RequestRodeo
 
 Usually these countermeasures monitor outgoing requests and incoming responses, and filter out implicit authentication or block cross-domain requests. Cons:
