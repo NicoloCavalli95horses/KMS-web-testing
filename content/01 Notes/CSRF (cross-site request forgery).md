@@ -72,12 +72,31 @@ Among 5,000 randomly selected scan targets of HTTP requests by Acunetix in 2020,
 
 ### Mitigation techniques
 
-- [[SOP (Same-Origin Policy)]] is the first layer of protection, preventing malicious script to directly read cookies or access the DOM of other websites
-- Using [[CSRF (cross-site request forgery) token]], which are in essence random values embedded into form fields. If the server does not receive the token that expects, the HTTP request is rejected
-- verifying the source of the request (original header): `referrer` header has been proposed as a solution, but it carries privacy concerns as is often suppressed by browsers. The `origin` header is more considerate of privacy but not well supported [[(Pelizzi, Sekar, et al., 2011)]]
+**SOP (same-origin policy)**
+ [[SOP (Same-Origin Policy)]] is the first layer of protection, preventing malicious script to directly read cookies or access the DOM of other websites, but it does not prohibit an attacker to launch any arbitrary request to a trusted website [[(Shahriar, Zulkernine, et al., 2010)]]
+
+**CSRF Token**
+Using [[CSRF (cross-site request forgery) token]], which are in essence random values embedded into form fields.
+- If the server does not receive the token that expects, the HTTP request is rejected
+
+**Source verification (referrer header)**
+Verifying the source of the request (original header) could be a valid mitigation strategy.
+- the `referrer` header contains the domain address of a website that initiates a request
+- it has been proposed as a solution, but it carries privacy concerns, and therefore is often suppressed by browsers
+- The `origin` header is more considerate of privacy but not well supported [[(Pelizzi, Sekar, et al., 2011)]]
+
+**Other mitigation strategies**
 - limiting HTTP request methods
 - using [[SameSite cookie]] [[(Saleh, Malkawi, et al., 2024)]]
-- closing all the tabs except for the one you are using may be an effective mitigation strategy, but ==if you landed on a malicious website *before* reaching the target, malicious HTTP requests may have been hidden and then executed in the background (this can be done with a [[service worker]])==
+- closing all the tabs except for the one you are using may be an effective mitigation strategy, but
+	1. the website you are visiting is vulnerable to XSS, a request may be executed even in the same domain
+	2. if you landed on a malicious website *before* reaching the target, malicious HTTP requests may have been hidden and then executed in the background (this can be done with a [[service worker]])
+
+**Whitelisting and blacklisting of domain** [[(Shahriar, Zulkernine, et al., 2010)]]
+Cross-origin policies (a whitelist of valid URLs) have been proposed, but:
+- manual process that can be badly configured and that is error prone
+- not scalable and has to be maintained over time
+- stored CSRF are not detectable in this way (e.g., CSRF that leverage on a stored XSS and that are lunched each time a user lands to a specific part of an application)
 
 Other client-side protections from [[(Maes, Heyman, et al., 2009)]]:
 - browser extensions: RequestPolicy, BEAP, CSRF Protector, SOMA
@@ -108,6 +127,7 @@ There are similarities between CSRF and [[XSS (cross site scripting)]]. While th
 - client-side defense policies, [[(Maes, Heyman, et al., 2009)]]
 - server-side proxy, [[(Liu, Shen, et al., 2020)]]
 - ML comparison in CSRF,  [[(Ramadan, Osama, et al., 2024)]]
+- client-side detection, by [[(Shahriar, Zulkernine, et al., 2010)]]
 
 [^1]: For more about authentication mechanisms and session management, see [[cookie]], [[sessions token]], [[JWT (JSON Web Token)]]
 
