@@ -4291,19 +4291,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 80,
+      "wordCount": 169,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.26666666666666666,
-      "characterCount": 716,
-      "nonWhitespaceCharacterCount": 620,
-      "readingTimeInMinutes": 0.3018867924528302,
-      "linkCount": 0,
+      "pageCount": 0.5633333333333334,
+      "characterCount": 1423,
+      "nonWhitespaceCharacterCount": 1227,
+      "readingTimeInMinutes": 0.6377358490566037,
+      "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985066,
-      "modifiedDate": 1743766985066,
-      "sizeInBytes": 822,
+      "modifiedDate": 1744103245044,
+      "sizeInBytes": 1522,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.26666666666666666,
@@ -20222,6 +20222,68 @@
         "ID": "2025-02-28-10:33",
         "tags": [
           "#definition"
+        ]
+      }
+    },
+    "03 References/(Eshete, Villafiorita, et al., 2013).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 54,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.18,
+      "characterCount": 730,
+      "nonWhitespaceCharacterCount": 646,
+      "readingTimeInMinutes": 0.2037735849056604,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744101316432,
+      "modifiedDate": 1744101316432,
+      "sizeInBytes": 730,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "02 Literature/papers/server configuration/Confeagle. Automated Analysis of Configuration Vulnerabilities in Web Applications.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 209,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.6966666666666667,
+      "characterCount": 1652,
+      "nonWhitespaceCharacterCount": 1416,
+      "readingTimeInMinutes": 0.7886792452830189,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744101316455,
+      "modifiedDate": 1744103272579,
+      "sizeInBytes": 1771,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-08T08:35:16.426Z",
+        "tags": [
+          "paper",
+          "projectSLR",
+          "serverMisconfiguration",
+          "PHP"
+        ],
+        "Project": [
+          "SLR"
         ]
       }
     }
