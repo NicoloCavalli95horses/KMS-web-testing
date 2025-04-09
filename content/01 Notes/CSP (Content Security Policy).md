@@ -16,15 +16,22 @@ Content Security Policy (CSP) is a feature that helps to prevent or minimize the
 - it is a type of [[cross-domain policies]]
 
 A CSP can, for example:
-- define the permitted sources (script, images, styles and fonts sources) 
 - disable inline script tags
+- disable dangerous APIs like `eval()`, `setTimeout()`, `setInterval()`[^1] 
+- define the permitted sources (script, images, styles and fonts sources) 
 - allow only script tags which have the correct id or src value
 - disable inline event handlers
 - disable javascript: URLs
-- disable dangerous APIs like `eval()`
+
+**Directives**
+A directive states how the behavior of the browser should be modified on the protected document [[(Stamm, Sterne, et al., 2010)]]
 
 ![[CSP_directives_example.png]]
+
 The directive `default-src` serves as a fallback for the other CSP. If there is no whitelist for other directives, the browser will get resources based on the whitelist of the  `default-src` directive [[(Lv, Shi, et al., 2023)]]
+
+**[Violation report](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP#violation_reporting)**
+When a CSP violation occurs, the browser sends the report as a JSON object to a specified endpoint via an HTTP POST operation
 
 ### Example
 
@@ -82,8 +89,10 @@ The browser then determines for a given script (both inline and external) if the
 
 ---
 #### References
+- [[(Stamm, Sterne, et al., 2010)]]
 - [[(Tkachenko et al., 2024)]]
 - [[(Trampert, Stock, et al., 2023)]]
 - [[(Lv, Shi, et al., 2023)]]
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP
 
+[^1]: These APIs are dangerous because their first argument is  interpreted as code, even if it is a string. So `setInterval(myFunction, 1000)` and `setInterval("alert(1)", 1000)` will both cause a JS execution
