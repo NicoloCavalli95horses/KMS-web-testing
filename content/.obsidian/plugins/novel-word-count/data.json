@@ -1708,15 +1708,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.09333333333333334,
-      "characterCount": 475,
+      "characterCount": 477,
       "nonWhitespaceCharacterCount": 341,
       "readingTimeInMinutes": 0.10566037735849057,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985195,
-      "modifiedDate": 1744110303749,
-      "sizeInBytes": 518,
+      "modifiedDate": 1744191266983,
+      "sizeInBytes": 520,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.09333333333333334,
@@ -1739,15 +1739,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.08666666666666667,
-      "characterCount": 399,
+      "characterCount": 400,
       "nonWhitespaceCharacterCount": 254,
       "readingTimeInMinutes": 0.09811320754716982,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985195,
-      "modifiedDate": 1744106485558,
-      "sizeInBytes": 442,
+      "modifiedDate": 1744191213204,
+      "sizeInBytes": 443,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.08666666666666667,
@@ -9122,39 +9122,6 @@
         ],
         "Project": [
           "SLR"
-        ]
-      }
-    },
-    "02 Literature/papers/DoS (Denial of Service)/Runtime recovery of web applications under zero-days ReDoS attacks.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 463,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 1.5433333333333332,
-      "characterCount": 3243,
-      "nonWhitespaceCharacterCount": 2716,
-      "readingTimeInMinutes": 1.7471698113207548,
-      "linkCount": 4,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1743766985093,
-      "modifiedDate": 1743766985093,
-      "sizeInBytes": 3319,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 1.5433333333333332,
-        "wordCount": 463,
-        "characterCount": 3243,
-        "nonWhitespaceCharacterCount": 2716
-      },
-      "frontmatter": {
-        "ID": "2024-12-09-15:46",
-        "tags": [
-          "paper",
-          "cyberSecurity",
-          "DoS"
         ]
       }
     },
@@ -20450,19 +20417,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 244,
+      "wordCount": 331,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.8133333333333334,
-      "characterCount": 1555,
-      "nonWhitespaceCharacterCount": 1283,
-      "readingTimeInMinutes": 0.9207547169811321,
-      "linkCount": 6,
+      "pageCount": 1.1033333333333333,
+      "characterCount": 2093,
+      "nonWhitespaceCharacterCount": 1732,
+      "readingTimeInMinutes": 1.2490566037735849,
+      "linkCount": 7,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744182187006,
-      "modifiedDate": 1744185148651,
-      "sizeInBytes": 1678,
+      "modifiedDate": 1744190264875,
+      "sizeInBytes": 2218,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -20514,6 +20481,101 @@
           "#definition",
           "XSS",
           "iframe"
+        ]
+      }
+    },
+    "02 Literature/papers/intrusion recovery/Runtime recovery of web applications under zero-days ReDoS attacks.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 463,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.5433333333333332,
+      "characterCount": 3210,
+      "nonWhitespaceCharacterCount": 2716,
+      "readingTimeInMinutes": 1.7471698113207548,
+      "linkCount": 4,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743766985093,
+      "modifiedDate": 1744191251556,
+      "sizeInBytes": 3299,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2024-12-09-15:46",
+        "tags": [
+          "paper",
+          "cyberSecurity",
+          "DoS",
+          "attackRecovery"
+        ]
+      }
+    },
+    "03 References/(Chandra, Kim, et al., 2011).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 238,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.7933333333333333,
+      "characterCount": 1875,
+      "nonWhitespaceCharacterCount": 1612,
+      "readingTimeInMinutes": 0.8981132075471698,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744190525263,
+      "modifiedDate": 1744190525264,
+      "sizeInBytes": 1877,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "02 Literature/papers/intrusion recovery/Intrusion recovery for database-backed web applications.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 204,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.68,
+      "characterCount": 1399,
+      "nonWhitespaceCharacterCount": 1170,
+      "readingTimeInMinutes": 0.769811320754717,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744190525282,
+      "modifiedDate": 1744192432326,
+      "sizeInBytes": 1502,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-09T09:22:05.252Z",
+        "tags": [
+          "paper",
+          "projectSLR",
+          "attackRecovery"
+        ],
+        "Project": [
+          "SLR"
         ]
       }
     }

@@ -24,7 +24,7 @@ CSP core idea: instead of only filtering scripts from being inserted into a page
 The author propose a content restriction policy that limit what types of content may be requested for inclusion, as well as where the content may be loaded from. The ultimate goal is to
 1. give more control over content used in a web application
 2. defend against XSS
-3. clickjacking 
+3. [[clickjacking]] 
 
 ==By design, an application that mis-implements a CSP will have no less security than one that does not use our scheme ==. The CSP does not introduce a new attack surface
 
@@ -32,15 +32,15 @@ The policy does not represent an expensive overhead and can be easily adopted gr
 
 ## Evaluation
 
-The CSP is compared to other solutions in the field
-
-## Results
-
-Describe the results in simple terms
+In order to test the feasibility of CSP, we constructed a prototype implementation on both the client and the server side. On the client side, we modified the Firefox web browser to support CSP. On the server side, we added a CSP header to pages served from a copy of Mozilla’s Add-Ons web site, and updated the site to support the CSP base restrictions.
+- the implementation adds roughly 4000 lines of code to Firefox and it is written in C++ and JS (XPCOM components)
+- vulnerabilities such as XSS and clickjacking were simulated
 
 ## Limits
 
-What are the limits of the research? What could be improved?
+- widespread support is required for the policy to be beneficial
+- misconfiguration may occur
+- manually creating a policy may be difficult for complex applications
 
 ---
 #### References
