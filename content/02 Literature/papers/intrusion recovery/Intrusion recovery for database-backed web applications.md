@@ -27,14 +27,18 @@ WARP is the first system to help repairing from attacks in web applications:
 
 ## Evaluation
 
-WARP was evaluated on MediaWiki, a wiki application that was 
+WARP was tested on MediaWiki, a wiki application that was attacked in 6 different ways. The system was able to recover MediaWiki.
+
 ## Results
 
 Describe the results in simple terms
 
 ## Limits
 
-What are the limits of the research? What could be improved?
+- WARP does not automatically fix an application after an attack. An admin has to launch WARP in order to execute the roll back
+- If the application is non-deterministic, there may be many possible repaired states, and WARP only guarantees to provide one of them, which may not necessarily be the one closest to the pre-repair state
+- *conflicts* (a user edits a page created by the attacker and the page no longer exist after the repair) need to be manually fixed by the admin
+- WARP cannot undo disclosure of private data, but can still help track down affected users
 
 ---
 #### References
