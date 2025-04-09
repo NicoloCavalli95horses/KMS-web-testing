@@ -17,7 +17,8 @@ combines elements of:
 - [[redirect attack]], that redirect to a malicious web page
 
 Browser's history sniffing can be used to accurate craft a specific URL to trick the user [[(Fonseka, Pashenna, et al., 2023)]]
-### How does it work?
+
+## How does it work?
 
 - The victim access a malicious website (*website A*), that has a link to a trustful website (*website B*), for example the website of a bank
 - The victim clicks on the link and open the *website B*, while the tab of the *website A* is still opened
