@@ -1,0 +1,159 @@
+{
+  "edges": [
+    {
+      "fromNode": "25bd91b036f96ec5",
+      "fromSide": "bottom",
+      "id": "9caa185ae76a9031",
+      "styleAttributes": {
+      },
+      "toNode": "543a5d799c26ea5a",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "25bd91b036f96ec5",
+      "fromSide": "bottom",
+      "id": "56dd4f0b251a7c6b",
+      "styleAttributes": {
+      },
+      "toNode": "808a0cea650979e5",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "25bd91b036f96ec5",
+      "fromSide": "bottom",
+      "id": "998027052eafee08",
+      "styleAttributes": {
+      },
+      "toNode": "a89f2adbccbeed19",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a89f2adbccbeed19",
+      "fromSide": "bottom",
+      "id": "fffc887e44d10ac2",
+      "styleAttributes": {
+      },
+      "toNode": "1fd8085a2cbb642d",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a89f2adbccbeed19",
+      "fromSide": "bottom",
+      "id": "bc27db064f50b4fa",
+      "styleAttributes": {
+      },
+      "toNode": "06f707f74496cf63",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a89f2adbccbeed19",
+      "fromSide": "bottom",
+      "id": "a41ebb29d881c20e",
+      "styleAttributes": {
+      },
+      "toNode": "97d0a1714d56665c",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a89f2adbccbeed19",
+      "fromSide": "bottom",
+      "id": "7c171193430199e1",
+      "styleAttributes": {
+      },
+      "toNode": "4ce49a0eca6ea9df",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 145,
+      "id": "1fd8085a2cbb642d",
+      "styleAttributes": {
+      },
+      "text": "## common entry points",
+      "type": "text",
+      "width": 400,
+      "x": -220,
+      "y": 1015
+    },
+    {
+      "height": 145,
+      "id": "06f707f74496cf63",
+      "styleAttributes": {
+      },
+      "text": "## similar harm ",
+      "type": "text",
+      "width": 260,
+      "x": 220,
+      "y": 1015
+    },
+    {
+      "height": 145,
+      "id": "97d0a1714d56665c",
+      "styleAttributes": {
+      },
+      "text": "## a victim is involved (direct/indirect attack)",
+      "type": "text",
+      "width": 400,
+      "x": 520,
+      "y": 1015
+    },
+    {
+      "height": 105,
+      "id": "4ce49a0eca6ea9df",
+      "styleAttributes": {
+      },
+      "text": "## ...",
+      "type": "text",
+      "width": 260,
+      "x": 960,
+      "y": 1015
+    },
+    {
+      "height": 100,
+      "id": "a89f2adbccbeed19",
+      "styleAttributes": {
+        "shape": null
+      },
+      "text": "## Creating new attack categories",
+      "type": "text",
+      "width": 520,
+      "x": 260,
+      "y": 620
+    },
+    {
+      "height": 600,
+      "id": "808a0cea650979e5",
+      "styleAttributes": {
+      },
+      "text": "## Attack description following the RQs\n\nExample:\n\n`XSS`\n- attack type (pure or hybrid) and role of the client\n- prevalence\n- life cycle/changes of the attack over time\n- causes/entry points\n- solutions, tools, mitigations\n\nCSRF\n- ...\n- ...\n- ...\n\n",
+      "type": "text",
+      "width": 660,
+      "x": -1680,
+      "y": 670
+    },
+    {
+      "height": 200,
+      "id": "543a5d799c26ea5a",
+      "styleAttributes": {
+      },
+      "text": "## Highlighting relations/dependencies between attacks\n\nSee [drawio](https://app.diagrams.net/#G1gxcEavCLa2HLIgI9IZcMqhOIOLMlNsT7#%7B%22pageId%22%3A%22OpZ_XEBSkc4lm8gFaxDL%22%7D)",
+      "type": "text",
+      "width": 620,
+      "x": -800,
+      "y": 620
+    },
+    {
+      "color": "4",
+      "height": 200,
+      "id": "25bd91b036f96ec5",
+      "styleAttributes": {
+      },
+      "text": "# Result presentation\n## How to group our results?",
+      "type": "text",
+      "width": 620,
+      "x": -800,
+      "y": 160
+    }
+  ]
+}

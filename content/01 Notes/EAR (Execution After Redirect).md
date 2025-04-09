@@ -48,5 +48,5 @@ Content-Type: text/html; charset=ISO-8859-1
 
 ---
 #### References
--  [[(Payet, Doupe, et al., 2013)]]
+- [[(Payet, Doupe, et al., 2013)]]
 - As example of logic flaw, pag.6, in [[(Deepa, Thilagam, et al., 2018)]]

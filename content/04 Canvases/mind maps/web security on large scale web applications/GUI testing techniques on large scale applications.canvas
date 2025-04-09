@@ -1,47 +1,383 @@
 {
-	"nodes":[
-		{"id":"9aa211ba9fd13796","type":"text","text":"# Graphical User Interface testing techniques on large scale applications","x":-260,"y":-40,"width":520,"height":200,"color":"4"},
-		{"id":"b79ea8dd52f7de57","type":"text","text":"## vulnerabilities analysis","x":390,"y":-10,"width":290,"height":141,"color":"2"},
-		{"id":"6b03fccdd9f45392","type":"text","text":"**Manual methods**\n- [[code inspection]]\n- [[code walkthrough]]\n- [[desk checking]]\n- [[peer rating]]","x":235,"y":754,"width":300,"height":326},
-		{"id":"00c9c5eec92f6bad","type":"text","text":"### white-box testing","x":50,"y":586,"width":340,"height":60},
-		{"id":"acf32acdb8c3664a","type":"text","text":"### mixed approaches","x":-451,"y":586,"width":312,"height":60},
-		{"id":"c2d518c6238d9c7e","type":"text","text":"### black-box testing","x":-915,"y":596,"width":350,"height":50},
-		{"id":"b60c743cf034db82","type":"text","text":"## output analysis (presentation layer)","x":174,"y":-368,"width":370,"height":123,"color":"2"},
-		{"id":"dee53fec36b24cdb","type":"text","text":"Software repair, recommendation, patching:\n- code synthesis ([[Automatic program repair]])\n- recommendation engines (software linting)\n- evolutionary computation (machine learning, [[GA (genetic algorithm)]])","x":-504,"y":-925,"width":380,"height":487},
-		{"id":"95a12bc86762f9fc","type":"text","text":"## proactive approaches","x":-489,"y":-368,"width":350,"height":136,"color":"2"},
-		{"id":"6ca3589bc5f41400","type":"text","text":"**Automatic methods**\n- [[logic coverage testing]]\n- [[unit testing]]: [[non-incremental (big-bang) unit testing]], [[incremental or integration testing]]\n","x":-112,"y":754,"width":325,"height":326},
-		{"id":"ec5f23f2d740d524","type":"text","text":"- [[fuzzing]] testing\n- test amplification\n","x":-420,"y":754,"width":250,"height":281},
-		{"id":"29378b76814d134e","type":"text","text":"[[black-box testing]] techniques:\n- [[EPM (Equivalence Partitioning Method)]]\n- [[boundary value analysis]]\n- [[cause-effect graphing]]\n- [[E2E (end-to-end) testing]]\n- [[usability testing]]\n- [[decision table]]","x":-960,"y":754,"width":440,"height":464},
-		{"id":"92ee8b02584c0be6","type":"text","text":"- [[volume testing]]\n- [[stress testing]]\n- [[performance testing]]\n- [[storage testing]]\n- [[configuration testing]]\n- [[compatibility or conversion testing]]\n- [[installation testing]]\n- [[reliability testing]]\n- [[serviceability or maintenance testing]]\n- [[procedure testing]]\n- [[regression testing]]\n- [[acceptance testing]]","x":590,"y":756,"width":402,"height":558},
-		{"id":"65ed08b22fccb8fe","type":"text","text":"### higher-order testing","x":615,"y":586,"width":352,"height":60},
-		{"id":"4bcf8833acf9af39","type":"text","text":"## software testing techniques","x":-215,"y":250,"width":430,"height":145,"color":"2"},
-		{"id":"885ea7d23616647b","type":"text","text":"## behavioral analysis (business layer)","x":-740,"y":-22,"width":362,"height":167,"color":"2"},
-		{"id":"b3c0e3324d4558f8","type":"text","text":"Analyzing GUIs vulnerability ([[security testing]]):\n- [[ReDoS (Regular Expression Denial of Service)]] attacks\n- [[SQLIA (SQL injection attack)]]\n- dependencies issues [[Managing security vulnerabilities introduced by dependencies in React.js]]\n- [[recovery testing]]\n- [[GEMs (GUI Element Misuse)]] vulnerabilities\n- [[drive-by download]] vulnerabilities\n- [[tabnabbing]]\n- [[clickjacking]]\n- [[XSS (cross site scripting)]]\n- [[DOM clobbering]]\n- ...","x":760,"y":-240,"width":608,"height":601},
-		{"id":"cbbddaf863f57b40","type":"text","text":"Analyzing GUIs behavior:\n- interaction flow and event sequences ([[EFG (event flow graph)]], [[ESG (event sequence graph)]])\n- clickstream analysis ([[Markov’s chain and clickstream analysis]])\n- [[static analysis]], [[dynamic analysis]], [[concolic execution]], [[symbolic execution]]\n- Events sequences analysis with [[LM (word n-gram language model)]]","x":-1475,"y":-306,"width":560,"height":410},
-		{"id":"be27fee0e5084d0a","type":"text","text":"Manipulate extracted events sequences:\n- reduce combinatorial explosion with [[CA (covering array)]]","x":-1475,"y":153,"width":560,"height":147},
-		{"id":"aa999716a5f7163c","type":"text","text":"Automatically generate and execute GUI tests","x":-1475,"y":349,"width":560,"height":98},
-		{"id":"b7e24bf0c956fd02","type":"text","text":"Analyzing GUIs output (graphical rendering)\n- visual consistency ([[JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency]])\n- HTML5 Canvas related issues ([[A taxonomy of testable HTML5 Canvas Issues]])\n- GUI defects ([[Classifying and qualifying GUI defects]])","x":69,"y":-882,"width":581,"height":444}
-	],
-	"edges":[
-		{"id":"204e9272a4afae51","fromNode":"cbbddaf863f57b40","fromSide":"bottom","toNode":"be27fee0e5084d0a","toSide":"top"},
-		{"id":"650b60f79e4ecfb5","fromNode":"be27fee0e5084d0a","fromSide":"bottom","toNode":"aa999716a5f7163c","toSide":"top"},
-		{"id":"bfbfaca6884e336d","fromNode":"4bcf8833acf9af39","fromSide":"bottom","toNode":"c2d518c6238d9c7e","toSide":"top"},
-		{"id":"da62b073aaadc405","fromNode":"c2d518c6238d9c7e","fromSide":"bottom","toNode":"29378b76814d134e","toSide":"top"},
-		{"id":"d1a2aae7b16eaa2e","fromNode":"4bcf8833acf9af39","fromSide":"bottom","toNode":"00c9c5eec92f6bad","toSide":"top"},
-		{"id":"66b594ce354348f1","fromNode":"00c9c5eec92f6bad","fromSide":"bottom","toNode":"6ca3589bc5f41400","toSide":"top"},
-		{"id":"2686ab58d9aebfcf","fromNode":"00c9c5eec92f6bad","fromSide":"bottom","toNode":"6b03fccdd9f45392","toSide":"top"},
-		{"id":"117b155db592bf45","fromNode":"4bcf8833acf9af39","fromSide":"bottom","toNode":"acf32acdb8c3664a","toSide":"top"},
-		{"id":"4264031d73b31817","fromNode":"acf32acdb8c3664a","fromSide":"bottom","toNode":"ec5f23f2d740d524","toSide":"top"},
-		{"id":"112474434c6117d2","fromNode":"95a12bc86762f9fc","fromSide":"top","toNode":"dee53fec36b24cdb","toSide":"bottom"},
-		{"id":"6d57868e252d52bc","fromNode":"b79ea8dd52f7de57","fromSide":"right","toNode":"b3c0e3324d4558f8","toSide":"left"},
-		{"id":"d38df3df12d61448","fromNode":"9aa211ba9fd13796","fromSide":"bottom","toNode":"4bcf8833acf9af39","toSide":"top"},
-		{"id":"9151714f995d4677","fromNode":"b60c743cf034db82","fromSide":"top","toNode":"b7e24bf0c956fd02","toSide":"bottom"},
-		{"id":"c6159800da17a02b","fromNode":"9aa211ba9fd13796","fromSide":"left","toNode":"885ea7d23616647b","toSide":"right"},
-		{"id":"71c0e9b7085c9d70","fromNode":"9aa211ba9fd13796","fromSide":"top","toNode":"95a12bc86762f9fc","toSide":"bottom"},
-		{"id":"302f8fd7f0bb4f4c","fromNode":"9aa211ba9fd13796","fromSide":"top","toNode":"b60c743cf034db82","toSide":"bottom"},
-		{"id":"281ad3776615dbbb","fromNode":"9aa211ba9fd13796","fromSide":"right","toNode":"b79ea8dd52f7de57","toSide":"left"},
-		{"id":"029dc31cb66b30a0","fromNode":"885ea7d23616647b","fromSide":"left","toNode":"cbbddaf863f57b40","toSide":"right"},
-		{"id":"d433f9e2c51691e7","fromNode":"65ed08b22fccb8fe","fromSide":"bottom","toNode":"92ee8b02584c0be6","toSide":"top"},
-		{"id":"9dfb6b9f4da1a86c","fromNode":"4bcf8833acf9af39","fromSide":"bottom","toNode":"65ed08b22fccb8fe","toSide":"top"}
-	]
+  "edges": [
+    {
+      "fromNode": "cbbddaf863f57b40",
+      "fromSide": "bottom",
+      "id": "204e9272a4afae51",
+      "toNode": "be27fee0e5084d0a",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "be27fee0e5084d0a",
+      "fromSide": "bottom",
+      "id": "650b60f79e4ecfb5",
+      "toNode": "aa999716a5f7163c",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "4bcf8833acf9af39",
+      "fromSide": "bottom",
+      "id": "bfbfaca6884e336d",
+      "toNode": "c2d518c6238d9c7e",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c2d518c6238d9c7e",
+      "fromSide": "bottom",
+      "id": "da62b073aaadc405",
+      "toNode": "29378b76814d134e",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "4bcf8833acf9af39",
+      "fromSide": "bottom",
+      "id": "d1a2aae7b16eaa2e",
+      "toNode": "00c9c5eec92f6bad",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "00c9c5eec92f6bad",
+      "fromSide": "bottom",
+      "id": "66b594ce354348f1",
+      "toNode": "6ca3589bc5f41400",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "00c9c5eec92f6bad",
+      "fromSide": "bottom",
+      "id": "2686ab58d9aebfcf",
+      "toNode": "6b03fccdd9f45392",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "4bcf8833acf9af39",
+      "fromSide": "bottom",
+      "id": "117b155db592bf45",
+      "toNode": "acf32acdb8c3664a",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "acf32acdb8c3664a",
+      "fromSide": "bottom",
+      "id": "4264031d73b31817",
+      "toNode": "ec5f23f2d740d524",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "95a12bc86762f9fc",
+      "fromSide": "top",
+      "id": "112474434c6117d2",
+      "toNode": "dee53fec36b24cdb",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "b79ea8dd52f7de57",
+      "fromSide": "right",
+      "id": "6d57868e252d52bc",
+      "toNode": "b3c0e3324d4558f8",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9aa211ba9fd13796",
+      "fromSide": "bottom",
+      "id": "d38df3df12d61448",
+      "toNode": "4bcf8833acf9af39",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b60c743cf034db82",
+      "fromSide": "top",
+      "id": "9151714f995d4677",
+      "toNode": "b7e24bf0c956fd02",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "9aa211ba9fd13796",
+      "fromSide": "left",
+      "id": "c6159800da17a02b",
+      "toNode": "885ea7d23616647b",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "9aa211ba9fd13796",
+      "fromSide": "top",
+      "id": "71c0e9b7085c9d70",
+      "toNode": "95a12bc86762f9fc",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "9aa211ba9fd13796",
+      "fromSide": "top",
+      "id": "302f8fd7f0bb4f4c",
+      "toNode": "b60c743cf034db82",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "9aa211ba9fd13796",
+      "fromSide": "right",
+      "id": "281ad3776615dbbb",
+      "toNode": "b79ea8dd52f7de57",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "885ea7d23616647b",
+      "fromSide": "left",
+      "id": "029dc31cb66b30a0",
+      "toNode": "cbbddaf863f57b40",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "65ed08b22fccb8fe",
+      "fromSide": "bottom",
+      "id": "d433f9e2c51691e7",
+      "toNode": "92ee8b02584c0be6",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "4bcf8833acf9af39",
+      "fromSide": "bottom",
+      "id": "9dfb6b9f4da1a86c",
+      "toNode": "65ed08b22fccb8fe",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "4",
+      "height": 200,
+      "id": "9aa211ba9fd13796",
+      "styleAttributes": {
+      },
+      "text": "# Graphical User Interface testing techniques on large scale applications",
+      "type": "text",
+      "width": 520,
+      "x": -260,
+      "y": -40
+    },
+    {
+      "color": "2",
+      "height": 141,
+      "id": "b79ea8dd52f7de57",
+      "styleAttributes": {
+      },
+      "text": "## vulnerabilities analysis",
+      "type": "text",
+      "width": 290,
+      "x": 390,
+      "y": -10
+    },
+    {
+      "height": 326,
+      "id": "6b03fccdd9f45392",
+      "styleAttributes": {
+      },
+      "text": "**Manual methods**\n- [[code inspection]]\n- [[code walkthrough]]\n- [[desk checking]]\n- [[peer rating]]",
+      "type": "text",
+      "width": 300,
+      "x": 235,
+      "y": 754
+    },
+    {
+      "height": 60,
+      "id": "00c9c5eec92f6bad",
+      "styleAttributes": {
+      },
+      "text": "### white-box testing",
+      "type": "text",
+      "width": 340,
+      "x": 50,
+      "y": 586
+    },
+    {
+      "height": 60,
+      "id": "acf32acdb8c3664a",
+      "styleAttributes": {
+      },
+      "text": "### mixed approaches",
+      "type": "text",
+      "width": 312,
+      "x": -451,
+      "y": 586
+    },
+    {
+      "height": 50,
+      "id": "c2d518c6238d9c7e",
+      "styleAttributes": {
+      },
+      "text": "### black-box testing",
+      "type": "text",
+      "width": 350,
+      "x": -915,
+      "y": 596
+    },
+    {
+      "color": "2",
+      "height": 123,
+      "id": "b60c743cf034db82",
+      "styleAttributes": {
+      },
+      "text": "## output analysis (presentation layer)",
+      "type": "text",
+      "width": 370,
+      "x": 174,
+      "y": -368
+    },
+    {
+      "height": 487,
+      "id": "dee53fec36b24cdb",
+      "styleAttributes": {
+      },
+      "text": "Software repair, recommendation, patching:\n- code synthesis ([[Automatic program repair]])\n- recommendation engines (software linting)\n- evolutionary computation (machine learning, [[GA (genetic algorithm)]])",
+      "type": "text",
+      "width": 380,
+      "x": -504,
+      "y": -925
+    },
+    {
+      "color": "2",
+      "height": 136,
+      "id": "95a12bc86762f9fc",
+      "styleAttributes": {
+      },
+      "text": "## proactive approaches",
+      "type": "text",
+      "width": 350,
+      "x": -489,
+      "y": -368
+    },
+    {
+      "height": 326,
+      "id": "6ca3589bc5f41400",
+      "styleAttributes": {
+      },
+      "text": "**Automatic methods**\n- [[logic coverage testing]]\n- [[unit testing]]: [[non-incremental (big-bang) unit testing]], [[incremental or integration testing]]\n",
+      "type": "text",
+      "width": 325,
+      "x": -112,
+      "y": 754
+    },
+    {
+      "height": 281,
+      "id": "ec5f23f2d740d524",
+      "styleAttributes": {
+      },
+      "text": "- [[fuzzing]] testing\n- test amplification\n",
+      "type": "text",
+      "width": 250,
+      "x": -420,
+      "y": 754
+    },
+    {
+      "height": 464,
+      "id": "29378b76814d134e",
+      "styleAttributes": {
+      },
+      "text": "[[black-box testing]] techniques:\n- [[EPM (Equivalence Partitioning Method)]]\n- [[boundary value analysis]]\n- [[cause-effect graphing]]\n- [[E2E (end-to-end) testing]]\n- [[usability testing]]\n- [[decision table]]",
+      "type": "text",
+      "width": 440,
+      "x": -960,
+      "y": 754
+    },
+    {
+      "height": 558,
+      "id": "92ee8b02584c0be6",
+      "styleAttributes": {
+      },
+      "text": "- [[volume testing]]\n- [[stress testing]]\n- [[performance testing]]\n- [[storage testing]]\n- [[configuration testing]]\n- [[compatibility or conversion testing]]\n- [[installation testing]]\n- [[reliability testing]]\n- [[serviceability or maintenance testing]]\n- [[procedure testing]]\n- [[regression testing]]\n- [[acceptance testing]]",
+      "type": "text",
+      "width": 402,
+      "x": 590,
+      "y": 756
+    },
+    {
+      "height": 60,
+      "id": "65ed08b22fccb8fe",
+      "styleAttributes": {
+      },
+      "text": "### higher-order testing",
+      "type": "text",
+      "width": 352,
+      "x": 615,
+      "y": 586
+    },
+    {
+      "color": "2",
+      "height": 145,
+      "id": "4bcf8833acf9af39",
+      "styleAttributes": {
+      },
+      "text": "## software testing techniques",
+      "type": "text",
+      "width": 430,
+      "x": -215,
+      "y": 250
+    },
+    {
+      "color": "2",
+      "height": 167,
+      "id": "885ea7d23616647b",
+      "styleAttributes": {
+      },
+      "text": "## behavioral analysis (business layer)",
+      "type": "text",
+      "width": 362,
+      "x": -740,
+      "y": -22
+    },
+    {
+      "height": 601,
+      "id": "b3c0e3324d4558f8",
+      "styleAttributes": {
+      },
+      "text": "Analyzing GUIs vulnerability ([[security testing]]):\n- [[ReDoS (Regular Expression Denial of Service)]] attacks\n- [[SQLIA (SQL injection attack)]]\n- dependencies issues [[Managing security vulnerabilities introduced by dependencies in React.js]]\n- [[recovery testing]]\n- [[GEMs (GUI Element Misuse)]] vulnerabilities\n- [[drive-by download]] vulnerabilities\n- [[tabnabbing]]\n- [[clickjacking]]\n- [[XSS (cross site scripting)]]\n- [[DOM clobbering]]\n- ...",
+      "type": "text",
+      "width": 608,
+      "x": 760,
+      "y": -240
+    },
+    {
+      "height": 410,
+      "id": "cbbddaf863f57b40",
+      "styleAttributes": {
+      },
+      "text": "Analyzing GUIs behavior:\n- interaction flow and event sequences ([[EFG (event flow graph)]], [[ESG (event sequence graph)]])\n- clickstream analysis ([[Markov’s chain and clickstream analysis]])\n- [[static analysis]], [[dynamic analysis]], [[concolic execution]], [[symbolic execution]]\n- Events sequences analysis with [[LM (word n-gram language model)]]",
+      "type": "text",
+      "width": 560,
+      "x": -1475,
+      "y": -306
+    },
+    {
+      "height": 147,
+      "id": "be27fee0e5084d0a",
+      "styleAttributes": {
+      },
+      "text": "Manipulate extracted events sequences:\n- reduce combinatorial explosion with [[CA (covering array)]]",
+      "type": "text",
+      "width": 560,
+      "x": -1475,
+      "y": 153
+    },
+    {
+      "height": 98,
+      "id": "aa999716a5f7163c",
+      "styleAttributes": {
+      },
+      "text": "Automatically generate and execute GUI tests",
+      "type": "text",
+      "width": 560,
+      "x": -1475,
+      "y": 349
+    },
+    {
+      "height": 444,
+      "id": "b7e24bf0c956fd02",
+      "styleAttributes": {
+      },
+      "text": "Analyzing GUIs output (graphical rendering)\n- visual consistency ([[JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency]])\n- HTML5 Canvas related issues ([[A taxonomy of testable HTML5 Canvas Issues]])\n- GUI defects ([[Classifying and qualifying GUI defects]])",
+      "type": "text",
+      "width": 581,
+      "x": 69,
+      "y": -882
+    }
+  ]
 }

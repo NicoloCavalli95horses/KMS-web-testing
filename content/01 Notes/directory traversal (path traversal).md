@@ -27,8 +27,6 @@ http://example.com/my_app/display.php?file=../../../etc/passwd
 
 ![[path_traversal.png]]
 
-
-
 ---
 #### References
 - https://www.invicti.com/learn/directory-traversal-path-traversal/
