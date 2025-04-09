@@ -4,7 +4,7 @@
   "nodes": [
     {
       "color": "4",
-      "height": 340,
+      "height": 380,
       "id": "d84b967cccd466c1",
       "styleAttributes": {
       },
@@ -16,7 +16,7 @@
     },
     {
       "color": "1",
-      "height": 340,
+      "height": 380,
       "id": "6073c1a16c4c63fd",
       "styleAttributes": {
       },
@@ -28,7 +28,7 @@
     },
     {
       "color": "3",
-      "height": 340,
+      "height": 380,
       "id": "7d596f613b691a6f",
       "styleAttributes": {
       },

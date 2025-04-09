@@ -1,17 +1,109 @@
 {
-	"nodes":[
-		{"id":"5b0a066dcdf41a6a","type":"text","text":"# Cross-domain policies\n\n### Critical security features to prevent a number of web attacks (see [[cross-domain policies]])\n","x":-280,"y":-160,"width":680,"height":240,"color":"4"},
-		{"id":"4b08b734f8838e72","type":"text","text":"## [[CSP (Content Security Policy)]]\n\n- define the permitted sources (script, images, styles and fonts sources) \n- disable inline `<script>` tags\n- allow only script tags which have the correct `id` or `src` value\n- disable inline event handlers\n- disable javascript in URLs\n- disable dangerous functions like `eval()`","x":330,"y":-680,"width":640,"height":402},
-		{"id":"4f986574b0eb3efa","type":"text","text":"## [[COOP (Cross-Origin Opener Policy)]]\n\n- By default, a new tab opened with `window.open()` is under control of the original window\n- this policy remove the reference to the new window object, preventing [[tabnabbing]] attacks","x":-880,"y":120,"width":600,"height":340},
-		{"id":"5828d8ea310d4d4b","type":"text","text":"## [[SOP (Same-Origin Policy)]]\n\n- default browser behavior\n- HTML and CSS are not covered\n- sometimes the default behavior is too strict or too relaxed for certain purposes","x":-832,"y":-560,"width":672,"height":282},
-		{"id":"bdeba9a038bb0c92","type":"text","text":"## [[CORS (Cross-Origin Resource Sharing)]]\n\n- customize the SOP cross-origin behavior, relaxing or hardening SOP for specific scenarios\n\nAllows to specify:\n- a whitelist of trusted domains\n- a what HTTP methods are allowed\n- a what headers to send\n- a whether to attach cookies or not","x":-832,"y":-1102,"width":672,"height":422},
-		{"id":"42d802aa71e91a0c","type":"text","text":"## [[COEP (Cross-Origin Embedder Policy)]]\n\nCOEP ensures that resources loaded from other sources have explicitly given permission to be embedded\n- Only resources that come from an HTTP response presenting the required headers are allowed to be embedded","x":330,"y":140,"width":645,"height":320}
-	],
-	"edges":[
-		{"id":"99f913c101c89d23","fromNode":"5828d8ea310d4d4b","fromSide":"top","toNode":"bdeba9a038bb0c92","toSide":"bottom","label":"enhanced with"},
-		{"id":"dc5f98986eaadc1c","fromNode":"5b0a066dcdf41a6a","fromSide":"left","toNode":"4f986574b0eb3efa","toSide":"top"},
-		{"id":"f9e9a9bc1c79b30a","fromNode":"5b0a066dcdf41a6a","fromSide":"right","toNode":"42d802aa71e91a0c","toSide":"top"},
-		{"id":"a53fba1307019de3","fromNode":"5b0a066dcdf41a6a","fromSide":"left","toNode":"5828d8ea310d4d4b","toSide":"bottom"},
-		{"id":"2c483292fa7e76f9","fromNode":"5b0a066dcdf41a6a","fromSide":"right","toNode":"4b08b734f8838e72","toSide":"bottom"}
-	]
+  "edges": [
+    {
+      "fromNode": "5828d8ea310d4d4b",
+      "fromSide": "top",
+      "id": "99f913c101c89d23",
+      "label": "enhanced with",
+      "toNode": "bdeba9a038bb0c92",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "5b0a066dcdf41a6a",
+      "fromSide": "left",
+      "id": "dc5f98986eaadc1c",
+      "toNode": "4f986574b0eb3efa",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "5b0a066dcdf41a6a",
+      "fromSide": "right",
+      "id": "f9e9a9bc1c79b30a",
+      "toNode": "42d802aa71e91a0c",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "5b0a066dcdf41a6a",
+      "fromSide": "left",
+      "id": "a53fba1307019de3",
+      "toNode": "5828d8ea310d4d4b",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "5b0a066dcdf41a6a",
+      "fromSide": "right",
+      "id": "2c483292fa7e76f9",
+      "toNode": "4b08b734f8838e72",
+      "toSide": "bottom"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "4",
+      "height": 240,
+      "id": "5b0a066dcdf41a6a",
+      "styleAttributes": {
+      },
+      "text": "# Cross-domain policies\n\n### Critical security features to prevent a number of web attacks (see [[cross-domain policies]])\n",
+      "type": "text",
+      "width": 680,
+      "x": -280,
+      "y": -160
+    },
+    {
+      "height": 402,
+      "id": "4b08b734f8838e72",
+      "styleAttributes": {
+      },
+      "text": "## [[CSP (Content Security Policy)]]\n\n- define the permitted sources (script, images, styles and fonts sources) \n- disable inline `<script>` tags\n- allow only script tags which have the correct `id` or `src` value\n- disable inline event handlers\n- disable javascript in URLs\n- disable dangerous functions like `eval()`",
+      "type": "text",
+      "width": 640,
+      "x": 330,
+      "y": -680
+    },
+    {
+      "height": 340,
+      "id": "4f986574b0eb3efa",
+      "styleAttributes": {
+      },
+      "text": "## [[COOP (Cross-Origin Opener Policy)]]\n\n- By default, a new tab opened with `window.open()` is under control of the original window\n- this policy remove the reference to the new window object, preventing [[tabnabbing]] attacks",
+      "type": "text",
+      "width": 600,
+      "x": -880,
+      "y": 120
+    },
+    {
+      "height": 282,
+      "id": "5828d8ea310d4d4b",
+      "styleAttributes": {
+      },
+      "text": "## [[SOP (Same-Origin Policy)]]\n\n- default browser behavior\n- HTML and CSS are not covered\n- sometimes the default behavior is too strict or too relaxed for certain purposes",
+      "type": "text",
+      "width": 672,
+      "x": -832,
+      "y": -560
+    },
+    {
+      "height": 422,
+      "id": "bdeba9a038bb0c92",
+      "styleAttributes": {
+      },
+      "text": "## [[CORS (Cross-Origin Resource Sharing)]]\n\n- customize the SOP cross-origin behavior, relaxing or hardening SOP for specific scenarios\n\nAllows to specify:\n- a whitelist of trusted domains\n- a what HTTP methods are allowed\n- a what headers to send\n- a whether to attach cookies or not",
+      "type": "text",
+      "width": 672,
+      "x": -832,
+      "y": -1102
+    },
+    {
+      "height": 320,
+      "id": "42d802aa71e91a0c",
+      "styleAttributes": {
+      },
+      "text": "## [[COEP (Cross-Origin Embedder Policy)]]\n\nCOEP ensures that resources loaded from other sources have explicitly given permission to be embedded\n- Only resources that come from an HTTP response presenting the required headers are allowed to be embedded",
+      "type": "text",
+      "width": 645,
+      "x": 330,
+      "y": 140
+    }
+  ]
 }
