@@ -17,7 +17,7 @@ Recovering from a web attack is a difficult and manual process. Developers or ad
 ## Approach
 
 WARP is the first system to help repairing from attacks in web applications:
-- as soon as an admin is informed that a vulnerability was recently exploited, WARP can set a database to a previous safe state, retroactively patch security vulnerabilities
+- as soon as an admin is informed that a vulnerability was recently exploited, WARP can set a database to a previous safe state, retroactively patch security vulnerabilities (this mean that a patch is applied to a previous state of the application, to eliminate all the effects of an attack, whereas all the legitimate editing are kept)
 - WARP can repair from [[security misconfiguration]]
 - WARP continuously records database updates, logging information, and all the dependencies between input and output
 - WARP creates a global dependency graph and uses it to retroactively patch vulnerabilities by rolling back parts of the system to an earlier checkpoint
@@ -29,13 +29,9 @@ WARP is the first system to help repairing from attacks in web applications:
 
 WARP was tested on MediaWiki, a wiki application that was attacked in 6 different ways. The system was able to recover MediaWiki.
 
-## Results
-
-Describe the results in simple terms
-
 ## Limits
 
-- WARP does not automatically fix an application after an attack. An admin has to launch WARP in order to execute the roll back
+- WARP does not automatically fix an application after an attack. An admin has to launch WARP, track down the initial attack action, in order to execute the roll back
 - If the application is non-deterministic, there may be many possible repaired states, and WARP only guarantees to provide one of them, which may not necessarily be the one closest to the pre-repair state
 - *conflicts* (a user edits a page created by the attacker and the page no longer exist after the repair) need to be manually fixed by the admin
 - WARP cannot undo disclosure of private data, but can still help track down affected users
