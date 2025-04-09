@@ -33,13 +33,27 @@ Merging two objects can expose the code to a prototype pollution attack — in f
 
 ### Risks and issues
 
-On the front-end [[(Hakim, 2023)]]:
+On the front-end [[(Hakim, 2023)]] (p.3):
 - [[XSS (cross site scripting)]]
 - HTML injection
 - Cause a [[DoS (Denial of Service)]]
 - [[SQLIA (SQL injection attack)]]
 - [[session hijacking]]
 - [[RCE (Remote Code Execution)]]
+
+**How a prototype pollution vulnerability can lead to XSS**
+
+```txt
+POST /api/savePreferences
+Content-Type: application/json
+
+{
+  "__proto__": {
+    "isAdmin": true,
+    "template": "<img src=x onerror=alert(1)>"
+  }
+}
+```
 
 On the server-side [[(Hakim, 2023)]]:
 - Privilege escalation issues

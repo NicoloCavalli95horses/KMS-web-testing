@@ -3,53 +3,6 @@
   ],
   "nodes": [
     {
-      "color": "4",
-      "height": 380,
-      "id": "d84b967cccd466c1",
-      "styleAttributes": {
-      },
-      "text": "## Pro\n- clear structure for describing a single feature\n- reusable\n- extendable\n- standard and used massively",
-      "type": "text",
-      "width": 380,
-      "x": -1560,
-      "y": 800
-    },
-    {
-      "color": "1",
-      "height": 380,
-      "id": "6073c1a16c4c63fd",
-      "styleAttributes": {
-      },
-      "text": "## Cons\n- not effective in highlighting relationship between features\n- arbitrary level of detail that could lead to confusion\n- not effective in creating classes of vulnerabilities or in identifying patterns",
-      "type": "text",
-      "width": 508,
-      "x": -120,
-      "y": 800
-    },
-    {
-      "color": "3",
-      "height": 380,
-      "id": "7d596f613b691a6f",
-      "styleAttributes": {
-      },
-      "text": "## Challenges\n\n ==Even in the presence of a common nodes (e.g., the URL entry point), the scenarios differ a lot.==\n- For XSS, having an URL as entry point means that a script may be inserted in the URL and executed as the victim clicks on the link that points to the benign (but vulnerable) website. ==The URL includes malicious information==\n- For CSRF, having an URL as entry point means that the user has to get to the malicious website which will execute the request forgery. The URL of the malicious website may be a ==completely valid URL with a legitimate structure==\n",
-      "type": "text",
-      "width": 920,
-      "x": -1120,
-      "y": 800
-    },
-    {
-      "file": "97 Assets/feature_model_example.png",
-      "height": 1400,
-      "id": "c898a5a18b80295d",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 1948,
-      "x": -1560,
-      "y": -660
-    },
-    {
       "height": 120,
       "id": "12b42af85a5cb5be",
       "styleAttributes": {
@@ -61,15 +14,37 @@
       "y": 1800
     },
     {
-      "height": 120,
+      "height": 160,
       "id": "543a5d799c26ea5a",
       "styleAttributes": {
       },
-      "text": "# Feature model\n\nSee [drawio](https://app.diagrams.net/#G1gxcEavCLa2HLIgI9IZcMqhOIOLMlNsT7#%7B%22pageId%22%3A%22OpZ_XEBSkc4lm8gFaxDL%22%7D)\n",
+      "text": "# Dependency graph\n\nSee [drawio](https://app.diagrams.net/#G1gxcEavCLa2HLIgI9IZcMqhOIOLMlNsT7#%7B%22pageId%22%3A%22OpZ_XEBSkc4lm8gFaxDL%22%7D)\n",
       "type": "text",
-      "width": 400,
+      "width": 1508,
       "x": -1560,
-      "y": -880
+      "y": 560
+    },
+    {
+      "height": 380,
+      "id": "6073c1a16c4c63fd",
+      "styleAttributes": {
+      },
+      "text": "## Cons\n- not effective in highlighting relationship between features\n- arbitrary level of detail that could lead to confusion\n- not effective in creating classes of vulnerabilities or in identifying patterns",
+      "type": "text",
+      "width": 508,
+      "x": -560,
+      "y": 760
+    },
+    {
+      "height": 380,
+      "id": "7d596f613b691a6f",
+      "styleAttributes": {
+      },
+      "text": "## Challenges\n\n ==Even in the presence of a common nodes (e.g., the URL entry point), the scenarios differ a lot.==\n- For XSS, having an URL as entry point means that a script may be inserted in the URL and executed as the victim clicks on the link that points to the benign (but vulnerable) website. ==The URL includes malicious information==\n- For CSRF, having an URL as entry point means that the user has to get to the malicious website which will execute the request forgery. The URL of the malicious website may be a ==completely valid URL with a legitimate structure==\n",
+      "type": "text",
+      "width": 920,
+      "x": -1560,
+      "y": 760
     }
   ]
 }

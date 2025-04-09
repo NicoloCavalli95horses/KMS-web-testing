@@ -8,7 +8,7 @@ tags:
 ---
 ## Definition
 
-DOM clobbering is a vulnerability that occurs when ==HTML element attributes (`id`, `name`) accidentally override undefined global JavaScript variables or default object properties==.
+DOM clobbering is a vulnerability that occurs when HTML attributes (such as `id`, `name`) accidentally override undefined global JavaScript variables or default object properties
 
 This can lead to unexpected behavior or security issues: DOM clobbering can be considered a type of [[XSS (cross site scripting)]] attack
 

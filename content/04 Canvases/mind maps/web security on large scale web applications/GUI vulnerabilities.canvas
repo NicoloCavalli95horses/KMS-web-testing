@@ -1,63 +1,522 @@
 {
-	"nodes":[
-		{"id":"26decb87164bdb5e","type":"text","text":"### [[XSS (cross site scripting)]]","x":-3800,"y":347,"width":785,"height":77},
-		{"id":"3f93b749c747e2f8","type":"text","text":"### Features\n- Among the most common and most serious security problems affecting web applications\n- They are injection problems that enable malicious scripts to be executed into trusted websites\n- Most of the time it is a result of a ==failed tentative to validate== the user input\n### Types\n- **Reflected**: Reflected XSS is the simplest variety of cross-site scripting. It arises when an application receives data in an HTTP request and includes that data within the response in an unsafe way.\n- **Stored**: malicious inputs are stored in databases, message forums, comments fields of the attacked server. The malicious code is executed by visiting users. This is the most dangerous XSS attack\n- **DOM-based**: executed on the client-side. Attackers are able to exploit client-side logic that process data from untrusted sources-end to collect sensitive information from the users. ==It is the  less studied type of XSS==\n### Detection and mitigation\n- Static analysis:  [[static analysis]], [[symbolic execution]], string analysis, [[GA (genetic algorithm)]], [[program slicing]], data flow analysis, [[precise alias analysis]]\n- Dynamic analysis: [[black-box testing]]. [[dynamic taint analysis]], flow analysis, monitoring, filtering\n### Risks and issues\n- Steal sensitive information\n- Hijack a user's account\n- Manipulate the web content\n- Cause a [[DoS (Denial of Service)]]\n\n## Possible research paths\n- Improve detection and mitigation techniques\n\n## Papers\n- [[(Isatou, Abu Bakar, et al., 2015)]]\n- [[(Krishnaraj, Madaan, et al., 2023)]]\n\n## CVEs\n+33000 results (https://www.cve.org/CVERecord/SearchResults?query=cross+site+scripting)","x":-3800,"y":484,"width":785,"height":1756},
-		{"id":"86ffa284c8f6dbde","type":"text","text":"### Features\n- It is a type of [[DoS (Denial of Service)]] attack, that exploits the fact that some [[RegEx (Regular Expression)]] implementations are based on [[NFA (Nondeterministic Finite Automation)]] algorithms that try every possible combinatoric path in order to establish a result.\n- A [[evil RegEx (Regular Expression)]] can be exploited to cause a program to hang for a very long time, due to high request of computing resources\n\n### Types\n - **Reflected**: an attacker keeps sending malicious requests to the vulnerable web server. Each request may be different in contents and origins (e.g., different IP addresses are used and different input are used)\n - **Stored**: an attacker stores malicious input to the vulnerable web server (e.g., a comment in a blog). The malicious content is fetched and matched against a vulnerable RegEx (e.g., there is an illegal-content detector). Since the malicious input is stored, each new user of the blog could potentially read that malicious input, which is public, and each time a new ReDoS attack could be triggered\n\n## Possible research paths\n- Improve detection and mitigation techniques\n\n## Papers\n- [[(Bai, Wang, Zhu, et al., 2021)]]\n\n## CVEs\n+300 results (https://www.cve.org/CVERecord/SearchResults?query=redos )","x":-2970,"y":484,"width":687,"height":1756},
-		{"id":"25c5b16c28bb4012","type":"text","text":"### Features\n- A prototype pollution occurs when a lot of properties and methods are added on a shared ancestor (object prototype)\n- This can make the prototype heavier, slowing down the system or leading to a ==DoS in the worst case==, or it can ==create conflicts==  with the properties of child objects.\n- Security issues may occur if the ==prototype pollution affects the behavior of children objects== (e.g., `user.role` property is changed to `admin` because the role property is modified on the prototype)\n- Does not require a script injection (hence, it is not a XSS): the attack can be done exploiting public REST APIs, input validation or vulnerable libraries\n\n### Risks and issues\n- Privilege escalation issues\n- Property injection\n- Cause a [[DoS (Denial of Service)]]\n- Remote code execution in worst-case scenario (server-side, with `eval()` functions or DOM node generation)\n### Mitigations\n- Use `Object.create(null)` to create new object (this will delete the connection with common prototypes ancestors)\n- Use `Object.freeze()` to prevent any changes to the prototype (it is possible to freeze the prototype directly)\n\n## Possible research paths\n- Improve detection and mitigation techniques\n \n## Papers\n- [[(Anastasia, Stamatia, 2024)]]\n- [[(Hoffman, 2024)]]\n\n## CVEs\n+400 results (https://www.cve.org/CVERecord/SearchResults?query=prototype+pollution)","x":-2196,"y":484,"width":715,"height":1756},
-		{"id":"3706c68da0df9e2e","type":"text","text":"### [[ReDoS (Regular Expression Denial of Service)]]","x":-2970,"y":346,"width":687,"height":79},
-		{"id":"abe3f2f140b2ff37","type":"text","text":"## [[prototype pollution]]","x":-2196,"y":346,"width":715,"height":79},
-		{"id":"b12dde79cfc4eb7f","type":"text","text":"## [[clickjacking]]","x":-1320,"y":346,"width":650,"height":79},
-		{"id":"d406029cd712b742","type":"text","text":"## Features\n\n- The user has to click to a malicious link which points to a legitimate-looking website (may be a copy of a real trusted website)\n- The fake website contains invisible iframes and ==the actions of the user are captured by this invisible layer without him being aware of it==\n\n## Risks and issues\n- Adobe Flash 2008: remote access to the victim's hardware API (webcam, microphone)\n- Privilege escalation issues\n- Theft of sensitive data\n- Unauthorized financial transactions\n\n## Possible research paths\n- Improve detection and mitigation techniques\n \n## Papers\n- [[(Hoffman, 2024)]]\n\n## CVEs\n+250 results (https://www.cve.org/CVERecord/SearchResults?query=clickjacking)","x":-1320,"y":484,"width":650,"height":1756},
-		{"id":"cbc0862a7da023c2","type":"text","text":"## [[tabnabbing]]","x":-574,"y":345,"width":654,"height":79},
-		{"id":"6a3f550b23d376e5","type":"text","text":"## Features\n\n-  The victim access a malicious website (*website A*), that has a link to a trustful website (*website B*), for example the website of a bank\n- The victim clicks on the link and open the *website B*, while the tab of the *website A* is still opened\n- After the victim comes back to the *website A*, that is the malicious one, the *website B* can be changed, exploiting the `window.open()` function\n- This means that if then the user comes to the *website B* again, now he can see a copy of the trustful website, asking him, for example, the user credential\n- ==Sensitive data may be stolen or unauthorized financial transactions may be requested==\n- The user may be ==redirected to an error page on the trusted website after the theft has taken place==\n\n## Risks and issues\n- Theft of sensitive data\n- Unauthorized financial transactions\n\n## Possible research paths\n- Improve detection and mitigation techniques\n \n## Papers\n- [[(Hoffman, 2024)]]\n\n## CVEs\n30 results (https://www.cve.org/CVERecord/SearchResults?query=tabnabbing)","x":-574,"y":486,"width":654,"height":1754},
-		{"id":"597938475ec4d731","type":"text","text":"### [[CSRF (cross-site request forgery)]]","x":-4680,"y":348,"width":785,"height":77},
-		{"id":"5c7884a28595e56c","type":"text","text":"### Features\nCross-Site Request Forgery (CSRF) is an attack that forces an authenticated user to perform an unwanted action on a website they are logged in to, without their knowledge or consent. \n- This is because ==many websites trust requests from an authenticated browser, without checking whether the user actually intended them==\n\n### Detection and mitigation\n\n### Risks and issues\n\n## Papers\n\n## CVEs\n","x":-4680,"y":485,"width":785,"height":1756},
-		{"id":"c54be8dd906623f8","type":"text","text":"### [[C2C (client-to-client) communication]] tampering","x":-5520,"y":346,"width":785,"height":77},
-		{"id":"84ebeba379403bda","type":"text","text":"### Features\nClient-to-client communication tampering is an attack that leverage on the `postMessage` API to perform unauthorized communication with the client-side of a vulnerable website\n- This is because ==many websites trust requests from an authenticated browser, without checking whether the user actually intended them==\n\n### Risks and issues\n- `postMessage` enables applications to communicate purely within the browser, so web servers are not involved in client-to-client communications\n- no security policy are implemented by default, so the developer is responsible for ensuring that no unauthorized communication occur\n## Papers\n[[(Weissbacher, Robertson, et al., 2015)]]\n## CVEs\n","x":-5520,"y":483,"width":785,"height":1756},
-		{"id":"2daa04955591aee5","type":"text","text":"# input validation","x":-3640,"y":-120,"width":350,"height":96},
-		{"id":"c70a614bc9b7fff0","type":"text","text":"## [[web worker]] explotation","x":250,"y":346,"width":460,"height":80},
-		{"id":"2c6ec187b2f3c22f","type":"text","text":"### Features\n\n- push notification, managed by web workers can ==make users click on malicious link== or track user's location ([[phishing]])\n- ==the DOM can be manipulated to affect the behavior of a web worker==, injecting malicious code into a benign web worker\n- ==browser history sniffing attacks==: a web worker can be exploited to determine whether the users have accessed target sites or not\n\n### Papers\n- [[(Jeong, Hur, 2022)]] \n\n## CVEs\n35 results (https://www.cve.org/CVERecord/SearchResults?query=service+workers)","x":200,"y":486,"width":560,"height":1754},
-		{"id":"f60496d9aaa0f821","type":"text","text":"# Phishing/redirect attacks","x":-490,"y":40,"width":570,"height":96},
-		{"id":"9a7de0457f363cc4","type":"text","text":"##  [[DOM clobbering]]\n","x":2804,"y":342,"width":735,"height":78},
-		{"id":"ae904e5f6f156233","type":"text","text":"## Features\nDOM clobbering is a vulnerability that occurs when ==HTML element attributes (`id`, `name`) accidentally override global JavaScript variables or default object properties.== This can lead to unexpected behavior or security issues.\n\nCombine pairs of HTML tags or browser specific markups and attributes, is it possible to modify:\n- deep object properties\n- nested window proxies\n- loops\n\n## Risks and issues\n- remote code execution\n- privilege escalation issues\n\n## Papers\n[[(Khodayari, Pellegrino, 2023)]]\n\n## CVEs\n+50 CVEs found (https://www.cve.org/CVERecord/SearchResults?query=DOM+clobbering)","x":2804,"y":479,"width":735,"height":1796},
-		{"id":"379a93493fc8dfb2","type":"text","text":"## Features\nBiometrics-based user recognition methods can be ==combined with traditional methods== to enhance the recognition of a user, or of categories of users, on the web:\n- input devices such as keyboard, computer mouse or touch screen provide data with hidden biometric characteristics\n- keystroke dynamics have been studied taking into account keys presses latencies, ...\n- mouse patterns have been studied taking into account mouse strokes, clicks, movement velocity, time spent interacting with widgets, ...\n- this field of research is linked to *browser fingerprinting*\n\n## Possible research paths\n- improving user recognition techniques based on input pattern, supporting web authentication processes\n- classifying user to improve the UX (e.g., new users need extra tips in using a complex GUI for the first time compared to experienced users) or for marketing related purposes\n\n## Papers\n- [[(Kratky, Chuda, 2018)]]\n- [[(Solano, Camacho, et al., 2021)]]","x":3764,"y":479,"width":810,"height":1796},
-		{"id":"fb52945c4d3e1dc4","type":"text","text":"# user identification enhancements","x":3771,"y":83,"width":796,"height":96},
-		{"id":"e0b8ba7ee884ed39","type":"text","text":"## Biometric features","x":3771,"y":306,"width":796,"height":78},
-		{"id":"1a8f1a12c4223ea8","type":"text","text":"## [[GEMs (GUI Element Misuse)]]","x":1120,"y":343,"width":714,"height":78},
-		{"id":"6e30b31cde9c16a8","type":"text","text":"## Features\nGEMS (GUI Element Misuse) are a novel class of access control vulnerabilities in GUI:\n- GEMs arise when developers rely on and misuse UI elements attributes to implement access control checks\n- GEMs can be used as a basis for privilege escalation exploits and general access control bypass\n- GEMs can be exploited by non-technical users\n\nGUI is not a reliable mechanism to enforce access control decisions: widgets can often be modified from outside of the application to by-pass client-side validations or checks\n\n## Types\nDifferent GEMs can be distinguished based on their consequences:\n- ==Unauthorized information disclosure==: the GEM leads to protected resources\n- ==Unauthorized information modification==. the GEM leads to admin privileges. Depending on the impact of the GEMs:\n\t- *transient*: modification are not permanent and last as long as the user's session\n\t- *persistent*: modification are permanent and saved by the system\n- ==Unauthorized callback execution==: the GEM leads to restricted functionalities\n\n## Detection and mitigation\n- Automatic detection through GUI ripping and [[EFG (event flow graph)]] exploration under different privileges\n## Risks and issues\n- privilege escalation issues\n\n## Possible research paths\n- Automatically find GEMs in a web context to mitigate privilege escalation issues\n\n## Papers\n- [[(Mulliner, Robertson, Kirda, 2014)]]\n\n## CVEs\n","x":1120,"y":480,"width":714,"height":1796},
-		{"id":"7c2be48738ce7884","type":"text","text":"## canvas vulnerabilities\n","x":1926,"y":343,"width":735,"height":78},
-		{"id":"4d13bcc46fe6f5cc","type":"text","text":"## Features\nThe DOM canvas element is widely used to develop web applications rich in data visualizations and animations or web games.\n\n## Risks and issues\n- ==Visual issues==: problems in the presentation of objects on the bitmap\n- ==Integration issues==: issues related the connection of the \\<canvas> to the other parts of a web application\n- ==Web architecture issues==: issues related to different behavior across browsers and cross-origin resource sharing\n- ==User interaction issues==: issues related to DOM events that are triggered from the \\<canvas> element\n- ==Performance issues==: issues related to inefficient memory usage (rendering too often, memory not emptied correctly)\n\n## Possible research paths\n- improving techniques to support canvas related risks and issues\n\n## Papers\n- [[(Macklon, Viggiato, Markos, et al., 2023)]]\n\n## CVEs","x":1926,"y":480,"width":735,"height":1796},
-		{"id":"a2e27d8522670049","type":"text","text":"# presentation layer","x":2098,"y":83,"width":391,"height":96},
-		{"id":"0253f78ebdee5dee","type":"text","text":"# Graphical User Interface web security","x":-670,"y":-1280,"width":1150,"height":320,"color":"4"}
-	],
-	"edges":[
-		{"id":"ec73da95e93d03f5","fromNode":"2daa04955591aee5","fromSide":"bottom","toNode":"26decb87164bdb5e","toSide":"top"},
-		{"id":"a573d65951a3bdd6","fromNode":"0253f78ebdee5dee","fromSide":"bottom","toNode":"2daa04955591aee5","toSide":"top"},
-		{"id":"19d66f7825639492","fromNode":"2daa04955591aee5","fromSide":"bottom","toNode":"3706c68da0df9e2e","toSide":"top"},
-		{"id":"c0718fb43afede49","fromNode":"0253f78ebdee5dee","fromSide":"bottom","toNode":"a2e27d8522670049","toSide":"top"},
-		{"id":"bfcff323f1b2425d","fromNode":"a2e27d8522670049","fromSide":"bottom","toNode":"7c2be48738ce7884","toSide":"top"},
-		{"id":"bac0ac21c6710364","fromNode":"26decb87164bdb5e","fromSide":"bottom","toNode":"3f93b749c747e2f8","toSide":"top"},
-		{"id":"1c168ee868d6e80e","fromNode":"3706c68da0df9e2e","fromSide":"bottom","toNode":"86ffa284c8f6dbde","toSide":"top"},
-		{"id":"7126654a2177e823","fromNode":"a2e27d8522670049","fromSide":"bottom","toNode":"1a8f1a12c4223ea8","toSide":"top"},
-		{"id":"dfad562ddd8a9754","fromNode":"1a8f1a12c4223ea8","fromSide":"bottom","toNode":"6e30b31cde9c16a8","toSide":"top"},
-		{"id":"8491f718e22154ef","fromNode":"7c2be48738ce7884","fromSide":"bottom","toNode":"4d13bcc46fe6f5cc","toSide":"top"},
-		{"id":"597fff03221253e8","fromNode":"0253f78ebdee5dee","fromSide":"bottom","toNode":"fb52945c4d3e1dc4","toSide":"top"},
-		{"id":"dbcdff43403a7368","fromNode":"e0b8ba7ee884ed39","fromSide":"bottom","toNode":"379a93493fc8dfb2","toSide":"top"},
-		{"id":"7ea8c613d71a70c3","fromNode":"fb52945c4d3e1dc4","fromSide":"bottom","toNode":"e0b8ba7ee884ed39","toSide":"top"},
-		{"id":"d738f225c0201054","fromNode":"2daa04955591aee5","fromSide":"bottom","toNode":"abe3f2f140b2ff37","toSide":"top"},
-		{"id":"b1736ba496a3bcd0","fromNode":"abe3f2f140b2ff37","fromSide":"bottom","toNode":"25c5b16c28bb4012","toSide":"top"},
-		{"id":"71cfa9277c4e3443","fromNode":"0253f78ebdee5dee","fromSide":"bottom","toNode":"f60496d9aaa0f821","toSide":"top"},
-		{"id":"1102f02a052a6c7d","fromNode":"f60496d9aaa0f821","fromSide":"bottom","toNode":"b12dde79cfc4eb7f","toSide":"top"},
-		{"id":"2a04f2b08093a3f1","fromNode":"b12dde79cfc4eb7f","fromSide":"bottom","toNode":"d406029cd712b742","toSide":"top"},
-		{"id":"42d03a889fea57ba","fromNode":"cbc0862a7da023c2","fromSide":"bottom","toNode":"6a3f550b23d376e5","toSide":"top"},
-		{"id":"c46eb95496930eb5","fromNode":"f60496d9aaa0f821","fromSide":"bottom","toNode":"cbc0862a7da023c2","toSide":"top"},
-		{"id":"9acde7caa5508b1b","fromNode":"9a7de0457f363cc4","fromSide":"bottom","toNode":"ae904e5f6f156233","toSide":"top"},
-		{"id":"133fba2dfdc3507a","fromNode":"a2e27d8522670049","fromSide":"bottom","toNode":"9a7de0457f363cc4","toSide":"top"},
-		{"id":"5906e4d13c3e76a0","fromNode":"597938475ec4d731","fromSide":"bottom","toNode":"5c7884a28595e56c","toSide":"top"},
-		{"id":"2372d6be5b6d7177","fromNode":"2daa04955591aee5","fromSide":"bottom","toNode":"597938475ec4d731","toSide":"top"},
-		{"id":"10f4fc606e5f4887","fromNode":"c54be8dd906623f8","fromSide":"bottom","toNode":"84ebeba379403bda","toSide":"top"},
-		{"id":"fd114173dbc411b5","fromNode":"2daa04955591aee5","fromSide":"bottom","toNode":"c54be8dd906623f8","toSide":"top"},
-		{"id":"a56b09c1c19ce146","fromNode":"c70a614bc9b7fff0","fromSide":"bottom","toNode":"2c6ec187b2f3c22f","toSide":"top"},
-		{"id":"21a2444826fa8e91","fromNode":"f60496d9aaa0f821","fromSide":"bottom","toNode":"c70a614bc9b7fff0","toSide":"top"}
-	]
+  "edges": [
+    {
+      "fromNode": "2daa04955591aee5",
+      "fromSide": "bottom",
+      "id": "ec73da95e93d03f5",
+      "toNode": "26decb87164bdb5e",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "0253f78ebdee5dee",
+      "fromSide": "bottom",
+      "id": "a573d65951a3bdd6",
+      "toNode": "2daa04955591aee5",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "2daa04955591aee5",
+      "fromSide": "bottom",
+      "id": "19d66f7825639492",
+      "toNode": "3706c68da0df9e2e",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "0253f78ebdee5dee",
+      "fromSide": "bottom",
+      "id": "c0718fb43afede49",
+      "toNode": "a2e27d8522670049",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a2e27d8522670049",
+      "fromSide": "bottom",
+      "id": "bfcff323f1b2425d",
+      "toNode": "7c2be48738ce7884",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "26decb87164bdb5e",
+      "fromSide": "bottom",
+      "id": "bac0ac21c6710364",
+      "toNode": "3f93b749c747e2f8",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "3706c68da0df9e2e",
+      "fromSide": "bottom",
+      "id": "1c168ee868d6e80e",
+      "toNode": "86ffa284c8f6dbde",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a2e27d8522670049",
+      "fromSide": "bottom",
+      "id": "7126654a2177e823",
+      "toNode": "1a8f1a12c4223ea8",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "1a8f1a12c4223ea8",
+      "fromSide": "bottom",
+      "id": "dfad562ddd8a9754",
+      "toNode": "6e30b31cde9c16a8",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "7c2be48738ce7884",
+      "fromSide": "bottom",
+      "id": "8491f718e22154ef",
+      "toNode": "4d13bcc46fe6f5cc",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "0253f78ebdee5dee",
+      "fromSide": "bottom",
+      "id": "597fff03221253e8",
+      "toNode": "fb52945c4d3e1dc4",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "e0b8ba7ee884ed39",
+      "fromSide": "bottom",
+      "id": "dbcdff43403a7368",
+      "toNode": "379a93493fc8dfb2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "fb52945c4d3e1dc4",
+      "fromSide": "bottom",
+      "id": "7ea8c613d71a70c3",
+      "toNode": "e0b8ba7ee884ed39",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "2daa04955591aee5",
+      "fromSide": "bottom",
+      "id": "d738f225c0201054",
+      "toNode": "abe3f2f140b2ff37",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "abe3f2f140b2ff37",
+      "fromSide": "bottom",
+      "id": "b1736ba496a3bcd0",
+      "toNode": "25c5b16c28bb4012",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "0253f78ebdee5dee",
+      "fromSide": "bottom",
+      "id": "71cfa9277c4e3443",
+      "toNode": "f60496d9aaa0f821",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f60496d9aaa0f821",
+      "fromSide": "bottom",
+      "id": "1102f02a052a6c7d",
+      "toNode": "b12dde79cfc4eb7f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b12dde79cfc4eb7f",
+      "fromSide": "bottom",
+      "id": "2a04f2b08093a3f1",
+      "toNode": "d406029cd712b742",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "cbc0862a7da023c2",
+      "fromSide": "bottom",
+      "id": "42d03a889fea57ba",
+      "toNode": "6a3f550b23d376e5",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f60496d9aaa0f821",
+      "fromSide": "bottom",
+      "id": "c46eb95496930eb5",
+      "toNode": "cbc0862a7da023c2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9a7de0457f363cc4",
+      "fromSide": "bottom",
+      "id": "9acde7caa5508b1b",
+      "toNode": "ae904e5f6f156233",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a2e27d8522670049",
+      "fromSide": "bottom",
+      "id": "133fba2dfdc3507a",
+      "toNode": "9a7de0457f363cc4",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "597938475ec4d731",
+      "fromSide": "bottom",
+      "id": "5906e4d13c3e76a0",
+      "toNode": "5c7884a28595e56c",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "2daa04955591aee5",
+      "fromSide": "bottom",
+      "id": "2372d6be5b6d7177",
+      "toNode": "597938475ec4d731",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c54be8dd906623f8",
+      "fromSide": "bottom",
+      "id": "10f4fc606e5f4887",
+      "toNode": "84ebeba379403bda",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "2daa04955591aee5",
+      "fromSide": "bottom",
+      "id": "fd114173dbc411b5",
+      "toNode": "c54be8dd906623f8",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c70a614bc9b7fff0",
+      "fromSide": "bottom",
+      "id": "a56b09c1c19ce146",
+      "toNode": "2c6ec187b2f3c22f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f60496d9aaa0f821",
+      "fromSide": "bottom",
+      "id": "21a2444826fa8e91",
+      "toNode": "c70a614bc9b7fff0",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 77,
+      "id": "26decb87164bdb5e",
+      "styleAttributes": {
+      },
+      "text": "### [[XSS (cross site scripting)]]",
+      "type": "text",
+      "width": 785,
+      "x": -3800,
+      "y": 347
+    },
+    {
+      "height": 1756,
+      "id": "3f93b749c747e2f8",
+      "styleAttributes": {
+      },
+      "text": "### Features\n- Among the most common and most serious security problems affecting web applications\n- They are injection problems that enable malicious scripts to be executed into trusted websites\n- Most of the time it is a result of a ==failed tentative to validate== the user input\n### Types\n- **Reflected**: Reflected XSS is the simplest variety of cross-site scripting. It arises when an application receives data in an HTTP request and includes that data within the response in an unsafe way.\n- **Stored**: malicious inputs are stored in databases, message forums, comments fields of the attacked server. The malicious code is executed by visiting users. This is the most dangerous XSS attack\n- **DOM-based**: executed on the client-side. Attackers are able to exploit client-side logic that process data from untrusted sources-end to collect sensitive information from the users. ==It is the  less studied type of XSS==\n### Detection and mitigation\n- Static analysis:  [[static analysis]], [[symbolic execution]], string analysis, [[GA (genetic algorithm)]], [[program slicing]], data flow analysis, [[precise alias analysis]]\n- Dynamic analysis: [[black-box testing]]. [[dynamic taint analysis]], flow analysis, monitoring, filtering\n### Risks and issues\n- Steal sensitive information\n- Hijack a user's account\n- Manipulate the web content\n- Cause a [[DoS (Denial of Service)]]\n\n## Possible research paths\n- Improve detection and mitigation techniques\n\n## Papers\n- [[(Isatou, Abu Bakar, et al., 2015)]]\n- [[(Krishnaraj, Madaan, et al., 2023)]]\n\n## CVEs\n+33000 results (https://www.cve.org/CVERecord/SearchResults?query=cross+site+scripting)",
+      "type": "text",
+      "width": 785,
+      "x": -3800,
+      "y": 484
+    },
+    {
+      "height": 1756,
+      "id": "86ffa284c8f6dbde",
+      "styleAttributes": {
+      },
+      "text": "### Features\n- It is a type of [[DoS (Denial of Service)]] attack, that exploits the fact that some [[RegEx (Regular Expression)]] implementations are based on [[NFA (Nondeterministic Finite Automation)]] algorithms that try every possible combinatoric path in order to establish a result.\n- A [[evil RegEx (Regular Expression)]] can be exploited to cause a program to hang for a very long time, due to high request of computing resources\n\n### Types\n - **Reflected**: an attacker keeps sending malicious requests to the vulnerable web server. Each request may be different in contents and origins (e.g., different IP addresses are used and different input are used)\n - **Stored**: an attacker stores malicious input to the vulnerable web server (e.g., a comment in a blog). The malicious content is fetched and matched against a vulnerable RegEx (e.g., there is an illegal-content detector). Since the malicious input is stored, each new user of the blog could potentially read that malicious input, which is public, and each time a new ReDoS attack could be triggered\n\n## Possible research paths\n- Improve detection and mitigation techniques\n\n## Papers\n- [[(Bai, Wang, Zhu, et al., 2021)]]\n\n## CVEs\n+300 results (https://www.cve.org/CVERecord/SearchResults?query=redos )",
+      "type": "text",
+      "width": 687,
+      "x": -2970,
+      "y": 484
+    },
+    {
+      "height": 1756,
+      "id": "25c5b16c28bb4012",
+      "styleAttributes": {
+      },
+      "text": "### Features\n- A prototype pollution occurs when a lot of properties and methods are added on a shared ancestor (object prototype)\n- This can make the prototype heavier, slowing down the system or leading to a ==DoS in the worst case==, or it can ==create conflicts==  with the properties of child objects.\n- Security issues may occur if the ==prototype pollution affects the behavior of children objects== (e.g., `user.role` property is changed to `admin` because the role property is modified on the prototype)\n- Does not require a script injection (hence, it is not a XSS): the attack can be done exploiting public REST APIs, input validation or vulnerable libraries\n\n### Risks and issues\n- Privilege escalation issues\n- Property injection\n- Cause a [[DoS (Denial of Service)]]\n- Remote code execution in worst-case scenario (server-side, with `eval()` functions or DOM node generation)\n### Mitigations\n- Use `Object.create(null)` to create new object (this will delete the connection with common prototypes ancestors)\n- Use `Object.freeze()` to prevent any changes to the prototype (it is possible to freeze the prototype directly)\n\n## Possible research paths\n- Improve detection and mitigation techniques\n \n## Papers\n- [[(Anastasia, Stamatia, 2024)]]\n- [[(Hoffman, 2024)]]\n\n## CVEs\n+400 results (https://www.cve.org/CVERecord/SearchResults?query=prototype+pollution)",
+      "type": "text",
+      "width": 715,
+      "x": -2196,
+      "y": 484
+    },
+    {
+      "height": 79,
+      "id": "3706c68da0df9e2e",
+      "styleAttributes": {
+      },
+      "text": "### [[ReDoS (Regular Expression Denial of Service)]]",
+      "type": "text",
+      "width": 687,
+      "x": -2970,
+      "y": 346
+    },
+    {
+      "height": 79,
+      "id": "abe3f2f140b2ff37",
+      "styleAttributes": {
+      },
+      "text": "## [[prototype pollution]]",
+      "type": "text",
+      "width": 715,
+      "x": -2196,
+      "y": 346
+    },
+    {
+      "height": 79,
+      "id": "b12dde79cfc4eb7f",
+      "styleAttributes": {
+      },
+      "text": "## [[clickjacking]]",
+      "type": "text",
+      "width": 650,
+      "x": -1320,
+      "y": 346
+    },
+    {
+      "height": 1756,
+      "id": "d406029cd712b742",
+      "styleAttributes": {
+      },
+      "text": "## Features\n\n- The user has to click to a malicious link which points to a legitimate-looking website (may be a copy of a real trusted website)\n- The fake website contains invisible iframes and ==the actions of the user are captured by this invisible layer without him being aware of it==\n\n## Risks and issues\n- Adobe Flash 2008: remote access to the victim's hardware API (webcam, microphone)\n- Privilege escalation issues\n- Theft of sensitive data\n- Unauthorized financial transactions\n\n## Possible research paths\n- Improve detection and mitigation techniques\n \n## Papers\n- [[(Hoffman, 2024)]]\n\n## CVEs\n+250 results (https://www.cve.org/CVERecord/SearchResults?query=clickjacking)",
+      "type": "text",
+      "width": 650,
+      "x": -1320,
+      "y": 484
+    },
+    {
+      "height": 79,
+      "id": "cbc0862a7da023c2",
+      "styleAttributes": {
+      },
+      "text": "## [[tabnabbing]]",
+      "type": "text",
+      "width": 654,
+      "x": -574,
+      "y": 345
+    },
+    {
+      "height": 1754,
+      "id": "6a3f550b23d376e5",
+      "styleAttributes": {
+      },
+      "text": "## Features\n\n-  The victim access a malicious website (*website A*), that has a link to a trustful website (*website B*), for example the website of a bank\n- The victim clicks on the link and open the *website B*, while the tab of the *website A* is still opened\n- After the victim comes back to the *website A*, that is the malicious one, the *website B* can be changed, exploiting the `window.open()` function\n- This means that if then the user comes to the *website B* again, now he can see a copy of the trustful website, asking him, for example, the user credential\n- ==Sensitive data may be stolen or unauthorized financial transactions may be requested==\n- The user may be ==redirected to an error page on the trusted website after the theft has taken place==\n\n## Risks and issues\n- Theft of sensitive data\n- Unauthorized financial transactions\n\n## Possible research paths\n- Improve detection and mitigation techniques\n \n## Papers\n- [[(Hoffman, 2024)]]\n\n## CVEs\n30 results (https://www.cve.org/CVERecord/SearchResults?query=tabnabbing)",
+      "type": "text",
+      "width": 654,
+      "x": -574,
+      "y": 486
+    },
+    {
+      "height": 77,
+      "id": "597938475ec4d731",
+      "styleAttributes": {
+      },
+      "text": "### [[CSRF (cross-site request forgery)]]",
+      "type": "text",
+      "width": 785,
+      "x": -4680,
+      "y": 348
+    },
+    {
+      "height": 1756,
+      "id": "5c7884a28595e56c",
+      "styleAttributes": {
+      },
+      "text": "### Features\nCross-Site Request Forgery (CSRF) is an attack that forces an authenticated user to perform an unwanted action on a website they are logged in to, without their knowledge or consent. \n- This is because ==many websites trust requests from an authenticated browser, without checking whether the user actually intended them==\n\n### Detection and mitigation\n\n### Risks and issues\n\n## Papers\n\n## CVEs\n",
+      "type": "text",
+      "width": 785,
+      "x": -4680,
+      "y": 485
+    },
+    {
+      "height": 77,
+      "id": "c54be8dd906623f8",
+      "styleAttributes": {
+      },
+      "text": "### [[C2C (client-to-client) communication]] tampering",
+      "type": "text",
+      "width": 785,
+      "x": -5520,
+      "y": 346
+    },
+    {
+      "height": 1756,
+      "id": "84ebeba379403bda",
+      "styleAttributes": {
+      },
+      "text": "### Features\nClient-to-client communication tampering is an attack that leverage on the `postMessage` API to perform unauthorized communication with the client-side of a vulnerable website\n- This is because ==many websites trust requests from an authenticated browser, without checking whether the user actually intended them==\n\n### Risks and issues\n- `postMessage` enables applications to communicate purely within the browser, so web servers are not involved in client-to-client communications\n- no security policy are implemented by default, so the developer is responsible for ensuring that no unauthorized communication occur\n## Papers\n[[(Weissbacher, Robertson, et al., 2015)]]\n## CVEs\n",
+      "type": "text",
+      "width": 785,
+      "x": -5520,
+      "y": 483
+    },
+    {
+      "height": 96,
+      "id": "2daa04955591aee5",
+      "styleAttributes": {
+      },
+      "text": "# input validation",
+      "type": "text",
+      "width": 350,
+      "x": -3640,
+      "y": -120
+    },
+    {
+      "height": 80,
+      "id": "c70a614bc9b7fff0",
+      "styleAttributes": {
+      },
+      "text": "## [[web worker]] explotation",
+      "type": "text",
+      "width": 460,
+      "x": 250,
+      "y": 346
+    },
+    {
+      "height": 1754,
+      "id": "2c6ec187b2f3c22f",
+      "styleAttributes": {
+      },
+      "text": "### Features\n\n- push notification, managed by web workers can ==make users click on malicious link== or track user's location ([[phishing]])\n- ==the DOM can be manipulated to affect the behavior of a web worker==, injecting malicious code into a benign web worker\n- ==browser history sniffing attacks==: a web worker can be exploited to determine whether the users have accessed target sites or not\n\n### Papers\n- [[(Jeong, Hur, 2022)]] \n\n## CVEs\n35 results (https://www.cve.org/CVERecord/SearchResults?query=service+workers)",
+      "type": "text",
+      "width": 560,
+      "x": 200,
+      "y": 486
+    },
+    {
+      "height": 96,
+      "id": "f60496d9aaa0f821",
+      "styleAttributes": {
+      },
+      "text": "# Phishing/redirect attacks",
+      "type": "text",
+      "width": 570,
+      "x": -490,
+      "y": 40
+    },
+    {
+      "height": 78,
+      "id": "9a7de0457f363cc4",
+      "styleAttributes": {
+      },
+      "text": "##  [[DOM clobbering]]\n",
+      "type": "text",
+      "width": 735,
+      "x": 2804,
+      "y": 342
+    },
+    {
+      "height": 1796,
+      "id": "ae904e5f6f156233",
+      "styleAttributes": {
+      },
+      "text": "## Features\nDOM clobbering is a vulnerability that occurs when ==HTML element attributes (`id`, `name`) accidentally override global JavaScript variables or default object properties.== This can lead to unexpected behavior or security issues.\n\nCombine pairs of HTML tags or browser specific markups and attributes, is it possible to modify:\n- deep object properties\n- nested window proxies\n- loops\n\n## Risks and issues\n- remote code execution\n- privilege escalation issues\n\n## Papers\n[[(Khodayari, Pellegrino, 2023)]]\n\n## CVEs\n+50 CVEs found (https://www.cve.org/CVERecord/SearchResults?query=DOM+clobbering)",
+      "type": "text",
+      "width": 735,
+      "x": 2804,
+      "y": 479
+    },
+    {
+      "height": 1796,
+      "id": "379a93493fc8dfb2",
+      "styleAttributes": {
+      },
+      "text": "## Features\nBiometrics-based user recognition methods can be ==combined with traditional methods== to enhance the recognition of a user, or of categories of users, on the web:\n- input devices such as keyboard, computer mouse or touch screen provide data with hidden biometric characteristics\n- keystroke dynamics have been studied taking into account keys presses latencies, ...\n- mouse patterns have been studied taking into account mouse strokes, clicks, movement velocity, time spent interacting with widgets, ...\n- this field of research is linked to *browser fingerprinting*\n\n## Possible research paths\n- improving user recognition techniques based on input pattern, supporting web authentication processes\n- classifying user to improve the UX (e.g., new users need extra tips in using a complex GUI for the first time compared to experienced users) or for marketing related purposes\n\n## Papers\n- [[(Kratky, Chuda, 2018)]]\n- [[(Solano, Camacho, et al., 2021)]]",
+      "type": "text",
+      "width": 810,
+      "x": 3764,
+      "y": 479
+    },
+    {
+      "height": 96,
+      "id": "fb52945c4d3e1dc4",
+      "styleAttributes": {
+      },
+      "text": "# user identification enhancements",
+      "type": "text",
+      "width": 796,
+      "x": 3771,
+      "y": 83
+    },
+    {
+      "height": 78,
+      "id": "e0b8ba7ee884ed39",
+      "styleAttributes": {
+      },
+      "text": "## Biometric features",
+      "type": "text",
+      "width": 796,
+      "x": 3771,
+      "y": 306
+    },
+    {
+      "height": 78,
+      "id": "1a8f1a12c4223ea8",
+      "styleAttributes": {
+      },
+      "text": "## [[GEMs (GUI Element Misuse)]]",
+      "type": "text",
+      "width": 714,
+      "x": 1120,
+      "y": 343
+    },
+    {
+      "height": 1796,
+      "id": "6e30b31cde9c16a8",
+      "styleAttributes": {
+      },
+      "text": "## Features\nGEMS (GUI Element Misuse) are a novel class of access control vulnerabilities in GUI:\n- GEMs arise when developers rely on and misuse UI elements attributes to implement access control checks\n- GEMs can be used as a basis for privilege escalation exploits and general access control bypass\n- GEMs can be exploited by non-technical users\n\nGUI is not a reliable mechanism to enforce access control decisions: widgets can often be modified from outside of the application to by-pass client-side validations or checks\n\n## Types\nDifferent GEMs can be distinguished based on their consequences:\n- ==Unauthorized information disclosure==: the GEM leads to protected resources\n- ==Unauthorized information modification==. the GEM leads to admin privileges. Depending on the impact of the GEMs:\n\t- *transient*: modification are not permanent and last as long as the user's session\n\t- *persistent*: modification are permanent and saved by the system\n- ==Unauthorized callback execution==: the GEM leads to restricted functionalities\n\n## Detection and mitigation\n- Automatic detection through GUI ripping and [[EFG (event flow graph)]] exploration under different privileges\n## Risks and issues\n- privilege escalation issues\n\n## Possible research paths\n- Automatically find GEMs in a web context to mitigate privilege escalation issues\n\n## Papers\n- [[(Mulliner, Robertson, Kirda, 2014)]]\n\n## CVEs\n",
+      "type": "text",
+      "width": 714,
+      "x": 1120,
+      "y": 480
+    },
+    {
+      "height": 78,
+      "id": "7c2be48738ce7884",
+      "styleAttributes": {
+      },
+      "text": "## canvas vulnerabilities\n",
+      "type": "text",
+      "width": 735,
+      "x": 1926,
+      "y": 343
+    },
+    {
+      "height": 1796,
+      "id": "4d13bcc46fe6f5cc",
+      "styleAttributes": {
+      },
+      "text": "## Features\nThe DOM canvas element is widely used to develop web applications rich in data visualizations and animations or web games.\n\n## Risks and issues\n- ==Visual issues==: problems in the presentation of objects on the bitmap\n- ==Integration issues==: issues related the connection of the \\<canvas> to the other parts of a web application\n- ==Web architecture issues==: issues related to different behavior across browsers and cross-origin resource sharing\n- ==User interaction issues==: issues related to DOM events that are triggered from the \\<canvas> element\n- ==Performance issues==: issues related to inefficient memory usage (rendering too often, memory not emptied correctly)\n\n## Possible research paths\n- improving techniques to support canvas related risks and issues\n\n## Papers\n- [[(Macklon, Viggiato, Markos, et al., 2023)]]\n\n## CVEs",
+      "type": "text",
+      "width": 735,
+      "x": 1926,
+      "y": 480
+    },
+    {
+      "height": 96,
+      "id": "a2e27d8522670049",
+      "styleAttributes": {
+      },
+      "text": "# presentation layer",
+      "type": "text",
+      "width": 391,
+      "x": 2098,
+      "y": 83
+    },
+    {
+      "color": "4",
+      "height": 320,
+      "id": "0253f78ebdee5dee",
+      "styleAttributes": {
+      },
+      "text": "# Graphical User Interface web security",
+      "type": "text",
+      "width": 1150,
+      "x": -670,
+      "y": -1280
+    }
+  ]
 }
