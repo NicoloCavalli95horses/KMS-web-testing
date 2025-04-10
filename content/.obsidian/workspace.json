@@ -26,17 +26,15 @@
             "id": "64fb70925c6a94c3",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/meetings/2025_10_04.canvas",
-                "viewState": {
-                  "x": -192.56926055365253,
-                  "y": 842.215671397371,
-                  "zoom": -0.6707169093573597
-                }
+                "file": "96 Meta/Publication deadlines.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "2025_10_04"
+              "icon": "lucide-file",
+              "title": "Publication deadlines"
             }
           }
         ],
@@ -203,6 +201,7 @@
   },
   "active": "64fb70925c6a94c3",
   "lastOpenFiles": [
+    "04 Canvases/meetings/2025_10_04.canvas",
     "02 Literature/papers/service worker vulnerabilities/The Service Worker Hiding in Your Browser. The Next Web Attack Target..md",
     "01 Notes/Web Storage API (localStorage, sessionStorage).md",
     "01 Notes/C2C (client-to-client) communication.md",
@@ -214,7 +213,6 @@
     "01 Notes/WW (Web Worker).md",
     "01 Notes/PWA (progressive web application).md",
     "03 References/(Chinprutthiwong, Vardhan, et al., 2021).md",
-    "04 Canvases/meetings/2025_10_04.canvas",
     "02 Literature/papers/intrusion recovery/Intrusion recovery for database-backed web applications.md",
     "02 Literature/papers/intrusion recovery/Runtime recovery of web applications under zero-days ReDoS attacks.md",
     "04 Canvases/meetings/2025_03_27.canvas",
@@ -238,7 +236,6 @@
     "01 Notes/directory traversal (path traversal).md",
     "01 Notes/IDOR (Insecure Direct Object Reference).md",
     "01 Notes/cross-domain policies.md",
-    "01 Notes/tabnabbing.md",
     "97 Assets/example_related_work_table.png",
     "02 Literature/papers/server configuration",
     "97 Assets/ml_models_comparison_csrf.png",
