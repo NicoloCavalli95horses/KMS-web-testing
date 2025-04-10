@@ -398,18 +398,18 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 38,
+      "wordCount": 39,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.12666666666666668,
+      "pageCount": 0.13,
       "characterCount": 887,
-      "nonWhitespaceCharacterCount": 600,
-      "readingTimeInMinutes": 0.14339622641509434,
+      "nonWhitespaceCharacterCount": 605,
+      "readingTimeInMinutes": 0.1471698113207547,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985194,
-      "modifiedDate": 1744278256548,
+      "modifiedDate": 1744286187608,
       "sizeInBytes": 959,
       "sessionStart": {
         "noteCount": 1,
@@ -20634,6 +20634,43 @@
           "parallelComputing",
           "JavaScript"
         ]
+      }
+    },
+    "06 Courses, webinars/DevOps in declarative reconfigurations.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 27,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.09,
+      "characterCount": 236,
+      "nonWhitespaceCharacterCount": 204,
+      "readingTimeInMinutes": 0.1018867924528302,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744282958394,
+      "modifiedDate": 1744286093988,
+      "sizeInBytes": 1430,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-03-05-11:00",
+        "tags": [
+          "webinar",
+          "CI",
+          "CD"
+        ],
+        "speaker": [
+          "Jolan Philippe"
+        ],
+        "abstract": "Modern distributed systems, especially in Edge Computing and Cyber-Physical contexts, are increasingly managed by cross-functional and cross-geographical DevOps teams—referred to as cross-DevOps. In a such approach, reconfiguration must be decentralized: teams manage different parts of the system independently, without relying on central coordination or continuous connectivity.\rIn this presentation, I'll introduce Ballet, a declarative decentralized reconfiguration tool that automates the coordination of changes across cross-DevOps teams through distributed choreographies. During the planning phase, Ballet is able to detect and explain conflicts arising from concurrent reconfiguration goals. If no conflict is found, the reconfiguration plan is fully inferred. As a guarantee, we developed a model checker to formally verify that inferred plans will correctly terminate, providing formal certification of this assumption. Only then is the reconfiguration applied.\rThis talk illustrate Ballet's engine using a real-world scenario: the management of a multi-site OpenStack assembly."
       }
     }
   }
