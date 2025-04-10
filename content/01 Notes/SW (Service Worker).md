@@ -12,7 +12,7 @@ Service Workers allow ==to run scripts in background threads==: this means that 
 - make network requests (using `fetch()` or `XMLHttpRequest` APIs) and control network request made by the application
 - enable offline usage by intercepting network requests and serving cached content
 - receive push messages to display push notifications
-- send messages to the JavaScript code that created it by posting messages to an event handler specified by that code (and vice versa).
+- send messages to the JavaScript code that created it by posting messages to an event handler specified by that code (and viceversa).
 
 They are similar to [[WW (Web Worker)]], but explicitly designed to handle network requests and caching mechanisms, even in an offline environment. See: [[WW (Web Worker) and SW (Service Worker) comparison]] 
 
