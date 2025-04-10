@@ -28,7 +28,6 @@ Most relevant vulnerabilities, sorted by prevalence:
 - misconfiguration
 - broken [[access control]] ([[RBAC (role-based access control)]] issues)
 - [[SSRF (server-side request forgery)]]
-- bypass
 - identification and authentication failures
 - [[XXE (XML external entities)]]
 - insecure design

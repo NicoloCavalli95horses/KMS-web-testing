@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "c2bb0070b0c2fda1",
+        "id": "54137d35bb166353",
         "type": "tabs",
         "children": [
           {
-            "id": "759e761af9940d27",
+            "id": "1982a5c1f2d8004c",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/meetings/2025_10_04.canvas",
+                "file": "04 Canvases/meetings/2025_03_27.canvas",
                 "viewState": {
-                  "x": -263.73602265699196,
-                  "y": 949.1153654449951,
-                  "zoom": -1.2136474293201658
+                  "x": -11.479082215416739,
+                  "y": -25.181238042460933,
+                  "zoom": -0.013197785181218502
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "2025_10_04"
+              "title": "2025_03_27"
             }
           }
         ]
@@ -185,20 +185,23 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "759e761af9940d27",
+  "active": "1982a5c1f2d8004c",
   "lastOpenFiles": [
     "04 Canvases/meetings/2025_04_04.canvas",
-    "04 Canvases/meetings/2025_10_04.canvas",
-    "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
-    "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "04 Canvases/mind maps/cross-domain policies.canvas",
-    "04 Canvases/mind maps/front end security category.canvas",
-    "04 Canvases/mind maps/vulnerabilities map.canvas",
-    "02 Literature/papers/intrusion recovery/Intrusion recovery for database-backed web applications.md",
+    "02 Literature/papers/web vulnerabilities reviews/Navigating web application security. A survey of vulnerabilities and detection solutions.md",
+    "00 Antilibrary/context isolation bypass.md",
     "96 Meta/SLR/Paper list.md",
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/Enhancing Web Security. A Comparative Analysis of Machine Learning Models for CSRF Detection.md",
+    "02 Literature/papers/intrusion recovery/Intrusion recovery for database-backed web applications.md",
+    "04 Canvases/meetings/2025_10_04.canvas",
+    "04 Canvases/mind maps/front end security category.canvas",
+    "04 Canvases/mind maps/cross-domain policies.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
+    "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
+    "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
+    "04 Canvases/mind maps/vulnerabilities map.canvas",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Client-Side Detection of Cross-Site Request Forgery Attacks.md",
     "02 Literature/papers/HTTP traffic analysis/Reining in the web with content security policy.md",
     "01 Notes/CSRF (cross-site request forgery).md",
@@ -219,10 +222,6 @@
     "01 Notes/XSS (cross site scripting).md",
     "03 References/(Hakim, 2023).md",
     "02 Literature/papers/prototype pollution/On Detecting and Measuring Exploitable JavaScript Functions in Real-world Applications.md",
-    "02 Literature/papers/dependency-related vulnerabilities/Managing security vulnerabilities introduced by dependencies in React.js.md",
-    "02 Literature/papers/HTTP traffic analysis/Machine Learning Based Web Application Plugin for Threat Detection and IP Analysis.md",
-    "02 Literature/papers/prototype pollution/A Multivocal Literature Review on Prototype Pollution Vulnerability.md",
-    "04 Canvases/models/research model.canvas",
     "97 Assets/example_related_work_table.png",
     "02 Literature/papers/server configuration",
     "97 Assets/ml_models_comparison_csrf.png",

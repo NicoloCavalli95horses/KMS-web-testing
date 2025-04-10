@@ -66,51 +66,63 @@
   ],
   "nodes": [
     {
-      "height": 145,
-      "id": "1fd8085a2cbb642d",
+      "color": "3",
+      "height": 100,
+      "id": "85f38993eb6c8854",
       "styleAttributes": {
       },
-      "text": "## common entry points",
+      "text": "# ⚠️ A number of criteria are potentially valid/interesting",
       "type": "text",
-      "width": 400,
-      "x": -220,
-      "y": 1015
+      "width": 980,
+      "x": 230,
+      "y": 1170
     },
     {
-      "height": 145,
-      "id": "06f707f74496cf63",
+      "height": 165,
+      "id": "4ce49a0eca6ea9df",
       "styleAttributes": {
       },
-      "text": "## similar harm ",
+      "text": "## similar prevalence\n\nBut few data available",
       "type": "text",
-      "width": 260,
-      "x": 220,
-      "y": 1015
+      "width": 280,
+      "x": 1120,
+      "y": 960
     },
     {
-      "height": 145,
+      "height": 165,
       "id": "97d0a1714d56665c",
       "styleAttributes": {
       },
       "text": "## a victim is involved (direct/indirect attack)",
       "type": "text",
       "width": 400,
-      "x": 520,
-      "y": 1015
+      "x": 700,
+      "y": 960
     },
     {
-      "height": 105,
-      "id": "4ce49a0eca6ea9df",
+      "height": 165,
+      "id": "06f707f74496cf63",
       "styleAttributes": {
       },
-      "text": "## ...",
+      "text": "## similar harm ",
       "type": "text",
       "width": 260,
-      "x": 960,
-      "y": 1015
+      "x": 400,
+      "y": 960
     },
     {
-      "height": 100,
+      "height": 165,
+      "id": "1fd8085a2cbb642d",
+      "styleAttributes": {
+      },
+      "text": "## common entry points",
+      "type": "text",
+      "width": 400,
+      "x": -40,
+      "y": 960
+    },
+    {
+      "height": 160,
       "id": "a89f2adbccbeed19",
       "styleAttributes": {
         "shape": null
@@ -118,8 +130,8 @@
       "text": "## Creating new attack categories",
       "type": "text",
       "width": 520,
-      "x": 260,
-      "y": 620
+      "x": 400,
+      "y": 560
     },
     {
       "height": 600,
@@ -129,8 +141,8 @@
       "text": "## Attack description following the RQs\n\nExample:\n\n`XSS`\n- attack type (pure or hybrid) and role of the client\n- prevalence\n- life cycle/changes of the attack over time\n- causes/entry points\n- solutions, tools, mitigations\n\nCSRF\n- ...\n- ...\n- ...\n\n",
       "type": "text",
       "width": 660,
-      "x": -1680,
-      "y": 670
+      "x": -1200,
+      "y": 560
     },
     {
       "height": 200,
@@ -140,8 +152,8 @@
       "text": "## Highlighting relations/dependencies between attacks\n\nSee [drawio](https://app.diagrams.net/#G1gxcEavCLa2HLIgI9IZcMqhOIOLMlNsT7#%7B%22pageId%22%3A%22OpZ_XEBSkc4lm8gFaxDL%22%7D)",
       "type": "text",
       "width": 620,
-      "x": -800,
-      "y": 620
+      "x": -390,
+      "y": 560
     },
     {
       "color": "4",
@@ -152,7 +164,7 @@
       "text": "# Result presentation\n## How to group our results?",
       "type": "text",
       "width": 620,
-      "x": -800,
+      "x": -350,
       "y": 160
     }
   ]
