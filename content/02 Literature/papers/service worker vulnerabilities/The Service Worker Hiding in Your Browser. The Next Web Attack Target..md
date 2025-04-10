@@ -61,20 +61,23 @@ The context that the authors consider for these new attacks is the following:
 
 - we developed a measurement tool to conduct a large-scale study on the popular websites that deploy a service worker
 - we used a public dataset provided which shows the Alexa top 7,060 websites that utilize a service worker
-- [OpenBugBounty](https://www.openbugbounty.org/) was used to assess which websites were reported to be vulnerable to XSS
+- [OpenBugBounty](https://www.openbugbounty.org/) was used to assess which websites were reported to be vulnerable to XSS. 934 websites were found having non-patched XSS[^1]
 - static data was collected from the websites, verifying that they actually register a SW
 - IndexedDB usage was analyzed
 
 ## Results
 
 - some websites blindly trusting the data from the [[IndexedDB]] and use it inside critical functions in the SW context. ==Information from the document context can flow into the SW context thanks to the IndexedDB==
-- legitimate push services providing location-based notifications, which can similarly be ==utilized by attackers to track a user’s location==
+- We speculate that the vulnerable appified websites use the IndexedDB to specify the path of the file being imported ==because the SW provider encourages them to do so==. The provider likely has several service worker configurations corresponding to different service worker files that fit different types of customers
+- legitimate push services providing location-based notifications can be ==utilized by attackers to track a user’s location==
 
 ## Limits
 
-
+- websites that required login were discarded due to challenges in automating the web crawling
 
 
 ---
 #### References
 - [[(Chinprutthiwong, Vardhan, et al., 2021)]]
+
+[^1]: OpenBugBounty does not offer official APIs to check for bugs in a specific website. However, it can be queried with: `https://www.openbugbounty.org/search/?search=mywebsite.com` to check weather bugs have been reported

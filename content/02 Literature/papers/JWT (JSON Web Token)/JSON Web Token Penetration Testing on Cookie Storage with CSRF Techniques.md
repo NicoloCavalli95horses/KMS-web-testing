@@ -44,7 +44,7 @@ An experimental research is design to prove that is ==possible to steal a user s
 - User logs in and server sends JWT as cookie
 - User visits a malicious site containing a hidden form or an automatic request to a legitimate site's API
 - Browser sees JWT cookie as valid and automatically attaches it to the request, because cookies are automatically sent in requests to the domain it belongs to
-- Server accepts CSRF request, because JWT in cookie is valid.
+- Server accepts CSRF request, because JWT is valid.
 - Attacker can performs actions with victim's account (e.g. password change, transfers, etc.).
 
 ---

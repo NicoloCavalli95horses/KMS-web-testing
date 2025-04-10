@@ -49,8 +49,10 @@ From [[(Kimak, Ellman, et al., 2015)]]:
 - When accessing the same origin’s IndexedDB data during the same private session after the initial encryption and storage on disk, Firefox utilizes the cipherkey of the corresponding file managed in memory to decrypt the IndexedDB data on disk
 - When private mode ends, the “private” folder path where the IndexedDB data were stored is deleted
 
+
 ---
 #### References
 - [[(Kimak, Ellman, et al., 2012)]]
 - [[(Kim, Lee, et al., 2024)]]
 - [[(Kimak, Ellman, et al., 2015)]]
+- SW exploitation through IndexedDB, by: [[(Chinprutthiwong, Vardhan, et al., 2021)]]
