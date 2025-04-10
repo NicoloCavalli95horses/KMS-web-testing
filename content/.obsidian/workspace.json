@@ -4,24 +4,52 @@
     "type": "split",
     "children": [
       {
-        "id": "54137d35bb166353",
+        "id": "4ecc613a08fc1d22",
         "type": "tabs",
         "children": [
           {
-            "id": "1982a5c1f2d8004c",
+            "id": "12babf01cdad7445",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/meetings/2025_03_27.canvas",
-                "viewState": {
-                  "x": -11.479082215416739,
-                  "y": -25.181238042460933,
-                  "zoom": -0.013197785181218502
-                }
+                "file": "01 Notes/SW (Service Worker).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "2025_03_27"
+              "icon": "lucide-file",
+              "title": "SW (Service Worker)"
+            }
+          },
+          {
+            "id": "5d5efb71e49f4f99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/PWA (progressive web application).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "PWA (progressive web application)"
+            }
+          },
+          {
+            "id": "04af2416f299281d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/XSS (cross site scripting).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "XSS (cross site scripting)"
             }
           }
         ]
@@ -44,7 +72,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -81,7 +109,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 237.50260543823242
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -185,15 +213,24 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "1982a5c1f2d8004c",
+  "active": "12babf01cdad7445",
   "lastOpenFiles": [
+    "01 Notes/XSS (cross site scripting).md",
+    "02 Literature/papers/service worker vulnerabilities/The Service Worker Hiding in Your Browser. The Next Web Attack Target..md",
+    "01 Notes/SW (Service Worker).md",
+    "01 Notes/WW (Web Worker) and SW (Service Worker) comparison.md",
+    "01 Notes/WW (Web Worker).md",
+    "01 Notes/PWA (progressive web application).md",
+    "03 References/(Chinprutthiwong, Vardhan, et al., 2021).md",
+    "04 Canvases/meetings/2025_10_04.canvas",
+    "02 Literature/papers/intrusion recovery/Intrusion recovery for database-backed web applications.md",
+    "02 Literature/papers/intrusion recovery/Runtime recovery of web applications under zero-days ReDoS attacks.md",
+    "04 Canvases/meetings/2025_03_27.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",
     "02 Literature/papers/web vulnerabilities reviews/Navigating web application security. A survey of vulnerabilities and detection solutions.md",
     "00 Antilibrary/context isolation bypass.md",
     "96 Meta/SLR/Paper list.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Enhancing Web Security. A Comparative Analysis of Machine Learning Models for CSRF Detection.md",
-    "02 Literature/papers/intrusion recovery/Intrusion recovery for database-backed web applications.md",
-    "04 Canvases/meetings/2025_10_04.canvas",
     "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/mind maps/cross-domain policies.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
@@ -201,7 +238,6 @@
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
     "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
-    "04 Canvases/mind maps/vulnerabilities map.canvas",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Client-Side Detection of Cross-Site Request Forgery Attacks.md",
     "02 Literature/papers/HTTP traffic analysis/Reining in the web with content security policy.md",
     "01 Notes/CSRF (cross-site request forgery).md",
@@ -209,19 +245,12 @@
     "01 Notes/EAR (Execution After Redirect).md",
     "01 Notes/directory traversal (path traversal).md",
     "01 Notes/IDOR (Insecure Direct Object Reference).md",
-    "01 Notes/service worker.md",
-    "01 Notes/web worker.md",
     "01 Notes/cross-domain policies.md",
     "01 Notes/Web Storage API (localStorage, sessionStorage).md",
     "01 Notes/tabnabbing.md",
     "01 Notes/prototype pollution.md",
     "01 Notes/DOM clobbering.md",
     "01 Notes/clickjacking.md",
-    "01 Notes/ReDoS (Regular Expression Denial of Service).md",
-    "01 Notes/BFT (business flow tampering).md",
-    "01 Notes/XSS (cross site scripting).md",
-    "03 References/(Hakim, 2023).md",
-    "02 Literature/papers/prototype pollution/On Detecting and Measuring Exploitable JavaScript Functions in Real-world Applications.md",
     "97 Assets/example_related_work_table.png",
     "02 Literature/papers/server configuration",
     "97 Assets/ml_models_comparison_csrf.png",

@@ -4,6 +4,10 @@ tags:
   - paper
   - projectSLR
   - attackRecovery
+  - PHP
+  - SQLIA
+  - XSS
+  - clickjacking
 Project:
   - SLR
 ---
@@ -23,7 +27,7 @@ WARP is the first system to help repairing from attacks in web applications:
 - WARP creates a global dependency graph and uses it to retroactively patch vulnerabilities by rolling back parts of the system to an earlier checkpoint
 - WARP rolls back just the affected parts with precision, minimizing the amount of work during repair. Otherwise, recovering from a week-old attack that affected just one user would require re-executing a week's worth of work
 - WARP can perform repair concurrently, meaning that the web application can run normally
-- WARP helps recovering from ==client-side attacks, such as [[XSS (cross site scripting)]], performing DOM-level replay of user input==. This can often preserve legitimate user changes without any user effort. The DOM-level replay is made thanks to a browser extension that records all events for each open page in the browser
+- WARP helps recovering from ==client-side attacks, such as [[XSS (cross site scripting)]], performing DOM-level replay of user input==. This can often preserve legitimate user changes without any user effort. The DOM-level replay is made thanks to a browser extension that records all events that occur
 -  *conflicts* (a user edits a page created by the attacker and the page no longer exist after the repair) are presented to the admin and has to be manually solved. The conflicts are queued and presented at the first login
 
 ## Evaluation

@@ -9,7 +9,7 @@ tags:
 ---
 ## Definition
 
-Even though both a [[web worker]] and a [[service worker]] run in an independent thread, and they both share API such as `postMessage` to talk to the main execution thread, the two technologies have different goals:
+Even though both a [[WW (Web Worker)]] and a [[SW (Service Worker)]] run in an independent thread, and they both share API such as `postMessage` to talk to the main execution thread, the two technologies have different goals:
 
 | Feature                               | Web worker                                                                                                              | Service worker                                                                                                         |
 | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |

@@ -12,7 +12,7 @@
 		{"id":"23e960f8188e0105","type":"text","text":"### Client-side request manipulation\n- [[CSRF (cross-site request forgery)]]\n- parameter tampering\n- [[tabnabbing]] \n- [[redirect attack]]\n\n","x":3106,"y":1850,"width":371,"height":322},
 		{"id":"285980fb5d382a2b","type":"text","text":"### Metadata manipulation\n- cookies theft\n- cookies tampering\n- CORS misconfiguration\n- JWT tampering\n- session hijacking\n- improper [[SameSite cookie]]","x":3531,"y":1850,"width":371,"height":322},
 		{"id":"e0d510c31ee1f051","type":"text","text":"- [[canvas DOM element]] vulnerabilities\n- visual glitches\n- internationalization fails (i18n)\n","x":3993,"y":1726,"width":427,"height":122},
-		{"id":"c6697edc4c4b7ca9","type":"text","text":"- [[service worker]] and [[web worker]] exploitation\n- [[C2C (client-to-client) communication]] tampering","x":3993,"y":1876,"width":427,"height":174},
+		{"id":"c6697edc4c4b7ca9","type":"text","text":"- [[SW (Service Worker)]] and [[WW (Web Worker)]] exploitation\n- [[C2C (client-to-client) communication]] tampering","x":3993,"y":1876,"width":427,"height":174},
 		{"id":"58af246e98bd0d32","type":"text","text":"## Research questions","x":480,"y":337,"width":320,"height":110},
 		{"id":"c18f2ddf3484bffb","type":"text","text":"\n### RQ3 \"When\"\n- What is the life cycle of a vulnerability?\n- Has any vulnerability been completely solved?\n- Have new vulnerabilities emerged in this field?","x":980,"y":299,"width":624,"height":185},
 		{"id":"1d421055c5316c80","type":"text","text":"\n### RQ4 \"Why\"\n- What harm can these vulnerabilities cause? (=why this topic is relevant)\n- What are the common causes of these vulnerabilities? (=why these vulnerabilities occur)\n","x":980,"y":500,"width":624,"height":219},

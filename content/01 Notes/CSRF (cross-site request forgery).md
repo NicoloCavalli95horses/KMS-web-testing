@@ -96,7 +96,7 @@ Verifying the source of the request (original header) could be a valid mitigatio
 - using [[SameSite cookie]] [[(Saleh, Malkawi, et al., 2024)]]
 - closing all the tabs except for the one you are using may be an effective mitigation strategy, but
 	1. the website you are visiting is vulnerable to XSS, a request may be executed even in the same domain
-	2. if you landed on a malicious website *before* reaching the target, malicious HTTP requests may have been hidden and then executed in the background (this can be done with a [[service worker]])
+	2. if you landed on a malicious website *before* reaching the target, malicious HTTP requests may have been hidden and then executed in the background (this can be done with a [[SW (Service Worker)]])
 
 **Whitelisting and blacklisting of domain** [[(Shahriar, Zulkernine, et al., 2010)]]
 Cross-origin policies (a whitelist of valid URLs) have been proposed, but:

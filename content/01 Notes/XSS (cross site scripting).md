@@ -25,7 +25,7 @@ A XSS can be carried with different languages:
 - Markdown: `[Click me](javascript:alert('XSS!'))
 - JSONP: `<script src="https://malicious.com/api?callback=alert('XSS!')"></script>`
 - WebAssembly (WASM), for example with `WebAssembly.instantiateStreaming(fetch('wasm_malicious.wasm')).then(instance => instance.exports.runXSS());`
-- [[service worker]] and [[web worker]], for example with `navigator.serviceWorker.register("sw.js");`
+- [[SW (Service Worker)]] and [[WW (Web Worker)]], for example with `navigator.serviceWorker.register("sw.js");`
 
 Successful XSS can:
 - steal session information stored in a [[cookie]] [[(Calzavara, Tolomei, et al., 2014)]]
@@ -33,6 +33,7 @@ Successful XSS can:
 - hijack a user's account
 - manipulate the web content
 - cause a [[DoS (Denial of Service)]]
+- hijack the push subscription to track the victim’s location [[(Chinprutthiwong, Vardhan, et al., 2021)]]
 
 Only if the code is either embedded in (inline scripts) or loaded into the webpage, it will have read and write access to the contents of this webpage (e. g. session cookies, form fields, etc.)  [[(Felsch, Heiderich, et al., 2015)]]
 
@@ -108,6 +109,9 @@ This is ==the least know type of XSS==
 **Induced XSS**
 Induced XSS are possible in the web applications where web server present an [[HTTP Response Splitting]] vulnerability. As a result of this vulnerability, an attacker can manipulate the HTTP header of the server’s response, injecting a script
 - This type of XSS is the less common [[(Malviya, Saurav, et al., 2013)]]
+
+**Service-worker XSS**  [[(Chinprutthiwong, Vardhan, et al., 2021)]]
+Service Worker XSS (SW-XSS) allows web attackers to compromise a benign service worker during the service worker registration process.
 
 ## Typical attacks
 

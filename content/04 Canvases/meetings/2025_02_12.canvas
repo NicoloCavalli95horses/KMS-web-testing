@@ -24,7 +24,7 @@
 		{"id":"671c153d18f21d4b","type":"text","text":"create a new account","x":1977,"y":240,"width":355,"height":80},
 		{"id":"d11b3e6a691ee7b3","type":"text","text":"- access to sensitive information (user location, browser history)\n- use the resources of the victim's computer to conduct crypto-currency mining or conducting [[DDoS (Distributed Denial of Service)]] attacks","x":-240,"y":500,"width":680,"height":190},
 		{"id":"411fd2e6dfc94ac8","type":"text","text":"- [[XSS (cross site scripting)]]\n- access to restricted resources or information","x":-960,"y":500,"width":660,"height":190},
-		{"id":"5984af749ddbb89d","type":"text","text":"### Independent execution threads exploitation with [[service worker]] ","x":-240,"y":-200,"width":680,"height":160},
+		{"id":"5984af749ddbb89d","type":"text","text":"### Independent execution threads exploitation with [[SW (Service Worker)]] ","x":-240,"y":-200,"width":680,"height":160},
 		{"id":"9f245eb53bcebff7","type":"text","text":"# New client side attacks","x":-520,"y":-460,"width":515,"height":140}
 	],
 	"edges":[

@@ -10,7 +10,7 @@ tags:
 
 Web Workers are used to perform ==heavy operations in the background without blocking the user interface==. They are useful for complex calculations or to handle asynchronous operations that would otherwise make the application non-responsive.
 
-Similarly to [[service worker]], they work in an independent thread, but they stop working when the browser is closed (they are not persistent). See a comparison of the two technologies here: [[web worker and service worker comparison]]
+Similarly to [[SW (Service Worker)]], they work in an independent thread, but they stop working when the browser is closed (they are not persistent). See a comparison of the two technologies here: [[WW (Web Worker) and SW (Service Worker) comparison]]
 
 ###  Main characteristics of Web Workers
 

@@ -134,28 +134,6 @@
       "y": 560
     },
     {
-      "height": 600,
-      "id": "808a0cea650979e5",
-      "styleAttributes": {
-      },
-      "text": "## Attack description following the RQs\n\nExample:\n\n`XSS`\n- attack type (pure or hybrid) and role of the client\n- prevalence\n- life cycle/changes of the attack over time\n- causes/entry points\n- solutions, tools, mitigations\n\nCSRF\n- ...\n- ...\n- ...\n\n",
-      "type": "text",
-      "width": 660,
-      "x": -1200,
-      "y": 560
-    },
-    {
-      "height": 200,
-      "id": "543a5d799c26ea5a",
-      "styleAttributes": {
-      },
-      "text": "## Highlighting relations/dependencies between attacks\n\nSee [drawio](https://app.diagrams.net/#G1gxcEavCLa2HLIgI9IZcMqhOIOLMlNsT7#%7B%22pageId%22%3A%22OpZ_XEBSkc4lm8gFaxDL%22%7D)",
-      "type": "text",
-      "width": 620,
-      "x": -390,
-      "y": 560
-    },
-    {
       "color": "4",
       "height": 200,
       "id": "25bd91b036f96ec5",
@@ -166,6 +144,28 @@
       "width": 620,
       "x": -350,
       "y": 160
+    },
+    {
+      "height": 300,
+      "id": "543a5d799c26ea5a",
+      "styleAttributes": {
+      },
+      "text": "## Highlighting relations/dependencies between attacks\n\nSee [drawio](https://app.diagrams.net/#G1gxcEavCLa2HLIgI9IZcMqhOIOLMlNsT7#%7B%22pageId%22%3A%22OpZ_XEBSkc4lm8gFaxDL%22%7D)\n\n- highlight dependencies\n- new attack pattern",
+      "type": "text",
+      "width": 620,
+      "x": -460,
+      "y": 560
+    },
+    {
+      "height": 600,
+      "id": "808a0cea650979e5",
+      "styleAttributes": {
+      },
+      "text": "## Attack description following the RQs\n\nExample:\n\n`XSS`\n- attack type (pure or hybrid) and role of the client\n- prevalence\n- life cycle/changes of the attack over time\n- causes/entry points\n- solutions, tools, mitigations\n\nCSRF\n- ...\n- ...\n- ...\n\n",
+      "type": "text",
+      "width": 660,
+      "x": -1240,
+      "y": 560
     }
   ]
 }
