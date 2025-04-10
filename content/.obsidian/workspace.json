@@ -4,41 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "4cbd2589fae608b7",
+        "id": "9f8a4e5a9cd78eef",
         "type": "tabs",
         "children": [
           {
-            "id": "2230e1d2fc90789c",
+            "id": "18332b5d1a2eb903",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "96 Meta/SLR/Paper list.md",
+                "file": "02 Literature/papers/HTTP traffic analysis/A survey. Cloud hosted website protection using soft computing techniques.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Paper list"
-            }
-          },
-          {
-            "id": "58529efb57333b90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Literature/papers/code synthesis/WAVES. Automatic Synthesis of Client-Side Validation Code for Web Applications.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "WAVES. Automatic Synthesis of Client-Side Validation Code for Web Applications"
+              "title": "A survey. Cloud hosted website protection using soft computing techniques"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,9 +183,12 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "58529efb57333b90",
+  "active": "18332b5d1a2eb903",
   "lastOpenFiles": [
+    "01 Notes/WAF (web application firewall).md",
     "96 Meta/SLR/Paper list.md",
+    "02 Literature/papers/client-side storage/Decrypting IndexedDB in private mode of Gecko-based browsers.md",
+    "02 Literature/papers/code synthesis/WAVES. Automatic Synthesis of Client-Side Validation Code for Web Applications.md",
     "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
     "03 References/(Muraleedharan, Thomas, et al., 2020).md",
     "02 Literature/papers/logic flow tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
@@ -225,11 +212,8 @@
     "01 Notes/PWA (progressive web application).md",
     "03 References/(Chinprutthiwong, Vardhan, et al., 2021).md",
     "02 Literature/papers/intrusion recovery/Intrusion recovery for database-backed web applications.md",
-    "02 Literature/papers/intrusion recovery/Runtime recovery of web applications under zero-days ReDoS attacks.md",
     "04 Canvases/meetings/2025_03_27.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",
-    "02 Literature/papers/web vulnerabilities reviews/Navigating web application security. A survey of vulnerabilities and detection solutions.md",
-    "00 Antilibrary/context isolation bypass.md",
     "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/mind maps/cross-domain policies.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
