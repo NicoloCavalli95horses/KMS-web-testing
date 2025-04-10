@@ -3,6 +3,7 @@ ID: 2025-02-10-10:52
 tags:
   - "#definition"
   - clientSideAttacks
+  - pushNotification
 ---
 ## Definition
 
@@ -30,7 +31,7 @@ It allows scripts from one window to safely pass messages to another window, eve
   <script>
     function sendMessage() {
       const otherWindow =   
-      window.open('https://origin2.com/origin2.html');
+      window.open('https://origin2.com');
       const message = 'Hello from Origin 1!';
       const targetOrigin = 'https://origin2.com';
       otherWindow.postMessage(message, targetOrigin);
@@ -70,3 +71,4 @@ It allows scripts from one window to safely pass messages to another window, eve
 #### References
 - https://medium.com/@mrajaeim/understanding-window-postmessage-and-window-parent-postmessage-in-javascript-f09d4eac68ba
 - [[(Weissbacher, Robertson, et al., 2015)]]
+- [[(Chinprutthiwong, Vardhan, et al., 2021)]]

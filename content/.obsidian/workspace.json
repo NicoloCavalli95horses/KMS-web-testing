@@ -8,51 +8,39 @@
         "type": "tabs",
         "children": [
           {
-            "id": "12babf01cdad7445",
+            "id": "81fdeb97518ea19b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/SW (Service Worker).md",
+                "file": "02 Literature/papers/service worker vulnerabilities/The Service Worker Hiding in Your Browser. The Next Web Attack Target..md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "SW (Service Worker)"
+              "title": "The Service Worker Hiding in Your Browser. The Next Web Attack Target."
             }
           },
           {
-            "id": "5d5efb71e49f4f99",
+            "id": "64fb70925c6a94c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "01 Notes/PWA (progressive web application).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/meetings/2025_10_04.canvas",
+                "viewState": {
+                  "x": -192.56926055365253,
+                  "y": 842.215671397371,
+                  "zoom": -0.6707169093573597
+                }
               },
-              "icon": "lucide-file",
-              "title": "PWA (progressive web application)"
-            }
-          },
-          {
-            "id": "04af2416f299281d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Notes/XSS (cross site scripting).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "XSS (cross site scripting)"
+              "icon": "lucide-layout-dashboard",
+              "title": "2025_10_04"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 224.50260543823242
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -213,11 +201,15 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "12babf01cdad7445",
+  "active": "64fb70925c6a94c3",
   "lastOpenFiles": [
-    "01 Notes/XSS (cross site scripting).md",
     "02 Literature/papers/service worker vulnerabilities/The Service Worker Hiding in Your Browser. The Next Web Attack Target..md",
+    "01 Notes/Web Storage API (localStorage, sessionStorage).md",
+    "01 Notes/C2C (client-to-client) communication.md",
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/A server and browser transparent CSRF defense for web 2.0 applications.md",
+    "02 Literature/papers/parameter tampering/A Novel Approach for Message Authentication to Prevent Parameter Tampering Attack in Web Applications.md",
     "01 Notes/SW (Service Worker).md",
+    "01 Notes/XSS (cross site scripting).md",
     "01 Notes/WW (Web Worker) and SW (Service Worker) comparison.md",
     "01 Notes/WW (Web Worker).md",
     "01 Notes/PWA (progressive web application).md",
@@ -246,11 +238,7 @@
     "01 Notes/directory traversal (path traversal).md",
     "01 Notes/IDOR (Insecure Direct Object Reference).md",
     "01 Notes/cross-domain policies.md",
-    "01 Notes/Web Storage API (localStorage, sessionStorage).md",
     "01 Notes/tabnabbing.md",
-    "01 Notes/prototype pollution.md",
-    "01 Notes/DOM clobbering.md",
-    "01 Notes/clickjacking.md",
     "97 Assets/example_related_work_table.png",
     "02 Literature/papers/server configuration",
     "97 Assets/ml_models_comparison_csrf.png",
