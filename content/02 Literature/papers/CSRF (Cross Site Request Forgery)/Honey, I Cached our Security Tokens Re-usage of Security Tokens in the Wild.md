@@ -15,6 +15,7 @@ With [[CSRF (cross-site request forgery)]], the attacker performs an action on a
 With [[CDN (Content Delivery Network)]], security tokens are often cached (accidentally or intentionally). This can highly undermines the security of the token itself, which might be used (i) by multiple applications and (ii) by the same application multiple times.
 
 RQ: *how is randomness used on the Web to aid sites in mitigating Cross-Site Scripting and stopping Cross-Site Request Forgery attacks?*
+
 ## Approach
 
 We measure the prevalence of reoccurring [[CSP (Content Security Policy)]] nonces and Anti-CSRF tokens for the 10,000 highest-ranking sites based on Tranco. 7210 sites were reached

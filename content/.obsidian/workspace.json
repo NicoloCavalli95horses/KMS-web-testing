@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9f8a4e5a9cd78eef",
+        "id": "173aef373544b315",
         "type": "tabs",
         "children": [
           {
-            "id": "18332b5d1a2eb903",
+            "id": "13d43b78de030a3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/HTTP traffic analysis/A survey. Cloud hosted website protection using soft computing techniques.md",
+                "file": "02 Literature/papers/CSRF (Cross Site Request Forgery)/Assessment of vulnerabilities of web applications of Bangladesh. A case study of XSS and CSRF.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "A survey. Cloud hosted website protection using soft computing techniques"
+              "title": "Assessment of vulnerabilities of web applications of Bangladesh. A case study of XSS and CSRF"
             }
           }
         ]
@@ -183,8 +183,15 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "18332b5d1a2eb903",
+  "active": "13d43b78de030a3a",
   "lastOpenFiles": [
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/CSRF Detection Based on Graph Data Mining.md",
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/Browser protection against cross-site request forgery.md",
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/Honey, I Cached our Security Tokens Re-usage of Security Tokens in the Wild.md",
+    "02 Literature/papers/tabnabbing/Detecting Tabnabbing Attacks Via An RL-Based Agent.md",
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/Scenario-Based Cross-Site Request Forgery (CSRF) Attack Simulation.md",
+    "02 Literature/papers/client-side storage/Security of CORS on LocalStorage.md",
+    "02 Literature/papers/HTTP traffic analysis/A survey. Cloud hosted website protection using soft computing techniques.md",
     "01 Notes/WAF (web application firewall).md",
     "96 Meta/SLR/Paper list.md",
     "02 Literature/papers/client-side storage/Decrypting IndexedDB in private mode of Gecko-based browsers.md",
@@ -205,13 +212,6 @@
     "01 Notes/Web Storage API (localStorage, sessionStorage).md",
     "01 Notes/C2C (client-to-client) communication.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/A server and browser transparent CSRF defense for web 2.0 applications.md",
-    "02 Literature/papers/parameter tampering/A Novel Approach for Message Authentication to Prevent Parameter Tampering Attack in Web Applications.md",
-    "01 Notes/XSS (cross site scripting).md",
-    "01 Notes/WW (Web Worker) and SW (Service Worker) comparison.md",
-    "01 Notes/WW (Web Worker).md",
-    "01 Notes/PWA (progressive web application).md",
-    "03 References/(Chinprutthiwong, Vardhan, et al., 2021).md",
-    "02 Literature/papers/intrusion recovery/Intrusion recovery for database-backed web applications.md",
     "04 Canvases/meetings/2025_03_27.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",
     "04 Canvases/mind maps/front end security category.canvas",

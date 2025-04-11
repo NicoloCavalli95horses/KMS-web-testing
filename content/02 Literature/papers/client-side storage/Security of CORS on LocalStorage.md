@@ -6,8 +6,7 @@ tags:
   - clientStorage
   - CORS
   - projectSLR
-Project:
-  - SLR
+Project: []
 ---
 ## Context
 
