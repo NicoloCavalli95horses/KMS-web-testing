@@ -13,5 +13,7 @@ A design pattern is a blueprint for a solution, but is not a ready-to-go answer
 - It needs an implementation that suits the context needs
 - The pattern is *not a specific piece of code, but a general concept* for solving a particular problem
 
+---
+
 ## References
-https://refactoring.guru/design-patterns/what-is-pattern
+- https://refactoring.guru/design-patterns/what-is-pattern

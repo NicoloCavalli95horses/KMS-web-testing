@@ -1,0 +1,142 @@
+{
+  "edges": [
+    {
+      "fromNode": "1f44687b764fe666",
+      "fromSide": "bottom",
+      "id": "0c85296b8ec707ff",
+      "label": "goal",
+      "styleAttributes": {
+      },
+      "toNode": "fabb3be2515c25e5",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "ac9917c68481cf4b",
+      "fromSide": "left",
+      "id": "ebd240b5d85e4e88",
+      "styleAttributes": {
+      },
+      "toNode": "cd5dade72ad2420c",
+      "toSide": "right"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 240,
+      "id": "1f44687b764fe666",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "# Formal model of a JS component vulnerable to authorization bypass",
+      "type": "text",
+      "width": 480,
+      "x": -330,
+      "y": -180
+    },
+    {
+      "file": "97 Assets/canva_bad_design_pattern_example.png",
+      "height": 964,
+      "id": "cd5dade72ad2420c",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 500,
+      "x": 760,
+      "y": -242
+    },
+    {
+      "height": 160,
+      "id": "ac9917c68481cf4b",
+      "styleAttributes": {
+      },
+      "text": "# How to generalize THIS?",
+      "type": "text",
+      "width": 260,
+      "x": 1400,
+      "y": -200
+    },
+    {
+      "height": 260,
+      "id": "fabb3be2515c25e5",
+      "styleAttributes": {
+      },
+      "text": "Describe a dangerous [[design pattern]] in component-based development (applicable to React, Vue, Angular, Ember, Meteor, ...) that can lead to **authorization bypass** ([[BFT (business flow tampering)]])",
+      "type": "text",
+      "width": 480,
+      "x": -330,
+      "y": 160
+    },
+    {
+      "height": 60,
+      "id": "2899f44bae3718f1",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "# 1.",
+      "type": "text",
+      "width": 100,
+      "x": 1400,
+      "y": 190
+    },
+    {
+      "height": 140,
+      "id": "895103315565a1ba",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "The same component (`C`) is used to display free and premium content",
+      "type": "text",
+      "width": 300,
+      "x": 1480,
+      "y": 170
+    },
+    {
+      "height": 60,
+      "id": "48fd46e0d63b404a",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "# 2.",
+      "type": "text",
+      "width": 100,
+      "x": 1400,
+      "y": 360
+    },
+    {
+      "height": 140,
+      "id": "e9a24cc953a99af5",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "A single `prop` value distinguish between the two versions",
+      "type": "text",
+      "width": 300,
+      "x": 1480,
+      "y": 340
+    },
+    {
+      "height": 60,
+      "id": "0987b19dd6076ee0",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "# 3.",
+      "type": "text",
+      "width": 100,
+      "x": 1400,
+      "y": 540
+    },
+    {
+      "height": 140,
+      "id": "e8816b1473d83aaf",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "The web server does not know or validate the state of `f` and `p`",
+      "type": "text",
+      "width": 300,
+      "x": 1480,
+      "y": 520
+    }
+  ]
+}
