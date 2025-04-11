@@ -22,7 +22,7 @@ Given that HTTP is stateless, client-side storage technologies such as [[cookie]
 A SID can be illegitimately set on the victim's browser:
 - via [[XSS (cross site scripting)]]
 - through a [[phishing]] attack
-- [[XPA (Cross Protocol Attack)]] can be performed to set a cookie from a different protocol (to check at ref \[22])
+- [[XCS (Cross Channel Scripting)]] can be performed to set a cookie from a different protocol (to check at ref \[22])
 - via **HTTP Header Injection attack**: it enables the attacker to control parts of the HTTP response header that is retrieved by the user. This in turn allows the attacker to craft a Set-Cookie header which contains the fixed SID value
 - legacy browser may mistakenly allow cross-origin-scripting, permitting the attacker to se the cookie from another domain
 

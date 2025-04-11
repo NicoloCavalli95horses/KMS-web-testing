@@ -134,6 +134,7 @@ There are similarities between CSRF and [[XSS (cross site scripting)]]. While th
 - server-side proxy, [[(Liu, Shen, et al., 2020)]]
 - ML comparison in CSRF,  [[(Ramadan, Osama, et al., 2024)]]
 - client-side detection, by [[(Shahriar, Zulkernine, et al., 2010)]]
+- CSRF in embedded web server, by [[(Bojinov, Bursztein, et al., 2009)]]
 
 [^1]: For more about authentication mechanisms and session management, see [[cookie]], [[sessions token]], [[JWT (JSON Web Token)]]
 
