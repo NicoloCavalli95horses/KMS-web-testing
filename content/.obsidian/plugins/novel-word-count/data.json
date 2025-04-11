@@ -9387,15 +9387,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 2.506666666666667,
-      "characterCount": 5219,
+      "characterCount": 5150,
       "nonWhitespaceCharacterCount": 4349,
       "readingTimeInMinutes": 2.8377358490566036,
       "linkCount": 5,
       "embedCount": 1,
       "aliases": null,
       "createdDate": 1743766985114,
-      "modifiedDate": 1743766985114,
-      "sizeInBytes": 5352,
+      "modifiedDate": 1744373729745,
+      "sizeInBytes": 5275,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 2.506666666666667,
@@ -20788,6 +20788,68 @@
         "wordCount": 0,
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "03 References/(Bisht, Hinrichs, et al., 2011).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 182,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.6066666666666667,
+      "characterCount": 1529,
+      "nonWhitespaceCharacterCount": 1321,
+      "readingTimeInMinutes": 0.6867924528301886,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744373754313,
+      "modifiedDate": 1744373754317,
+      "sizeInBytes": 1531,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "02 Literature/papers/parameter tampering/WAPTEC. whitebox analysis of web applications for parameter tampering exploit construction.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 72,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.24,
+      "characterCount": 494,
+      "nonWhitespaceCharacterCount": 403,
+      "readingTimeInMinutes": 0.27169811320754716,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744373754334,
+      "modifiedDate": 1744373779651,
+      "sizeInBytes": 627,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-11T12:15:54.302Z",
+        "tags": [
+          "paper",
+          "projectSLR",
+          "parameterTampering",
+          "businessFlowTampering"
+        ],
+        "Project": [
+          "SLR"
+        ]
       }
     }
   }
