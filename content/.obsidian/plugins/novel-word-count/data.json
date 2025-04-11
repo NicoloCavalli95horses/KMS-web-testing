@@ -6111,15 +6111,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.14333333333333334,
-      "characterCount": 481,
+      "characterCount": 469,
       "nonWhitespaceCharacterCount": 411,
       "readingTimeInMinutes": 0.16226415094339622,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985142,
-      "modifiedDate": 1743766985142,
-      "sizeInBytes": 527,
+      "modifiedDate": 1744376818352,
+      "sizeInBytes": 511,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.14333333333333334,
@@ -9353,15 +9353,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.5933333333333333,
-      "characterCount": 3449,
-      "nonWhitespaceCharacterCount": 2868,
+      "characterCount": 3398,
+      "nonWhitespaceCharacterCount": 2862,
       "readingTimeInMinutes": 1.8037735849056604,
       "linkCount": 6,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985114,
-      "modifiedDate": 1743766985115,
-      "sizeInBytes": 3560,
+      "modifiedDate": 1744376012218,
+      "sizeInBytes": 3502,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.5933333333333333,
@@ -9379,41 +9379,6 @@
         ]
       }
     },
-    "02 Literature/papers/input validation/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 752,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 2.506666666666667,
-      "characterCount": 5150,
-      "nonWhitespaceCharacterCount": 4349,
-      "readingTimeInMinutes": 2.8377358490566036,
-      "linkCount": 5,
-      "embedCount": 1,
-      "aliases": null,
-      "createdDate": 1743766985114,
-      "modifiedDate": 1744373729745,
-      "sizeInBytes": 5275,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 2.506666666666667,
-        "wordCount": 752,
-        "characterCount": 5219,
-        "nonWhitespaceCharacterCount": 4349
-      },
-      "frontmatter": {
-        "ID": "2025-01-13-17:22",
-        "tags": [
-          "paper",
-          "blackBox",
-          "symbolicEvaluation",
-          "cyberSecurity",
-          "parameterTampering"
-        ]
-      }
-    },
     "02 Literature/papers/input validation/Runtime Input Validation for Java Web Applications using Static Bytecode Instrumentation.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -9422,15 +9387,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.0533333333333332,
-      "characterCount": 2256,
+      "characterCount": 2231,
       "nonWhitespaceCharacterCount": 1893,
       "readingTimeInMinutes": 1.1924528301886792,
       "linkCount": 7,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985114,
-      "modifiedDate": 1743766985114,
-      "sizeInBytes": 2445,
+      "modifiedDate": 1744375928365,
+      "sizeInBytes": 2408,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.0533333333333332,
@@ -20819,19 +20784,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 72,
+      "wordCount": 288,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.24,
-      "characterCount": 494,
-      "nonWhitespaceCharacterCount": 403,
-      "readingTimeInMinutes": 0.27169811320754716,
+      "pageCount": 0.96,
+      "characterCount": 2071,
+      "nonWhitespaceCharacterCount": 1752,
+      "readingTimeInMinutes": 1.0867924528301887,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744373754334,
-      "modifiedDate": 1744373779651,
-      "sizeInBytes": 627,
+      "modifiedDate": 1744377358289,
+      "sizeInBytes": 2217,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -20845,11 +20810,37 @@
           "paper",
           "projectSLR",
           "parameterTampering",
-          "businessFlowTampering"
+          "businessFlowTampering",
+          "whiteBox"
         ],
         "Project": [
           "SLR"
         ]
+      }
+    },
+    "02 Literature/papers/parameter tampering/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 760,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 2.533333333333333,
+      "characterCount": 5271,
+      "nonWhitespaceCharacterCount": 4446,
+      "readingTimeInMinutes": 2.8679245283018866,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743766985114,
+      "modifiedDate": 1744373729745,
+      "sizeInBytes": 5275,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
       }
     }
   }
