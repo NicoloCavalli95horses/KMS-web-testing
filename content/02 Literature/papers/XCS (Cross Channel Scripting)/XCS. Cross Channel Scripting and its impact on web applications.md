@@ -27,18 +27,18 @@ Securing Web applications on a consumer electronics device can be difficult due 
 
 ## Approach
 
-- 5 [[NAS (Network Attached Storage)]] devices were evaluated against XCS
-- a browser-side mechanism is proposed to defend against certain types of XCS exploits
+5 [[NAS (Network Attached Storage)]] devices were evaluated against XCS
+ A browser-side mechanism (SiteFirewall) is proposed to defend against certain types of XCS exploits.
+ - SiteFirewall targets the last phase of an XCS attack by making it harder to exploit the victim's web browser to extract data from the server
+ - a specific policy instruct the browser about which external resource is allowed to access
+ - SiteFirewall is a white listing mechanism: it explicitly list the cross-site connections that are permitted
+ - SiteFirewall extend [[CSP (Content Security Policy)]] capabilities, considering protocols other than HTTP(s)
 
-## Evaluation
-
-
-## Results
-
+Proof-of-concept implementation leveraging on [[cookie]] to save the policy
 
 ## Limits
 
-
+- SiteFirewall is only designed to protect against exfiltration of sensitive data. It cannot help with reconfiguration (modification of system settings) of deception (display fake data to the administrator)
 
 ---
 #### References
