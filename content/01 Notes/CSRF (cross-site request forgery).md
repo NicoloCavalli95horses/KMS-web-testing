@@ -66,6 +66,11 @@ In a reflected CSRF attack, the injected payload is hosted in a web page *other*
 **Stored CSRF** [[(Shahriar, Zulkernine, et al., 2010)]]
 In a stored CSRF attack, the payload is present as part of a webpage downloaded from a trusted website. These can be found in blogs, forums, and message boards, due to an XSS vulnerability.
 
+**Reverse-XCS based CSRF** [[(Bojinov, Bursztein, et al., 2009)]]
+Reverse XCS (a cross-protocol attack that start from a web channel) can be exploited to perform an advanced CSRF that will bypass defenses that rely on [[SOP (Same-Origin Policy)]] or [[CSRF (cross-site request forgery) token]].
+- Checking the HTTP header is useless in the context of XCS because the request comes from the same domain
+- The use of secure tokens can be defeated by sending an XHR request to the page, reading its result and extracting the token value to construct dynamically the form that will be used to perform the CSRF attack
+
 ### Risks and consequences
 
 Common CSFR includes:

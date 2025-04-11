@@ -35,7 +35,7 @@ The instances are usually represented in a generalized version, e.g., bag-of-tok
 
 **Semantic similarity approaches**
 These methods detect semantic (functional) similarities by searching for vulnerability patterns and can be divided into two categories based on how patterns are developed:
-- **manual**: developed by researcher for ad-hoc situations or specific attacks ([[XSS (cross site scripting)]], [[SQLIA (SQL injection attack)]], [[DOS (Denial of Service)]], etc)
+- **manual**: developed by researcher for ad-hoc situations or specific attacks ([[XSS (cross site scripting)]], [[SQLIA (SQL injection attack)]], [[DoS (Denial of Service)]], etc)
 - **automated**: usually the result of [[machine learning]] algorithms. Certain features, which are supposed to make a function vulnerable, are extracted by analyzing a large set of the representations of known vulnerable functions. A large trusted dataset is necessary for this kind of approaches
 
 ### Methods

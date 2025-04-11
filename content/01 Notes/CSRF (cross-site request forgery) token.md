@@ -28,7 +28,8 @@ To mitigate [[CSRF (cross-site request forgery)]] attacks, a random token is use
 
 - generating unique random numbers for each request introduces additional complexity as the logic has to be maintained and tested
 - many Web sites use a [[CDN (Content Delivery Network)]]. Because of caching mechanisms, the protection offered by the CSRF token is undermined in this cases, because the same token can be used by multiple applications, and used multiple times by the same user.
-- A CSRF token may be used in a legitimate way to do [[BFT (business flow tampering)]], by skipping part of the intended flow [[(Deepa, Thilagam, et al., 2018)]]. If the application relies solely on a CSFR token without enforcing the sequence of visited pages, an attacker might directly request page C after page A, bypassing page B 
+- **Workflow bypass**: a CSRF token may be used in a legitimate way to do [[BFT (business flow tampering)]], by skipping part of the intended flow [[(Deepa, Thilagam, et al., 2018)]]. If the application relies solely on a CSFR token without enforcing the sequence of visited pages, an attacker might directly request page C after page A, bypassing page B
+- **Token bypass**: a reverse-XCS based CSRF can bypass even a CSRF token [[(Bojinov, Bursztein, et al., 2009)]]
 
 ---
 #### References

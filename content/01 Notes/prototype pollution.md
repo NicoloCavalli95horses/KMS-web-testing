@@ -16,7 +16,7 @@ The prototype pollution attack occurs when the objects receive properties and/or
 > [!SUMMARY]
 > A prototype pollution occurs when a lot of properties and methods are added on a shared ancestor (object prototype).
 > 
->This can make the prototype heavier, slowing down the system or leading to a [[DOS (Denial of Service)]] in the worst case, or it can create conflicts with the properties of child objects.
+>This can make the prototype heavier, slowing down the system or leading to a [[DoS (Denial of Service)]] in the worst case, or it can create conflicts with the properties of child objects.
 > 
 > Security issues may occur if the prototype pollution affects the behavior of children objects (e.g., `user.role` property is changed to `admin` because the role property is modified on the prototype)
 

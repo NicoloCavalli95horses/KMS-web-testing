@@ -11,6 +11,8 @@ tags:
 Project:
   - SLR
 ---
+Very interesting paper about XCS. A number of attack scenarios are explained. A client-side defense against XCS is discussed.
+
 ## Context
 
 Electronic devices are often shipped with an embedded web server used for system management. Why providing a web UI for a fridge or a camera?

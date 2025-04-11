@@ -53,12 +53,31 @@ QUIT
 </textarea>
 ```
 
+### Attacks examples
+
 From [[(Bojinov, Bursztein, et al., 2009)]]:
-- [[NAS (Network Attached Storage)]] devices may fail to properly sanitize user input. An attacker could upload[^2] an arbitrary file via SMB[^1], whose name contains a malicious script. If the NAS device send an HTTP response to the web interface containing a list of all the file names, it may cause a stored cross-protocol XSS, because the file name may be interpreted as an executable script by the browser. If this happened on the admin page, the attacker would have full control of the admin session
+
+**XCS from SMB protocol**
+[[NAS (Network Attached Storage)]] devices may fail to properly sanitize user input. An attacker could upload[^2] an arbitrary file via SMB[^1], whose name contains a malicious script. If the NAS device send an HTTP response to the web interface containing a list of all the file names, it may cause a stored cross-protocol XSS, because the file name may be interpreted as an executable script by the browser. If this happened on the admin page, the attacker would have full control of the admin session
+
+**XCS from P2P (peer-to-peer) protocol**
+A P2P (peer-to-peer) service allows users to add torrents[^3] by supplying `.torrent` files. The filenames can act as malicious scripts that are executed by the victim's browser when the web interface displays the list of files. This vulnerability was found on Buffalo NAS
+
+**RXCS (Restful API-based XCS) in large scale web app**
+Third-party application that consume APIs from Facebook, Twitter or Instagram, may be vulnerable to XCS. If an application displays statistics about Facebook users’ favorite movies, it is sufficient to add a malicious payload in a movie profile data to make the third-party application execute a malicious JS
+
+==Interactions with cloud services rely on many assumptions that are not properly formalized
 
 ### Reverse XCS
 
-A web vulnerability may be exploited to attack a non-web channel [[(Bojinov, Bursztein, et al., 2009)]]. This can be done to reboot a switch and therefore shutdown an entire LAN, causing a [[DOS (Denial of Service)]].
+A web vulnerability may be exploited to attack a non-web channel [[(Bojinov, Bursztein, et al., 2009)]]. This can be done to reboot a switch and therefore shutdown an entire LAN, causing a [[DoS (Denial of Service)]].
+
+In another reverse XCS scenario, a web interface can be used to insert malicious torrents to a NAS, which eventually will share this malicious content with every other user. This would cause:
+- DoS attack (consuming NAS resources)
+- illegally distribute illegitimate content to unaware users
+- NAS content may also be exfiltrated through the P2P network
+
+As an extension, reverse XCS can be exploited to perform advanced [[CSRF (cross-site request forgery)]] that will bypass CSRF common defenses that rely on [[SOP (Same-Origin Policy)]] or [[CSRF (cross-site request forgery) token]]
 
 ## Risks
 
@@ -82,4 +101,6 @@ A web vulnerability may be exploited to attack a non-web channel [[(Bojinov, Bur
 
 [^1]: SMB is protocol used to share files, printers or other resources in a LAN
 
-[^2]: 
+[^2]: Often an upload logic allows a limited filename length and rejects special characters such as `/`. But an encoded `<iframe>` that load external JS can still be used (!)
+
+[^3]: A BitTorrent file is basically a list of files to download that indicate the peers to share with

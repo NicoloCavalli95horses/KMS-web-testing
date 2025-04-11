@@ -84,8 +84,11 @@ If the system does not validate user input provided from message forums or comme
 The malicious code is then executed ==by each new visiting user. ==
 - This is the most dangerous XSS attack because the ==attack is self-contained and there is no need to find external ways to spread the attack to other users.== The user's browser can execute the malicious code by mistake, by landing in the comments section where it is present
 
+**XCS (Cross Channel Scripting) based XSS**
 A variant of a stored XSS can be found in [[XCS (Cross Channel Scripting)]], where different protocols are used to inject malicious code into a web application
 
+**Indirect stored XSS or third-party XSS**
+A third-party XSS can occur if a malicious API is used without sanification. If an application consume a corrupted API and displays its data without properly sanitize it, the application would execute remote code each time the API is called.
 
 **DOM-based XSS (DOM XSS)**
  Occur when client-side JavaScript processes an input in an unsafe way, usually by writing the data back to the DOM without checking ([[sink function]])

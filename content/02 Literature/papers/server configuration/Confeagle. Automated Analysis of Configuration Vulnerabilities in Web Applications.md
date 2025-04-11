@@ -38,7 +38,7 @@ A standard metrics based on the Common Configuration Scoring System (CCSS) can b
 
 ## Evaluation
 
-- Confeagle was evaluated on 14 widely deployed open source PHP applications: Information Disclosure, [[DOS (Denial of Service)]] due to [[buffer overflow]] and [[session hijacking]] vulnerabilities were found in 10 out of 14 apps
+- Confeagle was evaluated on 14 widely deployed open source PHP applications: Information Disclosure, [[DoS (Denial of Service)]] due to [[buffer overflow]] and [[session hijacking]] vulnerabilities were found in 10 out of 14 apps
 - 3 popular web application vulnerability scanners were compared to Confeagle (see [[benchmark testing]])
 
 ## Limits
