@@ -23,6 +23,23 @@
             }
           },
           {
+            "id": "927045602e2487d7",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/mind maps/input analysis.canvas",
+                "viewState": {
+                  "x": -735.2007336065553,
+                  "y": 779.9084655479784,
+                  "zoom": -1.3888888336994052
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "input analysis"
+            }
+          },
+          {
             "id": "3e4d4367b963edfb",
             "type": "leaf",
             "state": {
@@ -52,7 +69,8 @@
               "title": "CSRF (cross-site request forgery)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,8 +231,16 @@
       "tags-overview:Tags overview": false
     }
   },
-  "active": "35ce48df7596c68f",
+  "active": "927045602e2487d7",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
+    "04 Canvases/mind maps/input analysis.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
+    "04 Canvases/mind maps/cross-domain policies.canvas",
+    "04 Canvases/mind maps/front end security category.canvas",
+    "04 Canvases/meetings/2025_10_04.canvas",
+    "01 Notes/XSS (cross site scripting).md",
     "02 Literature/papers/XCS (Cross Channel Scripting)/XCS. Cross Channel Scripting and its impact on web applications.md",
     "00 Antilibrary/XCS (Cross Channel Scripting).md",
     "01 Notes/CSRF (cross-site request forgery).md",
@@ -222,7 +248,6 @@
     "01 Notes/BFT (business flow tampering).md",
     "03 References/(Deepa, Thilagam, et al., 2018).md",
     "01 Notes/DoS (Denial of Service).md",
-    "01 Notes/XSS (cross site scripting).md",
     "01 Notes/NAS (Network Attached Storage).md",
     "03 References/(Johns, Braun, et al., 2011).md",
     "03 References/(Bojinov, Bursztein, et al., 2009).md",
@@ -241,15 +266,8 @@
     "02 Literature/papers/code synthesis/WAVES. Automatic Synthesis of Client-Side Validation Code for Web Applications.md",
     "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
     "03 References/(Muraleedharan, Thomas, et al., 2020).md",
-    "02 Literature/papers/logic flow tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
-    "04 Canvases/meetings/2025_10_04.canvas",
     "04 Canvases/meetings/2025_03_27.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",
-    "04 Canvases/mind maps/front end security category.canvas",
-    "04 Canvases/mind maps/cross-domain policies.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
     "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
     "97 Assets/example_related_work_table.png",
