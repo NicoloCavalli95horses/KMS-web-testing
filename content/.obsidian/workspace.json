@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/parameter tampering/WAPTEC. whitebox analysis of web applications for parameter tampering exploit construction.md",
+                "file": "96 Meta/SLR/Paper list.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "WAPTEC. whitebox analysis of web applications for parameter tampering exploit construction"
+              "title": "Paper list"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.50260543823242
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -185,12 +185,15 @@
   },
   "active": "3aaefd53ea27ff16",
   "lastOpenFiles": [
+    "96 Meta/PhD status.md",
+    "96 Meta/SLR/Paper list.md",
+    "02 Literature/papers/parameter tampering/WAPTEC. whitebox analysis of web applications for parameter tampering exploit construction.md",
+    "01 Notes/benchmark testing.md",
     "04 Canvases/mind maps/ideas/Formal model of vulnerable JS component.canvas",
     "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
     "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
     "97 Assets/canva_bad_design_pattern_example.png",
     "01 Notes/design pattern.md",
-    "02 Literature/papers/parameter tampering/WAPTEC. whitebox analysis of web applications for parameter tampering exploit construction.md",
     "01 Notes/sink function.md",
     "01 Notes/HTTP trace collection.md",
     "00 Antilibrary/Untitled.md",
@@ -220,8 +223,6 @@
     "03 References/(Johns, Braun, et al., 2011).md",
     "03 References/(Bojinov, Bursztein, et al., 2009).md",
     "02 Literature/papers/XCS (Cross Channel Scripting)",
-    "02 Literature/papers/CSRF (Cross Site Request Forgery)/Assessment of vulnerabilities of web applications of Bangladesh. A case study of XSS and CSRF.md",
-    "02 Literature/papers/CSRF (Cross Site Request Forgery)/CSRF Detection Based on Graph Data Mining.md",
     "97 Assets/example_related_work_table.png",
     "02 Literature/papers/server configuration",
     "97 Assets/ml_models_comparison_csrf.png",
