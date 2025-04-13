@@ -108,9 +108,9 @@
       "styleAttributes": {
         "border": "invisible"
       },
-      "text": "A single `prop` value distinguish between the two versions",
+      "text": "A single `prop` value from `C` distinguish between the two versions",
       "type": "text",
-      "width": 300,
+      "width": 340,
       "x": 1480,
       "y": 340
     },
