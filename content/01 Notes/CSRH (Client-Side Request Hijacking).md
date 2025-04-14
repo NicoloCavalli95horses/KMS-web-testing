@@ -31,6 +31,13 @@ if(t != null && t.length){
 
 An attacker here can craft a malicious URL making a victim performing an unintended POST request. The victim has to click on the link, for example as part of a [[phishing]] attack
 
+## Risks
+
+- CSRF
+- **information leakage:** the attackers gain control over the endpoint of a request that contains sensitive information in its body
+- [[XSS (cross site scripting)]]
+- [[redirect attack]]
+
 ## Mitigation
 
 - These types of request hijacking attacks could be mitigated by constraining request APIs with security policies. For example, using the [[CSP (Content Security Policy)]] `connect-src` directive

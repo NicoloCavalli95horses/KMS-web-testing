@@ -125,6 +125,12 @@ Verifying the source of the request (original header) could be a valid mitigatio
 
 [[(Khodayari, Barber, et al., 2024)]]:
 While  tokens, headers, and cookies in same-site requests are necessary to prevent classical request forgery attacks, they are not sufficient to prevent client-side hijack of requests (from the same origin), because JavaScript programs and web browsers include these tokens, headers, and cookies in same-site requests
+In addition, when the request body contains sensitive information, attackers can hijack the request and reroute it to their own domains, thereby setting the CORS response headers to their advantage. A better mitigation strategy should include:
+- a robust [[URL validation]]
+- [[CSP (Content Security Policy)]]
+- [[COOP (Cross-Origin Opener Policy)]]
+- [[COEP (Cross-Origin Embedder Policy)]]
+- Fetch metadata
 
 **Whitelisting and blacklisting of domain** [[(Shahriar, Zulkernine, et al., 2010)]]
 Cross-origin policies (a whitelist of valid URLs) have been proposed, but:

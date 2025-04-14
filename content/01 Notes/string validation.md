@@ -45,7 +45,7 @@ A fixed URL can be defined by the `action` attribute fixing the target of the HT
 - **Filters**: illegal or special characters should be filtered out
 - **Numeric limits**: numeric input should always be clamped between a min and a max value
 - **Email addresses**: always ensure that the email address is valid
-- **URLs**: always ensure that URLs provided as input are valid and that the destination exist
+- **URLs**: always ensure that URLs provided as input are valid and that the destination exist. See [[URL validation]]
 -  [[RegEx (Regular Expression)]]: use RegEx to sanitize the input
 
 

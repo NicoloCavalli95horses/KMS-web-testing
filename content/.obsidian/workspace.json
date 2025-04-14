@@ -4,56 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "22657302994c540c",
+        "id": "e0c7a4353a278677",
         "type": "tabs",
         "children": [
           {
-            "id": "681d0216af48798a",
+            "id": "c2fd93ce868aff3e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Literature/papers/CSRF (Cross Site Request Forgery)/The Great Request Robbery. An Empirical Study of Client-side Request Hijacking Vulnerabilities on the Web.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "The Great Request Robbery. An Empirical Study of Client-side Request Hijacking Vulnerabilities on the Web"
-            }
-          },
-          {
-            "id": "03bd2a669679f293",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Notes/CSRH (Client-Side Request Hijacking).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "CSRH (Client-Side Request Hijacking)"
-            }
-          },
-          {
-            "id": "b88c417c31eed258",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Notes/CSRF (cross-site request forgery).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "CSRF (cross-site request forgery)"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,10 +179,18 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "b88c417c31eed258",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
-    "01 Notes/CSRH (Client-Side Request Hijacking).md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/The Great Request Robbery. An Empirical Study of Client-side Request Hijacking Vulnerabilities on the Web.md",
+    "01 Notes/CSRH (Client-Side Request Hijacking).md",
+    "01 Notes/redirect attack.md",
+    "01 Notes/CSRF (cross-site request forgery).md",
+    "01 Notes/CSP (Content Security Policy).md",
+    "01 Notes/COEP (Cross-Origin Embedder Policy).md",
+    "01 Notes/COOP (Cross-Origin Opener Policy).md",
+    "01 Notes/URL validation.md",
+    "97 Assets/faulty_url_validation_logic.png",
+    "01 Notes/string validation.md",
     "04 Canvases/models/research model.canvas",
     "00 Antilibrary/HPG (Hybrid Property Graph).md",
     "97 Assets/js_network_request_api_csrh_entry_points.png",
@@ -227,7 +199,6 @@
     "01 Notes/typosquatting.md",
     "01 Notes/SOP (Same-Origin Policy).md",
     "01 Notes/security misconfiguration.md",
-    "01 Notes/CSRF (cross-site request forgery).md",
     "02 Literature/books/The art of software testing/chapters/06 Higher-Order Testing.md",
     "01 Notes/access control.md",
     "02 Literature/papers/UI and UX issues/Classifying and qualifying GUI defects.md",
@@ -239,11 +210,6 @@
     "01 Notes/MF (Micro-Frontend) architecture.md",
     "02 Literature/papers/testing enhancements/Mutta. A novel tool for E2E web mutation testing.md",
     "01 Notes/PoLP (principle of least privilege).md",
-    "01 Notes/SameSite cookie.md",
-    "02 Literature/books/JavaScript, The Good Parts/chapters/04 Functions.md",
-    "01 Notes/phishing.md",
-    "01 Notes/COOP (Cross-Origin Opener Policy).md",
-    "96 Meta/SLR/Paper list.md",
     "04 Canvases/mind maps/ideas/Formal model of vulnerable JS component.canvas",
     "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
     "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
@@ -268,7 +234,6 @@
     "02 Literature/papers/parameter tampering",
     "04 Canvases/mind maps/ideas",
     "02 Literature/papers/WAF (Web Application Firewall)",
-    "97 Assets/licenses_types.png",
     "02 Literature/papers/object storage (blob storage)",
     "02 Literature/papers/clickjacking",
     "clickjacking"

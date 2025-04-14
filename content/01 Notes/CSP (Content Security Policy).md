@@ -22,6 +22,7 @@ A CSP can, for example:
 - allow only script tags which have the correct id or src value
 - disable inline event handlers
 - disable javascript: URLs
+- contain [[CSRH (Client-Side Request Hijacking)]] attack, with the `connect-src` directive. It can be used to constrain endpoints for asynchronous requests, `EventSource` and WebSockets to trusted domains, preventing sensitive data exfiltration to other domains [[(Khodayari, Barber, et al., 2024)]]
 
 **Directives**
 A directive states how the behavior of the browser should be modified on the protected document [[(Stamm, Sterne, et al., 2010)]]

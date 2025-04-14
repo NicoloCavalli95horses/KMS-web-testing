@@ -11,6 +11,7 @@ tags:
 COOP (Cross-Origin Opener Policy), prevent a website from cross-origin window reference manipulation ([[tabnabbing]], [[clickjacking]]), isolating the current window
 - Using `Cross-Origin-Opener-Policy: same-origin`, it makes the reference null,
 - can be implemented by the client, using the `meta` tag (not recommended) and by the server as HTTP header
+- can be used also to defend against [[CSRH (Client-Side Request Hijacking)]] [[(Khodayari, Barber, et al., 2024)]]
 
 ### Example 
 
@@ -26,3 +27,4 @@ With `Cross-Origin-Opener-Policy: same-origin` every window is isolated, and `wi
 ---
 #### References
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Opener-Policy
+- [[(Khodayari, Barber, et al., 2024)]]

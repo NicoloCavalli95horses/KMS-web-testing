@@ -37,9 +37,9 @@ But as soon as the victim clicks, an hidden redirect is executed:
 window.location.href = "https://malicious-site.com";
 ```
 
-See also: [[EAR (Execution After Redirect)]]
-
 ---
+
+See also: [[EAR (Execution After Redirect)]]
 #### References
 - [[(Chen, Shi, 2018)]]
 - Included in literature review, by [[(Onukrane, Skrodelis, et al., 2023)]]
