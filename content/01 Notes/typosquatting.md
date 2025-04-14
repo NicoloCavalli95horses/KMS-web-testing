@@ -13,7 +13,7 @@ The typosquatter's URL will usually be similar to the victim's site address; the
 - A misspelling, or foreign language spelling, of the intended site
 - A misspelling based on a typographical error
 - A plural of a singular domain name
-- A different top-level domain (e.g., .com instead of .org)
+- A different top-level domain (e.g., .com instead of .org) (see [[top-level navigation]])
 - An abuse of the Country Code Top-Level Domain (ccTLD) (.cm, .co, or .om instead of .com)
 
 ### Similar abuses

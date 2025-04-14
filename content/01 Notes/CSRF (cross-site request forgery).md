@@ -6,7 +6,9 @@ tags:
   - clientSideAttacks
   - CSFR
 ---
-Also known as XSRF, Confused Deputy, one-click-attack, Session Riding [[(Maes, Heyman, et al., 2009)]]
+Also known as XSRF, Confused Deputy, one-click-attack, Session Riding [[(Maes, Heyman, et al., 2009)]].
+
+CSRF can be considered as a subset of [[CSRH (Client-Side Request Hijacking)]]  [[(Khodayari, Barber, et al., 2024)]]
 
 ## Definition
 
@@ -71,6 +73,8 @@ Reverse XCS (a cross-protocol attack that start from a web channel) can be explo
 - Checking the HTTP header is useless in the context of XCS because the request comes from the same domain
 - The use of secure tokens can be defeated by sending an XHR request to the page, reading its result and extracting the token value to construct dynamically the form that will be used to perform the CSRF attack
 
+**Input validation CSRF** [[(Khodayari, Barber, et al., 2024)]]
+- Can bypass common CSRF defenses (e.g., token)
 ### Risks and consequences
 
 Common CSFR includes:
@@ -80,6 +84,21 @@ Common CSFR includes:
 ### Prevalence
 
 Among 5,000 randomly selected scan targets of HTTP requests by Acunetix in 2020, 36% were found vulnerable to CSRF attacks [[(Ramadan, Osama, et al., 2024)]]
+
+## Causes
+
+ [[(Khodayari, Barber, et al., 2024)]]
+- the server not being capable of distinguish unintentional from intentional requests
+- insufficient input validation at the client side
+- stored or reflected [[XSS (cross site scripting)]]  [[(Shahriar, Zulkernine, et al., 2010)]]
+
+Malicious API that can be exploited:
+- `XMLHttpRequest`
+- `fetch`
+- push notification
+- web sockets
+- server-side events
+- [sendBeacon](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon) API (sends POST requests with small payload)
 
 ### Mitigation techniques
 
@@ -140,6 +159,7 @@ There are similarities between CSRF and [[XSS (cross site scripting)]]. While th
 - ML comparison in CSRF,  [[(Ramadan, Osama, et al., 2024)]]
 - client-side detection, by [[(Shahriar, Zulkernine, et al., 2010)]]
 - CSRF in embedded web server, by [[(Bojinov, Bursztein, et al., 2009)]]
+-  [[(Khodayari, Barber, et al., 2024)]]
 
 [^1]: For more about authentication mechanisms and session management, see [[cookie]], [[sessions token]], [[JWT (JSON Web Token)]]
 

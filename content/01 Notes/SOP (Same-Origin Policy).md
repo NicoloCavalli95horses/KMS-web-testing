@@ -15,6 +15,10 @@ Same-Origin Policy (SOP) is a client-side security policy, implemented by browse
 
 ![[sop_policy_example.png]]
 
+### Limits
+
+- SOP cannot stop [[top-level navigation]] requests including `location.assign()`  [[(Khodayari, Barber, et al., 2024)]]
+
 ---
 #### References
 -  [[(Trampert, Stock, et al., 2023)]]
