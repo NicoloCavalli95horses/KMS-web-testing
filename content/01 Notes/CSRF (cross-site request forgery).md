@@ -118,9 +118,13 @@ Verifying the source of the request (original header) could be a valid mitigatio
 **Other mitigation strategies**
 - limiting HTTP request methods
 - using [[SameSite cookie]] [[(Saleh, Malkawi, et al., 2024)]]
+- using [[CORS (Cross-Origin Resource Sharing)]] preflight requests
 - closing all the tabs except for the one you are using may be an effective mitigation strategy, but
 	1. the website you are visiting is vulnerable to XSS, a request may be executed even in the same domain
 	2. if you landed on a malicious website *before* reaching the target, malicious HTTP requests may have been hidden and then executed in the background (this can be done with a [[SW (Service Worker)]])
+
+[[(Khodayari, Barber, et al., 2024)]]:
+While  tokens, headers, and cookies in same-site requests are necessary to prevent classical request forgery attacks, they are not sufficient to prevent client-side hijack of requests (from the same origin), because JavaScript programs and web browsers include these tokens, headers, and cookies in same-site requests
 
 **Whitelisting and blacklisting of domain** [[(Shahriar, Zulkernine, et al., 2010)]]
 Cross-origin policies (a whitelist of valid URLs) have been proposed, but:
@@ -131,7 +135,6 @@ Cross-origin policies (a whitelist of valid URLs) have been proposed, but:
 Other client-side protections from [[(Maes, Heyman, et al., 2009)]]:
 - browser extensions and content policies: RequestPolicy, Browser-Enforced Authenticity Protection (BEAP), CSRF Protector, SOMA[^3]
 - client-side proxy: RequestRodeo
-
 Usually these countermeasures monitor outgoing requests and incoming responses, and filter out implicit authentication or block cross-domain requests. Cons:
 - degrading user experience
 - degrading application performance
@@ -159,7 +162,7 @@ There are similarities between CSRF and [[XSS (cross site scripting)]]. While th
 - ML comparison in CSRF,  [[(Ramadan, Osama, et al., 2024)]]
 - client-side detection, by [[(Shahriar, Zulkernine, et al., 2010)]]
 - CSRF in embedded web server, by [[(Bojinov, Bursztein, et al., 2009)]]
--  [[(Khodayari, Barber, et al., 2024)]]
+- CSRH in the wild, by [[(Khodayari, Barber, et al., 2024)]]
 
 [^1]: For more about authentication mechanisms and session management, see [[cookie]], [[sessions token]], [[JWT (JSON Web Token)]]
 

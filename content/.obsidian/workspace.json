@@ -21,8 +21,39 @@
               "icon": "lucide-file",
               "title": "The Great Request Robbery. An Empirical Study of Client-side Request Hijacking Vulnerabilities on the Web"
             }
+          },
+          {
+            "id": "03bd2a669679f293",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/CSRH (Client-Side Request Hijacking).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "CSRH (Client-Side Request Hijacking)"
+            }
+          },
+          {
+            "id": "b88c417c31eed258",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/CSRF (cross-site request forgery).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "CSRF (cross-site request forgery)"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,14 +215,14 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "681d0216af48798a",
+  "active": "b88c417c31eed258",
   "lastOpenFiles": [
-    "00 Antilibrary/HPG (Hybrid Property Graph).md",
+    "01 Notes/CSRH (Client-Side Request Hijacking).md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/The Great Request Robbery. An Empirical Study of Client-side Request Hijacking Vulnerabilities on the Web.md",
     "04 Canvases/models/research model.canvas",
+    "00 Antilibrary/HPG (Hybrid Property Graph).md",
     "97 Assets/js_network_request_api_csrh_entry_points.png",
     "01 Notes/XSS (cross site scripting).md",
-    "01 Notes/CSRH (Client-Side Request Hijacking).md",
     "01 Notes/top-level navigation.md",
     "01 Notes/typosquatting.md",
     "01 Notes/SOP (Same-Origin Policy).md",
@@ -213,7 +244,6 @@
     "01 Notes/phishing.md",
     "01 Notes/COOP (Cross-Origin Opener Policy).md",
     "96 Meta/SLR/Paper list.md",
-    "02 Literature/papers/CSRF (Cross Site Request Forgery)/Client-Side Detection of Cross-Site Request Forgery Attacks.md",
     "04 Canvases/mind maps/ideas/Formal model of vulnerable JS component.canvas",
     "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
     "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",

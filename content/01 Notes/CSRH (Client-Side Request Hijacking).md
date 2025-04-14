@@ -33,7 +33,7 @@ An attacker here can craft a malicious URL making a victim performing an uninten
 
 ## Mitigation
 
-- These types of request hijacking attacks could be mitigated by constraining request APIs with opt-in security policies, e.g., using the [[CSP (Content Security Policy)]] connect-src directive
+- These types of request hijacking attacks could be mitigated by constraining request APIs with security policies. For example, using the [[CSP (Content Security Policy)]] `connect-src` directive
 
 ---
 #### References
