@@ -9,4 +9,4 @@ https://www.researchgate.net/profile/Christopher-Laing/publication/259081595_An_
 
 ## BibTeX
 
-@inproceedings{kimak2012investigation,   title={An investigation into possible attacks on HTML5 indexedDB and their prevention},   author={Kimak, Stefan and Ellman, Jeremy and Laing, Christopher},   booktitle={13th Annu. Postgrad. Symp. Converg. Telecommun. Netw. Broadcast},   year={2012} }
+@inproceedings{kimak2012investigation,   title={An investigation into possible attacks on HTML5 [[IndexedDB]] and their prevention},   author={Kimak, Stefan and Ellman, Jeremy and Laing, Christopher},   booktitle={13th Annu. Postgrad. Symp. Converg. Telecommun. Netw. Broadcast},   year={2012} }

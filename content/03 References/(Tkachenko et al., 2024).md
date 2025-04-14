@@ -10,7 +10,7 @@ https://onlinelibrary.wiley.com/doi/full/10.1002/cav.70003
 ## BibTeX
 
 @article{tkachenko2024enhancing,
-  title={Enhancing Front-End Security: Protecting User Data and Privacy in Web Applications},
+  title={Enhancing Front-End Security: Protecting User Data and [[privacy]] in Web Applications},
   author={Tkachenko, Oleksandr and Goncharov, Vadim and Jatkiewicz, Przemys{\l}aw},
   journal={Computer Animation and Virtual Worlds},
   volume={35},

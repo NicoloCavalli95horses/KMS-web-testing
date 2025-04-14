@@ -39,7 +39,7 @@ Where:
 - event C
 - \] ending point
 
-Coverage criteria:
+[[coverage criteria]]:
 - k-sequence coverage criterion
 - fault event pair (FEP) coverage criterion
 

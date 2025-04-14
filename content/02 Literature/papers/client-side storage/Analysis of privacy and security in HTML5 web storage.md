@@ -2,7 +2,7 @@
 ID: 2025-03-18T15:04:23.607Z
 tags:
   - paper
-  - IndexedDB
+  - [[IndexedDB]]
   - clientStorageAttack
   - projectSLR
 Project:

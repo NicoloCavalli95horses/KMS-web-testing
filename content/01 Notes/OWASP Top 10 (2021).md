@@ -5,11 +5,11 @@ tags:
 ---
 ## Definition
 
-The OWASP Top 10 is a standard awareness document for developers and web application security. It represents a broad consensus about the most critical security risks to web applications:
+The OWASP Top 10 is a standard awareness document for developers and [[Web application security]]. It represents a broad consensus about the most critical security risks to web applications:
 
-**A01:2021-Broken Access Control** 
+**A01:2021-Broken [[access control]]** 
 - 94% of applications were tested for some form of broken [[access control]]
-- The 34 Common Weakness Enumerations (CWEs) mapped to Broken Access Control had more occurrences in applications than any other category
+- The 34 Common Weakness Enumerations (CWEs) mapped to Broken [[access control]] had more occurrences in applications than any other category
 
 **A02:2021-Cryptographic Failures**
 - shifts up one position to #2, previously known as Sensitive Data Exposure, which was broad symptom rather than a root cause
@@ -21,7 +21,7 @@ The OWASP Top 10 is a standard awareness document for developers and web applica
 **A04:2021-Insecure Design**
 - New category for 2021, with a focus on risks related to design flaws. If we genuinely want to “move left” as an industry, it calls for more use of threat modeling, secure design patterns and principles, and reference architectures.
 
-**A05:2021-Security Misconfiguration**
+**A05:2021-[[security misconfiguration]]**
 - 90% of applications were tested for some form of misconfiguration. With more shifts into highly configurable software, it’s not surprising to see this category move up. The former category for [[XXE (XML external entities)]] is now part of this category.
 
 **A06:2021-Vulnerable and Outdated Components**
@@ -33,7 +33,7 @@ The OWASP Top 10 is a standard awareness document for developers and web applica
 - Failures was previously Broken Authentication and is sliding down from the second position, and now includes CWEs that are more related to identification failures
 - This category is still an integral part of the Top 10, but the increased availability of standardized frameworks seems to be helping.
 
-**A08:2021-Software and Data Integrity Failures**
+**A08:2021-Software and [[data integrity]] Failures**
 - New category focusing on making assumptions related to software updates, critical data, and CI/CD pipelines without verifying integrity
 - One of the highest weighted impacts from Common Vulnerability and Exposures/Common Vulnerability Scoring System (CVE/CVSS) data mapped to the 10 CWEs in this category
 - Insecure Deserialization from 2017 is now a part of this larger category

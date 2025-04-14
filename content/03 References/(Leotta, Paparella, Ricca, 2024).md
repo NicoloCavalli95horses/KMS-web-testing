@@ -9,7 +9,7 @@ https://link.springer.com/article/10.1007/s11219-023-09616-6
 ## BibTeX
 
 @article{leotta2024mutta,
-  title={Mutta: a novel tool for E2E web mutation testing},
+  title={Mutta: a novel tool for E2E web [[Mutation testing]]},
   author={Leotta, Maurizio and Paparella, Davide and Ricca, Filippo},
   journal={Software Quality Journal},
   volume={32},

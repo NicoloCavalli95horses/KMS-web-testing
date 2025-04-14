@@ -9,7 +9,7 @@ https://www.researchgate.net/profile/Martin-Monperrus/publication/335235490_A_Sn
 ## BibTeX
 
 @article{danglot2019snowballing,
-  title={A snowballing literature study on test amplification},
+  title={A snowballing literature study on [[test amplification]]},
   author={Danglot, Benjamin and Vera-Perez, Oscar and Yu, Zhongxing and Zaidman, Andy and Monperrus, Martin and Baudry, Benoit},
   journal={Journal of Systems and Software},
   volume={157},

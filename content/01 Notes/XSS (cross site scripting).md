@@ -56,6 +56,8 @@ For example, a website that implement search functionalities may use the URL as 
 
 Most of the literature has studied on this type of issues. If the user is presented with the dangerous link in an email, for example, this scenario is also called [[phishing]].
 
+`location.assign()` accepts URLs with the javascript scheme, which enables attackers to escalate request API hijacking to arbitrary client-side code execution if there is no or improper input validation [[(Khodayari, Barber, et al., 2024)]]
+
 **Real-world example from [[(Felsch, Heiderich, et al., 2015)]]**
 In Sunstone, every account can choose a display language. This choice is stored as an account parameter (e. g. for English `LANG=en_US`). In Sunstone, ==the value of the LANG parameter is used to construct a script tag that loads the corresponding localization script==. For English, this creates the following tag: 
 
@@ -201,7 +203,7 @@ Use a [[CSP (Content Security Policy)]] to mitigate the effects of a potential X
 - [[(Sadqi, Maleh, 2022)]]
 - [[(Tkachenko et al., 2024)]]
 - Included in literature review, by [[(Onukrane, Skrodelis, et al., 2023)]]
-- Cookie banners and XSS [[(Klein, Musch, et al., 2022)]]
+- [[cookie]] banners and XSS [[(Klein, Musch, et al., 2022)]]
 - One of the first description of the attack [[(Watson, 2007)]]
 - Unsystematic and short literature review by [[(Farah, Shojol, et al., 2016)]]
 - [[(Trampert, Stock, et al., 2023)]]

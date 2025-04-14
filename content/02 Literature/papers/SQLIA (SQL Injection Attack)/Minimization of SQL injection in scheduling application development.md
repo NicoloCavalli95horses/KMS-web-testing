@@ -4,8 +4,8 @@ tags:
   - paper
   - projectSLR
   - SQLIA
-  - IndexedDB
-  - PDO
+  - [[IndexedDB]]
+  - [[PDO]]
 Project:
   - SLR
 ---
@@ -21,12 +21,12 @@ SQLIA can be implemented leveraging on:
 - piggy bank
 
 [[PDO]] provides a database abstraction layer that can use the same functions to execute SQL commands on any database
-- PDO is secure and flexible
-- Through the use of  prepared statements PDO can mitigate SQLIA
+- [[PDO]] is secure and flexible
+- Through the use of  prepared statements [[PDO]] can mitigate SQLIA
 
 ### Approach
 
-A in-house application is implemented using PDO parameterized query to prevent SQL Injection for an high school in North Sulawesi, Indonesia. Common SQLIA attacks were prevented by the refactoring
+A in-house application is implemented using [[PDO]] parameterized query to prevent SQL Injection for an high school in North Sulawesi, Indonesia. Common SQLIA attacks were prevented by the refactoring
 
 ---
 #### References

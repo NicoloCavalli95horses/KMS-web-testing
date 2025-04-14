@@ -30,7 +30,7 @@ The two operating systems work completely separately, so if one of them has prob
 Requires partitioning the hard drive, which can complicate managing the available space.
 
 **Risk of conflicts**
-Although they are separate, some operations (such as changing partitions or updating the bootloader) can create problems if not managed correctly.
+Although they are separate, some operations (such as changing partitions or updating the [[bootloader]]) can create problems if not managed correctly.
 
 **Boot time**
 Every time you turn on your computer, you have to choose which operating system to boot, which can slow down direct access to your tasks.

@@ -8,7 +8,7 @@ tags:
 @INPROCEEDINGS{10621718,
   author={Anastasia, Terzi and Stamatia, Bibi},
   booktitle={2024 IEEE International Conference on Software Analysis, Evolution and Reengineering - Companion (SANER-C)}, 
-  title={Managing Security Vulnerabilities Introduced by Dependencies in React.JS JavaScript Framework}, 
+  title={[[Managing security vulnerabilities introduced by dependencies in React.js]] JavaScript Framework}, 
   year={2024},
   volume={},
   number={},

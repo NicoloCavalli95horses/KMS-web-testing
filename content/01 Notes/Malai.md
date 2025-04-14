@@ -13,7 +13,7 @@ Malai is an architectural [[design pattern]] that aims at fitting the growing ev
 - Command
 - [[Memento (design pattern)]]
 
-Compared to the [[MVW (model-view-controller)]] architectural design pattern, Malai refines the controller to consider the notion of interactions, actions, and instruments as first-class objects. 
+Compared to the [[MVW (model-view-controller)]] architectural [[design pattern]], Malai refines the controller to consider the notion of interactions, actions, and instruments as first-class objects. 
 
 With dedicated tools, Malai can be used as a [[UIDL (User Interface Description Language)]].
 

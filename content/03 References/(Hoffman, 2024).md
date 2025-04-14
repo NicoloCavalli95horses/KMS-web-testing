@@ -6,7 +6,7 @@ tags:
 ## BibTeX
 
 @book{hoffman2024web,
-  title={Web application security},
+  title={[[Web application security]]},
   author={Hoffman, Andrew},
   year={2024},
   publisher={"O'Reilly Media, Inc."}

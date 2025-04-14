@@ -2,7 +2,7 @@
 ID: 2025-03-24T14:11:51.531Z
 tags:
   - paper
-  - cookie
+  - [[cookie]]
   - clientDefense
   - authentication
   - supervisedLearning
@@ -17,20 +17,20 @@ Browser-based defenses can be an effective mechanism to protect web applications
 - While clearly crucial to the effectiveness of the resulting defense mechanisms, these heuristics have not undergone any rigorous assessment of their adequacy
 - In this paper, we conduct the first such formal assessment
 
-*RQ: How can we be sure that a cookie whose value is sufficiently long and random is, indeed, an authentication cookie?*
-- most of existing solutions take this claim for granted and are based on the biased idea that every random-token is an auth cookie
+*RQ: How can we be sure that a [[cookie]] whose value is sufficiently long and random is, indeed, an authentication [[cookie]]?*
+- most of existing solutions take this claim for granted and are based on the biased idea that every random-token is an auth [[cookie]]
 
 ### Contribution
 
 - A design of a semi-automatic method to build a gold set of authentication cookies, that is, ==a verified dataset where authentication cookies are isolated and identified correctly==. The outcome of this process is a real-world dataset derived from a sample of 70 amongst the today’s most popular websites of the Alexa ranking
-- A ==rigorous evaluation of four existing authentication cookie detectors==. Our analysis shows a significant degree of misclassification in these detectors, that ends up generating a false sense of security
-- development of a binary classifier aimed at automatically and accurately identifying authentication cookies, based on supervised learning techniques.
+- A ==rigorous evaluation of four existing authentication [[cookie]] detectors==. Our analysis shows a significant degree of misclassification in these detectors, that ends up generating a false sense of security
+- development of a binary classifier aimed at automatically and accurately identifying authentication cookies, based on [[supervised learning]] techniques.
 
 ## Approach
 
 Building a gold set of cookies consists of two steps:
 1. collecting sets of cookies from different websites (manual process that includes the login)
-2. marking each cookie with a binary label to identify the cookie as an authentication cookie or not (automated process with [[supervised learning]])
+2. marking each [[cookie]] with a binary label to identify the [[cookie]] as an authentication [[cookie]] or not (automated process with [[supervised learning]])
 
 **Session ID (auth token)**: a ==minimal set of cookies== which allows the server to authenticate the client, restoring the state of the associated user without asking her to log in again.
 
@@ -47,7 +47,7 @@ The authors' solution for step 2., is to iteratively generating and checking sub
 - most of the authentication cookies ==are rather long as expected==, in that their values include at least 25 characters, even though we observe that some authentication cookies are ==surprisingly short==
 - 53 out of 103 authentication cookies only use one case of letters and digits
 - several authentication cookies present a fairly late expiration date
-- cookies marked as HTTP-Only and/or Secure are likely to be auth cookie, but not always
+- cookies marked as HTTP-Only and/or Secure are likely to be auth [[cookie]], but not always
 - the authors' tool performed quite well in correctly classifying the cookies in the gold dataset. The number of false positives is 33, which is better than all the other four examined solutions
 
 ---

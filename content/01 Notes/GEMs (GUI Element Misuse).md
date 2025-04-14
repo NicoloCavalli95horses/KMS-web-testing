@@ -8,12 +8,12 @@ tags:
 ---
 ## Definition
 
-GEMS (GUI Element Misuse) are a novel class of access control vulnerabilities in [[GUI (graphical user interface)]].
+GEMS (GUI Element Misuse) are a novel class of [[access control]] vulnerabilities in [[GUI (graphical user interface)]].
 - GEMs arise when developers rely on and misuse UI elements attributes to implement [[access control]] checks
-- GEMs can be used as a basis for privilege escalation exploits and general access control bypass (GEMs based privilege escalation)
+- GEMs can be used as a basis for privilege escalation exploits and general [[access control]] bypass (GEMs based privilege escalation)
 - GEMs can be exploited by non-technical users
 
-GUI is not a reliable mechanism to enforce access control decisions: [[ad hoc widgets]] and [[standard widgets]] can often be modified from outside of the application.
+GUI is not a reliable mechanism to enforce [[access control]] decisions: [[ad hoc widgets]] and [[standard widgets]] can often be modified from outside of the application.
 
 ## Types of GEMs
 

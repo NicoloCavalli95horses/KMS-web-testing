@@ -8,7 +8,7 @@ tags:
 
 HTTPS is a hypertext transfer protocol that provides a secure
 connection between the user’s browser and the server.
-It uses encryption to protect the privacy of data transmitted between the browser and the server and prevents [[MiTM (man-in-the-middle) attack]]
+It uses encryption to protect the [[privacy]] of data transmitted between the browser and the server and prevents [[MiTM (man-in-the-middle) attack]]
 
 **How it works**
 - The server provides a digital certificate that contains information about its identification and a public key for data encryption

@@ -14,7 +14,7 @@ The users are usually observed by researchers working for a business during eith
 Questions related to usability testing:
 - is the user interface tailored to the end user?
 - are the output of the system meaningful and non-insulting?
-- are the error diagnostics comprehensible to the end user?
+- are the [[error]] diagnostics comprehensible to the end user?
 - is the interface consistent?
 - is the system easy to learn? (**learnability**)
 - is easy to use the system after a period of non-use? (**memorability or user recall**)

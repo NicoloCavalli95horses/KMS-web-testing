@@ -26,7 +26,7 @@ A drive-by install (or installation) is a similar event. It refers to installati
 
 ## Mitigation techniques
 
-- **Internet Explorer** : the `X-Download-Options` HTTP header can be used to modify the user interface download dialog box, removing the open button (specifying a no-open value in the header). This prevents the user from opening malicious files that might run content directly on the domain (example, HTML files)  [[(Aditya Sood, Richard Enbody, et al., 2011)]]
+- **Internet Explorer** : the `X-Download-Options` HTTP header can be used to modify the user interface download dialog box, removing the open button (specifying a no-open value in the header). This prevents the user from opening malicious files that might run content directly on the [[domain]] (example, HTML files)  [[(Aditya Sood, Richard Enbody, et al., 2011)]]
 
 ---
 ## References

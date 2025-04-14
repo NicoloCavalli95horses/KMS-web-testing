@@ -20,7 +20,7 @@ Moder applications implement a multi-tier model involving ==multiple application
 
 ## Approach
 
-A [[black-box testing]] approach offers good opportunities to detect flaws in a service workflow, but active (i) fuzzing techniques have a limited coverage, while (ii) passive learning techniques have usually a high false positive rate
+A [[black-box testing]] approach offers good opportunities to detect flaws in a service workflow, but active (i) [[fuzzing]] techniques have a limited coverage, while (ii) passive learning techniques have usually a high false positive rate
 
 [[white-box testing]] techniques instead can leverage the source code but (i) don't take into account service workflows or the user interactions with the [[GUI (graphical user interface)]], (ii) suffer from high false negatives rates
 
@@ -42,7 +42,7 @@ The approach of the authors is in between:
 - the output of this module is a set of different user behaviors
 
 **Attack graph mediator**
-- in order to separate benign and malicious behaviors, our system leverages a semi-supervised learning approach, using ==ground truth attack scenarios ==represented within an attack graph
+- in order to separate benign and malicious behaviors, our system leverages a semi-[[supervised learning]] approach, using ==ground truth attack scenarios ==represented within an attack graph
 - this module "translate" the ground truth attack graph into an intermediate event graph that is usable by the next module
 
 **Behavior graph pruning**
@@ -51,28 +51,28 @@ This module applies sub-graph isomorphism to both the event graph and the user b
 - identifying all benign user interactions with the service, and associates them with different behavior classes
 - unknown pattern are classified as new possible attack behavior
 
-> [!error] User interactions as a sequence of URLs
+> [![[error]]] User interactions as a sequence of URLs
 > URLs are used as a way to represent user behaviors
 
 ## Testing the model
 
 - a case study was presented. The authors collaborated with a service provider and collected data over a period of six weeks, including 33.7 GB of data in **syslog** format that consists of 1.3 million active user sessions
 - each log includes: timestamp, anonymized user identity and remote IP address, URL of the service
-- ==the service provider informed the authors of certain malicious patterns (user interaction) that they knew could be exploited. This was the output of a risk analysis==. These malicious interactions could lead to [[CSRF (cross-site request forgery)]], cookie theft, identity theft
+- ==the service provider informed the authors of certain malicious patterns (user interaction) that they knew could be exploited. This was the output of a risk analysis==. These malicious interactions could lead to [[CSRF (cross-site request forgery)]], [[cookie]] theft, identity theft
 - this information were then mapped into a set of malicious attack graph paths, used then in the **attack graph mediator** (see attack examples)
 - the new interactions were therefore classified into benign or malicious, given the ground truth
 
 ## Attack examples
 
 **Video Game Purchase Fraud**
-- an attacker proceeds first by executing a cookie hijack and then impersonates the identity of another victim user
+- an attacker proceeds first by executing a [[cookie]] hijack and then impersonates the identity of another victim user
 - after connecting to the service, the attacker is able to edit the user info, and then the attacker changes his email address
 - Later, the attacker commands a game, and receives the confirmation payment. By exploiting the vulnerability of the service, the attacker will let the victim user be charged for the game, and delivered to the new email address
 
-**Phishing with IP spoofing**
+**[[phishing]] with IP spoofing**
 - The attacker connects to the WiFi of the victim user, and behaves as the legitimate user (*IP spoofing*)
 - Then he proceeds with an email [[phishing]] exploit
-- In this scenario, the attacker connects to the service, may access all the account details for the victim user, and may then send as many phishing emails as needed on behalf of the victim user account
+- In this scenario, the attacker connects to the service, may access all the account details for the victim user, and may then send as many [[phishing]] emails as needed on behalf of the victim user account
 
 **Media access without paying**
 - The attacker connects to the media service, and he exploits a vulnerability in the application that allows him to access from a media content to another without access to the billing service

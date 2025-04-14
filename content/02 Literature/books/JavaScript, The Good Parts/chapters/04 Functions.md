@@ -194,7 +194,7 @@ A function always return a value.
 
 # Exceptions 
 
-Exceptions are used to prevent error and to define custom responses in error scenarios. With the *throw* statement the function is interrupted. 
+Exceptions are used to prevent [[error]] and to define custom responses in [[error]] scenarios. With the *throw* statement the function is interrupted. 
 - the keys name and message are not mandatory but conventional
 
 ```JavaScript
@@ -221,7 +221,7 @@ try {
 }
 ```
 
-Note that a *catch* statement will catch all exceptions - if you have more than one error, inspect the name or the id of the exception object.
+Note that a *catch* statement will catch all exceptions - if you have more than one [[error]], inspect the name or the id of the exception object.
 
 # Augmenting types
 

@@ -11,4 +11,4 @@ https://www.sciencedirect.com/science/article/pii/S2666281724000829?via%3Dihub
 
 ## BibTeX
 
-@article{kim2024decrypting,   title={Decrypting IndexedDB in private mode of Gecko-based browsers},   author={Kim, Dohun and Lee, Sangjin and Park, Jungheum},   journal={Forensic Science International: Digital Investigation},   volume={49},   pages={301763},   year={2024},   publisher={Elsevier} }
+@article{kim2024decrypting,   title={Decrypting [[IndexedDB]] in private mode of Gecko-based browsers},   author={Kim, Dohun and Lee, Sangjin and Park, Jungheum},   journal={Forensic Science International: Digital Investigation},   volume={49},   pages={301763},   year={2024},   publisher={Elsevier} }

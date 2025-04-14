@@ -9,7 +9,7 @@ tags:
 ---
 ## Context
 
-To investigate [[flaky test]] related to the [[GUI (graphical user interface)]], we collect and analyze 235 real-world flaky UI test examples found in popular web and Android mobile projects. For each flaky test example, we inspect commit descriptions, issue reports, reported causes, and changed code.
+To investigate [[flaky test]] related to the [[GUI (graphical user interface)]], we collect and analyze 235 real-world flaky UI test examples found in popular web and Android mobile projects. For each [[flaky test]] example, we inspect commit descriptions, issue reports, reported causes, and changed code.
 - flaky tests were collected by ==manually inspecting a sample of GitHub commits== and then ==manually analyzed==
 
 ![[flaky_ui_test_findings.png]]
@@ -18,9 +18,9 @@ To investigate [[flaky test]] related to the [[GUI (graphical user interface)]],
 ![[causes_of_flakiness.png]]
 
 **Async await (45%)**
-The majority of the flaky test is due to ==asynchronous operations that may present different outcomes==
+The majority of the [[flaky test]] is due to ==asynchronous operations that may present different outcomes==
 - The common cause of such issues is that the tests do not properly schedule fetching and performing actions, causing issues with attempting to interact with elements that have not been loaded completely
-- Flaky test in this category may be address *network resource loading issues*, *resource rendering issues* or *animation timing issue.*
+- [[flaky test]] in this category may be address *network resource loading issues*, *resource rendering issues* or *animation timing issue.*
 
 **Environment**
 Some flaky tests manifest ==due to differences in the underlying platform used to run the tests==. The platform can include the browser used for web projects and the version of Android, iOS, etc… used for mobile projects.

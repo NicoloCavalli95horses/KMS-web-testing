@@ -12,7 +12,7 @@ JavaScript offers two forms of comments:
 /* multiple line comment */
 ```
 
-The multiple line comment syntax, often used to document exported functions, is actually error prone, because [[RegEx (Regular Expression)]] symbols may be interpreted as closing comments, throwing a syntax error
+The multiple line comment syntax, often used to document exported functions, is actually [[error]] prone, because [[RegEx (Regular Expression)]] symbols may be interpreted as closing comments, throwing a syntax [[error]]
 
 ```JavaScript
 /* this is a commented RegEx /a*/.match(s) */

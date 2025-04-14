@@ -15,4 +15,4 @@ In general, a brute force attack involves guessing sensitive information by tryi
 
 ---
 #### References
-- Used by [[(Kim, Lee, et al., 2024)]] to decrypt IndexedDB files from private sessions in Gecko-based browsers
+- Used by [[(Kim, Lee, et al., 2024)]] to decrypt [[IndexedDB]] files from private sessions in Gecko-based browsers

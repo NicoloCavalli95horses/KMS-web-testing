@@ -7,7 +7,7 @@ tags:
 ## Definition
 
 In computer networking, a **proxy server** is a software that acts as an ==intermediary== between a client requesting a resource and the server providing that resource.
-- proxy-servers and reverse proxy-server are used to improve privacy, security, and possibly performance
+- proxy-servers and reverse proxy-server are used to improve [[privacy]], security, and possibly performance
 
 
 ### Proxy Server (Forward Proxy)

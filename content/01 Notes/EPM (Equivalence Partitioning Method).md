@@ -8,7 +8,7 @@ tags:
 ## Definition
 
 > [!NOTE]
-> Defines condition or error classes to help reduce the number of finite tests. Assumes that a test of a representative value within a class also tests all values or conditions within that class
+> Defines condition or [[error]] classes to help reduce the number of finite tests. Assumes that a test of a representative value within a class also tests all values or conditions within that class
 
 Equivalence partitioning is a [[black-box testing]] method that ==map software specifications into classes, grouping singular input conditions that are expected to behave similarly.==
 Each class represents a group of inputs that should produce the same outcome when tested:

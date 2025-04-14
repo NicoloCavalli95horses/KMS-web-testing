@@ -20,7 +20,7 @@ For instance, faults impacting an extensive number of users have been reported f
 
 The general idea that functionalities recur in a similar way in the [[GUI (graphical user interface)]] of different applications has been already investigates in the field of UI design. 
 
-Even if the concept of UI design pattern is not exactly the same of AIF, many UI design patterns turn out to be also AIFs. 
+Even if the concept of UI [[design pattern]] is not exactly the same of AIF, many UI design patterns turn out to be also AIFs. 
 
 ---
 ## References

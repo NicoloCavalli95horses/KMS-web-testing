@@ -23,12 +23,12 @@ help users better protect themselves from cyberattacks. The basic idea is to ==c
 Qualitative description of visual design patterns based on cognitive science literature and on the result of a focus group:
 - [[mental model]] are described as internal models of the external world
 - Their crucial feature is that they mimic the causal structure of some real world entity or process
-- Creating the right mental model could improve the attitude of the end-user towards his/her own digital security
+- Creating the right [[mental model]] could improve the attitude of the end-user towards his/her own digital security
 
 ## Observations
 
 - when users are in a hurry, or under stress, they focus on the primary task[^1], and the secondary tasks[^2] can suffer
-- the ==more attention and effort the secondary tasks demand, the more likely users will find it unacceptable==. For example, they resist creating strong passwords that are difficult to remember, will avoid two-factor authentication, not check web security certificates
+- the ==more attention and effort the secondary tasks demand, the more likely users will find it unacceptable==. For example, they resist creating strong passwords that are difficult to remember, will avoid two-factor authentication, not check [[web security]] certificates
 - cognitive load should be adequate, information should be limited, and choices offered should be simple and actionable
 
 ### UI design pattern for cyber security
@@ -36,7 +36,7 @@ Qualitative description of visual design patterns based on cognitive science lit
 **Disengagement aids**
 When a user disengages from a service, help them check things are secure. In particular, ==provide users with the information needed to determine that the service is being left in a secure state==, and provide them recommendations for improvements
 - show aids to remember to log-out after inactivity or after completing a task that exposed sensitive information
-- show a summary of the privacy settings
+- show a summary of the [[privacy]] settings
 - in content-creation scenarios, use pop-ups to ask the user if the content that has been created contains sensitive data
 - at the end of a session, show a recap of the changes made to the state of the system, with undo options. This would improve the user memory
 - show a redirect page that confirm the logout after critical operation (e.g., payments)

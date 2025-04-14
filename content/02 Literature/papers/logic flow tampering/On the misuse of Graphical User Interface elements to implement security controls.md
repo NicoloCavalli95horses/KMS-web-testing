@@ -17,7 +17,7 @@ This papers appears to be a shorter version of [[(Mulliner, Robertson, Kirda, 20
 
 In this paper, a new method to detect misuse of GUI elements is presented
 
-**Access control and GUIs**
+**[[access control]] and GUIs**
 Enforcing [[access control]] is a basic requirement of any application that includes users with different level of authorizations (see [[RBAC (role-based access control)]]), but relying on a widget's attribute (visibility, value, enable) it is not safe.
 
 Windows, Java Swing, GTK and Android all provide tools to externally modify the GUI of the [[SUT (system under test)]].

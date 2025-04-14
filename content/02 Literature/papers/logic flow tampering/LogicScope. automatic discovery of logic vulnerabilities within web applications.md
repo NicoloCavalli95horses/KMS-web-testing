@@ -28,7 +28,7 @@ In this paper, we model the logic of a web application in a black-box fashion us
 
 ## Approach
 
-1. **HTTP traces analysis**: we first construct a partial FSM over the *expected input* domain by observing and recording the executions of the application, when a user follows the navigation paths (see [[HTTP trace collection]])
+1. **HTTP traces analysis**: we first construct a partial FSM over the *expected input* [[domain]] by observing and recording the executions of the application, when a user follows the navigation paths (see [[HTTP trace collection]])
 2. **Test input generation**: *unexpected inputs* are derived from the previous partial FSM, in two ways
 	- **parameter manipulation**: the keys of the input are maintained but the value are randomized/changed with a function (e.g., expected URL input: `...?id=123`, unexpected URL input `...?id=124`)
 	- **forceful browsing**: the keys of the input are changed but the values are kept (e.g., expected URL input: `...?id=123`, unexpected URL input `...?user=123`)

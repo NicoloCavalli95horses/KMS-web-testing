@@ -10,13 +10,13 @@ GUI design is currently shifting from designing GUIs composed of [[standard widg
 
 This shift is meant to support the advent of GUIs providing users with more adapted and natural interactions, and the support of new input devices such as multi-touch screens with [[multi-modal interactions]].
 
-Standard widgets (e.g. buttons) are more and more replaced by ad hoc ones (e.g. the drawing area of graphical editors), and interactions are shifting from [[mono-event interaction]] (e.g. button pressures) to [[multi-event interactions ]] (e.g. multi-touch and gesture-based interactions). 
+[[standard widgets]] (e.g. buttons) are more and more replaced by ad hoc ones (e.g. the drawing area of graphical editors), and interactions are shifting from [[mono-event interaction]] (e.g. button pressures) to [[multi-event interactions ]] (e.g. multi-touch and gesture-based interactions). 
 
 As a consequence, the current GUI model-based testing approaches, which target event-based systems, show their limits when applied to test such new advanced GUIs. 
 
 The work introduced in this paper establishes the following contributions:
 - a precise analysis of these limits (1)
-- a proposition to tackle the identified limits by leveraging the [[Malai]] design pattern (2)
+- a proposition to tackle the identified limits by leveraging the [[Malai]] [[design pattern]] (2)
 - an introduction of the concept of interaction-action-flow graph (2)
 - feedback from two use cases
 - an industrial project and an open-source application, where the proposed approach has been applied.
@@ -30,19 +30,19 @@ This paper proposes to leverage [[UIDL (User Interface Description Language)]] d
 **1. Limits of traditional testing frameworks**
 Traditional testing frameworks are based on [[UIDL (User Interface Description Language)]] that presents the following limits:
 - ==UIDL describe the widget but not the interaction.== This is because current GUI testing framework are applied only to standard widget, which interaction is always the same.
-- UIDL ==do not support multi-event interactions==
+- UIDL ==do not support [[multi-event interactions]]==
 - UIDL ==do not (and cannot) describe the expected result== of the use of a widget in the SUT
 - UIDL ==do not show the dependencies between actions or interactions== (e.g. the "paste" function depends on the "copy" function)
 
  [[EFG (event flow graph)]] have also a role in the developing of traditional testing frameworks. But EFG:
- - ==mix both interaction, widget and action under the term event.== This can lead to confusion in ad hoc widgets that support multi-event interactions
+ - ==mix both interaction, widget and action under the term event.== This can lead to confusion in [[ad hoc widgets]] that support [[multi-event interactions]]
 
 *There is a lack of proper abstractions to build test model for testing advanced GUIs*
 
-**2. A proposal to tackle these limits using Malai**
+**2. A proposal to tackle these limits using [[Malai]]**
 [[Malai]] decomposes an interactive system as a set of presentations and instruments.
 An action of the user is represented by a [[FSM (finite-state machine)]] where each transition corresponds to an event.
-- Using FSMs permits the definition of structured multi-event interactions, such as drag and drop, multi-touch or multi-modal interactions 
+- Using FSMs permits the definition of structured [[multi-event interactions]], such as drag and drop, multi-touch or [[multi-modal interactions]] 
 
 **3. Interaction-action flow graph**
 Interaction-action flow graph (IFG) follows the same idea than an EFG, by sequencing all the possible user interactions. The difference is that the concepts of interaction, action, and

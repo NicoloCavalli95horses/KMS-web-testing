@@ -12,10 +12,10 @@ https://ieeexplore.ieee.org/abstract/document/9464576
 @INPROCEEDINGS{9464576,
   author={Al-Kahla, Wafaa and Shatnawi, Ahmed S. and Taqieddin, Eyad},
   booktitle={2021 12th International Conference on Information and Communication Systems (ICICS)}, 
-  title={A Taxonomy of Web Security Vulnerabilities}, 
+  title={A [[taxonomy]] of [[web security]] Vulnerabilities}, 
   year={2021},
   volume={},
   number={},
   pages={424-429},
-  keywords={Software architecture;Communication systems;Taxonomy;Mission critical systems;Finance;Medical services;Tools;web security;XSS;static;dynamic analysis},
+  keywords={Software architecture;Communication systems;[[taxonomy]];Mission critical systems;Finance;Medical services;Tools;[[web security]];XSS;static;[[dynamic analysis]]},
   doi={10.1109/ICICS52457.2021.9464576}}

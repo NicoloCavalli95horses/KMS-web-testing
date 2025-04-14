@@ -11,19 +11,23 @@ Project:
 
 The root problem of [[CSRF (cross-site request forgery)]] is the server not being capable of distinguish unintentional from intentional requests
 
-CSRF is just one example of a more general issue of request hijacking in web application
-- other hijacking of outgoing HTTP requests exist
+CSRF is just one example of a more general issue of request hijacking in web application: [[CSRH (Client-Side Request Hijacking)]]
 
-Most of the past work has been done solving confuse-deputy issue at the server side, while CSRF based on client input validation have received little attention so far
-- input-validation CSRF can bypass [[CSRF (cross-site request forgery) token]] because the request is made from the same origin in a legitimate way
+Most of the past work has been done solving confuse-deputy issue at the server side, while CSRF based on client input validation (URL manipulation) have received little attention so far
 
 ## Approach
 
+We examined JavaScript APIs capable of creating network requests: 10 APIs were found to be ==possible entry points for CSRH==: `location.href`, `XMLHttpRequest`, `sendBeacon`, `window.open`, `fetch`, `push`, `websocket`, `location.assign`, `location.replace`, `EventSource`
 
+![[js_network_request_api_csrh_entry_points.png]]
 
-## Evaluation
-
-We propose Sheriff, a [[CSRH (Client-Side Request Hijacking)]] detection tool that uses a combination of hybrid program analysis and in-browser [[dynamic taint analysis]] tracking for the discovery of potentially-vulnerable data flows and dynamic analysis with API instrumentation for the automated vulnerability verification. 
+A tool called Sheriff is proposed to detect [[CSRH (Client-Side Request Hijacking)]] vulnerabilities in the wild.
+- it uses a combination of hybrid program analysis and in-browser [[dynamic taint analysis]] tracking for the discovery of potentially-vulnerable data flows and dynamic analysis with API instrumentation for the automated vulnerability verification.
+- it is composed of 4 modules:
+	- **data collection**: gathers web resources and execute dynamic taint flows analysis
+	- **data modeling**: create a [[HPG (Hybrid Property Graph)]] that classify websites
+	- **vulnerability analysis**: traverses the graph following the propagation of un-validated data flows from input sources to request-sending functions
+	- **verification**: confirms the potential forgeability of requests
 
 We instantiate Sheriff against the Tranco top 10K websites to quantify the prevalence and impact of client-side request hijacking in the wild, processing over 32.4B lines of JavaScript code across 11.5M scripts and 339K webpages.
 
@@ -32,14 +36,14 @@ Sheriff was compared to the usage of [[CSP (Content Security Policy)]] and [[COO
 ## Results
 
 - the attack surface of client-side request hijacking vulnerabilities is large
-- 10 different variants across six request types were found (7 previously unknown)
-- 9.6% of Tranco top 10K websites are affected by CSRH 
+- `location.href` and `XMLHttpRequest` are the most used APIs for handling network requests
+- ==9.6% of Tranco top 10K websites are affected by CSRH ==
 - CSP cannot mitigate over 41% of the information leakage and XSS exploitations of the request hijacking
-- COOP and COEP cannot mitigate over 93% and 94.7% of the total request hijacks
+- [[COOP (Cross-Origin Opener Policy)]] and [[COEP (Cross-Origin Embedder Policy)]] cannot mitigate over 93% and 94.7% of the total request hijacks
 
 ## Limits
 
-
+- the crawler does not create accounts or login: therefore the exploration of the websites is limited to the public pages. They claim that this limitation is in line with the state-of-the-art of security testing at scale (p.6)
 
 ---
 #### References

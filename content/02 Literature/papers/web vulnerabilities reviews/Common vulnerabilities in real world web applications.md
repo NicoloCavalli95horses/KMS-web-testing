@@ -11,7 +11,7 @@ tags:
 Common vulnerabilities and attacks in web applications:
 - Injection attacks ([[SQLIA (SQL injection attack)]], [[XSS (cross site scripting)]])
 - Request forgery attacks ([[SSRF (Server Side Request Forgery)]] and Cross-site Request Forgery)
-- Broken Access Control (see [[RBAC (role-based access control)]])
+- Broken [[access control]] (see [[RBAC (role-based access control)]])
 - Cryptographic failures
 
 ---

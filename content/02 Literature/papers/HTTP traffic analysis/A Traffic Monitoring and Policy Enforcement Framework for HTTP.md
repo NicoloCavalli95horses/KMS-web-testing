@@ -51,4 +51,4 @@ The tool was tested using ZAP (Zed Application Proxy) and sqlmap to launch attac
 #### References
 - [[(Muraleedharan, Thomas, et al., 2020)]]
 
-[^1]: This paper is considered relevant to a SLR on web application security with focus on client-side vulnerability, since injection attacks mitigated by the authors's solution may steam from a misuse of input fields
+[^1]: This paper is considered relevant to a SLR on [[Web application security]] with focus on client-side vulnerability, since injection attacks mitigated by the authors's solution may steam from a misuse of input fields

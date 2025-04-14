@@ -22,7 +22,7 @@ tags:
 
 - **Code substitution or integration with predefined set of templates**: target particular bug classes making use of a small set of candidate templates
 - **Code synthesis:** using semantic analysis to construct patches. The problem of bug repair is converted to constraint solving and program synthesis
-- **Machine learning techniques** that prioritize candidate patches
+- **[[machine learning]] techniques** that prioritize candidate patches
 
 
 > [!WARNING] 

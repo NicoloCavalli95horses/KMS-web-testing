@@ -10,7 +10,7 @@ https://www.sciencedirect.com/science/article/pii/S0164121225000329?dgcid=rss_sd
 ## BibTeX
 
 @article{AMALFITANO2025112364,
-title = {A GUI-based Metamorphic Testing technique for detecting authentication vulnerabilities in Android mobile apps},
+title = {A GUI-based Metamorphic Testing technique for detecting [[authentication vulnerabilities]] in Android mobile apps},
 journal = {Journal of Systems and Software},
 pages = {112364},
 year = {2025},
@@ -18,11 +18,11 @@ issn = {0164-1212},
 doi = {https://doi.org/10.1016/j.jss.2025.112364},
 url = {https://www.sciencedirect.com/science/article/pii/S0164121225000329},
 author = {Domenico Amalfitano and Misael Júnior and Anna Rita Fasolino and Marcio Delamaro},
-keywords = {Security testing, Metamorphic testing, Vulnerability testing, Mobile testing, Test automation, GUI-based testing},
+keywords = {[[security testing]], Metamorphic testing, Vulnerability testing, Mobile testing, Test automation, GUI-based testing},
 abstract = {Context:
 The increasing use of mobile apps in daily life involves managing and sharing sensitive user information.
 Problem:
-New vulnerabilities are frequently reported in bug tracking systems, highlighting the need for effective security testing processes for these applications.
+New vulnerabilities are frequently reported in bug tracking systems, highlighting the need for effective [[security testing]] processes for these applications.
 Proposal:
 This study introduces a GUI-based Metamorphic Testing technique designed to detect five common real-world vulnerabilities related to username and password authentication methods in Android applications, as identified by OWASP.
 Methods:

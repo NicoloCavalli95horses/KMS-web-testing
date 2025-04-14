@@ -13,7 +13,7 @@ The upsides of paywall systems:
 
 Risks and implications of walled web:
 - reducing societal access to news and information
-- privacy harms of the increased user tracking needed to enforce paywalls (the engagement of the user with the platform is tracked: how much time the user spend on the platform, how many article he reads, etc)
+- [[privacy]] harms of the increased user tracking needed to enforce paywalls (the engagement of the user with the platform is tracked: how much time the user spend on the platform, how many article he reads, etc)
 - paywall may introduce a class system on the web, where high-quality content is reserved to rich people
 
 Google, Facebook and Apple, build platforms to provide or support paywall services
@@ -36,7 +36,7 @@ Google, Facebook and Apple, build platforms to provide or support paywall servic
 > A significant number of sites rely on third-parties for their paywall implementation. Most popular paywall-as-a-service: Piano (23.5%) and Tecnavia (21%). This monopoly is significant because:
 > - affect amount of income content-makers can receive
 > - make large scale bypass easier
-> - privacy implication in having a small number of providers tracking users
+> - [[privacy]] implication in having a small number of providers tracking users
 
 **Prevalence of paywalls types**:
 - soft paywalls (66.7%)
@@ -52,8 +52,8 @@ Google, Facebook and Apple, build platforms to provide or support paywall servic
 Users view less pages on paywalled sites, stay for shorter periods of time and link to pages less. Interestingly, we did not see a significantly difference
 to the bounce rate between paywalled and non-paywalled sites
 
-> [!ERROR] Paywalls and privacy
-> People do not generally receive a tracker free version of site content when paying for subscriptions. Instead, paywall systems seem to serve as an additional monetization mechanism on top of existing, privacy harming, ad systems
+> [![[error]]] Paywalls and [[privacy]]
+> People do not generally receive a tracker free version of site content when paying for subscriptions. Instead, paywall systems seem to serve as an additional monetization mechanism on top of existing, [[privacy]] harming, ad systems
 
 ## References
 [[(Papadopoulos, Snyder, et al., 2020)]]

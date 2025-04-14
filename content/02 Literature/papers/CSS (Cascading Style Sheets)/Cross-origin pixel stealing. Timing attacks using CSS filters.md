@@ -18,7 +18,7 @@ A [[timing attack]] rely on a system that take different amounts of time to proc
 
 Using CSS default filters, we have discovered a variety of timing attacks that work in multiple browsers and devices.
 - The first attack exploits differences in time taken to render various DOM trees. This knowledge can be used to ==determine boolean values such as whether or not a user has an account== on a particular website
-- Second, we introduce [[pixel stealing]]. ==Pixel stealing attacks can be used to sniff user history and read text tokens==
+- Second, we introduce [[pixel stealing]]. ==[[pixel stealing]] attacks can be used to sniff user history and read text tokens==
 
 ---
 #### References

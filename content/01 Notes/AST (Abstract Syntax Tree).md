@@ -15,7 +15,7 @@ It breaks down the code into its *syntactic components*, showing the relationshi
 
 - **Code Analysis**: Tools like linters (e.g., ESLint) analyze the AST to find potential issues in your code.
 - **Code Transformation**: Tools like Babel or SWC transform modern JavaScript syntax into syntax supported by older browsers.
-- **Compiler Design:** Compilers parse code into an AST to generate machine code or intermediate representations.
+- **[[compiler]] Design:** Compilers parse code into an AST to generate machine code or intermediate representations.
 - **Optimization**: Tools optimize the code by analyzing its structure (e.g., tree-shaking in Webpack).
 - [[static analysis]]: Tools like TypeScript use ASTs to check types without executing the code
 

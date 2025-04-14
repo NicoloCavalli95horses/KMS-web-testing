@@ -19,7 +19,7 @@ Similarly to the [[code inspection]], a team is constituted. The author of the c
 - someone from a different project,
 - someone from the same programming team as the programmer
 
-The main difference from code inspection is that the participants **play computer**
+The main difference from [[code inspection]] is that the participants **play computer**
 - a set of test cases is mentally executed. The test data are walked through the logic of the program
 - the expected state is monitored on paper or whiteboard
 - this inputs serve as a vehicle for getting started and for questioning the author's choices

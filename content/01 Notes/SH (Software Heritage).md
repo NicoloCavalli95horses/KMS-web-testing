@@ -22,7 +22,7 @@ Software is fragile and we are unfortunately starting to lose it. We preserve so
 
 ### Share
 
-We are building the largest archive of software source code ever assembled. We will index, organize, make referenceable and accessible all of this precious heritage.
+We are building the largest archive of software source code ever assembled. We will [[index]], organize, make referenceable and accessible all of this precious heritage.
 - We will provide unique identifiers, intrinsically bound to the software components. This will ensure that a resilient web of knowledge can be built on top of the Software Heritage archive.
 - Software Heritage will foster the emergence of a variety of services, ranging from documentation to classification, from search to distribution, to release all the potential of this Library of Alexandria of Software.
 

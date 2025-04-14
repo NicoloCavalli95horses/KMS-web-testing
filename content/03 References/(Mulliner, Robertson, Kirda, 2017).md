@@ -6,7 +6,7 @@ tags:
 ## BibTeX
 
 @article{mulliner2017misuse,
-  title={On the misuse of graphical user interface elements to implement security controls},
+  title={[[On the misuse of Graphical User Interface elements to implement security controls]]},
   author={Mulliner, Collin and Robertson, William and Kirda, Engin},
   journal={it-Information Technology},
   volume={59},

@@ -12,7 +12,7 @@ https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7515462
 @INPROCEEDINGS{7515462,
   author={Ye, Tao and Zhang, Lingming and Wang, Linzhang and Li, Xuandong},
   booktitle={2016 IEEE International Conference on Software Testing, Verification and Validation (ICST)}, 
-  title={An Empirical Study on Detecting and Fixing Buffer Overflow Bugs}, 
+  title={An Empirical Study on Detecting and Fixing [[buffer overflow]] Bugs}, 
   year={2016},
   volume={},
   number={},

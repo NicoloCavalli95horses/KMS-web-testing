@@ -8,7 +8,7 @@ tags:
 ---
 ## Definition
 
-- A fine-tuned access control strategy ensuring that users ==only get the specific permissions they need for a given task==
+- A fine-tuned [[access control]] strategy ensuring that users ==only get the specific permissions they need for a given task==
 - Often implemented alongside [[RBAC (role-based access control)]] or [[ABAC (attribute based access control)]]
 
 ### Example

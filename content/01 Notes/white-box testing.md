@@ -14,7 +14,7 @@ White box testing is used in the [[unit testing ]]phase, although it can also oc
 **Key features:**
 - it takes in consideration unique characteristics of a software
 - it is carried out by software developers who have an extensive knowledge of the codebase
-- used in unit testing or integration testing
+- used in [[unit testing]] or [[integration testing]]
 - more time consuming than the [[black-box testing]]
 - the focus is on the software logic
 - it is suitable for algorithm testing
@@ -23,8 +23,8 @@ White box testing is used in the [[unit testing ]]phase, although it can also oc
 ### White box testing techniques are:
 
 Static white box testing (see [[03 Program Inspections, walkthroughs and reviews]])
-- [[desk checking]]: In this process the authors who have knowledge in the programming language very well will be involved in desk checking testing. This can be done very quickly without much dependency on other developers or testers. The main advantages are defects detected in this stage are easily located and correct at same time. 
-- [[code walkthrough]]: this testing is also known as technical code walkthrough, in this testing process a group of technical people go through the code. This is one type of semi-formal review technique. During a code walkthrough high level employees are involved: technical leads, database administrators and one or more peers. The people who involved in this technical code walkthrough they raise questions on code to author, in this process author explains the logic and if there is any mistake in the logic, the code is corrected immediately
+- [[desk checking]]: In this process the authors who have knowledge in the programming language very well will be involved in [[desk checking]] testing. This can be done very quickly without much dependency on other developers or testers. The main advantages are defects detected in this stage are easily located and correct at same time. 
+- [[code walkthrough]]: this testing is also known as technical [[code walkthrough]], in this testing process a group of technical people go through the code. This is one type of semi-formal review technique. During a [[code walkthrough]] high level employees are involved: technical leads, database administrators and one or more peers. The people who involved in this technical [[code walkthrough]] they raise questions on code to author, in this process author explains the logic and if there is any mistake in the logic, the code is corrected immediately
 - [[code inspection]]: a formal review aimed at detecting all faults, violations and other side effects
 - [[peer rating]]
 

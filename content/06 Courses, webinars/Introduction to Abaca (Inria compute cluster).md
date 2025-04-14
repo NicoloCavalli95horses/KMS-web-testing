@@ -47,7 +47,7 @@ Best practice:
 - compile on a machine similar to your target machine
 - the front should be able to handle small to medium compilations
 
-Apptainer can run docker images, do Docker ins not necessary
+Apptainer can run [[Docker]] images, do [[Docker]] ins not necessary
 
 If you can, use the modules that are already installed and available, ask support for installing new libraries
 

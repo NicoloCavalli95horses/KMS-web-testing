@@ -9,7 +9,7 @@ tags:
 ## BibTeX
 
 @article{macklon2023taxonomy,
-  title={A Taxonomy of Testable HTML5 Canvas Issues},
+  title={A [[taxonomy]] of Testable HTML5 Canvas Issues},
   author={Macklon, Finlay and Viggiato, Markos and Romanova, Natalia and Buzon, Chris and Paas, Dale and Bezemer, Cor-Paul},
   journal={IEEE Transactions on Software Engineering},
   volume={49},

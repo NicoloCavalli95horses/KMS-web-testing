@@ -7,7 +7,7 @@ tags:
 ---
 ## Definition
 
-Acunetix by Invicti Security is an application security testing tool built to help small and mid-size organizations around the world take control of their web security
+Acunetix by Invicti Security is an application [[security testing]] tool built to help small and mid-size organizations around the world take control of their [[web security]]
 
 ---
 #### References

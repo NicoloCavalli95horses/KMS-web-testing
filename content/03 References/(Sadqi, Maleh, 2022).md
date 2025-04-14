@@ -10,7 +10,7 @@ https://www.tandfonline.com/doi/abs/10.1080/19393555.2020.1853855
 ## BibTeX
 
 @article{sadqi2022systematic,
-  title={A systematic review and taxonomy of web applications threats},
+  title={A systematic review and [[taxonomy]] of web applications threats},
   author={Sadqi, Yassine and Maleh, Yassine},
   journal={Information Security Journal: A Global Perspective},
   volume={31},

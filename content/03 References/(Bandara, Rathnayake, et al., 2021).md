@@ -22,7 +22,7 @@ abstract = {Given the widespread prevalence of vulnerabilities, remediation is a
 booktitle = {Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security},
 pages = {2447–2449},
 numpages = {3},
-keywords = {security testing, software security, vulnerability analysis, vulnerability remediation},
+keywords = {[[security testing]], software security, vulnerability analysis, vulnerability remediation},
 location = {Virtual Event, Republic of Korea},
 series = {CCS '21}
 }

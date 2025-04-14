@@ -35,8 +35,8 @@ The dependency graph can be manually maintained by testers or automatically comp
 - Using TEDD, a dependency graph is obtained
 - STILE infers a set of sequences that cover the initial E2E test suite
 - a [[prefix tree]] is used to optimize the parallel execution of the tests, by avoiding the repeated execution of common prefixes. The common prefixes run only once, then a snapshot of the state of the GUI is saved and used as reference for n tests that depend on that state.
-	- a test scripts parallelizer visits the prefix tree by executing an algorithm
-	- the life cycle of the docker containers is handled by the test scripts parallelizer
+	- a test scripts parallelizer visits the [[prefix tree]] by executing an algorithm
+	- the life cycle of the [[Docker]] containers is handled by the test scripts parallelizer
 - a number of [[Docker]] containers are used to run all the schedules in parallel
 
 STILE reduces the execution time up to 80% and the CPU-time up to 75%.

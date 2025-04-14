@@ -21,7 +21,7 @@ The black box approach only evaluates the *external behavior* of the system. The
 - it focuses on the behavior of the system
 - it is not suitable for algorithms testing
 
-**Exhaustive input testing** (p.9, [[(Myers et al., 2011)]]): making use of every possible input condition as test case. Since you cannot test a program to guarantee that is error free, the ultimate goal is to find as many issues as possible given time and resources constraints.
+**Exhaustive input testing** (p.9, [[(Myers et al., 2011)]]): making use of every possible input condition as test case. Since you cannot test a program to guarantee that is [[error]] free, the ultimate goal is to find as many issues as possible given time and resources constraints.
 
 **Black-box techniques**
 - [[EPM (Equivalence Partitioning Method)]]

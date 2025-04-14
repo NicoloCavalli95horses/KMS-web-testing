@@ -3,11 +3,11 @@ ID: 2025-04-01T09:19:32.429Z
 tags:
   - paper
   - projectSLR
-  - clickjacking
+  - [[clickjacking]]
 Project:
   - SLR
 ---
-Unsystematic literature review on clickjacking
+Unsystematic literature review on [[clickjacking]]
 ## Context
 
 [[clickjacking]] is the hijacking of user clicks to initiate unintended actions

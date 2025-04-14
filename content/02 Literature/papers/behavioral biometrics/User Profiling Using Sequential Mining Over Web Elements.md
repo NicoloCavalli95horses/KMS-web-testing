@@ -11,7 +11,7 @@ tags:
 Project:
   - SLR
 ---
-Authentication enhancement through behavioral biometric measurement to mitigate session hijacking attack
+Authentication enhancement through behavioral biometric measurement to mitigate [[session hijacking]] attack
 ## Context
 
 Many authentication schemes were proposed over the years; as of today, the most used authentication scheme is still username and password.
@@ -79,7 +79,7 @@ These results imply that our method is able to profile real users using data col
 
 ## Limits
 
-- privacy concerns not discussed
+- [[privacy]] concerns not discussed
 - consequences of false positives not discussed (legitimate users logged out by mistake)
 
 ---

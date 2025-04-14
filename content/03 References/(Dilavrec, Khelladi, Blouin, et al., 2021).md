@@ -13,6 +13,6 @@ author = {Dilavrec, Quentin and Khelladi, Djamel and Blouin, Arnaud and Jézéqu
 year = {2021},
 month = {09},
 pages = {206-216},
-title = {Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions},
+title = {[[Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions]]},
 doi = {10.1109/ICSME52107.2021.00025}
 }

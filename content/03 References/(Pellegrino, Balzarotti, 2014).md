@@ -9,7 +9,7 @@ https://s3.eurecom.fr/docs/ndss14_pellegrino.pdf
 ## BibTeX
 
 @inproceedings{pellegrino2014toward,
-  title={Toward Black-Box Detection of Logic Flaws in Web Applications.},
+  title={[[Toward black-box detection of logic flaws in web applications]].},
   author={Pellegrino, Giancarlo and Balzarotti, Davide},
   booktitle={NDSS},
   volume={14},

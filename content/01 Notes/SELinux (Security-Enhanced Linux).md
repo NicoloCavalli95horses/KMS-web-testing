@@ -7,7 +7,7 @@ tags:
 ---
 ## Definition
 
-SELinux (Security-Enhanced Linux) is a Linux kernel module that implements mandatory access control (MAC), which is based on pre-established rules that cannot be changed by users or processes unless explicitly authorized.
+SELinux (Security-Enhanced Linux) is a Linux kernel module that implements mandatory [[access control]] (MAC), which is based on pre-established rules that cannot be changed by users or processes unless explicitly authorized.
 
 A SELinux policy file can be written in a SELinux policy module with the .te (Type Enforcement) extension.
 - This module specifies the security types assigned to processes and files and the access rules between them.
@@ -54,4 +54,4 @@ semodule -i firefox_restrict.pp
 
 ---
 #### References
-- [[(Saini, Gaur, et al., 2015)]] proposed modification to create a functional and secure sandbox environment for Browsers like Firefox
+- [[(Saini, Gaur, et al., 2015)]] proposed modification to create a functional and secure [[sandbox environment]] for Browsers like Firefox

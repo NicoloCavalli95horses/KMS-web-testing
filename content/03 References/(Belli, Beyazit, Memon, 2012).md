@@ -11,7 +11,7 @@ https://ieeexplore.ieee.org/abstract/document/6258472
 @INPROCEEDINGS{6258472,
   author={Belli, Fevzi and Beyazit, Mutlu and Memon, Atif},
   booktitle={2012 IEEE Sixth International Conference on Software Security and Reliability Companion}, 
-  title={Testing is an Event-Centric Activity}, 
+  title={[[Testing is an Event-Centric Activity]]}, 
   year={2012},
   volume={},
   number={},

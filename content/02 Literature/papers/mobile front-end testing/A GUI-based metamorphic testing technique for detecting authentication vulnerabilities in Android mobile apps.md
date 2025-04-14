@@ -11,11 +11,11 @@ tags:
 ---
 ## Context
 
-Authentication vulnerabilities in mobile applications are present even in high-rated and high-downloaded applications.
-[[MT (metamorphic testing)]], combined with [[GUI (graphical user interface)]] testing, through a capture-and-replay methodology ([[black-box testing]]) can be exploited to detect vulnerabilities in Android mobile applications, particularly those that disregard OAuth 2.0 guidelines.
+[[authentication vulnerabilities]] in mobile applications are present even in high-rated and high-downloaded applications.
+[[MT (metamorphic testing)]], combined with [[GUI (graphical user interface)]] testing, through a capture-and-replay methodology ([[black-box testing]]) can be exploited to detect vulnerabilities in Android mobile applications, particularly those that disregard [[OAuth]] 2.0 guidelines.
 
 Peculiarity of the study:
-- unlike existing approaches that primarily focus on detecting authentication vulnerabilities through static code analysis and automated orchestration, ==this method operates at the GUI level during run-time==
+- unlike existing approaches that primarily focus on detecting [[authentication vulnerabilities]] through static code analysis and automated orchestration, ==this method operates at the GUI level during run-time==
 - MT testing is applied to the GUI context
 
 ## Approach

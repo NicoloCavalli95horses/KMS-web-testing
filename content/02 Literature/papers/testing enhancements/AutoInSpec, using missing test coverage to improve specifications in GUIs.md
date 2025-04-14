@@ -13,7 +13,7 @@ Developers of a software’s graphical user interface (GUI) often *fail to docum
 
 This leads to unexpected behavior that creates ==unrecoverable situations for automatically generated test suites, and missed coverage.==
 - In this paper, we present **AutoInSpec**, a technique to infer an important class of specifications, temporal and state-based invariants between GUI events that have been incorrectly modeled
-- Unlike existing specification mining approaches, that require full execution traces, or source code, and that mine all invariants, we simplify the problem. We guide AutoInSpec with coverage criteria and use a previously developed repair framework that builds coverage-adequate test suites, removing unexecutable sub-sequences from consideration
+- Unlike existing specification mining approaches, that require full execution traces, or source code, and that mine all invariants, we simplify the problem. We guide AutoInSpec with [[coverage criteria]] and use a previously developed repair framework that builds coverage-adequate test suites, removing unexecutable sub-sequences from consideration
 - These failing sub-sequences are input to a logic-based inference engine, armed with known invariant templates, to obtain the missing specifications. We validate AutoInSpec on a set of well studied GUI applications
 
 ### Main concepts

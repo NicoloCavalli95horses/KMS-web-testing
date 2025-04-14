@@ -12,7 +12,7 @@ https://ieeexplore.ieee.org/abstract/document/9092263?casa_token=aiUTgfd1qLsAAAA
 @INPROCEEDINGS{9092263,
   author={Rauti, Sampsa and Leppänen, Ville},
   booktitle={2018 International Conference on Software Security and Assurance (ICSSA)}, 
-  title={A Comparison of Online JavaScript Obfuscators}, 
+  title={[[A Comparison of Online JavaScript Obfuscators]]}, 
   year={2018},
   volume={},
   number={},

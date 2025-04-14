@@ -50,7 +50,7 @@ recursiveFunction();
 	- The false positive are rare because they have software execution information 
 	- The method is computationally expensive because the inserted code need to be executed for each buffer operation and function call
 - Application security tools
-	- STOBO is a tool that can execute a systematic testing of buffers overflows
+	- STOBO is a tool that can execute a [[systematic testing]] of buffers overflows
 	- Checkmarx
 	- HP Fortify: supports most used language, including JavaScript, Java, C/C++, PHP, Python, XML/HTML
 	- Klocwork

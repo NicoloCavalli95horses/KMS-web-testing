@@ -6,7 +6,7 @@ tags:
   - remoteCommandExecution
   - XSS
   - SQLIA
-  - fuzzing
+  - [[fuzzing]]
   - greyBox
   - PHP
   - cyberSecurity
@@ -15,15 +15,15 @@ Project:
 ---
 ## Context
 
-To this day, PHP is the server-side language that drives *over 75% of the websites.* Automated security testing tools promise to facilitate the discovery of vulnerabilities.
+To this day, PHP is the server-side language that drives *over 75% of the websites.* Automated [[security testing]] tools promise to facilitate the discovery of vulnerabilities.
 - One such approach is [[fuzzing]] testing, in which a fuzzer generates seemingly random inputs fed to the target application to trigger unintended behavior, potentially leading to vulnerabilities
 
-Little work exists on grey box coverage-guided fuzzing to web applications due to the research strong focus on low-level applications (fuzzing is mostly used with binary)
+Little work exists on grey box coverage-guided [[fuzzing]] to web applications due to the research strong focus on low-level applications ([[fuzzing]] is mostly used with binary)
 
 **Contributions**
-- A novel crawler-free approach to seeding the fuzzer with endpoints, allowing more fine-grained control over the fuzzing scope
+- A novel crawler-free approach to seeding the fuzzer with endpoints, allowing more fine-grained control over the [[fuzzing]] scope
 - A novel [[instrumentation]] approach without modifications to the fuzzed application’s source code or related components (i.e., databases), capable of intercepting PHP exceptions or errors, and bypassing authentication and authorization functionality to collect more code coverage
-- A novel vulnerability detection approach to discover web vulnerability, supporting parallel fuzzing out-of-the-box, making it suitable for large-scale fuzzing testing
+- A novel vulnerability detection approach to discover web vulnerability, supporting parallel [[fuzzing]] out-of-the-box, making it suitable for large-scale [[fuzzing]] testing
 - Two [[zero-day vulnerability]] found and approved by Certified Numbering Authority (CNA) WPScan
 
 ## Background
@@ -42,10 +42,10 @@ This work focuses on ==user-supplied input (HTTP headers, cookies, query, body p
 ### Phuzz implementation
 
 ![[phuzz_implementation.png]]
-- **browser and crawler**: the process begins with obtaining endpoints that are to be fuzzed. We define an endpoint as a URL path, and request method with a specific set parameters (HTTP headers, query, body, and cookie parameters). We implement a crawling component to discover fuzzable endpoints automatically, with Playwright. Browser DevTools are used to capture and save all HTTP requests performed while interacting with the application
+- **browser and crawler**: the process begins with obtaining endpoints that are to be fuzzed. We define an endpoint as a URL path, and request method with a specific set parameters (HTTP headers, query, body, and [[cookie]] parameters). We implement a crawling component to discover fuzzable endpoints automatically, with Playwright. Browser DevTools are used to capture and save all HTTP requests performed while interacting with the application
 - **HARgen**: this component generates configuration files for Phuzz from a given [[HAR file]], which is the output of the previous step.
-- **Composegen**: in order to orchestrate all components and their respective Docker containers to launch Phuzz with the desired configuration in a reproducible manner, we use the docker-compose extension
-- **Login script**: to support fuzzing of endpoints that require authentication or authorization, a login script can be executed during Phuzz startup to obtain session cookies, which will be used in all subsequent fuzzing requests to the target
+- **Composegen**: in order to orchestrate all components and their respective [[Docker]] containers to launch Phuzz with the desired configuration in a reproducible manner, we use the [[Docker]]-compose extension
+- **Login script**: to support [[fuzzing]] of endpoints that require authentication or authorization, a login script can be executed during Phuzz startup to obtain session cookies, which will be used in all subsequent [[fuzzing]] requests to the target
 - **Fuzzer**: The Fuzzer component is the centerpiece of the Phuzz framework
 	- It takes the endpoints to be fuzzed from the loaded configuration files and generates test cases, which we call *candidates*
 	- The mutation-based candidate generation follows a basic [[energy-based algorithm]]
@@ -54,7 +54,7 @@ This work focuses on ==user-supplied input (HTTP headers, cookies, query, body p
 	- This information is then processed by multiple vulnerability detectors to identify security issues and rate the candidate
 	- The candidate with the highest rating is chosen for the next mutation iteration
 	- Multiple instances of the fuzzer can run in parallel and synchronize generated test cases
-- **Shared volume**: Phuzz uses an in-memory Docker volume to provide a shared filesystem for information exchange between all containers
+- **Shared volume**: Phuzz uses an in-memory [[Docker]] volume to provide a shared filesystem for information exchange between all containers
 - **Web server**: Apache by default
 - **Database**: MySQL by default
 

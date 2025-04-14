@@ -8,11 +8,11 @@ tags:
 ---
 ## Definition
 
-Attribute Based Access Control (ABAC) will grant or deny user access ==based on arbitrary attributes of the user and arbitrary attributes of the object==, and environment conditions that may be globally recognized, and more relevant to the policies at hand.
+Attribute Based [[access control]] (ABAC) will grant or deny user access ==based on arbitrary attributes of the user and arbitrary attributes of the object==, and environment conditions that may be globally recognized, and more relevant to the policies at hand.
 
-Access Control design may start simple but can often become complex and feature-heavy security control.
+[[access control]] design may start simple but can often become complex and feature-heavy security control.
 
-When evaluating the access control capability of software frameworks, ensure that your access control functionality will allow for customization for your specific access control feature need.
+When evaluating the [[access control]] capability of software frameworks, ensure that your [[access control]] functionality will allow for customization for your specific [[access control]] feature need.
 
 ---
 #### References

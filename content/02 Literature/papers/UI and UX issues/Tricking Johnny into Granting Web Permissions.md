@@ -3,7 +3,7 @@ ID: 2025-03-11
 tags:
   - paper
   - browser
-  - clickjacking
+  - [[clickjacking]]
   - cyberSecurity
 ---
 ## Context

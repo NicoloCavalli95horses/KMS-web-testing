@@ -7,7 +7,7 @@ tags:
 ---
 ## Definition
 
-BRF (Balance Random Forest) is a variant of [[random forest]] technique designed to solve the problem of imbalanced dataset. That is, a dataset in which a class has much more example of another one (e.g., in a dataset of bank transactions, regular transactions are much more frequent that fraudulent transactions).
+BRF (Balance [[random forest]]) is a variant of [[random forest]] technique designed to solve the problem of imbalanced dataset. That is, a dataset in which a class has much more example of another one (e.g., in a dataset of bank transactions, regular transactions are much more frequent that fraudulent transactions).
 
 It is a [[machine learning]] technique used to classify an input into a predetermined output class.
 ## When to use

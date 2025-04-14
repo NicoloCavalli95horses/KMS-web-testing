@@ -12,7 +12,7 @@ Debugging ==with a storage dump== (a crude display of all storage locations in h
 Debugging ==using print/console commands== 
 - does not encourage you to think about the program
 - it is a hit-or-miss method
-- it requires to change the program and those changes may mask the error, alter critical timing relationships or introduce new errors
+- it requires to change the program and those changes may mask the [[error]], alter critical timing relationships or introduce new errors
 - not possible in all kind of programs
 
 Debugging with ==automated debugging tools==
@@ -21,7 +21,7 @@ Debugging with ==automated debugging tools==
 
 **Debugging by induction or deduction** 
 Careful thought will find most errors
-- induction means *reasoning from the particular to the general*. That is, start with the clues (the symptoms of the error and possibly the results of one or more test cases) and look for relationships among the clues to find where the bug is.
+- induction means *reasoning from the particular to the general*. That is, start with the clues (the symptoms of the [[error]] and possibly the results of one or more test cases) and look for relationships among the clues to find where the bug is.
 - deduction means *reasoning from the general to the particular*. We proceed from some general theories or premises, using the processes of elimination and refinement, to arrive at a conclusion
 
 **Debugging by backtracking**
@@ -32,5 +32,5 @@ An effective method for locating errors in small programs is to backtrack the in
 Using ad hoc test suits to detect the bugs in a specific piece of code
 
 > [!NOTE]
-> Corrections are much more error prone than the original code in the program. 
+> Corrections are much more [[error]] prone than the original code in the program. 
 

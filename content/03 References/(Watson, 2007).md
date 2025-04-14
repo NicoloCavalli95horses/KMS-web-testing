@@ -6,7 +6,7 @@ tags:
 ## BibTeX
 
 @article{watson2007web,
-  title={Web application attacks},
+  title={[[Web application attacks]]},
   author={Watson, David},
   journal={Network Security},
   volume={2007},

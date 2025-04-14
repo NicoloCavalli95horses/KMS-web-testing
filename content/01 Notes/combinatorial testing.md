@@ -17,7 +17,7 @@ Testers use combinatorial testing techniques, such as [[CA (covering array)]], b
 
 - Covers a broad range of input combinations using a minimum number of test cases
 - Increases test coverage compared to normal component testing since it always considers multiple input combinations
-- Helps to detect [[error]], bugs, fails, [[CVE (common vulnerabilities and exposures)]], and unexpected outputs that might not be detected during the usual component and regression testing phases
+- Helps to detect [[error]], bugs, fails, [[CVE (common vulnerabilities and exposures)]], and unexpected outputs that might not be detected during the usual component and [[regression testing]] phases
 - Reduces testing effort, cost, and time, since combinatorial tests use fewer test cases to cover a wide scope of testing
 - Identifies issues ==at the earliest== while allowing the team to address and fix those earlier in the software development life cycle
 - Optimizes the testing process by removing unwanted test cases while ensuring that the cost and effort are not wasted on repeating the same test scenarios again and again

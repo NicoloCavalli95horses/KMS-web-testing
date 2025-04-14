@@ -3,8 +3,8 @@ ID: 2025-03-28T08:57:17.512Z
 tags:
   - paper
   - projectSLR
-  - cookie
-  - IndexedDB
+  - [[cookie]]
+  - [[IndexedDB]]
   - HTML
 Project:
   - SLR
@@ -18,11 +18,11 @@ Browser-based storage options, including [[Web Storage API (localStorage, sessio
 Businesses operating over the Internet need to maintain relations with their customers to ensure continuity, recognize previous customers, and simplify the eCommerce process. This is done using [[cookie]]
 - cookies may be stolen, poisoned or injected, leaking sensitive information such as session IDs
 
-**Security risks with IndexedDB**
-- standard forensic tools may be used to identify data stored, and then deleted from IndexedDB
+**Security risks with [[IndexedDB]]**
+- standard forensic tools may be used to identify data stored, and then deleted from [[IndexedDB]]
 - data stored on the client file system is unencrypted
 - deleted data is not really deleted and it is recoverable in forensic environment
-- given the IndexedDB design, it is possible to iterate over all tables (object stores) and read the whole content of the database in one fell swoop
+- given the [[IndexedDB]] design, it is possible to iterate over all tables (object stores) and read the whole content of the database in one fell swoop
 
 ---
 #### References

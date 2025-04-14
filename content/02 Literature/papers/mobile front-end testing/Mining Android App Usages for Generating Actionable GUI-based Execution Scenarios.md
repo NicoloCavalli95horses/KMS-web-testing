@@ -21,7 +21,7 @@ Although several tools are available to support automated execution of Android a
 The Android ecosystem is so heterogeneous that some apps may have users coming from up to 132 unique devices.
 
 **What are GUI models**: abstract representations that can be decoupled from device dimensions and event locations and that remain valid if small changes occur (e.g., a change in a button location). 
-- dynamic and static analysis are currently used to get GUI models, but these approaches fail to generate representative scenarios. The typical, normale end-user experience and the common application usage is not easily detected
+- dynamic and [[static analysis]] are currently used to get GUI models, but these approaches fail to generate representative scenarios. The typical, normale end-user experience and the common application usage is not easily detected
 - industrial usage of these models is challenging, because (1) creating these models require extensive expertise and (2) using these models assumes a logical mapping between the model and the actual system
 
 > [!NOTE]
@@ -29,16 +29,16 @@ The Android ecosystem is so heterogeneous that some apps may have users coming f
 
 Mining GUI-based models from ==event logs== collected during routine executions
 To generate [[ESG (event sequence graph)]]:
-- filter the events mined from the app with "feasible events", detected with a static analysis
+- filter the events mined from the app with "feasible events", detected with a [[static analysis]]
 - exploits a space of possible interaction paths
 
 Monkeylab is independent from specific Android devices or API platform versions
 
 The system:
 - mimics a manual system, interacting with the [[SUT (system under test)]] naturally using GUI based actions or gestures
-- has context awareness of an app's execution history. This is made possible by using  [[LM (word n-gram language model)]] to generate event sequences, that consider program structure and previous executions. Both static and dynamic analysis are combined to augment the vocabulary used by LMs
+- has context awareness of an app's execution history. This is made possible by using  [[LM (word n-gram language model)]] to generate event sequences, that consider program structure and previous executions. Both static and [[dynamic analysis]] are combined to augment the vocabulary used by LMs
 - generate actionable scenarios as sequences of events that can be reproduced automatically. These streams are human readable sequences that developers can easily comprehend and that are not couple to locations in the screen
-- can be executed remotely avoiding instrumentation overhead
+- can be executed remotely avoiding [[Instrumentation]] overhead
 
 The process:
 1. developer/testers use the app naturally

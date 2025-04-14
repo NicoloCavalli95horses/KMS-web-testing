@@ -12,7 +12,7 @@ https://ieeexplore.ieee.org/abstract/document/10317708
 @INPROCEEDINGS{10317708,
   author={Onukrane, Agnija and Skrodelis, Heinrihs Kristians and Merkurjeva, Galina and Romanovs, Andrejs},
   booktitle={2023 IEEE 64th International Scientific Conference on Information Technology and Management Science of Riga Technical University (ITMS)}, 
-  title={Navigating Web Application Security: A Survey of Vulnerabilities and Detection Solutions}, 
+  title={Navigating [[Web application security]]: A Survey of Vulnerabilities and Detection Solutions}, 
   year={2023},
   volume={},
   number={},

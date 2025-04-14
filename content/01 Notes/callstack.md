@@ -40,4 +40,4 @@ In the example:
 
 The call stack is essential for controlling the flow of execution of a program and for managing recursion.
 
-If the call stack becomes too full, due to too many calls, an error called stack overflow occurs. This phenomenon is equivalent to the concept of [[buffer overflow]], but at a higher level of abstraction.
+If the call stack becomes too full, due to too many calls, an [[error]] called stack overflow occurs. This phenomenon is equivalent to the concept of [[buffer overflow]], but at a higher level of abstraction.

@@ -33,7 +33,7 @@ This papers compare these well-known CMSs and assesses their security by attacki
 
 The listed CMS provide good basic security that we have not been able to hack directly using various web hacking techniques. These CMS are usually hacked due to ==faulty and unofficial plugins==
 
-The penetration testing done with Acunetix highlighted that WordPress has few sensitive files and directories compared to the other CMSs. We can conclude that WordPress provides better security
+The penetration testing done with [[Acunetix]] highlighted that WordPress has few sensitive files and directories compared to the other CMSs. We can conclude that WordPress provides better security
 
 ---
 #### References

@@ -6,7 +6,7 @@ tags:
 ## BibTeX
 
 @inproceedings{arlt2012lightweight,
-  title={Lightweight static analysis for GUI testing},
+  title={Lightweight [[static analysis]] for GUI testing},
   author={Arlt, Stephan and Podelski, Andreas and Bertolini, Cristiano and Schaf, Martin and Banerjee, Ishan and Memon, Atif M},
   booktitle={2012 IEEE 23rd International Symposium on Software Reliability Engineering},
   pages={301--310},

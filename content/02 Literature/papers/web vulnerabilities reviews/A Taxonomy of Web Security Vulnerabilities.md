@@ -3,7 +3,7 @@ ID: 2025-02-13-10:49
 tags:
   - paper
   - webApplication
-  - taxonomy
+  - [[taxonomy]]
 ---
 ## Context
 
@@ -11,7 +11,7 @@ There are many types of web vulnerabilities including:
 - [[XSS (cross site scripting)]]
 - broken authentication and session management
 - injections flaws due to misconfiguration at the input side of web applications
-- improper error handling
+- improper [[error]] handling
 - sensitive data exposure 
 - broken [[access control]]
 - insufficient logging and monitoring
@@ -22,12 +22,12 @@ Researchers have built various tools to identify and mitigate web application vu
 	- manual code reviewing that requires physical access to the application’s source code
 - [[dynamic analysis]] tools activated while running the web application
 	- various malicious input patterns are submitted into the tested web application and the output is analyzed; if errors are detected, then one or more vulnerabilities are asserted
-	- Dynamic analysis consumes a lot of time testing the application since the critical weak point is not readily located.
+	- [[dynamic analysis]] consumes a lot of time testing the application since the critical weak point is not readily located.
 
-Dynamic analysis is divided into a "Black" box if the source code of the web application is unknown, and a "White" box if the source code is available.
+[[dynamic analysis]] is divided into a "Black" box if the source code of the web application is unknown, and a "White" box if the source code is available.
 - hybrid mix of tools (both static and dynamic
 
-The taxonomy in this paper starts out by ==classifying vulnerability detection ==tools, moving into ==classifying and defining vulnerabilities and their prevalence==, their ultimate ==impacts on the business entity==, and their detection tools at different web application architectural levels.
+The [[taxonomy]] in this paper starts out by ==classifying vulnerability detection ==tools, moving into ==classifying and defining vulnerabilities and their prevalence==, their ultimate ==impacts on the business entity==, and their detection tools at different web application architectural levels.
 
 **Authentication vulnerability**
 Broken authentication and session management: the attacker get access to protected resources, or to valid and active session of an user, bypassing the auth process

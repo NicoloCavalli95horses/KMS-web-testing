@@ -68,7 +68,7 @@ The URL path of a SW script can in some cases be manipulated to inject an attack
 
 ### Other attacks
 
-**Phishing**
+**[[phishing]]**
 A malicious SW could issue a notification that displays the Chrome icon and a message such as “Google Chrome Premium,” and a “DOWNLOAD” button, which when clicked on could lead the user to installing malicious code (see [[drive-by download]] attacks)
 
 **Malvertising**

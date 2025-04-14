@@ -12,10 +12,10 @@ This attacks happen when XML input comprising a link to an outer entity is proce
 - disclosure of confidential data,
 - server side request fake,
 - rejection of service,
-- port scanning
+- [[port]] scanning
 
 ---
 #### References
 - Included in literature review, by [[(Onukrane, Skrodelis, et al., 2023)]]
-- Cited in QR-code exploitation, by [[(Averin, 2020)]]
-- Covered by a fuzzing tester, by [[(Neef, Kleissner, et al., 2024)]]
+- Cited in [[QR-code]] exploitation, by [[(Averin, 2020)]]
+- Covered by a [[fuzzing]] tester, by [[(Neef, Kleissner, et al., 2024)]]

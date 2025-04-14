@@ -40,7 +40,7 @@ Different algorithms can be used to repair software statements. But GA performs 
 - **alleles**: the events that form the event sequence
 - **population**: is a list of test cases. The first one is generated randomly
 - **stopping criteria**: 1) max number of generation reached 2) max number of bad moves reached (e.g., the best fitness of the current population is worse than that of the previous one) 3) the best case of the population already covers the maximum number of t-way combinations one test case can cover
-- **fitness function**: 1) feasibility of the test case 2) the new coverage a test case brings
+- **[[fitness function]]**: 1) feasibility of the test case 2) the new coverage a test case brings
 - **crossover and mutation**: test cases are ranked in descending order and pair consecutive chromosomes. A one-point crossover is used.
 
 ---

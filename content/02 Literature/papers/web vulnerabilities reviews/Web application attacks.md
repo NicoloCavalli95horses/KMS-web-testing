@@ -23,10 +23,10 @@ High-level history of web browser and web technology evolution. Web attacks are 
 - [[IDOR (Insecure Direct Object Reference)]]
 - remote malicious file inclusion: common in old PHP
 - [[CSRF (cross-site request forgery)]]
-- access control weaknesses
+- [[access control]] weaknesses
 - authentication and session management failures
 - data confidentiality failures
-- poor error handling
+- poor [[error]] handling
 
 ---
 #### References

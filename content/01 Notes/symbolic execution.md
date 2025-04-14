@@ -25,7 +25,7 @@ To test this function, we could try with different inputs, such as:
 - add(0, 1)
 - add(-2.3. -6)
 
-This manual approach could work, but may be time consuming and error prone, in case we forgot to provide a combination of numbers that leads the execution to the implicit "else" part.
+This manual approach could work, but may be time consuming and [[error]] prone, in case we forgot to provide a combination of numbers that leads the execution to the implicit "else" part.
 
 A symbolic approach would use abstract value and would focus on the condition instead of the concrete input.
 - instead of providing integers, such as 3, 4, we provide abstraction, such as a > 0, b > 0, and then the symbolic executor will use concrete inputs to test the execution
@@ -46,5 +46,5 @@ Also known as: symbolic evaluation, symbex
 See [[concolic execution]].
 
 ## References
-https://it.eitca.org/cybersecurity/eitc-is-acss-advanced-computer-systems-security/security-analysis/symbolic-execution/examination-review-symbolic-execution/what-is-the-basic-idea-behind-symbolic-execution-and-how-does-it-differ-from-ordinary-testing-or-fuzzing/
+https://it.eitca.org/cybersecurity/eitc-is-acss-advanced-computer-systems-security/security-analysis/symbolic-execution/examination-review-symbolic-execution/what-is-the-basic-idea-behind-symbolic-execution-and-how-does-it-differ-from-ordinary-testing-or-[[fuzzing]]/
 [[(Le, Huu-Tung, Pham, et al., 2019)]]

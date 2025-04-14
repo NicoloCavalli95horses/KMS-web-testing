@@ -41,14 +41,14 @@ As organizations grow, the number of roles within the RBAC system can proliferat
 Role creep occurs when users are assigned additional permissions beyond their core job responsibilities, leading to an accumulation of unnecessary access rights. This can result in a bloated RBAC system with overly permissive roles, increasing the risk of unauthorized access and insider threats.
 
 **Lack of flexibility**
-Difficulty in accommodating dynamic environments: RBAC systems may struggle to adapt to dynamic organizational structures and evolving access requirements. As roles and responsibilities change over time, administrators may find it challenging to update role definitions and permissions accordingly, leading to gaps in access control and potential security vulnerabilities.
+Difficulty in accommodating dynamic environments: RBAC systems may struggle to adapt to dynamic organizational structures and evolving access requirements. As roles and responsibilities change over time, administrators may find it challenging to update role definitions and permissions accordingly, leading to gaps in [[access control]] and potential security vulnerabilities.
 
 **Potential for over-restriction**
 In an effort to enforce strict access controls, RBAC systems may inadvertently over-restrict user access, hindering productivity and business operations. Overly restrictive access policies can lead to frustration among users and may necessitate frequent requests for access modifications, adding to administrative overhead.
 
 **Scalability issues**
 - Managing access in large organizations: RBAC systems may encounter scalability issues in large organizations with thousands of users or complex role structures. As the number of users and roles grows, managing access rights and enforcing access policies becomes increasingly challenging, potentially leading to performance degradation & administrative inefficiencies.
-- Performance considerations: RBAC systems must strike a balance between robust access control mechanisms and performance considerations. As access control policies become more complex and granular, there is a risk of increased latency and system overhead. 
+- Performance considerations: RBAC systems must strike a balance between robust [[access control]] mechanisms and performance considerations. As [[access control]] policies become more complex and granular, there is a risk of increased latency and system overhead. 
 
 ### Best practices for implementing RBAC
 
@@ -56,7 +56,7 @@ In an effort to enforce strict access controls, RBAC systems may inadvertently o
 - Mapping roles to organizational structure or hierarchy, to ensure clarity and consistency
 - Regularly review and audit user access rights to ensure compliance
 - Identify and remove unused access or unnecessary access rights
-- implement automated tools or solutions to improve efficiency and reduce human error
+- implement automated tools or solutions to improve efficiency and reduce human [[error]]
 - integrate RBAC with other security solutions
 
 ## Example of a vulnerability

@@ -29,12 +29,12 @@ In an ideal world, we would want to test every possible permutation of a program
 
 Definition of testing from the assumption that the program contains errors (p.20):
 
-~~Testing is demonstrating that the code is error-free~~ this is virtually impossible
+~~Testing is demonstrating that the code is [[error]]-free~~ this is virtually impossible
 
 > [!What is software testing]
 Testing is the process of executing a program with the intent of finding errors
 
-Do not try to demonstrate that a program is error-free. Instead, try to demonstrate that the program has errors. The output of this attitude leads to add value to the code.
+Do not try to demonstrate that a program is [[error]]-free. Instead, try to demonstrate that the program has errors. The output of this attitude leads to add value to the code.
 
 The idea is to consider the software as a sick patient:
 - if we test it and we don't find anything, it's like paying a doctor for a useless service that make you question his abilities

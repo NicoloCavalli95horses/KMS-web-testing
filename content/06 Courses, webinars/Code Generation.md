@@ -13,7 +13,7 @@ Challenges:
 - **Natural language**: too high level for certain problems
 
 **Framework for code synthesis**
-- DSL (domain specific languages)
+- DSL ([[domain]] specific languages)
 - logic modulo theories
 - logic programming (see [[prolog (programming language)]])
 - functional programming

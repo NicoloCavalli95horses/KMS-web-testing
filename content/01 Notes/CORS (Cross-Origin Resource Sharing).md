@@ -9,7 +9,7 @@ tags:
 ---
 Cross-Origin Resource Sharing (CORS) is an HTTP-header based mechanism that allows a ==server== to indicate any origins ([[domain]], scheme, or [[port]]) other than its own, ==from which a browser should permit loading resources==.
 
-CORS is a set of rules that control how web applications hosted on one domain can request resources from a different domain
+CORS is a set of rules that control how web applications hosted on one [[domain]] can request resources from a different [[domain]]
 - They are necessary to enhance **security** by preventing potentially malicious behavior from web pages
 - CORS represent a way to customize the default behavior of [[SOP (Same-Origin Policy)]]
 - CORS is implemented server-side

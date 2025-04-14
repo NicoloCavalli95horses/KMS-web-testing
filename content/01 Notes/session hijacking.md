@@ -17,7 +17,7 @@ Session fixation is an attack in which an attacker forces a legitimate user to u
 - this SID may be provided by the web server, or even guessed or created by the attacker if the target application allows so
 - the victim access the target application using the controlled SID[^1]. This may occur if:
 	- the attacker send a [[phishing]] link to the victim. The link is a URL that contains the SID as a query string. In this case, the SID is clean and it is accepted as GET parameter
-	- the malicious SID is set on the victim's browser, often via XSS[^2]. in this case, SID assignment is invisible to the victim and it is due to a cookie that has been set illegitimately
+	- the malicious SID is set on the victim's browser, often via XSS[^2]. in this case, SID assignment is invisible to the victim and it is due to a [[cookie]] that has been set illegitimately
 - the user clicks the link and signs into the application, creating an account with valid username and password
 - the hacker ==can access the victime profile== because the victim credentials are bound to the SID
 - if the victim logs out, the hacker can still access his profile, provided that the SID is not invalidated or re-generated
@@ -50,4 +50,4 @@ This is when SID are passed as URL parameters during the request and response cy
 
 [^1]: That is, the victim creates a new profile using new credentials and execute a POST request that includes the new credentials and the SID controlled by the attacker
 
-[^2]: If JavaScript can be injected, it is enough to write the SID using `cookie.write()`. If JavaScript is rejected but not HTML, an attacker could inject a `<meta http-equiv="Set-Cookie">` tag
+[^2]: If JavaScript can be injected, it is enough to write the SID using `[[cookie]].write()`. If JavaScript is rejected but not HTML, an attacker could inject a `<meta http-equiv="Set-Cookie">` tag

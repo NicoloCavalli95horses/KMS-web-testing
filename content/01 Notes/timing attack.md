@@ -17,7 +17,7 @@ This type of attack ==uses variations in the execution times of operations to ob
 The basic idea is that the time it takes a system to process an operation *can depend on the internal data*. ==An attacker can send specific inputs and precisely measure the response time to infer information==.
 
 **Early Terminating String Comparison**
-If an authentication function verifies a password character by character and stops when it finds an error, ==the processing time will be longer if the first few characters are correct==.
+If an authentication function verifies a password character by character and stops when it finds an [[error]], ==the processing time will be longer if the first few characters are correct==.
 - An attacker can test characters one at a time and reconstruct the password.
 
 **Decrypting Cryptographic Data**
@@ -33,7 +33,7 @@ If a system uses the CPU cache, some operations (e.g. memory accesses) may be fa
 
 ### Attack example in the web
 
-- The victim opens the malicious site (via phishing, infected ads, or other [[social engineering]] methods).
+- The victim opens the malicious site (via [[phishing]], infected ads, or other [[social engineering]] methods).
 - The malicious site embeds an ==invisible iframe== with a private page of the victim, such as a social network profile
 - If the victim is logged in, the iframe loads a customized version of the page (with avatar, feed, etc.)
 - If the victim is not logged in, they are redirected to the login page, which has a different layout and loading time. ==Rendering times can be exaggerated by making use of CSS filters==

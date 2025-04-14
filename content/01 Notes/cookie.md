@@ -12,7 +12,7 @@ The most widespread solution for tracking state relies on **cookies**
 - cookies are key-value pairs which are chosen by the server so as to identify the user’s browser or save the application state
 - Cookies are small text files stored on a browser and are sent automatically with each HTTP
 
-Cookies have been a primary source of controversy since they can be misused and lead to violations of Internet privacy.
+Cookies have been a primary source of controversy since they can be misused and lead to violations of Internet [[privacy]].
 
 The storage capacity of a cookie is 4KB [[(Zhu, 2021)]]
 - A cookie will be attached to the header of each HTTP request: if more content is stored it will have a bad impact on HTTP communication efficiency
@@ -20,7 +20,7 @@ The storage capacity of a cookie is 4KB [[(Zhu, 2021)]]
 
 ### Third party cookies
 
-Although cookies may be set only by the visited domain, it is possible for a page to contain images or elements from other domains. Cookies set from external domains while retrieving such elements are called ==third party cookies==
+Although cookies may be set only by the visited [[domain]], it is possible for a page to contain images or elements from other domains. Cookies set from external domains while retrieving such elements are called ==third party cookies==
 - Usually found in advertisements,  third party cookies can be used to track a user across multiple domains without explicit  permission from the user
 - the user has no control over the way their data is used
 - if cookies are transmitted via HTTP, a packet-sniffing third party may intercept sensitive data

@@ -6,7 +6,7 @@ tags:
 ---
 ## Definition
 
-RL is a branch of machine learning that focuses on teaching agents to make decisions by interacting with an environment
+RL is a branch of [[machine learning]] that focuses on teaching agents to make decisions by interacting with an environment
 
 Through a system of rewards and penalties, the agent learns to take actions that maximize the cumulative reward over time
 
