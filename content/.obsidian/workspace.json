@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "96 Meta/SLR/Paper list.md",
+                "file": "96 Meta/SLR/Tags analysis.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Paper list"
+              "title": "Tags analysis"
             }
           }
         ]
@@ -185,8 +185,8 @@
   },
   "active": "3aaefd53ea27ff16",
   "lastOpenFiles": [
-    "96 Meta/PhD status.md",
     "96 Meta/SLR/Paper list.md",
+    "96 Meta/PhD status.md",
     "02 Literature/papers/parameter tampering/WAPTEC. whitebox analysis of web applications for parameter tampering exploit construction.md",
     "01 Notes/benchmark testing.md",
     "04 Canvases/mind maps/ideas/Formal model of vulnerable JS component.canvas",
