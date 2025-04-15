@@ -163,15 +163,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.08666666666666667,
-      "characterCount": 406,
+      "characterCount": 407,
       "nonWhitespaceCharacterCount": 254,
       "readingTimeInMinutes": 0.09811320754716982,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985195,
-      "modifiedDate": 1744618386603,
-      "sizeInBytes": 449,
+      "modifiedDate": 1744717803180,
+      "sizeInBytes": 450,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.08666666666666667,
@@ -2205,39 +2205,6 @@
         "wordCount": 119,
         "characterCount": 743,
         "nonWhitespaceCharacterCount": 608
-      },
-      "frontmatter": {
-        "ID": "2025-03-05-11:00",
-        "tags": [
-          "course",
-          "french"
-        ],
-        "speaker": "Marjorie Vincent"
-      }
-    },
-    "06 Courses, webinars/FLE French Course/French Course 08-01-2025.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 237,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.79,
-      "characterCount": 1421,
-      "nonWhitespaceCharacterCount": 1134,
-      "readingTimeInMinutes": 0.8943396226415095,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1744113498073,
-      "modifiedDate": 1744119196820,
-      "sizeInBytes": 1503,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.79,
-        "wordCount": 237,
-        "characterCount": 1421,
-        "nonWhitespaceCharacterCount": 1134
       },
       "frontmatter": {
         "ID": "2025-03-05-11:00",
@@ -21268,19 +21235,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 454,
+      "wordCount": 793,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.5133333333333334,
-      "characterCount": 3147,
-      "nonWhitespaceCharacterCount": 2649,
-      "readingTimeInMinutes": 1.7132075471698114,
+      "pageCount": 2.6433333333333335,
+      "characterCount": 5455,
+      "nonWhitespaceCharacterCount": 4612,
+      "readingTimeInMinutes": 2.9924528301886792,
       "linkCount": 7,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744707242466,
-      "modifiedDate": 1744716903502,
-      "sizeInBytes": 3306,
+      "modifiedDate": 1744718185179,
+      "sizeInBytes": 5614,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -21368,6 +21335,64 @@
           "CFG",
           "staticAnalysis"
         ]
+      }
+    },
+    "06 Courses, webinars/FLE French Course/French Course 04-08-2025.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 245,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.8166666666666667,
+      "characterCount": 1503,
+      "nonWhitespaceCharacterCount": 1201,
+      "readingTimeInMinutes": 0.9245283018867925,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744113498073,
+      "modifiedDate": 1744119196820,
+      "sizeInBytes": 1503,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "06 Courses, webinars/FLE French Course/French Course 04-15-2025.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 28,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.09333333333333334,
+      "characterCount": 209,
+      "nonWhitespaceCharacterCount": 172,
+      "readingTimeInMinutes": 0.10566037735849057,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744718566684,
+      "modifiedDate": 1744720522970,
+      "sizeInBytes": 294,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-03-05-11:00",
+        "tags": [
+          "course",
+          "french"
+        ],
+        "speaker": "Marjorie Vincent"
       }
     }
   }
