@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e0c7a4353a278677",
+        "id": "077351c9d3cb4f6f",
         "type": "tabs",
         "children": [
           {
-            "id": "c2fd93ce868aff3e",
+            "id": "fd869734d3b3c7a7",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -181,6 +181,7 @@
   },
   "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
+    "02 Literature/papers/XCS (Cross Channel Scripting)/XCS. Cross Channel Scripting and its impact on web applications.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/The Great Request Robbery. An Empirical Study of Client-side Request Hijacking Vulnerabilities on the Web.md",
     "01 Notes/CSRH (Client-Side Request Hijacking).md",
     "01 Notes/redirect attack.md",
@@ -209,7 +210,6 @@
     "01 Notes/IndexedDB.md",
     "01 Notes/MF (Micro-Frontend) architecture.md",
     "02 Literature/papers/testing enhancements/Mutta. A novel tool for E2E web mutation testing.md",
-    "01 Notes/PoLP (principle of least privilege).md",
     "04 Canvases/mind maps/ideas/Formal model of vulnerable JS component.canvas",
     "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
     "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
