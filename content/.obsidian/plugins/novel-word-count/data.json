@@ -21269,6 +21269,101 @@
           "#definition"
         ]
       }
+    },
+    "03 References/(Monshizadeh, Naldurg, et al., 2016).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 243,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.81,
+      "characterCount": 1942,
+      "nonWhitespaceCharacterCount": 1673,
+      "readingTimeInMinutes": 0.9169811320754717,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744707242448,
+      "modifiedDate": 1744707242448,
+      "sizeInBytes": 1944,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "02 Literature/papers/logic flow tampering/Patching Logic Vulnerabilities for Web Applications using LogicPatcher.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 281,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.9366666666666666,
+      "characterCount": 1957,
+      "nonWhitespaceCharacterCount": 1644,
+      "readingTimeInMinutes": 1.060377358490566,
+      "linkCount": 4,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744707242466,
+      "modifiedDate": 1744709964386,
+      "sizeInBytes": 2080,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-15T08:54:02.435Z",
+        "tags": [
+          "paper",
+          "projectSLR",
+          "businessFlowTampering",
+          "patching"
+        ],
+        "Project": [
+          "SLR"
+        ]
+      }
+    },
+    "00 Antilibrary/logic vulnerability.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 37,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.12333333333333334,
+      "characterCount": 303,
+      "nonWhitespaceCharacterCount": 256,
+      "readingTimeInMinutes": 0.13962264150943396,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744708182803,
+      "modifiedDate": 1744708266231,
+      "sizeInBytes": 404,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-15-11:09",
+        "tags": [
+          "#definition",
+          "businessFlowTampering",
+          "logicVulnerability"
+        ]
+      }
     }
   }
 }
