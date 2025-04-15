@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "75f61b1c74f701d6",
+        "id": "75796355b33e7f7b",
         "type": "tabs",
         "children": [
           {
-            "id": "a1b3cc4c70bcdd46",
+            "id": "ca0c5ae5ed9ee69d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Notes/XSS (Cross Site Scripting)/XSS (cross site scripting).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "XSS (cross site scripting)"
+              "title": "New tab"
             }
           }
         ]
@@ -79,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 485.5026054382324
+    "width": 280.5026054382324
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -184,14 +179,23 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "a1b3cc4c70bcdd46",
+  "active": "ca0c5ae5ed9ee69d",
   "lastOpenFiles": [
+    "01 Notes/XSS (cross site scripting).md",
+    "01 Notes/XSS and CSFR comparison.md",
+    "01 Notes/XSS (Cross Site Scripting)/mitigation/mixed approaches.md",
+    "01 Notes/XSS (Cross Site Scripting)/mitigation/Untitled.md",
+    "00 Antilibrary/ELET (Embedded Language Encapsulation Type).md",
+    "01 Notes/XSS (Cross Site Scripting)/mitigation/static approaches.md",
+    "01 Notes/XSS (Cross Site Scripting)/mitigation/dynamic approaches.md",
+    "01 Notes/XSS (Cross Site Scripting)/types/Service-worker XSS (SW-XSS).md",
+    "01 Notes/XSS (Cross Site Scripting)/mitigation",
+    "01 Notes/XSS (Cross Site Scripting)/types/Induced XSS.md",
+    "01 Notes/XSS (Cross Site Scripting)/types/DOM-based XSS.md",
     "01 Notes/XSS (Cross Site Scripting)/types/Reflected XSS.md",
     "01 Notes/XSS (Cross Site Scripting)/types/XCS (Cross Channel Scripting) based XSS.md",
     "01 Notes/XSS (Cross Site Scripting)/types/Stored XSS.md",
     "01 Notes/XSS (Cross Site Scripting)/types/Indirect stored XSS or third-party XSS.md",
-    "01 Notes/XSS (Cross Site Scripting)/XSS (cross site scripting).md",
-    "01 Notes/XSS (Cross Site Scripting)/types/DOM XSS.md",
     "01 Notes/XSS (Cross Site Scripting)/types",
     "01 Notes/XXE (XML external entities).md",
     "01 Notes/XCS (Cross Channel Scripting).md",
@@ -207,14 +211,6 @@
     "00 Antilibrary/stress testing.md",
     "00 Antilibrary/storage testing.md",
     "00 Antilibrary/standard graph matching.md",
-    "00 Antilibrary/SSRF (server-side request forgery).md",
-    "00 Antilibrary/SSL (secure sockets layer).md",
-    "00 Antilibrary/social engineering.md",
-    "00 Antilibrary/smuggling.md",
-    "00 Antilibrary/signature forgery.md",
-    "00 Antilibrary/serviceability or maintenance testing.md",
-    "00 Antilibrary/RNN (recurrent neural network).md",
-    "00 Antilibrary/reliability testing.md",
     "97 Assets/control_flow_graph.png",
     "97 Assets/faulty_url_validation_logic.png",
     "04 Canvases/models/research model.canvas",
@@ -240,7 +236,6 @@
     "97 Assets/sandbox_browser_sandfox.png",
     "02 Literature/papers/browser extension based attacks",
     "02 Literature/papers/parameter tampering",
-    "04 Canvases/mind maps/ideas",
-    "02 Literature/papers/WAF (Web Application Firewall)"
+    "04 Canvases/mind maps/ideas"
   ]
 }

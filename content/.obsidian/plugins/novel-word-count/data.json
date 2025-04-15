@@ -21306,40 +21306,7 @@
         "nonWhitespaceCharacterCount": 0
       }
     },
-    "01 Notes/XSS (Cross Site Scripting)/XSS (cross site scripting).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 1323,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 4.41,
-      "characterCount": 9669,
-      "nonWhitespaceCharacterCount": 8200,
-      "readingTimeInMinutes": 4.992452830188679,
-      "linkCount": 52,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1743766985038,
-      "modifiedDate": 1744727955214,
-      "sizeInBytes": 9757,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0
-      },
-      "frontmatter": {
-        "ID": "2025-01-09-11:47",
-        "tags": [
-          "#definition",
-          "cyberSecurity",
-          "XSS"
-        ]
-      }
-    },
-    "01 Notes/XSS (Cross Site Scripting)/XSS and CSFR comparison.md": {
+    "01 Notes/XSS and CSFR comparison.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
@@ -21347,15 +21314,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.7466666666666667,
-      "characterCount": 1544,
+      "characterCount": 1518,
       "nonWhitespaceCharacterCount": 1264,
       "readingTimeInMinutes": 0.8452830188679246,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985038,
-      "modifiedDate": 1743766985038,
-      "sizeInBytes": 1544,
+      "modifiedDate": 1744728586375,
+      "sizeInBytes": 1518,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -21364,149 +21331,23 @@
         "nonWhitespaceCharacterCount": 0
       }
     },
-    "01 Notes/XSS (Cross Site Scripting)/types/DOM XSS.md": {
+    "01 Notes/XSS (cross site scripting).md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 13,
+      "wordCount": 1833,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.043333333333333335,
-      "characterCount": 116,
-      "nonWhitespaceCharacterCount": 95,
-      "readingTimeInMinutes": 0.04905660377358491,
+      "pageCount": 6.11,
+      "characterCount": 13083,
+      "nonWhitespaceCharacterCount": 11067,
+      "readingTimeInMinutes": 6.916981132075471,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1744727757613,
-      "modifiedDate": 1744727790992,
-      "sizeInBytes": 170,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0
-      },
-      "frontmatter": {
-        "ID": "2025-04-15-16:36",
-        "tags": [
-          "#definition"
-        ]
-      }
-    },
-    "01 Notes/XSS (Cross Site Scripting)/types/Reflected XSS.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 382,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 1.2733333333333334,
-      "characterCount": 2581,
-      "nonWhitespaceCharacterCount": 2175,
-      "readingTimeInMinutes": 1.441509433962264,
-      "linkCount": 3,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1744727757613,
-      "modifiedDate": 1744727859841,
-      "sizeInBytes": 2635,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0
-      },
-      "frontmatter": {
-        "ID": "2025-04-15-16:36",
-        "tags": [
-          "#definition"
-        ]
-      }
-    },
-    "01 Notes/XSS (Cross Site Scripting)/types/Stored XSS.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 85,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.2833333333333333,
-      "characterCount": 520,
-      "nonWhitespaceCharacterCount": 430,
-      "readingTimeInMinutes": 0.32075471698113206,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1744727757613,
-      "modifiedDate": 1744727885312,
-      "sizeInBytes": 580,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0
-      },
-      "frontmatter": {
-        "ID": "2025-04-15-16:36",
-        "tags": [
-          "#definition",
-          "XSS"
-        ]
-      }
-    },
-    "01 Notes/XSS (Cross Site Scripting)/types/XCS (Cross Channel Scripting) based XSS.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 28,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.09333333333333334,
-      "characterCount": 175,
-      "nonWhitespaceCharacterCount": 145,
-      "readingTimeInMinutes": 0.10566037735849057,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1744727914239,
-      "modifiedDate": 1744727946904,
-      "sizeInBytes": 235,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0
-      },
-      "frontmatter": {
-        "ID": "2025-04-15-16:38",
-        "tags": [
-          "#definition",
-          "XSS"
-        ]
-      }
-    },
-    "01 Notes/XSS (Cross Site Scripting)/types/Indirect stored XSS or third-party XSS.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 45,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.15,
-      "characterCount": 311,
-      "nonWhitespaceCharacterCount": 260,
-      "readingTimeInMinutes": 0.16981132075471697,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1744727960080,
-      "modifiedDate": 1744727970462,
-      "sizeInBytes": 311,
+      "createdDate": 1743766985038,
+      "modifiedDate": 1744728578963,
+      "sizeInBytes": 13093,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
