@@ -22,4 +22,21 @@ enfin (/anfan)
 armoire (armadio) (/armuà)
 robe (dress)
 
+sonner (/suonare, da un allarme o un citofono)
 
+
+**Recevoir**
+je reçois (/resua)
+tu reçois (/resua)
+il/elle reçoit (/resua)
+nous recevons  (/res-von)
+vous recevez  (/res-ve)
+ils/elles reçoivent (/resuav)
+ 
+**Mettre**
+je mets (/me)
+tu mets (/me)
+il/elle met (/me)
+nous metton
+vous mettez
+ills/elles mettent (/met)
