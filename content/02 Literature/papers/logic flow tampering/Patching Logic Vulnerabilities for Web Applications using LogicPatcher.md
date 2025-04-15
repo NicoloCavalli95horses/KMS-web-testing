@@ -32,7 +32,10 @@ The tool can generate security patches for ==any type of logic vulnerability cau
 The input requirements are as follows:
 - missing condition that needs to be added (C), express in terms of variables, values and conditional operators
 - vulnerable path (P): the path from the source to the sensitive operation ([[sink function]])
-- exception handling function (E): the set of actions that are allowed to be executed if  C is negated
+- exception handling function (E) (optional): the set of actions that are allowed to be executed if  C is negated
+
+Scenarios considered:
+- 
 
 ## Evaluation
 
