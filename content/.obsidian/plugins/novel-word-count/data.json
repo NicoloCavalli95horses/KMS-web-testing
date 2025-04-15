@@ -7085,15 +7085,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.28,
-      "characterCount": 601,
+      "characterCount": 586,
       "nonWhitespaceCharacterCount": 489,
       "readingTimeInMinutes": 0.3169811320754717,
       "linkCount": 6,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985038,
-      "modifiedDate": 1744622087384,
-      "sizeInBytes": 666,
+      "modifiedDate": 1744727686697,
+      "sizeInBytes": 646,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.28,
@@ -7106,40 +7106,6 @@
         "tags": [
           "#definition",
           "XXE"
-        ]
-      }
-    },
-    "01 Notes/XSS and CSFR comparison.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 217,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.7233333333333334,
-      "characterCount": 1430,
-      "nonWhitespaceCharacterCount": 1177,
-      "readingTimeInMinutes": 0.8188679245283019,
-      "linkCount": 2,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1743766985038,
-      "modifiedDate": 1743766985038,
-      "sizeInBytes": 1544,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.7233333333333334,
-        "wordCount": 217,
-        "characterCount": 1430,
-        "nonWhitespaceCharacterCount": 1177
-      },
-      "frontmatter": {
-        "ID": "2025-02-03-15:06",
-        "tags": [
-          "#definition",
-          "cyberSecurity",
-          "clientSideAttacks",
-          "comparison"
         ]
       }
     },
@@ -7172,39 +7138,6 @@
         "tags": [
           "#definition",
           "cyberSecurity"
-        ]
-      }
-    },
-    "01 Notes/XSS (cross site scripting).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 1827,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 6.09,
-      "characterCount": 13005,
-      "nonWhitespaceCharacterCount": 11005,
-      "readingTimeInMinutes": 6.8943396226415095,
-      "linkCount": 56,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1743766985038,
-      "modifiedDate": 1744622682345,
-      "sizeInBytes": 13093,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 6.09,
-        "wordCount": 1827,
-        "characterCount": 13005,
-        "nonWhitespaceCharacterCount": 11005
-      },
-      "frontmatter": {
-        "ID": "2025-01-09-11:47",
-        "tags": [
-          "#definition",
-          "cyberSecurity",
-          "XSS"
         ]
       }
     },
@@ -8457,15 +8390,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.13666666666666666,
-      "characterCount": 350,
+      "characterCount": 340,
       "nonWhitespaceCharacterCount": 292,
       "readingTimeInMinutes": 0.15471698113207547,
       "linkCount": 1,
       "embedCount": 1,
       "aliases": null,
       "createdDate": 1743766985033,
-      "modifiedDate": 1743766985033,
-      "sizeInBytes": 426,
+      "modifiedDate": 1744727071507,
+      "sizeInBytes": 411,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.13666666666666666,
@@ -14578,15 +14511,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.28,
-      "characterCount": 708,
+      "characterCount": 697,
       "nonWhitespaceCharacterCount": 605,
       "readingTimeInMinutes": 0.3169811320754717,
       "linkCount": 5,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766984999,
-      "modifiedDate": 1744622087517,
-      "sizeInBytes": 812,
+      "modifiedDate": 1744727388866,
+      "sizeInBytes": 794,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.28,
@@ -19570,39 +19503,6 @@
         "nonWhitespaceCharacterCount": 0
       }
     },
-    "00 Antilibrary/XCS (Cross Channel Scripting).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 843,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 2.81,
-      "characterCount": 5732,
-      "nonWhitespaceCharacterCount": 4818,
-      "readingTimeInMinutes": 3.181132075471698,
-      "linkCount": 20,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1743766984989,
-      "modifiedDate": 1744622087768,
-      "sizeInBytes": 5802,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 2.81,
-        "wordCount": 843,
-        "characterCount": 5732,
-        "nonWhitespaceCharacterCount": 4818
-      },
-      "frontmatter": {
-        "ID": "2025-04-02-15:11",
-        "tags": [
-          "#definition",
-          "XSS",
-          "XCS"
-        ]
-      }
-    },
     "00 Antilibrary/TDD (test-driven development).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -19986,15 +19886,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.016666666666666666,
-      "characterCount": 74,
+      "characterCount": 68,
       "nonWhitespaceCharacterCount": 57,
       "readingTimeInMinutes": 0.018867924528301886,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766984997,
-      "modifiedDate": 1743766984997,
-      "sizeInBytes": 149,
+      "modifiedDate": 1744727183877,
+      "sizeInBytes": 138,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.016666666666666666,
@@ -20118,15 +20018,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.06333333333333334,
-      "characterCount": 165,
+      "characterCount": 158,
       "nonWhitespaceCharacterCount": 132,
       "readingTimeInMinutes": 0.07169811320754717,
       "linkCount": 3,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766984987,
-      "modifiedDate": 1743766984987,
-      "sizeInBytes": 242,
+      "modifiedDate": 1744727178725,
+      "sizeInBytes": 230,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.06333333333333334,
@@ -20667,39 +20567,6 @@
         "nonWhitespaceCharacterCount": 0
       }
     },
-    "00 Antilibrary/KNN (K-Nearest Neighbors).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 57,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.19,
-      "characterCount": 410,
-      "nonWhitespaceCharacterCount": 338,
-      "readingTimeInMinutes": 0.21509433962264152,
-      "linkCount": 3,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1743766984984,
-      "modifiedDate": 1744622087770,
-      "sizeInBytes": 511,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.19,
-        "wordCount": 57,
-        "characterCount": 410,
-        "nonWhitespaceCharacterCount": 338
-      },
-      "frontmatter": {
-        "ID": "2025-04-01-16:47",
-        "tags": [
-          "#definition",
-          "machineLearning",
-          "supervisedLearning"
-        ]
-      }
-    },
     "00 Antilibrary/Gecko engine.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -20723,37 +20590,6 @@
         "wordCount": 0,
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0
-      }
-    },
-    "00 Antilibrary/HPG (Hybrid Property Graph).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 117,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.39,
-      "characterCount": 874,
-      "nonWhitespaceCharacterCount": 748,
-      "readingTimeInMinutes": 0.44150943396226416,
-      "linkCount": 3,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1744624613148,
-      "modifiedDate": 1744624934275,
-      "sizeInBytes": 928,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.39,
-        "wordCount": 117,
-        "characterCount": 874,
-        "nonWhitespaceCharacterCount": 748
-      },
-      "frontmatter": {
-        "ID": "2025-04-14-11:56",
-        "tags": [
-          "#definition"
-        ]
       }
     },
     "00 Antilibrary/HMM (Hidden Markov Model).md": {
@@ -21235,19 +21071,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 793,
+      "wordCount": 740,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 2.6433333333333335,
-      "characterCount": 5455,
-      "nonWhitespaceCharacterCount": 4612,
-      "readingTimeInMinutes": 2.9924528301886792,
-      "linkCount": 7,
+      "pageCount": 2.466666666666667,
+      "characterCount": 5130,
+      "nonWhitespaceCharacterCount": 4339,
+      "readingTimeInMinutes": 2.792452830188679,
+      "linkCount": 8,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744707242466,
-      "modifiedDate": 1744718185179,
-      "sizeInBytes": 5614,
+      "modifiedDate": 1744726908393,
+      "sizeInBytes": 5289,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -21267,39 +21103,6 @@
         ],
         "Project": [
           "SLR"
-        ]
-      }
-    },
-    "00 Antilibrary/logic vulnerability.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 37,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.12333333333333334,
-      "characterCount": 303,
-      "nonWhitespaceCharacterCount": 256,
-      "readingTimeInMinutes": 0.13962264150943396,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1744708182803,
-      "modifiedDate": 1744708266231,
-      "sizeInBytes": 404,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0
-      },
-      "frontmatter": {
-        "ID": "2025-04-15-11:09",
-        "tags": [
-          "#definition",
-          "businessFlowTampering",
-          "logicVulnerability"
         ]
       }
     },
@@ -21393,6 +21196,323 @@
           "french"
         ],
         "speaker": "Marjorie Vincent"
+      }
+    },
+    "01 Notes/HPG (Hybrid Property Graph).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 120,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.4,
+      "characterCount": 918,
+      "nonWhitespaceCharacterCount": 785,
+      "readingTimeInMinutes": 0.4528301886792453,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744624613148,
+      "modifiedDate": 1744715459237,
+      "sizeInBytes": 918,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "01 Notes/KNN (K-Nearest Neighbors).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 57,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.19,
+      "characterCount": 402,
+      "nonWhitespaceCharacterCount": 338,
+      "readingTimeInMinutes": 0.21509433962264152,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743766984984,
+      "modifiedDate": 1744727144644,
+      "sizeInBytes": 497,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-01-16:47",
+        "tags": [
+          "#definition",
+          "machineLearning",
+          "supervisedLearning"
+        ]
+      }
+    },
+    "01 Notes/logic vulnerability.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 43,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.14333333333333334,
+      "characterCount": 403,
+      "nonWhitespaceCharacterCount": 341,
+      "readingTimeInMinutes": 0.16226415094339622,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744708182803,
+      "modifiedDate": 1744727151624,
+      "sizeInBytes": 403,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "01 Notes/XCS (Cross Channel Scripting).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 849,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 2.83,
+      "characterCount": 5800,
+      "nonWhitespaceCharacterCount": 4870,
+      "readingTimeInMinutes": 3.2037735849056603,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743766984989,
+      "modifiedDate": 1744622087768,
+      "sizeInBytes": 5802,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "01 Notes/XSS (Cross Site Scripting)/XSS (cross site scripting).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 1323,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 4.41,
+      "characterCount": 9669,
+      "nonWhitespaceCharacterCount": 8200,
+      "readingTimeInMinutes": 4.992452830188679,
+      "linkCount": 52,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743766985038,
+      "modifiedDate": 1744727955214,
+      "sizeInBytes": 9757,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-01-09-11:47",
+        "tags": [
+          "#definition",
+          "cyberSecurity",
+          "XSS"
+        ]
+      }
+    },
+    "01 Notes/XSS (Cross Site Scripting)/XSS and CSFR comparison.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 224,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.7466666666666667,
+      "characterCount": 1544,
+      "nonWhitespaceCharacterCount": 1264,
+      "readingTimeInMinutes": 0.8452830188679246,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743766985038,
+      "modifiedDate": 1743766985038,
+      "sizeInBytes": 1544,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "01 Notes/XSS (Cross Site Scripting)/types/DOM XSS.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 13,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.043333333333333335,
+      "characterCount": 116,
+      "nonWhitespaceCharacterCount": 95,
+      "readingTimeInMinutes": 0.04905660377358491,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744727757613,
+      "modifiedDate": 1744727790992,
+      "sizeInBytes": 170,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-15-16:36",
+        "tags": [
+          "#definition"
+        ]
+      }
+    },
+    "01 Notes/XSS (Cross Site Scripting)/types/Reflected XSS.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 382,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.2733333333333334,
+      "characterCount": 2581,
+      "nonWhitespaceCharacterCount": 2175,
+      "readingTimeInMinutes": 1.441509433962264,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744727757613,
+      "modifiedDate": 1744727859841,
+      "sizeInBytes": 2635,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-15-16:36",
+        "tags": [
+          "#definition"
+        ]
+      }
+    },
+    "01 Notes/XSS (Cross Site Scripting)/types/Stored XSS.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 85,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.2833333333333333,
+      "characterCount": 520,
+      "nonWhitespaceCharacterCount": 430,
+      "readingTimeInMinutes": 0.32075471698113206,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744727757613,
+      "modifiedDate": 1744727885312,
+      "sizeInBytes": 580,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-15-16:36",
+        "tags": [
+          "#definition",
+          "XSS"
+        ]
+      }
+    },
+    "01 Notes/XSS (Cross Site Scripting)/types/XCS (Cross Channel Scripting) based XSS.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 28,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.09333333333333334,
+      "characterCount": 175,
+      "nonWhitespaceCharacterCount": 145,
+      "readingTimeInMinutes": 0.10566037735849057,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744727914239,
+      "modifiedDate": 1744727946904,
+      "sizeInBytes": 235,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-15-16:38",
+        "tags": [
+          "#definition",
+          "XSS"
+        ]
+      }
+    },
+    "01 Notes/XSS (Cross Site Scripting)/types/Indirect stored XSS or third-party XSS.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 45,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.15,
+      "characterCount": 311,
+      "nonWhitespaceCharacterCount": 260,
+      "readingTimeInMinutes": 0.16981132075471697,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1744727960080,
+      "modifiedDate": 1744727970462,
+      "sizeInBytes": 311,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
       }
     }
   }

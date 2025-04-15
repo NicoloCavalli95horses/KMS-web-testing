@@ -41,16 +41,15 @@ The input requirements are as follows:
 - the vulnerability description is usually the output of a vulnerability scanner therefore requires little to no manual effort
 
 **Algorithm**
-- LOGICPATCHER finds the correct location for patches by following a process that considers several aspects of the application and the vulnerability. Here are the main steps and techniques it uses:
-- [[CFG (Control Flow Graph)]]: LOGICPATCHER starts by parsing the source code and generating the CFG of the application. This graph represents the possible execution paths of the program.
-- Function Context Identification: LOGICPATCHER must determine in which function to insert the missing condition. It considers the chain of function calls that leads to the vulnerable "sink" (the sensitive operation). The goal is to insert the patch in the most appropriate function context to avoid "overprotecting" the application
-- Overprotection Consideration: A key aspect is to ensure that adding the patch does not affect execution paths that are not vulnerable. LOGICPATCHER tries to insert the patch as close to the vulnerable sink as possible without interfering with other paths
-- Handling Multiple Paths to a Vulnerable Sink: When multiple execution paths lead to a sink, but only some are vulnerable, LOGICPATCHER must ensure that the patch is applied only to the vulnerable paths, leaving the others intact
-- Data and Control Dependency Analysis: To generate a correct patch, LOGICPATCHER identifies instructions that are dependent on the data or control of the vulnerable sink. These dependent instructions are included in the security condition block introduced by the patch
-- Path Profiling: To distinguish and specifically target vulnerable paths, especially when they overlap with non-vulnerable paths, LOGICPATCHER uses path profiling techniques. This process enumerates all execution paths and assigns a unique identifier to each path. If entering condition C alone causes interference, the vulnerable path ID is combined with condition C to make it specific to that path
-- Live Variable Analysis (LVA): LOGICPATCHER performs a live variable analysis to determine the scope of the patch. This helps identify the last statement where variables dependent on the outcome of the sink operation are still used. The patch condition block is extended to include these dependent statements to preserve the original semantics of the application
-- Identifying Insertion Points: Based on the previous analysis, LOGICPATCHER suggests two candidate locations for inserting the missing condition: a start point (usually just before the vulnerable sink or earlier in the call chain) and an end point (determined by the LVA)
-- Optimization: LOGICPATCHER also considers the possibility of optimizing patch insertion to address multiple vulnerabilities with a single patch, if the missing conditions or causes are similar and the paths allow it. However, current versions of LOGICPATCHER mostly handle vulnerabilities one at a time, and optimizing for multiple patches is an area for future work.
+- LOGICPATCHER starts by parsing the source code and generating the [[CFG (Control Flow Graph)]] of the application. This graph represents the possible execution paths of the program.
+- Function Context Identification: LOGICPATCHER must determine in which function to insert the missing condition. It considers the chain of function calls that leads to the vulnerable [[sink function]]. The goal is to *insert the patch in the most appropriate* function context to avoid **overprotection**[^1]
+- LOGICPATCHER tries to insert the patch as close to the vulnerable sink as possible without interfering with other paths
+- When multiple execution paths lead to a sink, but only some are vulnerable, LOGICPATCHER must ensure that the patch is applied only to the vulnerable paths, leaving the others intact
+- **Control Dependency Analysis**: to generate a correct patch, LOGICPATCHER identifies instructions that are dependent on the data or control of the vulnerable sink. These dependent instructions are included in the security condition block introduced by the patch
+- **Path Profiling**: to distinguish and specifically target vulnerable paths, especially when they overlap with non-vulnerable paths, LOGICPATCHER uses path profiling techniques. This process enumerates all execution paths and assigns a unique identifier to each path. If entering condition (C) alone causes interference, the vulnerable path ID is combined with condition (C) to make it specific to that path
+- **Live Variable Analysis (LVA)**: LOGICPATCHER performs a live variable analysis to determine the scope of the patch. This helps identify the last statement where variables dependent on the outcome of the sink operation are still used. The patch condition block is extended to include these dependent statements to preserve the original semantics of the application
+- **Identifying insertion points**: based on the previous analysis, LOGICPATCHER suggests two candidate locations for inserting the missing condition: a start point (usually just before the vulnerable sink or earlier in the call chain) and an end point (determined by the LVA)
+- LOGICPATCHER also considers optimizing patch insertion to address multiple vulnerabilities with a single patch, if the missing conditions or causes are similar and the paths allow it.
 
 ## Evaluation
 
@@ -60,7 +59,10 @@ The input requirements are as follows:
 
 - LOGICPATCHER is a ’best effort’ tool which suggest security patches to developers/system administrators. A separate formal verification or manual effort must be made to verify the correctness of the generated patches and the resulting source code, because of a lack of program specification and of cascading sinks
 - the approach is fundamentally a [[static analysis]] therefore it has all the limitation of these techniques (false positives, blindness, ...)
+- current versions of LOGICPATCHER mostly handle vulnerabilities one at a time, and optimizing for multiple patches is an area for future work.
 
 ---
 #### References
 - [[(Monshizadeh, Naldurg, et al., 2016)]]
+
+[^1]: Redundant patching is not performant and risks affecting the execution of paths that are not vulnerable
