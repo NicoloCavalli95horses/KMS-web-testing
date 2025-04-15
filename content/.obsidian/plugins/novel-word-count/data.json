@@ -21239,37 +21239,6 @@
         "nonWhitespaceCharacterCount": 0
       }
     },
-    "00 Antilibrary/BCFG (Business Control Flow Graph).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 1,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1743766984982,
-      "modifiedDate": 1744710469265,
-      "sizeInBytes": 53,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 2,
-        "nonWhitespaceCharacterCount": 0
-      },
-      "frontmatter": {
-        "ID": "2025-02-28-10:33",
-        "tags": [
-          "#definition"
-        ]
-      }
-    },
     "03 References/(Monshizadeh, Naldurg, et al., 2016).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -21299,19 +21268,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 284,
+      "wordCount": 454,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.9466666666666667,
-      "characterCount": 1994,
-      "nonWhitespaceCharacterCount": 1675,
-      "readingTimeInMinutes": 1.0716981132075472,
-      "linkCount": 4,
+      "pageCount": 1.5133333333333334,
+      "characterCount": 3147,
+      "nonWhitespaceCharacterCount": 2649,
+      "readingTimeInMinutes": 1.7132075471698114,
+      "linkCount": 7,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744707242466,
-      "modifiedDate": 1744710647476,
-      "sizeInBytes": 2117,
+      "modifiedDate": 1744716903502,
+      "sizeInBytes": 3306,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -21325,7 +21294,9 @@
           "paper",
           "projectSLR",
           "businessFlowTampering",
-          "patching"
+          "patching",
+          "staticAnalysis",
+          "whiteBox"
         ],
         "Project": [
           "SLR"
@@ -21362,6 +21333,40 @@
           "#definition",
           "businessFlowTampering",
           "logicVulnerability"
+        ]
+      }
+    },
+    "01 Notes/CFG (Control Flow Graph).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 65,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.21666666666666667,
+      "characterCount": 493,
+      "nonWhitespaceCharacterCount": 417,
+      "readingTimeInMinutes": 0.24528301886792453,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743766984982,
+      "modifiedDate": 1744715640985,
+      "sizeInBytes": 596,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-15-13:11",
+        "tags": [
+          "#definition",
+          "softwareEngineering",
+          "CFG",
+          "staticAnalysis"
         ]
       }
     }

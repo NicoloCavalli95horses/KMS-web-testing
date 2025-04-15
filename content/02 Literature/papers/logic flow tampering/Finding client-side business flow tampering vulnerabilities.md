@@ -27,7 +27,7 @@ The system records user interactions with the target website to identify DOM obj
 The system monitors DOM mutation events and collects the corresponding [[callstack]]. By analyzing the functions in these stacks, the system identifies those that may be related to business logic.
 
 **Business control flow analysis**
-For each candidate function, the system dynamically builds a [[BCFG (Business Control Flow Graph)]], which abstracts path conditions that are not related to [[access control]] in the business logic.
+For each candidate function, the system dynamically builds a [[CFG (Control Flow Graph)]], which abstracts path conditions that are not related to [[access control]] in the business logic.
 - This graph allows identifying potential tampering points.
 
 **Generating tampering proposals**
