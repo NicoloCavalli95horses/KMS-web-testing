@@ -28,6 +28,10 @@ In the context of web application security, sink functions often make use of the
 - `innerHTML()`
 - `eval()`
 
+### Use cases
+
+- [[concolic execution]] or [[symbolic execution]] are often used to automatically create new inputs that can unlock new execution paths, enlarging the code coverage. The more the code is explorable, the easier is to analyze it and to find sink functions
+
 ---
 #### References
 - [[(Klein, Musch, et al., 2022)]]
