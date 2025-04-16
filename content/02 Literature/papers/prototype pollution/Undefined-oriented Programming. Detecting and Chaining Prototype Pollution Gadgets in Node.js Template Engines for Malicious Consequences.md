@@ -21,7 +21,20 @@ In this paper, we design and implement the first automated framework, called Und
 
 ## Approach
 
-- 
+**Phase 1**
+UoPF produces a program which consists of three parts:
+- a target Node.js program (source code)
+- normal inputs to the program (template inputs)
+- prototype pollution inputs, represented as symbols
+
+**Phase 2**
+UoPF concolicly executes the output of the phase 1 exploring different paths related to the prototype pollution inputs
+- it solves constraints related to the current symbolic prototype pollution inputs
+- it records additional undefined values encountered during concolic execution
+
+**Phase 3**
+- If the previous concolic execution reaches a sink function, UoPF outputs the current gadgets and the prototype pollution outputs based on constraint solving results
+- Else, it adds additional undefined values to the undefined pool and lets the scheduler to select additional prototype inputs for a repeat of phase 1 and 2
 
 ## Evaluation
 
