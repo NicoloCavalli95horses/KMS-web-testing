@@ -30,7 +30,9 @@ In this paper, we design and implement the first automated framework, called Und
 
 ## Limits
 
-- 
+- Only tested on Node.js, not ready for client-side JavaScript
+- Nested arrays are currently not supported
+- scalability issues with large search space
 
 ---
 #### References
