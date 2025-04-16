@@ -56,7 +56,7 @@ The model was (probably) tested on a subset of the same dataset using as trainin
 
 ## Limits
 
-No clear indication of where to find public dataset of legitimate and malicious HTTP requests
+- No clear indication of where to find public dataset of legitimate and malicious HTTP requests
 
 ---
 #### References

@@ -4,10 +4,11 @@ tags:
   - definition
   - testingTechniques
   - softwareEngineering
+  - concolicExecution
 ---
 ## Definition
 
-Concolic testing is a hybrid software verification technique that performs [[symbolic execution]], a classical technique that treats program variables as symbolic variables, along a concrete execution (testing on particular inputs) path. 
+Concolic testing, also known as dynamic symbolic execution (DSE), is a hybrid software verification technique that performs [[symbolic execution]], a classical technique that treats program variables as symbolic variables, along a concrete execution (testing on particular inputs) path. 
 
 [[symbolic execution]] is used in conjunction with
 - an automated theorem prover or
@@ -16,5 +17,7 @@ to generate new concrete inputs (test cases), with the aim of maximizing code co
 
 Its main focus is finding bugs in real-world software, rather than demonstrating program correctness.
 
+---
 ## References
-https://en.wikipedia.org/wiki/Concolic_testing
+- https://en.wikipedia.org/wiki/Concolic_testing
+- Used by [[(Liu, An, et al., 2024)]]

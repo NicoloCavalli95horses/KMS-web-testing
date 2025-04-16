@@ -3,13 +3,16 @@ ID: 2024-12-13-15:20
 tags:
   - definition
   - softwareEngineering
+  - symbolicExecution
 ---
 ## Definition
 
-In general, symbolic execution denotes the process of analyzing what inputs cause each part of a program to execute. ==The core idea in symbolic execution is to work with abstract inputs instead of concrete inputs. ==For example, considering the following function:
+Also known as symbolic evaluation, symbolic execution denotes the process of analyzing what inputs cause each part of a program to execute. 
+- ==The core idea in symbolic execution is to work with abstract inputs instead of concrete inputs. ==
+
+For example, considering the following function:
 
 ```JavaScript
-
 function add(a, b){
   if (a > 0) {
     return a + b;
@@ -37,14 +40,18 @@ Symbolic execution is mostly used to identify vulnerabilities such as:
 - integer overflow
 - input validation
 
-**Limits**
+### Limits
+
 - symbolically executing all feasible program paths does not scale to large programs, since the number of paths grows exponentially with an increase in program size and can be even infinite in case of loops
 
-**ExpoSE**: dynamic symbolic execution engine for JavaScript (https://github.com/ExpoSEJS/ExpoSE)
+### Tools
 
-Also known as: symbolic evaluation, symbex
-See [[concolic execution]].
+- **ExpoSE**: dynamic symbolic execution engine for JavaScript (https://github.com/ExpoSEJS/ExpoSE)
+
+---
+
+See also  [[concolic execution]].
 
 ## References
-https://it.eitca.org/cybersecurity/eitc-is-acss-advanced-computer-systems-security/security-analysis/symbolic-execution/examination-review-symbolic-execution/what-is-the-basic-idea-behind-symbolic-execution-and-how-does-it-differ-from-ordinary-testing-or-[[fuzzing]]/
-[[(Le, Huu-Tung, Pham, et al., 2019)]]
+- https://it.eitca.org/cybersecurity/eitc-is-acss-advanced-computer-systems-security/security-analysis/symbolic-execution/examination-review-symbolic-execution/what-is-the-basic-idea-behind-symbolic-execution-and-how-does-it-differ-from-ordinary-testing-or-[[fuzzing]]/
+- [[(Le, Huu-Tung, Pham, et al., 2019)]]

@@ -6,9 +6,6 @@ tags:
   - Flash
   - HTTP
   - crossDomainPolicy
-  - projectSLR
-Project:
-  - SLR
 ---
 ## Context
 
