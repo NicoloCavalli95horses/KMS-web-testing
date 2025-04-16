@@ -15,5 +15,6 @@ WIMP is a collection of a GUI elements/widgets, that is often cited in GUIs rela
 
 Collectively, these elements create a visual and intuitive environment for users to interact with their computer systems. They allow users to execute commands, navigate through files, and manage their tasks without needing to memorize complex command-line instructions.
 
+---
 ## References
-https://documentation.help/lansa010/UGUBC_C10500.html
+- https://documentation.help/lansa010/UGUBC_C10500.html

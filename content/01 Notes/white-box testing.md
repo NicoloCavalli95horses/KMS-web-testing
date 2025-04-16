@@ -40,6 +40,8 @@ Structural White box testing
 - *data-sensitivity errors*: there could be bugs related to actual inputs, which path testing does not consider
 
 Also known as: *clear box testing, code-based testing, structural testing, transparent testing, logic-driven testing*
+
+---
 ## References
-[[(Nidhra, Dondeti, 2012)]]
-[[(Myers et al., 2011)]]
+- [[(Nidhra, Dondeti, 2012)]]
+- [[(Myers et al., 2011)]]

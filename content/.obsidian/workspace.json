@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "75796355b33e7f7b",
+        "id": "7daf5d3ec753d8a2",
         "type": "tabs",
         "children": [
           {
-            "id": "ca0c5ae5ed9ee69d",
+            "id": "29d5b798b9321360",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/mind maps/ideas/Formal model of vulnerable JS component.canvas",
+                "viewState": {
+                  "x": 745,
+                  "y": 240,
+                  "zoom": -0.890211854461888
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Formal model of vulnerable JS component"
             }
           }
         ]
@@ -179,9 +186,20 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "ca0c5ae5ed9ee69d",
+  "active": "29d5b798b9321360",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
+    "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
+    "04 Canvases/mind maps/front end security category.canvas",
+    "04 Canvases/mind maps/input analysis.canvas",
+    "04 Canvases/mind maps/cross-domain policies.canvas",
+    "04 Canvases/models/research model.canvas",
+    "01 Notes/WIMP (windows, icon, menu, pointers).md",
+    "01 Notes/white-box testing.md",
+    "04 Canvases/Untitled-0.canvas",
+    "04 Canvases/Untitled.canvas",
     "01 Notes/XSS (cross site scripting).md",
+    "Untitled.md",
     "01 Notes/XSS and CSFR comparison.md",
     "01 Notes/XSS (Cross Site Scripting)/mitigation/mixed approaches.md",
     "01 Notes/XSS (Cross Site Scripting)/mitigation/Untitled.md",
@@ -207,24 +225,13 @@
     "00 Antilibrary/tree difference algorithms.md",
     "00 Antilibrary/TDD (test-driven development).md",
     "00 Antilibrary/TLS (transport layer security).md",
-    "00 Antilibrary/SVM (support vector machine).md",
-    "00 Antilibrary/stress testing.md",
-    "00 Antilibrary/storage testing.md",
-    "00 Antilibrary/standard graph matching.md",
     "97 Assets/control_flow_graph.png",
     "97 Assets/faulty_url_validation_logic.png",
-    "04 Canvases/models/research model.canvas",
     "97 Assets/js_network_request_api_csrh_entry_points.png",
     "04 Canvases/mind maps/ideas/Formal model of vulnerable JS component.canvas",
-    "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
-    "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
     "97 Assets/canva_bad_design_pattern_example.png",
-    "04 Canvases/mind maps/input analysis.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "04 Canvases/mind maps/cross-domain policies.canvas",
-    "04 Canvases/mind maps/front end security category.canvas",
     "02 Literature/papers/XCS (Cross Channel Scripting)",
     "97 Assets/example_related_work_table.png",
     "02 Literature/papers/server configuration",
