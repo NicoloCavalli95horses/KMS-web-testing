@@ -52,8 +52,7 @@
               "title": "prototype pollution gadgets"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,12 +214,12 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "18b2327fcfa7d9e9",
+  "active": "9bee55ca5515ac52",
   "lastOpenFiles": [
+    "01 Notes/prototype pollution.md",
     "01 Notes/prototype pollution gadgets.md",
     "01 Notes/RCE (Remote Code Execution).md",
     "02 Literature/papers/prototype pollution/Undefined-oriented Programming. Detecting and Chaining Prototype Pollution Gadgets in Node.js Template Engines for Malicious Consequences.md",
-    "01 Notes/prototype pollution.md",
     "02 Literature/papers/HTTP traffic analysis/Machine Learning Based Web Application Plugin for Threat Detection and IP Analysis.md",
     "02 Literature/papers/prototype pollution/On Detecting and Measuring Exploitable JavaScript Functions in Real-world Applications.md",
     "03 References/(Liu, An, et al., 2024).md",

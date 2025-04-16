@@ -21,19 +21,16 @@ In this paper, we design and implement the first automated framework, called Und
 
 ## Approach
 
-Describe the research approach in simple terms. What did the authors do to solve the problem?
+- 
 
 ## Evaluation
 
-Often a tool or a solution is implemented. How was that solution evaluated?
-
-## Results
-
-Describe the results in simple terms
+- UOPF was compared to Silent Spring on the dataset and the results show that UOPF outperforms Silent Spring with lower false positives and negatives
+- UOPF was tested on latest Node.js template engines, which revealed many zero-day gadgets including chained ones
 
 ## Limits
 
-What are the limits of the research? What could be improved?
+- 
 
 ---
 #### References
