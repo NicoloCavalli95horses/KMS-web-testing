@@ -4,24 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7daf5d3ec753d8a2",
+        "id": "349bb89289cc3986",
         "type": "tabs",
         "children": [
           {
-            "id": "29d5b798b9321360",
+            "id": "9bee55ca5515ac52",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/mind maps/ideas/Formal model of vulnerable JS component.canvas",
-                "viewState": {
-                  "x": 745,
-                  "y": 240,
-                  "zoom": -0.890211854461888
-                }
+                "file": "02 Literature/papers/prototype pollution/Undefined-oriented Programming. Detecting and Chaining Prototype Pollution Gadgets in Node.js Template Engines for Malicious Consequences.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Formal model of vulnerable JS component"
+              "icon": "lucide-file",
+              "title": "Undefined-oriented Programming. Detecting and Chaining Prototype Pollution Gadgets in Node.js Template Engines for Malicious Consequences"
             }
           }
         ]
@@ -186,8 +184,12 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "29d5b798b9321360",
+  "active": "9bee55ca5515ac52",
   "lastOpenFiles": [
+    "02 Literature/papers/prototype pollution/Undefined-oriented Programming. Detecting and Chaining Prototype Pollution Gadgets in Node.js Template Engines for Malicious Consequences.md",
+    "03 References/(Liu, An, et al., 2024).md",
+    "index.md",
+    "04 Canvases/mind maps/ideas/Formal model of vulnerable JS component.canvas",
     "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
     "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
     "04 Canvases/mind maps/front end security category.canvas",
@@ -223,15 +225,11 @@
     "00 Antilibrary/volume testing.md",
     "00 Antilibrary/VM (virtual machine).md",
     "00 Antilibrary/tree difference algorithms.md",
-    "00 Antilibrary/TDD (test-driven development).md",
-    "00 Antilibrary/TLS (transport layer security).md",
     "97 Assets/control_flow_graph.png",
     "97 Assets/faulty_url_validation_logic.png",
     "97 Assets/js_network_request_api_csrh_entry_points.png",
-    "04 Canvases/mind maps/ideas/Formal model of vulnerable JS component.canvas",
     "97 Assets/canva_bad_design_pattern_example.png",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "02 Literature/papers/XCS (Cross Channel Scripting)",
     "97 Assets/example_related_work_table.png",
     "02 Literature/papers/server configuration",
