@@ -31,15 +31,22 @@ When we call the `toString` method on an object, the language runtime will look 
 
 Merging two objects can expose the code to a prototype pollution attack — in fact, any function which recursively sets nested properties can create an attack vector (using a library like `lodash` or `deepmerge`, to merge JS object could be a valid solution) 
 
+### Trends
+
+Many researches have focused on the identification of inputs that contaminate a prototypical object’s property, but little effort have been put on the analysis of the code affected by the prototype pollution (*gadgets*) [[(Liu, An, et al., 2024)]]
+- studying [[prototype pollution gadgets]] is a new research field that aim at analyzing the code impacted by the vulnerabilities and how the [[sink function]] is reached from the input
+
 ### Risks and issues
 
-On the front-end [[(Hakim, 2023)]] (p.3):
-- [[XSS (cross site scripting)]]
+On the front-end [[(Hakim, 2023)]] (p.3), [[(Liu, An, et al., 2024)]]:
+- [[XSS (cross site scripting)]] (especially DOM-XSS)
 - HTML injection
 - Cause a [[DoS (Denial of Service)]]
 - [[SQLIA (SQL injection attack)]]
 - [[session hijacking]]
 - [[RCE (Remote Code Execution)]]
+- cookie theft/manipulation
+- URL manipulation/[[redirect attack]]
 
 **How a prototype pollution vulnerability can lead to XSS**
 
@@ -55,7 +62,7 @@ Content-Type: application/json
 }
 ```
 
-On the server-side [[(Hakim, 2023)]]:
+On the server-side [[(Hakim, 2023)]], [[(Liu, An, et al., 2024)]]:
 - Privilege escalation issues
 - [[RCE (Remote Code Execution)]] in worst-case scenario (`eval()` functions or DOM node generation)
 
@@ -103,3 +110,4 @@ Sometimes developers try to fix prototype pollution implementing a partial fix. 
 - [[(Hakim, 2023)]]
 - Discussed in [[(Katulanda, Henaka Arachchi, et al., 2023)]] in the context of using ML to detect HTTPS-based malware transmission
 - [[(Kluban, Mannan, et al., 2024)]]
+- [[(Liu, An, et al., 2024)]]

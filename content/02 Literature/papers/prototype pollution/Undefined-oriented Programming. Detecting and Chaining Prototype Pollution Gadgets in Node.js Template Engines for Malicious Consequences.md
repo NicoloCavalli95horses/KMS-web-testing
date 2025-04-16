@@ -11,7 +11,13 @@ Project:
 ---
 ## Context
 
-High-level description of the problem. Use links to low-level notes to specify the context details
+[[prototype pollution]] allows an adversary to contaminate a property of a prototypical object in JavaScript, which further alters the vulnerable program’s logic for the adversary’s purpose.
+
+In this paper, we design and implement the first automated framework, called Undefined-oriented Programming Framework (UOPF), to detect and chain [[prototype pollution gadgets]] for malicious consequences via concolic execution of JavaScript programs with undefined properties as symbols.
+
+**Contributions**
+- we propose UoPF (Undefined oriented Programming Framework), to detect direct and chained gadgets
+- we curated the first gadget dataset
 
 ## Approach
 

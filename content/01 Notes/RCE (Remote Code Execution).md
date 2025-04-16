@@ -19,3 +19,4 @@ system($cmd);  // command executed on the server
 #### References
 - [[(Felsch, Heiderich, et al., 2015)]]
 - https://www.checkpoint.com/cyber-hub/cyber-security/what-is-remote-code-execution-rce/
+- prototype pollution gadgets can lead to RCE, by [[(Liu, An, et al., 2024)]]
