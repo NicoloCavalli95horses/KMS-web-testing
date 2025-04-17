@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ffaafb6e4e3918b6",
+        "id": "ea20afa371cc742e",
         "type": "tabs",
         "children": [
           {
-            "id": "fdac29b0fbe2bfb1",
+            "id": "ae64a314f40e5b2b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "06 Courses, webinars/Exploring the Intersections Between Law, Design and Computer Science in Privacy and Data Protection.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Exploring the Intersections Between Law, Design and Computer Science in Privacy and Data Protection"
+              "title": "New tab"
             }
           }
         ]
@@ -184,11 +179,11 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "ae64a314f40e5b2b",
   "lastOpenFiles": [
+    "06 Courses, webinars/Exploring the Intersections Between Law, Design and Computer Science in Privacy and Data Protection.md",
     "97 Assets/whotrackme_statistics.png",
     "04 Canvases/meetings/2025_17_04.canvas",
-    "06 Courses, webinars/Exploring the Intersections Between Law, Design and Computer Science in Privacy and Data Protection.md",
     "01 Notes/EAR (Execution After Redirect).md",
     "02 Literature/papers/redirect vulnerability/Fear the EAR. discovering and mitigating execution after redirect vulnerabilities.md",
     "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
@@ -238,7 +233,6 @@
     "97 Assets/feature_model_example.png",
     "97 Assets/clickjacking_example_twitter.png",
     "02 Literature/papers/behavioral biometrics",
-    "97 Assets/sandbox_browser_sandfox.png",
     "02 Literature/papers/browser extension based attacks",
     "02 Literature/papers/parameter tampering",
     "04 Canvases/mind maps/ideas"
