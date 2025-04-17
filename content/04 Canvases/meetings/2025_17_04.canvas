@@ -1,0 +1,317 @@
+{
+  "edges": [
+    {
+      "fromNode": "ac9917c68481cf4b",
+      "fromSide": "left",
+      "id": "ebd240b5d85e4e88",
+      "styleAttributes": {
+      },
+      "toNode": "cd5dade72ad2420c",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "6fe60506dbe3c7c3",
+      "fromSide": "right",
+      "id": "ac5a078d71e9df29",
+      "styleAttributes": {
+      },
+      "toNode": "028e6422fb7a47fb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6fe60506dbe3c7c3",
+      "fromSide": "right",
+      "id": "112591c8b8cbb633",
+      "styleAttributes": {
+      },
+      "toNode": "c6cf08886100deca",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6fe60506dbe3c7c3",
+      "fromSide": "right",
+      "id": "21293ccde16a40ae",
+      "styleAttributes": {
+      },
+      "toNode": "45c762cae25b754c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6fe60506dbe3c7c3",
+      "fromSide": "right",
+      "id": "8b5d8b7aa9505a1d",
+      "styleAttributes": {
+      },
+      "toNode": "e20739d1ff90a182",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6fe60506dbe3c7c3",
+      "fromSide": "right",
+      "id": "5ea449db295d7aaf",
+      "styleAttributes": {
+      },
+      "toNode": "a8c33a43c9810fa1",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6fe60506dbe3c7c3",
+      "fromSide": "right",
+      "id": "d023795c7f07d936",
+      "styleAttributes": {
+      },
+      "toNode": "f9602f260e38c02f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f0aade11f4834025",
+      "fromSide": "right",
+      "id": "0ac7f15ede309dda",
+      "styleAttributes": {
+      },
+      "toNode": "81734686bc338728",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f0aade11f4834025",
+      "fromSide": "right",
+      "id": "392c2ebb5b2b9ecd",
+      "styleAttributes": {
+      },
+      "toNode": "5170635ef559e005",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "f0aade11f4834025",
+      "fromSide": "right",
+      "id": "5756dca75b8f1168",
+      "styleAttributes": {
+      },
+      "toNode": "0ad3f11b88eb6ce3",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6c58ff3c68e38c7a",
+      "fromSide": "bottom",
+      "id": "04215ef766c1ccb4",
+      "styleAttributes": {
+      },
+      "toNode": "6346d21b7353c69a",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 63,
+      "id": "028e6422fb7a47fb",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "# Vue",
+      "type": "text",
+      "width": 200,
+      "x": 2800,
+      "y": -495
+    },
+    {
+      "height": 63,
+      "id": "c6cf08886100deca",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "# React",
+      "type": "text",
+      "width": 200,
+      "x": 2800,
+      "y": -348
+    },
+    {
+      "height": 63,
+      "id": "45c762cae25b754c",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "# Angular",
+      "type": "text",
+      "width": 200,
+      "x": 2800,
+      "y": -200
+    },
+    {
+      "height": 63,
+      "id": "e20739d1ff90a182",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "# Svelte",
+      "type": "text",
+      "width": 200,
+      "x": 2800,
+      "y": -53
+    },
+    {
+      "height": 63,
+      "id": "a8c33a43c9810fa1",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "# SolidJS",
+      "type": "text",
+      "width": 200,
+      "x": 2800,
+      "y": 94
+    },
+    {
+      "height": 60,
+      "id": "f9602f260e38c02f",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "# Qwik",
+      "type": "text",
+      "width": 200,
+      "x": 2800,
+      "y": 242
+    },
+    {
+      "height": 60,
+      "id": "81734686bc338728",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "is **55** papers enough?",
+      "type": "text",
+      "width": 260,
+      "x": 560,
+      "y": -1860
+    },
+    {
+      "height": 146,
+      "id": "5170635ef559e005",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "can we keep papers from unknown conferences if they are very good?",
+      "type": "text",
+      "width": 260,
+      "x": 560,
+      "y": -1730
+    },
+    {
+      "height": 100,
+      "id": "0ad3f11b88eb6ce3",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "should we add another database?",
+      "type": "text",
+      "width": 260,
+      "x": 560,
+      "y": -1520
+    },
+    {
+      "height": 100,
+      "id": "f0aade11f4834025",
+      "styleAttributes": {
+      },
+      "text": "# SLR status",
+      "type": "text",
+      "width": 260,
+      "x": 160,
+      "y": -1707
+    },
+    {
+      "height": 240,
+      "id": "1f44687b764fe666",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "# Formal model of a JS component vulnerable to authorization bypass",
+      "type": "text",
+      "width": 480,
+      "x": -120,
+      "y": -480
+    },
+    {
+      "height": 260,
+      "id": "fabb3be2515c25e5",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "Describe a dangerous [[design pattern]] in component-based development (applicable to React, Vue, Angular, Ember, Meteor, ...) that can lead to **authorization bypass** ([[BFT (business flow tampering)]])",
+      "type": "text",
+      "width": 480,
+      "x": -120,
+      "y": -180
+    },
+    {
+      "file": "97 Assets/canva_bad_design_pattern_example.png",
+      "height": 964,
+      "id": "cd5dade72ad2420c",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 500,
+      "x": 460,
+      "y": -532
+    },
+    {
+      "height": 160,
+      "id": "ac9917c68481cf4b",
+      "styleAttributes": {
+      },
+      "text": "# How to generalize THIS?",
+      "type": "text",
+      "width": 260,
+      "x": 1080,
+      "y": -340
+    },
+    {
+      "height": 220,
+      "id": "6fe60506dbe3c7c3",
+      "styleAttributes": {
+      },
+      "text": " ## Recreate the same component in the most used JS web frameworks to show that it is tamperable",
+      "type": "text",
+      "width": 460,
+      "x": 2100,
+      "y": -200
+    },
+    {
+      "height": 184,
+      "id": "6c58ff3c68e38c7a",
+      "styleAttributes": {
+      },
+      "text": "## compare the build output with some real examples (canva.com)",
+      "type": "text",
+      "width": 420,
+      "x": 3960,
+      "y": -404
+    },
+    {
+      "height": 134,
+      "id": "6346d21b7353c69a",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "## Is it possible to detect a GEM from the minified JS?",
+      "type": "text",
+      "width": 460,
+      "x": 3940,
+      "y": -120
+    },
+    {
+      "height": 264,
+      "id": "36e3ddadf6ae665c",
+      "styleAttributes": {
+        "border": "invisible",
+        "shape": null
+      },
+      "text": "## In which way we can tamper the same \"prop\" from minified JS obtained from these frameworks?",
+      "type": "text",
+      "width": 380,
+      "x": 3060,
+      "y": -254
+    }
+  ]
+}

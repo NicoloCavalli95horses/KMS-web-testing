@@ -12,12 +12,21 @@ An Execution After Redirect is defined as any unintended (from the perspective o
 - it is ==due to a developer misunderstanding of the redirection mechanism== and not due to an attack
 - a EAR is simply a bug if it does not lead to a security issue, otherwise can be considered as a full-fledged vulnerability that can be exploited to get sensitive information
 
+**There is no reason to have code executed after a redirect**. Clean-up action (closing file, finalizing other tasks), restore a previous state or starting a long-running process (e.g., encoding a video file) can be set previously or executed asynchronously 
+
+
+> [!WARNING] No warning of EARs in official documentation
+> Sometimes this problem is underestimated and documentation of popular web frameworks does not reference this issue or the default behavior of the framework [[(Doupe, Boe, et al., 2011)]]
+
 ## Risks associated with EAR
 
-- permanent change of the application's state (*silent EAR*)
-- leak sensitive information (*explicit EAR*)
+- permanent change of the application's state **(silent EAR)**
+- leak sensitive information **(explicit EAR)**
+- access-control violation (privilege escalation)
 
-### Example in PHP
+## Examples
+
+**PHP**
 
 ```PHP
 <?php 
@@ -31,6 +40,22 @@ An Execution After Redirect is defined as any unintended (from the perspective o
 ```
 
 Since the `header()` function does not halt the execution flow, the `echo` function is executed by mistake
+
+**Ruby on Rails**
+Whatever parameter passed as ID will update an attribute of `@topic` even if the user is not logged as admin, because the code after the `end` will be executed
+
+```ruby
+class TopicsController < ApplicationController
+  def update
+    @topic = Topic.find(params[:id])
+    if not current_user.is_admin?
+      redirect_to ("/")
+    end
+    @topic.update_attributes (params[:topic])
+    flash[:notice] = "Topic updated!"
+  end
+end
+```
 
 In a real example, this happen:
 - a HTTP response is sent by the server, implying that the user is not logged in and redirecting to the login page
@@ -49,4 +74,5 @@ Content-Type: text/html; charset=ISO-8859-1
 ---
 #### References
 - [[(Payet, Doupe, et al., 2013)]]
+- [[(Doupe, Boe, et al., 2011)]]
 - As example of logic flaw, pag.6, in [[(Deepa, Thilagam, et al., 2018)]]
