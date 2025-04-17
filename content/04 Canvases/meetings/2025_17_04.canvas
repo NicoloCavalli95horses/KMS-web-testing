@@ -98,6 +98,15 @@
       },
       "toNode": "6346d21b7353c69a",
       "toSide": "top"
+    },
+    {
+      "fromNode": "fabb3be2515c25e5",
+      "fromSide": "right",
+      "id": "e06806a41d8cd47e",
+      "styleAttributes": {
+      },
+      "toNode": "6fe60506dbe3c7c3",
+      "toSide": "left"
     }
   ],
   "nodes": [
@@ -221,28 +230,15 @@
       "y": -1707
     },
     {
-      "height": 240,
-      "id": "1f44687b764fe666",
+      "height": 160,
+      "id": "ac9917c68481cf4b",
       "styleAttributes": {
-        "textAlign": "center"
       },
-      "text": "# Formal model of a JS component vulnerable to authorization bypass",
+      "text": "# What else we can do here?",
       "type": "text",
-      "width": 480,
-      "x": -120,
-      "y": -480
-    },
-    {
-      "height": 260,
-      "id": "fabb3be2515c25e5",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "Describe a dangerous [[design pattern]] in component-based development (applicable to React, Vue, Angular, Ember, Meteor, ...) that can lead to **authorization bypass** ([[BFT (business flow tampering)]])",
-      "type": "text",
-      "width": 480,
-      "x": -120,
-      "y": -180
+      "width": 260,
+      "x": 380,
+      "y": -340
     },
     {
       "file": "97 Assets/canva_bad_design_pattern_example.png",
@@ -252,41 +248,31 @@
       },
       "type": "file",
       "width": 500,
-      "x": 460,
+      "x": -240,
       "y": -532
     },
     {
-      "height": 160,
-      "id": "ac9917c68481cf4b",
+      "height": 326,
+      "id": "fabb3be2515c25e5",
       "styleAttributes": {
+        "border": null
       },
-      "text": "# How to generalize THIS?",
+      "text": "## Describe a dangerous [[design pattern]] in component-based development that can lead to [[BFT (business flow tampering)]]",
       "type": "text",
-      "width": 260,
-      "x": 1080,
-      "y": -340
+      "width": 460,
+      "x": 1480,
+      "y": -254
     },
     {
-      "height": 220,
+      "height": 273,
       "id": "6fe60506dbe3c7c3",
       "styleAttributes": {
       },
-      "text": " ## Recreate the same component in the most used JS web frameworks to show that it is tamperable",
+      "text": " ## Recreate the same component in the most used JS web frameworks to  analyze how the different builds are tamperable",
       "type": "text",
       "width": 460,
-      "x": 2100,
-      "y": -200
-    },
-    {
-      "height": 184,
-      "id": "6c58ff3c68e38c7a",
-      "styleAttributes": {
-      },
-      "text": "## compare the build output with some real examples (canva.com)",
-      "type": "text",
-      "width": 420,
-      "x": 3960,
-      "y": -404
+      "x": 2080,
+      "y": -227
     },
     {
       "height": 134,
@@ -297,21 +283,33 @@
       "text": "## Is it possible to detect a GEM from the minified JS?",
       "type": "text",
       "width": 460,
-      "x": 3940,
-      "y": -120
+      "x": 3840,
+      "y": -1
     },
     {
+      "height": 184,
+      "id": "6c58ff3c68e38c7a",
+      "styleAttributes": {
+      },
+      "text": "## compare the build output with some real examples (canva.com)",
+      "type": "text",
+      "width": 420,
+      "x": 3860,
+      "y": -285
+    },
+    {
+      "color": "2",
       "height": 264,
       "id": "36e3ddadf6ae665c",
       "styleAttributes": {
-        "border": "invisible",
+        "border": null,
         "shape": null
       },
       "text": "## In which way we can tamper the same \"prop\" from minified JS obtained from these frameworks?",
       "type": "text",
       "width": 380,
-      "x": 3060,
-      "y": -254
+      "x": 3080,
+      "y": -233
     }
   ]
 }
