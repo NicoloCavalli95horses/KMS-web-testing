@@ -91,15 +91,6 @@
       "toSide": "left"
     },
     {
-      "fromNode": "6c58ff3c68e38c7a",
-      "fromSide": "bottom",
-      "id": "04215ef766c1ccb4",
-      "styleAttributes": {
-      },
-      "toNode": "6346d21b7353c69a",
-      "toSide": "top"
-    },
-    {
       "fromNode": "fabb3be2515c25e5",
       "fromSide": "right",
       "id": "e06806a41d8cd47e",
@@ -107,6 +98,24 @@
       },
       "toNode": "6fe60506dbe3c7c3",
       "toSide": "left"
+    },
+    {
+      "fromNode": "593f96723311da61",
+      "fromSide": "bottom",
+      "id": "da566b4faab3c54b",
+      "styleAttributes": {
+      },
+      "toNode": "f382a7bb5f5ded5c",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "593f96723311da61",
+      "fromSide": "bottom",
+      "id": "ee214585fc92b875",
+      "styleAttributes": {
+      },
+      "toNode": "bdfb5cdb805da8b6",
+      "toSide": "top"
     }
   ],
   "nodes": [
@@ -252,21 +261,10 @@
       "y": -532
     },
     {
-      "height": 326,
-      "id": "fabb3be2515c25e5",
-      "styleAttributes": {
-        "border": null
-      },
-      "text": "## Describe a dangerous [[design pattern]] in component-based development that can lead to [[BFT (business flow tampering)]]",
-      "type": "text",
-      "width": 460,
-      "x": 1480,
-      "y": -254
-    },
-    {
       "height": 273,
       "id": "6fe60506dbe3c7c3",
       "styleAttributes": {
+        "textAlign": null
       },
       "text": " ## Recreate the same component in the most used JS web frameworks to  analyze how the different builds are tamperable",
       "type": "text",
@@ -275,31 +273,92 @@
       "y": -227
     },
     {
-      "height": 134,
-      "id": "6346d21b7353c69a",
+      "file": "97 Assets/vue_min_build.png",
+      "height": 674,
+      "id": "593f96723311da61",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 720,
+      "x": 5580,
+      "y": -300
+    },
+    {
+      "file": "97 Assets/vue_dev_environment.png",
+      "height": 532,
+      "id": "f0f10de62c457706",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 806,
+      "x": 4720,
+      "y": -306
+    },
+    {
+      "height": 60,
+      "id": "659c7f6805c0d11d",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "## Dev environment",
+      "type": "text",
+      "width": 340,
+      "x": 4953,
+      "y": -400
+    },
+    {
+      "height": 160,
+      "id": "ce129e2cace92220",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# Vue\nhttps://bft-test-vue.netlify.app/",
+      "type": "text",
+      "width": 474,
+      "x": 5343,
+      "y": -600
+    },
+    {
+      "height": 60,
+      "id": "0b460352ce840446",
       "styleAttributes": {
         "border": "invisible"
       },
-      "text": "## Is it possible to detect a GEM from the minified JS?",
+      "text": "[reddit](https://www.reddit.com/r/vuejs/comments/n73kk0/is_it_possible_to_obfuscate_elements_of_component/)",
       "type": "text",
-      "width": 460,
-      "x": 3840,
-      "y": -1
+      "width": 140,
+      "x": 6280,
+      "y": 880
     },
     {
-      "height": 184,
-      "id": "6c58ff3c68e38c7a",
+      "file": "97 Assets/front_end_component_not_obscured_reasons_reddit.png",
+      "height": 437,
+      "id": "07c4fcaaf67bd501",
       "styleAttributes": {
       },
-      "text": "## compare the build output with some real examples (canva.com)",
+      "type": "file",
+      "width": 664,
+      "x": 5616,
+      "y": 720
+    },
+    {
+      "height": 232,
+      "id": "fabb3be2515c25e5",
+      "styleAttributes": {
+        "border": null,
+        "textAlign": null
+      },
+      "text": "## Describe a dangerous [[design pattern]] in component-based development that can lead to [[BFT (business flow tampering)]]",
       "type": "text",
-      "width": 420,
-      "x": 3860,
-      "y": -285
+      "width": 500,
+      "x": 1460,
+      "y": -206
     },
     {
       "color": "2",
-      "height": 264,
+      "height": 215,
       "id": "36e3ddadf6ae665c",
       "styleAttributes": {
         "border": null,
@@ -307,9 +366,46 @@
       },
       "text": "## In which way we can tamper the same \"prop\" from minified JS obtained from these frameworks?",
       "type": "text",
-      "width": 380,
+      "width": 460,
       "x": 3080,
-      "y": -233
+      "y": -236
+    },
+    {
+      "height": 60,
+      "id": "8c6275d876fb89ec",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "## Prod environment",
+      "type": "text",
+      "width": 340,
+      "x": 5770,
+      "y": -400
+    },
+    {
+      "height": 100,
+      "id": "f382a7bb5f5ded5c",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "components name NOT obscured by default (!)",
+      "type": "text",
+      "width": 280,
+      "x": 5630,
+      "y": 500
+    },
+    {
+      "height": 100,
+      "id": "bdfb5cdb805da8b6",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "props value always visible and tamperable",
+      "type": "text",
+      "width": 280,
+      "x": 5970,
+      "y": 500
     }
   ]
 }
