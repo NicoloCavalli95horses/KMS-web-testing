@@ -11,17 +11,15 @@
             "id": "108c54b9a38b7616",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/meetings/2025_17_04.canvas",
-                "viewState": {
-                  "x": 3090,
-                  "y": -351.5,
-                  "zoom": -2.435797962133563
-                }
+                "file": "01 Notes/CFG (Control Flow Graph).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "2025_17_04"
+              "icon": "lucide-file",
+              "title": "CFG (Control Flow Graph)"
             }
           }
         ]
@@ -188,11 +186,11 @@
   },
   "active": "108c54b9a38b7616",
   "lastOpenFiles": [
+    "04 Canvases/meetings/2025_17_04.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/mind maps/ideas/Formal model of vulnerable JS component.canvas",
     "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
     "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
-    "04 Canvases/meetings/2025_17_04.canvas",
     "00 Antilibrary/Untitled.md",
     "01 Notes/XSS (cross site scripting).md",
     "03 References/(Shuaiqi Yuan, Genserik Reniers, et al., 2025).md",
