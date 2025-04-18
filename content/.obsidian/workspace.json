@@ -4,41 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "34b1ddc0a7584298",
+        "id": "1c2a0e578b37094d",
         "type": "tabs",
         "children": [
           {
-            "id": "6df2f0f2c6918de5",
+            "id": "108c54b9a38b7616",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "03 References/(Shuaiqi Yuan, Genserik Reniers, et al., 2025).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/meetings/2025_17_04.canvas",
+                "viewState": {
+                  "x": 3090,
+                  "y": -351.5,
+                  "zoom": -2.435797962133563
+                }
               },
-              "icon": "lucide-file",
-              "title": "(Shuaiqi Yuan, Genserik Reniers, et al., 2025)"
-            }
-          },
-          {
-            "id": "523c46ad6049821d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "96 Meta/SLR/Tags analysis.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Tags analysis"
+              "icon": "lucide-layout-dashboard",
+              "title": "2025_17_04"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:DynamicBarrierManagement",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -91,12 +77,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 422.5026054382324
+    "width": 202.50260543823242
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -201,15 +186,21 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "523c46ad6049821d",
+  "active": "108c54b9a38b7616",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
+    "04 Canvases/mind maps/ideas/Formal model of vulnerable JS component.canvas",
+    "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
+    "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
+    "04 Canvases/meetings/2025_17_04.canvas",
+    "00 Antilibrary/Untitled.md",
+    "01 Notes/XSS (cross site scripting).md",
     "03 References/(Shuaiqi Yuan, Genserik Reniers, et al., 2025).md",
+    "03 References/(Aditya Sood, Richard Enbody, et al., 2011).md",
     "02 Literature/papers/test/Dynamic and integrated safety and security barrier management. A new framework to manage major event risks in chemical plants.md",
     "96 Meta/SLR/Tags analysis.md",
     "96 Meta/SLR/Paper list.md",
     "02 Literature/papers/test",
-    "03 References/(Aditya Sood, Richard Enbody, et al., 2011).md",
-    "04 Canvases/meetings/2025_17_04.canvas",
     "97 Assets/front_end_component_not_obscured_reasons_reddit.png",
     "97 Assets/obfuscate_vue_components.png",
     "97 Assets/vue_dev_environment.png",
@@ -218,9 +209,6 @@
     "97 Assets/whotrackme_statistics.png",
     "01 Notes/EAR (Execution After Redirect).md",
     "02 Literature/papers/redirect vulnerability/Fear the EAR. discovering and mitigating execution after redirect vulnerabilities.md",
-    "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
-    "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
-    "04 Canvases/mind maps/ideas/Formal model of vulnerable JS component.canvas",
     "03 References/(Doupe, Boe, et al., 2011).md",
     "01 Notes/concolic execution.md",
     "02 Literature/papers/logic flow tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
@@ -236,9 +224,6 @@
     "01 Notes/Function Variadicity.md",
     "01 Notes/dynamic analysis.md",
     "02 Literature/books/JavaScript, The Good Parts/chapters/04 Functions.md",
-    "02 Literature/books/JavaScript, The Good Parts/JavaScript, The Good Parts.md",
-    "96 Meta/Publication deadlines.md",
-    "02 Literature/papers/WAF (Web Application Firewall)/Adaptive Web Application Firewall for Multi-Threat Detection.md",
     "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/mind maps/input analysis.canvas",
     "04 Canvases/mind maps/cross-domain policies.canvas",
