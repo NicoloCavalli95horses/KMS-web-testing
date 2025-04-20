@@ -42,7 +42,7 @@
       "fromNode": "fe4f8f218746450b",
       "fromSide": "right",
       "id": "4c6649e1cee77787",
-      "label": "`d == \"premium\"`",
+      "label": "d == \"premium\"",
       "styleAttributes": {
       },
       "toNode": "9e69c405c019aa8f",
@@ -52,7 +52,7 @@
       "fromNode": "fe4f8f218746450b",
       "fromSide": "right",
       "id": "b8a75289423709a5",
-      "label": "`d != premium`",
+      "label": "d != \"premium\"",
       "styleAttributes": {
       },
       "toNode": "00ba7557960e926b",
@@ -119,68 +119,12 @@
       "height": 240,
       "id": "1ced5e7c0dd7e6f3",
       "label": "web client",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 680,
       "x": 1460,
       "y": 0
-    },
-    {
-      "file": "97 Assets/subgraph_example.png",
-      "height": 244,
-      "id": "e8ed816498f4b22a",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -340,
-      "y": -100
-    },
-    {
-      "height": 122,
-      "id": "7a23c0a315de5c26",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "logic related to protect premium resources",
-      "type": "text",
-      "width": 260,
-      "x": 120,
-      "y": -80
-    },
-    {
-      "height": 80,
-      "id": "6af2c2d510d52052",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "the whole client-side logic",
-      "type": "text",
-      "width": 300,
-      "x": -340,
-      "y": -240
-    },
-    {
-      "height": 60,
-      "id": "59cb32706629c767",
-      "styleAttributes": {
-      },
-      "text": "## How to extract this?",
-      "type": "text",
-      "width": 360,
-      "x": 140,
-      "y": 84
-    },
-    {
-      "height": 80,
-      "id": "e2616f0aab214d2a",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "- minified code\n- control-flow may be obscured",
-      "type": "text",
-      "width": 400,
-      "x": 140,
-      "y": 160
     },
     {
       "height": 90,
@@ -197,30 +141,6 @@
       "y": 535
     },
     {
-      "height": 240,
-      "id": "a6416b6e99773ab5",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "\n```json\n{\n  a: 1,\n  b: true,\n  c: null,\n  d: \"premium\"\n}\n```",
-      "type": "text",
-      "width": 260,
-      "x": 1440,
-      "y": 460
-    },
-    {
-      "height": 60,
-      "id": "747986e57fe0d05c",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "list of items (premium or free)",
-      "type": "text",
-      "width": 340,
-      "x": 1120,
-      "y": 140
-    },
-    {
       "height": 60,
       "id": "32a0d9d7b768b51e",
       "styleAttributes": {
@@ -232,55 +152,6 @@
       "width": 520,
       "x": 1540,
       "y": 140
-    },
-    {
-      "height": 60,
-      "id": "98fcafc39f21965a",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "output",
-      "type": "text",
-      "width": 140,
-      "x": 1940,
-      "y": 70
-    },
-    {
-      "height": 60,
-      "id": "de0726bcb83986ca",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "props",
-      "type": "text",
-      "width": 130,
-      "x": 1525,
-      "y": 70
-    },
-    {
-      "height": 60,
-      "id": "0df28b3a538c6604",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "`<Component />`",
-      "type": "text",
-      "width": 170,
-      "x": 1715,
-      "y": 70
-    },
-    {
-      "height": 130,
-      "id": "ef84e51c1062b2d9",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "server",
-      "type": "text",
-      "width": 180,
-      "x": 920,
-      "y": 65
     },
     {
       "height": 60,
@@ -387,6 +258,30 @@
       "y": 840
     },
     {
+      "height": 120,
+      "id": "7652a2d64794cb09",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": " [[(Kim, Wang, Kwon, et al., 2023)]] logic tampering considering divergence points",
+      "type": "text",
+      "width": 360,
+      "x": 2460,
+      "y": 880
+    },
+    {
+      "height": 240,
+      "id": "a6416b6e99773ab5",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "\n```json\n{\n  a: 1,\n  b: true,\n  c: null,\n  d: \"premium\"\n}\n```",
+      "type": "text",
+      "width": 260,
+      "x": 1440,
+      "y": 460
+    },
+    {
       "height": 200,
       "id": "5a121e188afba673",
       "styleAttributes": {
@@ -400,16 +295,123 @@
       "y": 700
     },
     {
-      "height": 120,
-      "id": "7652a2d64794cb09",
+      "height": 60,
+      "id": "747986e57fe0d05c",
       "styleAttributes": {
         "border": "invisible"
       },
-      "text": " [[(Kim, Wang, Kwon, et al., 2023)]] logic tampering considering divergence points",
+      "text": "list of items (premium or free)",
+      "type": "text",
+      "width": 340,
+      "x": 1120,
+      "y": 140
+    },
+    {
+      "height": 60,
+      "id": "98fcafc39f21965a",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "output",
+      "type": "text",
+      "width": 140,
+      "x": 1940,
+      "y": 70
+    },
+    {
+      "height": 60,
+      "id": "de0726bcb83986ca",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "props",
+      "type": "text",
+      "width": 130,
+      "x": 1525,
+      "y": 70
+    },
+    {
+      "height": 60,
+      "id": "0df28b3a538c6604",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "`<Component />`",
+      "type": "text",
+      "width": 170,
+      "x": 1715,
+      "y": 70
+    },
+    {
+      "height": 80,
+      "id": "e2616f0aab214d2a",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "- minified code\n- control-flow may be obscured",
+      "type": "text",
+      "width": 400,
+      "x": 140,
+      "y": 160
+    },
+    {
+      "height": 60,
+      "id": "59cb32706629c767",
+      "styleAttributes": {
+      },
+      "text": "## How to extract this?",
       "type": "text",
       "width": 360,
-      "x": 2460,
-      "y": 880
+      "x": 140,
+      "y": 84
+    },
+    {
+      "height": 122,
+      "id": "7a23c0a315de5c26",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "logic related to protect premium resources",
+      "type": "text",
+      "width": 260,
+      "x": 120,
+      "y": -80
+    },
+    {
+      "file": "97 Assets/subgraph_example.png",
+      "height": 244,
+      "id": "e8ed816498f4b22a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -340,
+      "y": -100
+    },
+    {
+      "height": 80,
+      "id": "6af2c2d510d52052",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "the whole client-side logic",
+      "type": "text",
+      "width": 300,
+      "x": -340,
+      "y": -240
+    },
+    {
+      "height": 130,
+      "id": "ef84e51c1062b2d9",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "server",
+      "type": "text",
+      "width": 180,
+      "x": 940,
+      "y": 40
     }
   ]
 }
