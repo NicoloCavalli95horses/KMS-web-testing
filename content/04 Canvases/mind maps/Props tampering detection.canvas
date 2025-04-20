@@ -112,9 +112,179 @@
       },
       "toNode": "cc8440fcb6b2ee0f",
       "toSide": "top"
+    },
+    {
+      "fromNode": "0f3e9c0750075959",
+      "fromSide": "right",
+      "id": "686043792e549d5b",
+      "styleAttributes": {
+      },
+      "toNode": "6aa00fe914d1c2b5",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ad2c1d379953200e",
+      "fromSide": "right",
+      "id": "91fbaa5b1603946e",
+      "styleAttributes": {
+      },
+      "toNode": "0f3e9c0750075959",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0a28549fe7841f4b",
+      "fromSide": "right",
+      "id": "22828eca1adf5f4f",
+      "styleAttributes": {
+      },
+      "toNode": "b9307e9f013b7685",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b9307e9f013b7685",
+      "fromSide": "right",
+      "id": "e821bbdc94f4eaf8",
+      "styleAttributes": {
+      },
+      "toNode": "32ad5cec658d3ad9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6aa00fe914d1c2b5",
+      "fromSide": "right",
+      "id": "1cd7c21fc99d2184",
+      "styleAttributes": {
+      },
+      "toNode": "0a28549fe7841f4b",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6c62d3c338107474",
+      "fromSide": "right",
+      "id": "3f37df0793aab7a1",
+      "styleAttributes": {
+      },
+      "toNode": "0d60f2ccc6776fd0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0d60f2ccc6776fd0",
+      "fromSide": "right",
+      "id": "bd698c235d3e73f6",
+      "styleAttributes": {
+      },
+      "toNode": "a50606349d778d86",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a50606349d778d86",
+      "fromSide": "right",
+      "id": "dd3e0cb9245a3234",
+      "styleAttributes": {
+      },
+      "toNode": "53cbe586c9deb113",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ed62b86c15508b5a",
+      "fromSide": "right",
+      "id": "69a9573e6214b3b1",
+      "styleAttributes": {
+      },
+      "toNode": "1e2b23927a16ab7e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ed62b86c15508b5a",
+      "fromSide": "right",
+      "id": "e76adc93d1957c9a",
+      "styleAttributes": {
+      },
+      "toNode": "61a971bf5ebc9346",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "27f4044565654348",
+      "fromSide": "right",
+      "id": "9f8932b9cc95a02a",
+      "styleAttributes": {
+      },
+      "toNode": "543a35b562d2a6d9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "543a35b562d2a6d9",
+      "fromSide": "right",
+      "id": "ba5a7c9f0896f990",
+      "styleAttributes": {
+      },
+      "toNode": "45abbb7bdd24a511",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1e2b23927a16ab7e",
+      "fromSide": "right",
+      "id": "adc4d2f3bc6e629a",
+      "styleAttributes": {
+      },
+      "toNode": "27f4044565654348",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "61a971bf5ebc9346",
+      "fromSide": "right",
+      "id": "8fd55250f348b67b",
+      "styleAttributes": {
+      },
+      "toNode": "27f4044565654348",
+      "toSide": "left"
     }
   ],
   "nodes": [
+    {
+      "height": 760,
+      "id": "71ddadfb01b59f39",
+      "label": "3. Test generation based on HTTP traces analysis and dynamic taint analysis",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2180,
+      "x": 1260,
+      "y": 2960
+    },
+    {
+      "height": 760,
+      "id": "fa5fda6c20653adc",
+      "label": "4. Fully automatic test generation",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2180,
+      "x": 1260,
+      "y": 3960
+    },
+    {
+      "height": 720,
+      "id": "d1f4270d11a9d54b",
+      "label": "2. Test generation based on manual user interaction",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1920,
+      "x": 1260,
+      "y": 2060
+    },
+    {
+      "height": 640,
+      "id": "8a510e4a05171947",
+      "label": "1. Proof-of-concept exploitation",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1920,
+      "x": 1260,
+      "y": 1180
+    },
     {
       "height": 240,
       "id": "1ced5e7c0dd7e6f3",
@@ -123,8 +293,221 @@
       },
       "type": "group",
       "width": 680,
-      "x": 1460,
-      "y": 0
+      "x": 1680,
+      "y": -560
+    },
+    {
+      "height": 120,
+      "id": "3c0885a21cee016d",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# 1. Proof-of-concept exploitation using browser dev tools",
+      "type": "text",
+      "width": 1880,
+      "x": 1275,
+      "y": 1200
+    },
+    {
+      "color": "2",
+      "height": 100,
+      "id": "27f4044565654348",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "divergence point in the source code is identified",
+      "type": "text",
+      "width": 240,
+      "x": 2255,
+      "y": 2290
+    },
+    {
+      "height": 170,
+      "id": "543a35b562d2a6d9",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "code at the divergence point can be automatically tampered: invalid scenarios are generated",
+      "type": "text",
+      "width": 310,
+      "x": 2575,
+      "y": 2255
+    },
+    {
+      "height": 90,
+      "id": "45abbb7bdd24a511",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "generation of new test",
+      "type": "text",
+      "width": 200,
+      "x": 2935,
+      "y": 2295
+    },
+    {
+      "height": 80,
+      "id": "1e2b23927a16ab7e",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "A free content is clicked",
+      "type": "text",
+      "width": 340,
+      "x": 1795,
+      "y": 2250
+    },
+    {
+      "height": 160,
+      "id": "ed62b86c15508b5a",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "User interaction are captured by instrumenting JavaScript (events and functions execution are logged)",
+      "type": "text",
+      "width": 360,
+      "x": 1315,
+      "y": 2275
+    },
+    {
+      "height": 80,
+      "id": "61a971bf5ebc9346",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "A premium content is clicked",
+      "type": "text",
+      "width": 340,
+      "x": 1795,
+      "y": 2365
+    },
+    {
+      "height": 120,
+      "id": "6a2ac4fd253174b6",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# 2. Test generation based on manual user interaction",
+      "type": "text",
+      "width": 1880,
+      "x": 1275,
+      "y": 2080
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "0847ed8e81fca107",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "DONE ✅",
+      "type": "text",
+      "width": 160,
+      "x": 1070,
+      "y": 1200
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "594e2fbdcd4d360f",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "IN PROGRESS ⚠️",
+      "type": "text",
+      "width": 160,
+      "x": 1070,
+      "y": 2080
+    },
+    {
+      "height": 200,
+      "id": "042c401f0b7bc248",
+      "styleAttributes": {
+      },
+      "text": "## Benefits\n- easy to implement\n- it raises awareness on the problem\n",
+      "type": "text",
+      "width": 360,
+      "x": 1300,
+      "y": 1560
+    },
+    {
+      "height": 200,
+      "id": "736486ed2aba4957",
+      "styleAttributes": {
+      },
+      "text": "## Limits\n- based on a very manual process\n- not scalable\n- application dependent approach",
+      "type": "text",
+      "width": 420,
+      "x": 1700,
+      "y": 1560
+    },
+    {
+      "height": 160,
+      "id": "6c62d3c338107474",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "Large scale web application build on web framework (Vue, React, Angular), can be analyzed with browser tools",
+      "type": "text",
+      "width": 360,
+      "x": 1435,
+      "y": 1360
+    },
+    {
+      "height": 127,
+      "id": "0d60f2ccc6776fd0",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "For example, React DevTool can reconstruct the component tree from the minified JS ",
+      "type": "text",
+      "width": 340,
+      "x": 1900,
+      "y": 1377
+    },
+    {
+      "height": 81,
+      "id": "a50606349d778d86",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "Components props can be tampered at run-time",
+      "type": "text",
+      "width": 310,
+      "x": 2340,
+      "y": 1400
+    },
+    {
+      "height": 81,
+      "id": "53cbe586c9deb113",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "This can be automated with `TamperMonkey`",
+      "type": "text",
+      "width": 310,
+      "x": 2745,
+      "y": 1400
+    },
+    {
+      "height": 240,
+      "id": "a6416b6e99773ab5",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "\n```json\n{\n  a: 1,\n  b: true,\n  c: null,\n  d: \"premium\"\n}\n```",
+      "type": "text",
+      "width": 260,
+      "x": 1360,
+      "y": 144
     },
     {
       "height": 90,
@@ -137,21 +520,8 @@
       "text": "`<Component />`",
       "type": "text",
       "width": 220,
-      "x": 1880,
-      "y": 535
-    },
-    {
-      "height": 60,
-      "id": "32a0d9d7b768b51e",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "component is instantiated with actual values ",
-      "type": "text",
-      "width": 520,
-      "x": 1540,
-      "y": 140
+      "x": 1800,
+      "y": 219
     },
     {
       "height": 60,
@@ -163,35 +533,21 @@
       "text": "`onClick`",
       "type": "text",
       "width": 160,
-      "x": 2160,
-      "y": 550
+      "x": 2080,
+      "y": 234
     },
     {
-      "height": 60,
-      "id": "fe4f8f218746450b",
+      "height": 200,
+      "id": "5a121e188afba673",
       "styleAttributes": {
-        "border": null,
-        "textAlign": "center"
+        "border": "invisible",
+        "textAlign": null
       },
-      "text": "function",
+      "text": "## Is it possible to tamper directly the data received?",
       "type": "text",
-      "width": 160,
-      "x": 2380,
-      "y": 550
-    },
-    {
-      "height": 90,
-      "id": "9e69c405c019aa8f",
-      "styleAttributes": {
-        "border": null,
-        "shape": null,
-        "textAlign": "center"
-      },
-      "text": "paywall",
-      "type": "text",
-      "width": 220,
-      "x": 2780,
-      "y": 370
+      "width": 360,
+      "x": 1150,
+      "y": 384
     },
     {
       "height": 90,
@@ -204,32 +560,8 @@
       "text": "default logic",
       "type": "text",
       "width": 220,
-      "x": 2780,
-      "y": 655
-    },
-    {
-      "height": 230,
-      "id": "304b327ff7acfcfe",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "probable DOM changes (a modal appears):\n- `role = \"dialog\"`\n- `z-index = 999`\n- `position = \"fixed\"`",
-      "type": "text",
-      "width": 420,
-      "x": 3260,
-      "y": 345
-    },
-    {
-      "height": 60,
-      "id": "bdf290524e95bb0c",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "DOM is modified",
-      "type": "text",
-      "width": 340,
-      "x": 3260,
-      "y": 270
+      "x": 2700,
+      "y": 339
     },
     {
       "color": "2",
@@ -241,8 +573,8 @@
       "text": "divergence point",
       "type": "text",
       "width": 210,
-      "x": 2355,
-      "y": 745
+      "x": 2275,
+      "y": 429
     },
     {
       "height": 200,
@@ -254,8 +586,8 @@
       "text": "## How to parse the minified JS files to automatically find divergence points?",
       "type": "text",
       "width": 360,
-      "x": 2140,
-      "y": 840
+      "x": 2060,
+      "y": 524
     },
     {
       "height": 120,
@@ -266,57 +598,59 @@
       "text": " [[(Kim, Wang, Kwon, et al., 2023)]] logic tampering considering divergence points",
       "type": "text",
       "width": 360,
-      "x": 2460,
-      "y": 880
-    },
-    {
-      "height": 240,
-      "id": "a6416b6e99773ab5",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "\n```json\n{\n  a: 1,\n  b: true,\n  c: null,\n  d: \"premium\"\n}\n```",
-      "type": "text",
-      "width": 260,
-      "x": 1440,
-      "y": 460
-    },
-    {
-      "height": 200,
-      "id": "5a121e188afba673",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "## Is it possible to tamper directly the data received?",
-      "type": "text",
-      "width": 360,
-      "x": 1230,
-      "y": 700
+      "x": 2380,
+      "y": 564
     },
     {
       "height": 60,
-      "id": "747986e57fe0d05c",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "list of items (premium or free)",
-      "type": "text",
-      "width": 340,
-      "x": 1120,
-      "y": 140
-    },
-    {
-      "height": 60,
-      "id": "98fcafc39f21965a",
+      "id": "bdf290524e95bb0c",
       "styleAttributes": {
         "textAlign": "center"
       },
-      "text": "output",
+      "text": "DOM is modified",
       "type": "text",
-      "width": 140,
-      "x": 1940,
-      "y": 70
+      "width": 340,
+      "x": 3180,
+      "y": -46
+    },
+    {
+      "height": 230,
+      "id": "304b327ff7acfcfe",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "probable DOM changes (a modal appears):\n- `role = \"dialog\"`\n- `z-index = 999`\n- `position = \"fixed\"`",
+      "type": "text",
+      "width": 420,
+      "x": 3180,
+      "y": 29
+    },
+    {
+      "height": 90,
+      "id": "9e69c405c019aa8f",
+      "styleAttributes": {
+        "border": null,
+        "shape": null,
+        "textAlign": "center"
+      },
+      "text": "paywall",
+      "type": "text",
+      "width": 220,
+      "x": 2700,
+      "y": 54
+    },
+    {
+      "height": 60,
+      "id": "fe4f8f218746450b",
+      "styleAttributes": {
+        "border": null,
+        "textAlign": "center"
+      },
+      "text": "function",
+      "type": "text",
+      "width": 160,
+      "x": 2300,
+      "y": 234
     },
     {
       "height": 60,
@@ -327,8 +661,21 @@
       "text": "props",
       "type": "text",
       "width": 130,
-      "x": 1525,
-      "y": 70
+      "x": 1745,
+      "y": -490
+    },
+    {
+      "height": 60,
+      "id": "32a0d9d7b768b51e",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "component is instantiated with actual values ",
+      "type": "text",
+      "width": 520,
+      "x": 1760,
+      "y": -420
     },
     {
       "height": 60,
@@ -340,66 +687,32 @@
       "text": "`<Component />`",
       "type": "text",
       "width": 170,
-      "x": 1715,
-      "y": 70
-    },
-    {
-      "height": 80,
-      "id": "e2616f0aab214d2a",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "- minified code\n- control-flow may be obscured",
-      "type": "text",
-      "width": 400,
-      "x": 140,
-      "y": 160
+      "x": 1935,
+      "y": -490
     },
     {
       "height": 60,
-      "id": "59cb32706629c767",
+      "id": "98fcafc39f21965a",
       "styleAttributes": {
+        "textAlign": "center"
       },
-      "text": "## How to extract this?",
+      "text": "output",
       "type": "text",
-      "width": 360,
-      "x": 140,
-      "y": 84
+      "width": 140,
+      "x": 2160,
+      "y": -490
     },
     {
-      "height": 122,
-      "id": "7a23c0a315de5c26",
+      "height": 60,
+      "id": "747986e57fe0d05c",
       "styleAttributes": {
         "border": "invisible"
       },
-      "text": "logic related to protect premium resources",
+      "text": "list of items (premium or free)",
       "type": "text",
-      "width": 260,
-      "x": 120,
-      "y": -80
-    },
-    {
-      "file": "97 Assets/subgraph_example.png",
-      "height": 244,
-      "id": "e8ed816498f4b22a",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -340,
-      "y": -100
-    },
-    {
-      "height": 80,
-      "id": "6af2c2d510d52052",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "the whole client-side logic",
-      "type": "text",
-      "width": 300,
-      "x": -340,
-      "y": -240
+      "width": 340,
+      "x": 1340,
+      "y": -420
     },
     {
       "height": 130,
@@ -410,8 +723,280 @@
       "text": "server",
       "type": "text",
       "width": 180,
-      "x": 940,
-      "y": 40
+      "x": 1160,
+      "y": -520
+    },
+    {
+      "height": 200,
+      "id": "622f16fa0680b556",
+      "styleAttributes": {
+      },
+      "text": "## Limits\n- based on a manual process\n- not scalable\n- minimum input is detailed call stack",
+      "type": "text",
+      "width": 420,
+      "x": 1715,
+      "y": 2520
+    },
+    {
+      "height": 200,
+      "id": "605a671555cd495b",
+      "styleAttributes": {
+      },
+      "text": "## Benefits\n- easy to implement\n- framework independent",
+      "type": "text",
+      "width": 360,
+      "x": 1315,
+      "y": 2520
+    },
+    {
+      "height": 120,
+      "id": "d010747870b378b9",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# 3. Test generation based on HTTP traces analysis and [[dynamic taint analysis]]",
+      "type": "text",
+      "width": 1880,
+      "x": 1335,
+      "y": 2980
+    },
+    {
+      "height": 321,
+      "id": "6aa00fe914d1c2b5",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "Different candidate functions may be found. Functions are executed with different inputs. If the output of the function is the same with the two different inputs, the function is discarded because is not the divergence point",
+      "type": "text",
+      "width": 340,
+      "x": 2105,
+      "y": 3120
+    },
+    {
+      "height": 222,
+      "id": "0f3e9c0750075959",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "The actual value of this objects is tainted. The goal is to find functions that use this values to perform different operations based on the status of the item (free/premium)",
+      "type": "text",
+      "width": 340,
+      "x": 1695,
+      "y": 3169
+    },
+    {
+      "height": 205,
+      "id": "ad2c1d379953200e",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "HTTP traces are gathered and analyzed. The goal is to find the final array of objects that include sensitive information (e.g., whether the item is premium)",
+      "type": "text",
+      "width": 360,
+      "x": 1275,
+      "y": 3177
+    },
+    {
+      "height": 180,
+      "id": "451373fc69afe302",
+      "styleAttributes": {
+      },
+      "text": "## Benefits\n- semi-automatic flow\n- framework independent",
+      "type": "text",
+      "width": 360,
+      "x": 1335,
+      "y": 3480
+    },
+    {
+      "height": 180,
+      "id": "627d50e6c18f5bfe",
+      "styleAttributes": {
+      },
+      "text": "## Limits\n- manual user navigation is required to gather HTTP traces",
+      "type": "text",
+      "width": 370,
+      "x": 1735,
+      "y": 3480
+    },
+    {
+      "height": 180,
+      "id": "5c30d13e072b2550",
+      "styleAttributes": {
+      },
+      "text": "## Challenges\n- how to taint objects?\n- how to collect candidate functions?",
+      "type": "text",
+      "width": 420,
+      "x": 2155,
+      "y": 3480
+    },
+    {
+      "height": 170,
+      "id": "b9307e9f013b7685",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "code at the divergence point can be automatically tampered: invalid scenarios are generated",
+      "type": "text",
+      "width": 310,
+      "x": 2835,
+      "y": 3193
+    },
+    {
+      "color": "2",
+      "height": 100,
+      "id": "0a28549fe7841f4b",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "divergence point in the source code is identified",
+      "type": "text",
+      "width": 240,
+      "x": 2535,
+      "y": 3229
+    },
+    {
+      "height": 90,
+      "id": "32ad5cec658d3ad9",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "generation of new test",
+      "type": "text",
+      "width": 200,
+      "x": 3215,
+      "y": 3233
+    },
+    {
+      "height": 220,
+      "id": "1381da8e3d0852be",
+      "styleAttributes": {
+      },
+      "text": "## Challenges\n",
+      "type": "text",
+      "width": 420,
+      "x": 2155,
+      "y": 4480
+    },
+    {
+      "height": 120,
+      "id": "f1a4c47bda95bed8",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# 4. Fully automatic test generation based on static and dynamic analysis of public resources",
+      "type": "text",
+      "width": 1880,
+      "x": 1335,
+      "y": 3980
+    },
+    {
+      "height": 220,
+      "id": "1f10f609752adb03",
+      "styleAttributes": {
+      },
+      "text": "## Benefits\n- fully automatic flow\n- framework independent",
+      "type": "text",
+      "width": 360,
+      "x": 1335,
+      "y": 4480
+    },
+    {
+      "height": 220,
+      "id": "eebc727eeee09444",
+      "styleAttributes": {
+      },
+      "text": "## Limits\n",
+      "type": "text",
+      "width": 370,
+      "x": 1735,
+      "y": 4480
+    },
+    {
+      "height": 80,
+      "id": "6af2c2d510d52052",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "the whole client-side logic",
+      "type": "text",
+      "width": 300,
+      "x": -200,
+      "y": -830
+    },
+    {
+      "file": "97 Assets/subgraph_example.png",
+      "height": 244,
+      "id": "e8ed816498f4b22a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -200,
+      "y": -690
+    },
+    {
+      "height": 122,
+      "id": "7a23c0a315de5c26",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "logic related to protect premium resources",
+      "type": "text",
+      "width": 260,
+      "x": 260,
+      "y": -670
+    },
+    {
+      "height": 60,
+      "id": "59cb32706629c767",
+      "styleAttributes": {
+      },
+      "text": "## How to extract this?",
+      "type": "text",
+      "width": 360,
+      "x": 280,
+      "y": -506
+    },
+    {
+      "height": 80,
+      "id": "e2616f0aab214d2a",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "- minified code\n- control-flow may be obscured",
+      "type": "text",
+      "width": 400,
+      "x": 280,
+      "y": -430
+    },
+    {
+      "height": 160,
+      "id": "bbaf99635a02d2cb",
+      "styleAttributes": {
+      },
+      "text": "# Comparison of JavaScript web frameworks regarding [[BFT (business flow tampering)]]",
+      "type": "text",
+      "width": 960,
+      "x": 5280,
+      "y": 1160
+    },
+    {
+      "height": 380,
+      "id": "9321762a0e5a186c",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "\n| Framework | DevTool | Component name visible | Props name visible |\n| --------- | ------- | ---------------------- | ------------------ |\n| Vue       | ✅       | ✅                      | ❌                  |\n| React     | ✅       | ❌                      | ❌                  |\n| Angular   | ✅       |                        |                    |\n| Svelte    |         |                        |                    |\n| SolidJS   |         |                        |                    |\n| Qwik      |         |                        |                    |\n",
+      "type": "text",
+      "width": 790,
+      "x": 5280,
+      "y": 1400
     }
   ]
 }

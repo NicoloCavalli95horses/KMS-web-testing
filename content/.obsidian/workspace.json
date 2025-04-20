@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/mind maps/Props tampering detection.canvas",
                 "viewState": {
-                  "x": 2743.2361190454576,
-                  "y": 775.8593953717468,
-                  "zoom": -0.6368631397316603
+                  "x": 5638.499760560389,
+                  "y": 1602.256825162245,
+                  "zoom": -0.9354828556559678
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -188,8 +188,9 @@
   },
   "active": "108c54b9a38b7616",
   "lastOpenFiles": [
-    "02 Literature/papers/logic flow tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
+    "04 Canvases/meetings/2025_17_04.canvas",
     "04 Canvases/mind maps/Props tampering detection.canvas",
+    "02 Literature/papers/logic flow tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "97 Assets/subgraph_example.png",
     "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
     "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
@@ -199,7 +200,6 @@
     "04 Canvases/mind maps/input analysis.canvas",
     "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/mind maps/cross-domain policies.canvas",
-    "04 Canvases/meetings/2025_17_04.canvas",
     "01 Notes/CFG (Control Flow Graph).md",
     "00 Antilibrary/Untitled.md",
     "01 Notes/XSS (cross site scripting).md",
