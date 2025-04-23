@@ -9,7 +9,7 @@ tags:
 ---
 ## Definition
 
-Cross-site scripting vulnerabilities (XSS henceforth) are a security problem that occurs in web applications. They were discovered in the 1990s in the early days of the World Wide Web.
+Cross-site scripting vulnerabilities (XSS henceforth) are a security problem that occurs in web applications. They were discovered in the 1990s in the early days of the World Wide Web, but became publicly known only in the early 2000s.
 
 ==Cross-site scripting works by manipulating a vulnerable web site so that it returns malicious JavaScript, which is served to users. When the malicious code executes inside a victim's browser, the attacker can fully compromise their interaction with the application.==
 - They are among the most common and most serious security problems affecting web applications
@@ -29,13 +29,15 @@ A XSS can be carried with different languages:
 - WebAssembly (WASM), for example with `WebAssembly.instantiateStreaming(fetch('wasm_malicious.wasm')).then(instance => instance.exports.runXSS());`
 - [[SW (Service Worker)]] and [[WW (Web Worker)]], for example with `navigator.serviceWorker.register("sw.js");`
 
-Successful XSS can:
+## Consequences
+
 - steal session information stored in a [[cookie]] [[(Calzavara, Tolomei, et al., 2014)]]
 - transfer private information
 - hijack a user's account
 - manipulate the web content
-- cause a [[DoS (Denial of Service)]]
+- cause a [[DoS (Denial of Service)]] or [[DDoS (Distributed Denial of Service)]]
 - hijack the push subscription to track the victim’s location [[(Chinprutthiwong, Vardhan, et al., 2021)]]
+- the biggest danger behind XSS vulnerabilities is the ability to propagate from user to user. When the main purpose of the attack is to damage more users, and the XSS tries to automatically infect others, the XSS issue is usually called "worm"
 
 Only if the code is either embedded in (inline scripts) or loaded into the webpage, it will have read and write access to the contents of this webpage (e. g. session cookies, form fields, etc.)  [[(Felsch, Heiderich, et al., 2015)]]
 
@@ -43,6 +45,24 @@ XSS is similar to [[CSRF (cross-site request forgery)]] in that their harm may b
 
 [[RCE (Remote Code Execution)]] harms instead the server, using a combination of dangerous functions (`(eval(), exec(), system(), require()`)
 
+## Causes
+
+- insufficient input validation (see [[string validation]]), from text input to file or media inputs, to URL input
+- execution of cross-domain script is not blocked
+- in case of reflected XSS, a victim has to be tricked to click on a malicious link containing the script
+- in case of stored XSS, a database has to correctly store the malicious script
+
+Example of entry points from 
+[[(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018)]]:
+
+````tabs
+tab: URL manipulation
+
+There are several possible ways by which the attacker may craft a malicious script in a URL:
+- raw script inclusion: `https://example.com?topic=<script>alert(1)</script>`
+- obfuscated URL query: `https://example.com?topic=%3C%73%33...`
+- shortened URL: `https://bit.ly/32wedcaS`
+````
 ## Attack example
 
 [[session hijacking]]: the attacker can steal [[sessions token]] of premium users or admin, getting access to protected resource, or can set session identifier (SID) as cookie and perform a session fixation [[(Johns, Braun, et al., 2011)]].
@@ -54,9 +74,35 @@ XSS is similar to [[CSRF (cross-site request forgery)]] in that their harm may b
 
 Two-third of all deployed web applications are vulnerable to XSS attacks, and Cisco 2018 Annual Security Report indicated that 40% of all attacks attempts lead to XSS attacks [[(Sadqi, Maleh, 2022)]] (p.18)
 
+The number of XSS vulnerabilities have increased over the last years [[(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018)]]. 199 million unique malicious URLs were found in 2019
+
 ## Types of XSS attacks
 
 ````tabs
+
+tab: DOM-based XSS (DOM XSS)
+Occur when client-side JavaScript processes an input in an unsafe way, usually by writing the data back to the DOM without checking ([[sink function]]). Attacks of this category differ significantly from the others mainly because of some vulnerabilities in the script interpreter of the client's browser. With DOM XSS, the DOM structure of the target application is modified.
+<br />
+```JavaScript
+function writeToDOM() { //sink function
+  const search = document.getElementById('search').value;
+  const results = document.getElementById('results');
+  results.innerHTML = 'You searched for: ' + search;
+}
+```
+<br />
+Since the search value is not checked, it is easy to construct a malicious value that can cause an external script to be executed:
+<br />
+
+```html
+<p>You searched for:</p>
+<img src=1 onerror='/* Bad stuff here... */'>
+```
+
+<br />In this kind of attack the page doesn’t change but *the client side code gets executed in a different manner* because of the modification in the DOM environment [[(Malviya, Saurav, et al., 2013)]]. On top of that, objects such as `document.url`, `document.location`, `document.referrer`, `location.href` or `window.location` may be exploited. This mean that the DOM-based XSS is transparent to the server.
+<br />This is the least know type of XSS
+
+
 
 tab: Reflected (I order) XSS
 Reflected XSS is the simplest variety of cross-site scripting. It arises when an application ==receives an input and use that input without checking it==.
@@ -88,42 +134,31 @@ In Sunstone, every account can choose a display language. This choice is stored 
 - ==Form inputs==: fields such as `username`, `email`, `message` could be exploited to execute JS
 - ==Websockets==: some WS endpoints may read and parse data without escaping
 
+
+
 tab: Stored (persistend or II order) XSS
 Stored (persistent or II order) XSS occur when the system does not validate user input provided from message forums or comment sections, malicious inputs can be stored in the vulnerable app's database.
 
 The malicious code is then executed by each new visiting user.
 - This is the most dangerous XSS attack because the ==attack is self-contained and there is no need to find external ways to spread the attack to other users.== The user's browser can execute the malicious code by mistake, by landing in the comments section where it is present
 
+
+
 tab: XCS (Cross Channel Scripting) XSS
-A variant of a stored XSS can be found in [[XCS (Cross Channel Scripting)]], where different protocols are used to inject malicious code into a web application
+A variant of a stored XSS can be found in [[XCS (Cross Channel Scripting)]], where different protocols are used to inject malicious code into a web application. It can be considered as a special type of reflected XSS.
+
+
 
 tab: indirect stored (third party) XSS
 A third-party XSS can occur if a malicious API is used without sanification. If an application consume a corrupted API and displays its data without properly sanitize it, the application would execute remote code each time the API is called.
-tab: DOM-based XSS (DOM XSS)
-Occur when client-side JavaScript processes an input in an unsafe way, usually by writing the data back to the DOM without checking ([[sink function]])
-<br />
-```JavaScript
-function writeToDOM() { //sink function
-  const search = document.getElementById('search').value;
-  const results = document.getElementById('results');
-  results.innerHTML = 'You searched for: ' + search;
-}
-```
-<br />
-Since the search value is not checked, it is easy to construct a malicious value that can cause an external script to be executed:
-<br />
 
-```html
-<p>You searched for:</p>
-<img src=1 onerror='/* Bad stuff here... */'>
-```
 
-<br />In this kind of attack the page doesn’t change but *the client side code gets executed in a different manner* because of the modification in the DOM environment [[(Malviya, Saurav, et al., 2013)]]. This mean that the DOM-based XSS is transparent to the server.
-<br />This is the least know type of XSS
 
 tab: induced XSS
 Induced XSS are possible in the web applications where web server present an [[HTTP Response Splitting]] vulnerability. As a result of this vulnerability, an attacker can manipulate the HTTP header of the server’s response, injecting a script
 - This type of XSS is the less common [[(Malviya, Saurav, et al., 2013)]]
+
+
 
 tab: SW (service worker) XSS (SW-XSS)
 Service Worker XSS (SW-XSS) allows web attackers to compromise a benign service worker during the service worker registration process [[(Chinprutthiwong, Vardhan, et al., 2021)]].
@@ -207,3 +242,4 @@ Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, wit
 - [[(Soleimani, Hadavi, et al., 2017)]]
 - Types of XSS and mitigation techniques: [[(Malviya, Saurav, et al., 2013)]]
 - XSS in embedded web server, by [[(Bojinov, Bursztein, et al., 2009)]]
+- comprehensive survey about XSS, by [[(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018)]]
