@@ -30,5 +30,6 @@ The moderator ==assures that the focus is on finding errors and not correcting t
 
 Managers should not use the results against the author, otherwise the author himself will adopt a defensive attitude which can complicate the process of finding bugs and issues, that was the goal of the code inspection in the first place
 
+---
 ## References
-[[03 Program Inspections, walkthroughs and reviews]]
+- [[03 Program Inspections, walkthroughs and reviews]]

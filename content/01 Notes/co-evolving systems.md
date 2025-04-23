@@ -12,7 +12,8 @@ Co-evolving systems should be evolved together, as a whole.
 - ==Cause of co-evolution==: changes in production code that can impact multiple tests so that a developer may have to correct them in consequence
 - ==Repair of the co-evolution==: the manual correction to restore the functional synchronization between the two systems
 
+---
 ## References
-[[(Dilavrec, Khelladi, Blouin, et al., 2021)]]
+- [[(Dilavrec, Khelladi, Blouin, et al., 2021)]]
 
 

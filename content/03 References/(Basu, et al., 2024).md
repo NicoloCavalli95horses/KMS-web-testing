@@ -5,7 +5,7 @@ tags:
 ---
 ## External Link
 
-https://internationaljounrnalofisae.com/[[index]].php/ijisae/article/view/2/4
+https://internationaljounrnalofisae.com/[[[[index]]]].php/ijisae/article/view/2/4
 
 ## BibTeX
 

@@ -4,8 +4,8 @@ tags:
   - paper
   - projectSLR
   - SQLIA
-  - [[IndexedDB]]
-  - [[PDO]]
+  - [[[[IndexedDB]]]]
+  - [[[[PDO]]]]
 Project:
   - SLR
 ---

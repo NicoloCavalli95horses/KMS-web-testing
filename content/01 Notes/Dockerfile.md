@@ -2,7 +2,7 @@
 ID: 2024-09-12-10:43
 tags:
   - definition
-  - [[Docker]]
+  - [[[[Docker]]]]
   - deploy
   - CI
   - CD
@@ -36,7 +36,7 @@ CMD ["node", "app"]
 
 ## Build an image
 
-`[[Docker]] build -t myApp .`  → create an image using the Dockerfile instructions. 
+`[[[[Docker]]]] build -t myApp .`  → create an image using the Dockerfile instructions. 
 `-t` → specify a tag to be used to identify the image  
 `.` → relative path to the Dockerfile from the cd (if you are in the same folder of the Dockerfile obviously)
 

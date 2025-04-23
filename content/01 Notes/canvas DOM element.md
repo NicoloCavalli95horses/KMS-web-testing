@@ -11,5 +11,6 @@ The Canvas API provides a means for drawing graphics via JavaScript and the HTML
 The Canvas API largely focuses on 2D graphics.
 The WebGL API, which also uses the \<canvas> element, draws hardware-accelerated 2D and 3D graphics.
 
+---
 ## References
 https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API

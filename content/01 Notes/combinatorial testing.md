@@ -24,5 +24,6 @@ Testers use combinatorial testing techniques, such as [[CA (covering array)]], b
 - Helps to test complex software applications with a large number of parameters, settings, and options
 - Reduces the risk of critical defects going unnoticed, which can occur only when handling specific input combinations.
 
+---
 ## References
-https://testsigma.com/blog/combinatorial-testing/
+- https://testsigma.com/blog/combinatorial-testing/

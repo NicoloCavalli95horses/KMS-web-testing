@@ -35,4 +35,5 @@ COIL is a category of cross-origin vulnerabilities that exploit various vectors 
 
 Cross-Origin Image Leak (COIL) via Offscreen Canvas is a security vulnerability that can occur in the context of web applications that use the HTML5 Canvas API.
 
+---
 ## References

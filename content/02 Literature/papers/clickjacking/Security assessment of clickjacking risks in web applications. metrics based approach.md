@@ -4,7 +4,7 @@ tags:
   - paper
   - X-frame-options
   - projectSLR
-  - [[clickjacking]]
+  - [[[[clickjacking]]]]
   - riskAssessment
 Project:
   - SLR

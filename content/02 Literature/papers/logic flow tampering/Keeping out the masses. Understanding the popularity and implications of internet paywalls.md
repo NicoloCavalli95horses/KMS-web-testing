@@ -2,7 +2,7 @@
 ID: 2025-01-27-14:14
 tags:
   - paper
-  - [[paywalls]]
+  - [[[[paywalls]]]]
   - webMonetization
   - cyberSecurity
   - webApplication

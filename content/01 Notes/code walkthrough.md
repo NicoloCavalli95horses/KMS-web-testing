@@ -24,5 +24,6 @@ The main difference from [[code inspection]] is that the participants **play com
 - the expected state is monitored on paper or whiteboard
 - this inputs serve as a vehicle for getting started and for questioning the author's choices
 
+---
 ## References
-[[03 Program Inspections, walkthroughs and reviews]]
+- [[03 Program Inspections, walkthroughs and reviews]]

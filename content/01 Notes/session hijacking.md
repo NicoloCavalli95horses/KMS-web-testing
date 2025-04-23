@@ -50,4 +50,4 @@ This is when SID are passed as URL parameters during the request and response cy
 
 [^1]: That is, the victim creates a new profile using new credentials and execute a POST request that includes the new credentials and the SID controlled by the attacker
 
-[^2]: If JavaScript can be injected, it is enough to write the SID using `[[cookie]].write()`. If JavaScript is rejected but not HTML, an attacker could inject a `<meta http-equiv="Set-Cookie">` tag
+[^2]: If JavaScript can be injected, it is enough to write the SID using `[[[[cookie]]]].write()`. If JavaScript is rejected but not HTML, an attacker could inject a `<meta http-equiv="Set-Cookie">` tag

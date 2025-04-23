@@ -3,8 +3,8 @@ ID: 2025-03-28T08:57:17.512Z
 tags:
   - paper
   - projectSLR
-  - [[cookie]]
-  - [[IndexedDB]]
+  - [[[[cookie]]]]
+  - [[[[IndexedDB]]]]
   - HTML
 Project:
   - SLR

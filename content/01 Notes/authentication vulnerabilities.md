@@ -15,7 +15,6 @@ Authentication vulnerabilities described by [[OWASP (Open Web Application Securi
 | Missing Encryption of Sensitive Data           | Insecure Communication                | A mobile application is potentially vulnerable if the auth server accepts the user auth request even if the communication with the client is not established through an HTTPS-CC protocol                |
 | Auth bypass using an alternate path or channel | Insecure Authentication/Authorization | A mobile application is potentially vulnerable if it does not limit the access to functionalities and screens, collecting sensible data, for only auth users                                             |
 
-
 ---
 
 See also [[session hijacking]]

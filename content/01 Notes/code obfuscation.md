@@ -62,8 +62,8 @@ $$
 - Certain kinds of obfuscation (i.e. code that isn't just a local binary and downloads mini binaries from a web server as needed) can degrade performance and/or require Internet.
 
 ---
-#### Notes
-[^1]: See [[BFT (business flow tampering)]]
 #### References
 - [[(Rauti, Leppänen, 2018)]]
 - https://en.wikipedia.org/wiki/Obfuscation_(software)
+
+[^1]: See [[BFT (business flow tampering)]]

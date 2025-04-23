@@ -17,7 +17,6 @@ It can protect from embedding unwanted:
 - `<iframe src="https://example.com"></iframe>`
 - `<video>, <audio>, <link rel="stylesheet">, <object>, <embed>`
 
-
 ---
 ## References
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cross-Origin-Embedder-Policy

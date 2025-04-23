@@ -40,7 +40,6 @@ The script can be executed with the tag `<applet>`
 
 More modern alternatives include JavaScript, WebGL, WebAssembly, and HTML5 Canvas.
 
-
 ---
 #### References
 - https://en.wikipedia.org/wiki/Applet

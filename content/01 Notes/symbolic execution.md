@@ -53,5 +53,5 @@ Symbolic execution is mostly used to identify vulnerabilities such as:
 See also  [[concolic execution]].
 
 ## References
-- https://it.eitca.org/cybersecurity/eitc-is-acss-advanced-computer-systems-security/security-analysis/symbolic-execution/examination-review-symbolic-execution/what-is-the-basic-idea-behind-symbolic-execution-and-how-does-it-differ-from-ordinary-testing-or-[[fuzzing]]/
+- https://it.eitca.org/cybersecurity/eitc-is-acss-advanced-computer-systems-security/security-analysis/symbolic-execution/examination-review-symbolic-execution/what-is-the-basic-idea-behind-symbolic-execution-and-how-does-it-differ-from-ordinary-testing-or-[[[[fuzzing]]]]/
 - [[(Le, Huu-Tung, Pham, et al., 2019)]]

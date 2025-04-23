@@ -45,5 +45,6 @@ A [[decision table]] could be derived:
 | TC3           | false                   | true                      | false          | true              |
 | TC4           | false                   | false                     | false          | true              |
 
+---
 ## References
-[[04 Test-case Design]]
+- [[04 Test-case Design]]

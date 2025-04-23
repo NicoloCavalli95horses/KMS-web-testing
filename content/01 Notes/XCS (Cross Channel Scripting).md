@@ -100,7 +100,5 @@ As an extension, reverse XCS can be exploited to perform advanced [[CSRF (cross-
 - XCS in embedded web application, by [[(Bojinov, Bursztein, et al., 2009)]]
 
 [^1]: SMB is protocol used to share files, printers or other resources in a LAN
-
 [^2]: Often an upload logic allows a limited filename length and rejects special characters such as `/`. But an encoded `<iframe>` that load external JS can still be used (!)
-
 [^3]: A BitTorrent file is basically a list of files to download that indicate the peers to share with

@@ -6,7 +6,7 @@ tags:
   - remoteCommandExecution
   - XSS
   - SQLIA
-  - [[fuzzing]]
+  - [[[[fuzzing]]]]
   - greyBox
   - PHP
   - cyberSecurity

@@ -30,7 +30,7 @@ All the resources stored in a [[object storage service]] usually share the same 
 
 **1. Obtaining a list of domains that the target website accepts**
 An attacker can often obtain a list of all the domains accepted by the CSP of the target website. The HTTP headers are often revealed:
-- using a simple [[CURL]] command (e.g., `[[CURL]] -I http://google.com`)
+- using a simple [[CURL]] command (e.g., `[[[[CURL]]]] -I http://google.com`)
 - checking the source HTML file (sometimes the CSP is readable even in the `<meta>` tag)
 - using an online tool, such as Google CSP Evaluator
 

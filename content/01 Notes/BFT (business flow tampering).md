@@ -2,10 +2,11 @@
 ID: 2025-01-29-11:05
 tags:
   - "#definition"
+  - businessFlowTampering
 ---
 ## Definition
 
-Business flow tampering or exploiting logical flaws, is a significant security issue in web security. BFT exploits defects that permit to circumvent the expected functionality of an application. The attacks exploiting these defects are legitimate application transactions used to carry out an undesirable operation that is not part of usual business practice [[(Deepa, Thilagam, et al., 2018)]]
+Business flow tampering or exploiting [[logic vulnerability]], is a significant security issue in web security. BFT exploits defects that permit to circumvent the expected functionality of an application. The attacks exploiting these defects are legitimate application transactions used to carry out an undesirable operation that is not part of usual business practice [[(Deepa, Thilagam, et al., 2018)]]
 
 Limited work on this field because [[(Li, Xue, et al., 2013)]]:
 - logic flaws are often application-specific

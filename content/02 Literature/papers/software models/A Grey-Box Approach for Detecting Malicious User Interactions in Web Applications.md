@@ -51,7 +51,7 @@ This module applies sub-graph isomorphism to both the event graph and the user b
 - identifying all benign user interactions with the service, and associates them with different behavior classes
 - unknown pattern are classified as new possible attack behavior
 
-> [![[error]]] User interactions as a sequence of URLs
+> [![[[[error]]]]] User interactions as a sequence of URLs
 > URLs are used as a way to represent user behaviors
 
 ## Testing the model

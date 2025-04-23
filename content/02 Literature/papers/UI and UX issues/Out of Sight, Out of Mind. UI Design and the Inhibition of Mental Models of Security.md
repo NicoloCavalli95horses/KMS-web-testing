@@ -25,7 +25,7 @@ The paper present a review of the literature about mental models in psychology a
 
 The research on mental models in cyber-security suggests that ==the typical non-technical user has a weak understanding of how computers, software, and the internet work, which impairs their ability to detect threats, and take appropriate measures== to defend themselves.
 
-> [![[error]]] A simple but correct model is enough
+> [![[[[error]]]]] A simple but correct model is enough
 > Mental models need not be technically accurate, they just should support safe behavior.
 
 ---
