@@ -4,56 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "e12fd3242e3d3d17",
+        "id": "4567157b670c5dc4",
         "type": "tabs",
         "children": [
           {
-            "id": "d3f1cece26f26d09",
+            "id": "eb4fb769fd3c4ff6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/XSS (Cross-Site Scripting)/A survey of detection methods for XSS attacks.md",
+                "file": "02 Literature/papers/SQLIA (SQL Injection Attack)/SENTINEL. securing database from logic flaws in web applications.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "A survey of detection methods for XSS attacks"
-            }
-          },
-          {
-            "id": "c60578a855f6ff05",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Notes/penetration test.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "penetration test"
-            }
-          },
-          {
-            "id": "f454d0732bf9dc92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03 References/(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018)"
+              "title": "SENTINEL. securing database from logic flaws in web applications"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -215,14 +184,18 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "f454d0732bf9dc92",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
-    "01 Notes/penetration test.md",
+    "02 Literature/papers/SQLIA (SQL Injection Attack)/SENTINEL. securing database from logic flaws in web applications.md",
+    "03 References/(Li, Yan, et al., 2012).md",
+    "96 Meta/SLR/Paper list.md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/A survey of detection methods for XSS attacks.md",
+    "97 Assets/pentesting_tools.png",
+    "03 References/(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018).md",
+    "01 Notes/penetration test.md",
     "01 Notes/XSS (cross site scripting).md",
     "01 Notes/proxy server.md",
     "01 Notes/reverse proxy.md",
-    "03 References/(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018).md",
     "03 References/(Chinprutthiwong, Vardhan, et al., 2021).md",
     "01 Notes/XCS (Cross Channel Scripting).md",
     "01 Notes/XXE (XML external entities).md",
@@ -240,9 +213,6 @@
     "01 Notes/Cisco RBAC CVE.md",
     "01 Notes/CFG (Control Flow Graph).md",
     "01 Notes/CDP (Chrome DevTools Protocol).md",
-    "01 Notes/CDN (Content Delivery Network).md",
-    "01 Notes/cause-effect graphing.md",
-    "01 Notes/CAPTCHA (Completely Automated Public Turing-test-to-tell Computers and Humans Apart).md",
     "04 Canvases/mind maps/Props tampering detection.canvas",
     "04 Canvases/meetings/2025_17_04.canvas",
     "97 Assets/subgraph_example.png",
@@ -267,7 +237,6 @@
     "97 Assets/control_flow_graph.png",
     "97 Assets/faulty_url_validation_logic.png",
     "97 Assets/js_network_request_api_csrh_entry_points.png",
-    "97 Assets/canva_bad_design_pattern_example.png",
     "02 Literature/papers/XCS (Cross Channel Scripting)",
     "02 Literature/papers/server configuration",
     "02 Literature/papers/behavioral biometrics",
