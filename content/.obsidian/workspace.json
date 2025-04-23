@@ -23,21 +23,37 @@
             }
           },
           {
-            "id": "1ab0469ea96b118e",
+            "id": "c60578a855f6ff05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/XSS (cross site scripting).md",
+                "file": "01 Notes/penetration test.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "XSS (cross site scripting)"
+              "title": "penetration test"
+            }
+          },
+          {
+            "id": "f454d0732bf9dc92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 References/(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018)"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -200,10 +215,13 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "d3f1cece26f26d09",
+  "active": "f454d0732bf9dc92",
   "lastOpenFiles": [
-    "01 Notes/XSS (cross site scripting).md",
+    "01 Notes/penetration test.md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/A survey of detection methods for XSS attacks.md",
+    "01 Notes/XSS (cross site scripting).md",
+    "01 Notes/proxy server.md",
+    "01 Notes/reverse proxy.md",
     "03 References/(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018).md",
     "03 References/(Chinprutthiwong, Vardhan, et al., 2021).md",
     "01 Notes/XCS (Cross Channel Scripting).md",
@@ -225,9 +243,6 @@
     "01 Notes/CDN (Content Delivery Network).md",
     "01 Notes/cause-effect graphing.md",
     "01 Notes/CAPTCHA (Completely Automated Public Turing-test-to-tell Computers and Humans Apart).md",
-    "01 Notes/canvas DOM element.md",
-    "01 Notes/callstack.md",
-    "01 Notes/callee.md",
     "04 Canvases/mind maps/Props tampering detection.canvas",
     "04 Canvases/meetings/2025_17_04.canvas",
     "97 Assets/subgraph_example.png",

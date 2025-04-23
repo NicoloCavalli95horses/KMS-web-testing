@@ -8843,18 +8843,18 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 416,
+      "wordCount": 417,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.3866666666666667,
+      "pageCount": 1.39,
       "characterCount": 2880,
-      "nonWhitespaceCharacterCount": 2359,
-      "readingTimeInMinutes": 1.569811320754717,
+      "nonWhitespaceCharacterCount": 2358,
+      "readingTimeInMinutes": 1.5735849056603775,
       "linkCount": 3,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985128,
-      "modifiedDate": 1743766985128,
+      "modifiedDate": 1745417391807,
       "sizeInBytes": 2975,
       "sessionStart": {
         "noteCount": 1,
@@ -12714,19 +12714,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 2071,
+      "wordCount": 2267,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 6.903333333333333,
-      "characterCount": 14523,
-      "nonWhitespaceCharacterCount": 12260,
-      "readingTimeInMinutes": 7.815094339622641,
-      "linkCount": 34,
+      "pageCount": 7.556666666666667,
+      "characterCount": 15986,
+      "nonWhitespaceCharacterCount": 13495,
+      "readingTimeInMinutes": 8.554716981132076,
+      "linkCount": 38,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985038,
-      "modifiedDate": 1745414316359,
-      "sizeInBytes": 14652,
+      "modifiedDate": 1745417742238,
+      "sizeInBytes": 16119,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 6.036666666666667,
@@ -14802,38 +14802,6 @@
         "ID": "2025-03-11-13:45",
         "tags": [
           "#definition"
-        ]
-      }
-    },
-    "01 Notes/proxy-server.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 271,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.9033333333333333,
-      "characterCount": 1957,
-      "nonWhitespaceCharacterCount": 1619,
-      "readingTimeInMinutes": 1.0226415094339623,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1743766985064,
-      "modifiedDate": 1744622087428,
-      "sizeInBytes": 2026,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.9033333333333333,
-        "wordCount": 271,
-        "characterCount": 1957,
-        "nonWhitespaceCharacterCount": 1619
-      },
-      "frontmatter": {
-        "ID": "2025-02-12-14:11",
-        "tags": [
-          "#definition",
-          "network"
         ]
       }
     },
@@ -21027,31 +20995,6 @@
         "nonWhitespaceCharacterCount": 0
       }
     },
-    "00 Antilibrary/penetration test.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1743766984994,
-      "modifiedDate": 1743766984994,
-      "sizeInBytes": 0,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0
-      }
-    },
     "00 Antilibrary/performance testing.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -21981,19 +21924,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 158,
+      "wordCount": 237,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.5266666666666666,
-      "characterCount": 1193,
-      "nonWhitespaceCharacterCount": 1013,
-      "readingTimeInMinutes": 0.5962264150943396,
+      "pageCount": 0.79,
+      "characterCount": 1638,
+      "nonWhitespaceCharacterCount": 1372,
+      "readingTimeInMinutes": 0.8943396226415095,
       "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1745411142987,
-      "modifiedDate": 1745412842559,
-      "sizeInBytes": 1291,
+      "modifiedDate": 1745417791315,
+      "sizeInBytes": 1736,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -22010,6 +21953,104 @@
         ],
         "Project": [
           "SLR"
+        ]
+      }
+    },
+    "01 Notes/proxy server.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 154,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.5133333333333333,
+      "characterCount": 1121,
+      "nonWhitespaceCharacterCount": 947,
+      "readingTimeInMinutes": 0.5811320754716981,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743766985064,
+      "modifiedDate": 1745417413359,
+      "sizeInBytes": 1203,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-02-12-14:11",
+        "tags": [
+          "#definition",
+          "network",
+          "clientDefense"
+        ]
+      }
+    },
+    "01 Notes/reverse proxy.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 133,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.44333333333333336,
+      "characterCount": 930,
+      "nonWhitespaceCharacterCount": 783,
+      "readingTimeInMinutes": 0.5018867924528302,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1745417380558,
+      "modifiedDate": 1745417465541,
+      "sizeInBytes": 994,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-23-16:10",
+        "tags": [
+          "#definition",
+          "network"
+        ]
+      }
+    },
+    "01 Notes/penetration test.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 72,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.24,
+      "characterCount": 545,
+      "nonWhitespaceCharacterCount": 464,
+      "readingTimeInMinutes": 0.27169811320754716,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743766984994,
+      "modifiedDate": 1745417931178,
+      "sizeInBytes": 638,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-23-16:17",
+        "tags": [
+          "#definition",
+          "cyberSecurity",
+          "PenetrationTesting"
         ]
       }
     }

@@ -8,6 +8,7 @@ Project:
   - SLR
 ---
 Unsystematic literature review about XSS. Focuses on entry points, and describes client-side, server-side and hybrid mitigation techniques
+
 ## Context
 
 [[XSS (cross site scripting)]] can be best described as an application layer code injection attack on the client-side where an attacker injects malicious scripts into a vulnerable web application.
@@ -25,10 +26,10 @@ Unsystematic literature review about XSS. Focuses on entry points, and describes
 - classification of detection approaches: client-side, server-side, hybrid
 - discussion of a precondition for a XSS attack to be carried out
 
-When the main purpose of an XSS is to damage more users, and the script tries to propagate automatically, the XSS issue is usually called "worm"
+When the main purpose of an XSS is to damage more users, and the script tries to propagate automatically, the XSS issue is usually called "worm"[^1]
 - a XSS worm tries to affect more and more user automatically
 - a payload is executed for each user in the same way
-- a JavaScript XSS worm is much more may affect
+- a JavaScript XSS worm is much more easy to spread than an OS worm given the popularity of browsers
 
 ## Limits
 
@@ -38,3 +39,5 @@ When the main purpose of an XSS is to damage more users, and the script tries to
 ---
 #### References
 - [[(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018)]]
+
+[^1]: History of famous XSS worms, pag.9-10. Facebook was affected as well

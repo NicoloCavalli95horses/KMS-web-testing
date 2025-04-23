@@ -13,7 +13,7 @@ tags:
 How to obtain information about the user navigation:
 
 - **Google Analytics** is used to infer user behavior models and track users’s actions. A snippet of JavaScript needs to be added to every page of the application
-- **Proxy servers:** user requests are sent to a [[proxy-server]] that collect and analyze them and then send the requests to their destination.
+- **Proxy servers:** user requests are sent to a [[proxy server]] that collect and analyze them and then send the requests to their destination.
 - It is possible to modify the source code of browsers with JavaScript in order to gather data about the user navigation
 
 **Classify user behavior:**

@@ -45,23 +45,50 @@ XSS is similar to [[CSRF (cross-site request forgery)]] in that their harm may b
 
 [[RCE (Remote Code Execution)]] harms instead the server, using a combination of dangerous functions (`(eval(), exec(), system(), require()`)
 
-## Causes
+## Causes/preconditions
 
-- insufficient input validation (see [[string validation]]), from text input to file or media inputs, to URL input
-- execution of cross-domain script is not blocked
-- in case of reflected XSS, a victim has to be tricked to click on a malicious link containing the script
-- in case of stored XSS, a database has to correctly store the malicious script
+- **Injectability**: an attackers has to find and exploit an insufficient input validation (see [[string validation]]), from text, file, media or URL input fields. The more interactive an application is, the more attack vectors are possible
+- **Executability**: the execution of the cross-domain script mustn't be blocked
+- **Security bypass**: all the different layers of protection must be bypassed by an attacker to successfully launch an XSS (e.g., [[CSP (Content Security Policy)]])
+- **Social engineering**: in case of reflected XSS, a victim has to be tricked to click on a malicious link containing the script
+- **Server-side logic flaws**: in case of stored XSS, a database has to correctly store the malicious script
 
 Example of entry points from 
-[[(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018)]]:
+[[(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018)]] (pag.12-13):
 
 ````tabs
 tab: URL manipulation
-
 There are several possible ways by which the attacker may craft a malicious script in a URL:
 - raw script inclusion: `https://example.com?topic=<script>alert(1)</script>`
 - obfuscated URL query: `https://example.com?topic=%3C%73%33...`
 - shortened URL: `https://bit.ly/32wedcaS`
+
+
+tab: HTML tags
+- img: `<img src="javascript:alert(’XSS′);">`
+- script tag: `<script src='http://evil/xss.js?'>`
+- title tag
+- input tag
+- body tag
+- bgsound tag
+- a and link tags
+- style tag
+- meta tag
+- iframe and frame tags
+- table, td tags
+- div tag
+- base tag
+- object, embed tags
+
+tab: event handlers
+A number of event handlers can be exploited to execute JavaScript in specific situations:
+- window event attributes
+- form event attributes
+- keyboard events
+- mouse events
+- drag events
+- clipboard events
+- media events
 ````
 ## Attack example
 
@@ -198,6 +225,16 @@ Ensuring that programming guidelines and rules are followed during the developme
 - [[ELET (Embedded Language Encapsulation Type)]]
 
 ````
+
+## Detection approaches
+
+Three categories of detection can be identified [[(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018)]]
+- **client-side approaches**: detection measures may be embedded in the form of filters in the client browsers, or set up as [[proxy server]] with defined rules (pag.15-19)
+- **server-side approaches**: incorporated on the web server or set up as [[reverse proxy]] (pag.19-24)
+- **hybrid approaches**: combine both client and server solutions (pag.24)
+
+Machine learning based techniques have also gained popularity lately
+
 ## Mitigate XSS vulnerabilities
 
 ````tabs
