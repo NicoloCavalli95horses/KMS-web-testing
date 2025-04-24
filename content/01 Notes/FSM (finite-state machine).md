@@ -61,8 +61,11 @@ flashlight.dispatch('press');
 console.log(flashlight.state); // BLINK
 
 ```
+
+---
 ## References
 
-- https://medium.com/@mlbors/what-is-a-finite-state-machine-6d8dec727e2c
-- https://dev.to/spukas/finite-state-machine-in-javascript-1ki1
+- [medium.com](https://medium.com/@mlbors/what-is-a-finite-state-machine-6d8dec727e2c)
+- [dev.to](https://dev.to/spukas/finite-state-machine-in-javascript-1ki1)
 - Used by [[(Deepa, Thilagam, et al., 2018)]] to model the behavior of an unknown web application under test. Elegant and clear mathematical formulation of FSM
+- Used by [[(Li, Yan, et al., 2012)]], in an extended way, considering also data constraints between transitions

@@ -297,17 +297,113 @@
       "y": -560
     },
     {
-      "height": 60,
-      "id": "f18ddeb37f2ac701",
+      "height": 130,
+      "id": "ef84e51c1062b2d9",
       "styleAttributes": {
-        "border": "dashed",
         "textAlign": "center"
       },
-      "text": "`onClick`",
+      "text": "server",
+      "type": "text",
+      "width": 180,
+      "x": 1160,
+      "y": -520
+    },
+    {
+      "height": 80,
+      "id": "6af2c2d510d52052",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "the whole client-side logic",
+      "type": "text",
+      "width": 300,
+      "x": -200,
+      "y": -830
+    },
+    {
+      "file": "97 Assets/subgraph_example.png",
+      "height": 244,
+      "id": "e8ed816498f4b22a",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": -200,
+      "y": -690
+    },
+    {
+      "height": 120,
+      "id": "3c0885a21cee016d",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# 1. Proof-of-concept exploitation using browser dev tools",
+      "type": "text",
+      "width": 1880,
+      "x": 1275,
+      "y": 1200
+    },
+    {
+      "height": 127,
+      "id": "0d60f2ccc6776fd0",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "For example, React DevTool can reconstruct the component tree from the minified JS ",
+      "type": "text",
+      "width": 340,
+      "x": 1900,
+      "y": 1377
+    },
+    {
+      "height": 200,
+      "id": "736486ed2aba4957",
+      "styleAttributes": {
+      },
+      "text": "## Limits\n- based on a very manual process\n- not scalable\n- application dependent approach",
+      "type": "text",
+      "width": 420,
+      "x": 1700,
+      "y": 1560
+    },
+    {
+      "height": 160,
+      "id": "6c62d3c338107474",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "Large scale web application build on web framework (Vue, React, Angular), can be analyzed with browser tools",
+      "type": "text",
+      "width": 360,
+      "x": 1435,
+      "y": 1360
+    },
+    {
+      "height": 200,
+      "id": "042c401f0b7bc248",
+      "styleAttributes": {
+      },
+      "text": "## Benefits\n- easy to implement\n- it raises awareness on the problem\n",
+      "type": "text",
+      "width": 360,
+      "x": 1300,
+      "y": 1560
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "0847ed8e81fca107",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "DONE ✅",
       "type": "text",
       "width": 160,
-      "x": 2080,
-      "y": 234
+      "x": 1070,
+      "y": 1200
     },
     {
       "height": 60,
@@ -362,6 +458,92 @@
     },
     {
       "height": 60,
+      "id": "747986e57fe0d05c",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "list of items (premium or free)",
+      "type": "text",
+      "width": 340,
+      "x": 1340,
+      "y": -420
+    },
+    {
+      "height": 122,
+      "id": "7a23c0a315de5c26",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "logic related to protect premium resources",
+      "type": "text",
+      "width": 260,
+      "x": 260,
+      "y": -670
+    },
+    {
+      "height": 60,
+      "id": "59cb32706629c767",
+      "styleAttributes": {
+      },
+      "text": "## How to extract this?",
+      "type": "text",
+      "width": 360,
+      "x": 280,
+      "y": -506
+    },
+    {
+      "height": 80,
+      "id": "e2616f0aab214d2a",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "- minified code\n- control-flow may be obscured",
+      "type": "text",
+      "width": 400,
+      "x": 280,
+      "y": -430
+    },
+    {
+      "height": 90,
+      "id": "00ba7557960e926b",
+      "styleAttributes": {
+        "border": null,
+        "shape": null,
+        "textAlign": "center"
+      },
+      "text": "default logic",
+      "type": "text",
+      "width": 220,
+      "x": 2700,
+      "y": 339
+    },
+    {
+      "height": 120,
+      "id": "7652a2d64794cb09",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": " [[(Kim, Wang, Kwon, et al., 2023)]] logic tampering considering divergence points",
+      "type": "text",
+      "width": 360,
+      "x": 2380,
+      "y": 564
+    },
+    {
+      "height": 60,
+      "id": "f18ddeb37f2ac701",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "`onClick`",
+      "type": "text",
+      "width": 160,
+      "x": 2080,
+      "y": 234
+    },
+    {
+      "height": 60,
       "id": "de0726bcb83986ca",
       "styleAttributes": {
         "textAlign": "center"
@@ -411,225 +593,6 @@
       "y": -490
     },
     {
-      "height": 60,
-      "id": "747986e57fe0d05c",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "list of items (premium or free)",
-      "type": "text",
-      "width": 340,
-      "x": 1340,
-      "y": -420
-    },
-    {
-      "height": 130,
-      "id": "ef84e51c1062b2d9",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "server",
-      "type": "text",
-      "width": 180,
-      "x": 1160,
-      "y": -520
-    },
-    {
-      "height": 80,
-      "id": "6af2c2d510d52052",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "the whole client-side logic",
-      "type": "text",
-      "width": 300,
-      "x": -200,
-      "y": -830
-    },
-    {
-      "file": "97 Assets/subgraph_example.png",
-      "height": 244,
-      "id": "e8ed816498f4b22a",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": -200,
-      "y": -690
-    },
-    {
-      "height": 122,
-      "id": "7a23c0a315de5c26",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "logic related to protect premium resources",
-      "type": "text",
-      "width": 260,
-      "x": 260,
-      "y": -670
-    },
-    {
-      "height": 60,
-      "id": "59cb32706629c767",
-      "styleAttributes": {
-      },
-      "text": "## How to extract this?",
-      "type": "text",
-      "width": 360,
-      "x": 280,
-      "y": -506
-    },
-    {
-      "height": 80,
-      "id": "e2616f0aab214d2a",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "- minified code\n- control-flow may be obscured",
-      "type": "text",
-      "width": 400,
-      "x": 280,
-      "y": -430
-    },
-    {
-      "height": 160,
-      "id": "bbaf99635a02d2cb",
-      "styleAttributes": {
-      },
-      "text": "# Comparison of JavaScript web frameworks regarding [[BFT (business flow tampering)]]",
-      "type": "text",
-      "width": 960,
-      "x": 5280,
-      "y": 1160
-    },
-    {
-      "height": 380,
-      "id": "9321762a0e5a186c",
-      "styleAttributes": {
-        "textAlign": null
-      },
-      "text": "\n| Framework | DevTool | Component name visible | Props name visible |\n| --------- | ------- | ---------------------- | ------------------ |\n| Vue       | ✅       | ✅                      | ❌                  |\n| React     | ✅       | ❌                      | ❌                  |\n| Angular   | ✅       |                        |                    |\n| Svelte    |         |                        |                    |\n| SolidJS   |         |                        |                    |\n| Qwik      |         |                        |                    |\n",
-      "type": "text",
-      "width": 790,
-      "x": 5280,
-      "y": 1400
-    },
-    {
-      "height": 120,
-      "id": "3c0885a21cee016d",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "# 1. Proof-of-concept exploitation using browser dev tools",
-      "type": "text",
-      "width": 1880,
-      "x": 1275,
-      "y": 1200
-    },
-    {
-      "height": 90,
-      "id": "45abbb7bdd24a511",
-      "styleAttributes": {
-        "border": "dashed"
-      },
-      "text": "generation of new test",
-      "type": "text",
-      "width": 200,
-      "x": 2935,
-      "y": 2295
-    },
-    {
-      "height": 120,
-      "id": "6a2ac4fd253174b6",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "# 2. Test generation based on manual user interaction",
-      "type": "text",
-      "width": 1880,
-      "x": 1275,
-      "y": 2080
-    },
-    {
-      "height": 81,
-      "id": "53cbe586c9deb113",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "This can be automated with `TamperMonkey`",
-      "type": "text",
-      "width": 310,
-      "x": 2745,
-      "y": 1400
-    },
-    {
-      "height": 170,
-      "id": "543a35b562d2a6d9",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "code at the divergence point can be automatically tampered: invalid scenarios are generated",
-      "type": "text",
-      "width": 310,
-      "x": 2575,
-      "y": 2255
-    },
-    {
-      "height": 90,
-      "id": "00ba7557960e926b",
-      "styleAttributes": {
-        "border": null,
-        "shape": null,
-        "textAlign": "center"
-      },
-      "text": "default logic",
-      "type": "text",
-      "width": 220,
-      "x": 2700,
-      "y": 339
-    },
-    {
-      "height": 120,
-      "id": "7652a2d64794cb09",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": " [[(Kim, Wang, Kwon, et al., 2023)]] logic tampering considering divergence points",
-      "type": "text",
-      "width": 360,
-      "x": 2380,
-      "y": 564
-    },
-    {
-      "height": 81,
-      "id": "a50606349d778d86",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "Components props can be tampered at run-time",
-      "type": "text",
-      "width": 310,
-      "x": 2340,
-      "y": 1400
-    },
-    {
-      "color": "2",
-      "height": 100,
-      "id": "27f4044565654348",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "divergence point in the source code is identified",
-      "type": "text",
-      "width": 240,
-      "x": 2255,
-      "y": 2290
-    },
-    {
       "color": "2",
       "height": 60,
       "id": "cc8440fcb6b2ee0f",
@@ -656,17 +619,165 @@
       "y": 524
     },
     {
-      "height": 127,
-      "id": "0d60f2ccc6776fd0",
+      "height": 90,
+      "id": "4d63e9375ff1f2a6",
+      "styleAttributes": {
+        "border": null,
+        "shape": null,
+        "textAlign": "center"
+      },
+      "text": "`<Component />`",
+      "type": "text",
+      "width": 220,
+      "x": 1800,
+      "y": 219
+    },
+    {
+      "height": 240,
+      "id": "a6416b6e99773ab5",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "\n```json\n{\n  a: 1,\n  b: true,\n  c: null,\n  d: \"premium\"\n}\n```",
+      "type": "text",
+      "width": 260,
+      "x": 1360,
+      "y": 144
+    },
+    {
+      "height": 160,
+      "id": "bbaf99635a02d2cb",
+      "styleAttributes": {
+      },
+      "text": "# Comparison of JavaScript web frameworks regarding [[BFT (business flow tampering)]]",
+      "type": "text",
+      "width": 960,
+      "x": 5280,
+      "y": 1160
+    },
+    {
+      "height": 380,
+      "id": "9321762a0e5a186c",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "\n| Framework | DevTool | Component name visible | Props name visible |\n| --------- | ------- | ---------------------- | ------------------ |\n| Vue       | ✅       | ✅                      | ❌                  |\n| React     | ✅       | ❌                      | ❌                  |\n| Angular   | ✅       |                        |                    |\n| Svelte    |         |                        |                    |\n| SolidJS   |         |                        |                    |\n| Qwik      |         |                        |                    |\n",
+      "type": "text",
+      "width": 790,
+      "x": 5280,
+      "y": 1400
+    },
+    {
+      "height": 81,
+      "id": "53cbe586c9deb113",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "This can be automated with `TamperMonkey`",
+      "type": "text",
+      "width": 310,
+      "x": 2745,
+      "y": 1400
+    },
+    {
+      "height": 81,
+      "id": "a50606349d778d86",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "Components props can be tampered at run-time",
+      "type": "text",
+      "width": 310,
+      "x": 2340,
+      "y": 1400
+    },
+    {
+      "height": 200,
+      "id": "605a671555cd495b",
+      "styleAttributes": {
+      },
+      "text": "## Benefits\n- easy to implement\n- framework independent",
+      "type": "text",
+      "width": 360,
+      "x": 1315,
+      "y": 2520
+    },
+    {
+      "height": 200,
+      "id": "5a121e188afba673",
       "styleAttributes": {
         "border": "invisible",
         "textAlign": null
       },
-      "text": "For example, React DevTool can reconstruct the component tree from the minified JS ",
+      "text": "## Is it possible to tamper directly the data received?",
+      "type": "text",
+      "width": 360,
+      "x": 1150,
+      "y": 384
+    },
+    {
+      "height": 222,
+      "id": "0f3e9c0750075959",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "The actual value of this objects is tainted. The goal is to find functions that use this values to perform different operations based on the status of the item (free/premium)",
       "type": "text",
       "width": 340,
-      "x": 1900,
-      "y": 1377
+      "x": 1695,
+      "y": 3169
+    },
+    {
+      "height": 120,
+      "id": "d010747870b378b9",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# 3. Test generation based on HTTP traces analysis and [[dynamic taint analysis]]",
+      "type": "text",
+      "width": 1880,
+      "x": 1335,
+      "y": 2980
+    },
+    {
+      "height": 205,
+      "id": "ad2c1d379953200e",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "HTTP traces are gathered and analyzed. The goal is to find the final array of objects that include sensitive information (e.g., whether the item is premium)",
+      "type": "text",
+      "width": 360,
+      "x": 1275,
+      "y": 3177
+    },
+    {
+      "height": 120,
+      "id": "6a2ac4fd253174b6",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# 2. Test generation based on manual user interaction",
+      "type": "text",
+      "width": 1880,
+      "x": 1275,
+      "y": 2080
+    },
+    {
+      "height": 170,
+      "id": "543a35b562d2a6d9",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "code at the divergence point can be automatically tampered: invalid scenarios are generated",
+      "type": "text",
+      "width": 310,
+      "x": 2575,
+      "y": 2255
     },
     {
       "height": 80,
@@ -706,44 +817,6 @@
       "y": 2520
     },
     {
-      "height": 200,
-      "id": "736486ed2aba4957",
-      "styleAttributes": {
-      },
-      "text": "## Limits\n- based on a very manual process\n- not scalable\n- application dependent approach",
-      "type": "text",
-      "width": 420,
-      "x": 1700,
-      "y": 1560
-    },
-    {
-      "height": 90,
-      "id": "4d63e9375ff1f2a6",
-      "styleAttributes": {
-        "border": null,
-        "shape": null,
-        "textAlign": "center"
-      },
-      "text": "`<Component />`",
-      "type": "text",
-      "width": 220,
-      "x": 1800,
-      "y": 219
-    },
-    {
-      "height": 160,
-      "id": "6c62d3c338107474",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "Large scale web application build on web framework (Vue, React, Angular), can be analyzed with browser tools",
-      "type": "text",
-      "width": 360,
-      "x": 1435,
-      "y": 1360
-    },
-    {
       "height": 160,
       "id": "ed62b86c15508b5a",
       "styleAttributes": {
@@ -755,66 +828,6 @@
       "width": 360,
       "x": 1315,
       "y": 2275
-    },
-    {
-      "height": 200,
-      "id": "042c401f0b7bc248",
-      "styleAttributes": {
-      },
-      "text": "## Benefits\n- easy to implement\n- it raises awareness on the problem\n",
-      "type": "text",
-      "width": 360,
-      "x": 1300,
-      "y": 1560
-    },
-    {
-      "height": 240,
-      "id": "a6416b6e99773ab5",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "\n```json\n{\n  a: 1,\n  b: true,\n  c: null,\n  d: \"premium\"\n}\n```",
-      "type": "text",
-      "width": 260,
-      "x": 1360,
-      "y": 144
-    },
-    {
-      "height": 200,
-      "id": "605a671555cd495b",
-      "styleAttributes": {
-      },
-      "text": "## Benefits\n- easy to implement\n- framework independent",
-      "type": "text",
-      "width": 360,
-      "x": 1315,
-      "y": 2520
-    },
-    {
-      "height": 200,
-      "id": "5a121e188afba673",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "## Is it possible to tamper directly the data received?",
-      "type": "text",
-      "width": 360,
-      "x": 1150,
-      "y": 384
-    },
-    {
-      "color": "4",
-      "height": 60,
-      "id": "0847ed8e81fca107",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "DONE ✅",
-      "type": "text",
-      "width": 160,
-      "x": 1070,
-      "y": 1200
     },
     {
       "color": "3",
@@ -830,29 +843,54 @@
       "y": 2080
     },
     {
-      "height": 222,
-      "id": "0f3e9c0750075959",
+      "height": 321,
+      "id": "6aa00fe914d1c2b5",
       "styleAttributes": {
         "border": "invisible",
         "textAlign": null
       },
-      "text": "The actual value of this objects is tainted. The goal is to find functions that use this values to perform different operations based on the status of the item (free/premium)",
+      "text": "Different candidate functions may be found. Functions are executed with different inputs. If the output of the function is the same with the two different inputs, the function is discarded because is not the divergence point",
       "type": "text",
       "width": 340,
-      "x": 1695,
-      "y": 3169
+      "x": 2105,
+      "y": 3120
+    },
+    {
+      "height": 180,
+      "id": "451373fc69afe302",
+      "styleAttributes": {
+      },
+      "text": "## Benefits\n- semi-automatic flow\n- framework independent",
+      "type": "text",
+      "width": 360,
+      "x": 1335,
+      "y": 3480
     },
     {
       "height": 90,
-      "id": "32ad5cec658d3ad9",
+      "id": "45abbb7bdd24a511",
       "styleAttributes": {
         "border": "dashed"
       },
       "text": "generation of new test",
       "type": "text",
       "width": 200,
-      "x": 3215,
-      "y": 3233
+      "x": 2935,
+      "y": 2295
+    },
+    {
+      "color": "2",
+      "height": 100,
+      "id": "27f4044565654348",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "divergence point in the source code is identified",
+      "type": "text",
+      "width": 240,
+      "x": 2255,
+      "y": 2290
     },
     {
       "height": 180,
@@ -923,45 +961,6 @@
       "y": 4480
     },
     {
-      "height": 120,
-      "id": "d010747870b378b9",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "# 3. Test generation based on HTTP traces analysis and [[dynamic taint analysis]]",
-      "type": "text",
-      "width": 1880,
-      "x": 1335,
-      "y": 2980
-    },
-    {
-      "height": 321,
-      "id": "6aa00fe914d1c2b5",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "Different candidate functions may be found. Functions are executed with different inputs. If the output of the function is the same with the two different inputs, the function is discarded because is not the divergence point",
-      "type": "text",
-      "width": 340,
-      "x": 2105,
-      "y": 3120
-    },
-    {
-      "height": 205,
-      "id": "ad2c1d379953200e",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "HTTP traces are gathered and analyzed. The goal is to find the final array of objects that include sensitive information (e.g., whether the item is premium)",
-      "type": "text",
-      "width": 360,
-      "x": 1275,
-      "y": 3177
-    },
-    {
       "height": 170,
       "id": "b9307e9f013b7685",
       "styleAttributes": {
@@ -972,6 +971,18 @@
       "width": 310,
       "x": 2835,
       "y": 3193
+    },
+    {
+      "height": 90,
+      "id": "32ad5cec658d3ad9",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "generation of new test",
+      "type": "text",
+      "width": 200,
+      "x": 3215,
+      "y": 3233
     },
     {
       "color": "2",
@@ -988,15 +999,29 @@
       "y": 3229
     },
     {
-      "height": 180,
-      "id": "451373fc69afe302",
+      "height": 380,
+      "id": "06e253d0caf6fc51",
       "styleAttributes": {
+        "border": "invisible"
       },
-      "text": "## Benefits\n- semi-automatic flow\n- framework independent",
+      "text": "- Modeling a new type of attack, which exploit a bad design pattern typically used in component-based programming (accurate description of threat model is provided)\n- Compare different web frameworks showing how these frameworks deals with the problem\n- Describe in which circumstances this vulnerability may occur in real web applications (with examples from real cases)\n- Describe the challenges related to the design of a fully automated scanner of minified JS code able to detect this vulnerability",
       "type": "text",
-      "width": 360,
-      "x": 1335,
-      "y": 3480
+      "width": 740,
+      "x": -600,
+      "y": 40
+    },
+    {
+      "height": 60,
+      "id": "5b58a40b67a4a1bc",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# Props tampering contributions",
+      "type": "text",
+      "width": 740,
+      "x": -600,
+      "y": -80
     }
   ]
 }
