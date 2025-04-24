@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"project\": \"SLR\"] tag:#paper",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -75,7 +75,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -184,7 +185,7 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "eb4fb769fd3c4ff6",
+  "active": "0d4f777b445aff61",
   "lastOpenFiles": [
     "02 Literature/papers/SQLIA (SQL Injection Attack)/SENTINEL. securing database from logic flaws in web applications.md",
     "01 Notes/daikon engine.md",
