@@ -2,10 +2,9 @@
 ID: 2025-04-01T08:25:38.071Z
 tags:
   - paper
-  - projectSLR
-  - [[[[tabnabbing]]]]
-Project:
-  - SLR
+  - tabnabbing
+  - browser
+  - clientDefense
 ---
 A Firefox plugin is developed to defend against [[tabnabbing]]. Short paper
 ## Context

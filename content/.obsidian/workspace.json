@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4567157b670c5dc4",
+        "id": "76aa32c50b69c801",
         "type": "tabs",
         "children": [
           {
-            "id": "eb4fb769fd3c4ff6",
+            "id": "18f49f947be52f09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/SQLIA (SQL Injection Attack)/SENTINEL. securing database from logic flaws in web applications.md",
+                "file": "96 Meta/SLR/Paper list.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "SENTINEL. securing database from logic flaws in web applications"
+              "title": "Paper list"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"project\": \"SLR\"] tag:#paper",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -75,12 +75,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 213.50260543823242
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -96,12 +95,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01 Notes/DEAP.md",
-                "linksCollapsed": true,
+                "file": "96 Meta/SLR/Paper list.md",
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from DEAP"
+              "title": "Outgoing links from Paper list"
             }
           },
           {
@@ -125,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 Canvases/meetings/2025_04_04.canvas",
+                "file": "96 Meta/SLR/Paper list.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025_04_04"
+              "title": "Outline of Paper list"
             }
           },
           {
@@ -150,8 +149,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -160,16 +159,16 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 405.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -185,37 +184,37 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "0d4f777b445aff61",
+  "active": "18f49f947be52f09",
   "lastOpenFiles": [
+    "02 Literature/papers/XSS (Cross-Site Scripting)/WAVE. Black Box Detection of XSS, CSRF and Information Leakage Vulnerabilities.md",
+    "02 Literature/papers/clickjacking/Vulnerability Analysis of Iframe Attacks on Websites.md",
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/The state of HTTP declarative security in online banking websites.md",
+    "02 Literature/papers/client-side storage/The role of HTML5 IndexedDB, the past, present and future.md",
+    "02 Literature/papers/authentication/Systematically breaking and fixing OpenID security. Formal analysis, semi-automated empirical evaluation, and practical countermeasures.md",
+    "02 Literature/papers/client-side storage/Security of CORS on LocalStorage.md",
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/Scenario-Based Cross-Site Request Forgery (CSRF) Attack Simulation.md",
+    "02 Literature/papers/browser extension based attacks/sandFOX. secure sandboxed and isolated environment for firefox browser.md",
+    "02 Literature/papers/prototype pollution/On Detecting and Measuring Exploitable JavaScript Functions in Real-world Applications.md",
+    "02 Literature/papers/client-side storage/NoteLocker. Simple Secure Storage Service.md",
+    "02 Literature/papers/tabnabbing/NoTabNab. Protection against the “tabnabbing attack”.md",
+    "02 Literature/papers/SQLIA (SQL Injection Attack)/Minimization of SQL injection in scheduling application development.md",
+    "02 Literature/papers/JWT (JSON Web Token)/JSON Web Token Penetration Testing on Cookie Storage with CSRF Techniques.md",
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/Enhancing Web Security. A Comparative Analysis of Machine Learning Models for CSRF Detection.md",
+    "02 Literature/papers/tabnabbing/Detecting Tabnabbing Attacks Via An RL-Based Agent.md",
+    "02 Literature/papers/client-side storage/Decrypting IndexedDB in private mode of Gecko-based browsers.md",
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/CSRF Detection Based on Graph Data Mining.md",
+    "02 Literature/papers/CMS (Content Management System)/Comparative analysis of web security in open source content management system.md",
+    "02 Literature/papers/clickjacking/Clickjacking. Existing defenses and some novel approaches.md",
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/Browser protection against cross-site request forgery.md",
+    "02 Literature/papers/SQLIA (SQL Injection Attack)/An effective method for preventing SQL injection attack and session hijacking.md",
+    "02 Literature/papers/WAF (Web Application Firewall)/Adaptive Web Application Firewall for Multi-Threat Detection.md",
+    "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
+    "02 Literature/papers/parameter tampering/A Novel Approach for Message Authentication to Prevent Parameter Tampering Attack in Web Applications.md",
+    "02 Literature/papers/prototype pollution/A Multivocal Literature Review on Prototype Pollution Vulnerability.md",
     "02 Literature/papers/SQLIA (SQL Injection Attack)/SENTINEL. securing database from logic flaws in web applications.md",
-    "01 Notes/daikon engine.md",
-    "01 Notes/KS (Kolmogorov-Smirnov) test.md",
-    "01 Notes/SQL signature.md",
-    "01 Notes/SQLIA (SQL injection attack).md",
-    "01 Notes/benchmark testing.md",
-    "01 Notes/fuzzing.md",
     "97 Assets/SQLIA_detection_model.png",
-    "01 Notes/FSM (finite-state machine).md",
     "04 Canvases/mind maps/props tampering.canvas",
-    "03 References/(Li, Yan, et al., 2012).md",
-    "96 Meta/SLR/Paper list.md",
-    "02 Literature/papers/XSS (Cross-Site Scripting)/A survey of detection methods for XSS attacks.md",
     "97 Assets/pentesting_tools.png",
-    "03 References/(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018).md",
-    "01 Notes/penetration test.md",
-    "01 Notes/XSS (cross site scripting).md",
-    "01 Notes/proxy server.md",
-    "01 Notes/reverse proxy.md",
-    "03 References/(Chinprutthiwong, Vardhan, et al., 2021).md",
-    "01 Notes/XCS (Cross Channel Scripting).md",
-    "01 Notes/XXE (XML external entities).md",
-    "01 Notes/XSS and CSFR comparison.md",
-    "01 Notes/combinatorial testing.md",
-    "01 Notes/COIL (Cross-Origin Image Leak).md",
-    "01 Notes/COEP (Cross-Origin Embedder Policy).md",
-    "01 Notes/CodeCommons.md",
-    "01 Notes/code walkthrough.md",
-    "01 Notes/code obfuscation.md",
     "04 Canvases/meetings/2025_17_04.canvas",
     "97 Assets/subgraph_example.png",
     "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",

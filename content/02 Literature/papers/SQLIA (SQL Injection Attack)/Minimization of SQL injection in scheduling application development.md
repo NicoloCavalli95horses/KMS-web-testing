@@ -2,12 +2,7 @@
 ID: 2025-03-27T08:04:57.716Z
 tags:
   - paper
-  - projectSLR
   - SQLIA
-  - [[[[IndexedDB]]]]
-  - [[[[PDO]]]]
-Project:
-  - SLR
 ---
 Poorly written, not clear in the methodology, not well structured.
 ## Context

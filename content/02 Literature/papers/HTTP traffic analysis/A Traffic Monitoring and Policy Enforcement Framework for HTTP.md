@@ -5,9 +5,6 @@ tags:
   - SQLIA
   - XSS
   - HTTP
-  - projectSLR
-Project:
-  - SLR
 ---
 ## Context
 

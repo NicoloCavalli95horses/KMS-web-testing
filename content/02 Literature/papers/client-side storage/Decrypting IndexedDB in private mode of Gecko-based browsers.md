@@ -5,9 +5,6 @@ tags:
   - IndexedDB
   - clientStorageAttack
   - forensic
-  - projectSLR
-Project:
-  - SLR
 ---
 ## Context
 

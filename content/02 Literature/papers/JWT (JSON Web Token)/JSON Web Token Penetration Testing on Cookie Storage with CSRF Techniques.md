@@ -3,11 +3,8 @@ ID: 2025-03-25T16:26:51.549Z
 tags:
   - paper
   - PenetrationTesting
-  - projectSLR
   - CSFR
   - JWT
-Project:
-  - SLR
 ---
 Poorly written and not clear in the experimental phase
 

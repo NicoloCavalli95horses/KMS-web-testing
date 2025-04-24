@@ -5,8 +5,6 @@ tags:
   - Privacy
   - clientStorage
   - CORS
-  - projectSLR
-Project: []
 ---
 ## Context
 

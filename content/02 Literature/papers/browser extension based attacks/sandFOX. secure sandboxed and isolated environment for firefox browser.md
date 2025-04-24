@@ -2,11 +2,8 @@
 ID: 2025-04-03T07:17:25.148Z
 tags:
   - paper
-  - projectSLR
   - browserAttacks
   - firefox
-Project:
-  - SLR
 ---
 ## Context
 

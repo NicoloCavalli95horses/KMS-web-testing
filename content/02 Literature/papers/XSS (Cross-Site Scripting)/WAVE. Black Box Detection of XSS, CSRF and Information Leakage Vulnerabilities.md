@@ -2,11 +2,8 @@
 ID: 2025-03-26T09:59:07.436Z
 tags:
   - paper
-  - projectSLR
   - XSS
   - CSFR
-Project:
-  - SLR
 ---
 Poorly written and not clear. The WAVE tool needs manual intervention in the crawling phase, necessary to discover the endpoints. Several initial information about the [[SUT (system under test)]] are required. WAVE is a server proxy that analyzes the HTTP traffic, modifies parameters in POST requests and evaluate the server response.
 ## Context

@@ -2,10 +2,7 @@
 ID: 2025-03-27T12:49:53.849Z
 tags:
   - paper
-  - projectSLR
   - clientStorage
-Project:
-  - SLR
 ---
 The authors present a proof of concept note-taking application that encrypt all the user-generated content at client-side. The user has to manually store the private key somewhere else and insert it to access the app. Bad UX
 ## Context

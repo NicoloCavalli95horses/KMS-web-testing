@@ -2,13 +2,10 @@
 ID: 2025-04-01T11:26:43.511Z
 tags:
   - paper
-  - projectSLR
   - machineLearning
   - SQLIA
   - WAF
   - HTTP
-Project:
-  - SLR
 ---
 ## Context
 

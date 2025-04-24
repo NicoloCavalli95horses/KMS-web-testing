@@ -5,10 +5,7 @@ tags:
   - Joomla
   - Drupal
   - Wordpress
-  - projectSLR
   - CMS
-Project:
-  - SLR
 ---
 Poorly written paper
 ## Context

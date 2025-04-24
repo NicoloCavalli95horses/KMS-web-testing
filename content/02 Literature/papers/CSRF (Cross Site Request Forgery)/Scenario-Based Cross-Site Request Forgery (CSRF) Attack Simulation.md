@@ -2,10 +2,7 @@
 ID: 2025-03-28T09:47:59.261Z
 tags:
   - paper
-  - projectSLR
   - CSFR
-Project:
-  - SLR
 ---
 ## Context
 

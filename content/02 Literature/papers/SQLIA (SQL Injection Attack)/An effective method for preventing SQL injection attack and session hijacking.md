@@ -3,11 +3,8 @@ ID: 2025-03-26T08:32:19.966Z
 tags:
   - paper
   - Sha-1
-  - projectSLR
   - SQLIA
   - cryptography
-Project:
-  - SLR
 ---
 Badly written paper. Limits of the methods are not highlighted
 ## Context

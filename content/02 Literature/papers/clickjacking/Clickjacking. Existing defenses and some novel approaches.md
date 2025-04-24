@@ -2,10 +2,7 @@
 ID: 2025-04-01T09:19:32.429Z
 tags:
   - paper
-  - projectSLR
-  - [[clickjacking]]
-Project:
-  - SLR
+  - clickjacking
 ---
 Unsystematic literature review on [[clickjacking]]
 ## Context

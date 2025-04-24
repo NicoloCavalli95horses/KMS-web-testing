@@ -4,9 +4,6 @@ tags:
   - paper
   - CSFR
   - HTTP
-  - projectSLR
-Project:
-  - SLR
 ---
 A proxy is proposed to filter HTTP requests likely related to CSRF. Simple approach and tested only on toy app (DVWA) 
 

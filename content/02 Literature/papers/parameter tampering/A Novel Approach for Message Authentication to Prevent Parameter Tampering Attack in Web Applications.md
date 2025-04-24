@@ -2,10 +2,7 @@
 ID: 2025-04-02T10:02:23.212Z
 tags:
   - paper
-  - projectSLR
   - parameterTampering
-Project:
-  - SLR
 ---
 ## Context
 
