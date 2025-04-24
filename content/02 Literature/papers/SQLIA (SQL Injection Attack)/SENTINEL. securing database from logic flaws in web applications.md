@@ -8,12 +8,13 @@ tags:
 Project:
   - SLR
 ---
-SENTINEL detects and blocks SQL injections by analyzing user requests at run-time. An extended finite-state machine model of a PHP application is derived in a black box fashion, considering not only state transitions but also data contraints. Application specification are obtained by constructing legitimate SQL signatures along with their set of logical invariants. A query that violate these specifications is considered malicious.
+SENTINEL detects and blocks state violation attacks based on malicious SQL queries, by analyzing user requests at run-time. An extended finite-state machine model of a PHP application is derived in a black box fashion, considering not only state transitions but also data contraints. Application specification are obtained by constructing legitimate SQL signatures along with their set of logical invariants. A query that violate these specifications is considered malicious.
 
 ## Context
 
-[[SQLIA (SQL injection attack)]] exploits the application’s input validation mechanisms to illegitimately get information from the database
-- for example, an attacker may retrieve other user's account information without providing the admin's credential
+[[SQLIA (SQL injection attack)]] exploits the application’s input validation mechanisms to illegitimately get information from the database.
+
+In the context of state violation attacks based on malicious SQL queries, an attacker may retrieve other user's account information without providing the admin's credential
 
 In this paper, we present a black-box approach for automated detection of state violation attacks with a focus on securing the back-end database. To be more specific, we aim to identify and block malicious SQL queries
 
@@ -21,7 +22,7 @@ In this paper, we present a black-box approach for automated detection of state 
 - black-box approach for deriving the application specification and detecting malicious SQL queries
 - implement a prototype detection system SENTINEL and evaluate it with a set of real-world web applications
 
-The central idea is to create a model of the “normal” behavior of the application at the SQL query level (the SQL signatures).
+The central idea is to create a model of the “normal” behavior of the application combining SQL signatures with logical constraints
 
 ## Approach
 
@@ -34,25 +35,30 @@ The model highlights the role of the user/front-end
 
 To derive the EFSM, we first construct [[SQL signature]] from observed SQL queries
 - Actual values are identified and collected ​​(i.e. the concrete data used in the query, such as numbers or strings) 
-- For each parameter, a statistical test called [[KS-test]] is applied to understand whether the number of possible values ​​is limited (e.g. roles such as “admin” or “user”) or unlimited (e.g. user ID, which can be any number). The test checks whether increasing the number of observed queries also increases the number of different values ​​for that parameter.
+- For each parameter, a statistical test called [[KS (Kolmogorov-Smirnov) test]] is applied to understand whether the number of possible values ​​is limited (e.g. roles such as “admin” or “user”) or unlimited (e.g. user ID, which can be any number). The test checks whether increasing the number of observed queries also increases the number of different values ​​for that parameter.
 - If the parameter has few different values ​​(e.g. “role”), the original value is kept in the structure. If it has many different values ​​(e.g. user ID), it is replaced with a placeholder (token), for example `<Token>`
 - In the end, the resulting structure (called the query skeleton) looks something like: `SELECT * FROM registration WHERE user id = <Token>` (where `<Token>` represents a dynamic value)
 
 A set of logic invariants is extracted for each SQL signature from both session variables and SQL responses (that represent basically the application state and the associated data constraints)
-- Value-based invariants are extracted using a daikon engine
+- Value-based invariants are extracted using a [[daikon engine]]
 - dependencies between SQL signatures are extracted with an original algorithm
 
-The set of invariants and SQL signatures, describe the application behavior and can be considered as the program specifications
+The set of invariants and SQL signatures describes the application behavior and can be considered as the program specifications:
 - the incoming SQL queries are evaluated at runtime
 - suspicious SQL queries, which violate any invariant associated with their respective signatures, are identified as potential attack, and blocked
 
 ## Evaluation
 
 [[benchmark testing]] was performed to evaluate SENTINEL. 4 applications were tested: Scarf, Wackopicko, OpenIT, openInvoice
+- all the crafted attacks were detected by SENTINEL
+- low false positive rate
+- the performance overhead is negligible 
 
 ## Limits
 
-- based on PHP language
+- Training traces are generated by both manually operating the web applications and running user simulators that don’t include attack instances
+- The extracted logical invariants may be incomplete, over restrictive or not enough restrictive
+- The solution is limited to the PHP language with SQL database
 
 
 ---

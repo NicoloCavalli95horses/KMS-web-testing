@@ -23,6 +23,7 @@ In a SQLIA scenario, the attacker
 - extract sensitive information (usernames, passwords, financial data)
 - carry out database administration tasks
 - in some cases, issue commands to the operating system
+- malicious SQL queries that exploits logical flaws at the server side can be used to access restricted information [[(Li, Yan, et al., 2012)]] 
 
 ## Example
 
