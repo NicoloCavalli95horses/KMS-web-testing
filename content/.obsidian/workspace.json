@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "76aa32c50b69c801",
+        "id": "9212b44899016f97",
         "type": "tabs",
         "children": [
           {
-            "id": "18f49f947be52f09",
+            "id": "40723a3be222e474",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "96 Meta/SLR/Paper list.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Paper list"
+              "title": "New tab"
             }
           }
         ]
@@ -184,8 +179,9 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "18f49f947be52f09",
+  "active": "40723a3be222e474",
   "lastOpenFiles": [
+    "96 Meta/SLR/Paper list.md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/WAVE. Black Box Detection of XSS, CSRF and Information Leakage Vulnerabilities.md",
     "02 Literature/papers/clickjacking/Vulnerability Analysis of Iframe Attacks on Websites.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/The state of HTTP declarative security in online banking websites.md",
@@ -211,7 +207,6 @@
     "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
     "02 Literature/papers/parameter tampering/A Novel Approach for Message Authentication to Prevent Parameter Tampering Attack in Web Applications.md",
     "02 Literature/papers/prototype pollution/A Multivocal Literature Review on Prototype Pollution Vulnerability.md",
-    "02 Literature/papers/SQLIA (SQL Injection Attack)/SENTINEL. securing database from logic flaws in web applications.md",
     "97 Assets/SQLIA_detection_model.png",
     "04 Canvases/mind maps/props tampering.canvas",
     "97 Assets/pentesting_tools.png",
