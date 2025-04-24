@@ -68,6 +68,7 @@ Since the condition '1'='1' always evaluates to true, the query returns all rows
 - **Implement [[RBAC (role-based access control)]] policy**: to limit the access to the database
 - **Using hashing techniques to validate SQL queries** [[(D'silva, Vanajakshi, et al., 2017)]]
 - **Using PDO** [[(Sendiang, Polii, et al., 2016)]]
+- Inferring [[SQL signature]] to validate new SQL queries [[(Li, Yan, et al., 2012)]]
 
 ---
 ## References

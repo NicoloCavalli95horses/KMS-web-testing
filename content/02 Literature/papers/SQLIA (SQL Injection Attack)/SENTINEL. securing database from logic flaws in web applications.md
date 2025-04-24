@@ -8,6 +8,8 @@ tags:
 Project:
   - SLR
 ---
+SENTINEL detects and blocks SQL injections by analyzing user requests at run-time. An extended finite-state machine model of a PHP application is derived in a black box fashion, considering not only state transitions but also data contraints. Application specification are obtained by constructing legitimate SQL signatures along with their set of logical invariants. A query that violate these specifications is considered malicious.
+
 ## Context
 
 [[SQLIA (SQL injection attack)]] exploits the application’s input validation mechanisms to illegitimately get information from the database
@@ -19,30 +21,42 @@ In this paper, we present a black-box approach for automated detection of state 
 - black-box approach for deriving the application specification and detecting malicious SQL queries
 - implement a prototype detection system SENTINEL and evaluate it with a set of real-world web applications
 
+The central idea is to create a model of the “normal” behavior of the application at the SQL query level (the SQL signatures).
+
 ## Approach
 
 The [[SUT (system under test)]] is modeled as an extended [[FSM (finite-state machine)]] that considers not only state transitions but also data contraints associated with transitions
-- the EFSM is defined considering seven information: the set of the application states (S), the set of context variables (V, such as global/local variables), input symbols (I, such as the users' requests), output symbols (O, such as server responses), the set of data constraints associated with state transitions (P, e.g., `if $row[‘role’] == professor`)
-- To derive the EFSM, we first construct SQL signatures from observed SQL queries
-- we extract a set of invariants for each SQL signature from both session variables and SQL responses (that represent basically the application state and the associated data constraints).
+- the EFSM is defined considering seven information: the set of the application states (S), the set of context variables (V, such as global/local variables), input symbols (I, such as the users' requests), output symbols (O, such as server responses), the set of data constraints associated with state transitions (P, for example `if $row[‘role’] == professor`), the set of update functions which update state and context variables (U), and the set of state transitions (T)
+
+The model highlights the role of the user/front-end
+
+![[SQLIA_detection_model.png]]
+
+To derive the EFSM, we first construct [[SQL signature]] from observed SQL queries
+- Actual values are identified and collected ​​(i.e. the concrete data used in the query, such as numbers or strings) 
+- For each parameter, a statistical test called [[KS-test]] is applied to understand whether the number of possible values ​​is limited (e.g. roles such as “admin” or “user”) or unlimited (e.g. user ID, which can be any number). The test checks whether increasing the number of observed queries also increases the number of different values ​​for that parameter.
+- If the parameter has few different values ​​(e.g. “role”), the original value is kept in the structure. If it has many different values ​​(e.g. user ID), it is replaced with a placeholder (token), for example `<Token>`
+- In the end, the resulting structure (called the query skeleton) looks something like: `SELECT * FROM registration WHERE user id = <Token>` (where `<Token>` represents a dynamic value)
+
+A set of logic invariants is extracted for each SQL signature from both session variables and SQL responses (that represent basically the application state and the associated data constraints)
 - Value-based invariants are extracted using a daikon engine
-- dependencies between SQL signatures are extracted
-- the set of invariants describe the application behavior (can be considered as program specifications)
+- dependencies between SQL signatures are extracted with an original algorithm
+
+The set of invariants and SQL signatures, describe the application behavior and can be considered as the program specifications
 - the incoming SQL queries are evaluated at runtime
 - suspicious SQL queries, which violate any invariant associated with their respective signatures, are identified as potential attack, and blocked
 
 ## Evaluation
 
-Often a tool or a solution is implemented. How was that solution evaluated?
-
-## Results
-
-Describe the results in simple terms
+[[benchmark testing]] was performed to evaluate SENTINEL. 4 applications were tested: Scarf, Wackopicko, OpenIT, openInvoice
 
 ## Limits
 
-What are the limits of the research? What could be improved?
+- based on PHP language
+
 
 ---
 #### References
 - [[(Li, Yan, et al., 2012)]]
+
+
