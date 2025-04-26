@@ -10,20 +10,36 @@ Also known as XSRF, Confused Deputy, one-click-attack, Session Riding [[(Maes, H
 
 CSRF can be considered as a subset of [[CSRH (Client-Side Request Hijacking)]]  [[(Khodayari, Barber, et al., 2024)]]
 
+## Context
+
+[[(De Ryck, Desmet, et al., 2010)]]:
+HTTP is a stateless client-server protocol, which uses certain methods to transfer data between web servers and browsers. The two most frequently used HTTP methods are GET and POST.
+- GET methods are used to fetch data from the server
+- POST methods are used to update server state
+- In practice however, GET and POST methods are used interchangeably, and both can trigger server-side state changes
+
+Because of the stateless nature of HTTP, session management is built on top of HTTP. This is typically done by means of [[cookie]], which are small amounts of session-specific data, created by the server application and stored in the browser
+- This session-specific data is sent back with each request to that particular web application, without any user intervention, to prevent the user from log in at each requests
+
+[[SOP (Same-Origin Policy)]] prevents a website to access the DOM objects or the JavaScript functions of another website, but cannot block POST or GET requests from another website
+
+In a CSRF, a user is logged in a website (`bank.com`) and browses another website (`evil.com`). This last website execute a HTTP request to the first one, for example performing unwanted financial transactions.
+
 ## Definition
 
 Cross-Site Request Forgery (CSRF) is an attack that forces an authenticated user to perform an unwanted action on a website they are logged in to, without their knowledge or consent
 - This is possible exploiting authentication cookies or [[sessions token]] of the victim [[(Tkachenko et al., 2024)]]
 - ==Many websites trust requests from an authenticated browser, without checking whether the user actually intended them==
 
-Even if is called Cross-Site Request Forgery, technically the CSRF attack can be executed withing the same domain, due to a [[XSS (cross site scripting)]] vulnerability or when multiple users can host a web site within the same domain (e.g., universities) [[(Maes, Heyman, et al., 2009)]]
+Even if is called Cross-Site Request Forgery, technically the CSRF attack can be executed withing the same domain, due to a [[XSS (cross site scripting)]] vulnerability or when multiple users can host a web site within the same domain (e.g., universities) [[(Maes, Heyman, et al., 2009)]] [[(De Ryck, Desmet, et al., 2010)]]
 
 ### CSRF Mechanism
 
-- The user is logged into a legitimate website (e.g., bank.com) and remains authenticated while browsing the internet[^1]. This website must use implicit authentication
-- An attacker tricks the user into visiting *another* malicious website[^2]
-- The malicious website executes code that sends an HTTP request to the previous legitimate website (bank.com), exploiting the user's active session. The HTTP request ==will automatically attach the session cookie, therefore the attacker does not have even to know it== (unless [[SameSite cookie]] are activate, which is only true in Chrome by now)
-- Since the user's browser is still authenticated, the legitimate website accepts the request as valid, performing the fraudulent action on behalf of the user.
+- The user is logged into a legitimate website (e.g., `bank.com`) and remains authenticated while browsing the internet[^1]. This website must use implicit authentication
+- An attacker tricks the user into visiting *another* malicious website[^2] (`evil.com`)
+- The malicious website executes code that sends an HTTP request to the previous legitimate website (`bank.com`), exploiting the user's active session
+- The browser ==will automatically attach the session cookie to the malicious HTTP request==. Therefore, the attacker does not have even to know it. This is true unless [[SameSite cookie]] are activate, which is only true in Chrome by now.
+- Since the user's browser is still authenticated, the legitimate website accepts the request as valid, performing the fraudulent action on behalf of the user
 
 ### How can the attacker know what HTTP request to send?
 
@@ -33,6 +49,8 @@ The hacker has to know pretty well the API structure of the target website in or
 - he has access to technical documentation of the target website 
 - he exploits common pattern such as `POST /update_profile`
 - he has access to company documentation, emails, or public discussion forums [[(Felsch, Heiderich, et al., 2015)]]
+
+### How to mask a CSRF even further?
 
 The attack does not even require a JavaScript snippet to be executed. If the server does not check the type of request, is it technically possible to execute a CSRF using GET request implicitly defined in:
 
@@ -75,6 +93,7 @@ Reverse XCS (a cross-protocol attack that start from a web channel) can be explo
 
 **Input validation CSRF** [[(Khodayari, Barber, et al., 2024)]]
 - Can bypass common CSRF defenses (e.g., token)
+
 ### Risks and consequences
 
 Common CSFR includes:
@@ -85,7 +104,7 @@ Common CSFR includes:
 
 Among 5,000 randomly selected scan targets of HTTP requests by Acunetix in 2020, 36% were found vulnerable to CSRF attacks [[(Ramadan, Osama, et al., 2024)]]
 
-## Causes
+### Causes
 
  [[(Khodayari, Barber, et al., 2024)]]
 - the server not being capable of distinguish unintentional from intentional requests
@@ -108,6 +127,7 @@ Malicious API that can be exploited:
 **CSRF Token**
 Using [[CSRF (cross-site request forgery) token]], which are in essence random values embedded into form fields.
 - If the server does not receive the token that expects, the HTTP request is rejected
+- A reverse [[XCS (Cross Channel Scripting)]] based CSRF can bypass a CSRF token [[(Bojinov, Bursztein, et al., 2009)]]
 
 **Source verification (referrer header)**
 Verifying the source of the request (original header) could be a valid mitigation strategy.
@@ -138,10 +158,14 @@ Cross-origin policies (a whitelist of valid URLs) have been proposed, but:
 - not scalable and has to be maintained over time
 - stored CSRF are not detectable in this way (e.g., CSRF that leverage on a stored XSS and that are lunched each time a user lands to a specific part of an application)
 
-Other client-side protections from [[(Maes, Heyman, et al., 2009)]]:
+**Client-side protections**
+[[(Maes, Heyman, et al., 2009)]]:
 - browser extensions and content policies: RequestPolicy, Browser-Enforced Authenticity Protection (BEAP), CSRF Protector, SOMA[^3]
 - client-side proxy: RequestRodeo
-Usually these countermeasures monitor outgoing requests and incoming responses, and filter out implicit authentication or block cross-domain requests. Cons:
+
+Usually these countermeasures monitor outgoing requests and incoming responses, and filter out implicit authentication or block cross-domain requests.
+
+Cons:
 - degrading user experience
 - degrading application performance
 - fail to protect against GET-based CSRF
@@ -150,6 +174,7 @@ Usually these countermeasures monitor outgoing requests and incoming responses, 
 - sometimes front-end and back-end live in different domains (e.g., `example.com` is a SPA application written in Vue.js ask requests to a PHP back-end which is a completely different application hosted somewhere else)
 - some web applications leverage on public APIs
 - third-party services (Stripe, for payments, [[OAuth]] or [[OpenID]] for authentication) are used
+- mashup websites (that uses embedded maps or contents)
 
 ---
 
@@ -169,6 +194,7 @@ There are similarities between CSRF and [[XSS (cross site scripting)]]. While th
 - client-side detection, by [[(Shahriar, Zulkernine, et al., 2010)]]
 - CSRF in embedded web server, by [[(Bojinov, Bursztein, et al., 2009)]]
 - CSRH in the wild, by [[(Khodayari, Barber, et al., 2024)]]
+- Firefox extension CsFire, by [[(De Ryck, Desmet, et al., 2010)]]
 
 [^1]: For more about authentication mechanisms and session management, see [[cookie]], [[sessions token]], [[JWT (JSON Web Token)]]
 
