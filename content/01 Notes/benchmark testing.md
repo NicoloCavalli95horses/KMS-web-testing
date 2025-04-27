@@ -3,10 +3,11 @@ ID: 2025-03-25-11:47
 tags:
   - "#definition"
   - testingTechniques
+  - softwareEngineering
 ---
 ## Definition
 
-Benchmark testing is performed to evaluate the performance of a product or system against established standards or benchmarks. It allows you to determine their strengths and weaknesses and to identify areas for improvement.
+Benchmark testing is performed to evaluate the performance of a product or system ==against established standards or benchmarks==. It allows you to determine their strengths and weaknesses and to identify areas for improvement.
 
 ## Testing a web fuzzer
 

@@ -104,6 +104,12 @@ Common CSFR includes:
 
 Among 5,000 randomly selected scan targets of HTTP requests by Acunetix in 2020, 36% were found vulnerable to CSRF attacks [[(Ramadan, Osama, et al., 2024)]]
 
+750334 requests were analyzed by [[(De Ryck, Desmet, et al., 2010)]]:
+ POST requests are a minor part of all the requests (3.74%)
+- approximately 24% of the GET requests contain parameters
+- very small amount of the GET-requests, especially of the cross-domain GET requests, originate from direct user interaction
+- [[cookie]] are a very popular authentication mechanism
+
 ### Causes
 
  [[(Khodayari, Barber, et al., 2024)]]
@@ -121,15 +127,19 @@ Malicious API that can be exploited:
 
 ### Mitigation techniques
 
+#### Browser policies
+
 **SOP (same-origin policy)**
  [[SOP (Same-Origin Policy)]] is the first layer of protection, preventing malicious script to directly read cookies or access the DOM of other websites, but it does not prohibit an attacker to launch any arbitrary request to a trusted website [[(Shahriar, Zulkernine, et al., 2010)]]
+
+#### Server-side mitigation
 
 **CSRF Token**
 Using [[CSRF (cross-site request forgery) token]], which are in essence random values embedded into form fields.
 - If the server does not receive the token that expects, the HTTP request is rejected
 - A reverse [[XCS (Cross Channel Scripting)]] based CSRF can bypass a CSRF token [[(Bojinov, Bursztein, et al., 2009)]]
 
-**Source verification (referrer header)**
+**Source verification (HTTP referrer header)**
 Verifying the source of the request (original header) could be a valid mitigation strategy.
 - the `referrer` header contains the domain address of a website that initiates a request
 - it has been proposed as a solution, but it carries privacy concerns, and therefore is often suppressed by browsers
@@ -158,23 +168,29 @@ Cross-origin policies (a whitelist of valid URLs) have been proposed, but:
 - not scalable and has to be maintained over time
 - stored CSRF are not detectable in this way (e.g., CSRF that leverage on a stored XSS and that are lunched each time a user lands to a specific part of an application)
 
-**Client-side protections**
-[[(Maes, Heyman, et al., 2009)]]:
-- browser extensions and content policies: RequestPolicy, Browser-Enforced Authenticity Protection (BEAP), CSRF Protector, SOMA[^3]
-- client-side proxy: RequestRodeo
+#### Client-side protections
+
+[[(Maes, Heyman, et al., 2009)]], [[(De Ryck, Desmet, et al., 2010)]]
+- ==browser extensions and content policies==: RequestPolicy, Browser-Enforced Authenticity Protection (BEAP), CSRF Protector, SOMA[^3], CsFire, Browser Enforced Embedded Policies (BEEP) (uses a server-provided policy to defeat malicious JavaScript. A protection script is injected to validate client-side scripts)
+- ==client-side proxy==: **RequestRodeo** (uses a system of tokens to identify legitimate cross-domain requests, protects against IP address based attacks)
 
 Usually these countermeasures monitor outgoing requests and incoming responses, and filter out implicit authentication or block cross-domain requests.
 
-Cons:
+Shortcomings:
 - degrading user experience
 - degrading application performance
 - fail to protect against GET-based CSRF
 
-**Why not blocking all the cross-domain POST request?**
+[[(De Ryck, Desmet, et al., 2010)]]:
+- propose to strip all the cookies and the auth headers from cross-domain HTTP requests, except for GET requests with no parameters, explicitly initiated by the user 
+- a Firefox extension is proposed, with a server-side possible integration (whitelisting of trusted domains)
+
+#### Why don't we block all the cross-domain request?
+
 - sometimes front-end and back-end live in different domains (e.g., `example.com` is a SPA application written in Vue.js ask requests to a PHP back-end which is a completely different application hosted somewhere else)
 - some web applications leverage on public APIs
 - third-party services (Stripe, for payments, [[OAuth]] or [[OpenID]] for authentication) are used
-- mashup websites (that uses embedded maps or contents)
+- mashup websites (that uses embedded maps or contents) need cross-domain requests to work as intended
 
 ---
 
