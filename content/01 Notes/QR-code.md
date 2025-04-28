@@ -1,7 +1,8 @@
 ---
-ID: "2025-03-11-13:45"
+ID: 2025-03-11-13:45
 tags:
   - "#definition"
+  - QRcode
 ---
 ## Definition
 

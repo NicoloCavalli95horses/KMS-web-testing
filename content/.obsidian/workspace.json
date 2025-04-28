@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -187,7 +186,13 @@
   },
   "active": "c972304120fe947d",
   "lastOpenFiles": [
+    "01 Notes/phishing.md",
     "02 Literature/papers/phishing/PhishCatcher. Client-Side Defense Against Web Spoofing Attacks Using Machine Learning.md",
+    "01 Notes/QR-code.md",
+    "03 References/(Spero, Biddle, 2021).md",
+    "02 Literature/papers/tabnabbing/Detecting Tabnabbing Attacks Via An RL-Based Agent.md",
+    "02 Literature/papers/tabnabbing/TabShots. client-side detection of tabnabbing attacks.md",
+    "96 Meta/SLR/Paper list.md",
     "03 References/(Ahmed, Altamimi, et al., 2023).md",
     "02 Literature/papers/phishing",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/CsFire. Transparent client-side mitigation of malicious cross-domain requests.md",
@@ -196,7 +201,6 @@
     "01 Notes/benchmark testing.md",
     "01 Notes/CSRF (cross-site request forgery) token.md",
     "03 References/(Ramadan, Osama, et al., 2024).md",
-    "96 Meta/SLR/Paper list.md",
     "03 References/(De Ryck, Desmet, et al., 2010).md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/WAVE. Black Box Detection of XSS, CSRF and Information Leakage Vulnerabilities.md",
     "02 Literature/papers/clickjacking/Vulnerability Analysis of Iframe Attacks on Websites.md",
@@ -209,11 +213,6 @@
     "02 Literature/papers/prototype pollution/On Detecting and Measuring Exploitable JavaScript Functions in Real-world Applications.md",
     "02 Literature/papers/client-side storage/NoteLocker. Simple Secure Storage Service.md",
     "02 Literature/papers/tabnabbing/NoTabNab. Protection against the “tabnabbing attack”.md",
-    "02 Literature/papers/SQLIA (SQL Injection Attack)/Minimization of SQL injection in scheduling application development.md",
-    "02 Literature/papers/JWT (JSON Web Token)/JSON Web Token Penetration Testing on Cookie Storage with CSRF Techniques.md",
-    "02 Literature/papers/CSRF (Cross Site Request Forgery)/Enhancing Web Security. A Comparative Analysis of Machine Learning Models for CSRF Detection.md",
-    "02 Literature/papers/tabnabbing/Detecting Tabnabbing Attacks Via An RL-Based Agent.md",
-    "02 Literature/papers/client-side storage/Decrypting IndexedDB in private mode of Gecko-based browsers.md",
     "97 Assets/SQLIA_detection_model.png",
     "04 Canvases/mind maps/props tampering.canvas",
     "97 Assets/pentesting_tools.png",

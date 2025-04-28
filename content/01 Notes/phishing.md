@@ -12,6 +12,8 @@ Phishing refers to the practice of ==manipulating the user with the goal of stea
 - by creating fake web pages that mimic legitimate resources (*phoney web pages*)
 - by using persuasive emails 
 
+Phishing was initially used for identity theft but now attackers are using it to steal sensitive information related to *national security, intellectual property and organizational secrets* [[(Ahmed, Altamimi, et al., 2023)]]
+
 **Why people still fall for phishing?**
 The average user is unable to distinguish malicious web pages from legitimate ones and does not have enough technical information about URLs. Therefore:
 - does not know which URL to trust (for example: embedded in e-mail text, in a displayed tooltip, in the status bar)
@@ -28,13 +30,31 @@ Simply using a blacklist of malicious websites is not an effective solution, sin
 
 Phishing sites often masquerade as useful sites, leading users to unknowingly download malicious software, providing hackers with an easy path to intrude on computers. [[(Chanakya, Spoorthi, et al., 2024)]]
 
+Moder phishing is also done with [[QR-code]], but also phishing mobile applications and advertisements [[(Ahmed, Altamimi, et al., 2023)]]. This advanced attacks may circumvent firewalls, digital certificates, encryption and even two-factors authentication
+
+**Favorite phishing targets**
+- banking sites
+- third party payment systems
+- e-commerce
+
 ### Examples
 
 Attackers may study the email communications of an employee for a while, and then at some opportune moment send an email spoofing the identity of a trusted other asking for a transfer of funds, which will be deposited into the attacker’s account
 
-### Mitigation techniques [[(Fonseka, Pashenna, et al., 2023)]]
+### Mitigation techniques
 
-Malicious URLs often
+#### Blacklisting/whitelisting URLs
+- low false positives
+- hard to maintain
+- miss zero-day attacks
+
+#### Developing heuristics
+- **Visual similarity and page content investigation**: if two login pages look similar (similar layout and colors) but the application domains are different, an alarm is raised. This approaches are great, but (i) screenshots are stored locally and are heavy (ii) comparison takes time
+- **ML techniques to classify URLs**: Chrome's extension PhishCatcher [[(Ahmed, Altamimi, et al., 2023)]]. Shortcomings: (i) large dataset is needed (ii) not perfect agreement on model's features 
+- **ML techniques to classify emails**
+- **Human training on phishing**
+
+Malicious URLs often [[(Fonseka, Pashenna, et al., 2023)]]:
 - Are longer than legitimate one
 - Use special or unusual characters (`@, /, \`)
 - Contain irrelevant information
@@ -43,6 +63,8 @@ Malicious URLs often
 - By examining whether external objects (images, video) contained within a webpage are loaded from another domain, researchers have found that this feature can be effective in distinguishing between legitimate webpages and phishing pages
 - Attackers often use meta HTML tags (`<meta>, <script>, <link>`) to load external content onto a phishing page
 
+**Types of mitigation**
+- stateful:
 ---
 #### References
 - [[(Sadqi, Maleh, 2022)]]
@@ -50,3 +72,4 @@ Malicious URLs often
 - [[(Spero, Biddle, 2021)]]
 - [[(Fonseka, Pashenna, et al., 2023)]]
 - [[(Chanakya, Spoorthi, et al., 2024)]]
+- [[(Ahmed, Altamimi, et al., 2023)]]

@@ -12,12 +12,13 @@ Project:
 ---
 ## Context
 
-High-level description of the problem. Use links to low-level notes to specify the context details
+A [[phishing]] attack occurred in Oct 2022 at INRIA: a fake login page under a credible URL was used to steal the credentials of researchers and students
+
+**Contributions**
+- a client-side anti-phishing mechanism based on machine learning is proposed and a Chrome extension is implemented
 
 ## Approach
-
-Describe the research approach in simple terms. What did the authors do to solve the problem?
-
+- dataset was taken from 4 different resources (UCI Machine Learning Repository, collection of 90 hijacked journal websites, 310 blacklisted URLs from PhishTank, 310 genuine URLs from moz.com/top500)
 ## Evaluation
 
 Often a tool or a solution is implemented. How was that solution evaluated?
