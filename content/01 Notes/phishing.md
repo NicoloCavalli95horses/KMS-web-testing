@@ -37,11 +37,11 @@ Moder phishing is also done with [[QR-code]], but also phishing mobile applicati
 - third party payment systems
 - e-commerce
 
-### Examples
+#### Example
 
 Attackers may study the email communications of an employee for a while, and then at some opportune moment send an email spoofing the identity of a trusted other asking for a transfer of funds, which will be deposited into the attacker’s account
 
-### Mitigation techniques
+## Mitigation techniques
 
 #### Blacklisting/whitelisting URLs
 - low false positives
@@ -50,7 +50,7 @@ Attackers may study the email communications of an employee for a while, and the
 
 #### Developing heuristics
 - **Visual similarity and page content investigation**: if two login pages look similar (similar layout and colors) but the application domains are different, an alarm is raised. This approaches are great, but (i) screenshots are stored locally and are heavy (ii) comparison takes time
-- **ML techniques to classify URLs**: Chrome's extension PhishCatcher [[(Ahmed, Altamimi, et al., 2023)]]. Shortcomings: (i) large dataset is needed (ii) not perfect agreement on model's features 
+- **ML techniques to classify URLs**: Chrome's extension PhishCatcher [[(Ahmed, Altamimi, et al., 2023)]]. Shortcomings: (i) large dataset is needed (ii) not perfect agreement on model's features
 - **ML techniques to classify emails**
 - **Human training on phishing**
 

@@ -7,14 +7,14 @@ tags:
 ---
 ## Definition
 
-A timing attack is a category of side-channel attack in which an attacker ==analyzes a system's response times to infer sensitive information.==
+A timing attack is a category of side-channel attack in which an attacker *analyzes a system's response times to infer sensitive information.*
 
-This type of attack ==uses variations in the execution times of operations to obtain details about internal data, such as cryptographic keys, passwords, or memory structure==
-
+This type of attack uses ==variations in the execution times== of operations to obtain details about internal data, such as cryptographic keys, passwords, or memory structure
 
 ### Attack Mechanism
 
-The basic idea is that the time it takes a system to process an operation *can depend on the internal data*. ==An attacker can send specific inputs and precisely measure the response time to infer information==.
+The basic idea is that the time it takes a system to process an operation *can depend on the internal data*
+- An attacker can send specific inputs and precisely measure the response time to infer information
 
 **Early Terminating String Comparison**
 If an authentication function verifies a password character by character and stops when it finds an [[error]], ==the processing time will be longer if the first few characters are correct==.

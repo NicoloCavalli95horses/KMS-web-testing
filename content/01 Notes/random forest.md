@@ -4,6 +4,7 @@ tags:
   - "#definition"
   - machineLearning
   - classifier
+  - supervisedLearning
 ---
 ## Definition
 
@@ -15,7 +16,7 @@ Random forests correct for decision trees'a habit of [[overfitting]] to their tr
 
 A variant of this techniques, used for imbalanced dataset is [[BRF (Balance Random Forest)]]
 
-## Example
+### How does it work?
 
 Consider a dataset with 100 transactions, of which:
 - 80 non-fraudulent transactions
@@ -33,7 +34,7 @@ Each transaction has some features that we can use to the analysis:
 | ... | ...     | ...   | ...     | ...             | ...           |
 | 100 | 65.50€  | 16:40 | GER     | 2               | NO            |
 
-In the example, the features are: value, time, country, attempts number
+In the example, the features are: *value, time, country, attempts number*
 
 **Subset extraction**
 From the original dataset, several subsets are extract (usually using bootstrapping, which involves randomly drawing with repetition).
@@ -50,13 +51,15 @@ Each tree may have a different structure. This could be an example of decision t
          /               \
       Yes                 No
      /                    \
-   Attempts > 2?        Time > 18?
+   Attempts > 2?        Time > 22:30?
    /         \           /        \
 Fraud     Non-Fraud   Fraud   Non-Fraud
 ```
 
 **Majority predictions**
-==Once all the trees are trained, each tree makes its own classification for a new transaction (fraudulent or legitimate). The final Random Forest classification is determined by the majority of the trees' classifications== 
+Once all the trees are trained, each tree makes its own classification for a new transaction (fraudulent or legitimate). The final Random Forest classification is determined by the majority of the trees' classifications
 
+---
 ## References
-https://en.wikipedia.org/wiki/Random_forest
+- https://en.wikipedia.org/wiki/Random_forest
+- Used by [[(Ahmed, Altamimi, et al., 2023)]] in a Chrome extension to classify phishing websites

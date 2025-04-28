@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "29a2f797a6006b55",
+        "id": "6b7558cdf8e8ac5e",
         "type": "tabs",
         "children": [
           {
-            "id": "c972304120fe947d",
+            "id": "b5028d5a36371f10",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/phishing/PhishCatcher. Client-Side Defense Against Web Spoofing Attacks Using Machine Learning.md",
+                "file": "02 Literature/papers/browser vulnerability/Fidelius. Protecting User Secrets from Compromised Browsers.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "PhishCatcher. Client-Side Defense Against Web Spoofing Attacks Using Machine Learning"
+              "title": "Fidelius. Protecting User Secrets from Compromised Browsers"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 202.50260543823242
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -184,15 +184,25 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "c972304120fe947d",
+  "active": "b5028d5a36371f10",
   "lastOpenFiles": [
-    "01 Notes/phishing.md",
+    "02 Literature/papers/clickjacking/Frametrapping the framebusting defence.md",
+    "02 Literature/papers/browser vulnerability/Fidelius. Protecting User Secrets from Compromised Browsers.md",
+    "96 Meta/SLR/Paper list.md",
+    "03 References/(Eskandarian, Cogan, et al., 2019).md",
+    "02 Literature/papers/browser vulnerability/sandFOX. secure sandboxed and isolated environment for firefox browser.md",
     "02 Literature/papers/phishing/PhishCatcher. Client-Side Defense Against Web Spoofing Attacks Using Machine Learning.md",
+    "01 Notes/random forest.md",
+    "00 Antilibrary/CART (classification and regression test).md",
+    "00 Antilibrary/overfitting.md",
+    "01 Notes/pixel stealing.md",
+    "01 Notes/timing attack.md",
+    "03 References/(Kotcher, Pei, Jumde, et al., 2013).md",
+    "01 Notes/phishing.md",
     "01 Notes/QR-code.md",
     "03 References/(Spero, Biddle, 2021).md",
     "02 Literature/papers/tabnabbing/Detecting Tabnabbing Attacks Via An RL-Based Agent.md",
     "02 Literature/papers/tabnabbing/TabShots. client-side detection of tabnabbing attacks.md",
-    "96 Meta/SLR/Paper list.md",
     "03 References/(Ahmed, Altamimi, et al., 2023).md",
     "02 Literature/papers/phishing",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/CsFire. Transparent client-side mitigation of malicious cross-domain requests.md",
@@ -203,16 +213,6 @@
     "03 References/(Ramadan, Osama, et al., 2024).md",
     "03 References/(De Ryck, Desmet, et al., 2010).md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/WAVE. Black Box Detection of XSS, CSRF and Information Leakage Vulnerabilities.md",
-    "02 Literature/papers/clickjacking/Vulnerability Analysis of Iframe Attacks on Websites.md",
-    "02 Literature/papers/CSRF (Cross Site Request Forgery)/The state of HTTP declarative security in online banking websites.md",
-    "02 Literature/papers/client-side storage/The role of HTML5 IndexedDB, the past, present and future.md",
-    "02 Literature/papers/authentication/Systematically breaking and fixing OpenID security. Formal analysis, semi-automated empirical evaluation, and practical countermeasures.md",
-    "02 Literature/papers/client-side storage/Security of CORS on LocalStorage.md",
-    "02 Literature/papers/CSRF (Cross Site Request Forgery)/Scenario-Based Cross-Site Request Forgery (CSRF) Attack Simulation.md",
-    "02 Literature/papers/browser extension based attacks/sandFOX. secure sandboxed and isolated environment for firefox browser.md",
-    "02 Literature/papers/prototype pollution/On Detecting and Measuring Exploitable JavaScript Functions in Real-world Applications.md",
-    "02 Literature/papers/client-side storage/NoteLocker. Simple Secure Storage Service.md",
-    "02 Literature/papers/tabnabbing/NoTabNab. Protection against the “tabnabbing attack”.md",
     "97 Assets/SQLIA_detection_model.png",
     "04 Canvases/mind maps/props tampering.canvas",
     "97 Assets/pentesting_tools.png",
@@ -241,6 +241,6 @@
     "02 Literature/papers/XCS (Cross Channel Scripting)",
     "02 Literature/papers/server configuration",
     "02 Literature/papers/behavioral biometrics",
-    "02 Literature/papers/browser extension based attacks"
+    "02 Literature/papers/browser vulnerability"
   ]
 }

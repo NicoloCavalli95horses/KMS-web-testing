@@ -5745,15 +5745,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.12333333333333334,
-      "characterCount": 423,
+      "characterCount": 411,
       "nonWhitespaceCharacterCount": 358,
       "readingTimeInMinutes": 0.13962264150943396,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985155,
-      "modifiedDate": 1744622087610,
-      "sizeInBytes": 471,
+      "modifiedDate": 1745846679090,
+      "sizeInBytes": 455,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.12333333333333334,
@@ -11791,15 +11791,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.22,
-      "characterCount": 539,
+      "characterCount": 524,
       "nonWhitespaceCharacterCount": 446,
       "readingTimeInMinutes": 0.2490566037735849,
       "linkCount": 5,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985106,
-      "modifiedDate": 1745170420215,
-      "sizeInBytes": 656,
+      "modifiedDate": 1745848755055,
+      "sizeInBytes": 625,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.22,
@@ -11812,15 +11812,7 @@
         "tags": [
           "paper",
           "projectSLR",
-          [
-            [
-              [
-                [
-                  "clickjacking"
-                ]
-              ]
-            ]
-          ]
+          "clickjacking"
         ],
         "Project": [
           "SLR"
@@ -11901,39 +11893,6 @@
           "paper",
           "bufferOverflow",
           "cyberSecurity"
-        ]
-      }
-    },
-    "02 Literature/papers/browser extension based attacks/sandFOX. secure sandboxed and isolated environment for firefox browser.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 491,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 1.6366666666666667,
-      "characterCount": 4051,
-      "nonWhitespaceCharacterCount": 3492,
-      "readingTimeInMinutes": 1.8528301886792453,
-      "linkCount": 12,
-      "embedCount": 1,
-      "aliases": null,
-      "createdDate": 1743766985104,
-      "modifiedDate": 1745499351004,
-      "sizeInBytes": 4140,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 1.6366666666666667,
-        "wordCount": 491,
-        "characterCount": 4051,
-        "nonWhitespaceCharacterCount": 3492
-      },
-      "frontmatter": {
-        "ID": "2025-04-03T07:17:25.148Z",
-        "tags": [
-          "paper",
-          "browserAttacks",
-          "firefox"
         ]
       }
     },
@@ -13554,15 +13513,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.3933333333333333,
-      "characterCount": 2668,
-      "nonWhitespaceCharacterCount": 2183,
+      "characterCount": 2623,
+      "nonWhitespaceCharacterCount": 2176,
       "readingTimeInMinutes": 1.5773584905660378,
       "linkCount": 4,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985074,
-      "modifiedDate": 1744622087409,
-      "sizeInBytes": 2763,
+      "modifiedDate": 1745846308755,
+      "sizeInBytes": 2712,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.3933333333333333,
@@ -14956,19 +14915,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 330,
+      "wordCount": 348,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.1,
-      "characterCount": 2770,
-      "nonWhitespaceCharacterCount": 2002,
-      "readingTimeInMinutes": 1.2452830188679245,
-      "linkCount": 4,
+      "pageCount": 1.16,
+      "characterCount": 2830,
+      "nonWhitespaceCharacterCount": 2097,
+      "readingTimeInMinutes": 1.3132075471698113,
+      "linkCount": 5,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985065,
-      "modifiedDate": 1743766985065,
-      "sizeInBytes": 2873,
+      "modifiedDate": 1745847103541,
+      "sizeInBytes": 2950,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.1,
@@ -14981,7 +14940,8 @@
         "tags": [
           "#definition",
           "machineLearning",
-          "classifier"
+          "classifier",
+          "supervisedLearning"
         ]
       }
     },
@@ -15486,15 +15446,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.5033333333333333,
-      "characterCount": 1024,
+      "characterCount": 1005,
       "nonWhitespaceCharacterCount": 838,
       "readingTimeInMinutes": 0.569811320754717,
       "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985062,
-      "modifiedDate": 1743766985062,
-      "sizeInBytes": 1117,
+      "modifiedDate": 1745846839364,
+      "sizeInBytes": 1092,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.5033333333333333,
@@ -15519,15 +15479,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 2.16,
-      "characterCount": 4539,
-      "nonWhitespaceCharacterCount": 3831,
+      "characterCount": 4537,
+      "nonWhitespaceCharacterCount": 3830,
       "readingTimeInMinutes": 2.4452830188679244,
       "linkCount": 18,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985062,
-      "modifiedDate": 1745845430150,
-      "sizeInBytes": 4654,
+      "modifiedDate": 1745846169922,
+      "sizeInBytes": 4652,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.5833333333333333,
@@ -22267,19 +22227,19 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 106,
+      "wordCount": 273,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.35333333333333333,
-      "characterCount": 756,
-      "nonWhitespaceCharacterCount": 629,
-      "readingTimeInMinutes": 0.4,
-      "linkCount": 2,
+      "pageCount": 0.91,
+      "characterCount": 1923,
+      "nonWhitespaceCharacterCount": 1619,
+      "readingTimeInMinutes": 1.030188679245283,
+      "linkCount": 4,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1745748236618,
-      "modifiedDate": 1745845214922,
-      "sizeInBytes": 903,
+      "modifiedDate": 1745848164867,
+      "sizeInBytes": 2070,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -22296,6 +22256,118 @@
           "clientDefense",
           "machineLearning",
           "browser"
+        ],
+        "Project": [
+          "SLR"
+        ]
+      }
+    },
+    "00 Antilibrary/CART (classification and regression test).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1745847033953,
+      "modifiedDate": 1745847033953,
+      "sizeInBytes": 0,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "02 Literature/papers/browser vulnerability/sandFOX. secure sandboxed and isolated environment for firefox browser.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 497,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.6566666666666667,
+      "characterCount": 4134,
+      "nonWhitespaceCharacterCount": 3559,
+      "readingTimeInMinutes": 1.8754716981132076,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743766985104,
+      "modifiedDate": 1745499351004,
+      "sizeInBytes": 4140,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "03 References/(Eskandarian, Cogan, et al., 2019).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 78,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.26,
+      "characterCount": 827,
+      "nonWhitespaceCharacterCount": 719,
+      "readingTimeInMinutes": 0.2943396226415094,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1745848393442,
+      "modifiedDate": 1745848393443,
+      "sizeInBytes": 827,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      }
+    },
+    "02 Literature/papers/browser vulnerability/Fidelius. Protecting User Secrets from Compromised Browsers.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 10,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.03333333333333333,
+      "characterCount": 117,
+      "nonWhitespaceCharacterCount": 91,
+      "readingTimeInMinutes": 0.03773584905660377,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1745848393461,
+      "modifiedDate": 1745848420862,
+      "sizeInBytes": 232,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-28T13:53:13.432Z",
+        "tags": [
+          "paper",
+          "projectSLR",
+          "browser",
+          "browserAttacks"
         ],
         "Project": [
           "SLR"
