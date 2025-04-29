@@ -2820,11 +2820,11 @@
       "characterCount": 4141,
       "nonWhitespaceCharacterCount": 3183,
       "readingTimeInMinutes": 1.9962264150943396,
-      "linkCount": 0,
-      "embedCount": 0,
+      "linkCount": 3,
+      "embedCount": 1,
       "aliases": null,
       "createdDate": 1745080275655,
-      "modifiedDate": 1745480862084,
+      "modifiedDate": 1745919603546,
       "sizeInBytes": 24583,
       "sessionStart": {
         "noteCount": 1,
@@ -4232,15 +4232,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.6866666666666666,
-      "characterCount": 1636,
+      "characterCount": 1628,
       "nonWhitespaceCharacterCount": 1400,
       "readingTimeInMinutes": 0.7773584905660378,
       "linkCount": 3,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985170,
-      "modifiedDate": 1744622087559,
-      "sizeInBytes": 1705,
+      "modifiedDate": 1745918859680,
+      "sizeInBytes": 1691,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.6866666666666666,
@@ -22369,6 +22369,31 @@
         "Project": [
           "SLR"
         ]
+      }
+    },
+    "04 Canvases/mind maps/SLR/RQ1 - the role of the front-end software in web security.canvas": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1745919606691,
+      "modifiedDate": 1745919606691,
+      "sizeInBytes": 0,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0
       }
     }
   }
