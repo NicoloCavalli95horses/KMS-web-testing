@@ -21,8 +21,26 @@
               "icon": "lucide-file",
               "title": "Fidelius. Protecting User Secrets from Compromised Browsers"
             }
+          },
+          {
+            "id": "980158b1819f398e",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/mind maps/SLR/RQ1 (canvas).canvas",
+                "viewState": {
+                  "x": 12.766723384255855,
+                  "y": 815.7205325148836,
+                  "zoom": -0.6429832074938733
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "RQ1 (canvas)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,24 +203,27 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "980158b1819f398e",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/front end security category.canvas",
+    "04 Canvases/mind maps/cross-domain policies.canvas",
+    "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
+    "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
+    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
+    "04 Canvases/mind maps/props tampering.canvas",
+    "04 Canvases/mind maps/input analysis.canvas",
+    "04 Canvases/mind maps/SLR/RQ1 (canvas).canvas",
     "96 Meta/SLR/Paper list.md",
+    "02 Literature/papers/browser vulnerability/Fidelius. Protecting User Secrets from Compromised Browsers.md",
     "01 Notes/top-level navigation.md",
     "01 Notes/tabnabbing.md",
-    "04 Canvases/mind maps/SLR/RQ1 (canvas).canvas",
     "03 References/(Hoffman, 2024).md",
     "04 Canvases/mind maps/SLR/RQ1 (chart).md",
     "Excalidraw/Drawing 2025-04-29 11.46.59.excalidraw.md",
     "Excalidraw",
     "04 Canvases/mind maps/SLR",
-    "04 Canvases/mind maps/props tampering.canvas",
-    "04 Canvases/mind maps/input analysis.canvas",
-    "04 Canvases/mind maps/front end security category.canvas",
-    "04 Canvases/mind maps/cross-domain policies.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "01 Notes/clickjacking.md",
     "03 References/(Selim, Tayeb, et al., 2016).md",
     "03 References/(Balduzzi, Egele, et al., 2010).md",
@@ -221,14 +242,11 @@
     "02 Literature/papers/logic flow tampering/LogicScope. automatic discovery of logic vulnerabilities within web applications.md",
     "02 Literature/papers/logic flow tampering/Patching Logic Vulnerabilities for Web Applications using LogicPatcher.md",
     "02 Literature/papers/web vulnerabilities reviews/Web application attacks.md",
-    "03 References/(Watson, 2007).md",
-    "01 Notes/IDOR (Insecure Direct Object Reference).md",
     "02 Literature/papers/phishing",
     "97 Assets/SQLIA_detection_model.png",
     "97 Assets/pentesting_tools.png",
     "04 Canvases/meetings/2025_17_04.canvas",
     "97 Assets/subgraph_example.png",
-    "04 Canvases/mind maps/ideas/CSRF based on clipboard poisoning.canvas",
     "02 Literature/papers/test",
     "97 Assets/front_end_component_not_obscured_reasons_reddit.png",
     "97 Assets/obfuscate_vue_components.png",
