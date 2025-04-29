@@ -66,9 +66,24 @@
               "icon": "lucide-file",
               "title": "directory traversal (path traversal)"
             }
+          },
+          {
+            "id": "6ccafda89723a2cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature/papers/redirect vulnerability/EARs in the wild. large-scale analysis of execution after redirect vulnerabilities.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "EARs in the wild. large-scale analysis of execution after redirect vulnerabilities"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -230,13 +245,14 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "2a23c40c6350514a",
+  "active": "9722a0d271283958",
   "lastOpenFiles": [
-    "03 References/(Pauli, 2013).md",
+    "03 References/(Neef, Kleissner, et al., 2024).md",
     "01 Notes/directory traversal (path traversal).md",
     "02 Literature/papers/testing enhancements/What All the PHUZZ Is About. A Coverage-guided Fuzzer for Finding Vulnerabilities in PHP Web Applications.md",
-    "02 Literature/papers/input validation/Runtime Input Validation for Java Web Applications using Static Bytecode Instrumentation.md",
     "02 Literature/papers/redirect vulnerability/EARs in the wild. large-scale analysis of execution after redirect vulnerabilities.md",
+    "03 References/(Pauli, 2013).md",
+    "02 Literature/papers/input validation/Runtime Input Validation for Java Web Applications using Static Bytecode Instrumentation.md",
     "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
     "02 Literature/papers/web vulnerabilities reviews/Navigating web application security. A survey of vulnerabilities and detection solutions.md",
     "02 Literature/papers/WAF (Web Application Firewall)/Adaptive Web Application Firewall for Multi-Threat Detection.md",
@@ -257,7 +273,6 @@
     "03 References/(Eskandarian, Cogan, et al., 2019).md",
     "02 Literature/papers/browser vulnerability/sandFOX. secure sandboxed and isolated environment for firefox browser.md",
     "02 Literature/papers/phishing/PhishCatcher. Client-Side Defense Against Web Spoofing Attacks Using Machine Learning.md",
-    "01 Notes/random forest.md",
     "02 Literature/papers/phishing",
     "97 Assets/SQLIA_detection_model.png",
     "04 Canvases/mind maps/props tampering.canvas",
