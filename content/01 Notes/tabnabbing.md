@@ -5,11 +5,9 @@ tags:
   - clientSideAttacks
   - cyberSecurity
   - GUI
+  - tabnabbing
 ---
 ## Definition
-
-> [!SUMMARY] What is tabnabbing
-> A user on Facebook can click a link to an external website that could act perfectly benign except from replacing the previous Facebook page itself with a fake copy that may be used to phish users into disclosing personal information or login credentials. This makes the scheme very difficult to detect even for an expert user. This type of attack is popularly called as “tabnabbing” [[(Sanchez, 2020)]]
 
 *Tabnabbing* and *reverse tabnabbing* are a form of client-side attack that
 combines elements of:
@@ -18,13 +16,13 @@ combines elements of:
 
 Browser's history sniffing can be used to accurate craft a specific URL to trick the user [[(Fonseka, Pashenna, et al., 2023)]]
 
-## How does it work?
+## Classic tabnabbing: tab A changes tab B
 
-- The victim access a malicious website (`evil.com`) from a trustful website (`facebook.com`)
-- The site `evil.com` looks legitimate and trick the user on spending some time there (e.g., with a web game), while `facebook.com` is still opened
-- After a while, `evil.com` changes `facebook.com` with a phishing page, exploiting the `window.open()` function
-- After the victim comes back to the previous we *website A*, that is the malicious one, the *website B* can be changed, exploiting the `window.open()` function
-- This means that if then the user comes to the *website B* again, now he can see a copy of the trustful website, asking him, for example, the user credential
+- From an email, the victim access a malicious website (`evil.com`), that launch a new tab pointing to a trustful website (`bank.com`). The starting point is the tab `evil.com` (tab A).
+- The victim access `bank.com`, which is the legitimate website he knows
+- The victim keeps browsing on other tabs, and some time passes, while the tab of the `evil.com` is still opened
+- The tab `evil.com` changes the page `bank.com` with a phishing website (for example, `b4nk.com`, using [[typosquatting]] techniques). This is done exploiting the `window.open()` function
+- This means that if then the user comes to the website opened by `evil.com` again, now he can see a copy of the trustful website, asking him, for example, the user credential
 - ==Sensitive data may be stolen or unauthorized financial transactions may be requested==
 - The user may be ==redirected to an error page on the trusted website after the theft has taken place==
 
@@ -48,6 +46,17 @@ function goToLegitWebsite() {
 };
 ```
 
+## Reverse tabnabbing: tab B changes tab A
+
+In reverse tabnabbing the malicious website is not the one that open the first tab, but *it is the one in the new tab*, that change its own content or the content of the previous tab after a while.
+
+```js
+// From tab B
+window.opener.location = "https://fake-site.com";
+```
+
+**Example**  [[(Sanchez, 2020)]]
+A user on Facebook can click a link to an external website that could act perfectly benign except from replacing the previous Facebook page itself with a fake copy that may be used to phish users into disclosing personal information or login credentials.
 
 ### Mitigation solutions
 
@@ -68,9 +77,11 @@ From [[(Unlu, Bicakci, et al., 2010)]]:
 - Even this strategy can be bypassed since the attacker could pretend that there is an auto-filling mechanism and then could tell the user the password is wrong and to try again
 
 ---
+
+See also: [[top-level navigation]]
 ## References
 - [[(Hoffman, 2024)]]
 - [[(Sanchez, 2020)]]
 - [[(Fonseka, Pashenna, et al., 2023)]]
 - [[(Unlu, Bicakci, et al., 2010)]]
--  [[(De Ryck, Nikiforakis, et al., 2013)]]
+- [[(De Ryck, Nikiforakis, et al., 2013)]]
