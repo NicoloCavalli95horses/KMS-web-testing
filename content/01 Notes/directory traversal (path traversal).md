@@ -4,6 +4,8 @@ tags:
   - "#definition"
   - clientSideAttacks
   - accessControl
+  - directoryTraversal
+  - pathTraversal
 ---
 ## Definition
 
@@ -30,4 +32,12 @@ http://example.com/my_app/display.php?file=../../../etc/passwd
 ---
 #### References
 - https://www.invicti.com/learn/directory-traversal-path-traversal/
-- [[(Pauli, 2013)]]
+- Described in [[(Pauli, 2013)]]
+- Detected by [[WAF (web application firewall)]], by [[(Maheshwari, Nayak, et al., 2024)]]
+- Included in unsystematic literature review: [[(Onukrane, Skrodelis, et al., 2023)]]
+- HTTP analysis at bit level to detect directory traversal, by [[(Muraleedharan, Thomas, et al., 2020)]]
+
+Project SLR:
+- EARs in the wild can lead to directory traversal [[(Payet, Doupe, et al., 2013)]] 
+- Instrumentation of Java web applications to improve input validation to prevent directory traversal, by [[(Cho, Kim, et al., 2016)]]
+- Fuzzing testing PHP web applications to prevent directory traversal, by [[(Neef, Kleissner, et al., 2024)]]

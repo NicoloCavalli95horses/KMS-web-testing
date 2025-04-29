@@ -6,10 +6,11 @@ tags:
   - remoteCommandExecution
   - XSS
   - SQLIA
-  - [[[[fuzzing]]]]
   - greyBox
   - PHP
   - cyberSecurity
+  - directoryTraversal
+  - pathTraversal
 Project:
   - SLR
 ---

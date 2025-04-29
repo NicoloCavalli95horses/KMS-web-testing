@@ -3,6 +3,7 @@ ID: 2025-02-25-10:50
 tags:
   - "#definition"
   - cyberSecurity
+  - IDOR
 ---
 ## Definition
 

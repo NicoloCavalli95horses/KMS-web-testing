@@ -4,6 +4,7 @@ tags:
   - "#definition"
   - clientSideAttacks
   - accessControl
+  - forcedBrowsing
 ---
 ## Definition
 
@@ -11,6 +12,7 @@ In a forced browsing attack (also called forceful browsing), an attacker visits 
 - This attack is made possible by the insecure design of a web application or API
 
 ### Common causes
+
 - **Security through obscurity** – assuming that if you make an identifier complex enough (in this case, a URL), attackers won’t be able to guess it.
 - **Common directory names** – using common and easily guessed directory names for typical resources, such as /admin/, /config/, or /backup/.
 - **Lack of authentication** – failing to implement, enable, or properly test authentication for all access to URLs or directories that contain sensitive data.
@@ -29,3 +31,5 @@ An attacker could guess that 2259 could lead to another personal user page
 ---
 #### References
 - https://www.invicti.com/learn/forced-browsing/
+- [[(Li, Xue, et al., 2013)
+- [[(Pauli, 2013)]]
