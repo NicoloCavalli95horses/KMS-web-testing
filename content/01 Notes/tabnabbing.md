@@ -20,9 +20,10 @@ Browser's history sniffing can be used to accurate craft a specific URL to trick
 
 ## How does it work?
 
-- The victim access a malicious website (*website A*), that has a link to a trustful website (*website B*), for example the website of a bank
-- The victim clicks on the link and open the *website B*, while the tab of the *website A* is still opened
-- After the victim comes back to the *website A*, that is the malicious one, the *website B* can be changed, exploiting the `window.open()` function
+- The victim access a malicious website (`evil.com`) from a trustful website (`facebook.com`)
+- The site `evil.com` looks legitimate and trick the user on spending some time there (e.g., with a web game), while `facebook.com` is still opened
+- After a while, `evil.com` changes `facebook.com` with a phishing page, exploiting the `window.open()` function
+- After the victim comes back to the previous we *website A*, that is the malicious one, the *website B* can be changed, exploiting the `window.open()` function
 - This means that if then the user comes to the *website B* again, now he can see a copy of the trustful website, asking him, for example, the user credential
 - ==Sensitive data may be stolen or unauthorized financial transactions may be requested==
 - The user may be ==redirected to an error page on the trusted website after the theft has taken place==

@@ -1,0 +1,223 @@
+{
+  "edges": [
+    {
+      "fromNode": "935cddeffcdabfd4",
+      "fromSide": "right",
+      "id": "bb18a99a4b12a00e",
+      "styleAttributes": {
+      },
+      "toNode": "7a089ea7db1d1df8",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "935cddeffcdabfd4",
+      "fromSide": "right",
+      "id": "a4946bd6c4fb2f04",
+      "styleAttributes": {
+      },
+      "toNode": "be71fc038f00e402",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "935cddeffcdabfd4",
+      "fromSide": "right",
+      "id": "c39c6f3b47f76012",
+      "styleAttributes": {
+      },
+      "toNode": "23b3ba330dbfe4a3",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e35ad480a32b65bd",
+      "fromSide": "right",
+      "id": "7a256a8dd1272c79",
+      "styleAttributes": {
+      },
+      "toNode": "4f0190765a7b0ba7",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b2906c69d1b7c8fa",
+      "fromSide": "right",
+      "id": "ca44a515a354081c",
+      "styleAttributes": {
+      },
+      "toNode": "935cddeffcdabfd4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4f0190765a7b0ba7",
+      "fromSide": "right",
+      "id": "dee4a3087bd55d2b",
+      "styleAttributes": {
+      },
+      "toNode": "8532b57b3d711d7c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "4f0190765a7b0ba7",
+      "fromSide": "right",
+      "id": "1f812db58d3493f0",
+      "styleAttributes": {
+      },
+      "toNode": "732a25a7887fd878",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "3243bd403ef55e57",
+      "fromSide": "right",
+      "id": "5b2c3b945c82e8a6",
+      "styleAttributes": {
+      },
+      "toNode": "b2906c69d1b7c8fa",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "3243bd403ef55e57",
+      "fromSide": "right",
+      "id": "fd1b4c6e9eb312c5",
+      "styleAttributes": {
+      },
+      "toNode": "e35ad480a32b65bd",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 60,
+      "id": "935cddeffcdabfd4",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "GUI exploitation",
+      "type": "text",
+      "width": 200,
+      "x": 0,
+      "y": -120
+    },
+    {
+      "height": 60,
+      "id": "e35ad480a32b65bd",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "targeting business owners",
+      "type": "text",
+      "width": 320,
+      "x": -380,
+      "y": 180
+    },
+    {
+      "height": 60,
+      "id": "be71fc038f00e402",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "[[tabnabbing]]",
+      "type": "text",
+      "width": 180,
+      "x": 280,
+      "y": -120
+    },
+    {
+      "height": 60,
+      "id": "23b3ba330dbfe4a3",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "[[phishing]]",
+      "type": "text",
+      "width": 180,
+      "x": 280,
+      "y": -40
+    },
+    {
+      "height": 60,
+      "id": "7a089ea7db1d1df8",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "[[clickjacking]]",
+      "type": "text",
+      "width": 180,
+      "x": 280,
+      "y": -200
+    },
+    {
+      "height": 60,
+      "id": "b2906c69d1b7c8fa",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "targeting users",
+      "type": "text",
+      "width": 320,
+      "x": -380,
+      "y": -120
+    },
+    {
+      "height": 60,
+      "id": "4f0190765a7b0ba7",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "logic tampering",
+      "type": "text",
+      "width": 200,
+      "x": 0,
+      "y": 90
+    },
+    {
+      "height": 60,
+      "id": "732a25a7887fd878",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "parameter tampering",
+      "type": "text",
+      "width": 340,
+      "x": 290,
+      "y": 150
+    },
+    {
+      "height": 60,
+      "id": "8532b57b3d711d7c",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "[[BFT (business flow tampering)]]",
+      "type": "text",
+      "width": 340,
+      "x": 290,
+      "y": 60
+    },
+    {
+      "height": 60,
+      "id": "3243bd403ef55e57",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "## attack",
+      "type": "text",
+      "width": 160,
+      "x": -620,
+      "y": 30
+    },
+    {
+      "height": 620,
+      "id": "2ee736b5c612abc2",
+      "styleAttributes": {
+      },
+      "text": "\n| Attack                                | Description                                                                                               | Front-End Responsibility | Front-end features involved                               |\n| ------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------------ | --------------------------------------------------------- |\n| [[clickjacking]]                      | User interactions (clicks, key presses, drag events, etc) are intercepted to manipulate invisible content | Very high                | user interface, user pointer, events                      |\n| [[tabnabbing]]                        |                                                                                                           | Very high                | user interface, browser tabs                              |\n| [[BFT (business flow tampering)]]     |                                                                                                           | High                     | business logic                                            |\n| [[EAR (Execution After Redirect)]]    |                                                                                                           | Low                      | web server redirect response                              |\n| [[CSRF (cross-site request forgery)]] |                                                                                                           | High                     | Authentication information cached by browser ([[cookie]]) |\n",
+      "type": "text",
+      "width": 980,
+      "x": -440,
+      "y": 460
+    }
+  ]
+}
