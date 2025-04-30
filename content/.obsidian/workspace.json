@@ -187,6 +187,7 @@
   },
   "active": "ec2b6c07e1f28ad4",
   "lastOpenFiles": [
+    "01 Notes/CSP (Content Security Policy).md",
     "02 Literature/papers/logic flow tampering/IVD. Automatic Learning and Enforcement of Authorization Rules in Online Social Networks.md",
     "03 References/(Marinescu, Parry, et al., 2017).md",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
@@ -224,7 +225,6 @@
     "03 References/(Neef, Kleissner, et al., 2024).md",
     "01 Notes/directory traversal (path traversal).md",
     "02 Literature/papers/redirect vulnerability/EARs in the wild. large-scale analysis of execution after redirect vulnerabilities.md",
-    "03 References/(Pauli, 2013).md",
     "02 Literature/papers/phishing",
     "97 Assets/SQLIA_detection_model.png",
     "97 Assets/pentesting_tools.png",
