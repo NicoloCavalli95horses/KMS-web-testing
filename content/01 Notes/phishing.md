@@ -37,6 +37,8 @@ Moder phishing is also done with [[QR-code]], but also phishing mobile applicati
 - third party payment systems
 - e-commerce
 
+From [[(Onarlioglu, Buyukkayhan, et al., 2015)]]: Critical security visual indicators, such as browser SSL connection indicators (e.g. the padlock icon on websites served via HTTPS), can be modified by malicious browser extensions to facilitate phishing attempts.
+
 #### Example
 
 Attackers may study the email communications of an employee for a while, and then at some opportune moment send an email spoofing the identity of a trusted other asking for a transfer of funds, which will be deposited into the attacker’s account
@@ -73,3 +75,6 @@ Malicious URLs often [[(Fonseka, Pashenna, et al., 2023)]]:
 - [[(Fonseka, Pashenna, et al., 2023)]]
 - [[(Chanakya, Spoorthi, et al., 2024)]]
 - [[(Ahmed, Altamimi, et al., 2023)]]
+
+Project SLR:
+- [[(Onarlioglu, Buyukkayhan, et al., 2015)]]

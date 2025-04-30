@@ -6935,40 +6935,6 @@
         ]
       }
     },
-    "03 References/(Eskandarian, Cogan, et al., 2019).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 72,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.24,
-      "characterCount": 764,
-      "nonWhitespaceCharacterCount": 666,
-      "newlineCount": 9,
-      "readingTimeInMinutes": 0.27169811320754716,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1745848393442,
-      "modifiedDate": 1745848393443,
-      "sizeInBytes": 827,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.24,
-        "wordCount": 72,
-        "characterCount": 764,
-        "nonWhitespaceCharacterCount": 666,
-        "newlineCount": 9
-      },
-      "frontmatter": {
-        "ID": "2025-04-28T13:53:13.432Z",
-        "tags": "ref",
-        "Project": [
-          "SLR"
-        ]
-      }
-    },
     "03 References/(Farah, Shojol, et al., 2016).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -12775,45 +12741,6 @@
         ]
       }
     },
-    "02 Literature/papers/browser vulnerability/Fidelius. Protecting User Secrets from Compromised Browsers.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 10,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.03333333333333333,
-      "characterCount": 117,
-      "nonWhitespaceCharacterCount": 91,
-      "newlineCount": 17,
-      "readingTimeInMinutes": 0.03773584905660377,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1745848393461,
-      "modifiedDate": 1745848420862,
-      "sizeInBytes": 232,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.03333333333333333,
-        "wordCount": 10,
-        "characterCount": 117,
-        "nonWhitespaceCharacterCount": 91,
-        "newlineCount": 17
-      },
-      "frontmatter": {
-        "ID": "2025-04-28T13:53:13.432Z",
-        "tags": [
-          "paper",
-          "projectSLR",
-          "browser",
-          "browserAttacks"
-        ],
-        "Project": [
-          "SLR"
-        ]
-      }
-    },
     "02 Literature/papers/browser vulnerability/sandFOX. secure sandboxed and isolated environment for firefox browser.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -16543,20 +16470,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 648,
+      "wordCount": 691,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 2.16,
-      "characterCount": 4537,
-      "nonWhitespaceCharacterCount": 3830,
-      "newlineCount": 68,
-      "readingTimeInMinutes": 2.4452830188679244,
-      "linkCount": 18,
+      "pageCount": 2.3033333333333332,
+      "characterCount": 4862,
+      "nonWhitespaceCharacterCount": 4109,
+      "newlineCount": 73,
+      "readingTimeInMinutes": 2.607547169811321,
+      "linkCount": 20,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985062,
-      "modifiedDate": 1745846169922,
-      "sizeInBytes": 4652,
+      "modifiedDate": 1745999934933,
+      "sizeInBytes": 4977,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 2.16,
@@ -21114,20 +21041,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 1365,
+      "wordCount": 1387,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 4.55,
-      "characterCount": 9276,
-      "nonWhitespaceCharacterCount": 7791,
-      "newlineCount": 129,
-      "readingTimeInMinutes": 5.150943396226415,
-      "linkCount": 47,
+      "pageCount": 4.623333333333333,
+      "characterCount": 9460,
+      "nonWhitespaceCharacterCount": 7950,
+      "newlineCount": 134,
+      "readingTimeInMinutes": 5.233962264150944,
+      "linkCount": 49,
       "embedCount": 2,
       "aliases": null,
       "createdDate": 1743766985044,
-      "modifiedDate": 1744206514561,
-      "sizeInBytes": 9380,
+      "modifiedDate": 1745999780935,
+      "sizeInBytes": 9564,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 4.55,
@@ -23837,6 +23764,72 @@
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0,
         "newlineCount": 0
+      }
+    },
+    "03 References/(Onarlioglu, Buyukkayhan, et al., 2015).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 34,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.11333333333333333,
+      "characterCount": 474,
+      "nonWhitespaceCharacterCount": 414,
+      "newlineCount": 15,
+      "readingTimeInMinutes": 0.12830188679245283,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1745998536074,
+      "modifiedDate": 1745998536075,
+      "sizeInBytes": 474,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "02 Literature/papers/browser vulnerability/Sentinel. Securing legacy firefox extensions.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 209,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.6966666666666667,
+      "characterCount": 1602,
+      "nonWhitespaceCharacterCount": 1366,
+      "newlineCount": 33,
+      "readingTimeInMinutes": 0.7886792452830189,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1745998536091,
+      "modifiedDate": 1746000024726,
+      "sizeInBytes": 1726,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-04-30T07:35:36.064Z",
+        "tags": [
+          "paper",
+          "projectSLR",
+          "browserExtension",
+          "browserAttacks"
+        ],
+        "Project": [
+          "SLR"
+        ]
       }
     }
   }

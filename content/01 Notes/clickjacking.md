@@ -50,6 +50,8 @@ From [[(Balduzzi, Egele, et al., 2010)]]:
 - clicking on banner ads that are part of an advertising click fraud
 - posting blog or forum messages
 
+From [[(Onarlioglu, Buyukkayhan, et al., 2015)]]: clickjacking attacks can be launched from malicious browser's extensions
+
 ## Prevalence
 
 The current prevalence of clickjacking it is not clear
@@ -131,5 +133,8 @@ From [[(Sinha, Uppal, et al., 2014)]]:
 - Short literature review, by [[(Sood, Enbody, et al., 2011)]]
 - Short literature review, by [[(Sinha, Uppal, et al., 2014)]]
 - [[(Balduzzi, Egele, et al., 2010)]]
+
+Project SLR:
+- [[(Onarlioglu, Buyukkayhan, et al., 2015)]]
 
 [^1]: A number of values can be specified to control the behavior of the iframed content. More details [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe)
