@@ -50,7 +50,7 @@ From [[(Balduzzi, Egele, et al., 2010)]]:
 - clicking on banner ads that are part of an advertising click fraud
 - posting blog or forum messages
 
-From [[(Onarlioglu, Buyukkayhan, et al., 2015)]]: clickjacking attacks can be launched from malicious browser's extensions
+From [[(Onarlioglu, Buyukkayhan, et al., 2015)]]: clickjacking attacks can be launched from malicious legacy browser's extensions
 
 ## Prevalence
 

@@ -197,13 +197,6 @@
       "toSide": "left"
     },
     {
-      "fromNode": "a2119b01c11d02c6",
-      "fromSide": "left",
-      "id": "e4b73dc3e1139b48",
-      "toNode": "0672612acafa7c7e",
-      "toSide": "left"
-    },
-    {
       "fromNode": "0672612acafa7c7e",
       "fromSide": "left",
       "id": "b9afa1e4d56d01e6",
@@ -241,6 +234,31 @@
       },
       "toNode": "c51d064b38e25658",
       "toSide": "left"
+    },
+    {
+      "fromNode": "1d9b0d0344648096",
+      "fromSide": "right",
+      "id": "a32e2d6cda5c52ac",
+      "toNode": "e4a52a94325baba8",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a2119b01c11d02c6",
+      "fromSide": "left",
+      "id": "c3993854c5e78358",
+      "styleAttributes": {
+      },
+      "toNode": "1d9b0d0344648096",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "1d9b0d0344648096",
+      "fromSide": "left",
+      "id": "d54f0ff62a06376f",
+      "styleAttributes": {
+      },
+      "toNode": "0672612acafa7c7e",
+      "toSide": "left"
     }
   ],
   "nodes": [
@@ -265,28 +283,6 @@
       "width": 440,
       "x": -640,
       "y": -1385
-    },
-    {
-      "height": 98,
-      "id": "a2119b01c11d02c6",
-      "styleAttributes": {
-      },
-      "text": "## Background",
-      "type": "text",
-      "width": 440,
-      "x": -640,
-      "y": -760
-    },
-    {
-      "height": 140,
-      "id": "c8337c5fbf01be49",
-      "styleAttributes": {
-      },
-      "text": "### Briefly recall technical concepts used in the research",
-      "type": "text",
-      "width": 600,
-      "x": 160,
-      "y": -781
     },
     {
       "height": 342,
@@ -419,39 +415,6 @@
       "width": 660,
       "x": 160,
       "y": -1785
-    },
-    {
-      "height": 111,
-      "id": "0672612acafa7c7e",
-      "styleAttributes": {
-      },
-      "text": "## Methods",
-      "type": "text",
-      "width": 440,
-      "x": -640,
-      "y": -560
-    },
-    {
-      "height": 111,
-      "id": "2084d8e3c78bc1fc",
-      "styleAttributes": {
-      },
-      "text": "## Results",
-      "type": "text",
-      "width": 440,
-      "x": -640,
-      "y": -360
-    },
-    {
-      "height": 111,
-      "id": "baefac0bde5ccb42",
-      "styleAttributes": {
-      },
-      "text": "## Discussions",
-      "type": "text",
-      "width": 440,
-      "x": -640,
-      "y": -193
     },
     {
       "height": 96,
@@ -631,6 +594,83 @@
     },
     {
       "height": 140,
+      "id": "c8337c5fbf01be49",
+      "styleAttributes": {
+      },
+      "text": "### Briefly recall technical concepts used in the research",
+      "type": "text",
+      "width": 600,
+      "x": 160,
+      "y": -920
+    },
+    {
+      "height": 98,
+      "id": "a2119b01c11d02c6",
+      "styleAttributes": {
+      },
+      "text": "## Background",
+      "type": "text",
+      "width": 440,
+      "x": -640,
+      "y": -899
+    },
+    {
+      "height": 140,
+      "id": "e4a52a94325baba8",
+      "styleAttributes": {
+      },
+      "text": "### A description of the scenario(s) considered by the study. See [OWASP](https://owasp.org/www-community/Threat_Modeling)",
+      "type": "text",
+      "width": 600,
+      "x": 160,
+      "y": -700
+    },
+    {
+      "height": 98,
+      "id": "1d9b0d0344648096",
+      "styleAttributes": {
+      },
+      "text": "## Threat model",
+      "type": "text",
+      "width": 440,
+      "x": -640,
+      "y": -679
+    },
+    {
+      "height": 111,
+      "id": "0672612acafa7c7e",
+      "styleAttributes": {
+      },
+      "text": "## Methods",
+      "type": "text",
+      "width": 440,
+      "x": -640,
+      "y": -485
+    },
+    {
+      "height": 111,
+      "id": "2084d8e3c78bc1fc",
+      "styleAttributes": {
+      },
+      "text": "## Results",
+      "type": "text",
+      "width": 440,
+      "x": -640,
+      "y": -313
+    },
+    {
+      "height": 111,
+      "id": "baefac0bde5ccb42",
+      "styleAttributes": {
+      },
+      "text": "## Discussions",
+      "type": "text",
+      "width": 440,
+      "x": -640,
+      "y": -146
+    },
+    {
+      "height": 140,
       "id": "c51d064b38e25658",
       "styleAttributes": {
       },
@@ -638,7 +678,7 @@
       "type": "text",
       "width": 600,
       "x": 160,
-      "y": -374
+      "y": -327
     }
   ]
 }
