@@ -11,7 +11,7 @@ Project:
 ---
 ## Context
 
-The [[SOP (Same-Origin Policy)]], enforced by browsers, ensures confidentiality of cookies: in particular, it prevents one web site (say, `evil.com`) from reading or writing cookies for another site (say, `bank.com`). However, browsers enforce *no restrictions on outgoing requests*:
+The [[SOP (Same-Origin Policy)]], enforced by browsers, ensures confidentiality of cookies: in particular, it prevents one web site (say, `evil.com`) from reading or writing cookies for another site (say, `bank.com`). However, browsers enforce *no restrictions on cross-site requests*:
 - if a user visits `evil.com`, possibly because of a [[phishing]] email, a script on this page can send a request to `bank.com`
 - the user’s browser will automatically include `bank.com`’s cookies with this request, thus enabling [[CSRF (cross-site request forgery)]]
 

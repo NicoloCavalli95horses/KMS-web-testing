@@ -14,7 +14,7 @@ The growth of the JavaScript ecosystem has created a shift in business logic fro
 
 
 > [!WARNING]
-Client-side validation attacks are completely invisible to the server.
+Client-side validation attacks are completely invisible to the server
 
 ZigZag is a system for hardening JavaScript web applications against client-side validation attacks.
 - ZigZag transparently instruments (see [[instrumentation]]) client-side code to perform dynamic invariant detection over live browser executions. 
