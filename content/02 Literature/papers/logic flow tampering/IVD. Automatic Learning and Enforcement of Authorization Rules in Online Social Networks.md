@@ -12,7 +12,9 @@ Project:
 ---
 Collaboration with Facebook engineers to develop a tool that prevents malicious HTTP requests from accessing sensitive resources in large-scale web applications. Likely invariants are automatically identified from testing or pre-release stages to prevent authorization bugs. White-box approach that sits between back-end code and database
 
-==Front-end software role in HTTP requests tampering==: *API discovery* (legitimate use of the web application allows an attacker to understand the arguments of requests and subsequent responses). This can be a manual trial and error process, or can be automated.
+==Front-end software role in HTTP requests tampering==:
+- *Bypass of client-side authorization checks*: sometimes the web server logic processes HTTP requests assuming information that depends on client-side authorization checks, which can be bypassed
+- *API discovery*: legitimate use of the web application allows an attacker to understand the arguments of requests and subsequent responses. The threat model considers the presence of a regular user account, and a user who is logged in or logged out). This can be a manual trial and error process, or can be automated
 
 ## Context
 
@@ -35,8 +37,16 @@ In very large scale web applications (e.g., online social networks), many types 
 - IVD has a short learning period, usually covered by internal testing, [[dogfooding]], or a pre-release period, making it ready to act by the time a new product feature is made available to users
 - IVD adapt automatically to the application growth, by continuously learning invariants with no manual intervention
 - Our white-box approach infers invariants at the database layer, allowing more expressiveness and unprecedented scalability
+- Bugs detected and blocked by IVD are possibilities for new authorization rules 
 
 ![[IVD_invariant_detector_facebook.png]]
+
+**Writing and reading a [[graph database]]**
+Database writes and reads can happen before or after an authorization check:
+- in database *writes*, the authorization check is performed first, then the *write* command is executed
+- in database *reads*, the *read* command is executed first, then the authorization check is performed (the property to be checked is contained in the object actually stored in the database)
+- database *reads* are therefore several orders of magnitude more frequent than *writes*
+- for this reasons, IVD focuses on *write* operations on a graph database
 
 ## Evaluation
 
