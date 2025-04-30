@@ -48,11 +48,37 @@ Database writes and reads can happen before or after an authorization check:
 - database *reads* are therefore several orders of magnitude more frequent than *writes*
 - for this reasons, IVD focuses on *write* operations on a graph database
 
+**Identification of invariant (Invariant Learning phase)**
+IVD uses an unsupervised learning process to infer invariants:
+- The process is based on ==observing the normal behavior== of the social network, in particular the database *writes* resulting from requests from legitimate users or testers
+- IVD intercepts requests between the OSN and its database
+
+**Request Sampler**
+Samples a (configurable) number of requests for each "invariant category" (defined by endpoints, entity types, and operation). Records the request and local and global property values ​​at the time of the database request.
+Samplers are distributed and stateless, but synchronize sample rates.
+An external component periodically adjusts sample rates.
+
+**Invariant Inference Engine**
+The invariant inference engine looks for patterns in the data logged by the request sampler, by working offline. It breaks down logs by invariant category and analyzes each category separately:
+- identifies sets of local and global properties that are always the same (equality invariants) or associations that always exist between related objects (association existence invariants) across all requests sampled for a given category
+- The inference process is autonomous and resilient to workload changes or temporary failures
+
+**Invariant Checker**
+The invariant checker sits between a client and the database system, similarly to the request sampler. It runs synchronously on all database requests. For each database request:
+- it retrieves the endpoint that made the request and the involved entity types to determine the invariant category for the request
+- it then uses the category to get all relevant invariant predicates. The predicates are evaluated and any violations are logged
+- if a ratified invariant is violated, the database request gets aborted and an application exception is thrown
+
 ## Evaluation
 
+IVD was deployed at Facebook in 2015 and has since detected several critical vulnerabilities that have since been fixed
+- average overhead of 1-2 milliseconds
 
 ## Limits
 
+Few false negatives were found:
+- IVD was not able to report a bug that allowed a user could delete a video posted by other users. Not enough data were available for the model to learn the right invariants in this scenario
+- Too complex invariants are difficult to detect
 
 ---
 #### References

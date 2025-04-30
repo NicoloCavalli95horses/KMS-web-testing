@@ -1,0 +1,14 @@
+---
+ID: 2025-04-30T16:54:19.232Z
+tags: ref
+
+Project:
+ - SLR
+---
+## External Link
+
+https://www.sciencedirect.com/science/article/abs/pii/S0167404823005357?via%3Dihub
+
+## BibTeX
+
+@article{ZHOU2024103625, title = {Detecting prototype pollution for node.js: Vulnerability review and new fuzzing inputs}, journal = {Computers & Security}, volume = {137}, pages = {103625}, year = {2024}, issn = {0167-4048}, doi = {https://doi.org/10.1016/j.cose.2023.103625}, url = {https://www.sciencedirect.com/science/article/pii/S0167404823005357}, author = {Peng Zhou and Yuhan Gao}, keywords = {Prototype pollution, Node.js security, Dynamic fuzzing, Static taint analysis, Vulnerability review}, abstract = {Prototype pollution is a unique vulnerability originating from the JavaScript languages and has been found widely prevalent across the modern Node.js ecosystem. To detect this kind of vulnerability, state-of-the-art research either runs dynamic fuzzing on the function level to trigger the pollution in the run time or performs static analysis to look up the polluted objects in symbolic conditions. Despite succeeding to some extent, we find the current dynamic fuzzing highly relies on a very limited set of pre-defined function inputs for detection, and the static analysis cannot adapt well to large and complex Node.js modules, hence likely missing lots of potential detection possibilities. In this paper, to the best of our knowledge, we take the first review by re-detecting historical vulnerabilities of prototype pollution that have been disclosed and recorded in public databases. Surprisingly, we find out the current research can only cover some of these records. Our further analysis reveals that many cases cannot be detected because of the very limited code coverage of dynamic fuzzing and their incapability to parse large-scale code bases by static analysis. We thus can confirm the current research still has much room to improve and accordingly, we take dynamic fuzzing as a case study to show this possibility. Specifically, we have extended dynamic fuzzing by reusing new function inputs summarized from historical vulnerabilities and evaluated it over 60,000 Node.js packages. With this extension, we have discovered 65 new prototype pollution vulnerabilities in zero days, which cannot be covered by original dynamic fuzzing. Compared with static analysis, we also find 28 of the 65 new vulnerabilities that cannot be detected. Furthermore, for the vulnerabilities covered by both the approaches, our extended fuzzing runs more reliably and faster (with more than tens of times of speed) than its static counterpart. To the date we write this paper, we have received 6 CVE numbers and continuously negotiated with respective package maintainers (via Snyk and GitHub) for reporting and patching the remaining vulnerabilities.} }
