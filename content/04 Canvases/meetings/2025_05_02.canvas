@@ -1,0 +1,205 @@
+{
+  "edges": [
+    {
+      "fromNode": "3c173640d8604c65",
+      "fromSide": "right",
+      "id": "150ddf43e7d47b11",
+      "styleAttributes": {
+      },
+      "toNode": "55f641382d2fb79c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0e7b3acbaa112148",
+      "fromSide": "right",
+      "id": "15fcde9f6eb28683",
+      "styleAttributes": {
+      },
+      "toNode": "4f7e3c1695864b87",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "3c173640d8604c65",
+      "fromSide": "bottom",
+      "id": "98903ae41130785d",
+      "styleAttributes": {
+      },
+      "toNode": "60908c2753e2cfd9",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 1400,
+      "id": "5fef334cf0affac6",
+      "label": "Details",
+      "type": "group",
+      "width": 1240,
+      "x": 200,
+      "y": 400
+    },
+    {
+      "height": 60,
+      "id": "1a1171c656cf1aae",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "## News",
+      "type": "text",
+      "width": 260,
+      "x": -480,
+      "y": 60
+    },
+    {
+      "height": 80,
+      "id": "34a4d32f05062a30",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "Re-implemented the scenario in Vue.js, React.js and Angular.js to analyzes differences and similarities",
+      "type": "text",
+      "width": 650,
+      "x": -480,
+      "y": 140
+    },
+    {
+      "height": 100,
+      "id": "3c173640d8604c65",
+      "styleAttributes": {
+        "border": null,
+        "textAlign": null
+      },
+      "text": "Interesting discovery regarding *scoped CSS* code and its impact on the ability to reverse engineer components",
+      "type": "text",
+      "width": 650,
+      "x": -480,
+      "y": 240
+    },
+    {
+      "height": 80,
+      "id": "55f641382d2fb79c",
+      "styleAttributes": {
+        "border": null,
+        "shape": null,
+        "textAlign": null
+      },
+      "text": "No need to use browser extensions!",
+      "type": "text",
+      "width": 380,
+      "x": 200,
+      "y": 250
+    },
+    {
+      "color": "2",
+      "height": 250,
+      "id": "4f7e3c1695864b87",
+      "styleAttributes": {
+      },
+      "text": "The mounting phase is crucial because it is the moment when the client receives the actual data from the backend and uses it to instantiate the component with real data.",
+      "type": "text",
+      "width": 380,
+      "x": 1040,
+      "y": 510
+    },
+    {
+      "height": 500,
+      "id": "0e7b3acbaa112148",
+      "styleAttributes": {
+      },
+      "text": "- CSS styling is designed to be continuously overridden by more specific classes (hence the name *cascading style sheet*).\n- To avoid unwanted overriding and keep components independent, *scoped CSS* was introduced.\n- *Scoped CSS* in components means that\n\t- the developer can assign intuitive names to CSS classes in the development environment\n\t- after the compilation process, CSS classes are randomized and anonymized\n- This process is necessary to maintain the desired styling, BUT as a side effect, it provides us with a way to bind a component to a DOM object\n- In short, scoped CSS creates a unique ==binding between a component and its DOM object, thus allowing us to navigate through minified JS and find where a component is mounted==",
+      "type": "text",
+      "width": 740,
+      "x": 220,
+      "y": 420
+    },
+    {
+      "file": "97 Assets/scoped_css_as_component_identifier_js.png",
+      "height": 800,
+      "id": "6be1e73264aa4d08",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 950,
+      "x": 220,
+      "y": 980
+    },
+    {
+      "height": 80,
+      "id": "e8c0b401d2e5f26e",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "# JS components tampering",
+      "type": "text",
+      "width": 660,
+      "x": -480,
+      "y": -440
+    },
+    {
+      "height": 60,
+      "id": "9e3ba977dc66d201",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "## Recap",
+      "type": "text",
+      "width": 260,
+      "x": -480,
+      "y": -320
+    },
+    {
+      "height": 80,
+      "id": "5e3ec0598e9af209",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "Manual exploitation using browser DevTool (React extension that reconstruct the components tree)",
+      "type": "text",
+      "width": 660,
+      "x": -480,
+      "y": -240
+    },
+    {
+      "height": 71,
+      "id": "2d4791e86e50246f",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "Semi-automated exploitation using TamperMonkey (which still relies on browser DevTools)",
+      "type": "text",
+      "width": 660,
+      "x": -480,
+      "y": -131
+    },
+    {
+      "height": 60,
+      "id": "60908c2753e2cfd9",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "## Challenges",
+      "type": "text",
+      "width": 260,
+      "x": -480,
+      "y": 450
+    },
+    {
+      "height": 100,
+      "id": "ee435ba353947c3a",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "How to automatically find the CSS class of the components to tamper?",
+      "type": "text",
+      "width": 380,
+      "x": -480,
+      "y": 510
+    }
+  ]
+}
