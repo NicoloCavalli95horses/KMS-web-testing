@@ -15,17 +15,17 @@
       "y": 140
     },
     {
-      "height": 60,
+      "height": 140,
       "id": "a8f0d71a11a89a5b",
       "styleAttributes": {
         "border": "invisible",
         "textAlign": "center"
       },
-      "text": "# RQ1. Role of front-end software in web security ",
+      "text": "# RQ1. Web front-end vulnerabilities and the role of front-end software in web security ",
       "type": "text",
-      "width": 960,
-      "x": -450,
-      "y": 40
+      "width": 1460,
+      "x": -720,
+      "y": 0
     }
   ]
 }
