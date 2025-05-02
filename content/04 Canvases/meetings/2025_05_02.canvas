@@ -10,15 +10,6 @@
       "toSide": "left"
     },
     {
-      "fromNode": "0e7b3acbaa112148",
-      "fromSide": "right",
-      "id": "15fcde9f6eb28683",
-      "styleAttributes": {
-      },
-      "toNode": "4f7e3c1695864b87",
-      "toSide": "left"
-    },
-    {
       "fromNode": "3c173640d8604c65",
       "fromSide": "bottom",
       "id": "98903ae41130785d",
@@ -26,6 +17,15 @@
       },
       "toNode": "60908c2753e2cfd9",
       "toSide": "top"
+    },
+    {
+      "fromNode": "0e7b3acbaa112148",
+      "fromSide": "right",
+      "id": "15fcde9f6eb28683",
+      "styleAttributes": {
+      },
+      "toNode": "4f7e3c1695864b87",
+      "toSide": "left"
     }
   ],
   "nodes": [
@@ -33,6 +33,8 @@
       "height": 1400,
       "id": "5fef334cf0affac6",
       "label": "Details",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 1240,
       "x": 200,
@@ -90,40 +92,6 @@
       "width": 380,
       "x": 200,
       "y": 250
-    },
-    {
-      "color": "2",
-      "height": 250,
-      "id": "4f7e3c1695864b87",
-      "styleAttributes": {
-      },
-      "text": "The mounting phase is crucial because it is the moment when the client receives the actual data from the backend and uses it to instantiate the component with real data.",
-      "type": "text",
-      "width": 380,
-      "x": 1040,
-      "y": 510
-    },
-    {
-      "height": 500,
-      "id": "0e7b3acbaa112148",
-      "styleAttributes": {
-      },
-      "text": "- CSS styling is designed to be continuously overridden by more specific classes (hence the name *cascading style sheet*).\n- To avoid unwanted overriding and keep components independent, *scoped CSS* was introduced.\n- *Scoped CSS* in components means that\n\t- the developer can assign intuitive names to CSS classes in the development environment\n\t- after the compilation process, CSS classes are randomized and anonymized\n- This process is necessary to maintain the desired styling, BUT as a side effect, it provides us with a way to bind a component to a DOM object\n- In short, scoped CSS creates a unique ==binding between a component and its DOM object, thus allowing us to navigate through minified JS and find where a component is mounted==",
-      "type": "text",
-      "width": 740,
-      "x": 220,
-      "y": 420
-    },
-    {
-      "file": "97 Assets/scoped_css_as_component_identifier_js.png",
-      "height": 800,
-      "id": "6be1e73264aa4d08",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 950,
-      "x": 220,
-      "y": 980
     },
     {
       "height": 80,
@@ -200,6 +168,99 @@
       "width": 380,
       "x": -480,
       "y": 510
+    },
+    {
+      "file": "97 Assets/scoped_css_as_component_identifier_js.png",
+      "height": 800,
+      "id": "6be1e73264aa4d08",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 950,
+      "x": 220,
+      "y": 980
+    },
+    {
+      "height": 500,
+      "id": "0e7b3acbaa112148",
+      "styleAttributes": {
+      },
+      "text": "- CSS styling is designed to be continuously overridden by more specific classes (hence the name *cascading style sheet*).\n- To avoid unwanted overriding and keep components independent, *scoped CSS* was introduced.\n- *Scoped CSS* in components means that\n\t- the developer can assign intuitive names to CSS classes in the development environment\n\t- after the compilation process, CSS classes are randomized and anonymized\n- This process is necessary to maintain the desired styling, BUT as a side effect, it provides us with a way to bind a component to a DOM object\n- In short, scoped CSS creates a unique ==binding between a component and its DOM object, thus allowing us to navigate through minified JS and find where a component is mounted==",
+      "type": "text",
+      "width": 740,
+      "x": 220,
+      "y": 420
+    },
+    {
+      "height": 270,
+      "id": "bcf5416e82a3c040",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "We are looking for:\n- a CSS class, used multiple times, usually in DOM objects that are siblings\n- These DOM objects are very similar to each other, except that some of them have a little more detail (the \"badge\" of premium content)",
+      "type": "text",
+      "width": 520,
+      "x": -480,
+      "y": 610
+    },
+    {
+      "color": "2",
+      "height": 250,
+      "id": "4f7e3c1695864b87",
+      "styleAttributes": {
+      },
+      "text": "The mounting phase is crucial because it is the moment when the client receives the actual data from the backend and uses it to instantiate the component with real data.",
+      "type": "text",
+      "width": 380,
+      "x": 1040,
+      "y": 510
+    },
+    {
+      "height": 690,
+      "id": "757de017f4042eb6",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "\n| Attack                                | Description                                                                                                                                                     | Victim              | Front-End Responsibility | Rationale                                                                                 | References |\n| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------------ | ----------------------------------------------------------------------------------------- | ---------- |\n| [[clickjacking]]                      | User interactions (clicks, key presses, drag events, etc) are intercepted to manipulate invisible content                                                       | user                | Very high                | user interface, user pointer, events                                                      | ...        |\n| [[tabnabbing]]                        | [[top-level navigation]] (URL address)<br>is replaced from tab A to tab B,<br>or vice versa (reverse tabnabbing)<br>tricking the user into providing credential | user                | Very high                | user interface, browser tabs                                                              | ...        |\n| [[CSRF (cross-site request forgery)]] | Cross-site malicious HTTP requests are executed taking advantage of cached authentication information                                                           | user                | Very high                | Authentication information cached by browser ([[cookie]])                                 | ...        |\n| [[BFT (business flow tampering)]]     | BFT exploits defects that permit to circumvent the expected functionality of an application                                                                     | user/business owner | High                     | Front-end business logic is tampered. Flaws at server-side contribute to the exploitation | ...        |\n| [[EAR (Execution After Redirect)]]    | unintended server-side code that is executed after a redirect call                                                                                              | business owner      | Low                      | Front-end helps triggering the redirect functions                                         | ...        |\n| HTTP requests tampering               | HTTP requests are manipulated to bypass weak authorization checks at the server-side                                                                            | business owner      | Low                      | Front-end helps API discovery and manipulation                                            | ...        |\n",
+      "type": "text",
+      "width": 1380,
+      "x": -2500,
+      "y": -350
+    },
+    {
+      "height": 140,
+      "id": "5daa5438a31d6ba4",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# RQ1. Web front-end vulnerabilities and the role of front-end software in web security ",
+      "type": "text",
+      "width": 1460,
+      "x": -2560,
+      "y": -490
+    },
+    {
+      "height": 180,
+      "id": "b0094937ab7fc888",
+      "styleAttributes": {
+      },
+      "text": "count frequencies of front-end features involved to assess resposability",
+      "type": "text",
+      "width": 260,
+      "x": -1810,
+      "y": 380
+    },
+    {
+      "height": 160,
+      "id": "a02fe48c1533bcac",
+      "styleAttributes": {
+      },
+      "text": "check literature on the concept of \"responsability\"",
+      "type": "text",
+      "width": 260,
+      "x": -1810,
+      "y": 610
     }
   ]
 }

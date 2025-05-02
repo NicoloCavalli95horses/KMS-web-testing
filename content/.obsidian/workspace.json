@@ -8,16 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6eb552735bf0fba2",
+            "id": "77105b0c326d9e70",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "04 Canvases/meetings/2025_05_02.canvas",
                 "viewState": {
-                  "x": 323.1940303407699,
-                  "y": 94.58120088673726,
-                  "zoom": -0.9097952825212674
+                  "x": -1111.6895942865342,
+                  "y": 273.43269796243777,
+                  "zoom": -0.8024707504092211
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5026054382324
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -187,18 +187,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6eb552735bf0fba2",
+  "active": "77105b0c326d9e70",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
+    "04 Canvases/meetings/2025_05_02.canvas",
     "97 Assets/scoped_css_as_component_identifier_js.png",
     "04 Canvases/mind maps/props tampering.canvas",
-    "04 Canvases/meetings/2025_05_02.canvas",
     "04 Canvases/mind maps/input analysis.canvas",
     "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/mind maps/cross-domain policies.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/models/research model.canvas",
     "96 Meta/SLR/Paper list.md",
     "TO DO.md",
@@ -243,7 +243,6 @@
     "01 Notes/XSS (Cross Site Scripting)/types",
     "01 Notes/XSS (Cross Site Scripting)",
     "01 Notes/XSS (Cross Site Scripting)",
-    "97 Assets/control_flow_graph.png",
     "02 Literature/papers/XCS (Cross Channel Scripting)"
   ]
 }
