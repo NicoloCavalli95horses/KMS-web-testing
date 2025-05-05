@@ -241,6 +241,7 @@
       "y": -490
     },
     {
+      "color": "1",
       "height": 180,
       "id": "b0094937ab7fc888",
       "styleAttributes": {
@@ -252,6 +253,7 @@
       "y": 380
     },
     {
+      "color": "1",
       "height": 160,
       "id": "a02fe48c1533bcac",
       "styleAttributes": {
