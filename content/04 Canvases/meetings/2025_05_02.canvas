@@ -41,6 +41,119 @@
       "y": 400
     },
     {
+      "height": 100,
+      "id": "3c173640d8604c65",
+      "styleAttributes": {
+        "border": null,
+        "textAlign": null
+      },
+      "text": "Interesting discovery regarding *scoped CSS* code and its impact on the ability to reverse engineer components",
+      "type": "text",
+      "width": 650,
+      "x": -480,
+      "y": 240
+    },
+    {
+      "height": 60,
+      "id": "60908c2753e2cfd9",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "## Challenges",
+      "type": "text",
+      "width": 260,
+      "x": -480,
+      "y": 450
+    },
+    {
+      "height": 100,
+      "id": "ee435ba353947c3a",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "How to automatically find the CSS class of the components to tamper?",
+      "type": "text",
+      "width": 380,
+      "x": -480,
+      "y": 510
+    },
+    {
+      "height": 270,
+      "id": "bcf5416e82a3c040",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "We are looking for:\n- a CSS class, used multiple times, usually in DOM objects that are siblings\n- These DOM objects are very similar to each other, except that some of them have a little more detail (the \"badge\" of premium content)",
+      "type": "text",
+      "width": 520,
+      "x": -480,
+      "y": 610
+    },
+    {
+      "height": 690,
+      "id": "757de017f4042eb6",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "\n| Attack                                | Description                                                                                                                                                     | Victim              | Front-End Responsibility | Rationale                                                                                 | References |\n| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------------ | ----------------------------------------------------------------------------------------- | ---------- |\n| [[clickjacking]]                      | User interactions (clicks, key presses, drag events, etc) are intercepted to manipulate invisible content                                                       | user                | Very high                | user interface, user pointer, events                                                      | ...        |\n| [[tabnabbing]]                        | [[top-level navigation]] (URL address)<br>is replaced from tab A to tab B,<br>or vice versa (reverse tabnabbing)<br>tricking the user into providing credential | user                | Very high                | user interface, browser tabs                                                              | ...        |\n| [[CSRF (cross-site request forgery)]] | Cross-site malicious HTTP requests are executed taking advantage of cached authentication information                                                           | user                | Very high                | Authentication information cached by browser ([[cookie]])                                 | ...        |\n| [[BFT (business flow tampering)]]     | BFT exploits defects that permit to circumvent the expected functionality of an application                                                                     | user/business owner | High                     | Front-end business logic is tampered. Flaws at server-side contribute to the exploitation | ...        |\n| [[EAR (Execution After Redirect)]]    | unintended server-side code that is executed after a redirect call                                                                                              | business owner      | Low                      | Front-end helps triggering the redirect functions                                         | ...        |\n| HTTP requests tampering               | HTTP requests are manipulated to bypass weak authorization checks at the server-side                                                                            | business owner      | Low                      | Front-end helps API discovery and manipulation                                            | ...        |\n",
+      "type": "text",
+      "width": 1380,
+      "x": -2500,
+      "y": -350
+    },
+    {
+      "height": 140,
+      "id": "5daa5438a31d6ba4",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# RQ1. Web front-end vulnerabilities and the role of front-end software in web security ",
+      "type": "text",
+      "width": 1460,
+      "x": -2560,
+      "y": -490
+    },
+    {
+      "color": "1",
+      "height": 180,
+      "id": "b0094937ab7fc888",
+      "styleAttributes": {
+      },
+      "text": "count frequencies of front-end features involved to assess resposability",
+      "type": "text",
+      "width": 260,
+      "x": -1810,
+      "y": 380
+    },
+    {
+      "color": "1",
+      "height": 160,
+      "id": "a02fe48c1533bcac",
+      "styleAttributes": {
+      },
+      "text": "check literature on the concept of \"responsability\"",
+      "type": "text",
+      "width": 260,
+      "x": -1810,
+      "y": 610
+    },
+    {
+      "height": 80,
+      "id": "55f641382d2fb79c",
+      "styleAttributes": {
+        "border": null,
+        "shape": null,
+        "textAlign": null
+      },
+      "text": "No need to use browser extensions!",
+      "type": "text",
+      "width": 380,
+      "x": 200,
+      "y": 250
+    },
+    {
       "height": 60,
       "id": "1a1171c656cf1aae",
       "styleAttributes": {
@@ -65,33 +178,6 @@
       "width": 650,
       "x": -480,
       "y": 140
-    },
-    {
-      "height": 100,
-      "id": "3c173640d8604c65",
-      "styleAttributes": {
-        "border": null,
-        "textAlign": null
-      },
-      "text": "Interesting discovery regarding *scoped CSS* code and its impact on the ability to reverse engineer components",
-      "type": "text",
-      "width": 650,
-      "x": -480,
-      "y": 240
-    },
-    {
-      "height": 80,
-      "id": "55f641382d2fb79c",
-      "styleAttributes": {
-        "border": null,
-        "shape": null,
-        "textAlign": null
-      },
-      "text": "No need to use browser extensions!",
-      "type": "text",
-      "width": 380,
-      "x": 200,
-      "y": 250
     },
     {
       "height": 80,
@@ -145,31 +231,6 @@
       "y": -131
     },
     {
-      "height": 60,
-      "id": "60908c2753e2cfd9",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "## Challenges",
-      "type": "text",
-      "width": 260,
-      "x": -480,
-      "y": 450
-    },
-    {
-      "height": 100,
-      "id": "ee435ba353947c3a",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "How to automatically find the CSS class of the components to tamper?",
-      "type": "text",
-      "width": 380,
-      "x": -480,
-      "y": 510
-    },
-    {
       "file": "97 Assets/scoped_css_as_component_identifier_js.png",
       "height": 800,
       "id": "6be1e73264aa4d08",
@@ -192,18 +253,6 @@
       "y": 420
     },
     {
-      "height": 270,
-      "id": "bcf5416e82a3c040",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "We are looking for:\n- a CSS class, used multiple times, usually in DOM objects that are siblings\n- These DOM objects are very similar to each other, except that some of them have a little more detail (the \"badge\" of premium content)",
-      "type": "text",
-      "width": 520,
-      "x": -480,
-      "y": 610
-    },
-    {
       "color": "2",
       "height": 250,
       "id": "4f7e3c1695864b87",
@@ -214,55 +263,6 @@
       "width": 380,
       "x": 1040,
       "y": 510
-    },
-    {
-      "height": 690,
-      "id": "757de017f4042eb6",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "\n| Attack                                | Description                                                                                                                                                     | Victim              | Front-End Responsibility | Rationale                                                                                 | References |\n| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------------ | ----------------------------------------------------------------------------------------- | ---------- |\n| [[clickjacking]]                      | User interactions (clicks, key presses, drag events, etc) are intercepted to manipulate invisible content                                                       | user                | Very high                | user interface, user pointer, events                                                      | ...        |\n| [[tabnabbing]]                        | [[top-level navigation]] (URL address)<br>is replaced from tab A to tab B,<br>or vice versa (reverse tabnabbing)<br>tricking the user into providing credential | user                | Very high                | user interface, browser tabs                                                              | ...        |\n| [[CSRF (cross-site request forgery)]] | Cross-site malicious HTTP requests are executed taking advantage of cached authentication information                                                           | user                | Very high                | Authentication information cached by browser ([[cookie]])                                 | ...        |\n| [[BFT (business flow tampering)]]     | BFT exploits defects that permit to circumvent the expected functionality of an application                                                                     | user/business owner | High                     | Front-end business logic is tampered. Flaws at server-side contribute to the exploitation | ...        |\n| [[EAR (Execution After Redirect)]]    | unintended server-side code that is executed after a redirect call                                                                                              | business owner      | Low                      | Front-end helps triggering the redirect functions                                         | ...        |\n| HTTP requests tampering               | HTTP requests are manipulated to bypass weak authorization checks at the server-side                                                                            | business owner      | Low                      | Front-end helps API discovery and manipulation                                            | ...        |\n",
-      "type": "text",
-      "width": 1380,
-      "x": -2500,
-      "y": -350
-    },
-    {
-      "height": 140,
-      "id": "5daa5438a31d6ba4",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "# RQ1. Web front-end vulnerabilities and the role of front-end software in web security ",
-      "type": "text",
-      "width": 1460,
-      "x": -2560,
-      "y": -490
-    },
-    {
-      "color": "1",
-      "height": 180,
-      "id": "b0094937ab7fc888",
-      "styleAttributes": {
-      },
-      "text": "count frequencies of front-end features involved to assess resposability",
-      "type": "text",
-      "width": 260,
-      "x": -1810,
-      "y": 380
-    },
-    {
-      "color": "1",
-      "height": 160,
-      "id": "a02fe48c1533bcac",
-      "styleAttributes": {
-      },
-      "text": "check literature on the concept of \"responsability\"",
-      "type": "text",
-      "width": 260,
-      "x": -1810,
-      "y": 610
     }
   ]
 }

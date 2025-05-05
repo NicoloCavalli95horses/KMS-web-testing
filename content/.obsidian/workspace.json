@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/meetings/2025_05_02.canvas",
                 "viewState": {
-                  "x": -1111.6895942865342,
-                  "y": 273.43269796243777,
-                  "zoom": -0.8024707504092211
+                  "x": 37.47660658174335,
+                  "y": 442.13344854863874,
+                  "zoom": -0.03147974483639193
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -189,8 +189,9 @@
   },
   "active": "77105b0c326d9e70",
   "lastOpenFiles": [
-    "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
+    "04 Canvases/meetings/2025_04_17.canvas",
     "04 Canvases/meetings/2025_05_02.canvas",
+    "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "97 Assets/scoped_css_as_component_identifier_js.png",
     "04 Canvases/mind maps/props tampering.canvas",
     "04 Canvases/mind maps/input analysis.canvas",
