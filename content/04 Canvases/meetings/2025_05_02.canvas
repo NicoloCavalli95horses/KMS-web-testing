@@ -41,56 +41,6 @@
       "y": 400
     },
     {
-      "height": 100,
-      "id": "3c173640d8604c65",
-      "styleAttributes": {
-        "border": null,
-        "textAlign": null
-      },
-      "text": "Interesting discovery regarding *scoped CSS* code and its impact on the ability to reverse engineer components",
-      "type": "text",
-      "width": 650,
-      "x": -480,
-      "y": 240
-    },
-    {
-      "height": 60,
-      "id": "60908c2753e2cfd9",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "## Challenges",
-      "type": "text",
-      "width": 260,
-      "x": -480,
-      "y": 450
-    },
-    {
-      "height": 100,
-      "id": "ee435ba353947c3a",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "How to automatically find the CSS class of the components to tamper?",
-      "type": "text",
-      "width": 380,
-      "x": -480,
-      "y": 510
-    },
-    {
-      "height": 270,
-      "id": "bcf5416e82a3c040",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "We are looking for:\n- a CSS class, used multiple times, usually in DOM objects that are siblings\n- These DOM objects are very similar to each other, except that some of them have a little more detail (the \"badge\" of premium content)",
-      "type": "text",
-      "width": 520,
-      "x": -480,
-      "y": 610
-    },
-    {
       "height": 690,
       "id": "757de017f4042eb6",
       "styleAttributes": {
@@ -138,20 +88,6 @@
       "width": 260,
       "x": -1810,
       "y": 610
-    },
-    {
-      "height": 80,
-      "id": "55f641382d2fb79c",
-      "styleAttributes": {
-        "border": null,
-        "shape": null,
-        "textAlign": null
-      },
-      "text": "No need to use browser extensions!",
-      "type": "text",
-      "width": 380,
-      "x": 200,
-      "y": 250
     },
     {
       "height": 60,
@@ -229,6 +165,70 @@
       "width": 660,
       "x": -480,
       "y": -131
+    },
+    {
+      "height": 100,
+      "id": "3c173640d8604c65",
+      "styleAttributes": {
+        "border": null,
+        "textAlign": null
+      },
+      "text": "Interesting discovery regarding *scoped CSS* code and its impact on the ability to reverse engineer components",
+      "type": "text",
+      "width": 650,
+      "x": -480,
+      "y": 240
+    },
+    {
+      "height": 60,
+      "id": "60908c2753e2cfd9",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "## Challenges",
+      "type": "text",
+      "width": 260,
+      "x": -480,
+      "y": 450
+    },
+    {
+      "height": 100,
+      "id": "ee435ba353947c3a",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "How to automatically find the CSS class of the components to tamper?",
+      "type": "text",
+      "width": 380,
+      "x": -480,
+      "y": 510
+    },
+    {
+      "height": 270,
+      "id": "bcf5416e82a3c040",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "We are looking for:\n- a CSS class, used multiple times, usually in DOM objects that are siblings\n- These DOM objects are very similar to each other, except that some of them have a little more detail (the \"badge\" of premium content)",
+      "type": "text",
+      "width": 520,
+      "x": -480,
+      "y": 610
+    },
+    {
+      "height": 80,
+      "id": "55f641382d2fb79c",
+      "styleAttributes": {
+        "border": null,
+        "shape": null,
+        "textAlign": null
+      },
+      "text": "No need to use browser extensions!",
+      "type": "text",
+      "width": 380,
+      "x": 200,
+      "y": 250
     },
     {
       "file": "97 Assets/scoped_css_as_component_identifier_js.png",

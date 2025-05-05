@@ -1,11 +1,72 @@
 {
-	"nodes":[
-		{"id":"1f5d8a8ea3328fac","x":-520,"y":-80,"width":1160,"height":180,"type":"group","label":"Task 2"},
-		{"id":"a05ac4459fcee1ce","x":-520,"y":-320,"width":1160,"height":170,"type":"group","label":"Task 1"},
-		{"id":"38d56c2637a055d9","type":"text","text":"- new headers to identify SRL papers","x":70,"y":-300,"width":550,"height":130},
-		{"id":"051efd37517f7523","type":"text","text":"# Drafting SLR on OverLeaf","x":-500,"y":-60,"width":520,"height":140},
-		{"id":"7ec381259f9e2831","type":"text","text":"# Refactored Obsidian KMS","x":-500,"y":-300,"width":520,"height":130},
-		{"id":"41aeb25d18bec57a","type":"text","text":"- created templates\n- drafting introduction and methods","x":70,"y":-60,"width":550,"height":140}
-	],
-	"edges":[]
+  "edges": [
+  ],
+  "nodes": [
+    {
+      "height": 180,
+      "id": "1f5d8a8ea3328fac",
+      "label": "Task 2",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1160,
+      "x": -520,
+      "y": -80
+    },
+    {
+      "height": 170,
+      "id": "a05ac4459fcee1ce",
+      "label": "Task 1",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1160,
+      "x": -520,
+      "y": -320
+    },
+    {
+      "height": 130,
+      "id": "38d56c2637a055d9",
+      "styleAttributes": {
+      },
+      "text": "- new headers to identify SRL papers",
+      "type": "text",
+      "width": 550,
+      "x": 70,
+      "y": -300
+    },
+    {
+      "height": 140,
+      "id": "051efd37517f7523",
+      "styleAttributes": {
+      },
+      "text": "# Drafting SLR on OverLeaf",
+      "type": "text",
+      "width": 520,
+      "x": -500,
+      "y": -60
+    },
+    {
+      "height": 130,
+      "id": "7ec381259f9e2831",
+      "styleAttributes": {
+      },
+      "text": "# Refactored Obsidian KMS",
+      "type": "text",
+      "width": 520,
+      "x": -500,
+      "y": -300
+    },
+    {
+      "height": 140,
+      "id": "41aeb25d18bec57a",
+      "styleAttributes": {
+      },
+      "text": "- created templates\n- drafting introduction and methods",
+      "type": "text",
+      "width": 550,
+      "x": 70,
+      "y": -60
+    }
+  ]
 }

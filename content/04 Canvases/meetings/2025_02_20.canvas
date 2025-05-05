@@ -1,77 +1,674 @@
 {
-	"nodes":[
-		{"id":"78c8e3482f006f12","type":"text","text":"# [[SLR (systematic literature review)]] design\n\n  ","x":-720,"y":670,"width":800,"height":250},
-		{"id":"ccc1e648f5956107","type":"text","text":"# Canva.com tampering","x":5990,"y":102,"width":460,"height":98},
-		{"id":"27165234050e0506","type":"text","text":"### can damage the company business","x":5560,"y":556,"width":540,"height":80},
-		{"id":"dfb302f224375f00","type":"text","text":"- **Template Creators**: They focus on designing and selling templates for different purposes such as presentations, social media, and more.\n- **Element Creators**: They create and sell individual design elements that can be used in Canva designs.\n- **Education Specialty Creators**: They specialize in creating educational resources and templates for teachers and students.","x":4900,"y":705,"width":590,"height":318},
-		{"id":"c400d2f318eb59b8","type":"text","text":"### can damage content creators","x":4960,"y":556,"width":470,"height":80},
-		{"id":"b367912423545a00","type":"text","text":"## How","x":6930,"y":370,"width":180,"height":60},
-		{"id":"b74ebcea77960e5f","type":"text","text":"Get the `id` of a React component from its DOM element wrapper:\n`const id = rendererInterface.getElementIDForHostInstance(DOMel)`","x":6450,"y":715,"width":1140,"height":120},
-		{"id":"6c4198f4398abbc6","type":"text","text":"Given the `id`, it is possible to access the `props`:\n`const props = rendererInterface.getElementAttributeByPath(id, [\"props\"]);`","x":6450,"y":895,"width":1140,"height":140},
-		{"id":"decebce51502ef59","type":"text","text":"Modify the props as it is needed:\n`props.result.template.Az = \"none\";`\n","x":6450,"y":1075,"width":1140,"height":128},
-		{"id":"8d61f6d3e77d5147","type":"text","text":"Confirm the update with an override method:\n`rendererInterface.overrideValueAtPath( {id, path: [\"props\", \"result\", \"template\", \"Az\"], value: \"none\", hookID: null} );``","x":6450,"y":1245,"width":1140,"height":160},
-		{"id":"117e7fb562b4dcbb","type":"text","text":"- Now the state of the component has been changed successfully, but the current state that is being used is not changed in real time\n- The component ==must be unmounted and remounted==\n- There are no built-in methods to force this re-rendering behavior, but since we are dealing with DOM elements inside a tab, ==closing and reopening the tab will make the update happen==","x":6450,"y":1455,"width":1140,"height":260},
-		{"id":"fbdb7a89e3c36cab","type":"text","text":"It is possible to edit the components state of a React application in production, with a TamperMonkey script","x":6780,"y":1755,"width":480,"height":140,"color":"4"},
-		{"id":"afd045899704cd3d","type":"text","text":"Access the React renderer interface object with:\n `const globalHook = window.__REACT_DEVTOOLS_GLOBAL_HOOK__?.rendererInterfaces?.get(1);`","x":6450,"y":555,"width":1140,"height":110},
-		{"id":"e377bf3b3d944cbe","type":"text","text":"## Who\n","x":5430,"y":370,"width":160,"height":60},
-		{"id":"aa17b1705ef41886","type":"text","text":"**Easter's holidays**\n- from 21st to 25th April holidays\n- from 28th to 2nd of May remote working from Italy","x":8880,"y":578,"width":420,"height":220},
-		{"id":"0c9abad180ed7c04","type":"text","text":"**CSI constitution**\nFinding an external supervisor to complete the CSI constitution","x":8880,"y":844,"width":420,"height":220},
-		{"id":"8325a7e2ed9b25a0","type":"text","text":"Teaching opportunities in September/October","x":8880,"y":1100,"width":420,"height":160},
-		{"id":"eb9ce5b5cf5fad45","type":"text","text":"## Reminders","x":8520,"y":844,"width":273,"height":110},
-		{"id":"96ae0d90888a90bd","type":"file","file":"97 Assets/canva_business_model.png","x":4975,"y":1101,"width":439,"height":289},
-		{"id":"1345da99c0c954ca","type":"text","text":"https://www.canva.com/contributors/","x":4975,"y":1422,"width":440,"height":60},
-		{"id":"1f8977f732655e02","type":"text","text":"https://www.canva.com/creators/","x":4975,"y":1502,"width":440,"height":60},
-		{"id":"5750dcef603a3229","type":"text","text":"### RQ1 \"What\"\n- What are the vulnerabilities that may affect web front-end software?","x":1065,"y":-560,"width":528,"height":180},
-		{"id":"58af246e98bd0d32","type":"text","text":"## Research questions","x":245,"y":-24,"width":442,"height":120},
-		{"id":"9e3eec2931bbb018","type":"text","text":"### RQ2 \"Where\"\n- What is the prevalence of these vulnerabilities?\n- Which issues are more common, and which are less frequent?\n","x":1060,"y":-360,"width":528,"height":240},
-		{"id":"c18f2ddf3484bffb","type":"text","text":"\n### RQ3 \"When\"\n- What is the life cycle of a vulnerability?\n- Has any vulnerability been completely solved?\n- Have new vulnerabilities emerged in this field?","x":1060,"y":-80,"width":528,"height":232},
-		{"id":"1d421055c5316c80","type":"text","text":"\n### RQ4 \"Why\"\n- What harm can these vulnerabilities cause? (=why this topic is relevant)\n- What are the common causes of these vulnerabilities? (=why these vulnerabilities occur)\n","x":1060,"y":180,"width":528,"height":280},
-		{"id":"24902cb4ea3162c3","type":"text","text":"\n### RQ5 \"How\"\n- What techniques, tools or solutions have been proposed so far?\n- What taxonomy have been proposed to frame these vulnerabilities? \n","x":1060,"y":492,"width":528,"height":246},
-		{"id":"82beab9a838c73a9","type":"text","text":"| Database       | Query                                                                                                                                                                                                                                      | Results |\n| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |\n| Google Scholar | Title:<br><br>`allintitle: (\"client\" OR \"ui\" OR \"gui\" OR \"javascript\" OR \"web application\" OR \"web applications\") AND (\"security\" OR \"vulnerability\" OR \"issue\" OR \"tampering\" OR \"exploitation\" OR \"hijack\") -\"mobile\" -\"android\" -\"ios\"` | 212     |","x":1058,"y":920,"width":742,"height":342},
-		{"id":"9a02d9dec8d4616b","type":"text","text":"| IEEE Xplore | Title:<br><br>`((\"Document Title\": \"gui\") OR (\"Document Title\": \"ui\") OR (\"Document Title\": \"client\") OR (\"Document Title\": \"javascript\") OR (\"Document Title\": \"front-end\") OR (\"Document Title\": \"web application\") OR (\"Document Title\": \"web applications\")) AND ((\"Document Title\": \"vulnerability\") OR (\"Document Title\": \"security\")) NOT (\"All Metadata\": \"mobile\") NOT (\"All Metadata\": \"android\") NOT (\"All Metadata\": \"ios\")` | 123 |\n| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |\n","x":1060,"y":1292,"width":740,"height":404},
-		{"id":"212b3a3e4427f2c1","type":"text","text":"## database selection","x":261,"y":1488,"width":438,"height":155},
-		{"id":"849826230445c9bf","type":"text","text":"| ACM DL | Abstract:<br> <br>`(\"client\" OR \"javascript\" OR \"gui\" OR \"ui\" OR \"front-end\" OR \"web application\" OR \"web applications\") AND (\"security\" OR \"vulnerability\" OR \"issue\" OR \"exploitation\" OR \"tampering\" OR \"hijack\") AND NOT \"mobile\" AND NOT \"android\" AND NOT \"ios\"`<br> | 671 |\n| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |\n","x":1060,"y":1736,"width":740,"height":303},
-		{"id":"e5f6c408cadd00d6","type":"text","text":"| ScienceDirect | Title, abstract + metadata, only English, open access:<br><br>`(\"front-end\" OR \"javascript\" OR \"gui\" OR \"ui\" OR \"web application\" OR \"web applications\") AND (\"vulnerability\" OR \"issue\") NOT \"android\" NOT \"ios\" NOT \"mobile\"` | 269 |\n| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |","x":1058,"y":2080,"width":742,"height":280},
-		{"id":"a686d203c9ce1d8a","type":"text","text":"https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=((%22Document%20Title%22:%20%22gui%22)%20OR%20(%22Document%20Title%22:%20%22ui%22)%20OR%20(%22Document%20Title%22:%20%22client%22)%20OR%20(%22Document%20Title%22:%20%22javascript%22)%20OR%20(%22Document%20Title%22:%20%22front-end%22)%20OR%20(%22Document%20Title%22:%20%22web%20application%22)%20OR%20(%22Document%20Title%22:%20%22web%20applications%22))%20AND%20((%22Document%20Title%22:%20%22vulnerability%22)%20OR%20(%22Document%20Title%22:%20%22security%22))%20NOT%20(%22All%20Metadata%22:%20%22mobile%22)%20NOT%20(%22All%20Metadata%22:%20%22android%22)%20NOT%20(%22All%20Metadata%22:%20%22ios%22)&highlight=true&returnFacets=ALL&returnType=SEARCH&matchPubs=true&ranges=2020_2025_Year","x":1900,"y":1414,"width":435,"height":160},
-		{"id":"fd831030cadea49f","type":"text","text":"https://dl.acm.org/action/doSearch?fillQuickSearch=false&target=advanced&expand=dl&AfterYear=2020&BeforeYear=2025&AllField=Abstract%3A%28%28%22client%22+OR+%22javascript%22+OR+%22gui%22+OR+%22ui%22+OR+%22front-end%22+OR+%22web+application%22+OR+%22web+applications%22%29+AND+%28%22security%22+OR+%22vulnerability%22+OR+%22issue%22+OR+%22exploitation%22+OR+%22tampering%22+OR+%22hijack%22%29+AND+NOT+%22mobile%22+AND+NOT+%22android%22+AND+NOT+%22ios%22%29","x":1900,"y":1808,"width":440,"height":160},
-		{"id":"e57d6a0be22d5a46","type":"text","text":"https://www.sciencedirect.com/search?date=2020-2025&tak=%28%22front-end%22%20OR%20%22javascript%22%20OR%20%22ui%22%20OR%20%22web%20application%22%29%20AND%20%28%22vulnerability%22%20OR%20%22issue%22%20OR%20%22security%22%29%20NOT%20%22ios%22%20NOT%20%22android%22&langs=en&lastSelectedFacet=accessTypes&accessTypes=openaccess","x":1905,"y":2141,"width":435,"height":160},
-		{"id":"5a3cd8bf083a701c","type":"text","text":"https://scholar.google.com/scholar?as_vis=1&q=allintitle:+(%22client%22+OR+%22ui%22+OR+%22gui%22+OR+%22javascript%22+OR+%22web+application%22+OR+%22web+applications%22)+AND+(%22security%22+OR+%22vulnerability%22+OR+%22issue%22+OR+%22tampering%22+OR+%22exploitation%22+OR+%22hijack%22)+-%22mobile%22+-%22android%22+-%22ios%22&hl=it&as_sdt=0,5&as_ylo=2020&as_yhi=2025","x":1895,"y":990,"width":440,"height":202},
-		{"id":"689a082d7dbab610","type":"text","text":"Stefano Zacchieroli paritelecom software heritage","x":9340,"y":899,"width":540,"height":76},
-		{"id":"bfa363f585963b68","type":"text","text":"reduce the scope, focus only on client-side vulnerabilities, no mobile, no web server","x":3220,"y":1410,"width":360,"height":152},
-		{"id":"cd2cc8f7333fe022","type":"text","text":"Depends on the database:\n- with some of them you can download a batch of papers\n- with other you can use a combination of API to automatically download from sci-hub papers based on a list of DOIs","x":3220,"y":1591,"width":360,"height":339},
-		{"id":"6215d611ad4876aa","type":"text","text":"How to reduce the total number?","x":2720,"y":1425,"width":360,"height":121,"color":"3"},
-		{"id":"30ccbb62d757428c","type":"text","text":"How to automatically get all the PDFs to avoid manual work?","x":2720,"y":1703,"width":360,"height":115,"color":"3"},
-		{"id":"08864c2162c311e0","type":"text","text":"# Questions ⚠️","x":2720,"y":1243,"width":860,"height":99}
-	],
-	"edges":[
-		{"id":"ef927b7e12c651af","fromNode":"afd045899704cd3d","fromSide":"bottom","toNode":"b74ebcea77960e5f","toSide":"top"},
-		{"id":"85dc4f719a441bbe","fromNode":"b74ebcea77960e5f","fromSide":"bottom","toNode":"6c4198f4398abbc6","toSide":"top"},
-		{"id":"6270f2a3404faf91","fromNode":"6c4198f4398abbc6","fromSide":"bottom","toNode":"decebce51502ef59","toSide":"top"},
-		{"id":"98cbd1d07099a654","fromNode":"decebce51502ef59","fromSide":"bottom","toNode":"8d61f6d3e77d5147","toSide":"top"},
-		{"id":"cd59184408f33f28","fromNode":"8d61f6d3e77d5147","fromSide":"bottom","toNode":"117e7fb562b4dcbb","toSide":"top"},
-		{"id":"f4a459a6b95b44db","fromNode":"117e7fb562b4dcbb","fromSide":"bottom","toNode":"fbdb7a89e3c36cab","toSide":"top"},
-		{"id":"74baf100b84a0df1","fromNode":"58af246e98bd0d32","fromSide":"right","toNode":"5750dcef603a3229","toSide":"left"},
-		{"id":"443284e5339d11c3","fromNode":"78c8e3482f006f12","fromSide":"right","toNode":"58af246e98bd0d32","toSide":"left"},
-		{"id":"7bdeffba9975100d","fromNode":"78c8e3482f006f12","fromSide":"right","toNode":"212b3a3e4427f2c1","toSide":"left"},
-		{"id":"362083bcb09d8306","fromNode":"212b3a3e4427f2c1","fromSide":"right","toNode":"82beab9a838c73a9","toSide":"left"},
-		{"id":"922a1e099c26e9e5","fromNode":"212b3a3e4427f2c1","fromSide":"right","toNode":"9a02d9dec8d4616b","toSide":"left"},
-		{"id":"2884faaa1451942b","fromNode":"212b3a3e4427f2c1","fromSide":"right","toNode":"849826230445c9bf","toSide":"left"},
-		{"id":"18c466b41a1a6db2","fromNode":"212b3a3e4427f2c1","fromSide":"right","toNode":"e5f6c408cadd00d6","toSide":"left"},
-		{"id":"9ef303b1b777fa13","fromNode":"82beab9a838c73a9","fromSide":"right","toNode":"5a3cd8bf083a701c","toSide":"left"},
-		{"id":"f726704011f5a79a","fromNode":"e5f6c408cadd00d6","fromSide":"right","toNode":"e57d6a0be22d5a46","toSide":"left"},
-		{"id":"59e3173990a2451f","fromNode":"58af246e98bd0d32","fromSide":"right","toNode":"9e3eec2931bbb018","toSide":"left"},
-		{"id":"3ba78b17027961b5","fromNode":"58af246e98bd0d32","fromSide":"right","toNode":"c18f2ddf3484bffb","toSide":"left"},
-		{"id":"a661126c65018bf7","fromNode":"58af246e98bd0d32","fromSide":"right","toNode":"1d421055c5316c80","toSide":"left"},
-		{"id":"f5633cd11b76209a","fromNode":"58af246e98bd0d32","fromSide":"right","toNode":"24902cb4ea3162c3","toSide":"left"},
-		{"id":"13d588313302e001","fromNode":"c400d2f318eb59b8","fromSide":"bottom","toNode":"dfb302f224375f00","toSide":"top"},
-		{"id":"901afaa861fcf90d","fromNode":"b367912423545a00","fromSide":"bottom","toNode":"afd045899704cd3d","toSide":"top"},
-		{"id":"8b1dd4b645191b1c","fromNode":"ccc1e648f5956107","fromSide":"bottom","toNode":"b367912423545a00","toSide":"top"},
-		{"id":"bb0e81353441e4fb","fromNode":"ccc1e648f5956107","fromSide":"bottom","toNode":"e377bf3b3d944cbe","toSide":"top"},
-		{"id":"3897dc544906f64d","fromNode":"e377bf3b3d944cbe","fromSide":"bottom","toNode":"c400d2f318eb59b8","toSide":"top"},
-		{"id":"fb1ef52e44826153","fromNode":"e377bf3b3d944cbe","fromSide":"bottom","toNode":"27165234050e0506","toSide":"top"},
-		{"id":"f271d86eb2b4dddb","fromNode":"9a02d9dec8d4616b","fromSide":"right","toNode":"a686d203c9ce1d8a","toSide":"left"},
-		{"id":"c7e1cacd0351cee0","fromNode":"849826230445c9bf","fromSide":"right","toNode":"fd831030cadea49f","toSide":"left"},
-		{"id":"92131ed91c60764a","fromNode":"6215d611ad4876aa","fromSide":"right","toNode":"bfa363f585963b68","toSide":"left"},
-		{"id":"e3b08a5b4dd477e2","fromNode":"30ccbb62d757428c","fromSide":"right","toNode":"cd2cc8f7333fe022","toSide":"left"}
-	]
+  "edges": [
+    {
+      "fromNode": "afd045899704cd3d",
+      "fromSide": "bottom",
+      "id": "ef927b7e12c651af",
+      "toNode": "b74ebcea77960e5f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b74ebcea77960e5f",
+      "fromSide": "bottom",
+      "id": "85dc4f719a441bbe",
+      "toNode": "6c4198f4398abbc6",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "6c4198f4398abbc6",
+      "fromSide": "bottom",
+      "id": "6270f2a3404faf91",
+      "toNode": "decebce51502ef59",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "decebce51502ef59",
+      "fromSide": "bottom",
+      "id": "98cbd1d07099a654",
+      "toNode": "8d61f6d3e77d5147",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "8d61f6d3e77d5147",
+      "fromSide": "bottom",
+      "id": "cd59184408f33f28",
+      "toNode": "117e7fb562b4dcbb",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "117e7fb562b4dcbb",
+      "fromSide": "bottom",
+      "id": "f4a459a6b95b44db",
+      "toNode": "fbdb7a89e3c36cab",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "58af246e98bd0d32",
+      "fromSide": "right",
+      "id": "74baf100b84a0df1",
+      "toNode": "5750dcef603a3229",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "78c8e3482f006f12",
+      "fromSide": "right",
+      "id": "443284e5339d11c3",
+      "toNode": "58af246e98bd0d32",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "78c8e3482f006f12",
+      "fromSide": "right",
+      "id": "7bdeffba9975100d",
+      "toNode": "212b3a3e4427f2c1",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "212b3a3e4427f2c1",
+      "fromSide": "right",
+      "id": "362083bcb09d8306",
+      "toNode": "82beab9a838c73a9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "212b3a3e4427f2c1",
+      "fromSide": "right",
+      "id": "922a1e099c26e9e5",
+      "toNode": "9a02d9dec8d4616b",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "212b3a3e4427f2c1",
+      "fromSide": "right",
+      "id": "2884faaa1451942b",
+      "toNode": "849826230445c9bf",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "212b3a3e4427f2c1",
+      "fromSide": "right",
+      "id": "18c466b41a1a6db2",
+      "toNode": "e5f6c408cadd00d6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "82beab9a838c73a9",
+      "fromSide": "right",
+      "id": "9ef303b1b777fa13",
+      "toNode": "5a3cd8bf083a701c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "e5f6c408cadd00d6",
+      "fromSide": "right",
+      "id": "f726704011f5a79a",
+      "toNode": "e57d6a0be22d5a46",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "58af246e98bd0d32",
+      "fromSide": "right",
+      "id": "59e3173990a2451f",
+      "toNode": "9e3eec2931bbb018",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "58af246e98bd0d32",
+      "fromSide": "right",
+      "id": "3ba78b17027961b5",
+      "toNode": "c18f2ddf3484bffb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "58af246e98bd0d32",
+      "fromSide": "right",
+      "id": "a661126c65018bf7",
+      "toNode": "1d421055c5316c80",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "58af246e98bd0d32",
+      "fromSide": "right",
+      "id": "f5633cd11b76209a",
+      "toNode": "24902cb4ea3162c3",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "c400d2f318eb59b8",
+      "fromSide": "bottom",
+      "id": "13d588313302e001",
+      "toNode": "dfb302f224375f00",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "b367912423545a00",
+      "fromSide": "bottom",
+      "id": "901afaa861fcf90d",
+      "toNode": "afd045899704cd3d",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "ccc1e648f5956107",
+      "fromSide": "bottom",
+      "id": "8b1dd4b645191b1c",
+      "toNode": "b367912423545a00",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "ccc1e648f5956107",
+      "fromSide": "bottom",
+      "id": "bb0e81353441e4fb",
+      "toNode": "e377bf3b3d944cbe",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "e377bf3b3d944cbe",
+      "fromSide": "bottom",
+      "id": "3897dc544906f64d",
+      "toNode": "c400d2f318eb59b8",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "e377bf3b3d944cbe",
+      "fromSide": "bottom",
+      "id": "fb1ef52e44826153",
+      "toNode": "27165234050e0506",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9a02d9dec8d4616b",
+      "fromSide": "right",
+      "id": "f271d86eb2b4dddb",
+      "toNode": "a686d203c9ce1d8a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "849826230445c9bf",
+      "fromSide": "right",
+      "id": "c7e1cacd0351cee0",
+      "toNode": "fd831030cadea49f",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6215d611ad4876aa",
+      "fromSide": "right",
+      "id": "92131ed91c60764a",
+      "toNode": "bfa363f585963b68",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "30ccbb62d757428c",
+      "fromSide": "right",
+      "id": "e3b08a5b4dd477e2",
+      "toNode": "cd2cc8f7333fe022",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 250,
+      "id": "78c8e3482f006f12",
+      "styleAttributes": {
+      },
+      "text": "# [[SLR (systematic literature review)]] design\n\n  ",
+      "type": "text",
+      "width": 800,
+      "x": -720,
+      "y": 670
+    },
+    {
+      "height": 98,
+      "id": "ccc1e648f5956107",
+      "styleAttributes": {
+      },
+      "text": "# Canva.com tampering",
+      "type": "text",
+      "width": 460,
+      "x": 5990,
+      "y": 102
+    },
+    {
+      "height": 80,
+      "id": "27165234050e0506",
+      "styleAttributes": {
+      },
+      "text": "### can damage the company business",
+      "type": "text",
+      "width": 540,
+      "x": 5560,
+      "y": 556
+    },
+    {
+      "height": 318,
+      "id": "dfb302f224375f00",
+      "styleAttributes": {
+      },
+      "text": "- **Template Creators**: They focus on designing and selling templates for different purposes such as presentations, social media, and more.\n- **Element Creators**: They create and sell individual design elements that can be used in Canva designs.\n- **Education Specialty Creators**: They specialize in creating educational resources and templates for teachers and students.",
+      "type": "text",
+      "width": 590,
+      "x": 4900,
+      "y": 705
+    },
+    {
+      "height": 80,
+      "id": "c400d2f318eb59b8",
+      "styleAttributes": {
+      },
+      "text": "### can damage content creators",
+      "type": "text",
+      "width": 470,
+      "x": 4960,
+      "y": 556
+    },
+    {
+      "height": 60,
+      "id": "b367912423545a00",
+      "styleAttributes": {
+      },
+      "text": "## How",
+      "type": "text",
+      "width": 180,
+      "x": 6930,
+      "y": 370
+    },
+    {
+      "height": 120,
+      "id": "b74ebcea77960e5f",
+      "styleAttributes": {
+      },
+      "text": "Get the `id` of a React component from its DOM element wrapper:\n`const id = rendererInterface.getElementIDForHostInstance(DOMel)`",
+      "type": "text",
+      "width": 1140,
+      "x": 6450,
+      "y": 715
+    },
+    {
+      "height": 140,
+      "id": "6c4198f4398abbc6",
+      "styleAttributes": {
+      },
+      "text": "Given the `id`, it is possible to access the `props`:\n`const props = rendererInterface.getElementAttributeByPath(id, [\"props\"]);`",
+      "type": "text",
+      "width": 1140,
+      "x": 6450,
+      "y": 895
+    },
+    {
+      "height": 128,
+      "id": "decebce51502ef59",
+      "styleAttributes": {
+      },
+      "text": "Modify the props as it is needed:\n`props.result.template.Az = \"none\";`\n",
+      "type": "text",
+      "width": 1140,
+      "x": 6450,
+      "y": 1075
+    },
+    {
+      "height": 160,
+      "id": "8d61f6d3e77d5147",
+      "styleAttributes": {
+      },
+      "text": "Confirm the update with an override method:\n`rendererInterface.overrideValueAtPath( {id, path: [\"props\", \"result\", \"template\", \"Az\"], value: \"none\", hookID: null} );``",
+      "type": "text",
+      "width": 1140,
+      "x": 6450,
+      "y": 1245
+    },
+    {
+      "height": 260,
+      "id": "117e7fb562b4dcbb",
+      "styleAttributes": {
+      },
+      "text": "- Now the state of the component has been changed successfully, but the current state that is being used is not changed in real time\n- The component ==must be unmounted and remounted==\n- There are no built-in methods to force this re-rendering behavior, but since we are dealing with DOM elements inside a tab, ==closing and reopening the tab will make the update happen==",
+      "type": "text",
+      "width": 1140,
+      "x": 6450,
+      "y": 1455
+    },
+    {
+      "color": "4",
+      "height": 140,
+      "id": "fbdb7a89e3c36cab",
+      "styleAttributes": {
+      },
+      "text": "It is possible to edit the components state of a React application in production, with a TamperMonkey script",
+      "type": "text",
+      "width": 480,
+      "x": 6780,
+      "y": 1755
+    },
+    {
+      "height": 110,
+      "id": "afd045899704cd3d",
+      "styleAttributes": {
+      },
+      "text": "Access the React renderer interface object with:\n `const globalHook = window.__REACT_DEVTOOLS_GLOBAL_HOOK__?.rendererInterfaces?.get(1);`",
+      "type": "text",
+      "width": 1140,
+      "x": 6450,
+      "y": 555
+    },
+    {
+      "height": 60,
+      "id": "e377bf3b3d944cbe",
+      "styleAttributes": {
+      },
+      "text": "## Who\n",
+      "type": "text",
+      "width": 160,
+      "x": 5430,
+      "y": 370
+    },
+    {
+      "height": 220,
+      "id": "aa17b1705ef41886",
+      "styleAttributes": {
+      },
+      "text": "**Easter's holidays**\n- from 21st to 25th April holidays\n- from 28th to 2nd of May remote working from Italy",
+      "type": "text",
+      "width": 420,
+      "x": 8880,
+      "y": 578
+    },
+    {
+      "height": 220,
+      "id": "0c9abad180ed7c04",
+      "styleAttributes": {
+      },
+      "text": "**CSI constitution**\nFinding an external supervisor to complete the CSI constitution",
+      "type": "text",
+      "width": 420,
+      "x": 8880,
+      "y": 844
+    },
+    {
+      "height": 160,
+      "id": "8325a7e2ed9b25a0",
+      "styleAttributes": {
+      },
+      "text": "Teaching opportunities in September/October",
+      "type": "text",
+      "width": 420,
+      "x": 8880,
+      "y": 1100
+    },
+    {
+      "height": 110,
+      "id": "eb9ce5b5cf5fad45",
+      "styleAttributes": {
+      },
+      "text": "## Reminders",
+      "type": "text",
+      "width": 273,
+      "x": 8520,
+      "y": 844
+    },
+    {
+      "file": "97 Assets/canva_business_model.png",
+      "height": 289,
+      "id": "96ae0d90888a90bd",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 439,
+      "x": 4975,
+      "y": 1101
+    },
+    {
+      "height": 60,
+      "id": "1345da99c0c954ca",
+      "styleAttributes": {
+      },
+      "text": "https://www.canva.com/contributors/",
+      "type": "text",
+      "width": 440,
+      "x": 4975,
+      "y": 1422
+    },
+    {
+      "height": 60,
+      "id": "1f8977f732655e02",
+      "styleAttributes": {
+      },
+      "text": "https://www.canva.com/creators/",
+      "type": "text",
+      "width": 440,
+      "x": 4975,
+      "y": 1502
+    },
+    {
+      "height": 180,
+      "id": "5750dcef603a3229",
+      "styleAttributes": {
+      },
+      "text": "### RQ1 \"What\"\n- What are the vulnerabilities that may affect web front-end software?",
+      "type": "text",
+      "width": 528,
+      "x": 1065,
+      "y": -560
+    },
+    {
+      "height": 120,
+      "id": "58af246e98bd0d32",
+      "styleAttributes": {
+      },
+      "text": "## Research questions",
+      "type": "text",
+      "width": 442,
+      "x": 245,
+      "y": -24
+    },
+    {
+      "height": 240,
+      "id": "9e3eec2931bbb018",
+      "styleAttributes": {
+      },
+      "text": "### RQ2 \"Where\"\n- What is the prevalence of these vulnerabilities?\n- Which issues are more common, and which are less frequent?\n",
+      "type": "text",
+      "width": 528,
+      "x": 1060,
+      "y": -360
+    },
+    {
+      "height": 232,
+      "id": "c18f2ddf3484bffb",
+      "styleAttributes": {
+      },
+      "text": "\n### RQ3 \"When\"\n- What is the life cycle of a vulnerability?\n- Has any vulnerability been completely solved?\n- Have new vulnerabilities emerged in this field?",
+      "type": "text",
+      "width": 528,
+      "x": 1060,
+      "y": -80
+    },
+    {
+      "height": 280,
+      "id": "1d421055c5316c80",
+      "styleAttributes": {
+      },
+      "text": "\n### RQ4 \"Why\"\n- What harm can these vulnerabilities cause? (=why this topic is relevant)\n- What are the common causes of these vulnerabilities? (=why these vulnerabilities occur)\n",
+      "type": "text",
+      "width": 528,
+      "x": 1060,
+      "y": 180
+    },
+    {
+      "height": 246,
+      "id": "24902cb4ea3162c3",
+      "styleAttributes": {
+      },
+      "text": "\n### RQ5 \"How\"\n- What techniques, tools or solutions have been proposed so far?\n- What taxonomy have been proposed to frame these vulnerabilities? \n",
+      "type": "text",
+      "width": 528,
+      "x": 1060,
+      "y": 492
+    },
+    {
+      "height": 342,
+      "id": "82beab9a838c73a9",
+      "styleAttributes": {
+      },
+      "text": "| Database       | Query                                                                                                                                                                                                                                      | Results |\n| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- |\n| Google Scholar | Title:<br><br>`allintitle: (\"client\" OR \"ui\" OR \"gui\" OR \"javascript\" OR \"web application\" OR \"web applications\") AND (\"security\" OR \"vulnerability\" OR \"issue\" OR \"tampering\" OR \"exploitation\" OR \"hijack\") -\"mobile\" -\"android\" -\"ios\"` | 212     |",
+      "type": "text",
+      "width": 742,
+      "x": 1058,
+      "y": 920
+    },
+    {
+      "height": 404,
+      "id": "9a02d9dec8d4616b",
+      "styleAttributes": {
+      },
+      "text": "| IEEE Xplore | Title:<br><br>`((\"Document Title\": \"gui\") OR (\"Document Title\": \"ui\") OR (\"Document Title\": \"client\") OR (\"Document Title\": \"javascript\") OR (\"Document Title\": \"front-end\") OR (\"Document Title\": \"web application\") OR (\"Document Title\": \"web applications\")) AND ((\"Document Title\": \"vulnerability\") OR (\"Document Title\": \"security\")) NOT (\"All Metadata\": \"mobile\") NOT (\"All Metadata\": \"android\") NOT (\"All Metadata\": \"ios\")` | 123 |\n| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |\n",
+      "type": "text",
+      "width": 740,
+      "x": 1060,
+      "y": 1292
+    },
+    {
+      "height": 155,
+      "id": "212b3a3e4427f2c1",
+      "styleAttributes": {
+      },
+      "text": "## database selection",
+      "type": "text",
+      "width": 438,
+      "x": 261,
+      "y": 1488
+    },
+    {
+      "height": 303,
+      "id": "849826230445c9bf",
+      "styleAttributes": {
+      },
+      "text": "| ACM DL | Abstract:<br> <br>`(\"client\" OR \"javascript\" OR \"gui\" OR \"ui\" OR \"front-end\" OR \"web application\" OR \"web applications\") AND (\"security\" OR \"vulnerability\" OR \"issue\" OR \"exploitation\" OR \"tampering\" OR \"hijack\") AND NOT \"mobile\" AND NOT \"android\" AND NOT \"ios\"`<br> | 671 |\n| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |\n",
+      "type": "text",
+      "width": 740,
+      "x": 1060,
+      "y": 1736
+    },
+    {
+      "height": 280,
+      "id": "e5f6c408cadd00d6",
+      "styleAttributes": {
+      },
+      "text": "| ScienceDirect | Title, abstract + metadata, only English, open access:<br><br>`(\"front-end\" OR \"javascript\" OR \"gui\" OR \"ui\" OR \"web application\" OR \"web applications\") AND (\"vulnerability\" OR \"issue\") NOT \"android\" NOT \"ios\" NOT \"mobile\"` | 269 |\n| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |",
+      "type": "text",
+      "width": 742,
+      "x": 1058,
+      "y": 2080
+    },
+    {
+      "height": 160,
+      "id": "a686d203c9ce1d8a",
+      "styleAttributes": {
+      },
+      "text": "https://ieeexplore.ieee.org/search/searchresult.jsp?queryText=((%22Document%20Title%22:%20%22gui%22)%20OR%20(%22Document%20Title%22:%20%22ui%22)%20OR%20(%22Document%20Title%22:%20%22client%22)%20OR%20(%22Document%20Title%22:%20%22javascript%22)%20OR%20(%22Document%20Title%22:%20%22front-end%22)%20OR%20(%22Document%20Title%22:%20%22web%20application%22)%20OR%20(%22Document%20Title%22:%20%22web%20applications%22))%20AND%20((%22Document%20Title%22:%20%22vulnerability%22)%20OR%20(%22Document%20Title%22:%20%22security%22))%20NOT%20(%22All%20Metadata%22:%20%22mobile%22)%20NOT%20(%22All%20Metadata%22:%20%22android%22)%20NOT%20(%22All%20Metadata%22:%20%22ios%22)&highlight=true&returnFacets=ALL&returnType=SEARCH&matchPubs=true&ranges=2020_2025_Year",
+      "type": "text",
+      "width": 435,
+      "x": 1900,
+      "y": 1414
+    },
+    {
+      "height": 160,
+      "id": "fd831030cadea49f",
+      "styleAttributes": {
+      },
+      "text": "https://dl.acm.org/action/doSearch?fillQuickSearch=false&target=advanced&expand=dl&AfterYear=2020&BeforeYear=2025&AllField=Abstract%3A%28%28%22client%22+OR+%22javascript%22+OR+%22gui%22+OR+%22ui%22+OR+%22front-end%22+OR+%22web+application%22+OR+%22web+applications%22%29+AND+%28%22security%22+OR+%22vulnerability%22+OR+%22issue%22+OR+%22exploitation%22+OR+%22tampering%22+OR+%22hijack%22%29+AND+NOT+%22mobile%22+AND+NOT+%22android%22+AND+NOT+%22ios%22%29",
+      "type": "text",
+      "width": 440,
+      "x": 1900,
+      "y": 1808
+    },
+    {
+      "height": 160,
+      "id": "e57d6a0be22d5a46",
+      "styleAttributes": {
+      },
+      "text": "https://www.sciencedirect.com/search?date=2020-2025&tak=%28%22front-end%22%20OR%20%22javascript%22%20OR%20%22ui%22%20OR%20%22web%20application%22%29%20AND%20%28%22vulnerability%22%20OR%20%22issue%22%20OR%20%22security%22%29%20NOT%20%22ios%22%20NOT%20%22android%22&langs=en&lastSelectedFacet=accessTypes&accessTypes=openaccess",
+      "type": "text",
+      "width": 435,
+      "x": 1905,
+      "y": 2141
+    },
+    {
+      "height": 202,
+      "id": "5a3cd8bf083a701c",
+      "styleAttributes": {
+      },
+      "text": "https://scholar.google.com/scholar?as_vis=1&q=allintitle:+(%22client%22+OR+%22ui%22+OR+%22gui%22+OR+%22javascript%22+OR+%22web+application%22+OR+%22web+applications%22)+AND+(%22security%22+OR+%22vulnerability%22+OR+%22issue%22+OR+%22tampering%22+OR+%22exploitation%22+OR+%22hijack%22)+-%22mobile%22+-%22android%22+-%22ios%22&hl=it&as_sdt=0,5&as_ylo=2020&as_yhi=2025",
+      "type": "text",
+      "width": 440,
+      "x": 1895,
+      "y": 990
+    },
+    {
+      "height": 76,
+      "id": "689a082d7dbab610",
+      "styleAttributes": {
+      },
+      "text": "Stefano Zacchieroli paritelecom software heritage",
+      "type": "text",
+      "width": 540,
+      "x": 9340,
+      "y": 899
+    },
+    {
+      "height": 152,
+      "id": "bfa363f585963b68",
+      "styleAttributes": {
+      },
+      "text": "reduce the scope, focus only on client-side vulnerabilities, no mobile, no web server",
+      "type": "text",
+      "width": 360,
+      "x": 3220,
+      "y": 1410
+    },
+    {
+      "height": 339,
+      "id": "cd2cc8f7333fe022",
+      "styleAttributes": {
+      },
+      "text": "Depends on the database:\n- with some of them you can download a batch of papers\n- with other you can use a combination of API to automatically download from sci-hub papers based on a list of DOIs",
+      "type": "text",
+      "width": 360,
+      "x": 3220,
+      "y": 1591
+    },
+    {
+      "color": "3",
+      "height": 121,
+      "id": "6215d611ad4876aa",
+      "styleAttributes": {
+      },
+      "text": "How to reduce the total number?",
+      "type": "text",
+      "width": 360,
+      "x": 2720,
+      "y": 1425
+    },
+    {
+      "color": "3",
+      "height": 115,
+      "id": "30ccbb62d757428c",
+      "styleAttributes": {
+      },
+      "text": "How to automatically get all the PDFs to avoid manual work?",
+      "type": "text",
+      "width": 360,
+      "x": 2720,
+      "y": 1703
+    },
+    {
+      "height": 99,
+      "id": "08864c2162c311e0",
+      "styleAttributes": {
+      },
+      "text": "# Questions ⚠️",
+      "type": "text",
+      "width": 860,
+      "x": 2720,
+      "y": 1243
+    }
+  ]
 }

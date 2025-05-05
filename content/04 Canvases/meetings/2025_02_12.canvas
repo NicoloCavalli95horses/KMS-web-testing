@@ -1,53 +1,451 @@
 {
-	"nodes":[
-		{"id":"f713ecb6ae4e831a","type":"group","x":2920,"y":80,"width":320,"height":190,"label":"Legend"},
-		{"id":"a794123e940de436","type":"text","text":"Cypress","x":2360,"y":-460,"width":250,"height":60},
-		{"id":"83947823c40989f9","type":"text","text":"BLOCKING PHASES","x":2940,"y":100,"width":280,"height":60,"color":"1"},
-		{"id":"9107fc6c47683357","type":"text","text":"INTERESTING RESULTS","x":2940,"y":190,"width":280,"height":60,"color":"4"},
-		{"id":"9891489230e0d0ec","type":"text","text":"- `postMessage` API enables applications to communicate between browsers tabs, or between embedded iframes, purely within the browser, so ==web server is not aware of the communications==\n- ==no security policy are implemented by default==, so the developer is responsible for ensuring that no unauthorized communication occur","x":-960,"y":20,"width":660,"height":380},
-		{"id":"77ce06f1a0ab7712","type":"text","text":"### iframes or multiple tabs communication exploitation ([[C2C (client-to-client) communication]] )","x":-960,"y":-200,"width":660,"height":160},
-		{"id":"93a624892c10b7d1","type":"text","text":"The tool is recognized and blocked by most web applications","x":2335,"y":-320,"width":300,"height":150,"color":"1"},
-		{"id":"ccc1e648f5956107","type":"text","text":"# Building a web crawler for test amplification purposes","x":1905,"y":-740,"width":580,"height":160},
-		{"id":"22ca07955a41e2ed","type":"text","text":"### login to large scale web app (canva.com)","x":1554,"y":20,"width":601,"height":100},
-		{"id":"c27b798c4fd03e0f","type":"text","text":"- If an HTTP site uses a third-party push notification service,  ==notifications== received by the end user could be manipulated ([[phishing]])\n- ==the DOM can be manipulated to affect the behavior of a service worker==, injecting malicious code into a benign web worker\n- ==browser history sniffing attacks==: a web worker can be exploited to determine whether the users have accessed target sites or not","x":-240,"y":20,"width":680,"height":380},
-		{"id":"8f825d31a11d76d4","type":"text","text":"using an existing account","x":1393,"y":240,"width":320,"height":80},
-		{"id":"4aa8f9fd913f81a1","type":"text","text":"Puppeteer","x":1728,"y":-460,"width":250,"height":60},
-		{"id":"4e81d52f2925c8b7","type":"text","text":"No 2FA, Puppeteer can read the email directly from the IMAP server","x":1565,"y":540,"width":295,"height":140},
-		{"id":"267e28e293a11483","type":"text","text":"GMX email","x":1565,"y":420,"width":295,"height":60},
-		{"id":"f973089e9a4ba9d2","type":"text","text":"Google, Outlook, Zimbra","x":1215,"y":420,"width":300,"height":60},
-		{"id":"5067b0f49b2c7bbf","type":"text","text":"2FA is required for accessing emails","x":1215,"y":540,"width":300,"height":100,"color":"1"},
-		{"id":"2eb78912b9456f1a","type":"text","text":"The tool is not recognized and blocked","x":1703,"y":-320,"width":300,"height":120},
-		{"id":"0fd25fa468648266","type":"text","text":"CAPTCHA can be bypassed with libraries of the ecosystem","x":1703,"y":-160,"width":300,"height":120,"color":"4"},
-		{"id":"911874604b1b9ecc","type":"text","text":"timeout-protected verification code can be retrieved and read by puppeteer","x":1565,"y":740,"width":295,"height":160,"color":"4"},
-		{"id":"0d827b6f15368823","type":"text","text":"canva.com detects suspicious interactions and flags the IP address","x":1568,"y":960,"width":290,"height":140,"color":"1"},
-		{"id":"88ee36afde80a241","type":"text","text":"temporary emails are detected and blocked","x":1977,"y":420,"width":355,"height":80,"color":"1"},
-		{"id":"671c153d18f21d4b","type":"text","text":"create a new account","x":1977,"y":240,"width":355,"height":80},
-		{"id":"d11b3e6a691ee7b3","type":"text","text":"- access to sensitive information (user location, browser history)\n- use the resources of the victim's computer to conduct crypto-currency mining or conducting [[DDoS (Distributed Denial of Service)]] attacks","x":-240,"y":500,"width":680,"height":190},
-		{"id":"411fd2e6dfc94ac8","type":"text","text":"- [[XSS (cross site scripting)]]\n- access to restricted resources or information","x":-960,"y":500,"width":660,"height":190},
-		{"id":"5984af749ddbb89d","type":"text","text":"### Independent execution threads exploitation with [[SW (Service Worker)]] ","x":-240,"y":-200,"width":680,"height":160},
-		{"id":"9f245eb53bcebff7","type":"text","text":"# New client side attacks","x":-520,"y":-460,"width":515,"height":140}
-	],
-	"edges":[
-		{"id":"e2507cc63ae4c85e","fromNode":"77ce06f1a0ab7712","fromSide":"bottom","toNode":"9891489230e0d0ec","toSide":"top"},
-		{"id":"4d2c4b716c47725b","fromNode":"9f245eb53bcebff7","fromSide":"bottom","toNode":"77ce06f1a0ab7712","toSide":"top"},
-		{"id":"f90c09cc7cc30dd6","fromNode":"9891489230e0d0ec","fromSide":"bottom","toNode":"411fd2e6dfc94ac8","toSide":"top","label":"can lead to"},
-		{"id":"94046f8c995ffb7e","fromNode":"22ca07955a41e2ed","fromSide":"bottom","toNode":"8f825d31a11d76d4","toSide":"top"},
-		{"id":"30247bd943937b51","fromNode":"22ca07955a41e2ed","fromSide":"bottom","toNode":"671c153d18f21d4b","toSide":"top"},
-		{"id":"50d59a69943665e2","fromNode":"671c153d18f21d4b","fromSide":"bottom","toNode":"88ee36afde80a241","toSide":"top"},
-		{"id":"17fc583cb1d321f9","fromNode":"8f825d31a11d76d4","fromSide":"bottom","toNode":"f973089e9a4ba9d2","toSide":"top"},
-		{"id":"548f67491e6b5c3a","fromNode":"f973089e9a4ba9d2","fromSide":"bottom","toNode":"5067b0f49b2c7bbf","toSide":"top"},
-		{"id":"6d0a5b9f380e62ab","fromNode":"8f825d31a11d76d4","fromSide":"bottom","toNode":"267e28e293a11483","toSide":"top"},
-		{"id":"30af0b6c54f51ba6","fromNode":"267e28e293a11483","fromSide":"bottom","toNode":"4e81d52f2925c8b7","toSide":"top"},
-		{"id":"b1a004f3fd422bb8","fromNode":"4e81d52f2925c8b7","fromSide":"bottom","toNode":"911874604b1b9ecc","toSide":"top"},
-		{"id":"d6e4f79a01adb6d4","fromNode":"911874604b1b9ecc","fromSide":"bottom","toNode":"0d827b6f15368823","toSide":"top"},
-		{"id":"2957b592f8347871","fromNode":"ccc1e648f5956107","fromSide":"bottom","toNode":"4aa8f9fd913f81a1","toSide":"top","label":"lightweight tool"},
-		{"id":"6d496bc5120d8eed","fromNode":"ccc1e648f5956107","fromSide":"bottom","toNode":"a794123e940de436","toSide":"top","label":"more advanced tool"},
-		{"id":"cfcfa77a1a8ee635","fromNode":"a794123e940de436","fromSide":"bottom","toNode":"93a624892c10b7d1","toSide":"top"},
-		{"id":"d1b7f68971c54166","fromNode":"4aa8f9fd913f81a1","fromSide":"bottom","toNode":"2eb78912b9456f1a","toSide":"top"},
-		{"id":"ad3962e7b5aeedad","fromNode":"2eb78912b9456f1a","fromSide":"bottom","toNode":"0fd25fa468648266","toSide":"top"},
-		{"id":"52121f23940de80f","fromNode":"0fd25fa468648266","fromSide":"bottom","toNode":"22ca07955a41e2ed","toSide":"top"},
-		{"id":"d0add607ab2bd447","fromNode":"9f245eb53bcebff7","fromSide":"bottom","toNode":"5984af749ddbb89d","toSide":"top"},
-		{"id":"bd35be5717d0f1d6","fromNode":"5984af749ddbb89d","fromSide":"bottom","toNode":"c27b798c4fd03e0f","toSide":"top"},
-		{"id":"d652c637d9b6989c","fromNode":"c27b798c4fd03e0f","fromSide":"bottom","toNode":"d11b3e6a691ee7b3","toSide":"top","label":"can lead to"}
-	]
+  "edges": [
+    {
+      "fromNode": "77ce06f1a0ab7712",
+      "fromSide": "bottom",
+      "id": "e2507cc63ae4c85e",
+      "toNode": "9891489230e0d0ec",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9f245eb53bcebff7",
+      "fromSide": "bottom",
+      "id": "4d2c4b716c47725b",
+      "toNode": "77ce06f1a0ab7712",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9891489230e0d0ec",
+      "fromSide": "bottom",
+      "id": "f90c09cc7cc30dd6",
+      "label": "can lead to",
+      "toNode": "411fd2e6dfc94ac8",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "22ca07955a41e2ed",
+      "fromSide": "bottom",
+      "id": "94046f8c995ffb7e",
+      "toNode": "8f825d31a11d76d4",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "22ca07955a41e2ed",
+      "fromSide": "bottom",
+      "id": "30247bd943937b51",
+      "toNode": "671c153d18f21d4b",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "671c153d18f21d4b",
+      "fromSide": "bottom",
+      "id": "50d59a69943665e2",
+      "toNode": "88ee36afde80a241",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "8f825d31a11d76d4",
+      "fromSide": "bottom",
+      "id": "17fc583cb1d321f9",
+      "toNode": "f973089e9a4ba9d2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f973089e9a4ba9d2",
+      "fromSide": "bottom",
+      "id": "548f67491e6b5c3a",
+      "toNode": "5067b0f49b2c7bbf",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "8f825d31a11d76d4",
+      "fromSide": "bottom",
+      "id": "6d0a5b9f380e62ab",
+      "toNode": "267e28e293a11483",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "267e28e293a11483",
+      "fromSide": "bottom",
+      "id": "30af0b6c54f51ba6",
+      "toNode": "4e81d52f2925c8b7",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "4e81d52f2925c8b7",
+      "fromSide": "bottom",
+      "id": "b1a004f3fd422bb8",
+      "toNode": "911874604b1b9ecc",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "911874604b1b9ecc",
+      "fromSide": "bottom",
+      "id": "d6e4f79a01adb6d4",
+      "toNode": "0d827b6f15368823",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "ccc1e648f5956107",
+      "fromSide": "bottom",
+      "id": "2957b592f8347871",
+      "label": "lightweight tool",
+      "toNode": "4aa8f9fd913f81a1",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "ccc1e648f5956107",
+      "fromSide": "bottom",
+      "id": "6d496bc5120d8eed",
+      "label": "more advanced tool",
+      "toNode": "a794123e940de436",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a794123e940de436",
+      "fromSide": "bottom",
+      "id": "cfcfa77a1a8ee635",
+      "toNode": "93a624892c10b7d1",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "4aa8f9fd913f81a1",
+      "fromSide": "bottom",
+      "id": "d1b7f68971c54166",
+      "toNode": "2eb78912b9456f1a",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "2eb78912b9456f1a",
+      "fromSide": "bottom",
+      "id": "ad3962e7b5aeedad",
+      "toNode": "0fd25fa468648266",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "0fd25fa468648266",
+      "fromSide": "bottom",
+      "id": "52121f23940de80f",
+      "toNode": "22ca07955a41e2ed",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "9f245eb53bcebff7",
+      "fromSide": "bottom",
+      "id": "d0add607ab2bd447",
+      "toNode": "5984af749ddbb89d",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "5984af749ddbb89d",
+      "fromSide": "bottom",
+      "id": "bd35be5717d0f1d6",
+      "toNode": "c27b798c4fd03e0f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c27b798c4fd03e0f",
+      "fromSide": "bottom",
+      "id": "d652c637d9b6989c",
+      "label": "can lead to",
+      "toNode": "d11b3e6a691ee7b3",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 190,
+      "id": "f713ecb6ae4e831a",
+      "label": "Legend",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 320,
+      "x": 2920,
+      "y": 80
+    },
+    {
+      "height": 60,
+      "id": "a794123e940de436",
+      "styleAttributes": {
+      },
+      "text": "Cypress",
+      "type": "text",
+      "width": 250,
+      "x": 2360,
+      "y": -460
+    },
+    {
+      "height": 380,
+      "id": "9891489230e0d0ec",
+      "styleAttributes": {
+      },
+      "text": "- `postMessage` API enables applications to communicate between browsers tabs, or between embedded iframes, purely within the browser, so ==web server is not aware of the communications==\n- ==no security policy are implemented by default==, so the developer is responsible for ensuring that no unauthorized communication occur",
+      "type": "text",
+      "width": 660,
+      "x": -960,
+      "y": 20
+    },
+    {
+      "height": 160,
+      "id": "77ce06f1a0ab7712",
+      "styleAttributes": {
+      },
+      "text": "### iframes or multiple tabs communication exploitation ([[C2C (client-to-client) communication]] )",
+      "type": "text",
+      "width": 660,
+      "x": -960,
+      "y": -200
+    },
+    {
+      "color": "1",
+      "height": 150,
+      "id": "93a624892c10b7d1",
+      "styleAttributes": {
+      },
+      "text": "The tool is recognized and blocked by most web applications",
+      "type": "text",
+      "width": 300,
+      "x": 2335,
+      "y": -320
+    },
+    {
+      "height": 380,
+      "id": "c27b798c4fd03e0f",
+      "styleAttributes": {
+      },
+      "text": "- If an HTTP site uses a third-party push notification service,  ==notifications== received by the end user could be manipulated ([[phishing]])\n- ==the DOM can be manipulated to affect the behavior of a service worker==, injecting malicious code into a benign web worker\n- ==browser history sniffing attacks==: a web worker can be exploited to determine whether the users have accessed target sites or not",
+      "type": "text",
+      "width": 680,
+      "x": -240,
+      "y": 20
+    },
+    {
+      "height": 60,
+      "id": "f973089e9a4ba9d2",
+      "styleAttributes": {
+      },
+      "text": "Google, Outlook, Zimbra",
+      "type": "text",
+      "width": 300,
+      "x": 1215,
+      "y": 420
+    },
+    {
+      "height": 190,
+      "id": "d11b3e6a691ee7b3",
+      "styleAttributes": {
+      },
+      "text": "- access to sensitive information (user location, browser history)\n- use the resources of the victim's computer to conduct crypto-currency mining or conducting [[DDoS (Distributed Denial of Service)]] attacks",
+      "type": "text",
+      "width": 680,
+      "x": -240,
+      "y": 500
+    },
+    {
+      "height": 190,
+      "id": "411fd2e6dfc94ac8",
+      "styleAttributes": {
+      },
+      "text": "- [[XSS (cross site scripting)]]\n- access to restricted resources or information",
+      "type": "text",
+      "width": 660,
+      "x": -960,
+      "y": 500
+    },
+    {
+      "height": 160,
+      "id": "5984af749ddbb89d",
+      "styleAttributes": {
+      },
+      "text": "### Independent execution threads exploitation with [[SW (Service Worker)]] ",
+      "type": "text",
+      "width": 680,
+      "x": -240,
+      "y": -200
+    },
+    {
+      "height": 140,
+      "id": "9f245eb53bcebff7",
+      "styleAttributes": {
+      },
+      "text": "# New client side attacks",
+      "type": "text",
+      "width": 515,
+      "x": -520,
+      "y": -460
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "83947823c40989f9",
+      "styleAttributes": {
+      },
+      "text": "BLOCKING PHASES",
+      "type": "text",
+      "width": 280,
+      "x": 2940,
+      "y": 100
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "9107fc6c47683357",
+      "styleAttributes": {
+      },
+      "text": "INTERESTING RESULTS",
+      "type": "text",
+      "width": 280,
+      "x": 2940,
+      "y": 190
+    },
+    {
+      "height": 160,
+      "id": "ccc1e648f5956107",
+      "styleAttributes": {
+      },
+      "text": "# Building a web crawler for test amplification purposes",
+      "type": "text",
+      "width": 580,
+      "x": 1905,
+      "y": -740
+    },
+    {
+      "height": 100,
+      "id": "22ca07955a41e2ed",
+      "styleAttributes": {
+      },
+      "text": "### login to large scale web app (canva.com)",
+      "type": "text",
+      "width": 601,
+      "x": 1554,
+      "y": 20
+    },
+    {
+      "height": 60,
+      "id": "4aa8f9fd913f81a1",
+      "styleAttributes": {
+      },
+      "text": "Puppeteer",
+      "type": "text",
+      "width": 250,
+      "x": 1728,
+      "y": -460
+    },
+    {
+      "height": 120,
+      "id": "2eb78912b9456f1a",
+      "styleAttributes": {
+      },
+      "text": "The tool is not recognized and blocked",
+      "type": "text",
+      "width": 300,
+      "x": 1703,
+      "y": -320
+    },
+    {
+      "color": "4",
+      "height": 120,
+      "id": "0fd25fa468648266",
+      "styleAttributes": {
+      },
+      "text": "CAPTCHA can be bypassed with libraries of the ecosystem",
+      "type": "text",
+      "width": 300,
+      "x": 1703,
+      "y": -160
+    },
+    {
+      "color": "1",
+      "height": 80,
+      "id": "88ee36afde80a241",
+      "styleAttributes": {
+      },
+      "text": "temporary emails are detected and blocked",
+      "type": "text",
+      "width": 355,
+      "x": 1977,
+      "y": 420
+    },
+    {
+      "height": 80,
+      "id": "671c153d18f21d4b",
+      "styleAttributes": {
+      },
+      "text": "create a new account",
+      "type": "text",
+      "width": 355,
+      "x": 1977,
+      "y": 240
+    },
+    {
+      "height": 80,
+      "id": "8f825d31a11d76d4",
+      "styleAttributes": {
+      },
+      "text": "using an existing account",
+      "type": "text",
+      "width": 320,
+      "x": 1393,
+      "y": 240
+    },
+    {
+      "height": 140,
+      "id": "4e81d52f2925c8b7",
+      "styleAttributes": {
+      },
+      "text": "No 2FA, Puppeteer can read the email directly from the IMAP server",
+      "type": "text",
+      "width": 295,
+      "x": 1565,
+      "y": 540
+    },
+    {
+      "height": 60,
+      "id": "267e28e293a11483",
+      "styleAttributes": {
+      },
+      "text": "GMX email",
+      "type": "text",
+      "width": 295,
+      "x": 1565,
+      "y": 420
+    },
+    {
+      "color": "1",
+      "height": 100,
+      "id": "5067b0f49b2c7bbf",
+      "styleAttributes": {
+      },
+      "text": "2FA is required for accessing emails",
+      "type": "text",
+      "width": 300,
+      "x": 1215,
+      "y": 540
+    },
+    {
+      "color": "4",
+      "height": 160,
+      "id": "911874604b1b9ecc",
+      "styleAttributes": {
+      },
+      "text": "timeout-protected verification code can be retrieved and read by puppeteer",
+      "type": "text",
+      "width": 295,
+      "x": 1565,
+      "y": 740
+    },
+    {
+      "color": "1",
+      "height": 140,
+      "id": "0d827b6f15368823",
+      "styleAttributes": {
+      },
+      "text": "canva.com detects suspicious interactions and flags the IP address",
+      "type": "text",
+      "width": 290,
+      "x": 1568,
+      "y": 960
+    }
+  ]
 }

@@ -1,46 +1,398 @@
 {
-	"nodes":[
-		{"id":"6727ee773ba3f688","type":"group","x":3040,"y":1240,"width":2040,"height":1000,"label":"Issues selection"},
-		{"id":"e9f25ea3baf25bd5","type":"group","x":3960,"y":1408,"width":1040,"height":672,"color":"2","label":"NOT EXPLICITELY INCLUDED IN QUERIES"},
-		{"id":"5750dcef603a3229","type":"text","text":"### RQ1 \"What\"\n- What are the vulnerabilities in the web front-end software may violate access control policies?","x":986,"y":-41,"width":618,"height":140},
-		{"id":"9e3eec2931bbb018","type":"text","text":"### RQ2 \"Where\"\n- What is the prevalence of these vulnerabilities?\n- Which issues are more common, and which are less frequent?\n","x":981,"y":115,"width":623,"height":164},
-		{"id":"c972391d8ff0a84d","type":"text","text":"## [A01 Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/) (from [[OWASP Top 10 (2021)]])\n\nFailures typically lead to ==unauthorized information disclosure, modification, or destruction of all data or performing a business function outside the user's limits.==","x":3106,"y":1307,"width":796,"height":148},
-		{"id":"ce9e373452125817","type":"text","text":"### Direct access  to restricted resources\n- [[directory traversal (path traversal)]] attack\n- [[forced browsing]]\n- [[IDOR (Insecure Direct Object Reference)]]","x":3106,"y":1489,"width":371,"height":326},
-		{"id":"245e966fd4c46042","type":"text","text":"-  [[DoS (Denial of Service)]] attack\n- [[ReDoS (Regular Expression Denial of Service)]]\n- [[DDoS (Distributed Denial of Service)]]","x":3993,"y":1455,"width":427,"height":166},
-		{"id":"df79509072f81fd9","type":"link","url":"https://owasp.org/Top10/A01_2021-Broken_Access_Control/","x":980,"y":1141,"width":1920,"height":1200},
-		{"id":"322c27f2960bf5a9","type":"text","text":"\n\n### GUI exploitation\n- [[clickjacking]]\n- [[framejacking]]\n- [[GEMs (GUI Element Misuse)]]\n- [[BFT (business flow tampering)]]\n- [[DOM clobbering]]\n- [[prototype pollution]]\n","x":3531,"y":1493,"width":371,"height":322},
-		{"id":"23e960f8188e0105","type":"text","text":"### Client-side request manipulation\n- [[CSRF (cross-site request forgery)]]\n- parameter tampering\n- [[tabnabbing]] \n- [[redirect attack]]\n\n","x":3106,"y":1850,"width":371,"height":322},
-		{"id":"285980fb5d382a2b","type":"text","text":"### Metadata manipulation\n- cookies theft\n- cookies tampering\n- CORS misconfiguration\n- JWT tampering\n- session hijacking\n- improper [[SameSite cookie]]","x":3531,"y":1850,"width":371,"height":322},
-		{"id":"e0d510c31ee1f051","type":"text","text":"- [[canvas DOM element]] vulnerabilities\n- visual glitches\n- internationalization fails (i18n)\n","x":3993,"y":1726,"width":427,"height":122},
-		{"id":"c6697edc4c4b7ca9","type":"text","text":"- [[SW (Service Worker)]] and [[WW (Web Worker)]] exploitation\n- [[C2C (client-to-client) communication]] tampering","x":3993,"y":1876,"width":427,"height":174},
-		{"id":"58af246e98bd0d32","type":"text","text":"## Research questions","x":480,"y":337,"width":320,"height":110},
-		{"id":"c18f2ddf3484bffb","type":"text","text":"\n### RQ3 \"When\"\n- What is the life cycle of a vulnerability?\n- Has any vulnerability been completely solved?\n- Have new vulnerabilities emerged in this field?","x":980,"y":299,"width":624,"height":185},
-		{"id":"1d421055c5316c80","type":"text","text":"\n### RQ4 \"Why\"\n- What harm can these vulnerabilities cause? (=why this topic is relevant)\n- What are the common causes of these vulnerabilities? (=why these vulnerabilities occur)\n","x":980,"y":500,"width":624,"height":219},
-		{"id":"cc36df594b496069","type":"text","text":"- [[XSS (cross site scripting)]]\n- code execution","x":3993,"y":1640,"width":427,"height":75},
-		{"id":"212b3a3e4427f2c1","type":"text","text":"## literature selection","x":480,"y":1680,"width":320,"height":117},
-		{"id":"3a6356faaaf72492","type":"link","url":"https://docs.google.com/spreadsheets/d/1GiQBU8HFeC5ckzBsW-WxFpXzZV1OHjyd_xcIgxiKEOg/edit?gid=0#gid=0","x":5200,"y":1381,"width":2040,"height":736},
-		{"id":"f73bd64cea176b8e","type":"text","text":"- Dependency-related vulnerabilities\n- npm packages vulnerabilities","x":4500,"y":1455,"width":427,"height":114},
-		{"id":"24902cb4ea3162c3","type":"text","text":"\n### RQ5 \"How\"\n- What mitigation solutions, tools or strategies have been proposed so far?\n","x":980,"y":740,"width":624,"height":200},
-		{"id":"78c8e3482f006f12","type":"text","text":"# [[SLR (systematic literature review)]] design\n\n  ","x":-160,"y":1021,"width":520,"height":120},
-		{"id":"cc0a63da7e37f527","type":"text","text":"- [[drive-by download]]\n- [[trojan horse]]\n- [[keylogging]]","x":4500,"y":1595,"width":427,"height":132},
-		{"id":"bede35d17605327a","type":"text","text":"\n- [[timing attack]]\n- [[pixel stealing]]\n","x":4500,"y":1754,"width":427,"height":105},
-		{"id":"75d53e8dcc6aae64","type":"text","text":"Aren't these already specified by OWASP?","x":1740,"y":-120,"width":600,"height":50,"color":"3"},
-		{"id":"6742a2ffdffe4bd6","type":"text","text":"Can this research eventually improve OWASP pages?","x":1740,"y":-31,"width":600,"height":60,"color":"3"},
-		{"id":"69c21190f68016f1","type":"text","text":"Other possible output:\n- taxonomy to improve identification\n- improving OWASP for web client","x":1740,"y":60,"width":600,"height":151,"color":"3"}
-	],
-	"edges":[
-		{"id":"74baf100b84a0df1","fromNode":"58af246e98bd0d32","fromSide":"right","toNode":"5750dcef603a3229","toSide":"left"},
-		{"id":"443284e5339d11c3","fromNode":"78c8e3482f006f12","fromSide":"right","toNode":"58af246e98bd0d32","toSide":"left"},
-		{"id":"7bdeffba9975100d","fromNode":"78c8e3482f006f12","fromSide":"right","toNode":"212b3a3e4427f2c1","toSide":"left"},
-		{"id":"59e3173990a2451f","fromNode":"58af246e98bd0d32","fromSide":"right","toNode":"9e3eec2931bbb018","toSide":"left"},
-		{"id":"3ba78b17027961b5","fromNode":"58af246e98bd0d32","fromSide":"right","toNode":"c18f2ddf3484bffb","toSide":"left"},
-		{"id":"a661126c65018bf7","fromNode":"58af246e98bd0d32","fromSide":"right","toNode":"1d421055c5316c80","toSide":"left"},
-		{"id":"f5633cd11b76209a","fromNode":"58af246e98bd0d32","fromSide":"right","toNode":"24902cb4ea3162c3","toSide":"left"},
-		{"id":"d87aa65f0db877ac","fromNode":"6727ee773ba3f688","fromSide":"right","toNode":"3a6356faaaf72492","toSide":"left"},
-		{"id":"70c14ef4f6e4a8df","fromNode":"212b3a3e4427f2c1","fromSide":"right","toNode":"df79509072f81fd9","toSide":"left"},
-		{"id":"89a70a21ddb34812","fromNode":"df79509072f81fd9","fromSide":"right","toNode":"6727ee773ba3f688","toSide":"left"},
-		{"id":"2d5bffc2f2fe149c","fromNode":"75d53e8dcc6aae64","fromSide":"left","toNode":"5750dcef603a3229","toSide":"right"},
-		{"id":"3aff068198873463","fromNode":"6742a2ffdffe4bd6","fromSide":"left","toNode":"5750dcef603a3229","toSide":"right"},
-		{"id":"1898e33a31ed4ddc","fromNode":"69c21190f68016f1","fromSide":"left","toNode":"5750dcef603a3229","toSide":"right"}
-	]
+  "edges": [
+    {
+      "fromNode": "58af246e98bd0d32",
+      "fromSide": "right",
+      "id": "74baf100b84a0df1",
+      "toNode": "5750dcef603a3229",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "78c8e3482f006f12",
+      "fromSide": "right",
+      "id": "443284e5339d11c3",
+      "toNode": "58af246e98bd0d32",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "78c8e3482f006f12",
+      "fromSide": "right",
+      "id": "7bdeffba9975100d",
+      "toNode": "212b3a3e4427f2c1",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "58af246e98bd0d32",
+      "fromSide": "right",
+      "id": "59e3173990a2451f",
+      "toNode": "9e3eec2931bbb018",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "58af246e98bd0d32",
+      "fromSide": "right",
+      "id": "3ba78b17027961b5",
+      "toNode": "c18f2ddf3484bffb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "58af246e98bd0d32",
+      "fromSide": "right",
+      "id": "a661126c65018bf7",
+      "toNode": "1d421055c5316c80",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "58af246e98bd0d32",
+      "fromSide": "right",
+      "id": "f5633cd11b76209a",
+      "toNode": "24902cb4ea3162c3",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "6727ee773ba3f688",
+      "fromSide": "right",
+      "id": "d87aa65f0db877ac",
+      "toNode": "3a6356faaaf72492",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "212b3a3e4427f2c1",
+      "fromSide": "right",
+      "id": "70c14ef4f6e4a8df",
+      "toNode": "df79509072f81fd9",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "df79509072f81fd9",
+      "fromSide": "right",
+      "id": "89a70a21ddb34812",
+      "toNode": "6727ee773ba3f688",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "75d53e8dcc6aae64",
+      "fromSide": "left",
+      "id": "2d5bffc2f2fe149c",
+      "toNode": "5750dcef603a3229",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "6742a2ffdffe4bd6",
+      "fromSide": "left",
+      "id": "3aff068198873463",
+      "toNode": "5750dcef603a3229",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "69c21190f68016f1",
+      "fromSide": "left",
+      "id": "1898e33a31ed4ddc",
+      "toNode": "5750dcef603a3229",
+      "toSide": "right"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 1000,
+      "id": "6727ee773ba3f688",
+      "label": "Issues selection",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 2040,
+      "x": 3040,
+      "y": 1240
+    },
+    {
+      "color": "2",
+      "height": 672,
+      "id": "e9f25ea3baf25bd5",
+      "label": "NOT EXPLICITELY INCLUDED IN QUERIES",
+      "styleAttributes": {
+      },
+      "type": "group",
+      "width": 1040,
+      "x": 3960,
+      "y": 1408
+    },
+    {
+      "height": 140,
+      "id": "5750dcef603a3229",
+      "styleAttributes": {
+      },
+      "text": "### RQ1 \"What\"\n- What are the vulnerabilities in the web front-end software may violate access control policies?",
+      "type": "text",
+      "width": 618,
+      "x": 986,
+      "y": -41
+    },
+    {
+      "height": 164,
+      "id": "9e3eec2931bbb018",
+      "styleAttributes": {
+      },
+      "text": "### RQ2 \"Where\"\n- What is the prevalence of these vulnerabilities?\n- Which issues are more common, and which are less frequent?\n",
+      "type": "text",
+      "width": 623,
+      "x": 981,
+      "y": 115
+    },
+    {
+      "height": 326,
+      "id": "ce9e373452125817",
+      "styleAttributes": {
+      },
+      "text": "### Direct access  to restricted resources\n- [[directory traversal (path traversal)]] attack\n- [[forced browsing]]\n- [[IDOR (Insecure Direct Object Reference)]]",
+      "type": "text",
+      "width": 371,
+      "x": 3106,
+      "y": 1489
+    },
+    {
+      "height": 1200,
+      "id": "df79509072f81fd9",
+      "styleAttributes": {
+      },
+      "type": "link",
+      "url": "https://owasp.org/Top10/A01_2021-Broken_Access_Control/",
+      "width": 1920,
+      "x": 980,
+      "y": 1141
+    },
+    {
+      "height": 322,
+      "id": "322c27f2960bf5a9",
+      "styleAttributes": {
+      },
+      "text": "\n\n### GUI exploitation\n- [[clickjacking]]\n- [[framejacking]]\n- [[GEMs (GUI Element Misuse)]]\n- [[BFT (business flow tampering)]]\n- [[DOM clobbering]]\n- [[prototype pollution]]\n",
+      "type": "text",
+      "width": 371,
+      "x": 3531,
+      "y": 1493
+    },
+    {
+      "height": 322,
+      "id": "23e960f8188e0105",
+      "styleAttributes": {
+      },
+      "text": "### Client-side request manipulation\n- [[CSRF (cross-site request forgery)]]\n- parameter tampering\n- [[tabnabbing]] \n- [[redirect attack]]\n\n",
+      "type": "text",
+      "width": 371,
+      "x": 3106,
+      "y": 1850
+    },
+    {
+      "height": 322,
+      "id": "285980fb5d382a2b",
+      "styleAttributes": {
+      },
+      "text": "### Metadata manipulation\n- cookies theft\n- cookies tampering\n- CORS misconfiguration\n- JWT tampering\n- session hijacking\n- improper [[SameSite cookie]]",
+      "type": "text",
+      "width": 371,
+      "x": 3531,
+      "y": 1850
+    },
+    {
+      "color": "3",
+      "height": 50,
+      "id": "75d53e8dcc6aae64",
+      "styleAttributes": {
+      },
+      "text": "Aren't these already specified by OWASP?",
+      "type": "text",
+      "width": 600,
+      "x": 1740,
+      "y": -120
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "6742a2ffdffe4bd6",
+      "styleAttributes": {
+      },
+      "text": "Can this research eventually improve OWASP pages?",
+      "type": "text",
+      "width": 600,
+      "x": 1740,
+      "y": -31
+    },
+    {
+      "color": "3",
+      "height": 151,
+      "id": "69c21190f68016f1",
+      "styleAttributes": {
+      },
+      "text": "Other possible output:\n- taxonomy to improve identification\n- improving OWASP for web client",
+      "type": "text",
+      "width": 600,
+      "x": 1740,
+      "y": 60
+    },
+    {
+      "height": 148,
+      "id": "c972391d8ff0a84d",
+      "styleAttributes": {
+      },
+      "text": "## [A01 Broken Access Control](https://owasp.org/Top10/A01_2021-Broken_Access_Control/) (from [[OWASP Top 10 (2021)]])\n\nFailures typically lead to ==unauthorized information disclosure, modification, or destruction of all data or performing a business function outside the user's limits.==",
+      "type": "text",
+      "width": 796,
+      "x": 3106,
+      "y": 1307
+    },
+    {
+      "height": 166,
+      "id": "245e966fd4c46042",
+      "styleAttributes": {
+      },
+      "text": "-  [[DoS (Denial of Service)]] attack\n- [[ReDoS (Regular Expression Denial of Service)]]\n- [[DDoS (Distributed Denial of Service)]]",
+      "type": "text",
+      "width": 427,
+      "x": 3993,
+      "y": 1455
+    },
+    {
+      "height": 122,
+      "id": "e0d510c31ee1f051",
+      "styleAttributes": {
+      },
+      "text": "- [[canvas DOM element]] vulnerabilities\n- visual glitches\n- internationalization fails (i18n)\n",
+      "type": "text",
+      "width": 427,
+      "x": 3993,
+      "y": 1726
+    },
+    {
+      "height": 174,
+      "id": "c6697edc4c4b7ca9",
+      "styleAttributes": {
+      },
+      "text": "- [[SW (Service Worker)]] and [[WW (Web Worker)]] exploitation\n- [[C2C (client-to-client) communication]] tampering",
+      "type": "text",
+      "width": 427,
+      "x": 3993,
+      "y": 1876
+    },
+    {
+      "height": 75,
+      "id": "cc36df594b496069",
+      "styleAttributes": {
+      },
+      "text": "- [[XSS (cross site scripting)]]\n- code execution",
+      "type": "text",
+      "width": 427,
+      "x": 3993,
+      "y": 1640
+    },
+    {
+      "height": 117,
+      "id": "212b3a3e4427f2c1",
+      "styleAttributes": {
+      },
+      "text": "## literature selection",
+      "type": "text",
+      "width": 320,
+      "x": 480,
+      "y": 1680
+    },
+    {
+      "height": 132,
+      "id": "cc0a63da7e37f527",
+      "styleAttributes": {
+      },
+      "text": "- [[drive-by download]]\n- [[trojan horse]]\n- [[keylogging]]",
+      "type": "text",
+      "width": 427,
+      "x": 4500,
+      "y": 1595
+    },
+    {
+      "height": 105,
+      "id": "bede35d17605327a",
+      "styleAttributes": {
+      },
+      "text": "\n- [[timing attack]]\n- [[pixel stealing]]\n",
+      "type": "text",
+      "width": 427,
+      "x": 4500,
+      "y": 1754
+    },
+    {
+      "height": 110,
+      "id": "58af246e98bd0d32",
+      "styleAttributes": {
+      },
+      "text": "## Research questions",
+      "type": "text",
+      "width": 320,
+      "x": 480,
+      "y": 337
+    },
+    {
+      "height": 185,
+      "id": "c18f2ddf3484bffb",
+      "styleAttributes": {
+      },
+      "text": "\n### RQ3 \"When\"\n- What is the life cycle of a vulnerability?\n- Has any vulnerability been completely solved?\n- Have new vulnerabilities emerged in this field?",
+      "type": "text",
+      "width": 624,
+      "x": 980,
+      "y": 299
+    },
+    {
+      "height": 219,
+      "id": "1d421055c5316c80",
+      "styleAttributes": {
+      },
+      "text": "\n### RQ4 \"Why\"\n- What harm can these vulnerabilities cause? (=why this topic is relevant)\n- What are the common causes of these vulnerabilities? (=why these vulnerabilities occur)\n",
+      "type": "text",
+      "width": 624,
+      "x": 980,
+      "y": 500
+    },
+    {
+      "height": 736,
+      "id": "3a6356faaaf72492",
+      "styleAttributes": {
+      },
+      "type": "link",
+      "url": "https://docs.google.com/spreadsheets/d/1GiQBU8HFeC5ckzBsW-WxFpXzZV1OHjyd_xcIgxiKEOg/edit?gid=0#gid=0",
+      "width": 2040,
+      "x": 5200,
+      "y": 1381
+    },
+    {
+      "height": 114,
+      "id": "f73bd64cea176b8e",
+      "styleAttributes": {
+      },
+      "text": "- Dependency-related vulnerabilities\n- npm packages vulnerabilities",
+      "type": "text",
+      "width": 427,
+      "x": 4500,
+      "y": 1455
+    },
+    {
+      "height": 200,
+      "id": "24902cb4ea3162c3",
+      "styleAttributes": {
+      },
+      "text": "\n### RQ5 \"How\"\n- What mitigation solutions, tools or strategies have been proposed so far?\n",
+      "type": "text",
+      "width": 624,
+      "x": 980,
+      "y": 740
+    },
+    {
+      "height": 120,
+      "id": "78c8e3482f006f12",
+      "styleAttributes": {
+      },
+      "text": "# [[SLR (systematic literature review)]] design\n\n  ",
+      "type": "text",
+      "width": 520,
+      "x": -160,
+      "y": 1021
+    }
+  ]
 }
