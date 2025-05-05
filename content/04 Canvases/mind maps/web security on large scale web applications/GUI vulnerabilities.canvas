@@ -364,15 +364,15 @@
       "y": -120
     },
     {
-      "height": 80,
+      "height": 78,
       "id": "c70a614bc9b7fff0",
       "styleAttributes": {
       },
       "text": "## [[WW (Web Worker)]] explotation",
       "type": "text",
-      "width": 460,
-      "x": 250,
-      "y": 346
+      "width": 560,
+      "x": 200,
+      "y": 343
     },
     {
       "height": 1754,
