@@ -100,6 +100,7 @@ Common CSFR includes:
 - changing user's credentials, making the account unusable for the user and stealing his identity
 - sending unwanted transactions
 
+Implanting evidence of illegal activities in victim's computer [[(Gelernter, Grinstein, et al., 2015)]]
 ### Prevalence
 
 Among 5,000 randomly selected scan targets of HTTP requests by Acunetix in 2020, 36% were found vulnerable to CSRF attacks [[(Ramadan, Osama, et al., 2024)]]

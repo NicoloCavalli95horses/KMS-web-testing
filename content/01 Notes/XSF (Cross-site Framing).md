@@ -25,7 +25,21 @@ In many countries, computer records are often used in criminal investigations an
 Cross-site framing can go undetected by forensic investigation procedure (until 2015)
 
 **Framing without a malware** [[(Gelernter, Grinstein, et al., 2015)]]:
-- the victim is tricked into visit a malicious website
+- the victim is tricked into visit a malicious website (with [[phishing]] techniques and social engineering, legitimate site-promotion techniques, or with [[tabnabbing]], [[clickjacking]], [[XSS (cross site scripting)]]). Attacks on a specific site requires the user to be authenticated
+- evidence is planted in the victim's computer via [[CSRF (cross-site request forgery)]]. ==Google, Yahoo!, Bing, YouTube and Facebook save a history of the user’s search queries by default, even if the queries are sent from other sites.== Furthermore, problematic 'keyword' are not filtered or stopped by these applications. [[clickjacking]] can be used to inject browser history (the user clicks on a button that open a certain website, which is immediately closed)
+- traces are covered:
+	- An attacker can make the website benign after performing the attack, and the victim's browser will link only to the last legitimate version of the attacker's website. This process can be done while the original framing page and script continue to operate. Loading the ‘benign’ versions of the page and script into a new hidden iframe is sufficient for the browser to overwrite the framing versions in the cache with the benign versions now received
+	- it is also possible to manipulate HTTP headers to hide suspicious activities
+
+Since the victim is the end user, the web-service provider may not have significant business motivation to fix the issues that can lead to XSF
+
+### Defenses
+
+- prevent all cross-site requests
+- using [[CSRF (cross-site request forgery)]] countermeasures
+- blacklists and whitelists
+- recording third-party requests for further analysis
+- blocking or restricting pages from closing windows that arrive with a new HTTP header
 
 ---
 #### References
