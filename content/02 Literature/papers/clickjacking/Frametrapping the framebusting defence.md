@@ -8,6 +8,7 @@ Project:
   - SLR
 ---
 Short but authoritative literature review about [[clickjacking]]
+
 ## Context
 
 The basic technique of [[clickjacking]] is to add a transparent layer of UI objects, thereby tricking a victim into clicking on a hidden button or link to route the victim to a malware-driven [[domain]].

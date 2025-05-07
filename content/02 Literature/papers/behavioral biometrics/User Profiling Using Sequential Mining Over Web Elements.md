@@ -12,6 +12,7 @@ Project:
   - SLR
 ---
 Authentication enhancement through behavioral biometric measurement to mitigate [[session hijacking]] attack
+
 ## Context
 
 Many authentication schemes were proposed over the years; as of today, the most used authentication scheme is still username and password.

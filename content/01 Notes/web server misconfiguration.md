@@ -35,4 +35,4 @@ From [[(Eshete, Villafiorita, et al., 2013)]]:
 ---
 #### References
 - https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html
--  [[(Eshete, Villafiorita, et al., 2013)]]
+- [[(Eshete, Villafiorita, et al., 2013)]]

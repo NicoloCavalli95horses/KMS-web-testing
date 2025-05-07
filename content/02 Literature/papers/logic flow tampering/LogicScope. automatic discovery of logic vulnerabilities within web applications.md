@@ -23,7 +23,7 @@ In this paper, we model the logic of a web application in a black-box fashion us
 - with *unexpected input* (e.g., URL manipulation, parameter tampering), there are differences between the intended FSM and the implementation
 
 **Contributions**
-- black-box approach to identify logic flaws that depend on URL manipulation (parameter tampering, [[forced browsing]])
+- black-box approach to identify logic flaws that depend on URL manipulation (parameter tampering, [[forced browsing]], [[IDOR (Insecure Direct Object Reference)]])
 - a proof-of-concept tool, LogicScope, evaluated on real world web apps
 
 ## Approach

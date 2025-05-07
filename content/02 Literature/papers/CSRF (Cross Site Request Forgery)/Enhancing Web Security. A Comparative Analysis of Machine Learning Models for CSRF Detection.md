@@ -2,8 +2,8 @@
 ID: 2025-04-07T11:31:59.176Z
 tags:
   - paper
-  - RandomForest
   - CSFR
+  - randomForest
 ---
 ## Context
 

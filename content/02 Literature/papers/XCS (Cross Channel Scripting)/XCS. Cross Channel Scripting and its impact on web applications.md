@@ -11,7 +11,7 @@ tags:
 Project:
   - SLR
 ---
-Very interesting paper about XCS. A number of attack scenarios are explained. A client-side defense against XCS is discussed.
+XSS and CSRF applied to embedded web servers with a web UI as entry point. Cross Channel Scripting (XCS) is a new vulnerability discussed and analyzed in detailed scenarios. A client-side solution is proposed
 
 ## Context
 

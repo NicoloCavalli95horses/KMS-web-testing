@@ -10,6 +10,7 @@ Project:
   - SLR
 ---
 Unsystematic literature review about client-side storage, with historical approach
+
 ## Context
 
 Browser-based storage options, including [[Web Storage API (localStorage, sessionStorage)]] and [[IndexedDB]], may be a target of cyberattacks.

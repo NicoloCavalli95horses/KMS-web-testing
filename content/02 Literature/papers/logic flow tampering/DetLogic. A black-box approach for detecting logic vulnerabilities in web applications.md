@@ -12,13 +12,14 @@ Project:
 
 According to Symantec Internet Security Threat report (April 2016), 75% of legitimate applications had unpatched vulnerabilities, and one million attacks were reported on web applications in 2015. A report from Trustwave (2016) states that 97% of the applications tested by Trustwave had security vulnerabilities, with a median of 14 vulnerabilities
 
-Since a number of solutions have been proposed to deal with **injection-related** vulnerabilities, the focus of the attackers seems to have shifted towards the exploitation of **logic vulnerabilities**. [[BFT (business flow tampering)]] is mostly related to financial loss.
+Since a number of solutions have been proposed to deal with injection-related vulnerabilities, the focus of the attackers seems to have shifted towards the exploitation of **logic vulnerabilities**. [[BFT (business flow tampering)]] is mostly related to financial loss.
 
 ### Limits of existing works
 
 - black-box approaches do not take into consideration the interaction between multiple pages
 - ad-hoc solutions that are not scalable
 - literature on workflow bypass considers session variables but neglect other parameters such as the role of the [[CSRF (cross-site request forgery) token]]
+
 ## Approach
 
 In order to identify logic vulnerabilities, the intended behavior must be analyzed and a way to bypass it must be found
@@ -42,7 +43,7 @@ The prototype works in three phases:
 DetLogic acts a proxy intercepting the HTTP requests and responses to the application under test during **learning phase** (i), generate attacks (ii) and places attacks (iii), assessing the security (iv) of the [[SUT (system under test)]]
 
 > [!WARNING] Limits
-> - The modelling phase strictly depends on a manual navigation of the target application
+> The modelling phase strictly depends on a manual navigation of the target application
 
 ### Evaluation
 

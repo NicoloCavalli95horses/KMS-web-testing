@@ -14,6 +14,7 @@ tags:
 Project:
   - SLR
 ---
+This work focuses on fuzzing user-supplied input (HTTP headers, cookies, query, body parameters), to PHP functions that result in a vulnerability. SQLIA, RCE, path traversal, XXE, XSS are covered. An instrumentation of the PHP interpreter is proposed
 ## Context
 
 To this day, PHP is the server-side language that drives *over 75% of the websites.* Automated [[security testing]] tools promise to facilitate the discovery of vulnerabilities.

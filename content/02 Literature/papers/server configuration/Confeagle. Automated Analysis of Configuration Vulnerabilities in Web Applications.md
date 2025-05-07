@@ -10,7 +10,7 @@ Project:
 ---
 ## Context
 
-[[security misconfiguration]] has become a real concern for the security of web applications. Misconfiguration may happen at different layers of the web architecture
+[[web server misconfiguration]] has become a real concern for the security of web applications. Misconfiguration may happen at different layers of the web architecture
 - misconfiguration at environment and application levels, are the common ones
 - the application level (business code) has received the least attention so far
 
@@ -19,9 +19,8 @@ In PHP web applications, the global configuration settings of Apache and PHP cou
 - at the source code level in scripts (e.g., using the `ini_set()` function)
 
 **Contribution**
-An approach to supplement existing web vulnerability analysis techniques by scanning web application directory hierarchy and application source code to ==detect, quantify, and fix configuration vulnerabilities before deployment==
-
-A standard metrics based on the Common Configuration Scoring System (CCSS) can be used to *quantify the severity of configuration* vulnerabilities
+- An approach to supplement existing web vulnerability analysis techniques by scanning web application directory hierarchy and application source code to ==detect, quantify, and fix configuration vulnerabilities before deployment==
+- A standard metrics based on the Common Configuration Scoring System (CCSS) can be used to *quantify the severity of configuration* vulnerabilities
 
  Vulnerability scanners are precise at pinpointing configuration vulnerabilities at the environment level but fell short at the application level
  

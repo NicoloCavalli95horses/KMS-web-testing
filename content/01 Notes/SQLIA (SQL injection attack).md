@@ -71,6 +71,14 @@ Since the condition '1'='1' always evaluates to true, the query returns all rows
 - **Using PDO** [[(Sendiang, Polii, et al., 2016)]]
 - Inferring [[SQL signature]] to validate new SQL queries [[(Li, Yan, et al., 2012)]]
 
+## How is front-end software involved in SQLIA
+
+Even if the attack target the web server, front-end software may mitigate the problem (or make it more serious)
+- **No client-side validation**: If the front-end accepts arbitrary user input (e.g. search fields, logins, comments) without any validation or sanitization, the attacker can inject malicious SQL.
+- **Un-encoded or unfiltered input:** If user data is sent to the back-end without escaping, the injected SQL can be executed by the database
+- **Informative error messages:** If the front-end displays detailed database errors (e.g. "Syntax error near 'OR 1=1'"), it provides the attacker with valuable clues to refine the attack.
+- Ease the submission of requests to the server
+
 ---
 ## References
 - [[(Xu, Ni, Ming, et al., 2024)]]

@@ -1,9 +1,10 @@
 ---
 ID: 2025-04-30T16:55:46.089Z
-tags: paper Classification,AuthenticationCookies,WebSecurity projectSLR
-
+tags:
+  - paper
+  - projectSLR
 Project:
- - SLR
+  - SLR
 ---
 ## Context
 

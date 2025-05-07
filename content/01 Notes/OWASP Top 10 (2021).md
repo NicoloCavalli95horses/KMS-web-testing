@@ -21,7 +21,7 @@ The OWASP Top 10 is a standard awareness document for developers and [[Web appli
 **A04:2021-Insecure Design**
 - New category for 2021, with a focus on risks related to design flaws. If we genuinely want to “move left” as an industry, it calls for more use of threat modeling, secure design patterns and principles, and reference architectures.
 
-**A05:2021-[[security misconfiguration]]**
+**A05:2021-[[web server misconfiguration]]**
 - 90% of applications were tested for some form of misconfiguration. With more shifts into highly configurable software, it’s not surprising to see this category move up. The former category for [[XXE (XML external entities)]] is now part of this category.
 
 **A06:2021-Vulnerable and Outdated Components**

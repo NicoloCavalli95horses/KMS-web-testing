@@ -5017,20 +5017,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 667,
+      "wordCount": 777,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 2.223333333333333,
-      "characterCount": 6220,
-      "nonWhitespaceCharacterCount": 4360,
-      "newlineCount": 79,
-      "readingTimeInMinutes": 2.516981132075472,
+      "pageCount": 2.59,
+      "characterCount": 6957,
+      "nonWhitespaceCharacterCount": 4980,
+      "newlineCount": 87,
+      "readingTimeInMinutes": 2.9320754716981132,
       "linkCount": 18,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985033,
-      "modifiedDate": 1745487280548,
-      "sizeInBytes": 6297,
+      "modifiedDate": 1746621679765,
+      "sizeInBytes": 7034,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 2.223333333333333,
@@ -5389,42 +5389,6 @@
           "#definition",
           "linux",
           "browser"
-        ]
-      }
-    },
-    "01 Notes/security misconfiguration.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 169,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.5633333333333334,
-      "characterCount": 1423,
-      "nonWhitespaceCharacterCount": 1227,
-      "newlineCount": 31,
-      "readingTimeInMinutes": 0.6377358490566037,
-      "linkCount": 2,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1743766985066,
-      "modifiedDate": 1744103245044,
-      "sizeInBytes": 1522,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.5633333333333334,
-        "wordCount": 169,
-        "characterCount": 1423,
-        "nonWhitespaceCharacterCount": 1227,
-        "newlineCount": 31
-      },
-      "frontmatter": {
-        "ID": "2025-02-17-12:04",
-        "tags": [
-          "#definition",
-          "OWASP",
-          "cyberSecurity",
-          "webApplication"
         ]
       }
     },
@@ -6349,8 +6313,8 @@
       "embedCount": 1,
       "aliases": null,
       "createdDate": 1743766984994,
-      "modifiedDate": 1745418193003,
-      "sizeInBytes": 485,
+      "modifiedDate": 1746620128551,
+      "sizeInBytes": 497,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.15333333333333332,
@@ -6364,7 +6328,8 @@
         "tags": [
           "#definition",
           "cyberSecurity",
-          "PenetrationTesting"
+          "penTest",
+          "penetrationTesting"
         ]
       }
     },
@@ -11082,20 +11047,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 1388,
+      "wordCount": 1395,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 4.626666666666667,
-      "characterCount": 9467,
-      "nonWhitespaceCharacterCount": 7956,
+      "pageCount": 4.65,
+      "characterCount": 9525,
+      "nonWhitespaceCharacterCount": 8006,
       "newlineCount": 134,
-      "readingTimeInMinutes": 5.2377358490566035,
-      "linkCount": 49,
+      "readingTimeInMinutes": 5.264150943396227,
+      "linkCount": 50,
       "embedCount": 2,
       "aliases": null,
       "createdDate": 1743766985044,
-      "modifiedDate": 1746000615982,
-      "sizeInBytes": 9571,
+      "modifiedDate": 1746620943294,
+      "sizeInBytes": 9629,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 4.626666666666667,
@@ -17228,20 +17193,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 299,
+      "wordCount": 314,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.9966666666666667,
-      "characterCount": 2040,
-      "nonWhitespaceCharacterCount": 1710,
+      "pageCount": 1.0466666666666666,
+      "characterCount": 2123,
+      "nonWhitespaceCharacterCount": 1778,
       "newlineCount": 34,
-      "readingTimeInMinutes": 1.1283018867924528,
+      "readingTimeInMinutes": 1.1849056603773584,
       "linkCount": 7,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744356442119,
-      "modifiedDate": 1744369620461,
-      "sizeInBytes": 2199,
+      "modifiedDate": 1746619495375,
+      "sizeInBytes": 2282,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.9966666666666667,
@@ -17597,20 +17562,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 332,
+      "wordCount": 334,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.1066666666666667,
-      "characterCount": 2650,
-      "nonWhitespaceCharacterCount": 2216,
+      "pageCount": 1.1133333333333333,
+      "characterCount": 2604,
+      "nonWhitespaceCharacterCount": 2218,
       "newlineCount": 51,
-      "readingTimeInMinutes": 1.2528301886792452,
+      "readingTimeInMinutes": 1.260377358490566,
       "linkCount": 22,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985136,
-      "modifiedDate": 1745170420149,
-      "sizeInBytes": 2759,
+      "modifiedDate": 1746620684084,
+      "sizeInBytes": 2706,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.1066666666666667,
@@ -18016,20 +17981,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 816,
+      "wordCount": 853,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 2.72,
-      "characterCount": 5981,
-      "nonWhitespaceCharacterCount": 5101,
-      "newlineCount": 67,
-      "readingTimeInMinutes": 3.079245283018868,
+      "pageCount": 2.8433333333333333,
+      "characterCount": 6232,
+      "nonWhitespaceCharacterCount": 5315,
+      "newlineCount": 68,
+      "readingTimeInMinutes": 3.218867924528302,
       "linkCount": 25,
       "embedCount": 1,
       "aliases": null,
       "createdDate": 1743766985133,
-      "modifiedDate": 1745910238535,
-      "sizeInBytes": 6193,
+      "modifiedDate": 1746621828222,
+      "sizeInBytes": 6444,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 2.72,
@@ -18861,16 +18826,16 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.1166666666666667,
-      "characterCount": 2622,
-      "nonWhitespaceCharacterCount": 2245,
-      "newlineCount": 42,
+      "characterCount": 2625,
+      "nonWhitespaceCharacterCount": 2247,
+      "newlineCount": 41,
       "readingTimeInMinutes": 1.2641509433962264,
       "linkCount": 6,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744101316455,
-      "modifiedDate": 1744361732605,
-      "sizeInBytes": 2741,
+      "modifiedDate": 1746620531723,
+      "sizeInBytes": 2744,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.1166666666666667,
@@ -19122,20 +19087,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 518,
+      "wordCount": 519,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.7266666666666666,
-      "characterCount": 3478,
-      "nonWhitespaceCharacterCount": 2920,
-      "newlineCount": 44,
-      "readingTimeInMinutes": 1.9547169811320755,
+      "pageCount": 1.73,
+      "characterCount": 3488,
+      "nonWhitespaceCharacterCount": 2928,
+      "newlineCount": 45,
+      "readingTimeInMinutes": 1.9584905660377359,
       "linkCount": 8,
       "embedCount": 1,
       "aliases": null,
       "createdDate": 1743766985124,
-      "modifiedDate": 1745910010281,
-      "sizeInBytes": 3622,
+      "modifiedDate": 1746619145557,
+      "sizeInBytes": 3632,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.7266666666666666,
@@ -19219,8 +19184,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1746032059257,
-      "modifiedDate": 1746032059257,
-      "sizeInBytes": 664,
+      "modifiedDate": 1746620091233,
+      "sizeInBytes": 583,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.24666666666666667,
@@ -19231,7 +19196,10 @@
       },
       "frontmatter": {
         "ID": "2025-04-30T16:54:19.232Z",
-        "tags": "paper PrototypePollution,NodejsSecurity,DynamicFuzzing,StaticTaintAnalysis,VulnerabilityReview projectSLR",
+        "tags": [
+          "paper",
+          "projectSLR"
+        ],
         "Project": [
           "SLR"
         ]
@@ -19241,20 +19209,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 273,
+      "wordCount": 343,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.91,
-      "characterCount": 1981,
-      "nonWhitespaceCharacterCount": 1674,
-      "newlineCount": 43,
-      "readingTimeInMinutes": 1.030188679245283,
+      "pageCount": 1.1433333333333333,
+      "characterCount": 2384,
+      "nonWhitespaceCharacterCount": 2006,
+      "newlineCount": 45,
+      "readingTimeInMinutes": 1.2943396226415094,
       "linkCount": 4,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744790120918,
-      "modifiedDate": 1744807721737,
-      "sizeInBytes": 2118,
+      "modifiedDate": 1746621847184,
+      "sizeInBytes": 2521,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.91,
@@ -19464,40 +19432,6 @@
         ]
       }
     },
-    "02 Literature/papers/parameter tampering/TamperProof. a server-agnostic defense for parameter tampering attacks on web applications.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 72,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.24,
-      "characterCount": 494,
-      "nonWhitespaceCharacterCount": 403,
-      "newlineCount": 25,
-      "readingTimeInMinutes": 0.27169811320754716,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1746032112924,
-      "modifiedDate": 1746032112925,
-      "sizeInBytes": 600,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.24,
-        "wordCount": 72,
-        "characterCount": 494,
-        "nonWhitespaceCharacterCount": 403,
-        "newlineCount": 25
-      },
-      "frontmatter": {
-        "ID": "2025-04-30T16:55:12.899Z",
-        "tags": "paper Prevention,ParameterTampering projectSLR",
-        "Project": [
-          "SLR"
-        ]
-      }
-    },
     "02 Literature/papers/parameter tampering/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -19689,20 +19623,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 342,
+      "wordCount": 347,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.14,
-      "characterCount": 2447,
-      "nonWhitespaceCharacterCount": 2070,
+      "pageCount": 1.1566666666666667,
+      "characterCount": 2492,
+      "nonWhitespaceCharacterCount": 2110,
       "newlineCount": 40,
-      "readingTimeInMinutes": 1.290566037735849,
-      "linkCount": 8,
+      "readingTimeInMinutes": 1.3094339622641509,
+      "linkCount": 9,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985117,
-      "modifiedDate": 1745909632253,
-      "sizeInBytes": 2608,
+      "modifiedDate": 1746620368741,
+      "sizeInBytes": 2653,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.14,
@@ -19985,8 +19919,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1746031974536,
-      "modifiedDate": 1746031974536,
-      "sizeInBytes": 612,
+      "modifiedDate": 1746620191217,
+      "sizeInBytes": 572,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.24,
@@ -19997,7 +19931,10 @@
       },
       "frontmatter": {
         "ID": "2025-04-30T16:52:54.509Z",
-        "tags": "paper AutomatedTesting,BusinessLogic,SoftwareSecurity projectSLR",
+        "tags": [
+          "paper",
+          "projectSLR"
+        ],
         "Project": [
           "SLR"
         ]
@@ -20019,8 +19956,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1746031949781,
-      "modifiedDate": 1746031949782,
-      "sizeInBytes": 634,
+      "modifiedDate": 1746620199825,
+      "sizeInBytes": 570,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.24,
@@ -20031,7 +19968,10 @@
       },
       "frontmatter": {
         "ID": "2025-04-30T16:52:29.755Z",
-        "tags": "paper Black-boxApproach,Invariant,StateViolationAttack,WebApplicationSecurity projectSLR",
+        "tags": [
+          "paper",
+          "projectSLR"
+        ],
         "Project": [
           "SLR"
         ]
@@ -20087,16 +20027,16 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.7033333333333334,
-      "characterCount": 3670,
-      "nonWhitespaceCharacterCount": 3072,
-      "newlineCount": 48,
+      "characterCount": 3618,
+      "nonWhitespaceCharacterCount": 3067,
+      "newlineCount": 49,
       "readingTimeInMinutes": 1.9283018867924528,
       "linkCount": 9,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985115,
-      "modifiedDate": 1743766985116,
-      "sizeInBytes": 3802,
+      "modifiedDate": 1746619748517,
+      "sizeInBytes": 3741,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.7033333333333334,
@@ -20219,8 +20159,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985095,
-      "modifiedDate": 1745499168144,
-      "sizeInBytes": 2691,
+      "modifiedDate": 1746620112187,
+      "sizeInBytes": 2680,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.3166666666666667,
@@ -20233,9 +20173,9 @@
         "ID": "2025-03-25T16:26:51.549Z",
         "tags": [
           "paper",
-          "PenetrationTesting",
           "CSFR",
-          "JWT"
+          "JWT",
+          "penTest"
         ]
       }
     },
@@ -20698,16 +20638,16 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.0533333333333332,
-      "characterCount": 2231,
+      "characterCount": 2232,
       "nonWhitespaceCharacterCount": 1893,
-      "newlineCount": 26,
+      "newlineCount": 27,
       "readingTimeInMinutes": 1.1924528301886792,
       "linkCount": 7,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985114,
-      "modifiedDate": 1744375928365,
-      "sizeInBytes": 2408,
+      "modifiedDate": 1746619987478,
+      "sizeInBytes": 2409,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.0533333333333332,
@@ -20720,7 +20660,7 @@
         "ID": "2025-03-28T08:26:34.005Z",
         "tags": [
           "paper",
-          "BytecodeInstrumentation",
+          "bytecodeInstrumentation",
           "projectSLR",
           "pathTraversal",
           "inputValidation",
@@ -21014,8 +20954,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1746031917597,
-      "modifiedDate": 1746031917605,
-      "sizeInBytes": 692,
+      "modifiedDate": 1746620073819,
+      "sizeInBytes": 599,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.24,
@@ -21026,7 +20966,11 @@
       },
       "frontmatter": {
         "ID": "2025-04-30T16:51:57.570Z",
-        "tags": "paper Security Tools Browsers Forgery MachineLearning Manuals TaskAnalysis CrossSiteRequestForgery MachineLearning WebSecurity projectSLR",
+        "tags": [
+          "paper",
+          "projectSLR",
+          "machineLearning"
+        ],
         "Project": [
           "SLR"
         ]
@@ -21087,7 +21031,7 @@
       "embedCount": 1,
       "aliases": null,
       "createdDate": 1744025519203,
-      "modifiedDate": 1745499080229,
+      "modifiedDate": 1746620173335,
       "sizeInBytes": 1714,
       "sessionStart": {
         "noteCount": 1,
@@ -21101,8 +21045,8 @@
         "ID": "2025-04-07T11:31:59.176Z",
         "tags": [
           "paper",
-          "RandomForest",
-          "CSFR"
+          "CSFR",
+          "randomForest"
         ]
       }
     },
@@ -21224,16 +21168,16 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 2.53,
-      "characterCount": 4956,
+      "characterCount": 4957,
       "nonWhitespaceCharacterCount": 4134,
-      "newlineCount": 58,
+      "newlineCount": 59,
       "readingTimeInMinutes": 2.8641509433962264,
       "linkCount": 4,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985089,
-      "modifiedDate": 1746006630715,
-      "sizeInBytes": 5084,
+      "modifiedDate": 1746620478659,
+      "sizeInBytes": 5085,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 2.53,
@@ -21377,7 +21321,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.7933333333333332,
-      "characterCount": 3694,
+      "characterCount": 3651,
       "nonWhitespaceCharacterCount": 3077,
       "newlineCount": 44,
       "readingTimeInMinutes": 2.030188679245283,
@@ -21385,8 +21329,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985111,
-      "modifiedDate": 1745170420195,
-      "sizeInBytes": 3891,
+      "modifiedDate": 1746621093168,
+      "sizeInBytes": 3836,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.7933333333333332,
@@ -21562,16 +21506,16 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.9566666666666668,
-      "characterCount": 4013,
+      "characterCount": 4014,
       "nonWhitespaceCharacterCount": 3370,
-      "newlineCount": 76,
+      "newlineCount": 77,
       "readingTimeInMinutes": 2.2150943396226417,
       "linkCount": 4,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985103,
-      "modifiedDate": 1746454302371,
-      "sizeInBytes": 4199,
+      "modifiedDate": 1746619881807,
+      "sizeInBytes": 4200,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.9566666666666668,
@@ -21604,16 +21548,16 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.5233333333333333,
-      "characterCount": 1134,
+      "characterCount": 1135,
       "nonWhitespaceCharacterCount": 962,
-      "newlineCount": 20,
+      "newlineCount": 21,
       "readingTimeInMinutes": 0.5924528301886792,
       "linkCount": 7,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985109,
-      "modifiedDate": 1745499536575,
-      "sizeInBytes": 1268,
+      "modifiedDate": 1746618805964,
+      "sizeInBytes": 1269,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.5233333333333333,
@@ -21852,7 +21796,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.94,
-      "characterCount": 3895,
+      "characterCount": 3842,
       "nonWhitespaceCharacterCount": 3208,
       "newlineCount": 54,
       "readingTimeInMinutes": 2.1962264150943396,
@@ -21860,8 +21804,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985105,
-      "modifiedDate": 1745170420220,
-      "sizeInBytes": 4012,
+      "modifiedDate": 1746620875348,
+      "sizeInBytes": 3943,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.94,
@@ -21875,15 +21819,7 @@
         "tags": [
           "paper",
           "projectSLR",
-          [
-            [
-              [
-                [
-                  "clickjacking"
-                ]
-              ]
-            ]
-          ]
+          "clickjacking"
         ],
         "Project": [
           "SLR"
@@ -21906,8 +21842,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1746032083161,
-      "modifiedDate": 1746032083161,
-      "sizeInBytes": 638,
+      "modifiedDate": 1746620159287,
+      "sizeInBytes": 599,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.24,
@@ -21918,7 +21854,11 @@
       },
       "frontmatter": {
         "ID": "2025-04-30T16:54:43.141Z",
-        "tags": "paper X-frame-options,Proxy,Iframe,Clickjacking,UiRedressing,Proclick projectSLR",
+        "tags": [
+          "paper",
+          "projectSLR",
+          "clickjacking"
+        ],
         "Project": [
           "SLR"
         ]
@@ -21932,16 +21872,16 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.22,
-      "characterCount": 524,
+      "characterCount": 525,
       "nonWhitespaceCharacterCount": 446,
-      "newlineCount": 16,
+      "newlineCount": 17,
       "readingTimeInMinutes": 0.2490566037735849,
       "linkCount": 5,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985106,
-      "modifiedDate": 1745848755055,
-      "sizeInBytes": 625,
+      "modifiedDate": 1746618791038,
+      "sizeInBytes": 626,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.22,
@@ -22118,20 +22058,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 516,
+      "wordCount": 518,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.72,
-      "characterCount": 3779,
-      "nonWhitespaceCharacterCount": 3223,
+      "pageCount": 1.7266666666666666,
+      "characterCount": 3794,
+      "nonWhitespaceCharacterCount": 3236,
       "newlineCount": 51,
-      "readingTimeInMinutes": 1.9471698113207547,
+      "readingTimeInMinutes": 1.9547169811320755,
       "linkCount": 3,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1745998536091,
-      "modifiedDate": 1746003882512,
-      "sizeInBytes": 3903,
+      "modifiedDate": 1746621317407,
+      "sizeInBytes": 3918,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.72,
@@ -22243,8 +22183,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1746032146116,
-      "modifiedDate": 1746032146116,
-      "sizeInBytes": 622,
+      "modifiedDate": 1746620222824,
+      "sizeInBytes": 581,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.24,
@@ -22255,7 +22195,10 @@
       },
       "frontmatter": {
         "ID": "2025-04-30T16:55:46.089Z",
-        "tags": "paper Classification,AuthenticationCookies,WebSecurity projectSLR",
+        "tags": [
+          "paper",
+          "projectSLR"
+        ],
         "Project": [
           "SLR"
         ]
@@ -22265,20 +22208,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 321,
+      "wordCount": 316,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.07,
-      "characterCount": 2344,
-      "nonWhitespaceCharacterCount": 1994,
+      "pageCount": 1.0533333333333332,
+      "characterCount": 2320,
+      "nonWhitespaceCharacterCount": 1975,
       "newlineCount": 39,
-      "readingTimeInMinutes": 1.211320754716981,
+      "readingTimeInMinutes": 1.1924528301886792,
       "linkCount": 14,
       "embedCount": 1,
       "aliases": null,
       "createdDate": 1743766985102,
-      "modifiedDate": 1746454288786,
-      "sizeInBytes": 2468,
+      "modifiedDate": 1746619931664,
+      "sizeInBytes": 2481,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.07,
@@ -22293,7 +22236,9 @@
           "paper",
           "projectSLR",
           "authentication",
-          "sessionHijacking"
+          "sessionHijacking",
+          "cookie",
+          "authenticationCookies"
         ],
         "Project": [
           "SLR"
@@ -24767,6 +24712,60 @@
           "clientSideAttacks",
           "webApplication"
         ]
+      }
+    },
+    "01 Notes/web server misconfiguration.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 176,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.5866666666666667,
+      "characterCount": 1521,
+      "nonWhitespaceCharacterCount": 1306,
+      "newlineCount": 38,
+      "readingTimeInMinutes": 0.6641509433962264,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1743766985066,
+      "modifiedDate": 1746620614884,
+      "sizeInBytes": 1521,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "02 Literature/papers/parameter tampering/TamperProof. A server-agnostic defense for parameter tampering attacks on web applications.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 79,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.2633333333333333,
+      "characterCount": 578,
+      "nonWhitespaceCharacterCount": 470,
+      "newlineCount": 32,
+      "readingTimeInMinutes": 0.2981132075471698,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1746032112924,
+      "modifiedDate": 1746620141819,
+      "sizeInBytes": 578,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
       }
     }
   }

@@ -1,9 +1,10 @@
 ---
 ID: 2025-04-30T16:52:29.755Z
-tags: paper Black-boxApproach,Invariant,StateViolationAttack,WebApplicationSecurity projectSLR
-
+tags:
+  - paper
+  - projectSLR
 Project:
- - SLR
+  - SLR
 ---
 ## Context
 

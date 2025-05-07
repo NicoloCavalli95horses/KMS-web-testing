@@ -2,7 +2,7 @@
 ID: 2025-03-28T08:26:34.005Z
 tags:
   - paper
-  - BytecodeInstrumentation
+  - bytecodeInstrumentation
   - projectSLR
   - pathTraversal
   - inputValidation
@@ -16,6 +16,7 @@ Project:
 [[string validation]] vulnerabilities have a long history and many security measures are proposed, but are still in high ranks in vulnerability reports. In this paper, we propose a new technique that can monitor input values and take action if malicious input values are received.
 - The proposed technique finds vulnerable methods and inserts input validation codes in compiled Java web applications (without source codes) using **bytecode [[instrumentation]]**
 - Bytecode instrumentation does not need the program source code, therefore is a [[black-box testing]] approach
+
 ## Approach
 
 Source-code instrumentation is a process that automatically adds specific code to the source files under analysis and investigation. After compilation, the execution of instrumented code produces ==data for runtime analysis or component testing==

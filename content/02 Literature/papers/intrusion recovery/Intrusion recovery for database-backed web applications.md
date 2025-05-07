@@ -22,7 +22,7 @@ Recovering from a web attack is a difficult and manual process. Developers or ad
 
 WARP is the first system to help repairing from attacks in web applications:
 - as soon as an admin is informed that a vulnerability was recently exploited, WARP can set a database to a previous safe state, retroactively patch security vulnerabilities (this mean that a patch is applied to a previous state of the application, to eliminate all the effects of an attack, whereas all the legitimate editing are kept)
-- WARP can repair from [[security misconfiguration]]
+- WARP can repair from [[web server misconfiguration]]
 - WARP continuously records database updates, logging information, and all the dependencies between input and output
 - WARP creates a global dependency graph and uses it to retroactively patch vulnerabilities by rolling back parts of the system to an earlier checkpoint
 - WARP rolls back just the affected parts with precision, minimizing the amount of work during repair. Otherwise, recovering from a week-old attack that affected just one user would require re-executing a week's worth of work

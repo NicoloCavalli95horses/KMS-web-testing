@@ -54,7 +54,7 @@ From [[(Onarlioglu, Buyukkayhan, et al., 2015)]]: clickjacking attacks can be la
 
 ## Prevalence
 
-The current prevalence of clickjacking it is not clear
+ Only 930 pages out of 1.065.482 websites contained invisible iframe (0.16%) [[(Balduzzi, Egele, et al., 2010)]]
 
 ## Clickjacking classification
 

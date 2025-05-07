@@ -1,9 +1,11 @@
 ---
 ID: 2025-04-30T16:51:57.570Z
-tags: paper Security Tools Browsers Forgery MachineLearning Manuals TaskAnalysis CrossSiteRequestForgery MachineLearning WebSecurity projectSLR
-
+tags:
+  - paper
+  - projectSLR
+  - machineLearning
 Project:
- - SLR
+  - SLR
 ---
 ## Context
 

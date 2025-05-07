@@ -3,7 +3,7 @@ ID: 2025-04-03T09:37:21.023Z
 tags:
   - paper
   - projectSLR
-  - [[[[clickjacking]]]]
+  - clickjacking
 Project:
   - SLR
 ---

@@ -20,6 +20,7 @@ Existing CSRF defenses suffer from one or more of the following drawbacks:
 - incompatibility with existing browsers
 - inability to protect dynamically generated requests (requests that are the output of a JavaScript function)
 - lack of support for legitimate cross-origin request (sometimes a cross-origin request is legitimate and you don't want to stop it)
+
 ## Approach
 
 - jCSRF, is implemented in the form of a server-side proxy

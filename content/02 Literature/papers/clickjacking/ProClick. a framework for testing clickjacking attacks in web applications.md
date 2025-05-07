@@ -1,9 +1,11 @@
 ---
 ID: 2025-04-30T16:54:43.141Z
-tags: paper X-frame-options,Proxy,Iframe,Clickjacking,UiRedressing,Proclick projectSLR
-
+tags:
+  - paper
+  - projectSLR
+  - clickjacking
 Project:
- - SLR
+  - SLR
 ---
 ## Context
 

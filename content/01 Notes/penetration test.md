@@ -3,7 +3,8 @@ ID: 2025-04-23-16:17
 tags:
   - "#definition"
   - cyberSecurity
-  - PenetrationTesting
+  - penTest
+  - penetrationTesting
 ---
 ## Definition
 

@@ -9,6 +9,8 @@ tags:
 Project:
   - SLR
 ---
+Taxonomy of prototype pollution gadgets (affected code fragments). UoPF detects direct and chained gadgets in Node.js. The paper focuses on Node.js, but (i) the entry point of the attack is still the front-end, so it is important for us to evaluate the role of the front-end for the attack to be carried out (ii) since JS can also be used for the front-end, the same reasoning applies to the front-end
+
 ## Context
 
 [[prototype pollution]] allows an adversary to contaminate a property of a prototypical object in JavaScript, which further alters the vulnerable program’s logic for the adversary’s purpose.
