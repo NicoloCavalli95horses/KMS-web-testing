@@ -1,13 +1,15 @@
 ---
 ID: 2025-04-30T16:49:48.780Z
-tags: paper WebAttacks,Security,Framing,Forensic projectSLR
-
+tags:
+  - paper
+  - projectSLR
+  - crossSiteFraming
 Project:
- - SLR
+  - SLR
 ---
 ## Context
 
-High-level description of the problem. Use links to low-level notes to specify the context details
+This paper present [[XSF (Cross-site Framing)]] that don't require a malware to be installed in the victim's machine
 
 ## Approach
 

@@ -1,5 +1,5 @@
 Read and summarize (the notes have been already created)
-- [ ] Cross-site framing attacks https://dl.acm.org/doi/10.1145/2818000.2818029
+- [x] Cross-site framing attacks https://dl.acm.org/doi/10.1145/2818000.2818029
 - [ ] Automated removal of cross site scripting vulnerabilities in web applications https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5900&context=sis_research
 - [ ] MITCH. A machine learning approach to the black box detection of CSRF vulnerabilities https://ieeexplore.ieee.org/document/8806728
 - [ ] BLOCK. A black-box approach for detection of state violation attacks towards web applications https://dl.acm.org/doi/10.1145/2076732.2076767
