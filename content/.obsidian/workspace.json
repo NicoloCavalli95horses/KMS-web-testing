@@ -8,51 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e815fbc17e08a669",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Literature/papers/parameter tampering/A Novel Approach for Message Authentication to Prevent Parameter Tampering Attack in Web Applications.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "A Novel Approach for Message Authentication to Prevent Parameter Tampering Attack in Web Applications"
-            }
-          },
-          {
-            "id": "c23174fcf7118f06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Literature/papers/parameter tampering/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications"
-            }
-          },
-          {
-            "id": "b29620109872e2d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Literature/papers/parameter tampering/TamperProof. a server-agnostic defense for parameter tampering attacks on web applications.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "TamperProof. a server-agnostic defense for parameter tampering attacks on web applications"
-            }
-          },
-          {
             "id": "40858b22aad64b65",
             "type": "leaf",
             "state": {
@@ -67,8 +22,7 @@
               "title": "WAPTEC. whitebox analysis of web applications for parameter tampering exploit construction"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -231,12 +185,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c23174fcf7118f06",
+  "active": "40858b22aad64b65",
   "lastOpenFiles": [
-    "02 Literature/papers/parameter tampering/WAPTEC. whitebox analysis of web applications for parameter tampering exploit construction.md",
     "02 Literature/papers/parameter tampering/TamperProof. a server-agnostic defense for parameter tampering attacks on web applications.md",
     "02 Literature/papers/parameter tampering/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
+    "03 References/(Asish Kumar Dalai, Saroj Kumar Panigrahy, et al., 2012).md",
     "02 Literature/papers/parameter tampering/A Novel Approach for Message Authentication to Prevent Parameter Tampering Attack in Web Applications.md",
+    "02 Literature/papers/parameter tampering/WAPTEC. whitebox analysis of web applications for parameter tampering exploit construction.md",
     "02 Literature/papers/code synthesis/WAVES. Automatic Synthesis of Client-Side Validation Code for Web Applications.md",
     "01 Notes/MF (Micro-Frontend) architecture.md",
     "02 Literature/papers/CMS (Content Management System)/Comparative analysis of web security in open source content management system.md",
@@ -269,7 +224,6 @@
     "03 References/(Shahriar, Devendran, et al., 2013).md",
     "02 Literature/papers/prototype pollution/Detecting prototype pollution for node.js. Vulnerability review and new fuzzing inputs.md",
     "03 References/(Peng Zhou, Yuhan Gao, et al., 2024).md",
-    "02 Literature/papers/logic flow tampering/From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery.md",
     "02 Literature/papers/Cross-Site Framing (CSF)",
     "97 Assets/IVD_invariant_detector_facebook.png",
     "Excalidraw",
