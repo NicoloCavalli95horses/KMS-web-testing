@@ -141,6 +141,7 @@ function getPaperContent({ ref, tags = [], project }) {
   return `---
 ID: ${new Date().toISOString()}
 tags: paper ${toCamelCase(tags) + ' project'+ project }
+Rank: N/A
 ${project ? '\nProject:\n - ' + project : ''}
 ---
 ## Context
