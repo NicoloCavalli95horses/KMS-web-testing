@@ -11,7 +11,7 @@ tags:
 Project:
   - SLR
 ---
-Interesting recovery solution that allows an administrator to retroactively fix a vulnerability, eliminating all effects of an attack and preserving legitimate user changes. Can be used against SQL injection, cross-site scripting, and clickjacking attacks. A DOM-level response to user input ensures that legitimate user changes are preserved. Not fully automated and requires large storage capacity.
+Interesting recovery solution that allows an administrator to retroactively fix a vulnerability, eliminating all effects of an attack and preserving legitimate user changes. Can be used against SQL injection, XSS, and clickjacking attacks. A DOM-level response to user input ensures that legitimate user changes are preserved. Not fully automated and requires large storage capacity.
 
 ## Context
 

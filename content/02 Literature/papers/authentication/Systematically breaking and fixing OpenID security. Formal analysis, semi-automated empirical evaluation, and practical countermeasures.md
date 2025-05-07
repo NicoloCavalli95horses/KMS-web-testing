@@ -3,11 +3,13 @@ ID: 2025-03-20T08:33:20.693Z
 tags:
   - paper
   - authentication
-  - [[[[OpenID]]]]
   - projectSLR
+  - OpenID
 Project:
   - SLR
 ---
+Flaws in the OpenID protocol are discussed. A number of client-side attacks are still possible in OpenID-enabled websites (XSS, CSRF, session hijacking)
+
 ## Context
 
 [[OpenID]] is an identification protocol that allows users to log in to multiple sites using a single identity provider (e.g. Google, Facebook).

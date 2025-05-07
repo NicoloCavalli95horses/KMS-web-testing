@@ -11,7 +11,7 @@ tags:
 Project:
   - SLR
 ---
-This research leverage a graph-based representation of known attack scenarios (sequences of URLs from syslogs) to train an algorithm to classify new user interactions as benign or malicious. Isomorphism in subgraph of the new interactions are verifyied 
+This research leverage a graph-based representation of known attack scenarios (sequences of URLs from syslogs) to train an algorithm to classify new user interactions as benign or malicious. Isomorphism in subgraph of the new interactions are verified 
 ## Context
 
 Moder applications implement a multi-tier model involving ==multiple application providers that interface together== in order to supply a service. For example, an e-commerce may leverage on an authentication service and on a payment service, and a blog may leverage on a service to handle a comment or forum section.
@@ -20,7 +20,7 @@ Moder applications implement a multi-tier model involving ==multiple application
 
 ## Approach
 
-A [[black-box testing]] approach offers good opportunities to detect flaws in a service workflow, but active (i) [[fuzzing]] techniques have a limited coverage, while (ii) passive learning techniques have usually a high false positive rate
+A [[black-box testing]] approach offers good opportunities to detect flaws in a service workflow, but (i) active [[fuzzing]] techniques have a limited coverage, while (ii) passive learning techniques have usually a high false positive rate
 
 [[white-box testing]] techniques instead can leverage the source code but (i) don't take into account service workflows or the user interactions with the [[GUI (graphical user interface)]], (ii) suffer from high false negatives rates
 
@@ -51,7 +51,7 @@ This module applies sub-graph isomorphism to both the event graph and the user b
 - identifying all benign user interactions with the service, and associates them with different behavior classes
 - unknown pattern are classified as new possible attack behavior
 
-> [![[[[error]]]]] User interactions as a sequence of URLs
+> [!warning] User interactions as a sequence of URLs
 > URLs are used as a way to represent user behaviors
 
 ## Testing the model

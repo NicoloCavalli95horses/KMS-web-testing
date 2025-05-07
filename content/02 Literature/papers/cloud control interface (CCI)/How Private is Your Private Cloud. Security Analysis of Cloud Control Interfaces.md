@@ -10,9 +10,7 @@ tags:
 Project:
   - SLR
 ---
-
-> [!warning] What is a CCI
-> A CCI is a self-service interface that allows starting or stopping VMs. These interfaces may be based on any standardized technology (XML/SOAP, REST/HTTP, JSON, AJAX, etc.), and often use a web interface as client
+A CCI is a self-service interface that allows starting or stopping VMs. These interfaces may be based on any standardized technology (XML/SOAP, REST/HTTP, JSON, AJAX, etc.), and often use a web interface as client. The CCIs have public parts that can be exploited. XSS, CSRF, RCE were found in 3 popular IaaS platforms
 
 ## Context
 

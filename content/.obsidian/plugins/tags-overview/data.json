@@ -5,7 +5,7 @@
   "sortFiles": "name",
   "keepFilters": true,
   "displayHeaders": false,
-  "storedFilters": "projectSLR",
+  "storedFilters": "browser",
   "showNested": true,
   "showRelatedTags": true,
   "showCalendarDates": true,
