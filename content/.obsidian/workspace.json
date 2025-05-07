@@ -54,8 +54,7 @@
               "title": "RQ1. Role of front-end software in web security"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -218,10 +217,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ffba634a371d1965",
+  "active": "8d1fd26dbb35a9e2",
   "lastOpenFiles": [
-    "02 Literature/papers/Cross-Site Framing (CSF)/Cross-Site Framing Attacks.md",
     "01 Notes/XSF (Cross-site Framing).md",
+    "02 Literature/papers/Cross-Site Framing (CSF)/Cross-Site Framing Attacks.md",
     "01 Notes/CSRF (cross-site request forgery).md",
     "TO DO.md",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",

@@ -26,15 +26,11 @@ Attacker's traces can be covered:
 
 ## Evaluation
 
-Often a tool or a solution is implemented. How was that solution evaluated?
-
-## Results
-
-Describe the results in simple terms
+Forensic tools do not detect Cross-Site Framing attacks (as 2015)
 
 ## Limits
 
-What are the limits of the research? What could be improved?
+Cross-Site Framing is a new attack that need more studies
 
 ---
 #### References
