@@ -8,6 +8,7 @@ tags:
   - crossDomainPolicy
   - CSP
   - objectStorage
+Rank: A*
 Project:
   - SLR
 ---
