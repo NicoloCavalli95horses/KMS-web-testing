@@ -42,7 +42,7 @@ The user:
 
 Attackers have used clickjacking attacks to trick users into liking a fan page on Facebook or re-tweeting a message on Twitter [[(Hazhirpasand, 2020)]]
 
-**Tweetbomb and likejacking**  [[(Shahriar, Haddad, et al., 2015)]]
+**Tweetbomb and likejacking**  [[(Shahriar, Haddad, et al., 2015)]][[(Shahriar, Devendran, et al., 2013)]]
 - using clickjacking to trick an user to like a post on Facebook or share a post Tweeter, causing an increase of traffic to the attacker's content
 
 From [[(Balduzzi, Egele, et al., 2010)]]:
@@ -51,6 +51,8 @@ From [[(Balduzzi, Egele, et al., 2010)]]:
 - posting blog or forum messages
 
 From [[(Onarlioglu, Buyukkayhan, et al., 2015)]]: clickjacking attacks can be launched from malicious legacy browser's extensions
+
+From [[(Shahriar, Devendran, et al., 2013)]]: clickjacking attacks can lead a victim buying items on Amazon or performing undesired financial transactions
 
 ## Prevalence
 
@@ -69,17 +71,28 @@ From [[(Onarlioglu, Buyukkayhan, et al., 2015)]]: clickjacking attacks can be la
 - online games are a perfect example of this attack. Hackers can exploit this situation to get access to webcam, or to bypass security captcha embedded in an iframe
 - an hidden iframe may be added in front of the mouse just before the user performs the click and removed just after [[(Balduzzi, Egele, et al., 2010)]]
 
+## Advanced attacks 
+
+From [[(Shahriar, Devendran, et al., 2013)]]:
+- **Multiple iframes**: will bypass the frame busting code technique
+- **Event handler overriding:** a malicious popup could be displayed as the user tries to close or reload the page (`onBeforeUnload` event is executed when a page is about to be unloaded)
+- **No-content response (204)**: legacy browsers used to handle 204 responses in a particular way. Iframed websites used to get 204 Browser cancelled the loading and forced an iframe
+- **Reflective [[XSS (cross site scripting)]]**
+- [[DOM clobbering]] can be used to pollute global objects used in frame busting code (`top.location` can be overwritten by an attacker)
+- **Disabling JS in iframe using `sandbox`**: this is a double-edged sword because it can protect against malicious iframe code but, at the same time, legitimate frame busting code in the legitimate iframe will not be executed.
+
 ## Mitigation techniques
 
-**Frame busting** [[(Hazhirpasand, 2020)]]  [[(Selim, Tayeb, et al., 2016)]] [[(Shahriar, Haddad, et al., 2015)]] [[(Sood, Enbody, et al., 2011)]] [[(Sinha, Uppal, et al., 2014)]]
+**Frame busting** [[(Hazhirpasand, 2020)]]  [[(Selim, Tayeb, et al., 2016)]] [[(Shahriar, Haddad, et al., 2015)]] [[(Sood, Enbody, et al., 2011)]] [[(Sinha, Uppal, et al., 2014)]] [[(Shahriar, Devendran, et al., 2013)]]
 Frame busting is a technique to prevent a given web page from being loaded in a sub-frame. Many JS snippet have been proposed to implement that solution
 - given that is a client-side implementation, it can be modified by an attacker, so does not really protect against a well-crafted targeted attack
 - using the `sandbox` attribute would allow an attacker to bypass the framebusting[^1]
 - using *nested iframes* could break the logic, given that even if the second iframe is reloaded and takes the place of the first iframe, the legitimate content is still framed
+- third-party embeddable widgets, such as Facebook *like* button are not inside an iframe and are therefore still exposed [[(Shahriar, Devendran, et al., 2013)]]:
 
 ```javascript
 // framebusting example
-// window.self === self === window
+// window.self === self
 // window.top is the topmost window on the iframe stack
 if (window.top != window.self) {
   // if your website is embedded in an <iframe> this will force the page to reload. The malicious website is replaced with the legitimate one
@@ -93,28 +106,30 @@ Rigid clickjacking prevention are challenging to implement by browser vendors, b
 using `X-Frame-Options` header in `HTTP` will prohibits a website from being rendered in a iframe. [[(Aditya Sood, Richard Enbody, et al., 2011)]] ,[[(Selim, Tayeb, et al., 2016)]], [[(Shahriar, Haddad, et al., 2015)]] , [[(Sood, Enbody, et al., 2011)]] [[(Sinha, Uppal, et al., 2014)]], [[(Balduzzi, Egele, et al., 2010)]]
 - only 11.11% of Alexa's top 1 million sites implement `X-Frame-Options` header 
 - Header-based solutions are difficult to scale up for organizations hosting multiple websites referring each other [[(Shahriar, Haddad, et al., 2015)]]
+- By-passable with proxies [[(Shahriar, Devendran, et al., 2013)]]:
 
-**Confirmation dialog** [[(Shahriar, Haddad, et al., 2015)]]
+**Confirmation dialog** [[(Shahriar, Haddad, et al., 2015)]] [[(Shahriar, Devendran, et al., 2013)]]
 A confirmation dialog has been proposed to mitigate clickjacking attacks when there is a possible out-of-context click.
 - the user experience is degraded and the user is involved in a security measure that should be his responsibility
 
-**GUI randomization** [[(Shahriar, Haddad, et al., 2015)]], [[(Sinha, Uppal, et al., 2014)]]
+**GUI randomization** [[(Shahriar, Haddad, et al., 2015)]], [[(Sinha, Uppal, et al., 2014)]] [[(Shahriar, Devendran, et al., 2013)]]
 Randomizing the layout of small part of the UI to prevent an attacker to correctly locate the position of the target element
 - the user experience is degraded
 - the performance of the page is degraded
 
-**Blocking of mouse click** [[(Shahriar, Haddad, et al., 2015)]]
+**Blocking of mouse click** [[(Shahriar, Haddad, et al., 2015)]] [[(Shahriar, Devendran, et al., 2013)]]
 Blocking the mouse if browser detects that the clicked cross-origin frame is not fully visible
 
-**Browser plugins/extensions** [[(Shahriar, Haddad, et al., 2015)]], 
-- ClickIDS for Firefox: to detect overlapping clicks by comparing the mouse position to the position of clickable elements inside an iframe. The user is warned when an overlap is found (implemented by [[(Balduzzi, Egele, et al., 2010)]]) 
+**Browser plugins/extensions** [[(Shahriar, Haddad, et al., 2015)]], [[(Shahriar, Devendran, et al., 2013)]]
+- **ClickIDS** for Firefox: to detect overlapping clicks by comparing the mouse position to the position of clickable elements inside an iframe. The user is warned when an overlap is found (implemented by [[(Balduzzi, Egele, et al., 2010)]]) 
 - [Noscript](https://addons.mozilla.org/en-US/firefox/addon/noscript/): disables all JavaScript elements. It can degrade the user experience or prevent the user to fully access all the functionalities of a web application
+- [WebOfTrust](https://www.mywot.com/): passively prevents clickjacking attacks by discouraging users to visit malicious web pages that are potentially framing legitimate websites in iframes. The tool relies on user ratings of malicious websites.
 
 **Client-side proxy** [[(Shahriar, Haddad, et al., 2015)]]
 - The approach intercepts requests and responses and uses a set of policies to examine for matching with known clickjacking attacks. The approach delays the generation of response pages due to rigorous checking of JavaScript code.
 
 From [[(Sinha, Uppal, et al., 2014)]]:
-- **ProClick**: a client-side proxy that analyzes a web page for clickjacking symptoms before its rendering. It leverages on the HTTP communication to detect iframes 
+- **ProClick**: a client-side proxy that analyzes a web page for clickjacking symptoms before its rendering. It leverages on the HTTP communication to detect iframes [[(Shahriar, Devendran, et al., 2013)]]
 - **ClearClick**: a browser plugin that monitors the page behavior during click actions. If a user is about to click on a page that has been framed or on a plug-in object, ClearClick takes a screenshot of the iframed page with opacity as zero. This screenshot is compared to the parent page's screenshot and if any difference is found in the two images the click action is prevented [[(Balduzzi, Egele, et al., 2010)]]
 
 ## Limits of existing studies
@@ -136,5 +151,6 @@ From [[(Sinha, Uppal, et al., 2014)]]:
 
 Project SLR:
 - [[(Onarlioglu, Buyukkayhan, et al., 2015)]]
+- [[(Shahriar, Devendran, et al., 2013)]]
 
 [^1]: A number of values can be specified to control the behavior of the iframed content. More details [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe)

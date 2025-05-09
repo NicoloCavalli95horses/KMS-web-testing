@@ -1,6 +1,6 @@
 Read and summarize (the notes have been already created)
 - [x] ProClick: a framework for testing clickjacking attacks in web applications https://dl.acm.org/doi/10.1145/2523514.2523538
-- [x] From Hindsight to Foresight: Enhancing Design Artifacts for Business Logic Flaw Discovery https://dl.acm.org/doi/10.1145/3564625.3564654
+- [ ] From Hindsight to Foresight: Enhancing Design Artifacts for Business Logic Flaw Discovery https://dl.acm.org/doi/10.1145/3564625.3564654
 - [ ] MITCH. A machine learning approach to the black box detection of CSRF vulnerabilities https://ieeexplore.ieee.org/document/8806728
 - [ ] BLOCK. A black-box approach for detection of state violation attacks towards web applications https://dl.acm.org/doi/10.1145/2076732.2076767
 - [ ] Detecting prototype pollution for node.js: Vulnerability review and new fuzzing inputs https://www.sciencedirect.com/science/article/abs/pii/S0167404823005357?via%3Dihub

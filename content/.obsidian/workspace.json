@@ -4,37 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "9e3a065b3c5c88c2",
+        "id": "3323509699d0797f",
         "type": "tabs",
         "children": [
           {
-            "id": "bbbcde26a7510ed1",
+            "id": "1f934466b9800d1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/object storage (blob storage)/Do Not Trust the Clouds Easily. The Insecurity of Content Security Policy Based on Object Storage.md",
+                "file": "02 Literature/papers/clickjacking/ProClick. a framework for testing clickjacking attacks in web applications.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Do Not Trust the Clouds Easily. The Insecurity of Content Security Policy Based on Object Storage"
+              "title": "ProClick. a framework for testing clickjacking attacks in web applications"
             }
           },
           {
-            "id": "4ef084505c5cf356",
+            "id": "04261c1c2887e880",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/CSP (Content Security Policy).md",
+                "file": "01 Notes/clickjacking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "CSP (Content Security Policy)"
+              "title": "clickjacking"
             }
           }
         ],
@@ -201,34 +201,34 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4ef084505c5cf356",
+  "active": "04261c1c2887e880",
   "lastOpenFiles": [
-    "02 Literature/papers/object storage (blob storage)/Do Not Trust the Clouds Easily. The Insecurity of Content Security Policy Based on Object Storage.md",
-    "TO DO.md",
     "02 Literature/papers/clickjacking/ProClick. a framework for testing clickjacking attacks in web applications.md",
+    "01 Notes/clickjacking.md",
+    "03 References/(Shahriar, Devendran, et al., 2013).md",
+    "03 References/(Shahriar, Haddad, et al., 2015).md",
+    "03 References/(Hazhirpasand, 2020).md",
+    "96 Meta/SLR/Paper list.md",
+    "02 Literature/papers/logic flow tampering/Finding client-side business flow tampering vulnerabilities.md",
+    "TO DO.md",
+    "02 Literature/papers/XSS (Cross-Site Scripting)/Automated removal of cross site scripting vulnerabilities in web applications.md",
+    "02 Literature/papers/authentication/A Supervised Learning Approach to Protect Client Authentication on the Web.md",
+    "02 Literature/papers/parameter tampering/TamperProof. A server-agnostic defense for parameter tampering attacks on web applications.md",
+    "02 Literature/papers/prototype pollution/Detecting prototype pollution for node.js. Vulnerability review and new fuzzing inputs.md",
+    "02 Literature/papers/logic flow tampering/BLOCK. a black-box approach for detection of state violation attacks towards web applications.md",
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/Mitch. A Machine Learning Approach to the Black-Box Detection of CSRF Vulnerabilities.md",
+    "02 Literature/papers/logic flow tampering/From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery.md",
+    "02 Literature/papers/object storage (blob storage)/Do Not Trust the Clouds Easily. The Insecurity of Content Security Policy Based on Object Storage.md",
+    "96 Meta/Publication deadlines.md",
+    "01 Notes/CSP (Content Security Policy).md",
     "02 Literature/papers/code synthesis/WAVES. Automatic Synthesis of Client-Side Validation Code for Web Applications.md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/On Security Issues in Web Applications through Cross Site Scripting (XSS).md",
     "03 References/(Malviya, Saurav, et al., 2013).md",
-    "96 Meta/SLR/Paper list.md",
     "96 Meta/SLR/Tags analysis.md",
-    "02 Literature/papers/authentication/A Supervised Learning Approach to Protect Client Authentication on the Web.md",
     "02 Literature/papers/prototype pollution/Undefined-oriented Programming. Detecting and Chaining Prototype Pollution Gadgets in Node.js Template Engines for Malicious Consequences.md",
     "02 Literature/papers/testing enhancements/What All the PHUZZ Is About. A Coverage-guided Fuzzer for Finding Vulnerabilities in PHP Web Applications.md",
     "02 Literature/papers/redirect vulnerability/Fear the EAR. discovering and mitigating execution after redirect vulnerabilities.md",
     "02 Literature/papers/SQLIA (SQL Injection Attack)/SENTINEL. securing database from logic flaws in web applications.md",
-    "01 Notes/SQLIA (SQL injection attack).md",
-    "02 Literature/papers/browser vulnerability/Sentinel. Securing legacy firefox extensions.md",
-    "02 Literature/papers/cookies/Quite a mess in my cookie jar! leveraging machine learning to protect web authentication.md",
-    "02 Literature/papers/parameter tampering/TamperProof. A server-agnostic defense for parameter tampering attacks on web applications.md",
-    "02 Literature/papers/clickjacking/A solution for the automated detection of clickjacking attacks.md",
-    "01 Notes/clickjacking.md",
-    "02 Literature/papers/server configuration/Confeagle. Automated Analysis of Configuration Vulnerabilities in Web Applications.md",
-    "01 Notes/web server misconfiguration.md",
-    "02 Literature/papers/web vulnerabilities reviews/Systematic review and taxonomy of web applications threats.md",
-    "02 Literature/papers/intrusion recovery/Intrusion recovery for database-backed web applications.md",
-    "02 Literature/papers/CSRF (Cross Site Request Forgery)/A server and browser transparent CSRF defense for web 2.0 applications.md",
-    "02 Literature/papers/logic flow tampering/LogicScope. automatic discovery of logic vulnerabilities within web applications.md",
-    "01 Notes/forced browsing.md",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",

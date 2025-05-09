@@ -4,12 +4,13 @@ tags:
   - paper
   - projectSLR
   - clickjacking
+Rank: C
 Project:
   - SLR
 ---
 ## Context
 
-High-level description of the problem. Use links to low-level notes to specify the context details
+[[clickjacking]] attacks allure users to click on objects transparently placed in malicious web pages. The resultant actions of the click operation may cause unwanted operations in the legitimate websites without the knowledge of users
 
 ## Approach
 
@@ -17,15 +18,12 @@ Describe the research approach in simple terms. What did the authors do to solve
 
 ## Evaluation
 
-Often a tool or a solution is implemented. How was that solution evaluated?
+*ProClick* was evaluated
+- on 100 legitimate websites from Alexa
+- on a set of 6 malicious websites created ad-hoc (no reliable dataset of malicious websites was found for clickjacking)
 
-## Results
+Low false positive rates
 
-Describe the results in simple terms
-
-## Limits
-
-What are the limits of the research? What could be improved?
 
 ---
 #### References
