@@ -1133,7 +1133,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.07666666666666666,
-      "characterCount": 372,
+      "characterCount": 364,
       "nonWhitespaceCharacterCount": 318,
       "newlineCount": 9,
       "readingTimeInMinutes": 0.08679245283018867,
@@ -1141,8 +1141,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985174,
-      "modifiedDate": 1744622087532,
-      "sizeInBytes": 441,
+      "modifiedDate": 1746804220130,
+      "sizeInBytes": 427,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.07666666666666666,
@@ -1335,7 +1335,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.15333333333333332,
-      "characterCount": 622,
+      "characterCount": 614,
       "nonWhitespaceCharacterCount": 542,
       "newlineCount": 9,
       "readingTimeInMinutes": 0.17358490566037735,
@@ -1343,8 +1343,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985171,
-      "modifiedDate": 1744622087553,
-      "sizeInBytes": 691,
+      "modifiedDate": 1746804390088,
+      "sizeInBytes": 664,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.15333333333333332,
@@ -1355,9 +1355,8 @@
       },
       "frontmatter": {
         "ID": "2025-04-01T09:19:32.430Z",
-        "tags": "ref",
-        "Project": [
-          "SLR"
+        "tags": [
+          "ref"
         ]
       }
     },
@@ -1539,16 +1538,16 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.6866666666666666,
-      "characterCount": 1628,
-      "nonWhitespaceCharacterCount": 1400,
+      "characterCount": 1624,
+      "nonWhitespaceCharacterCount": 1396,
       "newlineCount": 9,
       "readingTimeInMinutes": 0.7773584905660378,
-      "linkCount": 3,
+      "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985170,
-      "modifiedDate": 1745918859680,
-      "sizeInBytes": 1691,
+      "modifiedDate": 1746804432908,
+      "sizeInBytes": 1674,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.6866666666666666,
@@ -1559,9 +1558,8 @@
       },
       "frontmatter": {
         "ID": "2025-03-26T13:55:35.290Z",
-        "tags": "ref",
-        "Project": [
-          "SLR"
+        "tags": [
+          "ref"
         ]
       }
     },
@@ -1840,7 +1838,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.19,
-      "characterCount": 770,
+      "characterCount": 753,
       "nonWhitespaceCharacterCount": 670,
       "newlineCount": 18,
       "readingTimeInMinutes": 0.21509433962264152,
@@ -1848,8 +1846,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985165,
-      "modifiedDate": 1744622087577,
-      "sizeInBytes": 818,
+      "modifiedDate": 1746804266551,
+      "sizeInBytes": 797,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.19,
@@ -2712,7 +2710,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.18,
-      "characterCount": 612,
+      "characterCount": 604,
       "nonWhitespaceCharacterCount": 524,
       "newlineCount": 9,
       "readingTimeInMinutes": 0.2037735849056604,
@@ -2720,8 +2718,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985159,
-      "modifiedDate": 1744622087596,
-      "sizeInBytes": 681,
+      "modifiedDate": 1746804488017,
+      "sizeInBytes": 667,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.18,
@@ -21380,7 +21378,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.6166666666666667,
-      "characterCount": 1296,
+      "characterCount": 1283,
       "nonWhitespaceCharacterCount": 1089,
       "newlineCount": 14,
       "readingTimeInMinutes": 0.6981132075471698,
@@ -21388,8 +21386,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985047,
-      "modifiedDate": 1744622087478,
-      "sizeInBytes": 1378,
+      "modifiedDate": 1746802770941,
+      "sizeInBytes": 1360,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.6166666666666667,
@@ -22076,20 +22074,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 1700,
+      "wordCount": 1717,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 5.666666666666667,
-      "characterCount": 11710,
-      "nonWhitespaceCharacterCount": 9873,
-      "newlineCount": 150,
-      "readingTimeInMinutes": 6.415094339622642,
-      "linkCount": 64,
+      "pageCount": 5.723333333333334,
+      "characterCount": 11834,
+      "nonWhitespaceCharacterCount": 9975,
+      "newlineCount": 154,
+      "readingTimeInMinutes": 6.479245283018868,
+      "linkCount": 68,
       "embedCount": 2,
       "aliases": null,
       "createdDate": 1743766985044,
-      "modifiedDate": 1746779064675,
-      "sizeInBytes": 11814,
+      "modifiedDate": 1746804615815,
+      "sizeInBytes": 11938,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 5.666666666666667,

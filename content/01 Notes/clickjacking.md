@@ -142,15 +142,19 @@ From [[(Sinha, Uppal, et al., 2014)]]:
 - [[(Hoffman, 2024)]]
 - Included in literature review, by [[(Onukrane, Skrodelis, et al., 2023)]]
 - Granting web permissions, by [[(Hazhirpasand, 2020)]]
-- HTTP header example from [[(Aditya Sood, Richard Enbody, et al., 2011)]]
 - [[(Selim, Tayeb, et al., 2016)]]
-- Risk assessment, by [[(Shahriar, Haddad, et al., 2015)]]
-- Short literature review, by [[(Sood, Enbody, et al., 2011)]]
 - Short literature review, by [[(Sinha, Uppal, et al., 2014)]]
-- [[(Balduzzi, Egele, et al., 2010)]]
 
-Project SLR:
+Related to clickjacking in project SLR:
+- [[(Lv, Shi, et al., 2023)]]
+- [[(Gelernter, Grinstein, et al., 2015)]]
+- [[(Shahriar, Haddad, et al., 2015)]]
 - [[(Onarlioglu, Buyukkayhan, et al., 2015)]]
 - [[(Shahriar, Devendran, et al., 2013)]]
+- [[(Chandra, Kim, et al., 2011)]]
+-  [[(Sood, Enbody, et al., 2011)]]
+- HTTP header example from [[(Aditya Sood, Richard Enbody, et al., 2011)]]
+- [[(Balduzzi, Egele, et al., 2010)]]
+- [[(Stamm, Sterne, et al., 2010)]]
 
 [^1]: A number of values can be specified to control the behavior of the iframed content. More details [here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe)
