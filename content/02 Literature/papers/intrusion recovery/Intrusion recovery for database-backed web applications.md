@@ -8,6 +8,7 @@ tags:
   - SQLIA
   - XSS
   - clickjacking
+Rank: A*
 Project:
   - SLR
 ---

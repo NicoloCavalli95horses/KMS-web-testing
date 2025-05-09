@@ -7,6 +7,7 @@ tags:
   - authorization
   - socialNetworkSecurity
   - parameterTampering
+Rank: A*
 Project:
   - SLR
 ---

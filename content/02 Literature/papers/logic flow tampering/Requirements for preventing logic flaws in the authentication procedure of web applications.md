@@ -7,6 +7,7 @@ tags:
   - GUI
   - authentication
   - HCI
+Rank: B
 Project:
   - SLR
 ---
@@ -14,7 +15,7 @@ Project:
 
 Authentication and authorization of web applications are continuously targeted by attackers to get unauthorized accesses. Efforts are made in detecting and finding input validation (see [[string validation]]).
 
-In contrast, less attention is paid to [[BFT (business flow tampering)]]. 
+In contrast, less attention is paid to [[BFT (business flow tampering)]] and [[logic vulnerability]]
 
 The main difference between logic flaws and input validation flaws is their exploits. To exploit an ==input validation flaw the attackers mainly leverage on coding mistakes==, such as a lack of input variables control, to then inject malicious code (e.g., [[SQLIA (SQL injection attack)]], [[XSS (cross site scripting)]]).
 A ==logic flaw exploit ==requires the attacker to find out ==a defect in the way the application makes decisions==.
@@ -60,7 +61,6 @@ A ==logic flaw exploit ==requires the attacker to find out ==a defect in the way
 8. **Active session limitation assurance**. It is a good practice to limit the lifetime of an active session
 9. **Entity authentication assurance**. Sensitive actions such as identity modification (e.g., password modification) shall require a new instant authentication
 10. **Deadlock avoidance assurance**. The legitimate user should be always able to update or recover its own credential.
-
 
 ---
 

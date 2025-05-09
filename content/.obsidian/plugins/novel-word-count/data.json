@@ -105,20 +105,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 119,
+      "wordCount": 107,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.39666666666666667,
-      "characterCount": 1288,
-      "nonWhitespaceCharacterCount": 1146,
-      "newlineCount": 12,
-      "readingTimeInMinutes": 0.4490566037735849,
+      "pageCount": 0.3566666666666667,
+      "characterCount": 1160,
+      "nonWhitespaceCharacterCount": 1031,
+      "newlineCount": 11,
+      "readingTimeInMinutes": 0.4037735849056604,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1746032192666,
-      "modifiedDate": 1746776322937,
-      "sizeInBytes": 1288,
+      "modifiedDate": 1746779390046,
+      "sizeInBytes": 1160,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.4,
@@ -7266,20 +7266,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 37,
+      "wordCount": 65,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.12333333333333334,
-      "characterCount": 302,
-      "nonWhitespaceCharacterCount": 256,
-      "newlineCount": 12,
-      "readingTimeInMinutes": 0.13962264150943396,
-      "linkCount": 1,
+      "pageCount": 0.21666666666666667,
+      "characterCount": 491,
+      "nonWhitespaceCharacterCount": 416,
+      "newlineCount": 13,
+      "readingTimeInMinutes": 0.24528301886792453,
+      "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744708182803,
-      "modifiedDate": 1744727151624,
-      "sizeInBytes": 403,
+      "modifiedDate": 1746780443823,
+      "sizeInBytes": 592,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.12333333333333334,
@@ -8385,8 +8385,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744624613148,
-      "modifiedDate": 1744715459237,
-      "sizeInBytes": 918,
+      "modifiedDate": 1746781088597,
+      "sizeInBytes": 964,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.38666666666666666,
@@ -8398,7 +8398,9 @@
       "frontmatter": {
         "ID": "2025-04-14-11:56",
         "tags": [
-          "#definition"
+          "#definition",
+          "HybridPropertyGraph",
+          "softwareEngineering"
         ]
       }
     },
@@ -11118,20 +11120,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 1647,
+      "wordCount": 1700,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 5.49,
-      "characterCount": 11360,
-      "nonWhitespaceCharacterCount": 9577,
+      "pageCount": 5.666666666666667,
+      "characterCount": 11710,
+      "nonWhitespaceCharacterCount": 9873,
       "newlineCount": 150,
-      "readingTimeInMinutes": 6.215094339622642,
+      "readingTimeInMinutes": 6.415094339622642,
       "linkCount": 64,
       "embedCount": 2,
       "aliases": null,
       "createdDate": 1743766985044,
-      "modifiedDate": 1746778700858,
-      "sizeInBytes": 11464,
+      "modifiedDate": 1746779064675,
+      "sizeInBytes": 11814,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 4.65,
@@ -17302,20 +17304,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 245,
+      "wordCount": 244,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.8166666666666667,
-      "characterCount": 1689,
-      "nonWhitespaceCharacterCount": 1415,
+      "pageCount": 0.8133333333333334,
+      "characterCount": 1684,
+      "nonWhitespaceCharacterCount": 1411,
       "newlineCount": 36,
-      "readingTimeInMinutes": 0.9245283018867925,
+      "readingTimeInMinutes": 0.9207547169811321,
       "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1745411142987,
-      "modifiedDate": 1746617408217,
-      "sizeInBytes": 1787,
+      "modifiedDate": 1746781170611,
+      "sizeInBytes": 1790,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.8166666666666667,
@@ -17331,6 +17333,7 @@
           "projectSLR",
           "XSS"
         ],
+        "Rank": "A",
         "Project": [
           "SLR"
         ]
@@ -17426,8 +17429,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1746031871843,
-      "modifiedDate": 1746031871843,
-      "sizeInBytes": 565,
+      "modifiedDate": 1746779940201,
+      "sizeInBytes": 580,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.24,
@@ -17438,7 +17441,11 @@
       },
       "frontmatter": {
         "ID": "2025-04-30T16:51:11.813Z",
-        "tags": "paper  projectSLR",
+        "tags": [
+          "paper",
+          "projectSLR"
+        ],
+        "Rank": "A",
         "Project": [
           "SLR"
         ]
@@ -18104,8 +18111,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744037367902,
-      "modifiedDate": 1744039635260,
-      "sizeInBytes": 2937,
+      "modifiedDate": 1746781540087,
+      "sizeInBytes": 2945,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.5366666666666666,
@@ -18122,6 +18129,7 @@
           "tabnabbing",
           "phishing"
         ],
+        "Rank": "A",
         "Project": [
           "SLR"
         ]
@@ -18717,20 +18725,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 1058,
+      "wordCount": 1081,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 3.526666666666667,
-      "characterCount": 7053,
-      "nonWhitespaceCharacterCount": 5926,
-      "newlineCount": 83,
-      "readingTimeInMinutes": 3.9924528301886792,
-      "linkCount": 16,
+      "pageCount": 3.6033333333333335,
+      "characterCount": 7216,
+      "nonWhitespaceCharacterCount": 6066,
+      "newlineCount": 84,
+      "readingTimeInMinutes": 4.079245283018868,
+      "linkCount": 18,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985127,
-      "modifiedDate": 1746616806703,
-      "sizeInBytes": 7212,
+      "modifiedDate": 1746780379094,
+      "sizeInBytes": 7384,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 3.526666666666667,
@@ -18750,6 +18758,7 @@
           "greyBox",
           "projectSLR"
         ],
+        "Rank": "A*",
         "Project": [
           "SLR"
         ]
@@ -19021,8 +19030,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744270415681,
-      "modifiedDate": 1744291664217,
-      "sizeInBytes": 6119,
+      "modifiedDate": 1746781808098,
+      "sizeInBytes": 6127,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 3.026666666666667,
@@ -19040,6 +19049,7 @@
           "serviceWorker",
           "pushNotification"
         ],
+        "Rank": "A",
         "Project": [
           "SLR"
         ]
@@ -19633,8 +19643,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744373754334,
-      "modifiedDate": 1744532458456,
-      "sizeInBytes": 4659,
+      "modifiedDate": 1746779644411,
+      "sizeInBytes": 4668,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 2.1666666666666665,
@@ -19652,6 +19662,7 @@
           "businessFlowTampering",
           "whiteBox"
         ],
+        "Rank": "A*",
         "Project": [
           "SLR"
         ]
@@ -20002,20 +20013,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 772,
+      "wordCount": 775,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 2.5733333333333333,
-      "characterCount": 5626,
-      "nonWhitespaceCharacterCount": 4815,
-      "newlineCount": 59,
-      "readingTimeInMinutes": 2.913207547169811,
-      "linkCount": 7,
+      "pageCount": 2.5833333333333335,
+      "characterCount": 5651,
+      "nonWhitespaceCharacterCount": 4839,
+      "newlineCount": 58,
+      "readingTimeInMinutes": 2.9245283018867925,
+      "linkCount": 8,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744029603132,
-      "modifiedDate": 1744361732601,
-      "sizeInBytes": 5775,
+      "modifiedDate": 1746781410566,
+      "sizeInBytes": 5808,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 2.5733333333333333,
@@ -20034,6 +20045,7 @@
           "authentication",
           "HCI"
         ],
+        "Rank": "B",
         "Project": [
           "SLR"
         ]
@@ -20055,8 +20067,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744707242466,
-      "modifiedDate": 1744726908393,
-      "sizeInBytes": 5289,
+      "modifiedDate": 1746781701114,
+      "sizeInBytes": 5299,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 2.466666666666667,
@@ -20075,6 +20087,7 @@
           "staticAnalysis",
           "whiteBox"
         ],
+        "Rank": "N/A",
         "Project": [
           "SLR"
         ]
@@ -20178,8 +20191,8 @@
       "embedCount": 1,
       "aliases": null,
       "createdDate": 1746006744897,
-      "modifiedDate": 1746031489373,
-      "sizeInBytes": 6024,
+      "modifiedDate": 1746782114250,
+      "sizeInBytes": 6033,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 2.76,
@@ -20198,6 +20211,7 @@
           "socialNetworkSecurity",
           "parameterTampering"
         ],
+        "Rank": "A*",
         "Project": [
           "SLR"
         ]
@@ -20412,8 +20426,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985115,
-      "modifiedDate": 1744293487168,
-      "sizeInBytes": 4905,
+      "modifiedDate": 1746781914443,
+      "sizeInBytes": 4914,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 2.3433333333333333,
@@ -20434,6 +20448,7 @@
           "cyberSecurity",
           "projectSLR"
         ],
+        "Rank": "A*",
         "Project": [
           "SLR"
         ]
@@ -20455,8 +20470,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744190525282,
-      "modifiedDate": 1746620683950,
-      "sizeInBytes": 3882,
+      "modifiedDate": 1746780918534,
+      "sizeInBytes": 3891,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.9333333333333333,
@@ -20476,6 +20491,7 @@
           "XSS",
           "clickjacking"
         ],
+        "Rank": "A*",
         "Project": [
           "SLR"
         ]
@@ -20569,8 +20585,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744182187006,
-      "modifiedDate": 1744190264875,
-      "sizeInBytes": 2218,
+      "modifiedDate": 1746779593226,
+      "sizeInBytes": 2227,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.1033333333333333,
@@ -20588,6 +20604,7 @@
           "crossDomainPolicy",
           "HTTP"
         ],
+        "Rank": "A*",
         "Project": [
           "SLR"
         ]
@@ -20820,20 +20837,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 459,
+      "wordCount": 463,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.53,
-      "characterCount": 3227,
-      "nonWhitespaceCharacterCount": 2724,
+      "pageCount": 1.5433333333333332,
+      "characterCount": 3257,
+      "nonWhitespaceCharacterCount": 2750,
       "newlineCount": 47,
-      "readingTimeInMinutes": 1.7320754716981133,
-      "linkCount": 8,
+      "readingTimeInMinutes": 1.7471698113207548,
+      "linkCount": 9,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985092,
-      "modifiedDate": 1744293450071,
-      "sizeInBytes": 3395,
+      "modifiedDate": 1746782216176,
+      "sizeInBytes": 3434,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.53,
@@ -20852,6 +20869,7 @@
           "businessFlowTampering",
           "projectSLR"
         ],
+        "Rank": "A*",
         "Project": [
           "SLR"
         ]
@@ -20911,8 +20929,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1746031917597,
-      "modifiedDate": 1746620073819,
-      "sizeInBytes": 599,
+      "modifiedDate": 1746781007757,
+      "sizeInBytes": 607,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.24,
@@ -20928,6 +20946,7 @@
           "projectSLR",
           "machineLearning"
         ],
+        "Rank": "A",
         "Project": [
           "SLR"
         ]
@@ -21029,8 +21048,8 @@
       "embedCount": 1,
       "aliases": null,
       "createdDate": 1744617853767,
-      "modifiedDate": 1744631504728,
-      "sizeInBytes": 3306,
+      "modifiedDate": 1746781045326,
+      "sizeInBytes": 3315,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.4633333333333334,
@@ -21046,6 +21065,7 @@
           "projectSLR",
           "CSFR"
         ],
+        "Rank": "A*",
         "Project": [
           "SLR"
         ]
@@ -21365,8 +21385,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985110,
-      "modifiedDate": 1746618230787,
-      "sizeInBytes": 4111,
+      "modifiedDate": 1746781992448,
+      "sizeInBytes": 4120,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.9933333333333334,
@@ -21385,6 +21405,7 @@
           "cloudSecurity",
           "projectSLR"
         ],
+        "Rank": "A*",
         "Project": [
           "SLR"
         ]
@@ -21502,16 +21523,16 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.16,
-      "characterCount": 2206,
-      "nonWhitespaceCharacterCount": 1834,
+      "characterCount": 2208,
+      "nonWhitespaceCharacterCount": 1835,
       "newlineCount": 30,
       "readingTimeInMinutes": 1.3132075471698113,
       "linkCount": 4,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1746031788806,
-      "modifiedDate": 1746611653689,
-      "sizeInBytes": 2315,
+      "modifiedDate": 1746779579434,
+      "sizeInBytes": 2325,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.16,
@@ -21527,6 +21548,7 @@
           "projectSLR",
           "crossSiteFraming"
         ],
+        "Rank": "A",
         "Project": [
           "SLR"
         ]
@@ -21908,8 +21930,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985108,
-      "modifiedDate": 1744804449071,
-      "sizeInBytes": 497,
+      "modifiedDate": 1746781336926,
+      "sizeInBytes": 489,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.16666666666666666,
@@ -21922,14 +21944,10 @@
         "ID": "2025-03-18T15:04:23.607Z",
         "tags": [
           "paper",
-          [
-            [
-              "IndexedDB"
-            ]
-          ],
           "clientStorageAttack",
           "projectSLR"
         ],
+        "Rank": "N/A",
         "Project": [
           "SLR"
         ]
@@ -21977,20 +21995,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 91,
+      "wordCount": 247,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.30333333333333334,
-      "characterCount": 649,
-      "nonWhitespaceCharacterCount": 541,
-      "newlineCount": 22,
-      "readingTimeInMinutes": 0.3433962264150943,
+      "pageCount": 0.8233333333333334,
+      "characterCount": 1719,
+      "nonWhitespaceCharacterCount": 1450,
+      "newlineCount": 28,
+      "readingTimeInMinutes": 0.9320754716981132,
       "linkCount": 2,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1746032083161,
-      "modifiedDate": 1746777333242,
-      "sizeInBytes": 758,
+      "modifiedDate": 1746779375742,
+      "sizeInBytes": 1828,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.24,
@@ -22063,8 +22081,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985106,
-      "modifiedDate": 1746617575995,
-      "sizeInBytes": 3858,
+      "modifiedDate": 1746781249106,
+      "sizeInBytes": 3841,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.85,
@@ -22079,17 +22097,9 @@
           "paper",
           "X-frame-options",
           "projectSLR",
-          [
-            [
-              [
-                [
-                  "clickjacking"
-                ]
-              ]
-            ]
-          ],
           "riskAssessment"
         ],
+        "Rank": "B",
         "Project": [
           "SLR"
         ]
@@ -22206,20 +22216,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 518,
+      "wordCount": 519,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.7266666666666666,
-      "characterCount": 3794,
-      "nonWhitespaceCharacterCount": 3236,
+      "pageCount": 1.73,
+      "characterCount": 3812,
+      "nonWhitespaceCharacterCount": 3253,
       "newlineCount": 51,
-      "readingTimeInMinutes": 1.9547169811320755,
-      "linkCount": 3,
+      "readingTimeInMinutes": 1.9584905660377359,
+      "linkCount": 6,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1745998536091,
-      "modifiedDate": 1746621317407,
-      "sizeInBytes": 3918,
+      "modifiedDate": 1746782068651,
+      "sizeInBytes": 3945,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.7266666666666666,
@@ -22236,6 +22246,7 @@
           "browserExtension",
           "browserAttacks"
         ],
+        "Rank": "A*",
         "Project": [
           "SLR"
         ]
@@ -24789,6 +24800,40 @@
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0,
         "newlineCount": 0
+      }
+    },
+    "00 Antilibrary/WSH (Web Socket Hijack).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 17,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.056666666666666664,
+      "characterCount": 179,
+      "nonWhitespaceCharacterCount": 153,
+      "newlineCount": 9,
+      "readingTimeInMinutes": 0.06415094339622641,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1746782212865,
+      "modifiedDate": 1746782326833,
+      "sizeInBytes": 253,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-05-09-11:18",
+        "tags": [
+          "#definition",
+          "clientSideAttacks"
+        ]
       }
     }
   }

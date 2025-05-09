@@ -76,7 +76,7 @@ From [[(Shahriar, Devendran, et al., 2013)]]: clickjacking attacks can lead a vi
 From [[(Shahriar, Devendran, et al., 2013)]]:
 - **Multiple iframes**: will bypass the frame busting code technique
 - **Event handler overriding:** a malicious popup could be displayed as the user tries to close or reload the page (`onBeforeUnload` event is executed when a page is about to be unloaded)
-- **No-content response (204)**: legacy browsers used to handle 204 responses in a particular way. Iframed websites used to get 204 Browser cancelled the loading and forced an iframe
+- **No-content response (204)**:  legacy browsers mishandled HTTP 204 responses in the context of iframes. In some cases, if a website responded with `X-Frame-Options: DENY`, the iframe would be blocked from loading as expected. However, by sending repeated requests that were responded with HTTP 204, the browser could enter an inconsistent state and end up forcing the original URL to load in the iframe, temporarily ignoring security headers like X-Frame-Options. This security issue is now fixed
 - **Reflective [[XSS (cross site scripting)]]**
 - [[DOM clobbering]] can be used to pollute global objects used in frame busting code (`top.location` can be overwritten by an attacker)
 - **Disabling JS in iframe using `sandbox`**: this is a double-edged sword because it can protect against malicious iframe code but, at the same time, legitimate frame busting code in the legitimate iframe will not be executed.

@@ -4,6 +4,7 @@ tags:
   - paper
   - projectSLR
   - crossSiteFraming
+Rank: A
 Project:
   - SLR
 ---
@@ -30,7 +31,7 @@ Forensic tools do not detect Cross-Site Framing attacks (as 2015)
 
 ## Limits
 
-Cross-Site Framing is a new attack that need more studies
+- Cross-Site Framing is a new attack that need more studies
 
 ---
 #### References

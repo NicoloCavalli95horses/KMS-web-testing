@@ -1,9 +1,11 @@
 ---
 ID: 2025-04-30T16:51:11.813Z
-tags: paper  projectSLR
-
+tags:
+  - paper
+  - projectSLR
+Rank: A
 Project:
- - SLR
+  - SLR
 ---
 ## Context
 

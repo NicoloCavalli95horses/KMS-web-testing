@@ -7,6 +7,7 @@ tags:
   - IaaS
   - cloudSecurity
   - projectSLR
+Rank: A*
 Project:
   - SLR
 ---

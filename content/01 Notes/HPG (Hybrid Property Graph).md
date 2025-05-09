@@ -1,7 +1,9 @@
 ---
-ID: "2025-04-14-11:56"
+ID: 2025-04-14-11:56
 tags:
   - "#definition"
+  - HybridPropertyGraph
+  - softwareEngineering
 ---
 ## Definition
 

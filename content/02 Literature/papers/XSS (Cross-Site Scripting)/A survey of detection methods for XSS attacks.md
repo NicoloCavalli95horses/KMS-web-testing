@@ -4,10 +4,11 @@ tags:
   - paper
   - projectSLR
   - XSS
+Rank: A
 Project:
   - SLR
 ---
-Unsystematic literature review about XSS, published in an very high-ranked journal (ICORE A) Focuses on entry points, and describes client-side, server-side and hybrid mitigation techniques
+Unsystematic literature review about XSS, published in a high-ranked journal (ICORE A). Focuses on entry points, and describes client-side, server-side and hybrid mitigation techniques
 
 ## Context
 

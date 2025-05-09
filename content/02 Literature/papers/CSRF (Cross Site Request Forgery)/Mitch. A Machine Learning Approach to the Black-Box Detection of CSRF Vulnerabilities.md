@@ -4,6 +4,7 @@ tags:
   - paper
   - projectSLR
   - machineLearning
+Rank: A
 Project:
   - SLR
 ---

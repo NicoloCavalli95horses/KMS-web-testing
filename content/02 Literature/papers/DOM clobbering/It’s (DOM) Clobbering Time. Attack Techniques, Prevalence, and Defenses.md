@@ -7,6 +7,7 @@ tags:
   - clientSideAttacks
   - businessFlowTampering
   - projectSLR
+Rank: A*
 Project:
   - SLR
 ---
@@ -50,7 +51,7 @@ A vulnerability analysis component that uses property graphs and traversals for 
 - 17.2% can lead to [[BFT (business flow tampering)]]
 - 14.8% to [[CSRF (cross-site request forgery)]]
 - 12.9% to DOM based open redirection
-- Others to JSON injection, Websocket connection hijack
+- Others to JSON injection, Websocket connection hijack ([[WSH (Web Socket Hijack)]])
 - even the HTML sanitizers are vulnerable to DOM clobbering
 
 ---

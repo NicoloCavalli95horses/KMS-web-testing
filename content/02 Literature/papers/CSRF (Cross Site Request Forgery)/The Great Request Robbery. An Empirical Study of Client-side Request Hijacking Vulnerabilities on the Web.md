@@ -4,6 +4,7 @@ tags:
   - paper
   - projectSLR
   - CSFR
+Rank: A*
 Project:
   - SLR
 ---

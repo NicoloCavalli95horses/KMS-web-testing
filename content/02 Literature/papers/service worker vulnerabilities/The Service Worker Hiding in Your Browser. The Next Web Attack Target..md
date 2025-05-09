@@ -6,6 +6,7 @@ tags:
   - IndexedDB
   - serviceWorker
   - pushNotification
+Rank: A
 Project:
   - SLR
 ---
