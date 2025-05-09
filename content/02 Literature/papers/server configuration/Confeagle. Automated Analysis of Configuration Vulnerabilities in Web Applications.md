@@ -2,12 +2,12 @@
 ID: 2025-04-08T08:35:16.426Z
 tags:
   - paper
-  - projectSLR
   - serverMisconfiguration
   - PHP
-Project:
-  - SLR
+Rank: C
 ---
+An approach to supplement existing web vulnerability analysis techniques by scanning web application directory hierarchy and application source code to detect, quantify, and fix configuration vulnerabilities before deployment
+
 ## Context
 
 [[web server misconfiguration]] has become a real concern for the security of web applications. Misconfiguration may happen at different layers of the web architecture

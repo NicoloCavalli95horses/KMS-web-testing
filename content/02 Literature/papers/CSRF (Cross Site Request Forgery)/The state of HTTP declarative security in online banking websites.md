@@ -6,6 +6,7 @@ tags:
   - CSFR
   - HTTP
   - projectSLR
+Rank: C
 Project:
   - SLR
 ---

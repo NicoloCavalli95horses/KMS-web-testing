@@ -8,6 +8,7 @@ tags:
   - cyberSecurity
   - clientSideAttacks
   - projectSLR
+Rank: A*
 Project:
   - SLR
 ---

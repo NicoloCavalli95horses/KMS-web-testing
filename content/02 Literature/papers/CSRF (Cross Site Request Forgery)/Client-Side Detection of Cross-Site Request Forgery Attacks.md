@@ -5,6 +5,7 @@ tags:
   - projectSLR
   - CSFR
   - clientDefense
+Rank: A
 Project:
   - SLR
 ---

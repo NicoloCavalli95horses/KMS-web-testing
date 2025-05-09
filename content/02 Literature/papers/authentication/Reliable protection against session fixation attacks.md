@@ -7,6 +7,7 @@ tags:
   - sessionHijacking
   - cookie
   - authenticationCookies
+Rank: B
 Project:
   - SLR
 ---

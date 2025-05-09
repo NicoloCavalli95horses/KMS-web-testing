@@ -7,6 +7,7 @@ tags:
   - HTTP
   - parameterTampering
   - forcedBrowsing
+Rank: A
 Project:
   - SLR
 ---

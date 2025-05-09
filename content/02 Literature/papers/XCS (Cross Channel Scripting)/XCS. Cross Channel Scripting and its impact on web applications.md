@@ -8,6 +8,7 @@ tags:
   - embeddedSystem
   - embeddedWebServer
   - clientDefense
+Rank: A*
 Project:
   - SLR
 ---

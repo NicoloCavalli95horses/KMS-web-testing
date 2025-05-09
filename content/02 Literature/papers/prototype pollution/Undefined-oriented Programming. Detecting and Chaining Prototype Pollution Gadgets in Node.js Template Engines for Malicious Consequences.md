@@ -6,6 +6,7 @@ tags:
   - projectSLR
   - prototypePollution
   - gadget
+Rank: A*
 Project:
   - SLR
 ---

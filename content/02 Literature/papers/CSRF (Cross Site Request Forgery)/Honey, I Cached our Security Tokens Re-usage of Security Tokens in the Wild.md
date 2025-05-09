@@ -5,6 +5,7 @@ tags:
   - CSFR
   - CDN
   - projectSLR
+Rank: A
 Project:
   - SLR
 ---

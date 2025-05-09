@@ -5,10 +5,12 @@ tags:
   - authentication
   - projectSLR
   - OpenID
+  - logicVulnerability
+Rank: A*
 Project:
   - SLR
 ---
-Flaws in the OpenID protocol are discussed. A number of client-side attacks are still possible in OpenID-enabled websites (XSS, CSRF, session hijacking)
+Flaws in the OpenID protocol are discussed. A number of client-side attacks are still possible in OpenID-enabled websites ([[XSS (cross site scripting)]], [[CSRF (cross-site request forgery)]], [[session hijacking]])
 
 ## Context
 

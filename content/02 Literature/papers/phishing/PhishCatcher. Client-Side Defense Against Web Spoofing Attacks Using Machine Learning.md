@@ -7,6 +7,7 @@ tags:
   - clientDefense
   - machineLearning
   - browser
+Rank: A
 Project:
   - SLR
 ---

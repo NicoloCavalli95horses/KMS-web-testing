@@ -6,6 +6,7 @@ tags:
   - CSFR
   - clientDefense
   - crossDomainPolicy
+Rank: A*
 Project:
   - SLR
 ---

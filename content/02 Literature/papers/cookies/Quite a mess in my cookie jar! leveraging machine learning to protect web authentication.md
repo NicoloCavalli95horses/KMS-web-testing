@@ -2,12 +2,12 @@
 ID: 2025-03-24T14:11:51.531Z
 tags:
   - paper
-  - [[[[cookie]]]]
   - clientDefense
   - authentication
   - supervisedLearning
   - machineLearning
   - projectSLR
+Rank: A*
 Project:
   - SLR
 ---
