@@ -21,7 +21,7 @@ Qualitative analysis of papers related to philosophy of science
 
 Different concepts are crucial to understand if you want to build a good systematic literature review:
 - **systematicity**: a disposition towards organized, methodical, and orderly inquiry that uses various methods and processes to search, screen, assess, analyze and interpret relevant information with a view to achieving a set of specific research goals
-- **transparency**: the extend to which review process are made explicitly
+- **transparency**: the extend to which review process is made explicitly
 - **reproducibility**: it has been defined as
 	- the ability to ==re-perform the methods== of a research, but allowing different results
 	- the ability to ==duplicate the results== of a research using the same methods or dataset

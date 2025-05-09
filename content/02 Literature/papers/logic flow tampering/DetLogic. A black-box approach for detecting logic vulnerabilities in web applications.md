@@ -5,6 +5,7 @@ tags:
   - businessFlowTampering
   - blackBox
   - projectSLR
+  - workflowBypass
 Rank: A
 Project:
   - SLR
@@ -19,7 +20,7 @@ Since a number of solutions have been proposed to deal with injection-related vu
 
 - black-box approaches do not take into consideration the interaction between multiple pages
 - ad-hoc solutions that are not scalable
-- literature on workflow bypass considers session variables but neglect other parameters such as the role of the [[CSRF (cross-site request forgery) token]]
+- literature on [[logic workflow bypass]] considers session variables but neglect other parameters such as the role of the [[CSRF (cross-site request forgery) token]]
 
 ## Approach
 

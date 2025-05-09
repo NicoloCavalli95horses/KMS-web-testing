@@ -8,6 +8,7 @@ tags:
   - whiteBox
   - greyBox
   - projectSLR
+  - workflowBypass
 Rank: A*
 Project:
   - SLR
@@ -16,7 +17,7 @@ This research leverage a graph-based representation of known attack scenarios (s
 ## Context
 
 Moder applications implement a multi-tier model involving ==multiple application providers that interface together== in order to supply a service. For example, an e-commerce may leverage on an authentication service and on a payment service, and a blog may leverage on a service to handle a comment or forum section.
-- when there is a flow that combine multiple services, more subtle vulnerabilities may emerge
+- when there is a flow that combine multiple services, more subtle vulnerabilities may emerge, such as [[logic workflow bypass]]
 - these vulnerabilities are mostly managed manually
 - [[logic vulnerability]] and [[BFT (business flow tampering)]] may occur in these scenario, exploiting the complicated flow of the application
 

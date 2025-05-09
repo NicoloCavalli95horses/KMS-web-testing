@@ -10230,20 +10230,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 1081,
+      "wordCount": 1086,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 3.6033333333333335,
-      "characterCount": 7216,
-      "nonWhitespaceCharacterCount": 6066,
+      "pageCount": 3.62,
+      "characterCount": 7251,
+      "nonWhitespaceCharacterCount": 6096,
       "newlineCount": 84,
-      "readingTimeInMinutes": 4.079245283018868,
-      "linkCount": 18,
+      "readingTimeInMinutes": 4.09811320754717,
+      "linkCount": 19,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985127,
-      "modifiedDate": 1746780379094,
-      "sizeInBytes": 7384,
+      "modifiedDate": 1746797905748,
+      "sizeInBytes": 7438,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 3.6033333333333335,
@@ -10261,7 +10261,8 @@
           "blackBox",
           "whiteBox",
           "greyBox",
-          "projectSLR"
+          "projectSLR",
+          "workflowBypass"
         ],
         "Rank": "A*",
         "Project": [
@@ -10922,16 +10923,16 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.7133333333333334,
-      "characterCount": 1582,
-      "nonWhitespaceCharacterCount": 1313,
+      "characterCount": 1552,
+      "nonWhitespaceCharacterCount": 1312,
       "newlineCount": 30,
       "readingTimeInMinutes": 0.8075471698113208,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985121,
-      "modifiedDate": 1743766985122,
-      "sizeInBytes": 1668,
+      "modifiedDate": 1746795179324,
+      "sizeInBytes": 1632,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.7133333333333334,
@@ -11704,16 +11705,16 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.7033333333333334,
-      "characterCount": 3618,
-      "nonWhitespaceCharacterCount": 3067,
+      "characterCount": 3622,
+      "nonWhitespaceCharacterCount": 3071,
       "newlineCount": 49,
       "readingTimeInMinutes": 1.9283018867924528,
-      "linkCount": 9,
+      "linkCount": 10,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985115,
-      "modifiedDate": 1746783809053,
-      "sizeInBytes": 3749,
+      "modifiedDate": 1746797717150,
+      "sizeInBytes": 3772,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.7033333333333334,
@@ -11728,7 +11729,8 @@
           "paper",
           "businessFlowTampering",
           "blackBox",
-          "projectSLR"
+          "projectSLR",
+          "workflowBypass"
         ],
         "Rank": "A",
         "Project": [
@@ -24832,6 +24834,41 @@
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0,
         "newlineCount": 0
+      }
+    },
+    "01 Notes/logic workflow bypass.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 105,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.35,
+      "characterCount": 710,
+      "nonWhitespaceCharacterCount": 571,
+      "newlineCount": 25,
+      "readingTimeInMinutes": 0.39622641509433965,
+      "linkCount": 3,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1746797718002,
+      "modifiedDate": 1746797913979,
+      "sizeInBytes": 803,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-05-09-15:35",
+        "tags": [
+          "#definition",
+          "clientSideAttacks",
+          "webApplication"
+        ]
       }
     }
   }
