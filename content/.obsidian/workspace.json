@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/session hijacking.md",
+                "file": "01 Notes/DOM clobbering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "session hijacking"
+              "title": "DOM clobbering"
             }
           }
         ]
@@ -187,6 +187,7 @@
   },
   "active": "81bed3e0e69f0a6b",
   "lastOpenFiles": [
+    "01 Notes/session hijacking.md",
     "TO DO.md",
     "02 Literature/papers/authentication/A Supervised Learning Approach to Protect Client Authentication on the Web.md",
     "02 Literature/papers/prototype pollution/Undefined-oriented Programming. Detecting and Chaining Prototype Pollution Gadgets in Node.js Template Engines for Malicious Consequences.md",
@@ -213,7 +214,6 @@
     "02 Literature/papers/XCS (Cross Channel Scripting)/XCS. Cross Channel Scripting and its impact on web applications.md",
     "02 Literature/papers/logic flow tampering/BLOCK. a black-box approach for detection of state violation attacks towards web applications.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Client-Side Detection of Cross-Site Request Forgery Attacks.md",
-    "02 Literature/papers/redirect vulnerability/EARs in the wild. large-scale analysis of execution after redirect vulnerabilities.md",
     "04 Canvases/meetings/2025_03_27.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",
     "04 Canvases/meetings/2025_04_10.canvas",
