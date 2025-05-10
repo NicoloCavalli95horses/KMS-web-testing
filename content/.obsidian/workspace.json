@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/tabnabbing.md",
+                "file": "01 Notes/top-level navigation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "tabnabbing"
+              "title": "top-level navigation"
             }
           }
         ]
@@ -187,8 +187,8 @@
   },
   "active": "f01990f33905ddd2",
   "lastOpenFiles": [
-    "03 References/(Sanchez, 2020).md",
     "01 Notes/tabnabbing.md",
+    "03 References/(Sanchez, 2020).md",
     "02 Literature/papers/tabnabbing/TabShots. client-side detection of tabnabbing attacks.md",
     "03 References/(De Ryck, Nikiforakis, et al., 2013).md",
     "01 Notes/clickjacking.md",
