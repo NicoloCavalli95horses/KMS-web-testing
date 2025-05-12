@@ -31,5 +31,5 @@ An attacker could guess that 2259 could lead to another personal user page
 ---
 #### References
 - https://www.invicti.com/learn/forced-browsing/
-- [[(Li, Xue, et al., 2013)
+- [[(Li, Xue, et al., 2013)]]
 - [[(Pauli, 2013)]]
