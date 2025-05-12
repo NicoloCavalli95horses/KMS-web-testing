@@ -24,6 +24,6 @@ Some [[RegEx (Regular Expression)]] implementations are based on [[NFA (Nondeter
 
 ---
 ## References
-- https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS#
+- [OWASP ReDoS](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS#)
 - [[(Bai, Wang, Zhu, et al., 2021)]]
 - [[(Kluban, Mannan, et al., 2024)]]

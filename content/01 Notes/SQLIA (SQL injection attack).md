@@ -4,6 +4,7 @@ tags:
   - definition
   - cyberSecurity
   - SQLIA
+  - SQL
 ---
 > [!WARNING]
 >  Many Web applications use client-supplied data in SQL queries. However, if the application does not strip potentially harmful characters, users can add SQL statements into their inputs. This is called SQL injection
@@ -89,5 +90,7 @@ Even if the attack target the web server, front-end software may mitigate the pr
 - One of the first description of the attacks [[(Watson, 2007)]]
 - [[(D'silva, Vanajakshi, et al., 2017)]]
 - [[(Sendiang, Polii, et al., 2016)]]
+
+Project SLR:
 - Runtime input validation in Java, by: [[(Cho, Kim, et al., 2016)]]
 - [[(Li, Yan, et al., 2012)]]
