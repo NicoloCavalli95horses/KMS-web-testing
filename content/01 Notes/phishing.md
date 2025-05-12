@@ -65,8 +65,6 @@ Malicious URLs often [[(Fonseka, Pashenna, et al., 2023)]]:
 - By examining whether external objects (images, video) contained within a webpage are loaded from another domain, researchers have found that this feature can be effective in distinguishing between legitimate webpages and phishing pages
 - Attackers often use meta HTML tags (`<meta>, <script>, <link>`) to load external content onto a phishing page
 
-**Types of mitigation**
-- stateful:
 ---
 #### References
 - [[(Sadqi, Maleh, 2022)]]
@@ -78,3 +76,7 @@ Malicious URLs often [[(Fonseka, Pashenna, et al., 2023)]]:
 
 Project SLR:
 - [[(Onarlioglu, Buyukkayhan, et al., 2015)]]
+- [[(Ben Jaballah, Kheir, et al., 2016)]]
+- [[(De Ryck, Nikiforakis, et al., 2013)]]
+- [[(Johns, Braun, et al., 2011)]]
+- [[(Ahmed, Altamimi, et al., 2023)]]
