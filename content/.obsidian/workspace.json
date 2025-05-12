@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "175581db4aaa1c94",
+        "id": "1e117ec69985f2c0",
         "type": "tabs",
         "children": [
           {
-            "id": "b0a26ff8dd76badb",
+            "id": "7f2521c92344aa3e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Notes/prototype pollution.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "prototype pollution"
+              "title": "New tab"
             }
           }
         ]
@@ -185,13 +180,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b0a26ff8dd76badb",
+  "active": "7f2521c92344aa3e",
   "lastOpenFiles": [
-    "02 Literature/papers/code synthesis/WAVES. Automatic Synthesis of Client-Side Validation Code for Web Applications.md",
+    "01 Notes/RBAC (role-based access control).md",
     "01 Notes/prototype pollution.md",
+    "03 References/(Liu, An, et al., 2024).md",
+    "02 Literature/papers/code synthesis/WAVES. Automatic Synthesis of Client-Side Validation Code for Web Applications.md",
     "02 Literature/papers/prototype pollution/Detecting prototype pollution for node.js. Vulnerability review and new fuzzing inputs.md",
     "03 References/(Kluban, Mannan, et al., 2024).md",
-    "03 References/(Liu, An, et al., 2024).md",
     "TO DO.md",
     "01 Notes/string validation.md",
     "01 Notes/DoS (Denial of Service).md",
@@ -212,7 +208,6 @@
     "01 Notes/PWA (progressive web application).md",
     "03 References/(Pauli, 2013).md",
     "02 Literature/papers/input validation/Runtime Input Validation for Java Web Applications using Static Bytecode Instrumentation.md",
-    "03 References/(Cho, Kim, et al., 2016).md",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/meetings/2025_03_27.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",
