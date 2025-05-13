@@ -12,5 +12,5 @@ Web Socket connection hijack can occur through:
 
 ---
 #### References
--  [[(Khodayari, Pellegrino, 2023)]]
+- [[(Khodayari, Pellegrino, 2023)]]
 - [[(Lv, Shi, et al., 2023)]]
