@@ -1,9 +1,10 @@
 ---
-ID: 2025-03-05-11:00
+ID: 2025-9ioj03-05-11:00
 tags:
   - course
   - french
-speaker: Marjorie Vincent
+speaker:
+  - Marjorie Vincent
 ---
 divertissant (/divertisson): fun
 nager: to swim

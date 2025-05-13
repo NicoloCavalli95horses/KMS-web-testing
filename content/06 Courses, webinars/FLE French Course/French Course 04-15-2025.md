@@ -1,9 +1,10 @@
 ---
-ID: 2025-03-05-11:00
+ID: 2025-03-05-11:098ijo0
 tags:
   - course
   - french
-speaker: Marjorie Vincent
+speaker:
+  - Marjorie Vincent
 ---
 un film muet (/muè) (mute)
 le titre (/titr)
