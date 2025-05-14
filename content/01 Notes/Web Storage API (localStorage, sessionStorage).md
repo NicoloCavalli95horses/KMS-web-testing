@@ -37,7 +37,7 @@ Web Storage in HTML5 uses a Storage object that represents a list of key-value p
 
 ### Security and privacy implications
 
-- localStorage and sessionStorage data are ==not encrypted by default== [[(West, Pulimood, et al., 2012)]]
+- localStorage and sessionStorage data is ==not encrypted by default== [[(West, Pulimood, et al., 2012)]]
 - since data is stored with the client, the only point of access for that data is through the user's local machine
 - both the sessionStorage and localStorage attributes can be used as alternatives to cookies in order to provide the user with control over their data
 - unlike [[IndexedDB]], sessionStorage and localStorage cannot be used inside a [[SW (Service Worker)]] context [[(Chinprutthiwong, Vardhan, et al., 2021)]]

@@ -6,7 +6,7 @@ tags:
   - serviceWorker
   - JavaScript
 ---
-## Definition
+ ## Definition
 
 Service Workers allow ==to run scripts in background threads==: this means that the worker thread can perform tasks without **interfering with the user interface.** A SW can:
 - make network requests (using `fetch()` or `XMLHttpRequest` APIs) and control network request made by the application
