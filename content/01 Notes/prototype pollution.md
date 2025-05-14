@@ -48,6 +48,11 @@ On the front-end [[(Hakim, 2023)]] (p.3), [[(Liu, An, et al., 2024)]]:
 - cookie theft/manipulation
 - URL manipulation/[[redirect attack]]
 
+[[(Peng Zhou, Yuhan Gao, et al., 2024)]]:
+- Authentication bypass
+- Account Takeover (ATO)
+- Sanitizer bypass
+
 **How a prototype pollution vulnerability can lead to XSS**
 
 ```txt
@@ -95,20 +100,26 @@ console.log(typeof a.test); // string
 
 Use `Object.freeze()` to prevent any changes to the prototype (it is possible to freeze the prototype directly) [[(Hakim, 2023)]]
 - only immediate properties get freezed, not nested objects [[(Katulanda, Henaka Arachchi, et al., 2023)]] 
-External prototype pollution could be considered a form of code-injection (see XSS (cross site scripting))
+External prototype pollution could be considered a form of code-injection (see [[XSS (cross site scripting)]])
 
-A popular JavaScript utility library, Lodash, implements input filtering to injection sinks against prototype defining keywords, such as proto, constructor, and prototype (Hakim, 2023)
+A popular JavaScript utility library, Lodash, implements input filtering to injection sinks against prototype defining keywords, such as proto, constructor, and prototype [[(Hakim, 2023)]]
 
-Sometimes developers try to fix prototype pollution implementing a partial fix. Checking for the value of __proto__ is not enough to secure a statement from the issue, because constructor or prototype can still be used in a malicious way (Kluban, Mannan, et al., 2024)
+Sometimes developers try to fix prototype pollution implementing a partial fix. Checking for the value of __proto__ is not enough to secure a statement from the issue, because constructor or prototype can still be used in a malicious way [[(Kluban, Mannan, et al., 2024)]]
+
+From  [[(Peng Zhou, Yuhan Gao, et al., 2024)]]:
+- **Dynamic fuzzing**: run each JavaScript function with a set of function inputs that are purposely crafted to trigger the pollution (*fuzzing inputs*). Then, check if the prototype properties have been polluted accordingly
+- **Static analysis**: track some polluted taints from the selected sources (i.e., the inputs controlled by external users) to a set of predefined [[sink function]]s. A vulnerability is confirmed if there is at least one path the taint can be delivered from the sources to the sink (see [[static taint analysis]])
+
+---
 
 References
 - https://learn.snyk.io/lesson/prototype-pollution/
-- (Anastasia, Stamatia, 2024)
-- (Hoffman, 2024)
-- (Hakim, 2023)
-- Discussed in (Katulanda, Henaka Arachchi, et al., 2023) in the context of using ML to detect HTTPS-based malware transmission
+- [[(Anastasia, Stamatia, 2024)]]
+- [[(Hoffman, 2024)]]
+- [[(Hakim, 2023)]]
+- Discussed in [[(Katulanda, Henaka Arachchi, et al., 2023)]] in the context of using ML to detect HTTPS-based malware transmission
 
 Project SLR
-- (Liu, An, et al., 2024)
-- (Kluban, Mannan, et al., 2024)
+- [[(Liu, An, et al., 2024)]]
+- [[(Kluban, Mannan, et al., 2024)]]
 - [[(Peng Zhou, Yuhan Gao, et al., 2024)]]
