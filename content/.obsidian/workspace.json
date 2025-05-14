@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/EAR (Execution After Redirect).md",
+                "file": "01 Notes/XSF (Cross-site Framing).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "EAR (Execution After Redirect)"
+              "title": "XSF (Cross-site Framing)"
             }
           }
         ]
@@ -187,8 +187,11 @@
   },
   "active": "377936c34f2d5cde",
   "lastOpenFiles": [
-    "03 References/(Payet, Doupe, et al., 2013).md",
+    "02 Literature/papers/cookies/Quite a mess in my cookie jar! leveraging machine learning to protect web authentication.md",
+    "01 Notes/XSF (Cross-site Framing).md",
+    "03 References/(Gelernter, Grinstein, et al., 2015).md",
     "01 Notes/EAR (Execution After Redirect).md",
+    "03 References/(Payet, Doupe, et al., 2013).md",
     "03 References/(Doupe, Boe, et al., 2011).md",
     "01 Notes/Web Storage API (localStorage, sessionStorage).md",
     "01 Notes/session hijacking.md",
@@ -210,9 +213,6 @@
     "02 Literature/papers/SQLIA (SQL Injection Attack)/SENTINEL. securing database from logic flaws in web applications.md",
     "01 Notes/CSP (Content Security Policy).md",
     "02 Literature/papers/HTTP traffic analysis/Reining in the web with content security policy.md",
-    "02 Literature/papers/DOM clobbering/It’s (DOM) Clobbering Time. Attack Techniques, Prevalence, and Defenses.md",
-    "01 Notes/WSH (Web Socket Hijack).md",
-    "03 References/(Lv, Shi, et al., 2023).md",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/meetings/2025_03_27.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",

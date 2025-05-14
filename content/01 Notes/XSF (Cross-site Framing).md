@@ -7,7 +7,6 @@ tags:
   - webApplication
 ---
 
-
 > [!NOTE] XSF attacks
 > XSF (Cross-site framing) attacks do not require physical access or control over the computer by malware or otherwise and are launched online
 
@@ -43,4 +42,6 @@ Since the victim is the end user, the web-service provider may not have signific
 
 ---
 #### References
+
+Project SLR:
 - [[(Gelernter, Grinstein, et al., 2015)]]
