@@ -5,6 +5,7 @@ tags:
   - projectSLR
   - SQLIA
   - SQL
+Rank: N/A
 Project:
   - SLR
 ---
