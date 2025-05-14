@@ -7,7 +7,7 @@ tags:
 ---
 ## Definition
 
-XCS (Cross Channel Scripting) is a variant of [[XSS (cross site scripting)]] that aim at injecting code into a web application from a different port or protocol
+XCS (Cross Channel Scripting) is a variant of [[XSS (cross site scripting)]] that aim at injecting code into a web application from a different [[port]] or protocol
 - in a first step, an attacker use FTP or SNMP to store malicious JS code
 - then the malicious code is sent to a web application
 - as soon as an user access the web application, the malicious script is executed
