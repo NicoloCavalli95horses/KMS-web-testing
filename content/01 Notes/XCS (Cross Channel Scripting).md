@@ -97,6 +97,8 @@ As an extension, reverse XCS can be exploited to perform advanced [[CSRF (cross-
 - Cited as an example of session fixation where a [[cookie]] is set illegitimately, by [[(Johns, Braun, et al., 2011)]]
 - https://www.startupdefense.io/cyberattacks/cross-protocol-attack
 - https://img2.helpnetsecurity.com/dl/articles/hfpa.pdf
+
+Project SLR:
 - XCS in embedded web application, by [[(Bojinov, Bursztein, et al., 2009)]]
 
 [^1]: SMB is protocol used to share files, printers or other resources in a LAN
