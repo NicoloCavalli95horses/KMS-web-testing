@@ -73,6 +73,8 @@ Content-Type: text/html; charset=ISO-8859-1
 
 ---
 #### References
+- As example of logic flaw, pag.6, in [[(Deepa, Thilagam, et al., 2018)]]
+
+Project SRL:
 - [[(Payet, Doupe, et al., 2013)]]
 - [[(Doupe, Boe, et al., 2011)]]
-- As example of logic flaw, pag.6, in [[(Deepa, Thilagam, et al., 2018)]]
