@@ -15,7 +15,7 @@ This is typically done:
 - to reduce burden on the server
 - to avoid latencies in communicating with the server
 
-However, ==when a server fails to replicate the validation performed on the client, it is potentially vulnerable to attack. ==
+However, ==when a server fails to replicate the validation performed on the client, it is potentially vulnerable to [[parameter tampering]]==
 
 In this paper, we present a novel approach for automatically detecting potential server-side vulnerabilities of this kind in existing (legacy) web applications through [[black-box testing]] analysis. 
 

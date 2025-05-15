@@ -31,7 +31,7 @@ Little work exists on grey box coverage-guided [[fuzzing]] to web applications d
 
 ## Background
 
-This work focuses on ==user-supplied input (HTTP headers, cookies, query, body parameters), to PHP functions== that result in a vulnerability.
+This work focuses on ==user-supplied input (HTTP headers, cookies, query, body parameters), to PHP functions== that result in a vulnerability (see [[parameter tampering]])
 
 **Vulnerabilities covered by PHUZZ**
 - [[SQLIA (SQL injection attack)]]: attacker-controlled input becomes part of a SQL-query sent to a database

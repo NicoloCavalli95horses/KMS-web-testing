@@ -40,8 +40,17 @@ Ensure that server-side validation is, at least, as strong as the client-side
 
 [[(Skrupsky, Bisht, et al., 2013)]]: proxy-server that intercepts all communications and discard potentially dangerous ones
 
+### Front-end software role
+
+- *Bypass of client-side authorization checks*: sometimes in large application the web server logic processes HTTP requests assuming information that depends on client-side authorization checks, which can be bypassed
+- *API discovery*: legitimate use of the web application allows an attacker to understand the arguments of requests and subsequent responses. The threat model considers the presence of a regular user account, and a user who is logged in or logged out). This can be a manual trial and error process, or can be automated
+- *Defenses are often based or inspired by client-side checks first*
+
 ---
 #### References
+- [[(Bisht, Hinrichs, Skrupsky, et al., 2010)]]
+- [[(Asish Kumar Dalai, Saroj Kumar Panigrahy, et al., 2012)]]
 
 Project SLR:
 - [[(Skrupsky, Bisht, et al., 2013)]]
+- [[(Bisht, Hinrichs, et al., 2011)]]

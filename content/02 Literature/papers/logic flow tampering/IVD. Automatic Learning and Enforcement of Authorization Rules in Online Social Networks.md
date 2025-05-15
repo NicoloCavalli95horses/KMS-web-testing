@@ -21,6 +21,7 @@ Collaboration with Facebook engineers to develop a tool that prevents malicious 
 
 In very large scale web applications (e.g., online social networks), many types of user interactions, with different levels of permissions coexists (user, group administrators, business, etc).
 - Manually maintaining and enforcing [[RBAC (role-based access control)]] rules is complicated and human errors are possible, especially with time and resource constraints
+- many [[parameter tampering]] opportunities are possible in a very large scale web application
 
 **Authorization bugs**: can lead to identity theft, data leakage, business losses, brand reputation damage.
 - auth bugs are among OWASP top 10 vulnerabilities and are very easy to exploit
