@@ -23,6 +23,18 @@ Q. ensure easy and correct co-evolution between code and models. How to evaluate
 
 GumTree: algorithm to detect tree differences
 
-3 contributions
+4 contributions
 
+---
 
+External Q. Generalize the approach to languages other than Java (which is the most used for software modelization)
+
+External Q. Direct applications in the industry, use cases, examples
+
+External Q. Methodology aspects in experiments. Sample size, inclusion criteria. Taking in account fatigue, learning curve into experiments?
+
+External Q. How did you get to the final set of prompts used to evaluate LLM output?
+
+External Q. Automation is always good, but there are scenarios in which a human intervention is necessary? why?
+
+External Q. Precisation about terminology

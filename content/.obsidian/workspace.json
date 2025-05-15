@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gumtree",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -75,12 +75,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 287.5026054382324
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -188,12 +187,12 @@
   },
   "active": "c04ef88d94545529",
   "lastOpenFiles": [
-    "02 Literature/papers/software co-evolution/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
+    "TO DO.md",
     "06 Courses, webinars/Supporting Metamodel and code co-evolution.md",
+    "02 Literature/papers/software co-evolution/Untangling Spaghetti of Evolutions in Software Histories to Identify Code and Test Co-evolutions.md",
     "02 Literature/papers/logic flow tampering/BLOCK. a black-box approach for detection of state violation attacks towards web applications.md",
     "02 Literature/papers/software models/A Grey-Box Approach for Detecting Malicious User Interactions in Web Applications.md",
     "02 Literature/papers/logic flow tampering/From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery.md",
-    "TO DO.md",
     "02 Literature/papers/logic flow tampering/Requirements for preventing logic flaws in the authentication procedure of web applications.md",
     "02 Literature/papers/logic flow tampering/DetLogic. A black-box approach for detecting logic vulnerabilities in web applications.md",
     "02 Literature/papers/logic flow tampering/IVD. Automatic Learning and Enforcement of Authorization Rules in Online Social Networks.md",
