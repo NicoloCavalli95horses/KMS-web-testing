@@ -11,6 +11,7 @@ In the context of [[BFT (business flow tampering)]], a workflow bypass occurs wh
 - Storing of sensitive data (session cookie, tokens)
 - If the front end is the only one to verify that the user has, for example, completed step A before moving on to C, then an attacker can tamper the front-end code to perform the bypass
 - reverse engineering of the application flow (workflow discovery): JavaScript code (even if minified) reveals expected sequences, endpoint names and control mechanisms (e.g. variables like `stepCompleted = true`). This makes it easier to build targeted attacks.
+
 ## Bypass via CSRF token
 
 1. An attacker knows the intended flow of an application
@@ -34,7 +35,7 @@ If the application uses session cookies (e.g. PHPSESSID, JSESSIONID) but does no
 
 ## Mutable URL or JSON parameters
 
-If the user or action state is contained in client-side parameters (e.g. step=3), an attacker can simply modify the parameter and simulate an unauthorized step.
+If the user or action state is contained in client-side parameters (e.g. step=3), an attacker can simply modify the parameter and simulate an unauthorized step. See [[parameter tampering]]
 
 ---
 #### References
