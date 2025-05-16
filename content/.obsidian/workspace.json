@@ -13,16 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/code synthesis/WAVES. Automatic Synthesis of Client-Side Validation Code for Web Applications.md",
+                "file": "02 Literature/papers/object storage (blob storage)/Do Not Trust the Clouds Easily. The Insecurity of Content Security Policy Based on Object Storage.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "WAVES. Automatic Synthesis of Client-Side Validation Code for Web Applications"
+              "title": "Do Not Trust the Clouds Easily. The Insecurity of Content Security Policy Based on Object Storage"
+            }
+          },
+          {
+            "id": "323e509b6f1533b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/object storage service.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "object storage service"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,10 +201,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "964703ed3d444c2e",
+  "active": "323e509b6f1533b1",
   "lastOpenFiles": [
-    "02 Literature/papers/XSS (Cross-Site Scripting)/On Security Issues in Web Applications through Cross Site Scripting (XSS).md",
+    "02 Literature/papers/object storage (blob storage)/Do Not Trust the Clouds Easily. The Insecurity of Content Security Policy Based on Object Storage.md",
+    "02 Literature/papers/code synthesis/WAVES. Automatic Synthesis of Client-Side Validation Code for Web Applications.md",
+    "03 References/(Felsch, Heiderich, et al., 2015).md",
+    "01 Notes/RCE (Remote Code Execution).md",
     "01 Notes/XSS (cross site scripting).md",
+    "02 Literature/papers/XSS (Cross-Site Scripting)/On Security Issues in Web Applications through Cross Site Scripting (XSS).md",
     "03 References/(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018).md",
     "03 References/(Sadqi, Maleh, 2022).md",
     "01 Notes/session hijacking.md",
@@ -204,15 +224,11 @@
     "02 Literature/papers/logic flow tampering/BLOCK. a black-box approach for detection of state violation attacks towards web applications.md",
     "TO DO.md",
     "02 Literature/papers/cloud control interface (CCI)/How Private is Your Private Cloud. Security Analysis of Cloud Control Interfaces.md",
-    "01 Notes/RCE (Remote Code Execution).md",
-    "03 References/(Felsch, Heiderich, et al., 2015).md",
     "01 Notes/SW (Service Worker).md",
     "03 References/(Malviya, Saurav, et al., 2013).md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/A survey of detection methods for XSS attacks.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/The Great Request Robbery. An Empirical Study of Client-side Request Hijacking Vulnerabilities on the Web.md",
     "01 Notes/CSRF (cross-site request forgery).md",
-    "03 References/(De Ryck, Desmet, et al., 2010).md",
-    "02 Literature/papers/logic flow tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "Pasted image 20250514165458.png",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/meetings/2025_03_27.canvas",
