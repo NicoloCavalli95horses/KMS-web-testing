@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1fc951b4b3e0e81c",
+        "id": "1db1a8fe96421c0d",
         "type": "tabs",
         "children": [
           {
-            "id": "44d0eb1318ec1a31",
+            "id": "e8ae58db6fae1e8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/BFT (business flow tampering).md",
+                "file": "01 Notes/CSRF (cross-site request forgery).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "BFT (business flow tampering)"
-            }
-          },
-          {
-            "id": "49676fa1b6ab09f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Literature/papers/logic flow tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "BFT DETECTOR. Automatic detection of business flow tampering for digital content service"
+              "title": "CSRF (cross-site request forgery)"
             }
           }
         ]
@@ -200,12 +185,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "44d0eb1318ec1a31",
+  "active": "e8ae58db6fae1e8f",
   "lastOpenFiles": [
-    "03 References/(Deepa, Thilagam, et al., 2018).md",
-    "01 Notes/BFT (business flow tampering).md",
+    "03 References/(De Ryck, Desmet, et al., 2010).md",
+    "01 Notes/CSRF (cross-site request forgery).md",
     "02 Literature/papers/logic flow tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "02 Literature/papers/authentication/Systematically breaking and fixing OpenID security. Formal analysis, semi-automated empirical evaluation, and practical countermeasures.md",
+    "01 Notes/BFT (business flow tampering).md",
+    "02 Literature/papers/logic flow tampering/Patching Logic Vulnerabilities for Web Applications using LogicPatcher.md",
+    "03 References/(Deepa, Thilagam, et al., 2018).md",
     "02 Literature/papers/logic flow tampering/From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery.md",
     "02 Literature/papers/logic flow tampering/Requirements for preventing logic flaws in the authentication procedure of web applications.md",
     "96 Meta/Publication deadlines.md",
@@ -225,10 +213,7 @@
     "02 Literature/papers/logic flow tampering/LogicScope. automatic discovery of logic vulnerabilities within web applications.md",
     "02 Literature/papers/parameter tampering/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
     "02 Literature/papers/parameter tampering/A Novel Approach for Message Authentication to Prevent Parameter Tampering Attack in Web Applications.md",
-    "01 Notes/logic workflow bypass.md",
     "Pasted image 20250514165458.png",
-    "01 Notes/port.md",
-    "01 Notes/NAS (Network Attached Storage).md",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/meetings/2025_03_27.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",
