@@ -28,17 +28,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/object storage service.md",
+                "file": "02 Literature/papers/clickjacking/Frametrapping the framebusting defence.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "object storage service"
+              "title": "Frametrapping the framebusting defence"
+            }
+          },
+          {
+            "id": "41afabe157e233b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/clickjacking.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "clickjacking"
+            }
+          },
+          {
+            "id": "508e1d196c17bde1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 References/(Balduzzi, Egele, et al., 2010).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "(Balduzzi, Egele, et al., 2010)"
+            }
+          },
+          {
+            "id": "e28dae3c909e8b2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 References/(Shahriar, Devendran, et al., 2013).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "(Shahriar, Devendran, et al., 2013)"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -95,7 +140,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 267.5026054382324
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -201,8 +247,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "323e509b6f1533b1",
+  "active": "508e1d196c17bde1",
   "lastOpenFiles": [
+    "01 Notes/clickjacking.md",
+    "03 References/(Shahriar, Devendran, et al., 2013).md",
+    "03 References/(Shahriar, Haddad, et al., 2015).md",
+    "03 References/(Balduzzi, Egele, et al., 2010).md",
+    "03 References/(Sinha, Uppal, et al., 2014).md",
+    "03 References/(Sood, Enbody, et al., 2011).md",
+    "03 References/(Selim, Tayeb, et al., 2016).md",
+    "03 References/(Hazhirpasand, 2020).md",
+    "02 Literature/papers/clickjacking/Frametrapping the framebusting defence.md",
+    "01 Notes/object storage service.md",
     "02 Literature/papers/object storage (blob storage)/Do Not Trust the Clouds Easily. The Insecurity of Content Security Policy Based on Object Storage.md",
     "02 Literature/papers/code synthesis/WAVES. Automatic Synthesis of Client-Side Validation Code for Web Applications.md",
     "03 References/(Felsch, Heiderich, et al., 2015).md",
@@ -219,16 +275,6 @@
     "02 Literature/papers/SQLIA (SQL Injection Attack)/An effective method for preventing SQL injection attack and session hijacking.md",
     "02 Literature/papers/behavioral biometrics/User Profiling Using Sequential Mining Over Web Elements.md",
     "02 Literature/papers/web vulnerabilities reviews/Navigating web application security. A survey of vulnerabilities and detection solutions.md",
-    "03 References/(Johns, Braun, et al., 2011).md",
-    "02 Literature/papers/authentication/Reliable protection against session fixation attacks.md",
-    "02 Literature/papers/logic flow tampering/BLOCK. a black-box approach for detection of state violation attacks towards web applications.md",
-    "TO DO.md",
-    "02 Literature/papers/cloud control interface (CCI)/How Private is Your Private Cloud. Security Analysis of Cloud Control Interfaces.md",
-    "01 Notes/SW (Service Worker).md",
-    "03 References/(Malviya, Saurav, et al., 2013).md",
-    "02 Literature/papers/XSS (Cross-Site Scripting)/A survey of detection methods for XSS attacks.md",
-    "02 Literature/papers/CSRF (Cross Site Request Forgery)/The Great Request Robbery. An Empirical Study of Client-side Request Hijacking Vulnerabilities on the Web.md",
-    "01 Notes/CSRF (cross-site request forgery).md",
     "Pasted image 20250514165458.png",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/meetings/2025_03_27.canvas",
