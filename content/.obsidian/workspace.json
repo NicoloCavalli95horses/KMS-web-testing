@@ -4,56 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "62ac5deb65b9f280",
+        "id": "13764f8b716d552a",
         "type": "tabs",
         "children": [
           {
-            "id": "17e721b2934fe3bd",
+            "id": "4586cd25fefc6d56",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Literature/papers/prototype pollution/Detecting prototype pollution for node.js. Vulnerability review and new fuzzing inputs.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Detecting prototype pollution for node.js. Vulnerability review and new fuzzing inputs"
-            }
-          },
-          {
-            "id": "b298071357ae5aaf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Literature/papers/behavioral biometrics/User Profiling Using Sequential Mining Over Web Elements.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "User Profiling Using Sequential Mining Over Web Elements"
-            }
-          },
-          {
-            "id": "42dce67b0420de27",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Notes/session hijacking.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "session hijacking"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,8 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -217,11 +180,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b298071357ae5aaf",
+  "active": "4586cd25fefc6d56",
   "lastOpenFiles": [
+    "TO DO.md",
+    "01 Notes/CSP (Content Security Policy).md",
+    "02 Literature/papers/HTTP traffic analysis/Reining in the web with content security policy.md",
+    "02 Literature/papers/intrusion recovery/Intrusion recovery for database-backed web applications.md",
+    "02 Literature/papers/XSS (Cross-Site Scripting)/Automated removal of cross site scripting vulnerabilities in web applications.md",
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/Mitch. A Machine Learning Approach to the Black-Box Detection of CSRF Vulnerabilities.md",
+    "02 Literature/papers/authentication/Systematically breaking and fixing OpenID security. Formal analysis, semi-automated empirical evaluation, and practical countermeasures.md",
+    "02 Literature/papers/prototype pollution/Detecting prototype pollution for node.js. Vulnerability review and new fuzzing inputs.md",
+    "02 Literature/papers/authentication/A Supervised Learning Approach to Protect Client Authentication on the Web.md",
     "01 Notes/session hijacking.md",
     "02 Literature/papers/behavioral biometrics/User Profiling Using Sequential Mining Over Web Elements.md",
-    "02 Literature/papers/prototype pollution/Detecting prototype pollution for node.js. Vulnerability review and new fuzzing inputs.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Browser protection against cross-site request forgery.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Client-Side Detection of Cross-Site Request Forgery Attacks.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/A server and browser transparent CSRF defense for web 2.0 applications.md",
@@ -237,14 +208,6 @@
     "02 Literature/papers/object storage (blob storage)/Do Not Trust the Clouds Easily. The Insecurity of Content Security Policy Based on Object Storage.md",
     "02 Literature/papers/clickjacking/Frametrapping the framebusting defence.md",
     "03 References/(Balduzzi, Egele, et al., 2010).md",
-    "01 Notes/clickjacking.md",
-    "03 References/(Shahriar, Devendran, et al., 2013).md",
-    "03 References/(Shahriar, Haddad, et al., 2015).md",
-    "03 References/(Sinha, Uppal, et al., 2014).md",
-    "03 References/(Sood, Enbody, et al., 2011).md",
-    "03 References/(Selim, Tayeb, et al., 2016).md",
-    "03 References/(Hazhirpasand, 2020).md",
-    "01 Notes/object storage service.md",
     "Pasted image 20250514165458.png",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/meetings/2025_03_27.canvas",
