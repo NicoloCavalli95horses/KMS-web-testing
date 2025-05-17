@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "13764f8b716d552a",
+        "id": "3c2b0b0d6ac82eaa",
         "type": "tabs",
         "children": [
           {
-            "id": "4586cd25fefc6d56",
+            "id": "a3c5aba194542475",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature/papers/authentication/A Supervised Learning Approach to Protect Client Authentication on the Web.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "A Supervised Learning Approach to Protect Client Authentication on the Web"
             }
           }
         ]
@@ -74,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -180,9 +186,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4586cd25fefc6d56",
+  "active": "a3c5aba194542475",
   "lastOpenFiles": [
     "TO DO.md",
+    "02 Literature/papers/logic flow tampering/DetLogic. A black-box approach for detecting logic vulnerabilities in web applications.md",
     "01 Notes/CSP (Content Security Policy).md",
     "02 Literature/papers/HTTP traffic analysis/Reining in the web with content security policy.md",
     "02 Literature/papers/intrusion recovery/Intrusion recovery for database-backed web applications.md",
@@ -207,7 +214,6 @@
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/The state of HTTP declarative security in online banking websites.md",
     "02 Literature/papers/object storage (blob storage)/Do Not Trust the Clouds Easily. The Insecurity of Content Security Policy Based on Object Storage.md",
     "02 Literature/papers/clickjacking/Frametrapping the framebusting defence.md",
-    "03 References/(Balduzzi, Egele, et al., 2010).md",
     "Pasted image 20250514165458.png",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/meetings/2025_03_27.canvas",
