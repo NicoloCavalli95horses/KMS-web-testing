@@ -30,6 +30,8 @@ Although cookies may be set only by the visited [[domain]], it is possible for a
 Stored by the browser and more "permanent" than [[Web Storage API (localStorage, sessionStorage)]], which are stored by the window.
 - Stealing or guessing this cookie can lead to [[session hijacking]]
 
+**Authentication cookie**: a minimal set of cookies that allows the server to authenticate the client, restoring the state of the associated user without asking her to log in again [[(Calzavara, Tolomei, et al., 2014)]] [[(Calzavara, Tolomei, et al., 2015)]]
+
  [[(Calzavara, Tolomei, et al., 2014)]] have analyzed differences in session cookies, recognizing that not all the cookie with "random long text" are actually session cookie, or even essential for the user to be authenticated.
  - multiple cookies may be used together to compose the session token (auth token)
  - there may be session tokens that are actually not involved in the authentication mechanism
@@ -42,3 +44,4 @@ Stored by the browser and more "permanent" than [[Web Storage API (localStorage,
 - [[(West, Pulimood, et al., 2012)]]
 - [[(Zhu, 2021)]]
 - [[(Calzavara, Tolomei, et al., 2014)]]
+- [[(Calzavara, Tolomei, et al., 2015)]]

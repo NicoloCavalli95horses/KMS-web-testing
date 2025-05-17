@@ -11,7 +11,7 @@ This is when a user’s session identifier (SID) is stolen and used by the an ha
 
 ### Session fixation (an external SID is used)
 
-[[(Johns, Braun, et al., 2011)]]
+[[(Johns, Braun, et al., 2011)]] [[(Calzavara, Tolomei, et al., 2015)]]
 Session fixation is an attack in which an attacker forces a legitimate user to use a default SID chosen by the attacker. If the user authenticates with that SID, the attacker can then reuse it to take control of the authenticated session. Most session fixation rely on SID being accepted from URLs (query string) or POST data.
 - the attacker has a valid SID, that ==mark his session with the target website even if he is not logged in==
 - this SID may be provided by the web server, or even guessed or created by the attacker if the target application allows so
@@ -31,6 +31,10 @@ This a hack also occurs when a web server does not assign a new session upon aut
 **Mitigation strategies**
 - always generate new SID after critical operations happen (login, logout, sensitive information update, etc)
 - obviously, only the SID should be refreshed, and not other sensitive information related to the user (e.g., the shopping cart content)
+- **HTTP-Only** flag in HTTP headers: tells the browser to prevent any access from JavaScript  [[(Calzavara, Tolomei, et al., 2015)]]
+-  If the server does not refresh the cookie, the attack surface for session fixation can still be significantly reduced at the client-side, by requiring that authentication cookies attached to HTTP(S) requests are only registered through HTTP(S) headers [[(Calzavara, Tolomei, et al., 2015)]]
+- One-time cookie techniques and origin bound certificates make the cookie theft useless [[(Calzavara, Tolomei, et al., 2015)]]
+- client-side strategies are more scalable and easier to assess in research [[(Calzavara, Tolomei, et al., 2015)]]
 
 ### Session donation
 
@@ -46,6 +50,7 @@ This is when SID are passed as URL parameters during the request and response cy
 #### References
 - [[(Pauli, 2013)]]
 - [[(Calzavara, Tolomei, et al., 2014)]]
+- [[(Calzavara, Tolomei, et al., 2015)]]
 - Session fixation explained by [[(Johns, Braun, et al., 2011)]]
 
 [^1]: That is, the victim creates a new profile using new credentials and execute a POST request that includes the new credentials and the SID controlled by the attacker

@@ -31,7 +31,7 @@ A XSS can be carried with different languages:
 
 ## Consequences
 
-- steal session information stored in a [[cookie]] [[(Calzavara, Tolomei, et al., 2014)]]
+- steal session information stored in a [[cookie]] [[(Calzavara, Tolomei, et al., 2014)]] [[(Calzavara, Tolomei, et al., 2015)]]
 - transfer private information
 - hijack a user's account
 - manipulate the web content
