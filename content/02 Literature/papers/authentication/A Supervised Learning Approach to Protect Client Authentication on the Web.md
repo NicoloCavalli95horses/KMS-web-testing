@@ -42,16 +42,22 @@ Difference compared to [[(Calzavara, Tolomei, et al., 2014)]]:
 ## Approach
 
 - collecting sets of cookies from different websites (manual process that require manual login)
-- marking each cookie with a binary label to identify cookie it as part of the minimum set of auth cookies, or not
-## Evaluation
+- marking each cookie with a binary label to identify cookie it as part of the minimum set of auth cookies, or not. An algorithm is developed to identify the minimum subset (p.9)
 
+Login form detection (p.11): a form is a login form if contains a text/email field and a password field
 
 ## Results
 
+Identified 255 authentication tokens distributed across 215 websites:
+- 191 tokens (74.9%) contain just one cookie
+- 64 tokens (25.1%) are larger. Among these, 53 tokens are composed of two cookies
+- common practice for web authentication is to ==store the username in one cookie and some random session information in the other cookie==
 
-## Limits
-
-
+**Evaluation of client-side auth cookie detectors** (p.14)
+- SessionShield
+- Serene
+- CookiExt
+- Zan
 
 ---
 #### References
