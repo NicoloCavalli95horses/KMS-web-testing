@@ -259,7 +259,7 @@ Use a [[CSP (Content Security Policy)]] to mitigate the effects of a potential X
 - add a nonce (”number used once”) to a script tag and the header-delivered policy. Because those nonces are supposed to be random for each request, attackers can not guess them and thus not execute their malicious scripts. [[(Trampert, Stock, et al., 2023)]]
 ````
 Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, with techniques such as: ==monitoring, taint-tracking and filtering.==
-- this because to eliminate the XSS issue we should patch the source code
+- this *because* to eliminate the XSS issue we should patch the source code
 - In many case, access the source code or implementing patches can be difficult
 
 ---
