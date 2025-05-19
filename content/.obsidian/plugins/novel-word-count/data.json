@@ -3558,7 +3558,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.12,
-      "characterCount": 470,
+      "characterCount": 454,
       "nonWhitespaceCharacterCount": 396,
       "newlineCount": 17,
       "readingTimeInMinutes": 0.13584905660377358,
@@ -3566,8 +3566,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985177,
-      "modifiedDate": 1744622087544,
-      "sizeInBytes": 518,
+      "modifiedDate": 1747643161909,
+      "sizeInBytes": 498,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.12,
@@ -5871,7 +5871,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.09666666666666666,
-      "characterCount": 315,
+      "characterCount": 306,
       "nonWhitespaceCharacterCount": 264,
       "newlineCount": 10,
       "readingTimeInMinutes": 0.10943396226415095,
@@ -5879,8 +5879,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985156,
-      "modifiedDate": 1744622087606,
-      "sizeInBytes": 361,
+      "modifiedDate": 1747642948329,
+      "sizeInBytes": 348,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.09666666666666666,
@@ -19412,7 +19412,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.15333333333333332,
-      "characterCount": 423,
+      "characterCount": 412,
       "nonWhitespaceCharacterCount": 357,
       "newlineCount": 12,
       "readingTimeInMinutes": 0.17358490566037735,
@@ -19420,8 +19420,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985135,
-      "modifiedDate": 1744622087679,
-      "sizeInBytes": 517,
+      "modifiedDate": 1747643122573,
+      "sizeInBytes": 509,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.15333333333333332,
@@ -19437,7 +19437,8 @@
           "GUI",
           "cyberSecurity",
           "metaAnalysis"
-        ]
+        ],
+        "Rank": "N/A"
       }
     },
     "02 Literature/papers/web vulnerabilities reviews/Enhancing Front-End Security. Protecting User Data and Privacy in Web Applications.md": {
@@ -19448,7 +19449,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.48333333333333334,
-      "characterCount": 1164,
+      "characterCount": 1138,
       "nonWhitespaceCharacterCount": 968,
       "newlineCount": 27,
       "readingTimeInMinutes": 0.5471698113207547,
@@ -19456,8 +19457,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985135,
-      "modifiedDate": 1744622087680,
-      "sizeInBytes": 1251,
+      "modifiedDate": 1747643165516,
+      "sizeInBytes": 1227,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.48333333333333334,
@@ -19472,7 +19473,8 @@
           "paper",
           "cyberSecurity",
           "webApplication"
-        ]
+        ],
+        "Rank": "B"
       }
     },
     "02 Literature/papers/web vulnerabilities reviews/A Taxonomy of Web Security Vulnerabilities.md": {
@@ -24345,16 +24347,16 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.66,
-      "characterCount": 1438,
+      "characterCount": 1439,
       "nonWhitespaceCharacterCount": 1215,
-      "newlineCount": 29,
+      "newlineCount": 30,
       "readingTimeInMinutes": 0.7471698113207547,
       "linkCount": 8,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985102,
-      "modifiedDate": 1746782735218,
-      "sizeInBytes": 1584,
+      "modifiedDate": 1747642731498,
+      "sizeInBytes": 1585,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.66,

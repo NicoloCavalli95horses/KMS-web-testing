@@ -13,16 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/authentication/Systematically breaking and fixing OpenID security. Formal analysis, semi-automated empirical evaluation, and practical countermeasures.md",
+                "file": "02 Literature/papers/web vulnerabilities reviews/Security of Web Application. State of the Art.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Systematically breaking and fixing OpenID security. Formal analysis, semi-automated empirical evaluation, and practical countermeasures"
+              "title": "Security of Web Application. State of the Art"
+            }
+          },
+          {
+            "id": "08f0df0fabbac28a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03 References/(Ur Rehman, Nazir, Mustafa, 2017).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "(Ur Rehman, Nazir, Mustafa, 2017)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,8 +201,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "42cf5362df67e588",
+  "active": "08f0df0fabbac28a",
   "lastOpenFiles": [
+    "02 Literature/papers/web vulnerabilities reviews/Security of Web Application. State of the Art.md",
+    "02 Literature/papers/web vulnerabilities reviews/Enhancing Front-End Security. Protecting User Data and Privacy in Web Applications.md",
+    "03 References/(Tkachenko et al., 2024).md",
+    "02 Literature/papers/web vulnerabilities reviews/Common vulnerabilities in real world web applications.md",
+    "03 References/(Krishnaraj, Madaan, et al., 2023).md",
+    "02 Literature/papers/software models/A Grey-Box Approach for Detecting Malicious User Interactions in Web Applications.md",
+    "02 Literature/papers/authentication/Systematically breaking and fixing OpenID security. Formal analysis, semi-automated empirical evaluation, and practical countermeasures.md",
     "TO DO.md",
     "02 Literature/papers/authentication/Reliable protection against session fixation attacks.md",
     "02 Literature/papers/authentication/A Supervised Learning Approach to Protect Client Authentication on the Web.md",
@@ -204,15 +227,8 @@
     "02 Literature/papers/intrusion recovery/Intrusion recovery for database-backed web applications.md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/Automated removal of cross site scripting vulnerabilities in web applications.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Mitch. A Machine Learning Approach to the Black-Box Detection of CSRF Vulnerabilities.md",
-    "02 Literature/papers/authentication/Systematically breaking and fixing OpenID security. Formal analysis, semi-automated empirical evaluation, and practical countermeasures.md",
     "02 Literature/papers/behavioral biometrics/User Profiling Using Sequential Mining Over Web Elements.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Browser protection against cross-site request forgery.md",
-    "02 Literature/papers/CSRF (Cross Site Request Forgery)/Client-Side Detection of Cross-Site Request Forgery Attacks.md",
-    "02 Literature/papers/CSRF (Cross Site Request Forgery)/A server and browser transparent CSRF defense for web 2.0 applications.md",
-    "00 Antilibrary/A server- and browser-transparent CSRF defense for web 2.0 applications.md",
-    "03 References/(Pelizzi, Sekar, et al., 2011).md",
-    "02 Literature/papers/logic flow tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
-    "01 Notes/callstack.md",
     "Pasted image 20250514165458.png",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/meetings/2025_03_27.canvas",
