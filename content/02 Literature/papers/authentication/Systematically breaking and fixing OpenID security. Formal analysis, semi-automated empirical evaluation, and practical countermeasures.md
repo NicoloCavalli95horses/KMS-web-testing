@@ -22,6 +22,7 @@ Even though [[OpenID]] is rapidly being adopted, its security has yet to be demo
 - 2010: parameter forgery attack found (extension parameters can be forged when not HTTPS)
 
 The paper aims at understanding the root weaknesses in the protocol and assessing the prevalence of those weaknesses
+
 ## Approach
 
 - We formalized the [[OpenID]] 2.0 protocol in the High Level Protocol Specification Language (HLPSL) 

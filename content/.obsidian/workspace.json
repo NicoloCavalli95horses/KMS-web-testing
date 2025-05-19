@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TO DO.md",
+                "file": "02 Literature/papers/authentication/Systematically breaking and fixing OpenID security. Formal analysis, semi-automated empirical evaluation, and practical countermeasures.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "TO DO"
+              "title": "Systematically breaking and fixing OpenID security. Formal analysis, semi-automated empirical evaluation, and practical countermeasures"
             }
           }
         ]
@@ -187,7 +187,10 @@
   },
   "active": "42cf5362df67e588",
   "lastOpenFiles": [
+    "TO DO.md",
+    "02 Literature/papers/authentication/Reliable protection against session fixation attacks.md",
     "02 Literature/papers/authentication/A Supervised Learning Approach to Protect Client Authentication on the Web.md",
+    "02 Literature/papers/prototype pollution/Detecting prototype pollution for node.js. Vulnerability review and new fuzzing inputs.md",
     "01 Notes/XSS (cross site scripting).md",
     "01 Notes/HTTP eavesdropping.md",
     "01 Notes/session hijacking.md",
@@ -195,7 +198,6 @@
     "01 Notes/HSTS (HTTP Strict Transport Security).md",
     "02 Literature/papers/cookies/Quite a mess in my cookie jar! leveraging machine learning to protect web authentication.md",
     "03 References/(Calzavara, Tolomei, et al., 2014).md",
-    "TO DO.md",
     "02 Literature/papers/logic flow tampering/DetLogic. A black-box approach for detecting logic vulnerabilities in web applications.md",
     "01 Notes/CSP (Content Security Policy).md",
     "02 Literature/papers/HTTP traffic analysis/Reining in the web with content security policy.md",
@@ -203,7 +205,6 @@
     "02 Literature/papers/XSS (Cross-Site Scripting)/Automated removal of cross site scripting vulnerabilities in web applications.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Mitch. A Machine Learning Approach to the Black-Box Detection of CSRF Vulnerabilities.md",
     "02 Literature/papers/authentication/Systematically breaking and fixing OpenID security. Formal analysis, semi-automated empirical evaluation, and practical countermeasures.md",
-    "02 Literature/papers/prototype pollution/Detecting prototype pollution for node.js. Vulnerability review and new fuzzing inputs.md",
     "02 Literature/papers/behavioral biometrics/User Profiling Using Sequential Mining Over Web Elements.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Browser protection against cross-site request forgery.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Client-Side Detection of Cross-Site Request Forgery Attacks.md",
@@ -212,7 +213,6 @@
     "03 References/(Pelizzi, Sekar, et al., 2011).md",
     "02 Literature/papers/logic flow tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "01 Notes/callstack.md",
-    "02 Literature/papers/logic flow tampering/LogicScope. automatic discovery of logic vulnerabilities within web applications.md",
     "Pasted image 20250514165458.png",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/meetings/2025_03_27.canvas",
