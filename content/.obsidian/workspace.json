@@ -11,10 +11,15 @@
             "id": "229bf21491b8efcc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/clickjacking.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "clickjacking"
             }
           }
         ]
