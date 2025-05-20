@@ -45,12 +45,14 @@ Attackers may study the email communications of an employee for a while, and the
 
 ## Mitigation techniques
 
-#### Blacklisting/whitelisting URLs
+### Blacklisting/whitelisting URLs
+
 - low false positives
 - hard to maintain
 - miss zero-day attacks
 
-#### Developing heuristics
+### Developing heuristics
+
 - **Visual similarity and page content investigation**: if two login pages look similar (similar layout and colors) but the application domains are different, an alarm is raised. This approaches are great, but (i) screenshots are stored locally and are heavy (ii) comparison takes time
 - **ML techniques to classify URLs**: Chrome's extension PhishCatcher [[(Ahmed, Altamimi, et al., 2023)]]. Shortcomings: (i) large dataset is needed (ii) not perfect agreement on model's features
 - **ML techniques to classify emails**
