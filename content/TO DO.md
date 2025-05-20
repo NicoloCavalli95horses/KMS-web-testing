@@ -1,8 +1,6 @@
 Read and summarize (the notes have been already created)
 
 - [ ] MITCH. A machine learning approach to the black box detection of CSRF vulnerabilities https://ieeexplore.ieee.org/document/8806728
-- [ ] Automated removal of cross site scripting vulnerabilities in web applications https://ink.library.smu.edu.sg/cgi/viewcontent.cgi?article=5900&context=sis_research
-
 
 TO DO
 - [ ] move RQs to methodology

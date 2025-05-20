@@ -8,36 +8,52 @@
         "type": "tabs",
         "children": [
           {
-            "id": "08760745f2659e20",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Notes/EAR (Execution After Redirect).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "EAR (Execution After Redirect)"
-            }
-          },
-          {
             "id": "a9fcb7c1eb88225d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/XSS (cross site scripting).md",
+                "file": "TO DO.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "XSS (cross site scripting)"
+              "title": "TO DO"
+            }
+          },
+          {
+            "id": "c233a8f2db1a62f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature/papers/XSS (Cross-Site Scripting)/Automated removal of cross site scripting vulnerabilities in web applications.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Automated removal of cross site scripting vulnerabilities in web applications"
+            }
+          },
+          {
+            "id": "76ae303496670156",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/CSRF (cross-site request forgery).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "CSRF (cross-site request forgery)"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -200,10 +216,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "08760745f2659e20",
+  "active": "76ae303496670156",
   "lastOpenFiles": [
-    "01 Notes/XSS (cross site scripting).md",
+    "02 Literature/papers/XSS (Cross-Site Scripting)/Automated removal of cross site scripting vulnerabilities in web applications.md",
+    "TO DO.md",
+    "02 Literature/papers/redirect vulnerability/EARs in the wild. large-scale analysis of execution after redirect vulnerabilities.md",
     "01 Notes/EAR (Execution After Redirect).md",
+    "01 Notes/XSS (cross site scripting).md",
     "02 Literature/papers/service worker vulnerabilities/The Service Worker Hiding in Your Browser. The Next Web Attack Target..md",
     "01 Notes/SW (Service Worker).md",
     "03 References/(Johns, Braun, et al., 2011).md",
@@ -225,9 +244,6 @@
     "02 Literature/papers/tabnabbing/TabShots. client-side detection of tabnabbing attacks.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Browser protection against cross-site request forgery.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Client-Side Detection of Cross-Site Request Forgery Attacks.md",
-    "02 Literature/papers/CSRF (Cross Site Request Forgery)/The Great Request Robbery. An Empirical Study of Client-side Request Hijacking Vulnerabilities on the Web.md",
-    "01 Notes/CSRF (cross-site request forgery).md",
-    "01 Notes/XSS and CSFR comparison.md",
     "Pasted image 20250514165458.png",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/meetings/2025_03_27.canvas",
