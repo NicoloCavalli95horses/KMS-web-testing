@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/phishing.md",
+                "file": "01 Notes/tabnabbing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "phishing"
+              "title": "tabnabbing"
             }
           },
           {
@@ -202,8 +202,8 @@
   },
   "active": "16edd2cdf8621f6c",
   "lastOpenFiles": [
-    "03 References/(Fonseka, Pashenna, et al., 2023).md",
     "01 Notes/phishing.md",
+    "03 References/(Fonseka, Pashenna, et al., 2023).md",
     "03 References/(Ahmed, Altamimi, et al., 2023).md",
     "03 References/(Onarlioglu, Buyukkayhan, et al., 2015).md",
     "03 References/(Chanakya, Spoorthi, et al., 2024).md",
