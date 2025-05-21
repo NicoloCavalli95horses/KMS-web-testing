@@ -11,10 +11,30 @@
             "id": "4da3497b5ad62c4a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature/papers/input validation/Runtime Input Validation for Java Web Applications using Static Bytecode Instrumentation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Runtime Input Validation for Java Web Applications using Static Bytecode Instrumentation"
+            }
+          },
+          {
+            "id": "e430193fd3af409d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/Instrumentation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Instrumentation"
             }
           }
         ]
@@ -182,6 +202,9 @@
   },
   "active": "4da3497b5ad62c4a",
   "lastOpenFiles": [
+    "01 Notes/Instrumentation.md",
+    "02 Literature/papers/input validation/Runtime Input Validation for Java Web Applications using Static Bytecode Instrumentation.md",
+    "02 Literature/papers/logic flow tampering/LogicScope. automatic discovery of logic vulnerabilities within web applications.md",
     "02 Literature/papers/tabnabbing/TabShots. client-side detection of tabnabbing attacks.md",
     "01 Notes/COOP (Cross-Origin Opener Policy).md",
     "01 Notes/CSP (Content Security Policy).md",
@@ -212,9 +235,6 @@
     "01 Notes/CSRF (cross-site request forgery).md",
     "02 Literature/papers/redirect vulnerability/EARs in the wild. large-scale analysis of execution after redirect vulnerabilities.md",
     "01 Notes/EAR (Execution After Redirect).md",
-    "02 Literature/papers/service worker vulnerabilities/The Service Worker Hiding in Your Browser. The Next Web Attack Target..md",
-    "01 Notes/SW (Service Worker).md",
-    "03 References/(Johns, Braun, et al., 2011).md",
     "Pasted image 20250514165458.png",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/meetings/2025_03_27.canvas",
