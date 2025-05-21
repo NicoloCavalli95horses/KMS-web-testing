@@ -22,7 +22,7 @@ const newTab = window.open("https://example.com");
 console.log(newTab.opener); // this has a reference to the other tab
 ```
 
-With `Cross-Origin-Opener-Policy: same-origin` every window is isolated, and `window.opener` is set to `null`
+With `Cross-Origin-Opener-Policy: same-origin` every window is isolated, and `window.open` is set to `null`
 
 ---
 #### References
