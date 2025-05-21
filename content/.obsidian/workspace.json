@@ -11,17 +11,15 @@
             "id": "4da3497b5ad62c4a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
-                "viewState": {
-                  "x": 67.00871104148607,
-                  "y": 441.5490247450439,
-                  "zoom": 0.18331413802864754
-                }
+                "file": "96 Meta/Publication deadlines.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "RQ1. Role of front-end software in web security"
+              "icon": "lucide-file",
+              "title": "Publication deadlines"
             }
           },
           {
@@ -219,6 +217,7 @@
   },
   "active": "4da3497b5ad62c4a",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/mind maps/props tampering.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",
     "04 Canvases/meetings/2025_04_10.canvas",
@@ -255,7 +254,6 @@
     "TO DO.md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/Automated removal of cross site scripting vulnerabilities in web applications.md",
     "Pasted image 20250514165458.png",
-    "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "97 Assets/scoped_css_as_component_identifier_js.png",
     "02 Literature/papers/Cross-Site Framing (CSF)",
     "97 Assets/IVD_invariant_detector_facebook.png",
