@@ -11,15 +11,32 @@
             "id": "4da3497b5ad62c4a",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
+                "viewState": {
+                  "x": 67.00871104148607,
+                  "y": 441.5490247450439,
+                  "zoom": 0.18331413802864754
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "RQ1. Role of front-end software in web security"
+            }
+          },
+          {
+            "id": "e3daf61fc0b5701d",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/input validation/Runtime Input Validation for Java Web Applications using Static Bytecode Instrumentation.md",
+                "file": "01 Notes/fuzzing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Runtime Input Validation for Java Web Applications using Static Bytecode Instrumentation"
+              "title": "fuzzing"
             }
           },
           {
@@ -202,8 +219,15 @@
   },
   "active": "4da3497b5ad62c4a",
   "lastOpenFiles": [
-    "01 Notes/Instrumentation.md",
+    "04 Canvases/mind maps/props tampering.canvas",
+    "04 Canvases/meetings/2025_04_04.canvas",
+    "04 Canvases/meetings/2025_04_10.canvas",
+    "04 Canvases/meetings/2025_04_17.canvas",
+    "04 Canvases/meetings/2025_05_02.canvas",
+    "02 Literature/papers/testing enhancements/What All the PHUZZ Is About. A Coverage-guided Fuzzer for Finding Vulnerabilities in PHP Web Applications.md",
+    "01 Notes/fuzzing.md",
     "02 Literature/papers/input validation/Runtime Input Validation for Java Web Applications using Static Bytecode Instrumentation.md",
+    "01 Notes/Instrumentation.md",
     "02 Literature/papers/logic flow tampering/LogicScope. automatic discovery of logic vulnerabilities within web applications.md",
     "02 Literature/papers/tabnabbing/TabShots. client-side detection of tabnabbing attacks.md",
     "01 Notes/COOP (Cross-Origin Opener Policy).md",
@@ -226,19 +250,12 @@
     "02 Literature/papers/clickjacking/ProClick. a framework for testing clickjacking attacks in web applications.md",
     "02 Literature/papers/clickjacking/A solution for the automated detection of clickjacking attacks.md",
     "04 Canvases/meetings/2025_05_21.canvas",
-    "04 Canvases/meetings/2025_05_02.canvas",
-    "04 Canvases/meetings/2025_04_17.canvas",
     "01 Notes/clickjacking.md",
     "01 Notes/XSS (cross site scripting).md",
     "TO DO.md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/Automated removal of cross site scripting vulnerabilities in web applications.md",
-    "01 Notes/CSRF (cross-site request forgery).md",
-    "02 Literature/papers/redirect vulnerability/EARs in the wild. large-scale analysis of execution after redirect vulnerabilities.md",
-    "01 Notes/EAR (Execution After Redirect).md",
     "Pasted image 20250514165458.png",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
-    "04 Canvases/meetings/2025_03_27.canvas",
-    "04 Canvases/meetings/2025_04_04.canvas",
     "97 Assets/scoped_css_as_component_identifier_js.png",
     "02 Literature/papers/Cross-Site Framing (CSF)",
     "97 Assets/IVD_invariant_detector_facebook.png",
