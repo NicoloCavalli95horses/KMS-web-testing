@@ -1,0 +1,37 @@
+{
+  "edges": [
+    {
+      "fromNode": "363adf345df1bd85",
+      "fromSide": "right",
+      "id": "7bf3ee203fc4cb53",
+      "styleAttributes": {
+      },
+      "toNode": "84abb7547efa5102",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 580,
+      "id": "363adf345df1bd85",
+      "styleAttributes": {
+      },
+      "text": "**RQ1**. What are the most relevant web vulnerabilities associated with front-end software? What role do front-end  functionality play  in  this  context  and  how  is front-end software involved in a web attack?\n\n**RQ2**. What is the prevalence of web attacks in the context of  the  front-end?  What  proposals  have  been  put forward to measure the presence of these problems on the web?\n\n**RQ3**. Have new vulnerabilities, or new variants of well-known issues, emerged in the last years?\n\n**RQ4**. What are the common causes of these web vulnerabilities, if any? Is it possible to trace the relationships between these vulnerabilities?\n\n**RQ5**. What kind of mitigation solutions, tools or strategies have been proposed so far? What are their potentialities and their limits?",
+      "type": "text",
+      "width": 720,
+      "x": -1060,
+      "y": 380
+    },
+    {
+      "height": 580,
+      "id": "84abb7547efa5102",
+      "styleAttributes": {
+      },
+      "text": "**RQ1**. What are the most relevant web vulnerabilities associated with front-end software? What role do front-end functionality play in this context and how  is front-end software involved in a web attack?\n\n\n**RQ2**. What kind of mitigation solutions, tools or strategies have been proposed for these vulnerabilities and attacks? What are their potentialities and their limits?\n\n\n**RQ3**. Is it possible to trace the relationships between these vulnerabilities?\n",
+      "type": "text",
+      "width": 720,
+      "x": -280,
+      "y": 380
+    }
+  ]
+}
