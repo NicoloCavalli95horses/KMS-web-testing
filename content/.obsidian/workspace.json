@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -231,15 +231,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f6cadff08c3ce022",
+  "active": "9bf39d5cefa8dba9",
   "lastOpenFiles": [
-    "02 Literature/papers/prototype pollution/Undefined-oriented Programming. Detecting and Chaining Prototype Pollution Gadgets in Node.js Template Engines for Malicious Consequences.md",
+    "03 References/(Kluban, Mannan, et al., 2024).md",
     "01 Notes/prototype pollution gadgets.md",
-    "02 Literature/papers/prototype pollution/Detecting prototype pollution for node.js. Vulnerability review and new fuzzing inputs.md",
     "01 Notes/prototype pollution.md",
+    "03 References/(Katulanda, Henaka Arachchi, et al., 2023).md",
+    "03 References/(Hakim, 2023).md",
+    "02 Literature/papers/prototype pollution/Undefined-oriented Programming. Detecting and Chaining Prototype Pollution Gadgets in Node.js Template Engines for Malicious Consequences.md",
+    "03 References/(Liu, An, et al., 2024).md",
+    "02 Literature/papers/prototype pollution/Detecting prototype pollution for node.js. Vulnerability review and new fuzzing inputs.md",
     "02 Literature/papers/prototype pollution/On Detecting and Measuring Exploitable JavaScript Functions in Real-world Applications.md",
     "01 Notes/ReDoS (Regular Expression Denial of Service).md",
-    "03 References/(Kluban, Mannan, et al., 2024).md",
     "03 References/(Bai, Wang, Zhu, et al., 2021).md",
     "96 Meta/Publication deadlines.md",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
@@ -266,9 +269,6 @@
     "01 Notes/tabnabbing.md",
     "03 References/(Sanchez, 2020).md",
     "01 Notes/phishing.md",
-    "03 References/(Fonseka, Pashenna, et al., 2023).md",
-    "03 References/(Ahmed, Altamimi, et al., 2023).md",
-    "03 References/(Onarlioglu, Buyukkayhan, et al., 2015).md",
     "Pasted image 20250514165458.png",
     "97 Assets/scoped_css_as_component_identifier_js.png",
     "02 Literature/papers/Cross-Site Framing (CSF)",

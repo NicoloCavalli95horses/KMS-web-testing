@@ -6646,8 +6646,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743766985150,
-      "modifiedDate": 1744622087630,
-      "sizeInBytes": 505,
+      "modifiedDate": 1747919532875,
+      "sizeInBytes": 488,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.12333333333333334,
@@ -6660,9 +6660,6 @@
         "ID": "2025-03-11-11:01",
         "tags": [
           "ref"
-        ],
-        "Project": [
-          "SLR"
         ]
       }
     },

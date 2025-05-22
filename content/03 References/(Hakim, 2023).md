@@ -2,8 +2,6 @@
 ID: 2025-03-11-11:01
 tags:
   - ref
-Project:
-  - SLR
 ---
 ## External Link
 
