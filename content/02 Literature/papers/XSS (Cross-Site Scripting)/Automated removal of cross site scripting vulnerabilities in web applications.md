@@ -10,23 +10,22 @@ Project:
 ---
 ## Context
 
-High-level description of the problem. Use links to low-level notes to specify the context details
+The malicious script used in an [[XSS (cross site scripting)]] attack can be any kind of client side scripts (e.g., HTML, JavaScript, VBScript, and Flash) that can be interpreted by web browsers. XSS attacks may cause severe security violations such as account hijacking, data theft, cookie theft and poisoning, web content manipulation, and denial of service
 
 ## Approach
 
-Describe the research approach in simple terms. What did the authors do to solve the problem?
+Two-phase approach for finding and removing potential XSSVs in server programs. The first phase adopts a taint-based analysis approach to track the flow of user inputs into HTML output statements and identify potentially vulnerable statements. The second phase uses pattern matching and data dependency analysis to identify the HTML contexts in which the user inputs are referenced and the required escaping mechanisms that prevent code injection. Then it performs source code generation and replacement to secure potentially vulnerable statements with proper escaping APIs.
 
 ## Evaluation
 
-Often a tool or a solution is implemented. How was that solution evaluated?
 
 ## Results
 
-Describe the results in simple terms
+
 
 ## Limits
 
-What are the limits of the research? What could be improved?
+
 
 ---
 #### References

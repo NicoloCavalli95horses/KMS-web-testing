@@ -280,3 +280,4 @@ Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, wit
 - Types of XSS and mitigation techniques: [[(Malviya, Saurav, et al., 2013)]]
 - XSS in embedded web server, by [[(Bojinov, Bursztein, et al., 2009)]]
 - comprehensive survey about XSS, by [[(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018)]]
+- [[(Shar, Tan, et al., 2012)]]
