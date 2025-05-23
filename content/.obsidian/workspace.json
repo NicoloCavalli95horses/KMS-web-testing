@@ -8,21 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "08bf9236e7f2b24c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Literature/papers/XSS (Cross-Site Scripting)/Automated removal of cross site scripting vulnerabilities in web applications.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Automated removal of cross site scripting vulnerabilities in web applications"
-            }
-          },
-          {
             "id": "2c1e69cc206dcfa7",
             "type": "leaf",
             "state": {
@@ -58,16 +43,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/XSS (cross site scripting).md",
-                "mode": "source",
+                "file": "02 Literature/papers/Cross-Site Framing (CSF)/Cross-Site Framing Attacks.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "XSS (cross site scripting)"
+              "title": "Cross-Site Framing Attacks"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -230,12 +216,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "08bf9236e7f2b24c",
+  "active": "b70cdaa861af0615",
   "lastOpenFiles": [
+    "01 Notes/XSS (cross site scripting).md",
+    "01 Notes/CSP (Content Security Policy).md",
+    "03 References/(Trampert, Stock, et al., 2023).md",
     "01 Notes/DOM clobbering.md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/On Security Issues in Web Applications through Cross Site Scripting (XSS).md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/Automated removal of cross site scripting vulnerabilities in web applications.md",
-    "01 Notes/XSS (cross site scripting).md",
     "02 Literature/papers/logic flow tampering/BLOCK. a black-box approach for detection of state violation attacks towards web applications.md",
     "TO DO.md",
     "02 Literature/papers/prototype pollution/Detecting prototype pollution for node.js. Vulnerability review and new fuzzing inputs.md",
@@ -262,8 +250,6 @@
     "02 Literature/papers/input validation/Runtime Input Validation for Java Web Applications using Static Bytecode Instrumentation.md",
     "01 Notes/Instrumentation.md",
     "02 Literature/papers/logic flow tampering/LogicScope. automatic discovery of logic vulnerabilities within web applications.md",
-    "02 Literature/papers/tabnabbing/TabShots. client-side detection of tabnabbing attacks.md",
-    "01 Notes/COOP (Cross-Origin Opener Policy).md",
     "04 Canvases/mind maps/cross-domain policies.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",

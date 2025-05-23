@@ -18,14 +18,7 @@ Two-phase approach for finding and removing potential XSSVs in server programs. 
 
 ## Evaluation
 
-
-## Results
-
-
-
-## Limits
-
-
+In our evaluation, the tool was successful in removing all the real XSSVs found in five testS.
 
 ---
 #### References
