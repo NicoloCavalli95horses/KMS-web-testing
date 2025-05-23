@@ -26,7 +26,7 @@ This can lead to unexpected behavior or security issues: DOM clobbering can be c
 
 ```
 
-This can happen mostly in legacy JavaScript codebases, where global variables were stored directly in global object, by mistake or by design (using `window`, `document`, `history`, `localStorage`) 
+This can happen in legacy JavaScript codebases, where global variables were stored directly in global object, by mistake or by design (using `window`, `document`, `history`, `localStorage`) but even in modern application
 
 DOM clobbering can leverage this particular browser behavior to mess with object values.
 
