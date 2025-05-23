@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/CSRF (cross-site request forgery).md",
+                "file": "02 Literature/books/JavaScript, The Good Parts/JavaScript, The Good Parts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "CSRF (cross-site request forgery)"
+              "title": "JavaScript, The Good Parts"
             }
           }
         ]
@@ -187,6 +187,7 @@
   },
   "active": "2c1e69cc206dcfa7",
   "lastOpenFiles": [
+    "01 Notes/CSRF (cross-site request forgery).md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/The state of HTTP declarative security in online banking websites.md",
     "02 Literature/papers/prototype pollution/On Detecting and Measuring Exploitable JavaScript Functions in Real-world Applications.md",
     "02 Literature/papers/cloud control interface (CCI)/How Private is Your Private Cloud. Security Analysis of Cloud Control Interfaces.md",
@@ -212,7 +213,6 @@
     "03 References/(Liu, An, et al., 2024).md",
     "01 Notes/ReDoS (Regular Expression Denial of Service).md",
     "03 References/(Bai, Wang, Zhu, et al., 2021).md",
-    "96 Meta/Publication deadlines.md",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/mind maps/props tampering.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",
