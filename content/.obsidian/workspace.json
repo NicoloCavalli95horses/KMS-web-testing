@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "923412b28ff978f4",
+        "id": "843ca3038b44623e",
         "type": "tabs",
         "children": [
           {
-            "id": "b1177671bd0ce941",
+            "id": "462e9cd5e301358e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/XCS (Cross Channel Scripting).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "XCS (Cross Channel Scripting)"
             }
           }
         ]
@@ -180,8 +185,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b1177671bd0ce941",
+  "active": "462e9cd5e301358e",
   "lastOpenFiles": [
+    "01 Notes/CSRF (cross-site request forgery).md",
+    "03 References/(Maes, Heyman, et al., 2009).md",
+    "02 Literature/papers/software models/A Grey-Box Approach for Detecting Malicious User Interactions in Web Applications.md",
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/CsFire. Transparent client-side mitigation of malicious cross-domain requests.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Mitch. A Machine Learning Approach to the Black-Box Detection of CSRF Vulnerabilities.md",
     "03 References/(Pelizzi, Sekar, et al., 2011).md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Client-Side Detection of Cross-Site Request Forgery Attacks.md",
@@ -194,9 +203,7 @@
     "03 References/(Khodayari, Barber, et al., 2024).md",
     "TO DO.md",
     "03 References/(Trampert, Stock, et al., 2023).md",
-    "01 Notes/CSRF (cross-site request forgery).md",
     "03 References/(De Ryck, Desmet, et al., 2010).md",
-    "03 References/(Maes, Heyman, et al., 2009).md",
     "02 Literature/books/JavaScript, The Good Parts/JavaScript, The Good Parts.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/The state of HTTP declarative security in online banking websites.md",
     "02 Literature/papers/prototype pollution/On Detecting and Measuring Exploitable JavaScript Functions in Real-world Applications.md",
@@ -206,8 +213,6 @@
     "01 Notes/EAR (Execution After Redirect).md",
     "02 Literature/papers/Cross-Site Framing (CSF)/Cross-Site Framing Attacks.md",
     "01 Notes/XSS (cross site scripting).md",
-    "01 Notes/CSP (Content Security Policy).md",
-    "01 Notes/DOM clobbering.md",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/mind maps/props tampering.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",
