@@ -91,7 +91,7 @@ Reverse XCS (a cross-protocol attack that start from a web channel) can be explo
 - Checking the HTTP header is useless in the context of XCS because the request comes from the same domain
 - The use of secure tokens can be defeated by sending an XHR request to the page, reading its result and extracting the token value to construct dynamically the form that will be used to perform the CSRF attack
 
-**Input validation CSRF** [[(Khodayari, Barber, et al., 2024)]]
+**TOCHECK: Input validation CSRF** [[(Khodayari, Barber, et al., 2024)]]
 - Can bypass common CSRF defenses (e.g., token)
 
 ### Risks and consequences
