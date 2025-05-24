@@ -32,9 +32,6 @@ Logic flaws can be modeled as the differences between a [[FSM (finite-state mach
 
 ### Tampering techniques
 
-- changing the style classes
-- changing the references objects (images, audio, video, etc)
-- changing the source code of the page itself
 - changing the interface state (or components state, in component-based GUIs)
 - skip/repeat function execution
 - force a conditional branch
