@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/BFT (business flow tampering).md",
+                "file": "01 Notes/session hijacking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "BFT (business flow tampering)"
+              "title": "session hijacking"
             }
           }
         ]
@@ -187,9 +187,14 @@
   },
   "active": "462e9cd5e301358e",
   "lastOpenFiles": [
+    "03 References/(Calzavara, Tolomei, et al., 2015).md",
+    "01 Notes/session hijacking.md",
+    "03 References/(Johns, Braun, et al., 2011).md",
     "02 Literature/papers/logic flow tampering/Patching Logic Vulnerabilities for Web Applications using LogicPatcher.md",
-    "01 Notes/logic vulnerability.md",
+    "02 Literature/papers/logic flow tampering/Finding client-side business flow tampering vulnerabilities.md",
+    "02 Literature/papers/logic flow tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "01 Notes/BFT (business flow tampering).md",
+    "01 Notes/logic vulnerability.md",
     "03 References/(Ndiaye, Barais, et al., 2019).md",
     "02 Literature/papers/logic flow tampering/Requirements for preventing logic flaws in the authentication procedure of web applications.md",
     "03 References/(Li, Xue, et al., 2013).md",
@@ -200,7 +205,6 @@
     "02 Literature/papers/logic flow tampering/Toward black-box detection of logic flaws in web applications.md",
     "03 References/(Kim, Zheng, Park, et al., 2020).md",
     "01 Notes/session puzzling.md",
-    "01 Notes/session hijacking.md",
     "01 Notes/XCS (Cross Channel Scripting).md",
     "01 Notes/CSRF (cross-site request forgery).md",
     "03 References/(Maes, Heyman, et al., 2009).md",
@@ -209,10 +213,6 @@
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Mitch. A Machine Learning Approach to the Black-Box Detection of CSRF Vulnerabilities.md",
     "03 References/(Pelizzi, Sekar, et al., 2011).md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Client-Side Detection of Cross-Site Request Forgery Attacks.md",
-    "03 References/(Shahriar, Zulkernine, et al., 2010).md",
-    "02 Literature/papers/CSRF (Cross Site Request Forgery)/Browser protection against cross-site request forgery.md",
-    "01 Notes/CORS (Cross-Origin Resource Sharing).md",
-    "01 Notes/SameSite cookie.md",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/mind maps/props tampering.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",
