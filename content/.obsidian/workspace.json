@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/CSRF (cross-site request forgery).md",
+                "file": "02 Literature/papers/XSS (Cross-Site Scripting)/On Security Issues in Web Applications through Cross Site Scripting (XSS).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "CSRF (cross-site request forgery)"
+              "title": "On Security Issues in Web Applications through Cross Site Scripting (XSS)"
             }
           }
         ]
@@ -187,6 +187,8 @@
   },
   "active": "31da0dfbfea80674",
   "lastOpenFiles": [
+    "TO DO.md",
+    "01 Notes/CSRF (cross-site request forgery).md",
     "01 Notes/co-clustering.md",
     "02 Literature/papers/software models/A Grey-Box Approach for Detecting Malicious User Interactions in Web Applications.md",
     "02 Literature/papers/authentication/Reliable protection against session fixation attacks.md",
@@ -212,8 +214,6 @@
     "03 References/(Viticchie, Basile, Avancini, et al., 2016).md",
     "03 References/(Pellegrino, Balzarotti, 2014).md",
     "02 Literature/papers/logic flow tampering/Toward black-box detection of logic flaws in web applications.md",
-    "03 References/(Kim, Zheng, Park, et al., 2020).md",
-    "01 Notes/session puzzling.md",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/mind maps/props tampering.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",
