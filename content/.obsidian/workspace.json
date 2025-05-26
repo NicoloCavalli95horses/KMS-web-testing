@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 References/(Onarlioglu, Buyukkayhan, et al., 2015).md",
+                "file": "01 Notes/CSRF (cross-site request forgery).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "(Onarlioglu, Buyukkayhan, et al., 2015)"
+              "title": "CSRF (cross-site request forgery)"
             }
           }
         ],
@@ -203,6 +203,7 @@
   },
   "active": "dc34e07ee3d505a4",
   "lastOpenFiles": [
+    "03 References/(Onarlioglu, Buyukkayhan, et al., 2015).md",
     "01 Notes/phishing.md",
     "96 Meta/Publication deadlines.md",
     "96 Meta/PhD status.md",
@@ -229,7 +230,6 @@
     "01 Notes/BFT (business flow tampering).md",
     "01 Notes/logic vulnerability.md",
     "03 References/(Ndiaye, Barais, et al., 2019).md",
-    "02 Literature/papers/logic flow tampering/Requirements for preventing logic flaws in the authentication procedure of web applications.md",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/mind maps/props tampering.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",
