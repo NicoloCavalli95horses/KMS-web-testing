@@ -20,6 +20,8 @@ Session fixation is an attack in which an attacker forces a legitimate user to u
 	- the malicious SID is set on the victim's browser, often via XSS[^2]. in this case, SID assignment is invisible to the victim and it is due to a [[cookie]] that has been set illegitimately
 - the user clicks the link and signs into the application, creating an account with valid username and password
 - the hacker ==can access the victime profile== because the victim credentials are bound to the SID
+- The attacker does not need to log in again since the victim has already done so.
+- The attacker only needs to provide the SID to the application (this can be requested via string query or cookie)
 - if the victim logs out, the hacker can still access his profile, provided that the SID is not invalidated or re-generated
 
 This a hack also occurs when a web server does not assign a new session upon authentication.

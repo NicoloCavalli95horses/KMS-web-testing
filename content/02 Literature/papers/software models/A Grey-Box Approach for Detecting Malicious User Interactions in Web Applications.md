@@ -13,7 +13,7 @@ Rank: A*
 Project:
   - SLR
 ---
-This research leverage a graph-based representation of known attack scenarios (sequences of URLs from syslogs) to train an algorithm to classify new user interactions as benign or malicious. Isomorphism in subgraph of the new interactions are verified to find logic flaws
+This research leverage a graph-based representation of known attack scenarios (sequences of URLs from syslogs) to train an algorithm to classify user interactions as benign or malicious. Isomorphism in subgraph of the new interactions are verified to find logic flaws
 ## Context
 
 Moder applications implement a multi-tier model involving ==multiple application providers that interface together== in order to supply a service. For example, an e-commerce may leverage on an authentication service and on a payment service, and a blog may leverage on a service to handle a comment or forum section.
