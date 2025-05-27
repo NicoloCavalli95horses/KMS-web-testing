@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/authentication/A Supervised Learning Approach to Protect Client Authentication on the Web.md",
+                "file": "03 References/(Sadqi, Maleh, 2022).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "A Supervised Learning Approach to Protect Client Authentication on the Web"
+              "title": "(Sadqi, Maleh, 2022)"
             }
           }
         ]
@@ -187,10 +187,24 @@
   },
   "active": "dc34e07ee3d505a4",
   "lastOpenFiles": [
+    "02 Literature/papers/web vulnerabilities reviews/A systematic review and taxonomy of web applications threats.md",
+    "02 Literature/papers/web vulnerabilities reviews/A Taxonomy of Web Security Vulnerabilities.md",
+    "02 Literature/papers/web vulnerabilities reviews/Common vulnerabilities in real world web applications.md",
+    "02 Literature/papers/web vulnerabilities reviews/Enhancing Front-End Security. Protecting User Data and Privacy in Web Applications.md",
+    "02 Literature/papers/web vulnerabilities reviews/Navigating web application security. A survey of vulnerabilities and detection solutions.md",
+    "02 Literature/papers/web vulnerabilities reviews/Security of Web Application. State of the Art.md",
+    "02 Literature/papers/web vulnerabilities reviews/Web application attacks.md",
+    "03 References/(Sadqi, Maleh, 2022).md",
+    "03 References/(Tkachenko et al., 2024).md",
+    "03 References/(Onukrane, Skrodelis, et al., 2023).md",
+    "03 References/(Krishnaraj, Madaan, et al., 2023).md",
+    "03 References/(Al-Kahla, Shatnawi, Taqieddin, 2021).md",
+    "02 Literature/books/The Basic of Web Hacking/chapters/5. Web Application Exploitation  with Broken Authentication and Path Traversal.md",
+    "02 Literature/papers/dependency-related vulnerabilities/Managing security vulnerabilities introduced by dependencies in React.js.md",
+    "02 Literature/papers/authentication/A Supervised Learning Approach to Protect Client Authentication on the Web.md",
     "01 Notes/Web Storage API (localStorage, sessionStorage).md",
     "03 References/(Zhu, 2021).md",
     "02 Literature/papers/client-side storage/Security of CORS on LocalStorage.md",
-    "02 Literature/papers/authentication/A Supervised Learning Approach to Protect Client Authentication on the Web.md",
     "01 Notes/CSRF (cross-site request forgery).md",
     "03 References/(Onarlioglu, Buyukkayhan, et al., 2015).md",
     "01 Notes/phishing.md",
@@ -199,21 +213,7 @@
     "96 Meta/SLR/Tags analysis.md",
     "96 Meta/SLR/Paper list.md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/On Security Issues in Web Applications through Cross Site Scripting (XSS).md",
-    "TO DO.md",
-    "01 Notes/co-clustering.md",
-    "02 Literature/papers/software models/A Grey-Box Approach for Detecting Malicious User Interactions in Web Applications.md",
-    "02 Literature/papers/authentication/Reliable protection against session fixation attacks.md",
-    "01 Notes/session hijacking.md",
-    "02 Literature/papers/logic flow tampering/IVD. Automatic Learning and Enforcement of Authorization Rules in Online Social Networks.md",
     "97 Assets/IVD_invariant_detector_facebook.png",
-    "02 Literature/papers/parameter tampering/TamperProof. A server-agnostic defense for parameter tampering attacks on web applications.md",
-    "02 Literature/papers/code synthesis/WAVES. Automatic Synthesis of Client-Side Validation Code for Web Applications.md",
-    "02 Literature/papers/parameter tampering/WAPTEC. whitebox analysis of web applications for parameter tampering exploit construction.md",
-    "01 Notes/parameter tampering.md",
-    "03 References/(Calzavara, Tolomei, et al., 2015).md",
-    "03 References/(Johns, Braun, et al., 2011).md",
-    "02 Literature/papers/logic flow tampering/Patching Logic Vulnerabilities for Web Applications using LogicPatcher.md",
-    "02 Literature/papers/logic flow tampering/Finding client-side business flow tampering vulnerabilities.md",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/mind maps/props tampering.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",
