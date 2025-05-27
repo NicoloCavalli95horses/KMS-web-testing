@@ -237,6 +237,8 @@
       "height": 370,
       "id": "185ed5cc9a82fe38",
       "label": "Unintended front-end code execution",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 760,
       "x": 0,
@@ -247,6 +249,8 @@
       "height": 230,
       "id": "ba298af5467bab0f",
       "label": "Front-end DoS attacks",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 1010,
       "x": -180,
@@ -257,6 +261,8 @@
       "height": 430,
       "id": "0a1b57b9a6b2526a",
       "label": "Client storage exploitation",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 400,
       "x": -740,
@@ -267,6 +273,8 @@
       "height": 400,
       "id": "52df765d0a482f9a",
       "label": "System discovery",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 380,
       "x": 960,
@@ -277,6 +285,8 @@
       "height": 360,
       "id": "f90d4c501c0d155b",
       "label": "Logic flaws",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 340,
       "x": -245,
@@ -287,6 +297,8 @@
       "height": 165,
       "id": "41d6ca68d99c0728",
       "label": "Front-end language specific vulns",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 660,
       "x": 250,
@@ -297,6 +309,8 @@
       "height": 140,
       "id": "750e859375101f5d",
       "label": "Visual deception based attacks",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 590,
       "x": -835,
@@ -307,32 +321,12 @@
       "height": 135,
       "id": "fb2dbe95248fe7ee",
       "label": "Server-side issue covering",
+      "styleAttributes": {
+      },
       "type": "group",
       "width": 470,
-      "x": 360,
+      "x": 380,
       "y": 945
-    },
-    {
-      "height": 60,
-      "id": "3e23263079378e1f",
-      "styleAttributes": {
-      },
-      "text": "Prototype pollution",
-      "type": "text",
-      "width": 275,
-      "x": 290,
-      "y": 198
-    },
-    {
-      "height": 60,
-      "id": "7719b23d3cd78ace",
-      "styleAttributes": {
-      },
-      "text": "DOM clobbering",
-      "type": "text",
-      "width": 260,
-      "x": 590,
-      "y": 198
     },
     {
       "height": 60,
@@ -380,47 +374,58 @@
     },
     {
       "height": 60,
-      "id": "89323c8986ceb7e1",
+      "id": "d62aeecb6fbe7136",
       "styleAttributes": {
       },
-      "text": "Directory traversal",
+      "text": "Tabnabbing",
       "type": "text",
-      "width": 260,
-      "x": 1020,
-      "y": 310
+      "width": 180,
+      "x": -805,
+      "y": 146
     },
     {
       "height": 60,
-      "id": "bbc0ac891a7e687e",
+      "id": "24caabd831663460",
       "styleAttributes": {
       },
-      "text": "Forced browsing",
+      "text": "Phishing",
       "type": "text",
-      "width": 260,
-      "x": 1020,
-      "y": 410
+      "width": 150,
+      "x": -615,
+      "y": 146
     },
     {
       "height": 60,
-      "id": "51123e6b80a82542",
+      "id": "ad923071ad0d19a4",
       "styleAttributes": {
       },
-      "text": "IDOR",
+      "text": "Clickjacking",
       "type": "text",
-      "width": 260,
-      "x": 1020,
-      "y": 510
+      "width": 165,
+      "x": -445,
+      "y": 146
     },
     {
       "height": 60,
-      "id": "c875f2dd6a6583ae",
+      "id": "3e23263079378e1f",
       "styleAttributes": {
       },
-      "text": "SQL injection",
+      "text": "Prototype pollution",
+      "type": "text",
+      "width": 275,
+      "x": 290,
+      "y": 198
+    },
+    {
+      "height": 60,
+      "id": "7719b23d3cd78ace",
+      "styleAttributes": {
+      },
+      "text": "DOM clobbering",
       "type": "text",
       "width": 260,
-      "x": 1020,
-      "y": 610
+      "x": 590,
+      "y": 198
     },
     {
       "height": 60,
@@ -468,36 +473,14 @@
     },
     {
       "height": 60,
-      "id": "d62aeecb6fbe7136",
+      "id": "b0bf1292589af53b",
       "styleAttributes": {
       },
-      "text": "Tabnabbing",
+      "text": "CSRF",
       "type": "text",
-      "width": 180,
-      "x": -805,
-      "y": 146
-    },
-    {
-      "height": 60,
-      "id": "24caabd831663460",
-      "styleAttributes": {
-      },
-      "text": "Phishing",
-      "type": "text",
-      "width": 150,
-      "x": -615,
-      "y": 146
-    },
-    {
-      "height": 60,
-      "id": "ad923071ad0d19a4",
-      "styleAttributes": {
-      },
-      "text": "Clickjacking",
-      "type": "text",
-      "width": 165,
-      "x": -445,
-      "y": 146
+      "width": 130,
+      "x": 435,
+      "y": 560
     },
     {
       "height": 60,
@@ -568,17 +551,6 @@
     },
     {
       "height": 60,
-      "id": "b0bf1292589af53b",
-      "styleAttributes": {
-      },
-      "text": "CSRF",
-      "type": "text",
-      "width": 130,
-      "x": 435,
-      "y": 560
-    },
-    {
-      "height": 60,
       "id": "f0d8ee023bf7b0a5",
       "styleAttributes": {
       },
@@ -589,6 +561,50 @@
       "y": 500
     },
     {
+      "height": 60,
+      "id": "89323c8986ceb7e1",
+      "styleAttributes": {
+      },
+      "text": "Directory traversal",
+      "type": "text",
+      "width": 260,
+      "x": 1020,
+      "y": 310
+    },
+    {
+      "height": 60,
+      "id": "bbc0ac891a7e687e",
+      "styleAttributes": {
+      },
+      "text": "Forced browsing",
+      "type": "text",
+      "width": 260,
+      "x": 1020,
+      "y": 410
+    },
+    {
+      "height": 60,
+      "id": "51123e6b80a82542",
+      "styleAttributes": {
+      },
+      "text": "IDOR",
+      "type": "text",
+      "width": 260,
+      "x": 1020,
+      "y": 510
+    },
+    {
+      "height": 60,
+      "id": "c875f2dd6a6583ae",
+      "styleAttributes": {
+      },
+      "text": "SQL injection",
+      "type": "text",
+      "width": 260,
+      "x": 1020,
+      "y": 610
+    },
+    {
       "height": 80,
       "id": "050b80ec313617a5",
       "styleAttributes": {
@@ -596,7 +612,7 @@
       "text": "EAR",
       "type": "text",
       "width": 260,
-      "x": 460,
+      "x": 480,
       "y": 980
     }
   ]
