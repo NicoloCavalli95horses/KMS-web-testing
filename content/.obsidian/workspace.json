@@ -4,22 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "9c243a51a807c616",
+        "id": "ac5237840d961c4d",
         "type": "tabs",
         "children": [
           {
-            "id": "dc34e07ee3d505a4",
+            "id": "47d525a4ef250233",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "03 References/(Sadqi, Maleh, 2022).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/mind maps/SLR/Untitled.canvas",
+                "viewState": {
+                  "x": 196.59200509120487,
+                  "y": 589.957323133223,
+                  "zoom": -1.111111066959524
+                }
               },
-              "icon": "lucide-file",
-              "title": "(Sadqi, Maleh, 2022)"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
         ]
@@ -185,8 +187,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "dc34e07ee3d505a4",
+  "active": "47d525a4ef250233",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
+    "04 Canvases/mind maps/SLR/Untitled.canvas",
+    "03 References/(Sadqi, Maleh, 2022).md",
     "02 Literature/papers/web vulnerabilities reviews/A systematic review and taxonomy of web applications threats.md",
     "02 Literature/papers/web vulnerabilities reviews/A Taxonomy of Web Security Vulnerabilities.md",
     "02 Literature/papers/web vulnerabilities reviews/Common vulnerabilities in real world web applications.md",
@@ -194,7 +199,6 @@
     "02 Literature/papers/web vulnerabilities reviews/Navigating web application security. A survey of vulnerabilities and detection solutions.md",
     "02 Literature/papers/web vulnerabilities reviews/Security of Web Application. State of the Art.md",
     "02 Literature/papers/web vulnerabilities reviews/Web application attacks.md",
-    "03 References/(Sadqi, Maleh, 2022).md",
     "03 References/(Tkachenko et al., 2024).md",
     "03 References/(Onukrane, Skrodelis, et al., 2023).md",
     "03 References/(Krishnaraj, Madaan, et al., 2023).md",
@@ -212,9 +216,7 @@
     "96 Meta/PhD status.md",
     "96 Meta/SLR/Tags analysis.md",
     "96 Meta/SLR/Paper list.md",
-    "02 Literature/papers/XSS (Cross-Site Scripting)/On Security Issues in Web Applications through Cross Site Scripting (XSS).md",
     "97 Assets/IVD_invariant_detector_facebook.png",
-    "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "04 Canvases/mind maps/props tampering.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",
     "04 Canvases/meetings/2025_04_10.canvas",
