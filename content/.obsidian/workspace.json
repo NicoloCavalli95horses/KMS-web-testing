@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "ac5237840d961c4d",
+        "id": "2b183fb613c18c31",
         "type": "tabs",
         "children": [
           {
-            "id": "47d525a4ef250233",
+            "id": "e748316cd6106518",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/mind maps/SLR/RQ3. Relationships and dependencies.canvas",
+                "file": "05 Dataset/vulnerable webapp.canvas",
                 "viewState": {
-                  "x": 140.27652655253098,
-                  "y": 664.3691876940533,
-                  "zoom": -0.7063155367226607
+                  "x": 760,
+                  "y": 360,
+                  "zoom": -1.1052888988847653
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "RQ3. Relationships and dependencies"
+              "title": "vulnerable webapp"
             }
           }
         ]
@@ -187,10 +187,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "47d525a4ef250233",
+  "active": "e748316cd6106518",
   "lastOpenFiles": [
-    "02 Literature/papers/logic flow tampering/From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery.md",
     "04 Canvases/mind maps/SLR/RQ3. Relationships and dependencies.canvas",
+    "02 Literature/papers/logic flow tampering/From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery.md",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
     "03 References/(Sadqi, Maleh, 2022).md",
     "02 Literature/papers/web vulnerabilities reviews/A systematic review and taxonomy of web applications threats.md",
@@ -216,7 +216,6 @@
     "96 Meta/Publication deadlines.md",
     "96 Meta/PhD status.md",
     "96 Meta/SLR/Tags analysis.md",
-    "96 Meta/SLR/Paper list.md",
     "97 Assets/IVD_invariant_detector_facebook.png",
     "04 Canvases/mind maps/props tampering.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",
