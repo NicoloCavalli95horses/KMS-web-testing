@@ -31,16 +31,6 @@
       "toSide": "right"
     },
     {
-      "color": "6",
-      "fromNode": "5762b19b8ef98341",
-      "fromSide": "bottom",
-      "id": "5d3274e7d98ff337",
-      "styleAttributes": {
-      },
-      "toNode": "e393da5e112613b9",
-      "toSide": "bottom"
-    },
-    {
       "color": "1",
       "fromNode": "82f8a73f0c5e0ec2",
       "fromSide": "right",
@@ -49,16 +39,6 @@
       },
       "toNode": "5762b19b8ef98341",
       "toSide": "left"
-    },
-    {
-      "color": "6",
-      "fromNode": "f0d8ee023bf7b0a5",
-      "fromSide": "bottom",
-      "id": "9192829610a44615",
-      "styleAttributes": {
-      },
-      "toNode": "5762b19b8ef98341",
-      "toSide": "top"
     },
     {
       "color": "6",
@@ -219,6 +199,36 @@
       },
       "toNode": "5762b19b8ef98341",
       "toSide": "left"
+    },
+    {
+      "color": "6",
+      "fromNode": "f0d8ee023bf7b0a5",
+      "fromSide": "right",
+      "id": "a14afa8b893a907c",
+      "styleAttributes": {
+      },
+      "toNode": "b0bf1292589af53b",
+      "toSide": "left"
+    },
+    {
+      "color": "6",
+      "fromNode": "e393da5e112613b9",
+      "fromSide": "top",
+      "id": "1e606c2ca5bd7274",
+      "styleAttributes": {
+      },
+      "toNode": "5762b19b8ef98341",
+      "toSide": "bottom"
+    },
+    {
+      "color": "6",
+      "fromNode": "f0d8ee023bf7b0a5",
+      "fromSide": "left",
+      "id": "cece26d660eff004",
+      "styleAttributes": {
+      },
+      "toNode": "5762b19b8ef98341",
+      "toSide": "left"
     }
   ],
   "nodes": [
@@ -244,13 +254,13 @@
     },
     {
       "color": "1",
-      "height": 420,
+      "height": 430,
       "id": "0a1b57b9a6b2526a",
       "label": "Client storage exploitation",
       "type": "group",
       "width": 400,
       "x": -740,
-      "y": 480
+      "y": 470
     },
     {
       "color": "#901414",
@@ -269,8 +279,8 @@
       "label": "Logic flaws",
       "type": "group",
       "width": 340,
-      "x": -340,
-      "y": 965
+      "x": -245,
+      "y": 900
     },
     {
       "color": "2",
@@ -299,96 +309,8 @@
       "label": "Server-side issue covering",
       "type": "group",
       "width": 470,
-      "x": 380,
-      "y": 965
-    },
-    {
-      "height": 60,
-      "id": "3a3517d494c6bb80",
-      "styleAttributes": {
-      },
-      "text": "BFT",
-      "type": "text",
-      "width": 260,
-      "x": -300,
-      "y": 985
-    },
-    {
-      "height": 60,
-      "id": "0529fb0250329e77",
-      "styleAttributes": {
-      },
-      "text": "HTTP(S) tampering",
-      "type": "text",
-      "width": 260,
-      "x": -300,
-      "y": 1065
-    },
-    {
-      "height": 60,
-      "id": "2a077d41ac5affe8",
-      "styleAttributes": {
-      },
-      "text": "Session Fixation",
-      "type": "text",
-      "width": 260,
-      "x": -300,
-      "y": 1145
-    },
-    {
-      "height": 60,
-      "id": "7cdefc62adec6205",
-      "styleAttributes": {
-      },
-      "text": "Design flaws",
-      "type": "text",
-      "width": 260,
-      "x": -300,
-      "y": 1225
-    },
-    {
-      "height": 60,
-      "id": "5762b19b8ef98341",
-      "styleAttributes": {
-      },
-      "text": "XSS",
-      "type": "text",
-      "width": 193,
-      "x": 147,
-      "y": 660
-    },
-    {
-      "height": 60,
-      "id": "b0bf1292589af53b",
-      "styleAttributes": {
-      },
-      "text": "CSRF",
-      "type": "text",
-      "width": 130,
-      "x": 535,
-      "y": 550
-    },
-    {
-      "height": 60,
-      "id": "e393da5e112613b9",
-      "styleAttributes": {
-      },
-      "text": "XCS",
-      "type": "text",
-      "width": 160,
-      "x": 500,
-      "y": 680
-    },
-    {
-      "height": 60,
-      "id": "f0d8ee023bf7b0a5",
-      "styleAttributes": {
-      },
-      "text": "XSF",
-      "type": "text",
-      "width": 95,
-      "x": 77,
-      "y": 520
+      "x": 360,
+      "y": 945
     },
     {
       "height": 60,
@@ -455,17 +377,6 @@
       "width": 260,
       "x": -660,
       "y": 790
-    },
-    {
-      "height": 80,
-      "id": "050b80ec313617a5",
-      "styleAttributes": {
-      },
-      "text": "EAR",
-      "type": "text",
-      "width": 260,
-      "x": 470,
-      "y": 985
     },
     {
       "height": 60,
@@ -587,6 +498,106 @@
       "width": 165,
       "x": -445,
       "y": 146
+    },
+    {
+      "height": 60,
+      "id": "3a3517d494c6bb80",
+      "styleAttributes": {
+      },
+      "text": "BFT",
+      "type": "text",
+      "width": 260,
+      "x": -205,
+      "y": 920
+    },
+    {
+      "height": 60,
+      "id": "0529fb0250329e77",
+      "styleAttributes": {
+      },
+      "text": "HTTP(S) tampering",
+      "type": "text",
+      "width": 260,
+      "x": -205,
+      "y": 1000
+    },
+    {
+      "height": 60,
+      "id": "2a077d41ac5affe8",
+      "styleAttributes": {
+      },
+      "text": "Session Fixation",
+      "type": "text",
+      "width": 260,
+      "x": -205,
+      "y": 1080
+    },
+    {
+      "height": 60,
+      "id": "7cdefc62adec6205",
+      "styleAttributes": {
+      },
+      "text": "Design flaws",
+      "type": "text",
+      "width": 260,
+      "x": -205,
+      "y": 1160
+    },
+    {
+      "height": 60,
+      "id": "5762b19b8ef98341",
+      "styleAttributes": {
+      },
+      "text": "XSS",
+      "type": "text",
+      "width": 193,
+      "x": 114,
+      "y": 620
+    },
+    {
+      "color": "6",
+      "height": 60,
+      "id": "e393da5e112613b9",
+      "styleAttributes": {
+      },
+      "text": "XCS",
+      "type": "text",
+      "width": 160,
+      "x": 131,
+      "y": 730
+    },
+    {
+      "height": 60,
+      "id": "b0bf1292589af53b",
+      "styleAttributes": {
+      },
+      "text": "CSRF",
+      "type": "text",
+      "width": 130,
+      "x": 435,
+      "y": 560
+    },
+    {
+      "height": 60,
+      "id": "f0d8ee023bf7b0a5",
+      "styleAttributes": {
+      },
+      "text": "XSF",
+      "type": "text",
+      "width": 95,
+      "x": 114,
+      "y": 500
+    },
+    {
+      "height": 80,
+      "id": "050b80ec313617a5",
+      "styleAttributes": {
+      },
+      "text": "EAR",
+      "type": "text",
+      "width": 260,
+      "x": 460,
+      "y": 980
     }
   ]
 }
