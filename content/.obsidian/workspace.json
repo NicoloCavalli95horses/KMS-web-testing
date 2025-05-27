@@ -13,7 +13,7 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/mind maps/SLR/Untitled.canvas",
+                "file": "04 Canvases/mind maps/SLR/RQ3. Relationships and dependencies.canvas",
                 "viewState": {
                   "x": 196.59200509120487,
                   "y": 589.957323133223,
@@ -21,10 +21,26 @@
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Untitled"
+              "title": "RQ3. Relationships and dependencies"
+            }
+          },
+          {
+            "id": "50b0931f53baeba2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature/papers/logic flow tampering/From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -187,10 +203,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "47d525a4ef250233",
+  "active": "50b0931f53baeba2",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/SLR/RQ3. Relationships and dependencies.canvas",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
-    "04 Canvases/mind maps/SLR/Untitled.canvas",
     "03 References/(Sadqi, Maleh, 2022).md",
     "02 Literature/papers/web vulnerabilities reviews/A systematic review and taxonomy of web applications threats.md",
     "02 Literature/papers/web vulnerabilities reviews/A Taxonomy of Web Security Vulnerabilities.md",
