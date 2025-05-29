@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 References/(Ndiaye, Barais, et al., 2019).md",
+                "file": "01 Notes/clickjacking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "(Ndiaye, Barais, et al., 2019)"
+              "title": "clickjacking"
             }
           }
         ]
@@ -187,6 +187,7 @@
   },
   "active": "002bc6e7982067f1",
   "lastOpenFiles": [
+    "03 References/(Ndiaye, Barais, et al., 2019).md",
     "02 Literature/papers/logic flow tampering/Requirements for preventing logic flaws in the authentication procedure of web applications.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/The state of HTTP declarative security in online banking websites.md",
     "05 Dataset/vulnerable webapp.canvas",
@@ -215,7 +216,6 @@
     "03 References/(Onarlioglu, Buyukkayhan, et al., 2015).md",
     "01 Notes/phishing.md",
     "96 Meta/Publication deadlines.md",
-    "96 Meta/PhD status.md",
     "97 Assets/IVD_invariant_detector_facebook.png",
     "04 Canvases/mind maps/props tampering.canvas",
     "04 Canvases/meetings/2025_04_04.canvas",
