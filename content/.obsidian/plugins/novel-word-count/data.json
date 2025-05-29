@@ -19418,20 +19418,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 788,
+      "wordCount": 775,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 2.6266666666666665,
-      "characterCount": 5873,
-      "nonWhitespaceCharacterCount": 4957,
-      "newlineCount": 70,
-      "readingTimeInMinutes": 2.973584905660377,
-      "linkCount": 0,
+      "pageCount": 2.5833333333333335,
+      "characterCount": 5651,
+      "nonWhitespaceCharacterCount": 4839,
+      "newlineCount": 58,
+      "readingTimeInMinutes": 2.9245283018867925,
+      "linkCount": 8,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1748507332180,
-      "modifiedDate": 1748507332180,
-      "sizeInBytes": 5877,
+      "modifiedDate": 1748514123967,
+      "sizeInBytes": 5808,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 2.6266666666666665,
@@ -19439,6 +19439,21 @@
         "characterCount": 5873,
         "nonWhitespaceCharacterCount": 4957,
         "newlineCount": 70
+      },
+      "frontmatter": {
+        "ID": "2025-04-07T12:40:03.105Z",
+        "tags": [
+          "paper",
+          "projectSLR",
+          "businessFlowTampering",
+          "GUI",
+          "authentication",
+          "HCI"
+        ],
+        "Rank": "B",
+        "Project": [
+          "SLR"
+        ]
       }
     },
     "02 Literature/papers/logic flow tampering/Patching Logic Vulnerabilities for Web Applications using LogicPatcher.md": {
@@ -20334,20 +20349,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 235,
+      "wordCount": 234,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.7833333333333333,
-      "characterCount": 1608,
-      "nonWhitespaceCharacterCount": 1327,
-      "newlineCount": 25,
-      "readingTimeInMinutes": 0.8867924528301887,
+      "pageCount": 0.78,
+      "characterCount": 1576,
+      "nonWhitespaceCharacterCount": 1321,
+      "newlineCount": 24,
+      "readingTimeInMinutes": 0.8830188679245283,
       "linkCount": 5,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1743753488961,
-      "modifiedDate": 1748507332108,
-      "sizeInBytes": 1732,
+      "modifiedDate": 1748514121364,
+      "sizeInBytes": 1698,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.7833333333333333,
@@ -20365,6 +20380,7 @@
           "HTTP",
           "projectSLR"
         ],
+        "Rank": "C",
         "Project": [
           "SLR"
         ]
