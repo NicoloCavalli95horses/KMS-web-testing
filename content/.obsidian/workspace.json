@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2b183fb613c18c31",
+        "id": "016d77a7ca94d71d",
         "type": "tabs",
         "children": [
           {
-            "id": "e748316cd6106518",
+            "id": "002bc6e7982067f1",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "05 Dataset/vulnerable webapp.canvas",
-                "viewState": {
-                  "x": 760,
-                  "y": 360,
-                  "zoom": -1.1052888988847653
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "vulnerable webapp"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -187,8 +180,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e748316cd6106518",
+  "active": "002bc6e7982067f1",
   "lastOpenFiles": [
+    "05 Dataset/vulnerable webapp.canvas",
     "04 Canvases/mind maps/SLR/RQ3. Relationships and dependencies.canvas",
     "02 Literature/papers/logic flow tampering/From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery.md",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
