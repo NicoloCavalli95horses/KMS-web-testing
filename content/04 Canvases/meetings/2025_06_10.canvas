@@ -61,9 +61,9 @@
       "id": "135324c1254ecc2f",
       "styleAttributes": {
       },
-      "text": "Sensitive HTTP responses may be protected by JSON Hijacking Prevention tokens\n\nE.g., `)]}'while(1);</x>//`",
+      "text": "Sensitive HTTP responses may be protected by [[JSON Hijacking Prevention tokens]]\n\nE.g., `)]}'while(1);</x>//`",
       "type": "text",
-      "width": 340,
+      "width": 440,
       "x": -220,
       "y": 765
     }
