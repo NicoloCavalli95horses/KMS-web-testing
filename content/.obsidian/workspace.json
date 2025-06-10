@@ -11,10 +11,15 @@
             "id": "93350c7d16eef12a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/dynamic taint analysis.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "dynamic taint analysis"
             }
           }
         ]
