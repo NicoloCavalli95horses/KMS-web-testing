@@ -1,0 +1,71 @@
+{
+  "edges": [
+    {
+      "fromNode": "e9eae37be4dc87cd",
+      "fromSide": "right",
+      "id": "51bdf182fdff030d",
+      "styleAttributes": {
+      },
+      "toNode": "34b87b19e0e42cb6",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "34b87b19e0e42cb6",
+      "fromSide": "right",
+      "id": "6bf04263df9ddb80",
+      "styleAttributes": {
+      },
+      "toNode": "135324c1254ecc2f",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 120,
+      "id": "e9eae37be4dc87cd",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "TamperMonkey script",
+      "type": "text",
+      "width": 260,
+      "x": -940,
+      "y": 800
+    },
+    {
+      "height": 120,
+      "id": "34b87b19e0e42cb6",
+      "styleAttributes": {
+      },
+      "text": "[[dynamic taint analysis]] of HTTP traces that contains relevant keywords (`template`, ...)",
+      "type": "text",
+      "width": 340,
+      "x": -620,
+      "y": 800
+    },
+    {
+      "height": 80,
+      "id": "46dd92c318c76e8a",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "# Business flow tampering in React applications",
+      "type": "text",
+      "width": 890,
+      "x": -940,
+      "y": 640
+    },
+    {
+      "height": 190,
+      "id": "135324c1254ecc2f",
+      "styleAttributes": {
+      },
+      "text": "Sensitive HTTP responses may be protected by JSON Hijacking Prevention tokens\n\nE.g., `)]}'while(1);</x>//`",
+      "type": "text",
+      "width": 340,
+      "x": -220,
+      "y": 765
+    }
+  ]
+}

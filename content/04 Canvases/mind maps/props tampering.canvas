@@ -326,18 +326,6 @@
     },
     {
       "height": 60,
-      "id": "bdf290524e95bb0c",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "DOM is modified",
-      "type": "text",
-      "width": 340,
-      "x": 3180,
-      "y": -46
-    },
-    {
-      "height": 60,
       "id": "fe4f8f218746450b",
       "styleAttributes": {
         "border": null,
@@ -373,18 +361,6 @@
       "width": 210,
       "x": 2275,
       "y": 429
-    },
-    {
-      "height": 230,
-      "id": "304b327ff7acfcfe",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "probable DOM changes (a modal appears):\n- `role = \"dialog\"`\n- `z-index = 999`\n- `position = \"fixed\"`",
-      "type": "text",
-      "width": 420,
-      "x": 3180,
-      "y": 29
     },
     {
       "height": 60,
@@ -425,6 +401,53 @@
       "width": 220,
       "x": 1800,
       "y": 219
+    },
+    {
+      "height": 160,
+      "id": "bbaf99635a02d2cb",
+      "styleAttributes": {
+      },
+      "text": "# Comparison of JavaScript web frameworks regarding [[BFT (business flow tampering)]]",
+      "type": "text",
+      "width": 960,
+      "x": 5280,
+      "y": 1160
+    },
+    {
+      "height": 380,
+      "id": "9321762a0e5a186c",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "\n| Framework | DevTool | Component name visible | Props name visible |\n| --------- | ------- | ---------------------- | ------------------ |\n| Vue       | ✅       | ✅                      | ❌                  |\n| React     | ✅       | ❌                      | ❌                  |\n| Angular   | ✅       |                        |                    |\n| Svelte    |         |                        |                    |\n| SolidJS   |         |                        |                    |\n| Qwik      |         |                        |                    |\n",
+      "type": "text",
+      "width": 790,
+      "x": 5280,
+      "y": 1400
+    },
+    {
+      "height": 60,
+      "id": "bdf290524e95bb0c",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "DOM is modified",
+      "type": "text",
+      "width": 340,
+      "x": 3180,
+      "y": -46
+    },
+    {
+      "height": 230,
+      "id": "304b327ff7acfcfe",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "probable DOM changes (a modal appears):\n- `role = \"dialog\"`\n- `z-index = 999`\n- `position = \"fixed\"`",
+      "type": "text",
+      "width": 420,
+      "x": 3180,
+      "y": 29
     },
     {
       "height": 380,
@@ -490,6 +513,30 @@
       "y": -80
     },
     {
+      "height": 240,
+      "id": "a6416b6e99773ab5",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "\n```json\n{\n  a: 1,\n  b: true,\n  c: null,\n  d: \"premium\"\n}\n```",
+      "type": "text",
+      "width": 260,
+      "x": 1360,
+      "y": 144
+    },
+    {
+      "height": 60,
+      "id": "747986e57fe0d05c",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "list of items (premium or free)",
+      "type": "text",
+      "width": 340,
+      "x": 1340,
+      "y": -420
+    },
+    {
       "height": 60,
       "id": "0df28b3a538c6604",
       "styleAttributes": {
@@ -513,30 +560,6 @@
       "width": 140,
       "x": 2160,
       "y": -490
-    },
-    {
-      "height": 240,
-      "id": "a6416b6e99773ab5",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "\n```json\n{\n  a: 1,\n  b: true,\n  c: null,\n  d: \"premium\"\n}\n```",
-      "type": "text",
-      "width": 260,
-      "x": 1360,
-      "y": 144
-    },
-    {
-      "height": 60,
-      "id": "747986e57fe0d05c",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "list of items (premium or free)",
-      "type": "text",
-      "width": 340,
-      "x": 1340,
-      "y": -420
     },
     {
       "height": 130,
@@ -644,52 +667,6 @@
       "y": 4480
     },
     {
-      "height": 200,
-      "id": "605a671555cd495b",
-      "styleAttributes": {
-      },
-      "text": "## Benefits\n- easy to implement\n- framework independent",
-      "type": "text",
-      "width": 360,
-      "x": 1315,
-      "y": 2520
-    },
-    {
-      "height": 160,
-      "id": "ed62b86c15508b5a",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "User interaction are captured by instrumenting JavaScript (events and functions execution are logged)",
-      "type": "text",
-      "width": 360,
-      "x": 1315,
-      "y": 2275
-    },
-    {
-      "height": 180,
-      "id": "451373fc69afe302",
-      "styleAttributes": {
-      },
-      "text": "## Benefits\n- semi-automatic flow\n- framework independent",
-      "type": "text",
-      "width": 360,
-      "x": 1335,
-      "y": 3480
-    },
-    {
-      "height": 180,
-      "id": "627d50e6c18f5bfe",
-      "styleAttributes": {
-      },
-      "text": "## Limits\n- manual user navigation is required to gather HTTP traces",
-      "type": "text",
-      "width": 370,
-      "x": 1735,
-      "y": 3480
-    },
-    {
       "height": 180,
       "id": "5c30d13e072b2550",
       "styleAttributes": {
@@ -724,19 +701,6 @@
       "y": 3193
     },
     {
-      "height": 80,
-      "id": "61a971bf5ebc9346",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "A premium content is clicked",
-      "type": "text",
-      "width": 340,
-      "x": 1795,
-      "y": 2365
-    },
-    {
       "color": "2",
       "height": 100,
       "id": "0a28549fe7841f4b",
@@ -751,6 +715,79 @@
       "y": 3229
     },
     {
+      "height": 205,
+      "id": "ad2c1d379953200e",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "HTTP traces are gathered and analyzed. The goal is to find the final array of objects that include sensitive information (e.g., whether the item is premium)",
+      "type": "text",
+      "width": 360,
+      "x": 1275,
+      "y": 3177
+    },
+    {
+      "height": 90,
+      "id": "32ad5cec658d3ad9",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "generation of new test",
+      "type": "text",
+      "width": 200,
+      "x": 3215,
+      "y": 3233
+    },
+    {
+      "height": 120,
+      "id": "d010747870b378b9",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# 3. Test generation based on HTTP traces analysis and [[dynamic taint analysis]]",
+      "type": "text",
+      "width": 1880,
+      "x": 1335,
+      "y": 2980
+    },
+    {
+      "height": 180,
+      "id": "451373fc69afe302",
+      "styleAttributes": {
+      },
+      "text": "## Benefits\n- semi-automatic flow\n- framework independent",
+      "type": "text",
+      "width": 360,
+      "x": 1335,
+      "y": 3480
+    },
+    {
+      "height": 180,
+      "id": "627d50e6c18f5bfe",
+      "styleAttributes": {
+      },
+      "text": "## Limits\n- manual user navigation is required to gather HTTP traces",
+      "type": "text",
+      "width": 370,
+      "x": 1735,
+      "y": 3480
+    },
+    {
+      "height": 80,
+      "id": "61a971bf5ebc9346",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "A premium content is clicked",
+      "type": "text",
+      "width": 340,
+      "x": 1795,
+      "y": 2365
+    },
+    {
       "height": 170,
       "id": "543a35b562d2a6d9",
       "styleAttributes": {
@@ -761,19 +798,6 @@
       "width": 310,
       "x": 2575,
       "y": 2255
-    },
-    {
-      "height": 80,
-      "id": "1e2b23927a16ab7e",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "A free content is clicked",
-      "type": "text",
-      "width": 340,
-      "x": 1795,
-      "y": 2250
     },
     {
       "height": 90,
@@ -802,32 +826,6 @@
       "y": 2290
     },
     {
-      "color": "4",
-      "height": 60,
-      "id": "0847ed8e81fca107",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "DONE ✅",
-      "type": "text",
-      "width": 160,
-      "x": 1070,
-      "y": 1200
-    },
-    {
-      "height": 205,
-      "id": "ad2c1d379953200e",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "HTTP traces are gathered and analyzed. The goal is to find the final array of objects that include sensitive information (e.g., whether the item is premium)",
-      "type": "text",
-      "width": 360,
-      "x": 1275,
-      "y": 3177
-    },
-    {
       "height": 222,
       "id": "0f3e9c0750075959",
       "styleAttributes": {
@@ -839,31 +837,6 @@
       "width": 340,
       "x": 1695,
       "y": 3169
-    },
-    {
-      "height": 90,
-      "id": "32ad5cec658d3ad9",
-      "styleAttributes": {
-        "border": "dashed"
-      },
-      "text": "generation of new test",
-      "type": "text",
-      "width": 200,
-      "x": 3215,
-      "y": 3233
-    },
-    {
-      "height": 120,
-      "id": "d010747870b378b9",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "# 3. Test generation based on HTTP traces analysis and [[dynamic taint analysis]]",
-      "type": "text",
-      "width": 1880,
-      "x": 1335,
-      "y": 2980
     },
     {
       "height": 321,
@@ -890,6 +863,56 @@
       "width": 160,
       "x": 1070,
       "y": 2080
+    },
+    {
+      "height": 200,
+      "id": "605a671555cd495b",
+      "styleAttributes": {
+      },
+      "text": "## Benefits\n- easy to implement\n- framework independent",
+      "type": "text",
+      "width": 360,
+      "x": 1315,
+      "y": 2520
+    },
+    {
+      "height": 160,
+      "id": "ed62b86c15508b5a",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "User interaction are captured by instrumenting JavaScript (events and functions execution are logged)",
+      "type": "text",
+      "width": 360,
+      "x": 1315,
+      "y": 2275
+    },
+    {
+      "height": 80,
+      "id": "1e2b23927a16ab7e",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "A free content is clicked",
+      "type": "text",
+      "width": 340,
+      "x": 1795,
+      "y": 2250
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "0847ed8e81fca107",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "DONE ✅",
+      "type": "text",
+      "width": 160,
+      "x": 1070,
+      "y": 1200
     },
     {
       "height": 120,
@@ -942,6 +965,17 @@
       "y": 1360
     },
     {
+      "height": 200,
+      "id": "622f16fa0680b556",
+      "styleAttributes": {
+      },
+      "text": "## Limits\n- based on a manual process\n- not scalable\n- minimum input is detailed call stack",
+      "type": "text",
+      "width": 420,
+      "x": 1715,
+      "y": 2520
+    },
+    {
       "height": 81,
       "id": "a50606349d778d86",
       "styleAttributes": {
@@ -967,17 +1001,6 @@
     },
     {
       "height": 200,
-      "id": "622f16fa0680b556",
-      "styleAttributes": {
-      },
-      "text": "## Limits\n- based on a manual process\n- not scalable\n- minimum input is detailed call stack",
-      "type": "text",
-      "width": 420,
-      "x": 1715,
-      "y": 2520
-    },
-    {
-      "height": 200,
       "id": "736486ed2aba4957",
       "styleAttributes": {
       },
@@ -999,29 +1022,6 @@
       "width": 340,
       "x": 1900,
       "y": 1377
-    },
-    {
-      "height": 160,
-      "id": "bbaf99635a02d2cb",
-      "styleAttributes": {
-      },
-      "text": "# Comparison of JavaScript web frameworks regarding [[BFT (business flow tampering)]]",
-      "type": "text",
-      "width": 960,
-      "x": 5280,
-      "y": 1160
-    },
-    {
-      "height": 380,
-      "id": "9321762a0e5a186c",
-      "styleAttributes": {
-        "textAlign": null
-      },
-      "text": "\n| Framework | DevTool | Component name visible | Props name visible |\n| --------- | ------- | ---------------------- | ------------------ |\n| Vue       | ✅       | ✅                      | ❌                  |\n| React     | ✅       | ❌                      | ❌                  |\n| Angular   | ✅       |                        |                    |\n| Svelte    |         |                        |                    |\n| SolidJS   |         |                        |                    |\n| Qwik      |         |                        |                    |\n",
-      "type": "text",
-      "width": 790,
-      "x": 5280,
-      "y": 1400
     }
   ]
 }
