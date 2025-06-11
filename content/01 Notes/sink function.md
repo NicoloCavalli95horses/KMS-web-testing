@@ -16,7 +16,7 @@ The word sink has multiple uses in computing:
 ### Example
 
 ```javascript
-function writeToDOM() { //sink function
+function writeToDOM() { // sink function
   const search = document.getElementById('search').value;
   const results = document.getElementById('results');
   results.innerHTML = 'You searched for: ' + search;
@@ -35,3 +35,4 @@ In the context of web application security, sink functions often make use of the
 ---
 #### References
 - [[(Klein, Musch, et al., 2022)]]
+- [[(Kang, Lyu, et al., 2024)]]

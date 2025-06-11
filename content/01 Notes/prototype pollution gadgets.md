@@ -84,3 +84,4 @@ When we say two gadgets have a data-flow dependency, one gadget affects the data
 ---
 #### References
 - [[(Liu, An, et al., 2024)]]
+- [[(Kang, Lyu, et al., 2024)]]

@@ -38,7 +38,7 @@ Many researches have focused on the identification of inputs that contaminate a 
 
 ### Risks and issues
 
-On the front-end [[(Hakim, 2023)]] (p.3), [[(Liu, An, et al., 2024)]]:
+On the front-end [[(Hakim, 2023)]] (p.3), [[(Liu, An, et al., 2024)]], [[(Kang, Lyu, et al., 2024)]]:
 - [[XSS (cross site scripting)]] (especially DOM-XSS)
 - HTML injection
 - Cause a [[DoS (Denial of Service)]]
@@ -80,6 +80,14 @@ The attack does not require a script injection. Prototype pollution can be done 
 
 ### How to prevent prototype pollution
 
+**Static analysis** [[(Kang, Lyu, et al., 2024)]]
+- statically detecting data flows between undefined properties and sinks (usually with tools such as [CodeQL](https://codeql.github.com/) )
+- many false positives
+
+**Dynamic analysis** [[(Kang, Lyu, et al., 2024)]]
+- more accurate
+- slower and with lower code coverage
+
 Using the `Object.create()` method instead of `{}` or `new Object()` when creating new objects. 
 - This way, we can set the prototype of the created object directly via the first argument passed
 - If we pass `null`, the created object will not have a prototype and therefore cannot be polluted
@@ -111,13 +119,13 @@ From  [[(Peng Zhou, Yuhan Gao, et al., 2024)]]:
 - **Static analysis**: track some polluted taints from the selected sources (i.e., the inputs controlled by external users) to a set of predefined [[sink function]]s. A vulnerability is confirmed if there is at least one path the taint can be delivered from the sources to the sink (see [[static taint analysis]])
 
 ---
-
-References
+### References
 - https://learn.snyk.io/lesson/prototype-pollution/
 - [[(Anastasia, Stamatia, 2024)]]
 - [[(Hoffman, 2024)]]
 - [[(Hakim, 2023)]]
 - Discussed in [[(Katulanda, Henaka Arachchi, et al., 2023)]] in the context of using ML to detect HTTPS-based malware transmission
+- [[(Kang, Lyu, et al., 2024)]]
 
 Project SLR
 - [[(Liu, An, et al., 2024)]]
