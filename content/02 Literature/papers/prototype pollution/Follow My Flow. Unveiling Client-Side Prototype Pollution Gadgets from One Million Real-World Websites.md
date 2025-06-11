@@ -32,7 +32,7 @@ We implemented an open-source prototype of GALA and ran it on one million websit
 
 ## Limits
 
-False negatives may occurl
+False negatives may occur
 
 
 ---

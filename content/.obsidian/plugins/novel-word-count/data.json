@@ -25258,16 +25258,16 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.58,
-      "characterCount": 1264,
-      "nonWhitespaceCharacterCount": 1064,
+      "characterCount": 1263,
+      "nonWhitespaceCharacterCount": 1063,
       "newlineCount": 34,
       "readingTimeInMinutes": 0.6566037735849056,
       "linkCount": 4,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1749627052566,
-      "modifiedDate": 1749635613233,
-      "sizeInBytes": 1370,
+      "modifiedDate": 1749640932428,
+      "sizeInBytes": 1369,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -25284,6 +25284,39 @@
           "clientSideAttacks"
         ],
         "Rank": "A*"
+      }
+    },
+    "01 Notes/Monkey patch.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 54,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.18,
+      "characterCount": 396,
+      "nonWhitespaceCharacterCount": 336,
+      "newlineCount": 8,
+      "readingTimeInMinutes": 0.2037735849056604,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1749643962679,
+      "modifiedDate": 1749643993069,
+      "sizeInBytes": 450,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-06-11-14:12",
+        "tags": [
+          "#definition"
+        ]
       }
     }
   }

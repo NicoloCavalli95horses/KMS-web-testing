@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/prototype pollution/Follow My Flow. Unveiling Client-Side Prototype Pollution Gadgets from One Million Real-World Websites.md",
+                "file": "01 Notes/Monkey patch.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Follow My Flow. Unveiling Client-Side Prototype Pollution Gadgets from One Million Real-World Websites"
+              "title": "Monkey patch"
             }
           },
           {
@@ -202,8 +202,9 @@
   },
   "active": "407a2cf90950e187",
   "lastOpenFiles": [
-    "01 Notes/prototype pollution.md",
     "02 Literature/papers/prototype pollution/Follow My Flow. Unveiling Client-Side Prototype Pollution Gadgets from One Million Real-World Websites.md",
+    "01 Notes/Monkey patch.md",
+    "01 Notes/prototype pollution.md",
     "04 Canvases/meetings/2025_06_10.canvas",
     "01 Notes/prototype pollution gadgets.md",
     "01 Notes/sink function.md",
