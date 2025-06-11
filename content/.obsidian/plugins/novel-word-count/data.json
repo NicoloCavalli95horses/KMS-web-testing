@@ -67,33 +67,6 @@
     "debugMode": false
   },
   "cachedCounts": {
-    "TO DO.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 18,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.06,
-      "characterCount": 150,
-      "nonWhitespaceCharacterCount": 116,
-      "newlineCount": 7,
-      "readingTimeInMinutes": 0.06792452830188679,
-      "linkCount": 0,
-      "embedCount": 1,
-      "aliases": null,
-      "createdDate": 1749542228016,
-      "modifiedDate": 1749542228016,
-      "sizeInBytes": 150,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.06,
-        "wordCount": 18,
-        "characterCount": 150,
-        "nonWhitespaceCharacterCount": 116,
-        "newlineCount": 7
-      }
-    },
     "06 Courses, webinars/Visual Software QA (Quality Assurance) using VLM (Vision Language Models).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -678,33 +651,6 @@
         ],
         "speaker": "Theo Matricon",
         "abstract": null
-      }
-    },
-    "Pasted image 20250514165458.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1749542228015,
-      "modifiedDate": 1749542228015,
-      "sizeInBytes": 108331,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
       }
     },
     "98 Templates/Temp_Reference.md": {
@@ -3120,20 +3066,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 123,
+      "wordCount": 224,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.41,
-      "characterCount": 1012,
-      "nonWhitespaceCharacterCount": 878,
-      "newlineCount": 20,
-      "readingTimeInMinutes": 0.4641509433962264,
-      "linkCount": 5,
-      "embedCount": 0,
+      "pageCount": 0.7466666666666667,
+      "characterCount": 1806,
+      "nonWhitespaceCharacterCount": 1563,
+      "newlineCount": 33,
+      "readingTimeInMinutes": 0.8452830188679246,
+      "linkCount": 7,
+      "embedCount": 1,
       "aliases": null,
       "createdDate": 1749554011929,
-      "modifiedDate": 1749634630357,
-      "sizeInBytes": 3114,
+      "modifiedDate": 1749647932601,
+      "sizeInBytes": 7794,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.10666666666666667,
@@ -25286,18 +25232,18 @@
         "Rank": "A*"
       }
     },
-    "01 Notes/Monkey patch.md": {
+    "01 Notes/Monkey patching.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 54,
+      "wordCount": 58,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.18,
-      "characterCount": 396,
-      "nonWhitespaceCharacterCount": 336,
-      "newlineCount": 8,
-      "readingTimeInMinutes": 0.2037735849056604,
+      "pageCount": 0.19333333333333333,
+      "characterCount": 450,
+      "nonWhitespaceCharacterCount": 382,
+      "newlineCount": 12,
+      "readingTimeInMinutes": 0.2188679245283019,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
@@ -25311,12 +25257,98 @@
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0,
         "newlineCount": 0
+      }
+    },
+    "97 Assets/js_instrumentation.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1749647515806,
+      "modifiedDate": 1749647515807,
+      "sizeInBytes": 149751,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "03 References/(Jueckstock, Kapravelos, et al., 2019).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 49,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.16333333333333333,
+      "characterCount": 639,
+      "nonWhitespaceCharacterCount": 548,
+      "newlineCount": 13,
+      "readingTimeInMinutes": 0.18490566037735848,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1749647643486,
+      "modifiedDate": 1749647643487,
+      "sizeInBytes": 641,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "02 Literature/papers/Chromium/VisibleV8. In-browser Monitoring of JavaScript in the Wild.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 72,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.24,
+      "characterCount": 501,
+      "nonWhitespaceCharacterCount": 410,
+      "newlineCount": 25,
+      "readingTimeInMinutes": 0.27169811320754716,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1749647643506,
+      "modifiedDate": 1749647746915,
+      "sizeInBytes": 623,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
       },
       "frontmatter": {
-        "ID": "2025-06-11-14:12",
+        "ID": "2025-06-11T13:14:03.480Z",
         "tags": [
-          "#definition"
-        ]
+          "paper",
+          "project",
+          "chromium",
+          "codeAnalysis",
+          "instrumentation"
+        ],
+        "Rank": "A"
       }
     }
   }

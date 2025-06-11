@@ -8,33 +8,50 @@
         "type": "tabs",
         "children": [
           {
-            "id": "407a2cf90950e187",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Notes/Monkey patch.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Monkey patch"
-            }
-          },
-          {
             "id": "8059edcb2e8849d2",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/meetings/2025_06_10.canvas",
+                "viewState": {
+                  "x": -615.3345386800344,
+                  "y": 1164.1077365392543,
+                  "zoom": -1.1454293412108543
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "2025_06_10"
+            }
+          },
+          {
+            "id": "52d8f7709f2e2b78",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/prototype pollution.md",
+                "file": "02 Literature/papers/Chromium/VisibleV8. In-browser Monitoring of JavaScript in the Wild.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "prototype pollution"
+              "title": "VisibleV8. In-browser Monitoring of JavaScript in the Wild"
+            }
+          },
+          {
+            "id": "4e407b4595ad3d67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/Monkey patching.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Monkey patching"
             }
           }
         ]
@@ -200,12 +217,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "407a2cf90950e187",
+  "active": "8059edcb2e8849d2",
   "lastOpenFiles": [
-    "02 Literature/papers/prototype pollution/Follow My Flow. Unveiling Client-Side Prototype Pollution Gadgets from One Million Real-World Websites.md",
-    "01 Notes/Monkey patch.md",
-    "01 Notes/prototype pollution.md",
+    "02 Literature/papers/Chromium/VisibleV8. In-browser Monitoring of JavaScript in the Wild.md",
     "04 Canvases/meetings/2025_06_10.canvas",
+    "03 References/(Jueckstock, Kapravelos, et al., 2019).md",
+    "02 Literature/papers/Chromium",
+    "97 Assets/js_instrumentation.png",
+    "Pasted image 20250514165458.png",
+    "TO DO.md",
+    "01 Notes/Monkey patching.md",
+    "01 Notes/prototype pollution.md",
+    "02 Literature/papers/prototype pollution/Follow My Flow. Unveiling Client-Side Prototype Pollution Gadgets from One Million Real-World Websites.md",
     "01 Notes/prototype pollution gadgets.md",
     "01 Notes/sink function.md",
     "01 Notes/dynamic analysis.md",
@@ -234,12 +257,7 @@
     "02 Literature/papers/web vulnerabilities reviews/Enhancing Front-End Security. Protecting User Data and Privacy in Web Applications.md",
     "02 Literature/papers/web vulnerabilities reviews/Navigating web application security. A survey of vulnerabilities and detection solutions.md",
     "02 Literature/papers/web vulnerabilities reviews/Security of Web Application. State of the Art.md",
-    "02 Literature/papers/web vulnerabilities reviews/Web application attacks.md",
-    "03 References/(Tkachenko et al., 2024).md",
-    "03 References/(Onukrane, Skrodelis, et al., 2023).md",
-    "03 References/(Krishnaraj, Madaan, et al., 2023).md",
     "97 Assets/IVD_invariant_detector_facebook.png",
-    "Pasted image 20250514165458.png",
     "97 Assets/scoped_css_as_component_identifier_js.png",
     "02 Literature/papers/Cross-Site Framing (CSF)",
     "Excalidraw",
@@ -252,11 +270,9 @@
     "97 Assets/front_end_component_not_obscured_reasons_reddit.png",
     "97 Assets/obfuscate_vue_components.png",
     "97 Assets/vue_dev_environment.png",
-    "97 Assets/vue_min_build.png",
     "01 Notes/XSS (Cross Site Scripting)/mitigation",
     "01 Notes/XSS (Cross Site Scripting)/types",
     "01 Notes/XSS (Cross Site Scripting)",
-    "01 Notes/XSS (Cross Site Scripting)",
-    "02 Literature/papers/XCS (Cross Channel Scripting)"
+    "01 Notes/XSS (Cross Site Scripting)"
   ]
 }
