@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/meetings/2025_06_10.canvas",
                 "viewState": {
-                  "x": -615.3345386800344,
-                  "y": 1164.1077365392543,
-                  "zoom": -1.1454293412108543
+                  "x": -78.94402875134335,
+                  "y": 1548.4582175053797,
+                  "zoom": -0.23702265639184833
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -25,7 +25,7 @@
             }
           },
           {
-            "id": "52d8f7709f2e2b78",
+            "id": "fa2111d4b13bde2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -37,21 +37,6 @@
               },
               "icon": "lucide-file",
               "title": "VisibleV8. In-browser Monitoring of JavaScript in the Wild"
-            }
-          },
-          {
-            "id": "4e407b4595ad3d67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01 Notes/Monkey patching.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Monkey patching"
             }
           }
         ]
@@ -219,14 +204,23 @@
   },
   "active": "8059edcb2e8849d2",
   "lastOpenFiles": [
+    "97 Assets/js_instrumentation2.png",
     "02 Literature/papers/Chromium/VisibleV8. In-browser Monitoring of JavaScript in the Wild.md",
     "04 Canvases/meetings/2025_06_10.canvas",
+    "01 Notes/Monkey patching.md",
+    "04 Canvases/meetings/2025_05_21.canvas",
+    "04 Canvases/meetings/2025_05_02.canvas",
+    "index.md",
+    "96 Meta/SLR/Tags analysis.md",
+    "96 Meta/SLR/Paper list.md",
+    "96 Meta/PhD status.md",
+    "96 Meta/References analysis.md",
+    "96 Meta/Publication deadlines.md",
     "03 References/(Jueckstock, Kapravelos, et al., 2019).md",
     "02 Literature/papers/Chromium",
     "97 Assets/js_instrumentation.png",
     "Pasted image 20250514165458.png",
     "TO DO.md",
-    "01 Notes/Monkey patching.md",
     "01 Notes/prototype pollution.md",
     "02 Literature/papers/prototype pollution/Follow My Flow. Unveiling Client-Side Prototype Pollution Gadgets from One Million Real-World Websites.md",
     "01 Notes/prototype pollution gadgets.md",
@@ -235,7 +229,6 @@
     "03 References/(Kang, Lyu, et al., 2024).md",
     "01 Notes/JSON Hijacking Prevention tokens.md",
     "00 Antilibrary/bootloader.md",
-    "04 Canvases/meetings/2025_05_21.canvas",
     "04 Canvases/mind maps/props tampering.canvas",
     "04 Canvases/mind maps/input analysis.canvas",
     "04 Canvases/mind maps/front end security category.canvas",
@@ -243,7 +236,6 @@
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "04 Canvases/mind maps/SLR/RQ3. Relationships and dependencies.canvas",
     "01 Notes/dynamic taint analysis.md",
     "01 Notes/clickjacking.md",
     "03 References/(Ndiaye, Barais, et al., 2019).md",
@@ -251,12 +243,6 @@
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/The state of HTTP declarative security in online banking websites.md",
     "02 Literature/papers/logic flow tampering/From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery.md",
     "03 References/(Sadqi, Maleh, 2022).md",
-    "02 Literature/papers/web vulnerabilities reviews/A systematic review and taxonomy of web applications threats.md",
-    "02 Literature/papers/web vulnerabilities reviews/A Taxonomy of Web Security Vulnerabilities.md",
-    "02 Literature/papers/web vulnerabilities reviews/Common vulnerabilities in real world web applications.md",
-    "02 Literature/papers/web vulnerabilities reviews/Enhancing Front-End Security. Protecting User Data and Privacy in Web Applications.md",
-    "02 Literature/papers/web vulnerabilities reviews/Navigating web application security. A survey of vulnerabilities and detection solutions.md",
-    "02 Literature/papers/web vulnerabilities reviews/Security of Web Application. State of the Art.md",
     "97 Assets/IVD_invariant_detector_facebook.png",
     "97 Assets/scoped_css_as_component_identifier_js.png",
     "02 Literature/papers/Cross-Site Framing (CSF)",

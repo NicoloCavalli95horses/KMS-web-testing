@@ -55,15 +55,6 @@
       "toSide": "top"
     },
     {
-      "fromNode": "2d5f8269e3e4292f",
-      "fromSide": "bottom",
-      "id": "91b1941b45ea9600",
-      "styleAttributes": {
-      },
-      "toNode": "da36369c7d1fab76",
-      "toSide": "top"
-    },
-    {
       "fromNode": "64a5a412977914ea",
       "fromSide": "right",
       "id": "feb6dbbabfe01a8a",
@@ -80,6 +71,15 @@
       },
       "toNode": "3282e5bc3e22fda2",
       "toSide": "left"
+    },
+    {
+      "fromNode": "2d5f8269e3e4292f",
+      "fromSide": "bottom",
+      "id": "a46a511998a161c1",
+      "styleAttributes": {
+      },
+      "toNode": "3a8a2cdc755ee77e",
+      "toSide": "top"
     }
   ],
   "nodes": [
@@ -133,51 +133,6 @@
       "width": 410,
       "x": -390,
       "y": -240
-    },
-    {
-      "file": "97 Assets/js_instrumentation.png",
-      "height": 380,
-      "id": "da36369c7d1fab76",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 693,
-      "x": -1666,
-      "y": 1620
-    },
-    {
-      "height": 60,
-      "id": "8bc8b0b05f00e16a",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": " [[(Jueckstock, Kapravelos, et al., 2019)]]",
-      "type": "text",
-      "width": 390,
-      "x": -1363,
-      "y": 2020
-    },
-    {
-      "height": 200,
-      "id": "2d5f8269e3e4292f",
-      "styleAttributes": {
-      },
-      "text": "- Black-box approaches are more scalable and allow us to test real applications, but harder to implement\n- Custom solutions ([[Monkey patching]]) are not uncommon in research",
-      "type": "text",
-      "width": 520,
-      "x": -1580,
-      "y": 1340
-    },
-    {
-      "height": 259,
-      "id": "321d683a7b0ecb9a",
-      "styleAttributes": {
-      },
-      "text": "### Many tools perform static or dynamic taint analysis for the web ([Jalangi2](https://github.com/Samsung/jalangi2), [ExpoSE](https://github.com/ExpoSEJS/ExpoSE))\n\n### This tools are designed to be used in a white-box scenario\n",
-      "type": "text",
-      "width": 520,
-      "x": -1580,
-      "y": 990
     },
     {
       "height": 120,
@@ -263,10 +218,10 @@
       "styleAttributes": {
         "textAlign": "center"
       },
-      "text": "## Is TamperMonkey a good approach?",
+      "text": "## Is TamperMonkey a good tool?",
       "type": "text",
-      "width": 350,
-      "x": -620,
+      "width": 310,
+      "x": -580,
       "y": 1060
     },
     {
@@ -295,6 +250,52 @@
       "width": 215,
       "x": -445,
       "y": 1491
+    },
+    {
+      "height": 180,
+      "id": "2d5f8269e3e4292f",
+      "styleAttributes": {
+      },
+      "text": "- Black-box approaches are more scalable and allow us to test real applications, but harder to implement\n- Custom solutions ([[Monkey patching]]) are not uncommon in research",
+      "type": "text",
+      "width": 607,
+      "x": -1623,
+      "y": 1340
+    },
+    {
+      "height": 60,
+      "id": "8bc8b0b05f00e16a",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": " [[(Jueckstock, Kapravelos, et al., 2019)]]",
+      "type": "text",
+      "width": 390,
+      "x": -1422,
+      "y": 1785
+    },
+    {
+      "file": "97 Assets/js_instrumentation2.png",
+      "height": 205,
+      "id": "3a8a2cdc755ee77e",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "type": "file",
+      "width": 694,
+      "x": -1666,
+      "y": 1580
+    },
+    {
+      "height": 209,
+      "id": "321d683a7b0ecb9a",
+      "styleAttributes": {
+      },
+      "text": "### Many tools perform static or dynamic taint analysis for the web ([Jalangi2](https://github.com/Samsung/jalangi2), [ExpoSE](https://github.com/ExpoSEJS/ExpoSE))\n\n### This tools are designed to be used in a white-box scenario\n",
+      "type": "text",
+      "width": 607,
+      "x": -1623,
+      "y": 1060
     }
   ]
 }
