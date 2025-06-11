@@ -36,6 +36,15 @@ Merging two objects can expose the code to a prototype pollution attack — in f
 Many researches have focused on the identification of inputs that contaminate a prototypical object’s property, but little effort have been put on the analysis of the code affected by the prototype pollution (*gadgets*) [[(Liu, An, et al., 2024)]]
 - studying [[prototype pollution gadgets]] is a new research field that aim at analyzing the code impacted by the vulnerabilities and how the [[sink function]] is reached from the input
 
+### Client-side entry points
+
+ [[(Kang, Lyu, et al., 2024)]]
+- URL manipulation: `https://example.com?__proto__[polluted]=true`
+- Cookie manipulation: `__proto__[isAdmin]=true` (this works if the application reads cookies in an unsafe way)
+- [[Web Storage API (localStorage, sessionStorage)]] pollution
+- `window.postMessage` or Web Socket manipulation
+- input fields
+
 ### Risks and issues
 
 On the front-end [[(Hakim, 2023)]] (p.3), [[(Liu, An, et al., 2024)]], [[(Kang, Lyu, et al., 2024)]]:
@@ -88,6 +97,11 @@ The attack does not require a script injection. Prototype pollution can be done 
 - more accurate
 - slower and with lower code coverage
 
+**Fixing the gadget instead** [[(Kang, Lyu, et al., 2024)]]
+- the solution does not focus on sanitizing user input, but on preventing a function from being exploited, by using `hasOwnProperty` in object lookups, avoiding loops that also involve the prototype, etc
+- double defenses are more effective
+
+**Good code practices**
 Using the `Object.create()` method instead of `{}` or `new Object()` when creating new objects. 
 - This way, we can set the prototype of the created object directly via the first argument passed
 - If we pass `null`, the created object will not have a prototype and therefore cannot be polluted

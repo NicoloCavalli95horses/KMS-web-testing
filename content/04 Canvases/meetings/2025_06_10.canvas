@@ -21,27 +21,40 @@
   ],
   "nodes": [
     {
-      "height": 120,
-      "id": "e9eae37be4dc87cd",
+      "height": 100,
+      "id": "cc9338df4f860552",
       "styleAttributes": {
-        "textAlign": "center"
+        "border": "invisible",
+        "textAlign": null
       },
-      "text": "TamperMonkey script",
+      "text": "# Client-side prototype pollution [[(Kang, Lyu, et al., 2024)]]",
       "type": "text",
-      "width": 260,
-      "x": -940,
-      "y": 800
+      "width": 1200,
+      "x": -950,
+      "y": 20
     },
     {
-      "height": 120,
-      "id": "34b87b19e0e42cb6",
+      "height": 210,
+      "id": "00204f2c9c40ee68",
       "styleAttributes": {
       },
-      "text": "[[dynamic taint analysis]] of HTTP traces that contains relevant keywords (`template`, ...)",
+      "text": "**Key insight**\ncrafting complex values for undefined properties ==using defined values in similar websites, or in the same website in another call stack==",
       "type": "text",
-      "width": 340,
-      "x": -620,
-      "y": 800
+      "width": 410,
+      "x": -160,
+      "y": 200
+    },
+    {
+      "height": 460,
+      "id": "c5650c3037660bad",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "User inputs:\n- URL manipulation: `https://example.com?__proto__[polluted]=true`\n- [[cookie]] manipulation: `__proto__[isAdmin]=true` (this works if the application reads cookies in an unsafe way)\n- [[Web Storage API (localStorage, sessionStorage)]] pollution\n\nThat flows to:\n- unsafe functions (`eval`, `new Function`, `document.write`, `innerHTML`)\n- storage sinks (Cookies, Local Storage, Session Storage)\n- attribute sinks (`setAttribute`)\n\nThe goal is to find gadgets (vulnerable JS code that can be exploited via PP)",
+      "type": "text",
+      "width": 760,
+      "x": -950,
+      "y": 120
     },
     {
       "height": 80,
@@ -52,20 +65,47 @@
       },
       "text": "# Business flow tampering in React applications",
       "type": "text",
-      "width": 890,
-      "x": -940,
-      "y": 640
+      "width": 1200,
+      "x": -950,
+      "y": 760
+    },
+    {
+      "height": 95,
+      "id": "e9eae37be4dc87cd",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "TamperMonkey script",
+      "type": "text",
+      "width": 271,
+      "x": -950,
+      "y": 947
+    },
+    {
+      "height": 135,
+      "id": "34b87b19e0e42cb6",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "[[dynamic taint analysis]] of HTTP traces that contains relevant keywords (`template`, ...)",
+      "type": "text",
+      "width": 355,
+      "x": -606,
+      "y": 927
     },
     {
       "height": 190,
       "id": "135324c1254ecc2f",
       "styleAttributes": {
+        "border": "invisible"
       },
       "text": "Sensitive HTTP responses may be protected by [[JSON Hijacking Prevention tokens]]\n\nE.g., `)]}'while(1);</x>//`",
       "type": "text",
-      "width": 440,
-      "x": -220,
-      "y": 765
+      "width": 459,
+      "x": -209,
+      "y": 900
     }
   ]
 }
