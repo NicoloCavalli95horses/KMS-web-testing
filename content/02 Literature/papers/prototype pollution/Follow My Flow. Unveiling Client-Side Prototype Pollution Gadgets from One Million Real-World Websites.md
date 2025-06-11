@@ -14,7 +14,7 @@ Rank: A*
 ## Approach
 
 In this paper, we design a dynamic analysis framework named GALA (Gadget Locator and Analyzer), to detect client-side gadgets among one-million real-world websites
-- GALA ==crafts complex values for undefined properties== of victim websites ==using defined values in similar websites==
+- GALA ==crafts complex values for undefined properties== of victim websites ==using defined values in similar websites (or in the same website in another call stack)==
 
 GALA has three phases:
 (i) locating undefined properties
