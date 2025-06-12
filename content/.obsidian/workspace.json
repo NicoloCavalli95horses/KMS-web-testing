@@ -11,23 +11,6 @@
             "id": "fa2111d4b13bde2a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "04 Canvases/meetings/2025_06_10.canvas",
-                "viewState": {
-                  "x": -685.5415324484829,
-                  "y": 809.2454174378452,
-                  "zoom": -0.3813589247050296
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "2025_06_10"
-            }
-          },
-          {
-            "id": "1e4e99bd0f80cc8c",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "index.md",
@@ -39,8 +22,7 @@
               "title": "index"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,10 +185,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1e4e99bd0f80cc8c",
+  "active": "fa2111d4b13bde2a",
   "lastOpenFiles": [
-    "01 Notes/JSON Hijacking Prevention tokens.md",
     "04 Canvases/meetings/2025_06_10.canvas",
+    "96 Meta/PhD status.md",
+    "96 Meta/SLR/Tags analysis.md",
+    "96 Meta/SLR/Paper list.md",
+    "index.md",
+    "01 Notes/JSON Hijacking Prevention tokens.md",
     "01 Notes/Linux distribution.md",
     "00 Antilibrary/kernel.md",
     "02 Literature/papers/JavaScript instrumentation/VisibleV8. In-browser Monitoring of JavaScript in the Wild.md",
@@ -225,10 +211,6 @@
     "01 Notes/Monkey patching.md",
     "04 Canvases/meetings/2025_05_21.canvas",
     "04 Canvases/meetings/2025_05_02.canvas",
-    "index.md",
-    "96 Meta/SLR/Tags analysis.md",
-    "96 Meta/SLR/Paper list.md",
-    "96 Meta/PhD status.md",
     "96 Meta/References analysis.md",
     "96 Meta/Publication deadlines.md",
     "03 References/(Jueckstock, Kapravelos, et al., 2019).md",
@@ -237,7 +219,6 @@
     "Pasted image 20250514165458.png",
     "TO DO.md",
     "01 Notes/prototype pollution.md",
-    "02 Literature/papers/prototype pollution/Follow My Flow. Unveiling Client-Side Prototype Pollution Gadgets from One Million Real-World Websites.md",
     "04 Canvases/mind maps/props tampering.canvas",
     "04 Canvases/mind maps/input analysis.canvas",
     "04 Canvases/mind maps/front end security category.canvas",

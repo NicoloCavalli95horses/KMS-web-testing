@@ -9,7 +9,7 @@ tags:
 ```dataviewjs
 
 const t1 = new Date("2024-12-01"); // start
-const t2 = new Date("2027-12-01"); // end
+const t2 = new Date("2027-11-30"); // end
 const now = new Date();
 const totalDuration = t2 - t1;
 const elapsedDuration = now - t1;
