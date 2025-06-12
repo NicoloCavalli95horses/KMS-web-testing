@@ -8,29 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8059edcb2e8849d2",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "04 Canvases/meetings/2025_06_10.canvas",
-                "viewState": {
-                  "x": -755.6326508945724,
-                  "y": 815.788062343061,
-                  "zoom": -0.23702265639184833
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "2025_06_10"
-            }
-          },
-          {
             "id": "fa2111d4b13bde2a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/Chromium/VisibleV8. In-browser Monitoring of JavaScript in the Wild.md",
+                "file": "02 Literature/papers/JavaScript instrumentation/VisibleV8. In-browser Monitoring of JavaScript in the Wild.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -202,11 +185,22 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8059edcb2e8849d2",
+  "active": "fa2111d4b13bde2a",
   "lastOpenFiles": [
-    "97 Assets/js_instrumentation2.png",
-    "02 Literature/papers/Chromium/VisibleV8. In-browser Monitoring of JavaScript in the Wild.md",
+    "02 Literature/papers/XSS (Cross-Site Scripting)/WAVE. Black Box Detection of XSS, CSRF and Information Leakage Vulnerabilities.md",
+    "02 Literature/papers/XSS (Cross-Site Scripting)/On Security Issues in Web Applications through Cross Site Scripting (XSS).md",
+    "02 Literature/papers/XSS (Cross-Site Scripting)/Automated removal of cross site scripting vulnerabilities in web applications.md",
+    "02 Literature/papers/XSS (Cross-Site Scripting)/A survey of detection methods for XSS attacks.md",
+    "02 Literature/papers/clickjacking/Tricking Johnny into Granting Web Permissions.md",
+    "02 Literature/papers/UI and UX issues/Out of Sight, Out of Mind. UI Design and the Inhibition of Mental Models of Security.md",
+    "02 Literature/papers/UI and UX issues/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md",
+    "02 Literature/papers/UI and UX issues/Home and away. UI design pattern for supporting end-user security.md",
+    "02 Literature/papers/UI and UX issues/Dirty clicks. A study of the Usability and Security Implications of Click-related Behaviors on the Web.md",
+    "02 Literature/papers/UI and UX issues/Classifying and qualifying GUI defects.md",
+    "02 Literature/papers/UI and UX issues/A taxonomy of testable HTML5 Canvas Issues.md",
+    "02 Literature/papers/JavaScript instrumentation/VisibleV8. In-browser Monitoring of JavaScript in the Wild.md",
     "04 Canvases/meetings/2025_06_10.canvas",
+    "97 Assets/js_instrumentation2.png",
     "01 Notes/Monkey patching.md",
     "04 Canvases/meetings/2025_05_21.canvas",
     "04 Canvases/meetings/2025_05_02.canvas",
@@ -217,7 +211,7 @@
     "96 Meta/References analysis.md",
     "96 Meta/Publication deadlines.md",
     "03 References/(Jueckstock, Kapravelos, et al., 2019).md",
-    "02 Literature/papers/Chromium",
+    "02 Literature/papers/JavaScript instrumentation",
     "97 Assets/js_instrumentation.png",
     "Pasted image 20250514165458.png",
     "TO DO.md",
@@ -226,9 +220,6 @@
     "01 Notes/prototype pollution gadgets.md",
     "01 Notes/sink function.md",
     "01 Notes/dynamic analysis.md",
-    "03 References/(Kang, Lyu, et al., 2024).md",
-    "01 Notes/JSON Hijacking Prevention tokens.md",
-    "00 Antilibrary/bootloader.md",
     "04 Canvases/mind maps/props tampering.canvas",
     "04 Canvases/mind maps/input analysis.canvas",
     "04 Canvases/mind maps/front end security category.canvas",
@@ -236,13 +227,6 @@
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "01 Notes/dynamic taint analysis.md",
-    "01 Notes/clickjacking.md",
-    "03 References/(Ndiaye, Barais, et al., 2019).md",
-    "02 Literature/papers/logic flow tampering/Requirements for preventing logic flaws in the authentication procedure of web applications.md",
-    "02 Literature/papers/CSRF (Cross Site Request Forgery)/The state of HTTP declarative security in online banking websites.md",
-    "02 Literature/papers/logic flow tampering/From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery.md",
-    "03 References/(Sadqi, Maleh, 2022).md",
     "97 Assets/IVD_invariant_detector_facebook.png",
     "97 Assets/scoped_css_as_component_identifier_js.png",
     "02 Literature/papers/Cross-Site Framing (CSF)",
@@ -255,7 +239,6 @@
     "02 Literature/papers/test",
     "97 Assets/front_end_component_not_obscured_reasons_reddit.png",
     "97 Assets/obfuscate_vue_components.png",
-    "97 Assets/vue_dev_environment.png",
     "01 Notes/XSS (Cross Site Scripting)/mitigation",
     "01 Notes/XSS (Cross Site Scripting)/types",
     "01 Notes/XSS (Cross Site Scripting)",

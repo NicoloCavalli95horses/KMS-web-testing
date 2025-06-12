@@ -3,8 +3,8 @@ ID: 2025-03-11
 tags:
   - paper
   - browser
-  - [[[[clickjacking]]]]
   - cyberSecurity
+  - clickjacking
 ---
 ## Context
 
@@ -32,7 +32,6 @@ The participants were told that the goal of the test is to measure how fast peop
 Suggestions:
 - invalidating the focus of the mouse pointer for a short period to allow users to perceive the instant UI changes
 - Google Chrome in its newest version has patched this problem as follows: if the dialog box appears when the user is busy clicking, ==it does not accept any clicks until the user pauses for a second and clicks again==
-
 
 ---
 #### References
