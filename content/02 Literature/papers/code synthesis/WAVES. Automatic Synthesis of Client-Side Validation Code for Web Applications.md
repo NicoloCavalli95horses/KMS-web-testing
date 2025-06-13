@@ -20,7 +20,7 @@ In web development often client and server are built separately, by different te
 Automatically examine the source code of a web application, identify the server-side input validation logic, and replicate that logic on the client. This simplifies the development process and also improve security
 
 **WAVES (Web Application Validation Extraction and Synthesis)**: automatically synthesizes the client-side validation code through:
-- **server analysis**: WAVES performs a [[dynamic analysis]] submitting form inputs to the server and inspecting the sequence of instructions that the server executes, using [[static taint analysis]] . The key idea is that when the server is given an acceptable input, ==the sequence of if-statements it executes contain all the input validation constraints==
+- **server analysis**: WAVES performs a [[dynamic analysis]] submitting form inputs to the server and inspecting the sequence of instructions that the server executes, using [[STA (static taint analysis)]] . The key idea is that when the server is given an acceptable input, ==the sequence of if-statements it executes contain all the input validation constraints==
 - the candidate input validation constraint is validated: if the constraint is falsified the server should logically reject the input. The conditions that if falsified don't lead to an error are excluded
 - once the candidate have been shortlisted, WAVES determines if the constraints are dependent on the server's environment or not[^1]
 - the required code is generated

@@ -2030,20 +2030,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 663,
+      "wordCount": 664,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 2.21,
-      "characterCount": 4699,
-      "nonWhitespaceCharacterCount": 3950,
+      "pageCount": 2.2133333333333334,
+      "characterCount": 4705,
+      "nonWhitespaceCharacterCount": 3955,
       "newlineCount": 47,
-      "readingTimeInMinutes": 2.5018867924528303,
+      "readingTimeInMinutes": 2.5056603773584905,
       "linkCount": 4,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1749542227841,
-      "modifiedDate": 1749542227841,
-      "sizeInBytes": 4853,
+      "modifiedDate": 1749812924241,
+      "sizeInBytes": 4859,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 2.21,
@@ -16181,41 +16181,6 @@
         ]
       }
     },
-    "01 Notes/static taint analysis.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 212,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.7066666666666667,
-      "characterCount": 1592,
-      "nonWhitespaceCharacterCount": 1311,
-      "newlineCount": 33,
-      "readingTimeInMinutes": 0.8,
-      "linkCount": 5,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1749542227779,
-      "modifiedDate": 1749542227780,
-      "sizeInBytes": 1707,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.7066666666666667,
-        "wordCount": 212,
-        "characterCount": 1592,
-        "nonWhitespaceCharacterCount": 1311,
-        "newlineCount": 33
-      },
-      "frontmatter": {
-        "ID": "2025-03-04-16:49",
-        "tags": [
-          "#definition",
-          "softwareEngineering",
-          "codeAnalysis"
-        ]
-      }
-    },
     "01 Notes/static analysis.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -20829,43 +20794,6 @@
         ]
       }
     },
-    "01 Notes/dynamic taint analysis.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 291,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.97,
-      "characterCount": 2287,
-      "nonWhitespaceCharacterCount": 1916,
-      "newlineCount": 48,
-      "readingTimeInMinutes": 1.0981132075471698,
-      "linkCount": 8,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1749542227760,
-      "modifiedDate": 1749806154758,
-      "sizeInBytes": 2436,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.9666666666666667,
-        "wordCount": 290,
-        "characterCount": 2279,
-        "nonWhitespaceCharacterCount": 1909,
-        "newlineCount": 48
-      },
-      "frontmatter": {
-        "ID": "2025-03-04-16:47",
-        "tags": [
-          "#definition",
-          "softwareEngineering",
-          "codeAnalysis",
-          "dynamicAnalysis",
-          "taintAnalysis"
-        ]
-      }
-    },
     "01 Notes/dynamic invariants.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -25444,20 +25372,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 10,
+      "wordCount": 206,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.03333333333333333,
-      "characterCount": 118,
-      "nonWhitespaceCharacterCount": 90,
-      "newlineCount": 19,
-      "readingTimeInMinutes": 0.03773584905660377,
-      "linkCount": 1,
+      "pageCount": 0.6866666666666666,
+      "characterCount": 1534,
+      "nonWhitespaceCharacterCount": 1308,
+      "newlineCount": 30,
+      "readingTimeInMinutes": 0.7773584905660378,
+      "linkCount": 6,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1749807733865,
-      "modifiedDate": 1749807767073,
-      "sizeInBytes": 232,
+      "modifiedDate": 1749814719850,
+      "sizeInBytes": 1648,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -25475,6 +25403,114 @@
           "JavaScript"
         ],
         "Rank": "A*"
+      }
+    },
+    "01 Notes/format string attack.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 62,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.20666666666666667,
+      "characterCount": 460,
+      "nonWhitespaceCharacterCount": 391,
+      "newlineCount": 10,
+      "readingTimeInMinutes": 0.2339622641509434,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1749812761805,
+      "modifiedDate": 1749812811702,
+      "sizeInBytes": 563,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-06-13-13:06",
+        "tags": [
+          "#definition",
+          "cyberAttack",
+          "cyberSecurity",
+          "formatString"
+        ]
+      }
+    },
+    "01 Notes/DTA (dynamic taint analysis).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 359,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.1966666666666668,
+      "characterCount": 2762,
+      "nonWhitespaceCharacterCount": 2318,
+      "newlineCount": 56,
+      "readingTimeInMinutes": 1.3547169811320754,
+      "linkCount": 14,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1749542227760,
+      "modifiedDate": 1749813258939,
+      "sizeInBytes": 2911,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-03-04-16:47",
+        "tags": [
+          "#definition",
+          "softwareEngineering",
+          "codeAnalysis",
+          "dynamicAnalysis",
+          "taintAnalysis"
+        ]
+      }
+    },
+    "01 Notes/STA (static taint analysis).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 213,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.71,
+      "characterCount": 1566,
+      "nonWhitespaceCharacterCount": 1316,
+      "newlineCount": 33,
+      "readingTimeInMinutes": 0.8037735849056604,
+      "linkCount": 5,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1749542227779,
+      "modifiedDate": 1749812930691,
+      "sizeInBytes": 1675,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-03-04-16:49",
+        "tags": [
+          "#definition",
+          "softwareEngineering",
+          "codeAnalysis"
+        ]
       }
     }
   }

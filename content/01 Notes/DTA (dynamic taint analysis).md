@@ -50,7 +50,15 @@ Technically you can apply taint tracking to any function, even non-native ones, 
 - Monitoring the values ​​that pass through it
 - Modifing the behavior, if necessary
 
+## Usage
+
+[[(Aldrich, Turcotte, et al., 2023)]]:
+DTA is used to detect [[format string attack]], [[SQLIA (SQL injection attack)]], [[XSS (cross site scripting)]], command injection (shell code), [[directory traversal (path traversal)]]. Very used with JavaScript, which make largely use of async features
+
+For example, SQL injection attacks can be detected using DTA by marking user input as taint sources, and SQL commands as sinks.
+
 ---
 #### References
 - Used by [[(Klein, Musch, et al., 2022)]] to detect the presence of [[XSS (cross site scripting)]] vulnerabilities in JavaScript code, after the user accept the [[cookie]] from the [[cookie]] banner
 - [[(Kluban, Mannan, et al., 2024)]]
+- [[(Aldrich, Turcotte, et al., 2023)]]

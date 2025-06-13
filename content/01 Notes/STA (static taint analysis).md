@@ -16,7 +16,7 @@ Taint analysis is a type of data flow analysis that examines the *path of input 
 
 The objective is to determine whether a function containing a potential exploit ==is reachable by an attacker with her chosen inputs==. Therefore, this approach requires correct identifications of “vulnerable sinks” and possible “malicious data sources.” [[(Kluban, Mannan, et al., 2024)]]
 
-Opposed as [[dynamic taint analysis]], static taint analysis does not require the code to be executed. Instead, it parses the code searching for special keywords or values that may cause an issue
+Opposed as [[DTA (dynamic taint analysis)]], static taint analysis does not require the code to be executed. Instead, it parses the code searching for special keywords or values that may cause an issue
 
 **ESLint**, for example, may be augmented with a plugin to search for insecure pattern in the source code
 

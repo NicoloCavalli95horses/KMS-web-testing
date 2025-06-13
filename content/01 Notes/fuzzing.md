@@ -26,7 +26,7 @@ Typically, fuzzers are used to test programs that ==take structured inputs.==
 - **Smart fuzzer**: it is aware of the expected input structure
 
 Categories according to  [[(Neef, Kleissner, et al., 2024)]]:
-- ==white box fuzzers== have full access to the source code, so they can monitor the internal behavior and states of the fuzzed application. [[symbolic execution]] and [[dynamic taint analysis]] are two such approaches
+- ==white box fuzzers== have full access to the source code, so they can monitor the internal behavior and states of the fuzzed application. [[symbolic execution]] and [[DTA (dynamic taint analysis)]] are two such approaches
 - ==black box fuzzers== cannot collect information about the target application’s internal behavior or state. These fuzzers can only monitor the application from the outside and thus have limited ability to optimize test cases
 - ==grey box fuzzers== work with or without source code while still gathering execution information about the fuzzed application. The collected application’s execution coverage becomes the feedback to the fuzzer
 

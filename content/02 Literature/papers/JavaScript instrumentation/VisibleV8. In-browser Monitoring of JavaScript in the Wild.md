@@ -10,7 +10,7 @@ Rank: A
 ---
 ## Context
 
-It is possible to perform [[static taint analysis]] or [[dynamic taint analysis]] in different ways in the web.
+It is possible to perform [[STA (static taint analysis)]] or [[DTA (dynamic taint analysis)]] in different ways in the web.
 - researchers can modify the implementation of an open source browser to provide in-browser (i.e., out-of-band) JS instrumentation
 - researchers can exploit the flexibility of JS itself to inject language-level (i.e., in-band) instrumentation directly into JS applications at run-time
 

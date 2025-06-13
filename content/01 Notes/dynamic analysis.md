@@ -43,7 +43,7 @@ Tools that use dynamic analysis for vulnerability detection are given specific r
 - Slow speed
 
 
-Taint analysis techniques, which *track the propagation of the tainted vulnerable values,* can be applied either directly to the code lines ([[static taint analysis]]) or to the program during its execution ([[dynamic taint analysis]]). [[(Kluban, Mannan, et al., 2024)]]
+Taint analysis techniques, which *track the propagation of the tainted vulnerable values,* can be applied either directly to the code lines ([[STA (static taint analysis)]]) or to the program during its execution ([[DTA (dynamic taint analysis)]]). [[(Kluban, Mannan, et al., 2024)]]
 
 ---
 ## References

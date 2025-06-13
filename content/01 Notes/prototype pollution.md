@@ -130,7 +130,7 @@ Sometimes developers try to fix prototype pollution implementing a partial fix. 
 
 From  [[(Peng Zhou, Yuhan Gao, et al., 2024)]]:
 - **Dynamic fuzzing**: run each JavaScript function with a set of function inputs that are purposely crafted to trigger the pollution (*fuzzing inputs*). Then, check if the prototype properties have been polluted accordingly
-- **Static analysis**: track some polluted taints from the selected sources (i.e., the inputs controlled by external users) to a set of predefined [[sink function]]s. A vulnerability is confirmed if there is at least one path the taint can be delivered from the sources to the sink (see [[static taint analysis]])
+- **Static analysis**: track some polluted taints from the selected sources (i.e., the inputs controlled by external users) to a set of predefined [[sink function]]s. A vulnerability is confirmed if there is at least one path the taint can be delivered from the sources to the sink (see [[STA (static taint analysis)]])
 
 ---
 ### References

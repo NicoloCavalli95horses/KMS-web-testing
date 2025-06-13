@@ -21,7 +21,7 @@ We examined JavaScript APIs capable of creating network requests: 10 APIs were f
 ![[js_network_request_api_csrh_entry_points.png]]
 
 A tool called Sheriff is proposed to detect [[CSRH (Client-Side Request Hijacking)]] vulnerabilities in the wild.
-- it uses a combination of hybrid program analysis and in-browser [[dynamic taint analysis]] tracking for the discovery of potentially-vulnerable data flows and dynamic analysis with API instrumentation for the automated vulnerability verification.
+- it uses a combination of hybrid program analysis and in-browser [[DTA (dynamic taint analysis)]] tracking for the discovery of potentially-vulnerable data flows and dynamic analysis with API instrumentation for the automated vulnerability verification.
 - it is composed of 4 modules:
 	- **data collection**: gathers web resources and execute dynamic taint flows analysis
 	- **data modeling**: create a [[HPG (Hybrid Property Graph)]] that classify websites
