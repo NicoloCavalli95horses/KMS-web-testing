@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "01 Notes/JSON Hijacking Prevention tokens.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "JSON Hijacking Prevention tokens"
             }
           },
           {
@@ -202,6 +202,7 @@
   },
   "active": "7cbcfc7779609115",
   "lastOpenFiles": [
+    "index.md",
     "02 Literature/papers/dynamic taint analysis/Augur. Dynamic Taint Analysis for Asynchronous JavaScript.md",
     "01 Notes/DTA (dynamic taint analysis).md",
     "01 Notes/STA (static taint analysis).md",
@@ -225,7 +226,6 @@
     "04 Canvases/meetings/2025_03_20.canvas",
     "04 Canvases/meetings/2025_03_13.canvas",
     "01 Notes/monkey patching.md",
-    "index.md",
     "01 Notes/JSON Hijacking Prevention tokens.md",
     "01 Notes/Linux distribution.md",
     "00 Antilibrary/kernel.md",
