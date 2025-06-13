@@ -46,57 +46,124 @@
       "toSide": "right"
     },
     {
-      "fromNode": "321d683a7b0ecb9a",
+      "fromNode": "3924330b8250bc26",
       "fromSide": "bottom",
-      "id": "ac1732582a3f5acc",
+      "id": "ac63ec531e8595db",
       "styleAttributes": {
       },
-      "toNode": "2d5f8269e3e4292f",
+      "toNode": "5b0d4457174c67ee",
       "toSide": "top"
     },
     {
-      "fromNode": "64a5a412977914ea",
-      "fromSide": "right",
-      "id": "feb6dbbabfe01a8a",
-      "styleAttributes": {
-      },
-      "toNode": "71b3909c568b0091",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "64a5a412977914ea",
-      "fromSide": "right",
-      "id": "6ec44b161c676ea7",
-      "styleAttributes": {
-      },
-      "toNode": "3282e5bc3e22fda2",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "2d5f8269e3e4292f",
+      "fromNode": "c9260588483abe89",
       "fromSide": "bottom",
-      "id": "a46a511998a161c1",
+      "id": "69c7e6f90fed1340",
       "styleAttributes": {
       },
-      "toNode": "3a8a2cdc755ee77e",
+      "toNode": "3924330b8250bc26",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "ae865791f15b7ef4",
+      "fromSide": "bottom",
+      "id": "a2c5acd25dcdd96a",
+      "styleAttributes": {
+      },
+      "toNode": "f385a885e15d92b2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a9113038bb1db5a6",
+      "fromSide": "bottom",
+      "id": "af87ce6675d40333",
+      "styleAttributes": {
+      },
+      "toNode": "ae865791f15b7ef4",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f385a885e15d92b2",
+      "fromSide": "bottom",
+      "id": "039b15b5f61d186e",
+      "styleAttributes": {
+      },
+      "toNode": "2b1b0701784f17ff",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f385a885e15d92b2",
+      "fromSide": "bottom",
+      "id": "eefd8054dcdd1004",
+      "styleAttributes": {
+      },
+      "toNode": "8a207b232d6efd11",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f385a885e15d92b2",
+      "fromSide": "bottom",
+      "id": "e91f52bbdb9c374c",
+      "styleAttributes": {
+      },
+      "toNode": "41d0cdcefb823bf4",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a9113038bb1db5a6",
+      "fromSide": "bottom",
+      "id": "96fc1e5ee956cd0b",
+      "styleAttributes": {
+      },
+      "toNode": "aded3488af8fc9c6",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "c9260588483abe89",
+      "fromSide": "bottom",
+      "id": "dbeaa0c61909c8a2",
+      "styleAttributes": {
+      },
+      "toNode": "a9113038bb1db5a6",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a06402d8e408f1fe",
+      "fromSide": "bottom",
+      "id": "1cfc959f2f13a5d1",
+      "styleAttributes": {
+      },
+      "toNode": "2dee20fecc194494",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a06402d8e408f1fe",
+      "fromSide": "bottom",
+      "id": "a8fdc1e7c9e3db85",
+      "styleAttributes": {
+      },
+      "toNode": "e37bacf5c3725901",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "a06402d8e408f1fe",
+      "fromSide": "bottom",
+      "id": "a48216b4a5db1c3d",
+      "styleAttributes": {
+      },
+      "toNode": "5d0b679aef8a1638",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "aded3488af8fc9c6",
+      "fromSide": "bottom",
+      "id": "db4181c7be5bf3ba",
+      "styleAttributes": {
+      },
+      "toNode": "a06402d8e408f1fe",
       "toSide": "top"
     }
   ],
   "nodes": [
-    {
-      "color": "4",
-      "height": 180,
-      "id": "46dd92c318c76e8a",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "# Business flow tampering in React applications",
-      "type": "text",
-      "width": 1200,
-      "x": -1265,
-      "y": 580
-    },
     {
       "color": "4",
       "height": 160,
@@ -135,30 +202,245 @@
       "y": -240
     },
     {
-      "height": 120,
-      "id": "47836219e81f8c0e",
+      "color": "4",
+      "height": 180,
+      "id": "46dd92c318c76e8a",
       "styleAttributes": {
         "border": "invisible",
         "textAlign": "center"
       },
-      "text": "`JSON.parse` proxy that is trigger only with relevant HTTP responses",
+      "text": "# Business flow tampering in React applications",
       "type": "text",
-      "width": 260,
-      "x": -400,
-      "y": 1655
+      "width": 1200,
+      "x": -1233,
+      "y": 480
     },
     {
-      "height": 100,
-      "id": "56244488935e0018",
+      "color": "3",
+      "height": 150,
+      "id": "23dce1e4ca6c6be9",
       "styleAttributes": {
-        "border": "invisible",
+        "border": "invisible"
+      },
+      "text": "Black-box approaches are more scalable and allow us to test real applications, but harder to implement",
+      "type": "text",
+      "width": 352,
+      "x": -648,
+      "y": 994
+    },
+    {
+      "height": 60,
+      "id": "3924330b8250bc26",
+      "styleAttributes": {
         "textAlign": "center"
       },
-      "text": "who consume the `XMLHttpRequest` content?",
+      "text": "### white-box",
       "type": "text",
-      "width": 289,
-      "x": -60,
-      "y": 1665
+      "width": 260,
+      "x": -1766,
+      "y": 1144
+    },
+    {
+      "color": "3",
+      "height": 132,
+      "id": "2a3be8800a93b80d",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "White-box approaches are more accurate and in-depth, but you need access to the source code",
+      "type": "text",
+      "width": 352,
+      "x": -2199,
+      "y": 994
+    },
+    {
+      "height": 60,
+      "id": "ae865791f15b7ef4",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### in-band",
+      "type": "text",
+      "width": 396,
+      "x": -1342,
+      "y": 1312
+    },
+    {
+      "height": 102,
+      "id": "5b0d4457174c67ee",
+      "styleAttributes": {
+      },
+      "text": "Many tools perform static or dynamic taint analysis for the web ([Jalangi2](https://github.com/Samsung/jalangi2), [ExpoSE](https://github.com/ExpoSEJS/ExpoSE))",
+      "type": "text",
+      "width": 445,
+      "x": -1858,
+      "y": 1240
+    },
+    {
+      "height": 260,
+      "id": "f385a885e15d92b2",
+      "styleAttributes": {
+      },
+      "text": "Aka [[monkey patching]]\n- custom solution\n- not uncommon in research\n- may be more suitable for certain problems\n- it is less scalable and general",
+      "type": "text",
+      "width": 396,
+      "x": -1342,
+      "y": 1446
+    },
+    {
+      "height": 60,
+      "id": "a9113038bb1db5a6",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### black-box",
+      "type": "text",
+      "width": 260,
+      "x": -999,
+      "y": 1144
+    },
+    {
+      "color": "1",
+      "height": 100,
+      "id": "8a207b232d6efd11",
+      "styleAttributes": {
+        "border": null,
+        "textAlign": "center"
+      },
+      "text": "Difficult to scale, not designed for big projects",
+      "type": "text",
+      "width": 240,
+      "x": -1023,
+      "y": 1826
+    },
+    {
+      "color": "1",
+      "height": 100,
+      "id": "41d0cdcefb823bf4",
+      "styleAttributes": {
+        "border": null,
+        "textAlign": "center"
+      },
+      "text": "Can be detected by some application",
+      "type": "text",
+      "width": 199,
+      "x": -1243,
+      "y": 1826
+    },
+    {
+      "color": "4",
+      "height": 100,
+      "id": "2b1b0701784f17ff",
+      "styleAttributes": {
+        "border": null,
+        "textAlign": "center"
+      },
+      "text": "More control on the instrumentation",
+      "type": "text",
+      "width": 212,
+      "x": -1483,
+      "y": 1826
+    },
+    {
+      "height": 120,
+      "id": "a06402d8e408f1fe",
+      "styleAttributes": {
+      },
+      "text": "Custom browsers (e.g., Chromium) modified to log JS callstacks",
+      "type": "text",
+      "width": 390,
+      "x": -775,
+      "y": 1446
+    },
+    {
+      "color": "1",
+      "height": 120,
+      "id": "2dee20fecc194494",
+      "styleAttributes": {
+        "border": null,
+        "textAlign": "center"
+      },
+      "text": "No control on the logs",
+      "type": "text",
+      "width": 138,
+      "x": -649,
+      "y": 1646
+    },
+    {
+      "color": "3",
+      "height": 120,
+      "id": "e37bacf5c3725901",
+      "styleAttributes": {
+        "border": null,
+        "textAlign": "center"
+      },
+      "text": "How to navigate the ocean of information to get what we need?",
+      "type": "text",
+      "width": 223,
+      "x": -479,
+      "y": 1646
+    },
+    {
+      "color": "4",
+      "height": 120,
+      "id": "5d0b679aef8a1638",
+      "styleAttributes": {
+        "border": null,
+        "textAlign": "center"
+      },
+      "text": "The whole logic is mapped",
+      "type": "text",
+      "width": 138,
+      "x": -816,
+      "y": 1646
+    },
+    {
+      "height": 60,
+      "id": "aded3488af8fc9c6",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### out-of-band",
+      "type": "text",
+      "width": 382,
+      "x": -771,
+      "y": 1312
+    },
+    {
+      "height": 150,
+      "id": "c9260588483abe89",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "## Taint analysis on the web",
+      "type": "text",
+      "width": 420,
+      "x": -1443,
+      "y": 844
+    },
+    {
+      "height": 60,
+      "id": "25a4b2495f5260cd",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "Source: [[(Jueckstock, Kapravelos, et al., 2019)]]",
+      "type": "text",
+      "width": 675,
+      "x": -33,
+      "y": 798
+    },
+    {
+      "file": "97 Assets/js_instrumentation2.png",
+      "height": 205,
+      "id": "7279cca52dcc2d42",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "type": "file",
+      "width": 694,
+      "x": -33,
+      "y": 892
     },
     {
       "height": 138,
@@ -170,59 +452,8 @@
       "text": "Sensitive HTTP responses may be protected by [[JSON Hijacking Prevention tokens]]\n\nE.g., `)]}'while(1);</x>//`",
       "type": "text",
       "width": 414,
-      "x": 271,
-      "y": 1469
-    },
-    {
-      "height": 120,
-      "id": "ffc819296fb52747",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "Display list of functions that directly (or indirectly) called `XMLHttpRequest.responseText`",
-      "type": "text",
-      "width": 309,
-      "x": 324,
-      "y": 1655
-    },
-    {
-      "height": 100,
-      "id": "71b3909c568b0091",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "Can access specific parts of an application after login",
-      "type": "text",
-      "width": 264,
-      "x": -179,
-      "y": 1000
-    },
-    {
-      "height": 100,
-      "id": "3282e5bc3e22fda2",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "Difficult to scale, not designed for big projects",
-      "type": "text",
-      "width": 264,
-      "x": -179,
-      "y": 1140
-    },
-    {
-      "height": 120,
-      "id": "64a5a412977914ea",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "## Is TamperMonkey a good tool?",
-      "type": "text",
-      "width": 310,
-      "x": -580,
-      "y": 1060
+      "x": -524,
+      "y": 2320
     },
     {
       "height": 133,
@@ -234,8 +465,8 @@
       "text": "[[dynamic taint analysis]] of HTTP traces that contains relevant keywords (`template`, ...)",
       "type": "text",
       "width": 319,
-      "x": -140,
-      "y": 1472
+      "x": -935,
+      "y": 2323
     },
     {
       "height": 95,
@@ -248,54 +479,47 @@
       "text": "TamperMonkey script",
       "type": "text",
       "width": 215,
-      "x": -445,
-      "y": 1491
+      "x": -1240,
+      "y": 2342
     },
     {
-      "height": 180,
-      "id": "2d5f8269e3e4292f",
+      "height": 120,
+      "id": "47836219e81f8c0e",
       "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
       },
-      "text": "- Black-box approaches are more scalable and allow us to test real applications, but harder to implement\n- Custom solutions ([[Monkey patching]]) are not uncommon in research",
+      "text": "`JSON.parse` proxy that is trigger only with relevant HTTP responses",
       "type": "text",
-      "width": 607,
-      "x": -1623,
-      "y": 1340
+      "width": 260,
+      "x": -1195,
+      "y": 2506
     },
     {
-      "height": 60,
-      "id": "8bc8b0b05f00e16a",
+      "height": 120,
+      "id": "ffc819296fb52747",
       "styleAttributes": {
-        "border": "invisible"
+        "border": "invisible",
+        "textAlign": "center"
       },
-      "text": " [[(Jueckstock, Kapravelos, et al., 2019)]]",
+      "text": "Display list of functions that directly (or indirectly) called `XMLHttpRequest.responseText`",
       "type": "text",
-      "width": 390,
-      "x": -1422,
-      "y": 1785
+      "width": 309,
+      "x": -471,
+      "y": 2506
     },
     {
-      "file": "97 Assets/js_instrumentation2.png",
-      "height": 205,
-      "id": "3a8a2cdc755ee77e",
+      "height": 100,
+      "id": "56244488935e0018",
       "styleAttributes": {
-        "border": "dashed"
+        "border": "invisible",
+        "textAlign": "center"
       },
-      "type": "file",
-      "width": 694,
-      "x": -1666,
-      "y": 1580
-    },
-    {
-      "height": 209,
-      "id": "321d683a7b0ecb9a",
-      "styleAttributes": {
-      },
-      "text": "### Many tools perform static or dynamic taint analysis for the web ([Jalangi2](https://github.com/Samsung/jalangi2), [ExpoSE](https://github.com/ExpoSEJS/ExpoSE))\n\n### This tools are designed to be used in a white-box scenario\n",
+      "text": "who consume the `XMLHttpRequest` content?",
       "type": "text",
-      "width": 607,
-      "x": -1623,
-      "y": 1060
+      "width": 289,
+      "x": -855,
+      "y": 2516
     }
   ]
 }

@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "07c6face1e564607",
+        "id": "0da35d0786ebb8e3",
         "type": "tabs",
         "children": [
           {
-            "id": "fa2111d4b13bde2a",
+            "id": "64ccf1e3453cbccf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "index"
+              "title": "New tab"
             }
           }
         ]
@@ -185,13 +180,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fa2111d4b13bde2a",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/taint analysis in the web.canvas",
     "04 Canvases/meetings/2025_06_10.canvas",
+    "04 Canvases/meetings/2025_05_21.canvas",
+    "04 Canvases/meetings/2025_05_02.canvas",
+    "04 Canvases/meetings/2025_04_17.canvas",
+    "04 Canvases/meetings/2025_04_10.canvas",
+    "04 Canvases/meetings/2025_04_04.canvas",
+    "04 Canvases/meetings/2025_03_27.canvas",
+    "04 Canvases/meetings/2025_03_20.canvas",
+    "04 Canvases/meetings/2025_03_13.canvas",
+    "04 Canvases/meetings/2025_03_06.canvas",
+    "01 Notes/monkey patching.md",
+    "index.md",
     "96 Meta/PhD status.md",
     "96 Meta/SLR/Tags analysis.md",
     "96 Meta/SLR/Paper list.md",
-    "index.md",
     "01 Notes/JSON Hijacking Prevention tokens.md",
     "01 Notes/Linux distribution.md",
     "00 Antilibrary/kernel.md",
@@ -208,9 +214,6 @@
     "02 Literature/papers/UI and UX issues/Classifying and qualifying GUI defects.md",
     "02 Literature/papers/UI and UX issues/A taxonomy of testable HTML5 Canvas Issues.md",
     "97 Assets/js_instrumentation2.png",
-    "01 Notes/Monkey patching.md",
-    "04 Canvases/meetings/2025_05_21.canvas",
-    "04 Canvases/meetings/2025_05_02.canvas",
     "96 Meta/References analysis.md",
     "96 Meta/Publication deadlines.md",
     "03 References/(Jueckstock, Kapravelos, et al., 2019).md",
@@ -219,13 +222,6 @@
     "Pasted image 20250514165458.png",
     "TO DO.md",
     "01 Notes/prototype pollution.md",
-    "04 Canvases/mind maps/props tampering.canvas",
-    "04 Canvases/mind maps/input analysis.canvas",
-    "04 Canvases/mind maps/front end security category.canvas",
-    "04 Canvases/mind maps/cross-domain policies.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "97 Assets/IVD_invariant_detector_facebook.png",
     "97 Assets/scoped_css_as_component_identifier_js.png",
     "02 Literature/papers/Cross-Site Framing (CSF)",

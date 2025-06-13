@@ -165,17 +165,6 @@
       "y": 80
     },
     {
-      "height": 60,
-      "id": "a794123e940de436",
-      "styleAttributes": {
-      },
-      "text": "Cypress",
-      "type": "text",
-      "width": 250,
-      "x": 2360,
-      "y": -460
-    },
-    {
       "height": 380,
       "id": "9891489230e0d0ec",
       "styleAttributes": {
@@ -198,18 +187,6 @@
       "y": -200
     },
     {
-      "color": "1",
-      "height": 150,
-      "id": "93a624892c10b7d1",
-      "styleAttributes": {
-      },
-      "text": "The tool is recognized and blocked by most web applications",
-      "type": "text",
-      "width": 300,
-      "x": 2335,
-      "y": -320
-    },
-    {
       "height": 380,
       "id": "c27b798c4fd03e0f",
       "styleAttributes": {
@@ -219,17 +196,6 @@
       "width": 680,
       "x": -240,
       "y": 20
-    },
-    {
-      "height": 60,
-      "id": "f973089e9a4ba9d2",
-      "styleAttributes": {
-      },
-      "text": "Google, Outlook, Zimbra",
-      "type": "text",
-      "width": 300,
-      "x": 1215,
-      "y": 420
     },
     {
       "height": 190,
@@ -276,30 +242,6 @@
       "y": -460
     },
     {
-      "color": "1",
-      "height": 60,
-      "id": "83947823c40989f9",
-      "styleAttributes": {
-      },
-      "text": "BLOCKING PHASES",
-      "type": "text",
-      "width": 280,
-      "x": 2940,
-      "y": 100
-    },
-    {
-      "color": "4",
-      "height": 60,
-      "id": "9107fc6c47683357",
-      "styleAttributes": {
-      },
-      "text": "INTERESTING RESULTS",
-      "type": "text",
-      "width": 280,
-      "x": 2940,
-      "y": 190
-    },
-    {
       "height": 160,
       "id": "ccc1e648f5956107",
       "styleAttributes": {
@@ -309,17 +251,6 @@
       "width": 580,
       "x": 1905,
       "y": -740
-    },
-    {
-      "height": 100,
-      "id": "22ca07955a41e2ed",
-      "styleAttributes": {
-      },
-      "text": "### login to large scale web app (canva.com)",
-      "type": "text",
-      "width": 601,
-      "x": 1554,
-      "y": 20
     },
     {
       "height": 60,
@@ -344,6 +275,75 @@
       "y": -320
     },
     {
+      "height": 60,
+      "id": "a794123e940de436",
+      "styleAttributes": {
+      },
+      "text": "Cypress",
+      "type": "text",
+      "width": 250,
+      "x": 2360,
+      "y": -460
+    },
+    {
+      "color": "1",
+      "height": 150,
+      "id": "93a624892c10b7d1",
+      "styleAttributes": {
+      },
+      "text": "The tool is recognized and blocked by most web applications",
+      "type": "text",
+      "width": 300,
+      "x": 2335,
+      "y": -320
+    },
+    {
+      "height": 60,
+      "id": "f973089e9a4ba9d2",
+      "styleAttributes": {
+      },
+      "text": "Google, Outlook, Zimbra",
+      "type": "text",
+      "width": 300,
+      "x": 1215,
+      "y": 420
+    },
+    {
+      "color": "1",
+      "height": 60,
+      "id": "83947823c40989f9",
+      "styleAttributes": {
+      },
+      "text": "BLOCKING PHASES",
+      "type": "text",
+      "width": 280,
+      "x": 2940,
+      "y": 100
+    },
+    {
+      "color": "4",
+      "height": 60,
+      "id": "9107fc6c47683357",
+      "styleAttributes": {
+      },
+      "text": "INTERESTING RESULTS",
+      "type": "text",
+      "width": 280,
+      "x": 2940,
+      "y": 190
+    },
+    {
+      "height": 100,
+      "id": "22ca07955a41e2ed",
+      "styleAttributes": {
+      },
+      "text": "### login to large scale web app (canva.com)",
+      "type": "text",
+      "width": 601,
+      "x": 1554,
+      "y": 20
+    },
+    {
       "color": "4",
       "height": 120,
       "id": "0fd25fa468648266",
@@ -354,18 +354,6 @@
       "width": 300,
       "x": 1703,
       "y": -160
-    },
-    {
-      "color": "1",
-      "height": 80,
-      "id": "88ee36afde80a241",
-      "styleAttributes": {
-      },
-      "text": "temporary emails are detected and blocked",
-      "type": "text",
-      "width": 355,
-      "x": 1977,
-      "y": 420
     },
     {
       "height": 80,
@@ -388,6 +376,18 @@
       "width": 320,
       "x": 1393,
       "y": 240
+    },
+    {
+      "color": "1",
+      "height": 80,
+      "id": "88ee36afde80a241",
+      "styleAttributes": {
+      },
+      "text": "temporary emails are detected and blocked",
+      "type": "text",
+      "width": 355,
+      "x": 1977,
+      "y": 420
     },
     {
       "height": 140,

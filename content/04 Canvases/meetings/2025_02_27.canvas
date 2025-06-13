@@ -150,17 +150,6 @@
       "y": 1489
     },
     {
-      "height": 1200,
-      "id": "df79509072f81fd9",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://owasp.org/Top10/A01_2021-Broken_Access_Control/",
-      "width": 1920,
-      "x": 980,
-      "y": 1141
-    },
-    {
       "height": 322,
       "id": "322c27f2960bf5a9",
       "styleAttributes": {
@@ -170,28 +159,6 @@
       "width": 371,
       "x": 3531,
       "y": 1493
-    },
-    {
-      "height": 322,
-      "id": "23e960f8188e0105",
-      "styleAttributes": {
-      },
-      "text": "### Client-side request manipulation\n- [[CSRF (cross-site request forgery)]]\n- parameter tampering\n- [[tabnabbing]] \n- [[redirect attack]]\n\n",
-      "type": "text",
-      "width": 371,
-      "x": 3106,
-      "y": 1850
-    },
-    {
-      "height": 322,
-      "id": "285980fb5d382a2b",
-      "styleAttributes": {
-      },
-      "text": "### Metadata manipulation\n- cookies theft\n- cookies tampering\n- CORS misconfiguration\n- JWT tampering\n- session hijacking\n- improper [[SameSite cookie]]",
-      "type": "text",
-      "width": 371,
-      "x": 3531,
-      "y": 1850
     },
     {
       "color": "3",
@@ -241,15 +208,37 @@
       "y": 1307
     },
     {
-      "height": 166,
-      "id": "245e966fd4c46042",
+      "height": 1200,
+      "id": "df79509072f81fd9",
       "styleAttributes": {
       },
-      "text": "-  [[DoS (Denial of Service)]] attack\n- [[ReDoS (Regular Expression Denial of Service)]]\n- [[DDoS (Distributed Denial of Service)]]",
+      "type": "link",
+      "url": "https://owasp.org/Top10/A01_2021-Broken_Access_Control/",
+      "width": 1920,
+      "x": 980,
+      "y": 1141
+    },
+    {
+      "height": 322,
+      "id": "23e960f8188e0105",
+      "styleAttributes": {
+      },
+      "text": "### Client-side request manipulation\n- [[CSRF (cross-site request forgery)]]\n- parameter tampering\n- [[tabnabbing]] \n- [[redirect attack]]\n\n",
       "type": "text",
-      "width": 427,
-      "x": 3993,
-      "y": 1455
+      "width": 371,
+      "x": 3106,
+      "y": 1850
+    },
+    {
+      "height": 322,
+      "id": "285980fb5d382a2b",
+      "styleAttributes": {
+      },
+      "text": "### Metadata manipulation\n- cookies theft\n- cookies tampering\n- CORS misconfiguration\n- JWT tampering\n- session hijacking\n- improper [[SameSite cookie]]",
+      "type": "text",
+      "width": 371,
+      "x": 3531,
+      "y": 1850
     },
     {
       "height": 122,
@@ -274,17 +263,6 @@
       "y": 1876
     },
     {
-      "height": 75,
-      "id": "cc36df594b496069",
-      "styleAttributes": {
-      },
-      "text": "- [[XSS (cross site scripting)]]\n- code execution",
-      "type": "text",
-      "width": 427,
-      "x": 3993,
-      "y": 1640
-    },
-    {
       "height": 117,
       "id": "212b3a3e4427f2c1",
       "styleAttributes": {
@@ -294,28 +272,6 @@
       "width": 320,
       "x": 480,
       "y": 1680
-    },
-    {
-      "height": 132,
-      "id": "cc0a63da7e37f527",
-      "styleAttributes": {
-      },
-      "text": "- [[drive-by download]]\n- [[trojan horse]]\n- [[keylogging]]",
-      "type": "text",
-      "width": 427,
-      "x": 4500,
-      "y": 1595
-    },
-    {
-      "height": 105,
-      "id": "bede35d17605327a",
-      "styleAttributes": {
-      },
-      "text": "\n- [[timing attack]]\n- [[pixel stealing]]\n",
-      "type": "text",
-      "width": 427,
-      "x": 4500,
-      "y": 1754
     },
     {
       "height": 110,
@@ -351,17 +307,6 @@
       "y": 500
     },
     {
-      "height": 736,
-      "id": "3a6356faaaf72492",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://docs.google.com/spreadsheets/d/1GiQBU8HFeC5ckzBsW-WxFpXzZV1OHjyd_xcIgxiKEOg/edit?gid=0#gid=0",
-      "width": 2040,
-      "x": 5200,
-      "y": 1381
-    },
-    {
       "height": 114,
       "id": "f73bd64cea176b8e",
       "styleAttributes": {
@@ -371,6 +316,61 @@
       "width": 427,
       "x": 4500,
       "y": 1455
+    },
+    {
+      "height": 166,
+      "id": "245e966fd4c46042",
+      "styleAttributes": {
+      },
+      "text": "-  [[DoS (Denial of Service)]] attack\n- [[ReDoS (Regular Expression Denial of Service)]]\n- [[DDoS (Distributed Denial of Service)]]",
+      "type": "text",
+      "width": 427,
+      "x": 3993,
+      "y": 1455
+    },
+    {
+      "height": 75,
+      "id": "cc36df594b496069",
+      "styleAttributes": {
+      },
+      "text": "- [[XSS (cross site scripting)]]\n- code execution",
+      "type": "text",
+      "width": 427,
+      "x": 3993,
+      "y": 1640
+    },
+    {
+      "height": 132,
+      "id": "cc0a63da7e37f527",
+      "styleAttributes": {
+      },
+      "text": "- [[drive-by download]]\n- [[trojan horse]]\n- [[keylogging]]",
+      "type": "text",
+      "width": 427,
+      "x": 4500,
+      "y": 1595
+    },
+    {
+      "height": 105,
+      "id": "bede35d17605327a",
+      "styleAttributes": {
+      },
+      "text": "\n- [[timing attack]]\n- [[pixel stealing]]\n",
+      "type": "text",
+      "width": 427,
+      "x": 4500,
+      "y": 1754
+    },
+    {
+      "height": 736,
+      "id": "3a6356faaaf72492",
+      "styleAttributes": {
+      },
+      "type": "link",
+      "url": "https://docs.google.com/spreadsheets/d/1GiQBU8HFeC5ckzBsW-WxFpXzZV1OHjyd_xcIgxiKEOg/edit?gid=0#gid=0",
+      "width": 2040,
+      "x": 5200,
+      "y": 1381
     },
     {
       "height": 200,

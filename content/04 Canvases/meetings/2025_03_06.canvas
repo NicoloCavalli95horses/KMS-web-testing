@@ -83,17 +83,6 @@
     },
     {
       "height": 80,
-      "id": "67ba6b86a7cb8ad7",
-      "styleAttributes": {
-      },
-      "text": "## RQ review",
-      "type": "text",
-      "width": 200,
-      "x": -2570,
-      "y": 80
-    },
-    {
-      "height": 80,
       "id": "27e0324d7c1262a9",
       "styleAttributes": {
       },
@@ -112,17 +101,6 @@
       "type": "text",
       "width": 240,
       "x": -1850,
-      "y": 80
-    },
-    {
-      "height": 80,
-      "id": "aba64604da989ee8",
-      "styleAttributes": {
-      },
-      "text": "## Paper list",
-      "type": "text",
-      "width": 240,
-      "x": -1530,
       "y": 80
     },
     {
@@ -157,6 +135,28 @@
       "width": 280,
       "x": -1210,
       "y": 80
+    },
+    {
+      "height": 80,
+      "id": "aba64604da989ee8",
+      "styleAttributes": {
+      },
+      "text": "## Paper list",
+      "type": "text",
+      "width": 240,
+      "x": -1530,
+      "y": 80
+    },
+    {
+      "height": 100,
+      "id": "67ba6b86a7cb8ad7",
+      "styleAttributes": {
+      },
+      "text": "## RQ review",
+      "type": "text",
+      "width": 200,
+      "x": -2570,
+      "y": 70
     }
   ]
 }
