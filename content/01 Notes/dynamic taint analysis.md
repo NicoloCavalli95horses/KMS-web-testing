@@ -4,6 +4,8 @@ tags:
   - "#definition"
   - softwareEngineering
   - codeAnalysis
+  - dynamicAnalysis
+  - taintAnalysis
 ---
 ## Definition
 
@@ -11,7 +13,7 @@ Taint analysis is a type of data flow analysis that examines the *path of input 
 - from the “source” (an initial place in code, where the input was introduced)
 - to the [[sink function]] (a potentially vulnerable functionality that can be exploited if the input is malicious)
 
-The objective is to determine whether a function containing a potential exploit ==is reachable by an attacker with her chosen inputs==. Therefore, this approach requires correct identifications of “vulnerable sinks” and possible “malicious data sources.” [[(Kluban, Mannan, et al., 2024)]]
+The objective is usually to determine whether a function containing a potential exploit ==is reachable by an attacker with her chosen inputs==. Therefore, this approach requires correct identifications of “vulnerable sinks” and possible “malicious data sources.” [[(Kluban, Mannan, et al., 2024)]]
 
 A [[dynamic analysis]] examines a program state throughout/after execution, by gathering additional information.
 

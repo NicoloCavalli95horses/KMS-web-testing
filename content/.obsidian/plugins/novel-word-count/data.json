@@ -3265,20 +3265,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 226,
+      "wordCount": 410,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.7533333333333333,
-      "characterCount": 1730,
-      "nonWhitespaceCharacterCount": 1482,
-      "newlineCount": 28,
-      "readingTimeInMinutes": 0.8528301886792453,
+      "pageCount": 1.3666666666666667,
+      "characterCount": 2982,
+      "nonWhitespaceCharacterCount": 2546,
+      "newlineCount": 33,
+      "readingTimeInMinutes": 1.5471698113207548,
       "linkCount": 4,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1749647643506,
-      "modifiedDate": 1749802293560,
-      "sizeInBytes": 1854,
+      "modifiedDate": 1749805610589,
+      "sizeInBytes": 3106,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.03666666666666667,
@@ -20833,20 +20833,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 290,
+      "wordCount": 291,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.9666666666666667,
-      "characterCount": 2279,
-      "nonWhitespaceCharacterCount": 1909,
+      "pageCount": 0.97,
+      "characterCount": 2287,
+      "nonWhitespaceCharacterCount": 1916,
       "newlineCount": 48,
-      "readingTimeInMinutes": 1.0943396226415094,
+      "readingTimeInMinutes": 1.0981132075471698,
       "linkCount": 8,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1749542227760,
-      "modifiedDate": 1749553952296,
-      "sizeInBytes": 2390,
+      "modifiedDate": 1749806154758,
+      "sizeInBytes": 2436,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.9666666666666667,
@@ -20860,7 +20860,9 @@
         "tags": [
           "#definition",
           "softwareEngineering",
-          "codeAnalysis"
+          "codeAnalysis",
+          "dynamicAnalysis",
+          "taintAnalysis"
         ]
       }
     },
@@ -25409,6 +25411,70 @@
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0,
         "newlineCount": 0
+      }
+    },
+    "03 References/(Aldrich, Turcotte, et al., 2023).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 244,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.8133333333333334,
+      "characterCount": 1973,
+      "nonWhitespaceCharacterCount": 1705,
+      "newlineCount": 13,
+      "readingTimeInMinutes": 0.9207547169811321,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1749807733840,
+      "modifiedDate": 1749807733841,
+      "sizeInBytes": 1973,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "02 Literature/papers/dynamic taint analysis/Augur. Dynamic Taint Analysis for Asynchronous JavaScript.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 10,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.03333333333333333,
+      "characterCount": 118,
+      "nonWhitespaceCharacterCount": 90,
+      "newlineCount": 19,
+      "readingTimeInMinutes": 0.03773584905660377,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1749807733865,
+      "modifiedDate": 1749807767073,
+      "sizeInBytes": 232,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-06-13T09:42:13.835Z",
+        "tags": [
+          "paper",
+          "taintAnalysis",
+          "dynamicAnalysis",
+          "JavaScript"
+        ],
+        "Rank": "A*"
       }
     }
   }
