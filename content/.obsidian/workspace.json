@@ -11,10 +11,15 @@
             "id": "64ccf1e3453cbccf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature/papers/JavaScript instrumentation/VisibleV8. In-browser Monitoring of JavaScript in the Wild.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "VisibleV8. In-browser Monitoring of JavaScript in the Wild"
             }
           }
         ]
@@ -180,7 +185,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "64ccf1e3453cbccf",
   "lastOpenFiles": [
     "04 Canvases/mind maps/taint analysis in the web.canvas",
     "04 Canvases/meetings/2025_06_10.canvas",
