@@ -309,7 +309,6 @@
   ],
   "nodes": [
     {
-      "color": "1",
       "height": 70,
       "id": "103e97343c0f4db2",
       "styleAttributes": {
@@ -322,7 +321,6 @@
       "y": -33
     },
     {
-      "color": "1",
       "height": 70,
       "id": "cd3a1dc3bcc82be0",
       "styleAttributes": {
