@@ -23,7 +23,34 @@ mXSS vectors bypassed
 - Intrusion Detection and Intrusion Prevention Systems (IDS/IPS).
 
 **Webmail clients**
-Webmail constitutes a class of web applications particularly affected by mutation-based XSS
+Webmail constitutes a class of web applications particularly affected by mutation-based XSS, because they visualize HTML provided by the sender of the email.
+- collaborative editing of complex HTML based documents are also vulnerable to mXSS
+
+> [!NOTE] mXSS due to performance-enhancement actions
+> Performance-enhancement peculiarities present in all major browsers mutate a given HTML string before it is rendered. This can be exploited to bypass XSS filters, leading to external JavaScript being executed
+
+These performance-enhancement may include:
+- removing empty CSS classes
+- resolving HTML entities
+- extra white space is removed
+
+**New tags**
+`innerHTML` access to an unknown DOM elements may cause mutations and unsolicited JavaScript execution
+
+```txt
+<!-- Attacker input -->
+<article xmlns ="urn:img src=x onerror=xss()//" >123
+
+<!-- Browser Output -->
+<img src=x onerror=xss()//:article xmlns="urn:img src=x onerror=xss()//">123 </img src=x onerror=xss()//: article>
+```
+
+In order to initiate the mutation, ==all of the exploits shown here require a single access to the innerHTML property of a surrounding container==
+## Approach
+
+We propose and evaluate an in-browser protection script, entirely composed in JavaScript, which is practical, feasible and has low-overhead.
+
+With this script, a web application developer can implement a fix against mXSS attacks without relying on server-side changes or browser updates
 
 ## Limits
 
