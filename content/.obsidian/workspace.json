@@ -4,24 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "6ff75bf5c1c7584a",
+        "id": "8ed2267e971278a3",
         "type": "tabs",
         "children": [
           {
-            "id": "b0beed581ab08f8f",
+            "id": "ba1f3ccd3a84b753",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/mind maps/input analysis.canvas",
-                "viewState": {
-                  "x": -791.33463483692,
-                  "y": -916.8225156704542,
-                  "zoom": -1.041076502547524
-                }
+                "file": "02 Literature/papers/XSS (Cross-Site Scripting)/Scriptless attacks. Stealing the pie without touching the sill.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "input analysis"
+              "icon": "lucide-file",
+              "title": "Scriptless attacks. Stealing the pie without touching the sill"
+            }
+          },
+          {
+            "id": "165b15d713b84dfe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/XSS (cross site scripting).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "XSS (cross site scripting)"
             }
           }
         ]
@@ -187,11 +200,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b0beed581ab08f8f",
+  "active": "ba1f3ccd3a84b753",
   "lastOpenFiles": [
+    "01 Notes/XSS (cross site scripting).md",
+    "02 Literature/papers/XSS (Cross-Site Scripting)/Scriptless attacks. Stealing the pie without touching the sill.md",
+    "03 References/(Heiderich, Niemietz, et al., 2012).md",
+    "02 Literature/papers/scriptless attacks",
+    "04 Canvases/mind maps/input analysis.canvas",
     "02 Literature/papers/XSS (Cross-Site Scripting)/mXSS attacks. attacking well-secured web-applications by using innerHTML mutations.md",
     "03 References/(Heiderich, Schwenk, et al., 2013).md",
-    "04 Canvases/mind maps/input analysis.canvas",
     "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/mind maps/cross-domain policies.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
@@ -223,9 +240,6 @@
     "02 Literature/papers/XSS (Cross-Site Scripting)/Automated removal of cross site scripting vulnerabilities in web applications.md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/A survey of detection methods for XSS attacks.md",
     "02 Literature/papers/clickjacking/Tricking Johnny into Granting Web Permissions.md",
-    "02 Literature/papers/UI and UX issues/Out of Sight, Out of Mind. UI Design and the Inhibition of Mental Models of Security.md",
-    "02 Literature/papers/UI and UX issues/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md",
-    "02 Literature/papers/UI and UX issues/Home and away. UI design pattern for supporting end-user security.md",
     "97 Assets/js_instrumentation2.png",
     "02 Literature/papers/JavaScript instrumentation",
     "97 Assets/js_instrumentation.png",
@@ -243,7 +257,6 @@
     "97 Assets/front_end_component_not_obscured_reasons_reddit.png",
     "97 Assets/obfuscate_vue_components.png",
     "01 Notes/XSS (Cross Site Scripting)/mitigation",
-    "01 Notes/XSS (Cross Site Scripting)/types",
-    "01 Notes/XSS (Cross Site Scripting)"
+    "01 Notes/XSS (Cross Site Scripting)/types"
   ]
 }
