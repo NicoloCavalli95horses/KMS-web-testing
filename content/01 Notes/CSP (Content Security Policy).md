@@ -18,7 +18,7 @@ Content Security Policy (CSP) is a feature that helps to prevent or minimize the
 A CSP can, for example:
 - disable inline script tags
 - disable dangerous APIs like `eval()`, `setTimeout()`, `setInterval()`[^1] 
-- define the permitted sources (script, images, styles and fonts sources) 
+- define the permitted sources (script, images, styles and fonts sources[^2]) 
 - allow only script tags which have the correct id or src value
 - disable inline event handlers
 - disable javascript: URLs
@@ -97,3 +97,7 @@ The browser then determines for a given script (both inline and external) if the
 - https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP
 
 [^1]: These APIs are dangerous because their first argument is  interpreted as code, even if it is a string. So `setInterval(myFunction, 1000)` and `setInterval("alert(1)", 1000)` will both cause a JS execution
+
+[^2]: Custom fonts may be dangerous. An attacker could define CSS rules to import custom fonts defined in a remote domain. This fonts may hide content or trick the user, or even be exploited for CSS exfiltration as explained by [[(Heiderich, Niemietz, et al., 2012)]]. To block loading external custom font, use `Content-Security-Policy: font-src 'self'`
+
+ 
