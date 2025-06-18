@@ -39,7 +39,7 @@ Consequences:
 - **Content obfuscation**: the text displayed on the screen does not match the text in the DOM
 - Security tools, crawlers, parsers or search engines do not see the real text, making it difficult to detect suspicious content. Anti-bot and anti-scraping pages can hide the real content by using obfuscated fonts. Bots that read the DOM see gibberish or symbols, while the human user sees readable content
 - It can be used to **evade automatic analysis** (e.g. by search engines, anti-phishing systems, antivirus, etc.)
-- **Evasion of assistive technologies.** Screen readers, screen readers and accessibility tools do not read the content correctly, because the font displays different words than the encoded ones. This compromises accessibility, and can be exploited to hide discriminatory text, deceptive advertising or phishing
+- **Evasion of assistive technologies.** Screen readers and accessibility tools do not read the content correctly, because the font displays different words than the encoded ones. This compromises accessibility, and can be exploited to hide discriminatory text, deceptive advertising or phishing
 - **Spear phishing or targeted attacks**. Deceptive messages (e.g. “Account Verified”) can be displayed without these words being in the source code, evading automatic inspections
 
 **CSS-based animations**
