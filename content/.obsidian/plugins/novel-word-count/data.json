@@ -3331,33 +3331,6 @@
         "newlineCount": 34
       }
     },
-    "04 Canvases/meetings/2025_06_10.canvas": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 280,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.9333333333333333,
-      "characterCount": 2156,
-      "nonWhitespaceCharacterCount": 1856,
-      "newlineCount": 44,
-      "readingTimeInMinutes": 1.0566037735849056,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1749554011929,
-      "modifiedDate": 1750059213535,
-      "sizeInBytes": 12693,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.9333333333333333,
-        "wordCount": 280,
-        "characterCount": 2156,
-        "nonWhitespaceCharacterCount": 1856,
-        "newlineCount": 44
-      }
-    },
     "04 Canvases/meetings/2025_05_21.canvas": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -25645,6 +25618,33 @@
       "sizeInBytes": 0,
       "sessionStart": {
         "noteCount": 1,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "04 Canvases/meetings/2025_06_18.canvas": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 198,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.66,
+      "characterCount": 1485,
+      "nonWhitespaceCharacterCount": 1274,
+      "newlineCount": 32,
+      "readingTimeInMinutes": 0.7471698113207547,
+      "linkCount": 5,
+      "embedCount": 1,
+      "aliases": null,
+      "createdDate": 1749554011929,
+      "modifiedDate": 1750239362029,
+      "sizeInBytes": 11815,
+      "sessionStart": {
+        "noteCount": 0,
         "pageCount": 0,
         "wordCount": 0,
         "characterCount": 0,

@@ -166,43 +166,6 @@
   "nodes": [
     {
       "color": "4",
-      "height": 160,
-      "id": "cc9338df4f860552",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "# Client-side prototype pollution [[(Kang, Lyu, et al., 2024)]]",
-      "type": "text",
-      "width": 1200,
-      "x": -1180,
-      "y": -580
-    },
-    {
-      "height": 460,
-      "id": "c5650c3037660bad",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "User inputs:\n- URL manipulation: `https://example.com?__proto__[polluted]=true`\n- [[cookie]] manipulation: `__proto__[isAdmin]=true` (this works if the application reads cookies in an unsafe way)\n- [[Web Storage API (localStorage, sessionStorage)]] pollution\n\nThat flows to:\n- unsafe functions (`eval`, `new Function`, `document.write`, `innerHTML`)\n- storage sinks (Cookies, Local Storage, Session Storage)\n- attribute sinks (`setAttribute`)\n\nThe goal is to find gadgets (vulnerable JS code that can be exploited via PP)",
-      "type": "text",
-      "width": 760,
-      "x": -1180,
-      "y": -320
-    },
-    {
-      "height": 210,
-      "id": "00204f2c9c40ee68",
-      "styleAttributes": {
-      },
-      "text": "**Key insight**\ncrafting complex values for undefined properties ==using defined values in similar websites, or in the same website in another call stack==",
-      "type": "text",
-      "width": 410,
-      "x": -390,
-      "y": -240
-    },
-    {
-      "color": "4",
       "height": 180,
       "id": "46dd92c318c76e8a",
       "styleAttributes": {
@@ -293,7 +256,7 @@
       "styleAttributes": {
         "textAlign": "center"
       },
-      "text": "### black-box",
+      "text": "### grey-box",
       "type": "text",
       "width": 260,
       "x": -999,
@@ -390,8 +353,8 @@
       },
       "text": "The whole logic is mapped",
       "type": "text",
-      "width": 138,
-      "x": -816,
+      "width": 191,
+      "x": -869,
       "y": 1646
     },
     {
@@ -520,6 +483,32 @@
       "width": 289,
       "x": -855,
       "y": 2516
+    },
+    {
+      "color": "4",
+      "height": 160,
+      "id": "07c36089e98a1b40",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# CSS exfiltration  [[(Heiderich, Niemietz, et al., 2012)]]",
+      "type": "text",
+      "width": 1200,
+      "x": -1220,
+      "y": -80
+    },
+    {
+      "height": 60,
+      "id": "f4d5e3120540e3de",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "see project",
+      "type": "text",
+      "width": 1200,
+      "x": -1220,
+      "y": 120
     }
   ]
 }
