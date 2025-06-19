@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "8ed2267e971278a3",
+        "id": "162e729b834930b8",
         "type": "tabs",
         "children": [
           {
-            "id": "ba1f3ccd3a84b753",
+            "id": "adbb4a64023647ca",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/meetings/2025_06_18.canvas",
+                "file": "04 Canvases/meetings/2025_06_25.canvas",
                 "viewState": {
-                  "x": -665.2685764778512,
-                  "y": 2529.327680500523,
-                  "zoom": -0.13923768511954362
+                  "x": 90.52476396743543,
+                  "y": 759.8108102556866,
+                  "zoom": -0.555555533479762
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "2025_06_18"
+              "title": "2025_06_25"
             }
           }
         ]
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.50260543823242
+    "width": 205.50260543823242
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -187,10 +187,17 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ba1f3ccd3a84b753",
+  "active": "adbb4a64023647ca",
   "lastOpenFiles": [
-    "02 Literature/papers/XSS (Cross-Site Scripting)/Scriptless attacks. Stealing the pie without touching the sill.md",
+    "97 Assets/burp_test_canva_pro.png",
     "04 Canvases/meetings/2025_06_18.canvas",
+    "04 Canvases/meetings/2025_06_25.canvas",
+    "01 Notes/Burp Suite.md",
+    "02 Literature/papers/testing enhancements/What All the PHUZZ Is About. A Coverage-guided Fuzzer for Finding Vulnerabilities in PHP Web Applications.md",
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/Mitch. A Machine Learning Approach to the Black-Box Detection of CSRF Vulnerabilities.md",
+    "02 Literature/books/The Basic of Web Hacking/chapters/5. Web Application Exploitation  with Broken Authentication and Path Traversal.md",
+    "02 Literature/papers/parameter tampering/A Novel Approach for Message Authentication to Prevent Parameter Tampering Attack in Web Applications.md",
+    "02 Literature/papers/XSS (Cross-Site Scripting)/Scriptless attacks. Stealing the pie without touching the sill.md",
     "01 Notes/CSP (Content Security Policy).md",
     "01 Notes/XSS (cross site scripting).md",
     "03 References/(Heiderich, Niemietz, et al., 2012).md",
@@ -219,13 +226,7 @@
     "02 Literature/papers/dynamic taint analysis",
     "02 Literature/papers/prototype pollution/Follow My Flow. Unveiling Client-Side Prototype Pollution Gadgets from One Million Real-World Websites.md",
     "04 Canvases/mind maps/taint analysis in the web.canvas",
-    "04 Canvases/meetings/2025_05_21.canvas",
     "01 Notes/monkey patching.md",
-    "01 Notes/Linux distribution.md",
-    "00 Antilibrary/kernel.md",
-    "02 Literature/papers/XSS (Cross-Site Scripting)/WAVE. Black Box Detection of XSS, CSRF and Information Leakage Vulnerabilities.md",
-    "02 Literature/papers/XSS (Cross-Site Scripting)/On Security Issues in Web Applications through Cross Site Scripting (XSS).md",
-    "02 Literature/papers/XSS (Cross-Site Scripting)/Automated removal of cross site scripting vulnerabilities in web applications.md",
     "97 Assets/js_instrumentation2.png",
     "02 Literature/papers/JavaScript instrumentation",
     "97 Assets/js_instrumentation.png",

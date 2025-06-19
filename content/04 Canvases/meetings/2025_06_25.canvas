@@ -1,0 +1,119 @@
+{
+  "edges": [
+    {
+      "fromNode": "40b8568d6bb9cf7a",
+      "fromSide": "bottom",
+      "id": "36828999097e3171",
+      "styleAttributes": {
+      },
+      "toNode": "3e85c950cbe9ec4f",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "f6add5a7b0bc98cb",
+      "fromSide": "bottom",
+      "id": "ef6749cd4d5d45dc",
+      "styleAttributes": {
+      },
+      "toNode": "19c6db475cf28676",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 520,
+      "id": "6b6b237ea43d5bef",
+      "styleAttributes": {
+      },
+      "type": "link",
+      "url": "https://portswigger.net/burp/communitydownload",
+      "width": 400,
+      "x": -500,
+      "y": -200
+    },
+    {
+      "height": 140,
+      "id": "adac26bd2d8bdb7c",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "## Suite of professional tools to perform pen-testing or security assessment",
+      "type": "text",
+      "width": 480,
+      "x": -60,
+      "y": -200
+    },
+    {
+      "height": 180,
+      "id": "40b8568d6bb9cf7a",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "- In-depth analysis and classification of HTTP requests\n- Interception and manipulation of HTTP responses in real time\n- Popular tool in research\n- Premium features",
+      "type": "text",
+      "width": 660,
+      "x": -60,
+      "y": -60
+    },
+    {
+      "file": "97 Assets/burp_test_canva_pro.png",
+      "height": 180,
+      "id": "3e85c950cbe9ec4f",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 626,
+      "x": 60,
+      "y": 180
+    },
+    {
+      "height": 100,
+      "id": "b322824fe8a673c6",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "Change any occurrence of `canva_pro` to `none`: every premium item gets instantly free!",
+      "type": "text",
+      "width": 626,
+      "x": 60,
+      "y": 380
+    },
+    {
+      "height": 120,
+      "id": "85b4ac846c56870d",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "# Forget about instrumenting JavaScript and analyzing JavaScript execution...",
+      "type": "text",
+      "width": 860,
+      "x": -370,
+      "y": 580
+    },
+    {
+      "height": 80,
+      "id": "f6add5a7b0bc98cb",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "What if we only need to intercept and modify the right HTTP response?",
+      "type": "text",
+      "width": 710,
+      "x": -337,
+      "y": 740
+    },
+    {
+      "height": 100,
+      "id": "19c6db475cf28676",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "How to identify sensitive HTTP responses?",
+      "type": "text",
+      "width": 452,
+      "x": -208,
+      "y": 860
+    }
+  ]
+}

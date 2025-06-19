@@ -21,7 +21,7 @@ We make the dataset available online, so as to provide a ground truth for future
 
 Starting from our dataset, we investigate which features are useful to discriminate between sensitive and insensitive HTTP requests. We then use our dataset to train and test a range of machine-learned classifiers, showing that sensitive HTTP requests can be identified with high accuracy. 
 
-We experimentally show that our classifiers outperform existing detection heuristics proposed in the literature. These classifiers could be integrated in tools like Burp and ZAP to simplify the task of penetration testers
+We experimentally show that our classifiers outperform existing detection heuristics proposed in the literature. These classifiers could be integrated in tools like [[Burp Suite]] and ZAP to simplify the task of penetration testers
 
 We use our best-performing classifier as a building block for Mitch, the first machine learning solution for the black-box detection of CSRF vulnerabilities.
 - Mitch is a ==language-agnostic tool, based on a new CSRF detection heuristic, which operates without having access to the source code of the web application to test==. This makes it suited to analyze both open- and closed-source web applications, potentially developed using different programming languages

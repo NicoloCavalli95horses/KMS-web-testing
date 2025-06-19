@@ -26,7 +26,7 @@ The authors propose to use the MACJER-320 hashing algorithm to allow the server 
 
 ## Evaluation
 
-A number of vulnerability scanning tool were tested on a in-house web application that use the MACJER-320 algorithm to hash the request parameters. The implementation defends against parameter tampering performed with Burp Suite, Fire Bug, Web Scarab, Rat Proxy, Paros Proxy, Tamper Data
+A number of vulnerability scanning tool were tested on a in-house web application that use the MACJER-320 algorithm to hash the request parameters. The implementation defends against parameter tampering performed with [[Burp Suite]], Fire Bug, Web Scarab, Rat Proxy, Paros Proxy, Tamper Data
 
 ## Limits
 
