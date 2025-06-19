@@ -8,15 +8,6 @@
       },
       "toNode": "3e85c950cbe9ec4f",
       "toSide": "top"
-    },
-    {
-      "fromNode": "f6add5a7b0bc98cb",
-      "fromSide": "bottom",
-      "id": "ef6749cd4d5d45dc",
-      "styleAttributes": {
-      },
-      "toNode": "19c6db475cf28676",
-      "toSide": "top"
     }
   ],
   "nodes": [
@@ -82,7 +73,8 @@
       "height": 120,
       "id": "85b4ac846c56870d",
       "styleAttributes": {
-        "border": "invisible"
+        "border": "invisible",
+        "textAlign": "center"
       },
       "text": "# Forget about instrumenting JavaScript and analyzing JavaScript execution...",
       "type": "text",
@@ -95,25 +87,13 @@
       "id": "f6add5a7b0bc98cb",
       "styleAttributes": {
         "border": "invisible",
-        "textAlign": null
-      },
-      "text": "What if we only need to intercept and modify the right HTTP response?",
-      "type": "text",
-      "width": 710,
-      "x": -337,
-      "y": 740
-    },
-    {
-      "height": 100,
-      "id": "19c6db475cf28676",
-      "styleAttributes": {
         "textAlign": "center"
       },
-      "text": "How to identify sensitive HTTP responses?",
+      "text": "Maybe we just need to intercept and modify the right HTTP response",
       "type": "text",
-      "width": 452,
-      "x": -208,
-      "y": 860
+      "width": 860,
+      "x": -370,
+      "y": 720
     }
   ]
 }

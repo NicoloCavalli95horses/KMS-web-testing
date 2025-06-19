@@ -1,0 +1,12 @@
+---
+ID: 2025-06-19T13:09:35.911Z
+tags: ref
+
+---
+## External Link
+
+https://dl.acm.org/doi/10.1145/3589334.3645683
+
+## BibTeX
+
+@inproceedings{10.1145/3589334.3645683, author = {Nayak, Asmit and Khandelwal, Rishabh and Fernandes, Earlence and Fawaz, Kassem}, title = {Experimental Security Analysis of Sensitive Data Access by Browser Extensions}, year = {2024}, isbn = {9798400701719}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, url = {https://doi.org/10.1145/3589334.3645683}, doi = {10.1145/3589334.3645683}, abstract = {Browser extensions offer a variety of valuable features and functionalities. They also pose a significant security risk if not properly designed or reviewed. Prior works have shown that browser extensions can access and manipulate data fields, including sensitive data such as passwords, credit card numbers, and Social Security numbers. In this paper, we present an empirical study of the security risks posed by browser extensions. Specifically, we first build a proof-of-concept extension that can steal sensitive user information. We find that the extension passes the Chrome Webstore review process. We then perform a measurement study on the top 10K website login pages to check if the extension access to password fields via JS. We find that none of the password fields are actively protected, and can be accessed using JS. Moreover, we found that 1K websites store passwords in plaintext in their page source, including popular websites like Google.com and Cloudflare.com. We also analyzed over 160K Chrome Web Store extensions for malicious behavior, finding that 28K have permission to access sensitive fields and 190 store password fields in variables. To analyze the behavioral workflow of the potentially malicious extensions, we propose an LLM-driven framework, Extension Reviewer. Finally, we discuss two countermeasures to address these risks: a bolt-on JavaScript package for immediate adoption by website developers allowing them to protect sensitive input fields, and a browser-level solution that alerts users when an extension accesses sensitive input fields. Our research highlights the urgent need for improved security measures to protect sensitive user information online.}, booktitle = {Proceedings of the ACM Web Conference 2024}, pages = {1283–1294}, numpages = {12}, keywords = {browser extensions, browser vulnerabilities, chrome web store, data privacy, sensitive data access}, location = {Singapore, Singapore}, series = {WWW '24} }

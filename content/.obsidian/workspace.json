@@ -4,24 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "162e729b834930b8",
+        "id": "8ae5d4623d36cac4",
         "type": "tabs",
         "children": [
           {
-            "id": "adbb4a64023647ca",
+            "id": "3becd7419047d63d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/meetings/2025_06_25.canvas",
-                "viewState": {
-                  "x": 90.52476396743543,
-                  "y": 759.8108102556866,
-                  "zoom": -0.555555533479762
-                }
+                "file": "02 Literature/papers/browser security/Experimental Security Analysis of Sensitive Data Access by Browser Extensions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "2025_06_25"
+              "icon": "lucide-file",
+              "title": "Experimental Security Analysis of Sensitive Data Access by Browser Extensions"
             }
           }
         ]
@@ -81,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 205.50260543823242
+    "width": 217.50260543823242
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -187,11 +185,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "adbb4a64023647ca",
+  "active": "3becd7419047d63d",
   "lastOpenFiles": [
+    "96 Meta/References analysis.md",
+    "96 Meta/PhD status.md",
+    "96 Meta/SLR/Paper list.md",
+    "96 Meta/SLR/Tags analysis.md",
+    "02 Literature/papers/browser security/Experimental Security Analysis of Sensitive Data Access by Browser Extensions.md",
+    "02 Literature/papers/browser security/SandFOX. secure sandboxed and isolated environment for Firefox browser.md",
+    "02 Literature/papers/browser security/Sentinel. Securing legacy firefox extensions.md",
+    "03 References/(Nayak, Khandelwal, et al., 2024).md",
+    "02 Literature/papers/browser security",
+    "03 References/(Calzavara, Tolomei, et al., 2014).md",
+    "02 Literature/papers/cookies/Quite a mess in my cookie jar! leveraging machine learning to protect web authentication.md",
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/The Great Request Robbery. An Empirical Study of Client-side Request Hijacking Vulnerabilities on the Web.md",
+    "02 Literature/papers/CSRF (Cross Site Request Forgery)/Honey, I Cached our Security Tokens Re-usage of Security Tokens in the Wild.md",
+    "04 Canvases/meetings/2025_06_25.canvas",
     "97 Assets/burp_test_canva_pro.png",
     "04 Canvases/meetings/2025_06_18.canvas",
-    "04 Canvases/meetings/2025_06_25.canvas",
     "01 Notes/Burp Suite.md",
     "02 Literature/papers/testing enhancements/What All the PHUZZ Is About. A Coverage-guided Fuzzer for Finding Vulnerabilities in PHP Web Applications.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Mitch. A Machine Learning Approach to the Black-Box Detection of CSRF Vulnerabilities.md",
@@ -214,19 +225,8 @@
     "01 Notes/DTA (dynamic taint analysis).md",
     "02 Literature/papers/JavaScript instrumentation/VisibleV8. In-browser Monitoring of JavaScript in the Wild.md",
     "02 Literature/papers/dynamic taint analysis/Augur. Dynamic Taint Analysis for Asynchronous JavaScript.md",
-    "01 Notes/JSON Hijacking Prevention tokens.md",
-    "index.md",
-    "01 Notes/STA (static taint analysis).md",
-    "01 Notes/format string attack.md",
-    "96 Meta/SLR/Tags analysis.md",
-    "96 Meta/SLR/Paper list.md",
-    "96 Meta/PhD status.md",
-    "96 Meta/References analysis.md",
-    "03 References/(Aldrich, Turcotte, et al., 2023).md",
     "02 Literature/papers/dynamic taint analysis",
-    "02 Literature/papers/prototype pollution/Follow My Flow. Unveiling Client-Side Prototype Pollution Gadgets from One Million Real-World Websites.md",
     "04 Canvases/mind maps/taint analysis in the web.canvas",
-    "01 Notes/monkey patching.md",
     "97 Assets/js_instrumentation2.png",
     "02 Literature/papers/JavaScript instrumentation",
     "97 Assets/js_instrumentation.png",
@@ -242,8 +242,6 @@
     "97 Assets/subgraph_example.png",
     "02 Literature/papers/test",
     "97 Assets/front_end_component_not_obscured_reasons_reddit.png",
-    "97 Assets/obfuscate_vue_components.png",
-    "01 Notes/XSS (Cross Site Scripting)/mitigation",
-    "01 Notes/XSS (Cross Site Scripting)/types"
+    "01 Notes/XSS (Cross Site Scripting)/mitigation"
   ]
 }
