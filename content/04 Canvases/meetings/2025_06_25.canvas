@@ -19,21 +19,21 @@
       "toSide": "top"
     },
     {
-      "fromNode": "85b4ac846c56870d",
-      "fromSide": "right",
-      "id": "03bbd565dc4abe89",
-      "styleAttributes": {
-      },
-      "toNode": "548cbbc668148b8e",
-      "toSide": "left"
-    },
-    {
       "fromNode": "b322824fe8a673c6",
       "fromSide": "bottom",
       "id": "193b31255e862a1f",
       "styleAttributes": {
       },
       "toNode": "079920b11867fafa",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "1c9bad9b074480d3",
+      "fromSide": "bottom",
+      "id": "c5bea59d92d149a6",
+      "styleAttributes": {
+      },
+      "toNode": "548cbbc668148b8e",
       "toSide": "top"
     }
   ],
@@ -129,48 +129,59 @@
         "border": "invisible",
         "textAlign": null
       },
-      "text": "# Binary classifier of HTTP responses: include/not include sensitive data",
+      "text": "# Binary classifier of HTTP(s) responses: include/not include sensitive data",
       "type": "text",
-      "width": 480,
+      "width": 580,
       "x": -440,
       "y": 970
     },
     {
-      "height": 240,
-      "id": "548cbbc668148b8e",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "Similar works (ML-based identification of authentication cookies):\n- [[(Calzavara, Tolomei, et al., 2014)]],\n- [[(Calzavara, Tolomei, et al., 2015)]]",
-      "type": "text",
-      "width": 640,
-      "x": 100,
-      "y": 940
-    },
-    {
-      "height": 280,
+      "height": 253,
       "id": "4d9a318f9de24347",
       "styleAttributes": {
         "border": "invisible"
       },
-      "text": "1. Manually collect HTTP responses\n2. Manually label them as sensitive or not\n3. Process data and split it into training and testing sets\n4. Try different ML algorithms and compare performances\n5. Integrate the classifier in Burp",
+      "text": "1. Manually collect HTTP responses\n2. Manually label them as sensitive or not\n3. Process data and split it into training and testing sets\n4. Try different ML algorithms and compare performances\n5. Integrate the classifier in Burp or share the dataset elsewhere",
       "type": "text",
-      "width": 520,
-      "x": -460,
-      "y": 1150
+      "width": 600,
+      "x": -420,
+      "y": 1124
+    },
+    {
+      "height": 195,
+      "id": "548cbbc668148b8e",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "Similar works (ML-based identification of authentication cookies):\n- [[(Calzavara, Tolomei, et al., 2014)]],\n- [[(Calzavara, Tolomei, et al., 2015)]]\n\n",
+      "type": "text",
+      "width": 440,
+      "x": 240,
+      "y": 1225
+    },
+    {
+      "file": "97 Assets/process_golden_set_auth_cookies_calzavara.png",
+      "height": 209,
+      "id": "ea9df1c97493092f",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 400,
+      "x": 280,
+      "y": 1440
     },
     {
       "color": "2",
-      "height": 180,
+      "height": 240,
       "id": "1c9bad9b074480d3",
       "styleAttributes": {
       },
-      "text": "### Challenges\n- ",
+      "text": "### Challenges\n\n- how many websites we need to analyze manually?\n- how to normalize this kind of data?\n- how long will it take?",
       "type": "text",
-      "width": 340,
-      "x": -300,
-      "y": 1540
+      "width": 450,
+      "x": 235,
+      "y": 940
     }
   ]
 }

@@ -15,8 +15,8 @@
               "state": {
                 "file": "04 Canvases/meetings/2025_06_25.canvas",
                 "viewState": {
-                  "x": 93,
-                  "y": 1390.1534093666178,
+                  "x": 79.14776153129358,
+                  "y": 867.7069148326191,
                   "zoom": -0.49226301110466963
                 }
               },
@@ -39,7 +39,8 @@
               "title": "Quite a mess in my cookie jar! leveraging machine learning to protect web authentication"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,13 +203,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1e66fe09e81f435f",
+  "active": "3e4036ab33e5e188",
   "lastOpenFiles": [
+    "04 Canvases/meetings/2025_06_25.canvas",
+    "02 Literature/papers/cookies/Quite a mess in my cookie jar! leveraging machine learning to protect web authentication.md",
+    "97 Assets/process_golden_set_auth_cookies_calzavara.png",
     "03 References/(Calzavara, Tolomei, et al., 2014).md",
     "03 References/(Calzavara, Tolomei, et al., 2015).md",
     "02 Literature/papers/authentication/A Supervised Learning Approach to Protect Client Authentication on the Web.md",
-    "04 Canvases/meetings/2025_06_25.canvas",
-    "02 Literature/papers/cookies/Quite a mess in my cookie jar! leveraging machine learning to protect web authentication.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Honey, I Cached our Security Tokens Re-usage of Security Tokens in the Wild.md",
     "02 Literature/papers/browser security/Experimental Security Analysis of Sensitive Data Access by Browser Extensions.md",
     "04 Canvases/mind maps/input analysis.canvas",
@@ -241,7 +243,6 @@
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
-    "01 Notes/DTA (dynamic taint analysis).md",
     "02 Literature/papers/dynamic taint analysis",
     "04 Canvases/mind maps/taint analysis in the web.canvas",
     "97 Assets/js_instrumentation2.png",
@@ -258,7 +259,6 @@
     "97 Assets/pentesting_tools.png",
     "97 Assets/subgraph_example.png",
     "02 Literature/papers/test",
-    "97 Assets/front_end_component_not_obscured_reasons_reddit.png",
     "01 Notes/XSS (Cross Site Scripting)/mitigation"
   ]
 }
