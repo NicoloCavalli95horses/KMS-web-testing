@@ -8,6 +8,33 @@
       },
       "toNode": "3e85c950cbe9ec4f",
       "toSide": "top"
+    },
+    {
+      "fromNode": "b322824fe8a673c6",
+      "fromSide": "bottom",
+      "id": "873eb6658b5433b2",
+      "styleAttributes": {
+      },
+      "toNode": "491849cb325423d2",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "85b4ac846c56870d",
+      "fromSide": "right",
+      "id": "03bbd565dc4abe89",
+      "styleAttributes": {
+      },
+      "toNode": "548cbbc668148b8e",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b322824fe8a673c6",
+      "fromSide": "bottom",
+      "id": "193b31255e862a1f",
+      "styleAttributes": {
+      },
+      "toNode": "079920b11867fafa",
+      "toSide": "top"
     }
   ],
   "nodes": [
@@ -35,7 +62,7 @@
       "y": -200
     },
     {
-      "height": 180,
+      "height": 160,
       "id": "40b8568d6bb9cf7a",
       "styleAttributes": {
         "border": "invisible"
@@ -45,6 +72,18 @@
       "width": 660,
       "x": -60,
       "y": -60
+    },
+    {
+      "height": 100,
+      "id": "b322824fe8a673c6",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "Change any occurrence of `canva_pro` to `none`: ==every premium item gets instantly free!==",
+      "type": "text",
+      "width": 626,
+      "x": 60,
+      "y": 380
     },
     {
       "file": "97 Assets/burp_test_canva_pro.png",
@@ -58,42 +97,80 @@
       "y": 180
     },
     {
-      "height": 100,
-      "id": "b322824fe8a673c6",
+      "color": "4",
+      "height": 120,
+      "id": "079920b11867fafa",
       "styleAttributes": {
-        "border": "invisible"
+        "textAlign": null
       },
-      "text": "Change any occurrence of `canva_pro` to `none`: every premium item gets instantly free!",
+      "text": "Playing with HTTP responses only, easily allows to scale our solution",
       "type": "text",
-      "width": 626,
-      "x": 60,
-      "y": 380
+      "width": 360,
+      "x": 420,
+      "y": 600
     },
     {
-      "height": 120,
+      "color": "4",
+      "height": 100,
+      "id": "491849cb325423d2",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "No need to tamper with minified JavaScript",
+      "type": "text",
+      "width": 330,
+      "x": 40,
+      "y": 600
+    },
+    {
+      "height": 180,
       "id": "85b4ac846c56870d",
       "styleAttributes": {
         "border": "invisible",
-        "textAlign": "center"
+        "textAlign": null
       },
-      "text": "# Forget about instrumenting JavaScript and analyzing JavaScript execution...",
+      "text": "# Binary classifier of HTTP responses: include/not include sensitive data",
       "type": "text",
-      "width": 860,
-      "x": -370,
-      "y": 580
+      "width": 480,
+      "x": -440,
+      "y": 970
     },
     {
-      "height": 80,
-      "id": "f6add5a7b0bc98cb",
+      "height": 240,
+      "id": "548cbbc668148b8e",
       "styleAttributes": {
         "border": "invisible",
         "textAlign": "center"
       },
-      "text": "Maybe we just need to intercept and modify the right HTTP response",
+      "text": "Similar works (ML-based identification of authentication cookies):\n- [[(Calzavara, Tolomei, et al., 2014)]],\n- [[(Calzavara, Tolomei, et al., 2015)]]",
       "type": "text",
-      "width": 860,
-      "x": -370,
-      "y": 720
+      "width": 640,
+      "x": 100,
+      "y": 940
+    },
+    {
+      "height": 280,
+      "id": "4d9a318f9de24347",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "1. Manually collect HTTP responses\n2. Manually label them as sensitive or not\n3. Process data and split it into training and testing sets\n4. Try different ML algorithms and compare performances\n5. Integrate the classifier in Burp",
+      "type": "text",
+      "width": 520,
+      "x": -460,
+      "y": 1150
+    },
+    {
+      "color": "2",
+      "height": 180,
+      "id": "1c9bad9b074480d3",
+      "styleAttributes": {
+      },
+      "text": "### Challenges\n- ",
+      "type": "text",
+      "width": 340,
+      "x": -300,
+      "y": 1540
     }
   ]
 }
