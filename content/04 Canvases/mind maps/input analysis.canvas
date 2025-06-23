@@ -305,6 +305,42 @@
       },
       "toNode": "f999b553ee494e19",
       "toSide": "left"
+    },
+    {
+      "fromNode": "06650cf8da2c8dbb",
+      "fromSide": "right",
+      "id": "4c6adc4eafb3acbe",
+      "styleAttributes": {
+      },
+      "toNode": "9fcdabfaf81a9d36",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "ee9d3c680eafb5a6",
+      "fromSide": "right",
+      "id": "37e9513285ad5e4a",
+      "styleAttributes": {
+      },
+      "toNode": "9fcdabfaf81a9d36",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "fc3fbf1f048f32f6",
+      "fromSide": "right",
+      "id": "b8867dca60db7411",
+      "styleAttributes": {
+      },
+      "toNode": "9fcdabfaf81a9d36",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9fcdabfaf81a9d36",
+      "fromSide": "right",
+      "id": "150d43d1d98e151d",
+      "styleAttributes": {
+      },
+      "toNode": "103e97343c0f4db2",
+      "toSide": "left"
     }
   ],
   "nodes": [
@@ -346,75 +382,63 @@
     },
     {
       "height": 60,
-      "id": "61b512d1ca8b3ed7",
+      "id": "3e8217854d1590ae",
       "styleAttributes": {
         "textAlign": "center"
       },
-      "text": "API Rest/GraphQL/SOAP",
+      "text": "file upload",
       "type": "text",
-      "width": 280,
-      "x": -1320,
-      "y": 9
-    },
-    {
-      "height": 75,
-      "id": "c55a7cef3cfbe5c6",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Web Sockets",
-      "type": "text",
-      "width": 280,
-      "x": -1320,
-      "y": 99
+      "width": 260,
+      "x": -1900,
+      "y": -1928
     },
     {
       "height": 60,
-      "id": "7101099b0010b5e9",
+      "id": "45713b1651ad3a13",
       "styleAttributes": {
         "textAlign": "center"
       },
-      "text": "## software interface",
+      "text": "text input",
       "type": "text",
-      "width": 340,
-      "x": -790,
-      "y": 69
+      "width": 260,
+      "x": -1900,
+      "y": -1841
     },
     {
-      "height": 75,
-      "id": "bfa252790dfbae0c",
+      "height": 100,
+      "id": "41812e4bcee336ca",
       "styleAttributes": {
         "textAlign": "center"
       },
-      "text": "push notification",
+      "text": "### content input",
       "type": "text",
-      "width": 280,
-      "x": -1320,
-      "y": 360
+      "width": 300,
+      "x": -1540,
+      "y": -1797
     },
     {
-      "height": 75,
-      "id": "2d1e51b142ce2851",
+      "height": 60,
+      "id": "07f4d9baa77c7408",
       "styleAttributes": {
         "textAlign": "center"
       },
-      "text": "webhooks",
+      "text": "image input",
       "type": "text",
-      "width": 280,
-      "x": -1320,
-      "y": 465
+      "width": 260,
+      "x": -1900,
+      "y": -1757
     },
     {
-      "height": 75,
-      "id": "03440741df214914",
+      "height": 60,
+      "id": "6c8640f20d1897ec",
       "styleAttributes": {
         "textAlign": "center"
       },
-      "text": "iframe",
+      "text": "audio/video input",
       "type": "text",
-      "width": 280,
-      "x": -1320,
-      "y": 585
+      "width": 260,
+      "x": -1900,
+      "y": -1667
     },
     {
       "height": 131,
@@ -425,20 +449,8 @@
       "text": "third-party content ([[CDN (Content Delivery Network)]])",
       "type": "text",
       "width": 280,
-      "x": -1320,
-      "y": 684
-    },
-    {
-      "height": 100,
-      "id": "a4df6e7d0c634ab5",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "## embedded content",
-      "type": "text",
-      "width": 340,
-      "x": -790,
-      "y": 523
+      "x": -1540,
+      "y": 356
     },
     {
       "height": 60,
@@ -449,8 +461,8 @@
       "text": "HTTP header",
       "type": "text",
       "width": 280,
-      "x": -1320,
-      "y": 1040
+      "x": -1540,
+      "y": 712
     },
     {
       "height": 60,
@@ -461,8 +473,176 @@
       "text": "[[cookie]]",
       "type": "text",
       "width": 280,
-      "x": -1320,
-      "y": 1140
+      "x": -1540,
+      "y": 812
+    },
+    {
+      "height": 75,
+      "id": "bfa252790dfbae0c",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "push notification",
+      "type": "text",
+      "width": 280,
+      "x": -1540,
+      "y": 32
+    },
+    {
+      "height": 75,
+      "id": "2d1e51b142ce2851",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "webhooks",
+      "type": "text",
+      "width": 280,
+      "x": -1540,
+      "y": 137
+    },
+    {
+      "height": 100,
+      "id": "a4df6e7d0c634ab5",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "## embedded content",
+      "type": "text",
+      "width": 340,
+      "x": -1010,
+      "y": 195
+    },
+    {
+      "height": 75,
+      "id": "03440741df214914",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "iframe",
+      "type": "text",
+      "width": 280,
+      "x": -1540,
+      "y": 257
+    },
+    {
+      "height": 60,
+      "id": "b433ae9b7f54f67c",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "mouse",
+      "type": "text",
+      "width": 260,
+      "x": -2240,
+      "y": -1434
+    },
+    {
+      "height": 60,
+      "id": "eee8a191debffbf3",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "touch interface",
+      "type": "text",
+      "width": 260,
+      "x": -2240,
+      "y": -1353
+    },
+    {
+      "height": 60,
+      "id": "c031797d2f8b1aff",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "voice interface",
+      "type": "text",
+      "width": 260,
+      "x": -2240,
+      "y": -1273
+    },
+    {
+      "height": 60,
+      "id": "27f8ce3305122edf",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "drag and drop",
+      "type": "text",
+      "width": 260,
+      "x": -2240,
+      "y": -1088
+    },
+    {
+      "height": 60,
+      "id": "8bb81a618a570ac0",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "zoom in/zoom out",
+      "type": "text",
+      "width": 260,
+      "x": -2240,
+      "y": -1012
+    },
+    {
+      "height": 60,
+      "id": "ee1660fe3cf3f004",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "copy and paste",
+      "type": "text",
+      "width": 260,
+      "x": -2240,
+      "y": -927
+    },
+    {
+      "height": 60,
+      "id": "b2c7885bdf9e4897",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "direct interaction",
+      "type": "text",
+      "width": 260,
+      "x": -1900,
+      "y": -1353
+    },
+    {
+      "height": 110,
+      "id": "2fbf67562ddf823b",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "advanced interaction (multimodal or multiphase)",
+      "type": "text",
+      "width": 260,
+      "x": -1900,
+      "y": -1037
+    },
+    {
+      "height": 100,
+      "id": "20aca1848ba5d504",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "### interacting with the system",
+      "type": "text",
+      "width": 300,
+      "x": -1540,
+      "y": -1188
+    },
+    {
+      "height": 60,
+      "id": "d0eeefe36b6597ab",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "## User input",
+      "type": "text",
+      "width": 340,
+      "x": -1000,
+      "y": -1464
     },
     {
       "height": 60,
@@ -473,8 +653,8 @@
       "text": "[[JWT (JSON Web Token)]]",
       "type": "text",
       "width": 280,
-      "x": -1320,
-      "y": 1250
+      "x": -1540,
+      "y": 922
     },
     {
       "height": 120,
@@ -485,8 +665,8 @@
       "text": "[[Web Storage API (localStorage, sessionStorage)]]",
       "type": "text",
       "width": 280,
-      "x": -1320,
-      "y": 1340
+      "x": -1540,
+      "y": 1012
     },
     {
       "height": 60,
@@ -497,8 +677,44 @@
       "text": "[[IndexedDB]]",
       "type": "text",
       "width": 280,
-      "x": -1320,
-      "y": 1500
+      "x": -1540,
+      "y": 1172
+    },
+    {
+      "height": 75,
+      "id": "06650cf8da2c8dbb",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "DOM interaction",
+      "type": "text",
+      "width": 280,
+      "x": -1540,
+      "y": 1450
+    },
+    {
+      "height": 75,
+      "id": "ee9d3c680eafb5a6",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "JS manipulation",
+      "type": "text",
+      "width": 280,
+      "x": -1540,
+      "y": 1555
+    },
+    {
+      "height": 75,
+      "id": "fc3fbf1f048f32f6",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "local storage manipulation",
+      "type": "text",
+      "width": 280,
+      "x": -1540,
+      "y": 1675
     },
     {
       "height": 60,
@@ -510,8 +726,8 @@
       "text": "send by the client as input data",
       "type": "text",
       "width": 360,
-      "x": -790,
-      "y": 1350
+      "x": -1010,
+      "y": 1022
     },
     {
       "height": 100,
@@ -522,8 +738,56 @@
       "text": "## metadata",
       "type": "text",
       "width": 340,
-      "x": -780,
-      "y": 1250
+      "x": -1000,
+      "y": 922
+    },
+    {
+      "height": 100,
+      "id": "9fcdabfaf81a9d36",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "## browser extension",
+      "type": "text",
+      "width": 340,
+      "x": -1000,
+      "y": 1555
+    },
+    {
+      "height": 60,
+      "id": "61b512d1ca8b3ed7",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "API Rest/GraphQL/SOAP",
+      "type": "text",
+      "width": 280,
+      "x": -1540,
+      "y": -319
+    },
+    {
+      "height": 60,
+      "id": "7101099b0010b5e9",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "## software interface",
+      "type": "text",
+      "width": 340,
+      "x": -1010,
+      "y": -259
+    },
+    {
+      "height": 75,
+      "id": "c55a7cef3cfbe5c6",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "Web Sockets",
+      "type": "text",
+      "width": 280,
+      "x": -1540,
+      "y": -229
     },
     {
       "height": 95,
@@ -534,8 +798,8 @@
       "text": "query strings\n(`?search=cat`)",
       "type": "text",
       "width": 280,
-      "x": -1330,
-      "y": -408
+      "x": -1550,
+      "y": -736
     },
     {
       "height": 81,
@@ -546,8 +810,8 @@
       "text": "URL parameter (`/username/profile`)",
       "type": "text",
       "width": 280,
-      "x": -1330,
-      "y": -289
+      "x": -1550,
+      "y": -617
     },
     {
       "height": 60,
@@ -558,188 +822,8 @@
       "text": "## URL manipulation",
       "type": "text",
       "width": 340,
-      "x": -780,
-      "y": -349
-    },
-    {
-      "height": 60,
-      "id": "3e8217854d1590ae",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "file upload",
-      "type": "text",
-      "width": 260,
-      "x": -1680,
-      "y": -1600
-    },
-    {
-      "height": 60,
-      "id": "45713b1651ad3a13",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "text input",
-      "type": "text",
-      "width": 260,
-      "x": -1680,
-      "y": -1513
-    },
-    {
-      "height": 100,
-      "id": "41812e4bcee336ca",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "### content input",
-      "type": "text",
-      "width": 300,
-      "x": -1320,
-      "y": -1469
-    },
-    {
-      "height": 60,
-      "id": "07f4d9baa77c7408",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "image input",
-      "type": "text",
-      "width": 260,
-      "x": -1680,
-      "y": -1429
-    },
-    {
-      "height": 60,
-      "id": "6c8640f20d1897ec",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "audio/video input",
-      "type": "text",
-      "width": 260,
-      "x": -1680,
-      "y": -1339
-    },
-    {
-      "height": 60,
-      "id": "b433ae9b7f54f67c",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "mouse",
-      "type": "text",
-      "width": 260,
-      "x": -2020,
-      "y": -1106
-    },
-    {
-      "height": 60,
-      "id": "eee8a191debffbf3",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "touch interface",
-      "type": "text",
-      "width": 260,
-      "x": -2020,
-      "y": -1025
-    },
-    {
-      "height": 60,
-      "id": "c031797d2f8b1aff",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "voice interface",
-      "type": "text",
-      "width": 260,
-      "x": -2020,
-      "y": -945
-    },
-    {
-      "height": 60,
-      "id": "27f8ce3305122edf",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "drag and drop",
-      "type": "text",
-      "width": 260,
-      "x": -2020,
-      "y": -760
-    },
-    {
-      "height": 60,
-      "id": "8bb81a618a570ac0",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "zoom in/zoom out",
-      "type": "text",
-      "width": 260,
-      "x": -2020,
-      "y": -684
-    },
-    {
-      "height": 60,
-      "id": "ee1660fe3cf3f004",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "copy and paste",
-      "type": "text",
-      "width": 260,
-      "x": -2020,
-      "y": -599
-    },
-    {
-      "height": 60,
-      "id": "b2c7885bdf9e4897",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "direct interaction",
-      "type": "text",
-      "width": 260,
-      "x": -1680,
-      "y": -1025
-    },
-    {
-      "height": 100,
-      "id": "20aca1848ba5d504",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "### interacting with the system",
-      "type": "text",
-      "width": 300,
-      "x": -1320,
-      "y": -860
-    },
-    {
-      "height": 110,
-      "id": "2fbf67562ddf823b",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "advanced interaction (multimodal or multiphase)",
-      "type": "text",
-      "width": 260,
-      "x": -1680,
-      "y": -709
-    },
-    {
-      "height": 60,
-      "id": "d0eeefe36b6597ab",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "## User input",
-      "type": "text",
-      "width": 340,
-      "x": -780,
-      "y": -1136
+      "x": -1000,
+      "y": -677
     }
   ]
 }
