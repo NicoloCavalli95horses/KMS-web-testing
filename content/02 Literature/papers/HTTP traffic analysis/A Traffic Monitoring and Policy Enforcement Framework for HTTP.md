@@ -42,7 +42,7 @@ Identify malicious requests that contains well-known patterns
 
 ## Results
 
-The tool was tested using ZAP (Zed Application Proxy) and sqlmap to launch attacks to a test server. The test server was able to detect directory traversal, cross site scripting and SQL injection using this framework
+The tool was tested using [ZAP](https://www.zaproxy.org/) and sqlmap to launch attacks to a test server. The test server was able to detect directory traversal, cross site scripting and SQL injection using this framework
 
 ---
 #### References

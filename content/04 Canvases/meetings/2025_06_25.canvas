@@ -97,7 +97,6 @@
       "y": 180
     },
     {
-      "color": "4",
       "height": 120,
       "id": "079920b11867fafa",
       "styleAttributes": {
@@ -110,7 +109,6 @@
       "y": 600
     },
     {
-      "color": "4",
       "height": 100,
       "id": "491849cb325423d2",
       "styleAttributes": {
@@ -133,7 +131,7 @@
       "type": "text",
       "width": 580,
       "x": -440,
-      "y": 970
+      "y": 1240
     },
     {
       "height": 253,
@@ -145,7 +143,7 @@
       "type": "text",
       "width": 600,
       "x": -420,
-      "y": 1124
+      "y": 1394
     },
     {
       "height": 195,
@@ -158,7 +156,7 @@
       "type": "text",
       "width": 440,
       "x": 240,
-      "y": 1225
+      "y": 1495
     },
     {
       "file": "97 Assets/process_golden_set_auth_cookies_calzavara.png",
@@ -169,19 +167,19 @@
       "type": "file",
       "width": 400,
       "x": 280,
-      "y": 1440
+      "y": 1710
     },
     {
       "color": "2",
-      "height": 240,
+      "height": 300,
       "id": "1c9bad9b074480d3",
       "styleAttributes": {
       },
-      "text": "### Challenges\n\n- how many websites we need to analyze manually?\n- how to normalize this kind of data?\n- how long will it take?",
+      "text": "### Challenges\n\n- how many websites we need to analyze manually?\n- how to normalize this kind of data?\n- how long will it take?\n- how to actually define that a response is sensitive, what do we mean by sensitive?",
       "type": "text",
-      "width": 450,
-      "x": 235,
-      "y": 940
+      "width": 565,
+      "x": 240,
+      "y": 1120
     }
   ]
 }

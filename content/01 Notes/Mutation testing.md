@@ -20,5 +20,7 @@ Mutation operations are the core of the mutation phase:
 Manually generating mutants in a real application is often infeasible, and possibly biased.
 
 [[Pitest]] is an automated tool that provide operators for generating a large number of mutants
+
+---
 ## References
-[[(Leotta, Paparella, Ricca, 2024)]]
+- [[(Leotta, Paparella, Ricca, 2024)]]

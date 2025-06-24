@@ -74,7 +74,7 @@ Phuzz was compared with a set of state-of-the-art vulnerability scanners or fuzz
 - WackoPicko, that had 7 suitable vulnerabilities, after being modified for PHP8 compatibility
 - 22 real-world WordPress plugins with known vulnerabilities. Except for some commercial plugins, a plugin’s source code is open, allowing us to download and install it in our environment.
 
-Phuzz ==identifies 99% of the vulnerabilities== and thus outperforms the state-of-the-art black-box vulnerability scanners [[Burp Suite]], ZAP, Wapiti, and WFuzz
+Phuzz ==identifies 99% of the vulnerabilities== and thus outperforms the state-of-the-art black-box vulnerability scanners [[Burp Suite]], [ZAP](https://www.zaproxy.org/), Wapiti, and WFuzz
 
 For client-side vulnerabilities, Phuzz finds up to 26% more vulnerabilities than the other fuzzers, although BurpSuite finds almost the same amount (95%).
 
