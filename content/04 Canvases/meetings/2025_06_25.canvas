@@ -130,8 +130,8 @@
       "text": "# Binary classifier of HTTP(s) responses: include/not include sensitive data",
       "type": "text",
       "width": 580,
-      "x": -440,
-      "y": 1240
+      "x": -520,
+      "y": 1560
     },
     {
       "height": 253,
@@ -142,8 +142,8 @@
       "text": "1. Manually collect HTTP responses\n2. Manually label them as sensitive or not\n3. Process data and split it into training and testing sets\n4. Try different ML algorithms and compare performances\n5. Integrate the classifier in Burp or share the dataset elsewhere",
       "type": "text",
       "width": 600,
-      "x": -420,
-      "y": 1394
+      "x": -500,
+      "y": 1714
     },
     {
       "height": 195,
@@ -155,19 +155,8 @@
       "text": "Similar works (ML-based identification of authentication cookies):\n- [[(Calzavara, Tolomei, et al., 2014)]],\n- [[(Calzavara, Tolomei, et al., 2015)]]\n\n",
       "type": "text",
       "width": 440,
-      "x": 240,
-      "y": 1495
-    },
-    {
-      "file": "97 Assets/process_golden_set_auth_cookies_calzavara.png",
-      "height": 209,
-      "id": "ea9df1c97493092f",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 400,
-      "x": 280,
-      "y": 1710
+      "x": 160,
+      "y": 1815
     },
     {
       "color": "2",
@@ -178,8 +167,19 @@
       "text": "### Challenges\n\n- how many websites we need to analyze manually?\n- how to normalize this kind of data?\n- how long will it take?\n- how to actually define that a response is sensitive, what do we mean by sensitive?",
       "type": "text",
       "width": 565,
-      "x": 240,
-      "y": 1120
+      "x": 160,
+      "y": 1440
+    },
+    {
+      "file": "97 Assets/process_golden_set_auth_cookies_calzavara.png",
+      "height": 355,
+      "id": "ea9df1c97493092f",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 680,
+      "x": 200,
+      "y": 2030
     }
   ]
 }
