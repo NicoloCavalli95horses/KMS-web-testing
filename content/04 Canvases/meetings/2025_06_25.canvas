@@ -1,15 +1,6 @@
 {
   "edges": [
     {
-      "fromNode": "40b8568d6bb9cf7a",
-      "fromSide": "bottom",
-      "id": "36828999097e3171",
-      "styleAttributes": {
-      },
-      "toNode": "3e85c950cbe9ec4f",
-      "toSide": "top"
-    },
-    {
       "fromNode": "b322824fe8a673c6",
       "fromSide": "bottom",
       "id": "873eb6658b5433b2",
@@ -35,91 +26,38 @@
       },
       "toNode": "548cbbc668148b8e",
       "toSide": "top"
+    },
+    {
+      "fromNode": "10b3fd23b095655c",
+      "fromSide": "bottom",
+      "id": "f902aa9c8003d213",
+      "label": "HTTP response",
+      "styleAttributes": {
+      },
+      "toNode": "84d6b319e080bb58",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "84d6b319e080bb58",
+      "fromSide": "top",
+      "id": "340e60d49e525778",
+      "label": "HTTP request",
+      "styleAttributes": {
+      },
+      "toNode": "10b3fd23b095655c",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "7693d7ec3d75407f",
+      "fromSide": "left",
+      "id": "e0967916347d62ce",
+      "styleAttributes": {
+      },
+      "toNode": "26afbf470277b3bf",
+      "toSide": "right"
     }
   ],
   "nodes": [
-    {
-      "height": 520,
-      "id": "6b6b237ea43d5bef",
-      "styleAttributes": {
-      },
-      "type": "link",
-      "url": "https://portswigger.net/burp/communitydownload",
-      "width": 400,
-      "x": -500,
-      "y": -200
-    },
-    {
-      "height": 140,
-      "id": "adac26bd2d8bdb7c",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "## Suite of professional tools to perform pen-testing or security assessment",
-      "type": "text",
-      "width": 480,
-      "x": -60,
-      "y": -200
-    },
-    {
-      "height": 160,
-      "id": "40b8568d6bb9cf7a",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "- In-depth analysis and classification of HTTP requests\n- Interception and manipulation of HTTP responses in real time\n- Popular tool in research\n- Premium features",
-      "type": "text",
-      "width": 660,
-      "x": -60,
-      "y": -60
-    },
-    {
-      "height": 100,
-      "id": "b322824fe8a673c6",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "Change any occurrence of `canva_pro` to `none`: ==every premium item gets instantly free!==",
-      "type": "text",
-      "width": 626,
-      "x": 60,
-      "y": 380
-    },
-    {
-      "file": "97 Assets/burp_test_canva_pro.png",
-      "height": 180,
-      "id": "3e85c950cbe9ec4f",
-      "styleAttributes": {
-      },
-      "type": "file",
-      "width": 626,
-      "x": 60,
-      "y": 180
-    },
-    {
-      "height": 120,
-      "id": "079920b11867fafa",
-      "styleAttributes": {
-        "textAlign": null
-      },
-      "text": "Playing with HTTP responses only, easily allows to scale our solution",
-      "type": "text",
-      "width": 360,
-      "x": 420,
-      "y": 600
-    },
-    {
-      "height": 100,
-      "id": "491849cb325423d2",
-      "styleAttributes": {
-        "textAlign": null
-      },
-      "text": "No need to tamper with minified JavaScript",
-      "type": "text",
-      "width": 330,
-      "x": 40,
-      "y": 600
-    },
     {
       "height": 180,
       "id": "85b4ac846c56870d",
@@ -130,8 +68,8 @@
       "text": "# Binary classifier of HTTP(s) responses: include/not include sensitive data",
       "type": "text",
       "width": 580,
-      "x": -520,
-      "y": 1560
+      "x": -500,
+      "y": 2120
     },
     {
       "height": 253,
@@ -142,8 +80,8 @@
       "text": "1. Manually collect HTTP responses\n2. Manually label them as sensitive or not\n3. Process data and split it into training and testing sets\n4. Try different ML algorithms and compare performances\n5. Integrate the classifier in Burp or share the dataset elsewhere",
       "type": "text",
       "width": 600,
-      "x": -500,
-      "y": 1714
+      "x": -480,
+      "y": 2274
     },
     {
       "height": 195,
@@ -155,8 +93,8 @@
       "text": "Similar works (ML-based identification of authentication cookies):\n- [[(Calzavara, Tolomei, et al., 2014)]],\n- [[(Calzavara, Tolomei, et al., 2015)]]\n\n",
       "type": "text",
       "width": 440,
-      "x": 160,
-      "y": 1815
+      "x": 180,
+      "y": 2375
     },
     {
       "color": "2",
@@ -167,8 +105,8 @@
       "text": "### Challenges\n\n- how many websites we need to analyze manually?\n- how to normalize this kind of data?\n- how long will it take?\n- how to actually define that a response is sensitive, what do we mean by sensitive?",
       "type": "text",
       "width": 565,
-      "x": 160,
-      "y": 1440
+      "x": 180,
+      "y": 2000
     },
     {
       "file": "97 Assets/process_golden_set_auth_cookies_calzavara.png",
@@ -178,8 +116,142 @@
       },
       "type": "file",
       "width": 680,
-      "x": 200,
-      "y": 2030
+      "x": 220,
+      "y": 2590
+    },
+    {
+      "height": 520,
+      "id": "6b6b237ea43d5bef",
+      "styleAttributes": {
+      },
+      "type": "link",
+      "url": "https://portswigger.net/burp/communitydownload",
+      "width": 400,
+      "x": -510,
+      "y": 80
+    },
+    {
+      "height": 140,
+      "id": "adac26bd2d8bdb7c",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "## Suite of professional tools to perform pen-testing or security assessment",
+      "type": "text",
+      "width": 480,
+      "x": -70,
+      "y": 80
+    },
+    {
+      "height": 160,
+      "id": "40b8568d6bb9cf7a",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "- In-depth analysis and classification of HTTP requests\n- Interception and manipulation of HTTP responses in real time\n- Popular tool in research\n- Premium features",
+      "type": "text",
+      "width": 660,
+      "x": -70,
+      "y": 220
+    },
+    {
+      "file": "97 Assets/burp_test_canva_pro.png",
+      "height": 180,
+      "id": "3e85c950cbe9ec4f",
+      "styleAttributes": {
+      },
+      "type": "file",
+      "width": 626,
+      "x": -235,
+      "y": 760
+    },
+    {
+      "height": 100,
+      "id": "b322824fe8a673c6",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "Change any occurrence of `canva_pro` to `none`: ==every premium item gets instantly free!==",
+      "type": "text",
+      "width": 626,
+      "x": -215,
+      "y": 960
+    },
+    {
+      "height": 100,
+      "id": "491849cb325423d2",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "No need to tamper with minified JavaScript",
+      "type": "text",
+      "width": 330,
+      "x": -235,
+      "y": 1180
+    },
+    {
+      "height": 120,
+      "id": "079920b11867fafa",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "Playing with HTTP responses only, easily allows to scale our solution",
+      "type": "text",
+      "width": 360,
+      "x": 145,
+      "y": 1180
+    },
+    {
+      "height": 60,
+      "id": "26afbf470277b3bf",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "{\"id\": 1, \"premium\": false}",
+      "type": "text",
+      "width": 260,
+      "x": 590,
+      "y": 760
+    },
+    {
+      "height": 60,
+      "id": "7693d7ec3d75407f",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "{\"id\": 1, \"premium\": true}",
+      "type": "text",
+      "width": 260,
+      "x": 970,
+      "y": 760
+    },
+    {
+      "height": 80,
+      "id": "84d6b319e080bb58",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "## Web client",
+      "type": "text",
+      "width": 210,
+      "x": 590,
+      "y": 500
+    },
+    {
+      "height": 80,
+      "id": "10b3fd23b095655c",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "## Web server",
+      "type": "text",
+      "width": 200,
+      "x": 1060,
+      "y": 500
     }
   ]
 }
