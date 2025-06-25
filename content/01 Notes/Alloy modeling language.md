@@ -68,9 +68,8 @@ assert NoSelfAncestor {
   all p: Person | p not in ^parents[p]
 }
 
-// Controlla se l'asserzione è violabile
+// Check 5 cases
 check NoSelfAncestor for 5
-
 ```
 
 ---
