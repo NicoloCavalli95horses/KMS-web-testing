@@ -11,17 +11,15 @@
             "id": "fdb45e38850d6068",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/meetings/2025_06_25.canvas",
-                "viewState": {
-                  "x": 149.43186598603916,
-                  "y": 2357.7034845639228,
-                  "zoom": -0.13683673285494657
-                }
+                "file": "03 References/(Calzavara, Tolomei, et al., 2015).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "2025_06_25"
+              "icon": "lucide-file",
+              "title": "(Calzavara, Tolomei, et al., 2015)"
             }
           }
         ]
@@ -189,13 +187,13 @@
   },
   "active": "fdb45e38850d6068",
   "lastOpenFiles": [
+    "04 Canvases/meetings/2025_06_25.canvas",
     "01 Notes/Alloy modeling language.md",
     "02 Literature/papers/web vulnerabilities reviews/Towards a formal foundation of web security.md",
     "01 Notes/HTTP eavesdropping.md",
     "03 References/(Akhawe, Barth, et al., 2010).md",
     "02 Literature/papers/UI and UX issues/Classifying and qualifying GUI defects.md",
     "01 Notes/DOM clobbering.md",
-    "04 Canvases/meetings/2025_06_25.canvas",
     "02 Literature/papers/testing enhancements/What All the PHUZZ Is About. A Coverage-guided Fuzzer for Finding Vulnerabilities in PHP Web Applications.md",
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/Mitch. A Machine Learning Approach to the Black-Box Detection of CSRF Vulnerabilities.md",
     "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
@@ -220,7 +218,6 @@
     "04 Canvases/meetings/2025_06_18.canvas",
     "01 Notes/Burp Suite.md",
     "02 Literature/books/The Basic of Web Hacking/chapters/5. Web Application Exploitation  with Broken Authentication and Path Traversal.md",
-    "02 Literature/papers/parameter tampering/A Novel Approach for Message Authentication to Prevent Parameter Tampering Attack in Web Applications.md",
     "02 Literature/papers/scriptless attacks",
     "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/mind maps/cross-domain policies.canvas",
