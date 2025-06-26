@@ -25388,20 +25388,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 0,
+      "wordCount": 40,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
+      "pageCount": 0.13333333333333333,
+      "characterCount": 266,
+      "nonWhitespaceCharacterCount": 224,
+      "newlineCount": 4,
+      "readingTimeInMinutes": 0.1509433962264151,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1749542227690,
-      "modifiedDate": 1749542227690,
-      "sizeInBytes": 0,
+      "modifiedDate": 1750935967472,
+      "sizeInBytes": 344,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0,
@@ -25409,6 +25409,13 @@
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0,
         "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-06-26-13:05",
+        "tags": [
+          "#definition",
+          "programSpecifications"
+        ]
       }
     },
     "00 Antilibrary/Gecko engine.md": {
@@ -25939,6 +25946,45 @@
         "Project": [
           "SLR"
         ]
+      }
+    },
+    "06 Courses, webinars/Taming Large Language Models.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 87,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.29,
+      "characterCount": 590,
+      "nonWhitespaceCharacterCount": 483,
+      "newlineCount": 30,
+      "readingTimeInMinutes": 0.3283018867924528,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1750935660195,
+      "modifiedDate": 1750937545999,
+      "sizeInBytes": 692,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-03-05-11:00",
+        "tags": [
+          "webinar",
+          "LLM",
+          "AI"
+        ],
+        "speaker": [
+          "Gunter Mussbacher"
+        ],
+        "abstract": null
       }
     }
   }
