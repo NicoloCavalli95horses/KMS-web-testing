@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2b75051f1ec1210c",
+        "id": "3660f05725d3d40b",
         "type": "tabs",
         "children": [
           {
-            "id": "ce4709f1be1f34cb",
+            "id": "5332c6b052a24ad9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "04 Canvases/models/research model.canvas",
-                "viewState": {
-                  "x": 252.4025974342149,
-                  "y": -1284.51030678797,
-                  "zoom": -0.8977500172856174
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "research model"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -187,8 +180,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ce4709f1be1f34cb",
+  "active": "5332c6b052a24ad9",
   "lastOpenFiles": [
+    "02 Literature/papers/logic flow tampering/Hidden GEMS. Automated discovery of Access Control Vulnerabilities in Graphical User Interfaces.md",
+    "03 References/(Mulliner, Robertson, Kirda, 2014).md",
+    "04 Canvases/models/research model.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
@@ -208,7 +204,6 @@
     "02 Literature/papers/logic flow tampering/LogicScope. automatic discovery of logic vulnerabilities within web applications.md",
     "02 Literature/papers/logic flow tampering/Keeping out the masses. Understanding the popularity and implications of internet paywalls.md",
     "02 Literature/papers/logic flow tampering/IVD. Automatic Learning and Enforcement of Authorization Rules in Online Social Networks.md",
-    "02 Literature/papers/logic flow tampering/Hidden GEMS. Automated discovery of Access Control Vulnerabilities in Graphical User Interfaces.md",
     "02 Literature/papers/logic flow tampering/From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery.md",
     "02 Literature/papers/logic flow tampering/Finding client-side business flow tampering vulnerabilities.md",
     "02 Literature/papers/logic flow tampering/DetLogic. A black-box approach for detecting logic vulnerabilities in web applications.md",
@@ -226,9 +221,7 @@
     "97 Assets/process_golden_set_auth_cookies_calzavara.png",
     "02 Literature/papers/browser security",
     "97 Assets/burp_test_canva_pro.png",
-    "04 Canvases/meetings/2025_06_18.canvas",
     "02 Literature/papers/scriptless attacks",
-    "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
     "02 Literature/papers/dynamic taint analysis",
     "97 Assets/js_instrumentation2.png",
     "02 Literature/papers/JavaScript instrumentation",
