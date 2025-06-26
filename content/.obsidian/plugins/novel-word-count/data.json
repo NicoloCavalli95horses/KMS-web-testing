@@ -5636,7 +5636,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.13333333333333333,
-      "characterCount": 460,
+      "characterCount": 446,
       "nonWhitespaceCharacterCount": 388,
       "newlineCount": 15,
       "readingTimeInMinutes": 0.1509433962264151,
@@ -5644,8 +5644,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1749542227875,
-      "modifiedDate": 1749542227875,
-      "sizeInBytes": 525,
+      "modifiedDate": 1750930128054,
+      "sizeInBytes": 505,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.13333333333333333,
@@ -9253,16 +9253,16 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.7866666666666666,
-      "characterCount": 3424,
-      "nonWhitespaceCharacterCount": 2844,
+      "characterCount": 3426,
+      "nonWhitespaceCharacterCount": 2846,
       "newlineCount": 50,
       "readingTimeInMinutes": 2.0226415094339623,
       "linkCount": 7,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1750832534294,
-      "modifiedDate": 1750835111767,
-      "sizeInBytes": 3486,
+      "modifiedDate": 1750929526507,
+      "sizeInBytes": 3523,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.7866666666666666,
@@ -9274,7 +9274,9 @@
       "frontmatter": {
         "ID": "2025-06-25T06:22:14.282Z",
         "tags": [
-          "paper"
+          "paper",
+          "cyberSecurity",
+          "threatModels"
         ],
         "Rank": "A"
       }
@@ -12316,50 +12318,6 @@
           "codeAnalysis",
           "cyberSecurity",
           "clientSideAttacks",
-          "projectSLR"
-        ],
-        "Rank": "A*",
-        "Project": [
-          "SLR"
-        ]
-      }
-    },
-    "02 Literature/papers/logic flow tampering/BFT DETECTOR. Automatic detection of business flow tampering for digital content service.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 703,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 2.3433333333333333,
-      "characterCount": 4787,
-      "nonWhitespaceCharacterCount": 3943,
-      "newlineCount": 78,
-      "readingTimeInMinutes": 2.6528301886792454,
-      "linkCount": 6,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1749542227831,
-      "modifiedDate": 1749542227831,
-      "sizeInBytes": 5005,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 2.3433333333333333,
-        "wordCount": 703,
-        "characterCount": 4787,
-        "nonWhitespaceCharacterCount": 3943,
-        "newlineCount": 78
-      },
-      "frontmatter": {
-        "ID": "2025-03-04T10:59:55.363Z",
-        "tags": [
-          "paper",
-          "blackBox",
-          "clientSideAttacks",
-          "businessFlowTampering",
-          "JavaScript",
-          "codeAnalysis",
-          "cyberSecurity",
           "projectSLR"
         ],
         "Rank": "A*",
@@ -25937,6 +25895,50 @@
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0,
         "newlineCount": 0
+      }
+    },
+    "02 Literature/papers/logic flow tampering/BFTDETECTOR. Automatic detection of business flow tampering for digital content service.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 703,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 2.3433333333333333,
+      "characterCount": 4710,
+      "nonWhitespaceCharacterCount": 3943,
+      "newlineCount": 78,
+      "readingTimeInMinutes": 2.6528301886792454,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1749542227831,
+      "modifiedDate": 1750930127494,
+      "sizeInBytes": 4914,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-03-04T10:59:55.363Z",
+        "tags": [
+          "paper",
+          "blackBox",
+          "clientSideAttacks",
+          "businessFlowTampering",
+          "JavaScript",
+          "codeAnalysis",
+          "cyberSecurity",
+          "projectSLR"
+        ],
+        "Rank": "A*",
+        "Project": [
+          "SLR"
+        ]
       }
     }
   }
