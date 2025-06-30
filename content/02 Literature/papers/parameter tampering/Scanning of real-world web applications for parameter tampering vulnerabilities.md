@@ -3,6 +3,8 @@ ID: 2025-06-30T07:13:54.750Z
 tags:
   - paper
   - parameterTampering
+  - logicVulnerability
+  - logicFlaw
 Rank: A
 ---
 ## Context
@@ -26,16 +28,20 @@ Existing parameter tampering scanners do not consider the enforcement of, among 
 
 This paper presents Cross-Request Scanner (CRS), a novel approach that respects and leverages the intended workflow and parameter dependency controls while scanning for parameter tampering vulnerabilities
 - *capturing*: CRS records a set of valid user actions, identifies the one-time tokens, tracks the cross-request parameter dependencies, and learns key features
-- *fuzzing*: CRS replays the user actions to fetch new responses while keeping those confirmed intact, so as to preserve the intended workflow. Basically, some parameters are mutated while the critical ones are fixed, until the server accepts the mutated parameters and gives responses that are in line with the legitimate ones captured at the beginning. The critical ones are inferred based on the server responses (they broke the communication)
+- *fuzzing*: CRS replays the user actions to fetch new responses while keeping those confirmed intact, so as to preserve the intended workflow. Basically, some parameters are mutated while the critical ones are fixed, until the server accepts the mutated parameters and gives responses that are in line with the legitimate ones captured at the beginning. The critical ones are inferred based on the server responses (they broke the communication, e.g., [[CSRF (cross-site request forgery) token]])
 
 ## Evaluation
 
+We tested a total of seven applications, including five online banking transfer applications including HSBC, BEA, Citibank, BOC, and Hang Seng Bank (HSB), followed by two traveling websites including Jetstar airline and an online travel agent Webjet.
 
 ## Results
 
+- bypassed OTP requirement in HSBC
+- unauthorized transfer in bank of East Asia
 
 ## Limits
 
+- false negatives are possible
 
 ---
 #### References
