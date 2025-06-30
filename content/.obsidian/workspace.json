@@ -11,15 +11,17 @@
             "id": "d8c52e3a141ac8e0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "02 Literature/papers/parameter tampering/Automating the Detection of Access Control Vulnerabilities in Web Applications.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/meetings/2025_07_03.canvas",
+                "viewState": {
+                  "x": -24.497865694351745,
+                  "y": 2012.0869176441972,
+                  "zoom": -0.3441315496475635
+                }
               },
-              "icon": "lucide-file",
-              "title": "Automating the Detection of Access Control Vulnerabilities in Web Applications"
+              "icon": "lucide-layout-dashboard",
+              "title": "2025_07_03"
             }
           }
         ]
@@ -187,8 +189,9 @@
   },
   "active": "d8c52e3a141ac8e0",
   "lastOpenFiles": [
-    "03 References/(Rennhard, Kushnir, et al., 2022).md",
     "02 Literature/papers/parameter tampering/Automating the Detection of Access Control Vulnerabilities in Web Applications.md",
+    "04 Canvases/meetings/2025_07_03.canvas",
+    "03 References/(Rennhard, Kushnir, et al., 2022).md",
     "02 Literature/papers/cookies/Quite a mess in my cookie jar! leveraging machine learning to protect web authentication.md",
     "01 Notes/JSON Hijacking Prevention tokens.md",
     "02 Literature/papers/logic flow tampering/Hidden GEMS. Automated discovery of Access Control Vulnerabilities in Graphical User Interfaces.md",
@@ -221,8 +224,6 @@
     "02 Literature/papers/parameter tampering/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
     "03 References/(Bisht, Hinrichs, Skrupsky, et al., 2010).md",
     "02 Literature/papers/parameter tampering/TamperProof. a server-agnostic defense for parameter tampering attacks on web applications.md",
-    "03 References/(Skrupsky, Bisht, et al., 2013).md",
-    "04 Canvases/meetings/2025_06_25.canvas",
     "97 Assets/process_golden_set_auth_cookies_calzavara.png",
     "02 Literature/papers/browser security",
     "97 Assets/burp_test_canva_pro.png",

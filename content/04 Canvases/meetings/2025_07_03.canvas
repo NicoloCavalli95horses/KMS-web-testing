@@ -1,0 +1,74 @@
+{
+  "edges": [
+    {
+      "fromNode": "4f4f747ccc0fda82",
+      "fromSide": "right",
+      "id": "c2244f166e78a318",
+      "styleAttributes": {
+      },
+      "toNode": "0ac9ee6138a43aa4",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b92b5d4e56cb4485",
+      "fromSide": "right",
+      "id": "12684f9c5dc81920",
+      "styleAttributes": {
+      },
+      "toNode": "57fb4ec2ec7aae86",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 100,
+      "id": "4f4f747ccc0fda82",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "# Burp extension",
+      "type": "text",
+      "width": 400,
+      "x": -380,
+      "y": 1820
+    },
+    {
+      "height": 100,
+      "id": "b92b5d4e56cb4485",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "# Chrome extension",
+      "type": "text",
+      "width": 400,
+      "x": -380,
+      "y": 2040
+    },
+    {
+      "height": 160,
+      "id": "0ac9ee6138a43aa4",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "- Java preferred\n- Python/Ruby supported for legacy projects but not more maintained\n- no access to the DOM",
+      "type": "text",
+      "width": 420,
+      "x": 120,
+      "y": 1790
+    },
+    {
+      "height": 205,
+      "id": "57fb4ec2ec7aae86",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "- JavaScript based\n- access to the DOM\n- can run on a regular browser profile\n- difficult to publish on Chrome Web Store",
+      "type": "text",
+      "width": 420,
+      "x": 120,
+      "y": 1988
+    }
+  ]
+}
