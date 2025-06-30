@@ -9,7 +9,7 @@ Rank: A
 
 [[parameter tampering]] is a [[logic vulnerability]] that affects many web application, even the largest and most popular one. Exploiting [[IDOR (Insecure Direct Object Reference)]], an attacker can craft an HTTP communication to commit unauthorized banking transfers.
 
-Existing parameter tampering scanners do not consider the enforcements of, among others, the intended workflow, one-time use tokens, and parameter dependency across requests, which are all common in multi-request applications.
+Existing parameter tampering scanners do not consider the enforcement of, among others, the intended workflow, one-time use tokens, and parameter dependency across requests, which are all common in multi-request applications.
 
 **Contributions**
 - A field study on online banking applications to understand their workflow and implementations, and how they can be intercepted for vulnerability scanning
