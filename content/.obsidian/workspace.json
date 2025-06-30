@@ -4,24 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0dea6bf1e9dc0905",
+        "id": "2975176da665a97c",
         "type": "tabs",
         "children": [
           {
-            "id": "d8c52e3a141ac8e0",
+            "id": "ca591229f6ded713",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/meetings/2025_07_03.canvas",
-                "viewState": {
-                  "x": -24.497865694351745,
-                  "y": 2012.0869176441972,
-                  "zoom": -0.3441315496475635
-                }
+                "file": "02 Literature/papers/parameter tampering/Scanning of real-world web applications for parameter tampering vulnerabilities.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "2025_07_03"
+              "icon": "lucide-file",
+              "title": "Scanning of real-world web applications for parameter tampering vulnerabilities"
             }
           }
         ]
@@ -81,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5026054382324
+    "width": 200
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -187,10 +185,19 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d8c52e3a141ac8e0",
+  "active": "ca591229f6ded713",
   "lastOpenFiles": [
-    "02 Literature/papers/parameter tampering/Automating the Detection of Access Control Vulnerabilities in Web Applications.md",
+    "01 Notes/logic vulnerability.md",
+    "02 Literature/papers/parameter tampering/Scanning of real-world web applications for parameter tampering vulnerabilities.md",
+    "01 Notes/parameter tampering.md",
+    "02 Literature/papers/parameter tampering/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
+    "02 Literature/papers/logic flow tampering/BLOCK. a black-box approach for detection of state violation attacks towards web applications.md",
+    "03 References/(Bisht, Hinrichs, et al., 2011).md",
+    "02 Literature/papers/parameter tampering/WAPTEC. whitebox analysis of web applications for parameter tampering exploit construction.md",
+    "03 References/(Skrupsky, Bisht, et al., 2013).md",
+    "03 References/(Fung, Wang, et al., 2014).md",
     "04 Canvases/meetings/2025_07_03.canvas",
+    "02 Literature/papers/parameter tampering/Automating the Detection of Access Control Vulnerabilities in Web Applications.md",
     "03 References/(Rennhard, Kushnir, et al., 2022).md",
     "02 Literature/papers/cookies/Quite a mess in my cookie jar! leveraging machine learning to protect web authentication.md",
     "01 Notes/JSON Hijacking Prevention tokens.md",
@@ -216,14 +223,6 @@
     "02 Literature/papers/logic flow tampering/LogicScope. automatic discovery of logic vulnerabilities within web applications.md",
     "02 Literature/papers/logic flow tampering/Keeping out the masses. Understanding the popularity and implications of internet paywalls.md",
     "02 Literature/papers/logic flow tampering/IVD. Automatic Learning and Enforcement of Authorization Rules in Online Social Networks.md",
-    "02 Literature/papers/logic flow tampering/From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery.md",
-    "02 Literature/papers/logic flow tampering/Finding client-side business flow tampering vulnerabilities.md",
-    "02 Literature/papers/logic flow tampering/DetLogic. A black-box approach for detecting logic vulnerabilities in web applications.md",
-    "02 Literature/papers/logic flow tampering/BLOCK. a black-box approach for detection of state violation attacks towards web applications.md",
-    "03 References/(Li, Xue, et al., 2011).md",
-    "02 Literature/papers/parameter tampering/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
-    "03 References/(Bisht, Hinrichs, Skrupsky, et al., 2010).md",
-    "02 Literature/papers/parameter tampering/TamperProof. a server-agnostic defense for parameter tampering attacks on web applications.md",
     "97 Assets/process_golden_set_auth_cookies_calzavara.png",
     "02 Literature/papers/browser security",
     "97 Assets/burp_test_canva_pro.png",

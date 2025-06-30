@@ -45,30 +45,30 @@
       "y": 2040
     },
     {
-      "height": 160,
+      "height": 228,
       "id": "0ac9ee6138a43aa4",
       "styleAttributes": {
         "border": "invisible",
         "textAlign": "center"
       },
-      "text": "- Java preferred\n- Python/Ruby supported for legacy projects but not more maintained\n- no access to the DOM",
+      "text": "- Java preferred\n- Python/Ruby supported for legacy projects but not more maintained\n- no access to the DOM\n-  Easy access to network messages with Burp APIs",
       "type": "text",
-      "width": 420,
+      "width": 480,
       "x": 120,
-      "y": 1790
+      "y": 1760
     },
     {
-      "height": 205,
+      "height": 173,
       "id": "57fb4ec2ec7aae86",
       "styleAttributes": {
         "border": "invisible",
         "textAlign": "center"
       },
-      "text": "- JavaScript based\n- access to the DOM\n- can run on a regular browser profile\n- difficult to publish on Chrome Web Store",
+      "text": "- JavaScript based\n- access to the DOM\n- can run on a regular browser profile\n- difficult to publish on Chrome Web Store\n- excellent documentatin",
       "type": "text",
-      "width": 420,
+      "width": 400,
       "x": 120,
-      "y": 1988
+      "y": 2020
     }
   ]
 }

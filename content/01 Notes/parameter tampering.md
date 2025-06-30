@@ -50,7 +50,9 @@ Ensure that server-side validation is, at least, as strong as the client-side
 #### References
 - [[(Bisht, Hinrichs, Skrupsky, et al., 2010)]]
 - [[(Asish Kumar Dalai, Saroj Kumar Panigrahy, et al., 2012)]]
+- [[(Fung, Wang, et al., 2014)]]
 
 Project SLR:
 - [[(Skrupsky, Bisht, et al., 2013)]]
 - [[(Bisht, Hinrichs, et al., 2011)]]
+- [[(Li, Xue, et al., 2011)]]
