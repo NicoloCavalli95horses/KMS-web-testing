@@ -1,74 +1,256 @@
 {
   "edges": [
     {
-      "fromNode": "4f4f747ccc0fda82",
-      "fromSide": "right",
-      "id": "c2244f166e78a318",
+      "fromNode": "354954f3dfb7c807",
+      "fromSide": "bottom",
+      "id": "98f2f2e6734a5529",
       "styleAttributes": {
       },
-      "toNode": "0ac9ee6138a43aa4",
+      "toNode": "b92b5d4e56cb4485",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "354954f3dfb7c807",
+      "fromSide": "right",
+      "id": "bbc0a6f6e4cf3acb",
+      "styleAttributes": {
+      },
+      "toNode": "4f4f747ccc0fda82",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "354954f3dfb7c807",
+      "fromSide": "left",
+      "id": "37573c0956c15ea7",
+      "styleAttributes": {
+      },
+      "toNode": "b9a9dfe3ec521741",
+      "toSide": "bottom"
+    },
+    {
+      "fromNode": "24e40e36f7ef5c80",
+      "fromSide": "right",
+      "id": "6b4ea2eef41e206b",
+      "styleAttributes": {
+      },
+      "toNode": "d81af5fe9ccda7a1",
       "toSide": "left"
     },
     {
-      "fromNode": "b92b5d4e56cb4485",
+      "fromNode": "24e40e36f7ef5c80",
       "fromSide": "right",
-      "id": "12684f9c5dc81920",
+      "id": "0340d47f4be963e3",
       "styleAttributes": {
       },
-      "toNode": "57fb4ec2ec7aae86",
+      "toNode": "1cd944a0466a6e32",
       "toSide": "left"
     }
   ],
   "nodes": [
     {
+      "color": "4",
+      "height": 350,
+      "id": "4f4f747ccc0fda82",
+      "styleAttributes": {
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "text": "## Burp extension",
+      "type": "text",
+      "width": 400,
+      "x": 210,
+      "y": 1880
+    },
+    {
+      "color": "3",
+      "height": 350,
+      "id": "b9a9dfe3ec521741",
+      "styleAttributes": {
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "text": "##  Web crawler (Puppeteer, Cypress)",
+      "type": "text",
+      "width": 400,
+      "x": -560,
+      "y": 1880
+    },
+    {
+      "height": 160,
+      "id": "354954f3dfb7c807",
+      "styleAttributes": {
+        "border": "dashed",
+        "textAlign": "center"
+      },
+      "text": "# HTTP analysis",
+      "type": "text",
+      "width": 340,
+      "x": -160,
+      "y": 2280
+    },
+    {
+      "color": "6",
+      "height": 350,
+      "id": "b92b5d4e56cb4485",
+      "styleAttributes": {
+        "shape": "circle",
+        "textAlign": "center"
+      },
+      "text": "## Chrome extension",
+      "type": "text",
+      "width": 400,
+      "x": -190,
+      "y": 2550
+    },
+    {
+      "height": 370,
+      "id": "ed0d5f59c49d3b1d",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "- ==Easy access to network messages with framework APIs==\n- ==Fully access to the DOM==\n- Fully automation possible, but web crawler are hindered by CAPTCHA or directly blocked in large web app (e.g., Canva.com)\n- authentication currently not executable automatically due to 2FA",
+      "type": "text",
+      "width": 380,
+      "x": -960,
+      "y": 1910
+    },
+    {
+      "height": 220,
+      "id": "0ac9ee6138a43aa4",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "- ==Easy access to network messages with Burp APIs==\n- Java preferred\n- no access to the DOM\n- possibility to publish on [BApp store](https://portswigger.net/bappstore)",
+      "type": "text",
+      "width": 430,
+      "x": 620,
+      "y": 1960
+    },
+    {
+      "height": 180,
+      "id": "cbf6d74a4e820aa2",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "### Manual interaction with the target web application\n- user must be authenticated\n- a human tester must identify the section of the application to test",
+      "type": "text",
+      "width": 730,
+      "x": -120,
+      "y": 4140
+    },
+    {
+      "height": 60,
+      "id": "72e551ea0078ce1c",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# 1.",
+      "type": "text",
+      "width": 120,
+      "x": -240,
+      "y": 4170
+    },
+    {
+      "height": 200,
+      "id": "1e80a6b3c8fd5ecd",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "### During the interaction, HTTP responses are gathered\n- many round of iteration may be needed to ensure a proper set of HTTP responses, excluding caching mechanisms in actions",
+      "type": "text",
+      "width": 730,
+      "x": -120,
+      "y": 4380
+    },
+    {
+      "height": 60,
+      "id": "d9f05fd93a04a230",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# 2.",
+      "type": "text",
+      "width": 120,
+      "x": -240,
+      "y": 4410
+    },
+    {
       "height": 240,
+      "id": "24e40e36f7ef5c80",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "# Towards an algorithm to semi-automatically detect sensitive HTTP responses",
+      "type": "text",
+      "width": 560,
+      "x": -300,
+      "y": 3780
+    },
+    {
+      "height": 70,
+      "id": "d81af5fe9ccda7a1",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "### Support human security testers",
+      "type": "text",
+      "width": 460,
+      "x": 380,
+      "y": 3780
+    },
+    {
+      "height": 160,
+      "id": "1cd944a0466a6e32",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "### Simplify the identification of access control vulnerabilities",
+      "type": "text",
+      "width": 460,
+      "x": 380,
+      "y": 3900
+    },
+    {
+      "height": 60,
+      "id": "a67db7ce162ff6bb",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# 3.",
+      "type": "text",
+      "width": 120,
+      "x": -240,
+      "y": 4650
+    },
+    {
+      "height": 240,
+      "id": "bbe231e45c29de3b",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "### During the interaction, sensitive sections of the DOM tree are saved for further analysis\n- the applications under tests all present a specific DOM pattern: there is always a list that include free and premium content\n- Different CSS classes are applied to these two categories of items",
+      "type": "text",
+      "width": 730,
+      "x": -120,
+      "y": 4620
+    },
+    {
+      "height": 360,
       "id": "57fb4ec2ec7aae86",
       "styleAttributes": {
         "border": "invisible",
         "textAlign": "center"
       },
-      "text": "- JavaScript based\n- ==easy access to the DOM==\n- can run on a regular browser profile\n- difficult to publish on Chrome Web Store\n- excellent documentation\n- difficult to intercept HTTP responses ([[CSP (Content Security Policy)]])",
+      "text": "- JavaScript based\n- ==Easy access to the DOM==\n- Can run on a regular browser profile, hence solving authentication issues\n- Can be publish on [Chrome Web Store](https://chromewebstore.google.com/)\n- Excellent documentation\n- Difficult to intercept HTTP responses due to ([[CSP (Content Security Policy)]]) or anti-patching counter-measurements\n- Cannot really override HTTP responses in run-time since `XMLHttpRequest.responseText` is [read only](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/responseText)",
       "type": "text",
-      "width": 460,
-      "x": 120,
-      "y": 2020
-    },
-    {
-      "height": 100,
-      "id": "4f4f747ccc0fda82",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "# Burp extension",
-      "type": "text",
-      "width": 400,
-      "x": -380,
-      "y": 1730
-    },
-    {
-      "height": 100,
-      "id": "b92b5d4e56cb4485",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "# Chrome extension",
-      "type": "text",
-      "width": 400,
-      "x": -380,
-      "y": 2000
-    },
-    {
-      "height": 140,
-      "id": "0ac9ee6138a43aa4",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "- ==Easy access to network messages with Burp APIs==\n- Java preferred\n- no access to the DOM",
-      "type": "text",
-      "width": 480,
-      "x": 120,
-      "y": 1780
+      "width": 670,
+      "x": -280,
+      "y": 2920
     }
   ]
 }
