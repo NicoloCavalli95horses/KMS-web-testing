@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/meetings/2025_07_03.canvas",
                 "viewState": {
-                  "x": 131.3474936797481,
-                  "y": 4447.725854701375,
-                  "zoom": -0.2777777667398809
+                  "x": 253.59038348059914,
+                  "y": 2168.7657744932685,
+                  "zoom": -1.111111066959524
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -189,6 +189,8 @@
   },
   "active": "41c45a5c615e2a19",
   "lastOpenFiles": [
+    "01 Notes/JSON Hijacking Prevention tokens.md",
+    "04 Canvases/meetings/2025_07_03.canvas",
     "02 Literature/papers/parameter tampering/Scanning of real-world web applications for parameter tampering vulnerabilities.md",
     "06 Courses, webinars/The growing carbon footprint of generative AI services.md",
     "97 Assets/efficiency_paradox.png",
@@ -206,11 +208,9 @@
     "02 Literature/papers/parameter tampering/WAPTEC. whitebox analysis of web applications for parameter tampering exploit construction.md",
     "03 References/(Skrupsky, Bisht, et al., 2013).md",
     "03 References/(Fung, Wang, et al., 2014).md",
-    "04 Canvases/meetings/2025_07_03.canvas",
     "02 Literature/papers/parameter tampering/Automating the Detection of Access Control Vulnerabilities in Web Applications.md",
     "03 References/(Rennhard, Kushnir, et al., 2022).md",
     "02 Literature/papers/cookies/Quite a mess in my cookie jar! leveraging machine learning to protect web authentication.md",
-    "01 Notes/JSON Hijacking Prevention tokens.md",
     "02 Literature/papers/logic flow tampering/Hidden GEMS. Automated discovery of Access Control Vulnerabilities in Graphical User Interfaces.md",
     "03 References/(Mulliner, Robertson, Kirda, 2014).md",
     "04 Canvases/models/research model.canvas",
