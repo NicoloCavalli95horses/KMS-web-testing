@@ -116,19 +116,6 @@
       "y": 1910
     },
     {
-      "height": 220,
-      "id": "0ac9ee6138a43aa4",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "- ==Easy access to network messages with Burp APIs==\n- Java preferred\n- no access to the DOM\n- possibility to publish on [BApp store](https://portswigger.net/bappstore)",
-      "type": "text",
-      "width": 430,
-      "x": 620,
-      "y": 1960
-    },
-    {
       "height": 180,
       "id": "cbf6d74a4e820aa2",
       "styleAttributes": {
@@ -246,11 +233,24 @@
         "border": "invisible",
         "textAlign": "center"
       },
-      "text": "- JavaScript based\n- ==Easy access to the DOM==\n- Can run on a regular browser profile, hence solving authentication issues\n- Can be publish on [Chrome Web Store](https://chromewebstore.google.com/)\n- Excellent documentation\n- Difficult to intercept HTTP responses due to ([[CSP (Content Security Policy)]]) or anti-patching counter-measurements\n- Cannot really override HTTP responses in run-time since `XMLHttpRequest.responseText` is [read only](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/responseText)",
+      "text": "- JavaScript based\n- ==Easy access to the DOM==\n- Can run on a regular browser profile, hence solving authentication issues\n- Can be publish on [Chrome Web Store](https://chromewebstore.google.com/)\n- Excellent documentation\n- Difficult to intercept HTTP responses due to ([[CSP (Content Security Policy)]]) or anti-patching counter-measurements\n- Cannot really override HTTP responses like Burp does, since `XMLHttpRequest.responseText` is [read only](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/responseText)",
       "type": "text",
-      "width": 670,
-      "x": -280,
-      "y": 2920
+      "width": 700,
+      "x": -290,
+      "y": 2900
+    },
+    {
+      "height": 220,
+      "id": "0ac9ee6138a43aa4",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "- ==Easy access to network messages with Burp APIs==\n- Java preferred\n- no access to the DOM\n- possibility to publish on [BApp store](https://portswigger.net/bappstore)",
+      "type": "text",
+      "width": 430,
+      "x": 610,
+      "y": 1945
     }
   ]
 }
