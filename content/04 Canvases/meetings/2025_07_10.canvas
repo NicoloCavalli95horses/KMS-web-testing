@@ -75,10 +75,10 @@
       "styleAttributes": {
         "border": "invisible"
       },
-      "text": "New entries in the dataset of vulnerable applications:\n- Babbel.com\n- Pimsleur.com",
+      "text": "New entries in the dataset of vulnerable applications (language learning):\n- Babbel.com\n- Pimsleur.com",
       "type": "text",
-      "width": 367,
-      "x": -391,
+      "width": 416,
+      "x": -440,
       "y": 3820
     },
     {
