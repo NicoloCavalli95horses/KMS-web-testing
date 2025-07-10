@@ -155,11 +155,11 @@
       "y": 4620
     },
     {
-      "height": 300,
+      "height": 350,
       "id": "1ca22b346d8f08b4",
       "styleAttributes": {
       },
-      "text": "Similar apps that are not vulnerable:\n- medium.com (news, posts): unlocking premium content isn't possible because you are redirected to a new page and there is a server-side check\n- mondly.com (language learning): even if you modify the HTTP response and unlock a lesson, the client asks the permission again and the access to the premium content is forbidden",
+      "text": "Similar apps that are not vulnerable:\n- medium.com (news, posts): unlocking premium content isn't possible because you are redirected to a new page and there is a server-side check\n- mondly.com (language learning): even if you modify the HTTP response and unlock a lesson, the client asks the permission again and the access to the premium content is forbidden. Probably server-side app",
       "type": "text",
       "width": 680,
       "x": -1240,
