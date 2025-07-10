@@ -1,0 +1,169 @@
+{
+  "edges": [
+    {
+      "fromNode": "e13fb44ae54a9d16",
+      "fromSide": "bottom",
+      "id": "612d58d1ea29cb48",
+      "styleAttributes": {
+      },
+      "toNode": "5e8478d767fccb88",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "e13fb44ae54a9d16",
+      "fromSide": "bottom",
+      "id": "66a2d39d3bab4d23",
+      "styleAttributes": {
+      },
+      "toNode": "24e40e36f7ef5c80",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "7b64c55fca40ad87",
+      "fromSide": "bottom",
+      "id": "a494c63b78198c99",
+      "styleAttributes": {
+      },
+      "toNode": "c953008f0faaf545",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "e13fb44ae54a9d16",
+      "fromSide": "bottom",
+      "id": "f8a7727a748fc7b3",
+      "styleAttributes": {
+      },
+      "toNode": "37e632222b219318",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "7b64c55fca40ad87",
+      "fromSide": "bottom",
+      "id": "d6616d803c782ad8",
+      "styleAttributes": {
+      },
+      "toNode": "f5a6278fcf954081",
+      "toSide": "top"
+    },
+    {
+      "fromNode": "7b64c55fca40ad87",
+      "fromSide": "bottom",
+      "id": "4ec9b2b97ba9a94e",
+      "styleAttributes": {
+      },
+      "toNode": "84d5f95cf979615a",
+      "toSide": "top"
+    }
+  ],
+  "nodes": [
+    {
+      "height": 240,
+      "id": "24e40e36f7ef5c80",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "Improvement to the Chrome Extension:\n- Bypassing JSON anti-embedding tokens\n- Unit test in Jest",
+      "type": "text",
+      "width": 428,
+      "x": 21,
+      "y": 3820
+    },
+    {
+      "height": 240,
+      "id": "5e8478d767fccb88",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "New entries in the dataset of vulnerable applications:\n- Babbel.com",
+      "type": "text",
+      "width": 367,
+      "x": -391,
+      "y": 3820
+    },
+    {
+      "height": 340,
+      "id": "37e632222b219318",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "It is actually possible to overwrite the HTTP response body directly in the Chrome extension, but only with `fetch` API\n- `XMLHttpRequest.responseText` is read only\n- Popular lib like `Axios` prevent this for security reasons\n- Custom wrappers on functions",
+      "type": "text",
+      "width": 460,
+      "x": 469,
+      "y": 3820
+    },
+    {
+      "height": 80,
+      "id": "e13fb44ae54a9d16",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "# News",
+      "type": "text",
+      "width": 260,
+      "x": 105,
+      "y": 3620
+    },
+    {
+      "height": 140,
+      "id": "c953008f0faaf545",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "Still too many false positive",
+      "type": "text",
+      "width": 358,
+      "x": -419,
+      "y": 4620
+    },
+    {
+      "height": 100,
+      "id": "7b64c55fca40ad87",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "# Challenges",
+      "type": "text",
+      "width": 260,
+      "x": 111,
+      "y": 4360
+    },
+    {
+      "height": 240,
+      "id": "84d5f95cf979615a",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "In a Chrome Extension, there are built-in APIs to intercept network traffic, but only requests or responses headers\n- `chrome.webRequest`",
+      "type": "text",
+      "width": 415,
+      "x": 497,
+      "y": 4620
+    },
+    {
+      "height": 220,
+      "id": "f5a6278fcf954081",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "\ncertain particular HTTP messages are not intercepted (background JS threads?).\n- Maybe an extension in Burp would be a better solution but no access to the DOM",
+      "type": "text",
+      "width": 490,
+      "x": -24,
+      "y": 4620
+    },
+    {
+      "height": 180,
+      "id": "1ca22b346d8f08b4",
+      "styleAttributes": {
+      },
+      "text": "Similar apps that are not vulnerable:\n- medium.com (news, posts)\n- mondly.com (language learning)",
+      "type": "text",
+      "width": 429,
+      "x": -960,
+      "y": 4060
+    }
+  ]
+}
