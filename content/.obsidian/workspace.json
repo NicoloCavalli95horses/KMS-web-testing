@@ -11,17 +11,15 @@
             "id": "729b4d63121114a7",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/meetings/2025_07_10.canvas",
-                "viewState": {
-                  "x": 256.9604506888097,
-                  "y": 3965.552031224788,
-                  "zoom": -0.14298464439416791
-                }
+                "file": "02 Literature/papers/data disclosure/FlowWatcher. Defending against Data Disclosure Vulnerabilities in Web Applications.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "2025_07_10"
+              "icon": "lucide-file",
+              "title": "FlowWatcher. Defending against Data Disclosure Vulnerabilities in Web Applications"
             }
           }
         ]
@@ -190,9 +188,10 @@
   },
   "active": "729b4d63121114a7",
   "lastOpenFiles": [
-    "04 Canvases/meetings/2025_07_03.canvas",
-    "04 Canvases/meetings/2025_07_10.canvas",
+    "01 Notes/logic vulnerability.md",
     "02 Literature/papers/data disclosure/FlowWatcher. Defending against Data Disclosure Vulnerabilities in Web Applications.md",
+    "04 Canvases/meetings/2025_07_10.canvas",
+    "04 Canvases/meetings/2025_07_03.canvas",
     "03 References/(Muthukumaran, O'Keeffe, et al., 2015).md",
     "02 Literature/papers/data disclosure",
     "03 References/(Rennhard, Kushnir, et al., 2022).md",
@@ -214,7 +213,6 @@
     "06 Courses, webinars/FLE French Course/French Course 04-08-2025.md",
     "06 Courses, webinars/FLE French Course/French Course 04-15-2025.md",
     "06 Courses, webinars/FLE French Course/French Course 05-13-2025.md",
-    "01 Notes/logic vulnerability.md",
     "02 Literature/papers/logic flow tampering/BLOCK. a black-box approach for detection of state violation attacks towards web applications.md",
     "03 References/(Skrupsky, Bisht, et al., 2013).md",
     "02 Literature/papers/cookies/Quite a mess in my cookie jar! leveraging machine learning to protect web authentication.md",
@@ -227,7 +225,6 @@
     "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/mind maps/input analysis.canvas",
     "04 Canvases/mind maps/props tampering.canvas",
-    "04 Canvases/mind maps/taint analysis in the web.canvas",
     "97 Assets/process_golden_set_auth_cookies_calzavara.png",
     "02 Literature/papers/browser security",
     "97 Assets/burp_test_canva_pro.png",
