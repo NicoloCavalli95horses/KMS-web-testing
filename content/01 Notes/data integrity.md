@@ -1,7 +1,8 @@
 ---
-ID: "2025-02-03-10:03"
+ID: 2025-02-03-10:03
 tags:
   - "#definition"
+  - dataSecurity
 ---
 ## Definition
 
@@ -15,4 +16,5 @@ The integrity of web content relies on the integrity of the HTTP request-respons
 ---
 #### References
 - [[(Viticchie, Basile, Avancini, et al., 2016)]]
+- [[(Muthukumaran, O'Keeffe, et al., 2015)]]: proxy for ensuring data confidentiality
 
