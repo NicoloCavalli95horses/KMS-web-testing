@@ -25,7 +25,7 @@ Little work exists on grey box coverage-guided [[fuzzing]] to web applications d
 
 **Contributions**
 - A novel crawler-free approach to seeding the fuzzer with endpoints, allowing more fine-grained control over the [[fuzzing]] scope
-- A novel [[instrumentation]] approach without modifications to the fuzzed application’s source code or related components (i.e., databases), capable of intercepting PHP exceptions or errors, and bypassing authentication and authorization functionality to collect more code coverage
+- A novel [[code instrumentation]] approach without modifications to the fuzzed application’s source code or related components (i.e., databases), capable of intercepting PHP exceptions or errors, and bypassing authentication and authorization functionality to collect more code coverage
 - A novel vulnerability detection approach to discover web vulnerability, supporting parallel [[fuzzing]] out-of-the-box, making it suitable for large-scale [[fuzzing]] testing
 - Two [[zero-day vulnerability]] found and approved by Certified Numbering Authority (CNA) WPScan
 

@@ -5,7 +5,7 @@ tags:
   - OWASP
   - accessControl
 ---
-## Definition
+**## Definition
 
 Access Control (or Authorization) is ==allowing or denying specific requests from a user, program, or process==.
 - With each access control decision, a given subject requests access to a given object

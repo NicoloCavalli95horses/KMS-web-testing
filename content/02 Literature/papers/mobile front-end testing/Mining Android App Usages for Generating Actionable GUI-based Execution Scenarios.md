@@ -38,7 +38,7 @@ The system:
 - mimics a manual system, interacting with the [[SUT (system under test)]] naturally using GUI based actions or gestures
 - has context awareness of an app's execution history. This is made possible by using  [[LM (word n-gram language model)]] to generate event sequences, that consider program structure and previous executions. Both static and [[dynamic analysis]] are combined to augment the vocabulary used by LMs
 - generate actionable scenarios as sequences of events that can be reproduced automatically. These streams are human readable sequences that developers can easily comprehend and that are not couple to locations in the screen
-- can be executed remotely avoiding [[Instrumentation]] overhead
+- can be executed remotely avoiding [[code instrumentation]] overhead
 
 The process:
 1. developer/testers use the app naturally

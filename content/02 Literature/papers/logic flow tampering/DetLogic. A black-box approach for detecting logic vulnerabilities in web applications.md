@@ -50,7 +50,7 @@ DetLogic acts a proxy intercepting the HTTP requests and responses to the applic
 ### Evaluation
 
 DetLogic was implemented in Django using Redis as data structure server. It was tested:
-- on 4 open source applications: BookStore, Classifieds, Employee Directory, and Events, were instrumented for testing parameter manipulation vulnerabilities (see [[instrumentation]])
+- on 4 open source applications: BookStore, Classifieds, Employee Directory, and Events, were instrumented for testing parameter manipulation vulnerabilities (see [[code instrumentation]])
 - on 3 open source application: Scarf, Wackopicko, OpenIT, and Puzzlemall for testing access-control vulnerabilities
 - DetLogic works effectively with a precision of 99.1% and a true positive of 97.9%
 

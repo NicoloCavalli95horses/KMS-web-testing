@@ -22,7 +22,7 @@ keywords = {Model inference, User behavioral model, Reinforcement learning, Web 
 abstract = {Context
 Inferring a behavioral model from users’ navigation patterns in a web application helps application providers to understand their users’ interests. It is essential to automatically identify and generate such models as the volume of daily interactions with applications are enormous.
 Objective
-The goal of this paper is to incrementally generate such an automated user behavior model with no [[Instrumentation]] for understanding users’ interests in large-scale mobile and desktop applications.
+The goal of this paper is to incrementally generate such an automated user behavior model with no [[code instrumentation]] for understanding users’ interests in large-scale mobile and desktop applications.
 Method
 We propose an approach to fully automate the behavioral model generation for large-scale web applications. Our proposed solution infers a reward augmented behavioral model using a reinforcement learning method by 1) dynamically generating a set of probabilistic Markov models from the users’ interactions, 2) augmenting the state of the model with reward values. Our analysis engine of the proposed solution evaluates the evolving properties of interaction patterns against the inferred behavioral models using probabilistic model checking.
 Results
