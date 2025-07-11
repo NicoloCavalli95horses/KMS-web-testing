@@ -10,7 +10,7 @@ tags:
 
 The web applications follow a three tier architecture involving web clients, web servers and databases. Most of the web based attacks target these components to compromise the applications, databases, system resources and network.
 
-This paper presents a ==web application policy enforcement and attack detection== framework that can identify attacks ==by analyzing the HTTP traffic== [^1]
+This paper presents a ==web application policy enforcement and attack detection== framework that can identify attacks ==by analyzing the HTTP traffic==
 
 The HTTP traffic is made of packages of information in textual format
 
@@ -47,5 +47,3 @@ The tool was tested using [ZAP](https://www.zaproxy.org/) and sqlmap to launch a
 ---
 #### References
 - [[(Muraleedharan, Thomas, et al., 2020)]]
-
-[^1]: This paper is considered relevant to a SLR on [[Web application security]] with focus on client-side vulnerability, since injection attacks mitigated by the authors's solution may steam from a misuse of input fields
