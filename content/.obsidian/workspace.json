@@ -70,12 +70,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 361.5026054382324
+    "width": 206.50260543823242
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -181,7 +180,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0d4f777b445aff61",
+  "active": "f6bcd2aa1326e14b",
   "lastOpenFiles": [
     "02 Literature/papers/HTTP traffic analysis/Machine Learning Based Web Application Plugin for Threat Detection and IP Analysis.md",
     "01 Notes/HSTS (HTTP Strict Transport Security).md",
