@@ -11,10 +11,15 @@
             "id": "f6bcd2aa1326e14b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/ABAC (attribute based access control).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "ABAC (attribute based access control)"
             }
           }
         ]
@@ -74,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 206.50260543823242
+    "width": 245.50260543823242
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -182,6 +187,11 @@
   },
   "active": "f6bcd2aa1326e14b",
   "lastOpenFiles": [
+    "05 Dataset/vulnerable webapp.canvas",
+    "96 Meta/SLR/Tags analysis.md",
+    "96 Meta/SLR/Paper list.md",
+    "96 Meta/PhD status.md",
+    "01 Notes/RBAC (role-based access control).md",
     "02 Literature/papers/HTTP traffic analysis/Machine Learning Based Web Application Plugin for Threat Detection and IP Analysis.md",
     "01 Notes/HSTS (HTTP Strict Transport Security).md",
     "01 Notes/HAR file.md",
@@ -203,11 +213,6 @@
     "03 References/(Bhingarkar, Shah, et al., 2017).md",
     "02 Literature/papers/HTTP traffic analysis/A survey. Cloud hosted website protection using soft computing techniques.md",
     "02 Literature/papers/parameter tampering/A Novel Approach for Message Authentication to Prevent Parameter Tampering Attack in Web Applications.md",
-    "02 Literature/papers/vulnerability management/Demo. Large Scale Analysis on Vulnerability Remediation in Open-Source JavaScript projects.md",
-    "02 Literature/papers/privacy/Apathy, convenience or irrelevance. Identifying conceptual barriers to safeguarding children’s data privacy.md",
-    "02 Literature/papers/object storage (blob storage)/Do Not Trust the Clouds Easily. The Insecurity of Content Security Policy Based on Object Storage.md",
-    "02 Literature/papers/logic flow tampering/Verification of Web Content Integrity. A new approach to protecting servers against tampering.md",
-    "02 Literature/papers/logic flow tampering/Toward black-box detection of logic flaws in web applications.md",
     "04 Canvases/meetings/2025_07_10.canvas",
     "04 Canvases/meetings/2025_07_03.canvas",
     "02 Literature/papers/data disclosure",
