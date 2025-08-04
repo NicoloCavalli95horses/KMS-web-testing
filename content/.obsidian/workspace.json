@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0c5e5182468bb9a5",
+        "id": "205aec385f91d6e7",
         "type": "tabs",
         "children": [
           {
-            "id": "ff87a20b44f02cc2",
+            "id": "7c7ddc6ab6666dbe",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,8 +21,24 @@
               "icon": "lucide-file",
               "title": "Don't Trust The Locals. Investigating the Prevalence of Persistent Client-Side Cross-Site Scripting in the Wild."
             }
+          },
+          {
+            "id": "78b342b3c8c9ab7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "96 Meta/SLR/Reviewers response SLR (S&P).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Reviewers response SLR (S&P)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -79,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.50260543823242
+    "width": 330.5026054382324
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -185,14 +201,27 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ff87a20b44f02cc2",
+  "active": "78b342b3c8c9ab7f",
   "lastOpenFiles": [
     "02 Literature/papers/XSS (Cross-Site Scripting)/Don't Trust The Locals. Investigating the Prevalence of Persistent Client-Side Cross-Site Scripting in the Wild..md",
+    "96 Meta/SLR/Reviewers response SLR (S&P).md",
+    "96 Meta/References analysis.md",
+    "00 Antilibrary/mXSS (mutation-based XSS).md",
+    "02 Literature/papers/web vulnerabilities reviews/Enhancing Front-End Security. Protecting User Data and Privacy in Web Applications.md",
+    "03 References/(Tkachenko et al., 2024).md",
+    "02 Literature/papers/web vulnerabilities reviews/Common vulnerabilities in real world web applications.md",
+    "02 Literature/papers/web vulnerabilities reviews/A Taxonomy of Web Security Vulnerabilities.md",
+    "02 Literature/papers/web vulnerabilities reviews/A systematic review and taxonomy of web applications threats.md",
+    "02 Literature/papers/web vulnerabilities reviews/Security of Web Application. State of the Art.md",
+    "02 Literature/papers/web vulnerabilities reviews/Web application attacks.md",
+    "02 Literature/papers/web vulnerabilities reviews/Towards a formal foundation of web security.md",
+    "02 Literature/papers/web vulnerabilities reviews/Navigating web application security. A survey of vulnerabilities and detection solutions.md",
+    "97 Assets/systematic_definition.png",
+    "96 Meta/SLR/Tags analysis.md",
+    "96 Meta/SLR/Paper list.md",
     "03 References/(Steffens, Rossow, et al., 2019).md",
     "01 Notes/ABAC (attribute based access control).md",
     "05 Dataset/vulnerable webapp.canvas",
-    "96 Meta/SLR/Tags analysis.md",
-    "96 Meta/SLR/Paper list.md",
     "96 Meta/PhD status.md",
     "01 Notes/RBAC (role-based access control).md",
     "02 Literature/papers/HTTP traffic analysis/Machine Learning Based Web Application Plugin for Threat Detection and IP Analysis.md",
@@ -202,18 +231,6 @@
     "02 Literature/papers/redirect vulnerability/EARs in the wild. large-scale analysis of execution after redirect vulnerabilities.md",
     "01 Notes/EAR (Execution After Redirect).md",
     "02 Literature/papers/redirect vulnerability/Fear the EAR. discovering and mitigating execution after redirect vulnerabilities.md",
-    "03 References/(Doupe, Boe, et al., 2011).md",
-    "03 References/(Payet, Doupe, et al., 2013).md",
-    "02 Literature/papers/CSRF (Cross Site Request Forgery)/CSRF Detection Based on Graph Data Mining.md",
-    "03 References/(Liu, Shen, et al., 2020).md",
-    "02 Literature/papers/HTTP traffic analysis/Cross-domain vulnerabilities over social networks.md",
-    "03 References/(Rennhard, Kushnir, et al., 2022).md",
-    "02 Literature/papers/parameter tampering/Automating the Detection of Access Control Vulnerabilities in Web Applications.md",
-    "03 References/(Maheshwari, Nayak, et al., 2024).md",
-    "02 Literature/papers/WAF (Web Application Firewall)/Adaptive Web Application Firewall for Multi-Threat Detection.md",
-    "03 References/(Muraleedharan, Thomas, et al., 2020).md",
-    "02 Literature/papers/HTTP traffic analysis/A Traffic Monitoring and Policy Enforcement Framework for HTTP.md",
-    "03 References/(Bhingarkar, Shah, et al., 2017).md",
     "04 Canvases/meetings/2025_07_10.canvas",
     "04 Canvases/meetings/2025_07_03.canvas",
     "02 Literature/papers/data disclosure",
@@ -241,7 +258,6 @@
     "04 Canvases/mind maps/SLR",
     "02 Literature/papers/phishing",
     "97 Assets/SQLIA_detection_model.png",
-    "97 Assets/pentesting_tools.png",
     "02 Literature/papers/test"
   ]
 }
