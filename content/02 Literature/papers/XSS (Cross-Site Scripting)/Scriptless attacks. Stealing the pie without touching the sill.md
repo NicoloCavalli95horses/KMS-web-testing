@@ -90,6 +90,7 @@ Moder browsers:
 | Restrictions over `::before { content: attr(...) }`                                                        | only certain attributes can be read today |
 | Restrictions over URL used in `background-image` or `font-face` ([[CORS (Cross-Origin Resource Sharing)]]) | no tracking and exfiltration              |
 | Restrictions over automatic scrollbars                                                                     | Scrollbars are harder to exploit          |
+Characters presence is detectable, but character sequence is it not
 
 ---
 #### References

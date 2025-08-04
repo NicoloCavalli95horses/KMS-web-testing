@@ -199,6 +199,8 @@ tab: SW (service worker) XSS (SW-XSS)
 Service Worker XSS (SW-XSS) allows web attackers to compromise a benign service worker during the service worker registration process [[(Chinprutthiwong, Vardhan, et al., 2021)]].
 ````
 **Resident XSS**: leverage an existing XSS to make sure that all links a user visit are also XSS-infested[^1]
+
+**Universal XSS**: a XSS carried out by a browser, or a browser extension, which allows an attacker to control basically every websites a victim visits.[^2]
 ## How to find to find XSS vulnerabilities
 
 Multiple techniques and approaches are often used at the same time to tackle XSS issues:
@@ -293,3 +295,5 @@ Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, wit
 -  [[(Heiderich, Niemietz, et al., 2012)]]
 
 [^1]: https://media.ccc.de/v/28c3-4811-en-rootkits_in_your_web_application
+
+[^2]: https://www.acunetix.com/blog/articles/universal-cross-site-scripting-uxss/
