@@ -29,6 +29,12 @@ A XSS can be carried with different languages:
 - WebAssembly (WASM), for example with `WebAssembly.instantiateStreaming(fetch('wasm_malicious.wasm')).then(instance => instance.exports.runXSS());`
 - [[SW (Service Worker)]] and [[WW (Web Worker)]], for example with `navigator.serviceWorker.register("sw.js");`
 
+**Data flows into sink** [[(Steffens, Rossow, et al., 2019)]]
+Overall, XSS occurs if some attacker-controlled data flows into a dangerous sink. On the client, sinks are:
+- rendering of HTML (`document.write`, `innerHTML`,`append`)
+- execution of JavaScript (`setTimeout`, `eval`)
+- inclusion of additional scripts (`script.src`)
+
 ## Consequences
 
 - steal session information stored in a [[cookie]] [[(Calzavara, Tolomei, et al., 2014)]] [[(Calzavara, Tolomei, et al., 2015)]]
@@ -52,6 +58,8 @@ XSS is similar to [[CSRF (cross-site request forgery)]] in that their harm may b
 - **Security bypass**: all the different layers of protection must be bypassed by an attacker to successfully launch an XSS (e.g., [[CSP (Content Security Policy)]])
 - **Social engineering**: in case of reflected XSS, a victim has to be tricked to click on a malicious link containing the script
 - **Server-side logic flaws**: in case of stored XSS, a database has to correctly store the malicious script
+
+==Sensitive sinks must be reached by a malicious input in order to carry out an XSS==
 
 Example of entry points from 
 [[(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018)]] (pag.12-13):
@@ -134,7 +142,7 @@ Since the search value is not checked, it is easy to construct a malicious value
 tab: Reflected (I order) XSS
 Reflected XSS is the simplest variety of cross-site scripting. It arises when an application ==receives an input and use that input without checking it==.
 <br />For example, a website that implement search functionalities may use the URL as entry point to perform the search. By appending `?search=<script>alert(1)</script>`:
-- if the vulnerable application ==use the URL parameters without sanification==, the script included in the URL is executed
+- if the vulnerable application ==use the URL parameters without sanification==, the script included in the URL is executed (e.g., `location.href`)
 - The script can retrieve any information or perform any action the user is allowed to perform.
 
 Most of the literature has studied on this type of issues. If the user is presented with the dangerous link in an email, for example, this scenario is also called [[phishing]].
@@ -190,6 +198,7 @@ Induced XSS are possible in the web applications where web server present an [[H
 tab: SW (service worker) XSS (SW-XSS)
 Service Worker XSS (SW-XSS) allows web attackers to compromise a benign service worker during the service worker registration process [[(Chinprutthiwong, Vardhan, et al., 2021)]].
 ````
+**Resident XSS**: leverage an existing XSS to make sure that all links a user visit are also XSS-infested[^1]
 ## How to find to find XSS vulnerabilities
 
 Multiple techniques and approaches are often used at the same time to tackle XSS issues:
@@ -282,3 +291,5 @@ Dynamic analysis remains the leading approach to tackle XSS vulnerabilities, wit
 - comprehensive survey about XSS, by [[(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018)]]
 - [[(Shar, Tan, et al., 2012)]]
 -  [[(Heiderich, Niemietz, et al., 2012)]]
+
+[^1]: https://media.ccc.de/v/28c3-4811-en-rootkits_in_your_web_application

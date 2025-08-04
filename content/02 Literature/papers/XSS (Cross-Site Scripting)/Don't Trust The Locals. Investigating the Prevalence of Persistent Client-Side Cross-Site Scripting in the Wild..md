@@ -15,6 +15,13 @@ Two attacker models are presented
 - web attacker who can leverage flows into storage to persist their payload
 
 The notion of three types of XSS has been upheld for years (reflected, stored, DOM-based), and other types of XSS have been treated as niche problems ([[mXSS (mutation-based XSS)]]). Persistent client-side XSS, which leverage client-storage APIs, has never been acknowledged as important. 
+
+Overall, XSS occurs if some attacker-controlled data flows into a dangerous sink. On the client, sinks are:
+- rendering of HTML (`document.write`, `innerHTML`,`append`)
+- execution of JavaScript (`setTimeout`, `eval`)
+- inclusion of additional scripts (`script.src`)
+
+In regular XSS, when the victim close the browser every threat is immediately eliminated. However, with persistent client-side XSS, the attacker's code is revived on every load of the flawed website, ==even without the original payload ==(e.g., clicking on a dangerous URL)
 ## Approach
 
 

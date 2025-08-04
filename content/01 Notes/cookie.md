@@ -18,6 +18,10 @@ The storage capacity of a cookie is 4KB [[(Zhu, 2021)]]
 - A cookie will be attached to the header of each HTTP request: if more content is stored it will have a bad impact on HTTP communication efficiency
 - Use [[Web Storage API (localStorage, sessionStorage)]] if more information needs to be stored
 
+Cookies have been introduced for the first time by Netscape Mosaic browser[^1]
+
+Cookies are mostly used for session management, tracking purposes and user preferences [[(Steffens, Rossow, et al., 2019)]]
+
 ### Third party cookies
 
 Although cookies may be set only by the visited [[domain]], it is possible for a page to contain images or elements from other domains. Cookies set from external domains while retrieving such elements are called ==third party cookies==
@@ -45,3 +49,5 @@ Stored by the browser and more "permanent" than [[Web Storage API (localStorage,
 - [[(Zhu, 2021)]]
 - [[(Calzavara, Tolomei, et al., 2014)]]
 - [[(Calzavara, Tolomei, et al., 2015)]]
+
+[^1]: https://www.w3.org/TR/clear-site-data/

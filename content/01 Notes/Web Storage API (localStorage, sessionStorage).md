@@ -46,3 +46,4 @@ Web Storage in HTML5 uses a Storage object that represents a list of key-value p
 #### References
 - [[(West, Pulimood, et al., 2012)]]
 - [[(Zhu, 2021)]]
+- see background in persistent storage: [[(Steffens, Rossow, et al., 2019)]]
