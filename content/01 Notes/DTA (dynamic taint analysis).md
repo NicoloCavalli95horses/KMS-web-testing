@@ -62,3 +62,4 @@ For example, SQL injection attacks can be detected using DTA by marking user inp
 - Used by [[(Klein, Musch, et al., 2022)]] to detect the presence of [[XSS (cross site scripting)]] vulnerabilities in JavaScript code, after the user accept the [[cookie]] from the [[cookie]] banner
 - [[(Kluban, Mannan, et al., 2024)]]
 - [[(Aldrich, Turcotte, et al., 2023)]]
+- Used by [[(Steffens, Rossow, et al., 2019)]]

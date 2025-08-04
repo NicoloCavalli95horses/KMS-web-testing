@@ -8,7 +8,7 @@ Rank: A*
 ---
 ## Context
 
-This paper discusses persistent client-side [[XSS (cross site scripting)]], assessing its prevalence and evaluating its consequences in large web applications. Taint tracking is used to identify suspicious flows from client storage ([[Web Storage API (localStorage, sessionStorage)]], [[cookie]]) to dangerous [[sink function]]
+This paper discusses persistent client-side [[XSS (cross site scripting)]], assessing its prevalence and evaluating its consequences in large web applications. [[DTA (dynamic taint analysis)]] is used to identify suspicious flows from client storage ([[Web Storage API (localStorage, sessionStorage)]], [[cookie]]) to dangerous [[sink function]]
 
 Two attacker models are presented
 - network attacker capable of temporarily hijacking HTTP communication
@@ -28,7 +28,7 @@ In regular XSS, when the victim close the browser every threat is immediately el
 ## Attacker models
 
 **Network attacker**
-A network-level adversary capable of injecting arbitrary packets into any unencrypted connection between client and server. This attacker can manipulate HTTP responses and inject content into client storage, modifying cookies or local storage. The code injected might lie dormant and might be used later in time to attack the victim
+A network-level adversary capable of injecting arbitrary packets into any unencrypted connection between client and server. This attacker can manipulate HTTP responses and inject content into client storage, modifying cookies or local storage. The code injected might lie dormant and might be used later in time to attack the victim. The attack can be carried out with HTTP if HSTS rules are not enforced correctly (this allows an HTTP version to set cookies for the HTTPS version, or to set cookies for parents domains)
 
 Example
 -  a victim connect to the WiFi of a coffee shop, which is controlled by an attacker
@@ -43,17 +43,21 @@ A web attacker hosts his own malicious website and lures the victim into visitin
 ## Methodology
 
 We searched for exploitable flows from cookies or web storage to dangerous sink.
-
-## Evaluation
-
+- a modified version of Chromium is used to taint the usage of sensitive functions. Invocation with tainted data is reported
+- flows that end in a persistent storage are reported
+- malicious payloads are generated
+- persistent client XSS opportunities are found
+- to check if a candidate website is vulnerable, we checked if the website is served over HTTP or over HTTPS with no HSTS (allowing us to switch to HTTP)
 
 ## Results
 
 - 8% of Alexa top 5000 websites have unfiltered data flows from persistent storage to dangerous [[sink function]]
+- all flows that originate from a local storage source have no encoding applied to them
+- [[WAF (web application firewall)]] can detect maliciously-crafted cookies and protect from persistent client XSS
 
 ## Limits
 
-
+- The exploration of the webpages is shallow (e.g., without login)
 
 ---
 #### References
