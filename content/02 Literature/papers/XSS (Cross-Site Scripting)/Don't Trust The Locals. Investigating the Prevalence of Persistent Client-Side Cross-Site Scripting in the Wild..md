@@ -69,6 +69,7 @@ We searched for exploitable flows from cookies or web storage to dangerous sink.
 
 **Trusted types**
 Mark any data which contains code intended to be executed in a sink as safe. It allows the sinks to discard any code not marked as safe [^1]. This solution is promising but still in its early development.
+
 ## Limits
 
 - The exploration of the webpages is shallow (e.g., without login)
