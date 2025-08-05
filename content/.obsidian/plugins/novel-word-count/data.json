@@ -2509,7 +2509,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.22,
-      "characterCount": 722,
+      "characterCount": 697,
       "nonWhitespaceCharacterCount": 597,
       "newlineCount": 26,
       "readingTimeInMinutes": 0.2490566037735849,
@@ -2517,8 +2517,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754291310695,
-      "modifiedDate": 1754291310695,
-      "sizeInBytes": 781,
+      "modifiedDate": 1754381424837,
+      "sizeInBytes": 751,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.22,
@@ -5322,7 +5322,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.9833333333333333,
-      "characterCount": 2269,
+      "characterCount": 2261,
       "nonWhitespaceCharacterCount": 1944,
       "newlineCount": 9,
       "readingTimeInMinutes": 1.1132075471698113,
@@ -5330,8 +5330,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754291310668,
-      "modifiedDate": 1754291310668,
-      "sizeInBytes": 2340,
+      "modifiedDate": 1754381417084,
+      "sizeInBytes": 2326,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.9833333333333333,
@@ -14757,7 +14757,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 1.6366666666666667,
-      "characterCount": 4139,
+      "characterCount": 4051,
       "nonWhitespaceCharacterCount": 3492,
       "newlineCount": 89,
       "readingTimeInMinutes": 1.8528301886792453,
@@ -14765,8 +14765,8 @@
       "embedCount": 1,
       "aliases": null,
       "createdDate": 1754291310598,
-      "modifiedDate": 1754291310598,
-      "sizeInBytes": 4234,
+      "modifiedDate": 1754381391642,
+      "sizeInBytes": 4148,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.6366666666666667,
@@ -14781,7 +14781,8 @@
           "paper",
           "browserAttacks",
           "firefox"
-        ]
+        ],
+        "Rank": "C"
       }
     },
     "02 Literature/papers/browser security/Experimental Security Analysis of Sensitive Data Access by Browser Extensions.md": {
