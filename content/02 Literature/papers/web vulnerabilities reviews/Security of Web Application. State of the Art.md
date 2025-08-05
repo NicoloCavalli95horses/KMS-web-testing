@@ -43,7 +43,7 @@ User session-based testing aims to ensure the correct behavior of the [[SUT (sys
 
 While these techniques help optimize testing efforts, they often struggle to detect faults caused by rare data or complex runtime behaviors in modern web applications. Their effectiveness grows with more user sessions, but this also increases testing time and costs.
 
-**[[Mutation testing]]**
+**[[mutation testing]]**
 It has ambition to detect the most common errors that typically exist in web application. ==Some lines of source code are randomly altered in the program, to check whether the test case is able to perceive the change or not==
 - e.g. on HTML form, an address may be replaced with an invalid address, or an invalid file may be included at the server side
 
@@ -67,14 +67,14 @@ Providing random input to the application and checking its functional behavior w
 handling the invalid input is random testing. It does not follow the usual practice of generating the set of test cases ahead
 - not usable when a web application involve logical dependencies or sequences of events
 
-**[[usability testing]]**
+**Usability testing**
 [[usability testing]]
 
 **Biometric-based testing**
 Advanced identification processes may rely on biometrics, that are user's unique characteristics. ==The user behavior on Internet can be analyzed to create an unique profile of the user, which can be used for identification purposes.==
 - [[behavioral biometrics analysis]] is a passive monitoring of user characteristics and it is a relatively new research direction
 
-**[[security testing]]**
+**Security testing**
 Web application [[security testing]] ensures that the system would continue working under predictable attacks.
 - a modern trend is to breach system security by understanding the logic behind the code rather than by leveraging on an obvious vulnerability
 

@@ -9,10 +9,10 @@ Prototype pollution:
 - Probe the Proto: Measuring Client-Side Prototype Pollution Vulnerabilities of One Million Real-world Websites, NDSS 2022.
 - Prototype pollution attack in NodeJS application, by O Arteau
 - Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js, USENIX 23.
-- Follow My Flow: Unveiling Client-Side Prototype Pollution Gadgets from One Million Real-World Websites, IEEE Security and Privacy 2025.
+- ~~Follow My Flow: Unveiling Client-Side Prototype Pollution Gadgets from One Million Real-World Websites, IEEE Security and Privacy 2025.~~
 
 XSS:
-- Don't Trust The Locals: Investigating the Prevalence of Persistent Client-Side Cross-Site Scripting in the Wild, NDSS 2019
+- ~~Don't Trust The Locals: Investigating the Prevalence of Persistent Client-Side Cross-Site Scripting in the Wild, NDSS 2019~~
 - Riding out DOMsday: Toward Detecting and Preventing DOM Cross-Site Scripting, NDSS 2018
 
 Logic vulnerabilities:

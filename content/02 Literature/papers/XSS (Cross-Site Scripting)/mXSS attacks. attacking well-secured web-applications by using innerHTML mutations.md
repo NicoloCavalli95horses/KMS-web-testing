@@ -10,7 +10,7 @@ Rank: A*
 
 Server- and client-side XSS filters share the assumption that their HTML output and the browser-rendered HTML content are mostly identical.
 - This premise is false and can lead to a form of [[XSS (cross site scripting)]] called mutation-based XSS
-- in mXSS, a harmless string that passes deployed XSS filters is transformed by filters themselves or by browser's engine into an active XSS attack vector
+- in mXSS, a ==harmless string that passes deployed XSS filters is transformed by filters themselves or by browser's engine into an active XSS attack vector==
 
 Mutation-based XSS (mXSS) vectors affects all major browser families.
 

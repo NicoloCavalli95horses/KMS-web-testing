@@ -4,6 +4,7 @@ tags:
   - paper
   - browserAttacks
   - firefox
+Rank: C
 ---
 ## Context
 

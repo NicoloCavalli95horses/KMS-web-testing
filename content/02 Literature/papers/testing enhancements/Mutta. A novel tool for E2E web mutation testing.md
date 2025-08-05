@@ -11,7 +11,7 @@ tags:
 
 In real world applications, [[E2E (end-to-end) testing]] is performed to assure the correctness of several interaction flows. With time and resources constraints, it is essential to have ==a method to select which test suits to use, and which framework to rely on, finding a trade-off between execution time and ability to detect bugs==.
 
-[[Mutation testing]] is a technique used for many years to evaluate the effectiveness of tests in detecting bugs.
+[[mutation testing]] is a technique used for many years to evaluate the effectiveness of tests in detecting bugs.
 
 Mutta (*automatic MUTator for web E2E Test Automation*) is a tool developed to qualify E2E test suits. It basically tests the E2E tests.
 

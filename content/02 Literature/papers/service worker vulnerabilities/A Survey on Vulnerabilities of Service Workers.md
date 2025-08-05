@@ -7,6 +7,8 @@ tags:
   - parallelComputing
   - serviceWorker
 ---
+Very short paper (3 pages), unknown conference
+
 ## Context
 
 A [[SW (Service Worker)]] is an essential component of a [[PWA (progressive web application)]] to enhance the users' browsing experience by using a cache, synchronizing in the background, and being executed in a different thread from the browser. 
