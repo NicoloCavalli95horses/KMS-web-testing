@@ -12,24 +12,6 @@
     {
       "fromNode": "8d70b597885500ef",
       "fromSide": "right",
-      "id": "4b667b30cb862452",
-      "styleAttributes": {
-      },
-      "toNode": "7b974199e6b5dede",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "8d70b597885500ef",
-      "fromSide": "right",
-      "id": "a71e319989eff4fc",
-      "styleAttributes": {
-      },
-      "toNode": "aaf3ae24cef08b97",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "8d70b597885500ef",
-      "fromSide": "right",
       "id": "e73f209ca128e5db",
       "styleAttributes": {
       },
@@ -44,159 +26,36 @@
       },
       "toNode": "392497e4d4b1f4eb",
       "toSide": "left"
+    },
+    {
+      "fromNode": "8d70b597885500ef",
+      "fromSide": "right",
+      "id": "f5a3a8824ea65c0f",
+      "styleAttributes": {
+      },
+      "toNode": "545613aa5cce7753",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "545613aa5cce7753",
+      "fromSide": "right",
+      "id": "9b25a06f12a6c92d",
+      "styleAttributes": {
+      },
+      "toNode": "7b974199e6b5dede",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "545613aa5cce7753",
+      "fromSide": "right",
+      "id": "b08016287f92c119",
+      "styleAttributes": {
+      },
+      "toNode": "aaf3ae24cef08b97",
+      "toSide": "left"
     }
   ],
   "nodes": [
-    {
-      "height": 120,
-      "id": "14c0501ad98975f3",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "- https://www.wgtn.ac.nz/slc/language-learning-resources/practise-online\n- https://www.heylama.com/#heylama-features\n- https://www.funeasylearn.com/",
-      "type": "text",
-      "width": 780,
-      "x": 1020,
-      "y": -456
-    },
-    {
-      "height": 80,
-      "id": "c32a031407d1b9d6",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "showcase website",
-      "type": "text",
-      "width": 400,
-      "x": 0,
-      "y": -416
-    },
-    {
-      "height": 220,
-      "id": "485fa14f602cc8a4",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "- no freemium content\n- no RBAC\n- subscription is mandatory to access any content\n- subscription may be required in the form of an immediate payment, or an activation code",
-      "type": "text",
-      "width": 560,
-      "x": 420,
-      "y": -230
-    },
-    {
-      "color": "4",
-      "height": 110,
-      "id": "aaf3ae24cef08b97",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "e-learning platform with soft paywall",
-      "type": "text",
-      "width": 400,
-      "x": 0,
-      "y": 130
-    },
-    {
-      "height": 110,
-      "id": "7b974199e6b5dede",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "e-learning platform with hard paywall",
-      "type": "text",
-      "width": 400,
-      "x": 0,
-      "y": -170
-    },
-    {
-      "height": 220,
-      "id": "3f473d2f0e5e4da0",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "- no freemium content\n- no RBAC policies\n- login may be not be required\n- may include advertisements",
-      "type": "text",
-      "width": 560,
-      "x": 420,
-      "y": 380
-    },
-    {
-      "height": 140,
-      "id": "0772c2fda7630f62",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "private or public blogs, forums or websites with just free textual content",
-      "type": "text",
-      "width": 400,
-      "x": 0,
-      "y": 390
-    },
-    {
-      "height": 214,
-      "id": "2efbf86ce9c161eb",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "- no freemium content\n- no RBAC\n- account not mandatory\n- companies, universities, mobile apps showcase websites",
-      "type": "text",
-      "width": 520,
-      "x": 420,
-      "y": -500
-    },
-    {
-      "height": 260,
-      "id": "4ad57b352a70498b",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "- freemium content: regular user can access free resources and browse premium ones\n- RBAC policies\n- subscription is not mandatory to access free content\n- freemium policies may include trial period or general limited access to features",
-      "type": "text",
-      "width": 560,
-      "x": 420,
-      "y": 55
-    },
-    {
-      "height": 60,
-      "id": "3bf09de3235634fc",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "- https://www.digitaldialects.com/",
-      "type": "text",
-      "width": 520,
-      "x": 1020,
-      "y": 400
-    },
-    {
-      "height": 180,
-      "id": "daaac3d6df5389ad",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "- no freemium content\n- no RBAC policies\n- it differs from a showcase website, account is mandatory to book lessons ",
-      "type": "text",
-      "width": 560,
-      "x": 420,
-      "y": 680
-    },
-    {
-      "height": 140,
-      "id": "392497e4d4b1f4eb",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "web platform for booking online or in-person lessons",
-      "type": "text",
-      "width": 400,
-      "x": 0,
-      "y": 690
-    },
     {
       "height": 245,
       "id": "8d70b597885500ef",
@@ -210,6 +69,55 @@
       "y": 78
     },
     {
+      "height": 120,
+      "id": "14c0501ad98975f3",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "- https://www.wgtn.ac.nz/slc/language-learning-resources/practise-online\n- https://www.heylama.com/#heylama-features\n- https://www.funeasylearn.com/",
+      "type": "text",
+      "width": 780,
+      "x": 980,
+      "y": -456
+    },
+    {
+      "height": 214,
+      "id": "2efbf86ce9c161eb",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "- no freemium content\n- no RBAC\n- account not mandatory\n- companies, universities, mobile apps showcase websites",
+      "type": "text",
+      "width": 520,
+      "x": 380,
+      "y": -500
+    },
+    {
+      "height": 80,
+      "id": "c32a031407d1b9d6",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "showcase website",
+      "type": "text",
+      "width": 400,
+      "x": -40,
+      "y": -416
+    },
+    {
+      "height": 110,
+      "id": "7b974199e6b5dede",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "hard paywall, no access to content",
+      "type": "text",
+      "width": 400,
+      "x": 520,
+      "y": -165
+    },
+    {
       "height": 170,
       "id": "39cd2dd923f8b8e0",
       "styleAttributes": {
@@ -218,8 +126,34 @@
       "text": "- https://www.pearson.com/languages\n- https://lingopie.com/",
       "type": "text",
       "width": 440,
-      "x": 1020,
-      "y": -230
+      "x": 1540,
+      "y": -220
+    },
+    {
+      "height": 220,
+      "id": "485fa14f602cc8a4",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "- no freemium content\n- no RBAC\n- subscription is mandatory to access any content\n- subscription may be required in the form of an immediate payment, or an activation code",
+      "type": "text",
+      "width": 560,
+      "x": 940,
+      "y": -220
+    },
+    {
+      "height": 260,
+      "id": "4ad57b352a70498b",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "- freemium content: regular user can access free resources and browse premium ones\n- RBAC policies\n- subscription is not mandatory to access free content\n- freemium policies may include trial period or general limited access to features",
+      "type": "text",
+      "width": 560,
+      "x": 940,
+      "y": 78
     },
     {
       "height": 200,
@@ -230,8 +164,107 @@
       "text": "- https://www.udemy.com/topic/learning-a-foreign-language/?srsltid=AfmBOoo3Yn-bsgN5xtBhSO6Oyi2I964nUrfFoQOHChptuyzxoSf5r6vo",
       "type": "text",
       "width": 620,
-      "x": 1020,
-      "y": 85
+      "x": 1540,
+      "y": 108
+    },
+    {
+      "color": "4",
+      "height": 145,
+      "id": "aaf3ae24cef08b97",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "soft paywall, with browsing or partially accessing premium content or features",
+      "type": "text",
+      "width": 400,
+      "x": 520,
+      "y": 118
+    },
+    {
+      "height": 110,
+      "id": "545613aa5cce7753",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "e-learning platform",
+      "type": "text",
+      "width": 400,
+      "x": -40,
+      "y": -2
+    },
+    {
+      "height": 60,
+      "id": "9afd260bbbd1e8c5",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "- https://preply.com/en/home",
+      "type": "text",
+      "width": 460,
+      "x": 980,
+      "y": 790
+    },
+    {
+      "height": 90,
+      "id": "3bf09de3235634fc",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "- https://www.digitaldialects.com/\n- https://www.learnalanguage.com/",
+      "type": "text",
+      "width": 520,
+      "x": 980,
+      "y": 460
+    },
+    {
+      "height": 220,
+      "id": "3f473d2f0e5e4da0",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "- no freemium content\n- no RBAC policies\n- login may be not be required\n- may include advertisements",
+      "type": "text",
+      "width": 560,
+      "x": 380,
+      "y": 440
+    },
+    {
+      "height": 140,
+      "id": "0772c2fda7630f62",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "private or public blogs, forums or websites with just free textual content",
+      "type": "text",
+      "width": 400,
+      "x": -40,
+      "y": 450
+    },
+    {
+      "height": 180,
+      "id": "daaac3d6df5389ad",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "- no freemium content\n- no RBAC policies\n- it differs from a showcase website, account is mandatory to book lessons ",
+      "type": "text",
+      "width": 560,
+      "x": 380,
+      "y": 740
+    },
+    {
+      "height": 140,
+      "id": "392497e4d4b1f4eb",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "web platform for booking online or in-person lessons",
+      "type": "text",
+      "width": 400,
+      "x": -40,
+      "y": 750
     }
   ]
 }
