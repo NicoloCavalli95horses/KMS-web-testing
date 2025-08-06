@@ -143,6 +143,7 @@
       "y": -220
     },
     {
+      "color": "4",
       "height": 260,
       "id": "4ad57b352a70498b",
       "styleAttributes": {
@@ -161,7 +162,7 @@
       "styleAttributes": {
         "border": "invisible"
       },
-      "text": "- https://www.udemy.com/topic/learning-a-foreign-language/?srsltid=AfmBOoo3Yn-bsgN5xtBhSO6Oyi2I964nUrfFoQOHChptuyzxoSf5r6vo",
+      "text": "- https://www.duolingo.com/",
       "type": "text",
       "width": 620,
       "x": 1540,
@@ -181,6 +182,7 @@
       "y": 118
     },
     {
+      "color": "4",
       "height": 110,
       "id": "545613aa5cce7753",
       "styleAttributes": {
