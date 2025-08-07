@@ -53,6 +53,24 @@
       },
       "toNode": "aaf3ae24cef08b97",
       "toSide": "left"
+    },
+    {
+      "fromNode": "a7f7235c28e0c589",
+      "fromSide": "right",
+      "id": "fe5feb3454450dea",
+      "styleAttributes": {
+      },
+      "toNode": "a40abce8c3cd4ee0",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "a7f7235c28e0c589",
+      "fromSide": "right",
+      "id": "573dfc43ca7b3253",
+      "styleAttributes": {
+      },
+      "toNode": "1e7b94ad4253c1ff",
+      "toSide": "left"
     }
   ],
   "nodes": [
@@ -267,6 +285,67 @@
       "width": 400,
       "x": -40,
       "y": 750
+    },
+    {
+      "height": 140,
+      "id": "a40abce8c3cd4ee0",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "no premium articles",
+      "type": "text",
+      "width": 400,
+      "x": -40,
+      "y": 1430
+    },
+    {
+      "color": "4",
+      "height": 140,
+      "id": "1e7b94ad4253c1ff",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "free and premium articles",
+      "type": "text",
+      "width": 400,
+      "x": -40,
+      "y": 1745
+    },
+    {
+      "height": 245,
+      "id": "a7f7235c28e0c589",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "# News websites",
+      "type": "text",
+      "width": 580,
+      "x": -900,
+      "y": 1570
+    },
+    {
+      "height": 100,
+      "id": "1a83a96f68aab75a",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "- https://www.lemonde.fr/\n- https://www.lefigaro.fr/",
+      "type": "text",
+      "width": 360,
+      "x": 420,
+      "y": 1740
+    },
+    {
+      "height": 100,
+      "id": "2f9043e6b1db966c",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "- https://edition.cnn.com/\n- https://www.20minutes.fr/",
+      "type": "text",
+      "width": 360,
+      "x": 420,
+      "y": 1440
     }
   ]
 }

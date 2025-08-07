@@ -401,6 +401,29 @@
       "y": -46
     },
     {
+      "height": 160,
+      "id": "bbaf99635a02d2cb",
+      "styleAttributes": {
+      },
+      "text": "# Comparison of JavaScript web frameworks regarding [[BFT (business flow tampering)]]",
+      "type": "text",
+      "width": 960,
+      "x": 5280,
+      "y": 1160
+    },
+    {
+      "height": 380,
+      "id": "9321762a0e5a186c",
+      "styleAttributes": {
+        "textAlign": null
+      },
+      "text": "\n| Framework | DevTool | Component name visible | Props name visible |\n| --------- | ------- | ---------------------- | ------------------ |\n| Vue       | ✅       | ✅                      | ❌                  |\n| React     | ✅       | ❌                      | ❌                  |\n| Angular   | ✅       |                        |                    |\n| Svelte    |         |                        |                    |\n| SolidJS   |         |                        |                    |\n| Qwik      |         |                        |                    |\n",
+      "type": "text",
+      "width": 790,
+      "x": 5280,
+      "y": 1400
+    },
+    {
       "height": 230,
       "id": "304b327ff7acfcfe",
       "styleAttributes": {
@@ -438,42 +461,6 @@
       "width": 360,
       "x": 1150,
       "y": 384
-    },
-    {
-      "height": 240,
-      "id": "a6416b6e99773ab5",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "\n```json\n{\n  a: 1,\n  b: true,\n  c: null,\n  d: \"premium\"\n}\n```",
-      "type": "text",
-      "width": 260,
-      "x": 1360,
-      "y": 144
-    },
-    {
-      "height": 60,
-      "id": "747986e57fe0d05c",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "list of items (premium or free)",
-      "type": "text",
-      "width": 340,
-      "x": 1340,
-      "y": -420
-    },
-    {
-      "height": 130,
-      "id": "ef84e51c1062b2d9",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "server",
-      "type": "text",
-      "width": 180,
-      "x": 1160,
-      "y": -520
     },
     {
       "height": 380,
@@ -551,6 +538,42 @@
       "y": -490
     },
     {
+      "height": 240,
+      "id": "a6416b6e99773ab5",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "\n```json\n{\n  a: 1,\n  b: true,\n  c: null,\n  d: \"premium\"\n}\n```",
+      "type": "text",
+      "width": 260,
+      "x": 1360,
+      "y": 144
+    },
+    {
+      "height": 60,
+      "id": "747986e57fe0d05c",
+      "styleAttributes": {
+        "border": "invisible"
+      },
+      "text": "list of items (premium or free)",
+      "type": "text",
+      "width": 340,
+      "x": 1340,
+      "y": -420
+    },
+    {
+      "height": 130,
+      "id": "ef84e51c1062b2d9",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "server",
+      "type": "text",
+      "width": 180,
+      "x": 1160,
+      "y": -520
+    },
+    {
       "height": 80,
       "id": "6af2c2d510d52052",
       "styleAttributes": {
@@ -609,6 +632,19 @@
       "y": -430
     },
     {
+      "height": 120,
+      "id": "f1a4c47bda95bed8",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# 4. Fully automatic test generation based on static and dynamic analysis of public resources",
+      "type": "text",
+      "width": 1880,
+      "x": 1335,
+      "y": 3980
+    },
+    {
       "height": 180,
       "id": "5c30d13e072b2550",
       "styleAttributes": {
@@ -656,43 +692,6 @@
       "width": 200,
       "x": 3215,
       "y": 3233
-    },
-    {
-      "height": 200,
-      "id": "605a671555cd495b",
-      "styleAttributes": {
-      },
-      "text": "## Benefits\n- easy to implement\n- framework independent",
-      "type": "text",
-      "width": 360,
-      "x": 1315,
-      "y": 2520
-    },
-    {
-      "height": 160,
-      "id": "ed62b86c15508b5a",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "User interaction are captured by instrumenting JavaScript (events and functions execution are logged)",
-      "type": "text",
-      "width": 360,
-      "x": 1315,
-      "y": 2275
-    },
-    {
-      "height": 120,
-      "id": "f1a4c47bda95bed8",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "# 4. Fully automatic test generation based on static and dynamic analysis of public resources",
-      "type": "text",
-      "width": 1880,
-      "x": 1335,
-      "y": 3980
     },
     {
       "height": 220,
@@ -754,43 +753,28 @@
       "y": 2980
     },
     {
-      "color": "3",
-      "height": 60,
-      "id": "594e2fbdcd4d360f",
+      "height": 200,
+      "id": "605a671555cd495b",
       "styleAttributes": {
-        "textAlign": "center"
       },
-      "text": "IN PROGRESS ⚠️",
+      "text": "## Benefits\n- easy to implement\n- framework independent",
       "type": "text",
-      "width": 160,
-      "x": 1070,
-      "y": 2080
+      "width": 360,
+      "x": 1315,
+      "y": 2520
     },
     {
-      "height": 80,
-      "id": "1e2b23927a16ab7e",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "A free content is clicked",
-      "type": "text",
-      "width": 340,
-      "x": 1795,
-      "y": 2250
-    },
-    {
-      "height": 120,
-      "id": "6a2ac4fd253174b6",
+      "height": 160,
+      "id": "ed62b86c15508b5a",
       "styleAttributes": {
         "border": "invisible",
         "textAlign": "center"
       },
-      "text": "# 2. Test generation based on manual user interaction",
+      "text": "User interaction are captured by instrumenting JavaScript (events and functions execution are logged)",
       "type": "text",
-      "width": 1880,
-      "x": 1275,
-      "y": 2080
+      "width": 360,
+      "x": 1315,
+      "y": 2275
     },
     {
       "height": 180,
@@ -866,6 +850,70 @@
       "y": 2255
     },
     {
+      "color": "2",
+      "height": 100,
+      "id": "27f4044565654348",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "divergence point in the source code is identified",
+      "type": "text",
+      "width": 240,
+      "x": 2255,
+      "y": 2290
+    },
+    {
+      "height": 200,
+      "id": "622f16fa0680b556",
+      "styleAttributes": {
+      },
+      "text": "## Limits\n- based on a manual process\n- not scalable\n- minimum input is detailed call stack",
+      "type": "text",
+      "width": 420,
+      "x": 1715,
+      "y": 2520
+    },
+    {
+      "color": "3",
+      "height": 60,
+      "id": "594e2fbdcd4d360f",
+      "styleAttributes": {
+        "textAlign": "center"
+      },
+      "text": "IN PROGRESS ⚠️",
+      "type": "text",
+      "width": 160,
+      "x": 1070,
+      "y": 2080
+    },
+    {
+      "height": 80,
+      "id": "1e2b23927a16ab7e",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": null
+      },
+      "text": "A free content is clicked",
+      "type": "text",
+      "width": 340,
+      "x": 1795,
+      "y": 2250
+    },
+    {
+      "height": 120,
+      "id": "6a2ac4fd253174b6",
+      "styleAttributes": {
+        "border": "invisible",
+        "textAlign": "center"
+      },
+      "text": "# 2. Test generation based on manual user interaction",
+      "type": "text",
+      "width": 1880,
+      "x": 1275,
+      "y": 2080
+    },
+    {
       "color": "4",
       "height": 60,
       "id": "0847ed8e81fca107",
@@ -916,6 +964,18 @@
       "y": 1360
     },
     {
+      "height": 90,
+      "id": "45abbb7bdd24a511",
+      "styleAttributes": {
+        "border": "dashed"
+      },
+      "text": "generation of new test",
+      "type": "text",
+      "width": 200,
+      "x": 2935,
+      "y": 2295
+    },
+    {
       "height": 200,
       "id": "736486ed2aba4957",
       "styleAttributes": {
@@ -937,43 +997,6 @@
       "width": 310,
       "x": 2745,
       "y": 1400
-    },
-    {
-      "height": 90,
-      "id": "45abbb7bdd24a511",
-      "styleAttributes": {
-        "border": "dashed"
-      },
-      "text": "generation of new test",
-      "type": "text",
-      "width": 200,
-      "x": 2935,
-      "y": 2295
-    },
-    {
-      "color": "2",
-      "height": 100,
-      "id": "27f4044565654348",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "divergence point in the source code is identified",
-      "type": "text",
-      "width": 240,
-      "x": 2255,
-      "y": 2290
-    },
-    {
-      "height": 200,
-      "id": "622f16fa0680b556",
-      "styleAttributes": {
-      },
-      "text": "## Limits\n- based on a manual process\n- not scalable\n- minimum input is detailed call stack",
-      "type": "text",
-      "width": 420,
-      "x": 1715,
-      "y": 2520
     },
     {
       "height": 81,
@@ -999,29 +1022,6 @@
       "width": 340,
       "x": 1900,
       "y": 1377
-    },
-    {
-      "height": 160,
-      "id": "bbaf99635a02d2cb",
-      "styleAttributes": {
-      },
-      "text": "# Comparison of JavaScript web frameworks regarding [[BFT (business flow tampering)]]",
-      "type": "text",
-      "width": 960,
-      "x": 5280,
-      "y": 1160
-    },
-    {
-      "height": 380,
-      "id": "9321762a0e5a186c",
-      "styleAttributes": {
-        "textAlign": null
-      },
-      "text": "\n| Framework | DevTool | Component name visible | Props name visible |\n| --------- | ------- | ---------------------- | ------------------ |\n| Vue       | ✅       | ✅                      | ❌                  |\n| React     | ✅       | ❌                      | ❌                  |\n| Angular   | ✅       |                        |                    |\n| Svelte    |         |                        |                    |\n| SolidJS   |         |                        |                    |\n| Qwik      |         |                        |                    |\n",
-      "type": "text",
-      "width": 790,
-      "x": 5280,
-      "y": 1400
     }
   ]
 }

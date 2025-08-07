@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/meetings/2025_07_03.canvas",
+                "file": "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
                 "viewState": {
-                  "x": 28.81245648475769,
-                  "y": 2353.60657125999,
-                  "zoom": -0.6786865080927014
+                  "x": 323.5882709200458,
+                  "y": 1695.9051822169747,
+                  "zoom": -0.3436135490002455
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "2025_07_03"
+              "title": "Language Learning Platforms"
             }
           }
         ]
@@ -189,21 +189,23 @@
   },
   "active": "231fe370bcdb6541",
   "lastOpenFiles": [
-    "04 Canvases/meetings/2025_06_25.canvas",
-    "04 Canvases/meetings/2025_06_18.canvas",
-    "04 Canvases/meetings/2025_05_21.canvas",
-    "04 Canvases/meetings/2025_05_02.canvas",
-    "04 Canvases/meetings/2025_02_20.canvas",
-    "04 Canvases/meetings/2025_02_12.canvas",
-    "04 Canvases/meetings/2025_02_06.canvas",
-    "04 Canvases/meetings/2025_04_17.canvas",
-    "04 Canvases/meetings/2025_04_10.canvas",
-    "04 Canvases/meetings/2025_04_04.canvas",
-    "04 Canvases/meetings/2025_03_27.canvas",
-    "96 Meta/References analysis.md",
-    "96 Meta/Empirical Study",
-    "96 Meta/PhD status.md",
+    "04 Canvases/mind maps/taint analysis in the web.canvas",
+    "04 Canvases/mind maps/props tampering.canvas",
+    "04 Canvases/mind maps/input analysis.canvas",
+    "04 Canvases/mind maps/front end security category.canvas",
+    "04 Canvases/mind maps/cross-domain policies.canvas",
+    "96 Meta/SLR/Tags analysis.md",
+    "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
+    "96 Meta/SLR/Paper list.md",
     "96 Meta/SLR/Reviewers response SLR (S&P).md",
+    "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
+    "04 Canvases/models/research model.canvas",
+    "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
+    "04 Canvases/mind maps/SLR/RQ3. Relationships and dependencies.canvas",
+    "04 Canvases/meetings/2025_07_03.canvas",
+    "96 Meta/References analysis.md",
+    "04 Canvases/mind maps/Empirical Study",
+    "96 Meta/PhD status.md",
     "03 References/(Saini, Gaur, et al., 2015).md",
     "02 Literature/papers/browser security/Sentinel. Securing legacy firefox extensions.md",
     "02 Literature/papers/browser security/SandFOX. secure sandboxed and isolated environment for Firefox browser.md",
@@ -224,8 +226,6 @@
     "02 Literature/papers/clickjacking/Tricking Johnny into Granting Web Permissions.md",
     "03 References/(Hazhirpasand, 2020).md",
     "02 Literature/papers/clickjacking/Security assessment of clickjacking risks in web applications. Metrics based approach.md",
-    "03 References/(Shahriar, Haddad, et al., 2015).md",
-    "02 Literature/papers/clickjacking/ProClick. a framework for testing clickjacking attacks in web applications.md",
     "97 Assets/systematic_definition.png",
     "02 Literature/papers/data disclosure",
     "97 Assets/efficiency_paradox.png",
