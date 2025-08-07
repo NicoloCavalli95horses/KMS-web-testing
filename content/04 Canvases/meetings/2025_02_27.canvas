@@ -150,17 +150,6 @@
       "y": 1489
     },
     {
-      "height": 322,
-      "id": "322c27f2960bf5a9",
-      "styleAttributes": {
-      },
-      "text": "\n\n### GUI exploitation\n- [[clickjacking]]\n- [[framejacking]]\n- [[GEMs (GUI Element Misuse)]]\n- [[BFT (business flow tampering)]]\n- [[DOM clobbering]]\n- [[prototype pollution]]\n",
-      "type": "text",
-      "width": 371,
-      "x": 3531,
-      "y": 1493
-    },
-    {
       "color": "3",
       "height": 50,
       "id": "75d53e8dcc6aae64",
@@ -219,6 +208,28 @@
       "y": 1141
     },
     {
+      "height": 117,
+      "id": "212b3a3e4427f2c1",
+      "styleAttributes": {
+      },
+      "text": "## literature selection",
+      "type": "text",
+      "width": 320,
+      "x": 480,
+      "y": 1680
+    },
+    {
+      "height": 322,
+      "id": "322c27f2960bf5a9",
+      "styleAttributes": {
+      },
+      "text": "\n\n### GUI exploitation\n- [[clickjacking]]\n- [[framejacking]]\n- [[GEMs (GUI Element Misuse)]]\n- [[BFT (business flow tampering)]]\n- [[DOM clobbering]]\n- [[prototype pollution]]\n",
+      "type": "text",
+      "width": 371,
+      "x": 3531,
+      "y": 1493
+    },
+    {
       "height": 322,
       "id": "23e960f8188e0105",
       "styleAttributes": {
@@ -263,50 +274,6 @@
       "y": 1876
     },
     {
-      "height": 117,
-      "id": "212b3a3e4427f2c1",
-      "styleAttributes": {
-      },
-      "text": "## literature selection",
-      "type": "text",
-      "width": 320,
-      "x": 480,
-      "y": 1680
-    },
-    {
-      "height": 110,
-      "id": "58af246e98bd0d32",
-      "styleAttributes": {
-      },
-      "text": "## Research questions",
-      "type": "text",
-      "width": 320,
-      "x": 480,
-      "y": 337
-    },
-    {
-      "height": 185,
-      "id": "c18f2ddf3484bffb",
-      "styleAttributes": {
-      },
-      "text": "\n### RQ3 \"When\"\n- What is the life cycle of a vulnerability?\n- Has any vulnerability been completely solved?\n- Have new vulnerabilities emerged in this field?",
-      "type": "text",
-      "width": 624,
-      "x": 980,
-      "y": 299
-    },
-    {
-      "height": 219,
-      "id": "1d421055c5316c80",
-      "styleAttributes": {
-      },
-      "text": "\n### RQ4 \"Why\"\n- What harm can these vulnerabilities cause? (=why this topic is relevant)\n- What are the common causes of these vulnerabilities? (=why these vulnerabilities occur)\n",
-      "type": "text",
-      "width": 624,
-      "x": 980,
-      "y": 500
-    },
-    {
       "height": 114,
       "id": "f73bd64cea176b8e",
       "styleAttributes": {
@@ -349,6 +316,39 @@
       "width": 427,
       "x": 4500,
       "y": 1595
+    },
+    {
+      "height": 110,
+      "id": "58af246e98bd0d32",
+      "styleAttributes": {
+      },
+      "text": "## Research questions",
+      "type": "text",
+      "width": 320,
+      "x": 480,
+      "y": 337
+    },
+    {
+      "height": 185,
+      "id": "c18f2ddf3484bffb",
+      "styleAttributes": {
+      },
+      "text": "\n### RQ3 \"When\"\n- What is the life cycle of a vulnerability?\n- Has any vulnerability been completely solved?\n- Have new vulnerabilities emerged in this field?",
+      "type": "text",
+      "width": 624,
+      "x": 980,
+      "y": 299
+    },
+    {
+      "height": 219,
+      "id": "1d421055c5316c80",
+      "styleAttributes": {
+      },
+      "text": "\n### RQ4 \"Why\"\n- What harm can these vulnerabilities cause? (=why this topic is relevant)\n- What are the common causes of these vulnerabilities? (=why these vulnerabilities occur)\n",
+      "type": "text",
+      "width": 624,
+      "x": 980,
+      "y": 500
     },
     {
       "height": 105,

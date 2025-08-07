@@ -127,17 +127,6 @@
     },
     {
       "height": 80,
-      "id": "ea7afd918027dd0d",
-      "styleAttributes": {
-      },
-      "text": "## Result analysis",
-      "type": "text",
-      "width": 280,
-      "x": -1210,
-      "y": 80
-    },
-    {
-      "height": 80,
       "id": "aba64604da989ee8",
       "styleAttributes": {
       },
@@ -157,6 +146,17 @@
       "width": 200,
       "x": -2570,
       "y": 70
+    },
+    {
+      "height": 80,
+      "id": "ea7afd918027dd0d",
+      "styleAttributes": {
+      },
+      "text": "## Result analysis",
+      "type": "text",
+      "width": 280,
+      "x": -1210,
+      "y": 80
     }
   ]
 }

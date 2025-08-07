@@ -254,6 +254,29 @@
     },
     {
       "height": 60,
+      "id": "f973089e9a4ba9d2",
+      "styleAttributes": {
+      },
+      "text": "Google, Outlook, Zimbra",
+      "type": "text",
+      "width": 300,
+      "x": 1215,
+      "y": 420
+    },
+    {
+      "color": "1",
+      "height": 100,
+      "id": "5067b0f49b2c7bbf",
+      "styleAttributes": {
+      },
+      "text": "2FA is required for accessing emails",
+      "type": "text",
+      "width": 300,
+      "x": 1215,
+      "y": 540
+    },
+    {
+      "height": 60,
       "id": "4aa8f9fd913f81a1",
       "styleAttributes": {
       },
@@ -296,17 +319,6 @@
       "width": 300,
       "x": 2335,
       "y": -320
-    },
-    {
-      "height": 60,
-      "id": "f973089e9a4ba9d2",
-      "styleAttributes": {
-      },
-      "text": "Google, Outlook, Zimbra",
-      "type": "text",
-      "width": 300,
-      "x": 1215,
-      "y": 420
     },
     {
       "color": "1",
@@ -357,17 +369,6 @@
     },
     {
       "height": 80,
-      "id": "671c153d18f21d4b",
-      "styleAttributes": {
-      },
-      "text": "create a new account",
-      "type": "text",
-      "width": 355,
-      "x": 1977,
-      "y": 240
-    },
-    {
-      "height": 80,
       "id": "8f825d31a11d76d4",
       "styleAttributes": {
       },
@@ -375,6 +376,17 @@
       "type": "text",
       "width": 320,
       "x": 1393,
+      "y": 240
+    },
+    {
+      "height": 80,
+      "id": "671c153d18f21d4b",
+      "styleAttributes": {
+      },
+      "text": "create a new account",
+      "type": "text",
+      "width": 355,
+      "x": 1977,
       "y": 240
     },
     {
@@ -410,18 +422,6 @@
       "width": 295,
       "x": 1565,
       "y": 420
-    },
-    {
-      "color": "1",
-      "height": 100,
-      "id": "5067b0f49b2c7bbf",
-      "styleAttributes": {
-      },
-      "text": "2FA is required for accessing emails",
-      "type": "text",
-      "width": 300,
-      "x": 1215,
-      "y": 540
     },
     {
       "color": "4",

@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "96 Meta/Empirical Study/Language Learning Platforms.canvas",
+                "file": "04 Canvases/meetings/2025_02_20.canvas",
                 "viewState": {
-                  "x": 827.982989250352,
-                  "y": 315.87597533892676,
-                  "zoom": -1.111111066959524
+                  "x": 7011.514185281691,
+                  "y": 944.4148223734029,
+                  "zoom": -0.19162988857898877
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Language Learning Platforms"
+              "title": "2025_02_20"
             }
           }
         ]
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 328.5026054382324
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -189,8 +189,18 @@
   },
   "active": "231fe370bcdb6541",
   "lastOpenFiles": [
+    "04 Canvases/meetings/2025_02_12.canvas",
+    "04 Canvases/meetings/2025_02_06.canvas",
+    "04 Canvases/meetings/2025_05_21.canvas",
+    "04 Canvases/meetings/2025_05_02.canvas",
+    "04 Canvases/meetings/2025_04_17.canvas",
+    "04 Canvases/meetings/2025_04_10.canvas",
+    "04 Canvases/meetings/2025_04_04.canvas",
+    "04 Canvases/meetings/2025_03_27.canvas",
+    "04 Canvases/meetings/2025_03_20.canvas",
+    "04 Canvases/meetings/2025_03_13.canvas",
+    "04 Canvases/meetings/2025_03_06.canvas",
     "96 Meta/References analysis.md",
-    "96 Meta/Empirical Study/Language Learning Platforms.canvas",
     "96 Meta/Empirical Study",
     "96 Meta/PhD status.md",
     "96 Meta/SLR/Reviewers response SLR (S&P).md",
@@ -216,19 +226,9 @@
     "02 Literature/papers/clickjacking/Security assessment of clickjacking risks in web applications. Metrics based approach.md",
     "03 References/(Shahriar, Haddad, et al., 2015).md",
     "02 Literature/papers/clickjacking/ProClick. a framework for testing clickjacking attacks in web applications.md",
-    "02 Literature/papers/clickjacking/Frametrapping the framebusting defence.md",
     "97 Assets/systematic_definition.png",
-    "05 Dataset/vulnerable webapp.canvas",
-    "04 Canvases/meetings/2025_07_10.canvas",
-    "04 Canvases/meetings/2025_07_03.canvas",
     "02 Literature/papers/data disclosure",
     "97 Assets/efficiency_paradox.png",
-    "04 Canvases/models/research model.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "04 Canvases/mind maps/cross-domain policies.canvas",
-    "04 Canvases/mind maps/front end security category.canvas",
     "97 Assets/process_golden_set_auth_cookies_calzavara.png",
     "02 Literature/papers/browser security",
     "97 Assets/burp_test_canva_pro.png",
