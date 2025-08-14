@@ -11418,7 +11418,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.6166666666666667,
-      "characterCount": 1296,
+      "characterCount": 1283,
       "nonWhitespaceCharacterCount": 1089,
       "newlineCount": 14,
       "readingTimeInMinutes": 0.6981132075471698,
@@ -11426,8 +11426,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754291310547,
-      "modifiedDate": 1754291310548,
-      "sizeInBytes": 1378,
+      "modifiedDate": 1755169828000,
+      "sizeInBytes": 1360,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.6166666666666667,
@@ -25020,7 +25020,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.016666666666666666,
-      "characterCount": 74,
+      "characterCount": 68,
       "nonWhitespaceCharacterCount": 57,
       "newlineCount": 7,
       "readingTimeInMinutes": 0.018867924528301886,
@@ -25028,8 +25028,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754291310506,
-      "modifiedDate": 1754291310506,
-      "sizeInBytes": 149,
+      "modifiedDate": 1755169796700,
+      "sizeInBytes": 138,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.016666666666666666,
@@ -25189,7 +25189,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.06333333333333334,
-      "characterCount": 165,
+      "characterCount": 158,
       "nonWhitespaceCharacterCount": 132,
       "newlineCount": 8,
       "readingTimeInMinutes": 0.07169811320754717,
@@ -25197,8 +25197,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754291310500,
-      "modifiedDate": 1754291310500,
-      "sizeInBytes": 242,
+      "modifiedDate": 1755169790230,
+      "sizeInBytes": 230,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.06333333333333334,
@@ -26006,7 +26006,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.13333333333333333,
-      "characterCount": 269,
+      "characterCount": 266,
       "nonWhitespaceCharacterCount": 224,
       "newlineCount": 4,
       "readingTimeInMinutes": 0.1509433962264151,
@@ -26014,8 +26014,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754291310497,
-      "modifiedDate": 1754291310498,
-      "sizeInBytes": 352,
+      "modifiedDate": 1755169770232,
+      "sizeInBytes": 344,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.13333333333333333,
@@ -26221,42 +26221,6 @@
         "newlineCount": 0
       }
     },
-    "00 Antilibrary/data disclosure.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 88,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.29333333333333333,
-      "characterCount": 697,
-      "nonWhitespaceCharacterCount": 581,
-      "newlineCount": 16,
-      "readingTimeInMinutes": 0.3320754716981132,
-      "linkCount": 4,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1754291310503,
-      "modifiedDate": 1754291310503,
-      "sizeInBytes": 810,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.29333333333333333,
-        "wordCount": 88,
-        "characterCount": 697,
-        "nonWhitespaceCharacterCount": 581,
-        "newlineCount": 16
-      },
-      "frontmatter": {
-        "ID": "2025-07-11-10:35",
-        "tags": [
-          "#definition",
-          "cyberSecurity",
-          "dataSecurity",
-          "dataDisclosure"
-        ]
-      }
-    },
     "00 Antilibrary/cryptomining.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -26282,41 +26246,6 @@
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0,
         "newlineCount": 0
-      }
-    },
-    "00 Antilibrary/browser fingerprinting.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 173,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.5766666666666667,
-      "characterCount": 1123,
-      "nonWhitespaceCharacterCount": 942,
-      "newlineCount": 11,
-      "readingTimeInMinutes": 0.6528301886792452,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1754291310502,
-      "modifiedDate": 1755163720321,
-      "sizeInBytes": 1216,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      },
-      "frontmatter": {
-        "ID": "2025-08-14-11:25",
-        "tags": [
-          "#definition",
-          "browserFingerprinting",
-          "userModels"
-        ]
       }
     },
     "00 Antilibrary/blockchain.md": {
@@ -26539,20 +26468,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 454,
+      "wordCount": 679,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.5133333333333334,
-      "characterCount": 2974,
-      "nonWhitespaceCharacterCount": 2482,
-      "newlineCount": 50,
-      "readingTimeInMinutes": 1.7132075471698114,
+      "pageCount": 2.263333333333333,
+      "characterCount": 4592,
+      "nonWhitespaceCharacterCount": 3861,
+      "newlineCount": 67,
+      "readingTimeInMinutes": 2.5622641509433963,
       "linkCount": 3,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1755162780650,
-      "modifiedDate": 1755165280186,
-      "sizeInBytes": 3034,
+      "modifiedDate": 1755171954744,
+      "sizeInBytes": 4652,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -26567,6 +26496,103 @@
           "paper"
         ],
         "Rank": "A"
+      }
+    },
+    "01 Notes/browser fingerprinting.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 173,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.5766666666666667,
+      "characterCount": 1125,
+      "nonWhitespaceCharacterCount": 944,
+      "newlineCount": 11,
+      "readingTimeInMinutes": 0.6528301886792452,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1754291310502,
+      "modifiedDate": 1755169813163,
+      "sizeInBytes": 1218,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-08-14-11:25",
+        "tags": [
+          "#definition",
+          "browserFingerprinting",
+          "userModels"
+        ]
+      }
+    },
+    "01 Notes/data disclosure.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 95,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.31666666666666665,
+      "characterCount": 788,
+      "nonWhitespaceCharacterCount": 667,
+      "newlineCount": 23,
+      "readingTimeInMinutes": 0.3584905660377358,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1754291310503,
+      "modifiedDate": 1755169747997,
+      "sizeInBytes": 788,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "01 Notes/link color differentiation.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 69,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.23,
+      "characterCount": 492,
+      "nonWhitespaceCharacterCount": 415,
+      "newlineCount": 11,
+      "readingTimeInMinutes": 0.26037735849056604,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1755169850338,
+      "modifiedDate": 1755170016854,
+      "sizeInBytes": 586,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-08-14-13:11",
+        "tags": [
+          "#definition",
+          "historySniffing",
+          "clientSideAttacks"
+        ]
       }
     }
   }

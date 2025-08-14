@@ -32,6 +32,16 @@ In this paper we present a method of browser extension fingerprinting that relie
 
 We designed an analysis pipeline that detects whether an extension injects CSS rules into public webpages, extracts correspondent CSS selectors and builds a set of triggers (DOM elements or hierarchies that identify the extension).
 
+Given that an extension must have the permission to inject CSS rules in a given webpage, we can have:
+- fingerprintable on any domain (ad-blockers, password managers, etc)
+- fingerprintable on some domains (YouTube extensions, Gmail, etc)
+
+Process in short
+- identify what CSS rules are injected by an extension, parsing its `css` file declared in the `manifest.json`, and using Mystique to detect dynamically added style (via `tabs.insertCSS` API)
+- create DOM triggers based on the CSS rules (DOM element that can receive that style). Up to 50 DOM elements/triggers per extension were considered
+- confirm trigger fingerprints
+- verifying collision between extensions. The triggers that produced the exact same change between two or more extensions were discarded
+
 ## Background
 
 Information about the installed extensions can be leaked because in current browser implementations the effects of CSS rules injected by extensions are visible to all JavaScript code running, regardless of their origin. 
@@ -41,13 +51,20 @@ Information about the installed extensions can be leaked because in current brow
 We analyzed more that 116K extensions from the Chrome extension store.
 - out of 6645 extensions that add style on any URL, we detected 4446 extensions
 
+Interesting facts:
+- among the top CSS properties that are most modified by extensions, there are `transformOrigin`, `webkitPerspectiveOrigin`, `webkitTransformOrigin`
+- some extension style some properties with high-precision values (e.g., 31.249px). This unique behavior has the disadvantage of uniquely identifying the extension
+- color-related style changes are not as common as we expected
+- reasons for collisions: same extension with different IDs in the Chrome store, same developer that uploaded different variant of the same extension, copies of the same extensions, shared CSS libraries between different extensions, random coincidence
+- fingerprintable web extensions are likely to stay fingerprintable in the future, due to our longitudinal study
+
 ## Countermeasure
 
 **Using a shadow DOM**: a shadow DOM is a self-contained web component. When a browser checks for the style of an element, its call is rerouted to a mirrored DOM that is free of all extension styles, deceiving any fingerprinting attempts.
 
 ## Limits
 
-
+- the implementation support web extension only for Chrome, Firefox, Opera, Edge and Brave
 
 ---
 #### References
