@@ -6,22 +6,22 @@ tags:
 ## Lack of relevant papers
 
 Prototype pollution:
-- Probe the Proto: Measuring Client-Side Prototype Pollution Vulnerabilities of One Million Real-world Websites, NDSS 2022.
-- Prototype pollution attack in NodeJS application, by O Arteau
-- Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js, USENIX 23.
-- ~~Follow My Flow: Unveiling Client-Side Prototype Pollution Gadgets from One Million Real-World Websites, IEEE Security and Privacy 2025.~~
+- [ ] Probe the Proto: Measuring Client-Side Prototype Pollution Vulnerabilities of One Million Real-world Websites, NDSS 2022.
+- [ ] Prototype pollution attack in NodeJS application, by O Arteau
+- [ ] Silent Spring: Prototype Pollution Leads to Remote Code Execution in Node.js, USENIX 23.
+- [x] Follow My Flow: Unveiling Client-Side Prototype Pollution Gadgets from One Million Real-World Websites, IEEE Security and Privacy 2025
 
 XSS:
-- ~~Don't Trust The Locals: Investigating the Prevalence of Persistent Client-Side Cross-Site Scripting in the Wild, NDSS 2019~~
-- Riding out DOMsday: Toward Detecting and Preventing DOM Cross-Site Scripting, NDSS 2018
+- [x] Don't Trust The Locals: Investigating the Prevalence of Persistent Client-Side Cross-Site Scripting in the Wild, NDSS 2019
+- [ ] Riding out DOMsday: Toward Detecting and Preventing DOM Cross-Site Scripting, NDSS 2018
 
 Logic vulnerabilities:
-- Detecting Logic Vulnerabilities in E-Commerce Applications, NDSS 2014
+- [ ] Detecting Logic Vulnerabilities in E-Commerce Applications, NDSS 2014
 
 ## Ignored browser extensions issues
 
-- DoubleX: Statically Detecting Vulnerable Data Flows in Browser Extensions at Scale, CCS 2021
-- Detecting Browser Extensions via Injected Style Sheets, USENIX 2021.
+- [ ] DoubleX: Statically Detecting Vulnerable Data Flows in Browser Extensions at Scale, CCS 2021
+- [x] Detecting Browser Extensions via Injected Style Sheets, USENIX 2021
 
 ## Why ignoring mobile web app?
 
