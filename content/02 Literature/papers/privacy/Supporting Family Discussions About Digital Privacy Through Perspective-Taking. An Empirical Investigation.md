@@ -32,8 +32,12 @@ This study wants to facilitate digital privacy discussion between parents and ch
 
 There are limitations in privacy literacy from both parents and kids.
 Parents tend to implement a one-sided communication
+
 ## Limits
 
+- sample size and sample homogeneity
+- controlled environment
+- researchers presence effect
 
 ---
 #### References
