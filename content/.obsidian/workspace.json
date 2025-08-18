@@ -8,20 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a348dd29c50f37df",
+            "id": "60e8b71c87046e93",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/models/research model.canvas",
-                "viewState": {
-                  "x": 511.2273065859714,
-                  "y": 1592.5753686554667,
-                  "zoom": -0.8883682709028816
-                }
+                "file": "02 Literature/papers/privacy/Supporting Family Discussions About Digital Privacy Through Perspective-Taking. An Empirical Investigation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "research model"
+              "icon": "lucide-file",
+              "title": "Supporting Family Discussions About Digital Privacy Through Perspective-Taking. An Empirical Investigation"
             }
           }
         ]
@@ -187,8 +185,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "a348dd29c50f37df",
+  "active": "60e8b71c87046e93",
   "lastOpenFiles": [
+    "96 Meta/References analysis.md",
+    "96 Meta/PhD status.md",
+    "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
+    "02 Literature/papers/privacy/Supporting Family Discussions About Digital Privacy Through Perspective-Taking. An Empirical Investigation.md",
+    "03 References/(Wen, Liu, et al., 2025).md",
+    "03 References/(Hou, Yiwel, Guo, Lihua, Zhou, et al., 2024).md",
+    "04 Canvases/models/research model.canvas",
     "02 Literature/papers/browser security/Fingerprinting in style. Detecting browser extensions via injected style sheets.md",
     "01 Notes/link color differentiation.md",
     "01 Notes/content spoofing.md",
@@ -210,11 +215,6 @@
     "00 Antilibrary/serviceability or maintenance testing.md",
     "00 Antilibrary/RNN (recurrent neural network).md",
     "00 Antilibrary/reliability testing.md",
-    "00 Antilibrary/relational databases.md",
-    "00 Antilibrary/reflection (Java).md",
-    "00 Antilibrary/recovery testing.md",
-    "00 Antilibrary/recommendation engine.md",
-    "00 Antilibrary/Q-learning.md",
     "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
     "04 Canvases/mind maps/taint analysis in the web.canvas",
     "04 Canvases/mind maps/props tampering.canvas",
@@ -222,9 +222,7 @@
     "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/mind maps/cross-domain policies.canvas",
     "04 Canvases/mind maps/ideas/Classifying react components to detect auth vulnerability.canvas",
-    "04 Canvases/models/research model.canvas",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
-    "04 Canvases/mind maps/SLR/RQ3. Relationships and dependencies.canvas",
     "04 Canvases/mind maps/Empirical Study",
     "97 Assets/systematic_definition.png",
     "02 Literature/papers/data disclosure",
