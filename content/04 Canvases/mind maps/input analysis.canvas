@@ -1,829 +1,714 @@
 {
-  "edges": [
-    {
-      "fromNode": "f1c139b0ea5a2be1",
-      "fromSide": "right",
-      "id": "e8511757d147ce67",
-      "styleAttributes": {
-      },
-      "toNode": "cd3a1dc3bcc82be0",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "103e97343c0f4db2",
-      "fromSide": "right",
-      "id": "b56c77e1efdc0fec",
-      "styleAttributes": {
-      },
-      "toNode": "f1c139b0ea5a2be1",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "d0eeefe36b6597ab",
-      "fromSide": "right",
-      "id": "11cc5ac6161a60f7",
-      "styleAttributes": {
-      },
-      "toNode": "103e97343c0f4db2",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "3bc2221067abbad8",
-      "fromSide": "right",
-      "id": "33856af075d33b0f",
-      "styleAttributes": {
-      },
-      "toNode": "103e97343c0f4db2",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "7101099b0010b5e9",
-      "fromSide": "right",
-      "id": "5b44671560842502",
-      "styleAttributes": {
-      },
-      "toNode": "103e97343c0f4db2",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "eb5404add9c26021",
-      "fromSide": "right",
-      "id": "9d40e68b1a13b75d",
-      "styleAttributes": {
-      },
-      "toNode": "3bc2221067abbad8",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "c17ff275d8bdd2c4",
-      "fromSide": "right",
-      "id": "9319f8307a5b5795",
-      "styleAttributes": {
-      },
-      "toNode": "3bc2221067abbad8",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "3e8217854d1590ae",
-      "fromSide": "right",
-      "id": "08e54fc198e36370",
-      "styleAttributes": {
-      },
-      "toNode": "41812e4bcee336ca",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "45713b1651ad3a13",
-      "fromSide": "right",
-      "id": "1ab0b0a63f8a5d95",
-      "styleAttributes": {
-      },
-      "toNode": "41812e4bcee336ca",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "07f4d9baa77c7408",
-      "fromSide": "right",
-      "id": "377767f2d923b249",
-      "styleAttributes": {
-      },
-      "toNode": "41812e4bcee336ca",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "6c8640f20d1897ec",
-      "fromSide": "right",
-      "id": "19f459cb0d66a98c",
-      "styleAttributes": {
-      },
-      "toNode": "41812e4bcee336ca",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "41812e4bcee336ca",
-      "fromSide": "right",
-      "id": "3a69af5b2593332c",
-      "styleAttributes": {
-      },
-      "toNode": "d0eeefe36b6597ab",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "20aca1848ba5d504",
-      "fromSide": "right",
-      "id": "1e1888160a4a73c2",
-      "styleAttributes": {
-      },
-      "toNode": "d0eeefe36b6597ab",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "b433ae9b7f54f67c",
-      "fromSide": "right",
-      "id": "c1817389836769ce",
-      "styleAttributes": {
-      },
-      "toNode": "b2c7885bdf9e4897",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "eee8a191debffbf3",
-      "fromSide": "right",
-      "id": "8682d56ea9dda9d6",
-      "styleAttributes": {
-      },
-      "toNode": "b2c7885bdf9e4897",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "c031797d2f8b1aff",
-      "fromSide": "right",
-      "id": "f444f18b28dc6c15",
-      "styleAttributes": {
-      },
-      "toNode": "b2c7885bdf9e4897",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "b2c7885bdf9e4897",
-      "fromSide": "right",
-      "id": "2349569c1b28ef3d",
-      "styleAttributes": {
-      },
-      "toNode": "20aca1848ba5d504",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "27f8ce3305122edf",
-      "fromSide": "right",
-      "id": "c1123fe694894e8f",
-      "styleAttributes": {
-      },
-      "toNode": "2fbf67562ddf823b",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "8bb81a618a570ac0",
-      "fromSide": "right",
-      "id": "cee3d80713385cdd",
-      "styleAttributes": {
-      },
-      "toNode": "2fbf67562ddf823b",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "ee1660fe3cf3f004",
-      "fromSide": "right",
-      "id": "a4d2576a3be11394",
-      "styleAttributes": {
-      },
-      "toNode": "2fbf67562ddf823b",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "2fbf67562ddf823b",
-      "fromSide": "right",
-      "id": "b30faa24e6a6293c",
-      "styleAttributes": {
-      },
-      "toNode": "20aca1848ba5d504",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "f999b553ee494e19",
-      "fromSide": "right",
-      "id": "742b94792183cf40",
-      "styleAttributes": {
-      },
-      "toNode": "103e97343c0f4db2",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "a4df6e7d0c634ab5",
-      "fromSide": "right",
-      "id": "4b7b9d721441df85",
-      "styleAttributes": {
-      },
-      "toNode": "103e97343c0f4db2",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "03440741df214914",
-      "fromSide": "right",
-      "id": "9ae9e0c89b3243dd",
-      "styleAttributes": {
-      },
-      "toNode": "a4df6e7d0c634ab5",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "864722978027f2e8",
-      "fromSide": "right",
-      "id": "87fb220f5fd13aa6",
-      "styleAttributes": {
-      },
-      "toNode": "a4df6e7d0c634ab5",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "7f56b6c60d385e59",
-      "fromSide": "right",
-      "id": "400c59c5ae213e8a",
-      "styleAttributes": {
-      },
-      "toNode": "f999b553ee494e19",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "a6c364957f0c4ee2",
-      "fromSide": "right",
-      "id": "6849ec6b8e7729d1",
-      "styleAttributes": {
-      },
-      "toNode": "f999b553ee494e19",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "2d1e51b142ce2851",
-      "fromSide": "right",
-      "id": "69e70959a643331c",
-      "styleAttributes": {
-      },
-      "toNode": "a4df6e7d0c634ab5",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "bfa252790dfbae0c",
-      "fromSide": "right",
-      "id": "c5441422b6c1dcce",
-      "styleAttributes": {
-      },
-      "toNode": "a4df6e7d0c634ab5",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "61b512d1ca8b3ed7",
-      "fromSide": "right",
-      "id": "5aea286b696bb6cd",
-      "styleAttributes": {
-      },
-      "toNode": "7101099b0010b5e9",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "c55a7cef3cfbe5c6",
-      "fromSide": "right",
-      "id": "76e240d7d58bfe84",
-      "styleAttributes": {
-      },
-      "toNode": "7101099b0010b5e9",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "f9175cbd59fa45bc",
-      "fromSide": "right",
-      "id": "7ac151949c591d1d",
-      "styleAttributes": {
-      },
-      "toNode": "f999b553ee494e19",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "dea65389daf62501",
-      "fromSide": "right",
-      "id": "4c726d108ae212a6",
-      "styleAttributes": {
-      },
-      "toNode": "f999b553ee494e19",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "8c8c40ed6f80fc6c",
-      "fromSide": "right",
-      "id": "711eceaee8a1e387",
-      "styleAttributes": {
-      },
-      "toNode": "f999b553ee494e19",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "06650cf8da2c8dbb",
-      "fromSide": "right",
-      "id": "4c6adc4eafb3acbe",
-      "styleAttributes": {
-      },
-      "toNode": "9fcdabfaf81a9d36",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "ee9d3c680eafb5a6",
-      "fromSide": "right",
-      "id": "37e9513285ad5e4a",
-      "styleAttributes": {
-      },
-      "toNode": "9fcdabfaf81a9d36",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "fc3fbf1f048f32f6",
-      "fromSide": "right",
-      "id": "b8867dca60db7411",
-      "styleAttributes": {
-      },
-      "toNode": "9fcdabfaf81a9d36",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "9fcdabfaf81a9d36",
-      "fromSide": "right",
-      "id": "150d43d1d98e151d",
-      "styleAttributes": {
-      },
-      "toNode": "103e97343c0f4db2",
-      "toSide": "left"
-    }
-  ],
-  "nodes": [
-    {
-      "height": 70,
-      "id": "103e97343c0f4db2",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "## input",
-      "type": "text",
-      "width": 140,
-      "x": -120,
-      "y": -33
-    },
-    {
-      "height": 70,
-      "id": "cd3a1dc3bcc82be0",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "## output",
-      "type": "text",
-      "width": 160,
-      "x": 520,
-      "y": -34
-    },
-    {
-      "height": 346,
-      "id": "f1c139b0ea5a2be1",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "\n# web application",
-      "type": "text",
-      "width": 360,
-      "x": 80,
-      "y": -172
-    },
-    {
-      "height": 60,
-      "id": "3e8217854d1590ae",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "file upload",
-      "type": "text",
-      "width": 260,
-      "x": -1900,
-      "y": -1928
-    },
-    {
-      "height": 60,
-      "id": "45713b1651ad3a13",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "text input",
-      "type": "text",
-      "width": 260,
-      "x": -1900,
-      "y": -1841
-    },
-    {
-      "height": 100,
-      "id": "41812e4bcee336ca",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "### content input",
-      "type": "text",
-      "width": 300,
-      "x": -1540,
-      "y": -1797
-    },
-    {
-      "height": 60,
-      "id": "07f4d9baa77c7408",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "image input",
-      "type": "text",
-      "width": 260,
-      "x": -1900,
-      "y": -1757
-    },
-    {
-      "height": 60,
-      "id": "6c8640f20d1897ec",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "audio/video input",
-      "type": "text",
-      "width": 260,
-      "x": -1900,
-      "y": -1667
-    },
-    {
-      "height": 131,
-      "id": "864722978027f2e8",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "third-party content ([[CDN (Content Delivery Network)]])",
-      "type": "text",
-      "width": 280,
-      "x": -1540,
-      "y": 356
-    },
-    {
-      "height": 60,
-      "id": "f9175cbd59fa45bc",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "HTTP header",
-      "type": "text",
-      "width": 280,
-      "x": -1540,
-      "y": 712
-    },
-    {
-      "height": 60,
-      "id": "7f56b6c60d385e59",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "[[cookie]]",
-      "type": "text",
-      "width": 280,
-      "x": -1540,
-      "y": 812
-    },
-    {
-      "height": 75,
-      "id": "bfa252790dfbae0c",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "push notification",
-      "type": "text",
-      "width": 280,
-      "x": -1540,
-      "y": 32
-    },
-    {
-      "height": 75,
-      "id": "2d1e51b142ce2851",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "webhooks",
-      "type": "text",
-      "width": 280,
-      "x": -1540,
-      "y": 137
-    },
-    {
-      "height": 100,
-      "id": "a4df6e7d0c634ab5",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "## embedded content",
-      "type": "text",
-      "width": 340,
-      "x": -1010,
-      "y": 195
-    },
-    {
-      "height": 75,
-      "id": "03440741df214914",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "iframe",
-      "type": "text",
-      "width": 280,
-      "x": -1540,
-      "y": 257
-    },
-    {
-      "height": 60,
-      "id": "b433ae9b7f54f67c",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "mouse",
-      "type": "text",
-      "width": 260,
-      "x": -2240,
-      "y": -1434
-    },
-    {
-      "height": 60,
-      "id": "eee8a191debffbf3",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "touch interface",
-      "type": "text",
-      "width": 260,
-      "x": -2240,
-      "y": -1353
-    },
-    {
-      "height": 60,
-      "id": "c031797d2f8b1aff",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "voice interface",
-      "type": "text",
-      "width": 260,
-      "x": -2240,
-      "y": -1273
-    },
-    {
-      "height": 60,
-      "id": "27f8ce3305122edf",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "drag and drop",
-      "type": "text",
-      "width": 260,
-      "x": -2240,
-      "y": -1088
-    },
-    {
-      "height": 60,
-      "id": "8bb81a618a570ac0",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "zoom in/zoom out",
-      "type": "text",
-      "width": 260,
-      "x": -2240,
-      "y": -1012
-    },
-    {
-      "height": 60,
-      "id": "ee1660fe3cf3f004",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "copy and paste",
-      "type": "text",
-      "width": 260,
-      "x": -2240,
-      "y": -927
-    },
-    {
-      "height": 60,
-      "id": "b2c7885bdf9e4897",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "direct interaction",
-      "type": "text",
-      "width": 260,
-      "x": -1900,
-      "y": -1353
-    },
-    {
-      "height": 110,
-      "id": "2fbf67562ddf823b",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "advanced interaction (multimodal or multiphase)",
-      "type": "text",
-      "width": 260,
-      "x": -1900,
-      "y": -1037
-    },
-    {
-      "height": 100,
-      "id": "20aca1848ba5d504",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "### interacting with the system",
-      "type": "text",
-      "width": 300,
-      "x": -1540,
-      "y": -1188
-    },
-    {
-      "height": 60,
-      "id": "d0eeefe36b6597ab",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "## User input",
-      "type": "text",
-      "width": 340,
-      "x": -1000,
-      "y": -1464
-    },
-    {
-      "height": 60,
-      "id": "a6c364957f0c4ee2",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "[[JWT (JSON Web Token)]]",
-      "type": "text",
-      "width": 280,
-      "x": -1540,
-      "y": 922
-    },
-    {
-      "height": 120,
-      "id": "dea65389daf62501",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "[[Web Storage API (localStorage, sessionStorage)]]",
-      "type": "text",
-      "width": 280,
-      "x": -1540,
-      "y": 1012
-    },
-    {
-      "height": 60,
-      "id": "8c8c40ed6f80fc6c",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "[[IndexedDB]]",
-      "type": "text",
-      "width": 280,
-      "x": -1540,
-      "y": 1172
-    },
-    {
-      "height": 75,
-      "id": "06650cf8da2c8dbb",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "DOM interaction",
-      "type": "text",
-      "width": 280,
-      "x": -1540,
-      "y": 1450
-    },
-    {
-      "height": 75,
-      "id": "ee9d3c680eafb5a6",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "JS manipulation",
-      "type": "text",
-      "width": 280,
-      "x": -1540,
-      "y": 1555
-    },
-    {
-      "height": 75,
-      "id": "fc3fbf1f048f32f6",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "local storage manipulation",
-      "type": "text",
-      "width": 280,
-      "x": -1540,
-      "y": 1675
-    },
-    {
-      "height": 60,
-      "id": "afb1507611a7e452",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": "center"
-      },
-      "text": "send by the client as input data",
-      "type": "text",
-      "width": 360,
-      "x": -1010,
-      "y": 1022
-    },
-    {
-      "height": 100,
-      "id": "f999b553ee494e19",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "## metadata",
-      "type": "text",
-      "width": 340,
-      "x": -1000,
-      "y": 922
-    },
-    {
-      "height": 100,
-      "id": "9fcdabfaf81a9d36",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "## browser extension",
-      "type": "text",
-      "width": 340,
-      "x": -1000,
-      "y": 1555
-    },
-    {
-      "height": 60,
-      "id": "61b512d1ca8b3ed7",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "API Rest/GraphQL/SOAP",
-      "type": "text",
-      "width": 280,
-      "x": -1540,
-      "y": -319
-    },
-    {
-      "height": 60,
-      "id": "7101099b0010b5e9",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "## software interface",
-      "type": "text",
-      "width": 340,
-      "x": -1010,
-      "y": -259
-    },
-    {
-      "height": 75,
-      "id": "c55a7cef3cfbe5c6",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "Web Sockets",
-      "type": "text",
-      "width": 280,
-      "x": -1540,
-      "y": -229
-    },
-    {
-      "height": 95,
-      "id": "eb5404add9c26021",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "query strings\n(`?search=cat`)",
-      "type": "text",
-      "width": 280,
-      "x": -1550,
-      "y": -736
-    },
-    {
-      "height": 81,
-      "id": "c17ff275d8bdd2c4",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "URL parameter (`/username/profile`)",
-      "type": "text",
-      "width": 280,
-      "x": -1550,
-      "y": -617
-    },
-    {
-      "height": 60,
-      "id": "3bc2221067abbad8",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "## URL manipulation",
-      "type": "text",
-      "width": 340,
-      "x": -1000,
-      "y": -677
-    }
-  ]
+	"edges":[
+		{
+			"id":"e8511757d147ce67",
+			"styleAttributes":{},
+			"fromNode":"f1c139b0ea5a2be1",
+			"fromSide":"right",
+			"toNode":"cd3a1dc3bcc82be0",
+			"toSide":"left"
+		},
+		{
+			"id":"b56c77e1efdc0fec",
+			"styleAttributes":{},
+			"fromNode":"103e97343c0f4db2",
+			"fromSide":"right",
+			"toNode":"f1c139b0ea5a2be1",
+			"toSide":"left"
+		},
+		{
+			"id":"11cc5ac6161a60f7",
+			"styleAttributes":{},
+			"fromNode":"d0eeefe36b6597ab",
+			"fromSide":"right",
+			"toNode":"103e97343c0f4db2",
+			"toSide":"left"
+		},
+		{
+			"id":"33856af075d33b0f",
+			"styleAttributes":{},
+			"fromNode":"3bc2221067abbad8",
+			"fromSide":"right",
+			"toNode":"103e97343c0f4db2",
+			"toSide":"left"
+		},
+		{
+			"id":"5b44671560842502",
+			"styleAttributes":{},
+			"fromNode":"7101099b0010b5e9",
+			"fromSide":"right",
+			"toNode":"103e97343c0f4db2",
+			"toSide":"left"
+		},
+		{
+			"id":"9d40e68b1a13b75d",
+			"styleAttributes":{},
+			"fromNode":"eb5404add9c26021",
+			"fromSide":"right",
+			"toNode":"3bc2221067abbad8",
+			"toSide":"left"
+		},
+		{
+			"id":"9319f8307a5b5795",
+			"styleAttributes":{},
+			"fromNode":"c17ff275d8bdd2c4",
+			"fromSide":"right",
+			"toNode":"3bc2221067abbad8",
+			"toSide":"left"
+		},
+		{
+			"id":"08e54fc198e36370",
+			"styleAttributes":{},
+			"fromNode":"3e8217854d1590ae",
+			"fromSide":"right",
+			"toNode":"41812e4bcee336ca",
+			"toSide":"left"
+		},
+		{
+			"id":"1ab0b0a63f8a5d95",
+			"styleAttributes":{},
+			"fromNode":"45713b1651ad3a13",
+			"fromSide":"right",
+			"toNode":"41812e4bcee336ca",
+			"toSide":"left"
+		},
+		{
+			"id":"377767f2d923b249",
+			"styleAttributes":{},
+			"fromNode":"07f4d9baa77c7408",
+			"fromSide":"right",
+			"toNode":"41812e4bcee336ca",
+			"toSide":"left"
+		},
+		{
+			"id":"19f459cb0d66a98c",
+			"styleAttributes":{},
+			"fromNode":"6c8640f20d1897ec",
+			"fromSide":"right",
+			"toNode":"41812e4bcee336ca",
+			"toSide":"left"
+		},
+		{
+			"id":"3a69af5b2593332c",
+			"styleAttributes":{},
+			"fromNode":"41812e4bcee336ca",
+			"fromSide":"right",
+			"toNode":"d0eeefe36b6597ab",
+			"toSide":"left"
+		},
+		{
+			"id":"1e1888160a4a73c2",
+			"styleAttributes":{},
+			"fromNode":"20aca1848ba5d504",
+			"fromSide":"right",
+			"toNode":"d0eeefe36b6597ab",
+			"toSide":"left"
+		},
+		{
+			"id":"c1817389836769ce",
+			"styleAttributes":{},
+			"fromNode":"b433ae9b7f54f67c",
+			"fromSide":"right",
+			"toNode":"b2c7885bdf9e4897",
+			"toSide":"left"
+		},
+		{
+			"id":"8682d56ea9dda9d6",
+			"styleAttributes":{},
+			"fromNode":"eee8a191debffbf3",
+			"fromSide":"right",
+			"toNode":"b2c7885bdf9e4897",
+			"toSide":"left"
+		},
+		{
+			"id":"f444f18b28dc6c15",
+			"styleAttributes":{},
+			"fromNode":"c031797d2f8b1aff",
+			"fromSide":"right",
+			"toNode":"b2c7885bdf9e4897",
+			"toSide":"left"
+		},
+		{
+			"id":"2349569c1b28ef3d",
+			"styleAttributes":{},
+			"fromNode":"b2c7885bdf9e4897",
+			"fromSide":"right",
+			"toNode":"20aca1848ba5d504",
+			"toSide":"left"
+		},
+		{
+			"id":"c1123fe694894e8f",
+			"styleAttributes":{},
+			"fromNode":"27f8ce3305122edf",
+			"fromSide":"right",
+			"toNode":"2fbf67562ddf823b",
+			"toSide":"left"
+		},
+		{
+			"id":"cee3d80713385cdd",
+			"styleAttributes":{},
+			"fromNode":"8bb81a618a570ac0",
+			"fromSide":"right",
+			"toNode":"2fbf67562ddf823b",
+			"toSide":"left"
+		},
+		{
+			"id":"a4d2576a3be11394",
+			"styleAttributes":{},
+			"fromNode":"ee1660fe3cf3f004",
+			"fromSide":"right",
+			"toNode":"2fbf67562ddf823b",
+			"toSide":"left"
+		},
+		{
+			"id":"b30faa24e6a6293c",
+			"styleAttributes":{},
+			"fromNode":"2fbf67562ddf823b",
+			"fromSide":"right",
+			"toNode":"20aca1848ba5d504",
+			"toSide":"left"
+		},
+		{
+			"id":"742b94792183cf40",
+			"styleAttributes":{},
+			"fromNode":"f999b553ee494e19",
+			"fromSide":"right",
+			"toNode":"103e97343c0f4db2",
+			"toSide":"left"
+		},
+		{
+			"id":"4b7b9d721441df85",
+			"styleAttributes":{},
+			"fromNode":"a4df6e7d0c634ab5",
+			"fromSide":"right",
+			"toNode":"103e97343c0f4db2",
+			"toSide":"left"
+		},
+		{
+			"id":"9ae9e0c89b3243dd",
+			"styleAttributes":{},
+			"fromNode":"03440741df214914",
+			"fromSide":"right",
+			"toNode":"a4df6e7d0c634ab5",
+			"toSide":"left"
+		},
+		{
+			"id":"87fb220f5fd13aa6",
+			"styleAttributes":{},
+			"fromNode":"864722978027f2e8",
+			"fromSide":"right",
+			"toNode":"a4df6e7d0c634ab5",
+			"toSide":"left"
+		},
+		{
+			"id":"400c59c5ae213e8a",
+			"styleAttributes":{},
+			"fromNode":"7f56b6c60d385e59",
+			"fromSide":"right",
+			"toNode":"f999b553ee494e19",
+			"toSide":"left"
+		},
+		{
+			"id":"6849ec6b8e7729d1",
+			"styleAttributes":{},
+			"fromNode":"a6c364957f0c4ee2",
+			"fromSide":"right",
+			"toNode":"f999b553ee494e19",
+			"toSide":"left"
+		},
+		{
+			"id":"69e70959a643331c",
+			"styleAttributes":{},
+			"fromNode":"2d1e51b142ce2851",
+			"fromSide":"right",
+			"toNode":"a4df6e7d0c634ab5",
+			"toSide":"left"
+		},
+		{
+			"id":"c5441422b6c1dcce",
+			"styleAttributes":{},
+			"fromNode":"bfa252790dfbae0c",
+			"fromSide":"right",
+			"toNode":"a4df6e7d0c634ab5",
+			"toSide":"left"
+		},
+		{
+			"id":"5aea286b696bb6cd",
+			"styleAttributes":{},
+			"fromNode":"61b512d1ca8b3ed7",
+			"fromSide":"right",
+			"toNode":"7101099b0010b5e9",
+			"toSide":"left"
+		},
+		{
+			"id":"76e240d7d58bfe84",
+			"styleAttributes":{},
+			"fromNode":"c55a7cef3cfbe5c6",
+			"fromSide":"right",
+			"toNode":"7101099b0010b5e9",
+			"toSide":"left"
+		},
+		{
+			"id":"7ac151949c591d1d",
+			"styleAttributes":{},
+			"fromNode":"f9175cbd59fa45bc",
+			"fromSide":"right",
+			"toNode":"f999b553ee494e19",
+			"toSide":"left"
+		},
+		{
+			"id":"4c726d108ae212a6",
+			"styleAttributes":{},
+			"fromNode":"dea65389daf62501",
+			"fromSide":"right",
+			"toNode":"f999b553ee494e19",
+			"toSide":"left"
+		},
+		{
+			"id":"711eceaee8a1e387",
+			"styleAttributes":{},
+			"fromNode":"8c8c40ed6f80fc6c",
+			"fromSide":"right",
+			"toNode":"f999b553ee494e19",
+			"toSide":"left"
+		},
+		{
+			"id":"4c6adc4eafb3acbe",
+			"styleAttributes":{},
+			"fromNode":"06650cf8da2c8dbb",
+			"fromSide":"right",
+			"toNode":"9fcdabfaf81a9d36",
+			"toSide":"left"
+		},
+		{
+			"id":"37e9513285ad5e4a",
+			"styleAttributes":{},
+			"fromNode":"ee9d3c680eafb5a6",
+			"fromSide":"right",
+			"toNode":"9fcdabfaf81a9d36",
+			"toSide":"left"
+		},
+		{
+			"id":"b8867dca60db7411",
+			"styleAttributes":{},
+			"fromNode":"fc3fbf1f048f32f6",
+			"fromSide":"right",
+			"toNode":"9fcdabfaf81a9d36",
+			"toSide":"left"
+		},
+		{
+			"id":"150d43d1d98e151d",
+			"styleAttributes":{},
+			"fromNode":"9fcdabfaf81a9d36",
+			"fromSide":"right",
+			"toNode":"103e97343c0f4db2",
+			"toSide":"left"
+		}
+	],
+	"nodes":[
+		{
+			"id":"103e97343c0f4db2",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"## input",
+			"type":"text",
+			"x":-120,
+			"y":-33,
+			"width":140,
+			"height":70
+		},
+		{
+			"id":"cd3a1dc3bcc82be0",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"## output",
+			"type":"text",
+			"x":520,
+			"y":-34,
+			"width":160,
+			"height":70
+		},
+		{
+			"id":"f1c139b0ea5a2be1",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"\n# web application",
+			"type":"text",
+			"x":80,
+			"y":-172,
+			"width":360,
+			"height":346
+		},
+		{
+			"id":"3e8217854d1590ae",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"file upload",
+			"type":"text",
+			"x":-1900,
+			"y":-1928,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"45713b1651ad3a13",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"text input",
+			"type":"text",
+			"x":-1900,
+			"y":-1841,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"41812e4bcee336ca",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"### content input",
+			"type":"text",
+			"x":-1540,
+			"y":-1797,
+			"width":300,
+			"height":100
+		},
+		{
+			"id":"07f4d9baa77c7408",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"image input",
+			"type":"text",
+			"x":-1900,
+			"y":-1757,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"6c8640f20d1897ec",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"audio/video input",
+			"type":"text",
+			"x":-1900,
+			"y":-1667,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"864722978027f2e8",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"third-party content ([[CDN (Content Delivery Network)]])",
+			"type":"text",
+			"x":-1540,
+			"y":356,
+			"width":280,
+			"height":131
+		},
+		{
+			"id":"f9175cbd59fa45bc",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"HTTP header",
+			"type":"text",
+			"x":-1540,
+			"y":712,
+			"width":280,
+			"height":60
+		},
+		{
+			"id":"7f56b6c60d385e59",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"[[cookie]]",
+			"type":"text",
+			"x":-1540,
+			"y":812,
+			"width":280,
+			"height":60
+		},
+		{
+			"id":"bfa252790dfbae0c",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"push notification",
+			"type":"text",
+			"x":-1540,
+			"y":32,
+			"width":280,
+			"height":75
+		},
+		{
+			"id":"2d1e51b142ce2851",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"webhooks",
+			"type":"text",
+			"x":-1540,
+			"y":137,
+			"width":280,
+			"height":75
+		},
+		{
+			"id":"a4df6e7d0c634ab5",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"## embedded content",
+			"type":"text",
+			"x":-1010,
+			"y":195,
+			"width":340,
+			"height":100
+		},
+		{
+			"id":"03440741df214914",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"iframe",
+			"type":"text",
+			"x":-1540,
+			"y":257,
+			"width":280,
+			"height":75
+		},
+		{
+			"id":"b433ae9b7f54f67c",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"mouse",
+			"type":"text",
+			"x":-2240,
+			"y":-1434,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"eee8a191debffbf3",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"touch interface",
+			"type":"text",
+			"x":-2240,
+			"y":-1353,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"c031797d2f8b1aff",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"voice interface",
+			"type":"text",
+			"x":-2240,
+			"y":-1273,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"27f8ce3305122edf",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"drag and drop",
+			"type":"text",
+			"x":-2240,
+			"y":-1088,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"8bb81a618a570ac0",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"zoom in/zoom out",
+			"type":"text",
+			"x":-2240,
+			"y":-1012,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"ee1660fe3cf3f004",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"copy and paste",
+			"type":"text",
+			"x":-2240,
+			"y":-927,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"b2c7885bdf9e4897",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"direct interaction",
+			"type":"text",
+			"x":-1900,
+			"y":-1353,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"2fbf67562ddf823b",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"advanced interaction (multimodal or multiphase)",
+			"type":"text",
+			"x":-1900,
+			"y":-1037,
+			"width":260,
+			"height":110
+		},
+		{
+			"id":"20aca1848ba5d504",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"### interacting with the system",
+			"type":"text",
+			"x":-1540,
+			"y":-1188,
+			"width":300,
+			"height":100
+		},
+		{
+			"id":"d0eeefe36b6597ab",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"## User input",
+			"type":"text",
+			"x":-1000,
+			"y":-1464,
+			"width":340,
+			"height":60
+		},
+		{
+			"id":"a6c364957f0c4ee2",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"[[JWT (JSON Web Token)]]",
+			"type":"text",
+			"x":-1540,
+			"y":922,
+			"width":280,
+			"height":60
+		},
+		{
+			"id":"dea65389daf62501",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"[[Web Storage API (localStorage, sessionStorage)]]",
+			"type":"text",
+			"x":-1540,
+			"y":1012,
+			"width":280,
+			"height":120
+		},
+		{
+			"id":"8c8c40ed6f80fc6c",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"[[IndexedDB]]",
+			"type":"text",
+			"x":-1540,
+			"y":1172,
+			"width":280,
+			"height":60
+		},
+		{
+			"id":"06650cf8da2c8dbb",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"DOM interaction",
+			"type":"text",
+			"x":-1540,
+			"y":1450,
+			"width":280,
+			"height":75
+		},
+		{
+			"id":"ee9d3c680eafb5a6",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"JS manipulation",
+			"type":"text",
+			"x":-1540,
+			"y":1555,
+			"width":280,
+			"height":75
+		},
+		{
+			"id":"fc3fbf1f048f32f6",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"local storage manipulation",
+			"type":"text",
+			"x":-1540,
+			"y":1675,
+			"width":280,
+			"height":75
+		},
+		{
+			"id":"afb1507611a7e452",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"text":"send by the client as input data",
+			"type":"text",
+			"x":-1010,
+			"y":1022,
+			"width":360,
+			"height":60
+		},
+		{
+			"id":"f999b553ee494e19",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"## metadata",
+			"type":"text",
+			"x":-1000,
+			"y":922,
+			"width":340,
+			"height":100
+		},
+		{
+			"id":"9fcdabfaf81a9d36",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"## browser extension",
+			"type":"text",
+			"x":-1000,
+			"y":1555,
+			"width":340,
+			"height":100
+		},
+		{
+			"id":"61b512d1ca8b3ed7",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"API Rest/GraphQL/SOAP",
+			"type":"text",
+			"x":-1540,
+			"y":-319,
+			"width":280,
+			"height":60
+		},
+		{
+			"id":"7101099b0010b5e9",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"## software interface",
+			"type":"text",
+			"x":-1010,
+			"y":-259,
+			"width":340,
+			"height":60
+		},
+		{
+			"id":"c55a7cef3cfbe5c6",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"Web Sockets",
+			"type":"text",
+			"x":-1540,
+			"y":-229,
+			"width":280,
+			"height":75
+		},
+		{
+			"id":"eb5404add9c26021",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"query strings\n(`?search=cat`)",
+			"type":"text",
+			"x":-1550,
+			"y":-736,
+			"width":280,
+			"height":95
+		},
+		{
+			"id":"c17ff275d8bdd2c4",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"URL parameter (`/username/profile`)",
+			"type":"text",
+			"x":-1550,
+			"y":-617,
+			"width":280,
+			"height":81
+		},
+		{
+			"id":"3bc2221067abbad8",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"## URL manipulation",
+			"type":"text",
+			"x":-1000,
+			"y":-677,
+			"width":340,
+			"height":60
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
 }

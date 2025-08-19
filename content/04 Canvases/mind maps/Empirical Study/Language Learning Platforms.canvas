@@ -1,351 +1,313 @@
 {
-  "edges": [
-    {
-      "fromNode": "8d70b597885500ef",
-      "fromSide": "right",
-      "id": "403afa71d7e2d31c",
-      "styleAttributes": {
-      },
-      "toNode": "c32a031407d1b9d6",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "8d70b597885500ef",
-      "fromSide": "right",
-      "id": "e73f209ca128e5db",
-      "styleAttributes": {
-      },
-      "toNode": "0772c2fda7630f62",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "8d70b597885500ef",
-      "fromSide": "right",
-      "id": "b08754d8f34b8291",
-      "styleAttributes": {
-      },
-      "toNode": "392497e4d4b1f4eb",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "8d70b597885500ef",
-      "fromSide": "right",
-      "id": "f5a3a8824ea65c0f",
-      "styleAttributes": {
-      },
-      "toNode": "545613aa5cce7753",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "545613aa5cce7753",
-      "fromSide": "right",
-      "id": "9b25a06f12a6c92d",
-      "styleAttributes": {
-      },
-      "toNode": "7b974199e6b5dede",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "545613aa5cce7753",
-      "fromSide": "right",
-      "id": "b08016287f92c119",
-      "styleAttributes": {
-      },
-      "toNode": "aaf3ae24cef08b97",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "a7f7235c28e0c589",
-      "fromSide": "right",
-      "id": "fe5feb3454450dea",
-      "styleAttributes": {
-      },
-      "toNode": "a40abce8c3cd4ee0",
-      "toSide": "left"
-    },
-    {
-      "fromNode": "a7f7235c28e0c589",
-      "fromSide": "right",
-      "id": "573dfc43ca7b3253",
-      "styleAttributes": {
-      },
-      "toNode": "1e7b94ad4253c1ff",
-      "toSide": "left"
-    }
-  ],
-  "nodes": [
-    {
-      "height": 245,
-      "id": "8d70b597885500ef",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "# Language learning platforms",
-      "type": "text",
-      "width": 580,
-      "x": -900,
-      "y": 78
-    },
-    {
-      "height": 120,
-      "id": "14c0501ad98975f3",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "- https://www.wgtn.ac.nz/slc/language-learning-resources/practise-online\n- https://www.heylama.com/#heylama-features\n- https://www.funeasylearn.com/",
-      "type": "text",
-      "width": 780,
-      "x": 980,
-      "y": -456
-    },
-    {
-      "height": 214,
-      "id": "2efbf86ce9c161eb",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "- no freemium content\n- no RBAC\n- account not mandatory\n- companies, universities, mobile apps showcase websites",
-      "type": "text",
-      "width": 520,
-      "x": 380,
-      "y": -500
-    },
-    {
-      "height": 80,
-      "id": "c32a031407d1b9d6",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "showcase website",
-      "type": "text",
-      "width": 400,
-      "x": -40,
-      "y": -416
-    },
-    {
-      "height": 110,
-      "id": "7b974199e6b5dede",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "hard paywall, no access to content",
-      "type": "text",
-      "width": 400,
-      "x": 520,
-      "y": -165
-    },
-    {
-      "height": 170,
-      "id": "39cd2dd923f8b8e0",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "- https://www.pearson.com/languages\n- https://lingopie.com/",
-      "type": "text",
-      "width": 440,
-      "x": 1540,
-      "y": -220
-    },
-    {
-      "height": 220,
-      "id": "485fa14f602cc8a4",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "- no freemium content\n- no RBAC\n- subscription is mandatory to access any content\n- subscription may be required in the form of an immediate payment, or an activation code",
-      "type": "text",
-      "width": 560,
-      "x": 940,
-      "y": -220
-    },
-    {
-      "color": "4",
-      "height": 260,
-      "id": "4ad57b352a70498b",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "- freemium content: regular user can access free resources and browse premium ones\n- RBAC policies\n- subscription is not mandatory to access free content\n- freemium policies may include trial period or general limited access to features",
-      "type": "text",
-      "width": 560,
-      "x": 940,
-      "y": 78
-    },
-    {
-      "height": 200,
-      "id": "31a4db8037104992",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "- https://www.duolingo.com/",
-      "type": "text",
-      "width": 620,
-      "x": 1540,
-      "y": 108
-    },
-    {
-      "color": "4",
-      "height": 145,
-      "id": "aaf3ae24cef08b97",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "soft paywall, with browsing or partially accessing premium content or features",
-      "type": "text",
-      "width": 400,
-      "x": 520,
-      "y": 118
-    },
-    {
-      "color": "4",
-      "height": 110,
-      "id": "545613aa5cce7753",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "e-learning platform",
-      "type": "text",
-      "width": 400,
-      "x": -40,
-      "y": -2
-    },
-    {
-      "height": 60,
-      "id": "9afd260bbbd1e8c5",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "- https://preply.com/en/home",
-      "type": "text",
-      "width": 460,
-      "x": 980,
-      "y": 790
-    },
-    {
-      "height": 90,
-      "id": "3bf09de3235634fc",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "- https://www.digitaldialects.com/\n- https://www.learnalanguage.com/",
-      "type": "text",
-      "width": 520,
-      "x": 980,
-      "y": 460
-    },
-    {
-      "height": 220,
-      "id": "3f473d2f0e5e4da0",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "- no freemium content\n- no RBAC policies\n- login may be not be required\n- may include advertisements",
-      "type": "text",
-      "width": 560,
-      "x": 380,
-      "y": 440
-    },
-    {
-      "height": 140,
-      "id": "0772c2fda7630f62",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "private or public blogs, forums or websites with just free textual content",
-      "type": "text",
-      "width": 400,
-      "x": -40,
-      "y": 450
-    },
-    {
-      "height": 180,
-      "id": "daaac3d6df5389ad",
-      "styleAttributes": {
-        "border": "invisible",
-        "textAlign": null
-      },
-      "text": "- no freemium content\n- no RBAC policies\n- it differs from a showcase website, account is mandatory to book lessons ",
-      "type": "text",
-      "width": 560,
-      "x": 380,
-      "y": 740
-    },
-    {
-      "height": 140,
-      "id": "392497e4d4b1f4eb",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "web platform for booking online or in-person lessons",
-      "type": "text",
-      "width": 400,
-      "x": -40,
-      "y": 750
-    },
-    {
-      "height": 140,
-      "id": "a40abce8c3cd4ee0",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "no premium articles",
-      "type": "text",
-      "width": 400,
-      "x": -40,
-      "y": 1430
-    },
-    {
-      "color": "4",
-      "height": 140,
-      "id": "1e7b94ad4253c1ff",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "free and premium articles",
-      "type": "text",
-      "width": 400,
-      "x": -40,
-      "y": 1745
-    },
-    {
-      "height": 245,
-      "id": "a7f7235c28e0c589",
-      "styleAttributes": {
-        "textAlign": "center"
-      },
-      "text": "# News websites",
-      "type": "text",
-      "width": 580,
-      "x": -900,
-      "y": 1570
-    },
-    {
-      "height": 100,
-      "id": "1a83a96f68aab75a",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "- https://www.lemonde.fr/\n- https://www.lefigaro.fr/",
-      "type": "text",
-      "width": 360,
-      "x": 420,
-      "y": 1740
-    },
-    {
-      "height": 100,
-      "id": "2f9043e6b1db966c",
-      "styleAttributes": {
-        "border": "invisible"
-      },
-      "text": "- https://edition.cnn.com/\n- https://www.20minutes.fr/",
-      "type": "text",
-      "width": 360,
-      "x": 420,
-      "y": 1440
-    }
-  ]
+	"edges":[
+		{
+			"id":"403afa71d7e2d31c",
+			"styleAttributes":{},
+			"fromNode":"8d70b597885500ef",
+			"fromSide":"right",
+			"toNode":"c32a031407d1b9d6",
+			"toSide":"left"
+		},
+		{
+			"id":"e73f209ca128e5db",
+			"styleAttributes":{},
+			"fromNode":"8d70b597885500ef",
+			"fromSide":"right",
+			"toNode":"0772c2fda7630f62",
+			"toSide":"left"
+		},
+		{
+			"id":"b08754d8f34b8291",
+			"styleAttributes":{},
+			"fromNode":"8d70b597885500ef",
+			"fromSide":"right",
+			"toNode":"392497e4d4b1f4eb",
+			"toSide":"left"
+		},
+		{
+			"id":"f5a3a8824ea65c0f",
+			"styleAttributes":{},
+			"fromNode":"8d70b597885500ef",
+			"fromSide":"right",
+			"toNode":"545613aa5cce7753",
+			"toSide":"left"
+		},
+		{
+			"id":"9b25a06f12a6c92d",
+			"styleAttributes":{},
+			"fromNode":"545613aa5cce7753",
+			"fromSide":"right",
+			"toNode":"7b974199e6b5dede",
+			"toSide":"left"
+		},
+		{
+			"id":"b08016287f92c119",
+			"styleAttributes":{},
+			"fromNode":"545613aa5cce7753",
+			"fromSide":"right",
+			"toNode":"aaf3ae24cef08b97",
+			"toSide":"left"
+		},
+		{
+			"id":"fe5feb3454450dea",
+			"styleAttributes":{},
+			"fromNode":"a7f7235c28e0c589",
+			"fromSide":"right",
+			"toNode":"a40abce8c3cd4ee0",
+			"toSide":"left"
+		},
+		{
+			"id":"573dfc43ca7b3253",
+			"styleAttributes":{},
+			"fromNode":"a7f7235c28e0c589",
+			"fromSide":"right",
+			"toNode":"1e7b94ad4253c1ff",
+			"toSide":"left"
+		}
+	],
+	"nodes":[
+		{
+			"id":"8d70b597885500ef",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"# Language learning platforms",
+			"type":"text",
+			"x":-900,
+			"y":78,
+			"width":580,
+			"height":245
+		},
+		{
+			"id":"14c0501ad98975f3",
+			"styleAttributes":{"border":"invisible"},
+			"text":"- https://www.wgtn.ac.nz/slc/language-learning-resources/practise-online\n- https://www.heylama.com/#heylama-features\n- https://www.funeasylearn.com/",
+			"type":"text",
+			"x":980,
+			"y":-456,
+			"width":780,
+			"height":120
+		},
+		{
+			"id":"2efbf86ce9c161eb",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"text":"- no freemium content\n- no RBAC\n- account not mandatory\n- companies, universities, mobile apps showcase websites",
+			"type":"text",
+			"x":380,
+			"y":-500,
+			"width":520,
+			"height":214
+		},
+		{
+			"id":"c32a031407d1b9d6",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"showcase website",
+			"type":"text",
+			"x":-40,
+			"y":-416,
+			"width":400,
+			"height":80
+		},
+		{
+			"id":"7b974199e6b5dede",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"hard paywall, no access to content",
+			"type":"text",
+			"x":520,
+			"y":-165,
+			"width":400,
+			"height":110
+		},
+		{
+			"id":"39cd2dd923f8b8e0",
+			"styleAttributes":{"border":"invisible"},
+			"text":"- https://www.pearson.com/languages\n- https://lingopie.com/",
+			"type":"text",
+			"x":1540,
+			"y":-220,
+			"width":440,
+			"height":170
+		},
+		{
+			"id":"485fa14f602cc8a4",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"text":"- no freemium content\n- no RBAC\n- subscription is mandatory to access any content\n- subscription may be required in the form of an immediate payment, or an activation code",
+			"type":"text",
+			"x":940,
+			"y":-220,
+			"width":560,
+			"height":220
+		},
+		{
+			"id":"4ad57b352a70498b",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"text":"- freemium content: regular user can access free resources and browse premium ones\n- RBAC policies\n- subscription is not mandatory to access free content\n- freemium policies may include trial period or general limited access to features",
+			"type":"text",
+			"x":940,
+			"y":78,
+			"width":560,
+			"height":260,
+			"color":"4"
+		},
+		{
+			"id":"31a4db8037104992",
+			"styleAttributes":{"border":"invisible"},
+			"text":"- https://www.duolingo.com/",
+			"type":"text",
+			"x":1540,
+			"y":108,
+			"width":620,
+			"height":200
+		},
+		{
+			"id":"aaf3ae24cef08b97",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"soft paywall, with browsing or partially accessing premium content or features",
+			"type":"text",
+			"x":520,
+			"y":118,
+			"width":400,
+			"height":145,
+			"color":"4"
+		},
+		{
+			"id":"545613aa5cce7753",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"e-learning platform",
+			"type":"text",
+			"x":-40,
+			"y":-2,
+			"width":400,
+			"height":110,
+			"color":"4"
+		},
+		{
+			"id":"9afd260bbbd1e8c5",
+			"styleAttributes":{"border":"invisible"},
+			"text":"- https://preply.com/en/home",
+			"type":"text",
+			"x":980,
+			"y":790,
+			"width":460,
+			"height":60
+		},
+		{
+			"id":"3bf09de3235634fc",
+			"styleAttributes":{"border":"invisible"},
+			"text":"- https://www.digitaldialects.com/\n- https://www.learnalanguage.com/",
+			"type":"text",
+			"x":980,
+			"y":460,
+			"width":520,
+			"height":90
+		},
+		{
+			"id":"3f473d2f0e5e4da0",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"text":"- no freemium content\n- no RBAC policies\n- login may be not be required\n- may include advertisements",
+			"type":"text",
+			"x":380,
+			"y":440,
+			"width":560,
+			"height":220
+		},
+		{
+			"id":"0772c2fda7630f62",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"private or public blogs, forums or websites with just free textual content",
+			"type":"text",
+			"x":-40,
+			"y":450,
+			"width":400,
+			"height":140
+		},
+		{
+			"id":"daaac3d6df5389ad",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"text":"- no freemium content\n- no RBAC policies\n- it differs from a showcase website, account is mandatory to book lessons ",
+			"type":"text",
+			"x":380,
+			"y":740,
+			"width":560,
+			"height":180
+		},
+		{
+			"id":"392497e4d4b1f4eb",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"web platform for booking online or in-person lessons",
+			"type":"text",
+			"x":-40,
+			"y":750,
+			"width":400,
+			"height":140
+		},
+		{
+			"id":"a40abce8c3cd4ee0",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"no premium articles",
+			"type":"text",
+			"x":-40,
+			"y":1430,
+			"width":400,
+			"height":140
+		},
+		{
+			"id":"1e7b94ad4253c1ff",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"free and premium articles",
+			"type":"text",
+			"x":-40,
+			"y":1745,
+			"width":400,
+			"height":140,
+			"color":"4"
+		},
+		{
+			"id":"a7f7235c28e0c589",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"# News websites",
+			"type":"text",
+			"x":-900,
+			"y":1570,
+			"width":580,
+			"height":245
+		},
+		{
+			"id":"1a83a96f68aab75a",
+			"styleAttributes":{"border":"invisible"},
+			"text":"- https://www.lemonde.fr/\n- https://www.lefigaro.fr/",
+			"type":"text",
+			"x":420,
+			"y":1740,
+			"width":360,
+			"height":100
+		},
+		{
+			"id":"2f9043e6b1db966c",
+			"styleAttributes":{"border":"invisible"},
+			"text":"- https://edition.cnn.com/\n- https://www.20minutes.fr/",
+			"type":"text",
+			"x":420,
+			"y":1440,
+			"width":360,
+			"height":100
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
 }

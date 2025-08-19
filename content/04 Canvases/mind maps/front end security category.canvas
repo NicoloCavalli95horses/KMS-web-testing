@@ -1,138 +1,98 @@
 {
-  "edges": [
-    {
-      "fromNode": "c6417e9d23b4eccf",
-      "fromSide": "bottom",
-      "id": "4043ea73a8b322dc",
-      "toNode": "c2da02b1a1d2ce74",
-      "toSide": "top"
-    },
-    {
-      "fromNode": "c6417e9d23b4eccf",
-      "fromSide": "bottom",
-      "id": "1b6f02cfcc69a42f",
-      "toNode": "4fffe7fd014b7dee",
-      "toSide": "top"
-    },
-    {
-      "fromNode": "c2da02b1a1d2ce74",
-      "fromSide": "bottom",
-      "id": "a93c286d4116fa45",
-      "toNode": "64b21cf9dec536c5",
-      "toSide": "top"
-    },
-    {
-      "fromNode": "4fffe7fd014b7dee",
-      "fromSide": "bottom",
-      "id": "494fc5f82ef023f5",
-      "toNode": "569f9f5935d87ec1",
-      "toSide": "top"
-    },
-    {
-      "fromNode": "64b21cf9dec536c5",
-      "fromSide": "bottom",
-      "id": "13364db287435d1b",
-      "toNode": "7f02614d578c8912",
-      "toSide": "top"
-    },
-    {
-      "fromNode": "569f9f5935d87ec1",
-      "fromSide": "bottom",
-      "id": "2d8bcf8e08fb5c1c",
-      "toNode": "092cddc14827cc9f",
-      "toSide": "top"
-    }
-  ],
-  "nodes": [
-    {
-      "height": 87,
-      "id": "4fffe7fd014b7dee",
-      "styleAttributes": {
-      },
-      "text": "# Hybrid front-end attack",
-      "type": "text",
-      "width": 567,
-      "x": -3855,
-      "y": 1880
-    },
-    {
-      "height": 87,
-      "id": "c2da02b1a1d2ce74",
-      "styleAttributes": {
-      },
-      "text": "# Pure front-end attack",
-      "type": "text",
-      "width": 508,
-      "x": -4790,
-      "y": 1880
-    },
-    {
-      "height": 425,
-      "id": "569f9f5935d87ec1",
-      "styleAttributes": {
-      },
-      "text": "## RQ 2 \n## What exactly are the responsibilities of the front end software in an attack that eventually ==target the server==?\n\n## How does the front-end ==contribute to the defense== of an attack to a web server?",
-      "type": "text",
-      "width": 736,
-      "x": -3939,
-      "y": 2055
-    },
-    {
-      "height": 425,
-      "id": "64b21cf9dec536c5",
-      "styleAttributes": {
-      },
-      "text": "## RQ 1\n\n## In which scenarios it is possible to carry out an attack on the web front-end ==without the server being involved==?\n\n## What is the role of web front-end software in an attack that does ==not involve a web server==?",
-      "type": "text",
-      "width": 745,
-      "x": -4909,
-      "y": 2055
-    },
-    {
-      "height": 640,
-      "id": "092cddc14827cc9f",
-      "styleAttributes": {
-      },
-      "text": "## Examples\n\n- [[XSS (cross site scripting)]]\n- [[SQLIA (SQL injection attack)]]\n- [[EAR (Execution After Redirect)]]\n- [[directory traversal (path traversal)]]\n- [[CSRF (cross-site request forgery)]]\n- [[cross-domain policies]] misconfiguration (full-stack)\n- [[IDOR (Insecure Direct Object Reference)]]",
-      "type": "text",
-      "width": 632,
-      "x": -3887,
-      "y": 2560
-    },
-    {
-      "height": 640,
-      "id": "7f02614d578c8912",
-      "styleAttributes": {
-      },
-      "text": "## Examples\n\n- [[GEMs (GUI Element Misuse)]] and [[BFT (business flow tampering)]]\n- [[prototype pollution]] (front-end)\n- [[DOM clobbering]]\n- DOM-based [[XSS (cross site scripting)]]\n- [[ReDoS (Regular Expression Denial of Service)]]\n- [[clickjacking]]\n- [[tabnabbing]]\n- [[Web Storage API (localStorage, sessionStorage)]] security\n- [[cross-domain policies]] misconfiguration (front-end)\n- [[SW (Service Worker)]] exploitation\n- [[C2C (client-to-client) communication]] with `PostMessage` API\n",
-      "type": "text",
-      "width": 640,
-      "x": -4856,
-      "y": 2560
-    },
-    {
-      "color": "3",
-      "height": 80,
-      "id": "57cd65944a2802bd",
-      "styleAttributes": {
-      },
-      "text": "distinguish browser bugs",
-      "type": "text",
-      "width": 301,
-      "x": -3040,
-      "y": 1630
-    },
-    {
-      "color": "5",
-      "height": 300,
-      "id": "c6417e9d23b4eccf",
-      "styleAttributes": {
-      },
-      "text": "\n## If the attack does not need the server to be carried out, *then* it must be a pure front-end attack. \n\n## In all other cases, front-end is just a *phase* of a web server attack\n",
-      "type": "text",
-      "width": 719,
-      "x": -4440,
-      "y": 1480
-    }
-  ]
+	"edges":[
+		{"id":"4043ea73a8b322dc","fromNode":"c6417e9d23b4eccf","fromSide":"bottom","toNode":"c2da02b1a1d2ce74","toSide":"top"},
+		{"id":"1b6f02cfcc69a42f","fromNode":"c6417e9d23b4eccf","fromSide":"bottom","toNode":"4fffe7fd014b7dee","toSide":"top"},
+		{"id":"a93c286d4116fa45","fromNode":"c2da02b1a1d2ce74","fromSide":"bottom","toNode":"64b21cf9dec536c5","toSide":"top"},
+		{"id":"494fc5f82ef023f5","fromNode":"4fffe7fd014b7dee","fromSide":"bottom","toNode":"569f9f5935d87ec1","toSide":"top"},
+		{"id":"13364db287435d1b","fromNode":"64b21cf9dec536c5","fromSide":"bottom","toNode":"7f02614d578c8912","toSide":"top"},
+		{"id":"2d8bcf8e08fb5c1c","fromNode":"569f9f5935d87ec1","fromSide":"bottom","toNode":"092cddc14827cc9f","toSide":"top"}
+	],
+	"nodes":[
+		{
+			"id":"4fffe7fd014b7dee",
+			"styleAttributes":{},
+			"text":"# Hybrid front-end attack",
+			"type":"text",
+			"x":-3855,
+			"y":1880,
+			"width":567,
+			"height":87
+		},
+		{
+			"id":"c2da02b1a1d2ce74",
+			"styleAttributes":{},
+			"text":"# Pure front-end attack",
+			"type":"text",
+			"x":-4790,
+			"y":1880,
+			"width":508,
+			"height":87
+		},
+		{
+			"id":"569f9f5935d87ec1",
+			"styleAttributes":{},
+			"text":"## RQ 2 \n## What exactly are the responsibilities of the front end software in an attack that eventually ==target the server==?\n\n## How does the front-end ==contribute to the defense== of an attack to a web server?",
+			"type":"text",
+			"x":-3939,
+			"y":2055,
+			"width":736,
+			"height":425
+		},
+		{
+			"id":"64b21cf9dec536c5",
+			"styleAttributes":{},
+			"text":"## RQ 1\n\n## In which scenarios it is possible to carry out an attack on the web front-end ==without the server being involved==?\n\n## What is the role of web front-end software in an attack that does ==not involve a web server==?",
+			"type":"text",
+			"x":-4909,
+			"y":2055,
+			"width":745,
+			"height":425
+		},
+		{
+			"id":"092cddc14827cc9f",
+			"styleAttributes":{},
+			"text":"## Examples\n\n- [[XSS (cross site scripting)]]\n- [[SQLIA (SQL injection attack)]]\n- [[EAR (Execution After Redirect)]]\n- [[directory traversal (path traversal)]]\n- [[CSRF (cross-site request forgery)]]\n- [[cross-domain policies]] misconfiguration (full-stack)\n- [[IDOR (Insecure Direct Object Reference)]]",
+			"type":"text",
+			"x":-3887,
+			"y":2560,
+			"width":632,
+			"height":640
+		},
+		{
+			"id":"7f02614d578c8912",
+			"styleAttributes":{},
+			"text":"## Examples\n\n- [[GEMs (GUI Element Misuse)]] and [[BFT (business flow tampering)]]\n- [[prototype pollution]] (front-end)\n- [[DOM clobbering]]\n- DOM-based [[XSS (cross site scripting)]]\n- [[ReDoS (Regular Expression Denial of Service)]]\n- [[clickjacking]]\n- [[tabnabbing]]\n- [[Web Storage API (localStorage, sessionStorage)]] security\n- [[cross-domain policies]] misconfiguration (front-end)\n- [[SW (Service Worker)]] exploitation\n- [[C2C (client-to-client) communication]] with `PostMessage` API\n",
+			"type":"text",
+			"x":-4856,
+			"y":2560,
+			"width":640,
+			"height":640
+		},
+		{
+			"id":"57cd65944a2802bd",
+			"styleAttributes":{},
+			"text":"distinguish browser bugs",
+			"type":"text",
+			"x":-3040,
+			"y":1630,
+			"width":301,
+			"height":80,
+			"color":"3"
+		},
+		{
+			"id":"c6417e9d23b4eccf",
+			"styleAttributes":{},
+			"text":"\n## If the attack does not need the server to be carried out, *then* it must be a pure front-end attack. \n\n## In all other cases, front-end is just a *phase* of a web server attack\n",
+			"type":"text",
+			"x":-4440,
+			"y":1480,
+			"width":719,
+			"height":300,
+			"color":"5"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
 }
