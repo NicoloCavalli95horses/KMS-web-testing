@@ -5048,8 +5048,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754291310686,
-      "modifiedDate": 1754567236238,
-      "sizeInBytes": 4182,
+      "modifiedDate": 1755611148511,
+      "sizeInBytes": 3602,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.6533333333333333,
@@ -5057,7 +5057,8 @@
         "characterCount": 1502,
         "nonWhitespaceCharacterCount": 1266,
         "newlineCount": 40
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/Web security on large scale web applications/tampering prevention with test amplification.canvas": {
       "isCountable": true,
@@ -5071,12 +5072,12 @@
       "nonWhitespaceCharacterCount": 1521,
       "newlineCount": 32,
       "readingTimeInMinutes": 0.8528301886792453,
-      "linkCount": 0,
+      "linkCount": 9,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754291310689,
-      "modifiedDate": 1754291310689,
-      "sizeInBytes": 10380,
+      "modifiedDate": 1755611146232,
+      "sizeInBytes": 8048,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.7533333333333333,
@@ -5084,7 +5085,8 @@
         "characterCount": 1768,
         "nonWhitespaceCharacterCount": 1521,
         "newlineCount": 32
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/Web security on large scale web applications/GUI vulnerabilities.canvas": {
       "isCountable": true,
@@ -5098,12 +5100,12 @@
       "nonWhitespaceCharacterCount": 10160,
       "newlineCount": 236,
       "readingTimeInMinutes": 6.090566037735849,
-      "linkCount": 0,
+      "linkCount": 39,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754291310688,
-      "modifiedDate": 1754291310688,
-      "sizeInBytes": 23134,
+      "modifiedDate": 1755611145054,
+      "sizeInBytes": 20100,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 5.38,
@@ -5111,7 +5113,8 @@
         "characterCount": 12008,
         "nonWhitespaceCharacterCount": 10160,
         "newlineCount": 236
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/Web security on large scale web applications/GUI testing techniques on large scale applications.canvas": {
       "isCountable": true,
@@ -5125,12 +5128,12 @@
       "nonWhitespaceCharacterCount": 2295,
       "newlineCount": 69,
       "readingTimeInMinutes": 1,
-      "linkCount": 0,
+      "linkCount": 53,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754291310688,
-      "modifiedDate": 1754291310688,
-      "sizeInBytes": 10636,
+      "modifiedDate": 1755611144075,
+      "sizeInBytes": 8441,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.8833333333333333,
@@ -5138,7 +5141,8 @@
         "characterCount": 2620,
         "nonWhitespaceCharacterCount": 2295,
         "newlineCount": 69
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/taint analysis in the web.canvas": {
       "isCountable": true,
@@ -5152,12 +5156,12 @@
       "nonWhitespaceCharacterCount": 794,
       "newlineCount": 21,
       "readingTimeInMinutes": 0.49433962264150944,
-      "linkCount": 0,
-      "embedCount": 0,
+      "linkCount": 2,
+      "embedCount": 1,
       "aliases": null,
       "createdDate": 1754291310687,
-      "modifiedDate": 1754567239637,
-      "sizeInBytes": 7886,
+      "modifiedDate": 1755611151902,
+      "sizeInBytes": 6553,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.43666666666666665,
@@ -5165,7 +5169,8 @@
         "characterCount": 933,
         "nonWhitespaceCharacterCount": 794,
         "newlineCount": 21
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas": {
       "isCountable": true,
@@ -5233,12 +5238,12 @@
       "nonWhitespaceCharacterCount": 688,
       "newlineCount": 42,
       "readingTimeInMinutes": 0.3660377358490566,
-      "linkCount": 0,
+      "linkCount": 5,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754291310687,
-      "modifiedDate": 1754567237566,
-      "sizeInBytes": 17621,
+      "modifiedDate": 1755611149816,
+      "sizeInBytes": 14215,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.3233333333333333,
@@ -5246,7 +5251,8 @@
         "characterCount": 796,
         "nonWhitespaceCharacterCount": 688,
         "newlineCount": 42
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/props tampering.canvas": {
       "isCountable": true,
@@ -5260,12 +5266,12 @@
       "nonWhitespaceCharacterCount": 3188,
       "newlineCount": 102,
       "readingTimeInMinutes": 2,
-      "linkCount": 0,
-      "embedCount": 0,
+      "linkCount": 3,
+      "embedCount": 1,
       "aliases": null,
       "createdDate": 1754291310687,
-      "modifiedDate": 1754567238200,
-      "sizeInBytes": 24589,
+      "modifiedDate": 1755611151248,
+      "sizeInBytes": 20403,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.7666666666666666,
@@ -5273,7 +5279,8 @@
         "characterCount": 4147,
         "nonWhitespaceCharacterCount": 3188,
         "newlineCount": 102
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas": {
       "isCountable": true,
@@ -5291,8 +5298,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754471499846,
-      "modifiedDate": 1754567948281,
-      "sizeInBytes": 8358,
+      "modifiedDate": 1755611143464,
+      "sizeInBytes": 6970,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.58,
@@ -5300,7 +5307,8 @@
         "characterCount": 1553,
         "nonWhitespaceCharacterCount": 1345,
         "newlineCount": 42
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas": {
       "isCountable": true,
@@ -5341,12 +5349,12 @@
       "nonWhitespaceCharacterCount": 1160,
       "newlineCount": 34,
       "readingTimeInMinutes": 0.7283018867924528,
-      "linkCount": 0,
+      "linkCount": 7,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754291310685,
-      "modifiedDate": 1754567235646,
-      "sizeInBytes": 3508,
+      "modifiedDate": 1755611147527,
+      "sizeInBytes": 3057,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.6433333333333333,
@@ -5354,7 +5362,8 @@
         "characterCount": 1385,
         "nonWhitespaceCharacterCount": 1160,
         "newlineCount": 34
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/meetings/2025_07_10.canvas": {
       "isCountable": true,
@@ -25562,7 +25571,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 5.723333333333334,
-      "characterCount": 11987,
+      "characterCount": 11834,
       "nonWhitespaceCharacterCount": 9975,
       "newlineCount": 154,
       "readingTimeInMinutes": 6.479245283018868,
@@ -25570,8 +25579,8 @@
       "embedCount": 2,
       "aliases": null,
       "createdDate": 1754291310545,
-      "modifiedDate": 1754291310545,
-      "sizeInBytes": 12098,
+      "modifiedDate": 1755611131869,
+      "sizeInBytes": 11938,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 5.723333333333334,
