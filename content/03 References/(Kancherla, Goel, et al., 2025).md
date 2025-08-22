@@ -1,0 +1,12 @@
+---
+ID: 2025-08-22T07:25:32.391Z
+tags: ref
+
+---
+## External Link
+
+https://dl.acm.org/doi/10.1145/3696410.3714887
+
+## BibTeX
+
+@inproceedings{10.1145/3696410.3714887, author = {Kancherla, Gayatri Priyadarsini and Goel, Dishank and Bichhawat, Abhishek}, title = {Least Privilege Access for Persistent Storage Mechanisms in Web Browsers}, year = {2025}, isbn = {9798400712746}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, url = {https://doi.org/10.1145/3696410.3714887}, doi = {10.1145/3696410.3714887}, abstract = {Web applications often include third-party content to personalize a user's online experience. These scripts have unrestricted access to a user's private data stored in the browser's persistent storage, associated with the host page. Various mechanisms have been implemented to restrict access to these storage objects, however, the existing mechanisms provide an all-or-none access and do not work in scenarios where web applications need to allow controlled access to cookies and localstorage objects by third-party scripts. If some of these scripts behave maliciously, they can easily access and modify private user information that are stored in the browser objects. The goal of our work is to design a mechanism to enforce fine-grained control of persistent storage objects. We perform an empirical study of persistent storage access by third-party scripts on Tranco's top 10,000 websites and find that 89.84\% of all cookie accesses, 90.98\% of all localstorage accesses and 72.49\% of IndexedDB accesses are done by third-party scripts. Our approach enforces least privilege access for third-party scripts on these objects to ensure their security by attaching labels to the storage objects that specify which domains are allowed to read from and write to these objects. We implement our approach on the Firefox browser and show that it effectively blocks scripts from other domains, which are not allowed access based on these labels, from accessing the storage objects. We show that our enforcement results in some functionality breakage in websites with the default settings, which can be fixed by correctly labeling the storage objects used by the third-party scripts.}, booktitle = {Proceedings of the ACM on Web Conference 2025}, pages = {4832–4840}, numpages = {9}, keywords = {cookies, least privilege access, localstorage, taints, web browsers}, location = {Sydney NSW, Australia}, series = {WWW '25} }
