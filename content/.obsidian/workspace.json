@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "97cab317414e2cfa",
+        "id": "3ec82158d4677939",
         "type": "tabs",
         "children": [
           {
-            "id": "d00278b79c77ff1a",
+            "id": "b3c34101626b380d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 Literature/papers/BAC (Broken Access Control)/Least Privilege Access for Persistent Storage Mechanisms in Web Browsers.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Least Privilege Access for Persistent Storage Mechanisms in Web Browsers"
+              "title": "New tab"
             }
           }
         ]
@@ -79,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5026054382324
+    "width": 251.50260543823242
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -186,10 +181,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "d00278b79c77ff1a",
+  "active": "b3c34101626b380d",
   "lastOpenFiles": [
-    "03 References/(Kancherla, Goel, et al., 2025).md",
     "02 Literature/papers/BAC (Broken Access Control)/Least Privilege Access for Persistent Storage Mechanisms in Web Browsers.md",
+    "03 References/(Kancherla, Goel, et al., 2025).md",
     "02 Literature/papers/BAC (Broken Access Control)",
     "04 Canvases/mind maps/taint analysis in the web.canvas",
     "04 Canvases/mind maps/props tampering.canvas",
