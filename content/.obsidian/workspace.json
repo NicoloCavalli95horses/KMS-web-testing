@@ -11,10 +11,17 @@
             "id": "b3c34101626b380d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/mind maps/Empirical Study/JCH-based IDOR test for vulnerability scanners.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 77.49999692042682,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "JCH-based IDOR test for vulnerability scanners"
             }
           }
         ]
@@ -183,6 +190,9 @@
   },
   "active": "b3c34101626b380d",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
+    "04 Canvases/mind maps/Empirical Study/JCH-based IDOR test for vulnerability scanners.canvas",
+    "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
     "02 Literature/papers/BAC (Broken Access Control)/Least Privilege Access for Persistent Storage Mechanisms in Web Browsers.md",
     "03 References/(Kancherla, Goel, et al., 2025).md",
     "02 Literature/papers/BAC (Broken Access Control)",
@@ -194,8 +204,6 @@
     "04 Canvases/mind maps/Web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/Web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/Web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
-    "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
     "01 Notes/clickjacking.md",
     "02 Literature/papers/logic flow tampering/BFTDETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "02 Literature/papers/logic flow tampering/Finding client-side business flow tampering vulnerabilities.md",
@@ -219,7 +227,6 @@
     "03 References/(Wen, Liu, et al., 2025).md",
     "03 References/(Hou, Yiwel, Guo, Lihua, Zhou, et al., 2024).md",
     "02 Literature/papers/browser security/Fingerprinting in style. Detecting browser extensions via injected style sheets.md",
-    "01 Notes/link color differentiation.md",
     "04 Canvases/mind maps/Empirical Study",
     "97 Assets/systematic_definition.png",
     "02 Literature/papers/data disclosure",
