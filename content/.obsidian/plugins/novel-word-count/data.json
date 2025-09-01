@@ -26836,24 +26836,24 @@
         ]
       }
     },
-    "06 Courses, webinars/ERMSEI 2025 Summer School/Empirical Research Methods in SE.md": {
+    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_01.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 194,
+      "wordCount": 236,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.6466666666666666,
-      "characterCount": 1558,
-      "nonWhitespaceCharacterCount": 1330,
-      "newlineCount": 40,
-      "readingTimeInMinutes": 0.7320754716981132,
+      "pageCount": 0.7866666666666666,
+      "characterCount": 1867,
+      "nonWhitespaceCharacterCount": 1595,
+      "newlineCount": 45,
+      "readingTimeInMinutes": 0.8905660377358491,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1756709987038,
-      "modifiedDate": 1756736327218,
-      "sizeInBytes": 1681,
+      "modifiedDate": 1756737864767,
+      "sizeInBytes": 1990,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -26873,6 +26873,33 @@
           "Harald Storrie"
         ],
         "abstract": null
+      }
+    },
+    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_02.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1756736900979,
+      "modifiedDate": 1756736900979,
+      "sizeInBytes": 0,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
       }
     }
   }

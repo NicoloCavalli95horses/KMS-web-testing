@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 Courses, webinars/ERMSEI 2025 Summer School/Empirical Research Methods in SE.md",
+                "file": "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_01.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Empirical Research Methods in SE"
+              "title": "2025_09_01"
             }
           }
         ]
@@ -188,9 +188,10 @@
   },
   "active": "61b6a06c193e66c9",
   "lastOpenFiles": [
+    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_02.md",
+    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_01.md",
     "01 Notes/WW (Web Worker) and SW (Service Worker) comparison.md",
     "01 Notes/WW (Web Worker).md",
-    "06 Courses, webinars/ERMSEI 2025 Summer School/Empirical Research Methods in SE.md",
     "01 Notes/agile development.md",
     "06 Courses, webinars/ERMSEI 2025 Summer School",
     "96 Meta/SLR/Reviewers response SLR (S&P).md",
@@ -225,7 +226,6 @@
     "02 Literature/papers/logic flow tampering/Toward black-box detection of logic flaws in web applications.md",
     "02 Literature/papers/logic flow tampering/Verification of Web Content Integrity. A new approach to protecting servers against tampering.md",
     "02 Literature/papers/logic flow tampering/BLOCK. a black-box approach for detection of state violation attacks towards web applications.md",
-    "02 Literature/papers/privacy/Supporting Family Discussions About Digital Privacy Through Perspective-Taking. An Empirical Investigation.md",
     "04 Canvases/mind maps/Empirical Study",
     "97 Assets/systematic_definition.png",
     "02 Literature/papers/data disclosure",
