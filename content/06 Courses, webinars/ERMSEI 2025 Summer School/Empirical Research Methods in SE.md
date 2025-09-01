@@ -42,3 +42,7 @@ Negative results are not non-results
 A good data presentation can be useful to find logical errors or bias
 
 How many variables: as much as it serves the purposes of the study
+
+**Controlled experiments**
+- Randomized controlled trial (RCT): treatment applied only to one subset of the population. Members are assigned randomly. Used in pharma
+- Natural experiments: population assignment cannot be controlled, but can be random and representative. 
