@@ -37,3 +37,7 @@ Use multiple methods/measurements to cross-validate the results
 Do not repeat/do something without really understanding it, just because everyone does it. Cargo cult reduce credibility and trustworthiness
 
 
+Negative results are not non-results
+
+A good data presentation can be useful to find logical errors or bias
+
