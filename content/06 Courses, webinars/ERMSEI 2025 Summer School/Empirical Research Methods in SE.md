@@ -41,3 +41,4 @@ Negative results are not non-results
 
 A good data presentation can be useful to find logical errors or bias
 
+How many variables: as much as it serves the purposes of the study
