@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_01.md",
+                "file": "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_02.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025_09_01"
+              "title": "2025_09_02"
             }
           }
         ]
@@ -188,8 +188,9 @@
   },
   "active": "61b6a06c193e66c9",
   "lastOpenFiles": [
-    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_02.md",
     "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_01.md",
+    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_02.md",
+    "01 Notes/CSRF (cross-site request forgery).md",
     "01 Notes/WW (Web Worker) and SW (Service Worker) comparison.md",
     "01 Notes/WW (Web Worker).md",
     "01 Notes/agile development.md",
@@ -225,7 +226,6 @@
     "02 Literature/papers/logic flow tampering/Requirements for preventing logic flaws in the authentication procedure of web applications.md",
     "02 Literature/papers/logic flow tampering/Toward black-box detection of logic flaws in web applications.md",
     "02 Literature/papers/logic flow tampering/Verification of Web Content Integrity. A new approach to protecting servers against tampering.md",
-    "02 Literature/papers/logic flow tampering/BLOCK. a black-box approach for detection of state violation attacks towards web applications.md",
     "04 Canvases/mind maps/Empirical Study",
     "97 Assets/systematic_definition.png",
     "02 Literature/papers/data disclosure",
