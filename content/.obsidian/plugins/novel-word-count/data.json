@@ -26940,24 +26940,90 @@
         "newlineCount": 0
       }
     },
-    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_02 1.md": {
+    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_03.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 101,
+      "wordCount": 112,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.33666666666666667,
-      "characterCount": 864,
-      "nonWhitespaceCharacterCount": 737,
-      "newlineCount": 30,
-      "readingTimeInMinutes": 0.38113207547169814,
+      "pageCount": 0.37333333333333335,
+      "characterCount": 818,
+      "nonWhitespaceCharacterCount": 693,
+      "newlineCount": 21,
+      "readingTimeInMinutes": 0.4226415094339623,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1756882777828,
-      "modifiedDate": 1756823999078,
-      "sizeInBytes": 864,
+      "modifiedDate": 1756885730040,
+      "sizeInBytes": 941,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-03-05-11:00",
+        "tags": [
+          "webinar",
+          "empiricalStudy",
+          "empiricalMethod"
+        ],
+        "speaker": [
+          "Harald Storrie"
+        ],
+        "abstract": null
+      }
+    },
+    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_04.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 10,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.03333333333333333,
+      "characterCount": 124,
+      "nonWhitespaceCharacterCount": 100,
+      "newlineCount": 11,
+      "readingTimeInMinutes": 0.03773584905660377,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1756882938029,
+      "modifiedDate": 1756882786848,
+      "sizeInBytes": 124,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_05.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 10,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.03333333333333333,
+      "characterCount": 124,
+      "nonWhitespaceCharacterCount": 100,
+      "newlineCount": 11,
+      "readingTimeInMinutes": 0.03773584905660377,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1756882945815,
+      "modifiedDate": 1756882786848,
+      "sizeInBytes": 124,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
