@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e20ebbe1b9de87c2",
+        "id": "b4a2af3c036d5268",
         "type": "tabs",
         "children": [
           {
-            "id": "61b6a06c193e66c9",
+            "id": "b736b08d4a2c0e87",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_05.md",
+                "file": "01 Notes/clickjacking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025_09_05"
+              "title": "clickjacking"
             }
           }
         ]
@@ -186,11 +186,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "b736b08d4a2c0e87",
   "lastOpenFiles": [
+    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_05.md",
     "97 Assets/guidelines_se_ermsei.png",
     "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_04.md",
-    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_05.md",
     "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_03.md",
     "97 Assets/sms_map_chart.png",
     "97 Assets/slr_map.png",
@@ -241,7 +241,6 @@
     "97 Assets/js_instrumentation2.png",
     "02 Literature/papers/JavaScript instrumentation",
     "97 Assets/js_instrumentation.png",
-    "Pasted image 20250514165458.png",
     "02 Literature/papers/Cross-Site Framing (CSF)",
     "Excalidraw"
   ]
