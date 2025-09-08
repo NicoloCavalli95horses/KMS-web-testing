@@ -40,4 +40,7 @@ LLM as ephemeral programmer
 **Offensive capabilities of LLMs**
 LLMs can be used to find vulnerabilities
 - LLMs surpass humans in narrow scenarios
--  
+
+**Vibe hacking**
+LLMs unlock new paths to monetizing exploits. Carlini, Nasr, Debenedetti et al., ArXiv, 2025
+
