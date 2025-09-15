@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "96 Meta/Empirical Study/TO DO.md",
+                "file": "96 Meta/Lectures/TO DO.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -188,8 +188,12 @@
   },
   "active": "17fe54c8a6a1715b",
   "lastOpenFiles": [
-    "96 Meta/Empirical Study/Large-scale analysis on Tranco Top 250k.md",
+    "96 Meta/Lectures/Untitled.md",
+    "96 Meta/Lectures/TO DO.md",
     "96 Meta/Empirical Study/TO DO.md",
+    "96 Meta/PhD status.md",
+    "96 Meta/Lectures",
+    "96 Meta/Empirical Study/Large-scale analysis on Tranco Top 250k.md",
     "00 Antilibrary/Ansible.md",
     "01 Notes/XSS (cross site scripting).md",
     "96 Meta/Empirical Study",
@@ -213,12 +217,9 @@
     "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_05.md",
     "97 Assets/guidelines_se_ermsei.png",
     "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_04.md",
-    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_03.md",
     "97 Assets/sms_map_chart.png",
     "97 Assets/slr_map.png",
-    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_02.md",
     "97 Assets/entering_questionnaire_data.png",
-    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_01.md",
     "06 Courses, webinars/ERMSEI 2025 Summer School",
     "04 Canvases/mind maps/Empirical Study/JCH-based IDOR test for vulnerability scanners.canvas",
     "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
@@ -242,7 +243,6 @@
     "02 Literature/papers/dynamic taint analysis",
     "97 Assets/js_instrumentation2.png",
     "02 Literature/papers/JavaScript instrumentation",
-    "97 Assets/js_instrumentation.png",
-    "02 Literature/papers/Cross-Site Framing (CSF)"
+    "97 Assets/js_instrumentation.png"
   ]
 }

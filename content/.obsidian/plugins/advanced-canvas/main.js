@@ -64,7 +64,36 @@ var CUSTOM_ICONS = {
   "arrow-circle": `<circle stroke="currentColor" fill="currentColor" cx="50" cy="50" r="45"/>`,
   "arrow-circle-outline": `<circle stroke="currentColor" stroke-width="8.5" fill="none" cx="50" cy="50" r="45"/>`,
   "pathfinding-method-bezier": `<path stroke="currentColor" fill="none" stroke-width="8.5" d="M37.5 79.1667h35.4167a14.5833 14.5833 90 000-29.1667h-45.8333a14.5833 14.5833 90 010-29.1667H62.5"/>`,
-  "pathfinding-method-square": `<path stroke="currentColor" fill="none" stroke-width="8.5" d="M72.9167 79.1667 72.9167 50 27.0833 50 27.0833 20.8333"/>`
+  "pathfinding-method-square": `<path stroke="currentColor" fill="none" stroke-width="8.5" d="M72.9167 79.1667 72.9167 50 27.0833 50 27.0833 20.8333"/>`,
+  "arrows-selected": `
+    <g stroke-width="2" stroke="currentColor" fill="none">
+      <defs>
+        <marker id="arrow-right" markerWidth="10" markerHeight="7" refX="2" refY="3.5" orient="auto"> <polygon points="2 2, 5 3.5, 2 5" /> </marker>
+        <marker id="arrow-left" markerWidth="10" markerHeight="7" refX="4" refY="3.5" orient="auto"> <polygon points="1 3.5, 4 2, 4 5" /> </marker>
+      </defs>
+      <rect height="100" width="100" stroke-width="15" stroke="currentColor" stroke-dasharray="8,8" fill="transparent"/>
+      <line x1="20" y1="30" x2="60" y2="30" stroke-width="5" marker-end="url(#arrow-right)"/>
+      <line x1="40" y1="70" x2="80" y2="70" stroke-width="5" marker-start="url(#arrow-left)"/>
+    </g>
+  `,
+  "arrow-right-selected": `
+    <g stroke-width="2" stroke="currentColor" fill="none">
+      <defs>
+          <marker id="arrow-right" markerWidth="10" markerHeight="7" refX="2" refY="3.5" orient="auto"> <polygon points="2 2, 5 3.5, 2 5" /> </marker>
+      </defs>
+      <rect height="100" width="100" stroke-width="15" stroke="currentColor" stroke-dasharray="8,8" fill="transparent"/>
+      <line x1="20" y1="50" x2="60" y2="50" stroke-width="5" marker-end="url(#arrow-right)"/>
+    </g>
+  `,
+  "arrow-left-selected": `
+    <g stroke-width="2" stroke="currentColor" fill="none">
+      <defs>
+          <marker id="arrow-left" markerWidth="10" markerHeight="7" refX="4" refY="3.5" orient="auto"> <polygon points="1 3.5, 4 2, 4 5" /> </marker>
+      </defs>
+      <rect height="100" width="100" stroke-width="15" stroke="currentColor" stroke-dasharray="8,8" fill="transparent"/>
+      <line x1="40" y1="50" x2="80" y2="50" stroke-width="5" marker-start="url(#arrow-left)"/>
+    </g>
+  `
 };
 var IconsHelper = class {
   static addIcons() {
@@ -458,9 +487,11 @@ var DEFAULT_SETTINGS_VALUES = {
   combineCustomStylesInDropdown: false,
   nodeStylingFeatureEnabled: true,
   customNodeStyleAttributes: [],
+  defaultTextNodeColor: 0,
   defaultTextNodeStyleAttributes: {},
   edgesStylingFeatureEnabled: true,
   customEdgeStyleAttributes: [],
+  defaultEdgeColor: 0,
   defaultEdgeLineDirection: "unidirectional",
   defaultEdgeStyleAttributes: {},
   edgeStyleUpdateWhileDragging: false,
@@ -510,7 +541,9 @@ var DEFAULT_SETTINGS_VALUES = {
   autoFileNodeEdgesFeatureEnabled: false,
   autoFileNodeEdgesFrontmatterKey: "canvas-edges",
   edgeHighlightEnabled: false,
-  highlightIncomingEdges: false
+  highlightIncomingEdges: false,
+  edgeSelectionEnabled: false,
+  selectEdgeByDirection: false
 };
 var SETTINGS = {
   // @ts-ignore
@@ -672,6 +705,12 @@ var SETTINGS = {
         type: "button",
         onClick: () => window.open("https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/README.md#custom-styles")
       },
+      defaultTextNodeColor: {
+        label: "Default text node color",
+        description: "The default color of a text node. The default range is from 0 to 6, where 0 is no color. The range can be extended by using the Custom Colors feature of Advanced Canvas.",
+        type: "number",
+        parse: (value) => Math.max(0, parseInt(value) || 0)
+      },
       defaultTextNodeStyleAttributes: {
         label: "Default text node style attributes",
         type: "styles",
@@ -694,6 +733,12 @@ var SETTINGS = {
         description: "Add custom style settings for edges. (Go to GitHub for more information)",
         type: "button",
         onClick: () => window.open("https://github.com/Developer-Mike/obsidian-advanced-canvas/blob/main/README.md#custom-styles")
+      },
+      defaultEdgeColor: {
+        label: "Default edge color",
+        description: "The default color of an edge. The default range is from 0 to 6, where 0 is no color. The range can be extended by using the Custom Colors feature of Advanced Canvas.",
+        type: "number",
+        parse: (value) => Math.max(0, parseInt(value) || 0)
       },
       defaultEdgeLineDirection: {
         label: "Default edge line direction",
@@ -896,6 +941,18 @@ var SETTINGS = {
       highlightIncomingEdges: {
         label: "Highlight incoming edges",
         description: "When enabled, incoming edges will also be highlighted.",
+        type: "boolean"
+      }
+    }
+  },
+  edgeSelectionEnabled: {
+    label: "Edge selection",
+    description: "Select edges connected to the selected node(s) using the popup menu.",
+    infoSection: "edge-selection",
+    children: {
+      selectEdgeByDirection: {
+        label: "Select edge by direction",
+        description: "Select incoming or outgoing edges using separate popup menu items.",
         type: "boolean"
       }
     }
@@ -1194,14 +1251,14 @@ var Patcher = class _Patcher {
   static OverrideExisting(fn) {
     return Object.assign(fn, { __overrideExisting: true });
   }
-  static patchThisAndPrototype(plugin, object, patches) {
-    _Patcher.patch(plugin, object, patches);
-    return _Patcher.patchPrototype(plugin, object, patches);
+  static patchThisAndPrototype(plugin, object, patches, uninstallers) {
+    _Patcher.patch(plugin, object, patches, false, uninstallers);
+    return _Patcher.patchPrototype(plugin, object, patches, uninstallers);
   }
-  static patchPrototype(plugin, target, patches) {
-    return _Patcher.patch(plugin, target, patches, true);
+  static patchPrototype(plugin, target, patches, uninstallers) {
+    return _Patcher.patch(plugin, target, patches, true, uninstallers);
   }
-  static patch(plugin, object, patches, prototype = false) {
+  static patch(plugin, object, patches, prototype = false, uninstallers) {
     if (!object) return null;
     const target = prototype ? object.constructor.prototype : object;
     for (const key of Object.keys(patches)) {
@@ -1212,18 +1269,19 @@ var Patcher = class _Patcher {
       }
     }
     const uninstaller = around(target, patches);
+    if (uninstallers) uninstallers.push(uninstaller);
     plugin.register(uninstaller);
     return object;
   }
-  static tryPatchWorkspacePrototype(plugin, getTarget, patches) {
+  static tryPatchWorkspacePrototype(plugin, getTarget, patches, uninstallers) {
     return new Promise((resolve) => {
-      const result = _Patcher.patchPrototype(plugin, getTarget(), patches);
+      const result = _Patcher.patchPrototype(plugin, getTarget(), patches, uninstallers);
       if (result) {
         resolve(result);
         return;
       }
       const listener = plugin.app.workspace.on("layout-change", () => {
-        const result2 = _Patcher.patchPrototype(plugin, getTarget(), patches);
+        const result2 = _Patcher.patchPrototype(plugin, getTarget(), patches, uninstallers);
         if (result2) {
           plugin.app.workspace.offref(listener);
           resolve(result2);
@@ -2215,6 +2273,7 @@ var OutgoingLinksPatcher = class extends Patcher {
 var PropertiesPatcher = class extends Patcher {
   async patch() {
     if (!this.plugin.settings.getSetting("canvasMetadataCompatibilityEnabled")) return;
+    if (!this.plugin.app.viewRegistry.viewByType["file-properties"]) return;
     const that = this;
     await Patcher.waitForViewRequest(this.plugin, "file-properties", (view) => {
       Patcher.patchPrototype(this.plugin, view, {
@@ -2256,17 +2315,17 @@ var SearchPatcher = class extends Patcher {
     if (!this.plugin.settings.getSetting("canvasMetadataCompatibilityEnabled")) return;
     const that = this;
     await Patcher.waitForViewRequest(this.plugin, "search", (view) => {
-      const uninstaller = around(view, {
+      const uninstallers = [];
+      Patcher.patchThisAndPrototype(this.plugin, view, {
         startSearch: (next) => function(...args) {
           const result = next.call(this, ...args);
           if (this.searchQuery) {
             that.patchSearchQuery(this.searchQuery);
-            uninstaller();
+            uninstallers.forEach((uninstall) => uninstall());
           }
           return result;
         }
-      });
-      that.plugin.register(uninstaller);
+      }, uninstallers);
     });
   }
   patchSearchQuery(searchQuery) {
@@ -2939,6 +2998,31 @@ var _CanvasHelper = class _CanvasHelper {
       }
     }
     return bestSide;
+  }
+  static selectEdgesForNodes(canvas, direction) {
+    const selection = canvas.getSelectionData();
+    if (selection.nodes.length === 0) return;
+    const edges = /* @__PURE__ */ new Set();
+    for (const nodeData of selection.nodes) {
+      const node = canvas.nodes.get(nodeData.id);
+      if (!node) continue;
+      for (const edge of canvas.getEdgesForNode(node)) {
+        switch (direction) {
+          case "connected":
+            edges.add(edge);
+            break;
+          case "incoming":
+            if (edge.to.node === node) edges.add(edge);
+            break;
+          case "outgoing":
+            if (edge.from.node === node) edges.add(edge);
+            break;
+        }
+      }
+    }
+    canvas.updateSelection(() => {
+      canvas.selection = edges;
+    });
   }
 };
 _CanvasHelper.GRID_SIZE = 20;
@@ -3657,6 +3741,33 @@ var CommandsCanvasExtension = class extends CanvasExtension {
       )
     });
     this.plugin.addCommand({
+      id: "select-connected-edges",
+      name: "Select connected edges",
+      checkCallback: CanvasHelper.canvasCommand(
+        this.plugin,
+        (canvas) => canvas.selection.size > 0,
+        (canvas) => CanvasHelper.selectEdgesForNodes(canvas, "connected")
+      )
+    });
+    this.plugin.addCommand({
+      id: "select-incoming-edges",
+      name: "Select incoming edges",
+      checkCallback: CanvasHelper.canvasCommand(
+        this.plugin,
+        (canvas) => canvas.selection.size > 0,
+        (canvas) => CanvasHelper.selectEdgesForNodes(canvas, "incoming")
+      )
+    });
+    this.plugin.addCommand({
+      id: "select-outgoing-edges",
+      name: "Select outgoing edges",
+      checkCallback: CanvasHelper.canvasCommand(
+        this.plugin,
+        (canvas) => canvas.selection.size > 0,
+        (canvas) => CanvasHelper.selectEdgesForNodes(canvas, "outgoing")
+      )
+    });
+    this.plugin.addCommand({
       id: "swap-nodes",
       name: "Swap nodes",
       checkCallback: CanvasHelper.canvasCommand(
@@ -3691,16 +3802,105 @@ var CommandsCanvasExtension = class extends CanvasExtension {
         }
       )
     });
+    this.plugin.addCommand({
+      id: "pull-outgoing-links-to-canvas",
+      name: "Pull outgoing links to canvas",
+      checkCallback: CanvasHelper.canvasCommand(
+        this.plugin,
+        (canvas) => !canvas.readonly,
+        (canvas) => {
+          var _a, _b, _c;
+          const canvasFile = canvas.view.file;
+          if (!canvasFile) return;
+          let selectedNodeIds = canvas.getSelectionData().nodes.map((node) => node.id);
+          if (selectedNodeIds.length === 0) selectedNodeIds = [...canvas.nodes.keys()];
+          const metadata = this.plugin.app.metadataCache.getFileCache(canvasFile);
+          if (!metadata) return;
+          const outgoingLinks = /* @__PURE__ */ new Set();
+          for (const nodeId of selectedNodeIds) {
+            let relativeFile = canvasFile;
+            let nodeOutgoingLinks = (_b = (_a = metadata.nodes) == null ? void 0 : _a[nodeId]) == null ? void 0 : _b.links;
+            if (!nodeOutgoingLinks) {
+              const file = (_c = canvas.nodes.get(nodeId)) == null ? void 0 : _c.file;
+              if (!file) continue;
+              const fileMetadata = this.plugin.app.metadataCache.getFileCache(file);
+              nodeOutgoingLinks = fileMetadata == null ? void 0 : fileMetadata.links;
+              relativeFile = file;
+            }
+            if (!nodeOutgoingLinks) continue;
+            for (const nodeOutgoingLink of nodeOutgoingLinks) {
+              const resolvedLink = this.plugin.app.metadataCache.getFirstLinkpathDest(nodeOutgoingLink.link, relativeFile.path);
+              if (!(resolvedLink instanceof import_obsidian13.TFile)) continue;
+              outgoingLinks.add(resolvedLink);
+            }
+          }
+          const existingFileNodes = /* @__PURE__ */ new Set([canvas.view.file]);
+          for (const node of canvas.nodes.values()) {
+            if (node.getData().type !== "file" || !node.file) continue;
+            existingFileNodes.add(node.file);
+          }
+          for (const outgoingLink of outgoingLinks) {
+            if (existingFileNodes.has(outgoingLink)) continue;
+            this.createFileNode(canvas, outgoingLink);
+          }
+        }
+      )
+    });
+    this.plugin.addCommand({
+      id: "pull-backlinks-to-canvas",
+      name: "Pull backlinks to canvas",
+      checkCallback: CanvasHelper.canvasCommand(
+        this.plugin,
+        (canvas) => !canvas.readonly,
+        (canvas) => {
+          const canvasFile = canvas.view.file;
+          if (!canvasFile) return;
+          let selectedNodesData = canvas.getSelectionData().nodes.map((node) => node);
+          const backlinks = /* @__PURE__ */ new Set();
+          if (selectedNodesData.length > 0) {
+            for (const nodeData of selectedNodesData) {
+              if (nodeData.type !== "file" || !nodeData.file) continue;
+              const file = this.plugin.app.vault.getFileByPath(nodeData.file);
+              if (!file) continue;
+              const nodeBacklinks = this.plugin.app.metadataCache.getBacklinksForFile(file);
+              if (!nodeBacklinks) continue;
+              for (const nodeBacklink of nodeBacklinks.data.keys()) {
+                const resolvedLink = this.plugin.app.metadataCache.getFirstLinkpathDest(nodeBacklink, file.path);
+                if (!(resolvedLink instanceof import_obsidian13.TFile)) continue;
+                backlinks.add(resolvedLink);
+              }
+            }
+          } else {
+            const canvasBacklinks = this.plugin.app.metadataCache.getBacklinksForFile(canvasFile);
+            if (!canvasBacklinks) return;
+            for (const canvasBacklink of canvasBacklinks.data.keys()) {
+              const resolvedLink = this.plugin.app.metadataCache.getFirstLinkpathDest(canvasBacklink, canvasFile.path);
+              if (!(resolvedLink instanceof import_obsidian13.TFile)) continue;
+              backlinks.add(resolvedLink);
+            }
+          }
+          const existingFileNodes = /* @__PURE__ */ new Set([canvas.view.file]);
+          for (const node of canvas.nodes.values()) {
+            if (node.getData().type !== "file" || !node.file) continue;
+            existingFileNodes.add(node.file);
+          }
+          for (const backlink of backlinks) {
+            if (existingFileNodes.has(backlink)) continue;
+            this.createFileNode(canvas, backlink);
+          }
+        }
+      )
+    });
   }
   createTextNode(canvas) {
     const size = canvas.config.defaultTextNodeDimensions;
     const pos = CanvasHelper.getCenterCoordinates(canvas, size);
     canvas.createTextNode({ pos, size });
   }
-  async createFileNode(canvas) {
+  async createFileNode(canvas, file) {
     const size = canvas.config.defaultFileNodeDimensions;
     const pos = CanvasHelper.getCenterCoordinates(canvas, size);
-    const file = await new FileSelectModal(this.plugin.app, void 0, true).awaitInput();
+    file != null ? file : file = await new FileSelectModal(this.plugin.app, void 0, true).awaitInput();
     canvas.createFileNode({ pos, size, file });
   }
   cloneNode(canvas, cloneDirection) {
@@ -4285,7 +4485,7 @@ var FrontmatterControlButtonCanvasExtension = class extends CanvasExtension {
           var _a2;
           const propertiesPlugin = this.plugin.app.internalPlugins.plugins["properties"];
           if (!(propertiesPlugin == null ? void 0 : propertiesPlugin._loaded)) {
-            new import_obsidian15.Notice(`Core plugin "Properties" was not found or isn't enabled.`);
+            new import_obsidian15.Notice(`Core plugin "Properties view" was not found or isn't enabled. Enable it and restart Obsidian.`);
             return;
           }
           let propertiesLeaf = (_a2 = this.plugin.app.workspace.getLeavesOfType("file-properties").first()) != null ? _a2 : null;
@@ -4382,8 +4582,11 @@ var BetterDefaultSettingsCanvasExtension = class extends CanvasExtension {
   applyDefaultNodeStyles(_canvas, node) {
     const nodeData = node.getData();
     if (nodeData.type !== "text") return;
+    let color = this.plugin.settings.getSetting("defaultTextNodeColor").toString();
+    if (color === "0") color = void 0;
     node.setData({
       ...nodeData,
+      color,
       styleAttributes: {
         ...nodeData.styleAttributes,
         ...this.plugin.settings.getSetting("defaultTextNodeStyleAttributes")
@@ -4392,8 +4595,11 @@ var BetterDefaultSettingsCanvasExtension = class extends CanvasExtension {
   }
   async applyDefaultEdgeStyles(canvas, edge) {
     const edgeData = edge.getData();
+    let color = this.plugin.settings.getSetting("defaultEdgeColor").toString();
+    if (color === "0") color = void 0;
     edge.setData({
       ...edgeData,
+      color,
       styleAttributes: {
         ...edgeData.styleAttributes,
         ...this.plugin.settings.getSetting("defaultEdgeStyleAttributes")
@@ -4805,6 +5011,70 @@ var FlipEdgeCanvasExtension = class extends CanvasExtension {
       });
     }
     canvas.pushHistory(canvas.getData());
+  }
+};
+
+// src/canvas-extensions/edge-selection-canvas-extension.ts
+var DIRECTION_MENU_MAP = {
+  connected: {
+    id: "select-connected-edges",
+    icon: "arrows-selected",
+    label: "Select Connected Edges"
+  },
+  outgoing: {
+    id: "select-outgoing-edges",
+    icon: "arrow-right-selected",
+    label: "Select Outgoing Edges"
+  },
+  incoming: {
+    id: "select-incoming-edges",
+    icon: "arrow-left-selected",
+    label: "Select Incoming Edges"
+  }
+};
+var EdgeSelectionCanvasExtension = class extends CanvasExtension {
+  isEnabled() {
+    return "edgeSelectionEnabled";
+  }
+  init() {
+    this.plugin.registerEvent(this.plugin.app.workspace.on(
+      "advanced-canvas:popup-menu-created",
+      (canvas) => this.onPopupMenuCreated(canvas)
+    ));
+  }
+  onPopupMenuCreated(canvas) {
+    var _a;
+    const popupMenuEl = (_a = canvas == null ? void 0 : canvas.menu) == null ? void 0 : _a.menuEl;
+    if (!popupMenuEl) return;
+    const selectionNodeData = canvas.getSelectionData().nodes;
+    if (canvas.readonly || selectionNodeData.length === 0) return;
+    const selectEdgeByDirection = this.plugin.settings.getSetting("selectEdgeByDirection");
+    const menuDirectionSet = /* @__PURE__ */ new Set(["connected"]);
+    if (selectionNodeData.length === 1) {
+      const node = canvas.nodes.get(selectionNodeData[0].id);
+      if (!node) return;
+      const edges = canvas.getEdgesForNode(node);
+      if (edges.length === 0) return;
+      if (selectEdgeByDirection) {
+        edges.forEach((edge) => {
+          if (edge.from.node === node) {
+            menuDirectionSet.add("outgoing");
+          } else if (edge.to.node === node) {
+            menuDirectionSet.add("incoming");
+          }
+        });
+      }
+    } else if (selectEdgeByDirection) {
+      menuDirectionSet.add("outgoing");
+      menuDirectionSet.add("incoming");
+    }
+    menuDirectionSet.forEach((direction) => {
+      const config = DIRECTION_MENU_MAP[direction];
+      CanvasHelper.addPopupMenuOption(canvas, CanvasHelper.createPopupMenuOption({
+        ...config,
+        callback: () => CanvasHelper.selectEdgesForNodes(canvas, direction)
+      }));
+    });
   }
 };
 
@@ -5633,6 +5903,13 @@ var ExportCanvasExtension = class extends CanvasExtension {
     noFontExportSetting = new import_obsidian17.Setting(modal.contentEl).setName("Skip font export").setDesc("This will not include the fonts in the exported SVG. This will make the SVG file smaller.").addToggle(
       (toggle) => toggle.setValue(noFontExport).onChange((value) => noFontExport = value)
     );
+    let theme = document.body.classList.contains("theme-dark") ? "dark" : "light";
+    new import_obsidian17.Setting(modal.contentEl).setName("Theme").setDesc("The theme used for the export.").addDropdown(
+      (dropdown) => dropdown.addOptions({
+        light: "Light",
+        dark: "Dark"
+      }).setValue(theme).onChange((value) => theme = value)
+    );
     let watermark = false;
     new import_obsidian17.Setting(modal.contentEl).setName("Show logo").setDesc("This will add an Obsidian + Advanced Canvas logo to the bottom left.").addToggle(
       (toggle) => toggle.setValue(watermark).onChange((value) => watermark = value)
@@ -5654,6 +5931,7 @@ var ExportCanvasExtension = class extends CanvasExtension {
           svg,
           svg ? 1 : pixelRatioFactor,
           svg ? noFontExport : false,
+          theme,
           watermark,
           garbledText,
           svg ? true : transparentBackground
@@ -5663,8 +5941,13 @@ var ExportCanvasExtension = class extends CanvasExtension {
     updateDynamicSettings();
     modal.open();
   }
-  async exportImage(canvas, nodesToExport, svg, pixelRatioFactor, noFontExport, watermark, garbledText, transparentBackground) {
+  async exportImage(canvas, nodesToExport, svg, pixelRatioFactor, noFontExport, theme, watermark, garbledText, transparentBackground) {
     var _a, _b, _c;
+    const cachedTheme = document.body.classList.contains("theme-dark") ? "dark" : "light";
+    if (theme !== cachedTheme) {
+      document.body.classList.toggle("theme-dark", theme === "dark");
+      document.body.classList.toggle("theme-light", theme === "light");
+    }
     const isWholeCanvas = nodesToExport === null;
     if (!nodesToExport) nodesToExport = [...canvas.nodes.values()];
     const nodesToExportIds = nodesToExport.map((node) => node.getData().id);
@@ -5779,6 +6062,10 @@ var ExportCanvasExtension = class extends CanvasExtension {
       canvas.updateSelection(() => canvas.selection = cachedSelection);
       canvas.setViewport(cachedViewport.x, cachedViewport.y, cachedViewport.zoom);
       interactionBlocker.remove();
+      if (theme !== cachedTheme) {
+        document.body.classList.toggle("theme-dark", cachedTheme === "dark");
+        document.body.classList.toggle("theme-light", cachedTheme === "light");
+      }
     }
   }
   getInteractionBlocker() {
@@ -6919,7 +7206,8 @@ var CANVAS_EXTENSIONS = [
   ZOrderingCanvasExtension,
   ExportCanvasExtension,
   FocusModeCanvasExtension,
-  EncapsulateCanvasExtension
+  EncapsulateCanvasExtension,
+  EdgeSelectionCanvasExtension
 ];
 var AdvancedCanvasPlugin = class extends import_obsidian19.Plugin {
   async onload() {
