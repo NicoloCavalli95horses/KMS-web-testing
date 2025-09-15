@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/XSS (cross site scripting).md",
+                "file": "96 Meta/Empirical Study/TO DO.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "XSS (cross site scripting)"
+              "title": "TO DO"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 261.5026054382324
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -188,6 +188,11 @@
   },
   "active": "17fe54c8a6a1715b",
   "lastOpenFiles": [
+    "96 Meta/Empirical Study/Large-scale analysis on Tranco Top 250k.md",
+    "96 Meta/Empirical Study/TO DO.md",
+    "00 Antilibrary/Ansible.md",
+    "01 Notes/XSS (cross site scripting).md",
+    "96 Meta/Empirical Study",
     "01 Notes/SameSite cookie.md",
     "01 Notes/CSRF (cross-site request forgery).md",
     "03 References/(Khodayari, Barber, et al., 2024).md",
@@ -201,7 +206,6 @@
     "06 Courses, webinars/The publishing trap.md",
     "06 Courses, webinars/The growing carbon footprint of generative AI services.md",
     "06 Courses, webinars/Supporting Metamodel and code co-evolution.md",
-    "01 Notes/XSS (cross site scripting).md",
     "01 Notes/clickjacking.md",
     "03 References/(Chinprutthiwong, Vardhan, et al., 2021).md",
     "03 References/(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018).md",
@@ -215,9 +219,6 @@
     "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_02.md",
     "97 Assets/entering_questionnaire_data.png",
     "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_01.md",
-    "01 Notes/WW (Web Worker) and SW (Service Worker) comparison.md",
-    "01 Notes/WW (Web Worker).md",
-    "01 Notes/agile development.md",
     "06 Courses, webinars/ERMSEI 2025 Summer School",
     "04 Canvases/mind maps/Empirical Study/JCH-based IDOR test for vulnerability scanners.canvas",
     "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
@@ -242,7 +243,6 @@
     "97 Assets/js_instrumentation2.png",
     "02 Literature/papers/JavaScript instrumentation",
     "97 Assets/js_instrumentation.png",
-    "02 Literature/papers/Cross-Site Framing (CSF)",
-    "Excalidraw"
+    "02 Literature/papers/Cross-Site Framing (CSF)"
   ]
 }
