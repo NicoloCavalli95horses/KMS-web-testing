@@ -91,7 +91,7 @@ Reverse XCS (a cross-protocol attack that start from a web channel) can be explo
 - Checking the HTTP header is useless in the context of XCS because the request comes from the same domain
 - The use of secure tokens can be defeated by sending an XHR request to the page, reading its result and extracting the token value to construct dynamically the form that will be used to perform the CSRF attack
 
-**TOCHECK: Input validation CSRF** [[(Khodayari, Barber, et al., 2024)]]
+**Input validation CSRF** [[(Khodayari, Barber, et al., 2024)]]
 - Can bypass common CSRF defenses (e.g., token)
 
 ### Risks and consequences
@@ -155,7 +155,7 @@ Verifying the source of the request (original header) could be a valid mitigatio
 	2. if you landed on a malicious website *before* reaching the target, malicious HTTP requests may have been hidden and then executed in the background (this can be done with a [[SW (Service Worker)]])
 
 [[(Khodayari, Barber, et al., 2024)]]:
-While  tokens, headers, and cookies in same-site requests are necessary to prevent classical request forgery attacks, they are not sufficient to prevent client-side hijack of requests (from the same origin), because JavaScript programs and web browsers include these tokens, headers, and cookies in same-site requests
+While tokens, headers, and cookies in same-site requests are necessary to prevent classical request forgery attacks, they are not sufficient to prevent client-side hijack of requests (from the same origin), because JavaScript programs and web browsers include these tokens, headers, and cookies in same-site requests
 In addition, when the request body contains sensitive information, attackers can hijack the request and reroute it to their own domains, thereby setting the CORS response headers to their advantage. A better mitigation strategy should include:
 - a robust [[URL validation]]
 - [[CSP (Content Security Policy)]]
