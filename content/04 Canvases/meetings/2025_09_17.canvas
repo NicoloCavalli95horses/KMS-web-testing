@@ -1,0 +1,59 @@
+{
+	"edges":[
+		{
+			"id":"24e0e95747999ae4",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"87523b5423768669",
+			"fromSide":"right",
+			"toNode":"8e1c8a1d352b0cf1",
+			"toSide":"top"
+		}
+	],
+	"nodes":[
+		{
+			"id":"8e1c8a1d352b0cf1",
+			"type":"text",
+			"text":"```mermaid\ntimeline\n    september : empirical study\n    october : empirical study\n    november : Tranco's top 100k large scale analysis : SLR\n    december : Tranco's top 100k large scale analysis : SLR \n    january : Tranco's top 100k large scale analysis : SLR\n```\n\n\n",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":-560,
+			"y":4200,
+			"width":1720,
+			"height":560
+		},
+		{
+			"id":"a5cba865072da471",
+			"type":"text",
+			"text":"# New separate project\n- [[Large-scale analysis on Tranco Top 250k]]",
+			"styleAttributes":{"border":"invisible"},
+			"x":930,
+			"y":4480,
+			"width":460,
+			"height":160
+		},
+		{
+			"id":"cc54b4aeccbfccf7",
+			"type":"text",
+			"text":"# Empirical study: next steps\n\n- [x] contact all the companies (in progress)\n- [ ] expand the attack protocol section\n- [ ] possibly study other application (e.g., online news)\n- [ ] CASE STUDIES: clean names in submit-version, anonymize in camera-ready",
+			"styleAttributes":{"border":"invisible"},
+			"x":-30,
+			"y":4760,
+			"width":640,
+			"height":280
+		},
+		{
+			"id":"87523b5423768669",
+			"type":"text",
+			"text":"# Next month plan",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-180,
+			"y":4080,
+			"width":360,
+			"height":120
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}
