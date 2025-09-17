@@ -83,6 +83,10 @@ From [[(Shahriar, Devendran, et al., 2013)]]:
 
 ## Mitigation techniques
 
+[[CSP (Content Security Policy)]]
+- The HTTP Content-Security-Policy (CSP) frame-ancestors directive specifies valid parents that may embed a page using `<frame>, <iframe>, <object>, or <embed>`
+- Setting this directive to 'none' is similar to X-Frame-Options: deny (which is also supported in older browsers).
+
 **Frame busting** [[(Hazhirpasand, 2020)]]  [[(Selim, Tayeb, et al., 2016)]] [[(Shahriar, Haddad, et al., 2015)]] [[(Sood, Enbody, et al., 2011)]] [[(Sinha, Uppal, et al., 2014)]] [[(Shahriar, Devendran, et al., 2013)]]
 Frame busting is a technique to prevent a given web page from being loaded in a sub-frame. Many JS snippet have been proposed to implement that solution
 - given that is a client-side implementation, it can be modified by an attacker, so does not really protect against a well-crafted targeted attack
