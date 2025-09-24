@@ -2990,7 +2990,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.29,
-      "characterCount": 619,
+      "characterCount": 590,
       "nonWhitespaceCharacterCount": 483,
       "newlineCount": 30,
       "readingTimeInMinutes": 0.3283018867924528,
@@ -2998,8 +2998,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754291310694,
-      "modifiedDate": 1754291310694,
-      "sizeInBytes": 730,
+      "modifiedDate": 1758719880204,
+      "sizeInBytes": 692,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.29,
@@ -3102,7 +3102,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.23333333333333334,
-      "characterCount": 602,
+      "characterCount": 586,
       "nonWhitespaceCharacterCount": 507,
       "newlineCount": 17,
       "readingTimeInMinutes": 0.2641509433962264,
@@ -3110,8 +3110,8 @@
       "embedCount": 1,
       "aliases": null,
       "createdDate": 1754291310691,
-      "modifiedDate": 1754291310691,
-      "sizeInBytes": 713,
+      "modifiedDate": 1758719883955,
+      "sizeInBytes": 689,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.23333333333333334,
@@ -3127,7 +3127,7 @@
         ],
         "speaker": [
           "Julien Rossi",
-          "Arrah-Marie JO"
+          " Arrah-Marie JO"
         ],
         "abstract": null
       }
