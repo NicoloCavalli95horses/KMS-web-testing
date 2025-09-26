@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/GEMs (GUI Element Misuse).md",
+                "file": "01 Notes/BFT (business flow tampering).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "GEMs (GUI Element Misuse)"
+              "title": "BFT (business flow tampering)"
             }
           }
         ]
@@ -188,8 +188,10 @@
   },
   "active": "f0bcb3e66235228d",
   "lastOpenFiles": [
-    "03 References/(Mulliner, Robertson, Kirda, 2014).md",
+    "02 Literature/papers/logic flow tampering/BFTDETECTOR. Automatic detection of business flow tampering for digital content service.md",
+    "02 Literature/papers/logic flow tampering/Finding client-side business flow tampering vulnerabilities.md",
     "01 Notes/GEMs (GUI Element Misuse).md",
+    "03 References/(Mulliner, Robertson, Kirda, 2014).md",
     "03 References/(Lelli, Blouin, Baudry, 2015a).md",
     "01 Notes/ad hoc widgets.md",
     "03 References/(Lelli, Blouin, Baudry, 2015b).md",
@@ -215,8 +217,6 @@
     "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_05.md",
     "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_04.md",
     "96 Meta/Lectures/TO DO.md",
-    "96 Meta/Lectures/Untitled.md",
-    "96 Meta/Empirical Study/TO DO.md",
     "96 Meta/Lectures",
     "96 Meta/Empirical Study",
     "97 Assets/guidelines_se_ermsei.png",
