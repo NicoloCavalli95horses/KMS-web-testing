@@ -11,10 +11,17 @@
             "id": "657b14e9a2460b47",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/mind maps/input analysis.canvas",
+                "viewState": {
+                  "x": -1527.839021193336,
+                  "y": -160.0087776940387,
+                  "zoom": -1.260073423894996
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "input analysis"
             }
           }
         ]
