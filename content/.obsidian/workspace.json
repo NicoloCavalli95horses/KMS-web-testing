@@ -11,10 +11,15 @@
             "id": "e684826ba9694f5f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature/papers/BAC (Broken Access Control)/Automated broken object-level authorization attack detection in REST APIs through OpenAPI to colored petri nets transformation.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Automated broken object-level authorization attack detection in REST APIs through OpenAPI to colored petri nets transformation"
             }
           }
         ]
@@ -74,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -183,6 +189,8 @@
   },
   "active": "e684826ba9694f5f",
   "lastOpenFiles": [
+    "02 Literature/papers/BAC (Broken Access Control)/Automated broken object-level authorization attack detection in REST APIs through OpenAPI to colored petri nets transformation.md",
+    "03 References/(Santos Filho, Rodriguez, et al., 2025).md",
     "04 Canvases/mind maps/input analysis.canvas",
     "06 Courses, webinars/Science in mainstream media. Understanding how science gets lost in translation.md",
     "06 Courses, webinars/Introduction to Abaca (Inria compute cluster).md",
@@ -210,7 +218,6 @@
     "02 Literature/papers/BAC (Broken Access Control)/Least Privilege Access for Persistent Storage Mechanisms in Web Browsers.md",
     "03 References/(Saini, Gaur, et al., 2015).md",
     "02 Literature/papers/cloud control interface (CCI)/How Private is Your Private Cloud. Security Analysis of Cloud Control Interfaces.md",
-    "02 Literature/papers/browser security/SandFOX. secure sandboxed and isolated environment for Firefox browser.md",
     "05 Dataset/vulnerable webapp.canvas",
     "04 Canvases/meetings/2025_09_17.canvas",
     "04 Canvases/meetings/2025_07_10.canvas",
