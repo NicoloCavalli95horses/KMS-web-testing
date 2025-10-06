@@ -22,7 +22,7 @@ People are annoyed by ad-based websites because:
 
 We find that all observed [[paywalls]] are trivial to circumvent. Well-known techniques includes:
 - emptying the [[cookie]] jar ==(75% effective)==
-- enabling Incognito/Private Mode ==(sufficient to bypass most [[paywalls]])==
+- enabling Incognito/Private Mode (sufficient to bypass most [[paywalls]])
 - changing the screen size dimensions
 - hiding the user’s IP address
 - changing the user agent string

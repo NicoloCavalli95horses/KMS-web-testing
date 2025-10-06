@@ -52,9 +52,10 @@ Google, Facebook and Apple, build platforms to provide or support paywall servic
 Users view less pages on paywalled sites, stay for shorter periods of time and link to pages less. Interestingly, we did not see a significantly difference
 to the bounce rate between paywalled and non-paywalled sites
 
-> [![[[[error]]]]] Paywalls and [[privacy]]
+> [!Paywalls and privacy]
 > People do not generally receive a tracker free version of site content when paying for subscriptions. Instead, paywall systems seem to serve as an additional monetization mechanism on top of existing, [[privacy]] harming, ad systems
 
+---
 ## References
-[[(Papadopoulos, Snyder, et al., 2020)]]
-[[(Kim, Wang, Kwon, et al., 2023)]]
+- [[(Papadopoulos, Snyder, et al., 2020)]]
+- [[(Kim, Wang, Kwon, et al., 2023)]]
