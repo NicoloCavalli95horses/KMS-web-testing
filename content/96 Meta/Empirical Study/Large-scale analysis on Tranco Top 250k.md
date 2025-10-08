@@ -21,4 +21,4 @@ tags:
 
 ## Technical requirements
 
-- setup a virtual machine enabling the execution of the containerize software (define an [[Ansible]] file)
+- setup a virtual machine enabling the execution of the containerize software (define an [[ansible]] file)
