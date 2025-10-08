@@ -11,17 +11,15 @@
             "id": "2e6122cae9b7489e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/models/research model.canvas",
-                "viewState": {
-                  "x": 1225.4037609225538,
-                  "y": 797.6420916091118,
-                  "zoom": 0.4911388164137873
-                }
+                "file": "02 Literature/papers/data disclosure/FlowWatcher. Defending against Data Disclosure Vulnerabilities in Web Applications.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "research model"
+              "icon": "lucide-file",
+              "title": "FlowWatcher. Defending against Data Disclosure Vulnerabilities in Web Applications"
             }
           }
         ]
@@ -190,6 +188,7 @@
   },
   "active": "2e6122cae9b7489e",
   "lastOpenFiles": [
+    "04 Canvases/models/research model.canvas",
     "00 Antilibrary/ansible.md",
     "00 Antilibrary/Untitled.base",
     "00 Antilibrary/[[error.md",
