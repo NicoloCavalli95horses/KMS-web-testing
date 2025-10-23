@@ -2,9 +2,9 @@
 ID: 2025-01-27-14:14
 tags:
   - paper
-  - [[[[paywalls]]]]
-  - webMonetization
-  - cyberSecurity
+  - paywall
+  - clientSideAttacks
+  - businessFlowTampering
   - webApplication
 ---
 Goals of the paper:
