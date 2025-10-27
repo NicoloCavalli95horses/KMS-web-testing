@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 Courses, webinars/XAREUS. Release the power of XR.md",
+                "file": "06 Courses, webinars/Early Career Researchers Workshop (ECSS 2025).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "XAREUS. Release the power of XR"
+              "title": "Early Career Researchers Workshop (ECSS 2025)"
             }
           }
         ]
@@ -188,11 +188,12 @@
   },
   "active": "23304c8d4fd2be05",
   "lastOpenFiles": [
+    "06 Courses, webinars/XAREUS. Release the power of XR.md",
+    "06 Courses, webinars/Early Career Researchers Workshop (ECSS 2025).md",
     "02 Literature/papers/BAC (Broken Access Control)/Least Privilege Access for Persistent Storage Mechanisms in Web Browsers.md",
     "02 Literature/papers/BAC (Broken Access Control)/Cached and confused. Web cache deception in the wild.md",
     "02 Literature/papers/BAC (Broken Access Control)/Automated broken object-level authorization attack detection in REST APIs through Open API to colored petri nets transformation.md",
     "02 Literature/papers/BAC (Broken Access Control)/A Systematic Literature Review on the Characteristics and Effectiveness of Web Application Vulnerability Scanners.md",
-    "06 Courses, webinars/XAREUS. Release the power of XR.md",
     "02 Literature/papers/logic flow tampering/Patching Logic Vulnerabilities for Web Applications using LogicPatcher.md",
     "02 Literature/papers/logic flow tampering/On the misuse of Graphical User Interface elements to implement security controls.md",
     "02 Literature/papers/logic flow tampering/LogicScope. automatic discovery of logic vulnerabilities within web applications.md",
@@ -213,7 +214,6 @@
     "02 Literature/papers/behavioral biometrics/User Profiling Using Sequential Mining Over Web Elements.md",
     "02 Literature/papers/authentication/Systematically breaking and fixing OpenID security. Formal analysis, semi-automated empirical evaluation, and practical countermeasures.md",
     "02 Literature/papers/authentication/Reliable protection against session fixation attacks.md",
-    "02 Literature/papers/authentication/A Supervised Learning Approach to Protect Client Authentication on the Web.md",
     "04 Canvases/models/research model.canvas",
     "00 Antilibrary/Untitled.base",
     "00 Antilibrary/Untitled 3.base",
