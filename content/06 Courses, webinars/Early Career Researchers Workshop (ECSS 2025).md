@@ -7,11 +7,4 @@ speaker:
   - Maarten Steinbuch
 abstract:
 ---
-**How to cope with changes in IT departments**
-
-**Moore's law calls for the next generation University**
-- 
-
----
-#### References
-- 
+**Career development support session**
