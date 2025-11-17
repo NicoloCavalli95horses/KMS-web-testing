@@ -16900,7 +16900,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.12333333333333334,
-      "characterCount": 423,
+      "characterCount": 411,
       "nonWhitespaceCharacterCount": 358,
       "newlineCount": 13,
       "readingTimeInMinutes": 0.13962264150943396,
@@ -16908,8 +16908,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754291310655,
-      "modifiedDate": 1754291310655,
-      "sizeInBytes": 471,
+      "modifiedDate": 1763374603707,
+      "sizeInBytes": 455,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.12333333333333334,
@@ -23266,7 +23266,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.55,
-      "characterCount": 1049,
+      "characterCount": 1034,
       "nonWhitespaceCharacterCount": 856,
       "newlineCount": 16,
       "readingTimeInMinutes": 0.6226415094339622,
@@ -23274,8 +23274,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754291310585,
-      "modifiedDate": 1754291310585,
-      "sizeInBytes": 1176,
+      "modifiedDate": 1763374638885,
+      "sizeInBytes": 1161,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.55,
@@ -23293,7 +23293,8 @@
           "cyberSecurity",
           "clientSideAttacks",
           "HTML"
-        ]
+        ],
+        "Rank": "A*"
       }
     },
     "02 Literature/papers/CSRF (Cross Site Request Forgery)/A server and browser transparent CSRF defense for web 2.0 applications.md": {
