@@ -7,6 +7,7 @@ tags:
   - cyberSecurity
   - clientSideAttacks
   - HTML
+Rank: A*
 ---
 ## Context
 
