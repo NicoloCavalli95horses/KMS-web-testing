@@ -141,12 +141,12 @@
 		{
 			"id":"d1e15619b3c08b51",
 			"type":"text",
-			"text":"## Possible research plan\n\n### Focus on issues derived from translation (built-in browser's feature) and usability\n\n- Analyse how Chrome modifies the DOM for translation purposes (toy app with all possible HTML tags and input fields)\n- Analyse all possible scenarios (`event.target`, `textNode` comparison, ...) that lead to usability issues (broken links or clicks, input fields)\n- Implement a tool that detect these scenarios and outputs tests ([[test amplification]] based on [[static analysis]]).\n- Large scale analysis (Tranco's top 100k) to evaluate the prevalence of usability issues\n- Manual validation on a randomly extracted sample\n- Statistics about usability issues",
+			"text":"## Possible research plan\n\n### Focus on issues derived from translation (built-in browser's feature) and usability\n\n- Analyse how Chrome modifies the DOM for translation purposes (toy app with all possible HTML tags and input fields)\n- Preliminary test on 500 websites to estimate prevalence and gather initial data\n- Analyse all possible scenarios (`event.target`, `textNode` comparison, ...) that lead to usability issues (broken links or clicks, input fields)\n- Implement a tool that detect these scenarios and outputs tests ([[test amplification]] based on [[static analysis]]).\n- Large scale analysis (Tranco's top 100k) to evaluate the prevalence of usability issues\n- Manual validation on a randomly extracted sample\n- Statistics about usability issues",
 			"styleAttributes":{"border":"invisible"},
 			"x":-780,
 			"y":5340,
 			"width":610,
-			"height":520,
+			"height":560,
 			"color":"5"
 		},
 		{
