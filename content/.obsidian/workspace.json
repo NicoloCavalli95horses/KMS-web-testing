@@ -36,9 +36,21 @@
               "icon": "lucide-file",
               "title": "Cross-origin pixel stealing. Timing attacks using CSS filters"
             }
+          },
+          {
+            "id": "0c6befc40dd16c4c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -202,7 +214,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8a3bc0dac97c6008",
+  "active": "0c6befc40dd16c4c",
   "lastOpenFiles": [
     "03 References/(Kotcher, Pei, Jumde, et al., 2013).md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
