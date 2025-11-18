@@ -1,0 +1,134 @@
+{
+	"edges":[
+		{
+			"id":"df022c0922c3dfaa",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"c6b175af67ad193f",
+			"fromSide":"bottom",
+			"toNode":"32eed9c7e2798760",
+			"toSide":"top",
+			"label":"next steps"
+		},
+		{
+			"id":"1b0d46b8312cb119",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"652810886deb521f",
+			"fromSide":"bottom",
+			"toNode":"8e6d4a7c3f5800f4",
+			"toSide":"top",
+			"label":"next steps"
+		},
+		{
+			"id":"b83d26ec3151acaf",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"eac6900dbfae5c79",
+			"fromSide":"bottom",
+			"toNode":"29d701581cb56f7d",
+			"toSide":"top",
+			"label":"currently exploring"
+		}
+	],
+	"nodes":[
+		{
+			"id":"eac6900dbfae5c79",
+			"type":"text",
+			"text":"# DOM mutation testing",
+			"styleAttributes":{"textAlign":"center"},
+			"x":300,
+			"y":4000,
+			"width":400,
+			"height":100,
+			"color":"5"
+		},
+		{
+			"id":"652810886deb521f",
+			"type":"text",
+			"text":"# BACs in web front-ends",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-140,
+			"y":4000,
+			"width":400,
+			"height":100,
+			"color":"4"
+		},
+		{
+			"id":"8e6d4a7c3f5800f4",
+			"type":"text",
+			"text":"- To wait for reviewers response (19 Jan, then Feb 12 to Feb 23)\n- Early reject? Next possible conference is [USENIX Security Symposium)](https://www.usenix.org/conference/usenixsecurity26) (registration: Jan 29, paper submission Feb 5)\n- To improve scalability and automation (PoC browser extension, binary classifier of HTTP responses). Technical challenges to address",
+			"styleAttributes":{"border":"invisible"},
+			"x":-140,
+			"y":4210,
+			"width":400,
+			"height":330,
+			"color":"4"
+		},
+		{
+			"id":"c6b175af67ad193f",
+			"type":"text",
+			"text":"# SLR: front-end role in web security",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-560,
+			"y":4000,
+			"width":360,
+			"height":100,
+			"color":"3"
+		},
+		{
+			"id":"32eed9c7e2798760",
+			"type":"text",
+			"text":"- To refine methodology\n- To refine the scope and to make it more in-depth (just BAC issues? just SPA frameworks?)",
+			"styleAttributes":{"border":"invisible"},
+			"x":-560,
+			"y":4210,
+			"width":360,
+			"height":165,
+			"color":"3"
+		},
+		{
+			"id":"e38501c641ccbef0",
+			"type":"text",
+			"text":"### ETA ~4-6 months",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":-560,
+			"y":4400,
+			"width":360,
+			"height":60,
+			"color":"3"
+		},
+		{
+			"id":"29d701581cb56f7d",
+			"type":"text",
+			"text":"- Browser's translation can break links o wait for reviewers response (19 Jan, then Feb 12 to Feb 23)\n- Early reject? Next possible conference is [USENIX Security Symposium)](https://www.usenix.org/conference/usenixsecurity26) (registration: Jan 29, paper submission Feb 5)\n- To improve scalability and automation (PoC browser extension, binary classifier of HTTP responses). Technical challenges to address",
+			"styleAttributes":{"border":"invisible"},
+			"x":300,
+			"y":4210,
+			"width":400,
+			"height":330,
+			"color":"5"
+		},
+		{
+			"id":"207b92d140f0c865",
+			"type":"text",
+			"text":" ### NEW ⚠️",
+			"styleAttributes":{
+				"shape":"diamond",
+				"textAlign":"center",
+				"border":null
+			},
+			"x":615,
+			"y":3953,
+			"width":170,
+			"height":95,
+			"color":"5"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}
