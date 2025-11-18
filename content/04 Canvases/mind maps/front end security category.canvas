@@ -69,26 +69,26 @@
 			"height":640
 		},
 		{
-			"id":"57cd65944a2802bd",
-			"styleAttributes":{},
-			"text":"distinguish browser bugs",
-			"type":"text",
-			"x":-3040,
-			"y":1630,
-			"width":301,
-			"height":80,
-			"color":"3"
-		},
-		{
 			"id":"c6417e9d23b4eccf",
 			"styleAttributes":{},
 			"text":"\n## If the attack does not need the server to be carried out, *then* it must be a pure front-end attack. \n\n## In all other cases, front-end is just a *phase* of a web server attack\n",
 			"type":"text",
-			"x":-4440,
-			"y":1480,
+			"x":-4400,
+			"y":1515,
 			"width":719,
-			"height":300,
+			"height":230,
 			"color":"5"
+		},
+		{
+			"id":"57cd65944a2802bd",
+			"styleAttributes":{},
+			"text":"distinguish browser bugs",
+			"type":"text",
+			"x":-3240,
+			"y":1590,
+			"width":301,
+			"height":80,
+			"color":"3"
 		}
 	],
 	"metadata":{

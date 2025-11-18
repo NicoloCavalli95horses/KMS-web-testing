@@ -30,101 +30,190 @@
 			"fromSide":"bottom",
 			"toNode":"29d701581cb56f7d",
 			"toSide":"top",
-			"label":"currently exploring"
+			"label":"what we know"
+		},
+		{
+			"id":"ee174c9b15efee88",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"eac6900dbfae5c79",
+			"fromSide":"bottom",
+			"toNode":"864f0bd29b23536a",
+			"toSide":"top",
+			"label":"why is interesting"
+		},
+		{
+			"id":"06ed2d769d7bc16a",
+			"styleAttributes":{"path":"short-dashed"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"a1c807d4e171c3d3",
+			"fromSide":"bottom",
+			"toNode":"eac6900dbfae5c79",
+			"toSide":"top"
+		},
+		{
+			"id":"627b631972c4c062",
+			"styleAttributes":{"path":"short-dashed"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"d95606cbbd5765b4",
+			"fromSide":"bottom",
+			"toNode":"eac6900dbfae5c79",
+			"toSide":"left"
+		},
+		{
+			"id":"eac3477b7fc38934",
+			"styleAttributes":{"path":"short-dashed"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"d2cc206b4e29e3cd",
+			"fromSide":"bottom",
+			"toNode":"eac6900dbfae5c79",
+			"toSide":"right"
 		}
 	],
 	"nodes":[
+		{
+			"id":"864f0bd29b23536a",
+			"type":"text",
+			"text":"- **Highly practical impact** for frameworks developer, BE developers, but also browser developers\n- Chrome is the most used browser (+73%). The way the DOM is modified for translation purposes and its effects have **never been investigated** properly\n- Scarce research on internationalization\n- The topic is well suited to **large-scale studies and statistical analysis** (eg. broken links in the wild)",
+			"styleAttributes":{"border":"invisible"},
+			"x":-140,
+			"y":4960,
+			"width":540,
+			"height":300,
+			"color":"5"
+		},
+		{
+			"id":"29d701581cb56f7d",
+			"type":"text",
+			"text":"- Browser's translation can break links\n- Reactivity in SPA frameworks can be lost, the app can crash\n- User traceability issue: inconsistent `event.target` \n\n**Open question**: who owns the DOM? It is safe for an app to assume that the DOM is under its control? BEs or other libraries have ==the same right to change it==",
+			"styleAttributes":{"border":"invisible"},
+			"x":-780,
+			"y":4960,
+			"width":600,
+			"height":300,
+			"color":"5"
+		},
 		{
 			"id":"eac6900dbfae5c79",
 			"type":"text",
 			"text":"# DOM mutation testing",
 			"styleAttributes":{"textAlign":"center"},
-			"x":300,
-			"y":4000,
+			"x":-380,
+			"y":4700,
 			"width":400,
 			"height":100,
 			"color":"5"
 		},
 		{
-			"id":"652810886deb521f",
+			"id":"a1c807d4e171c3d3",
 			"type":"text",
-			"text":"# BACs in web front-ends",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-140,
-			"y":4000,
-			"width":400,
-			"height":100,
-			"color":"4"
+			"text":"Front-end Libraries",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-290,
+			"y":4540,
+			"width":220,
+			"height":80
 		},
 		{
-			"id":"8e6d4a7c3f5800f4",
+			"id":"d95606cbbd5765b4",
 			"type":"text",
-			"text":"- To wait for reviewers response (19 Jan, then Feb 12 to Feb 23)\n- Early reject? Next possible conference is [USENIX Security Symposium)](https://www.usenix.org/conference/usenixsecurity26) (registration: Jan 29, paper submission Feb 5)\n- To improve scalability and automation (PoC browser extension, binary classifier of HTTP responses). Technical challenges to address",
+			"text":"Browser build-in features (eg., translation)",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-600,
+			"y":4600,
+			"width":240,
+			"height":80
+		},
+		{
+			"id":"d2cc206b4e29e3cd",
+			"type":"text",
+			"text":"Browser extensions (eg., grammarly)",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":35,
+			"y":4600,
+			"width":190,
+			"height":80
+		},
+		{
+			"id":"d1e15619b3c08b51",
+			"type":"text",
+			"text":"## Possible research plan\n\n### Focus on issues derived from translation (built-in browser's feature) and usability\n\n- Analyse how Chrome modifies the DOM for translation purposes (toy app with all possible HTML tags and input fields)\n- Analyse all possible scenarios (`event.target`, `textNode` comparison, ...) that lead to usability issues (broken links or clicks, input fields)\n- Implement a tool that detect these scenarios and outputs tests ([[test amplification]] based on [[static analysis]]).\n- Large scale analysis (Tranco's top 100k) to evaluate the prevalence of usability issues\n- Manual validation on a randomly extracted sample\n- Statistics about usability issues",
 			"styleAttributes":{"border":"invisible"},
+			"x":-780,
+			"y":5340,
+			"width":610,
+			"height":520,
+			"color":"5"
+		},
+		{
+			"id":"fdd18be5275bc2cb",
+			"type":"text",
+			"text":"### ETA ~5-7 months",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
 			"x":-140,
-			"y":4210,
-			"width":400,
-			"height":330,
-			"color":"4"
+			"y":5440,
+			"width":360,
+			"height":60,
+			"color":"5"
 		},
 		{
 			"id":"c6b175af67ad193f",
 			"type":"text",
 			"text":"# SLR: front-end role in web security",
 			"styleAttributes":{"textAlign":"center"},
-			"x":-560,
-			"y":4000,
+			"x":-600,
+			"y":3720,
 			"width":360,
 			"height":100,
 			"color":"3"
+		},
+		{
+			"id":"652810886deb521f",
+			"type":"text",
+			"text":"# BACs in web front-ends",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-80,
+			"y":3720,
+			"width":400,
+			"height":100,
+			"color":"4"
 		},
 		{
 			"id":"32eed9c7e2798760",
 			"type":"text",
 			"text":"- To refine methodology\n- To refine the scope and to make it more in-depth (just BAC issues? just SPA frameworks?)",
 			"styleAttributes":{"border":"invisible"},
-			"x":-560,
-			"y":4210,
+			"x":-600,
+			"y":3930,
 			"width":360,
 			"height":165,
 			"color":"3"
+		},
+		{
+			"id":"8e6d4a7c3f5800f4",
+			"type":"text",
+			"text":"- To wait for reviewers response (19 Jan, then Feb 12 to Feb 23)\n- Early reject? Next possible conference is [USENIX Security Symposium)](https://www.usenix.org/conference/usenixsecurity26) (registration: Jan 29, paper submission Feb 5)\n- To improve scalability and automation (PoC browser extension, binary classifier of HTTP responses). Technical challenges to address",
+			"styleAttributes":{"border":"invisible"},
+			"x":-80,
+			"y":3930,
+			"width":400,
+			"height":330,
+			"color":"4"
 		},
 		{
 			"id":"e38501c641ccbef0",
 			"type":"text",
 			"text":"### ETA ~4-6 months",
 			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"x":-560,
-			"y":4400,
+			"x":-600,
+			"y":4112,
 			"width":360,
 			"height":60,
 			"color":"3"
-		},
-		{
-			"id":"29d701581cb56f7d",
-			"type":"text",
-			"text":"- Browser's translation can break links o wait for reviewers response (19 Jan, then Feb 12 to Feb 23)\n- Early reject? Next possible conference is [USENIX Security Symposium)](https://www.usenix.org/conference/usenixsecurity26) (registration: Jan 29, paper submission Feb 5)\n- To improve scalability and automation (PoC browser extension, binary classifier of HTTP responses). Technical challenges to address",
-			"styleAttributes":{"border":"invisible"},
-			"x":300,
-			"y":4210,
-			"width":400,
-			"height":330,
-			"color":"5"
-		},
-		{
-			"id":"207b92d140f0c865",
-			"type":"text",
-			"text":" ### NEW ⚠️",
-			"styleAttributes":{
-				"shape":"diamond",
-				"textAlign":"center",
-				"border":null
-			},
-			"x":615,
-			"y":3953,
-			"width":170,
-			"height":95,
-			"color":"5"
 		}
 	],
 	"metadata":{

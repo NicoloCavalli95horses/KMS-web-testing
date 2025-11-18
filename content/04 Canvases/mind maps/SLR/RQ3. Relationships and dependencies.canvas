@@ -1,619 +1,566 @@
 {
-  "edges": [
-    {
-      "color": "3",
-      "fromNode": "ad923071ad0d19a4",
-      "fromSide": "bottom",
-      "id": "a4580890634d09d7",
-      "styleAttributes": {
-      },
-      "toNode": "5762b19b8ef98341",
-      "toSide": "left"
-    },
-    {
-      "color": "6",
-      "fromNode": "b0bf1292589af53b",
-      "fromSide": "right",
-      "id": "60ada3d93368f66c",
-      "styleAttributes": {
-      },
-      "toNode": "7719b23d3cd78ace",
-      "toSide": "bottom"
-    },
-    {
-      "color": "6",
-      "fromNode": "b0bf1292589af53b",
-      "fromSide": "left",
-      "id": "19b5e7e646dbb1c2",
-      "styleAttributes": {
-      },
-      "toNode": "5762b19b8ef98341",
-      "toSide": "right"
-    },
-    {
-      "color": "1",
-      "fromNode": "82f8a73f0c5e0ec2",
-      "fromSide": "right",
-      "id": "bcc78f92265818f6",
-      "styleAttributes": {
-      },
-      "toNode": "5762b19b8ef98341",
-      "toSide": "left"
-    },
-    {
-      "color": "6",
-      "fromNode": "f0d8ee023bf7b0a5",
-      "fromSide": "left",
-      "id": "efba6b3e1e3d0e8f",
-      "styleAttributes": {
-      },
-      "toNode": "750e859375101f5d",
-      "toSide": "right"
-    },
-    {
-      "color": "6",
-      "fromNode": "5762b19b8ef98341",
-      "fromSide": "top",
-      "id": "70d29eed500394e9",
-      "styleAttributes": {
-      },
-      "toNode": "41d6ca68d99c0728",
-      "toSide": "bottom"
-    },
-    {
-      "color": "5",
-      "fromNode": "2a077d41ac5affe8",
-      "fromSide": "right",
-      "id": "46f0c9e38f5e8a6d",
-      "styleAttributes": {
-      },
-      "toNode": "5762b19b8ef98341",
-      "toSide": "left"
-    },
-    {
-      "color": "4",
-      "fromNode": "58fe1fdde7bc7399",
-      "fromSide": "bottom",
-      "id": "44327d660a8c1298",
-      "styleAttributes": {
-      },
-      "toNode": "5762b19b8ef98341",
-      "toSide": "left"
-    },
-    {
-      "color": "1",
-      "fromNode": "710d13a918ad00fc",
-      "fromSide": "right",
-      "id": "2b1252e78cc42f5a",
-      "styleAttributes": {
-      },
-      "toNode": "5762b19b8ef98341",
-      "toSide": "left"
-    },
-    {
-      "color": "4",
-      "fromNode": "1a7d514fe8eec19e",
-      "fromSide": "bottom",
-      "id": "04feae771fa24675",
-      "styleAttributes": {
-      },
-      "toNode": "3e23263079378e1f",
-      "toSide": "left"
-    },
-    {
-      "color": "4",
-      "fromNode": "3c08364228b1a74b",
-      "fromSide": "right",
-      "id": "e455476ea54a4b2e",
-      "styleAttributes": {
-      },
-      "toNode": "7719b23d3cd78ace",
-      "toSide": "top"
-    },
-    {
-      "color": "4",
-      "fromNode": "fbce682e390d2960",
-      "fromSide": "right",
-      "id": "cf2ef302151623b3",
-      "styleAttributes": {
-      },
-      "toNode": "7719b23d3cd78ace",
-      "toSide": "top"
-    },
-    {
-      "color": "#801414",
-      "fromNode": "89323c8986ceb7e1",
-      "fromSide": "left",
-      "id": "cf090e5c184dfe72",
-      "styleAttributes": {
-      },
-      "toNode": "050b80ec313617a5",
-      "toSide": "right"
-    },
-    {
-      "color": "#801414",
-      "fromNode": "c875f2dd6a6583ae",
-      "fromSide": "left",
-      "id": "142439d5dc68b431",
-      "styleAttributes": {
-      },
-      "toNode": "050b80ec313617a5",
-      "toSide": "right"
-    },
-    {
-      "color": "#801414",
-      "fromNode": "51123e6b80a82542",
-      "fromSide": "left",
-      "id": "798d1cd54f2c5e83",
-      "styleAttributes": {
-      },
-      "toNode": "050b80ec313617a5",
-      "toSide": "right"
-    },
-    {
-      "color": "#801414",
-      "fromNode": "bbc0ac891a7e687e",
-      "fromSide": "left",
-      "id": "5884b38893b0df1e",
-      "styleAttributes": {
-      },
-      "toNode": "050b80ec313617a5",
-      "toSide": "right"
-    },
-    {
-      "color": "#730c0c",
-      "fromNode": "c875f2dd6a6583ae",
-      "fromSide": "left",
-      "id": "f45e5e13a92538e2",
-      "styleAttributes": {
-      },
-      "toNode": "3e23263079378e1f",
-      "toSide": "bottom"
-    },
-    {
-      "color": "1",
-      "fromNode": "710d13a918ad00fc",
-      "fromSide": "right",
-      "id": "20d4ea30c1691ad0",
-      "styleAttributes": {
-      },
-      "toNode": "41d6ca68d99c0728",
-      "toSide": "left"
-    },
-    {
-      "color": "1",
-      "fromNode": "6d8a74c4b06fa23f",
-      "fromSide": "right",
-      "id": "b4649c5e9028d069",
-      "styleAttributes": {
-      },
-      "toNode": "5762b19b8ef98341",
-      "toSide": "left"
-    },
-    {
-      "color": "1",
-      "fromNode": "8bea6f92798072ce",
-      "fromSide": "right",
-      "id": "6ff764dd5bedf15b",
-      "styleAttributes": {
-      },
-      "toNode": "5762b19b8ef98341",
-      "toSide": "left"
-    },
-    {
-      "color": "6",
-      "fromNode": "f0d8ee023bf7b0a5",
-      "fromSide": "right",
-      "id": "a14afa8b893a907c",
-      "styleAttributes": {
-      },
-      "toNode": "b0bf1292589af53b",
-      "toSide": "left"
-    },
-    {
-      "color": "6",
-      "fromNode": "e393da5e112613b9",
-      "fromSide": "top",
-      "id": "1e606c2ca5bd7274",
-      "styleAttributes": {
-      },
-      "toNode": "5762b19b8ef98341",
-      "toSide": "bottom"
-    },
-    {
-      "color": "6",
-      "fromNode": "f0d8ee023bf7b0a5",
-      "fromSide": "left",
-      "id": "cece26d660eff004",
-      "styleAttributes": {
-      },
-      "toNode": "5762b19b8ef98341",
-      "toSide": "left"
-    }
-  ],
-  "nodes": [
-    {
-      "color": "6",
-      "height": 370,
-      "id": "185ed5cc9a82fe38",
-      "label": "Unintended front-end code execution",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 760,
-      "x": 0,
-      "y": 480
-    },
-    {
-      "color": "4",
-      "height": 230,
-      "id": "ba298af5467bab0f",
-      "label": "Front-end DoS attacks",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 1010,
-      "x": -180,
-      "y": -160
-    },
-    {
-      "color": "1",
-      "height": 430,
-      "id": "0a1b57b9a6b2526a",
-      "label": "Client storage exploitation",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 400,
-      "x": -740,
-      "y": 470
-    },
-    {
-      "color": "#901414",
-      "height": 400,
-      "id": "52df765d0a482f9a",
-      "label": "System discovery",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 380,
-      "x": 960,
-      "y": 290
-    },
-    {
-      "color": "5",
-      "height": 360,
-      "id": "f90d4c501c0d155b",
-      "label": "Logic flaws",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 340,
-      "x": -245,
-      "y": 900
-    },
-    {
-      "color": "2",
-      "height": 165,
-      "id": "41d6ca68d99c0728",
-      "label": "Front-end language specific vulns",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 660,
-      "x": 250,
-      "y": 163
-    },
-    {
-      "color": "3",
-      "height": 140,
-      "id": "750e859375101f5d",
-      "label": "Visual deception based attacks",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 590,
-      "x": -835,
-      "y": 106
-    },
-    {
-      "color": "#9d3476",
-      "height": 135,
-      "id": "fb2dbe95248fe7ee",
-      "label": "Server-side issue covering",
-      "styleAttributes": {
-      },
-      "type": "group",
-      "width": 470,
-      "x": 380,
-      "y": 945
-    },
-    {
-      "height": 60,
-      "id": "8bea6f92798072ce",
-      "styleAttributes": {
-      },
-      "text": "IndexedDB",
-      "type": "text",
-      "width": 260,
-      "x": -665,
-      "y": 540
-    },
-    {
-      "height": 60,
-      "id": "6d8a74c4b06fa23f",
-      "styleAttributes": {
-      },
-      "text": "Service Workers",
-      "type": "text",
-      "width": 260,
-      "x": -665,
-      "y": 620
-    },
-    {
-      "height": 60,
-      "id": "710d13a918ad00fc",
-      "styleAttributes": {
-      },
-      "text": "Web Storage API",
-      "type": "text",
-      "width": 260,
-      "x": -665,
-      "y": 700
-    },
-    {
-      "height": 60,
-      "id": "82f8a73f0c5e0ec2",
-      "styleAttributes": {
-      },
-      "text": "WS abuse",
-      "type": "text",
-      "width": 260,
-      "x": -660,
-      "y": 790
-    },
-    {
-      "height": 60,
-      "id": "d62aeecb6fbe7136",
-      "styleAttributes": {
-      },
-      "text": "Tabnabbing",
-      "type": "text",
-      "width": 180,
-      "x": -805,
-      "y": 146
-    },
-    {
-      "height": 60,
-      "id": "24caabd831663460",
-      "styleAttributes": {
-      },
-      "text": "Phishing",
-      "type": "text",
-      "width": 150,
-      "x": -615,
-      "y": 146
-    },
-    {
-      "height": 60,
-      "id": "ad923071ad0d19a4",
-      "styleAttributes": {
-      },
-      "text": "Clickjacking",
-      "type": "text",
-      "width": 165,
-      "x": -445,
-      "y": 146
-    },
-    {
-      "height": 60,
-      "id": "3e23263079378e1f",
-      "styleAttributes": {
-      },
-      "text": "Prototype pollution",
-      "type": "text",
-      "width": 275,
-      "x": 290,
-      "y": 198
-    },
-    {
-      "height": 60,
-      "id": "7719b23d3cd78ace",
-      "styleAttributes": {
-      },
-      "text": "DOM clobbering",
-      "type": "text",
-      "width": 260,
-      "x": 590,
-      "y": 198
-    },
-    {
-      "height": 60,
-      "id": "58fe1fdde7bc7399",
-      "styleAttributes": {
-      },
-      "text": "XSS-based DoS",
-      "type": "text",
-      "width": 210,
-      "x": -150,
-      "y": -30
-    },
-    {
-      "height": 60,
-      "id": "fbce682e390d2960",
-      "styleAttributes": {
-      },
-      "text": "ReDoS",
-      "type": "text",
-      "width": 130,
-      "x": 17,
-      "y": -120
-    },
-    {
-      "height": 60,
-      "id": "3c08364228b1a74b",
-      "styleAttributes": {
-      },
-      "text": "DOM clobbering DoS",
-      "type": "text",
-      "width": 250,
-      "x": 355,
-      "y": -120
-    },
-    {
-      "height": 60,
-      "id": "1a7d514fe8eec19e",
-      "styleAttributes": {
-      },
-      "text": "Prototype pollution DoS",
-      "type": "text",
-      "width": 295,
-      "x": 115,
-      "y": -30
-    },
-    {
-      "height": 60,
-      "id": "3a3517d494c6bb80",
-      "styleAttributes": {
-      },
-      "text": "BFT",
-      "type": "text",
-      "width": 260,
-      "x": -205,
-      "y": 920
-    },
-    {
-      "height": 60,
-      "id": "0529fb0250329e77",
-      "styleAttributes": {
-      },
-      "text": "HTTP(S) tampering",
-      "type": "text",
-      "width": 260,
-      "x": -205,
-      "y": 1000
-    },
-    {
-      "height": 60,
-      "id": "b0bf1292589af53b",
-      "styleAttributes": {
-      },
-      "text": "CSRF",
-      "type": "text",
-      "width": 130,
-      "x": 435,
-      "y": 560
-    },
-    {
-      "height": 60,
-      "id": "2a077d41ac5affe8",
-      "styleAttributes": {
-      },
-      "text": "Session Fixation",
-      "type": "text",
-      "width": 260,
-      "x": -205,
-      "y": 1080
-    },
-    {
-      "height": 60,
-      "id": "7cdefc62adec6205",
-      "styleAttributes": {
-      },
-      "text": "Design flaws",
-      "type": "text",
-      "width": 260,
-      "x": -205,
-      "y": 1160
-    },
-    {
-      "height": 60,
-      "id": "5762b19b8ef98341",
-      "styleAttributes": {
-      },
-      "text": "XSS",
-      "type": "text",
-      "width": 193,
-      "x": 114,
-      "y": 620
-    },
-    {
-      "color": "6",
-      "height": 60,
-      "id": "e393da5e112613b9",
-      "styleAttributes": {
-      },
-      "text": "XCS",
-      "type": "text",
-      "width": 160,
-      "x": 131,
-      "y": 730
-    },
-    {
-      "height": 60,
-      "id": "f0d8ee023bf7b0a5",
-      "styleAttributes": {
-      },
-      "text": "XSF",
-      "type": "text",
-      "width": 95,
-      "x": 114,
-      "y": 500
-    },
-    {
-      "height": 80,
-      "id": "050b80ec313617a5",
-      "styleAttributes": {
-      },
-      "text": "EAR",
-      "type": "text",
-      "width": 260,
-      "x": 480,
-      "y": 980
-    },
-    {
-      "height": 60,
-      "id": "89323c8986ceb7e1",
-      "styleAttributes": {
-      },
-      "text": "Directory traversal",
-      "type": "text",
-      "width": 260,
-      "x": 1020,
-      "y": 310
-    },
-    {
-      "height": 60,
-      "id": "bbc0ac891a7e687e",
-      "styleAttributes": {
-      },
-      "text": "Forced browsing",
-      "type": "text",
-      "width": 260,
-      "x": 1020,
-      "y": 410
-    },
-    {
-      "height": 60,
-      "id": "51123e6b80a82542",
-      "styleAttributes": {
-      },
-      "text": "IDOR",
-      "type": "text",
-      "width": 260,
-      "x": 1020,
-      "y": 510
-    },
-    {
-      "height": 60,
-      "id": "c875f2dd6a6583ae",
-      "styleAttributes": {
-      },
-      "text": "SQL injection",
-      "type": "text",
-      "width": 260,
-      "x": 1020,
-      "y": 610
-    }
-  ]
+	"edges":[
+		{
+			"id":"a4580890634d09d7",
+			"styleAttributes":{},
+			"fromNode":"ad923071ad0d19a4",
+			"fromSide":"bottom",
+			"toNode":"5762b19b8ef98341",
+			"toSide":"left",
+			"color":"3"
+		},
+		{
+			"id":"60ada3d93368f66c",
+			"styleAttributes":{},
+			"fromNode":"b0bf1292589af53b",
+			"fromSide":"right",
+			"toNode":"7719b23d3cd78ace",
+			"toSide":"bottom",
+			"color":"6"
+		},
+		{
+			"id":"19b5e7e646dbb1c2",
+			"styleAttributes":{},
+			"fromNode":"b0bf1292589af53b",
+			"fromSide":"left",
+			"toNode":"5762b19b8ef98341",
+			"toSide":"right",
+			"color":"6"
+		},
+		{
+			"id":"bcc78f92265818f6",
+			"styleAttributes":{},
+			"fromNode":"82f8a73f0c5e0ec2",
+			"fromSide":"right",
+			"toNode":"5762b19b8ef98341",
+			"toSide":"left",
+			"color":"1"
+		},
+		{
+			"id":"efba6b3e1e3d0e8f",
+			"styleAttributes":{},
+			"fromNode":"f0d8ee023bf7b0a5",
+			"fromSide":"left",
+			"toNode":"750e859375101f5d",
+			"toSide":"right",
+			"color":"6"
+		},
+		{
+			"id":"70d29eed500394e9",
+			"styleAttributes":{},
+			"fromNode":"5762b19b8ef98341",
+			"fromSide":"top",
+			"toNode":"41d6ca68d99c0728",
+			"toSide":"bottom",
+			"color":"6"
+		},
+		{
+			"id":"46f0c9e38f5e8a6d",
+			"styleAttributes":{},
+			"fromNode":"2a077d41ac5affe8",
+			"fromSide":"right",
+			"toNode":"5762b19b8ef98341",
+			"toSide":"left",
+			"color":"5"
+		},
+		{
+			"id":"44327d660a8c1298",
+			"styleAttributes":{},
+			"fromNode":"58fe1fdde7bc7399",
+			"fromSide":"bottom",
+			"toNode":"5762b19b8ef98341",
+			"toSide":"left",
+			"color":"4"
+		},
+		{
+			"id":"2b1252e78cc42f5a",
+			"styleAttributes":{},
+			"fromNode":"710d13a918ad00fc",
+			"fromSide":"right",
+			"toNode":"5762b19b8ef98341",
+			"toSide":"left",
+			"color":"1"
+		},
+		{
+			"id":"04feae771fa24675",
+			"styleAttributes":{},
+			"fromNode":"1a7d514fe8eec19e",
+			"fromSide":"bottom",
+			"toNode":"3e23263079378e1f",
+			"toSide":"left",
+			"color":"4"
+		},
+		{
+			"id":"e455476ea54a4b2e",
+			"styleAttributes":{},
+			"fromNode":"3c08364228b1a74b",
+			"fromSide":"right",
+			"toNode":"7719b23d3cd78ace",
+			"toSide":"top",
+			"color":"4"
+		},
+		{
+			"id":"cf2ef302151623b3",
+			"styleAttributes":{},
+			"fromNode":"fbce682e390d2960",
+			"fromSide":"right",
+			"toNode":"7719b23d3cd78ace",
+			"toSide":"top",
+			"color":"4"
+		},
+		{
+			"id":"cf090e5c184dfe72",
+			"styleAttributes":{},
+			"fromNode":"89323c8986ceb7e1",
+			"fromSide":"left",
+			"toNode":"050b80ec313617a5",
+			"toSide":"right",
+			"color":"#801414"
+		},
+		{
+			"id":"142439d5dc68b431",
+			"styleAttributes":{},
+			"fromNode":"c875f2dd6a6583ae",
+			"fromSide":"left",
+			"toNode":"050b80ec313617a5",
+			"toSide":"right",
+			"color":"#801414"
+		},
+		{
+			"id":"798d1cd54f2c5e83",
+			"styleAttributes":{},
+			"fromNode":"51123e6b80a82542",
+			"fromSide":"left",
+			"toNode":"050b80ec313617a5",
+			"toSide":"right",
+			"color":"#801414"
+		},
+		{
+			"id":"5884b38893b0df1e",
+			"styleAttributes":{},
+			"fromNode":"bbc0ac891a7e687e",
+			"fromSide":"left",
+			"toNode":"050b80ec313617a5",
+			"toSide":"right",
+			"color":"#801414"
+		},
+		{
+			"id":"f45e5e13a92538e2",
+			"styleAttributes":{},
+			"fromNode":"c875f2dd6a6583ae",
+			"fromSide":"left",
+			"toNode":"3e23263079378e1f",
+			"toSide":"bottom",
+			"color":"#730c0c"
+		},
+		{
+			"id":"20d4ea30c1691ad0",
+			"styleAttributes":{},
+			"fromNode":"710d13a918ad00fc",
+			"fromSide":"right",
+			"toNode":"41d6ca68d99c0728",
+			"toSide":"left",
+			"color":"1"
+		},
+		{
+			"id":"b4649c5e9028d069",
+			"styleAttributes":{},
+			"fromNode":"6d8a74c4b06fa23f",
+			"fromSide":"right",
+			"toNode":"5762b19b8ef98341",
+			"toSide":"left",
+			"color":"1"
+		},
+		{
+			"id":"6ff764dd5bedf15b",
+			"styleAttributes":{},
+			"fromNode":"8bea6f92798072ce",
+			"fromSide":"right",
+			"toNode":"5762b19b8ef98341",
+			"toSide":"left",
+			"color":"1"
+		},
+		{
+			"id":"a14afa8b893a907c",
+			"styleAttributes":{},
+			"fromNode":"f0d8ee023bf7b0a5",
+			"fromSide":"right",
+			"toNode":"b0bf1292589af53b",
+			"toSide":"left",
+			"color":"6"
+		},
+		{
+			"id":"1e606c2ca5bd7274",
+			"styleAttributes":{},
+			"fromNode":"e393da5e112613b9",
+			"fromSide":"top",
+			"toNode":"5762b19b8ef98341",
+			"toSide":"bottom",
+			"color":"6"
+		},
+		{
+			"id":"cece26d660eff004",
+			"styleAttributes":{},
+			"fromNode":"f0d8ee023bf7b0a5",
+			"fromSide":"left",
+			"toNode":"5762b19b8ef98341",
+			"toSide":"left",
+			"color":"6"
+		}
+	],
+	"nodes":[
+		{
+			"id":"185ed5cc9a82fe38",
+			"styleAttributes":{},
+			"type":"group",
+			"x":0,
+			"y":480,
+			"width":760,
+			"height":370,
+			"color":"6",
+			"label":"Unintended front-end code execution"
+		},
+		{
+			"id":"ba298af5467bab0f",
+			"styleAttributes":{},
+			"type":"group",
+			"x":-180,
+			"y":-160,
+			"width":1010,
+			"height":230,
+			"color":"4",
+			"label":"Front-end DoS attacks"
+		},
+		{
+			"id":"0a1b57b9a6b2526a",
+			"styleAttributes":{},
+			"type":"group",
+			"x":-740,
+			"y":470,
+			"width":400,
+			"height":430,
+			"color":"1",
+			"label":"Client storage exploitation"
+		},
+		{
+			"id":"52df765d0a482f9a",
+			"styleAttributes":{},
+			"type":"group",
+			"x":960,
+			"y":290,
+			"width":380,
+			"height":400,
+			"color":"#901414",
+			"label":"System discovery"
+		},
+		{
+			"id":"f90d4c501c0d155b",
+			"styleAttributes":{},
+			"type":"group",
+			"x":-245,
+			"y":900,
+			"width":340,
+			"height":360,
+			"color":"5",
+			"label":"Logic flaws"
+		},
+		{
+			"id":"41d6ca68d99c0728",
+			"styleAttributes":{},
+			"type":"group",
+			"x":250,
+			"y":163,
+			"width":660,
+			"height":165,
+			"color":"2",
+			"label":"Front-end language specific vulns"
+		},
+		{
+			"id":"750e859375101f5d",
+			"styleAttributes":{},
+			"type":"group",
+			"x":-835,
+			"y":106,
+			"width":590,
+			"height":140,
+			"color":"3",
+			"label":"Visual deception based attacks"
+		},
+		{
+			"id":"fb2dbe95248fe7ee",
+			"styleAttributes":{},
+			"type":"group",
+			"x":380,
+			"y":945,
+			"width":470,
+			"height":135,
+			"color":"#9d3476",
+			"label":"Server-side issue covering"
+		},
+		{
+			"id":"8bea6f92798072ce",
+			"styleAttributes":{},
+			"text":"IndexedDB",
+			"type":"text",
+			"x":-665,
+			"y":540,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"6d8a74c4b06fa23f",
+			"styleAttributes":{},
+			"text":"Service Workers",
+			"type":"text",
+			"x":-665,
+			"y":620,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"710d13a918ad00fc",
+			"styleAttributes":{},
+			"text":"Web Storage API",
+			"type":"text",
+			"x":-665,
+			"y":700,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"82f8a73f0c5e0ec2",
+			"styleAttributes":{},
+			"text":"WS abuse",
+			"type":"text",
+			"x":-660,
+			"y":790,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"d62aeecb6fbe7136",
+			"styleAttributes":{},
+			"text":"Tabnabbing",
+			"type":"text",
+			"x":-805,
+			"y":146,
+			"width":180,
+			"height":60
+		},
+		{
+			"id":"24caabd831663460",
+			"styleAttributes":{},
+			"text":"Phishing",
+			"type":"text",
+			"x":-615,
+			"y":146,
+			"width":150,
+			"height":60
+		},
+		{
+			"id":"ad923071ad0d19a4",
+			"styleAttributes":{},
+			"text":"Clickjacking",
+			"type":"text",
+			"x":-445,
+			"y":146,
+			"width":165,
+			"height":60
+		},
+		{
+			"id":"3e23263079378e1f",
+			"styleAttributes":{},
+			"text":"Prototype pollution",
+			"type":"text",
+			"x":290,
+			"y":198,
+			"width":275,
+			"height":60
+		},
+		{
+			"id":"7719b23d3cd78ace",
+			"styleAttributes":{},
+			"text":"DOM clobbering",
+			"type":"text",
+			"x":590,
+			"y":198,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"58fe1fdde7bc7399",
+			"styleAttributes":{},
+			"text":"XSS-based DoS",
+			"type":"text",
+			"x":-150,
+			"y":-30,
+			"width":210,
+			"height":60
+		},
+		{
+			"id":"fbce682e390d2960",
+			"styleAttributes":{},
+			"text":"ReDoS",
+			"type":"text",
+			"x":17,
+			"y":-120,
+			"width":130,
+			"height":60
+		},
+		{
+			"id":"3c08364228b1a74b",
+			"styleAttributes":{},
+			"text":"DOM clobbering DoS",
+			"type":"text",
+			"x":355,
+			"y":-120,
+			"width":250,
+			"height":60
+		},
+		{
+			"id":"1a7d514fe8eec19e",
+			"styleAttributes":{},
+			"text":"Prototype pollution DoS",
+			"type":"text",
+			"x":115,
+			"y":-30,
+			"width":295,
+			"height":60
+		},
+		{
+			"id":"3a3517d494c6bb80",
+			"styleAttributes":{},
+			"text":"BFT",
+			"type":"text",
+			"x":-205,
+			"y":920,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"0529fb0250329e77",
+			"styleAttributes":{},
+			"text":"HTTP(S) tampering",
+			"type":"text",
+			"x":-205,
+			"y":1000,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"b0bf1292589af53b",
+			"styleAttributes":{},
+			"text":"CSRF",
+			"type":"text",
+			"x":435,
+			"y":560,
+			"width":130,
+			"height":60
+		},
+		{
+			"id":"2a077d41ac5affe8",
+			"styleAttributes":{},
+			"text":"Session Fixation",
+			"type":"text",
+			"x":-205,
+			"y":1080,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"7cdefc62adec6205",
+			"styleAttributes":{},
+			"text":"Design flaws",
+			"type":"text",
+			"x":-205,
+			"y":1160,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"5762b19b8ef98341",
+			"styleAttributes":{},
+			"text":"XSS",
+			"type":"text",
+			"x":114,
+			"y":620,
+			"width":193,
+			"height":60
+		},
+		{
+			"id":"e393da5e112613b9",
+			"styleAttributes":{},
+			"text":"XCS",
+			"type":"text",
+			"x":131,
+			"y":730,
+			"width":160,
+			"height":60,
+			"color":"6"
+		},
+		{
+			"id":"f0d8ee023bf7b0a5",
+			"styleAttributes":{},
+			"text":"XSF",
+			"type":"text",
+			"x":114,
+			"y":500,
+			"width":95,
+			"height":60
+		},
+		{
+			"id":"050b80ec313617a5",
+			"styleAttributes":{},
+			"text":"EAR",
+			"type":"text",
+			"x":480,
+			"y":980,
+			"width":260,
+			"height":80
+		},
+		{
+			"id":"89323c8986ceb7e1",
+			"styleAttributes":{},
+			"text":"Directory traversal",
+			"type":"text",
+			"x":1020,
+			"y":310,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"bbc0ac891a7e687e",
+			"styleAttributes":{},
+			"text":"Forced browsing",
+			"type":"text",
+			"x":1020,
+			"y":410,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"51123e6b80a82542",
+			"styleAttributes":{},
+			"text":"IDOR",
+			"type":"text",
+			"x":1020,
+			"y":510,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"c875f2dd6a6583ae",
+			"styleAttributes":{},
+			"text":"SQL injection",
+			"type":"text",
+			"x":1020,
+			"y":610,
+			"width":260,
+			"height":60
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
 }

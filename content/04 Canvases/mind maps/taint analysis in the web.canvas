@@ -107,17 +107,6 @@
 	],
 	"nodes":[
 		{
-			"id":"d80fefba383642b2",
-			"styleAttributes":{"border":"invisible"},
-			"text":"Black-box approaches are more scalable and allow us to test real applications, but harder to implement",
-			"type":"text",
-			"x":391,
-			"y":-452,
-			"width":352,
-			"height":150,
-			"color":"3"
-		},
-		{
 			"id":"d1c14edaf0f47862",
 			"styleAttributes":{"textAlign":"center"},
 			"text":"### white-box",
@@ -126,17 +115,6 @@
 			"y":-302,
 			"width":260,
 			"height":60
-		},
-		{
-			"id":"bb93bffe4b35bfea",
-			"styleAttributes":{"border":"invisible"},
-			"text":"White-box approaches are more accurate and in-depth, but you need access to the source code",
-			"type":"text",
-			"x":-1160,
-			"y":-452,
-			"width":352,
-			"height":132,
-			"color":"3"
 		},
 		{
 			"id":"988dda75efbf3481",
@@ -311,6 +289,28 @@
 			"y":780,
 			"width":694,
 			"height":205
+		},
+		{
+			"id":"bb93bffe4b35bfea",
+			"styleAttributes":{"border":"invisible"},
+			"text":"White-box approaches are more accurate and in-depth, but you need access to the source code",
+			"type":"text",
+			"x":-1020,
+			"y":-500,
+			"width":352,
+			"height":132,
+			"color":"3"
+		},
+		{
+			"id":"d80fefba383642b2",
+			"styleAttributes":{"border":"invisible"},
+			"text":"Black-box approaches are more scalable and allow us to test real applications, but harder to implement",
+			"type":"text",
+			"x":256,
+			"y":-509,
+			"width":352,
+			"height":150,
+			"color":"3"
 		}
 	],
 	"metadata":{

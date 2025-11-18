@@ -32,6 +32,16 @@
 			"label":"Application model"
 		},
 		{
+			"id":"662deb3a22a03ee1",
+			"styleAttributes":{},
+			"type":"group",
+			"x":-266,
+			"y":2780,
+			"width":2066,
+			"height":680,
+			"label":"Test execution and evaluation"
+		},
+		{
 			"id":"5d59fbd8f3885624",
 			"styleAttributes":{},
 			"type":"group",
@@ -50,16 +60,6 @@
 			"width":2066,
 			"height":780,
 			"label":"Test cases generation"
-		},
-		{
-			"id":"662deb3a22a03ee1",
-			"styleAttributes":{},
-			"type":"group",
-			"x":-266,
-			"y":2780,
-			"width":2066,
-			"height":680,
-			"label":"Test execution and evaluation"
 		},
 		{
 			"id":"e53e45fea4f402e4",
