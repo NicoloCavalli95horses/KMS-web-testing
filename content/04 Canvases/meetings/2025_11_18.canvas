@@ -81,21 +81,20 @@
 			"fromSide":"bottom",
 			"toNode":"4118b743ec073e89",
 			"toSide":"top",
-			"label":"what can we do"
+			"label":"next steps"
+		},
+		{
+			"id":"4aea7ddc437525f3",
+			"styleAttributes":{"path":"short-dashed"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"806caf9af4714be2",
+			"fromSide":"bottom",
+			"toNode":"eac6900dbfae5c79",
+			"toSide":"top"
 		}
 	],
 	"nodes":[
-		{
-			"id":"29d701581cb56f7d",
-			"type":"text",
-			"text":"- Browser's translation can break links\n- Reactivity in SPA frameworks can be lost, the app can crash\n- User traceability issue: inconsistent `event.target` \n\n**Open question**: who owns the DOM? It is safe for an app to assume that the DOM is under its control? BEs or other libraries have ==the same right to change it==",
-			"styleAttributes":{"border":"invisible"},
-			"x":-780,
-			"y":4960,
-			"width":600,
-			"height":340,
-			"color":"5"
-		},
 		{
 			"id":"c6b175af67ad193f",
 			"type":"text",
@@ -106,17 +105,6 @@
 			"width":360,
 			"height":100,
 			"color":"3"
-		},
-		{
-			"id":"652810886deb521f",
-			"type":"text",
-			"text":"# BACs in web front-ends",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-80,
-			"y":3720,
-			"width":400,
-			"height":100,
-			"color":"4"
 		},
 		{
 			"id":"32eed9c7e2798760",
@@ -130,17 +118,6 @@
 			"color":"3"
 		},
 		{
-			"id":"8e6d4a7c3f5800f4",
-			"type":"text",
-			"text":"- To wait for reviewers response (19 Jan, then Feb 12 to Feb 23)\n- Early reject? Next possible conference is [USENIX Security Symposium)](https://www.usenix.org/conference/usenixsecurity26) (registration: Jan 29, paper submission Feb 5)\n- To improve scalability and automation (PoC browser extension, binary classifier of HTTP responses). Technical challenges to address",
-			"styleAttributes":{"border":"invisible"},
-			"x":-80,
-			"y":3930,
-			"width":400,
-			"height":330,
-			"color":"4"
-		},
-		{
 			"id":"e38501c641ccbef0",
 			"type":"text",
 			"text":"### ETA ~4-6 months",
@@ -152,47 +129,78 @@
 			"color":"3"
 		},
 		{
-			"id":"4118b743ec073e89",
+			"id":"eac6900dbfae5c79",
 			"type":"text",
-			"text":"- **Unify sparse contributions** that mention DOM mutation for increasing testing coverage or accessibility, or machine translation accuracy with DOM injection\n- **Stress limits of state-of-art E2E testing tools**: Cypress or Playwright focus on testing user interaction but not coupling between UI logic and DOM. Resilient UI testing is a best practice but the concept has not been explored thoroughly (eg., put semantic tags on DOM elements such as `data-test-id`)\n- **Introduce a new framework for testing for front-ends** DOM Mutation Robustness Testing (DMRT)\n\t- algorithmic DOM mutation: simulate node wrapping, substitution, injection, class or attribute rewriting\n\t- robustness evaluation",
-			"styleAttributes":{"border":"invisible"},
-			"x":460,
-			"y":4960,
-			"width":620,
-			"height":560,
+			"text":"# DOM mutation robustness testing (DMRT)\n## measuring client-side business logic fragility under DOM mutations",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-55,
+			"y":4640,
+			"width":455,
+			"height":200,
 			"color":"5"
 		},
 		{
-			"id":"864f0bd29b23536a",
+			"id":"d95606cbbd5765b4",
 			"type":"text",
-			"text":"- **Highly practical impact** for frameworks developer, BE developers, but also browser developers\n- Chrome is the most used browser (+73%). The way the DOM is modified for translation purposes and its effects have **never been investigated** properly\n- Scarce research on internationalization\n- The topic is well suited to **large-scale studies and statistical analysis** (eg. broken links in the wild)\n- It could be a new testing methodology",
+			"text":"Browser build-in features (eg., translation) alter the DOM",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-460,
+			"y":4540,
+			"width":260,
+			"height":80
+		},
+		{
+			"id":"a1c807d4e171c3d3",
+			"type":"text",
+			"text":"Front-end libraries or plugins alter the DOM",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-180,
+			"y":4480,
+			"width":250,
+			"height":80
+		},
+		{
+			"id":"652810886deb521f",
+			"type":"text",
+			"text":"# BACs in web front-ends",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-140,
+			"y":3720,
+			"width":600,
+			"height":100,
+			"color":"4"
+		},
+		{
+			"id":"8e6d4a7c3f5800f4",
+			"type":"text",
+			"text":"- To wait for reviewers response (19 Jan, then Feb 12 to Feb 23)\n- Early reject? Next possible conference is [USENIX Security Symposium)](https://www.usenix.org/conference/usenixsecurity26) (registration: Jan 29, paper submission Feb 5)\n- To improve scalability and automation (PoC browser extension, binary classifier of HTTP responses). Technical challenges to address",
 			"styleAttributes":{"border":"invisible"},
 			"x":-140,
-			"y":4960,
-			"width":540,
-			"height":340,
-			"color":"5"
+			"y":3914,
+			"width":600,
+			"height":228,
+			"color":"4"
 		},
 		{
-			"id":"d1e15619b3c08b51",
+			"id":"29d701581cb56f7d",
 			"type":"text",
-			"text":"## Possible research plan\n\n### Focus on issues derived from translation (built-in browser's feature) and usability\n\n- Analyse how Chrome modifies the DOM for translation purposes (toy app with all possible HTML tags and input fields)\n- Preliminary test on 500 websites to estimate prevalence and gather initial data\n- Analyse all possible scenarios (`event.target`, `textNode` comparison, ...) that lead to usability issues (broken links or clicks, input fields)\n- Implement a tool that detect these scenarios and outputs tests ([[test amplification]] based on [[static analysis]]).\n- Large scale analysis (Tranco's top 100k) to evaluate the prevalence of usability issues\n- Manual validation on a randomly extracted sample\n- Statistics about usability issues",
+			"text":"Usability:\n- Browser's translation can break links\n- Reactivity in SPA frameworks can be lost, the app can crash\n\nAnalitics:\n- User traceability issue: inconsistent `event.target` \n\nSecurity\n-  [[DOM clobbering]] (global JS objects can be overridden by DOM elements)\n\n**Open question**: who owns the DOM? It is safe for an app to assume that the DOM is under its control? BEs or other libraries have ==the same right to change it==",
 			"styleAttributes":{"border":"invisible"},
-			"x":-840,
-			"y":5580,
-			"width":700,
-			"height":640,
+			"x":-760,
+			"y":5040,
+			"width":600,
+			"height":440,
 			"color":"5"
 		},
 		{
-			"id":"fdd18be5275bc2cb",
+			"id":"4118b743ec073e89",
 			"type":"text",
-			"text":"### ETA ~4-6 months",
-			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"x":-110,
-			"y":5680,
-			"width":360,
-			"height":60,
+			"text":"- Check existing literature in the field\n- Assess features of state-of-art testing tools: eg., Cypress or Playwright focus on testing user interaction but not coupling between UI logic and DOM\n- Preliminary test on <1k websites to estimate prevalence and gather initial data\n- Analyse and define **coupling** scenarios (eg., use of `event.target`, `textNode` comparison, textual content matching, ...) which lead to usability issues (broken links or user clicks, input fields)\n\nResilient UI testing is a best practice (eg., prefer semantic tags on DOM elements such as `data-test-id` instead of using ID or classes). The concept of ==testing the coupling between UI logic/DOM tree== may not formally exist. DMRT could provide\n- **algorithmic DOM mutation**: simulate node wrapping, substitution, injection, class or attribute rewriting, tags renaming, nesting randomization\n- **robustness evaluation**: measuring \"implicit contract\" between DOM tree and UI logic (eg., when you click this button, this function is launched, this CSS class is used as a reference for a logic state such as active/disabled). Front-end logic must not rely on DOM details, we must assume that the DOM can change without our control",
+			"styleAttributes":{"border":"invisible"},
+			"x":480,
+			"y":5040,
+			"width":740,
+			"height":580,
 			"color":"5"
 		},
 		{
@@ -200,41 +208,42 @@
 			"type":"text",
 			"text":"Browser extensions alter the DOM",
 			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":460,
-			"y":4540,
-			"width":190,
+			"x":520,
+			"y":4560,
+			"width":180,
 			"height":80
 		},
 		{
-			"id":"eac6900dbfae5c79",
+			"id":"806caf9af4714be2",
 			"type":"text",
-			"text":"# DOM mutation robustness tesing (DMRT)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-200,
-			"y":4640,
-			"width":660,
-			"height":100,
+			"text":"Accessibility tools alter the DOM",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":300,
+			"y":4480,
+			"width":180,
+			"height":80
+		},
+		{
+			"id":"fdd18be5275bc2cb",
+			"type":"text",
+			"text":"### ETA ~1-2 months",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":1000,
+			"y":4940,
+			"width":220,
+			"height":60,
 			"color":"5"
 		},
 		{
-			"id":"d95606cbbd5765b4",
+			"id":"864f0bd29b23536a",
 			"type":"text",
-			"text":"Browser build-in features (eg., translation)",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-440,
-			"y":4540,
-			"width":240,
-			"height":80
-		},
-		{
-			"id":"a1c807d4e171c3d3",
-			"type":"text",
-			"text":"Collision between front-end libraries or plugins",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":20,
-			"y":4480,
-			"width":220,
-			"height":80
+			"text":"- **Highly practical impact** for frameworks developer, BE developers, but also browser developers\n- Chrome is the most used browser (+73%). The way the DOM is modified for translation purposes and its effects have **never been investigated** properly\n- Scarce research on internationalization\n- The topic is well suited to **large-scale studies and statistical analysis** (eg. broken links in the wild)\n- It could be a new testing methodology/framework that put together previous sparse contributions",
+			"styleAttributes":{"border":"invisible"},
+			"x":-120,
+			"y":5100,
+			"width":540,
+			"height":340,
+			"color":"5"
 		}
 	],
 	"metadata":{

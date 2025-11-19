@@ -15,8 +15,8 @@
               "state": {
                 "file": "04 Canvases/meetings/2025_11_18.canvas",
                 "viewState": {
-                  "x": 201.03962321449876,
-                  "y": 4851.712706290277,
+                  "x": -270.7710959254761,
+                  "y": 5185.781734043302,
                   "zoom": 0.0692102916202873
                 }
               },
@@ -190,8 +190,12 @@
   },
   "active": "7e6649890bd28e1d",
   "lastOpenFiles": [
-    "04 Canvases/meetings/2025_09_17.canvas",
+    "01 Notes/flaky test.md",
+    "02 Literature/papers/testing enhancements/Mutta. A novel tool for E2E web mutation testing.md",
+    "03 References/(Leotta, Paparella, Ricca, 2024).md",
+    "03 References/(Romano, Song, et al., 2021).md",
     "04 Canvases/meetings/2025_11_18.canvas",
+    "04 Canvases/meetings/2025_09_17.canvas",
     "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
     "04 Canvases/mind maps/Empirical Study/JCH-based IDOR test for vulnerability scanners.canvas",
     "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
@@ -200,7 +204,6 @@
     "04 Canvases/mind maps/Web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/mind maps/Web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/Web security on large scale web applications/tampering prevention with test amplification.canvas",
-    "04 Canvases/mind maps/cross-domain policies.canvas",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Protecting browsers from cross-origin CSS attacks.md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
@@ -223,9 +226,6 @@
     "00 Antilibrary/program slicing.md",
     "01 Notes/paywalls.md",
     "02 Literature/papers/parameter tampering/Automating the Detection of Access Control Vulnerabilities in Web Applications.md",
-    "02 Literature/papers/parameter tampering/TamperProof. a server-agnostic defense for parameter tampering attacks on web applications.md",
-    "02 Literature/papers/parameter tampering/No tamper. Automatic black-box detection of parameter tampering opportunities in Web Applications.md",
-    "02 Literature/papers/logic flow tampering/BFTDETECTOR. Automatic detection of business flow tampering for digital content service.md",
     "00 Antilibrary/Untitled.base",
     "00 Antilibrary/Untitled 3.base",
     "00 Antilibrary/Untitled 2.base",
