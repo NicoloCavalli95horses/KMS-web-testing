@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/meetings/2025_11_18.canvas",
                 "viewState": {
-                  "x": 793.3546803381604,
-                  "y": 5471.4624014732135,
-                  "zoom": -0.20856747511959373
+                  "x": 838.7867158270769,
+                  "y": 5469.311807239628,
+                  "zoom": -0.7641230085993558
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -190,11 +190,12 @@
   },
   "active": "7e6649890bd28e1d",
   "lastOpenFiles": [
+    "96 Meta/PhD status.md",
+    "04 Canvases/meetings/2025_11_18.canvas",
     "01 Notes/flaky test.md",
     "02 Literature/papers/testing enhancements/Mutta. A novel tool for E2E web mutation testing.md",
     "03 References/(Leotta, Paparella, Ricca, 2024).md",
     "03 References/(Romano, Song, et al., 2021).md",
-    "04 Canvases/meetings/2025_11_18.canvas",
     "04 Canvases/meetings/2025_09_17.canvas",
     "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
     "04 Canvases/mind maps/Empirical Study/JCH-based IDOR test for vulnerability scanners.canvas",
@@ -225,7 +226,6 @@
     "00 Antilibrary/procedure testing.md",
     "00 Antilibrary/program slicing.md",
     "01 Notes/paywalls.md",
-    "02 Literature/papers/parameter tampering/Automating the Detection of Access Control Vulnerabilities in Web Applications.md",
     "00 Antilibrary/Untitled.base",
     "00 Antilibrary/Untitled 3.base",
     "00 Antilibrary/Untitled 2.base",
