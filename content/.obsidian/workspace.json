@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d02c97befac4e565",
+        "id": "a40af9723cb7a5d4",
         "type": "tabs",
         "children": [
           {
-            "id": "7e6649890bd28e1d",
+            "id": "6bac49ba7a120195",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "04 Canvases/meetings/2025_11_18.canvas",
-                "viewState": {
-                  "x": 117.67601290069966,
-                  "y": 5102.721494232186,
-                  "zoom": -1.106475148461653
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "2025_11_18"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -188,11 +181,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7e6649890bd28e1d",
+  "active": "6bac49ba7a120195",
   "lastOpenFiles": [
-    "96 Meta/SLR/Reviewers response SLR (S&P).md",
-    "04 Canvases/meetings/2025_11_18.canvas",
+    "96 Meta/Empirical Study/Manual validation on random sample.md",
+    "96 Meta/Empirical Study/Large-scale analysis on Tranco Top 250k.md",
+    "96 Meta/References analysis.md",
     "96 Meta/PhD status.md",
+    "02 Literature/papers/Accessibility/Ma11y. A Mutation Framework for Web Accessibility Testing.md",
+    "96 Meta/Lectures/TO DO.md",
+    "03 References/(Tafreshipour, Deshpande, et al., 2024).md",
+    "02 Literature/papers/Accessibility",
+    "04 Canvases/meetings/2025_11_18.canvas",
+    "96 Meta/SLR/Reviewers response SLR (S&P).md",
     "01 Notes/flaky test.md",
     "02 Literature/papers/testing enhancements/Mutta. A novel tool for E2E web mutation testing.md",
     "03 References/(Leotta, Paparella, Ricca, 2024).md",
@@ -220,12 +220,6 @@
     "01 Notes/Petri nets.md",
     "01 Notes/POLA (Principle Of Least Astonishment).md",
     "01 Notes/pixel stealing.md",
-    "01 Notes/phishing.md",
-    "01 Notes/penetration test.md",
-    "00 Antilibrary/Pitest.md",
-    "00 Antilibrary/precise alias analysis.md",
-    "00 Antilibrary/procedure testing.md",
-    "00 Antilibrary/program slicing.md",
     "00 Antilibrary/Untitled.base",
     "00 Antilibrary/Untitled 3.base",
     "00 Antilibrary/Untitled 2.base",
@@ -240,7 +234,6 @@
     "02 Literature/papers/BAC (Broken Access Control)",
     "04 Canvases/mind maps/Empirical Study",
     "97 Assets/systematic_definition.png",
-    "02 Literature/papers/data disclosure",
     "97 Assets/efficiency_paradox.png",
     "97 Assets/process_golden_set_auth_cookies_calzavara.png",
     "97 Assets/burp_test_canva_pro.png",

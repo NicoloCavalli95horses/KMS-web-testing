@@ -129,17 +129,6 @@
 			"color":"5"
 		},
 		{
-			"id":"a1c807d4e171c3d3",
-			"type":"text",
-			"text":"Front-end libraries or plugins alter the DOM",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-180,
-			"y":4480,
-			"width":250,
-			"height":80,
-			"color":"5"
-		},
-		{
 			"id":"29d701581cb56f7d",
 			"type":"text",
 			"text":"Usability:\n- Browser's translation can break links\n- Reactivity in SPA frameworks can be lost, the app can crash\n\nAnalitics:\n- User traceability issue: inconsistent `event.target` \n\nSecurity\n-  [[DOM clobbering]] (global JS objects can be overridden by DOM elements)\n",
@@ -270,6 +259,17 @@
 			"width":580,
 			"height":180,
 			"color":"3"
+		},
+		{
+			"id":"a1c807d4e171c3d3",
+			"type":"text",
+			"text":"Front-end libraries or plugins alter the DOM",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-160,
+			"y":4480,
+			"width":250,
+			"height":80,
+			"color":"5"
 		}
 	],
 	"metadata":{

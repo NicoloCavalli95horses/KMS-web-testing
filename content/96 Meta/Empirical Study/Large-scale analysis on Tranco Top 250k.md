@@ -7,10 +7,10 @@ tags:
 ## Prerequisites
 
 - having a Renater permission to alert the Internet Provider about anomalous web activity
-	- ask Michel Hurfin michel.hurfin@inria.fr, put Alexandre in copy ("Alexandre Sanchez" <alexandre.sanchez@inria.fr>; )
-	- specify the study goals and how long will the study last (see Samuel template)
-		- recommended minimum 6 months, considering the experiment may need to be replicated multiple times, or modified to accommodate reviewers comments
-		- recommended starting date: February 2026
+- ask Michel Hurfin michel.hurfin@inria.fr, put Alexandre in copy ("Alexandre Sanchez" <alexandre.sanchez@inria.fr>; )
+- specify the study goals and how long will the study last (see Samuel template)
+- recommended minimum 6 months, considering the experiment may need to be replicated multiple times, or modified to accommodate reviewers comments
+- recommended starting date: February 2026
 
 ## Experiment venue
 
