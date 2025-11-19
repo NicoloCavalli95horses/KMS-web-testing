@@ -72,20 +72,19 @@
 			"fromSide":"bottom",
 			"toNode":"eac6900dbfae5c79",
 			"toSide":"right"
+		},
+		{
+			"id":"2ce036649cd07cb2",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"eac6900dbfae5c79",
+			"fromSide":"bottom",
+			"toNode":"4118b743ec073e89",
+			"toSide":"top",
+			"label":"what can we do"
 		}
 	],
 	"nodes":[
-		{
-			"id":"864f0bd29b23536a",
-			"type":"text",
-			"text":"- **Highly practical impact** for frameworks developer, BE developers, but also browser developers\n- Chrome is the most used browser (+73%). The way the DOM is modified for translation purposes and its effects have **never been investigated** properly\n- Scarce research on internationalization\n- The topic is well suited to **large-scale studies and statistical analysis** (eg. broken links in the wild)",
-			"styleAttributes":{"border":"invisible"},
-			"x":-140,
-			"y":4960,
-			"width":540,
-			"height":300,
-			"color":"5"
-		},
 		{
 			"id":"29d701581cb56f7d",
 			"type":"text",
@@ -94,70 +93,7 @@
 			"x":-780,
 			"y":4960,
 			"width":600,
-			"height":300,
-			"color":"5"
-		},
-		{
-			"id":"eac6900dbfae5c79",
-			"type":"text",
-			"text":"# DOM mutation testing",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-380,
-			"y":4700,
-			"width":400,
-			"height":100,
-			"color":"5"
-		},
-		{
-			"id":"a1c807d4e171c3d3",
-			"type":"text",
-			"text":"Front-end Libraries",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-290,
-			"y":4540,
-			"width":220,
-			"height":80
-		},
-		{
-			"id":"d95606cbbd5765b4",
-			"type":"text",
-			"text":"Browser build-in features (eg., translation)",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-600,
-			"y":4600,
-			"width":240,
-			"height":80
-		},
-		{
-			"id":"d2cc206b4e29e3cd",
-			"type":"text",
-			"text":"Browser extensions (eg., grammarly)",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":35,
-			"y":4600,
-			"width":190,
-			"height":80
-		},
-		{
-			"id":"d1e15619b3c08b51",
-			"type":"text",
-			"text":"## Possible research plan\n\n### Focus on issues derived from translation (built-in browser's feature) and usability\n\n- Analyse how Chrome modifies the DOM for translation purposes (toy app with all possible HTML tags and input fields)\n- Preliminary test on 500 websites to estimate prevalence and gather initial data\n- Analyse all possible scenarios (`event.target`, `textNode` comparison, ...) that lead to usability issues (broken links or clicks, input fields)\n- Implement a tool that detect these scenarios and outputs tests ([[test amplification]] based on [[static analysis]]).\n- Large scale analysis (Tranco's top 100k) to evaluate the prevalence of usability issues\n- Manual validation on a randomly extracted sample\n- Statistics about usability issues",
-			"styleAttributes":{"border":"invisible"},
-			"x":-780,
-			"y":5340,
-			"width":610,
-			"height":560,
-			"color":"5"
-		},
-		{
-			"id":"fdd18be5275bc2cb",
-			"type":"text",
-			"text":"### ETA ~4-6 months",
-			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"x":-140,
-			"y":5440,
-			"width":360,
-			"height":60,
+			"height":340,
 			"color":"5"
 		},
 		{
@@ -214,6 +150,91 @@
 			"width":360,
 			"height":60,
 			"color":"3"
+		},
+		{
+			"id":"4118b743ec073e89",
+			"type":"text",
+			"text":"- **Unify sparse contributions** that mention DOM mutation for increasing testing coverage or accessibility, or machine translation accuracy with DOM injection\n- **Stress limits of state-of-art E2E testing tools**: Cypress or Playwright focus on testing user interaction but not coupling between UI logic and DOM. Resilient UI testing is a best practice but the concept has not been explored thoroughly (eg., put semantic tags on DOM elements such as `data-test-id`)\n- **Introduce a new framework for testing for front-ends** DOM Mutation Robustness Testing (DMRT)\n\t- algorithmic DOM mutation: simulate node wrapping, substitution, injection, class or attribute rewriting\n\t- robustness evaluation",
+			"styleAttributes":{"border":"invisible"},
+			"x":460,
+			"y":4960,
+			"width":620,
+			"height":560,
+			"color":"5"
+		},
+		{
+			"id":"864f0bd29b23536a",
+			"type":"text",
+			"text":"- **Highly practical impact** for frameworks developer, BE developers, but also browser developers\n- Chrome is the most used browser (+73%). The way the DOM is modified for translation purposes and its effects have **never been investigated** properly\n- Scarce research on internationalization\n- The topic is well suited to **large-scale studies and statistical analysis** (eg. broken links in the wild)\n- It could be a new testing methodology",
+			"styleAttributes":{"border":"invisible"},
+			"x":-140,
+			"y":4960,
+			"width":540,
+			"height":340,
+			"color":"5"
+		},
+		{
+			"id":"d1e15619b3c08b51",
+			"type":"text",
+			"text":"## Possible research plan\n\n### Focus on issues derived from translation (built-in browser's feature) and usability\n\n- Analyse how Chrome modifies the DOM for translation purposes (toy app with all possible HTML tags and input fields)\n- Preliminary test on 500 websites to estimate prevalence and gather initial data\n- Analyse all possible scenarios (`event.target`, `textNode` comparison, ...) that lead to usability issues (broken links or clicks, input fields)\n- Implement a tool that detect these scenarios and outputs tests ([[test amplification]] based on [[static analysis]]).\n- Large scale analysis (Tranco's top 100k) to evaluate the prevalence of usability issues\n- Manual validation on a randomly extracted sample\n- Statistics about usability issues",
+			"styleAttributes":{"border":"invisible"},
+			"x":-840,
+			"y":5580,
+			"width":700,
+			"height":640,
+			"color":"5"
+		},
+		{
+			"id":"fdd18be5275bc2cb",
+			"type":"text",
+			"text":"### ETA ~4-6 months",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":-110,
+			"y":5680,
+			"width":360,
+			"height":60,
+			"color":"5"
+		},
+		{
+			"id":"d2cc206b4e29e3cd",
+			"type":"text",
+			"text":"Browser extensions alter the DOM",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":460,
+			"y":4540,
+			"width":190,
+			"height":80
+		},
+		{
+			"id":"eac6900dbfae5c79",
+			"type":"text",
+			"text":"# DOM mutation robustness tesing (DMRT)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-200,
+			"y":4640,
+			"width":660,
+			"height":100,
+			"color":"5"
+		},
+		{
+			"id":"d95606cbbd5765b4",
+			"type":"text",
+			"text":"Browser build-in features (eg., translation)",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-440,
+			"y":4540,
+			"width":240,
+			"height":80
+		},
+		{
+			"id":"a1c807d4e171c3d3",
+			"type":"text",
+			"text":"Collision between front-end libraries or plugins",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":20,
+			"y":4480,
+			"width":220,
+			"height":80
 		}
 	],
 	"metadata":{
