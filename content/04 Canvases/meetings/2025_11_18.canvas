@@ -104,39 +104,17 @@
 			"y":3720,
 			"width":360,
 			"height":100,
-			"color":"3"
-		},
-		{
-			"id":"32eed9c7e2798760",
-			"type":"text",
-			"text":"- To refine methodology\n- To refine the scope and to make it more in-depth (just BAC issues? just SPA frameworks?)",
-			"styleAttributes":{"border":"invisible"},
-			"x":-600,
-			"y":3930,
-			"width":360,
-			"height":165,
-			"color":"3"
-		},
-		{
-			"id":"e38501c641ccbef0",
-			"type":"text",
-			"text":"### ETA ~4-6 months",
-			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"x":-600,
-			"y":4112,
-			"width":360,
-			"height":60,
-			"color":"3"
+			"color":"5"
 		},
 		{
 			"id":"eac6900dbfae5c79",
 			"type":"text",
-			"text":"# DOM mutation robustness testing (DMRT)\n## measuring client-side business logic fragility under DOM mutations",
+			"text":"# DOM mutation robustness testing (DMRT)\n### measuring client-side business logic fragility under DOM mutations",
 			"styleAttributes":{"textAlign":"center"},
 			"x":-55,
 			"y":4640,
 			"width":455,
-			"height":200,
+			"height":240,
 			"color":"5"
 		},
 		{
@@ -147,7 +125,8 @@
 			"x":-460,
 			"y":4540,
 			"width":260,
-			"height":80
+			"height":80,
+			"color":"5"
 		},
 		{
 			"id":"a1c807d4e171c3d3",
@@ -157,50 +136,29 @@
 			"x":-180,
 			"y":4480,
 			"width":250,
-			"height":80
-		},
-		{
-			"id":"652810886deb521f",
-			"type":"text",
-			"text":"# BACs in web front-ends",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-140,
-			"y":3720,
-			"width":600,
-			"height":100,
-			"color":"4"
-		},
-		{
-			"id":"8e6d4a7c3f5800f4",
-			"type":"text",
-			"text":"- To wait for reviewers response (19 Jan, then Feb 12 to Feb 23)\n- Early reject? Next possible conference is [USENIX Security Symposium)](https://www.usenix.org/conference/usenixsecurity26) (registration: Jan 29, paper submission Feb 5)\n- To improve scalability and automation (PoC browser extension, binary classifier of HTTP responses). Technical challenges to address",
-			"styleAttributes":{"border":"invisible"},
-			"x":-140,
-			"y":3914,
-			"width":600,
-			"height":228,
-			"color":"4"
+			"height":80,
+			"color":"5"
 		},
 		{
 			"id":"29d701581cb56f7d",
 			"type":"text",
-			"text":"Usability:\n- Browser's translation can break links\n- Reactivity in SPA frameworks can be lost, the app can crash\n\nAnalitics:\n- User traceability issue: inconsistent `event.target` \n\nSecurity\n-  [[DOM clobbering]] (global JS objects can be overridden by DOM elements)\n\n**Open question**: who owns the DOM? It is safe for an app to assume that the DOM is under its control? BEs or other libraries have ==the same right to change it==",
+			"text":"Usability:\n- Browser's translation can break links\n- Reactivity in SPA frameworks can be lost, the app can crash\n\nAnalitics:\n- User traceability issue: inconsistent `event.target` \n\nSecurity\n-  [[DOM clobbering]] (global JS objects can be overridden by DOM elements)\n",
 			"styleAttributes":{"border":"invisible"},
 			"x":-760,
 			"y":5040,
 			"width":600,
-			"height":440,
+			"height":400,
 			"color":"5"
 		},
 		{
 			"id":"4118b743ec073e89",
 			"type":"text",
-			"text":"- Check existing literature in the field\n- Assess features of state-of-art testing tools: eg., Cypress or Playwright focus on testing user interaction but not coupling between UI logic and DOM\n- Preliminary test on <1k websites to estimate prevalence and gather initial data\n- Analyse and define **coupling** scenarios (eg., use of `event.target`, `textNode` comparison, textual content matching, ...) which lead to usability issues (broken links or user clicks, input fields)\n\nResilient UI testing is a best practice (eg., prefer semantic tags on DOM elements such as `data-test-id` instead of using ID or classes). The concept of ==testing the coupling between UI logic/DOM tree== may not formally exist. DMRT could provide\n- **algorithmic DOM mutation**: simulate node wrapping, substitution, injection, class or attribute rewriting, tags renaming, nesting randomization\n- **robustness evaluation**: measuring \"implicit contract\" between DOM tree and UI logic (eg., when you click this button, this function is launched, this CSS class is used as a reference for a logic state such as active/disabled). Front-end logic must not rely on DOM details, we must assume that the DOM can change without our control",
+			"text":"- Check existing literature in the field\n- Assess features of state-of-art testing tools: eg., Cypress or Playwright focus on testing user interaction but not coupling between UI logic and DOM\n- Preliminary test on <1k websites to estimate prevalence and gather initial data\n- Analyse and define **coupling** scenarios (eg., use of `event.target`, `textNode` comparison, textual content matching, ...) and their prevalence\n\nResilient UI testing is a best practice (eg., referring to DOM el through semantic tags, eg., `data-test-id` instead of using ID or classes). But the concept of ==testing the coupling between UI logic/DOM tree== may not formally exist. Front-end logic must not rely on DOM details, we must assume that the DOM can change without our control.\n\nWith DMRT we could provide\n- **algorithmic DOM mutation**: simulate node wrapping, substitution, injection, class or attribute rewriting, tags renaming, nesting randomization, event mutations (altering listener position or stopping event propagation), [[CSP (Content Security Policy)]] mutation (if applicable)\n- **robustness evaluation**: measuring \"implicit contract\" between DOM tree and UI logic (eg., when you click this button, this function is launched, this CSS class is used as a reference for a logic state such as active/disabled).\n\nPossible metrics:\n- % of broken links/handlers/clicks/routing\n- N. of DOM clobbering opportunities\n- Details required for the client-side logic to work (less details, more robust)\n- ...\n ",
 			"styleAttributes":{"border":"invisible"},
 			"x":480,
 			"y":5040,
 			"width":740,
-			"height":580,
+			"height":880,
 			"color":"5"
 		},
 		{
@@ -211,7 +169,8 @@
 			"x":520,
 			"y":4560,
 			"width":180,
-			"height":80
+			"height":80,
+			"color":"5"
 		},
 		{
 			"id":"806caf9af4714be2",
@@ -221,17 +180,7 @@
 			"x":300,
 			"y":4480,
 			"width":180,
-			"height":80
-		},
-		{
-			"id":"fdd18be5275bc2cb",
-			"type":"text",
-			"text":"### ETA ~1-2 months",
-			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"x":1000,
-			"y":4940,
-			"width":220,
-			"height":60,
+			"height":80,
 			"color":"5"
 		},
 		{
@@ -243,6 +192,72 @@
 			"y":5100,
 			"width":540,
 			"height":340,
+			"color":"5"
+		},
+		{
+			"id":"2faf470f384dee3b",
+			"type":"text",
+			"text":"**Open question**: who owns the DOM? It is safe for an app to assume that the DOM is under its control? BEs or other libraries have ==the same right to change it==",
+			"styleAttributes":{"border":"invisible"},
+			"x":-820,
+			"y":4660,
+			"width":400,
+			"height":160,
+			"color":"5"
+		},
+		{
+			"id":"652810886deb521f",
+			"type":"text",
+			"text":"# BACs in web front-ends",
+			"styleAttributes":{"textAlign":"center"},
+			"x":0,
+			"y":3720,
+			"width":600,
+			"height":100,
+			"color":"6"
+		},
+		{
+			"id":"8e6d4a7c3f5800f4",
+			"type":"text",
+			"text":"- To wait for reviewers response (19 Jan, then Feb 12 to Feb 23)\n- Early reject? Next possible conference is [USENIX Security Symposium)](https://www.usenix.org/conference/usenixsecurity26) (registration: Jan 29, paper submission Feb 5)\n- To improve scalability and automation (PoC browser extension, binary classifier of HTTP responses). Technical challenges to address",
+			"styleAttributes":{"border":"invisible"},
+			"x":0,
+			"y":3914,
+			"width":600,
+			"height":228,
+			"color":"6"
+		},
+		{
+			"id":"32eed9c7e2798760",
+			"type":"text",
+			"text":"- To refine methodology\n- To refine the scope and to make it more in-depth (just BAC issues? just SPA frameworks?)",
+			"styleAttributes":{"border":"invisible"},
+			"x":-660,
+			"y":3930,
+			"width":480,
+			"height":130,
+			"color":"5"
+		},
+		{
+			"id":"e38501c641ccbef0",
+			"type":"text",
+			"text":"### ETA ~4-6 months",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":-600,
+			"y":4082,
+			"width":360,
+			"height":60,
+			"color":"5"
+		},
+		{
+			"id":"fdd18be5275bc2cb",
+			"type":"text",
+			"text":"### ETA ~1-2 months",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":1260,
+			"y":5160,
+			"width":220,
+			"height":60,
 			"color":"5"
 		}
 	],
