@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/meetings/2025_11_18.canvas",
                 "viewState": {
-                  "x": 838.7867158270769,
-                  "y": 5469.311807239628,
-                  "zoom": -0.7641230085993558
+                  "x": 117.67601290069966,
+                  "y": 5102.721494232186,
+                  "zoom": -1.106475148461653
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -190,8 +190,9 @@
   },
   "active": "7e6649890bd28e1d",
   "lastOpenFiles": [
-    "96 Meta/PhD status.md",
+    "96 Meta/SLR/Reviewers response SLR (S&P).md",
     "04 Canvases/meetings/2025_11_18.canvas",
+    "96 Meta/PhD status.md",
     "01 Notes/flaky test.md",
     "02 Literature/papers/testing enhancements/Mutta. A novel tool for E2E web mutation testing.md",
     "03 References/(Leotta, Paparella, Ricca, 2024).md",
@@ -225,7 +226,6 @@
     "00 Antilibrary/precise alias analysis.md",
     "00 Antilibrary/procedure testing.md",
     "00 Antilibrary/program slicing.md",
-    "01 Notes/paywalls.md",
     "00 Antilibrary/Untitled.base",
     "00 Antilibrary/Untitled 3.base",
     "00 Antilibrary/Untitled 2.base",

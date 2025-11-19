@@ -259,6 +259,17 @@
 			"width":220,
 			"height":60,
 			"color":"5"
+		},
+		{
+			"id":"c2a541555af0b718",
+			"type":"text",
+			"text":"define a contract between website an be\n- check be manifest\n- some be are always on, other are activated only in certain situations",
+			"styleAttributes":{},
+			"x":640,
+			"y":4740,
+			"width":580,
+			"height":180,
+			"color":"3"
 		}
 	],
 	"metadata":{
