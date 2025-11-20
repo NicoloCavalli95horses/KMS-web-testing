@@ -11,10 +11,15 @@
             "id": "6bac49ba7a120195",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature/papers/BAC (Broken Access Control)/Uncovering and Exploiting Hidden APIs in Mobile Super Apps.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Uncovering and Exploiting Hidden APIs in Mobile Super Apps"
             }
           }
         ]
@@ -183,6 +188,8 @@
   },
   "active": "6bac49ba7a120195",
   "lastOpenFiles": [
+    "02 Literature/papers/BAC (Broken Access Control)/Uncovering and Exploiting Hidden APIs in Mobile Super Apps.md",
+    "03 References/(Wang, Zhang, et al., 2023).md",
     "96 Meta/Empirical Study/Manual validation on random sample.md",
     "96 Meta/Empirical Study/Large-scale analysis on Tranco Top 250k.md",
     "96 Meta/References analysis.md",
@@ -218,8 +225,6 @@
     "00 Antilibrary/BOLA (Broken Object Level Authorization).md",
     "01 Notes/IDOR (Insecure Direct Object Reference).md",
     "01 Notes/Petri nets.md",
-    "01 Notes/POLA (Principle Of Least Astonishment).md",
-    "01 Notes/pixel stealing.md",
     "00 Antilibrary/Untitled.base",
     "00 Antilibrary/Untitled 3.base",
     "00 Antilibrary/Untitled 2.base",

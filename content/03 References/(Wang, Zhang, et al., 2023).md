@@ -1,0 +1,12 @@
+---
+ID: 2025-11-20T09:40:45.954Z
+tags: ref
+
+---
+## External Link
+
+https://dl.acm.org/doi/10.1145/3576915.3616676
+
+## BibTeX
+
+@inproceedings{10.1145/3576915.3616676, author = {Wang, Chao and Zhang, Yue and Lin, Zhiqiang}, title = {Uncovering and Exploiting Hidden APIs in Mobile Super Apps}, year = {2023}, isbn = {9798400700507}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, url = {https://doi.org/10.1145/3576915.3616676}, doi = {10.1145/3576915.3616676}, abstract = {Mobile applications, particularly those from social media platforms such as WeChat and TikTok, are evolving into "super apps" that offer a wide range of services such as instant messaging and media sharing, e-commerce, e-learning, and e-government. These super apps often provide APIs for developers to create "miniapps" that run within the super app. These APIs should have been thoroughly scrutinized for security. Unfortunately, we find that many of them are undocumented and unsecured, potentially allowing miniapps to bypass restrictions and gain higher privileged access. To systematically identify these hidden APIs before they are exploited by attackers, we have developed a tool APIScope with both static analysis and dynamic analysis, where static analysis is used to recognize hidden undocumented APIs, and dynamic analysis is used to confirm whether the identified APIs can be invoked by an unprivileged 3rd-party miniapps. We have applied APIScope to five popular super apps (i.e., WeChat, WeCom, Baidu, QQ, and Tiktok) and found that all of them contain hidden APIs, many of which can be exploited due to missing security checks. We have also quantified the hidden APIs that may have security implications by verifying if they have access to resources protected by Android permissions. Furthermore, we demonstrate the potential security hazards by presenting various attack scenarios, including unauthorized access to any web pages, downloading and installing malicious software, and stealing sensitive information. We have reported our findings to the relevant vendors, some of whom have patched the vulnerabilities and rewarded us with bug bounties.}, booktitle = {Proceedings of the 2023 ACM SIGSAC Conference on Computer and Communications Security}, pages = {2471–2485}, numpages = {15}, keywords = {hidden apis, miniapp security, superapp security}, location = {Copenhagen, Denmark}, series = {CCS '23} }
