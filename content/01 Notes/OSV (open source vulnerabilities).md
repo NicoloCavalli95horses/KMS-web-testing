@@ -35,5 +35,6 @@ Command line tooling is also available for vulnerability scanning of SBOMs, lang
 
 There are numerous third-party integrations with the API, and we have stopped maintaining an exhaustive list. You can try this GitHub search as a starting point.
 
+---
 ## References
 https://google.github.io/osv.dev/
