@@ -100,9 +100,9 @@
 			"type":"text",
 			"text":"# SLR: front-end role in web security",
 			"styleAttributes":{"textAlign":"center"},
-			"x":-600,
+			"x":-660,
 			"y":3720,
-			"width":360,
+			"width":480,
 			"height":100,
 			"color":"5"
 		},
@@ -235,17 +235,6 @@
 			"x":-600,
 			"y":4082,
 			"width":360,
-			"height":60,
-			"color":"5"
-		},
-		{
-			"id":"fdd18be5275bc2cb",
-			"type":"text",
-			"text":"### ETA ~1-2 months",
-			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"x":1260,
-			"y":5160,
-			"width":220,
 			"height":60,
 			"color":"5"
 		},

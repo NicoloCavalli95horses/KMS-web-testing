@@ -11,62 +11,12 @@
 			"height":80
 		},
 		{
-			"id":"37e750053dae4add",
-			"type":"text",
-			"text":"## How to get a list predictable changes?",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-314,
-			"y":140,
-			"width":320,
-			"height":120
-		},
-		{
-			"id":"c5569593e0cee0ee",
-			"type":"text",
-			"text":"## What we can test?",
-			"styleAttributes":{"textAlign":"center"},
-			"x":53,
-			"y":140,
-			"width":320,
-			"height":120
-		},
-		{
-			"id":"00f9bd88e955e9f4",
-			"type":"text",
-			"text":"test N most used BE",
-			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"x":-264,
-			"y":280,
-			"width":220,
-			"height":60
-		},
-		{
-			"id":"5ab19052716f68ca",
-			"type":"text",
-			"text":"clickable elements",
-			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"x":78,
-			"y":280,
-			"width":270,
-			"height":60
-		},
-		{
-			"id":"a84403ed78ec8b3b",
-			"type":"text",
-			"text":"# DOM Mutation Robustness Testing (DMRT)",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-443,
-			"y":-160,
-			"width":613,
-			"height":90
-		},
-		{
 			"id":"b4d8ef8a60be819f",
 			"type":"text",
 			"text":"translation",
 			"styleAttributes":{"border":"invisible"},
 			"x":300,
-			"y":-115,
+			"y":-120,
 			"width":220,
 			"height":60
 		},
@@ -76,7 +26,7 @@
 			"text":"screen reader",
 			"styleAttributes":{"border":"invisible"},
 			"x":300,
-			"y":-35,
+			"y":-40,
 			"width":220,
 			"height":60
 		},
@@ -86,8 +36,59 @@
 			"text":"ads removal",
 			"styleAttributes":{"border":"invisible"},
 			"x":300,
-			"y":45,
+			"y":40,
 			"width":220,
+			"height":60
+		},
+		{
+			"id":"37e750053dae4add",
+			"type":"text",
+			"text":"## How to get a list predictable changes?",
+			"styleAttributes":{"textAlign":"center","border":"dashed"},
+			"x":-492,
+			"y":120,
+			"width":320,
+			"height":100
+		},
+		{
+			"id":"c5569593e0cee0ee",
+			"type":"text",
+			"text":"## What we can test?",
+			"styleAttributes":{"textAlign":"center","border":"dashed"},
+			"x":-125,
+			"y":120,
+			"width":320,
+			"height":100
+		},
+		{
+			"id":"a84403ed78ec8b3b",
+			"type":"text",
+			"text":"# DOM Mutation Robustness Testing (DMRT)",
+			"styleAttributes":{"textAlign":"center","border":"invisible","shape":"pill"},
+			"x":-380,
+			"y":-165,
+			"width":443,
+			"height":90,
+			"color":"4"
+		},
+		{
+			"id":"00f9bd88e955e9f4",
+			"type":"text",
+			"text":"test N most used BE",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":-443,
+			"y":240,
+			"width":220,
+			"height":60
+		},
+		{
+			"id":"5ab19052716f68ca",
+			"type":"text",
+			"text":"clickable elements",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":-101,
+			"y":240,
+			"width":270,
 			"height":60
 		}
 	],

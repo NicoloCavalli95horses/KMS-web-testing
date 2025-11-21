@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f1b6c05a7ea18bc8",
+        "id": "db579a8069fd45d2",
         "type": "tabs",
         "children": [
           {
-            "id": "7824c478fd67109a",
+            "id": "f31a41a91583d0ba",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "04 Canvases/mind maps/DMRT.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 77.49999692042682,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "DMRT"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -188,9 +181,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7824c478fd67109a",
+  "active": "f31a41a91583d0ba",
   "lastOpenFiles": [
     "04 Canvases/mind maps/DMRT.canvas",
+    "04 Canvases/meetings/2025_11_18.canvas",
     "06 Courses, webinars/SBOM & VEX. Getting lulled into a false sense of security.md",
     "01 Notes/OSV (open source vulnerabilities).md",
     "01 Notes/SBOM (Software Bill of Materials).md",
@@ -214,7 +208,6 @@
     "02 Literature/papers/philosophy of science, meta-analysis/(Re)considering the Concept of Literature Review Reproducibility.md",
     "02 Literature/papers/behavioral biometrics/User Profiling Using Sequential Mining Over Web Elements.md",
     "01 Notes/timing attack.md",
-    "04 Canvases/meetings/2025_11_18.canvas",
     "03 References/(Wang, Zhang, et al., 2023).md",
     "96 Meta/Empirical Study/Manual validation on random sample.md",
     "02 Literature/papers/accessibility",
