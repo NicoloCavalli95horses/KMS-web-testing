@@ -4,22 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "fe56a43c6b3fc3c6",
+        "id": "f1b6c05a7ea18bc8",
         "type": "tabs",
         "children": [
           {
-            "id": "b453691162ad4801",
+            "id": "7824c478fd67109a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "06 Courses, webinars/SBOM & VEX. Getting lulled into a false sense of security.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/mind maps/DMRT.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 77.49999692042682,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "SBOM & VEX. Getting lulled into a false sense of security"
+              "icon": "lucide-layout-dashboard",
+              "title": "DMRT"
             }
           }
         ]
@@ -186,10 +188,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b453691162ad4801",
+  "active": "7824c478fd67109a",
   "lastOpenFiles": [
-    "01 Notes/OSV (open source vulnerabilities).md",
+    "04 Canvases/mind maps/DMRT.canvas",
     "06 Courses, webinars/SBOM & VEX. Getting lulled into a false sense of security.md",
+    "01 Notes/OSV (open source vulnerabilities).md",
     "01 Notes/SBOM (Software Bill of Materials).md",
     "02 Literature/papers/data disclosure/Stealth Extension Exfiltration (SEE) Attacks. Stealing User Data without Permissions via Browser Extensions.md",
     "03 References/(Lim, Jin, et al., 2025).md",
@@ -214,7 +217,6 @@
     "04 Canvases/meetings/2025_11_18.canvas",
     "03 References/(Wang, Zhang, et al., 2023).md",
     "96 Meta/Empirical Study/Manual validation on random sample.md",
-    "96 Meta/Empirical Study/Large-scale analysis on Tranco Top 250k.md",
     "02 Literature/papers/accessibility",
     "04 Canvases/meetings/2025_09_17.canvas",
     "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
