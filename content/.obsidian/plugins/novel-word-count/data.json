@@ -27946,6 +27946,70 @@
         ],
         "Rank": "B"
       }
+    },
+    "06 Courses, webinars/SBOM & VEX. Getting lulled into a false sense of security.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 37,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.12333333333333334,
+      "characterCount": 287,
+      "nonWhitespaceCharacterCount": 240,
+      "newlineCount": 9,
+      "readingTimeInMinutes": 0.13962264150943396,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1763713304706,
+      "modifiedDate": 1763716294156,
+      "sizeInBytes": 1531,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-03-05-11:00",
+        "tags": [
+          "webinar"
+        ],
+        "speaker": [
+          "Henrik Plate"
+        ],
+        "abstract": "Vulnerability databases play a crucial role in modern software security, serving as the backbone for Application Security (AppSec) and Software Composition Analysis (SCA) tools. However, the accuracy and reliability of these databases vary significantly, often leading to misinformed security decisions. This talk explores the challenges associated with vulnerability databases, including incomplete data, inconsistent reporting, and the rapid evolution of software ecosystems.\r\rWhile tools like SBOM (Software Bill of Materials) and VEX (Vulnerability Exploitability eXchange) aim to improve vulnerability management, their effectiveness is heavily dependent on the quality of the underlying vulnerability data. Real-world examples from the Java/Maven ecosystem will illustrate how flaws in vulnerability databases can propagate through AppSec and SCA solutions, leading to false positives, missed vulnerabilities, and inefficient remediation efforts.\r\rThis presentation will provide insights into the limitations of current vulnerability databases and offer guidance on how consumers of AppSec and SCA tools can better evaluate and mitigate these risks."
+      }
+    },
+    "00 Antilibrary/SBOM (Software Bill of Materials).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1763716310176,
+      "modifiedDate": 1763716310176,
+      "sizeInBytes": 0,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
     }
   }
 }

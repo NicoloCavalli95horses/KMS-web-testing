@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/data disclosure/Stealth Extension Exfiltration (SEE) Attacks. Stealing User Data without Permissions via Browser Extensions.md",
+                "file": "06 Courses, webinars/SBOM & VEX. Getting lulled into a false sense of security.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Stealth Extension Exfiltration (SEE) Attacks. Stealing User Data without Permissions via Browser Extensions"
+              "title": "SBOM & VEX. Getting lulled into a false sense of security"
+            }
+          },
+          {
+            "id": "5e43729b6fea43cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Antilibrary/SBOM (Software Bill of Materials).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "SBOM (Software Bill of Materials)"
             }
           }
         ]
@@ -188,6 +203,8 @@
   },
   "active": "b453691162ad4801",
   "lastOpenFiles": [
+    "00 Antilibrary/SBOM (Software Bill of Materials).md",
+    "06 Courses, webinars/SBOM & VEX. Getting lulled into a false sense of security.md",
     "02 Literature/papers/data disclosure/Stealth Extension Exfiltration (SEE) Attacks. Stealing User Data without Permissions via Browser Extensions.md",
     "03 References/(Lim, Jin, et al., 2025).md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
@@ -213,8 +230,6 @@
     "96 Meta/Empirical Study/Manual validation on random sample.md",
     "96 Meta/Empirical Study/Large-scale analysis on Tranco Top 250k.md",
     "96 Meta/References analysis.md",
-    "96 Meta/PhD status.md",
-    "02 Literature/papers/accessibility/Ma11y. A Mutation Framework for Web Accessibility Testing.md",
     "02 Literature/papers/accessibility",
     "04 Canvases/meetings/2025_09_17.canvas",
     "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
