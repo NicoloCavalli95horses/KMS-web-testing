@@ -3,6 +3,7 @@ ID: 2025-08-14T09:13:00.620Z
 tags:
   - paper
   - browserFingerprinting
+  - CSS
 Rank: A
 ---
 ## Context
@@ -28,7 +29,7 @@ It is possible to fingerprint considering the way browser extensions (ad-blocker
 
 In this paper we present a method of browser extension fingerprinting that relies on CSS injection. In short, browser extensions styles GUIs with CSS rules in order to show the user little pop-ups (user-facing UI), or literally new content injected into the page (a new download menu on YouTube)
 - extensions that inject content into a page, often style it in a certain way
-- it is possible to prepare a fake page with thousands of invisible elements and to detect which element gets the style from the extension
+- ==it is possible to prepare a fake page with thousands of invisible elements and to detect which element gets the style from the extension==
 - in this way a web page can detect the presence of specific extensions without the need of any user interaction
 
 We designed an analysis pipeline that detects whether an extension injects CSS rules into public webpages, extracts correspondent CSS selectors and builds a set of triggers (DOM elements or hierarchies that identify the extension).
