@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "db579a8069fd45d2",
+        "id": "59a4675ac492dd5f",
         "type": "tabs",
         "children": [
           {
-            "id": "f31a41a91583d0ba",
+            "id": "0c5f9876d50c3903",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/mind maps/CSS-based data exfiltration.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "CSS-based data exfiltration"
             }
           }
         ]
@@ -181,8 +188,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f31a41a91583d0ba",
+  "active": "0c5f9876d50c3903",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/CSS-based data exfiltration.canvas",
+    "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
     "04 Canvases/mind maps/DMRT.canvas",
     "04 Canvases/meetings/2025_11_18.canvas",
     "06 Courses, webinars/SBOM & VEX. Getting lulled into a false sense of security.md",
@@ -193,7 +202,6 @@
     "02 Literature/papers/CSS (Cascading Style Sheets)/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
     "02 Literature/papers/BAC (Broken Access Control)/Cached and confused. Web cache deception in the wild.md",
     "02 Literature/papers/BAC (Broken Access Control)/Uncovering and Exploiting Hidden APIs in Mobile Super Apps.md",
-    "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Protecting browsers from cross-origin CSS attacks.md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/WAVE. Black Box Detection of XSS, CSRF and Information Leakage Vulnerabilities.md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/On Security Issues in Web Applications through Cross Site Scripting (XSS).md",
@@ -219,7 +227,6 @@
     "04 Canvases/mind maps/SLR/RQ3. Relationships and dependencies.canvas",
     "04 Canvases/mind maps/Web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/mind maps/Web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/mind maps/Web security on large scale web applications/tampering prevention with test amplification.canvas",
     "00 Antilibrary/Untitled.base",
     "00 Antilibrary/Untitled 3.base",
     "00 Antilibrary/Untitled 2.base",
