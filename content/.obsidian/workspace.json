@@ -30,13 +30,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/CSS (Cascading Style Sheets)/Fingerprinting in style. Detecting browser extensions via injected style sheets.md",
+                "file": "01 Notes/DOM clobbering.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Fingerprinting in style. Detecting browser extensions via injected style sheets"
+              "title": "DOM clobbering"
             }
           }
         ],
@@ -206,10 +206,10 @@
   },
   "active": "3f1d07c5cec0c304",
   "lastOpenFiles": [
+    "02 Literature/papers/CSS (Cascading Style Sheets)/Fingerprinting in style. Detecting browser extensions via injected style sheets.md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Email Cloaking. Deceiving Users and Spam Email Detectors with Invisible HTML Settings.md",
     "04 Canvases/mind maps/CSS-based data exfiltration.canvas",
     "03 References/(Guo, Liu, et al., 2025).md",
-    "02 Literature/papers/CSS (Cascading Style Sheets)/Fingerprinting in style. Detecting browser extensions via injected style sheets.md",
     "04 Canvases/mind maps/DMRT.canvas",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
     "04 Canvases/meetings/2025_11_18.canvas",
