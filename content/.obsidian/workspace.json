@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 Literature/papers/CSS (Cascading Style Sheets)/Large-Scale Analysis of Style Injection by Relative Path Overwrite.md",
+                "file": "00 Antilibrary/RPO (Relative Path Overwrite).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Large-Scale Analysis of Style Injection by Relative Path Overwrite"
+              "title": "RPO (Relative Path Overwrite)"
+            }
+          },
+          {
+            "id": "8ea6c8888204c6d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Antilibrary/RPO (Relative Path Overwrite).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "RPO (Relative Path Overwrite)"
             }
           }
         ]
@@ -188,8 +203,8 @@
   },
   "active": "c5ace4d6893dec5c",
   "lastOpenFiles": [
-    "00 Antilibrary/RPO (Relative Path Overwrite).md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Large-Scale Analysis of Style Injection by Relative Path Overwrite.md",
+    "00 Antilibrary/RPO (Relative Path Overwrite).md",
     "03 References/(Arshad, Mirheidari, et al., 2018).md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Protecting browsers from cross-origin CSS attacks.md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",

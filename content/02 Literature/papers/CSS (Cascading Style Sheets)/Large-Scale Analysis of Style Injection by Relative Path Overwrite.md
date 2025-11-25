@@ -35,11 +35,6 @@ Our methodology consists of three main phases
 2. **Find vulnerability**. To determine whether these candidate pages are vulnerable, we attempt to inject style directives by requesting variations of each page’s URL to cause path confusion and test whether the generated response reflects the injected style directives
 3. **Confirm vulnerability**. Finally, we test how often vulnerable pages can be exploited by checking whether the reflected style directives are parsed and used for rendering in a web browser.
 
-
-## Limits
-
-What are the limits of the research? What could be improved?
-
 ---
 #### References
 - [[(Arshad, Mirheidari, et al., 2018)]]
