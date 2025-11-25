@@ -11,17 +11,15 @@
             "id": "0c5f9876d50c3903",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/mind maps/CSS-based data exfiltration.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "02 Literature/papers/CSS (Cascading Style Sheets)/Protecting browsers from cross-origin CSS attacks.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "CSS-based data exfiltration"
+              "icon": "lucide-file",
+              "title": "Protecting browsers from cross-origin CSS attacks"
             }
           }
         ]
@@ -190,13 +188,13 @@
   },
   "active": "0c5f9876d50c3903",
   "lastOpenFiles": [
+    "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
+    "04 Canvases/mind maps/CSS-based data exfiltration.canvas",
     "01 Notes/DOM clobbering.md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Fingerprinting in style. Detecting browser extensions via injected style sheets.md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Email Cloaking. Deceiving Users and Spam Email Detectors with Invisible HTML Settings.md",
-    "04 Canvases/mind maps/CSS-based data exfiltration.canvas",
     "03 References/(Guo, Liu, et al., 2025).md",
     "04 Canvases/mind maps/DMRT.canvas",
-    "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
     "04 Canvases/meetings/2025_11_18.canvas",
     "06 Courses, webinars/SBOM & VEX. Getting lulled into a false sense of security.md",
     "01 Notes/OSV (open source vulnerabilities).md",
@@ -218,7 +216,6 @@
     "02 Literature/papers/UI and UX issues/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md",
     "02 Literature/papers/UI and UX issues/Home and away. UI design pattern for supporting end-user security.md",
     "02 Literature/papers/philosophy of science, meta-analysis/(Re)considering the Concept of Literature Review Reproducibility.md",
-    "02 Literature/papers/behavioral biometrics/User Profiling Using Sequential Mining Over Web Elements.md",
     "02 Literature/papers/accessibility",
     "04 Canvases/meetings/2025_09_17.canvas",
     "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
