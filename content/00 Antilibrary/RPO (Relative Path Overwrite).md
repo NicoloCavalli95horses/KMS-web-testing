@@ -9,13 +9,12 @@ tags:
 ---
 ## Definition
 
-Browser and servers process relative URLs differently. We can take advantage of that.
+Browser and servers process relative URLs differently. We can take advantage of that. RPO (Relative Path Overwrite) is a technique ==to take advantage of relative URLs by overwriting their target file.==
 
-RPO (Relative Path Overwrite) is a technique ==to take advantage of relative URLs by overwriting their target file.==
+Characters such as a dot (`.`), slash (`/`), backslash (`\`), question mark (`?`) and  semi-colon (`;`), and their encoded equivalents have special meanings in URL. Servers and browsers may interpret these differently.
+- The differences in interpretation are what attackers can utilize to extend attack possibility of RPO
 
-Characters such as a dot (`.`), slash (`/`), backslash (`\`), question mark (`?`) and  semi-colon (`;`), and their encoded equivalents have special meanings in URL. Servers and browsers may interpret these differently. The differences in interpretation are what  attackers can utilize to extend attack possibility of RPO.
-
-In certain settings an attacker can manipulate a page’s URL in such a way that the web server still returns the same content as for the benign URL. However, using the manipulated URL as the base, the web browser incorrectly expands relative paths of included resources, which can lead to resources being loaded despite not being intended to be included by the developer.
+In certain settings an attacker can manipulate a page’s URL in such a way that the web server still returns the same content as for the benign URL. However, using the manipulated URL as the base, the web browser **incorrectly expands relative paths of included resources,** which can lead to **resources being loaded despite not being intended to be included by the developer, or in a format not intended by the developer.**
 - Depending on the implementation of the site, different variations of RPO attacks may be feasible
 - For example, ==an attacker could manipulate the URL to make the page include user-generated content hosted on the same domain==
 
@@ -52,7 +51,13 @@ body{background:red}</p>
 ```
 
 This is just reflected texts and obviously is not harmful.
-However, the browser uses relative path resolution
+However, the browser uses relative path resolution. If the attacker provides `https://example.com/profile?q=AAA/../styles.css` the browser may interpret the same HTML page as a CSS file and return that.
+
+This happens because
+- Given `<link rel="stylesheet" href="styles.css">` the browser calculates the relative path of the file
+- It believes that the file is in `https://example.com/profile/styles.css`
+- The server does not have a file in that location and returns the same HTML (`https://example.com/profile`)
+- The browser execute it as CSS
 
 ---
 #### References
