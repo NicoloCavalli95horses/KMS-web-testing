@@ -28147,6 +28147,107 @@
           "#definition"
         ]
       }
+    },
+    "03 References/(Arshad, Mirheidari, et al., 2018).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 303,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.01,
+      "characterCount": 2216,
+      "nonWhitespaceCharacterCount": 1889,
+      "newlineCount": 13,
+      "readingTimeInMinutes": 1.1433962264150943,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1764072036222,
+      "modifiedDate": 1764072036224,
+      "sizeInBytes": 2220,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "02 Literature/papers/CSS (Cascading Style Sheets)/Large-Scale Analysis of Style Injection by Relative Path Overwrite.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 387,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.29,
+      "characterCount": 2426,
+      "nonWhitespaceCharacterCount": 2012,
+      "newlineCount": 38,
+      "readingTimeInMinutes": 1.460377358490566,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1764072036262,
+      "modifiedDate": 1764074706240,
+      "sizeInBytes": 2527,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-11-25T12:00:36.206Z",
+        "tags": [
+          "paper",
+          "CSS",
+          "clientSideAttacks",
+          "RPO"
+        ],
+        "Rank": "A*"
+      }
+    },
+    "00 Antilibrary/RPO (Relative Path Overwrite).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 165,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.55,
+      "characterCount": 1103,
+      "nonWhitespaceCharacterCount": 924,
+      "newlineCount": 18,
+      "readingTimeInMinutes": 0.6226415094339622,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1764072112317,
+      "modifiedDate": 1764072647584,
+      "sizeInBytes": 1221,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-11-25-13:01",
+        "tags": [
+          "#definition",
+          "RPO",
+          "clientSideAttacks",
+          "cyberAttack",
+          "cyberSecurity"
+        ]
+      }
     }
   }
 }
