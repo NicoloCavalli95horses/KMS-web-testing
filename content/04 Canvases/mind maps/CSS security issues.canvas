@@ -1,0 +1,98 @@
+{
+	"nodes":[
+		{
+			"id":"6d7a705b7dccfd0f",
+			"type":"text",
+			"text":"## CSS driven-attacks",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":40,
+			"y":40,
+			"width":340,
+			"height":80
+		},
+		{
+			"id":"52c05bec2df3ed16",
+			"type":"text",
+			"text":"## browser fingerprinting",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-420,
+			"y":40,
+			"width":340,
+			"height":80
+		},
+		{
+			"id":"a1c05ddc0c34a434",
+			"type":"text",
+			"text":"- Scriptless data extraction\n- Email cloaking\n- CSS-driven timing attacks\n- [[RPO (Relative Path Overwrite)]] with CSS injection",
+			"styleAttributes":{"border":"invisible"},
+			"x":40,
+			"y":140,
+			"width":340,
+			"height":220
+		},
+		{
+			"id":"280998945d27cecd",
+			"type":"text",
+			"text":"- installed browser extensions (they inject CSS)\n- OS, CPU (using `calc()`, detecting installed fonts, `@supports`)\n- installed programs (detecting fonts)\n- device screen size (using `@container`)\n- user's preferred language (detecting fonts, or DOM mutation)",
+			"styleAttributes":{"border":"invisible"},
+			"x":-420,
+			"y":140,
+			"width":340,
+			"height":400
+		},
+		{
+			"id":"846dc2978f91e388",
+			"type":"text",
+			"text":"# CSS security issues",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-200,
+			"y":-140,
+			"width":340,
+			"height":80
+		},
+		{
+			"id":"38a701cfd5713165",
+			"type":"text",
+			"text":"This lead to more targeted [[phishing]] techniques",
+			"styleAttributes":{},
+			"x":-400,
+			"y":560,
+			"width":300,
+			"height":100
+		},
+		{
+			"id":"dc2442f90b24d471",
+			"type":"text",
+			"text":"Data exfiltration, authN/authZ issues, spam filter bypass, possible escalation to [[XSS (cross site scripting)]]",
+			"styleAttributes":{},
+			"x":60,
+			"y":360,
+			"width":300,
+			"height":160
+		}
+	],
+	"edges":[
+		{
+			"id":"e8a6b1a568239d1b",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"846dc2978f91e388",
+			"fromSide":"bottom",
+			"toNode":"52c05bec2df3ed16",
+			"toSide":"top"
+		},
+		{
+			"id":"c8cc73f228fe1b73",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"846dc2978f91e388",
+			"fromSide":"bottom",
+			"toNode":"6d7a705b7dccfd0f",
+			"toSide":"top"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

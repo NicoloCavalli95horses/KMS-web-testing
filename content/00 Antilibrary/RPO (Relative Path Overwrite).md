@@ -29,7 +29,7 @@ When an injection vulnerability is present in a page, an attacker could manipula
 - forms
 ### Example
 
-Let's say the URL `https://example.com/profile` returns
+Let's say the URL `https://example.com/profile` returns the following:
 
 ```html
 <!DOCTYPE html>
@@ -58,6 +58,10 @@ This happens because
 - It believes that the file is in `https://example.com/profile/styles.css`
 - The server does not have a file in that location and returns the same HTML (`https://example.com/profile`)
 - The browser execute it as CSS
+
+In practice, RPO is ==more likely in server-side PHP web apps==:
+- usage of relative paths
+- tolerant server-side routing (eg., that does catch-all on `index.php`, that returns a 200 status even on non-existing pages)
 
 ---
 #### References
