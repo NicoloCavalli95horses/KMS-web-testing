@@ -11,17 +11,15 @@
             "id": "b3560bec7c588a33",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/mind maps/CSS security issues.canvas",
-                "viewState": {
-                  "x": 206.18502937538582,
-                  "y": 195.12928567047027,
-                  "zoom": -0.24072424410870538
-                }
+                "file": "02 Literature/papers/CSS (Cascading Style Sheets)/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "CSS security issues"
+              "icon": "lucide-file",
+              "title": "Cross-origin pixel stealing. Timing attacks using CSS filters"
             }
           },
           {
@@ -207,12 +205,14 @@
   },
   "active": "b3560bec7c588a33",
   "lastOpenFiles": [
-    "00 Antilibrary/RPO (Relative Path Overwrite).md",
+    "03 References/(Kotcher, Pei, Jumde, et al., 2013).md",
+    "02 Literature/papers/CSS (Cascading Style Sheets)/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
+    "00 Antilibrary/Cross-origin pixel stealing. Timing attacks using CSS filters Cross-origin pixel stealing.md",
     "04 Canvases/mind maps/CSS security issues.canvas",
+    "00 Antilibrary/RPO (Relative Path Overwrite).md",
     "04 Canvases/mind maps/DMRT.canvas",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Protecting browsers from cross-origin CSS attacks.md",
     "03 References/(Huang, Weinberg, et al., 2010).md",
-    "02 Literature/papers/CSS (Cascading Style Sheets)/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Fingerprinting in style. Detecting browser extensions via injected style sheets.md",
     "03 References/(Laperdrix, Starov, et al., 2021).md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Large-Scale Analysis of Style Injection by Relative Path Overwrite.md",
@@ -234,7 +234,6 @@
     "02 Literature/papers/XSS (Cross-Site Scripting)/On Security Issues in Web Applications through Cross Site Scripting (XSS).md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/mXSS attacks. attacking well-secured web-applications by using innerHTML mutations.md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/Don't Trust The Locals. Investigating the Prevalence of Persistent Client-Side Cross-Site Scripting in the Wild..md",
-    "02 Literature/papers/XSS (Cross-Site Scripting)/Automated removal of cross site scripting vulnerabilities in web applications.md",
     "02 Literature/papers/accessibility",
     "04 Canvases/meetings/2025_09_17.canvas",
     "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
