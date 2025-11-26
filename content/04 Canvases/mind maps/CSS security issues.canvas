@@ -41,23 +41,13 @@
 			"height":400
 		},
 		{
-			"id":"846dc2978f91e388",
-			"type":"text",
-			"text":"# CSS security issues",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-200,
-			"y":-140,
-			"width":340,
-			"height":80
-		},
-		{
 			"id":"38a701cfd5713165",
 			"type":"text",
-			"text":"This lead to more targeted [[phishing]] techniques",
+			"text":"This leads to more targeted [[phishing]] techniques",
 			"styleAttributes":{},
-			"x":-400,
+			"x":-420,
 			"y":560,
-			"width":300,
+			"width":340,
 			"height":100
 		},
 		{
@@ -65,10 +55,30 @@
 			"type":"text",
 			"text":"Data exfiltration, authN/authZ issues, spam filter bypass, possible escalation to [[XSS (cross site scripting)]]",
 			"styleAttributes":{},
-			"x":60,
+			"x":40,
 			"y":360,
-			"width":300,
+			"width":340,
 			"height":160
+		},
+		{
+			"id":"846dc2978f91e388",
+			"type":"text",
+			"text":"# CSS security issues",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-200,
+			"y":-160,
+			"width":340,
+			"height":80
+		},
+		{
+			"id":"3c866212f7fcd57b",
+			"type":"text",
+			"text":"prevalence: are there app using potentially exploitable css features? how can we inject css?",
+			"styleAttributes":{},
+			"x":-200,
+			"y":860,
+			"width":540,
+			"height":100
 		}
 	],
 	"edges":[

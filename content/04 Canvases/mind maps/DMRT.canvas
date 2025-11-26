@@ -64,12 +64,15 @@
 			"id":"a84403ed78ec8b3b",
 			"type":"text",
 			"text":"# DOM Mutation Robustness Testing (DMRT)",
-			"styleAttributes":{"textAlign":"center","border":"invisible","shape":"pill"},
+			"styleAttributes":{
+				"textAlign":"center",
+				"border":"invisible",
+				"shape":null
+			},
 			"x":-380,
-			"y":-165,
+			"y":-180,
 			"width":443,
-			"height":90,
-			"color":"4"
+			"height":105
 		},
 		{
 			"id":"00f9bd88e955e9f4",
@@ -90,6 +93,26 @@
 			"y":240,
 			"width":270,
 			"height":60
+		},
+		{
+			"id":"dfe412968a6fc0ba",
+			"type":"text",
+			"text":"## Worst scenario?",
+			"styleAttributes":{"textAlign":"center","border":"dashed"},
+			"x":-492,
+			"y":360,
+			"width":320,
+			"height":100
+		},
+		{
+			"id":"15c830721c585b75",
+			"type":"text",
+			"text":"- broken links\n- broken buttons",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":-467,
+			"y":480,
+			"width":270,
+			"height":80
 		}
 	],
 	"edges":[

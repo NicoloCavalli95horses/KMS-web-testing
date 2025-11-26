@@ -4,24 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "afb22a46a3893769",
+        "id": "e07c2acc441fb7e9",
         "type": "tabs",
         "children": [
           {
-            "id": "c5ace4d6893dec5c",
+            "id": "b3560bec7c588a33",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "04 Canvases/mind maps/CSS security issues.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 154.99999384085362,
-                  "zoom": 0
+                  "x": 206.18502937538582,
+                  "y": 195.12928567047027,
+                  "zoom": -0.24072424410870538
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "CSS security issues"
+            }
+          },
+          {
+            "id": "b13d17a15b6816b5",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/mind maps/DMRT.canvas",
+                "viewState": {
+                  "x": 14,
+                  "y": 224.3384666630374,
+                  "zoom": -0.02290727289223911
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "DMRT"
             }
           }
         ]
@@ -188,26 +205,29 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c5ace4d6893dec5c",
+  "active": "b3560bec7c588a33",
   "lastOpenFiles": [
     "00 Antilibrary/RPO (Relative Path Overwrite).md",
+    "04 Canvases/mind maps/CSS security issues.canvas",
+    "04 Canvases/mind maps/DMRT.canvas",
+    "02 Literature/papers/CSS (Cascading Style Sheets)/Protecting browsers from cross-origin CSS attacks.md",
+    "03 References/(Huang, Weinberg, et al., 2010).md",
+    "02 Literature/papers/CSS (Cascading Style Sheets)/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
+    "02 Literature/papers/CSS (Cascading Style Sheets)/Fingerprinting in style. Detecting browser extensions via injected style sheets.md",
+    "03 References/(Laperdrix, Starov, et al., 2021).md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Large-Scale Analysis of Style Injection by Relative Path Overwrite.md",
     "03 References/(Arshad, Mirheidari, et al., 2018).md",
-    "02 Literature/papers/CSS (Cascading Style Sheets)/Protecting browsers from cross-origin CSS attacks.md",
-    "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
-    "04 Canvases/mind maps/CSS security issues.canvas",
-    "01 Notes/DOM clobbering.md",
-    "02 Literature/papers/CSS (Cascading Style Sheets)/Fingerprinting in style. Detecting browser extensions via injected style sheets.md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Email Cloaking. Deceiving Users and Spam Email Detectors with Invisible HTML Settings.md",
     "03 References/(Guo, Liu, et al., 2025).md",
-    "04 Canvases/mind maps/DMRT.canvas",
+    "01 Notes/phishing.md",
+    "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
+    "01 Notes/DOM clobbering.md",
     "04 Canvases/meetings/2025_11_18.canvas",
     "06 Courses, webinars/SBOM & VEX. Getting lulled into a false sense of security.md",
     "01 Notes/OSV (open source vulnerabilities).md",
     "01 Notes/SBOM (Software Bill of Materials).md",
     "02 Literature/papers/data disclosure/Stealth Extension Exfiltration (SEE) Attacks. Stealing User Data without Permissions via Browser Extensions.md",
     "03 References/(Lim, Jin, et al., 2025).md",
-    "02 Literature/papers/CSS (Cascading Style Sheets)/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
     "02 Literature/papers/BAC (Broken Access Control)/Cached and confused. Web cache deception in the wild.md",
     "02 Literature/papers/BAC (Broken Access Control)/Uncovering and Exploiting Hidden APIs in Mobile Super Apps.md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/WAVE. Black Box Detection of XSS, CSRF and Information Leakage Vulnerabilities.md",
@@ -215,10 +235,6 @@
     "02 Literature/papers/XSS (Cross-Site Scripting)/mXSS attacks. attacking well-secured web-applications by using innerHTML mutations.md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/Don't Trust The Locals. Investigating the Prevalence of Persistent Client-Side Cross-Site Scripting in the Wild..md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/Automated removal of cross site scripting vulnerabilities in web applications.md",
-    "02 Literature/papers/XSS (Cross-Site Scripting)/A survey of detection methods for XSS attacks.md",
-    "02 Literature/papers/vulnerability management/Demo. Large Scale Analysis on Vulnerability Remediation in Open-Source JavaScript projects.md",
-    "02 Literature/papers/UI and UX issues/Out of Sight, Out of Mind. UI Design and the Inhibition of Mental Models of Security.md",
-    "02 Literature/papers/UI and UX issues/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md",
     "02 Literature/papers/accessibility",
     "04 Canvases/meetings/2025_09_17.canvas",
     "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
