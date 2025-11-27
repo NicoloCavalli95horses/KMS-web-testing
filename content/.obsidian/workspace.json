@@ -23,6 +23,18 @@
             }
           },
           {
+            "id": "0e06cfb8faab01bb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
+          },
+          {
             "id": "b13d17a15b6816b5",
             "type": "leaf",
             "state": {
@@ -39,7 +51,8 @@
               "title": "DMRT"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -203,7 +216,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b3560bec7c588a33",
+  "active": "0e06cfb8faab01bb",
   "lastOpenFiles": [
     "03 References/(Kotcher, Pei, Jumde, et al., 2013).md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
