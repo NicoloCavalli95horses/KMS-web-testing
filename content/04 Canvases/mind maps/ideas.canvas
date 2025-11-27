@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{
+			"id":"9bcd374716371eb3",
+			"type":"text",
+			"text":"# Cookies exploitation\n\nUser preferences may be saved in cookies with randomized value. Can we encode malicious payloads t",
+			"styleAttributes":{},
+			"x":-400,
+			"y":-180,
+			"width":260,
+			"height":320
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

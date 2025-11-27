@@ -75,8 +75,8 @@
 			"type":"text",
 			"text":"prevalence: are there app using potentially exploitable css features? how can we inject css?",
 			"styleAttributes":{},
-			"x":-200,
-			"y":860,
+			"x":-350,
+			"y":740,
 			"width":540,
 			"height":100
 		}

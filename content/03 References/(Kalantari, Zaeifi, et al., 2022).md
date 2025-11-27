@@ -1,0 +1,12 @@
+---
+ID: 2025-11-27T07:36:23.915Z
+tags: ref
+
+---
+## External Link
+
+https://dl.acm.org/doi/10.1145/3545948.3545992
+
+## BibTeX
+
+@inproceedings{10.1145/3545948.3545992, author = {Kalantari, Faezeh and Zaeifi, Mehrnoosh and Bao, Tiffany and Wang, Ruoyu and Shoshitaishvili, Yan and Doup\'{e}, Adam}, title = {Context-Auditor: Context-sensitive Content Injection Mitigation}, year = {2022}, isbn = {9781450397049}, publisher = {Association for Computing Machinery}, address = {New York, NY, USA}, url = {https://doi.org/10.1145/3545948.3545992}, doi = {10.1145/3545948.3545992}, abstract = {Cross-site scripting (XSS) is the most common vulnerability class in web applications over the last decade. Much research attention has focused on building exploit mitigation defenses for this problem, but no technique provides adequate protection in the face of advanced attacks. One technique that bypasses XSS mitigations is the scriptless attack: a content injection technique that uses (among other options) CSS and HTML injection to infiltrate data. In studying this technique and others, we realized that the common property among the exploitation of all content injection vulnerabilities, including not just XSS and scriptless attacks, but also command injections and several others, is an unintended context switch in the victim program’s parsing engine that is caused by untrusted user input. In this paper, we propose Context-Auditor, a novel technique that leverages this insight to identify content injection vulnerabilities ranging from XSS to scriptless attacks and command injections. We implemented Context-Auditor as a general solution to content injection exploit detection problem in the form of a flexible, stand-alone detection module. We deployed instances of Context-Auditor as (1) a browser plugin, (2) a web proxy (3) a web server plugin, and (4) as a wrapper around potentially-injectable system endpoints. Because Context-Auditor targets the root cause of content injection exploitation (and, more specifically for the purpose of our prototype, XSS exploitation, scriptless exploitation, and command injection), our evaluation results demonstrate that Context-Auditor can identify and block content injection exploits that modern defenses cannot while maintaining low throughput overhead and avoiding false positives.}, booktitle = {Proceedings of the 25th International Symposium on Research in Attacks, Intrusions and Defenses}, pages = {431–445}, numpages = {15}, location = {Limassol, Cyprus}, series = {RAID '22} }
