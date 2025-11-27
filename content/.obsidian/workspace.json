@@ -4,24 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "150f30633d96c7f9",
+        "id": "6796a4da30a57744",
         "type": "tabs",
         "children": [
           {
-            "id": "fa5fb43515bc00c4",
+            "id": "0d5a80aba427e201",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/mind maps/ideas.canvas",
+                "file": "04 Canvases/mind maps/CSS security implications.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                  "x": 1446.6764485229123,
+                  "y": 157.42184832140202,
+                  "zoom": 0.06329252237509247
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "ideas"
+              "title": "CSS security implications"
             }
           }
         ]
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.50260543823242
+    "width": 222.50260543823242
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -188,13 +188,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fa5fb43515bc00c4",
+  "active": "0d5a80aba427e201",
   "lastOpenFiles": [
     "02 Literature/papers/XSS (Cross-Site Scripting)/Context-Auditor. Context-sensitive Content Injection Mitigation.md",
+    "97 Assets/context_auditor_system_design.png",
     "04 Canvases/mind maps/ideas.canvas",
     "03 References/(Kalantari, Zaeifi, et al., 2022).md",
     "01 Notes/XCS (Cross Channel Scripting).md",
-    "04 Canvases/mind maps/CSS security issues.canvas",
+    "04 Canvases/mind maps/CSS security implications.canvas",
     "04 Canvases/mind maps/cross-domain policies.canvas",
     "04 Canvases/mind maps/Web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/Web security on large scale web applications/GUI vulnerabilities.canvas",
@@ -243,7 +244,6 @@
     "97 Assets/efficiency_paradox.png",
     "97 Assets/process_golden_set_auth_cookies_calzavara.png",
     "97 Assets/burp_test_canva_pro.png",
-    "97 Assets/js_instrumentation2.png",
-    "97 Assets/js_instrumentation.png"
+    "97 Assets/js_instrumentation2.png"
   ]
 }

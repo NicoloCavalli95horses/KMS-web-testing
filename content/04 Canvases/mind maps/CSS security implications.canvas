@@ -61,16 +61,6 @@
 			"height":160
 		},
 		{
-			"id":"846dc2978f91e388",
-			"type":"text",
-			"text":"# CSS security issues",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-200,
-			"y":-160,
-			"width":340,
-			"height":80
-		},
-		{
 			"id":"3c866212f7fcd57b",
 			"type":"text",
 			"text":"prevalence: are there app using potentially exploitable css features? how can we inject css?",
@@ -79,6 +69,46 @@
 			"y":740,
 			"width":540,
 			"height":100
+		},
+		{
+			"id":"846dc2978f91e388",
+			"type":"text",
+			"text":"# CSS security implications",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-250,
+			"y":-160,
+			"width":410,
+			"height":80
+		},
+		{
+			"id":"8c124fbbb093968b",
+			"type":"text",
+			"text":"# Exploiting CSS features in constrained contexts",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":1220,
+			"y":-140,
+			"width":410,
+			"height":80
+		},
+		{
+			"id":"fd7f09f347827fb6",
+			"type":"text",
+			"text":"### What sensitive info we can get?\n\n- induce the user into typing something sensitive (password autocompletion)\n- clickjacking user interaction to perform other actions (eg. clicking on links)",
+			"styleAttributes":{},
+			"x":1000,
+			"y":40,
+			"width":400,
+			"height":280
+		},
+		{
+			"id":"006d2464c256d2ea",
+			"type":"text",
+			"text":"### What features can we use?\n\n- manipulate layout, content visibility\n- ",
+			"styleAttributes":{},
+			"x":1520,
+			"y":40,
+			"width":260,
+			"height":280
 		}
 	],
 	"edges":[
