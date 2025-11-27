@@ -4004,11 +4004,11 @@
       "nonWhitespaceCharacterCount": 3039,
       "newlineCount": 94,
       "readingTimeInMinutes": 1.9169811320754717,
-      "linkCount": 0,
-      "embedCount": 0,
+      "linkCount": 3,
+      "embedCount": 1,
       "aliases": null,
       "createdDate": 1754291310687,
-      "modifiedDate": 1763462786862,
+      "modifiedDate": 1764235311138,
       "sizeInBytes": 19385,
       "sessionStart": {
         "noteCount": 1,
@@ -4017,7 +4017,8 @@
         "characterCount": 3968,
         "nonWhitespaceCharacterCount": 3039,
         "newlineCount": 94
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/front end security category.canvas": {
       "isCountable": true,
@@ -28350,20 +28351,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 91,
+      "wordCount": 88,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.30333333333333334,
-      "characterCount": 750,
-      "nonWhitespaceCharacterCount": 647,
-      "newlineCount": 16,
-      "readingTimeInMinutes": 0.3433962264150943,
+      "pageCount": 0.29333333333333333,
+      "characterCount": 722,
+      "nonWhitespaceCharacterCount": 623,
+      "newlineCount": 15,
+      "readingTimeInMinutes": 0.3320754716981132,
       "linkCount": 3,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1763732665221,
-      "modifiedDate": 1764234198975,
-      "sizeInBytes": 2778,
+      "modifiedDate": 1764236870868,
+      "sizeInBytes": 2559,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -28373,6 +28374,33 @@
         "newlineCount": 0
       },
       "frontmatter": {}
+    },
+    "04 Canvases/mind maps/social engineering techniques.canvas": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 20,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.06666666666666667,
+      "characterCount": 166,
+      "nonWhitespaceCharacterCount": 145,
+      "newlineCount": 4,
+      "readingTimeInMinutes": 0.07547169811320754,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1764235208314,
+      "modifiedDate": 1764235304339,
+      "sizeInBytes": 1534,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
     }
   }
 }

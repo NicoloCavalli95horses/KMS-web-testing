@@ -1,0 +1,77 @@
+{
+	"nodes":[
+		{
+			"id":"b3f4eca895300689",
+			"type":"text",
+			"text":"Social engineering (cognitive sciences)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-440,
+			"y":40,
+			"width":260,
+			"height":120
+		},
+		{
+			"id":"2e66af61973d915b",
+			"type":"text",
+			"text":"Deceptive UI / Dark patterns (Human-Computer Interaction)",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-100,
+			"y":40,
+			"width":280,
+			"height":120
+		},
+		{
+			"id":"3ba166deb6510282",
+			"type":"text",
+			"text":"[[clickjacking]], CSS deception",
+			"styleAttributes":{"textAlign":"center"},
+			"x":280,
+			"y":40,
+			"width":260,
+			"height":120
+		},
+		{
+			"id":"a21bb162456d64e9",
+			"type":"text",
+			"text":"# How to induce a user into clicking",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-150,
+			"y":-200,
+			"width":360,
+			"height":100
+		}
+	],
+	"edges":[
+		{
+			"id":"1c2e1888f838f9ac",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a21bb162456d64e9",
+			"fromSide":"bottom",
+			"toNode":"b3f4eca895300689",
+			"toSide":"top"
+		},
+		{
+			"id":"e321a09eba78e7b7",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a21bb162456d64e9",
+			"fromSide":"bottom",
+			"toNode":"2e66af61973d915b",
+			"toSide":"top"
+		},
+		{
+			"id":"3d0661745a0738e7",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a21bb162456d64e9",
+			"fromSide":"bottom",
+			"toNode":"3ba166deb6510282",
+			"toSide":"top"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

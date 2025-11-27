@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/mind maps/CSS security implications.canvas",
                 "viewState": {
-                  "x": 1446.6764485229123,
-                  "y": 157.42184832140202,
-                  "zoom": 0.06329252237509247
+                  "x": 26.255818450814417,
+                  "y": 200.3631678772929,
+                  "zoom": -0.0647343296482571
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -190,20 +190,21 @@
   },
   "active": "0d5a80aba427e201",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/ideas.canvas",
+    "04 Canvases/mind maps/input analysis.canvas",
+    "04 Canvases/mind maps/props tampering.canvas",
+    "04 Canvases/mind maps/social engineering techniques.canvas",
+    "04 Canvases/mind maps/CSS security implications.canvas",
     "02 Literature/papers/XSS (Cross-Site Scripting)/Context-Auditor. Context-sensitive Content Injection Mitigation.md",
     "97 Assets/context_auditor_system_design.png",
-    "04 Canvases/mind maps/ideas.canvas",
     "03 References/(Kalantari, Zaeifi, et al., 2022).md",
     "01 Notes/XCS (Cross Channel Scripting).md",
-    "04 Canvases/mind maps/CSS security implications.canvas",
     "04 Canvases/mind maps/cross-domain policies.canvas",
     "04 Canvases/mind maps/Web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/Web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/Web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "04 Canvases/mind maps/SLR/RQ3. Relationships and dependencies.canvas",
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
-    "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
-    "04 Canvases/mind maps/Empirical Study/JCH-based IDOR test for vulnerability scanners.canvas",
     "03 References/(Basu, et al., 2024).md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
     "03 References/(Kotcher, Pei, Jumde, et al., 2013).md",
