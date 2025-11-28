@@ -28402,6 +28402,72 @@
           "cyberSecurity"
         ]
       }
+    },
+    "03 References/(Smith, Disselkoen, et al., 2018).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 204,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.68,
+      "characterCount": 1572,
+      "nonWhitespaceCharacterCount": 1346,
+      "newlineCount": 15,
+      "readingTimeInMinutes": 0.769811320754717,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1764314196880,
+      "modifiedDate": 1764314196882,
+      "sizeInBytes": 1572,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "02 Literature/papers/CSS (Cascading Style Sheets)/Browser history revisited.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 475,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.5833333333333333,
+      "characterCount": 3078,
+      "nonWhitespaceCharacterCount": 2567,
+      "newlineCount": 47,
+      "readingTimeInMinutes": 1.7924528301886793,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1764314196939,
+      "modifiedDate": 1764316917530,
+      "sizeInBytes": 3220,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-11-28T07:16:36.852Z",
+        "tags": [
+          "paper",
+          "CSS",
+          "cyberSecurity",
+          "historySniffing",
+          "webHistory"
+        ],
+        "Rank": "A",
+        "Project": null
+      }
     }
   }
 }

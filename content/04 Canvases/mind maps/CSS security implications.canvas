@@ -23,7 +23,7 @@
 		{
 			"id":"a1c05ddc0c34a434",
 			"type":"text",
-			"text":"- Scriptless data extraction\n- Email cloaking\n- CSS-driven timing attacks\n- [[RPO (Relative Path Overwrite)]] with CSS injection",
+			"text":"- Scriptless data extraction\n- Email cloaking\n- CSS-driven timing attacks\n- [[RPO (Relative Path Overwrite)]] with CSS injection\n- History sniffing",
 			"styleAttributes":{"border":"invisible"},
 			"x":40,
 			"y":140,
@@ -51,16 +51,6 @@
 			"height":100
 		},
 		{
-			"id":"dc2442f90b24d471",
-			"type":"text",
-			"text":"Data exfiltration, authN/authZ issues, spam filter bypass, possible escalation to [[XSS (cross site scripting)]]",
-			"styleAttributes":{},
-			"x":40,
-			"y":360,
-			"width":340,
-			"height":160
-		},
-		{
 			"id":"3c866212f7fcd57b",
 			"type":"text",
 			"text":"prevalence: are there app using potentially exploitable css features? how can we inject css?",
@@ -79,6 +69,16 @@
 			"y":-160,
 			"width":410,
 			"height":80
+		},
+		{
+			"id":"dc2442f90b24d471",
+			"type":"text",
+			"text":"Data exfiltration, authN/authZ issues, spam filter bypass, possible escalation to [[XSS (cross site scripting)]]",
+			"styleAttributes":{},
+			"x":60,
+			"y":400,
+			"width":340,
+			"height":160
 		}
 	],
 	"edges":[
