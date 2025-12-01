@@ -11,17 +11,15 @@
             "id": "f87007844487b988",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/mind maps/CSS exploitation in web mails.canvas",
-                "viewState": {
-                  "x": 1331.2748840506404,
-                  "y": -592.732668693458,
-                  "zoom": -0.5844227761542511
-                }
+                "file": "02 Literature/papers/CSS (Cascading Style Sheets)/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "CSS exploitation in web mails"
+              "icon": "lucide-file",
+              "title": "Cross-origin pixel stealing. Timing attacks using CSS filters"
             }
           }
         ]
@@ -190,8 +188,8 @@
   },
   "active": "f87007844487b988",
   "lastOpenFiles": [
-    "04 Canvases/mind maps/CSS security implications.canvas",
     "04 Canvases/mind maps/CSS exploitation in web mails.canvas",
+    "04 Canvases/mind maps/CSS security implications.canvas",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Browser history revisited.md",
     "03 References/(Smith, Disselkoen, et al., 2018).md",
     "04 Canvases/mind maps/ideas.canvas",
