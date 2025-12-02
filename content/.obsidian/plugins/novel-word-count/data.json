@@ -10149,20 +10149,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 187,
+      "wordCount": 271,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.6233333333333333,
-      "characterCount": 1444,
-      "nonWhitespaceCharacterCount": 1236,
-      "newlineCount": 25,
-      "readingTimeInMinutes": 0.7056603773584905,
-      "linkCount": 0,
+      "pageCount": 0.9033333333333333,
+      "characterCount": 2008,
+      "nonWhitespaceCharacterCount": 1710,
+      "newlineCount": 30,
+      "readingTimeInMinutes": 1.0226415094339623,
+      "linkCount": 4,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1763732665221,
-      "modifiedDate": 1764599075039,
-      "sizeInBytes": 5393,
+      "modifiedDate": 1764673513932,
+      "sizeInBytes": 6279,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.6233333333333333,
@@ -10170,7 +10170,8 @@
         "characterCount": 1444,
         "nonWhitespaceCharacterCount": 1236,
         "newlineCount": 25
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/cross-domain policies.canvas": {
       "isCountable": true,
@@ -10215,7 +10216,7 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1764326244909,
-      "modifiedDate": 1764575368220,
+      "modifiedDate": 1764672336634,
       "sizeInBytes": 7229,
       "sessionStart": {
         "noteCount": 1,
@@ -10224,7 +10225,8 @@
         "characterCount": 5170,
         "nonWhitespaceCharacterCount": 3264,
         "newlineCount": 108
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/meetings/2025_11_18.canvas": {
       "isCountable": true,

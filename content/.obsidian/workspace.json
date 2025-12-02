@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/mind maps/CSS exploitation in web mails.canvas",
+                "file": "04 Canvases/mind maps/CSS security implications.canvas",
                 "viewState": {
-                  "x": 250.25802665287972,
-                  "y": -369.4229966938482,
-                  "zoom": -1.3131800579088087
+                  "x": 217.53043223077574,
+                  "y": 1316.547665579349,
+                  "zoom": 0.6630375240436754
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "CSS exploitation in web mails"
+              "title": "CSS security implications"
             }
           }
         ]
@@ -190,10 +190,10 @@
   },
   "active": "f87007844487b988",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/CSS exploitation in web mails.canvas",
     "04 Canvases/mind maps/CSS security implications.canvas",
     "02 Literature/papers/CSS (Cascading Style Sheets)/I Still Know What You Visited Last Summer. Leaking Browsing History via User Interaction and Side Channel Attacks.md",
     "03 References/(Weinberg, Chen, et al., 2011).md",
-    "04 Canvases/mind maps/CSS exploitation in web mails.canvas",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Browser history revisited.md",
     "03 References/(Smith, Disselkoen, et al., 2018).md",
