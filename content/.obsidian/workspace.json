@@ -11,15 +11,17 @@
             "id": "f87007844487b988",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "02 Literature/papers/CSS (Cascading Style Sheets)/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/mind maps/CSS security implications.canvas",
+                "viewState": {
+                  "x": 241.68832412134682,
+                  "y": 375.4165655442304,
+                  "zoom": -1.0478185445844317
+                }
               },
-              "icon": "lucide-file",
-              "title": "Cross-origin pixel stealing. Timing attacks using CSS filters"
+              "icon": "lucide-layout-dashboard",
+              "title": "CSS security implications"
             }
           }
         ]
@@ -189,6 +191,7 @@
   "active": "f87007844487b988",
   "lastOpenFiles": [
     "04 Canvases/mind maps/CSS exploitation in web mails.canvas",
+    "02 Literature/papers/CSS (Cascading Style Sheets)/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
     "04 Canvases/mind maps/CSS security implications.canvas",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Browser history revisited.md",
     "03 References/(Smith, Disselkoen, et al., 2018).md",
@@ -204,9 +207,7 @@
     "04 Canvases/mind maps/Web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/Web security on large scale web applications/GUI vulnerabilities.canvas",
     "04 Canvases/mind maps/Web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "04 Canvases/mind maps/SLR/RQ3. Relationships and dependencies.canvas",
     "03 References/(Basu, et al., 2024).md",
-    "02 Literature/papers/CSS (Cascading Style Sheets)/Cross-origin pixel stealing. Timing attacks using CSS filters.md",
     "03 References/(Kotcher, Pei, Jumde, et al., 2013).md",
     "00 Antilibrary/Cross-origin pixel stealing. Timing attacks using CSS filters Cross-origin pixel stealing.md",
     "00 Antilibrary/RPO (Relative Path Overwrite).md",

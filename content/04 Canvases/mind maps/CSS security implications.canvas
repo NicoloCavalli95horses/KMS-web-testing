@@ -1,11 +1,21 @@
 {
 	"nodes":[
 		{
-			"id":"6d7a705b7dccfd0f",
+			"id":"ba6d01181a52f8b8",
 			"type":"text",
-			"text":"## CSS driven-attacks",
+			"text":"- Email cloaking (spam bypass)",
+			"styleAttributes":{"border":"invisible"},
+			"x":1160,
+			"y":120,
+			"width":360,
+			"height":80
+		},
+		{
+			"id":"9cdf0264cc0c3d9d",
+			"type":"text",
+			"text":"## Data cloaking",
 			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":40,
+			"x":1120,
 			"y":40,
 			"width":340,
 			"height":80
@@ -15,70 +25,114 @@
 			"type":"text",
 			"text":"## browser fingerprinting",
 			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-420,
-			"y":40,
+			"x":-400,
+			"y":0,
 			"width":340,
 			"height":80
-		},
-		{
-			"id":"a1c05ddc0c34a434",
-			"type":"text",
-			"text":"- Scriptless data extraction\n- Email cloaking\n- CSS-driven timing attacks\n- [[RPO (Relative Path Overwrite)]] with CSS injection\n- History sniffing",
-			"styleAttributes":{"border":"invisible"},
-			"x":40,
-			"y":140,
-			"width":340,
-			"height":220
 		},
 		{
 			"id":"280998945d27cecd",
 			"type":"text",
 			"text":"- installed browser extensions (they inject CSS)\n- OS, CPU (using `calc()`, detecting installed fonts, `@supports`)\n- installed programs (detecting fonts)\n- device screen size (using `@container`)\n- user's preferred language (detecting fonts, or DOM mutation)",
 			"styleAttributes":{"border":"invisible"},
-			"x":-420,
-			"y":140,
+			"x":-400,
+			"y":100,
 			"width":340,
 			"height":400
-		},
-		{
-			"id":"38a701cfd5713165",
-			"type":"text",
-			"text":"This leads to more targeted [[phishing]] techniques",
-			"styleAttributes":{},
-			"x":-420,
-			"y":560,
-			"width":340,
-			"height":100
-		},
-		{
-			"id":"3c866212f7fcd57b",
-			"type":"text",
-			"text":"prevalence: are there app using potentially exploitable css features? how can we inject css?",
-			"styleAttributes":{},
-			"x":-350,
-			"y":740,
-			"width":540,
-			"height":100
 		},
 		{
 			"id":"846dc2978f91e388",
 			"type":"text",
 			"text":"# CSS security implications",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-250,
-			"y":-160,
+			"styleAttributes":{
+				"textAlign":"center",
+				"border":null,
+				"shape":"pill"
+			},
+			"x":310,
+			"y":-240,
 			"width":410,
 			"height":80
 		},
 		{
-			"id":"dc2442f90b24d471",
+			"id":"745a7c40f103ddb8",
 			"type":"text",
-			"text":"Data exfiltration, authN/authZ issues, spam filter bypass, possible escalation to [[XSS (cross site scripting)]]",
-			"styleAttributes":{},
-			"x":60,
-			"y":400,
+			"text":"Leveraging rendering differences provided by `:visited` pseudo class\n- JS cannot access this info directly anymore but differences in rendering time can be exploited. These can be amplified via computational-expensive CSS features\n- [[pixel stealing]] techniques leverage modern CSS features to measure pixel differences in attacker-controlled iframes\n- attacks based on user-interaction have been proposed. The idea is to lure the user itself into disclosing info about the visited websites. The user interact with content that is styled through `:visited` while non-visited websites are not visible. Each user interaction reveal precious data. Mini-games or CAPTCHA-like exercises have been proposed",
+			"styleAttributes":{"border":"invisible"},
+			"x":95,
+			"y":160,
+			"width":560,
+			"height":500
+		},
+		{
+			"id":"e07e50bcfbdb70aa",
+			"type":"text",
+			"text":"## History sniffing",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":55,
+			"y":60,
 			"width":340,
-			"height":160
+			"height":80
+		},
+		{
+			"id":"6d7a705b7dccfd0f",
+			"type":"text",
+			"text":"## Data exfiltration",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":760,
+			"y":60,
+			"width":340,
+			"height":80
+		},
+		{
+			"id":"a1c05ddc0c34a434",
+			"type":"text",
+			"text":"- Scriptless data extraction\n- CSS-driven timing attacks\n- [[RPO (Relative Path Overwrite)]] with CSS injection\n- pixel stealing attacks",
+			"styleAttributes":{"border":"invisible"},
+			"x":760,
+			"y":160,
+			"width":340,
+			"height":200
+		},
+		{
+			"id":"3861160835427d51",
+			"type":"text",
+			"text":"the victim goes on an attacker-controlled website",
+			"styleAttributes":{},
+			"x":-200,
+			"y":760,
+			"width":480,
+			"height":80
+		},
+		{
+			"id":"dbf50abcd7680403",
+			"type":"text",
+			"text":"the attacker inject CSS into a legitimate web application",
+			"styleAttributes":{},
+			"x":1030,
+			"y":500,
+			"width":340,
+			"height":80
+		},
+		{
+			"id":"3c866212f7fcd57b",
+			"type":"text",
+			"text":"# How can we inject CSS?",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":995,
+			"y":630,
+			"width":335,
+			"height":100
+		},
+		{
+			"id":"d418baac4eed043e",
+			"type":"text",
+			"text":"- [[XSS (cross site scripting)]]\n- [[RPO (Relative Path Overwrite)]]\n",
+			"styleAttributes":{"border":"invisible"},
+			"x":990,
+			"y":730,
+			"width":340,
+			"height":120
 		}
 	],
 	"edges":[
@@ -98,6 +152,60 @@
 			"fromNode":"846dc2978f91e388",
 			"fromSide":"bottom",
 			"toNode":"6d7a705b7dccfd0f",
+			"toSide":"top"
+		},
+		{
+			"id":"660d83ed750b9617",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"846dc2978f91e388",
+			"fromSide":"bottom",
+			"toNode":"e07e50bcfbdb70aa",
+			"toSide":"top"
+		},
+		{
+			"id":"1139a61c5c88b238",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"846dc2978f91e388",
+			"fromSide":"bottom",
+			"toNode":"9cdf0264cc0c3d9d",
+			"toSide":"top"
+		},
+		{
+			"id":"34b2490aea865d10",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"280998945d27cecd",
+			"fromSide":"bottom",
+			"toNode":"3861160835427d51",
+			"toSide":"top"
+		},
+		{
+			"id":"74e1f02b65e5fc76",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"745a7c40f103ddb8",
+			"fromSide":"bottom",
+			"toNode":"3861160835427d51",
+			"toSide":"top"
+		},
+		{
+			"id":"906fc0cb804e284c",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"ba6d01181a52f8b8",
+			"fromSide":"bottom",
+			"toNode":"dbf50abcd7680403",
+			"toSide":"top"
+		},
+		{
+			"id":"fa7d1053ee3dd4af",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a1c05ddc0c34a434",
+			"fromSide":"bottom",
+			"toNode":"dbf50abcd7680403",
 			"toSide":"top"
 		}
 	],
