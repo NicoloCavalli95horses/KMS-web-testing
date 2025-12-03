@@ -13343,20 +13343,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 431,
+      "wordCount": 440,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.4366666666666668,
-      "characterCount": 5214,
-      "nonWhitespaceCharacterCount": 3302,
+      "pageCount": 1.4666666666666666,
+      "characterCount": 5277,
+      "nonWhitespaceCharacterCount": 3356,
       "newlineCount": 108,
-      "readingTimeInMinutes": 1.6264150943396227,
+      "readingTimeInMinutes": 1.6603773584905661,
       "linkCount": 0,
-      "embedCount": 0,
+      "embedCount": 1,
       "aliases": null,
       "createdDate": 1764326244909,
-      "modifiedDate": 1764679353406,
-      "sizeInBytes": 7273,
+      "modifiedDate": 1764768929728,
+      "sizeInBytes": 7476,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.4366666666666668,
@@ -13364,7 +13364,8 @@
         "characterCount": 5214,
         "nonWhitespaceCharacterCount": 3302,
         "newlineCount": 108
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/cross-domain policies.canvas": {
       "isCountable": true,
@@ -28568,6 +28569,33 @@
         "tags": [
           "#definition"
         ]
+      }
+    },
+    "97 Assets/proton_summary_click_detection.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1764768898871,
+      "modifiedDate": 1764768898873,
+      "sizeInBytes": 30788,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
       }
     }
   }

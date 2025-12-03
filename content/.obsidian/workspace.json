@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/mind maps/CSS exploitation in web mails.canvas",
                 "viewState": {
-                  "x": 652.703607692605,
-                  "y": -396.6334963994964,
-                  "zoom": -0.47984675768916546
+                  "x": 1888.7745621547278,
+                  "y": -535.5423560234238,
+                  "zoom": -0.20206899094928438
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -190,6 +190,7 @@
   },
   "active": "f87007844487b988",
   "lastOpenFiles": [
+    "97 Assets/proton_summary_click_detection.png",
     "04 Canvases/mind maps/CSS security implications.canvas",
     "04 Canvases/mind maps/CSS exploitation in web mails.canvas",
     "04 Canvases/mind maps/front end security category.canvas",
@@ -209,7 +210,6 @@
     "04 Canvases/mind maps/cross-domain policies.canvas",
     "04 Canvases/mind maps/Web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/Web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/mind maps/Web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
     "03 References/(Basu, et al., 2024).md",
     "03 References/(Kotcher, Pei, Jumde, et al., 2013).md",
     "00 Antilibrary/Cross-origin pixel stealing. Timing attacks using CSS filters Cross-origin pixel stealing.md",
