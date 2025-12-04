@@ -4,20 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "9b652df8e1c0b3ed",
+        "id": "ffa40bc04520c243",
         "type": "tabs",
         "children": [
           {
-            "id": "f87007844487b988",
+            "id": "10fe7747fed06899",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "04 Canvases/mind maps/CSS exploitation in web mails.canvas",
                 "viewState": {
-                  "x": 1888.7745621547278,
-                  "y": -535.5423560234238,
-                  "zoom": -0.20206899094928438
+                  "x": 1298.1786378311651,
+                  "y": -1.9548714564411398,
+                  "zoom": -1.5041668693597798
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -188,11 +188,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f87007844487b988",
+  "active": "10fe7747fed06899",
   "lastOpenFiles": [
+    "image.png",
+    "97 Assets/click_detection_inline_css.png",
+    "97 Assets/clickjacking_example.png",
+    "04 Canvases/mind maps/CSS exploitation in web mails.canvas",
     "97 Assets/proton_summary_click_detection.png",
     "04 Canvases/mind maps/CSS security implications.canvas",
-    "04 Canvases/mind maps/CSS exploitation in web mails.canvas",
     "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/mind maps/ideas.canvas",
     "02 Literature/papers/CSS (Cascading Style Sheets)/I Still Know What You Visited Last Summer. Leaking Browsing History via User Interaction and Side Channel Attacks.md",
@@ -242,9 +245,6 @@
     "02 Literature/papers/BAC (Broken Access Control)",
     "04 Canvases/mind maps/Empirical Study",
     "97 Assets/systematic_definition.png",
-    "97 Assets/efficiency_paradox.png",
-    "97 Assets/process_golden_set_auth_cookies_calzavara.png",
-    "97 Assets/burp_test_canva_pro.png",
-    "97 Assets/js_instrumentation2.png"
+    "97 Assets/efficiency_paradox.png"
   ]
 }
