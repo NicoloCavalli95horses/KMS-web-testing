@@ -133,26 +133,6 @@
 			"y":730,
 			"width":340,
 			"height":120
-		},
-		{
-			"id":"ac0cc42757b9d356",
-			"type":"text",
-			"text":"# Possible experiment",
-			"styleAttributes":{"border":"invisible"},
-			"x":-40,
-			"y":1180,
-			"width":500,
-			"height":60
-		},
-		{
-			"id":"3088f78d484a1f53",
-			"type":"text",
-			"text":"- exploit `<summary>` and `--var` in combination\n- if `--var` is defined, the email was opened. We know when, and roughly where (mobile device)\n- the user click on `<summary>` we know he/she has read the email till that point () che che ha letto l'email fino a li, e che e' potenzialmente interessato a quel contenuto (potrebbe non cliccare perp!). potenzialmente, anche quando ha cliccato (rispetto all'apertura della email\n- analisi della sequenza dei click sui summary: l'ordine/timing delle immaigni caricate rivela il flusso di lettura.",
-			"styleAttributes":{},
-			"x":-40,
-			"y":1300,
-			"width":760,
-			"height":400
 		}
 	],
 	"edges":[
