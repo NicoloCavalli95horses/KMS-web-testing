@@ -2564,33 +2564,6 @@
         "newlineCount": 7
       }
     },
-    "image.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1764772220321,
-      "modifiedDate": 1764772220323,
-      "sizeInBytes": 99352,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "index.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -2599,7 +2572,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 2.183333333333333,
-      "characterCount": 4889,
+      "characterCount": 4818,
       "nonWhitespaceCharacterCount": 3847,
       "newlineCount": 72,
       "readingTimeInMinutes": 2.4716981132075473,
@@ -2607,8 +2580,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754291310793,
-      "modifiedDate": 1754291310793,
-      "sizeInBytes": 4959,
+      "modifiedDate": 1764855649643,
+      "sizeInBytes": 4883,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 2.183333333333333,
@@ -3602,20 +3575,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 187,
+      "wordCount": 188,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.6233333333333333,
-      "characterCount": 1444,
-      "nonWhitespaceCharacterCount": 1236,
-      "newlineCount": 25,
-      "readingTimeInMinutes": 0.7056603773584905,
+      "pageCount": 0.6266666666666667,
+      "characterCount": 1453,
+      "nonWhitespaceCharacterCount": 1243,
+      "newlineCount": 26,
+      "readingTimeInMinutes": 0.7094339622641509,
       "linkCount": 4,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1763732665221,
-      "modifiedDate": 1764837231582,
-      "sizeInBytes": 5393,
+      "modifiedDate": 1764855614930,
+      "sizeInBytes": 5480,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.9033333333333333,
@@ -3642,8 +3615,8 @@
       "embedCount": 2,
       "aliases": null,
       "createdDate": 1764326244909,
-      "modifiedDate": 1764852473853,
-      "sizeInBytes": 12431,
+      "modifiedDate": 1764855635124,
+      "sizeInBytes": 12459,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 1.5833333333333333,
@@ -28624,6 +28597,33 @@
           "programmingLanguage",
           "JavaScript"
         ]
+      }
+    },
+    "97 Assets/access_to_css_var_gmail.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1764772220321,
+      "modifiedDate": 1764772220323,
+      "sizeInBytes": 99352,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
       }
     }
   }

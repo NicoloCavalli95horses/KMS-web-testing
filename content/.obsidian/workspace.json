@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/mind maps/CSS security implications.canvas",
+                "file": "04 Canvases/mind maps/CSS exploitation in web mails.canvas",
                 "viewState": {
-                  "x": 560,
-                  "y": 305,
-                  "zoom": -0.22262013738788566
+                  "x": -261.62607494346906,
+                  "y": 662.8787254535013,
+                  "zoom": -0.7839180644271684
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "CSS security implications"
+              "title": "CSS exploitation in web mails"
             }
           }
         ]
@@ -190,9 +190,14 @@
   },
   "active": "10fe7747fed06899",
   "lastOpenFiles": [
-    "04 Canvases/mind maps/CSS exploitation in web mails.canvas",
     "04 Canvases/mind maps/CSS security implications.canvas",
-    "image.png",
+    "04 Canvases/mind maps/CSS exploitation in web mails.canvas",
+    "97 Assets/access_to_css_var_gmail.png",
+    "index.md",
+    "96 Meta/SLR/Reviewers response SLR (S&P).md",
+    "96 Meta/SLR/Tags analysis.md",
+    "96 Meta/SLR/Paper list.md",
+    "96 Meta/PhD status.md",
     "97 Assets/click_detection_inline_css.png",
     "97 Assets/clickjacking_example.png",
     "97 Assets/proton_summary_click_detection.png",
@@ -225,11 +230,6 @@
     "03 References/(Arshad, Mirheidari, et al., 2018).md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Email Cloaking. Deceiving Users and Spam Email Detectors with Invisible HTML Settings.md",
     "03 References/(Guo, Liu, et al., 2025).md",
-    "01 Notes/phishing.md",
-    "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
-    "01 Notes/DOM clobbering.md",
-    "06 Courses, webinars/SBOM & VEX. Getting lulled into a false sense of security.md",
-    "01 Notes/OSV (open source vulnerabilities).md",
     "02 Literature/papers/accessibility",
     "00 Antilibrary/Untitled.base",
     "00 Antilibrary/Untitled 3.base",
