@@ -51,6 +51,25 @@ Tricking the victim into saving an SVG image from a website and opening it later
 
 SVG Chameleons are files containing both SVG and HTML content. Using in-line XML transformation (XSLT), we managed to craft an SVG file that acts like an image if embedded via <img>, CSS or similar ways, but ==unfolds to a full stack HTML file containing no SVG elements anymore as soon as opened directly==. This attack works with Gecko-based browsers, since it appears to be the only layout engine supporting in-line XSLT in SVG files.
 
+### Facilitating Cross Site Scripting Exploits
+
+SVG images provide many possibilities for executing JavaScript in uncommon ways.
+SVG Tiny, for example, allows to execute JavaScript by using a handler element with an event attribute
+
+```html
+<svg xmlns="http://www.w3.org/2000/svg"> <handler xmlns:ev="http://www.w3.org /2001/xml events" ev:event="load"> alert (1) </handler > </svg >
+```
+
+Another way of embedding JavaScript in SVG files makes use of a `<feImage>` tag with an `xlink:href` pointing to a `data: URI`.
+
+```html
+<svg xmlns =" http :// www . w3 . org /2000/ svg " xmlns:xlink="http://www.w3.org/1999/ xlink "> <feImage > <set attributeName="xlink:href" to="data:image/svg+xml;charset=utf -8; base64 ,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53 My5vcmcvMjAwMC9zdmciPjxzY3JpcHQ %2 BYWxl cnQoMSk8L3NjcmlwdD48L3N2Zz4NCg %3 D %3 D"/> </feImage > </svg >
+```
+
+### Facilitating filter bypass
+
+While in HTML documents entities such as `&#x61`; will be treated as such, XHTML and XML documents will have the entity be treated like its canonical representation (e.g., the character a). In practice, this implies that within a XHTML/XML document the code `<script>&#x61;lert(1)</script>` will execute the `alert()` method, while an HTML document with the same content causes the script engine to throw an error.
+
 ## Limits
 
 What are the limits of the research? What could be improved?
