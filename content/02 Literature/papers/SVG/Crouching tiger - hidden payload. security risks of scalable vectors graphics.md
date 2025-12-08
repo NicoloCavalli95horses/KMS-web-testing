@@ -21,19 +21,35 @@ We introduce several novel attack techniques of using SVG images to target moder
 - SVG chameleons (files that are interpreted differently depending on how they are opened)
 - deception of filtering techniques via SVG files
 
+## SVG files
 
+The SVG family consists of several members and we use the following three file types as examples in later sections:
+- SVG Full 1.1: SVG Full describes the full SVG feature set including 81 different SVG elements and tags. The specification is designed without a special focus on the devices parsing the SVG data.
+- SVG Basic 1.1: SVG Basic is supposed to deliver a subset of the SVG Full specification to ease the implementation for developers of browsers for PDAs and handheld devices. SVG Basic only provides 70 of the 81 SVG elements specified in SVG Full 1.1. Contrary to SVG Tiny 1.2, the SVG Basic 1.1 features also include support for SVG fonts.
+- SVG Tiny 1.2: SVG Tiny is specifically designed for smartphones and similar mobile devices with limited computing, rendering, and display capabilities. The subset of allowed SVG elements and tags has been reduced to 47 elements. SVG Tiny also ships several exclusive possibilities for event binding and external resource loading.
 
-## Approach
+Additionally, the SVG specification provides interface descriptions for an ==SVG Document Object Model (DOM)==, which implies that SVG files also offer some dynamic capabilities. Users can create SVG files capable of providing event handling, effects, time-based changes and animations, as well as zoom effects and other helpful display enhancements. A large set of filters can be applied to the elements of SVG files to even more greatly increase the possibilities for image transformation and animation. The ability to combine SVG with the XML Linking Language (XLink) features allows SVG files to link elements to other elements in the same image file, other image files or arbitrary objects referenced via Uniform Request Identifiers (URIs). Furthermore, these image files support the implementation of International Color Consortium (ICC) and Standard Red-Green-Blue (sRGB) color profiles, allowing the embedment of arbitrary content such as Flash, PDFs, Java and HTML via the `<foreignObject>` element
 
-Describe the research approach in simple terms. What did the authors do to solve the problem?
+**SVG deployment**
+- **as uploaded file**
+- **via CSS backgrounds and img tags**: this is the most dangerous and effective attack, given that ==the majority of web applications judge img tags to be harmless==
+- **via inline SVG** (with the SVG tag)
+- **via font file**: an SVG can be specified as a font completely consisting of SVG data
+- via **iframe, embed, or object tags**
 
-## Evaluation
+> [!WARNING] Warning
+> SVG files should be displayed and executed with a heavily limited set of features to prevent universal XSS attacks
 
-Often a tool or a solution is implemented. How was that solution evaluated?
+## SVG attacks
 
-## Results
+### Local JavaScript execution  
 
-Describe the results in simple terms
+Tricking the victim into saving an SVG image from a website and opening it later on for repeated viewing pleasure. Once saved locally and double-clicked, the browser will open the file – since most users do not have a dedicated software installed that changes the application to handle the SVG MIME type. The SVG file is consequently opened from a file URI and in case it contains JavaScript, this code will be executed in the same context
+- Depending on the web browser the victim is using, the JavaScript can then attempt to read other files from the hard-disk or neighboring directories, and cause a data leakage incident.
+
+### SVG chameleons
+
+SVG Chameleons are files containing both SVG and HTML content. Using in-line XML transformation (XSLT), we managed to craft an SVG file that acts like an image if embedded via <img>, CSS or similar ways, but ==unfolds to a full stack HTML file containing no SVG elements anymore as soon as opened directly==. This attack works with Gecko-based browsers, since it appears to be the only layout engine supporting in-line XSLT in SVG files.
 
 ## Limits
 
