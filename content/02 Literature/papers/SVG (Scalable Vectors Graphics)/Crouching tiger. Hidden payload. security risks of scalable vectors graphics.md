@@ -70,9 +70,14 @@ Another way of embedding JavaScript in SVG files makes use of a `<feImage>` tag 
 
 While in HTML documents entities such as `&#x61`; will be treated as such, XHTML and XML documents will have the entity be treated like its canonical representation (e.g., the character a). In practice, this implies that within a XHTML/XML document the code `<script>&#x61;lert(1)</script>` will execute the `alert()` method, while an HTML document with the same content causes the script engine to throw an error.
 
+## Approach
+
+We introduce and discuss SVGPurifier , a PHP-based, server-side SVG filter software we have developed to mitigate the identified attacks.
+
 ## Limits
 
-What are the limits of the research? What could be improved?
+- The exploits explained in the paper are not relevant anymore. The issues have been patched
+- No clear details are provided to replicate the SVG based XSS they discuss
 
 ---
 #### References

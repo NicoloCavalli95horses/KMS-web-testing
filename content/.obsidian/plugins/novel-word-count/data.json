@@ -28652,24 +28652,24 @@
         "newlineCount": 0
       }
     },
-    "02 Literature/papers/SVG/Crouching tiger - hidden payload. security risks of scalable vectors graphics.md": {
+    "02 Literature/papers/SVG (Scalable Vectors Graphics)/Crouching tiger. Hidden payload. security risks of scalable vectors graphics.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 962,
+      "wordCount": 1008,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 3.2066666666666666,
-      "characterCount": 6401,
-      "nonWhitespaceCharacterCount": 5372,
-      "newlineCount": 72,
-      "readingTimeInMinutes": 3.630188679245283,
-      "linkCount": 2,
+      "pageCount": 3.36,
+      "characterCount": 6760,
+      "nonWhitespaceCharacterCount": 5666,
+      "newlineCount": 85,
+      "readingTimeInMinutes": 3.8037735849056604,
+      "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1765182609303,
-      "modifiedDate": 1765196048148,
-      "sizeInBytes": 6504,
+      "modifiedDate": 1765197727754,
+      "sizeInBytes": 6764,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -28677,16 +28677,6 @@
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0,
         "newlineCount": 0
-      },
-      "frontmatter": {
-        "ID": "2025-12-08T08:30:09.278Z",
-        "tags": [
-          "paper",
-          "SVG",
-          "clientSideAttacks",
-          "XSS"
-        ],
-        "Rank": "A*"
       }
     }
   }
