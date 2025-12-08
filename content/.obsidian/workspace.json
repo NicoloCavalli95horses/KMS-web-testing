@@ -21,26 +21,8 @@
               "icon": "lucide-file",
               "title": "Crouching tiger - hidden payload. security risks of scalable vectors graphics"
             }
-          },
-          {
-            "id": "2b9a758f5ccd062f",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "04 Canvases/mind maps/CSS exploitation in web mails.canvas",
-                "viewState": {
-                  "x": -666.3835723168286,
-                  "y": -371.957981040738,
-                  "zoom": -0.60158590489175
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "CSS exploitation in web mails"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5026054382324
+    "width": 326.5026054382324
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -204,14 +186,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2b9a758f5ccd062f",
+  "active": "78a28b9bc72bbb51",
   "lastOpenFiles": [
+    "97 Assets/access_to_css_var_gmail.png",
+    "97 Assets/bft_img_question.png",
+    "04 Canvases/mind maps/CSS exploitation in web mails.canvas",
     "02 Literature/papers/SVG/Crouching tiger - hidden payload. security risks of scalable vectors graphics.md",
     "03 References/(Heiderich, Frosch, et al., 2011).md",
     "02 Literature/papers/SVG",
-    "04 Canvases/mind maps/CSS exploitation in web mails.canvas",
     "04 Canvases/mind maps/CSS security implications.canvas",
-    "97 Assets/access_to_css_var_gmail.png",
     "index.md",
     "96 Meta/SLR/Reviewers response SLR (S&P).md",
     "96 Meta/SLR/Tags analysis.md",
@@ -247,7 +230,6 @@
     "03 References/(Laperdrix, Starov, et al., 2021).md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Large-Scale Analysis of Style Injection by Relative Path Overwrite.md",
     "03 References/(Arshad, Mirheidari, et al., 2018).md",
-    "02 Literature/papers/CSS (Cascading Style Sheets)/Email Cloaking. Deceiving Users and Spam Email Detectors with Invisible HTML Settings.md",
     "02 Literature/papers/accessibility",
     "00 Antilibrary/Untitled.base",
     "00 Antilibrary/Untitled 3.base",
