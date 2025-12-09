@@ -137,7 +137,7 @@
 		{
 			"id":"1e910d8d077e2c6f",
 			"type":"text",
-			"text":"- decrypting emails via CSS injection [[(Trampert, Weber, et al., 2025b)]]\n- first description of scriptless attacks using CSS animations, conditional scrollbars and background properties [[(Heiderich, Niemietz, et al., 2012)]]\n- importing an external website as CSS and exploiting tolerant CSS parsing to extract the victim's data [[(Huang, Weinberg, et al., 2010)]]\n- email cloacking: bypassing email spam filters by injecting invisible content into emails [[(Guo, Liu, et al., 2025)]]",
+			"text":"- decrypting emails via CSS injection, using container queries, lazy-loaded web fonts, and contextual font ligatures [[(Trampert, Weber, et al., 2025b)]]\n- first description of scriptless attacks using CSS animations, conditional scrollbars and background properties [[(Heiderich, Niemietz, et al., 2012)]]\n- importing an external website as CSS and exploiting tolerant CSS parsing to extract the victim's data [[(Huang, Weinberg, et al., 2010)]]\n- email cloacking: bypassing email spam filters by injecting invisible content into emails [[(Guo, Liu, et al., 2025)]]",
 			"styleAttributes":{
 				"border":"invisible",
 				"textAlign":null
