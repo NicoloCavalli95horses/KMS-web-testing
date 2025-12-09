@@ -1,0 +1,156 @@
+{
+	"nodes":[
+		{
+			"id":"4abbbf6931849046",
+			"type":"text",
+			"text":"A timing attack is a category of side-channel attack in which an attacker *analyzes a system's response times to infer sensitive information.*\n\nThis type of attack uses ==variations in the execution times== of operations to obtain details about internal data\n\nThe victim opens the malicious site (via [[phishing]], infected ads, or other [[social engineering]] methods).\n- The malicious site embeds an ==invisible iframe== with a private page of the victim, such as a social network profile\n- If the victim is logged in, the iframe loads a customized version of the page (with avatar, feed, etc.)\n- If the victim is not logged in, they are redirected to the login page, which has a different layout and loading time. ==Rendering times can be exaggerated by making use of CSS filters==\n- The malicious site measures the time it takes to render the iframe (or uses other techniques such as CSS analysis or fetch errors)\n- ==By comparing the loading times to a reference database==, the attacker can determine whether the victim has an account or is logged in to the site",
+			"styleAttributes":{"border":"invisible"},
+			"x":-420,
+			"y":-300,
+			"width":680,
+			"height":620
+		},
+		{
+			"id":"20086f3ee91bd89c",
+			"type":"text",
+			"text":"# Timing attacks",
+			"styleAttributes":{
+				"textAlign":null,
+				"border":"invisible"
+			},
+			"x":-420,
+			"y":-400,
+			"width":420,
+			"height":60
+		},
+		{
+			"id":"8522f01d7ac998a8",
+			"type":"text",
+			"text":"# Browser fingerprinting",
+			"styleAttributes":{
+				"textAlign":null,
+				"border":"invisible"
+			},
+			"x":-420,
+			"y":440,
+			"width":420,
+			"height":43
+		},
+		{
+			"id":"719f825a9607fb2b",
+			"type":"text",
+			"text":"A digital fingerprint is essentially ==a list of characteristics that are unique to a single user, their browser, and their particular hardware setup==. This includes information the browser needs to send to access websites, like the location of the website the user is requesting.\n\nBut it also includes a host of seemingly insignificant data (like screen resolution and installed fonts) gathered by tracking scripts. Tracking sites can stitch all the small pieces together to form a unique picture, or \"fingerprint,\" of your device.",
+			"styleAttributes":{"border":"invisible"},
+			"x":-420,
+			"y":540,
+			"width":680,
+			"height":340
+		},
+		{
+			"id":"2d294d5e9d84c46a",
+			"type":"text",
+			"text":"# Literature",
+			"styleAttributes":{
+				"textAlign":null,
+				"border":"invisible"
+			},
+			"x":360,
+			"y":432,
+			"width":420,
+			"height":60
+		},
+		{
+			"id":"3b05b5c6eec70092",
+			"type":"text",
+			"text":"- inferring installed browser extensions by leveraging CSS injected by these extensions [[(Laperdrix, Starov, et al., 2021)]]\n- inferring OS, installed software, hardware configuration, user preferred language, email client identification exploiting modern CSS features (`@container, @support, calc(), ...`) [[(Trampert, Weber, et al., 2025a)]]",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"x":360,
+			"y":532,
+			"width":720,
+			"height":348
+		},
+		{
+			"id":"ac5d95b515199654",
+			"type":"text",
+			"text":"# Literature",
+			"styleAttributes":{
+				"textAlign":null,
+				"border":"invisible"
+			},
+			"x":360,
+			"y":-400,
+			"width":420,
+			"height":60
+		},
+		{
+			"id":"18c3891207015362",
+			"type":"text",
+			"text":"**History sniffing** and user state tracking (visited/unvisited, has account/does not). Approaches:\n- server-side response time evaluation [[(Sanchez-Rola, Balzarotti, et al., 2020)]]\n- exploiting user interactions and CSS `:visited` [[(Weinberg, Chen, et al., 2011)]], with QR-codes [[(O’Neal, Yilek, et al., 2022)]], \n- exploiting computational expensive CSS features to magnify execution time [[(Smith, Disselkoen, et al., 2018)]]\n",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"x":360,
+			"y":-300,
+			"width":720,
+			"height":500
+		},
+		{
+			"id":"085eff4712b95c77",
+			"type":"text",
+			"text":"# Scriptless attacks",
+			"styleAttributes":{
+				"textAlign":null,
+				"border":"invisible"
+			},
+			"x":-420,
+			"y":968,
+			"width":420,
+			"height":43
+		},
+		{
+			"id":"1c08e94b4496240c",
+			"type":"text",
+			"text":"An attack purely carried out via HTML/CSS",
+			"styleAttributes":{"border":"invisible"},
+			"x":-420,
+			"y":1068,
+			"width":680,
+			"height":340
+		},
+		{
+			"id":"9960d4fdcf41ffa5",
+			"type":"text",
+			"text":"# Literature",
+			"styleAttributes":{
+				"textAlign":null,
+				"border":"invisible"
+			},
+			"x":360,
+			"y":960,
+			"width":420,
+			"height":60
+		},
+		{
+			"id":"1e910d8d077e2c6f",
+			"type":"text",
+			"text":"- decrypting emails via CSS injection [[(Trampert, Weber, et al., 2025b)]]\n- first description of scriptless attacks using CSS animations, conditional scrollbars and background properties [[(Heiderich, Niemietz, et al., 2012)]]\n- importing an external website as CSS and exploiting tolerant CSS parsing to extract the victim's data [[(Huang, Weinberg, et al., 2010)]]\n- email cloacking: bypassing email spam filters by injecting invisible content into emails [[(Guo, Liu, et al., 2025)]]",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"x":360,
+			"y":1060,
+			"width":720,
+			"height":348
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

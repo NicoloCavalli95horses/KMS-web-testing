@@ -3976,12 +3976,12 @@
       "nonWhitespaceCharacterCount": 145,
       "newlineCount": 4,
       "readingTimeInMinutes": 0.07547169811320754,
-      "linkCount": 0,
+      "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1764235208314,
-      "modifiedDate": 1764235304339,
-      "sizeInBytes": 1534,
+      "modifiedDate": 1765276443871,
+      "sizeInBytes": 1597,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.06666666666666667,
@@ -3989,7 +3989,8 @@
         "characterCount": 166,
         "nonWhitespaceCharacterCount": 145,
         "newlineCount": 4
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/SLR/RQ3. Relationships and dependencies.canvas": {
       "isCountable": true,
@@ -4057,11 +4058,11 @@
       "nonWhitespaceCharacterCount": 3039,
       "newlineCount": 94,
       "readingTimeInMinutes": 1.9169811320754717,
-      "linkCount": 0,
-      "embedCount": 0,
+      "linkCount": 3,
+      "embedCount": 1,
       "aliases": null,
       "createdDate": 1754291310687,
-      "modifiedDate": 1764235311138,
+      "modifiedDate": 1765276432817,
       "sizeInBytes": 19385,
       "sessionStart": {
         "noteCount": 1,
@@ -4070,7 +4071,8 @@
         "characterCount": 3968,
         "nonWhitespaceCharacterCount": 3039,
         "newlineCount": 94
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/input analysis.canvas": {
       "isCountable": true,
@@ -4097,33 +4099,6 @@
         "characterCount": 796,
         "nonWhitespaceCharacterCount": 688,
         "newlineCount": 42
-      }
-    },
-    "04 Canvases/mind maps/ideas.canvas": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 49,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.16333333333333333,
-      "characterCount": 356,
-      "nonWhitespaceCharacterCount": 303,
-      "newlineCount": 7,
-      "readingTimeInMinutes": 0.18490566037735848,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1764230710763,
-      "modifiedDate": 1764230937295,
-      "sizeInBytes": 603,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.16333333333333333,
-        "wordCount": 49,
-        "characterCount": 356,
-        "nonWhitespaceCharacterCount": 303,
-        "newlineCount": 7
       }
     },
     "04 Canvases/mind maps/front end security category.canvas": {
@@ -4259,60 +4234,6 @@
         "characterCount": 308,
         "nonWhitespaceCharacterCount": 257,
         "newlineCount": 12
-      }
-    },
-    "04 Canvases/mind maps/CSS security implications.canvas": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 188,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.6266666666666667,
-      "characterCount": 1453,
-      "nonWhitespaceCharacterCount": 1243,
-      "newlineCount": 26,
-      "readingTimeInMinutes": 0.7094339622641509,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1763732665221,
-      "modifiedDate": 1764855614930,
-      "sizeInBytes": 5480,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.6266666666666667,
-        "wordCount": 188,
-        "characterCount": 1453,
-        "nonWhitespaceCharacterCount": 1243,
-        "newlineCount": 26
-      }
-    },
-    "04 Canvases/mind maps/CSS exploitation in web mails.canvas": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 728,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 2.4266666666666667,
-      "characterCount": 7216,
-      "nonWhitespaceCharacterCount": 4982,
-      "newlineCount": 132,
-      "readingTimeInMinutes": 2.7471698113207546,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1764326244909,
-      "modifiedDate": 1764855635124,
-      "sizeInBytes": 12459,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 2.4266666666666667,
-        "wordCount": 728,
-        "characterCount": 7216,
-        "nonWhitespaceCharacterCount": 4982,
-        "newlineCount": 132
       }
     },
     "04 Canvases/mind maps/cross-domain policies.canvas": {
@@ -5522,7 +5443,7 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.9566666666666667,
-      "characterCount": 2053,
+      "characterCount": 2045,
       "nonWhitespaceCharacterCount": 1736,
       "newlineCount": 9,
       "readingTimeInMinutes": 1.0830188679245283,
@@ -5530,8 +5451,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754291310674,
-      "modifiedDate": 1754291310675,
-      "sizeInBytes": 2124,
+      "modifiedDate": 1765276402352,
+      "sizeInBytes": 2110,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.9566666666666667,
@@ -14867,42 +14788,6 @@
         "Rank": "A*"
       }
     },
-    "02 Literature/papers/CSS (Cascading Style Sheets)/Fingerprinting in style. Detecting browser extensions via injected style sheets.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 679,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 2.263333333333333,
-      "characterCount": 4596,
-      "nonWhitespaceCharacterCount": 3865,
-      "newlineCount": 67,
-      "readingTimeInMinutes": 2.5622641509433963,
-      "linkCount": 3,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1755162780650,
-      "modifiedDate": 1763971261092,
-      "sizeInBytes": 4690,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 2.263333333333333,
-        "wordCount": 679,
-        "characterCount": 4596,
-        "nonWhitespaceCharacterCount": 3865,
-        "newlineCount": 67
-      },
-      "frontmatter": {
-        "ID": "2025-08-14T09:13:00.620Z",
-        "tags": [
-          "paper",
-          "browserFingerprinting",
-          "CSS"
-        ],
-        "Rank": "A"
-      }
-    },
     "02 Literature/papers/CSS (Cascading Style Sheets)/Email Cloaking. Deceiving Users and Spam Email Detectors with Invisible HTML Settings.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -14976,45 +14861,6 @@
           "HTML"
         ],
         "Rank": "A*"
-      }
-    },
-    "02 Literature/papers/CSS (Cascading Style Sheets)/Browser history revisited.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 939,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 3.13,
-      "characterCount": 6073,
-      "nonWhitespaceCharacterCount": 5083,
-      "newlineCount": 70,
-      "readingTimeInMinutes": 3.543396226415094,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1764314196939,
-      "modifiedDate": 1764320605984,
-      "sizeInBytes": 6229,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 3.13,
-        "wordCount": 939,
-        "characterCount": 6073,
-        "nonWhitespaceCharacterCount": 5083,
-        "newlineCount": 70
-      },
-      "frontmatter": {
-        "ID": "2025-11-28T07:16:36.852Z",
-        "tags": [
-          "paper",
-          "CSS",
-          "cyberSecurity",
-          "historySniffing",
-          "webHistory"
-        ],
-        "Rank": "A",
-        "Project": null
       }
     },
     "02 Literature/papers/dependency-related vulnerabilities/Managing security vulnerabilities introduced by dependencies in React.js.md": {
@@ -26158,16 +26004,16 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.5766666666666667,
-      "characterCount": 1125,
-      "nonWhitespaceCharacterCount": 944,
-      "newlineCount": 11,
+      "characterCount": 1130,
+      "nonWhitespaceCharacterCount": 948,
+      "newlineCount": 13,
       "readingTimeInMinutes": 0.6528301886792452,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1754291310502,
-      "modifiedDate": 1755169813163,
-      "sizeInBytes": 1218,
+      "modifiedDate": 1765276528506,
+      "sizeInBytes": 1223,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.5766666666666667,
@@ -28692,34 +28538,6 @@
         ]
       }
     },
-    "04 Canvases/mind maps/Timing attacks.canvas": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 189,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.63,
-      "characterCount": 1189,
-      "nonWhitespaceCharacterCount": 984,
-      "newlineCount": 18,
-      "readingTimeInMinutes": 0.7132075471698113,
-      "linkCount": 3,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1765273719004,
-      "modifiedDate": 1765274038438,
-      "sizeInBytes": 1825,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      },
-      "frontmatter": {}
-    },
     "03 References/(Sanchez-Rola, Balzarotti, et al., 2020).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -28781,6 +28599,338 @@
           "timingAttack"
         ],
         "Rank": "A*"
+      }
+    },
+    "03 References/(O’Neal, Yilek, et al., 2022).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 40,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.13333333333333333,
+      "characterCount": 536,
+      "nonWhitespaceCharacterCount": 468,
+      "newlineCount": 13,
+      "readingTimeInMinutes": 0.1509433962264151,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1765275996047,
+      "modifiedDate": 1765275996047,
+      "sizeInBytes": 538,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "02 Literature/papers/history sniffing/Interactive History Sniffing with Dynamically-Generated QR Codes and CSS Difference Blending.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 11,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.03666666666666667,
+      "characterCount": 125,
+      "nonWhitespaceCharacterCount": 95,
+      "newlineCount": 20,
+      "readingTimeInMinutes": 0.04150943396226415,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1765275996134,
+      "modifiedDate": 1765276029743,
+      "sizeInBytes": 227,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-12-09T10:26:36.037Z",
+        "tags": [
+          "paper",
+          "CSS",
+          "QRcode",
+          "historySniffing"
+        ],
+        "Rank": "A*"
+      }
+    },
+    "02 Literature/papers/history sniffing/Browser history revisited.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 950,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 3.1666666666666665,
+      "characterCount": 6203,
+      "nonWhitespaceCharacterCount": 5186,
+      "newlineCount": 80,
+      "readingTimeInMinutes": 3.5849056603773586,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1764314196939,
+      "modifiedDate": 1764320605984,
+      "sizeInBytes": 6229,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 172,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.5733333333333334,
+      "characterCount": 1345,
+      "nonWhitespaceCharacterCount": 1151,
+      "newlineCount": 24,
+      "readingTimeInMinutes": 0.6490566037735849,
+      "linkCount": 4,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1763732665221,
+      "modifiedDate": 1765278512381,
+      "sizeInBytes": 4590,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {}
+    },
+    "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 728,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 2.4266666666666667,
+      "characterCount": 7216,
+      "nonWhitespaceCharacterCount": 4982,
+      "newlineCount": 132,
+      "readingTimeInMinutes": 2.7471698113207546,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1764326244909,
+      "modifiedDate": 1764855635124,
+      "sizeInBytes": 12459,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "04 Canvases/mind maps/CSS security implication/Review.canvas": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 433,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.4433333333333334,
+      "characterCount": 3014,
+      "nonWhitespaceCharacterCount": 2556,
+      "newlineCount": 31,
+      "readingTimeInMinutes": 1.6339622641509435,
+      "linkCount": 12,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1765273719004,
+      "modifiedDate": 1765277872163,
+      "sizeInBytes": 5440,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {}
+    },
+    "02 Literature/papers/browser fingerprinting/Cascading Spy Sheets. Exploiting the Complexity of Modern CSS for Email and Browser Fingerprinting.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 11,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.03666666666666667,
+      "characterCount": 128,
+      "nonWhitespaceCharacterCount": 98,
+      "newlineCount": 20,
+      "readingTimeInMinutes": 0.04150943396226415,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1765276954461,
+      "modifiedDate": 1765277359879,
+      "sizeInBytes": 255,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-12-09T10:42:34.256Z",
+        "tags": [
+          "paper",
+          "browserFingerprinting",
+          "CSS",
+          "email",
+          "clientSideAttacks"
+        ],
+        "Rank": "A*"
+      }
+    },
+    "02 Literature/papers/browser fingerprinting/Fingerprinting in style. Detecting browser extensions via injected style sheets.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 687,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 2.29,
+      "characterCount": 4690,
+      "nonWhitespaceCharacterCount": 3941,
+      "newlineCount": 74,
+      "readingTimeInMinutes": 2.5924528301886793,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1755162780650,
+      "modifiedDate": 1763971261092,
+      "sizeInBytes": 4690,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "03 References/(Trampert, Weber, et al., 2025a).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 39,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.13,
+      "characterCount": 534,
+      "nonWhitespaceCharacterCount": 478,
+      "newlineCount": 13,
+      "readingTimeInMinutes": 0.1471698113207547,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1765276954263,
+      "modifiedDate": 1765276954263,
+      "sizeInBytes": 534,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "02 Literature/papers/CSS (Cascading Style Sheets)/Styled to Steal. The Overlooked Attack Surface in Email Clients.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 11,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.03666666666666667,
+      "characterCount": 128,
+      "nonWhitespaceCharacterCount": 98,
+      "newlineCount": 20,
+      "readingTimeInMinutes": 0.04150943396226415,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1765277397533,
+      "modifiedDate": 1765277478189,
+      "sizeInBytes": 271,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-12-09T10:49:57.415Z",
+        "tags": [
+          "paper",
+          "dataExfiltration",
+          "CSS",
+          "scriptlessAttack",
+          "clientSideAttacks",
+          "email"
+        ],
+        "Rank": "A*"
+      }
+    },
+    "03 References/(Trampert, Weber, et al., 2025b).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 363,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.21,
+      "characterCount": 2835,
+      "nonWhitespaceCharacterCount": 2446,
+      "newlineCount": 13,
+      "readingTimeInMinutes": 1.369811320754717,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1765277397429,
+      "modifiedDate": 1765277397431,
+      "sizeInBytes": 2841,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
       }
     }
   }

@@ -256,16 +256,6 @@
 			"label":"web client"
 		},
 		{
-			"id":"f18ddeb37f2ac701",
-			"styleAttributes":{"border":"dashed","textAlign":"center"},
-			"text":"`onClick`",
-			"type":"text",
-			"x":2080,
-			"y":234,
-			"width":160,
-			"height":60
-		},
-		{
 			"id":"7879ed6f817800ac",
 			"styleAttributes":{
 				"border":"invisible",
@@ -291,19 +281,6 @@
 			"y":54,
 			"width":220,
 			"height":90
-		},
-		{
-			"id":"fe4f8f218746450b",
-			"styleAttributes":{
-				"border":null,
-				"textAlign":"center"
-			},
-			"text":"function",
-			"type":"text",
-			"x":2300,
-			"y":234,
-			"width":160,
-			"height":60
 		},
 		{
 			"id":"7652a2d64794cb09",
@@ -368,16 +345,6 @@
 			"height":200
 		},
 		{
-			"id":"a6416b6e99773ab5",
-			"styleAttributes":{"border":"invisible"},
-			"text":"\n```json\n{\n  a: 1,\n  b: true,\n  c: null,\n  d: \"premium\"\n}\n```",
-			"type":"text",
-			"x":1360,
-			"y":144,
-			"width":260,
-			"height":240
-		},
-		{
 			"id":"bdf290524e95bb0c",
 			"styleAttributes":{"textAlign":"center"},
 			"text":"DOM is modified",
@@ -398,14 +365,47 @@
 			"height":230
 		},
 		{
-			"id":"06e253d0caf6fc51",
-			"styleAttributes":{"border":"invisible"},
-			"text":"- Modeling a new type of attack, which exploit a bad design pattern typically used in component-based programming (accurate description of threat model is provided)\n- Compare different web frameworks showing how these frameworks deals with the problem\n- Describe in which circumstances this vulnerability may occur in real web applications (with examples from real cases)\n- Describe the challenges related to the design of a fully automated scanner of minified JS code able to detect this vulnerability",
+			"id":"0df28b3a538c6604",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"text":"`<Component />`",
 			"type":"text",
-			"x":-600,
-			"y":40,
-			"width":740,
-			"height":380
+			"x":1935,
+			"y":-490,
+			"width":170,
+			"height":60
+		},
+		{
+			"id":"f18ddeb37f2ac701",
+			"styleAttributes":{"border":"dashed","textAlign":"center"},
+			"text":"`onClick`",
+			"type":"text",
+			"x":2080,
+			"y":234,
+			"width":160,
+			"height":60
+		},
+		{
+			"id":"fe4f8f218746450b",
+			"styleAttributes":{
+				"border":null,
+				"textAlign":"center"
+			},
+			"text":"function",
+			"type":"text",
+			"x":2300,
+			"y":234,
+			"width":160,
+			"height":60
+		},
+		{
+			"id":"a6416b6e99773ab5",
+			"styleAttributes":{"border":"invisible"},
+			"text":"\n```json\n{\n  a: 1,\n  b: true,\n  c: null,\n  d: \"premium\"\n}\n```",
+			"type":"text",
+			"x":1360,
+			"y":144,
+			"width":260,
+			"height":240
 		},
 		{
 			"id":"de0726bcb83986ca",
@@ -438,16 +438,6 @@
 			"height":60
 		},
 		{
-			"id":"0df28b3a538c6604",
-			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"text":"`<Component />`",
-			"type":"text",
-			"x":1935,
-			"y":-490,
-			"width":170,
-			"height":60
-		},
-		{
 			"id":"747986e57fe0d05c",
 			"styleAttributes":{"border":"invisible"},
 			"text":"list of items (premium or free)",
@@ -476,6 +466,16 @@
 			"y":-520,
 			"width":180,
 			"height":130
+		},
+		{
+			"id":"06e253d0caf6fc51",
+			"styleAttributes":{"border":"invisible"},
+			"text":"- Modeling a new type of attack, which exploit a bad design pattern typically used in component-based programming (accurate description of threat model is provided)\n- Compare different web frameworks showing how these frameworks deals with the problem\n- Describe in which circumstances this vulnerability may occur in real web applications (with examples from real cases)\n- Describe the challenges related to the design of a fully automated scanner of minified JS code able to detect this vulnerability",
+			"type":"text",
+			"x":-600,
+			"y":40,
+			"width":740,
+			"height":380
 		},
 		{
 			"id":"6af2c2d510d52052",
@@ -528,6 +528,51 @@
 			"height":80
 		},
 		{
+			"id":"a50606349d778d86",
+			"styleAttributes":{"border":"invisible"},
+			"text":"Components props can be tampered at run-time",
+			"type":"text",
+			"x":2340,
+			"y":1400,
+			"width":310,
+			"height":81
+		},
+		{
+			"id":"0d60f2ccc6776fd0",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"text":"For example, React DevTool can reconstruct the component tree from the minified JS ",
+			"type":"text",
+			"x":1900,
+			"y":1377,
+			"width":340,
+			"height":127
+		},
+		{
+			"id":"bbaf99635a02d2cb",
+			"styleAttributes":{},
+			"text":"# Comparison of JavaScript web frameworks regarding [[BFT (business flow tampering)]]",
+			"type":"text",
+			"x":5280,
+			"y":1160,
+			"width":960,
+			"height":160
+		},
+		{
+			"id":"9321762a0e5a186c",
+			"styleAttributes":{
+				"textAlign":null
+			},
+			"text":"\n| Framework | DevTool | Component name visible | Props name visible |\n| --------- | ------- | ---------------------- | ------------------ |\n| Vue       | ✅       | ✅                      | ❌                  |\n| React     | ✅       | ❌                      | ❌                  |\n| Angular   | ✅       |                        |                    |\n| Svelte    |         |                        |                    |\n| SolidJS   |         |                        |                    |\n| Qwik      |         |                        |                    |\n",
+			"type":"text",
+			"x":5280,
+			"y":1400,
+			"width":790,
+			"height":380
+		},
+		{
 			"id":"5c30d13e072b2550",
 			"styleAttributes":{},
 			"text":"## Challenges\n- how to taint objects?\n- how to collect candidate functions?",
@@ -567,26 +612,6 @@
 			"y":3233,
 			"width":200,
 			"height":90
-		},
-		{
-			"id":"605a671555cd495b",
-			"styleAttributes":{},
-			"text":"## Benefits\n- easy to implement\n- framework independent",
-			"type":"text",
-			"x":1315,
-			"y":2520,
-			"width":360,
-			"height":200
-		},
-		{
-			"id":"622f16fa0680b556",
-			"styleAttributes":{},
-			"text":"## Limits\n- based on a manual process\n- not scalable\n- minimum input is detailed call stack",
-			"type":"text",
-			"x":1715,
-			"y":2520,
-			"width":420,
-			"height":200
 		},
 		{
 			"id":"d010747870b378b9",
@@ -656,39 +681,6 @@
 			"y":3169,
 			"width":340,
 			"height":222
-		},
-		{
-			"id":"6c62d3c338107474",
-			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"text":"Large scale web application build on web framework (Vue, React, Angular), can be analyzed with browser tools",
-			"type":"text",
-			"x":1435,
-			"y":1360,
-			"width":360,
-			"height":160
-		},
-		{
-			"id":"a50606349d778d86",
-			"styleAttributes":{"border":"invisible"},
-			"text":"Components props can be tampered at run-time",
-			"type":"text",
-			"x":2340,
-			"y":1400,
-			"width":310,
-			"height":81
-		},
-		{
-			"id":"0d60f2ccc6776fd0",
-			"styleAttributes":{
-				"border":"invisible",
-				"textAlign":null
-			},
-			"text":"For example, React DevTool can reconstruct the component tree from the minified JS ",
-			"type":"text",
-			"x":1900,
-			"y":1377,
-			"width":340,
-			"height":127
 		},
 		{
 			"id":"1e2b23927a16ab7e",
@@ -768,6 +760,47 @@
 			"height":90
 		},
 		{
+			"id":"27f4044565654348",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"text":"divergence point in the source code is identified",
+			"type":"text",
+			"x":2255,
+			"y":2290,
+			"width":240,
+			"height":100,
+			"color":"2"
+		},
+		{
+			"id":"605a671555cd495b",
+			"styleAttributes":{},
+			"text":"## Benefits\n- easy to implement\n- framework independent",
+			"type":"text",
+			"x":1315,
+			"y":2520,
+			"width":360,
+			"height":200
+		},
+		{
+			"id":"622f16fa0680b556",
+			"styleAttributes":{},
+			"text":"## Limits\n- based on a manual process\n- not scalable\n- minimum input is detailed call stack",
+			"type":"text",
+			"x":1715,
+			"y":2520,
+			"width":420,
+			"height":200
+		},
+		{
+			"id":"6c62d3c338107474",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"text":"Large scale web application build on web framework (Vue, React, Angular), can be analyzed with browser tools",
+			"type":"text",
+			"x":1435,
+			"y":1360,
+			"width":360,
+			"height":160
+		},
+		{
 			"id":"0847ed8e81fca107",
 			"styleAttributes":{"textAlign":"center"},
 			"text":"DONE ✅",
@@ -809,28 +842,6 @@
 			"height":200
 		},
 		{
-			"id":"bbaf99635a02d2cb",
-			"styleAttributes":{},
-			"text":"# Comparison of JavaScript web frameworks regarding [[BFT (business flow tampering)]]",
-			"type":"text",
-			"x":5280,
-			"y":1160,
-			"width":960,
-			"height":160
-		},
-		{
-			"id":"9321762a0e5a186c",
-			"styleAttributes":{
-				"textAlign":null
-			},
-			"text":"\n| Framework | DevTool | Component name visible | Props name visible |\n| --------- | ------- | ---------------------- | ------------------ |\n| Vue       | ✅       | ✅                      | ❌                  |\n| React     | ✅       | ❌                      | ❌                  |\n| Angular   | ✅       |                        |                    |\n| Svelte    |         |                        |                    |\n| SolidJS   |         |                        |                    |\n| Qwik      |         |                        |                    |\n",
-			"type":"text",
-			"x":5280,
-			"y":1400,
-			"width":790,
-			"height":380
-		},
-		{
 			"id":"53cbe586c9deb113",
 			"styleAttributes":{"border":"invisible"},
 			"text":"This can be automated with `TamperMonkey`",
@@ -839,17 +850,6 @@
 			"y":1400,
 			"width":310,
 			"height":81
-		},
-		{
-			"id":"27f4044565654348",
-			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"text":"divergence point in the source code is identified",
-			"type":"text",
-			"x":2255,
-			"y":2290,
-			"width":240,
-			"height":100,
-			"color":"2"
 		}
 	],
 	"metadata":{
