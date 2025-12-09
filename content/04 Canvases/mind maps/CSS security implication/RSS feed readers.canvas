@@ -1,0 +1,54 @@
+{
+	"nodes":[
+		{
+			"id":"f4c2d45e9bcc4e9f",
+			"type":"text",
+			"text":"An [[RSS feed reader]] is a software or service that allows you to aggregate content from multiple websites into one place. Essentially, instead of visiting dozens of sites to read news or updates, an ==RSS reader automatically collects articles published by the sites you subscribe to, via their RSS (or Atom, a similar format) feeds.==\n- A RSS reader aggregates and parses XML files, serving content to opt-in users ",
+			"styleAttributes":{"border":"invisible"},
+			"x":-440,
+			"y":-120,
+			"width":500,
+			"height":340
+		},
+		{
+			"id":"c7b7124c1d1c5f5c",
+			"type":"text",
+			"text":"# RSS feed reader",
+			"styleAttributes":{
+				"textAlign":null,
+				"border":"invisible"
+			},
+			"x":-440,
+			"y":-200,
+			"width":480,
+			"height":60
+		},
+		{
+			"id":"f994cb6d6fbee1ab",
+			"type":"text",
+			"text":"While modern RSS readers parse the content to avoid [[XSS (cross site scripting)]], it is not clear if scriptless attacks based on modern CSS are mitigated",
+			"styleAttributes":{
+				"textAlign":null
+			},
+			"x":160,
+			"y":180,
+			"width":440,
+			"height":140
+		}
+	],
+	"edges":[
+		{
+			"id":"d9545525ac313dea",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"f4c2d45e9bcc4e9f",
+			"fromSide":"right",
+			"toNode":"f994cb6d6fbee1ab",
+			"toSide":"left"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

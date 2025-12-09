@@ -28932,6 +28932,67 @@
         "nonWhitespaceCharacterCount": 0,
         "newlineCount": 0
       }
+    },
+    "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 97,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.3233333333333333,
+      "characterCount": 592,
+      "nonWhitespaceCharacterCount": 493,
+      "newlineCount": 4,
+      "readingTimeInMinutes": 0.3660377358490566,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1765284895672,
+      "modifiedDate": 1765285445363,
+      "sizeInBytes": 1423,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {}
+    },
+    "01 Notes/RSS feed reader.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 111,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.37,
+      "characterCount": 725,
+      "nonWhitespaceCharacterCount": 599,
+      "newlineCount": 17,
+      "readingTimeInMinutes": 0.4188679245283019,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1765284981963,
+      "modifiedDate": 1765285052842,
+      "sizeInBytes": 779,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-12-09-13:56",
+        "tags": [
+          "#definition"
+        ]
+      }
     }
   }
 }
