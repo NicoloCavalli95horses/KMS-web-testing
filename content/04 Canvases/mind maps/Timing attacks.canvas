@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{
+			"id":"4abbbf6931849046",
+			"type":"text",
+			"text":"A timing attack is a category of side-channel attack in which an attacker *analyzes a system's response times to infer sensitive information.*\n\nThis type of attack uses ==variations in the execution times== of operations to obtain details about internal data\n\nThe victim opens the malicious site (via [[phishing]], infected ads, or other [[social engineering]] methods).\n- The malicious site embeds an ==invisible iframe== with a private page of the victim, such as a social network profile\n- If the victim is logged in, the iframe loads a customized version of the page (with avatar, feed, etc.)\n- If the victim is not logged in, they are redirected to the login page, which has a different layout and loading time. ==Rendering times can be exaggerated by making use of CSS filters==\n- The malicious site measures the time it takes to render the iframe (or uses other techniques such as CSS analysis or fetch errors)\n- ==By comparing the loading times to a reference database==, the attacker can determine whether the victim has an account or is logged in to the site",
+			"styleAttributes":{"border":"invisible"},
+			"x":-420,
+			"y":-300,
+			"width":680,
+			"height":620
+		},
+		{
+			"id":"ac5d95b515199654",
+			"type":"text",
+			"text":"# What can be inferred?",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":580,
+			"y":-300,
+			"width":420,
+			"height":60
+		},
+		{
+			"id":"18c3891207015362",
+			"type":"text",
+			"text":"History sniffing\n-  [[(Sanchez-Rola, Balzarotti, et al., 2020)]]\n- ...\n- ...\n- ...\n\nLogin state:",
+			"styleAttributes":{"border":"invisible"},
+			"x":600,
+			"y":-180,
+			"width":540,
+			"height":500
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}
