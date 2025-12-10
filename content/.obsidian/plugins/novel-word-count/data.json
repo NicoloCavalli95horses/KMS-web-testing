@@ -29028,24 +29028,24 @@
         "tags": "ref"
       }
     },
-    "06 Courses, webinars/Untitled.md": {
+    "06 Courses, webinars/D4 Conference.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 0,
+      "wordCount": 5,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
+      "pageCount": 0.016666666666666666,
+      "characterCount": 27,
+      "nonWhitespaceCharacterCount": 21,
+      "newlineCount": 3,
+      "readingTimeInMinutes": 0.018867924528301886,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1765354059722,
-      "modifiedDate": 1765354059722,
-      "sizeInBytes": 0,
+      "modifiedDate": 1765354228869,
+      "sizeInBytes": 95,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -29053,6 +29053,14 @@
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0,
         "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2025-03-05-11:00",
+        "tags": [
+          "webinar"
+        ],
+        "speaker": [],
+        "abstract": null
       }
     }
   }
