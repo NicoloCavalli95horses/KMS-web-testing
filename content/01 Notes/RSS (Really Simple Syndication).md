@@ -15,7 +15,8 @@ An RSS feed reader is a software or service that allows you to aggregate content
 
 ### Examples of RSS readers
 
-- Feedly
-- Inoreader
-- Thunderbird
-- mobile apps like Reeder
+- https://feedly.com/
+- https://www.inoreader.com/
+- https://newsblur.com/
+- https://feedbin.com/
+- https://miniflux.app/

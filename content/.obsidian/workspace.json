@@ -11,17 +11,15 @@
             "id": "4fb3ff899961a5c1",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
-                "viewState": {
-                  "x": 65.80484578562087,
-                  "y": 125.41643110345275,
-                  "zoom": -0.33031816030933486
-                }
+                "file": "06 Courses, webinars/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "RSS feed readers"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ]
@@ -190,9 +188,10 @@
   },
   "active": "4fb3ff899961a5c1",
   "lastOpenFiles": [
-    "04 Canvases/mind maps/CSS security implication/Data exfiltration.canvas",
     "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
-    "01 Notes/RSS feed reader.md",
+    "06 Courses, webinars/Untitled.md",
+    "01 Notes/RSS (Really Simple Syndication).md",
+    "04 Canvases/mind maps/CSS security implication/Data exfiltration.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
     "04 Canvases/mind maps/CSS security implication/Review.canvas",
@@ -229,7 +228,6 @@
     "02 Literature/papers/SVG (Scalable Vectors Graphics)/Crouching tiger. Hidden payload. security risks of scalable vectors graphics.md",
     "97 Assets/access_to_css_var_gmail.png",
     "97 Assets/bft_img_question.png",
-    "03 References/(Heiderich, Frosch, et al., 2011).md",
     "02 Literature/papers/SVG (Scalable Vectors Graphics)",
     "97 Assets/click_detection_inline_css.png",
     "97 Assets/clickjacking_example.png",
