@@ -11,10 +11,17 @@
             "id": "6c02a83adff464e3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
+                "viewState": {
+                  "x": 686.9324759962062,
+                  "y": 945.299071949069,
+                  "zoom": -0.35894047830795556
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "CSS security implications"
             }
           }
         ]
@@ -183,13 +190,19 @@
   },
   "active": "6c02a83adff464e3",
   "lastOpenFiles": [
-    "06 Courses, webinars/D4 Conference.md",
+    "04 Canvases/mind maps/CSS security implication/Review.canvas",
     "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
+    "04 Canvases/mind maps/cross-domain policies.canvas",
+    "04 Canvases/mind maps/DMRT.canvas",
+    "04 Canvases/mind maps/front end security category.canvas",
+    "04 Canvases/mind maps/taint analysis in the web.canvas",
+    "04 Canvases/mind maps/social engineering techniques.canvas",
+    "04 Canvases/mind maps/props tampering.canvas",
+    "04 Canvases/mind maps/input analysis.canvas",
+    "06 Courses, webinars/D4 Conference.md",
     "01 Notes/RSS (Really Simple Syndication).md",
     "04 Canvases/mind maps/CSS security implication/Data exfiltration.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
-    "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
-    "04 Canvases/mind maps/CSS security implication/Review.canvas",
     "03 References/(Guo, Liu, et al., 2025).md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Protecting browsers from cross-origin CSS attacks.md",
     "03 References/(Huang, Weinberg, et al., 2010).md",
@@ -204,11 +217,6 @@
     "03 References/(Laperdrix, Starov, et al., 2021).md",
     "01 Notes/browser fingerprinting.md",
     "04 Canvases/mind maps/CSS security implication",
-    "04 Canvases/mind maps/taint analysis in the web.canvas",
-    "04 Canvases/mind maps/social engineering techniques.canvas",
-    "04 Canvases/mind maps/props tampering.canvas",
-    "04 Canvases/mind maps/input analysis.canvas",
-    "04 Canvases/mind maps/ideas.canvas",
     "03 References/(Trampert, Stock, et al., 2023).md",
     "02 Literature/papers/history sniffing/Interactive History Sniffing with Dynamically-Generated QR Codes and CSS Difference Blending.md",
     "02 Literature/papers/history sniffing/Browser history revisited.md",

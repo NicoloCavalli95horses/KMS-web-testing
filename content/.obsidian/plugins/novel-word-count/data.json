@@ -11058,11 +11058,11 @@
       "nonWhitespaceCharacterCount": 3039,
       "newlineCount": 94,
       "readingTimeInMinutes": 1.9169811320754717,
-      "linkCount": 0,
-      "embedCount": 0,
+      "linkCount": 3,
+      "embedCount": 1,
       "aliases": null,
       "createdDate": 1754291310687,
-      "modifiedDate": 1765276432817,
+      "modifiedDate": 1765461736033,
       "sizeInBytes": 19385,
       "sessionStart": {
         "noteCount": 1,
@@ -11071,7 +11071,8 @@
         "characterCount": 3968,
         "nonWhitespaceCharacterCount": 3039,
         "newlineCount": 94
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/front end security category.canvas": {
       "isCountable": true,
@@ -11293,20 +11294,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 172,
+      "wordCount": 178,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.5733333333333334,
-      "characterCount": 1345,
-      "nonWhitespaceCharacterCount": 1151,
-      "newlineCount": 24,
-      "readingTimeInMinutes": 0.6490566037735849,
-      "linkCount": 0,
+      "pageCount": 0.5933333333333334,
+      "characterCount": 1388,
+      "nonWhitespaceCharacterCount": 1187,
+      "newlineCount": 25,
+      "readingTimeInMinutes": 0.6716981132075471,
+      "linkCount": 4,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1763732665221,
-      "modifiedDate": 1765278512381,
-      "sizeInBytes": 4590,
+      "modifiedDate": 1765461837048,
+      "sizeInBytes": 4634,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.5733333333333334,
@@ -11314,7 +11315,8 @@
         "characterCount": 1345,
         "nonWhitespaceCharacterCount": 1151,
         "newlineCount": 24
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/DMRT.canvas": {
       "isCountable": true,

@@ -109,12 +109,12 @@
 		{
 			"id":"d418baac4eed043e",
 			"type":"text",
-			"text":"- [[XSS (cross site scripting)]]\n- [[RPO (Relative Path Overwrite)]]\n- emails\n",
+			"text":"- [[XSS (cross site scripting)]]\n- [[RPO (Relative Path Overwrite)]]\n- web email clients\n- RSS readers (XML aggregators)\n",
 			"styleAttributes":{"border":"invisible"},
 			"x":735,
 			"y":940,
 			"width":365,
-			"height":120
+			"height":160
 		}
 	],
 	"edges":[
