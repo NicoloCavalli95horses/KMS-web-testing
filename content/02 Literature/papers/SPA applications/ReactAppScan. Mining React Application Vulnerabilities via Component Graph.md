@@ -31,7 +31,7 @@ Finding XSS in React is not simple. A simplified scenario is derived from CVE-20
 
 There are three main research challenges in detecting this XSS vulnerability in React:
 - there are more than one data flow to monitor
-- the vulnerability appears only when `dangerouslySetInnerHTML` is invoked ([[static analysis]] cannot be applied)
+- the vulnerability appears only when `dangerouslySetInnerHTML` is invoked
 - client-server communication is involved, i.e. only with certain data retrieved via fetch we have a real vulnerability, and we need to distinguish between attacker-controlled server (stored XSS) and independent server behavior (i.e, a fixed constant response)
 - the same keyword (eg., `content`) has a very different meaning during the flow (in the scenario, content is used both for DB reading and writing)
 
@@ -43,7 +43,19 @@ The proposed CoG is complementary to and can be combined with existing program a
 
 **Threat model**
 - The adversary attacks the server of the vulnerable React application by sending a malicious request, which could be saved into the databased and served to a victim client (stored XSS)
-- 
+- The adversary trick the victim into clicking on a malicious URL which contains attacker-controlled parameters, that will be reflected on the web client as soon as the victim clicks (reflected XSS)
+- The adversary could sends a malicious message via `postMessage` to attack the React website opened in another tab. This could lead to improper authorization and trigger another reflected XSS
+
+
+> [!NOTE] How does ReactAppScan work
+> ReactAppScan ==takes the source code of a React package or application as input==and ==outputs detected vulnerabilities==. The high-level idea is that ReactAppScan follows the rendering process of native React on an application to **abstractly interpret its code and to build a CoG**, ==which can be queried== for vulnerability detection. The process is technically an advanced [[static analysis]] called **abstract interpretation**
+
+**Approach**
+- First, in the ==mounting== phase, ReactAppScan builds an initial CoG based on the static JSX file. Specifically, ReactAppScan starts from the entry points of the Abstract Syntax Tree (AST) and **abstractly interprets** each AST node with modeled React.js APIs and client-side APIs to generate this CoG. ReactAppScan also queues asynchronous callbacks for preparation of the next phase.
+- Second, in the ==updating== phase, ReactAppScan processes asynchronous callbacks and hooks/lifecycle methods, and then updates the CoG based on prop and state updates by abstractly interpreting the render method of the component that needs to be updated
+- Third, in the ==unmounting== phase, ReactAppScan looks up clean-up functions or unmount methods to simulate the unmounting process
+- In the end, after three phases, ReactAppScan ==queries== the graph for an unsanitized path between an adversary-controlled source and a vulnerability-specific sink to detect vulnerabilities.
+
 ## Evaluation
 
 
