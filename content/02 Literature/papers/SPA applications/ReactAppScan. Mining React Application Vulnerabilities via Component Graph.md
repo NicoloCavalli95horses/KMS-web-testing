@@ -13,7 +13,9 @@ Project:
 ---
 ## Context
 
-React uses a syntax extension to JavaScript, called JSX (JavaScript and XML), which embeds HTML snippets as part of JavaScript and models them as components, thus reducing web developers’ efforts in maintaining and synchronizing state. While React has revolutionized web application design, React applications—just like traditional web applications—may still be vulnerable to classic vulnerabilities such as [[XSS (cross site scripting)]].
+React uses a syntax extension to JavaScript, called JSX (JavaScript and XML), which embeds HTML snippets as part of JavaScript and models them as components, thus reducing web developers’ efforts in maintaining and synchronizing state. 
+
+While React has revolutionized web application design, React applications—just like traditional web applications—may still be vulnerable to classic vulnerabilities such as [[XSS (cross site scripting)]].
 - However, many state-of-the-art works on web application vulnerability detection, such as FAST and ODGen, cannot detect React application vulnerabilities because 1) they do not support JSX 2) they cannot scale to JavaScript code that is transpiled from simple JSX due to state explosion
 - CodeQL is a commercial tool that support JSX and that has been used to find vulnerabilities in React applications. However, CodeQL does not fully support the complex react data flow, failing to understand  props and state in different components. Consequently, many false negatives are reported by the tool
 
@@ -22,6 +24,8 @@ In this paper, we design a framework, called ReactAppScan, to mine React applica
 Our key idea is to ==represent React components, together with props and state, in a graph== so that one object instance — no matter as props or state of different components—has ==only one node representation but multiple edges from different props or state in the graph==.
 
 **ReactAppScan** ==queries the graph for paths between sources== (e.g., HTTP requests) and ==vulnerability-specific sinks== (e.g., `dangerouslySetInnerHTML`) to detect vulnerabilities.
+
+The tool performs advanced [[static analysis]] in the form of abstract interpretation
 
 ## Approach
 
@@ -55,15 +59,6 @@ The proposed CoG is complementary to and can be combined with existing program a
 - Second, in the ==updating== phase, ReactAppScan processes asynchronous callbacks and hooks/lifecycle methods, and then updates the CoG based on prop and state updates by abstractly interpreting the render method of the component that needs to be updated
 - Third, in the ==unmounting== phase, ReactAppScan looks up clean-up functions or unmount methods to simulate the unmounting process
 - In the end, after three phases, ReactAppScan ==queries== the graph for an unsanitized path between an adversary-controlled source and a vulnerability-specific sink to detect vulnerabilities.
-
-## Evaluation
-
-
-## Results
-
-
-## Limits
-
 
 ---
 #### References
