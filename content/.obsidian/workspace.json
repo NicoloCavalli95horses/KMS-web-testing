@@ -4,24 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d2a62f03088abc2f",
+        "id": "8079f8c5ec60cc8a",
         "type": "tabs",
         "children": [
           {
-            "id": "6c02a83adff464e3",
+            "id": "ebe586b2cff77719",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
-                "viewState": {
-                  "x": 150,
-                  "y": 110,
-                  "zoom": -0.07763206777253631
-                }
+                "file": "02 Literature/papers/SPA applications/ReactAppScan. Mining React Application Vulnerabilities via Component Graph.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "RSS feed readers"
+              "icon": "lucide-file",
+              "title": "ReactAppScan. Mining React Application Vulnerabilities via Component Graph"
             }
           }
         ]
@@ -188,11 +186,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6c02a83adff464e3",
+  "active": "ebe586b2cff77719",
   "lastOpenFiles": [
+    "02 Literature/papers/SPA applications/ReactAppScan. Mining React Application Vulnerabilities via Component Graph.md",
+    "03 References/(Guo, Kang, et al., 2024).md",
+    "02 Literature/papers/SPA applications",
+    "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
     "04 Canvases/mind maps/CSS security implication/Review.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
-    "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
     "04 Canvases/mind maps/cross-domain policies.canvas",
     "04 Canvases/mind maps/DMRT.canvas",
     "04 Canvases/mind maps/front end security category.canvas",
@@ -202,7 +203,6 @@
     "04 Canvases/mind maps/input analysis.canvas",
     "06 Courses, webinars/D4 Conference.md",
     "01 Notes/RSS (Really Simple Syndication).md",
-    "04 Canvases/mind maps/CSS security implication/Data exfiltration.canvas",
     "03 References/(Guo, Liu, et al., 2025).md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Protecting browsers from cross-origin CSS attacks.md",
     "03 References/(Huang, Weinberg, et al., 2010).md",
@@ -228,7 +228,6 @@
     "01 Notes/timing attack.md",
     "04 Canvases/mind maps/CSS security implication SMS.md",
     "02 Literature/papers/software models/Automatically inferring user behavior models in large-scale web applications.md",
-    "02 Literature/papers/SVG (Scalable Vectors Graphics)/Crouching tiger. Hidden payload. security risks of scalable vectors graphics.md",
     "97 Assets/access_to_css_var_gmail.png",
     "97 Assets/bft_img_question.png",
     "02 Literature/papers/SVG (Scalable Vectors Graphics)",
@@ -241,7 +240,6 @@
     "00 Antilibrary/Untitled 3.base",
     "00 Antilibrary/Untitled 2.base",
     "00 Antilibrary/Untitled 1.base",
-    "96 Meta/Lectures",
     "97 Assets/guidelines_se_ermsei.png",
     "97 Assets/sms_map_chart.png",
     "97 Assets/slr_map.png",
