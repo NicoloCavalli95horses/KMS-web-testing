@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f070284b7e52faa6",
+        "id": "161659d71f593a1b",
         "type": "tabs",
         "children": [
           {
-            "id": "e24fc04ad6854816",
+            "id": "7a5fb2bf8cc28ea6",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -181,15 +181,22 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e24fc04ad6854816",
+  "active": "7a5fb2bf8cc28ea6",
   "lastOpenFiles": [
+    "96 Meta/PhD status.md",
+    "index.md",
+    "06 Courses, webinars/Cybersecurity in the age of LLMs.md",
+    "06 Courses, webinars/FLE French Course/French Course 05-13-2025.md",
+    "06 Courses, webinars/FLE French Course/French Course 04-08-2025.md",
+    "06 Courses, webinars/FLE French Course/French Course 04-01-2025.md",
+    "06 Courses, webinars/FLE French Course/French Course 03-18-2025.md",
+    "06 Courses, webinars/FLE French Course/French Course 03-11-2025.md",
     "02 Literature/papers/BAC (Broken Access Control)/Uncovering and Exploiting Hidden APIs in Mobile Super Apps.md",
     "02 Literature/papers/BAC (Broken Access Control)/Least Privilege Access for Persistent Storage Mechanisms in Web Browsers.md",
     "02 Literature/papers/BAC (Broken Access Control)/Cached and confused. web cache deception in the wild.md",
     "02 Literature/papers/BAC (Broken Access Control)/Automated broken object-level authorization attack detection in REST APIs through Open API to colored petri nets transformation.md",
     "02 Literature/papers/BAC (Broken Access Control)/A Systematic Literature Review on the Characteristics and Effectiveness of Web Application Vulnerability Scanners.md",
     "96 Meta/Empirical Study/Large-scale analysis on Tranco Top 250k.md",
-    "96 Meta/PhD status.md",
     "02 Literature/papers/SPA applications/ReactAppScan. Mining React Application Vulnerabilities via Component Graph.md",
     "01 Notes/AST (Abstract Syntax Tree).md",
     "03 References/(Guo, Kang, et al., 2024).md",
@@ -213,15 +220,8 @@
     "02 Literature/papers/CSS (Cascading Style Sheets)/Styled to Steal. The Overlooked Attack Surface in Email Clients.md",
     "03 References/(Trampert, Weber, et al., 2025b).md",
     "03 References/(Trampert, Weber, et al., 2025a).md",
-    "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
-    "02 Literature/papers/browser fingerprinting/Fingerprinting in style. Detecting browser extensions via injected style sheets.md",
-    "02 Literature/papers/browser fingerprinting/Cascading Spy Sheets. Exploiting the Complexity of Modern CSS for Email and Browser Fingerprinting.md",
     "02 Literature/papers/browser fingerprinting",
-    "03 References/(Laperdrix, Starov, et al., 2021).md",
-    "01 Notes/browser fingerprinting.md",
     "04 Canvases/mind maps/CSS security implication",
-    "03 References/(Trampert, Stock, et al., 2023).md",
-    "02 Literature/papers/history sniffing/Interactive History Sniffing with Dynamically-Generated QR Codes and CSS Difference Blending.md",
     "02 Literature/papers/history sniffing",
     "97 Assets/access_to_css_var_gmail.png",
     "97 Assets/bft_img_question.png",
