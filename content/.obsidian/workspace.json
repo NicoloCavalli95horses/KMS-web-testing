@@ -11,10 +11,15 @@
             "id": "7a5fb2bf8cc28ea6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature/papers/BAC (Broken Access Control)/403 Forbidden. Ethically Evaluating Broken Access Control in the Wild.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "403 Forbidden. Ethically Evaluating Broken Access Control in the Wild"
             }
           }
         ]
@@ -74,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 326.5026054382324
+    "width": 233.50260543823242
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -183,6 +188,9 @@
   },
   "active": "7a5fb2bf8cc28ea6",
   "lastOpenFiles": [
+    "02 Literature/papers/parameter tampering/Automating the Detection of Access Control Vulnerabilities in Web Applications.md",
+    "02 Literature/papers/BAC (Broken Access Control)/403 Forbidden. Ethically Evaluating Broken Access Control in the Wild.md",
+    "03 References/(Chehade, Hantke, et al., 2025).md",
     "96 Meta/PhD status.md",
     "index.md",
     "06 Courses, webinars/Cybersecurity in the age of LLMs.md",
@@ -217,9 +225,6 @@
     "02 Literature/papers/CSS (Cascading Style Sheets)/Protecting browsers from cross-origin CSS attacks.md",
     "03 References/(Huang, Weinberg, et al., 2010).md",
     "03 References/(Heiderich, Niemietz, et al., 2012).md",
-    "02 Literature/papers/CSS (Cascading Style Sheets)/Styled to Steal. The Overlooked Attack Surface in Email Clients.md",
-    "03 References/(Trampert, Weber, et al., 2025b).md",
-    "03 References/(Trampert, Weber, et al., 2025a).md",
     "02 Literature/papers/browser fingerprinting",
     "04 Canvases/mind maps/CSS security implication",
     "02 Literature/papers/history sniffing",
