@@ -4,6 +4,7 @@ tags:
   - paper
   - BAC
   - authorization
+  - webApplication
 Rank: A*
 ---
 ## Context
@@ -32,15 +33,32 @@ The attacker has their own account and abuses AC policies to gain access to or m
 - We introduce an automated pipeline to match request pairs and extract AC parameters (user credentials, resource identifiers, etc.)
 - The VSF then constructs probing requests by only swapping the resource identifiers between requests while keeping the same user credentials
 
+The researcher controls one browser, labeled leader, and navigates the website with the first user account. A second browser, labeled follower, automatically mirrors each interaction (clicking, filling inputs, navigating URLs) produced by the leader, but with the second user account logged in. Both the account have the same level of privilege.
 
 ## Evaluation
 
+The vulnerabilities are manually confirmed by inspecting the GUI. Automated match of responses body was done when applicable (no POST requests)
 
 ## Results
 
+Our exploit analysis concludes that 19 out of 30 BACs found are exploitable vulnerabilities with tangible harms:
+- leaking private user information
+- partial credential hijacking
+- user resource manipulations
+
+The variance in how it reports forbidden access varies widely between sites, making it harder to automate the analysis, e.g., returning a 200 code response but containing an error JSON object in the body.
 
 ## Limits
 
+- manual creation of accounts in websites
+- manual intervention is justified with ethical reasons
+- only horizontal BACs are addressed
+- manually crafted allowlist and blocklist of parameter names and values to be used in the swapping phase to generate endpoints
+- manual candidate validation
+- the mirroring idea is interesting but if the GUI differs from the two accounts the *follower* account cannot perform the same actions of the *leader*
+- unexplored interactions due to manual effort and ethical reasons
+- VSF scaling limits
+- VSF does not handle vertical escalation: all the users have the same role
 
 ---
 #### References

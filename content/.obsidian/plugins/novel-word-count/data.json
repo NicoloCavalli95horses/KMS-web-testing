@@ -29133,20 +29133,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 229,
+      "wordCount": 551,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.7633333333333333,
-      "characterCount": 1579,
-      "nonWhitespaceCharacterCount": 1322,
-      "newlineCount": 36,
-      "readingTimeInMinutes": 0.8641509433962264,
+      "pageCount": 1.8366666666666667,
+      "characterCount": 3744,
+      "nonWhitespaceCharacterCount": 3146,
+      "newlineCount": 58,
+      "readingTimeInMinutes": 2.079245283018868,
       "linkCount": 1,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1767771580767,
-      "modifiedDate": 1767774117048,
-      "sizeInBytes": 1668,
+      "modifiedDate": 1767777378823,
+      "sizeInBytes": 3852,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -29160,7 +29160,8 @@
         "tags": [
           "paper",
           "BAC",
-          "authorization"
+          "authorization",
+          "webApplication"
         ],
         "Rank": "A*"
       }
