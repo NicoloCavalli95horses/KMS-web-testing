@@ -87,34 +87,14 @@
 			"height":60
 		},
 		{
-			"id":"03e8dd8c05f358d1",
-			"type":"text",
-			"text":"## Input\n- URL of the page under test\n- accepted endpoint",
-			"styleAttributes":{},
-			"x":100,
-			"y":540,
-			"width":480,
-			"height":160
-		},
-		{
-			"id":"1330b7873d471720",
-			"type":"text",
-			"text":"## Output\n- endpoint candidates (possibly validated)",
-			"styleAttributes":{},
-			"x":100,
-			"y":1400,
-			"width":480,
-			"height":160
-		},
-		{
 			"id":"1beed20dc5ba8006",
 			"type":"text",
-			"text":"## Endpoint analysis\n- structure is saved (how many parts, lengths, etc)\n\n## Target component identification\n- component tree is traversed, each component is parsed\n- target component is found (=match with the first part of the endpoint)\n\n## Endpoint mapping\n- each part of the endpoint is mapped to component's props\n- neighbors have priority: the search jumps from parent to child components if other parts of the endpoint are not found in the same component\n## ",
-			"styleAttributes":{},
-			"x":-130,
-			"y":780,
-			"width":940,
-			"height":520
+			"text":"# Input\n- URL of the page under test\n- accepted endpoint\n## Endpoint analysis\n- structure is saved (how many parts, lengths, etc)\n\n## Target component identification\n- component tree is traversed, each component is parsed\n- target component is found (=match with the first part of the endpoint)\n\n## Endpoint mapping\n- each part of the endpoint is mapped to component's props\n- neighbors have priority: the search jumps from parent to child components if other parts of the endpoint are not found in the same component\n# Output\nEndpoint candidates",
+			"styleAttributes":{"border":"invisible"},
+			"x":-200,
+			"y":400,
+			"width":810,
+			"height":820
 		}
 	],
 	"edges":[],
