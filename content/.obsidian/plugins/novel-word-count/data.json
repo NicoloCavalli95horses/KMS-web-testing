@@ -2315,33 +2315,6 @@
         "newlineCount": 0
       }
     },
-    "97 Assets/bugs_in_games.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565179,
-      "modifiedDate": 1767798565187,
-      "sizeInBytes": 3176609,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "97 Assets/bottom_up_top_down_testing_comparison.png": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -2360,6 +2333,33 @@
       "createdDate": 1767798565178,
       "modifiedDate": 1767798565179,
       "sizeInBytes": 123921,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "97 Assets/bugs_in_games.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565179,
+      "modifiedDate": 1767798565187,
+      "sizeInBytes": 3176609,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -4152,7 +4152,8 @@
         "characterCount": 309,
         "nonWhitespaceCharacterCount": 267,
         "newlineCount": 26
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas": {
       "isCountable": true,
@@ -4194,20 +4195,19 @@
       "newlineCount": 23,
       "readingTimeInMinutes": 0.36981132075471695,
       "linkCount": 0,
-      "embedCount": 1,
+      "embedCount": 0,
       "aliases": null,
       "createdDate": 1767798565170,
       "modifiedDate": 1767872868423,
       "sizeInBytes": 2798,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.056666666666666664,
-        "wordCount": 17,
-        "characterCount": 388,
-        "nonWhitespaceCharacterCount": 368,
-        "newlineCount": 8
-      },
-      "frontmatter": {}
+        "pageCount": 0.32666666666666666,
+        "wordCount": 98,
+        "characterCount": 935,
+        "nonWhitespaceCharacterCount": 820,
+        "newlineCount": 23
+      }
     },
     "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas": {
       "isCountable": true,
@@ -4371,33 +4371,6 @@
         "newlineCount": 132
       }
     },
-    "04 Canvases/meetings/2025_11_18.canvas": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 485,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 1.6166666666666667,
-      "characterCount": 3416,
-      "nonWhitespaceCharacterCount": 2888,
-      "newlineCount": 50,
-      "readingTimeInMinutes": 1.830188679245283,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1767798565169,
-      "modifiedDate": 1767798565169,
-      "sizeInBytes": 8552,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 1.6166666666666667,
-        "wordCount": 485,
-        "characterCount": 3416,
-        "nonWhitespaceCharacterCount": 2888,
-        "newlineCount": 50
-      }
-    },
     "04 Canvases/meetings/2025_09_17.canvas": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -4423,6 +4396,33 @@
         "characterCount": 609,
         "nonWhitespaceCharacterCount": 486,
         "newlineCount": 20
+      }
+    },
+    "04 Canvases/meetings/2025_11_18.canvas": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 485,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.6166666666666667,
+      "characterCount": 3416,
+      "nonWhitespaceCharacterCount": 2888,
+      "newlineCount": 50,
+      "readingTimeInMinutes": 1.830188679245283,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1767798565169,
+      "modifiedDate": 1767798565169,
+      "sizeInBytes": 8552,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 1.6166666666666667,
+        "wordCount": 485,
+        "characterCount": 3416,
+        "nonWhitespaceCharacterCount": 2888,
+        "newlineCount": 50
       }
     },
     "04 Canvases/meetings/2025_07_10.canvas": {
@@ -4830,33 +4830,6 @@
         "newlineCount": 82
       }
     },
-    "04 Canvases/meetings/2025_02_12.canvas": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 268,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.8933333333333333,
-      "characterCount": 1905,
-      "nonWhitespaceCharacterCount": 1621,
-      "newlineCount": 30,
-      "readingTimeInMinutes": 1.0113207547169811,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1767798565169,
-      "modifiedDate": 1767798565169,
-      "sizeInBytes": 10811,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.8933333333333333,
-        "wordCount": 268,
-        "characterCount": 1905,
-        "nonWhitespaceCharacterCount": 1621,
-        "newlineCount": 30
-      }
-    },
     "04 Canvases/meetings/2025_02_06.canvas": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -4882,6 +4855,33 @@
         "characterCount": 2003,
         "nonWhitespaceCharacterCount": 1701,
         "newlineCount": 41
+      }
+    },
+    "04 Canvases/meetings/2025_02_12.canvas": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 268,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.8933333333333333,
+      "characterCount": 1905,
+      "nonWhitespaceCharacterCount": 1621,
+      "newlineCount": 30,
+      "readingTimeInMinutes": 1.0113207547169811,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1767798565169,
+      "modifiedDate": 1767798565169,
+      "sizeInBytes": 10811,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.8933333333333333,
+        "wordCount": 268,
+        "characterCount": 1905,
+        "nonWhitespaceCharacterCount": 1621,
+        "newlineCount": 30
       }
     },
     "03 References/(Zhu, 2021).md": {
@@ -9611,39 +9611,6 @@
         ]
       }
     },
-    "03 References/(Dilavrec, Khelladi, Blouin, et al., 2021).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 51,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.17,
-      "characterCount": 601,
-      "nonWhitespaceCharacterCount": 539,
-      "newlineCount": 14,
-      "readingTimeInMinutes": 0.19245283018867926,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1767798565166,
-      "modifiedDate": 1767798565166,
-      "sizeInBytes": 645,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.17,
-        "wordCount": 51,
-        "characterCount": 601,
-        "nonWhitespaceCharacterCount": 539,
-        "newlineCount": 14
-      },
-      "frontmatter": {
-        "ID": "2024-07-28-18:15",
-        "tags": [
-          "ref"
-        ]
-      }
-    },
     "03 References/(Deepa, Thilagam, et al., 2018).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -9675,6 +9642,39 @@
         "tags": "ref",
         "Project": [
           "SLR"
+        ]
+      }
+    },
+    "03 References/(Dilavrec, Khelladi, Blouin, et al., 2021).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 51,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.17,
+      "characterCount": 601,
+      "nonWhitespaceCharacterCount": 539,
+      "newlineCount": 14,
+      "readingTimeInMinutes": 0.19245283018867926,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1767798565166,
+      "modifiedDate": 1767798565166,
+      "sizeInBytes": 645,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.17,
+        "wordCount": 51,
+        "characterCount": 601,
+        "nonWhitespaceCharacterCount": 539,
+        "newlineCount": 14
+      },
+      "frontmatter": {
+        "ID": "2024-07-28-18:15",
+        "tags": [
+          "ref"
         ]
       }
     },
@@ -14675,45 +14675,6 @@
         ]
       }
     },
-    "02 Literature/papers/clickjacking/ProClick. a framework for testing clickjacking attacks in web applications.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 247,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.8233333333333334,
-      "characterCount": 1719,
-      "nonWhitespaceCharacterCount": 1450,
-      "newlineCount": 28,
-      "readingTimeInMinutes": 0.9320754716981132,
-      "linkCount": 2,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1767798565163,
-      "modifiedDate": 1767798565163,
-      "sizeInBytes": 1828,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.8233333333333334,
-        "wordCount": 247,
-        "characterCount": 1719,
-        "nonWhitespaceCharacterCount": 1450,
-        "newlineCount": 28
-      },
-      "frontmatter": {
-        "ID": "2025-04-30T16:54:43.141Z",
-        "tags": [
-          "paper",
-          "projectSLR",
-          "clickjacking"
-        ],
-        "Rank": "C",
-        "Project": [
-          "SLR"
-        ]
-      }
-    },
     "02 Literature/papers/clickjacking/Frametrapping the framebusting defence.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -14748,6 +14709,45 @@
           "clickjacking"
         ],
         "Rank": "N/A",
+        "Project": [
+          "SLR"
+        ]
+      }
+    },
+    "02 Literature/papers/clickjacking/ProClick. a framework for testing clickjacking attacks in web applications.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 247,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.8233333333333334,
+      "characterCount": 1719,
+      "nonWhitespaceCharacterCount": 1450,
+      "newlineCount": 28,
+      "readingTimeInMinutes": 0.9320754716981132,
+      "linkCount": 2,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1767798565163,
+      "modifiedDate": 1767798565163,
+      "sizeInBytes": 1828,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.8233333333333334,
+        "wordCount": 247,
+        "characterCount": 1719,
+        "nonWhitespaceCharacterCount": 1450,
+        "newlineCount": 28
+      },
+      "frontmatter": {
+        "ID": "2025-04-30T16:54:43.141Z",
+        "tags": [
+          "paper",
+          "projectSLR",
+          "clickjacking"
+        ],
+        "Rank": "C",
         "Project": [
           "SLR"
         ]
@@ -15849,6 +15849,40 @@
         ]
       }
     },
+    "02 Literature/papers/SQLIA (SQL Injection Attack)/Minimization of SQL injection in scheduling application development.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 145,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.48333333333333334,
+      "characterCount": 1000,
+      "nonWhitespaceCharacterCount": 836,
+      "newlineCount": 24,
+      "readingTimeInMinutes": 0.5471698113207547,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1767798565162,
+      "modifiedDate": 1767798565162,
+      "sizeInBytes": 1062,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.48333333333333334,
+        "wordCount": 145,
+        "characterCount": 1000,
+        "nonWhitespaceCharacterCount": 836,
+        "newlineCount": 24
+      },
+      "frontmatter": {
+        "ID": "2025-03-27T08:04:57.716Z",
+        "tags": [
+          "paper",
+          "SQLIA"
+        ]
+      }
+    },
     "02 Literature/papers/SQLIA (SQL Injection Attack)/SENTINEL. securing database from logic flaws in web applications.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -15886,40 +15920,6 @@
         "Rank": "N/A",
         "Project": [
           "SLR"
-        ]
-      }
-    },
-    "02 Literature/papers/SQLIA (SQL Injection Attack)/Minimization of SQL injection in scheduling application development.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 145,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.48333333333333334,
-      "characterCount": 1000,
-      "nonWhitespaceCharacterCount": 836,
-      "newlineCount": 24,
-      "readingTimeInMinutes": 0.5471698113207547,
-      "linkCount": 6,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1767798565162,
-      "modifiedDate": 1767798565162,
-      "sizeInBytes": 1062,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.48333333333333334,
-        "wordCount": 145,
-        "characterCount": 1000,
-        "nonWhitespaceCharacterCount": 836,
-        "newlineCount": 24
-      },
-      "frontmatter": {
-        "ID": "2025-03-27T08:04:57.716Z",
-        "tags": [
-          "paper",
-          "SQLIA"
         ]
       }
     },
@@ -20855,6 +20855,41 @@
         ]
       }
     },
+    "01 Notes/error guessing.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 64,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.21333333333333335,
+      "characterCount": 466,
+      "nonWhitespaceCharacterCount": 397,
+      "newlineCount": 8,
+      "readingTimeInMinutes": 0.24150943396226415,
+      "linkCount": 4,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1767798565158,
+      "modifiedDate": 1767798565158,
+      "sizeInBytes": 553,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.21333333333333335,
+        "wordCount": 64,
+        "characterCount": 466,
+        "nonWhitespaceCharacterCount": 397,
+        "newlineCount": 8
+      },
+      "frontmatter": {
+        "ID": "2024-12-30-16:36",
+        "tags": [
+          "#definition",
+          "testingTechniques",
+          "blackBox"
+        ]
+      }
+    },
     "01 Notes/event models comparison.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -20920,41 +20955,6 @@
         "ID": "2024-07-27-11:36",
         "tags": [
           "definition"
-        ]
-      }
-    },
-    "01 Notes/error guessing.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 64,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.21333333333333335,
-      "characterCount": 466,
-      "nonWhitespaceCharacterCount": 397,
-      "newlineCount": 8,
-      "readingTimeInMinutes": 0.24150943396226415,
-      "linkCount": 4,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1767798565158,
-      "modifiedDate": 1767798565158,
-      "sizeInBytes": 553,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.21333333333333335,
-        "wordCount": 64,
-        "characterCount": 466,
-        "nonWhitespaceCharacterCount": 397,
-        "newlineCount": 8
-      },
-      "frontmatter": {
-        "ID": "2024-12-30-16:36",
-        "tags": [
-          "#definition",
-          "testingTechniques",
-          "blackBox"
         ]
       }
     },
@@ -29170,6 +29170,70 @@
         "tags": [
           "#definition"
         ]
+      }
+    },
+    "03 References/(Chen, Li, et al., 2025).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 57,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.19,
+      "characterCount": 520,
+      "nonWhitespaceCharacterCount": 444,
+      "newlineCount": 13,
+      "readingTimeInMinutes": 0.21509433962264152,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1767877308519,
+      "modifiedDate": 1767877308520,
+      "sizeInBytes": 520,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "02 Literature/papers/BAC (Broken Access Control)/Understanding the security risks of websites using cloud storage for direct user file uploads.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 452,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.5066666666666666,
+      "characterCount": 3077,
+      "nonWhitespaceCharacterCount": 2578,
+      "newlineCount": 59,
+      "readingTimeInMinutes": 1.7056603773584906,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1767877308535,
+      "modifiedDate": 1767878890399,
+      "sizeInBytes": 3188,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {
+        "ID": "2026-01-08T13:01:48.519Z",
+        "tags": [
+          "paper",
+          "BAC",
+          "cloudSecurity",
+          "webApplication"
+        ],
+        "Rank": "N/A"
       }
     }
   }

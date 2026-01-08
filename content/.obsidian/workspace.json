@@ -4,24 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ccabb5682bf0e6b2",
+        "id": "d580ab999dce4b2b",
         "type": "tabs",
         "children": [
           {
-            "id": "b39aab143501058b",
+            "id": "4978d152ee07a3ac",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/mind maps/IDOR scanner in SPA/case description.canvas",
-                "viewState": {
-                  "x": 520,
-                  "y": 570.949152542373,
-                  "zoom": -0.28728195208047136
-                }
+                "file": "02 Literature/papers/BAC (Broken Access Control)/Understanding the security risks of websites using cloud storage for direct user file uploads.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "case description"
+              "icon": "lucide-file",
+              "title": "Understanding the security risks of websites using cloud storage for direct user file uploads"
             }
           }
         ]
@@ -188,8 +186,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b39aab143501058b",
+  "active": "4978d152ee07a3ac",
   "lastOpenFiles": [
+    "02 Literature/papers/BAC (Broken Access Control)/Understanding the security risks of websites using cloud storage for direct user file uploads.md",
+    "03 References/(Chen, Li, et al., 2025).md",
     "04 Canvases/mind maps/IDOR scanner in SPA/case description.canvas",
     "97 Assets/idor_spa_case_description.png",
     "04 Canvases/mind maps/taint analysis in the web.canvas",
@@ -227,7 +227,6 @@
     "06 Courses, webinars/D4 Conference.md",
     "01 Notes/RSS (Really Simple Syndication).md",
     "03 References/(Guo, Liu, et al., 2025).md",
-    "02 Literature/papers/CSS (Cascading Style Sheets)/Protecting browsers from cross-origin CSS attacks.md",
     "02 Literature/papers/browser fingerprinting",
     "04 Canvases/mind maps/CSS security implication",
     "02 Literature/papers/history sniffing",
