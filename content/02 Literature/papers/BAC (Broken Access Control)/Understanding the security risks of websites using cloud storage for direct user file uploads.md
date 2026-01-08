@@ -30,6 +30,15 @@ During this process, there are many things that can go wrong
 - Improper setting of the ==upload credential or the policy may cause privilege escalation vulnerabilities.== For instance, adversaries may exploit these vulnerabilities to steal or modify other users’ files in cloud storage services
 - if the web server or cloud storage service does not provide a secure synchronization information verification mechanism, the authenticity of the callback notification cannot be guaranteed. An attacker can forge or tamper with callback notifications to trick the web server
 
+## Approach
+
+- [[static analysis]]: analyse upload credentials for security risks like expiration time, file restrictions and storage path control
+- dynamic probing: modify upload requests to test credential issuance, usage limits, file overwriting risks, access control, callback security
+
+We create two users (attacker vs regular user) for each of the 28 websites
+We tested the websites for the above-mentioned six vulnerabilities
+## Results
+
 We summarize the newly identified vulnerabilities into the following six types:
 - unrestricted upload credential acquisition (V1)
 - Upload credentials validity flaw (V2)
@@ -48,18 +57,6 @@ The most common vulnerability is unrestricted upload credential acquisition (V1)
 
 > [!NOTE] How does the attack work?
 > The attacker can 1) initiate a normal file upload operation on the website, such as uploading an image. During this process, he can intercept the HTTP request for upload credentials, the upload credentials themselves, the HTTP request for the file upload, and the callback data packet. By analyzing these packets, 2) he can tamper with specific fields within them to execute various attack behaviors. For instance, if the website has a file overwriting vulnerability, the attacker can modify the file storage path and file name in the upload credentials to match those of user Bob, thereby launching a file overwrite attack
-
-## Approach
-
-
-## Evaluation
-
-
-## Results
-
-
-## Limits
-
 
 ---
 #### References
