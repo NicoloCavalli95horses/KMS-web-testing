@@ -16,7 +16,7 @@
                 "file": "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
                 "viewState": {
                   "x": 150,
-                  "y": 110,
+                  "y": 108.04392958164193,
                   "zoom": 0
                 }
               },
@@ -191,6 +191,7 @@
   "active": "4978d152ee07a3ac",
   "lastOpenFiles": [
     "04 Canvases/mind maps/CSS security implication/Review.canvas",
+    "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
     "02 Literature/papers/BAC (Broken Access Control)/Understanding the security risks of websites using cloud storage for direct user file uploads.md",
     "03 References/(Chen, Li, et al., 2025).md",
@@ -204,7 +205,6 @@
     "04 Canvases/mind maps/front end security category.canvas",
     "04 Canvases/mind maps/cross-domain policies.canvas",
     "04 Canvases/mind maps/DMRT.canvas",
-    "04 Canvases/mind maps/Web security on large scale web applications/tampering prevention with test amplification.canvas",
     "96 Meta/References analysis.md",
     "96 Meta/PhD status.md",
     "02 Literature/papers/BAC (Broken Access Control)/403 Forbidden. Ethically Evaluating Broken Access Control in the Wild.md",
