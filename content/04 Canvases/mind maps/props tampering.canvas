@@ -562,6 +562,87 @@
 			"height":120
 		},
 		{
+			"id":"ef84e51c1062b2d9",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"server",
+			"type":"text",
+			"x":1160,
+			"y":-520,
+			"width":180,
+			"height":130
+		},
+		{
+			"id":"7a23c0a315de5c26",
+			"styleAttributes":{"border":"invisible"},
+			"text":"logic related to protect premium resources",
+			"type":"text",
+			"x":260,
+			"y":-670,
+			"width":260,
+			"height":122
+		},
+		{
+			"id":"59cb32706629c767",
+			"styleAttributes":{},
+			"text":"## How to extract this?",
+			"type":"text",
+			"x":280,
+			"y":-506,
+			"width":360,
+			"height":60
+		},
+		{
+			"id":"e2616f0aab214d2a",
+			"styleAttributes":{"border":"invisible"},
+			"text":"- minified code\n- control-flow may be obscured",
+			"type":"text",
+			"x":280,
+			"y":-430,
+			"width":400,
+			"height":80
+		},
+		{
+			"id":"ed62b86c15508b5a",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"text":"User interaction are captured by instrumenting JavaScript (events and functions execution are logged)",
+			"type":"text",
+			"x":1315,
+			"y":2275,
+			"width":360,
+			"height":160
+		},
+		{
+			"id":"543a35b562d2a6d9",
+			"styleAttributes":{"border":"invisible"},
+			"text":"code at the divergence point can be automatically tampered: invalid scenarios are generated",
+			"type":"text",
+			"x":2575,
+			"y":2255,
+			"width":310,
+			"height":170
+		},
+		{
+			"id":"45abbb7bdd24a511",
+			"styleAttributes":{"border":"dashed"},
+			"text":"generation of new test",
+			"type":"text",
+			"x":2935,
+			"y":2295,
+			"width":200,
+			"height":90
+		},
+		{
+			"id":"27f4044565654348",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"text":"divergence point in the source code is identified",
+			"type":"text",
+			"x":2255,
+			"y":2290,
+			"width":240,
+			"height":100,
+			"color":"2"
+		},
+		{
 			"id":"cc8440fcb6b2ee0f",
 			"styleAttributes":{"textAlign":"center"},
 			"text":"divergence point",
@@ -751,16 +832,6 @@
 			"height":60
 		},
 		{
-			"id":"ef84e51c1062b2d9",
-			"styleAttributes":{"textAlign":"center"},
-			"text":"server",
-			"type":"text",
-			"x":1160,
-			"y":-520,
-			"width":180,
-			"height":130
-		},
-		{
 			"id":"6af2c2d510d52052",
 			"styleAttributes":{"border":"invisible"},
 			"text":"the whole client-side logic",
@@ -779,77 +850,6 @@
 			"y":-690,
 			"width":400,
 			"height":244
-		},
-		{
-			"id":"7a23c0a315de5c26",
-			"styleAttributes":{"border":"invisible"},
-			"text":"logic related to protect premium resources",
-			"type":"text",
-			"x":260,
-			"y":-670,
-			"width":260,
-			"height":122
-		},
-		{
-			"id":"59cb32706629c767",
-			"styleAttributes":{},
-			"text":"## How to extract this?",
-			"type":"text",
-			"x":280,
-			"y":-506,
-			"width":360,
-			"height":60
-		},
-		{
-			"id":"e2616f0aab214d2a",
-			"styleAttributes":{"border":"invisible"},
-			"text":"- minified code\n- control-flow may be obscured",
-			"type":"text",
-			"x":280,
-			"y":-430,
-			"width":400,
-			"height":80
-		},
-		{
-			"id":"ed62b86c15508b5a",
-			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"text":"User interaction are captured by instrumenting JavaScript (events and functions execution are logged)",
-			"type":"text",
-			"x":1315,
-			"y":2275,
-			"width":360,
-			"height":160
-		},
-		{
-			"id":"543a35b562d2a6d9",
-			"styleAttributes":{"border":"invisible"},
-			"text":"code at the divergence point can be automatically tampered: invalid scenarios are generated",
-			"type":"text",
-			"x":2575,
-			"y":2255,
-			"width":310,
-			"height":170
-		},
-		{
-			"id":"45abbb7bdd24a511",
-			"styleAttributes":{"border":"dashed"},
-			"text":"generation of new test",
-			"type":"text",
-			"x":2935,
-			"y":2295,
-			"width":200,
-			"height":90
-		},
-		{
-			"id":"27f4044565654348",
-			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"text":"divergence point in the source code is identified",
-			"type":"text",
-			"x":2255,
-			"y":2290,
-			"width":240,
-			"height":100,
-			"color":"2"
 		}
 	],
 	"metadata":{

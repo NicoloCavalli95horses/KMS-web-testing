@@ -87,17 +87,56 @@
 			"height":60
 		},
 		{
+			"id":"01d9d07627394f06",
+			"type":"text",
+			"text":"# Output\nEndpoint candidates",
+			"styleAttributes":{"border":"invisible"},
+			"x":1160,
+			"y":550,
+			"width":350,
+			"height":160
+		},
+		{
 			"id":"1beed20dc5ba8006",
 			"type":"text",
-			"text":"# Input\n- URL of the page under test\n- accepted endpoint\n## Endpoint analysis\n- structure is saved (how many parts, lengths, etc)\n\n## Target component identification\n- component tree is traversed, each component is parsed\n- target component is found (=match with the first part of the endpoint)\n\n## Endpoint mapping\n- each part of the endpoint is mapped to component's props\n- neighbors have priority: the search jumps from parent to child components if other parts of the endpoint are not found in the same component\n# Output\nEndpoint candidates",
+			"text":"# Input\n- URL of the page under test\n- accepted endpoint\n",
 			"styleAttributes":{"border":"invisible"},
-			"x":-200,
+			"x":-177,
+			"y":530,
+			"width":440,
+			"height":200
+		},
+		{
+			"id":"8e3b0ab23b81e78f",
+			"type":"text",
+			"text":"## Endpoint analysis\n- structure is saved (how many parts, lengths, etc)\n\n## Target component identification\n- component tree is traversed, each component is parsed\n- target component is found (=match with the first part of the endpoint)\n\n## Endpoint mapping\n- each part of the endpoint is mapped to component's props\n- neighbors have priority: the search jumps from parent to child components if other parts of the endpoint are not found in the same component",
+			"styleAttributes":{"border":"invisible"},
+			"x":340,
 			"y":400,
-			"width":810,
-			"height":820
+			"width":640,
+			"height":620
 		}
 	],
-	"edges":[],
+	"edges":[
+		{
+			"id":"23e8c6069b4daa4b",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"1beed20dc5ba8006",
+			"fromSide":"right",
+			"toNode":"8e3b0ab23b81e78f",
+			"toSide":"left"
+		},
+		{
+			"id":"1b5319c2afae961b",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"8e3b0ab23b81e78f",
+			"fromSide":"right",
+			"toNode":"01d9d07627394f06",
+			"toSide":"left"
+		}
+	],
 	"metadata":{
 		"version":"1.0-1.0",
 		"frontmatter":{}
