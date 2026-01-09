@@ -11,15 +11,17 @@
             "id": "4978d152ee07a3ac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "02 Literature/papers/BAC (Broken Access Control)/Understanding the security risks of websites using cloud storage for direct user file uploads.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
+                "viewState": {
+                  "x": 150,
+                  "y": 110,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "Understanding the security risks of websites using cloud storage for direct user file uploads"
+              "icon": "lucide-layout-dashboard",
+              "title": "RSS feed readers"
             }
           }
         ]
@@ -42,7 +44,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -188,6 +190,8 @@
   },
   "active": "4978d152ee07a3ac",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/CSS security implication/Review.canvas",
+    "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
     "02 Literature/papers/BAC (Broken Access Control)/Understanding the security risks of websites using cloud storage for direct user file uploads.md",
     "03 References/(Chen, Li, et al., 2025).md",
     "04 Canvases/mind maps/IDOR scanner in SPA/case description.canvas",
@@ -201,7 +205,6 @@
     "04 Canvases/mind maps/cross-domain policies.canvas",
     "04 Canvases/mind maps/DMRT.canvas",
     "04 Canvases/mind maps/Web security on large scale web applications/tampering prevention with test amplification.canvas",
-    "04 Canvases/mind maps/Web security on large scale web applications/GUI vulnerabilities.canvas",
     "96 Meta/References analysis.md",
     "96 Meta/PhD status.md",
     "02 Literature/papers/BAC (Broken Access Control)/403 Forbidden. Ethically Evaluating Broken Access Control in the Wild.md",
@@ -226,7 +229,6 @@
     "02 Literature/papers/SPA applications",
     "06 Courses, webinars/D4 Conference.md",
     "01 Notes/RSS (Really Simple Syndication).md",
-    "03 References/(Guo, Liu, et al., 2025).md",
     "02 Literature/papers/browser fingerprinting",
     "04 Canvases/mind maps/CSS security implication",
     "02 Literature/papers/history sniffing",
