@@ -1,0 +1,78 @@
+{
+	"nodes":[
+		{
+			"id":"d8129b049fc02d48",
+			"type":"file",
+			"file":"97 Assets/vue_sink_css_injection.png",
+			"styleAttributes":{"border":"invisible"},
+			"x":-1280,
+			"y":-60,
+			"width":1150,
+			"height":380
+		},
+		{
+			"id":"847c59701507ed72",
+			"type":"file",
+			"file":"97 Assets/JSON_example_steal_attr_inline_css.png",
+			"styleAttributes":{"border":"invisible"},
+			"x":-1121,
+			"y":-400,
+			"width":1592,
+			"height":187
+		},
+		{
+			"id":"2142acb90a14f9e6",
+			"type":"file",
+			"file":"97 Assets/proof_network_request_attr_extraction.png",
+			"styleAttributes":{"border":"invisible"},
+			"x":-460,
+			"y":420,
+			"width":1037,
+			"height":660
+		},
+		{
+			"id":"c180315582ded009",
+			"type":"text",
+			"text":"Credits to: https://portswigger.net/research/inline-style-exfiltration",
+			"styleAttributes":{"border":"invisible"},
+			"x":-1280,
+			"y":-720,
+			"width":700,
+			"height":80
+		},
+		{
+			"id":"c30ace55fe43326e",
+			"type":"text",
+			"text":"attribute must be on the same DOM el",
+			"styleAttributes":{"border":"invisible"},
+			"x":-40,
+			"y":0,
+			"width":420,
+			"height":60
+		}
+	],
+	"edges":[
+		{
+			"id":"23f89239437e83d2",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"847c59701507ed72",
+			"fromSide":"bottom",
+			"toNode":"d8129b049fc02d48",
+			"toSide":"top"
+		},
+		{
+			"id":"bacf6d29727f0d37",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"d8129b049fc02d48",
+			"fromSide":"bottom",
+			"toNode":"2142acb90a14f9e6",
+			"toSide":"top"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}
