@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
                 "viewState": {
-                  "x": -391.49813579651396,
-                  "y": 395.22751993097296,
-                  "zoom": -0.6
+                  "x": -532.9830041000225,
+                  "y": 34.735000164209396,
+                  "zoom": -1.330296715948836
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -190,11 +190,12 @@
   },
   "active": "47e33a7003d0c5bf",
   "lastOpenFiles": [
+    "04 Canvases/meetings/2025_11_18.canvas",
+    "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
     "97 Assets/proof_network_request_attr_extraction.png",
     "97 Assets/vue_sink_css_injection.png",
     "97 Assets/JSON_example_steal_attr_inline_css.png",
     "04 Canvases/mind maps/CSS security implication/Untitled.md",
-    "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
     "04 Canvases/mind maps/CSS security implication/Review.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
@@ -244,7 +245,6 @@
     "02 Literature/papers/accessibility",
     "00 Antilibrary/Untitled.base",
     "00 Antilibrary/Untitled 3.base",
-    "00 Antilibrary/Untitled 2.base",
-    "97 Assets/guidelines_se_ermsei.png"
+    "00 Antilibrary/Untitled 2.base"
   ]
 }

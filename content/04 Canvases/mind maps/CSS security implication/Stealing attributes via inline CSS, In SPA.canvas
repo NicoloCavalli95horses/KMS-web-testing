@@ -43,12 +43,16 @@
 		{
 			"id":"c30ace55fe43326e",
 			"type":"text",
-			"text":"attribute must be on the same DOM el",
-			"styleAttributes":{"border":"invisible"},
+			"text":"# attribute must be on the same DOM el",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
 			"x":-40,
 			"y":0,
 			"width":420,
-			"height":60
+			"height":130,
+			"color":"3"
 		}
 	],
 	"edges":[
