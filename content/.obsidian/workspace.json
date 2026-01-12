@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/mind maps/taint analysis in the web.canvas",
+                "file": "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
                 "viewState": {
-                  "x": 32,
-                  "y": 191.5,
-                  "zoom": -0.9446311960565944
+                  "x": 1910,
+                  "y": 100,
+                  "zoom": -2.241606136983131
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "taint analysis in the web"
+              "title": "CSS exploitation in web mails"
             }
           }
         ]
@@ -190,6 +190,10 @@
   },
   "active": "47e33a7003d0c5bf",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/CSS security implication/Review.canvas",
+    "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
+    "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
+    "04 Canvases/mind maps/taint analysis in the web.canvas",
     "04 Canvases/mind maps/social engineering techniques.canvas",
     "04 Canvases/mind maps/props tampering.canvas",
     "04 Canvases/mind maps/input analysis.canvas",
@@ -197,10 +201,6 @@
     "04 Canvases/mind maps/cross-domain policies.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/tampering prevention with test amplification.canvas",
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas",
-    "04 Canvases/mind maps/web security on large scale web applications/GUI testing techniques on large scale applications.canvas",
-    "04 Canvases/mind maps/SLR/RQ3. Relationships and dependencies.canvas",
-    "04 Canvases/mind maps/SLR/RQ1. Role of front-end software in web security.canvas",
-    "04 Canvases/mind maps/IDOR scanner in SPA/case description.canvas",
     "00 Antilibrary/compatibility or conversion testing.md",
     "00 Antilibrary/CART (classification and regression test).md",
     "02 Literature/papers/BAC (Broken Access Control)/Understanding the security risks of websites using cloud storage for direct user file uploads.md",
