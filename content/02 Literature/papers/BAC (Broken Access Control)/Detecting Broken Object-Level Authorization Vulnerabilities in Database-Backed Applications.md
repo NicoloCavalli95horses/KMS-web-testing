@@ -72,12 +72,6 @@ A first module infers object-levels authorization models in three steps
 > [!BOLARAY SUMMARY]
 > The BOLARAY combines ==SQL analysis with static code analysis== to automatically ==infer and classify distinct object-level authorization models== within a PHP application. It then checks whether the application’s implementation properly enforces authorization for these models, identifying any potential vulnerabilities.
 
-## Evaluation
-
-
-## Results
-
-
 ## Limits
 
 - the tool works on PHP database-backed applications and SQL db

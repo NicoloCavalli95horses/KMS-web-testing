@@ -11,15 +11,17 @@
             "id": "822916a9c85e2213",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "02 Literature/papers/BAC (Broken Access Control)/Detecting Broken Object-Level Authorization Vulnerabilities in Database-Backed Applications.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/mind maps/IDOR scanner in SPA/Mining SPA for accessing restricted resources.canvas",
+                "viewState": {
+                  "x": 900,
+                  "y": 510,
+                  "zoom": -1.663680204499848
+                }
               },
-              "icon": "lucide-file",
-              "title": "Detecting Broken Object-Level Authorization Vulnerabilities in Database-Backed Applications"
+              "icon": "lucide-layout-dashboard",
+              "title": "Mining SPA for accessing restricted resources"
             }
           }
         ]
@@ -186,19 +188,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "822916a9c85e2213",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
+    "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
+    "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
+    "04 Canvases/mind maps/CSS security implication/Review.canvas",
+    "04 Canvases/mind maps/IDOR scanner in SPA/Mining SPA for accessing restricted resources.canvas",
     "02 Literature/papers/BAC (Broken Access Control)/Detecting Broken Object-Level Authorization Vulnerabilities in Database-Backed Applications.md",
     "03 References/(Huang, Shi, et al., 2024).md",
-    "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
     "04 Canvases/meetings/2025_11_18.canvas",
     "97 Assets/proof_network_request_attr_extraction.png",
     "97 Assets/vue_sink_css_injection.png",
     "97 Assets/JSON_example_steal_attr_inline_css.png",
     "04 Canvases/mind maps/CSS security implication/Untitled.md",
-    "04 Canvases/mind maps/CSS security implication/Review.canvas",
-    "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
-    "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
     "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
     "04 Canvases/mind maps/taint analysis in the web.canvas",
     "04 Canvases/mind maps/social engineering techniques.canvas",
@@ -228,7 +231,6 @@
     "02 Literature/papers/BAC (Broken Access Control)/Automated broken object-level authorization attack detection in REST APIs through Open API to colored petri nets transformation.md",
     "02 Literature/papers/BAC (Broken Access Control)/A Systematic Literature Review on the Characteristics and Effectiveness of Web Application Vulnerability Scanners.md",
     "96 Meta/Empirical Study/Large-scale analysis on Tranco Top 250k.md",
-    "02 Literature/papers/SPA applications/ReactAppScan. Mining React Application Vulnerabilities via Component Graph.md",
     "02 Literature/papers/SPA applications",
     "02 Literature/papers/browser fingerprinting",
     "04 Canvases/mind maps/CSS security implication",

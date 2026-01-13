@@ -1,15 +1,5 @@
 {
 	"nodes":[
-		{
-			"id":"6c8c52c3f995f1d8",
-			"type":"text",
-			"text":"# Mining SPA front-ends to craft URLs for accessing restricted resources ",
-			"styleAttributes":{"border":"invisible"},
-			"x":-200,
-			"y":-500,
-			"width":680,
-			"height":100
-		},
 		{"id":"e9819d54a6d19979","type":"file","file":"97 Assets/idor_spa_case_description.png","x":-200,"y":-340,"width":486,"height":620},
 		{
 			"id":"4bc279100f139e49",
@@ -87,34 +77,59 @@
 			"height":60
 		},
 		{
-			"id":"01d9d07627394f06",
+			"id":"6c8c52c3f995f1d8",
 			"type":"text",
-			"text":"# Output\nEndpoint candidates",
-			"styleAttributes":{"border":"invisible"},
-			"x":1160,
-			"y":550,
-			"width":350,
-			"height":160
-		},
-		{
-			"id":"1beed20dc5ba8006",
-			"type":"text",
-			"text":"# Input\n- URL of the page under test\n- accepted endpoint\n",
-			"styleAttributes":{"border":"invisible"},
-			"x":-177,
-			"y":530,
-			"width":440,
-			"height":200
+			"text":"# Authorization Model Inference from Client-Side Artifacts: Mining SPA front-ends for accessing restricted resources ",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"x":-200,
+			"y":-560,
+			"width":1440,
+			"height":120
 		},
 		{
 			"id":"8e3b0ab23b81e78f",
 			"type":"text",
-			"text":"## Endpoint analysis\n- structure is saved (how many parts, lengths, etc)\n\n## Target component identification\n- component tree is traversed, each component is parsed\n- target component is found (=match with the first part of the endpoint)\n\n## Endpoint mapping\n- each part of the endpoint is mapped to component's props\n- neighbors have priority: the search jumps from parent to child components if other parts of the endpoint are not found in the same component",
-			"styleAttributes":{"border":"invisible"},
-			"x":340,
+			"text":"## Authorization model identification\n- through DOM analysis we can identify if a list of items with different permission exist (usually the ones we do not have access to display a different icon: we can detect that via DOM sub-tree comparison)\n\n## Identification of true positives\n- the first parent element belonging to the target list is analysed until a click event is found (nested elements are considered)\n- if this leads to an HTTP request from the front-end, it means that a TP is found\n## Endpoint analysis\n- structure of TPs is saved (how many parts, lengths, etc)\n- TPs responses are saved (header, body)\n\n## Target component identification\n- component tree is traversed, each component is parsed\n- target component is found (=match with the first part of the endpoint)\n\n## Endpoint mapping\n- each part of the endpoint is mapped to component's props\n- neighbors have priority: the search jumps from parent to child components if other parts of the endpoint are not found in the same component\n- information are extracted from the components and candidate endpoint are returned\n\n## Endpoint validation\n- the endpoints are executed and the response is compared to the responses obtained with the TPs",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":280,
 			"y":400,
-			"width":640,
-			"height":620
+			"width":780,
+			"height":1180
+		},
+		{
+			"id":"1beed20dc5ba8006",
+			"type":"text",
+			"text":"# Input\n- URL of the page under test\n",
+			"styleAttributes":{"border":"invisible"},
+			"x":-140,
+			"y":790,
+			"width":317,
+			"height":200
+		},
+		{
+			"id":"01d9d07627394f06",
+			"type":"text",
+			"text":"# Output\nPossible IDOR/BOLA",
+			"styleAttributes":{"border":"invisible"},
+			"x":1180,
+			"y":830,
+			"width":260,
+			"height":160
+		},
+		{
+			"id":"c62b7da170e56b45",
+			"type":"text",
+			"text":"## +2 real-world instance of client-side authorization leakage that satisfies the assumptions of the model\n- busuu.com\n- ",
+			"styleAttributes":{},
+			"x":1600,
+			"y":-30,
+			"width":400,
+			"height":310
 		}
 	],
 	"edges":[

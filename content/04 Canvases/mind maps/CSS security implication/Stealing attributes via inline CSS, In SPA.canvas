@@ -44,13 +44,10 @@
 			"id":"c30ace55fe43326e",
 			"type":"text",
 			"text":"# attribute must be on the same DOM el",
-			"styleAttributes":{
-				"border":"invisible",
-				"textAlign":null
-			},
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
 			"x":-40,
 			"y":0,
-			"width":420,
+			"width":617,
 			"height":130,
 			"color":"3"
 		}

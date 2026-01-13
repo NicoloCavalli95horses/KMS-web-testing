@@ -4263,33 +4263,6 @@
         "newlineCount": 12
       }
     },
-    "04 Canvases/mind maps/IDOR scanner in SPA/case description.canvas": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 98,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.32666666666666666,
-      "characterCount": 936,
-      "nonWhitespaceCharacterCount": 820,
-      "newlineCount": 24,
-      "readingTimeInMinutes": 0.36981132075471695,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1767798565170,
-      "modifiedDate": 1767964534314,
-      "sizeInBytes": 3524,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.32666666666666666,
-        "wordCount": 98,
-        "characterCount": 936,
-        "nonWhitespaceCharacterCount": 820,
-        "newlineCount": 24
-      }
-    },
     "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -4357,11 +4330,11 @@
       "newlineCount": 2,
       "readingTimeInMinutes": 0.04150943396226415,
       "linkCount": 0,
-      "embedCount": 0,
+      "embedCount": 3,
       "aliases": null,
       "createdDate": 1768224061204,
-      "modifiedDate": 1768227469030,
-      "sizeInBytes": 1625,
+      "modifiedDate": 1768300094687,
+      "sizeInBytes": 1615,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.03666666666666667,
@@ -4369,7 +4342,8 @@
         "characterCount": 109,
         "nonWhitespaceCharacterCount": 98,
         "newlineCount": 2
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/CSS security implication/Review.canvas": {
       "isCountable": true,
@@ -29379,20 +29353,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 540,
+      "wordCount": 538,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.8,
-      "characterCount": 3797,
-      "nonWhitespaceCharacterCount": 3189,
-      "newlineCount": 80,
-      "readingTimeInMinutes": 2.0377358490566038,
+      "pageCount": 1.7933333333333332,
+      "characterCount": 3768,
+      "nonWhitespaceCharacterCount": 3168,
+      "newlineCount": 74,
+      "readingTimeInMinutes": 2.030188679245283,
       "linkCount": 3,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1768290992672,
-      "modifiedDate": 1768297227494,
-      "sizeInBytes": 3903,
+      "modifiedDate": 1768298274160,
+      "sizeInBytes": 3874,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -29411,6 +29385,33 @@
           "dataSecurity"
         ],
         "Rank": "A*"
+      }
+    },
+    "04 Canvases/mind maps/IDOR scanner in SPA/Mining SPA for accessing restricted resources.canvas": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 232,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.7733333333333333,
+      "characterCount": 1829,
+      "nonWhitespaceCharacterCount": 1565,
+      "newlineCount": 37,
+      "readingTimeInMinutes": 0.8754716981132076,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1767798565170,
+      "modifiedDate": 1768299724503,
+      "sizeInBytes": 4614,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
       }
     }
   }
