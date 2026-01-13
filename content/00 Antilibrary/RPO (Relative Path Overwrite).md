@@ -18,10 +18,10 @@ In certain settings an attacker can manipulate a page’s URL in such a way that
 - Depending on the implementation of the site, different variations of RPO attacks may be feasible
 - For example, ==an attacker could manipulate the URL to make the page include user-generated content hosted on the same domain==
 
-When an injection vulnerability is present in a page, an attacker could manipulate the URL such that the web page references itself as the stylesheet, which ==turns a simple text injection vulnerability into a style sink==
+When an injection vulnerability is present in a page, an attacker could manipulate the URL such that the web page references itself as the style sheet, which ==turns a simple text injection vulnerability into a style sink==
 
 > [!NOTE] In a nutshell
-> In essence, this attack utilizes a crafted URL (typically with a PATH_INFO), to  ==force the target Web page to load itself as a stylesheet, when it contains both path-relative stylesheets and attacker-controllable contents.==
+> In essence, this attack utilizes a crafted URL to  ==force the target web page to load itself as a stylesheet, when it contains both path-relative stylesheets and attacker-controllable contents.==
 
 ### Entry points
 - URLs
@@ -65,6 +65,7 @@ In practice, RPO is ==more likely in server-side PHP web apps==:
 
 ---
 #### References
--  [[(Arshad, Mirheidari, et al., 2018)]]
+- [[(Arshad, Mirheidari, et al., 2018)]]
 - https://thespanner.co.uk/2014/03/21/rpo
 - https://www.mbsd.jp/Whitepaper/rpo.pdf
+- https://portswigger.net/research/detecting-and-exploiting-path-relative-stylesheet-import-prssi-vulnerabilities

@@ -177,11 +177,11 @@
 		{
 			"id":"1987644f4e2966b5",
 			"type":"text",
-			"text":"## Possible scenarios\n\n- Preview of accessibility settings (increased font-sized, improved contrast) is encoded in user-supplied input (URL)\n- E-commerce or blog that let users define CSS for specific content (item, posts, etc)",
+			"text":"## Possible scenarios\n\n- Preview of accessibility settings (increased font-sized, improved contrast) is encoded in user-supplied input (URL)\n- E-commerce or blog that let users define CSS for specific content (item, posts, etc)\n- Non-sanitized user-supplied parameter (eg. title of project) lead to stored XSS which can be abused to execute attacker-controlled XSS",
 			"styleAttributes":{},
 			"x":4080,
 			"y":-710,
-			"width":440,
+			"width":840,
 			"height":240
 		},
 		{
@@ -193,6 +193,16 @@
 			"y":-80,
 			"width":720,
 			"height":260
+		},
+		{
+			"id":"0197a4d8c80e1852",
+			"type":"text",
+			"text":"### CVE\n\n- https://www.cve.org/CVERecord?id=CVE-2025-46825\n- https://www.cve.org/CVERecord?id=CVE-2025-46340",
+			"styleAttributes":{},
+			"x":4080,
+			"y":-420,
+			"width":840,
+			"height":210
 		}
 	],
 	"edges":[
