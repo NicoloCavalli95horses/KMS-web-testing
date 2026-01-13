@@ -13,18 +13,34 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/mind maps/IDOR scanner in SPA/Mining SPA for accessing restricted resources.canvas",
+                "file": "04 Canvases/meetings/2026_01_14.canvas",
                 "viewState": {
-                  "x": 900,
-                  "y": 510,
-                  "zoom": -1.663680204499848
+                  "x": 3987.3642127676385,
+                  "y": -93.00127881281435,
+                  "zoom": -1.0014025113636973
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Mining SPA for accessing restricted resources"
+              "title": "2026_01_14"
+            }
+          },
+          {
+            "id": "bd81643d04ce0fe9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 Antilibrary/RPO (Relative Path Overwrite).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "RPO (Relative Path Overwrite)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,13 +204,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "bd81643d04ce0fe9",
   "lastOpenFiles": [
+    "04 Canvases/meetings/2026_01_14.canvas",
     "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
-    "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
-    "04 Canvases/mind maps/CSS security implication/Review.canvas",
+    "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
     "04 Canvases/mind maps/IDOR scanner in SPA/Mining SPA for accessing restricted resources.canvas",
+    "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
+    "04 Canvases/mind maps/CSS security implication/Review.canvas",
     "02 Literature/papers/BAC (Broken Access Control)/Detecting Broken Object-Level Authorization Vulnerabilities in Database-Backed Applications.md",
     "03 References/(Huang, Shi, et al., 2024).md",
     "04 Canvases/meetings/2025_11_18.canvas",
@@ -202,11 +220,9 @@
     "97 Assets/vue_sink_css_injection.png",
     "97 Assets/JSON_example_steal_attr_inline_css.png",
     "04 Canvases/mind maps/CSS security implication/Untitled.md",
-    "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
     "04 Canvases/mind maps/taint analysis in the web.canvas",
     "04 Canvases/mind maps/social engineering techniques.canvas",
     "04 Canvases/mind maps/props tampering.canvas",
-    "04 Canvases/mind maps/input analysis.canvas",
     "00 Antilibrary/compatibility or conversion testing.md",
     "00 Antilibrary/CART (classification and regression test).md",
     "02 Literature/papers/BAC (Broken Access Control)/Understanding the security risks of websites using cloud storage for direct user file uploads.md",

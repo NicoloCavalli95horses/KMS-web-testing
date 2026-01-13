@@ -29413,6 +29413,34 @@
         "nonWhitespaceCharacterCount": 0,
         "newlineCount": 0
       }
+    },
+    "04 Canvases/meetings/2026_01_14.canvas": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 387,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.29,
+      "characterCount": 2940,
+      "nonWhitespaceCharacterCount": 2501,
+      "newlineCount": 57,
+      "readingTimeInMinutes": 1.460377358490566,
+      "linkCount": 2,
+      "embedCount": 1,
+      "aliases": null,
+      "createdDate": 1768305639083,
+      "modifiedDate": 1768307986065,
+      "sizeInBytes": 7354,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {}
     }
   }
 }
