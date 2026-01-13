@@ -197,7 +197,7 @@
 		{
 			"id":"0197a4d8c80e1852",
 			"type":"text",
-			"text":"### CVE\n\n- https://www.cve.org/CVERecord?id=CVE-2025-46825\n- https://www.cve.org/CVERecord?id=CVE-2025-46340",
+			"text":"### CVE\n\n- https://www.cve.org/CVERecord?id=CVE-2025-46825\n- https://www.cve.org/CVERecord?id=CVE-2025-46340\n- https://www.cve.org/CVERecord?id=CVE-2025-31138",
 			"styleAttributes":{},
 			"x":4080,
 			"y":-420,
