@@ -15,16 +15,29 @@
               "state": {
                 "file": "04 Canvases/meetings/2026_01_14.canvas",
                 "viewState": {
-                  "x": 4193.0614838892,
-                  "y": -238.7288120186121,
-                  "zoom": -0.0014025511001256596
+                  "x": 3929.8358731625003,
+                  "y": -449.7711830785949,
+                  "zoom": -0.6680691912758401
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "2026_01_14"
             }
+          },
+          {
+            "id": "ca0df8c90bd30976",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +201,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "822916a9c85e2213",
+  "active": "ca0df8c90bd30976",
   "lastOpenFiles": [
     "00 Antilibrary/RPO (Relative Path Overwrite).md",
     "03 References/(Arshad, Mirheidari, et al., 2018).md",
