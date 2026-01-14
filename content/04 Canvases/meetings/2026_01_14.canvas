@@ -185,24 +185,24 @@
 			"height":260
 		},
 		{
-			"id":"0197a4d8c80e1852",
-			"type":"text",
-			"text":"### 47 CVEs (https://www.cve.org/CVERecord/SearchResults?query=css+injection)\n\n- https://www.cve.org/CVERecord?id=CVE-2025-46825\n- https://www.cve.org/CVERecord?id=CVE-2025-46340\n- https://www.cve.org/CVERecord?id=CVE-2025-31138\n- https://www.cve.org/CVERecord?id=CVE-2025-12180\n- https://www.cve.org/CVERecord?id=CVE-2024-8760\n- https://www.cve.org/CVERecord?id=CVE-2024-34697\n- https://www.cve.org/CVERecord?id=CVE-2023-24539\n- https://www.cve.org/CVERecord?id=CVE-2022-31108\n- https://www.cve.org/CVERecord?id=CVE-2022-2597\n- https://www.cve.org/CVERecord?id=CVE-2020-16254\n- https://www.cve.org/CVERecord?id=CVE-2019-17495",
-			"styleAttributes":{"border":"invisible"},
-			"x":4080,
-			"y":-420,
-			"width":840,
-			"height":520
-		},
-		{
 			"id":"1987644f4e2966b5",
 			"type":"text",
 			"text":"## Real world scenarios\n\n1) ==Supply chain attacks==: plugin WorldPress, npm libraries (even Mermaid!)\n2) ==User-supplied payload==\n\t- HTTP request body: e-commerce or blog that let users define CSS for specific content (item, posts, etc)\n\t- URL: Non-sanitized parameter (eg. title of project) lead to stored XSS which can be abused to execute attacker-controlled CSS",
 			"styleAttributes":{"border":"invisible"},
-			"x":4080,
-			"y":-740,
+			"x":4240,
+			"y":-865,
 			"width":840,
 			"height":285
+		},
+		{
+			"id":"0197a4d8c80e1852",
+			"type":"text",
+			"text":"### 47 CVEs (https://www.cve.org/CVERecord/SearchResults?query=css+injection)\n\nInjection in the URL:\n- https://www.cve.org/CVERecord?id=CVE-2025-46825\n- https://www.cve.org/CVERecord?id=CVE-2025-46340\n\nInjection via WordPress plugins/supply chain:\n- https://www.cve.org/CVERecord?id=CVE-2025-31138\n- https://www.cve.org/CVERecord?id=CVE-2025-12180\n- https://www.cve.org/CVERecord?id=CVE-2024-8760\n- https://www.cve.org/CVERecord?id=CVE-2022-2597\n- https://www.cve.org/CVERecord?id=CVE-2022-2543\n\nGo language:\n- https://www.cve.org/CVERecord?id=CVE-2023-24539\n\nRuby language:\n- https://www.cve.org/CVERecord?id=CVE-2020-16254\n\nMermaid.js (supply chain):\n- https://www.cve.org/CVERecord?id=CVE-2022-31108\n\n[[RPO (Relative Path Overwrite)]] in Swagger UI:\n- https://www.cve.org/CVERecord?id=CVE-2019-17495\n\nphpMyAdmin (crafted cookie parameters):\n- https://www.cve.org/CVERecord?id=CVE-2017-1000015",
+			"styleAttributes":{"border":"invisible"},
+			"x":4240,
+			"y":-545,
+			"width":840,
+			"height":1180
 		}
 	],
 	"edges":[

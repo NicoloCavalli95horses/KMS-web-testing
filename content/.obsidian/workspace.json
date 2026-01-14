@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/meetings/2026_01_14.canvas",
                 "viewState": {
-                  "x": 3929.8358731625003,
-                  "y": -449.7711830785949,
-                  "zoom": -0.6680691912758401
+                  "x": 4421.000127227323,
+                  "y": -71.10462563289849,
+                  "zoom": -0.66806919127584
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -25,15 +25,18 @@
             }
           },
           {
-            "id": "ca0df8c90bd30976",
+            "id": "f5d9edf6a35c2b41",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.4"
+                "file": "02 Literature/papers/XSS (Cross-Site Scripting)/Don't Trust The Locals. Investigating the Prevalence of Persistent Client-Side Cross-Site Scripting in the Wild..md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.4"
+              "icon": "lucide-file",
+              "title": "Don't Trust The Locals. Investigating the Prevalence of Persistent Client-Side Cross-Site Scripting in the Wild."
             }
           }
         ],
@@ -201,11 +204,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ca0df8c90bd30976",
+  "active": "f5d9edf6a35c2b41",
   "lastOpenFiles": [
+    "04 Canvases/meetings/2026_01_14.canvas",
     "00 Antilibrary/RPO (Relative Path Overwrite).md",
     "03 References/(Arshad, Mirheidari, et al., 2018).md",
-    "04 Canvases/meetings/2026_01_14.canvas",
     "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
     "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
@@ -243,7 +246,6 @@
     "02 Literature/papers/BAC (Broken Access Control)/Least Privilege Access for Persistent Storage Mechanisms in Web Browsers.md",
     "02 Literature/papers/BAC (Broken Access Control)/Cached and confused. web cache deception in the wild.md",
     "02 Literature/papers/BAC (Broken Access Control)/Automated broken object-level authorization attack detection in REST APIs through Open API to colored petri nets transformation.md",
-    "02 Literature/papers/BAC (Broken Access Control)/A Systematic Literature Review on the Characteristics and Effectiveness of Web Application Vulnerability Scanners.md",
     "02 Literature/papers/SPA applications",
     "02 Literature/papers/browser fingerprinting",
     "04 Canvases/mind maps/CSS security implication",
