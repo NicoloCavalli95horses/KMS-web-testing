@@ -1,36 +1,6 @@
 {
 	"nodes":[
 		{
-			"id":"da649cdbb9a38a3a",
-			"type":"file",
-			"file":"97 Assets/misskey_css_injection.png",
-			"styleAttributes":{"border":"invisible"},
-			"x":-460,
-			"y":-200,
-			"width":815,
-			"height":140
-		},
-		{
-			"id":"254243bb102e6bef",
-			"type":"text",
-			"text":"# CVE-2025-46340\n- https://github.com/misskey-dev/misskey/security/advisories/GHSA-3p2w-xmv5-jm95",
-			"styleAttributes":{"border":"invisible"},
-			"x":-540,
-			"y":-420,
-			"width":895,
-			"height":140
-		},
-		{
-			"id":"fdd496e302cafd41",
-			"type":"file",
-			"file":"97 Assets/misskey_css_injection_2.png",
-			"styleAttributes":{"border":"invisible"},
-			"x":-464,
-			"y":0,
-			"width":819,
-			"height":500
-		},
-		{
 			"id":"21c192e0ef7dc1b1",
 			"type":"text",
 			"text":"# CVE-2022-31108\n- https://github.com/mermaid-js/mermaid/security/advisories/GHSA-x3vm-38hw-55wf",
@@ -39,9 +9,202 @@
 			"y":880,
 			"width":1000,
 			"height":140
+		},
+		{"id":"a5677641061a7fd8","type":"file","file":"97 Assets/misskey_injection_3.png","x":-1010,"y":-660,"width":400,"height":165},
+		{
+			"id":"11dee50399508431",
+			"type":"text",
+			"text":"user input on a popup (new note)",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":-930,
+			"y":-820,
+			"width":240,
+			"height":80
+		},
+		{
+			"id":"254243bb102e6bef",
+			"type":"text",
+			"text":"# CVE-2025-46340\nhttps://github.com/misskey-dev/misskey/security/advisories/GHSA-3p2w-xmv5-jm95",
+			"styleAttributes":{"border":"invisible"},
+			"x":-47,
+			"y":-1160,
+			"width":895,
+			"height":140
+		},
+		{
+			"id":"b8d84b6f03560b21",
+			"type":"text",
+			"text":"external css is executed",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":1680,
+			"y":-940,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"fdd496e302cafd41",
+			"type":"file",
+			"file":"97 Assets/misskey_css_injection_2.png",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":1400,
+			"y":-820,
+			"width":819,
+			"height":500
+		},
+		{
+			"id":"14376fd8df4647d5",
+			"type":"text",
+			"text":"`MkPostForm.vue`",
+			"styleAttributes":{"border":"invisible"},
+			"x":-940,
+			"y":-190,
+			"width":220,
+			"height":60
+		},
+		{
+			"id":"775d0a139e32ac93",
+			"type":"text",
+			"text":"`<textarea>`",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-1090,
+			"y":-420,
+			"width":180,
+			"height":100
+		},
+		{
+			"id":"fc1d8910c1b60e4e",
+			"type":"text",
+			"text":"POST request \n`http://localhost:3000/api/notes/create`\n\nvia `Fetch` API (`misskey-api.ts`)\n",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-830,
+			"y":-450,
+			"width":440,
+			"height":160
+		},
+		{
+			"id":"5ba8a76c56f8df88",
+			"type":"text",
+			"text":"POST request\n`http://localhost:3000/api/notes/global-timeline`",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-180,
+			"y":-660,
+			"width":320,
+			"height":160
+		},
+		{
+			"id":"03bec897d32e5397",
+			"type":"text",
+			"text":"data is retrieved (dashboard)",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":-150,
+			"y":-800,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"da649cdbb9a38a3a",
+			"type":"file",
+			"file":"97 Assets/misskey_css_injection.png",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":440,
+			"y":-660,
+			"width":815,
+			"height":140
+		},
+		{
+			"id":"d14a8b1e18120a2e",
+			"type":"text",
+			"text":"sink is found",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":718,
+			"y":-800,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"7398bb112fbae40e",
+			"type":"text",
+			"text":"`thumbnail` is part of the user-defined payload",
+			"styleAttributes":{},
+			"x":880,
+			"y":-420,
+			"width":260,
+			"height":100
 		}
 	],
-	"edges":[],
+	"edges":[
+		{
+			"id":"71b56d898619b4ea",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"775d0a139e32ac93",
+			"fromSide":"right",
+			"toNode":"fc1d8910c1b60e4e",
+			"toSide":"left"
+		},
+		{
+			"id":"682230a4f9ebb3c3",
+			"styleAttributes":{"path":"short-dashed"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"14376fd8df4647d5",
+			"fromSide":"top",
+			"toNode":"775d0a139e32ac93",
+			"toSide":"bottom"
+		},
+		{
+			"id":"3f95630b150451e7",
+			"styleAttributes":{"path":"short-dashed"},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"14376fd8df4647d5",
+			"fromSide":"top",
+			"toNode":"fc1d8910c1b60e4e",
+			"toSide":"bottom"
+		},
+		{
+			"id":"a153af48949c38ad",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"5ba8a76c56f8df88",
+			"fromSide":"right",
+			"toNode":"da649cdbb9a38a3a",
+			"toSide":"left"
+		},
+		{
+			"id":"b94afec26fbd9654",
+			"styleAttributes":{
+				"path":null
+			},
+			"toFloating":false,
+			"fromNode":"da649cdbb9a38a3a",
+			"fromSide":"right",
+			"toNode":"fdd496e302cafd41",
+			"toSide":"left"
+		},
+		{
+			"id":"0e032fb6d5479bea",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a5677641061a7fd8",
+			"fromSide":"right",
+			"toNode":"5ba8a76c56f8df88",
+			"toSide":"left"
+		},
+		{
+			"id":"5e52c57cc5f5b363",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"7398bb112fbae40e",
+			"fromSide":"top",
+			"toNode":"da649cdbb9a38a3a",
+			"toSide":"bottom"
+		}
+	],
 	"metadata":{
 		"version":"1.0-1.0",
 		"frontmatter":{}

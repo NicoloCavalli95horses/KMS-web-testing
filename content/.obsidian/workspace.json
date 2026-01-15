@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
                 "viewState": {
-                  "x": -139.5,
-                  "y": 297.96504891766915,
-                  "zoom": -0.20000000000000007
+                  "x": 448.12043813457035,
+                  "y": -321.26965968088984,
+                  "zoom": -0.6000000000000001
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -190,6 +190,7 @@
   },
   "active": "822916a9c85e2213",
   "lastOpenFiles": [
+    "97 Assets/misskey_injection_3.png",
     "97 Assets/misskey_css_injection_2.png",
     "97 Assets/misskey_css_injection.png",
     "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
@@ -241,7 +242,6 @@
     "02 Literature/papers/SVG (Scalable Vectors Graphics)",
     "97 Assets/click_detection_inline_css.png",
     "97 Assets/clickjacking_example.png",
-    "97 Assets/proton_summary_click_detection.png",
     "02 Literature/papers/accessibility",
     "00 Antilibrary/Untitled.base",
     "00 Antilibrary/Untitled 3.base",
