@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/meetings/2026_01_14.canvas",
+                "file": "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
                 "viewState": {
-                  "x": 4405.266829309268,
-                  "y": 10.717743042408586,
-                  "zoom": -1.0014025113636973
+                  "x": -139.5,
+                  "y": 297.96504891766915,
+                  "zoom": -0.20000000000000007
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "2026_01_14"
+              "title": "CSS injection (CVEs)"
             }
           }
         ]
@@ -190,16 +190,19 @@
   },
   "active": "822916a9c85e2213",
   "lastOpenFiles": [
-    "02 Literature/papers/XSS (Cross-Site Scripting)/Don't Trust The Locals. Investigating the Prevalence of Persistent Client-Side Cross-Site Scripting in the Wild..md",
+    "97 Assets/misskey_css_injection_2.png",
+    "97 Assets/misskey_css_injection.png",
+    "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
+    "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
+    "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
+    "04 Canvases/mind maps/CSS security implication/Review.canvas",
     "04 Canvases/meetings/2026_01_14.canvas",
+    "02 Literature/papers/XSS (Cross-Site Scripting)/Don't Trust The Locals. Investigating the Prevalence of Persistent Client-Side Cross-Site Scripting in the Wild..md",
     "00 Antilibrary/RPO (Relative Path Overwrite).md",
     "03 References/(Arshad, Mirheidari, et al., 2018).md",
-    "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
-    "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
     "04 Canvases/mind maps/IDOR scanner in SPA/Mining SPA for accessing restricted resources.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
-    "04 Canvases/mind maps/CSS security implication/Review.canvas",
     "02 Literature/papers/BAC (Broken Access Control)/Detecting Broken Object-Level Authorization Vulnerabilities in Database-Backed Applications.md",
     "03 References/(Huang, Shi, et al., 2024).md",
     "04 Canvases/meetings/2025_11_18.canvas",
@@ -208,7 +211,6 @@
     "97 Assets/JSON_example_steal_attr_inline_css.png",
     "04 Canvases/mind maps/CSS security implication/Untitled.md",
     "04 Canvases/mind maps/taint analysis in the web.canvas",
-    "04 Canvases/mind maps/social engineering techniques.canvas",
     "00 Antilibrary/compatibility or conversion testing.md",
     "00 Antilibrary/CART (classification and regression test).md",
     "02 Literature/papers/BAC (Broken Access Control)/Understanding the security risks of websites using cloud storage for direct user file uploads.md",
@@ -230,7 +232,6 @@
     "02 Literature/papers/BAC (Broken Access Control)/Uncovering and Exploiting Hidden APIs in Mobile Super Apps.md",
     "02 Literature/papers/BAC (Broken Access Control)/Least Privilege Access for Persistent Storage Mechanisms in Web Browsers.md",
     "02 Literature/papers/BAC (Broken Access Control)/Cached and confused. web cache deception in the wild.md",
-    "02 Literature/papers/BAC (Broken Access Control)/Automated broken object-level authorization attack detection in REST APIs through Open API to colored petri nets transformation.md",
     "02 Literature/papers/SPA applications",
     "02 Literature/papers/browser fingerprinting",
     "04 Canvases/mind maps/CSS security implication",
@@ -241,7 +242,6 @@
     "97 Assets/click_detection_inline_css.png",
     "97 Assets/clickjacking_example.png",
     "97 Assets/proton_summary_click_detection.png",
-    "97 Assets/context_auditor_system_design.png",
     "02 Literature/papers/accessibility",
     "00 Antilibrary/Untitled.base",
     "00 Antilibrary/Untitled 3.base",

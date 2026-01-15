@@ -1,0 +1,49 @@
+{
+	"nodes":[
+		{
+			"id":"da649cdbb9a38a3a",
+			"type":"file",
+			"file":"97 Assets/misskey_css_injection.png",
+			"styleAttributes":{"border":"invisible"},
+			"x":-460,
+			"y":-200,
+			"width":815,
+			"height":140
+		},
+		{
+			"id":"254243bb102e6bef",
+			"type":"text",
+			"text":"# CVE-2025-46340\n- https://github.com/misskey-dev/misskey/security/advisories/GHSA-3p2w-xmv5-jm95",
+			"styleAttributes":{"border":"invisible"},
+			"x":-540,
+			"y":-420,
+			"width":895,
+			"height":140
+		},
+		{
+			"id":"fdd496e302cafd41",
+			"type":"file",
+			"file":"97 Assets/misskey_css_injection_2.png",
+			"styleAttributes":{"border":"invisible"},
+			"x":-464,
+			"y":0,
+			"width":819,
+			"height":500
+		},
+		{
+			"id":"21c192e0ef7dc1b1",
+			"type":"text",
+			"text":"# CVE-2022-31108\n- https://github.com/mermaid-js/mermaid/security/advisories/GHSA-x3vm-38hw-55wf",
+			"styleAttributes":{"border":"invisible"},
+			"x":-540,
+			"y":880,
+			"width":1000,
+			"height":140
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}
