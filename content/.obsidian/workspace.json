@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
+                "file": "04 Canvases/meetings/2026_01_21.canvas",
                 "viewState": {
-                  "x": 448.12043813457035,
-                  "y": -321.26965968088984,
-                  "zoom": -0.6000000000000001
+                  "x": 823.8819749665485,
+                  "y": -284.0474155937063,
+                  "zoom": -0.18943268312844375
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "CSS injection (CVEs)"
+              "title": "2026_01_21"
             }
           }
         ]
@@ -190,14 +190,15 @@
   },
   "active": "822916a9c85e2213",
   "lastOpenFiles": [
+    "04 Canvases/meetings/2026_01_14.canvas",
+    "04 Canvases/meetings/2026_01_21.canvas",
+    "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
     "97 Assets/misskey_injection_3.png",
     "97 Assets/misskey_css_injection_2.png",
     "97 Assets/misskey_css_injection.png",
     "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
-    "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
     "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
     "04 Canvases/mind maps/CSS security implication/Review.canvas",
-    "04 Canvases/meetings/2026_01_14.canvas",
     "02 Literature/papers/XSS (Cross-Site Scripting)/Don't Trust The Locals. Investigating the Prevalence of Persistent Client-Side Cross-Site Scripting in the Wild..md",
     "00 Antilibrary/RPO (Relative Path Overwrite).md",
     "03 References/(Arshad, Mirheidari, et al., 2018).md",
@@ -241,7 +242,6 @@
     "97 Assets/bft_img_question.png",
     "02 Literature/papers/SVG (Scalable Vectors Graphics)",
     "97 Assets/click_detection_inline_css.png",
-    "97 Assets/clickjacking_example.png",
     "02 Literature/papers/accessibility",
     "00 Antilibrary/Untitled.base",
     "00 Antilibrary/Untitled 3.base",
