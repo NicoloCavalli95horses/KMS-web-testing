@@ -11,17 +11,15 @@
             "id": "822916a9c85e2213",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/meetings/2026_01_21.canvas",
-                "viewState": {
-                  "x": 823.8819749665485,
-                  "y": -284.0474155937063,
-                  "zoom": -0.18943268312844375
-                }
+                "file": "01 Notes/CodeQL.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "2026_01_21"
+              "icon": "lucide-file",
+              "title": "CodeQL"
             }
           }
         ]
@@ -190,8 +188,15 @@
   },
   "active": "822916a9c85e2213",
   "lastOpenFiles": [
-    "04 Canvases/meetings/2026_01_14.canvas",
+    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_04.md",
+    "01 Notes/CodeQL.md",
+    "06 Courses, webinars/CodeQL/Code.md",
+    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_03.md",
+    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_02.md",
+    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_01.md",
     "04 Canvases/meetings/2026_01_21.canvas",
+    "06 Courses, webinars/CodeQL",
+    "04 Canvases/meetings/2026_01_14.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
     "97 Assets/misskey_injection_3.png",
     "97 Assets/misskey_css_injection_2.png",
@@ -212,7 +217,6 @@
     "97 Assets/vue_sink_css_injection.png",
     "97 Assets/JSON_example_steal_attr_inline_css.png",
     "04 Canvases/mind maps/CSS security implication/Untitled.md",
-    "04 Canvases/mind maps/taint analysis in the web.canvas",
     "00 Antilibrary/compatibility or conversion testing.md",
     "00 Antilibrary/CART (classification and regression test).md",
     "02 Literature/papers/BAC (Broken Access Control)/Understanding the security risks of websites using cloud storage for direct user file uploads.md",
@@ -229,11 +233,6 @@
     "06 Courses, webinars/FLE French Course/French Course 05-13-2025.md",
     "06 Courses, webinars/FLE French Course/French Course 04-08-2025.md",
     "06 Courses, webinars/FLE French Course/French Course 04-01-2025.md",
-    "06 Courses, webinars/FLE French Course/French Course 03-18-2025.md",
-    "06 Courses, webinars/FLE French Course/French Course 03-11-2025.md",
-    "02 Literature/papers/BAC (Broken Access Control)/Uncovering and Exploiting Hidden APIs in Mobile Super Apps.md",
-    "02 Literature/papers/BAC (Broken Access Control)/Least Privilege Access for Persistent Storage Mechanisms in Web Browsers.md",
-    "02 Literature/papers/BAC (Broken Access Control)/Cached and confused. web cache deception in the wild.md",
     "02 Literature/papers/SPA applications",
     "02 Literature/papers/browser fingerprinting",
     "04 Canvases/mind maps/CSS security implication",
@@ -244,7 +243,6 @@
     "97 Assets/click_detection_inline_css.png",
     "02 Literature/papers/accessibility",
     "00 Antilibrary/Untitled.base",
-    "00 Antilibrary/Untitled 3.base",
-    "00 Antilibrary/Untitled 2.base"
+    "00 Antilibrary/Untitled 3.base"
   ]
 }
