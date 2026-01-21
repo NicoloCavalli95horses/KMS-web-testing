@@ -74,42 +74,42 @@
 			"height":1180
 		},
 		{
-			"id":"5ffe21bdffef5ef3",
+			"id":"6c8c52c3f995f1d8",
 			"type":"text",
-			"text":"- we must demonstrate that a new tool is needed (eg., CodeQL cannot find real world Vue.js vulnerabilities in Vue 3)\n- must completely support the framework (V2 to V3), new syntax, etc\n- must be able to find real-world CVEs:\n\t- [CVE-2025-53892](https://www.cve.org/CVERecord?id=CVE-2025-53892)\n\t- [CVE-2025-65442](https://www.cve.org/CVERecord?id=CVE-2025-65442)\n\t- [CVE-2025-46340](https://www.cve.org/CVERecord?id=CVE-2025-46340)",
-			"styleAttributes":{"border":"invisible"},
-			"x":880,
-			"y":-575,
-			"width":780,
-			"height":375
+			"text":"# CodeQL",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":560,
+			"y":-722,
+			"width":180,
+			"height":100
 		},
 		{
 			"id":"2ba1a7d2c88c58e7",
 			"type":"text",
 			"text":"# A new static analysis tool for taint analysis in Vue.js?",
 			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"x":880,
-			"y":-700,
+			"x":1580,
+			"y":-907,
 			"width":780,
 			"height":100
 		},
 		{
-			"id":"6c8c52c3f995f1d8",
+			"id":"5ffe21bdffef5ef3",
 			"type":"text",
-			"text":"# CodeQL",
-			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"x":-140,
-			"y":-515,
-			"width":180,
-			"height":100
+			"text":"- we must demonstrate that a new tool is needed (eg., CodeQL cannot find real world Vue.js vulnerabilities in Vue 3)\n- must completely support the framework (V2 to V3), new syntax, etc\n- must be able to find real-world CVEs:\n\t- [CVE-2025-53892](https://www.cve.org/CVERecord?id=CVE-2025-53892)\n\t- [CVE-2025-65442](https://www.cve.org/CVERecord?id=CVE-2025-65442)\n\t- [CVE-2025-46340](https://www.cve.org/CVERecord?id=CVE-2025-46340)",
+			"styleAttributes":{"border":"invisible"},
+			"x":1580,
+			"y":-782,
+			"width":780,
+			"height":375
 		},
 		{
 			"id":"3e66e3aa305226bc",
 			"type":"text",
 			"text":"[[ReactAppScan. Mining React Application Vulnerabilities via Component Graph]] (CCS 2024)\n- found a gap in the way CodeQL parses React App\n- model relations between React components in a much more detailed way (framework-specific approach)",
 			"styleAttributes":{"border":"invisible"},
-			"x":180,
-			"y":-375,
+			"x":880,
+			"y":-582,
 			"width":500,
 			"height":235
 		},
@@ -118,8 +118,8 @@
 			"type":"text",
 			"text":"does [support](https://codeql.github.com/docs/codeql-overview/supported-languages-and-frameworks/) `Vue.js`, as well as `.jsx`",
 			"styleAttributes":{"border":"invisible"},
-			"x":180,
-			"y":-477,
+			"x":880,
+			"y":-684,
 			"width":460,
 			"height":62
 		},
@@ -128,8 +128,8 @@
 			"type":"text",
 			"text":"state-of-the-art open source project able to perform [[static analysis]] in 10+ languages and many software frameworks",
 			"styleAttributes":{"border":"invisible"},
-			"x":180,
-			"y":-630,
+			"x":880,
+			"y":-837,
 			"width":460,
 			"height":110
 		}

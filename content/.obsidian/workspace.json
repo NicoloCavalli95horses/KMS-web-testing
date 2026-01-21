@@ -11,15 +11,17 @@
             "id": "822916a9c85e2213",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "01 Notes/CodeQL.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/meetings/2026_01_14.canvas",
+                "viewState": {
+                  "x": 789.960544270896,
+                  "y": 297.2540660670278,
+                  "zoom": -1.0808587932052407
+                }
               },
-              "icon": "lucide-file",
-              "title": "CodeQL"
+              "icon": "lucide-layout-dashboard",
+              "title": "2026_01_14"
             }
           }
         ]
@@ -188,13 +190,13 @@
   },
   "active": "822916a9c85e2213",
   "lastOpenFiles": [
-    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_04.md",
+    "04 Canvases/meetings/2026_01_21.canvas",
     "01 Notes/CodeQL.md",
+    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_04.md",
     "06 Courses, webinars/CodeQL/Code.md",
     "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_03.md",
     "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_02.md",
     "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_01.md",
-    "04 Canvases/meetings/2026_01_21.canvas",
     "06 Courses, webinars/CodeQL",
     "04 Canvases/meetings/2026_01_14.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
@@ -232,7 +234,6 @@
     "06 Courses, webinars/Cybersecurity in the age of LLMs.md",
     "06 Courses, webinars/FLE French Course/French Course 05-13-2025.md",
     "06 Courses, webinars/FLE French Course/French Course 04-08-2025.md",
-    "06 Courses, webinars/FLE French Course/French Course 04-01-2025.md",
     "02 Literature/papers/SPA applications",
     "02 Literature/papers/browser fingerprinting",
     "04 Canvases/mind maps/CSS security implication",
