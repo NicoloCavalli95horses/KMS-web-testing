@@ -23,8 +23,21 @@
               "icon": "lucide-layout-dashboard",
               "title": "2026_01_14"
             }
+          },
+          {
+            "id": "2d6919dafb222c9d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,7 +201,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "822916a9c85e2213",
+  "active": "2d6919dafb222c9d",
   "lastOpenFiles": [
     "04 Canvases/meetings/2026_01_21.canvas",
     "01 Notes/CodeQL.md",
