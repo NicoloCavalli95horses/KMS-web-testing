@@ -13,31 +13,18 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/meetings/2026_01_14.canvas",
+                "file": "04 Canvases/meetings/2026_01_28.canvas",
                 "viewState": {
-                  "x": 789.960544270896,
-                  "y": 297.2540660670278,
-                  "zoom": -1.0808587932052407
+                  "x": 570.2512264963156,
+                  "y": 1210.7408811007447,
+                  "zoom": -1.161251074264376
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "2026_01_14"
-            }
-          },
-          {
-            "id": "2d6919dafb222c9d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.5"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.5"
+              "title": "2026_01_28"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,8 +188,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "2d6919dafb222c9d",
+  "active": "822916a9c85e2213",
   "lastOpenFiles": [
+    "google-chrome-web-browser-logo-computer-icons-chrome-9391b0cd7c3be9a1b753ac6778214fe9.png",
+    "chrome_icon_png.png",
+    "04 Canvases/meetings/2026_01_14.canvas",
+    "04 Canvases/meetings/2026_01_28.canvas",
     "04 Canvases/meetings/2026_01_21.canvas",
     "01 Notes/CodeQL.md",
     "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_04.md",
@@ -211,7 +202,6 @@
     "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_02.md",
     "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_01.md",
     "06 Courses, webinars/CodeQL",
-    "04 Canvases/meetings/2026_01_14.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
     "97 Assets/misskey_injection_3.png",
     "97 Assets/misskey_css_injection_2.png",
@@ -227,7 +217,6 @@
     "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
     "02 Literature/papers/BAC (Broken Access Control)/Detecting Broken Object-Level Authorization Vulnerabilities in Database-Backed Applications.md",
     "03 References/(Huang, Shi, et al., 2024).md",
-    "04 Canvases/meetings/2025_11_18.canvas",
     "97 Assets/proof_network_request_attr_extraction.png",
     "97 Assets/vue_sink_css_injection.png",
     "97 Assets/JSON_example_steal_attr_inline_css.png",
@@ -254,7 +243,6 @@
     "97 Assets/access_to_css_var_gmail.png",
     "97 Assets/bft_img_question.png",
     "02 Literature/papers/SVG (Scalable Vectors Graphics)",
-    "97 Assets/click_detection_inline_css.png",
     "02 Literature/papers/accessibility",
     "00 Antilibrary/Untitled.base",
     "00 Antilibrary/Untitled 3.base"
