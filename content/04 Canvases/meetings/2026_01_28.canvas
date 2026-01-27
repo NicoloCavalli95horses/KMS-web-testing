@@ -164,7 +164,17 @@
 			"x":250,
 			"y":1180,
 			"width":530,
-			"height":400
+			"height":420
+		},
+		{
+			"id":"3dbb1dd7bdda007e",
+			"type":"text",
+			"text":"# Algorithm detail\nhttps://mermaid.ai/app/projects/2b69f062-34b3-45da-9564-026de24990a9/diagrams/5f860cf3-b05b-4ea9-867d-bf0214146341/version/v0.1/edit",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":250,
+			"y":1640,
+			"width":530,
+			"height":200
 		}
 	],
 	"edges":[
