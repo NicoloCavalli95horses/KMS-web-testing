@@ -1,201 +1,6 @@
 {
 	"nodes":[
 		{"id":"ab00ba11c905d1e4","type":"group","x":-140,"y":740,"width":1260,"height":780,"label":"Instrumentation"},
-		{"id":"e9819d54a6d19979","type":"file","file":"97 Assets/idor_spa_case_description.png","x":-206,"y":-340,"width":486,"height":620},
-		{
-			"id":"781673802ba52be4",
-			"type":"file",
-			"file":"google-chrome-web-browser-logo-computer-icons-chrome-9391b0cd7c3be9a1b753ac6778214fe9.png",
-			"styleAttributes":{"border":"invisible"},
-			"x":450,
-			"y":640,
-			"width":130,
-			"height":130
-		},
-		{
-			"id":"3433d6bb8599b322",
-			"type":"text",
-			"text":"# React DevTools",
-			"styleAttributes":{
-				"textAlign":"center",
-				"border":null,
-				"shape":null
-			},
-			"x":385,
-			"y":770,
-			"width":260,
-			"height":80
-		},
-		{
-			"id":"2154063ac5d32ffd",
-			"type":"text",
-			"text":"### React",
-			"styleAttributes":{
-				"textAlign":"center",
-				"border":null
-			},
-			"x":385,
-			"y":880,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"a3a4e93e2ce81704",
-			"type":"text",
-			"text":"## Track HTTP requests and responses",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-360,
-			"y":1020,
-			"width":530,
-			"height":130
-		},
-		{
-			"id":"110f59d6d2067c27",
-			"type":"text",
-			"text":"## Map endpoint's parts to values extracted from the component tree",
-			"styleAttributes":{"textAlign":"center"},
-			"x":250,
-			"y":1020,
-			"width":530,
-			"height":130
-		},
-		{
-			"id":"2240ec19f7182cd7",
-			"type":"text",
-			"text":"## Generate security tests",
-			"styleAttributes":{"textAlign":"center"},
-			"x":860,
-			"y":1020,
-			"width":530,
-			"height":130
-		},
-		{
-			"id":"912b496bb3b23a1c",
-			"type":"text",
-			"text":"- #### This will support pentester work but the oracle cannot be defined without a human in the loop",
-			"styleAttributes":{"textAlign":"center"},
-			"x":860,
-			"y":1180,
-			"width":530,
-			"height":140
-		},
-		{
-			"id":"4eb38c255e9f29d5",
-			"type":"text",
-			"text":"## Correctly Authorized",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":365,
-			"y":-210,
-			"width":390,
-			"height":60
-		},
-		{
-			"id":"4bc279100f139e49",
-			"type":"text",
-			"text":"`https://[domain]/[page]/[section]/[category_id]/[id_1]`",
-			"styleAttributes":{"border":"dashed"},
-			"x":365,
-			"y":-150,
-			"width":610,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"254f9d281aebfd56",
-			"type":"text",
-			"text":"## Incorrectly authorized",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":365,
-			"y":-30,
-			"width":390,
-			"height":60
-		},
-		{
-			"id":"af3626f75f05e826",
-			"type":"text",
-			"text":"`https://[domain]/[page]/[section]/[category_id]/[id_3]`",
-			"styleAttributes":{"border":"dashed"},
-			"x":365,
-			"y":30,
-			"width":610,
-			"height":60,
-			"color":"2"
-		},
-		{
-			"id":"777fe468ced719fa",
-			"type":"text",
-			"text":"- #### Fetch and XMLHttpRequest APIs ([[Monkey patching]])",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-360,
-			"y":1180,
-			"width":530,
-			"height":140
-		},
-		{
-			"id":"1f78f21b918902fe",
-			"type":"text",
-			"text":"### For each part of the endpoint:\n#### - find the component who contains that value (if any)\n#### - find siblings (if any)\n#### - if a sibling contains a different value for the same prop, a mutation is found\n#### - we apply the mutation to the original endpoint, save it as a candidate, and proceed with the next part of the endpoint",
-			"styleAttributes":{
-				"textAlign":null
-			},
-			"x":250,
-			"y":1180,
-			"width":530,
-			"height":420
-		},
-		{
-			"id":"f1a51715e84ced86",
-			"type":"text",
-			"text":"```mermaid\nflowchart TD\n    Start@{shape: circle, label: \"START\"}\n    End@{shape: dbl-circ, label: \"END\"}\n    \n    Start --> A[\"Valid endpoint 'api/\\[id1\\]/\\[id2\\]/\\[id3\\]/...'\"]\n    A --> B([\"For each token in the path\"])\n    B -->|i < length| C{\"Is token within a component's props?\"}\n    B -->|i = length| End\n\n    C -- \"Yes\" --> E{\"Does a sibling component exist with a different value for the same prop?\"}\n    C -- \"No\" --> D[\"i++\"]\n    D --> B\n\n    E -- \"Yes\" --> F[\"Save mutated endpoint\"]\n    F --> G[\"Generate test\"]\n    G --> D\n    E -- \"No\" --> D\n```\n\n\n\n\n",
-			"styleAttributes":{"border":"invisible"},
-			"x":120,
-			"y":1760,
-			"width":725,
-			"height":1620
-		},
-		{
-			"id":"3dbb1dd7bdda007e",
-			"type":"text",
-			"text":"# Algorithm hypothesis",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":120,
-			"y":1660,
-			"width":530,
-			"height":100
-		},
-		{
-			"id":"0d42bf7d4df761a1",
-			"type":"text",
-			"text":"## Example input\n-  api/section1/resource1\n\n## Example output\n- api/section1/resurce2\n- api/section2/resource1\n- api/section2/resource2\n- ...\n",
-			"styleAttributes":{"border":"invisible"},
-			"x":880,
-			"y":1760,
-			"width":340,
-			"height":380
-		},
-		{
-			"id":"2e28547f490dd4b9",
-			"type":"text",
-			"text":"# Exposed resources (IDOR/BOLA)",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-206,
-			"y":-560,
-			"width":620,
-			"height":100
-		},
-		{
-			"id":"3d861bb068944142",
-			"type":"text",
-			"text":"## security-critical information is hidden in the React component tree",
-			"styleAttributes":{
-				"textAlign":null,
-				"border":"invisible"
-			},
-			"x":515,
-			"y":-460,
-			"width":620,
-			"height":120
-		},
 		{
 			"id":"0c2d6532c45f8a77",
 			"type":"text",
@@ -274,7 +79,7 @@
 		{
 			"id":"8460ad02aa5e6b48",
 			"type":"text",
-			"text":"Focus on bad design patterns discovered empirically, present relevant and educational case studies",
+			"text":"Focus on a bad design pattern discovered empirically but very prevalent. Present relevant and educational case studies",
 			"styleAttributes":{
 				"border":null
 			},
@@ -326,7 +131,7 @@
 		{
 			"id":"0986be56d93571cb",
 			"type":"text",
-			"text":"We present a tool (RAPIDOR) that can help finding IDOR/BOLA issues in React applications.\n\nWe evaluate the tool in Busuu.com and on a test environment that generates endpoints (we do not know in advance what endpoints are mistakenly exposed)\n\nWe explain why we could not use this tool to find other BACs in our set\n\nWe compare this tool to Burp Suite and Owasp ZAP (state-of-the-art web vulnerability scanners)",
+			"text":"Present a tool  that can help finding IDOR/BOLA issues in React applications.\n\nWe evaluate the tool in Busuu.com and on a test environment that replicate the necessary constraints\n\nWe explain why we could not use this tool to find other BACs in our set\n\nWe compare this tool to Burp Suite and Owasp ZAP (state-of-the-art web vulnerability scanners)",
 			"styleAttributes":{
 				"border":null
 			},
@@ -335,6 +140,211 @@
 			"width":500,
 			"height":400,
 			"color":"4"
+		},
+		{
+			"id":"a3a4e93e2ce81704",
+			"type":"text",
+			"text":"## Track HTTP requests and responses",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-360,
+			"y":1020,
+			"width":530,
+			"height":130
+		},
+		{"id":"e9819d54a6d19979","type":"file","file":"97 Assets/idor_spa_case_description.png","x":-206,"y":-340,"width":486,"height":620},
+		{
+			"id":"2e28547f490dd4b9",
+			"type":"text",
+			"text":"# Exposed resources (IDOR/BOLA)",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-206,
+			"y":-560,
+			"width":620,
+			"height":100
+		},
+		{
+			"id":"777fe468ced719fa",
+			"type":"text",
+			"text":"- #### Fetch and XMLHttpRequest APIs ([[Monkey patching]])",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-360,
+			"y":1180,
+			"width":530,
+			"height":140
+		},
+		{
+			"id":"110f59d6d2067c27",
+			"type":"text",
+			"text":"## Map endpoint's parts to values extracted from the component tree",
+			"styleAttributes":{"textAlign":"center"},
+			"x":250,
+			"y":1020,
+			"width":530,
+			"height":130
+		},
+		{
+			"id":"4eb38c255e9f29d5",
+			"type":"text",
+			"text":"## Correctly Authorized",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":365,
+			"y":-210,
+			"width":390,
+			"height":60
+		},
+		{
+			"id":"4bc279100f139e49",
+			"type":"text",
+			"text":"`https://[domain]/[page]/[section]/[category_id]/[id_1]`",
+			"styleAttributes":{"border":"dashed"},
+			"x":365,
+			"y":-150,
+			"width":610,
+			"height":60,
+			"color":"4"
+		},
+		{
+			"id":"254f9d281aebfd56",
+			"type":"text",
+			"text":"## Incorrectly authorized",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":365,
+			"y":-30,
+			"width":390,
+			"height":60
+		},
+		{
+			"id":"af3626f75f05e826",
+			"type":"text",
+			"text":"`https://[domain]/[page]/[section]/[category_id]/[id_3]`",
+			"styleAttributes":{"border":"dashed"},
+			"x":365,
+			"y":30,
+			"width":610,
+			"height":60,
+			"color":"2"
+		},
+		{
+			"id":"1f78f21b918902fe",
+			"type":"text",
+			"text":"### For each part of the endpoint:\n#### - find the component who contains that value (if any)\n#### - find siblings (if any)\n#### - if a sibling contains a different value for the same prop, a mutation is found\n#### - we apply the mutation to the original endpoint, save it as a candidate, and proceed with the next part of the endpoint",
+			"styleAttributes":{
+				"textAlign":null
+			},
+			"x":250,
+			"y":1180,
+			"width":530,
+			"height":420
+		},
+		{
+			"id":"781673802ba52be4",
+			"type":"file",
+			"file":"google-chrome-web-browser-logo-computer-icons-chrome-9391b0cd7c3be9a1b753ac6778214fe9.png",
+			"styleAttributes":{"border":"invisible"},
+			"x":450,
+			"y":640,
+			"width":130,
+			"height":130
+		},
+		{
+			"id":"3433d6bb8599b322",
+			"type":"text",
+			"text":"# React DevTools",
+			"styleAttributes":{
+				"textAlign":"center",
+				"border":null,
+				"shape":null
+			},
+			"x":385,
+			"y":770,
+			"width":260,
+			"height":80
+		},
+		{
+			"id":"2154063ac5d32ffd",
+			"type":"text",
+			"text":"### React",
+			"styleAttributes":{
+				"textAlign":"center",
+				"border":null
+			},
+			"x":385,
+			"y":880,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"3d861bb068944142",
+			"type":"text",
+			"text":"## security-critical information is hidden in the React component tree",
+			"styleAttributes":{
+				"textAlign":null,
+				"border":"invisible"
+			},
+			"x":515,
+			"y":-460,
+			"width":620,
+			"height":120
+		},
+		{
+			"id":"2240ec19f7182cd7",
+			"type":"text",
+			"text":"## Generate security tests",
+			"styleAttributes":{"textAlign":"center"},
+			"x":860,
+			"y":1020,
+			"width":530,
+			"height":130
+		},
+		{
+			"id":"912b496bb3b23a1c",
+			"type":"text",
+			"text":"- #### This will support pentester work but the oracle cannot be defined without a human in the loop",
+			"styleAttributes":{"textAlign":"center"},
+			"x":860,
+			"y":1180,
+			"width":530,
+			"height":140
+		},
+		{
+			"id":"3dbb1dd7bdda007e",
+			"type":"text",
+			"text":"# Algorithm hypothesis",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":120,
+			"y":1660,
+			"width":530,
+			"height":100
+		},
+		{
+			"id":"f1a51715e84ced86",
+			"type":"text",
+			"text":"```mermaid\nflowchart TD\n    Start@{shape: circle, label: \"START\"}\n    End@{shape: dbl-circ, label: \"END\"}\n    \n    Start --> A[\"Valid endpoint 'api/\\[id1\\]/\\[id2\\]/\\[id3\\]/...'\"]\n    A --> B([\"For each token in the path\"])\n    B -->|i < length| C{\"Is token within a component's props?\"}\n    B -->|i = length| End\n\n    C -- \"Yes\" --> E{\"Does a sibling component exist with a different value for the same prop?\"}\n    C -- \"No\" --> D[\"i++\"]\n    D --> B\n\n    E -- \"Yes\" --> F[\"Save mutated endpoint\"]\n    F --> G[\"Generate test\"]\n    G --> D\n    E -- \"No\" --> D\n```\n\n\n\n\n",
+			"styleAttributes":{"border":"invisible"},
+			"x":120,
+			"y":1760,
+			"width":725,
+			"height":1620
+		},
+		{
+			"id":"0d42bf7d4df761a1",
+			"type":"text",
+			"text":"## Example input\n-  api/section1/resource1\n\n## Example output\n- api/section1/resurce2\n- api/section2/resource1\n- api/section2/resource2\n- ...\n",
+			"styleAttributes":{"border":"invisible"},
+			"x":880,
+			"y":1760,
+			"width":340,
+			"height":380
+		},
+		{
+			"id":"f373e6c7404c2388",
+			"type":"text",
+			"text":"# How to solve the oracle problem?",
+			"styleAttributes":{"textAlign":"center"},
+			"x":560,
+			"y":215,
+			"width":360,
+			"height":130
 		}
 	],
 	"edges":[
