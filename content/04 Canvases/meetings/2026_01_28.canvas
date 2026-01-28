@@ -261,7 +261,7 @@
 		{
 			"id":"57b90dc9f70f1aa6",
 			"type":"text",
-			"text":"Justify manual approach stressing the current technical limits that can't be addressed",
+			"text":"Justify manual approach stressing the current technical limits that can't be overcomed",
 			"styleAttributes":{
 				"border":null
 			},
@@ -287,7 +287,7 @@
 		{
 			"id":"00bce368dfbb18e4",
 			"type":"text",
-			"text":"Introducing real-world cases of flawed client-server architectures and modern ways to tamper with web front-ends",
+			"text":"Discuss flawed client-server architectures discovered with front-end tampering techniques",
 			"styleAttributes":{
 				"border":null
 			},
