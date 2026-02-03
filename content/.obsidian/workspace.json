@@ -11,17 +11,15 @@
             "id": "822916a9c85e2213",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/meetings/2026_01_28.canvas",
-                "viewState": {
-                  "x": 308.53245417992156,
-                  "y": 1941.3793067519132,
-                  "zoom": 0.5
-                }
+                "file": "03 References/(Heiderich, Niemietz, et al., 2012).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "2026_01_28"
+              "icon": "lucide-file",
+              "title": "(Heiderich, Niemietz, et al., 2012)"
             }
           }
         ]
@@ -81,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 208.5
+    "width": 407.5086555480957
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -190,10 +188,21 @@
   },
   "active": "822916a9c85e2213",
   "lastOpenFiles": [
+    "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
+    "02 Literature/papers/XSS (Cross-Site Scripting)/Don't Trust The Locals. Investigating the Prevalence of Persistent Client-Side Cross-Site Scripting in the Wild..md",
+    "96 Meta/SLR/Reviewers response SLR (S&P).md",
+    "03 References/(Steffens, Rossow, et al., 2019).md",
+    "96 Meta/SLR/Paper list.md",
+    "02 Literature/papers/XSS (Cross-Site Scripting)/WAVE. Black Box Detection of XSS, CSRF and Information Leakage Vulnerabilities.md",
+    "02 Literature/papers/XSS (Cross-Site Scripting)/On Security Issues in Web Applications through Cross Site Scripting (XSS).md",
+    "02 Literature/papers/XSS (Cross-Site Scripting)/Context-Auditor. Context-sensitive Content Injection Mitigation.md",
+    "02 Literature/papers/XSS (Cross-Site Scripting)/A survey of detection methods for XSS attacks.md",
+    "02 Literature/papers/XSS (Cross-Site Scripting)/Automated removal of cross site scripting vulnerabilities in web applications.md",
+    "02 Literature/papers/parameter tampering/Automating the Detection of Access Control Vulnerabilities in Web Applications.md",
+    "04 Canvases/meetings/2026_01_28.canvas",
     "google-chrome-web-browser-logo-computer-icons-chrome-9391b0cd7c3be9a1b753ac6778214fe9.png",
     "chrome_icon_png.png",
     "04 Canvases/meetings/2026_01_14.canvas",
-    "04 Canvases/meetings/2026_01_28.canvas",
     "04 Canvases/meetings/2026_01_21.canvas",
     "01 Notes/CodeQL.md",
     "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_04.md",
@@ -209,7 +218,6 @@
     "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
     "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
     "04 Canvases/mind maps/CSS security implication/Review.canvas",
-    "02 Literature/papers/XSS (Cross-Site Scripting)/Don't Trust The Locals. Investigating the Prevalence of Persistent Client-Side Cross-Site Scripting in the Wild..md",
     "00 Antilibrary/RPO (Relative Path Overwrite).md",
     "03 References/(Arshad, Mirheidari, et al., 2018).md",
     "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
@@ -227,21 +235,11 @@
     "03 References/(Chen, Li, et al., 2025).md",
     "97 Assets/idor_spa_case_description.png",
     "04 Canvases/mind maps/IDOR scanner in SPA",
-    "96 Meta/References analysis.md",
-    "96 Meta/PhD status.md",
-    "02 Literature/papers/BAC (Broken Access Control)/403 Forbidden. Ethically Evaluating Broken Access Control in the Wild.md",
-    "02 Literature/papers/parameter tampering/Automating the Detection of Access Control Vulnerabilities in Web Applications.md",
-    "03 References/(Chehade, Hantke, et al., 2025).md",
-    "index.md",
-    "06 Courses, webinars/Cybersecurity in the age of LLMs.md",
-    "06 Courses, webinars/FLE French Course/French Course 05-13-2025.md",
-    "06 Courses, webinars/FLE French Course/French Course 04-08-2025.md",
     "02 Literature/papers/SPA applications",
     "02 Literature/papers/browser fingerprinting",
     "04 Canvases/mind maps/CSS security implication",
     "02 Literature/papers/history sniffing",
     "97 Assets/access_to_css_var_gmail.png",
-    "97 Assets/bft_img_question.png",
     "02 Literature/papers/SVG (Scalable Vectors Graphics)",
     "02 Literature/papers/accessibility",
     "00 Antilibrary/Untitled.base",
