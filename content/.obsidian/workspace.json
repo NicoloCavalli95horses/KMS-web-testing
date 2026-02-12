@@ -11,13 +11,49 @@
             "id": "afa9308aeede50da",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature/papers/logic flow tampering/Toward black-box detection of logic flaws in web applications.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Toward black-box detection of logic flaws in web applications"
+            }
+          },
+          {
+            "id": "27d482c7ba22940b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 Notes/BFT (business flow tampering).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "BFT (business flow tampering)"
+            }
+          },
+          {
+            "id": "f5fc030e56be2fd4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02 Literature/papers/logic flow tampering/DetLogic. A black-box approach for detecting logic vulnerabilities in web applications.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "DetLogic. A black-box approach for detecting logic vulnerabilities in web applications"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -74,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5086555480957
+    "width": 440.5
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -181,35 +217,39 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "afa9308aeede50da",
+  "active": "f5fc030e56be2fd4",
   "lastOpenFiles": [
+    "03 References/(Deepa, Thilagam, et al., 2018).md",
+    "01 Notes/BFT (business flow tampering).md",
+    "02 Literature/papers/logic flow tampering/Toward black-box detection of logic flaws in web applications.md",
+    "02 Literature/papers/logic flow tampering/Requirements for preventing logic flaws in the authentication procedure of web applications.md",
+    "02 Literature/papers/logic flow tampering/Patching Logic Vulnerabilities for Web Applications using LogicPatcher.md",
+    "02 Literature/papers/logic flow tampering/On the misuse of Graphical User Interface elements to implement security controls.md",
+    "02 Literature/papers/logic flow tampering/LogicScope. automatic discovery of logic vulnerabilities within web applications.md",
+    "02 Literature/papers/logic flow tampering/Keeping out the masses. Understanding the popularity and implications of internet paywalls.md",
+    "02 Literature/papers/logic flow tampering/Finding client-side business flow tampering vulnerabilities.md",
+    "02 Literature/papers/XSS (Cross-Site Scripting)/mXSS attacks. attacking well-secured web-applications by using innerHTML mutations.md",
+    "02 Literature/papers/BAC (Broken Access Control)/Understanding the security risks of websites using cloud storage for direct user file uploads.md",
+    "02 Literature/papers/BAC (Broken Access Control)/Uncovering and Exploiting Hidden APIs in Mobile Super Apps.md",
+    "02 Literature/papers/BAC (Broken Access Control)/Least Privilege Access for Persistent Storage Mechanisms in Web Browsers.md",
+    "02 Literature/papers/BAC (Broken Access Control)/Detecting Broken Object-Level Authorization Vulnerabilities in Database-Backed Applications.md",
+    "02 Literature/papers/BAC (Broken Access Control)/Cached and confused. web cache deception in the wild.md",
+    "02 Literature/papers/BAC (Broken Access Control)/Automated broken object-level authorization attack detection in REST APIs through Open API to colored petri nets transformation.md",
+    "02 Literature/papers/BAC (Broken Access Control)/A Systematic Literature Review on the Characteristics and Effectiveness of Web Application Vulnerability Scanners.md",
+    "02 Literature/papers/BAC (Broken Access Control)/403 Forbidden. Ethically Evaluating Broken Access Control in the Wild.md",
     "02 Literature/papers/SPA applications/ReactAppScan. Mining React Application Vulnerabilities via Component Graph.md",
     "03 References/(Chehade, Hantke, et al., 2025).md",
     "03 References/(Guo, Kang, et al., 2024).md",
-    "02 Literature/papers/BAC (Broken Access Control)/403 Forbidden. Ethically Evaluating Broken Access Control in the Wild.md",
     "03 References/(Heiderich, Niemietz, et al., 2012).md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
     "02 Literature/papers/XSS (Cross-Site Scripting)/Don't Trust The Locals. Investigating the Prevalence of Persistent Client-Side Cross-Site Scripting in the Wild..md",
     "96 Meta/SLR/Reviewers response SLR (S&P).md",
     "03 References/(Steffens, Rossow, et al., 2019).md",
-    "96 Meta/SLR/Paper list.md",
-    "02 Literature/papers/XSS (Cross-Site Scripting)/WAVE. Black Box Detection of XSS, CSRF and Information Leakage Vulnerabilities.md",
-    "02 Literature/papers/XSS (Cross-Site Scripting)/On Security Issues in Web Applications through Cross Site Scripting (XSS).md",
-    "02 Literature/papers/XSS (Cross-Site Scripting)/Context-Auditor. Context-sensitive Content Injection Mitigation.md",
-    "02 Literature/papers/XSS (Cross-Site Scripting)/A survey of detection methods for XSS attacks.md",
-    "02 Literature/papers/XSS (Cross-Site Scripting)/Automated removal of cross site scripting vulnerabilities in web applications.md",
-    "02 Literature/papers/parameter tampering/Automating the Detection of Access Control Vulnerabilities in Web Applications.md",
     "04 Canvases/meetings/2026_01_28.canvas",
     "google-chrome-web-browser-logo-computer-icons-chrome-9391b0cd7c3be9a1b753ac6778214fe9.png",
     "chrome_icon_png.png",
     "04 Canvases/meetings/2026_01_14.canvas",
     "04 Canvases/meetings/2026_01_21.canvas",
-    "01 Notes/CodeQL.md",
-    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_04.md",
-    "06 Courses, webinars/CodeQL/Code.md",
-    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_03.md",
-    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_02.md",
-    "06 Courses, webinars/ERMSEI 2025 Summer School/2025_09_01.md",
     "06 Courses, webinars/CodeQL",
     "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
     "97 Assets/misskey_injection_3.png",
@@ -218,13 +258,9 @@
     "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
     "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
     "04 Canvases/mind maps/CSS security implication/Review.canvas",
-    "00 Antilibrary/RPO (Relative Path Overwrite).md",
-    "03 References/(Arshad, Mirheidari, et al., 2018).md",
     "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
     "04 Canvases/mind maps/IDOR scanner in SPA/Mining SPA for accessing restricted resources.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
-    "02 Literature/papers/BAC (Broken Access Control)/Detecting Broken Object-Level Authorization Vulnerabilities in Database-Backed Applications.md",
-    "03 References/(Huang, Shi, et al., 2024).md",
     "97 Assets/proof_network_request_attr_extraction.png",
     "97 Assets/vue_sink_css_injection.png",
     "97 Assets/JSON_example_steal_attr_inline_css.png",
