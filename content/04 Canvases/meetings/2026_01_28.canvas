@@ -2,6 +2,26 @@
 	"nodes":[
 		{"id":"ab00ba11c905d1e4","type":"group","x":-140,"y":740,"width":1260,"height":780,"label":"Instrumentation"},
 		{
+			"id":"2240ec19f7182cd7",
+			"type":"text",
+			"text":"## Generate security tests",
+			"styleAttributes":{"textAlign":"center"},
+			"x":860,
+			"y":1020,
+			"width":530,
+			"height":130
+		},
+		{
+			"id":"912b496bb3b23a1c",
+			"type":"text",
+			"text":"- #### This will support pentester work but the oracle cannot be defined without a human in the loop",
+			"styleAttributes":{"textAlign":"center"},
+			"x":860,
+			"y":1180,
+			"width":530,
+			"height":140
+		},
+		{
 			"id":"0c2d6532c45f8a77",
 			"type":"text",
 			"text":"# Paper corrections",
@@ -116,6 +136,19 @@
 			"color":"4"
 		},
 		{
+			"id":"5039e24d2cb7d03a",
+			"type":"text",
+			"text":"Limited automation (TamperMonkey), presented limits of Burp Suite and Owasp ZAP",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-2500,
+			"y":620,
+			"width":440,
+			"height":400,
+			"color":"1"
+		},
+		{
 			"id":"a3a4e93e2ce81704",
 			"type":"text",
 			"text":"## Track HTTP requests and responses",
@@ -135,26 +168,6 @@
 			"y":-560,
 			"width":620,
 			"height":100
-		},
-		{
-			"id":"777fe468ced719fa",
-			"type":"text",
-			"text":"- #### Fetch and XMLHttpRequest APIs ([[Monkey patching]])",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-360,
-			"y":1180,
-			"width":530,
-			"height":140
-		},
-		{
-			"id":"110f59d6d2067c27",
-			"type":"text",
-			"text":"## Map endpoint's parts to values extracted from the component tree",
-			"styleAttributes":{"textAlign":"center"},
-			"x":250,
-			"y":1020,
-			"width":530,
-			"height":130
 		},
 		{
 			"id":"4eb38c255e9f29d5",
@@ -197,6 +210,62 @@
 			"width":610,
 			"height":60,
 			"color":"2"
+		},
+		{
+			"id":"3d861bb068944142",
+			"type":"text",
+			"text":"## security-critical information is hidden in the React component tree",
+			"styleAttributes":{
+				"textAlign":null,
+				"border":"invisible"
+			},
+			"x":515,
+			"y":-460,
+			"width":620,
+			"height":120
+		},
+		{
+			"id":"f373e6c7404c2388",
+			"type":"text",
+			"text":"# How to solve the oracle problem?",
+			"styleAttributes":{"textAlign":"center"},
+			"x":560,
+			"y":215,
+			"width":360,
+			"height":130
+		},
+		{
+			"id":"0986be56d93571cb",
+			"type":"text",
+			"text":"Present a tool  that can help finding IDOR/BOLA issues in React applications.\n\nWe evaluate the tool in Busuu.com and on a test environment that replicate the necessary constraints\n\nWe explain why we could not use this tool to find other BACs in our set\n\nWe compare this tool to Burp Suite and Owasp ZAP (state-of-the-art web vulnerability scanners)",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-2000,
+			"y":620,
+			"width":500,
+			"height":400,
+			"color":"4"
+		},
+		{
+			"id":"777fe468ced719fa",
+			"type":"text",
+			"text":"- #### Fetch and XMLHttpRequest APIs ([[Monkey patching]])",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-360,
+			"y":1180,
+			"width":530,
+			"height":140
+		},
+		{
+			"id":"110f59d6d2067c27",
+			"type":"text",
+			"text":"## Map endpoint's parts to values extracted from the component tree",
+			"styleAttributes":{"textAlign":"center"},
+			"x":250,
+			"y":1020,
+			"width":530,
+			"height":130
 		},
 		{
 			"id":"1f78f21b918902fe",
@@ -248,39 +317,6 @@
 			"height":60
 		},
 		{
-			"id":"3d861bb068944142",
-			"type":"text",
-			"text":"## security-critical information is hidden in the React component tree",
-			"styleAttributes":{
-				"textAlign":null,
-				"border":"invisible"
-			},
-			"x":515,
-			"y":-460,
-			"width":620,
-			"height":120
-		},
-		{
-			"id":"2240ec19f7182cd7",
-			"type":"text",
-			"text":"## Generate security tests",
-			"styleAttributes":{"textAlign":"center"},
-			"x":860,
-			"y":1020,
-			"width":530,
-			"height":130
-		},
-		{
-			"id":"912b496bb3b23a1c",
-			"type":"text",
-			"text":"- #### This will support pentester work but the oracle cannot be defined without a human in the loop",
-			"styleAttributes":{"textAlign":"center"},
-			"x":860,
-			"y":1180,
-			"width":530,
-			"height":140
-		},
-		{
 			"id":"3dbb1dd7bdda007e",
 			"type":"text",
 			"text":"# Algorithm hypothesis",
@@ -309,42 +345,6 @@
 			"y":1760,
 			"width":340,
 			"height":380
-		},
-		{
-			"id":"f373e6c7404c2388",
-			"type":"text",
-			"text":"# How to solve the oracle problem?",
-			"styleAttributes":{"textAlign":"center"},
-			"x":560,
-			"y":215,
-			"width":360,
-			"height":130
-		},
-		{
-			"id":"5039e24d2cb7d03a",
-			"type":"text",
-			"text":"Limited automation (TamperMonkey), presented limits of Burp Suite and Owasp ZAP",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":-2500,
-			"y":620,
-			"width":440,
-			"height":400,
-			"color":"1"
-		},
-		{
-			"id":"0986be56d93571cb",
-			"type":"text",
-			"text":"Present a tool  that can help finding IDOR/BOLA issues in React applications.\n\nWe evaluate the tool in Busuu.com and on a test environment that replicate the necessary constraints\n\nWe explain why we could not use this tool to find other BACs in our set\n\nWe compare this tool to Burp Suite and Owasp ZAP (state-of-the-art web vulnerability scanners)",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":-2000,
-			"y":620,
-			"width":500,
-			"height":400,
-			"color":"4"
 		}
 	],
 	"edges":[

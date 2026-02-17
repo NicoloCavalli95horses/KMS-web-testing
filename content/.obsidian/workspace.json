@@ -11,10 +11,17 @@
             "id": "31c9e2a0f2189d58",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "canvas",
+              "state": {
+                "file": "04 Canvases/meetings/2026_01_21.canvas",
+                "viewState": {
+                  "x": 1805.5817055366829,
+                  "y": -549.4878499927784,
+                  "zoom": -1.1852526938310328
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "2026_01_21"
             }
           }
         ]
@@ -183,6 +190,7 @@
   },
   "active": "31c9e2a0f2189d58",
   "lastOpenFiles": [
+    "04 Canvases/meetings/2026_01_28.canvas",
     "97 Assets/google-chrome-web-browser-logo-computer-icons-chrome-9391b0cd7c3be9a1b753ac6778214fe9.png",
     "chrome_icon_png.png",
     "06 Courses, webinars/AI for trust and security in and by digital systems (Ecole D'Hiver).md",
@@ -210,7 +218,6 @@
     "03 References/(Guo, Kang, et al., 2024).md",
     "03 References/(Heiderich, Niemietz, et al., 2012).md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
-    "04 Canvases/meetings/2026_01_28.canvas",
     "04 Canvases/meetings/2026_01_14.canvas",
     "04 Canvases/meetings/2026_01_21.canvas",
     "06 Courses, webinars/CodeQL",

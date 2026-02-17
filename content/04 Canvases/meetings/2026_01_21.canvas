@@ -19,9 +19,9 @@
 			"text":"### Design a pipeline to study open source GitHub projects (Software Heritage?) at scale\n- what projects should we focus on? which one may be more likely to have CSS injection issues?",
 			"styleAttributes":{"border":"invisible"},
 			"x":3210,
-			"y":240,
+			"y":465,
 			"width":700,
-			"height":200
+			"height":255
 		},
 		{
 			"id":"bcb7e32690ba2153",
@@ -29,9 +29,9 @@
 			"text":"### Identify CSS source and sinks\n- shall we consider SPA-specific sinks? \nsee [[Stealing attributes via inline CSS, In SPA.canvas|Stealing attributes via inline CSS, In SPA]]",
 			"styleAttributes":{"border":"invisible"},
 			"x":3200,
-			"y":-280,
+			"y":-198,
 			"width":720,
-			"height":140
+			"height":178
 		},
 		{
 			"id":"87bbf53724edede2",
@@ -41,7 +41,7 @@
 			"x":3200,
 			"y":-580,
 			"width":720,
-			"height":220
+			"height":280
 		},
 		{
 			"id":"a7a1d8ccda2db817",
@@ -49,9 +49,9 @@
 			"text":"### Build a static analysis tool to find relevant data flows\n- AST\n- intermediate representation\n- flow validation\n- candidates analysis\n- manual validation of the results on a sample",
 			"styleAttributes":{"border":"invisible"},
 			"x":3200,
-			"y":-80,
+			"y":57,
 			"width":720,
-			"height":260
+			"height":331
 		},
 		{
 			"id":"1987644f4e2966b5",
@@ -59,9 +59,9 @@
 			"text":"## Real world scenarios\n\n1) ==Supply chain attacks==: plugin WorldPress, npm libraries (even Mermaid!)\n2) ==User-supplied payload==\n\t- HTTP request body: e-commerce or blog that let users define CSS for specific content (item, posts, etc)\n\t- URL: Non-sanitized parameter (eg. title of project) lead to stored XSS which can be abused to execute attacker-controlled CSS",
 			"styleAttributes":{"border":"invisible"},
 			"x":4240,
-			"y":-865,
+			"y":-980,
 			"width":840,
-			"height":285
+			"height":400
 		},
 		{
 			"id":"0197a4d8c80e1852",
