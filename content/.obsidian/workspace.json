@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "16ca11e21893693e",
+        "id": "e73fcfb8c985a6b2",
         "type": "tabs",
         "children": [
           {
-            "id": "31c9e2a0f2189d58",
+            "id": "5b540441a0f50b9d",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "04 Canvases/meetings/2026_01_21.canvas",
-                "viewState": {
-                  "x": 1805.5817055366829,
-                  "y": -549.4878499927784,
-                  "zoom": -1.1852526938310328
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "2026_01_21"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -188,8 +181,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "31c9e2a0f2189d58",
+  "active": "5b540441a0f50b9d",
   "lastOpenFiles": [
+    "04 Canvases/meetings/2026_01_21.canvas",
     "04 Canvases/meetings/2026_01_28.canvas",
     "97 Assets/google-chrome-web-browser-logo-computer-icons-chrome-9391b0cd7c3be9a1b753ac6778214fe9.png",
     "chrome_icon_png.png",
@@ -219,7 +213,6 @@
     "03 References/(Heiderich, Niemietz, et al., 2012).md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
     "04 Canvases/meetings/2026_01_14.canvas",
-    "04 Canvases/meetings/2026_01_21.canvas",
     "06 Courses, webinars/CodeQL",
     "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
     "97 Assets/misskey_injection_3.png",
