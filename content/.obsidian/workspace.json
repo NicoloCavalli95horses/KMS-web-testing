@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 432.5
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -188,8 +188,9 @@
   },
   "active": "5b540441a0f50b9d",
   "lastOpenFiles": [
-    "03 References/(Amalfitano, Misael, et al., 2025).md",
+    "06 Courses, webinars/Untitled.md",
     "01 Notes/Generator (JavaScript).md",
+    "03 References/(Amalfitano, Misael, et al., 2025).md",
     "01 Notes/MT (metamorphic testing).md",
     "04 Canvases/meetings/2026_01_21.canvas",
     "04 Canvases/meetings/2026_01_28.canvas",
@@ -217,7 +218,6 @@
     "02 Literature/papers/BAC (Broken Access Control)/403 Forbidden. Ethically Evaluating Broken Access Control in the Wild.md",
     "02 Literature/papers/SPA applications/ReactAppScan. Mining React Application Vulnerabilities via Component Graph.md",
     "03 References/(Chehade, Hantke, et al., 2025).md",
-    "03 References/(Guo, Kang, et al., 2024).md",
     "04 Canvases/meetings/2026_01_14.canvas",
     "06 Courses, webinars/CodeQL",
     "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
