@@ -3,6 +3,7 @@
 		{
 			"id":"403afa71d7e2d31c",
 			"styleAttributes":{},
+			"toFloating":false,
 			"fromNode":"8d70b597885500ef",
 			"fromSide":"right",
 			"toNode":"c32a031407d1b9d6",
@@ -77,46 +78,13 @@
 			"height":245
 		},
 		{
-			"id":"14c0501ad98975f3",
-			"styleAttributes":{"border":"invisible"},
-			"text":"- https://www.wgtn.ac.nz/slc/language-learning-resources/practise-online\n- https://www.heylama.com/#heylama-features\n- https://www.funeasylearn.com/",
-			"type":"text",
-			"x":980,
-			"y":-456,
-			"width":780,
-			"height":120
-		},
-		{
-			"id":"2efbf86ce9c161eb",
-			"styleAttributes":{
-				"border":"invisible",
-				"textAlign":null
-			},
-			"text":"- no freemium content\n- no RBAC\n- account not mandatory\n- companies, universities, mobile apps showcase websites",
-			"type":"text",
-			"x":380,
-			"y":-500,
-			"width":520,
-			"height":214
-		},
-		{
-			"id":"c32a031407d1b9d6",
-			"styleAttributes":{"textAlign":"center"},
-			"text":"showcase website",
-			"type":"text",
-			"x":-40,
-			"y":-416,
-			"width":400,
-			"height":80
-		},
-		{
 			"id":"7b974199e6b5dede",
 			"styleAttributes":{"textAlign":"center"},
 			"text":"hard paywall, no access to content",
 			"type":"text",
-			"x":520,
+			"x":536,
 			"y":-165,
-			"width":400,
+			"width":445,
 			"height":110
 		},
 		{
@@ -124,9 +92,9 @@
 			"styleAttributes":{"border":"invisible"},
 			"text":"- https://www.pearson.com/languages\n- https://lingopie.com/",
 			"type":"text",
-			"x":1540,
+			"x":1670,
 			"y":-220,
-			"width":440,
+			"width":489,
 			"height":170
 		},
 		{
@@ -137,9 +105,9 @@
 			},
 			"text":"- no freemium content\n- no RBAC\n- subscription is mandatory to access any content\n- subscription may be required in the form of an immediate payment, or an activation code",
 			"type":"text",
-			"x":940,
+			"x":1003,
 			"y":-220,
-			"width":560,
+			"width":623,
 			"height":220
 		},
 		{
@@ -150,10 +118,10 @@
 			},
 			"text":"- freemium content: regular user can access free resources and browse premium ones\n- RBAC policies\n- subscription is not mandatory to access free content\n- freemium policies may include trial period or general limited access to features",
 			"type":"text",
-			"x":940,
+			"x":1003,
 			"y":78,
-			"width":560,
-			"height":260,
+			"width":623,
+			"height":322,
 			"color":"4"
 		},
 		{
@@ -161,9 +129,9 @@
 			"styleAttributes":{"border":"invisible"},
 			"text":"- https://www.duolingo.com/",
 			"type":"text",
-			"x":1540,
+			"x":1670,
 			"y":108,
-			"width":620,
+			"width":690,
 			"height":200
 		},
 		{
@@ -171,9 +139,9 @@
 			"styleAttributes":{"textAlign":"center"},
 			"text":"soft paywall, with browsing or partially accessing premium content or features",
 			"type":"text",
-			"x":520,
+			"x":536,
 			"y":118,
-			"width":400,
+			"width":445,
 			"height":145,
 			"color":"4"
 		},
@@ -292,7 +260,7 @@
 			"type":"text",
 			"x":420,
 			"y":1740,
-			"width":360,
+			"width":560,
 			"height":100
 		},
 		{
@@ -302,8 +270,41 @@
 			"type":"text",
 			"x":420,
 			"y":1440,
-			"width":360,
+			"width":560,
 			"height":100
+		},
+		{
+			"id":"14c0501ad98975f3",
+			"styleAttributes":{"border":"invisible"},
+			"text":"- https://www.wgtn.ac.nz/slc/language-learning-resources/practise-online\n- https://www.heylama.com/#heylama-features\n- https://www.funeasylearn.com/",
+			"type":"text",
+			"x":1047,
+			"y":-573,
+			"width":868,
+			"height":264
+		},
+		{
+			"id":"2efbf86ce9c161eb",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"text":"- no freemium content\n- no RBAC\n- account not mandatory\n- companies, universities, mobile apps showcase websites",
+			"type":"text",
+			"x":380,
+			"y":-573,
+			"width":578,
+			"height":314
+		},
+		{
+			"id":"c32a031407d1b9d6",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"showcase website",
+			"type":"text",
+			"x":-40,
+			"y":-481,
+			"width":400,
+			"height":80
 		}
 	],
 	"metadata":{

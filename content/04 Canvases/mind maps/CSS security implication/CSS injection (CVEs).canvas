@@ -28,7 +28,7 @@
 			"styleAttributes":{"border":"invisible"},
 			"x":-47,
 			"y":-1160,
-			"width":895,
+			"width":1025,
 			"height":140
 		},
 		{
@@ -36,9 +36,9 @@
 			"type":"text",
 			"text":"external css is executed",
 			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"x":1680,
+			"x":1480,
 			"y":-940,
-			"width":260,
+			"width":460,
 			"height":60
 		},
 		{
@@ -60,7 +60,7 @@
 			"styleAttributes":{"border":"invisible"},
 			"x":-940,
 			"y":-190,
-			"width":220,
+			"width":304,
 			"height":60
 		},
 		{
@@ -78,9 +78,9 @@
 			"type":"text",
 			"text":"POST request \n`http://localhost:3000/api/notes/create`\n\nvia `Fetch` API (`misskey-api.ts`)\n",
 			"styleAttributes":{"textAlign":"center"},
-			"x":-830,
+			"x":-788,
 			"y":-450,
-			"width":440,
+			"width":608,
 			"height":160
 		},
 		{
@@ -92,16 +92,6 @@
 			"y":-660,
 			"width":320,
 			"height":160
-		},
-		{
-			"id":"03bec897d32e5397",
-			"type":"text",
-			"text":"data is retrieved (dashboard)",
-			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"x":-150,
-			"y":-800,
-			"width":260,
-			"height":60
 		},
 		{
 			"id":"da649cdbb9a38a3a",
@@ -130,10 +120,20 @@
 			"type":"text",
 			"text":"`thumbnail` is part of the user-defined payload",
 			"styleAttributes":{},
-			"x":880,
+			"x":560,
 			"y":-420,
-			"width":260,
+			"width":580,
 			"height":100
+		},
+		{
+			"id":"03bec897d32e5397",
+			"type":"text",
+			"text":"data is retrieved (dashboard)",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":-180,
+			"y":-800,
+			"width":370,
+			"height":60
 		}
 	],
 	"edges":[

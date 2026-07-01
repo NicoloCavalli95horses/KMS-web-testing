@@ -117,16 +117,6 @@
 			"height":60
 		},
 		{
-			"id":"988dda75efbf3481",
-			"styleAttributes":{"textAlign":"center"},
-			"text":"### in-band",
-			"type":"text",
-			"x":-303,
-			"y":-134,
-			"width":396,
-			"height":60
-		},
-		{
 			"id":"13357e681584b76a",
 			"styleAttributes":{},
 			"text":"Many tools perform static or dynamic taint analysis for the web ([Jalangi2](https://github.com/Samsung/jalangi2), [ExpoSE](https://github.com/ExpoSEJS/ExpoSE))",
@@ -134,16 +124,16 @@
 			"x":-819,
 			"y":-206,
 			"width":445,
-			"height":102
+			"height":206
 		},
 		{
 			"id":"b0c466579bed88a9",
 			"styleAttributes":{},
 			"text":"Aka [[monkey patching]]\n- custom solution\n- not uncommon in research\n- may be more suitable for certain problems\n- it is less scalable and general",
 			"type":"text",
-			"x":-303,
+			"x":-338,
 			"y":0,
-			"width":396,
+			"width":431,
 			"height":260
 		},
 		{
@@ -167,7 +157,7 @@
 			"x":16,
 			"y":380,
 			"width":240,
-			"height":100,
+			"height":220,
 			"color":"1"
 		},
 		{
@@ -181,7 +171,7 @@
 			"x":-204,
 			"y":380,
 			"width":199,
-			"height":100,
+			"height":220,
 			"color":"1"
 		},
 		{
@@ -195,18 +185,8 @@
 			"x":-444,
 			"y":380,
 			"width":212,
-			"height":100,
+			"height":220,
 			"color":"4"
-		},
-		{
-			"id":"b5d34764b209b81f",
-			"styleAttributes":{},
-			"text":"Custom browsers (e.g., Chromium) modified to log JS callstacks",
-			"type":"text",
-			"x":264,
-			"y":0,
-			"width":390,
-			"height":120
 		},
 		{
 			"id":"358a489a4439e641",
@@ -216,10 +196,10 @@
 			},
 			"text":"No control on the logs",
 			"type":"text",
-			"x":390,
+			"x":431,
 			"y":200,
-			"width":138,
-			"height":120,
+			"width":172,
+			"height":180,
 			"color":"1"
 		},
 		{
@@ -230,10 +210,10 @@
 			},
 			"text":"How to navigate the ocean of information to get what we need?",
 			"type":"text",
-			"x":560,
+			"x":642,
 			"y":200,
-			"width":223,
-			"height":120,
+			"width":278,
+			"height":180,
 			"color":"3"
 		},
 		{
@@ -246,19 +226,9 @@
 			"type":"text",
 			"x":223,
 			"y":200,
-			"width":138,
-			"height":120,
+			"width":172,
+			"height":180,
 			"color":"4"
-		},
-		{
-			"id":"1331efeab6fabb06",
-			"styleAttributes":{"textAlign":"center"},
-			"text":"### out-of-band",
-			"type":"text",
-			"x":268,
-			"y":-134,
-			"width":382,
-			"height":60
 		},
 		{
 			"id":"9f3c6db7804f9dc8",
@@ -287,8 +257,8 @@
 			"type":"file",
 			"x":390,
 			"y":780,
-			"width":694,
-			"height":205
+			"width":880,
+			"height":260
 		},
 		{
 			"id":"bb93bffe4b35bfea",
@@ -296,9 +266,9 @@
 			"text":"White-box approaches are more accurate and in-depth, but you need access to the source code",
 			"type":"text",
 			"x":-1020,
-			"y":-500,
+			"y":-527,
 			"width":352,
-			"height":132,
+			"height":159,
 			"color":"3"
 		},
 		{
@@ -307,10 +277,40 @@
 			"text":"Black-box approaches are more scalable and allow us to test real applications, but harder to implement",
 			"type":"text",
 			"x":256,
-			"y":-509,
+			"y":-602,
 			"width":352,
-			"height":150,
+			"height":243,
 			"color":"3"
+		},
+		{
+			"id":"b5d34764b209b81f",
+			"styleAttributes":{},
+			"text":"Custom browsers (e.g., Chromium) modified to log JS callstacks",
+			"type":"text",
+			"x":317,
+			"y":-60,
+			"width":464,
+			"height":120
+		},
+		{
+			"id":"1331efeab6fabb06",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"### out-of-band",
+			"type":"text",
+			"x":322,
+			"y":-194,
+			"width":454,
+			"height":60
+		},
+		{
+			"id":"988dda75efbf3481",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"### in-band",
+			"type":"text",
+			"x":-320,
+			"y":-134,
+			"width":396,
+			"height":60
 		}
 	],
 	"metadata":{

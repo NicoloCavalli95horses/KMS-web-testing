@@ -3,6 +3,7 @@
 		{
 			"id":"b0868ff7388967a6",
 			"styleAttributes":{},
+			"toFloating":false,
 			"fromNode":"9f5ba055f3e75437",
 			"fromSide":"right",
 			"toNode":"b03d666e650e42d4",
@@ -39,9 +40,9 @@
 			"type":"text",
 			"text":"13 experimental subjects (parents and children)",
 			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-785,
+			"x":-1080,
 			"y":340,
-			"width":260,
+			"width":353,
 			"height":140
 		},
 		{
@@ -49,9 +50,9 @@
 			"type":"text",
 			"text":"structured intervention: perspective-taking theory used to guide discussion about digital privacy",
 			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-465,
+			"x":-646,
 			"y":340,
-			"width":340,
+			"width":462,
 			"height":140
 		},
 		{
@@ -61,7 +62,7 @@
 			"styleAttributes":{"textAlign":"center","border":"invisible"},
 			"x":-45,
 			"y":360,
-			"width":170,
+			"width":325,
 			"height":100
 		},
 		{
@@ -69,9 +70,9 @@
 			"type":"text",
 			"text":"construct an open-source dataset",
 			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-745,
+			"x":-1026,
 			"y":-180,
-			"width":220,
+			"width":299,
 			"height":100
 		},
 		{
@@ -89,9 +90,9 @@
 			"type":"text",
 			"text":"dynamic analysis of ransomware",
 			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-465,
+			"x":-646,
 			"y":-180,
-			"width":220,
+			"width":299,
 			"height":100
 		},
 		{
@@ -99,9 +100,9 @@
 			"styleAttributes":{"border":"invisible"},
 			"text":"### An Empirical Study of Data Disruption by Ransomware Attacks [[(Hou, Yiwel, Guo, Lihua, Zhou, et al., 2024)]]",
 			"type":"text",
-			"x":-745,
+			"x":-1026,
 			"y":-320,
-			"width":780,
+			"width":1059,
 			"height":120
 		},
 		{
@@ -109,9 +110,9 @@
 			"type":"text",
 			"text":"### Supporting Family Discussions About Digital Privacy Through Perspective-Taking. An Empirical Investigation [[(Wen, Liu, et al., 2025)]]",
 			"styleAttributes":{"border":"invisible"},
-			"x":-740,
+			"x":-1019,
 			"y":160,
-			"width":780,
+			"width":1059,
 			"height":160
 		}
 	],

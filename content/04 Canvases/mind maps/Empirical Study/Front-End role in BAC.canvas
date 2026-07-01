@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{
+			"id":"e82f2baca2d2027a",
+			"type":"text",
+			"text":"# What we have\n\n- empirical analysis of 44 commercial apps\n- a framework to identify weak designs (OI,OT,OP), supported by CWEs\n- relevant case studies\n- detailing tampering techniques (even if these are not NEW, it may be still helpful for educational purposes)\n\n# What we need\n\n- automation/result replicability\n- cover more types of web apps (eg search engines, e-commerce)\n- cover more types of BAC (not only paid content, but also privacy-related BAC)\n- better explain/document our framework",
+			"styleAttributes":{},
+			"x":-660,
+			"y":-320,
+			"width":980,
+			"height":680
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

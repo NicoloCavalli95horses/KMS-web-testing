@@ -4,22 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "3c03fc5961ab5266",
+        "id": "15f634ad74d32dca",
         "type": "tabs",
         "children": [
           {
-            "id": "37e730d21d8bb77d",
+            "id": "70f4496d9c2c08c4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "03 References/(Kim, Zheng, Park, et al., 2020).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": -0.4
+                }
               },
-              "icon": "lucide-file",
-              "title": "(Kim, Zheng, Park, et al., 2020)"
+              "icon": "lucide-layout-dashboard",
+              "title": "Front-End role in BAC"
             }
           }
         ]
@@ -186,8 +188,25 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "37e730d21d8bb77d",
+  "active": "70f4496d9c2c08c4",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
+    "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
+    "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
+    "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
+    "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
+    "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
+    "04 Canvases/mind maps/CSS security implication/Review.canvas",
+    "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
+    "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
+    "04 Canvases/mind maps/taint analysis in the web.canvas",
+    "04 Canvases/mind maps/social engineering techniques.canvas",
+    "96 Meta/SLR/Tags analysis.md",
+    "96 Meta/SLR/Reviewers response SLR (S&P).md",
+    "96 Meta/SLR/Paper list.md",
+    "96 Meta/Empirical Study/Manual validation on random sample.md",
+    "96 Meta/Empirical Study/Large-scale analysis on Tranco Top 250k.md",
+    "03 References/(Kim, Zheng, Park, et al., 2020).md",
     "01 Notes/BFT (business flow tampering).md",
     "03 References/(Ndiaye, Barais, et al., 2019).md",
     "03 References/(Khodayari, Pellegrino, 2023).md",
@@ -199,8 +218,6 @@
     "06 Courses, webinars/Untitled.md",
     "03 References/(Amalfitano, Misael, et al., 2025).md",
     "01 Notes/MT (metamorphic testing).md",
-    "04 Canvases/meetings/2026_01_21.canvas",
-    "04 Canvases/meetings/2026_01_28.canvas",
     "97 Assets/google-chrome-web-browser-logo-computer-icons-chrome-9391b0cd7c3be9a1b753ac6778214fe9.png",
     "chrome_icon_png.png",
     "06 Courses, webinars/AI for trust and security in and by digital systems (Ecole D'Hiver).md",
@@ -211,25 +228,10 @@
     "02 Literature/papers/logic flow tampering/Patching Logic Vulnerabilities for Web Applications using LogicPatcher.md",
     "02 Literature/papers/logic flow tampering/On the misuse of Graphical User Interface elements to implement security controls.md",
     "02 Literature/papers/logic flow tampering/LogicScope. automatic discovery of logic vulnerabilities within web applications.md",
-    "02 Literature/papers/logic flow tampering/Keeping out the masses. Understanding the popularity and implications of internet paywalls.md",
-    "02 Literature/papers/logic flow tampering/Finding client-side business flow tampering vulnerabilities.md",
-    "02 Literature/papers/XSS (Cross-Site Scripting)/mXSS attacks. attacking well-secured web-applications by using innerHTML mutations.md",
-    "02 Literature/papers/BAC (Broken Access Control)/Understanding the security risks of websites using cloud storage for direct user file uploads.md",
-    "02 Literature/papers/BAC (Broken Access Control)/Uncovering and Exploiting Hidden APIs in Mobile Super Apps.md",
-    "02 Literature/papers/BAC (Broken Access Control)/Least Privilege Access for Persistent Storage Mechanisms in Web Browsers.md",
-    "02 Literature/papers/BAC (Broken Access Control)/Detecting Broken Object-Level Authorization Vulnerabilities in Database-Backed Applications.md",
-    "04 Canvases/meetings/2026_01_14.canvas",
     "06 Courses, webinars/CodeQL",
-    "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
     "97 Assets/misskey_injection_3.png",
     "97 Assets/misskey_css_injection_2.png",
     "97 Assets/misskey_css_injection.png",
-    "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
-    "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
-    "04 Canvases/mind maps/CSS security implication/Review.canvas",
-    "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
-    "04 Canvases/mind maps/IDOR scanner in SPA/Mining SPA for accessing restricted resources.canvas",
-    "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
     "97 Assets/proof_network_request_attr_extraction.png",
     "97 Assets/vue_sink_css_injection.png",
     "97 Assets/JSON_example_steal_attr_inline_css.png",

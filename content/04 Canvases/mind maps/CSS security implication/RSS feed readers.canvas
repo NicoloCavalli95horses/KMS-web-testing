@@ -43,7 +43,7 @@
 			"styleAttributes":{},
 			"x":220,
 			"y":305,
-			"width":420,
+			"width":920,
 			"height":175,
 			"color":"3"
 		},
@@ -53,9 +53,9 @@
 			"text":"A market worth 300-500 Millions\n- https://www.linkedin.com/pulse/really-simple-syndication-rss-reader-market-report-rip3e/\n- https://www.marketresearchintellect.com/product/global-really-simple-syndication-rss-reader-market-size-and-forecast/\n\nFew big players\n- https://feedly.com/\n- https://www.inoreader.com/\n- https://newsblur.com/\n- https://feedbin.com/\n- https://miniflux.app/\n\nEstimated ~10-50 millions users worldwide",
 			"styleAttributes":{"border":"invisible"},
 			"x":220,
-			"y":-260,
-			"width":520,
-			"height":508
+			"y":-400,
+			"width":920,
+			"height":648
 		}
 	],
 	"edges":[

@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"237ef43a4fd280c6","type":"group","x":-420,"y":40,"width":1095,"height":785,"color":"4","label":"the victim goes on a attacker-controlled website"},
+		{"id":"237ef43a4fd280c6","type":"group","x":-460,"y":40,"width":1135,"height":850,"color":"4","label":"the victim goes on a attacker-controlled website"},
 		{"id":"8529015e1642c9c5","type":"group","x":720,"y":40,"width":960,"height":785,"color":"5","label":"the attacker inject CSS into a legitimate web application"},
 		{
 			"id":"745a7c40f103ddb8",
@@ -10,7 +10,7 @@
 			"x":95,
 			"y":160,
 			"width":560,
-			"height":560
+			"height":730
 		},
 		{
 			"id":"a1c05ddc0c34a434",
@@ -20,7 +20,7 @@
 			"x":760,
 			"y":160,
 			"width":340,
-			"height":200
+			"height":480
 		},
 		{
 			"id":"e07e50bcfbdb70aa",
@@ -47,29 +47,9 @@
 			"type":"text",
 			"text":"## Browser fingerprinting",
 			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-367,
+			"x":-400,
 			"y":100,
-			"width":340,
-			"height":80
-		},
-		{
-			"id":"280998945d27cecd",
-			"type":"text",
-			"text":"- installed browser extensions (they inject CSS)\n- OS, CPU (using `calc()`, detecting installed fonts, `@supports`)\n- installed programs (detecting fonts)\n- device screen size (using `@container`)\n- user's preferred language (detecting fonts, or DOM mutation)",
-			"styleAttributes":{"border":"invisible"},
-			"x":-367,
-			"y":200,
-			"width":340,
-			"height":400
-		},
-		{
-			"id":"9cdf0264cc0c3d9d",
-			"type":"text",
-			"text":"## Data cloaking",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":1200,
-			"y":100,
-			"width":340,
+			"width":460,
 			"height":80
 		},
 		{
@@ -87,13 +67,43 @@
 			"height":120
 		},
 		{
+			"id":"280998945d27cecd",
+			"type":"text",
+			"text":"- installed browser extensions (they inject CSS)\n- OS, CPU (using `calc()`, detecting installed fonts, `@supports`)\n- installed programs (detecting fonts)\n- device screen size (using `@container`)\n- user's preferred language (detecting fonts, or DOM mutation)",
+			"styleAttributes":{"border":"invisible"},
+			"x":-363,
+			"y":200,
+			"width":387,
+			"height":480
+		},
+		{
+			"id":"b57d6fb93add83d1",
+			"type":"text",
+			"text":"",
+			"styleAttributes":{},
+			"x":-320,
+			"y":300,
+			"width":260,
+			"height":60
+		},
+		{
 			"id":"ba6d01181a52f8b8",
 			"type":"text",
 			"text":"- Email cloaking (spam bypass)",
 			"styleAttributes":{"border":"invisible"},
 			"x":1200,
-			"y":160,
+			"y":147,
 			"width":360,
+			"height":365
+		},
+		{
+			"id":"9cdf0264cc0c3d9d",
+			"type":"text",
+			"text":"## Data cloaking",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":1200,
+			"y":80,
+			"width":340,
 			"height":80
 		},
 		{
@@ -101,8 +111,8 @@
 			"type":"text",
 			"text":"# How can we inject CSS?",
 			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":740,
-			"y":840,
+			"x":760,
+			"y":980,
 			"width":335,
 			"height":100
 		},
@@ -111,10 +121,10 @@
 			"type":"text",
 			"text":"- [[XSS (cross site scripting)]]\n- [[RPO (Relative Path Overwrite)]]\n- web email clients\n- RSS readers (XML aggregators)\n",
 			"styleAttributes":{"border":"invisible"},
-			"x":735,
-			"y":940,
-			"width":365,
-			"height":160
+			"x":755,
+			"y":1080,
+			"width":605,
+			"height":260
 		}
 	],
 	"edges":[

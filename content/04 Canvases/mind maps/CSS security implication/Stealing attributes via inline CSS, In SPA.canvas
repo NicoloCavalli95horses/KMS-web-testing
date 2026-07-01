@@ -45,9 +45,9 @@
 			"type":"text",
 			"text":"# attribute must be on the same DOM el",
 			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"x":-40,
+			"x":-160,
 			"y":0,
-			"width":617,
+			"width":737,
 			"height":130,
 			"color":"3"
 		}
