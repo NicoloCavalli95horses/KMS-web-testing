@@ -3,15 +3,186 @@
 		{
 			"id":"e82f2baca2d2027a",
 			"type":"text",
-			"text":"# What we have\n\n- empirical analysis of 44 commercial apps\n- a framework to identify weak designs (OI,OT,OP), supported by CWEs\n- relevant case studies\n- detailing tampering techniques (even if these are not NEW, it may be still helpful for educational purposes)\n\n# What we need\n\n- automation/result replicability\n- cover more types of web apps (eg search engines, e-commerce)\n- cover more types of BAC (not only paid content, but also privacy-related BAC)\n- better explain/document our framework",
-			"styleAttributes":{},
-			"x":-660,
-			"y":-320,
+			"text":"- empirical analysis of 44 commercial apps\n- a framework to identify weak designs (OI,OT,OP), supported by CWEs\n- relevant case studies\n- detailing tampering techniques (even if these are not novel, they may be still helpful for educational purposes)\n",
+			"styleAttributes":{"border":"invisible"},
+			"x":-820,
+			"y":-520,
 			"width":980,
-			"height":680
+			"height":240
+		},
+		{
+			"id":"87d903c90c0558bb",
+			"type":"text",
+			"text":"# What we need\n",
+			"styleAttributes":{"border":"invisible"},
+			"x":-820,
+			"y":-160,
+			"width":980,
+			"height":60
+		},
+		{
+			"id":"5679092a9e8642bc",
+			"type":"text",
+			"text":"# What we have\n",
+			"styleAttributes":{"border":"invisible"},
+			"x":-820,
+			"y":-640,
+			"width":980,
+			"height":90
+		},
+		{
+			"id":"c5246d34c42f45c5",
+			"type":"text",
+			"text":"automation/result replicability\n",
+			"styleAttributes":{},
+			"x":-820,
+			"y":0,
+			"width":410,
+			"height":160,
+			"color":"2"
+		},
+		{
+			"id":"6cadff3078c586c0",
+			"type":"text",
+			"text":"better explain/document our framework",
+			"styleAttributes":{},
+			"x":-820,
+			"y":220,
+			"width":410,
+			"height":160,
+			"color":"2"
+		},
+		{
+			"id":"be3d0360bcc5f092",
+			"type":"text",
+			"text":" diversify the types of web apps (eg search engines, e-commerce)\n",
+			"styleAttributes":{},
+			"x":-330,
+			"y":0,
+			"width":420,
+			"height":160,
+			"color":"2"
+		},
+		{
+			"id":"5ca325bac21ad046",
+			"type":"text",
+			"text":" cover more types of BAC (not only paid content, but also privacy-related BAC)",
+			"styleAttributes":{},
+			"x":-330,
+			"y":220,
+			"width":420,
+			"height":160,
+			"color":"2"
+		},
+		{
+			"id":"5422ad3aae77c4cf",
+			"type":"text",
+			"text":"# New \"goal\"\n",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":1157,
+			"y":-680,
+			"width":480,
+			"height":80
+		},
+		{
+			"id":"ced7aa8b8a5fad02",
+			"type":"text",
+			"text":"### the role of front-end in BAC",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":920,
+			"y":-600,
+			"width":474,
+			"height":180
+		},
+		{
+			"id":"bfb9d4ad2c0c0cee",
+			"type":"text",
+			"text":"### Evaluating client-server architectures for BAC prevention",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":1480,
+			"y":-600,
+			"width":540,
+			"height":180
+		},
+		{
+			"id":"d8308b6b30d881ec",
+			"type":"text",
+			"text":"### Proposing a DSL to represent the trust model in a web app? ",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":1480,
+			"y":-420,
+			"width":540,
+			"height":180
+		},
+		{
+			"id":"cdbf9d25fa9eabed",
+			"type":"text",
+			"text":"```\nentity Product\n\nauthoritative:\n    price\n    stock\n\nclient may modify:\n    quantity\n\nserver derives:\n    total\n```",
+			"styleAttributes":{"border":"invisible"},
+			"x":1520,
+			"y":-240,
+			"width":360,
+			"height":480
+		},
+		{
+			"id":"3392724d8b5657e9",
+			"type":"text",
+			"text":"not possible in commercial app",
+			"styleAttributes":{"border":"invisible"},
+			"x":-1140,
+			"y":30,
+			"width":260,
+			"height":100
+		},
+		{
+			"id":"33bbfe162174090b",
+			"type":"text",
+			"text":"easier way is to consider CVEs instead of commercial platforms",
+			"styleAttributes":{"border":"invisible"},
+			"x":160,
+			"y":130,
+			"width":340,
+			"height":130
 		}
 	],
-	"edges":[],
+	"edges":[
+		{
+			"id":"7befab64423467ab",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"ced7aa8b8a5fad02",
+			"fromSide":"right",
+			"toNode":"bfb9d4ad2c0c0cee",
+			"toSide":"left"
+		},
+		{
+			"id":"af7826052c8ca472",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"c5246d34c42f45c5",
+			"fromSide":"left",
+			"toNode":"3392724d8b5657e9",
+			"toSide":"right"
+		},
+		{
+			"id":"f461b5ad9e87d305",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"be3d0360bcc5f092",
+			"fromSide":"right",
+			"toNode":"33bbfe162174090b",
+			"toSide":"left"
+		},
+		{
+			"id":"e2bbf1fbf5a24a3f",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"5ca325bac21ad046",
+			"fromSide":"right",
+			"toNode":"33bbfe162174090b",
+			"toSide":"left"
+		}
+	],
 	"metadata":{
 		"version":"1.0-1.0",
 		"frontmatter":{}
