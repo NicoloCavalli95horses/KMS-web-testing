@@ -1,16 +1,6 @@
 {
 	"nodes":[
 		{
-			"id":"e82f2baca2d2027a",
-			"type":"text",
-			"text":"- empirical analysis of 44 commercial apps\n- a framework to identify weak designs (OI,OT,OP), supported by CWEs\n- relevant case studies\n- detailing tampering techniques (even if these are not novel, they may be still helpful for educational purposes)\n",
-			"styleAttributes":{"border":"invisible"},
-			"x":-820,
-			"y":-520,
-			"width":980,
-			"height":240
-		},
-		{
 			"id":"87d903c90c0558bb",
 			"type":"text",
 			"text":"# What we need\n",
@@ -19,16 +9,6 @@
 			"y":-160,
 			"width":980,
 			"height":60
-		},
-		{
-			"id":"5679092a9e8642bc",
-			"type":"text",
-			"text":"# What we have\n",
-			"styleAttributes":{"border":"invisible"},
-			"x":-820,
-			"y":-640,
-			"width":980,
-			"height":90
 		},
 		{
 			"id":"c5246d34c42f45c5",
@@ -77,7 +57,7 @@
 		{
 			"id":"5422ad3aae77c4cf",
 			"type":"text",
-			"text":"# New \"goal\"\n",
+			"text":"# New \"goal\"?\n",
 			"styleAttributes":{"textAlign":"center","border":"invisible"},
 			"x":1157,
 			"y":-680,
@@ -143,6 +123,66 @@
 			"y":130,
 			"width":340,
 			"height":130
+		},
+		{
+			"id":"5679092a9e8642bc",
+			"type":"text",
+			"text":"# What we have\n",
+			"styleAttributes":{"border":"invisible"},
+			"x":-820,
+			"y":-700,
+			"width":980,
+			"height":90
+		},
+		{
+			"id":"e82f2baca2d2027a",
+			"type":"text",
+			"text":"1. A framework/model\n\t- over-powered (OP), over-trusted (OT), over-informed (OI) front-ends, supported by CWEs\n\t- techniques to identify OP/OT/IT (HTTP response tampering, JS component hijacking)\n2. An empirical analysis of 44 commercial apps\n\t- evidence that flawed architectures exist even in very popular platforms (Duolingo, Canva, ...)\n\t- evidence that testing of paid feature may be neglected",
+			"styleAttributes":{"border":"invisible"},
+			"x":-820,
+			"y":-620,
+			"width":820,
+			"height":380
+		},
+		{
+			"id":"e2274c64c15fa693",
+			"type":"text",
+			"text":"comparing with other models, offering a DSL?",
+			"styleAttributes":{"border":"invisible"},
+			"x":-1200,
+			"y":235,
+			"width":320,
+			"height":130
+		},
+		{
+			"id":"a02bbf93912e2437",
+			"type":"text",
+			"text":"If we focus on the empirical study:\n- scalability issues\n- replicability issues\n- bias in app selection\n- very time consuming\n- reviewers complain than tampering techniques are not completely new",
+			"styleAttributes":{},
+			"x":-820,
+			"y":660,
+			"width":910,
+			"height":300
+		},
+		{
+			"id":"f83a500728ece2cb",
+			"type":"text",
+			"text":"If we focus on the modeling:\n- requires more study of the literature \n- can be validated\n- can be compared with other models (there are many!)\n- can lead to a DSL (what if we focus on IDOR again?)",
+			"styleAttributes":{},
+			"x":-820,
+			"y":1000,
+			"width":910,
+			"height":260
+		},
+		{
+			"id":"781d84c413851a08",
+			"type":"text",
+			"text":"# What if we re-design the paper contribution",
+			"styleAttributes":{"border":"invisible"},
+			"x":-820,
+			"y":540,
+			"width":980,
+			"height":51
 		}
 	],
 	"edges":[
@@ -181,6 +221,15 @@
 			"fromSide":"right",
 			"toNode":"33bbfe162174090b",
 			"toSide":"left"
+		},
+		{
+			"id":"0a7cbc8185260d7c",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"6cadff3078c586c0",
+			"fromSide":"left",
+			"toNode":"e2274c64c15fa693",
+			"toSide":"right"
 		}
 	],
 	"metadata":{

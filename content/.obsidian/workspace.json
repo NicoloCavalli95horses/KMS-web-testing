@@ -11,17 +11,15 @@
             "id": "70f4496d9c2c08c4",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
-                "viewState": {
-                  "x": -479.311137283728,
-                  "y": -199.0022513187218,
-                  "zoom": -0.5999999999999999
-                }
+                "file": "01 Notes/DSL (Domain Specific Language).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Front-End role in BAC"
+              "icon": "lucide-file",
+              "title": "DSL (Domain Specific Language)"
             }
           }
         ]
@@ -190,8 +188,10 @@
   },
   "active": "70f4496d9c2c08c4",
   "lastOpenFiles": [
-    "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
+    "96 Meta/PhD status.md",
+    "01 Notes/DSL (Domain Specific Language).md",
     "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
+    "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
     "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
@@ -200,7 +200,6 @@
     "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
     "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
     "04 Canvases/mind maps/taint analysis in the web.canvas",
-    "04 Canvases/mind maps/social engineering techniques.canvas",
     "96 Meta/SLR/Tags analysis.md",
     "96 Meta/SLR/Reviewers response SLR (S&P).md",
     "96 Meta/SLR/Paper list.md",
@@ -227,7 +226,6 @@
     "02 Literature/papers/logic flow tampering/Requirements for preventing logic flaws in the authentication procedure of web applications.md",
     "02 Literature/papers/logic flow tampering/Patching Logic Vulnerabilities for Web Applications using LogicPatcher.md",
     "02 Literature/papers/logic flow tampering/On the misuse of Graphical User Interface elements to implement security controls.md",
-    "02 Literature/papers/logic flow tampering/LogicScope. automatic discovery of logic vulnerabilities within web applications.md",
     "06 Courses, webinars/CodeQL",
     "97 Assets/misskey_injection_3.png",
     "97 Assets/misskey_css_injection_2.png",
