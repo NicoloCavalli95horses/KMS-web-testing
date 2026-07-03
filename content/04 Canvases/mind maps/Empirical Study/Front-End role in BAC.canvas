@@ -55,56 +55,6 @@
 			"color":"2"
 		},
 		{
-			"id":"5422ad3aae77c4cf",
-			"type":"text",
-			"text":"# New \"goal\"?\n",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":1157,
-			"y":-680,
-			"width":480,
-			"height":80
-		},
-		{
-			"id":"ced7aa8b8a5fad02",
-			"type":"text",
-			"text":"### the role of front-end in BAC",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":920,
-			"y":-600,
-			"width":474,
-			"height":180
-		},
-		{
-			"id":"bfb9d4ad2c0c0cee",
-			"type":"text",
-			"text":"### Evaluating client-server architectures for BAC prevention",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":1480,
-			"y":-600,
-			"width":540,
-			"height":180
-		},
-		{
-			"id":"d8308b6b30d881ec",
-			"type":"text",
-			"text":"### Proposing a DSL to represent the trust model in a web app? ",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":1480,
-			"y":-420,
-			"width":540,
-			"height":180
-		},
-		{
-			"id":"cdbf9d25fa9eabed",
-			"type":"text",
-			"text":"```\nentity Product\n\nauthoritative:\n    price\n    stock\n\nclient may modify:\n    quantity\n\nserver derives:\n    total\n```",
-			"styleAttributes":{"border":"invisible"},
-			"x":1520,
-			"y":-240,
-			"width":360,
-			"height":480
-		},
-		{
 			"id":"3392724d8b5657e9",
 			"type":"text",
 			"text":"not possible in commercial app",
@@ -135,16 +85,6 @@
 			"height":90
 		},
 		{
-			"id":"e82f2baca2d2027a",
-			"type":"text",
-			"text":"1. A framework/model\n\t- over-powered (OP), over-trusted (OT), over-informed (OI) front-ends, supported by CWEs\n\t- techniques to identify OP/OT/IT (HTTP response tampering, JS component hijacking)\n2. An empirical analysis of 44 commercial apps\n\t- evidence that flawed architectures exist even in very popular platforms (Duolingo, Canva, ...)\n\t- evidence that testing of paid feature may be neglected",
-			"styleAttributes":{"border":"invisible"},
-			"x":-820,
-			"y":-620,
-			"width":820,
-			"height":380
-		},
-		{
 			"id":"e2274c64c15fa693",
 			"type":"text",
 			"text":"comparing with other models, offering a DSL?",
@@ -158,8 +98,8 @@
 			"id":"a02bbf93912e2437",
 			"type":"text",
 			"text":"If we focus on the empirical study:\n- scalability issues\n- replicability issues\n- bias in app selection\n- very time consuming\n- reviewers complain than tampering techniques are not completely new",
-			"styleAttributes":{},
-			"x":-820,
+			"styleAttributes":{"border":"invisible"},
+			"x":-800,
 			"y":660,
 			"width":910,
 			"height":300
@@ -168,8 +108,8 @@
 			"id":"f83a500728ece2cb",
 			"type":"text",
 			"text":"If we focus on the modeling:\n- requires more study of the literature \n- can be validated\n- can be compared with other models (there are many!)\n- can lead to a DSL (what if we focus on IDOR again?)",
-			"styleAttributes":{},
-			"x":-820,
+			"styleAttributes":{"border":"invisible"},
+			"x":-800,
 			"y":1000,
 			"width":910,
 			"height":260
@@ -177,24 +117,85 @@
 		{
 			"id":"781d84c413851a08",
 			"type":"text",
-			"text":"# What if we re-design the paper contribution",
+			"text":"# What if we re-scope the paper contribution",
 			"styleAttributes":{"border":"invisible"},
 			"x":-820,
 			"y":540,
 			"width":980,
 			"height":51
+		},
+		{
+			"id":"664a143f11009bcd",
+			"type":"text",
+			"text":"## Limits of current model",
+			"styleAttributes":{"border":"invisible"},
+			"x":-1125,
+			"y":1360,
+			"width":540,
+			"height":60
+		},
+		{
+			"id":"c252b6e173f441c1",
+			"type":"text",
+			"text":"OT, OP, OT\n- describe client-server weak architectures, but on a too high-level\n- it is not \"usable\" to extract information or generate code or infer policies\n- too many BAC can be considered OT/OI\n- what if we have multiple servers, or third-party services?\n",
+			"styleAttributes":{"border":"invisible"},
+			"x":-1105,
+			"y":1440,
+			"width":740,
+			"height":320
+		},
+		{
+			"id":"e82f2baca2d2027a",
+			"type":"text",
+			"text":"1. A framework/model\n\t- over-powered (OP), over-trusted (OT), over-informed (OI) front-ends, supported by CWEs\n\t- techniques to identify OP/OT/IT (HTTP response tampering, JS component hijacking)\n2. An empirical analysis of 44 commercial apps\n\t- evidence that flawed architectures exist even in very popular platforms (Duolingo, Canva, ...)\n\t- evidence that testing of paid feature may be neglected",
+			"styleAttributes":{"border":"invisible"},
+			"x":-820,
+			"y":-600,
+			"width":870,
+			"height":380
+		},
+		{
+			"id":"c9c0b87b0f6cd38c",
+			"type":"text",
+			"text":"| Literature                | Focus                                                                                                              |\n| ------------------------- | ------------------------------------------------------------------------------------------------------------------ |\n| RBAC/ABAC/ReBAC           | Who can do what                                                                                                    |\n| XACML/Cedar               | How to express AC policies                                                                                         |\n| Model-Driven Security     | How to generate enforcement                                                                                        |\n| Distributed authorization | How to coordinate policies between nodes                                                                           |\n\n",
+			"styleAttributes":{"border":"invisible"},
+			"x":-260,
+			"y":1450,
+			"width":1060,
+			"height":420
+		},
+		{
+			"id":"d5c9222dbf1ab32a",
+			"type":"text",
+			"text":"## What is the gap in the literature?",
+			"styleAttributes":{"border":"invisible"},
+			"x":-260,
+			"y":1360,
+			"width":740,
+			"height":60
+		},
+		{
+			"id":"c9fe774587623a39",
+			"type":"text",
+			"text":"This is verbose\n```\nUser can edit Invoice\n\nIF\n    invoice.owner == currentUser\nOR\n    currentUser.hasRole(\"manager\")\nOR\n    currentUser.department == invoice.department\n       AND invoice.status != CLOSED\n       AND now < invoice.deadline\n       AND invoice.total < 5000\n       AND featureFlag(\"temporaryOverride\")\n```\n       \n\nCan we do better?\nHow can complex business authorization policies be visualized to improve understandability and maintenance?\n\nVisualization could\n- ease comprensibility (improve documentation)\n- ease maintainability (if synced to code)\n\nExisting works: https://link.springer.com/chapter/10.1007/978-3-030-25109-3_12#citeas\n",
+			"styleAttributes":{"border":"invisible"},
+			"x":-800,
+			"y":1920,
+			"width":1220,
+			"height":940
+		},
+		{
+			"id":"ad1afbf511d8ad7c",
+			"type":"text",
+			"text":"## From modelization to visualization",
+			"styleAttributes":{"border":"invisible"},
+			"x":-800,
+			"y":1840,
+			"width":620,
+			"height":60
 		}
 	],
 	"edges":[
-		{
-			"id":"7befab64423467ab",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"ced7aa8b8a5fad02",
-			"fromSide":"right",
-			"toNode":"bfb9d4ad2c0c0cee",
-			"toSide":"left"
-		},
 		{
 			"id":"af7826052c8ca472",
 			"styleAttributes":{},

@@ -11,15 +11,17 @@
             "id": "70f4496d9c2c08c4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "01 Notes/GUI ripper.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
+                "viewState": {
+                  "x": -153.7022299723982,
+                  "y": 1726.657493402145,
+                  "zoom": -0.5999999999999999
+                }
               },
-              "icon": "lucide-file",
-              "title": "GUI ripper"
+              "icon": "lucide-layout-dashboard",
+              "title": "Front-End role in BAC"
             }
           }
         ]
@@ -188,9 +190,14 @@
   },
   "active": "70f4496d9c2c08c4",
   "lastOpenFiles": [
-    "01 Notes/DSL (Domain Specific Language).md",
-    "96 Meta/PhD status.md",
+    "00 Antilibrary/BOLA (Broken Object Level Authorization).md",
     "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
+    "00 Antilibrary/Untitled.base",
+    "01 Notes/SUT (system under test).md",
+    "01 Notes/symbolic execution.md",
+    "01 Notes/DSL (Domain Specific Language).md",
+    "01 Notes/GUI ripper.md",
+    "96 Meta/PhD status.md",
     "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
     "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
@@ -222,10 +229,6 @@
     "06 Courses, webinars/AI for trust and security in and by digital systems (Ecole D'Hiver).md",
     "02 Literature/papers/logic flow tampering/DetLogic. A black-box approach for detecting logic vulnerabilities in web applications.md",
     "03 References/(Deepa, Thilagam, et al., 2018).md",
-    "02 Literature/papers/logic flow tampering/Toward black-box detection of logic flaws in web applications.md",
-    "02 Literature/papers/logic flow tampering/Requirements for preventing logic flaws in the authentication procedure of web applications.md",
-    "02 Literature/papers/logic flow tampering/Patching Logic Vulnerabilities for Web Applications using LogicPatcher.md",
-    "02 Literature/papers/logic flow tampering/On the misuse of Graphical User Interface elements to implement security controls.md",
     "06 Courses, webinars/CodeQL",
     "97 Assets/misskey_injection_3.png",
     "97 Assets/misskey_css_injection_2.png",
@@ -242,7 +245,6 @@
     "97 Assets/access_to_css_var_gmail.png",
     "02 Literature/papers/SVG (Scalable Vectors Graphics)",
     "02 Literature/papers/accessibility",
-    "00 Antilibrary/Untitled.base",
     "00 Antilibrary/Untitled 3.base"
   ]
 }
