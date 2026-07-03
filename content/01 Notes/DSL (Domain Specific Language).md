@@ -2,6 +2,8 @@
 ID: 2026-07-03
 tags:
   - "#definition"
+  - DSL
+  - programmingLanguage
 ---
 ## Definition
 

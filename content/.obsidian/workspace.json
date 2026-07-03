@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01 Notes/DSL (Domain Specific Language).md",
+                "file": "01 Notes/GUI ripper.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "DSL (Domain Specific Language)"
+              "title": "GUI ripper"
             }
           }
         ]
@@ -188,8 +188,8 @@
   },
   "active": "70f4496d9c2c08c4",
   "lastOpenFiles": [
-    "96 Meta/PhD status.md",
     "01 Notes/DSL (Domain Specific Language).md",
+    "96 Meta/PhD status.md",
     "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
     "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
     "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",

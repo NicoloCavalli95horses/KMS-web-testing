@@ -29749,8 +29749,8 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1783062349882,
-      "modifiedDate": 1783064004102,
-      "sizeInBytes": 1278,
+      "modifiedDate": 1783064914987,
+      "sizeInBytes": 1310,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -29762,7 +29762,9 @@
       "frontmatter": {
         "ID": "2026-07-03",
         "tags": [
-          "#definition"
+          "#definition",
+          "DSL",
+          "programmingLanguage"
         ]
       }
     }
