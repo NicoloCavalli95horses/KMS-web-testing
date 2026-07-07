@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "15f634ad74d32dca",
+        "id": "567ab6860934e723",
         "type": "tabs",
         "children": [
           {
-            "id": "70f4496d9c2c08c4",
+            "id": "99dea98108e82fab",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "04 Canvases/mind maps/Empirical Study/REVISE - On the role of web front-ends in BAC.canvas",
-                "viewState": {
-                  "x": 2993.558039548181,
-                  "y": 276.19512604066165,
-                  "zoom": 0.20000000000000018
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "REVISE - On the role of web front-ends in BAC"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -188,10 +181,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "70f4496d9c2c08c4",
+  "active": "99dea98108e82fab",
   "lastOpenFiles": [
-    "04 Canvases/mind maps/IDOR scanner in SPA/Mining SPA for accessing restricted resources.canvas",
+    "96 Meta/PhD status.md",
     "04 Canvases/mind maps/Empirical Study/REVISE - On the role of web front-ends in BAC.canvas",
+    "04 Canvases/mind maps/IDOR scanner in SPA/Mining SPA for accessing restricted resources.canvas",
     "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
     "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
     "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
@@ -202,13 +196,11 @@
     "01 Notes/symbolic execution.md",
     "01 Notes/DSL (Domain Specific Language).md",
     "01 Notes/GUI ripper.md",
-    "96 Meta/PhD status.md",
     "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
     "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
     "04 Canvases/mind maps/CSS security implication/Review.canvas",
     "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
-    "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
     "96 Meta/SLR/Tags analysis.md",
     "96 Meta/SLR/Reviewers response SLR (S&P).md",
     "96 Meta/SLR/Paper list.md",
