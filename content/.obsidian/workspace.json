@@ -11,15 +11,17 @@
             "id": "70f4496d9c2c08c4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "02 Literature/papers/logic flow tampering/From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/mind maps/Empirical Study/REVISE - On the role of web front-ends in BAC.canvas",
+                "viewState": {
+                  "x": 3094.514229413979,
+                  "y": 342.9049080837134,
+                  "zoom": 0.6
+                }
               },
-              "icon": "lucide-file",
-              "title": "From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery"
+              "icon": "lucide-layout-dashboard",
+              "title": "REVISE - On the role of web front-ends in BAC"
             }
           }
         ]
@@ -188,7 +190,12 @@
   },
   "active": "70f4496d9c2c08c4",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/IDOR scanner in SPA/Mining SPA for accessing restricted resources.canvas",
+    "04 Canvases/mind maps/Empirical Study/REVISE - On the role of web front-ends in BAC.canvas",
     "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
+    "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
+    "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
+    "02 Literature/papers/logic flow tampering/From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery.md",
     "00 Antilibrary/BOLA (Broken Object Level Authorization).md",
     "00 Antilibrary/Untitled.base",
     "01 Notes/SUT (system under test).md",
@@ -196,15 +203,12 @@
     "01 Notes/DSL (Domain Specific Language).md",
     "01 Notes/GUI ripper.md",
     "96 Meta/PhD status.md",
-    "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
-    "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
     "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
     "04 Canvases/mind maps/CSS security implication/Review.canvas",
     "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
     "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
-    "04 Canvases/mind maps/taint analysis in the web.canvas",
     "96 Meta/SLR/Tags analysis.md",
     "96 Meta/SLR/Reviewers response SLR (S&P).md",
     "96 Meta/SLR/Paper list.md",
@@ -217,7 +221,6 @@
     "01 Notes/logic vulnerability.md",
     "03 References/(Ben Jaballah, Kheir, et al., 2016).md",
     "03 References/(Monshizadeh, Naldurg, et al., 2016).md",
-    "02 Literature/papers/logic flow tampering/From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery.md",
     "01 Notes/Generator (JavaScript).md",
     "06 Courses, webinars/Untitled.md",
     "03 References/(Amalfitano, Misael, et al., 2025).md",
