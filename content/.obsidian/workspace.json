@@ -11,17 +11,15 @@
             "id": "70f4496d9c2c08c4",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
-                "viewState": {
-                  "x": -153.7022299723982,
-                  "y": 1726.657493402145,
-                  "zoom": -0.5999999999999999
-                }
+                "file": "02 Literature/papers/logic flow tampering/From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Front-End role in BAC"
+              "icon": "lucide-file",
+              "title": "From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery"
             }
           }
         ]
@@ -190,8 +188,8 @@
   },
   "active": "70f4496d9c2c08c4",
   "lastOpenFiles": [
-    "00 Antilibrary/BOLA (Broken Object Level Authorization).md",
     "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
+    "00 Antilibrary/BOLA (Broken Object Level Authorization).md",
     "00 Antilibrary/Untitled.base",
     "01 Notes/SUT (system under test).md",
     "01 Notes/symbolic execution.md",
@@ -228,7 +226,6 @@
     "chrome_icon_png.png",
     "06 Courses, webinars/AI for trust and security in and by digital systems (Ecole D'Hiver).md",
     "02 Literature/papers/logic flow tampering/DetLogic. A black-box approach for detecting logic vulnerabilities in web applications.md",
-    "03 References/(Deepa, Thilagam, et al., 2018).md",
     "06 Courses, webinars/CodeQL",
     "97 Assets/misskey_injection_3.png",
     "97 Assets/misskey_css_injection_2.png",
