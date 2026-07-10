@@ -1,34 +1,131 @@
 {
 	"nodes":[
-		{"id":"01839841cfbc5039","type":"group","x":20,"y":440,"width":1340,"height":640,"label":"Untitled group"},
+		{"id":"d7b9d7ce3dd5cac5","type":"group","x":-2480,"y":-400,"width":1700,"height":760,"label":"replay phase"},
+		{"id":"57cec0e8a798e047","type":"group","x":-2480,"y":-1200,"width":1260,"height":700,"label":"capture phase"},
 		{
-			"id":"19f4f7261c8cd564",
+			"id":"aea435eed0b1e611",
 			"type":"text",
-			"text":"## Motivating example\n\n- client-side flaws may lead to business losses",
+			"text":"# Revise logic flow",
 			"styleAttributes":{"border":"invisible"},
-			"x":-460,
-			"y":-120,
+			"x":-500,
+			"y":-40,
+			"width":460,
+			"height":60
+		},
+		{
+			"id":"01485a63b49a8e25",
+			"type":"text",
+			"text":"## Motivating example\n\n- client-side flaws may lead to business losses\n- E2E test may fail to detect these flaws\n- information in the GUI can lead to authorization bypass, complementing network tampering",
+			"styleAttributes":{"border":"invisible"},
+			"x":-500,
+			"y":120,
 			"width":380,
+			"height":440
+		},
+		{
+			"id":"bd5e7fb304ca35cd",
+			"type":"text",
+			"text":"## Result modeled on a front-end centered BAC framework\n- OI/OP/OT are derived from the results of the study\n- and then mapped to existing CWEs",
+			"styleAttributes":{"border":"invisible"},
+			"x":1000,
+			"y":120,
+			"width":400,
+			"height":440
+		},
+		{
+			"id":"1d9c0739d3c7f8fa",
+			"type":"text",
+			"text":"## E2E AuthZ testing approach\n- Augmented Testing approach\n- based on HTTP proxy server and capture-replay mechanisms",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"x":0,
+			"y":120,
+			"width":480,
+			"height":440
+		},
+		{
+			"id":"25c11423136b3e28",
+			"type":"text",
+			"text":"## Applicability on Empirical study\n- 44 applications\n- 1 user workflow per application",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"x":560,
+			"y":120,
+			"width":340,
+			"height":440
+		},
+		{
+			"id":"f5a5db7bfc190a01",
+			"type":"text",
+			"text":"# Authorization Flaws in Commercial SPA-Based Web Applications: An Empirical Study through Front-End Analysis",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":2680,
+			"y":-580,
+			"width":776,
+			"height":160
+		},
+		{
+			"id":"4ee8f2e29d2003d4",
+			"type":"text",
+			"text":"Problems:\n- \"web front-ends\" is too general, we focus on SPA\n- if we study the \"role\", why didn't we focus on apps that are known to be vulnerable (from CVEs)?\n- The title must refer to features in commercial apps\n- We should highlight the novel approach",
+			"styleAttributes":{"border":"invisible"},
+			"x":1880,
+			"y":-300,
+			"width":715,
 			"height":300
+		},
+		{
+			"id":"164b3b00d1bc62a8",
+			"type":"text",
+			"text":"# Authorization-Centered End-to-End Testing for Detecting Authorization Flaws in Web Applications",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":2720,
+			"y":-340,
+			"width":676,
+			"height":160
+		},
+		{
+			"id":"0147c7d8dcc8b485",
+			"type":"text",
+			"text":"# On the Role of Web Front-Ends in Broken Access Control. Vulnerabilities: An Empirical Study",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":1880,
+			"y":-580,
+			"width":715,
+			"height":200
+		},
+		{
+			"id":"97bb4c8791c62880",
+			"type":"text",
+			"text":"# Augmented Authorization Testing: Generating End-to-End Security Tests from User Workflows",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":2720,
+			"y":-140,
+			"width":676,
+			"height":150
 		},
 		{
 			"id":"3b56c8eea3967d6d",
 			"type":"text",
 			"text":"# Current logic flow",
 			"styleAttributes":{"border":"invisible"},
-			"x":-460,
-			"y":-260,
+			"x":-500,
+			"y":-580,
 			"width":460,
 			"height":60
 		},
 		{
-			"id":"64a3d0c663095fb8",
+			"id":"19f4f7261c8cd564",
 			"type":"text",
-			"text":"## Empirical study\n- methodology\n- testing protocol\n- results",
+			"text":"## Motivating example\n\n- client-side flaws may lead to business losses",
 			"styleAttributes":{"border":"invisible"},
-			"x":1060,
-			"y":-120,
-			"width":420,
+			"x":-500,
+			"y":-440,
+			"width":380,
 			"height":300
 		},
 		{
@@ -36,8 +133,8 @@
 			"type":"text",
 			"text":"## Front-end centered BAC framework\n- from authorization-related CWE to OI/OP/OT",
 			"styleAttributes":{"border":"invisible"},
-			"x":40,
-			"y":-120,
+			"x":0,
+			"y":-440,
 			"width":400,
 			"height":300
 		},
@@ -46,158 +143,199 @@
 			"type":"text",
 			"text":"## Tampering techniques\n- JavaScript Component Hijacking\n- HTTP response tampering",
 			"styleAttributes":{"border":"invisible"},
-			"x":560,
-			"y":-120,
+			"x":520,
+			"y":-440,
 			"width":420,
 			"height":300
 		},
 		{
-			"id":"01485a63b49a8e25",
+			"id":"64a3d0c663095fb8",
 			"type":"text",
-			"text":"## Motivating example\n\n- client-side flaws may lead to business losses\n- E2E test may fail to detect these flaws\n- information in the GUI can lead to authorization bypass, complementing network tampering",
+			"text":"## Empirical study\n- methodology\n- testing protocol\n- results",
 			"styleAttributes":{"border":"invisible"},
-			"x":-460,
-			"y":460,
-			"width":380,
-			"height":440
-		},
-		{
-			"id":"aea435eed0b1e611",
-			"type":"text",
-			"text":"# Revise logic flow",
-			"styleAttributes":{"border":"invisible"},
-			"x":-460,
-			"y":320,
-			"width":460,
-			"height":60
-		},
-		{
-			"id":"25c11423136b3e28",
-			"type":"text",
-			"text":"## Empirical study",
-			"styleAttributes":{"border":"invisible"},
-			"x":40,
-			"y":460,
+			"x":1020,
+			"y":-440,
 			"width":420,
-			"height":100,
-			"color":"4"
+			"height":300
 		},
 		{
-			"id":"ae6979dc4353572b",
+			"id":"51b35d5461ee02e1",
 			"type":"text",
-			"text":"Methodology",
-			"styleAttributes":{},
-			"x":440,
-			"y":530,
-			"width":260,
-			"height":60,
-			"color":"4"
+			"text":"# AUT (web client)",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":-1930,
+			"y":-1000,
+			"width":340,
+			"height":160
 		},
 		{
-			"id":"ba7b5c9ed103c8f0",
+			"id":"9097d78224edeb5a",
 			"type":"text",
-			"text":"## Tampering techniques\n- JavaScript Component Hijacking\n- HTTP response tampering",
-			"styleAttributes":{"border":"invisible"},
-			"x":360,
-			"y":640,
+			"text":"# 👤",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":-2460,
+			"y":-960,
+			"width":100,
+			"height":80
+		},
+		{
+			"id":"2d3a0d91b5c95c74",
+			"type":"text",
+			"text":"# 🤖",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":-2450,
+			"y":-680,
+			"width":80,
+			"height":80
+		},
+		{
+			"id":"0549d45d14e2db90",
+			"type":"text",
+			"text":"# AUT's server",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":-1540,
+			"y":-1000,
+			"width":300,
+			"height":160
+		},
+		{
+			"id":"7bd935dbc204f359",
+			"type":"text",
+			"text":"# 1. Capture phase",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-2900,
+			"y":-1200,
 			"width":420,
-			"height":300,
-			"color":"4"
+			"height":80
 		},
 		{
-			"id":"bd5e7fb304ca35cd",
+			"id":"d13b15f7add9c596",
 			"type":"text",
-			"text":"## Front-end centered BAC framework\n- OI/OP/OT are derived from the results of the study\n- and then mapped to existing CWEs",
-			"styleAttributes":{"border":"invisible"},
-			"x":810,
-			"y":640,
+			"text":"# 2. Replay phase",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-2900,
+			"y":-400,
+			"width":420,
+			"height":80
+		},
+		{
+			"id":"e64554346dbbae90",
+			"type":"text",
+			"text":"# HTTP proxy server (MITMPROXY)",
+			"styleAttributes":{
+				"textAlign":"center",
+				"shape":null
+			},
+			"x":-1560,
+			"y":-240,
 			"width":400,
-			"height":300,
-			"color":"4"
+			"height":240,
+			"color":"2"
 		},
 		{
-			"id":"75f731770d1365d5",
+			"id":"0421f81b56131fed",
 			"type":"text",
-			"text":"Results",
+			"text":"# AUT (web client)",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":-1950,
+			"y":-200,
+			"width":340,
+			"height":160
+		},
+		{
+			"id":"7d589e1d3b174055",
+			"type":"text",
+			"text":"# AUT's server",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":-1100,
+			"y":-200,
+			"width":300,
+			"height":160
+		},
+		{
+			"id":"388f78ebb3d00df9",
+			"type":"text",
+			"text":"# 🤖",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":-2460,
+			"y":-160,
+			"width":80,
+			"height":80
+		},
+		{
+			"id":"7814a86d03561607",
+			"type":"text",
+			"text":"# 3. Test generation phase",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-2900,
+			"y":480,
+			"width":420,
+			"height":120
+		},
+		{
+			"id":"c5866dbc28629440",
+			"type":"text",
+			"text":"- image regression testing-based oracle\n- we compare screenshots and highlight differences in user workflows that may violate the user privileges\n- test are generated considering altered HTTP responses",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-2480,
+			"y":440,
+			"width":1200,
+			"height":200
+		},
+		{
+			"id":"8f200e522722a525",
+			"type":"text",
+			"text":"# from \"we tamper with 44 apps using known techniques and we find xxx BAC\"",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":-270,
+			"y":-1140,
+			"width":540,
+			"height":300
+		},
+		{
+			"id":"9ced7a6b602fb4f6",
+			"type":"text",
+			"text":"# to \"we propose a semi-automatic approach to generate authorization-centered E2E tests. It is validated in 44 apps and found xxx BAC\"",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":390,
+			"y":-1140,
+			"width":820,
+			"height":300
+		},
+		{
+			"id":"440cd800308d93d4",
+			"type":"text",
+			"text":"- register worflow \n(eg. home > button 1 > page 2 > ...)\n- produce screenshots after each action",
+			"styleAttributes":{
+				"textAlign":"center",
+				"shape":null,
+				"border":"invisible"
+			},
+			"x":-2340,
+			"y":-780,
+			"width":460,
+			"height":200,
+			"color":"2"
+		},
+		{
+			"id":"5a97235530738cc9",
+			"type":"text",
+			"text":"# Advantages:\n\n## - we test samples of user workflows, not the all app\n## - it can work regardless of the back-end AND the front-end technologies being used (!)\n## - the approach can be used during development to properly test workflows of new feature",
+			"styleAttributes":{"border":"invisible"},
+			"x":-2440,
+			"y":800,
+			"width":1020,
+			"height":480
+		},
+		{
+			"id":"2dc8ee1a27fe9c34",
+			"type":"text",
+			"text":"## Is automatic click blocked ??",
 			"styleAttributes":{},
-			"x":880,
-			"y":530,
-			"width":260,
-			"height":60,
-			"color":"4"
-		},
-		{
-			"id":"1e78d5124901fc99",
-			"type":"text",
-			"text":"# On the Role of Web Front-Ends in Broken Access Control. Vulnerabilities: An Empirical Study",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-420,
-			"y":1360,
-			"width":880,
-			"height":160
-		},
-		{
-			"id":"dd981bfe2c96ec1e",
-			"type":"text",
-			"text":"Problems:\n- \"web front-ends\" is too general, we focus on SPA\n- if we study the \"role\", why didn't we focus on apps that are known to be vulnerable (from CVEs)?\n- The title must refer to features in commercial apps",
-			"styleAttributes":{"border":"invisible"},
-			"x":-420,
-			"y":1580,
-			"width":880,
-			"height":380
-		},
-		{
-			"id":"9fd739d67c3fece3",
-			"type":"text",
-			"text":"# Authorization Flaws in Commercial SPA-Based Web Applications: An Empirical Study through Front-End Analysis",
-			"styleAttributes":{"textAlign":"center"},
-			"x":640,
-			"y":1360,
-			"width":1080,
-			"height":160
-		},
-		{
-			"id":"5eac55088343b90c",
-			"type":"text",
-			"text":"- **Explaining automation constraints**: while automation is possible in condition x by doing y, in this empirical study we had no choice but to approach the testing manually\n- **New RQ on results details**: how many objects have been modified, how long was the testing, how much data was exchanged\n- Non-modifiable dataset with DOI on zenodo or figshare\n- Better presenting the results with additional tables, pictures or charts (reviewer 3)\n- Clarification (reviewer 3): why front-end analysis plays a significant role in identifying these vulnerabilities, given that HTTP tampering techniques could similarly reveal BAC issues? \n",
-			"styleAttributes":{"border":"invisible"},
-			"x":2640,
-			"y":40,
-			"width":700,
-			"height":520,
-			"color":"4"
-		},
-		{
-			"id":"bd19d7de24d7fa07",
-			"type":"text",
-			"text":"# What to add",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":2640,
-			"y":-120,
-			"width":700,
-			"height":100,
-			"color":"4"
-		},
-		{
-			"id":"21ecc469c1d683ff",
-			"type":"text",
-			"text":"- Involving multiple users in testing the web applications (reviewer 2): this shift the empirical study on the users capabilities rather than on the mere presence of authorization flaws in the AUTs.",
-			"styleAttributes":{"border":"invisible"},
-			"x":3440,
-			"y":40,
-			"width":700,
-			"height":520,
-			"color":"1"
-		},
-		{
-			"id":"ffead1363c66ede7",
-			"type":"text",
-			"text":"# What NOT to add (and why)",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":3440,
-			"y":-120,
-			"width":700,
-			"height":100,
+			"x":-3160,
+			"y":-200,
+			"width":360,
+			"height":160,
 			"color":"1"
 		}
 	],
@@ -230,48 +368,146 @@
 			"toSide":"left"
 		},
 		{
-			"id":"d5d19648be186d74",
+			"id":"f0cb9e8f148504eb",
 			"styleAttributes":{},
 			"toFloating":false,
 			"fromNode":"01485a63b49a8e25",
+			"fromSide":"right",
+			"toNode":"1d9c0739d3c7f8fa",
+			"toSide":"left"
+		},
+		{
+			"id":"bbc81f420f3f7d29",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"1d9c0739d3c7f8fa",
 			"fromSide":"right",
 			"toNode":"25c11423136b3e28",
 			"toSide":"left"
 		},
 		{
-			"id":"e0af94c63f89be19",
+			"id":"62bc63d08a6ebdda",
 			"styleAttributes":{},
 			"toFloating":false,
-			"fromNode":"ae6979dc4353572b",
-			"fromSide":"bottom",
-			"toNode":"ba7b5c9ed103c8f0",
-			"toSide":"top"
-		},
-		{
-			"id":"97d2118e922aae0a",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"75f731770d1365d5",
-			"fromSide":"bottom",
+			"fromNode":"25c11423136b3e28",
+			"fromSide":"right",
 			"toNode":"bd5e7fb304ca35cd",
-			"toSide":"top"
-		},
-		{
-			"id":"252a08ce5ca6bbeb",
-			"styleAttributes":{},
-			"toFloating":false,
-			"fromNode":"1e78d5124901fc99",
-			"fromSide":"left",
-			"toNode":"dd981bfe2c96ec1e",
 			"toSide":"left"
 		},
 		{
-			"id":"94865b8d29b67d79",
+			"id":"fc946496b86fe635",
 			"styleAttributes":{},
 			"toFloating":false,
-			"fromNode":"1e78d5124901fc99",
+			"fromNode":"0147c7d8dcc8b485",
+			"fromSide":"bottom",
+			"toNode":"4ee8f2e29d2003d4",
+			"toSide":"top"
+		},
+		{
+			"id":"337dad0397894d88",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"9097d78224edeb5a",
 			"fromSide":"right",
-			"toNode":"9fd739d67c3fece3",
+			"toNode":"51b35d5461ee02e1",
+			"toSide":"left",
+			"label":"interact with"
+		},
+		{
+			"id":"5b1c2c8b32283f64",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"51b35d5461ee02e1",
+			"fromSide":"top",
+			"toNode":"0549d45d14e2db90",
+			"toSide":"top",
+			"label":"HTTP requests"
+		},
+		{
+			"id":"a123a2ca4607eeb3",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"0549d45d14e2db90",
+			"fromSide":"bottom",
+			"toNode":"51b35d5461ee02e1",
+			"toSide":"bottom",
+			"label":"HTTP responses"
+		},
+		{
+			"id":"f9b20e93e474f0f4",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"2d3a0d91b5c95c74",
+			"fromSide":"top",
+			"toNode":"9097d78224edeb5a",
+			"toSide":"bottom",
+			"color":"2"
+		},
+		{
+			"id":"46c594f727d98cf2",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"0421f81b56131fed",
+			"fromSide":"top",
+			"toNode":"e64554346dbbae90",
+			"toSide":"top",
+			"label":"HTTP requests"
+		},
+		{
+			"id":"07fa9fc48e83b79a",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"7d589e1d3b174055",
+			"fromSide":"bottom",
+			"toNode":"e64554346dbbae90",
+			"toSide":"bottom",
+			"label":"HTTP responses"
+		},
+		{
+			"id":"99d960205832190c",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"e64554346dbbae90",
+			"fromSide":"top",
+			"toNode":"7d589e1d3b174055",
+			"toSide":"top",
+			"label":"HTTP requests"
+		},
+		{
+			"id":"61c40b7f4cc51718",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"e64554346dbbae90",
+			"fromSide":"bottom",
+			"toNode":"0421f81b56131fed",
+			"toSide":"bottom",
+			"color":"2",
+			"label":"tampered HTTP responses"
+		},
+		{
+			"id":"5736970d6e4a0e06",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromFloating":false,
+			"fromNode":"388f78ebb3d00df9",
+			"fromSide":"right",
+			"toNode":"0421f81b56131fed",
+			"toSide":"left",
+			"color":"2",
+			"label":"- replay actions\n- produce screenshots"
+		},
+		{
+			"id":"d8c5c9da7dd264b2",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"8f200e522722a525",
+			"fromSide":"right",
+			"toNode":"9ced7a6b602fb4f6",
 			"toSide":"left"
 		}
 	],
