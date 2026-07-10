@@ -4084,7 +4084,7 @@
       "nonWhitespaceCharacterCount": 1521,
       "newlineCount": 32,
       "readingTimeInMinutes": 0.8528301886792453,
-      "linkCount": 0,
+      "linkCount": 9,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1767798565171,
@@ -4097,7 +4097,8 @@
         "characterCount": 1768,
         "nonWhitespaceCharacterCount": 1521,
         "newlineCount": 32
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas": {
       "isCountable": true,
@@ -4138,7 +4139,7 @@
       "nonWhitespaceCharacterCount": 2295,
       "newlineCount": 69,
       "readingTimeInMinutes": 1,
-      "linkCount": 53,
+      "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1767798565170,
@@ -4151,8 +4152,7 @@
         "characterCount": 2620,
         "nonWhitespaceCharacterCount": 2295,
         "newlineCount": 69
-      },
-      "frontmatter": {}
+      }
     },
     "04 Canvases/mind maps/taint analysis in the web.canvas": {
       "isCountable": true,
@@ -4166,8 +4166,8 @@
       "nonWhitespaceCharacterCount": 794,
       "newlineCount": 21,
       "readingTimeInMinutes": 0.49433962264150944,
-      "linkCount": 0,
-      "embedCount": 0,
+      "linkCount": 2,
+      "embedCount": 1,
       "aliases": null,
       "createdDate": 1767798565170,
       "modifiedDate": 1782898710454,
@@ -4179,7 +4179,8 @@
         "characterCount": 933,
         "nonWhitespaceCharacterCount": 794,
         "newlineCount": 21
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/mind maps/social engineering techniques.canvas": {
       "isCountable": true,
@@ -4401,27 +4402,27 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 347,
+      "wordCount": 441,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 1.1566666666666667,
-      "characterCount": 2513,
-      "nonWhitespaceCharacterCount": 2094,
-      "newlineCount": 62,
-      "readingTimeInMinutes": 1.3094339622641509,
+      "pageCount": 1.47,
+      "characterCount": 3157,
+      "nonWhitespaceCharacterCount": 2638,
+      "newlineCount": 66,
+      "readingTimeInMinutes": 1.6641509433962265,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1783405028352,
-      "modifiedDate": 1783683783704,
-      "sizeInBytes": 12574,
+      "modifiedDate": 1783691427075,
+      "sizeInBytes": 13242,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.9833333333333333,
-        "wordCount": 295,
-        "characterCount": 2079,
-        "nonWhitespaceCharacterCount": 1744,
-        "newlineCount": 43
+        "pageCount": 1.1566666666666667,
+        "wordCount": 347,
+        "characterCount": 2513,
+        "nonWhitespaceCharacterCount": 2094,
+        "newlineCount": 62
       },
       "frontmatter": {}
     },
@@ -5753,6 +5754,40 @@
         ]
       }
     },
+    "03 References/(Sun, Hawkey, et al., 2012).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 34,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.11333333333333333,
+      "characterCount": 477,
+      "nonWhitespaceCharacterCount": 419,
+      "newlineCount": 9,
+      "readingTimeInMinutes": 0.12830188679245283,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1767798565168,
+      "modifiedDate": 1767798565168,
+      "sizeInBytes": 540,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.11333333333333333,
+        "wordCount": 34,
+        "characterCount": 477,
+        "nonWhitespaceCharacterCount": 419,
+        "newlineCount": 9
+      },
+      "frontmatter": {
+        "ID": "2025-03-20T08:33:20.693Z",
+        "tags": "ref",
+        "Project": [
+          "SLR"
+        ]
+      }
+    },
     "03 References/(Upasana Sarmah, D.K. Bhattacharyya, et al., 2018).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -6050,40 +6085,6 @@
           "ref"
         ],
         "SLR": "https://overleaf.irisa.fr/project/67c982e387fa1b0088944647"
-      }
-    },
-    "03 References/(Sun, Hawkey, et al., 2012).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 34,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.11333333333333333,
-      "characterCount": 477,
-      "nonWhitespaceCharacterCount": 419,
-      "newlineCount": 9,
-      "readingTimeInMinutes": 0.12830188679245283,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1767798565168,
-      "modifiedDate": 1767798565168,
-      "sizeInBytes": 540,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.11333333333333333,
-        "wordCount": 34,
-        "characterCount": 477,
-        "nonWhitespaceCharacterCount": 419,
-        "newlineCount": 9
-      },
-      "frontmatter": {
-        "ID": "2025-03-20T08:33:20.693Z",
-        "tags": "ref",
-        "Project": [
-          "SLR"
-        ]
       }
     },
     "03 References/(Subramani, Jueckstock, et al., 2021).md": {
@@ -18382,7 +18383,7 @@
       "nonWhitespaceCharacterCount": 828,
       "newlineCount": 34,
       "readingTimeInMinutes": 0.3283018867924528,
-      "linkCount": 0,
+      "linkCount": 29,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1767798565160,
@@ -21960,40 +21961,6 @@
         ]
       }
     },
-    "01 Notes/daikon engine.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 234,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.78,
-      "characterCount": 1679,
-      "nonWhitespaceCharacterCount": 1383,
-      "newlineCount": 53,
-      "readingTimeInMinutes": 0.8830188679245283,
-      "linkCount": 1,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1767798565157,
-      "modifiedDate": 1767798565157,
-      "sizeInBytes": 1771,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.78,
-        "wordCount": 234,
-        "characterCount": 1679,
-        "nonWhitespaceCharacterCount": 1383,
-        "newlineCount": 53
-      },
-      "frontmatter": {
-        "ID": "2025-04-24-11:48",
-        "tags": [
-          "#definition",
-          "softwareEngineering"
-        ]
-      }
-    },
     "01 Notes/data disclosure.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -22027,6 +21994,40 @@
           "cyberSecurity",
           "dataSecurity",
           "dataDisclosure"
+        ]
+      }
+    },
+    "01 Notes/daikon engine.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 234,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.78,
+      "characterCount": 1679,
+      "nonWhitespaceCharacterCount": 1383,
+      "newlineCount": 53,
+      "readingTimeInMinutes": 0.8830188679245283,
+      "linkCount": 1,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1767798565157,
+      "modifiedDate": 1767798565157,
+      "sizeInBytes": 1771,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.78,
+        "wordCount": 234,
+        "characterCount": 1679,
+        "nonWhitespaceCharacterCount": 1383,
+        "newlineCount": 53
+      },
+      "frontmatter": {
+        "ID": "2025-04-24-11:48",
+        "tags": [
+          "#definition",
+          "softwareEngineering"
         ]
       }
     },
@@ -23037,40 +23038,6 @@
         ]
       }
     },
-    "01 Notes/XXE (XML external entities).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 84,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.28,
-      "characterCount": 586,
-      "nonWhitespaceCharacterCount": 489,
-      "newlineCount": 16,
-      "readingTimeInMinutes": 0.3169811320754717,
-      "linkCount": 6,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1767798565157,
-      "modifiedDate": 1767798565157,
-      "sizeInBytes": 646,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.28,
-        "wordCount": 84,
-        "characterCount": 586,
-        "nonWhitespaceCharacterCount": 489,
-        "newlineCount": 16
-      },
-      "frontmatter": {
-        "ID": "2025-02-24-09:49",
-        "tags": [
-          "#definition",
-          "XXE"
-        ]
-      }
-    },
     "01 Notes/acceptance testing.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -23102,6 +23069,40 @@
         "tags": [
           "definition",
           "testingTechniques"
+        ]
+      }
+    },
+    "01 Notes/XXE (XML external entities).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 84,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.28,
+      "characterCount": 586,
+      "nonWhitespaceCharacterCount": 489,
+      "newlineCount": 16,
+      "readingTimeInMinutes": 0.3169811320754717,
+      "linkCount": 6,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1767798565157,
+      "modifiedDate": 1767798565157,
+      "sizeInBytes": 646,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.28,
+        "wordCount": 84,
+        "characterCount": 586,
+        "nonWhitespaceCharacterCount": 489,
+        "newlineCount": 16
+      },
+      "frontmatter": {
+        "ID": "2025-02-24-09:49",
+        "tags": [
+          "#definition",
+          "XXE"
         ]
       }
     },
@@ -23356,40 +23357,6 @@
         ]
       }
     },
-    "01 Notes/WSH (Web Socket Hijack).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 54,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.18,
-      "characterCount": 433,
-      "nonWhitespaceCharacterCount": 369,
-      "newlineCount": 11,
-      "readingTimeInMinutes": 0.2037735849056604,
-      "linkCount": 7,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1767798565155,
-      "modifiedDate": 1767798565155,
-      "sizeInBytes": 507,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.18,
-        "wordCount": 54,
-        "characterCount": 433,
-        "nonWhitespaceCharacterCount": 369,
-        "newlineCount": 11
-      },
-      "frontmatter": {
-        "ID": "2025-05-09-11:18",
-        "tags": [
-          "#definition",
-          "clientSideAttacks"
-        ]
-      }
-    },
     "01 Notes/WSL (Windows Subsystem for Linux).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -23423,6 +23390,40 @@
           "WSL",
           "OS",
           "tool"
+        ]
+      }
+    },
+    "01 Notes/WSH (Web Socket Hijack).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 54,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.18,
+      "characterCount": 433,
+      "nonWhitespaceCharacterCount": 369,
+      "newlineCount": 11,
+      "readingTimeInMinutes": 0.2037735849056604,
+      "linkCount": 7,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1767798565155,
+      "modifiedDate": 1767798565155,
+      "sizeInBytes": 507,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.18,
+        "wordCount": 54,
+        "characterCount": 433,
+        "nonWhitespaceCharacterCount": 369,
+        "newlineCount": 11
+      },
+      "frontmatter": {
+        "ID": "2025-05-09-11:18",
+        "tags": [
+          "#definition",
+          "clientSideAttacks"
         ]
       }
     },
