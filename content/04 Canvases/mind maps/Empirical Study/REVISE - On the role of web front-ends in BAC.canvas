@@ -3,139 +3,6 @@
 		{"id":"d7b9d7ce3dd5cac5","type":"group","x":-2480,"y":-400,"width":1700,"height":760,"label":"replay phase"},
 		{"id":"57cec0e8a798e047","type":"group","x":-2480,"y":-1200,"width":1260,"height":700,"label":"capture phase"},
 		{
-			"id":"bd5e7fb304ca35cd",
-			"type":"text",
-			"text":"## Result modeled on a front-end centered BAC framework\n- OI/OP/OT are derived from the results of the study\n- and then mapped to existing CWEs",
-			"styleAttributes":{"border":"invisible"},
-			"x":1000,
-			"y":120,
-			"width":400,
-			"height":440
-		},
-		{
-			"id":"25c11423136b3e28",
-			"type":"text",
-			"text":"## Applicability on Empirical study\n- 44 applications\n- 1 user workflow per application",
-			"styleAttributes":{
-				"border":"invisible",
-				"textAlign":null
-			},
-			"x":560,
-			"y":120,
-			"width":340,
-			"height":440
-		},
-		{
-			"id":"f5a5db7bfc190a01",
-			"type":"text",
-			"text":"# Authorization Flaws in Commercial SPA-Based Web Applications: An Empirical Study through Front-End Analysis",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":2680,
-			"y":-580,
-			"width":776,
-			"height":160
-		},
-		{
-			"id":"4ee8f2e29d2003d4",
-			"type":"text",
-			"text":"Problems:\n- \"web front-ends\" is too general, we focus on SPA\n- if we study the \"role\", why didn't we focus on apps that are known to be vulnerable (from CVEs)?\n- The title must refer to features in commercial apps\n- We should highlight the novel approach",
-			"styleAttributes":{"border":"invisible"},
-			"x":1880,
-			"y":-300,
-			"width":715,
-			"height":300
-		},
-		{
-			"id":"164b3b00d1bc62a8",
-			"type":"text",
-			"text":"# Authorization-Centered End-to-End Testing for Detecting Authorization Flaws in Web Applications",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":2720,
-			"y":-340,
-			"width":676,
-			"height":160
-		},
-		{
-			"id":"0147c7d8dcc8b485",
-			"type":"text",
-			"text":"# On the Role of Web Front-Ends in Broken Access Control. Vulnerabilities: An Empirical Study",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":1880,
-			"y":-580,
-			"width":715,
-			"height":200
-		},
-		{
-			"id":"97bb4c8791c62880",
-			"type":"text",
-			"text":"# Augmented Authorization Testing: Generating End-to-End Security Tests from User Workflows",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":2720,
-			"y":-140,
-			"width":676,
-			"height":150
-		},
-		{
-			"id":"eb37d52777f39b75",
-			"type":"text",
-			"text":"## Tampering techniques\n- JavaScript Component Hijacking\n- HTTP response tampering",
-			"styleAttributes":{"border":"invisible"},
-			"x":520,
-			"y":-440,
-			"width":420,
-			"height":300
-		},
-		{
-			"id":"64a3d0c663095fb8",
-			"type":"text",
-			"text":"## Empirical study\n- methodology\n- testing protocol\n- results",
-			"styleAttributes":{"border":"invisible"},
-			"x":1020,
-			"y":-440,
-			"width":420,
-			"height":300
-		},
-		{
-			"id":"9ced7a6b602fb4f6",
-			"type":"text",
-			"text":"# to \"we propose a semi-automatic approach to generate authorization-centered E2E tests. It is validated in 44 apps and found xxx BAC\"",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":390,
-			"y":-1140,
-			"width":820,
-			"height":300
-		},
-		{
-			"id":"0549d45d14e2db90",
-			"type":"text",
-			"text":"# AUT's server",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":-1540,
-			"y":-1000,
-			"width":300,
-			"height":160
-		},
-		{
-			"id":"7bd935dbc204f359",
-			"type":"text",
-			"text":"# 1. Capture phase",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-2900,
-			"y":-1200,
-			"width":420,
-			"height":80
-		},
-		{
-			"id":"d13b15f7add9c596",
-			"type":"text",
-			"text":"# 2. Replay phase",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-2900,
-			"y":-400,
-			"width":420,
-			"height":80
-		},
-		{
 			"id":"e64554346dbbae90",
 			"type":"text",
 			"text":"# HTTP proxy server (MITMPROXY)",
@@ -160,6 +27,63 @@
 			"height":160
 		},
 		{
+			"id":"c5866dbc28629440",
+			"type":"text",
+			"text":"### - image regression testing-based oracle\n### - we compare screenshots and highlight differences in user workflows that may violate the user privileges\n### - test are generated considering altered HTTP responses",
+			"styleAttributes":{
+				"textAlign":null,
+				"border":"invisible"
+			},
+			"x":-2480,
+			"y":440,
+			"width":1200,
+			"height":280
+		},
+		{
+			"id":"7d589e1d3b174055",
+			"type":"text",
+			"text":"# AUT's server",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":-1100,
+			"y":-200,
+			"width":300,
+			"height":160
+		},
+		{
+			"id":"2dc8ee1a27fe9c34",
+			"type":"text",
+			"text":"## Aren't automatic interactions with the GUI blocked?\n\n- Often they are. Commercial web applications may detect browser automation by checking signals such as `navigator.webdriver` and many other browser or behavioral fingerprints exposed by automation frameworks.\n\n- Instead of launching its own browser, ==Playwright can connect to an existing Chrome instance through the Chrome DevTools Protocol (CDP)==. In this case, Playwright controls the browser remotely rather than creating it.\n\n- If the browser was launched as a regular user browser (rather than by an automation framework), ==some automation-specific signals, such as `navigator.webdriver`, may not be present==. While this does not eliminate all possible detection techniques, it is enough to interact automatically with most applications\n\n- CAPTCHAs and login flows can be completed manually before Playwright attaches to the existing browser session and automates the remaining interactions.",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-2770,
+			"y":880,
+			"width":990,
+			"height":620,
+			"color":"4"
+		},
+		{
+			"id":"5a97235530738cc9",
+			"type":"text",
+			"text":"# Advantages\n\n- ==Tests realistic user workflows instead of requiring exhaustive exploration== of the entire application.\n- ==Independent== of both front-end and back-end implementation ==technologies==.\n- Can be integrated into the development lifecycle to validate newly introduced features before deployment.\n- Does not require access to the application's source code or server-side implementation (black-box testing).\n- Operates on deployed applications, making it applicable to commercial closed-source systems.\n- Detects authorization ==issues that emerge from the interaction between the GUI and the back-end,== rather than considering each layer in isolation.\n- Naturally supports Single-Page Applications (SPAs) by observing the runtime UI state.\n- Allows testers to combine manual exploration (e.g., authentication, CAPTCHAs, complex workflows) with automated security analysis.\n- Produces ==reproducible test cases== from recorded user interactions.\n- Can be applied incrementally: only modified workflows need to be revalidated after introducing a new feature.",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-1720,
+			"y":880,
+			"width":1120,
+			"height":920,
+			"color":"5"
+		},
+		{
+			"id":"d13b15f7add9c596",
+			"type":"text",
+			"text":"# 2. Replay phase",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-2900,
+			"y":-400,
+			"width":420,
+			"height":80
+		},
+		{
 			"id":"388f78ebb3d00df9",
 			"type":"text",
 			"text":"# 🤖",
@@ -180,34 +104,57 @@
 			"height":120
 		},
 		{
-			"id":"c5866dbc28629440",
+			"id":"aea435eed0b1e611",
 			"type":"text",
-			"text":"- image regression testing-based oracle\n- we compare screenshots and highlight differences in user workflows that may violate the user privileges\n- test are generated considering altered HTTP responses",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-2480,
-			"y":440,
-			"width":1200,
-			"height":200
+			"text":"# Revise logic flow",
+			"styleAttributes":{"border":"invisible"},
+			"x":-500,
+			"y":-40,
+			"width":460,
+			"height":60
 		},
 		{
-			"id":"51b35d5461ee02e1",
+			"id":"01485a63b49a8e25",
 			"type":"text",
-			"text":"# AUT (web client)",
-			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":-1930,
-			"y":-1000,
-			"width":340,
-			"height":160
+			"text":"## Motivating example\n\n- client-side flaws may lead to business losses\n- E2E test may fail to detect these flaws\n- information in the GUI can lead to authorization bypass, complementing network tampering",
+			"styleAttributes":{"border":"invisible"},
+			"x":-500,
+			"y":120,
+			"width":380,
+			"height":440
 		},
 		{
-			"id":"9097d78224edeb5a",
+			"id":"19f4f7261c8cd564",
 			"type":"text",
-			"text":"# 👤",
-			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"x":-2460,
-			"y":-960,
-			"width":100,
-			"height":80
+			"text":"## Motivating example\n\n- client-side flaws may lead to business losses",
+			"styleAttributes":{"border":"invisible"},
+			"x":-500,
+			"y":-440,
+			"width":380,
+			"height":300
+		},
+		{
+			"id":"1d9c0739d3c7f8fa",
+			"type":"text",
+			"text":"## E2E AuthZ testing approach\n- Augmented Testing approach\n- based on HTTP proxy server and capture-replay mechanisms",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"x":0,
+			"y":120,
+			"width":480,
+			"height":440
+		},
+		{
+			"id":"6b7513eb2143ee26",
+			"type":"text",
+			"text":"## Front-end centered BAC framework\n- from authorization-related CWE to OI/OP/OT",
+			"styleAttributes":{"border":"invisible"},
+			"x":0,
+			"y":-440,
+			"width":400,
+			"height":300
 		},
 		{
 			"id":"2d3a0d91b5c95c74",
@@ -235,26 +182,6 @@
 			"color":"2"
 		},
 		{
-			"id":"aea435eed0b1e611",
-			"type":"text",
-			"text":"# Revise logic flow",
-			"styleAttributes":{"border":"invisible"},
-			"x":-500,
-			"y":-40,
-			"width":460,
-			"height":60
-		},
-		{
-			"id":"01485a63b49a8e25",
-			"type":"text",
-			"text":"## Motivating example\n\n- client-side flaws may lead to business losses\n- E2E test may fail to detect these flaws\n- information in the GUI can lead to authorization bypass, complementing network tampering",
-			"styleAttributes":{"border":"invisible"},
-			"x":-500,
-			"y":120,
-			"width":380,
-			"height":440
-		},
-		{
 			"id":"3b56c8eea3967d6d",
 			"type":"text",
 			"text":"# Current logic flow",
@@ -265,23 +192,33 @@
 			"height":60
 		},
 		{
-			"id":"19f4f7261c8cd564",
+			"id":"9ced7a6b602fb4f6",
 			"type":"text",
-			"text":"## Motivating example\n\n- client-side flaws may lead to business losses",
-			"styleAttributes":{"border":"invisible"},
-			"x":-500,
-			"y":-440,
-			"width":380,
+			"text":"# to \"we propose a semi-automatic approach to generate authorization-centered E2E tests. It is validated in 44 apps and found xxx BAC\"",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":390,
+			"y":-1140,
+			"width":820,
 			"height":300
 		},
 		{
-			"id":"7d589e1d3b174055",
+			"id":"0549d45d14e2db90",
 			"type":"text",
 			"text":"# AUT's server",
 			"styleAttributes":{"textAlign":"center","shape":"pill"},
-			"x":-1100,
-			"y":-200,
+			"x":-1540,
+			"y":-1000,
 			"width":300,
+			"height":160
+		},
+		{
+			"id":"51b35d5461ee02e1",
+			"type":"text",
+			"text":"# AUT (web client)",
+			"styleAttributes":{"textAlign":"center","shape":"pill"},
+			"x":-1930,
+			"y":-1000,
+			"width":340,
 			"height":160
 		},
 		{
@@ -295,51 +232,127 @@
 			"height":300
 		},
 		{
-			"id":"1d9c0739d3c7f8fa",
+			"id":"7bd935dbc204f359",
 			"type":"text",
-			"text":"## E2E AuthZ testing approach\n- Augmented Testing approach\n- based on HTTP proxy server and capture-replay mechanisms",
+			"text":"# 1. Capture phase",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-2900,
+			"y":-1200,
+			"width":420,
+			"height":80
+		},
+		{
+			"id":"9097d78224edeb5a",
+			"type":"text",
+			"text":"# 👤",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":-2460,
+			"y":-960,
+			"width":100,
+			"height":80
+		},
+		{
+			"id":"25c11423136b3e28",
+			"type":"text",
+			"text":"## Applicability on Empirical study\n- 44 applications\n- 1 user workflow per application",
 			"styleAttributes":{
 				"border":"invisible",
 				"textAlign":null
 			},
-			"x":0,
+			"x":560,
 			"y":120,
-			"width":480,
+			"width":340,
 			"height":440
 		},
 		{
-			"id":"6b7513eb2143ee26",
+			"id":"eb37d52777f39b75",
 			"type":"text",
-			"text":"## Front-end centered BAC framework\n- from authorization-related CWE to OI/OP/OT",
+			"text":"## Tampering techniques\n- JavaScript Component Hijacking\n- HTTP response tampering",
 			"styleAttributes":{"border":"invisible"},
-			"x":0,
+			"x":520,
 			"y":-440,
-			"width":400,
+			"width":420,
 			"height":300
 		},
 		{
-			"id":"2dc8ee1a27fe9c34",
+			"id":"bd5e7fb304ca35cd",
 			"type":"text",
-			"text":"## Aren't automatic interactions with the GUI blocked?\n\n- Often they are. Commercial web applications may detect browser automation by checking signals such as `navigator.webdriver` and many other browser or behavioral fingerprints exposed by automation frameworks.\n\n- Instead of launching its own browser, Playwright can connect to an existing Chrome instance through the Chrome DevTools Protocol (CDP). In this case, Playwright controls the browser remotely rather than creating it.\n\n- If the browser was launched as a regular user browser (rather than by an automation framework), some automation-specific signals, such as `navigator.webdriver`, may not be present. While this does not eliminate all possible detection techniques, it is enough to interact automatically with most applications\n\n- CAPTCHAs and login flows can be completed manually before Playwright attaches to the existing browser session and automates the remaining interactions.",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-2770,
-			"y":880,
-			"width":990,
-			"height":620,
-			"color":"4"
+			"text":"## Result modeled on a front-end centered BAC framework\n- OI/OP/OT are derived from the results of the study\n- and then mapped to existing CWEs",
+			"styleAttributes":{"border":"invisible"},
+			"x":1000,
+			"y":120,
+			"width":400,
+			"height":440
 		},
 		{
-			"id":"5a97235530738cc9",
+			"id":"64a3d0c663095fb8",
 			"type":"text",
-			"text":"# Advantages\n\n- Tests realistic user workflows instead of requiring exhaustive exploration of the entire application.\n- Independent of both front-end and back-end implementation technologies.\n- Can be integrated into the development lifecycle to validate newly introduced features before deployment.\n- Does not require access to the application's source code or server-side implementation (black-box testing).\n- Operates on deployed applications, making it applicable to commercial closed-source systems.\n- Detects authorization issues that emerge from the interaction between the GUI and the back-end, rather than considering each layer in isolation.\n- Naturally supports Single-Page Applications (SPAs) by observing the runtime UI state.\n- Allows testers to combine manual exploration (e.g., authentication, CAPTCHAs, complex workflows) with automated security analysis.\n- Produces reproducible test cases from recorded user interactions.\n- Can be applied incrementally: only modified workflows need to be revalidated after introducing a new feature.",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":-1720,
-			"y":880,
-			"width":1120,
-			"height":920,
-			"color":"5"
+			"text":"## Empirical study\n- methodology\n- testing protocol\n- results",
+			"styleAttributes":{"border":"invisible"},
+			"x":1020,
+			"y":-440,
+			"width":420,
+			"height":300
+		},
+		{
+			"id":"4ee8f2e29d2003d4",
+			"type":"text",
+			"text":"Problems:\n- \"web front-ends\" is too general, we focus on SPA\n- if we study the \"role\", why didn't we focus on apps that are known to be vulnerable (from CVEs)?\n- The title must refer to features in commercial apps\n- We should highlight the novel approach",
+			"styleAttributes":{"border":"invisible"},
+			"x":1880,
+			"y":-300,
+			"width":715,
+			"height":300
+		},
+		{
+			"id":"0147c7d8dcc8b485",
+			"type":"text",
+			"text":"# On the Role of Web Front-Ends in Broken Access Control. Vulnerabilities: An Empirical Study",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":1880,
+			"y":-580,
+			"width":715,
+			"height":200
+		},
+		{
+			"id":"f5a5db7bfc190a01",
+			"type":"text",
+			"text":"# Authorization Flaws in Commercial SPA-Based Web Applications: An Empirical Study through Front-End Analysis",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":2680,
+			"y":-580,
+			"width":776,
+			"height":160
+		},
+		{
+			"id":"164b3b00d1bc62a8",
+			"type":"text",
+			"text":"# Authorization-Centered End-to-End Testing for Detecting Authorization Flaws in Web Applications",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":2720,
+			"y":-340,
+			"width":676,
+			"height":160
+		},
+		{
+			"id":"97bb4c8791c62880",
+			"type":"text",
+			"text":"# Augmented Authorization Testing: Generating End-to-End Security Tests from User Workflows",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":2720,
+			"y":-140,
+			"width":676,
+			"height":150
+		},
+		{
+			"id":"7fec415b12c8b6d2",
+			"type":"text",
+			"text":"# RQ\n\nRQ1: Can authorization-centered E2E testing uncover real authorization-related vulnerabilities in modern web applications?\n- type of vulnerability /classification (eg IDOR, MFLAC,...) \n- causes (OI/OP /OT architectures) \n- case studies \n\nWe find real BAC and describe them\n\nRQ2: Can authorization-centered E2E tests be generated automatically from captured user interactions through HTTP response mutation?\n- replay success rate\n- overhead/performance \n- human effort \n- test stability \n\nWe generate test automatically \n\n",
+			"styleAttributes":{},
+			"x":-2620,
+			"y":2000,
+			"width":840,
+			"height":800
 		}
 	],
 	"edges":[
