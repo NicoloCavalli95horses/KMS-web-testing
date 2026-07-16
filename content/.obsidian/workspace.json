@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/mind maps/Empirical Study/REVISE - On the role of web front-ends in BAC.canvas",
                 "viewState": {
-                  "x": -1753.439256755863,
-                  "y": -570.4153245484348,
-                  "zoom": -1.0090666426945014
+                  "x": -2218.9625423131893,
+                  "y": 2370.3052765514517,
+                  "zoom": 0.19093335730549865
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -188,7 +188,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "3bfeed8f4b304b36",
+  "active": "6d777817a10116d3",
   "lastOpenFiles": [
     "01 Notes/BFT (business flow tampering).md",
     "02 Literature/papers/parameter tampering/Automating the Detection of Access Control Vulnerabilities in Web Applications.md",
