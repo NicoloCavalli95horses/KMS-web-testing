@@ -4,24 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ea639141aa96f546",
+        "id": "7766cc77faa94a43",
         "type": "tabs",
         "children": [
           {
-            "id": "6d777817a10116d3",
+            "id": "d31a310d40d2eca5",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/mind maps/Empirical Study/REVISE - On the role of web front-ends in BAC.canvas",
-                "viewState": {
-                  "x": -1872.4325282940215,
-                  "y": -240.42123424007232,
-                  "zoom": -1.0090666426945014
-                }
+                "file": "01 Notes/Ollama.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "REVISE - On the role of web front-ends in BAC"
+              "icon": "lucide-file",
+              "title": "Ollama"
             }
           }
         ]
@@ -188,8 +186,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "6d777817a10116d3",
+  "active": "d31a310d40d2eca5",
   "lastOpenFiles": [
+    "01 Notes/Ollama.md",
+    "04 Canvases/mind maps/Empirical Study/REVISE - On the role of web front-ends in BAC.canvas",
     "01 Notes/BFT (business flow tampering).md",
     "02 Literature/papers/parameter tampering/Automating the Detection of Access Control Vulnerabilities in Web Applications.md",
     "03 References/(Calzavara, Tolomei, et al., 2014).md",
@@ -215,12 +215,10 @@
     "03 References/(Deepa, Thilagam, et al., 2018).md",
     "02 Literature/papers/logic flow tampering/DetLogic. A black-box approach for detecting logic vulnerabilities in web applications.md",
     "96 Meta/PhD status.md",
-    "04 Canvases/mind maps/Empirical Study/REVISE - On the role of web front-ends in BAC.canvas",
     "04 Canvases/mind maps/IDOR scanner in SPA/Mining SPA for accessing restricted resources.canvas",
     "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
     "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
     "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
-    "02 Literature/papers/logic flow tampering/From Hindsight to Foresight. Enhancing Design Artifacts for Business Logic Flaw Discovery.md",
     "00 Antilibrary/Untitled.base",
     "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
