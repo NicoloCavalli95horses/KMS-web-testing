@@ -86,16 +86,6 @@
 			"height":180
 		},
 		{
-			"id":"47ac7e47083dacc3",
-			"type":"text",
-			"text":"### Workflow 2 reaches new endpoints which are only accessible as a consequence of tampering?",
-			"styleAttributes":{},
-			"x":-720,
-			"y":1720,
-			"width":740,
-			"height":140
-		},
-		{
 			"id":"36116938774c339f",
 			"type":"text",
 			"text":"proxy-server",
@@ -166,12 +156,22 @@
 			"height":100
 		},
 		{
+			"id":"47ac7e47083dacc3",
+			"type":"text",
+			"text":"### Workflow 2 reaches new endpoints which are only accessible as a consequence of tampering?",
+			"styleAttributes":{},
+			"x":-749,
+			"y":1740,
+			"width":740,
+			"height":140
+		},
+		{
 			"id":"faaee3ef234b3394",
 			"type":"text",
 			"text":"Possible BAC",
 			"styleAttributes":{},
 			"x":60,
-			"y":1750,
+			"y":1780,
 			"width":260,
 			"height":60,
 			"color":"3"
@@ -308,6 +308,24 @@
 			"fromSide":"right",
 			"toNode":"c3c15c44eb53f739",
 			"toSide":"top"
+		},
+		{
+			"id":"9626d078db85425c",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"c952e4ed325788cc",
+			"fromSide":"right",
+			"toNode":"47ac7e47083dacc3",
+			"toSide":"left"
+		},
+		{
+			"id":"b3248993d91bfcbd",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"47ac7e47083dacc3",
+			"fromSide":"right",
+			"toNode":"faaee3ef234b3394",
+			"toSide":"left"
 		}
 	],
 	"metadata":{
