@@ -11,15 +11,17 @@
             "id": "d31a310d40d2eca5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "01 Notes/Ollama.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/mind maps/Empirical Study/page-agent integration.canvas",
+                "viewState": {
+                  "x": -467.5045622107765,
+                  "y": 1090.9704934440592,
+                  "zoom": -0.8000000000000002
+                }
               },
-              "icon": "lucide-file",
-              "title": "Ollama"
+              "icon": "lucide-layout-dashboard",
+              "title": "page-agent integration"
             }
           }
         ]
@@ -79,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 216.5
+    "width": 366.5
   },
   "right": {
     "id": "d33bedbb2b578ec2",
@@ -188,8 +190,13 @@
   },
   "active": "d31a310d40d2eca5",
   "lastOpenFiles": [
-    "01 Notes/Ollama.md",
+    "97 Assets/workflow_example.png",
     "04 Canvases/mind maps/Empirical Study/REVISE - On the role of web front-ends in BAC.canvas",
+    "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
+    "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
+    "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
+    "04 Canvases/mind maps/Empirical Study/page-agent integration.canvas",
+    "01 Notes/Ollama.md",
     "01 Notes/BFT (business flow tampering).md",
     "02 Literature/papers/parameter tampering/Automating the Detection of Access Control Vulnerabilities in Web Applications.md",
     "03 References/(Calzavara, Tolomei, et al., 2014).md",
@@ -214,17 +221,12 @@
     "03 References/(Kim, Zheng, Park, et al., 2020).md",
     "03 References/(Deepa, Thilagam, et al., 2018).md",
     "02 Literature/papers/logic flow tampering/DetLogic. A black-box approach for detecting logic vulnerabilities in web applications.md",
-    "96 Meta/PhD status.md",
     "04 Canvases/mind maps/IDOR scanner in SPA/Mining SPA for accessing restricted resources.canvas",
-    "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
-    "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
-    "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
     "00 Antilibrary/Untitled.base",
     "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
     "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
     "04 Canvases/mind maps/CSS security implication/Review.canvas",
-    "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
     "97 Assets/google-chrome-web-browser-logo-computer-icons-chrome-9391b0cd7c3be9a1b753ac6778214fe9.png",
     "chrome_icon_png.png",
     "06 Courses, webinars/CodeQL",
