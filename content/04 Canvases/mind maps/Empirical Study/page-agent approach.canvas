@@ -55,16 +55,6 @@
 			"height":60
 		},
 		{
-			"id":"c952e4ed325788cc",
-			"type":"text",
-			"text":"compare HTTP data\n- workflow 1\n- workflow 2",
-			"styleAttributes":{},
-			"x":-1110,
-			"y":1720,
-			"width":260,
-			"height":180
-		},
-		{
 			"id":"c3c15c44eb53f739",
 			"type":"text",
 			"text":"page-agent",
@@ -126,6 +116,16 @@
 			"height":100
 		},
 		{
+			"id":"c952e4ed325788cc",
+			"type":"text",
+			"text":"compare HTTP data\n- workflow 1\n- workflow 2",
+			"styleAttributes":{},
+			"x":-1110,
+			"y":1720,
+			"width":260,
+			"height":180
+		},
+		{
 			"id":"0e1b52b11ced2149",
 			"type":"text",
 			"text":"# ISSUES (critical)\n- LLM decisions are not deterministic, we risk missing important workflows or not even completing the workflow\n- Running page-agent with a local LLM is extremely slow (+20 min per click, in a real-world large application)",
@@ -136,7 +136,6 @@
 			"height":360,
 			"color":"1"
 		},
-		{"id":"f8a4bbc04b670cc4","type":"file","file":"97 Assets/workflow_example.png","x":-1110,"y":280,"width":1460,"height":462},
 		{
 			"id":"2f3ca8657eb4058e",
 			"type":"text",
@@ -147,6 +146,7 @@
 			"width":260,
 			"height":60
 		},
+		{"id":"f8a4bbc04b670cc4","type":"file","file":"97 Assets/workflow_example.png","x":-1110,"y":280,"width":1460,"height":462},
 		{
 			"id":"6153aaa75404816a",
 			"type":"text",
