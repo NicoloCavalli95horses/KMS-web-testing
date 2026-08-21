@@ -77,16 +77,6 @@
 			"height":480
 		},
 		{
-			"id":"b57d6fb93add83d1",
-			"type":"text",
-			"text":"",
-			"styleAttributes":{},
-			"x":-320,
-			"y":300,
-			"width":260,
-			"height":60
-		},
-		{
 			"id":"ba6d01181a52f8b8",
 			"type":"text",
 			"text":"- Email cloaking (spam bypass)",

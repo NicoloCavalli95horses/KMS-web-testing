@@ -4,19 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "77a2c19f345e571b",
+        "id": "bc49b819a18dd3ae",
         "type": "tabs",
         "children": [
           {
-            "id": "f9eaa8e71b1486c3",
+            "id": "ec91cac95cdc81b9",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "canvas",
               "state": {
-                "currentVersion": "1.13.7"
+                "file": "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
+                "viewState": {
+                  "x": 2635.2958199240447,
+                  "y": -281.1875292305528,
+                  "zoom": -0.8042402475612
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.7"
+              "icon": "lucide-layout-dashboard",
+              "title": "CSS exploitation in web mails"
             }
           }
         ]
@@ -185,15 +190,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f9eaa8e71b1486c3",
+  "active": "ec91cac95cdc81b9",
   "lastOpenFiles": [
+    "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
+    "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
+    "04 Canvases/mind maps/CSS security implication/Review.canvas",
+    "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
+    "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
+    "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
     "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
     "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
     "04 Canvases/mind maps/Empirical Study/page-agent approach.canvas",
     "04 Canvases/mind maps/Empirical Study/visual regression approach.canvas",
     "04 Canvases/mind maps/Empirical Study/state-aware approach.canvas",
     "97 Assets/workflow_example.png",
-    "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
     "01 Notes/Ollama.md",
     "01 Notes/BFT (business flow tampering).md",
     "02 Literature/papers/parameter tampering/Automating the Detection of Access Control Vulnerabilities in Web Applications.md",
@@ -219,12 +229,7 @@
     "03 References/(Kim, Zheng, Park, et al., 2020).md",
     "03 References/(Deepa, Thilagam, et al., 2018).md",
     "02 Literature/papers/logic flow tampering/DetLogic. A black-box approach for detecting logic vulnerabilities in web applications.md",
-    "04 Canvases/mind maps/IDOR scanner in SPA/Mining SPA for accessing restricted resources.canvas",
     "00 Antilibrary/Untitled.base",
-    "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
-    "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
-    "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
-    "04 Canvases/mind maps/CSS security implication/Review.canvas",
     "97 Assets/google-chrome-web-browser-logo-computer-icons-chrome-9391b0cd7c3be9a1b753ac6778214fe9.png",
     "chrome_icon_png.png",
     "06 Courses, webinars/CodeQL",

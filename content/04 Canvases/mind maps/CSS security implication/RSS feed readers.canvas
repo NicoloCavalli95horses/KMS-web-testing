@@ -6,9 +6,9 @@
 			"text":"An [[RSS (Really Simple Syndication)]] feed reader is a software or service that allows you to aggregate content from multiple websites into one place. Essentially, instead of visiting dozens of sites to read news or updates, an ==RSS reader automatically collects articles published by the sites you subscribe to, via their RSS (or Atom, a similar format) feeds.==\n- A RSS reader aggregates and parses XML files, serving content to opt-in users ",
 			"styleAttributes":{"border":"invisible"},
 			"x":-440,
-			"y":-120,
+			"y":-200,
 			"width":500,
-			"height":340
+			"height":480
 		},
 		{
 			"id":"c7b7124c1d1c5f5c",
@@ -19,7 +19,7 @@
 				"border":"invisible"
 			},
 			"x":-440,
-			"y":-200,
+			"y":-260,
 			"width":480,
 			"height":60
 		},
@@ -31,10 +31,10 @@
 				"textAlign":null,
 				"border":"invisible"
 			},
-			"x":-420,
-			"y":225,
+			"x":-400,
+			"y":305,
 			"width":440,
-			"height":140
+			"height":275
 		},
 		{
 			"id":"69abf13c258a06f3",
