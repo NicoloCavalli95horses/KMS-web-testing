@@ -74,9 +74,9 @@
 			"text":"\n## If the attack does not need the server to be carried out, *then* it must be a pure front-end attack. \n\n## In all other cases, front-end is just a *phase* of a web server attack\n",
 			"type":"text",
 			"x":-4400,
-			"y":1515,
+			"y":1440,
 			"width":719,
-			"height":230,
+			"height":305,
 			"color":"5"
 		},
 		{

@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
+                "file": "04 Canvases/mind maps/CSS security implication/Automated Detection of CSS Scope Escapes in Web Rendering Libraries.canvas",
                 "viewState": {
-                  "x": 2635.2958199240447,
-                  "y": -281.1875292305528,
-                  "zoom": -0.8042402475612
+                  "x": 240,
+                  "y": -32.203816449752495,
+                  "zoom": -0.1845010032871045
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "CSS exploitation in web mails"
+              "title": "Automated Detection of CSS Scope Escapes in Web Rendering Libraries"
             }
           }
         ]
@@ -192,17 +192,17 @@
   },
   "active": "ec91cac95cdc81b9",
   "lastOpenFiles": [
-    "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs).canvas",
+    "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs) detail.canvas",
+    "04 Canvases/mind maps/CSS security implication/Automated Detection of CSS Scope Escapes in Web Rendering Libraries.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
     "04 Canvases/mind maps/CSS security implication/Review.canvas",
     "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
     "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
-    "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
+    "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
     "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
     "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
     "04 Canvases/mind maps/Empirical Study/page-agent approach.canvas",
     "04 Canvases/mind maps/Empirical Study/visual regression approach.canvas",
-    "04 Canvases/mind maps/Empirical Study/state-aware approach.canvas",
     "97 Assets/workflow_example.png",
     "01 Notes/Ollama.md",
     "01 Notes/BFT (business flow tampering).md",

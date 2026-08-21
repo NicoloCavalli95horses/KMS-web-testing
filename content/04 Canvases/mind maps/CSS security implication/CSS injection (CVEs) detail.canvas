@@ -1,15 +1,5 @@
 {
 	"nodes":[
-		{
-			"id":"21c192e0ef7dc1b1",
-			"type":"text",
-			"text":"# CVE-2022-31108\n- https://github.com/mermaid-js/mermaid/security/advisories/GHSA-x3vm-38hw-55wf",
-			"styleAttributes":{"border":"invisible"},
-			"x":-540,
-			"y":880,
-			"width":1000,
-			"height":140
-		},
 		{"id":"a5677641061a7fd8","type":"file","file":"97 Assets/misskey_injection_3.png","x":-1010,"y":-660,"width":400,"height":165},
 		{
 			"id":"11dee50399508431",
