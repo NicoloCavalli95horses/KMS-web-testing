@@ -11,17 +11,15 @@
             "id": "ec91cac95cdc81b9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/mind maps/CSS security implication/Automated Detection of CSS Scope Escapes in Web Rendering Libraries.canvas",
-                "viewState": {
-                  "x": 240,
-                  "y": -32.203816449752495,
-                  "zoom": -0.1845010032871045
-                }
+                "file": "01 Notes/CodeQL.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Automated Detection of CSS Scope Escapes in Web Rendering Libraries"
+              "icon": "lucide-file",
+              "title": "CodeQL"
             }
           }
         ]
@@ -192,8 +190,8 @@
   },
   "active": "ec91cac95cdc81b9",
   "lastOpenFiles": [
-    "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs) detail.canvas",
     "04 Canvases/mind maps/CSS security implication/Automated Detection of CSS Scope Escapes in Web Rendering Libraries.canvas",
+    "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs) detail.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
     "04 Canvases/mind maps/CSS security implication/Review.canvas",
     "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
