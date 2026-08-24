@@ -13,12 +13,12 @@
 		{
 			"id":"6d7cf0f76cf2c4da",
 			"type":"text",
-			"text":"# CVE-2022-31108\nhttps://github.com/mermaid-js/mermaid/security/advisories/GHSA-x3vm-38hw-55wf\n# CVE-2025-46340\nhttps://github.com/misskey-dev/misskey/security/advisories/GHSA-3p2w-xmv5-jm95\n## CVE-2026-41159\nhttps://github.com/mermaid-js/mermaid/security/advisories/GHSA-87f9-hvmw-gh4p\n# CVE-2026-50159\nhttps://github.com/advisories/GHSA-6x64-9x62-f2gx\n## CVE-2026-49452\nhttps://www.cve.org/CVERecord?id=CVE-2026-49452",
+			"text":"# CVE-2022-31108\nhttps://github.com/mermaid-js/mermaid/security/advisories/GHSA-x3vm-38hw-55wf\n# CVE-2025-46340\nhttps://github.com/misskey-dev/misskey/security/advisories/GHSA-3p2w-xmv5-jm95\n## CVE-2026-41159\nhttps://github.com/mermaid-js/mermaid/security/advisories/GHSA-87f9-hvmw-gh4p\n# CVE-2026-50159\nhttps://github.com/advisories/GHSA-6x64-9x62-f2gx\n## CVE-2026-49452\nhttps://www.cve.org/CVERecord?id=CVE-2026-49452\n\nDrawio security issue (CVE not assigned yet)\nhttps://github.com/jgraph/drawio/security/advisories/GHSA-34m6-jq4j-m83m",
 			"styleAttributes":{"border":"invisible"},
 			"x":20,
 			"y":-210,
-			"width":1000,
-			"height":830
+			"width":1420,
+			"height":950
 		},
 		{
 			"id":"b8b15899a465c6fa",
@@ -54,11 +54,21 @@
 			"id":"983634ae1115a699",
 			"type":"text",
 			"text":"# CSS scope escape:  injecting CSS in web rendering libraries",
-			"styleAttributes":{"textAlign":"center"},
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
 			"x":-540,
 			"y":-500,
 			"width":1200,
 			"height":100
+		},
+		{
+			"id":"41689a43e364fdb8",
+			"type":"text",
+			"text":"### Sources\n│\n├── URL\n│   ├── location.search\n│   ├── location.hash\n│   └── URL parameters\n│\n├── Network\n│   ├── fetch()\n│   └── XMLHttpRequest\n│\n├── Browser storage\n│   ├── localStorage\n│   └── sessionStorage\n│\n└── Messaging\n    └── postMessage\n\n### Sinks\n│\n├── CSSOM\n│   ├── cssText\n│   ├── setProperty()\n│   └── style attribute\n│\n└── HTML\n    ├── innerHTML\n    └── insertAdjacentHTML()",
+			"styleAttributes":{},
+			"x":-730,
+			"y":820,
+			"width":1580,
+			"height":1160
 		}
 	],
 	"edges":[

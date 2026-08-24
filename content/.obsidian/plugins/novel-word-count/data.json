@@ -4725,20 +4725,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 85,
+      "wordCount": 117,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.2833333333333333,
-      "characterCount": 931,
-      "nonWhitespaceCharacterCount": 840,
-      "newlineCount": 15,
-      "readingTimeInMinutes": 0.32075471698113206,
+      "pageCount": 0.39,
+      "characterCount": 1439,
+      "nonWhitespaceCharacterCount": 1245,
+      "newlineCount": 46,
+      "readingTimeInMinutes": 0.44150943396226416,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1787317052075,
-      "modifiedDate": 1787552903470,
-      "sizeInBytes": 2442,
+      "modifiedDate": 1787577353871,
+      "sizeInBytes": 3299,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.27666666666666667,
@@ -4761,11 +4761,11 @@
       "nonWhitespaceCharacterCount": 2305,
       "newlineCount": 70,
       "readingTimeInMinutes": 1.3433962264150943,
-      "linkCount": 0,
-      "embedCount": 0,
+      "linkCount": 1,
+      "embedCount": 2,
       "aliases": null,
       "createdDate": 1769510558016,
-      "modifiedDate": 1771315653297,
+      "modifiedDate": 1787577446357,
       "sizeInBytes": 10943,
       "sessionStart": {
         "noteCount": 1,
@@ -4774,7 +4774,8 @@
         "characterCount": 2780,
         "nonWhitespaceCharacterCount": 2305,
         "newlineCount": 70
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/meetings/2026_01_21.canvas": {
       "isCountable": true,
@@ -29933,6 +29934,61 @@
         "tags": [
           "#definition"
         ]
+      }
+    },
+    "04 Canvases/meetings/2026_08_24.canvas": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 27,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.09,
+      "characterCount": 208,
+      "nonWhitespaceCharacterCount": 177,
+      "newlineCount": 7,
+      "readingTimeInMinutes": 0.1018867924528302,
+      "linkCount": 0,
+      "embedCount": 1,
+      "aliases": null,
+      "createdDate": 1787577420453,
+      "modifiedDate": 1787577643987,
+      "sizeInBytes": 1506,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      },
+      "frontmatter": {}
+    },
+    "97 Assets/proxy-server-python.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1787577636942,
+      "modifiedDate": 1787577636944,
+      "sizeInBytes": 122815,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
       }
     }
   }

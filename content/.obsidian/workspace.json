@@ -11,15 +11,17 @@
             "id": "ec91cac95cdc81b9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "01 Notes/CodeQL.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/meetings/2026_08_24.canvas",
+                "viewState": {
+                  "x": -121.85245600565452,
+                  "y": 1173.2086499904287,
+                  "zoom": 0.19999999999999996
+                }
               },
-              "icon": "lucide-file",
-              "title": "CodeQL"
+              "icon": "lucide-layout-dashboard",
+              "title": "2026_08_24"
             }
           }
         ]
@@ -190,7 +192,11 @@
   },
   "active": "ec91cac95cdc81b9",
   "lastOpenFiles": [
+    "97 Assets/proxy-server-python.png",
+    "04 Canvases/meetings/2026_01_28.canvas",
+    "04 Canvases/meetings/2026_08_24.canvas",
     "04 Canvases/mind maps/CSS security implication/Automated Detection of CSS Scope Escapes in Web Rendering Libraries.canvas",
+    "01 Notes/CodeQL.md",
     "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs) detail.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
     "04 Canvases/mind maps/CSS security implication/Review.canvas",
@@ -198,9 +204,6 @@
     "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
     "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
     "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
-    "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
-    "04 Canvases/mind maps/Empirical Study/page-agent approach.canvas",
-    "04 Canvases/mind maps/Empirical Study/visual regression approach.canvas",
     "97 Assets/workflow_example.png",
     "01 Notes/Ollama.md",
     "01 Notes/BFT (business flow tampering).md",
@@ -226,7 +229,6 @@
     "03 References/(Pellegrino, Balzarotti, 2014).md",
     "03 References/(Kim, Zheng, Park, et al., 2020).md",
     "03 References/(Deepa, Thilagam, et al., 2018).md",
-    "02 Literature/papers/logic flow tampering/DetLogic. A black-box approach for detecting logic vulnerabilities in web applications.md",
     "00 Antilibrary/Untitled.base",
     "97 Assets/google-chrome-web-browser-logo-computer-icons-chrome-9391b0cd7c3be9a1b753ac6778214fe9.png",
     "chrome_icon_png.png",

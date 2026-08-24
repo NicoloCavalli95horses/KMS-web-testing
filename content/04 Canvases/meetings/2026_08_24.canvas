@@ -1,0 +1,79 @@
+{
+	"nodes":[
+		{
+			"id":"2e28547f490dd4b9",
+			"type":"text",
+			"text":"# Exposed resources (IDOR/BOLA)",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-206,
+			"y":-560,
+			"width":620,
+			"height":100
+		},
+		{
+			"id":"67a5d5d529ee5ab9",
+			"type":"text",
+			"text":"### How to automate the exploration?",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-1240,
+			"y":920,
+			"width":320,
+			"height":120
+		},
+		{
+			"id":"5f86768b5539c77c",
+			"type":"text",
+			"text":"proxy-server that tampers with HTTP requests",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-800,
+			"y":920,
+			"width":320,
+			"height":120
+		},
+		{
+			"id":"4037fedb56ce88ed",
+			"type":"text",
+			"text":"# TSE paper : empirical study on real-world BAC\n",
+			"styleAttributes":{"border":"invisible"},
+			"x":-1240,
+			"y":740,
+			"width":1820,
+			"height":80
+		},
+		{"id":"575527d0887820b3","type":"file","file":"97 Assets/proxy-server-python.png","x":-825,"y":1100,"width":371,"height":400},
+		{
+			"id":"e997becd52f9b71b",
+			"type":"text",
+			"text":"the tampered front-end will display a different behaviour\n- enabled buttons\n- new H",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-280,
+			"y":920,
+			"width":320,
+			"height":120
+		}
+	],
+	"edges":[
+		{
+			"id":"06aff265859117ec",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"67a5d5d529ee5ab9",
+			"fromSide":"right",
+			"toNode":"5f86768b5539c77c",
+			"toSide":"left"
+		},
+		{
+			"id":"0270f45778f8a666",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"5f86768b5539c77c",
+			"fromSide":"right",
+			"toNode":"e997becd52f9b71b",
+			"toSide":"left"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}
