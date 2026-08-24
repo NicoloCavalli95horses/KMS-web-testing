@@ -21,7 +21,7 @@ tags:
 ### A query example
 
 ```js
-import java // import libraries to reuse logic
+import javascript // import libraries to reuse logic
 
 from IfStmt ifStmt, BLock block // variables
 // if statements, and code "block" (code in {}, after an if)
