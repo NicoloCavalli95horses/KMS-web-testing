@@ -94,20 +94,6 @@
 			"height":380
 		},
 		{
-			"id":"18d4f491deb05cb9",
-			"type":"text",
-			"text":"# we need to interact with the tampered front-end to reveal and study this new behavior",
-			"styleAttributes":{
-				"border":null,
-				"textAlign":"center"
-			},
-			"x":420,
-			"y":860,
-			"width":480,
-			"height":240,
-			"color":"2"
-		},
-		{
 			"id":"431b96704e4a079c",
 			"type":"text",
 			"text":"Approached tried from late June (2 months already)",
@@ -137,30 +123,6 @@
 			"width":880,
 			"height":160
 		},
-		{
-			"id":"2599aabe8ef148b9",
-			"type":"text",
-			"text":"# Let's say that we find a solution to this...\n## We then must run it on 50+ apps (multiple times) to collect and analyze data reliably",
-			"styleAttributes":{
-				"border":null,
-				"textAlign":null
-			},
-			"x":763,
-			"y":1560,
-			"width":717,
-			"height":263,
-			"color":"2"
-		},
-		{
-			"id":"e1c990ad803af36d",
-			"type":"text",
-			"text":"+1 months",
-			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"x":1220,
-			"y":1823,
-			"width":260,
-			"height":60
-		},
 		{"id":"575527d0887820b3","type":"file","file":"97 Assets/proxy-server-python.png","x":-840,"y":1100,"width":625,"height":673},
 		{
 			"id":"58f78eef86953662",
@@ -170,6 +132,64 @@
 			"x":2080,
 			"y":1185,
 			"width":400,
+			"height":80
+		},
+		{
+			"id":"e1c990ad803af36d",
+			"type":"text",
+			"text":"+1 months",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":759,
+			"y":1377,
+			"width":168,
+			"height":60
+		},
+		{
+			"id":"2599aabe8ef148b9",
+			"type":"text",
+			"text":"# Let's say that we find a solution to this...\n### We then must run it on 50+ apps (multiple times) to collect and analyze data reliably\n\n### The high-diversity of the set of apps makes the automatic interaction very challenging",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"x":340,
+			"y":1437,
+			"width":587,
+			"height":443
+		},
+		{
+			"id":"18d4f491deb05cb9",
+			"type":"text",
+			"text":"# we need to interact with the tampered front-end to reveal and study this new behavior",
+			"styleAttributes":{
+				"border":null,
+				"textAlign":"center"
+			},
+			"x":394,
+			"y":860,
+			"width":480,
+			"height":240,
+			"color":"2"
+		},
+		{
+			"id":"4fe8f13ee008ed1e",
+			"type":"text",
+			"text":"https://conf.researchr.org/track/saner-2027/saner-2027-short-papers-and-posters-track\nhttps://conf.researchr.org/track/saner-2027/saner-2027-early-research-achievement-era--track",
+			"styleAttributes":{"border":"invisible"},
+			"x":-1210,
+			"y":2560,
+			"width":1090,
+			"height":200
+		},
+		{"id":"f8e51620cf4d07ee","type":"file","file":"Pasted image 20260825105859.png","x":-81,"y":2400,"width":1430,"height":740},
+		{
+			"id":"3ce661f37d54fc42",
+			"type":"text",
+			"text":"# Proposal: a short paper that discusses the learned lesson",
+			"styleAttributes":{"border":"invisible"},
+			"x":-1240,
+			"y":2440,
+			"width":1045,
 			"height":80
 		}
 	],
