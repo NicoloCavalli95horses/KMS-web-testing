@@ -4752,20 +4752,20 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 117,
+      "wordCount": 120,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.39,
-      "characterCount": 1439,
-      "nonWhitespaceCharacterCount": 1245,
-      "newlineCount": 46,
-      "readingTimeInMinutes": 0.44150943396226416,
+      "pageCount": 0.4,
+      "characterCount": 1544,
+      "nonWhitespaceCharacterCount": 1346,
+      "newlineCount": 48,
+      "readingTimeInMinutes": 0.4528301886792453,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1787317052075,
-      "modifiedDate": 1787577353871,
-      "sizeInBytes": 3299,
+      "modifiedDate": 1787649536590,
+      "sizeInBytes": 3555,
       "sessionStart": {
         "noteCount": 1,
         "pageCount": 0.39,
@@ -4773,7 +4773,8 @@
         "characterCount": 1439,
         "nonWhitespaceCharacterCount": 1245,
         "newlineCount": 46
-      }
+      },
+      "frontmatter": {}
     },
     "04 Canvases/meetings/2026_08_24.canvas": {
       "isCountable": true,

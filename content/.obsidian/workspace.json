@@ -33,7 +33,7 @@
                 "file": "04 Canvases/mind maps/CSS security implication/Automated Detection of CSS Scope Escapes in Web Rendering Libraries.canvas",
                 "viewState": {
                   "x": 355,
-                  "y": 740,
+                  "y": 499.5222748815165,
                   "zoom": -1.1075662395958312
                 }
               },
@@ -41,7 +41,8 @@
               "title": "Automated Detection of CSS Scope Escapes in Web Rendering Libraries"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,10 +208,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ec91cac95cdc81b9",
+  "active": "7f2ebb96a3228b34",
   "lastOpenFiles": [
-    "04 Canvases/mind maps/CSS security implication/Automated Detection of CSS Scope Escapes in Web Rendering Libraries.canvas",
     "04 Canvases/meetings/2026_08_24.canvas",
+    "04 Canvases/mind maps/CSS security implication/Automated Detection of CSS Scope Escapes in Web Rendering Libraries.canvas",
     "Pasted image 20260825105859.png",
     "97 Assets/proxy-server-python.png",
     "04 Canvases/meetings/2026_01_28.canvas",

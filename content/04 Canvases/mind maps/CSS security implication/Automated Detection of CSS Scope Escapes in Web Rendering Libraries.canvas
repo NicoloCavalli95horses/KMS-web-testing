@@ -69,6 +69,16 @@
 			"y":820,
 			"width":1580,
 			"height":1160
+		},
+		{
+			"id":"b7ef35742ed574d9",
+			"type":"text",
+			"text":"# Known sink-sources\nhttps://github.com/Sivnerof/Sources-And-Sinks-Cheatsheet#javascript-injection-sinks",
+			"styleAttributes":{},
+			"x":980,
+			"y":1120,
+			"width":780,
+			"height":240
 		}
 	],
 	"edges":[
