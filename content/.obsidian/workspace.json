@@ -15,9 +15,9 @@
               "state": {
                 "file": "04 Canvases/meetings/2026_08_24.canvas",
                 "viewState": {
-                  "x": 145.6490367596639,
-                  "y": 970.0317367964361,
-                  "zoom": -0.5999999999999999
+                  "x": 1169.9327342970198,
+                  "y": 1063.4017979029102,
+                  "zoom": -0.20000000000000007
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -30,19 +30,18 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
+                "file": "04 Canvases/mind maps/CSS security implication/Automated Detection of CSS Scope Escapes in Web Rendering Libraries.canvas",
                 "viewState": {
-                  "x": -271.5,
-                  "y": 180,
-                  "zoom": -0.6452230255386309
+                  "x": 18.85768506597489,
+                  "y": -124.7518887793519,
+                  "zoom": 0.09243376040416884
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Stealing attributes via inline CSS, In SPA"
+              "title": "Automated Detection of CSS Scope Escapes in Web Rendering Libraries"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,16 +207,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7f2ebb96a3228b34",
+  "active": "ec91cac95cdc81b9",
   "lastOpenFiles": [
-    "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
+    "04 Canvases/mind maps/CSS security implication/Automated Detection of CSS Scope Escapes in Web Rendering Libraries.canvas",
     "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
+    "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
     "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
     "04 Canvases/mind maps/CSS security implication/Review.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs) detail.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
-    "04 Canvases/mind maps/CSS security implication/Automated Detection of CSS Scope Escapes in Web Rendering Libraries.canvas",
     "04 Canvases/meetings/2026_08_24.canvas",
     "Pasted image 20260825105859.png",
     "97 Assets/proxy-server-python.png",
@@ -248,7 +247,6 @@
     "03 References/(Li, Xue, et al., 2013).md",
     "03 References/(Pellegrino, Balzarotti, 2014).md",
     "03 References/(Kim, Zheng, Park, et al., 2020).md",
-    "03 References/(Deepa, Thilagam, et al., 2018).md",
     "00 Antilibrary/Untitled.base",
     "97 Assets/google-chrome-web-browser-logo-computer-icons-chrome-9391b0cd7c3be9a1b753ac6778214fe9.png",
     "chrome_icon_png.png",

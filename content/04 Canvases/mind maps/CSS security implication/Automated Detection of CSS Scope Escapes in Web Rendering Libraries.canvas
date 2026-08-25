@@ -1,16 +1,6 @@
 {
 	"nodes":[
 		{
-			"id":"9fd2bc69fb80c096",
-			"type":"text",
-			"text":"Many graphic/diagram libraries accept custom CSS without sanitizing it",
-			"styleAttributes":{"border":"invisible"},
-			"x":-540,
-			"y":-200,
-			"width":500,
-			"height":120
-		},
-		{
 			"id":"6d7cf0f76cf2c4da",
 			"type":"text",
 			"text":"# CVE-2022-31108\nhttps://github.com/mermaid-js/mermaid/security/advisories/GHSA-x3vm-38hw-55wf\n# CVE-2025-46340\nhttps://github.com/misskey-dev/misskey/security/advisories/GHSA-3p2w-xmv5-jm95\n## CVE-2026-41159\nhttps://github.com/mermaid-js/mermaid/security/advisories/GHSA-87f9-hvmw-gh4p\n# CVE-2026-50159\nhttps://github.com/advisories/GHSA-6x64-9x62-f2gx\n## CVE-2026-49452\nhttps://www.cve.org/CVERecord?id=CVE-2026-49452\n\nDrawio security issue (CVE not assigned yet)\nhttps://github.com/jgraph/drawio/security/advisories/GHSA-34m6-jq4j-m83m",
@@ -23,17 +13,17 @@
 		{
 			"id":"b8b15899a465c6fa",
 			"type":"text",
-			"text":"A platform that accepts and renders user-supplied content using a vulnerable library may be exposed to CSS injection.",
+			"text":"Also, a platform that accepts and renders user-supplied content using a vulnerable library may be exposed to CSS injection (eg. markdown accepts mermaid syntax > user-supplied content in mermaid syntax may contain CSS that affects the DOM outside the predicted boundaries)",
 			"styleAttributes":{"border":"invisible"},
 			"x":-540,
-			"y":-40,
+			"y":-80,
 			"width":500,
-			"height":140
+			"height":180
 		},
 		{
 			"id":"6ff7dc7d6698dce0",
 			"type":"text",
-			"text":"Through CSS injection, we can\n- extract sensitive data from the DOM (eg. sensitive attributes values in HTML forms)\n- ",
+			"text":"Through CSS injection, we can\n- extract sensitive data from the DOM (eg. sensitive attributes values in HTML forms)\n- perform GET requests (potentially leading to [[CSRF (cross-site request forgery)]])",
 			"styleAttributes":{"border":"invisible"},
 			"x":-540,
 			"y":140,
@@ -79,6 +69,16 @@
 			"y":1120,
 			"width":780,
 			"height":240
+		},
+		{
+			"id":"9fd2bc69fb80c096",
+			"type":"text",
+			"text":"Many graphic/diagram libraries accept custom CSS without sanitizing it. But if we use library-specific APIs to style the graphical element offered by the library, it is responsibility of the library to sanitize the input CSS",
+			"styleAttributes":{"border":"invisible"},
+			"x":-540,
+			"y":-260,
+			"width":500,
+			"height":140
 		}
 	],
 	"edges":[
