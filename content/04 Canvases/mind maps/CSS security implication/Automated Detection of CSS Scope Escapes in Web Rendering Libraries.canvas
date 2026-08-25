@@ -33,12 +33,12 @@
 		{
 			"id":"6ff7dc7d6698dce0",
 			"type":"text",
-			"text":"Through CSS injection, we can extract sensitive data from the DOM (eg. sensitive attributes values in HTML forms)",
+			"text":"Through CSS injection, we can\n- extract sensitive data from the DOM (eg. sensitive attributes values in HTML forms)\n- ",
 			"styleAttributes":{"border":"invisible"},
 			"x":-540,
 			"y":140,
 			"width":500,
-			"height":140
+			"height":260
 		},
 		{
 			"id":"a3c5050ec2e5d4c3",

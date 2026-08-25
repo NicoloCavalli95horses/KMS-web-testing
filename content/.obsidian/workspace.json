@@ -30,18 +30,19 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/mind maps/CSS security implication/Automated Detection of CSS Scope Escapes in Web Rendering Libraries.canvas",
+                "file": "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
                 "viewState": {
-                  "x": 355,
-                  "y": 499.5222748815165,
-                  "zoom": -1.1075662395958312
+                  "x": -271.5,
+                  "y": 180,
+                  "zoom": -0.6452230255386309
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Automated Detection of CSS Scope Escapes in Web Rendering Libraries"
+              "title": "Stealing attributes via inline CSS, In SPA"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,21 +208,22 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ec91cac95cdc81b9",
+  "active": "7f2ebb96a3228b34",
   "lastOpenFiles": [
+    "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
+    "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
+    "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
+    "04 Canvases/mind maps/CSS security implication/Review.canvas",
+    "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
+    "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs) detail.canvas",
+    "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
     "04 Canvases/mind maps/CSS security implication/Automated Detection of CSS Scope Escapes in Web Rendering Libraries.canvas",
     "04 Canvases/meetings/2026_08_24.canvas",
     "Pasted image 20260825105859.png",
     "97 Assets/proxy-server-python.png",
     "04 Canvases/meetings/2026_01_28.canvas",
     "01 Notes/CodeQL.md",
-    "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs) detail.canvas",
-    "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
-    "04 Canvases/mind maps/CSS security implication/Review.canvas",
-    "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
-    "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
     "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
-    "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
     "97 Assets/workflow_example.png",
     "01 Notes/Ollama.md",
     "01 Notes/BFT (business flow tampering).md",
