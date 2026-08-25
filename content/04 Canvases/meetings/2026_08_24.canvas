@@ -24,32 +24,153 @@
 			"id":"5f86768b5539c77c",
 			"type":"text",
 			"text":"proxy-server that tampers with HTTP requests",
-			"styleAttributes":{"textAlign":"center"},
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
 			"x":-800,
 			"y":920,
 			"width":320,
 			"height":120
 		},
 		{
-			"id":"4037fedb56ce88ed",
+			"id":"aff0c86fc0cfb177",
 			"type":"text",
-			"text":"# TSE paper : empirical study on real-world BAC\n",
+			"text":"### Capture and replay?",
 			"styleAttributes":{"border":"invisible"},
-			"x":-1240,
-			"y":740,
-			"width":1820,
-			"height":80
+			"x":960,
+			"y":860,
+			"width":340,
+			"height":60
 		},
-		{"id":"575527d0887820b3","type":"file","file":"97 Assets/proxy-server-python.png","x":-825,"y":1100,"width":371,"height":400},
+		{
+			"id":"8adc95d9cdc52042",
+			"type":"text",
+			"text":"### Page-Agent?",
+			"styleAttributes":{"border":"invisible"},
+			"x":960,
+			"y":980,
+			"width":340,
+			"height":60
+		},
+		{
+			"id":"0bf6fee9ac436879",
+			"type":"text",
+			"text":"### GUI explorer?",
+			"styleAttributes":{"border":"invisible"},
+			"x":960,
+			"y":1100,
+			"width":340,
+			"height":60
+		},
+		{
+			"id":"093bda3684516a97",
+			"type":"text",
+			"text":"brute-force DFS exploration algorithm works \"in theory\". In practice, real-world large SPA are very unpredictable and the exploration is not consistent over time",
+			"styleAttributes":{"border":"invisible"},
+			"x":1440,
+			"y":1130,
+			"width":560,
+			"height":190
+		},
+		{
+			"id":"850297b3cbf3ea9b",
+			"type":"text",
+			"text":"not deterministic and computationally very expensive (cannot run locally)",
+			"styleAttributes":{"border":"invisible"},
+			"x":1440,
+			"y":920,
+			"width":560,
+			"height":120
+		},
 		{
 			"id":"e997becd52f9b71b",
 			"type":"text",
-			"text":"the tampered front-end will display a different behaviour\n- enabled buttons\n- new H",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-280,
-			"y":920,
-			"width":320,
+			"text":"the tampered front-end will display a different behavior\n- enabled DOM elements (buttons/sidebar)\n- direct access to restricted pages \n- modified HTTP requests\n- novel HTTP requests",
+			"styleAttributes":{
+				"textAlign":null,
+				"border":"invisible"
+			},
+			"x":-330,
+			"y":790,
+			"width":560,
+			"height":380
+		},
+		{
+			"id":"18d4f491deb05cb9",
+			"type":"text",
+			"text":"# we need to interact with the tampered front-end to reveal and study this new behavior",
+			"styleAttributes":{
+				"border":null,
+				"textAlign":"center"
+			},
+			"x":420,
+			"y":860,
+			"width":480,
+			"height":240,
+			"color":"2"
+		},
+		{
+			"id":"431b96704e4a079c",
+			"type":"text",
+			"text":"Approached tried from late June (2 months already)",
+			"styleAttributes":{},
+			"x":800,
+			"y":560,
+			"width":520,
 			"height":120
+		},
+		{
+			"id":"3736c4a01c4453da",
+			"type":"text",
+			"text":"cannot replay the actions recorded during the \"capture\" phase. The FE has a different DOM after the tampering",
+			"styleAttributes":{"border":"invisible"},
+			"x":1440,
+			"y":660,
+			"width":600,
+			"height":180
+		},
+		{
+			"id":"4037fedb56ce88ed",
+			"type":"text",
+			"text":"# TSE paper : empirical study on real-world BAC\n#### How can we save the paper? And is it really worth it?\n",
+			"styleAttributes":{"border":"invisible"},
+			"x":-1240,
+			"y":620,
+			"width":880,
+			"height":160
+		},
+		{
+			"id":"2599aabe8ef148b9",
+			"type":"text",
+			"text":"# Let's say that we find a solution to this...\n## We then must run it on 50+ apps (multiple times) to collect and analyze data reliably",
+			"styleAttributes":{
+				"border":null,
+				"textAlign":null
+			},
+			"x":763,
+			"y":1560,
+			"width":717,
+			"height":263,
+			"color":"2"
+		},
+		{
+			"id":"e1c990ad803af36d",
+			"type":"text",
+			"text":"+1 months",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"x":1220,
+			"y":1823,
+			"width":260,
+			"height":60
+		},
+		{"id":"575527d0887820b3","type":"file","file":"97 Assets/proxy-server-python.png","x":-840,"y":1100,"width":625,"height":673},
+		{
+			"id":"58f78eef86953662",
+			"type":"text",
+			"text":"but it works on toy application",
+			"styleAttributes":{"border":"invisible"},
+			"x":2080,
+			"y":1185,
+			"width":400,
+			"height":80
 		}
 	],
 	"edges":[
@@ -69,6 +190,60 @@
 			"fromNode":"5f86768b5539c77c",
 			"fromSide":"right",
 			"toNode":"e997becd52f9b71b",
+			"toSide":"left"
+		},
+		{
+			"id":"4d021a05b9c3deee",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"e997becd52f9b71b",
+			"fromSide":"right",
+			"toNode":"18d4f491deb05cb9",
+			"toSide":"left"
+		},
+		{
+			"id":"bf3b96d8eca3aec6",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"aff0c86fc0cfb177",
+			"fromSide":"right",
+			"toNode":"3736c4a01c4453da",
+			"toSide":"left"
+		},
+		{
+			"id":"9ffa54fac2c7c642",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"8adc95d9cdc52042",
+			"fromSide":"right",
+			"toNode":"850297b3cbf3ea9b",
+			"toSide":"left"
+		},
+		{
+			"id":"5f61962b365fbabe",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"0bf6fee9ac436879",
+			"fromSide":"right",
+			"toNode":"093bda3684516a97",
+			"toSide":"left"
+		},
+		{
+			"id":"affe37915dd38d30",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"18d4f491deb05cb9",
+			"fromSide":"bottom",
+			"toNode":"2599aabe8ef148b9",
+			"toSide":"top"
+		},
+		{
+			"id":"f3c3d707f1b7e91c",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"093bda3684516a97",
+			"fromSide":"right",
+			"toNode":"58f78eef86953662",
 			"toSide":"left"
 		}
 	],
