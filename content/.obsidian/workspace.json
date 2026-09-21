@@ -4,41 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "bc49b819a18dd3ae",
+        "id": "83508d61e0cee535",
         "type": "tabs",
         "children": [
           {
-            "id": "ec91cac95cdc81b9",
+            "id": "b38f20d04c324b30",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "04 Canvases/meetings/2026_08_24.canvas",
-                "viewState": {
-                  "x": 1300.2553159900099,
-                  "y": 948.8077827263062,
-                  "zoom": -0.20000000000000007
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "2026_08_24"
-            }
-          },
-          {
-            "id": "7f2ebb96a3228b34",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "04 Canvases/mind maps/CSS security implication/Automated Detection of CSS Scope Escapes in Web Rendering Libraries.canvas",
-                "viewState": {
-                  "x": 18.85768506597489,
-                  "y": -124.7518887793519,
-                  "zoom": 0.09243376040416884
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Automated Detection of CSS Scope Escapes in Web Rendering Libraries"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -207,8 +183,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ec91cac95cdc81b9",
+  "active": "3bfeed8f4b304b36",
   "lastOpenFiles": [
+    "index.md",
+    "04 Canvases/meetings/2026_08_24.canvas",
     "04 Canvases/mind maps/CSS security implication/Automated Detection of CSS Scope Escapes in Web Rendering Libraries.canvas",
     "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
@@ -217,8 +195,7 @@
     "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs) detail.canvas",
     "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
-    "04 Canvases/meetings/2026_08_24.canvas",
-    "Pasted image 20260825105859.png",
+    "97 Assets/Pasted image 20260825105859.png",
     "97 Assets/proxy-server-python.png",
     "04 Canvases/meetings/2026_01_28.canvas",
     "01 Notes/CodeQL.md",
