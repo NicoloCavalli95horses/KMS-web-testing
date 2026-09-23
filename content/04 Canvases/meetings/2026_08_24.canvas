@@ -64,12 +64,12 @@
 		{
 			"id":"02bf943c76107a32",
 			"type":"text",
-			"text":"Two analysis can lead to different results (which is not always bad, but can depends on implementation issues)\n- ==network stability==: ping mechanisms make the network unpredictable (eg the client sends updated to the server every tot seconds).  HTTP events can therefore differ between two analysis\n- ==network stability==: failed/successful interaction with a clickable element can trigger novel network events\n- ==DOM loading fails==: loading errors can lead to differences in the collected DOM states\n\nIt is difficult to confirm a vulnerability:\n- ==IDOR== An HTTP response mapped to the same request appears in both runs but in the re-exploration phase we have a different body. It is an IDOR? Or a false positive?\n- ==IDOR== In the re-exploration phase we may have positive HTTP responses (2xx) for requests to third-party domains. Are these IDORs?\n\n==HTTP parameter tampering== does not appear as issue (even if we claim we can detect it):\n- what do we do to demonstrate that we can cover it?\n- shall we replicate an existing CVE about it?",
+			"text":"## Inconsistent explorations\nTwo analysis can lead to different results (which is not always bad, but can depends on implementation issues)\n- ==network stability==: ping mechanisms make the network unpredictable (eg the client sends updates to the server every tot seconds).  HTTP events can therefore differ between two analysis\n- ==network stability==: failed/successful interaction with a clickable element can trigger different network events\n- ==DOM loading fails==: loading errors can lead to differences in the collected DOM states\n\n## Detection validation\nIt is difficult to confirm a vulnerability:\n- ==IDOR== An HTTP response mapped to the same request appears in both runs but in the re-exploration phase we have a different body. It is an IDOR? Or a false positive?\n- ==IDOR== In the re-exploration phase we may have positive HTTP responses (2xx) for requests to third-party domains. Are these IDORs?\n\n## How to evaluate parameter tampering detection?\n==HTTP parameter tampering== does not appear as issue (even if we claim we can detect it):\n- what do we do to demonstrate that we can cover it?\n- shall we replicate an existing CVE about it?",
 			"styleAttributes":{"border":"invisible"},
 			"x":-380,
 			"y":820,
 			"width":960,
-			"height":560
+			"height":760
 		}
 	],
 	"edges":[],
