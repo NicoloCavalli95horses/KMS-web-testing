@@ -2822,6 +2822,33 @@
         "newlineCount": 0
       }
     },
+    "96 Meta/References analysis.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565172,
+      "modifiedDate": 1767798565172,
+      "sizeInBytes": 1469,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "96 Meta/SLR/Tags analysis.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -2894,33 +2921,6 @@
       "createdDate": 1767798565172,
       "modifiedDate": 1767798565172,
       "sizeInBytes": 461,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "96 Meta/References analysis.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565172,
-      "modifiedDate": 1767798565172,
-      "sizeInBytes": 1469,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -3659,33 +3659,6 @@
         "newlineCount": 0
       }
     },
-    "06 Courses, webinars/DevOps in declarative reconfigurations.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565171,
-      "modifiedDate": 1767798565171,
-      "sizeInBytes": 1430,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "06 Courses, webinars/Cybersecurity in the age of LLMs.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -3704,6 +3677,33 @@
       "createdDate": 1767798565171,
       "modifiedDate": 1767798565171,
       "sizeInBytes": 2278,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "06 Courses, webinars/DevOps in declarative reconfigurations.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565171,
+      "modifiedDate": 1767798565171,
+      "sizeInBytes": 1430,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -4476,26 +4476,26 @@
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 242,
+      "wordCount": 306,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.8066666666666666,
-      "characterCount": 1613,
-      "nonWhitespaceCharacterCount": 1349,
+      "pageCount": 1.02,
+      "characterCount": 1971,
+      "nonWhitespaceCharacterCount": 1643,
       "newlineCount": 26,
-      "readingTimeInMinutes": 0.9132075471698113,
+      "readingTimeInMinutes": 1.1547169811320754,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1787577420453,
-      "modifiedDate": 1789998126325,
-      "sizeInBytes": 2929,
+      "modifiedDate": 1790087589589,
+      "sizeInBytes": 3287,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0.8066666666666666,
-        "wordCount": 242,
-        "characterCount": 1613,
-        "nonWhitespaceCharacterCount": 1349,
+        "pageCount": 1.02,
+        "wordCount": 306,
+        "characterCount": 1971,
+        "nonWhitespaceCharacterCount": 1643,
         "newlineCount": 26
       }
     },
@@ -4553,33 +4553,6 @@
         "newlineCount": 62
       }
     },
-    "04 Canvases/meetings/2026_01_14.canvas": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 451,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 1.5033333333333334,
-      "characterCount": 3976,
-      "nonWhitespaceCharacterCount": 3451,
-      "newlineCount": 86,
-      "readingTimeInMinutes": 1.7018867924528303,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1768305639083,
-      "modifiedDate": 1768377157888,
-      "sizeInBytes": 8612,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 1.5033333333333334,
-        "wordCount": 451,
-        "characterCount": 3976,
-        "nonWhitespaceCharacterCount": 3451,
-        "newlineCount": 86
-      }
-    },
     "04 Canvases/meetings/2025_11_18.canvas": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -4605,6 +4578,33 @@
         "characterCount": 3416,
         "nonWhitespaceCharacterCount": 2888,
         "newlineCount": 50
+      }
+    },
+    "04 Canvases/meetings/2026_01_14.canvas": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 451,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.5033333333333334,
+      "characterCount": 3976,
+      "nonWhitespaceCharacterCount": 3451,
+      "newlineCount": 86,
+      "readingTimeInMinutes": 1.7018867924528303,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1768305639083,
+      "modifiedDate": 1768377157888,
+      "sizeInBytes": 8612,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 1.5033333333333334,
+        "wordCount": 451,
+        "characterCount": 3976,
+        "nonWhitespaceCharacterCount": 3451,
+        "newlineCount": 86
       }
     },
     "04 Canvases/meetings/2025_09_17.canvas": {
@@ -4634,33 +4634,6 @@
         "newlineCount": 20
       }
     },
-    "04 Canvases/meetings/2025_07_10.canvas": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 174,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.58,
-      "characterCount": 1191,
-      "nonWhitespaceCharacterCount": 1004,
-      "newlineCount": 21,
-      "readingTimeInMinutes": 0.6566037735849056,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1767798565169,
-      "modifiedDate": 1767798565169,
-      "sizeInBytes": 3888,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.58,
-        "wordCount": 174,
-        "characterCount": 1191,
-        "nonWhitespaceCharacterCount": 1004,
-        "newlineCount": 21
-      }
-    },
     "04 Canvases/meetings/2025_07_03.canvas": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -4686,6 +4659,33 @@
         "characterCount": 1885,
         "nonWhitespaceCharacterCount": 1608,
         "newlineCount": 33
+      }
+    },
+    "04 Canvases/meetings/2025_07_10.canvas": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 174,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.58,
+      "characterCount": 1191,
+      "nonWhitespaceCharacterCount": 1004,
+      "newlineCount": 21,
+      "readingTimeInMinutes": 0.6566037735849056,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1767798565169,
+      "modifiedDate": 1767798565169,
+      "sizeInBytes": 3888,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.58,
+        "wordCount": 174,
+        "characterCount": 1191,
+        "nonWhitespaceCharacterCount": 1004,
+        "newlineCount": 21
       }
     },
     "04 Canvases/meetings/2025_06_25.canvas": {
@@ -5552,33 +5552,6 @@
         "newlineCount": 0
       }
     },
-    "03 References/(Trampert, Weber, et al., 2025b).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565168,
-      "modifiedDate": 1767798565168,
-      "sizeInBytes": 2841,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "03 References/(Trampert, Weber, et al., 2025a).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -5606,7 +5579,7 @@
         "newlineCount": 0
       }
     },
-    "03 References/(Trampert, Stock, et al., 2023).md": {
+    "03 References/(Trampert, Weber, et al., 2025b).md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -5623,7 +5596,7 @@
       "aliases": [],
       "createdDate": 1767798565168,
       "modifiedDate": 1767798565168,
-      "sizeInBytes": 2110,
+      "sizeInBytes": 2841,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -5651,6 +5624,33 @@
       "createdDate": 1767798565168,
       "modifiedDate": 1767798565168,
       "sizeInBytes": 498,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "03 References/(Trampert, Stock, et al., 2023).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565168,
+      "modifiedDate": 1767798565168,
+      "sizeInBytes": 2110,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -5903,33 +5903,6 @@
         "newlineCount": 0
       }
     },
-    "03 References/(Sood, Enbody, et al., 2011).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565168,
-      "modifiedDate": 1767798565168,
-      "sizeInBytes": 427,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "03 References/(Soleimani, Hadavi, et al., 2017).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -5948,6 +5921,33 @@
       "createdDate": 1767798565168,
       "modifiedDate": 1767798565168,
       "sizeInBytes": 708,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "03 References/(Sood, Enbody, et al., 2011).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565168,
+      "modifiedDate": 1767798565168,
+      "sizeInBytes": 427,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -6335,33 +6335,6 @@
         "newlineCount": 0
       }
     },
-    "03 References/(Samudio, LaToza, 2022).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565167,
-      "modifiedDate": 1767798565167,
-      "sizeInBytes": 650,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "03 References/(Saleh, Malkawi, et al., 2024).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -6380,6 +6353,33 @@
       "createdDate": 1767798565167,
       "modifiedDate": 1767798565167,
       "sizeInBytes": 810,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "03 References/(Samudio, LaToza, 2022).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565167,
+      "modifiedDate": 1767798565167,
+      "sizeInBytes": 650,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -6821,33 +6821,6 @@
         "newlineCount": 0
       }
     },
-    "03 References/(Onarlioglu, Buyukkayhan, et al., 2015).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565167,
-      "modifiedDate": 1767798565167,
-      "sizeInBytes": 474,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "03 References/(Olianas, Leotta, Ricca, et al., 2024).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -6866,6 +6839,33 @@
       "createdDate": 1767798565167,
       "modifiedDate": 1767798565167,
       "sizeInBytes": 1974,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "03 References/(Onarlioglu, Buyukkayhan, et al., 2015).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565167,
+      "modifiedDate": 1767798565167,
+      "sizeInBytes": 474,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -7226,6 +7226,33 @@
         "newlineCount": 0
       }
     },
+    "03 References/(Marinescu, Parry, et al., 2017).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565167,
+      "modifiedDate": 1767798565167,
+      "sizeInBytes": 747,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "03 References/(Memon, Soffa, Mary, Pollack, 2001).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -7271,33 +7298,6 @@
       "createdDate": 1767798565167,
       "modifiedDate": 1767798565167,
       "sizeInBytes": 302,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "03 References/(Marinescu, Parry, et al., 2017).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565167,
-      "modifiedDate": 1767798565167,
-      "sizeInBytes": 747,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -8090,33 +8090,6 @@
         "newlineCount": 0
       }
     },
-    "03 References/(Kim, Lee, et al., 2024).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565166,
-      "modifiedDate": 1767798565166,
-      "sizeInBytes": 476,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "03 References/(Khodayari, Pellegrino, 2023).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -8135,6 +8108,33 @@
       "createdDate": 1767798565166,
       "modifiedDate": 1767798565166,
       "sizeInBytes": 626,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "03 References/(Kim, Lee, et al., 2024).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565166,
+      "modifiedDate": 1767798565166,
+      "sizeInBytes": 476,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -8279,6 +8279,33 @@
         "newlineCount": 0
       }
     },
+    "03 References/(Jueckstock, Kapravelos, et al., 2019).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565166,
+      "modifiedDate": 1767798565166,
+      "sizeInBytes": 641,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "03 References/(Kancherla, Goel, et al., 2025).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -8324,33 +8351,6 @@
       "createdDate": 1767798565166,
       "modifiedDate": 1767798565166,
       "sizeInBytes": 2537,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "03 References/(Jueckstock, Kapravelos, et al., 2019).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565166,
-      "modifiedDate": 1767798565166,
-      "sizeInBytes": 641,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -8495,33 +8495,6 @@
         "newlineCount": 0
       }
     },
-    "03 References/(Huang, Cohen, Memon, 2010).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565166,
-      "modifiedDate": 1767798565166,
-      "sizeInBytes": 372,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "03 References/(Hou, Yiwel, Guo, Lihua, Zhou, et al., 2024).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -8540,6 +8513,33 @@
       "createdDate": 1767798565166,
       "modifiedDate": 1767798565166,
       "sizeInBytes": 2038,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "03 References/(Huang, Cohen, Memon, 2010).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565166,
+      "modifiedDate": 1767798565166,
+      "sizeInBytes": 372,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -8603,33 +8603,6 @@
         "newlineCount": 0
       }
     },
-    "03 References/(Heiderich, Niemietz, et al., 2012).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565166,
-      "modifiedDate": 1767798565166,
-      "sizeInBytes": 2632,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "03 References/(Heiderich, Frosch, et al., 2011).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -8648,6 +8621,33 @@
       "createdDate": 1767798565166,
       "modifiedDate": 1767798565166,
       "sizeInBytes": 2674,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "03 References/(Heiderich, Niemietz, et al., 2012).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565166,
+      "modifiedDate": 1767798565166,
+      "sizeInBytes": 2632,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -8765,6 +8765,33 @@
         "newlineCount": 0
       }
     },
+    "03 References/(Fonseka, Pashenna, et al., 2023).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565166,
+      "modifiedDate": 1767798565166,
+      "sizeInBytes": 696,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "03 References/(Goues, Claire, Pradel et al., 2021).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -8837,33 +8864,6 @@
       "createdDate": 1767798565166,
       "modifiedDate": 1767798565166,
       "sizeInBytes": 2005,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "03 References/(Fonseka, Pashenna, et al., 2023).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565166,
-      "modifiedDate": 1767798565166,
-      "sizeInBytes": 696,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -9008,33 +9008,6 @@
         "newlineCount": 0
       }
     },
-    "03 References/(Deepa, Thilagam, et al., 2018).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565166,
-      "modifiedDate": 1767798565166,
-      "sizeInBytes": 507,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "03 References/(De Ryck, Nikiforakis, et al., 2013).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -9053,6 +9026,33 @@
       "createdDate": 1767798565166,
       "modifiedDate": 1767798565166,
       "sizeInBytes": 2227,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "03 References/(Deepa, Thilagam, et al., 2018).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565166,
+      "modifiedDate": 1767798565166,
+      "sizeInBytes": 507,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -9089,33 +9089,6 @@
         "newlineCount": 0
       }
     },
-    "03 References/(Danglot, Vera-Perez, Yu, et al., 2019).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565166,
-      "modifiedDate": 1767798565166,
-      "sizeInBytes": 637,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "03 References/(Darmawan, Karim, et al., 2021).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -9134,6 +9107,33 @@
       "createdDate": 1767798565166,
       "modifiedDate": 1767798565166,
       "sizeInBytes": 724,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "03 References/(Danglot, Vera-Perez, Yu, et al., 2019).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565166,
+      "modifiedDate": 1767798565166,
+      "sizeInBytes": 637,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -9737,33 +9737,6 @@
         "newlineCount": 0
       }
     },
-    "03 References/(Belli, Beyazit, Memon, 2012).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565166,
-      "modifiedDate": 1767798565166,
-      "sizeInBytes": 640,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "03 References/(Basu, et al., 2024).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -9782,6 +9755,33 @@
       "createdDate": 1767798565166,
       "modifiedDate": 1767798565166,
       "sizeInBytes": 485,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "03 References/(Belli, Beyazit, Memon, 2012).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565166,
+      "modifiedDate": 1767798565166,
+      "sizeInBytes": 640,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -9899,33 +9899,6 @@
         "newlineCount": 0
       }
     },
-    "03 References/(Asish Kumar Dalai, Saroj Kumar Panigrahy, et al., 2012).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565166,
-      "modifiedDate": 1767798565166,
-      "sizeInBytes": 2461,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "03 References/(Arshad, Mirheidari, et al., 2018).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -9944,6 +9917,33 @@
       "createdDate": 1767798565166,
       "modifiedDate": 1767798565166,
       "sizeInBytes": 2220,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "03 References/(Asish Kumar Dalai, Saroj Kumar Panigrahy, et al., 2012).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565166,
+      "modifiedDate": 1767798565166,
+      "sizeInBytes": 2461,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -10115,6 +10115,33 @@
         "newlineCount": 0
       }
     },
+    "03 References/(Aditya Sood, Richard Enbody, et al., 2011).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565166,
+      "modifiedDate": 1767798565166,
+      "sizeInBytes": 1618,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "03 References/(Akhawe, Barth, et al., 2010).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -10160,33 +10187,6 @@
       "createdDate": 1767798565166,
       "modifiedDate": 1767798565166,
       "sizeInBytes": 739,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "03 References/(Aditya Sood, Richard Enbody, et al., 2011).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565166,
-      "modifiedDate": 1767798565166,
-      "sizeInBytes": 1618,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -13382,33 +13382,6 @@
         "newlineCount": 0
       }
     },
-    "02 Literature/papers/UI and UX issues/Out of Sight, Out of Mind. UI Design and the Inhibition of Mental Models of Security.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565162,
-      "modifiedDate": 1767798565162,
-      "sizeInBytes": 2018,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "02 Literature/papers/UI and UX issues/JANUS. Detecting rendering bugs in Web Browsers via Visual Delta Consistency.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -13427,6 +13400,33 @@
       "createdDate": 1767798565162,
       "modifiedDate": 1767798565162,
       "sizeInBytes": 2225,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "02 Literature/papers/UI and UX issues/Out of Sight, Out of Mind. UI Design and the Inhibition of Mental Models of Security.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565162,
+      "modifiedDate": 1767798565162,
+      "sizeInBytes": 2018,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -13679,33 +13679,6 @@
         "newlineCount": 0
       }
     },
-    "02 Literature/papers/SPA applications/ReactAppScan. Mining React Application Vulnerabilities via Component Graph.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565162,
-      "modifiedDate": 1767798565162,
-      "sizeInBytes": 5531,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "02 Literature/papers/QR-code exploitation/Malicious QR-code threats and vulnerability of blockchain.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -13724,6 +13697,33 @@
       "createdDate": 1767798565162,
       "modifiedDate": 1767798565162,
       "sizeInBytes": 751,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "02 Literature/papers/SPA applications/ReactAppScan. Mining React Application Vulnerabilities via Component Graph.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565162,
+      "modifiedDate": 1767798565162,
+      "sizeInBytes": 5531,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -14678,33 +14678,6 @@
         "newlineCount": 0
       }
     },
-    "02 Literature/papers/BAC (Broken Access Control)/A Systematic Literature Review on the Characteristics and Effectiveness of Web Application Vulnerability Scanners.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565161,
-      "modifiedDate": 1767798565161,
-      "sizeInBytes": 2401,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "02 Literature/papers/BAC (Broken Access Control)/403 Forbidden. Ethically Evaluating Broken Access Control in the Wild.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -14723,6 +14696,33 @@
       "createdDate": 1767798565161,
       "modifiedDate": 1767798565161,
       "sizeInBytes": 3852,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "02 Literature/papers/BAC (Broken Access Control)/A Systematic Literature Review on the Characteristics and Effectiveness of Web Application Vulnerability Scanners.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565161,
+      "modifiedDate": 1767798565161,
+      "sizeInBytes": 2401,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -14777,6 +14777,60 @@
       "createdDate": 1767798565160,
       "modifiedDate": 1767798565160,
       "sizeInBytes": 166,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "02 Literature/books/The Basic of Web Hacking/chapters/5. Web Application Exploitation  with Broken Authentication and Path Traversal.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565160,
+      "modifiedDate": 1767798565160,
+      "sizeInBytes": 2862,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "02 Literature/books/The Basic of Web Hacking/The Basic of Web Hacking. Tools and Techniques to Attack the Web.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565160,
+      "modifiedDate": 1767798565160,
+      "sizeInBytes": 207,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -14894,33 +14948,6 @@
         "newlineCount": 0
       }
     },
-    "02 Literature/books/The art of software testing/chapters/06 Higher-Order Testing.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565160,
-      "modifiedDate": 1767798565160,
-      "sizeInBytes": 3898,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "02 Literature/books/The art of software testing/chapters/07 Usability (User) Testing.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -14939,6 +14966,33 @@
       "createdDate": 1767798565160,
       "modifiedDate": 1767798565160,
       "sizeInBytes": 119,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "02 Literature/books/The art of software testing/chapters/06 Higher-Order Testing.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565160,
+      "modifiedDate": 1767798565160,
+      "sizeInBytes": 3898,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -15110,7 +15164,7 @@
         "newlineCount": 34
       }
     },
-    "02 Literature/books/The Basic of Web Hacking/chapters/5. Web Application Exploitation  with Broken Authentication and Path Traversal.md": {
+    "02 Literature/books/JavaScript, The Good Parts/chapters/06 Arrays.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -15127,34 +15181,7 @@
       "aliases": [],
       "createdDate": 1767798565160,
       "modifiedDate": 1767798565160,
-      "sizeInBytes": 2862,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "02 Literature/books/The Basic of Web Hacking/The Basic of Web Hacking. Tools and Techniques to Attack the Web.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565160,
-      "modifiedDate": 1767798565160,
-      "sizeInBytes": 207,
+      "sizeInBytes": 777,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -15182,33 +15209,6 @@
       "createdDate": 1767798565160,
       "modifiedDate": 1767798565160,
       "sizeInBytes": 922,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "02 Literature/books/JavaScript, The Good Parts/chapters/06 Arrays.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565160,
-      "modifiedDate": 1767798565160,
-      "sizeInBytes": 777,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -19673,33 +19673,6 @@
         "newlineCount": 0
       }
     },
-    "01 Notes/RBAC (role-based access control).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565155,
-      "modifiedDate": 1767798565155,
-      "sizeInBytes": 6784,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "01 Notes/QR-code.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -19718,6 +19691,33 @@
       "createdDate": 1767798565155,
       "modifiedDate": 1767798565155,
       "sizeInBytes": 630,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "01 Notes/RBAC (role-based access control).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565155,
+      "modifiedDate": 1767798565155,
+      "sizeInBytes": 6784,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -20996,33 +20996,6 @@
         "newlineCount": 0
       }
     },
-    "01 Notes/GUI ripper.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565154,
-      "modifiedDate": 1767798565154,
-      "sizeInBytes": 2927,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "01 Notes/GUI (graphical user interface).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -21041,6 +21014,33 @@
       "createdDate": 1767798565154,
       "modifiedDate": 1767798565154,
       "sizeInBytes": 794,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "01 Notes/GUI ripper.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565154,
+      "modifiedDate": 1767798565154,
+      "sizeInBytes": 2927,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -21860,33 +21860,6 @@
         "newlineCount": 0
       }
     },
-    "01 Notes/CSRH (Client-Side Request Hijacking).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565154,
-      "modifiedDate": 1767798565154,
-      "sizeInBytes": 1575,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "01 Notes/CSRF (cross-site request forgery).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -21932,6 +21905,33 @@
       "createdDate": 1767798565154,
       "modifiedDate": 1767798565154,
       "sizeInBytes": 2420,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "01 Notes/CSRH (Client-Side Request Hijacking).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565154,
+      "modifiedDate": 1767798565154,
+      "sizeInBytes": 1575,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -22157,6 +22157,33 @@
         "newlineCount": 0
       }
     },
+    "01 Notes/BRF (Balance Random Forest).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565154,
+      "modifiedDate": 1767798565154,
+      "sizeInBytes": 910,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "01 Notes/CDN (Content Delivery Network).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -22292,33 +22319,6 @@
         "newlineCount": 0
       }
     },
-    "01 Notes/BRF (Balance Random Forest).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565154,
-      "modifiedDate": 1767798565154,
-      "sizeInBytes": 910,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "01 Notes/BFT (business flow tampering).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -22346,33 +22346,6 @@
         "newlineCount": 0
       }
     },
-    "01 Notes/Alloy modeling language.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565154,
-      "modifiedDate": 1767798565154,
-      "sizeInBytes": 2719,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "01 Notes/Adobe Flash.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -22391,6 +22364,33 @@
       "createdDate": 1767798565154,
       "modifiedDate": 1767798565154,
       "sizeInBytes": 3354,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "01 Notes/Alloy modeling language.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565154,
+      "modifiedDate": 1767798565154,
+      "sizeInBytes": 2719,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -22616,7 +22616,7 @@
         "newlineCount": 0
       }
     },
-    "00 Antilibrary/standard graph matching.md": {
+    "00 Antilibrary/serviceability or maintenance testing.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -22631,8 +22631,8 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1767798565154,
-      "modifiedDate": 1767798565154,
+      "createdDate": 1767798565153,
+      "modifiedDate": 1767798565153,
       "sizeInBytes": 0,
       "sessionStart": {
         "noteCount": 0,
@@ -22643,7 +22643,7 @@
         "newlineCount": 0
       }
     },
-    "00 Antilibrary/social engineering.md": {
+    "00 Antilibrary/standard graph matching.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -22697,60 +22697,6 @@
         "newlineCount": 0
       }
     },
-    "00 Antilibrary/signature forgery.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565153,
-      "modifiedDate": 1767798565154,
-      "sizeInBytes": 138,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "00 Antilibrary/serviceability or maintenance testing.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565153,
-      "modifiedDate": 1767798565153,
-      "sizeInBytes": 0,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "00 Antilibrary/reliability testing.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -22769,6 +22715,60 @@
       "createdDate": 1767798565153,
       "modifiedDate": 1767798565153,
       "sizeInBytes": 0,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "00 Antilibrary/social engineering.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565154,
+      "modifiedDate": 1767798565154,
+      "sizeInBytes": 0,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "00 Antilibrary/signature forgery.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565153,
+      "modifiedDate": 1767798565154,
+      "sizeInBytes": 138,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -23264,6 +23264,33 @@
         "newlineCount": 0
       }
     },
+    "00 Antilibrary/confirmation bias.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565153,
+      "modifiedDate": 1767798565153,
+      "sizeInBytes": 0,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "00 Antilibrary/cryptomining.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -23292,33 +23319,6 @@
       }
     },
     "00 Antilibrary/context isolation bypass.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565153,
-      "modifiedDate": 1767798565153,
-      "sizeInBytes": 0,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "00 Antilibrary/confirmation bias.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -23507,33 +23507,6 @@
         "newlineCount": 0
       }
     },
-    "00 Antilibrary/Untitled.base": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1783075587912,
-      "modifiedDate": 1783075602095,
-      "sizeInBytes": 39,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "00 Antilibrary/TLS (transport layer security).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -23552,6 +23525,33 @@
       "createdDate": 1767798565153,
       "modifiedDate": 1767798565153,
       "sizeInBytes": 0,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "00 Antilibrary/Untitled.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1783075587912,
+      "modifiedDate": 1783075602095,
+      "sizeInBytes": 39,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -23642,6 +23642,33 @@
         "newlineCount": 0
       }
     },
+    "00 Antilibrary/RNN (recurrent neural network).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565153,
+      "modifiedDate": 1767798565153,
+      "sizeInBytes": 0,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "00 Antilibrary/SSL (secure sockets layer).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -23687,33 +23714,6 @@
       "createdDate": 1767798565153,
       "modifiedDate": 1768309425502,
       "sizeInBytes": 3420,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "00 Antilibrary/RNN (recurrent neural network).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565153,
-      "modifiedDate": 1767798565153,
-      "sizeInBytes": 0,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -24074,6 +24074,33 @@
         "newlineCount": 0
       }
     },
+    "00 Antilibrary/HMM (Hidden Markov Model).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565153,
+      "modifiedDate": 1767798565153,
+      "sizeInBytes": 0,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "00 Antilibrary/Gherkin.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -24101,7 +24128,7 @@
         "newlineCount": 0
       }
     },
-    "00 Antilibrary/HMM (Hidden Markov Model).md": {
+    "00 Antilibrary/ESI (Edge Side Includes).md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -24155,33 +24182,6 @@
         "newlineCount": 0
       }
     },
-    "00 Antilibrary/ESI (Edge Side Includes).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565153,
-      "modifiedDate": 1767798565153,
-      "sizeInBytes": 0,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "00 Antilibrary/ELET (Embedded Language Encapsulation Type).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -24209,7 +24209,7 @@
         "newlineCount": 0
       }
     },
-    "00 Antilibrary/EDG (Event Dependency Graph).md": {
+    "00 Antilibrary/CORP (Cross-Origin Resource Policy).md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -24263,7 +24263,7 @@
         "newlineCount": 0
       }
     },
-    "00 Antilibrary/CORP (Cross-Origin Resource Policy).md": {
+    "00 Antilibrary/EDG (Event Dependency Graph).md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,

@@ -13,7 +13,7 @@
 		{
 			"id":"44c6af6fd19bbc09",
 			"type":"text",
-			"text":"### LinguaLeo\n- AUT can crash silently during exploration (ie state restoration) without throwing errors (the page seems to be loaded but it is blank). In this case, the exploration continues but clickable elements are not found\n### Promova\n- some HTTP events cannot be mapped to interactions. We receive unsolicited HTTP events that do not happen to have a clear request\n### Calm\n\n### Petit Bambou\n\n### MyNetDiary",
+			"text":"### LinguaLeo\n- AUT can crash silently during exploration (ie state restoration) without throwing errors (the page seems to be loaded but it is blank). In this case, the exploration continues but clickable elements are not found\n### Promova\n- some HTTP events cannot be mapped to interactions. We receive unsolicited HTTP events that do not happen to have a clear request\n### Petit Bambou\n- existing client-side BAC are not found. The fingerprint of the clickable elements differs from run 1 to run 2, making the interactions themselves not comparable (the buttons are displayed slightly different in the run 2!). Eg. the algorithm cannot say clicking on button 1 lead to this in run 1 and to that in run 2, because we do not have a common button.\n\n### Calm\n### MyNetDiary",
 			"styleAttributes":{"border":"invisible"},
 			"x":-1240,
 			"y":820,
@@ -33,7 +33,7 @@
 		{
 			"id":"bb4a0d991d49336d",
 			"type":"text",
-			"text":"Evaluation in progress: 2/5",
+			"text":"Evaluation in progress: 3/5",
 			"styleAttributes":{},
 			"x":-790,
 			"y":620,
