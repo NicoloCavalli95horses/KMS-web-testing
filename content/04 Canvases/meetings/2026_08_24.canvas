@@ -70,6 +70,16 @@
 			"y":820,
 			"width":960,
 			"height":760
+		},
+		{
+			"id":"c3c83bc4ccea8f28",
+			"type":"text",
+			"text":"All of these can go in the challenges/future outlook section",
+			"styleAttributes":{"textAlign":"center"},
+			"x":200,
+			"y":630,
+			"width":340,
+			"height":120
 		}
 	],
 	"edges":[],
