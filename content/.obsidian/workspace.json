@@ -4,38 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "83508d61e0cee535",
+        "id": "d73ebb23a006675c",
         "type": "tabs",
         "children": [
           {
-            "id": "b38f20d04c324b30",
+            "id": "82834acb334dead7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "01 Notes/CDP (Chrome DevTools Protocol).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "04 Canvases/mind maps/CSS security implication/Automated Detection of CSS Scope Escapes in Web Rendering Libraries.canvas",
+                "viewState": {
+                  "x": 277.08632191459833,
+                  "y": 184.02062125937044,
+                  "zoom": 0.09243376040416884
+                }
               },
-              "icon": "lucide-file",
-              "title": "CDP (Chrome DevTools Protocol)"
-            }
-          },
-          {
-            "id": "338ef3710b8c291c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.14.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.14.4"
+              "icon": "lucide-layout-dashboard",
+              "title": "Automated Detection of CSS Scope Escapes in Web Rendering Libraries"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,8 +190,9 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "338ef3710b8c291c",
+  "active": "82834acb334dead7",
   "lastOpenFiles": [
+    "01 Notes/CDP (Chrome DevTools Protocol).md",
     "04 Canvases/models/research model.canvas",
     "04 Canvases/mind maps/taint analysis in the web.canvas",
     "04 Canvases/mind maps/social engineering techniques.canvas",
@@ -213,7 +203,6 @@
     "04 Canvases/mind maps/IDOR scanner in SPA/Mining SPA for accessing restricted resources.canvas",
     "04 Canvases/mind maps/Empirical Study/visual regression approach.canvas",
     "04 Canvases/mind maps/Empirical Study/page-agent approach.canvas",
-    "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
     "index.md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
     "97 Assets/Pasted image 20260825105859.png",
