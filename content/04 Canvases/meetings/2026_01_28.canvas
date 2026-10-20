@@ -2,26 +2,6 @@
 	"nodes":[
 		{"id":"ab00ba11c905d1e4","type":"group","x":-140,"y":740,"width":1260,"height":780,"label":"Instrumentation"},
 		{
-			"id":"f1a51715e84ced86",
-			"type":"text",
-			"text":"```mermaid\nflowchart TD\n    Start@{shape: circle, label: \"START\"}\n    End@{shape: dbl-circ, label: \"END\"}\n    \n    Start --> A[\"Valid endpoint 'api/\\[id1\\]/\\[id2\\]/\\[id3\\]/...'\"]\n    A --> B([\"For each token in the path\"])\n    B -->|i < length| C{\"Is token within a component's props?\"}\n    B -->|i = length| End\n\n    C -- \"Yes\" --> E{\"Does a sibling component exist with a different value for the same prop?\"}\n    C -- \"No\" --> D[\"i++\"]\n    D --> B\n\n    E -- \"Yes\" --> F[\"Save mutated endpoint\"]\n    F --> G[\"Generate test\"]\n    G --> D\n    E -- \"No\" --> D\n```\n\n\n\n\n",
-			"styleAttributes":{"border":"invisible"},
-			"x":120,
-			"y":1760,
-			"width":725,
-			"height":1620
-		},
-		{
-			"id":"0d42bf7d4df761a1",
-			"type":"text",
-			"text":"## Example input\n-  api/section1/resource1\n\n## Example output\n- api/section1/resurce2\n- api/section2/resource1\n- api/section2/resource2\n- ...\n",
-			"styleAttributes":{"border":"invisible"},
-			"x":880,
-			"y":1760,
-			"width":340,
-			"height":380
-		},
-		{
 			"id":"a3a4e93e2ce81704",
 			"type":"text",
 			"text":"## Track HTTP requests and responses",
@@ -42,16 +22,6 @@
 			"height":140
 		},
 		{
-			"id":"110f59d6d2067c27",
-			"type":"text",
-			"text":"## Map endpoint's parts to values extracted from the component tree",
-			"styleAttributes":{"textAlign":"center"},
-			"x":250,
-			"y":1020,
-			"width":530,
-			"height":130
-		},
-		{
 			"id":"2154063ac5d32ffd",
 			"type":"text",
 			"text":"### React",
@@ -63,55 +33,6 @@
 			"y":880,
 			"width":260,
 			"height":60
-		},
-		{
-			"id":"0c2d6532c45f8a77",
-			"type":"text",
-			"text":"# Paper corrections",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-2560,
-			"y":-480,
-			"width":1000,
-			"height":100
-		},
-		{
-			"id":"639d3c3f1306aedf",
-			"type":"text",
-			"text":"Focus on security and on the novelty of the attacks",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":-2560,
-			"y":-320,
-			"width":440,
-			"height":120,
-			"color":"1"
-		},
-		{
-			"id":"49827c6ab062bad9",
-			"type":"text",
-			"text":"Introducing 'new' client side attacks (JavaScript component hijacking and HTTP response tampering)",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":-2560,
-			"y":-180,
-			"width":440,
-			"height":140,
-			"color":"1"
-		},
-		{
-			"id":"177da3cfdac102ef",
-			"type":"text",
-			"text":"Actionable results: partially blame JS frameworks' developers",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":-2560,
-			"y":-20,
-			"width":440,
-			"height":120,
-			"color":"1"
 		},
 		{
 			"id":"3433d6bb8599b322",
@@ -126,36 +47,6 @@
 			"y":770,
 			"width":260,
 			"height":80
-		},
-		{
-			"id":"2240ec19f7182cd7",
-			"type":"text",
-			"text":"## Generate security tests",
-			"styleAttributes":{"textAlign":"center"},
-			"x":860,
-			"y":1020,
-			"width":530,
-			"height":130
-		},
-		{
-			"id":"912b496bb3b23a1c",
-			"type":"text",
-			"text":"- #### This will support pentester work but the oracle cannot be defined without a human in the loop",
-			"styleAttributes":{"textAlign":"center"},
-			"x":860,
-			"y":1180,
-			"width":530,
-			"height":140
-		},
-		{
-			"id":"f373e6c7404c2388",
-			"type":"text",
-			"text":"# How to solve the oracle problem?",
-			"styleAttributes":{"textAlign":"center"},
-			"x":560,
-			"y":215,
-			"width":360,
-			"height":130
 		},
 		{
 			"id":"781673802ba52be4",
@@ -191,32 +82,6 @@
 			"y":120,
 			"width":500,
 			"height":120,
-			"color":"4"
-		},
-		{
-			"id":"8460ad02aa5e6b48",
-			"type":"text",
-			"text":"Focus on a bad design pattern discovered empirically but very prevalent. Present relevant and educational case studies",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":-2060,
-			"y":-320,
-			"width":500,
-			"height":120,
-			"color":"4"
-		},
-		{
-			"id":"00bce368dfbb18e4",
-			"type":"text",
-			"text":"Discuss flawed client-server architectures discovered with front-end tampering techniques",
-			"styleAttributes":{
-				"border":null
-			},
-			"x":-2060,
-			"y":-180,
-			"width":500,
-			"height":140,
 			"color":"4"
 		},
 		{
@@ -268,6 +133,81 @@
 			"height":100
 		},
 		{
+			"id":"0c2d6532c45f8a77",
+			"type":"text",
+			"text":"# Paper corrections",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-2560,
+			"y":-480,
+			"width":1000,
+			"height":100
+		},
+		{
+			"id":"639d3c3f1306aedf",
+			"type":"text",
+			"text":"Focus on security and on the novelty of the attacks",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-2560,
+			"y":-320,
+			"width":440,
+			"height":120,
+			"color":"1"
+		},
+		{
+			"id":"49827c6ab062bad9",
+			"type":"text",
+			"text":"Introducing 'new' client side attacks (JavaScript component hijacking and HTTP response tampering)",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-2560,
+			"y":-180,
+			"width":440,
+			"height":140,
+			"color":"1"
+		},
+		{
+			"id":"177da3cfdac102ef",
+			"type":"text",
+			"text":"Actionable results: partially blame JS frameworks' developers",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-2560,
+			"y":-20,
+			"width":440,
+			"height":120,
+			"color":"1"
+		},
+		{
+			"id":"8460ad02aa5e6b48",
+			"type":"text",
+			"text":"Focus on a bad design pattern discovered empirically but very prevalent. Present relevant and educational case studies",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-2060,
+			"y":-320,
+			"width":500,
+			"height":120,
+			"color":"4"
+		},
+		{
+			"id":"00bce368dfbb18e4",
+			"type":"text",
+			"text":"Discuss flawed client-server architectures discovered with front-end tampering techniques",
+			"styleAttributes":{
+				"border":null
+			},
+			"x":-2060,
+			"y":-180,
+			"width":500,
+			"height":140,
+			"color":"4"
+		},
+		{
 			"id":"14dfbbd9b36de058",
 			"type":"text",
 			"text":"Actionable results: discuss how to properly test architectural patterns during development",
@@ -300,6 +240,66 @@
 			"y":-210,
 			"width":390,
 			"height":60
+		},
+		{
+			"id":"f1a51715e84ced86",
+			"type":"text",
+			"text":"```mermaid\nflowchart TD\n    Start@{shape: circle, label: \"START\"}\n    End@{shape: dbl-circ, label: \"END\"}\n    \n    Start --> A[\"Valid endpoint 'api/\\[id1\\]/\\[id2\\]/\\[id3\\]/...'\"]\n    A --> B([\"For each token in the path\"])\n    B -->|i < length| C{\"Is token within a component's props?\"}\n    B -->|i = length| End\n\n    C -- \"Yes\" --> E{\"Does a sibling component exist with a different value for the same prop?\"}\n    C -- \"No\" --> D[\"i++\"]\n    D --> B\n\n    E -- \"Yes\" --> F[\"Save mutated endpoint\"]\n    F --> G[\"Generate test\"]\n    G --> D\n    E -- \"No\" --> D\n```\n\n\n\n\n",
+			"styleAttributes":{"border":"invisible"},
+			"x":120,
+			"y":1760,
+			"width":725,
+			"height":1620
+		},
+		{
+			"id":"0d42bf7d4df761a1",
+			"type":"text",
+			"text":"## Example input\n-  api/section1/resource1\n\n## Example output\n- api/section1/resurce2\n- api/section2/resource1\n- api/section2/resource2\n- ...\n",
+			"styleAttributes":{"border":"invisible"},
+			"x":880,
+			"y":1760,
+			"width":340,
+			"height":380
+		},
+		{
+			"id":"110f59d6d2067c27",
+			"type":"text",
+			"text":"## Map endpoint's parts to values extracted from the component tree",
+			"styleAttributes":{"textAlign":"center"},
+			"x":250,
+			"y":1020,
+			"width":530,
+			"height":130
+		},
+		{
+			"id":"2240ec19f7182cd7",
+			"type":"text",
+			"text":"## Generate security tests",
+			"styleAttributes":{"textAlign":"center"},
+			"x":860,
+			"y":1020,
+			"width":530,
+			"height":130
+		},
+		{
+			"id":"912b496bb3b23a1c",
+			"type":"text",
+			"text":"- #### This will support pentester work but the oracle cannot be defined without a human in the loop",
+			"styleAttributes":{"textAlign":"center"},
+			"x":860,
+			"y":1180,
+			"width":530,
+			"height":140
+		},
+		{
+			"id":"f373e6c7404c2388",
+			"type":"text",
+			"text":"# How to solve the oracle problem?",
+			"styleAttributes":{"textAlign":"center"},
+			"x":560,
+			"y":215,
+			"width":360,
+			"height":130
 		},
 		{
 			"id":"4bc279100f139e49",

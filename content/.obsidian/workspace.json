@@ -11,20 +11,31 @@
             "id": "b38f20d04c324b30",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/meetings/2026_08_24.canvas",
-                "viewState": {
-                  "x": -150.55867454270242,
-                  "y": 1107.3424251427855,
-                  "zoom": -0.5333333200878573
-                }
+                "file": "01 Notes/CDP (Chrome DevTools Protocol).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "2026_08_24"
+              "icon": "lucide-file",
+              "title": "CDP (Chrome DevTools Protocol)"
+            }
+          },
+          {
+            "id": "338ef3710b8c291c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.14.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,24 +201,24 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b38f20d04c324b30",
+  "active": "338ef3710b8c291c",
   "lastOpenFiles": [
-    "04 Canvases/meetings/2026_09_23.canvas",
+    "04 Canvases/models/research model.canvas",
+    "04 Canvases/mind maps/taint analysis in the web.canvas",
+    "04 Canvases/mind maps/social engineering techniques.canvas",
+    "04 Canvases/mind maps/props tampering.canvas",
+    "04 Canvases/mind maps/input analysis.canvas",
+    "04 Canvases/mind maps/front end security category.canvas",
+    "04 Canvases/mind maps/cross-domain policies.canvas",
+    "04 Canvases/mind maps/IDOR scanner in SPA/Mining SPA for accessing restricted resources.canvas",
+    "04 Canvases/mind maps/Empirical Study/visual regression approach.canvas",
+    "04 Canvases/mind maps/Empirical Study/page-agent approach.canvas",
+    "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
     "index.md",
-    "04 Canvases/meetings/2026_08_24.canvas",
-    "04 Canvases/mind maps/CSS security implication/Automated Detection of CSS Scope Escapes in Web Rendering Libraries.canvas",
-    "04 Canvases/mind maps/CSS security implication/Stealing attributes via inline CSS, In SPA.canvas",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
-    "04 Canvases/mind maps/CSS security implication/RSS feed readers.canvas",
-    "04 Canvases/mind maps/CSS security implication/Review.canvas",
-    "04 Canvases/mind maps/CSS security implication/CSS security implications.canvas",
-    "04 Canvases/mind maps/CSS security implication/CSS injection (CVEs) detail.canvas",
-    "04 Canvases/mind maps/CSS security implication/CSS exploitation in web mails.canvas",
     "97 Assets/Pasted image 20260825105859.png",
     "97 Assets/proxy-server-python.png",
-    "04 Canvases/meetings/2026_01_28.canvas",
     "01 Notes/CodeQL.md",
-    "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
     "97 Assets/workflow_example.png",
     "01 Notes/Ollama.md",
     "01 Notes/BFT (business flow tampering).md",

@@ -3807,7 +3807,7 @@
       "nonWhitespaceCharacterCount": 1521,
       "newlineCount": 32,
       "readingTimeInMinutes": 0.8528301886792453,
-      "linkCount": 9,
+      "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1767798565171,
@@ -3820,8 +3820,7 @@
         "characterCount": 1768,
         "nonWhitespaceCharacterCount": 1521,
         "newlineCount": 32
-      },
-      "frontmatter": {}
+      }
     },
     "04 Canvases/mind maps/web security on large scale web applications/GUI vulnerabilities.canvas": {
       "isCountable": true,
@@ -3862,7 +3861,7 @@
       "nonWhitespaceCharacterCount": 2295,
       "newlineCount": 69,
       "readingTimeInMinutes": 1,
-      "linkCount": 0,
+      "linkCount": 53,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1767798565170,
@@ -3875,6 +3874,34 @@
         "characterCount": 2620,
         "nonWhitespaceCharacterCount": 2295,
         "newlineCount": 69
+      },
+      "frontmatter": {}
+    },
+    "04 Canvases/mind maps/taint analysis in the web.canvas": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 131,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.43666666666666665,
+      "characterCount": 933,
+      "nonWhitespaceCharacterCount": 794,
+      "newlineCount": 21,
+      "readingTimeInMinutes": 0.49433962264150944,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1767798565170,
+      "modifiedDate": 1782898710454,
+      "sizeInBytes": 6555,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.43666666666666665,
+        "wordCount": 131,
+        "characterCount": 933,
+        "nonWhitespaceCharacterCount": 794,
+        "newlineCount": 21
       }
     },
     "04 Canvases/mind maps/social engineering techniques.canvas": {
@@ -3904,33 +3931,6 @@
         "newlineCount": 4
       }
     },
-    "04 Canvases/mind maps/taint analysis in the web.canvas": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 131,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.43666666666666665,
-      "characterCount": 933,
-      "nonWhitespaceCharacterCount": 794,
-      "newlineCount": 21,
-      "readingTimeInMinutes": 0.49433962264150944,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1767798565170,
-      "modifiedDate": 1782898710454,
-      "sizeInBytes": 6555,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.43666666666666665,
-        "wordCount": 131,
-        "characterCount": 933,
-        "nonWhitespaceCharacterCount": 794,
-        "newlineCount": 21
-      }
-    },
     "04 Canvases/mind maps/props tampering.canvas": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -3947,7 +3947,7 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1767798565170,
-      "modifiedDate": 1787316343004,
+      "modifiedDate": 1791439859590,
       "sizeInBytes": 19385,
       "sessionStart": {
         "noteCount": 1,
@@ -4163,7 +4163,7 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1785316495330,
-      "modifiedDate": 1787316390034,
+      "modifiedDate": 1791439847237,
       "sizeInBytes": 7600,
       "sessionStart": {
         "noteCount": 1,
@@ -4514,7 +4514,7 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1769510558016,
-      "modifiedDate": 1787577446357,
+      "modifiedDate": 1791439821812,
       "sizeInBytes": 10943,
       "sessionStart": {
         "noteCount": 1,
@@ -5050,7 +5050,7 @@
       "nonWhitespaceCharacterCount": 1621,
       "newlineCount": 30,
       "readingTimeInMinutes": 1.0113207547169811,
-      "linkCount": 5,
+      "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1767798565169,
@@ -5077,8 +5077,8 @@
       "nonWhitespaceCharacterCount": 1701,
       "newlineCount": 41,
       "readingTimeInMinutes": 1.0150943396226415,
-      "linkCount": 9,
-      "embedCount": 2,
+      "linkCount": 0,
+      "embedCount": 0,
       "aliases": null,
       "createdDate": 1767798565169,
       "modifiedDate": 1767798565169,
@@ -8008,33 +8008,6 @@
         "newlineCount": 0
       }
     },
-    "03 References/(Kim, Wang, Kwon, et al., 2023).md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565166,
-      "modifiedDate": 1767798565166,
-      "sizeInBytes": 505,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "03 References/(Kimak, Ellman, et al., 2012).md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -8080,6 +8053,33 @@
       "createdDate": 1767798565166,
       "modifiedDate": 1767798565166,
       "sizeInBytes": 490,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "03 References/(Kim, Wang, Kwon, et al., 2023).md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565166,
+      "modifiedDate": 1767798565166,
+      "sizeInBytes": 505,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -12085,87 +12085,6 @@
         "newlineCount": 0
       }
     },
-    "02 Literature/papers/history sniffing/Interactive History Sniffing with Dynamically-Generated QR Codes and CSS Difference Blending.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565164,
-      "modifiedDate": 1767798565164,
-      "sizeInBytes": 227,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "02 Literature/papers/history sniffing/Cookies from the Past. Timing Server-side Request Processing Code for History Sniffing.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565163,
-      "modifiedDate": 1767798565164,
-      "sizeInBytes": 233,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "02 Literature/papers/history sniffing/Browser history revisited.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1767798565163,
-      "modifiedDate": 1767798565163,
-      "sizeInBytes": 6229,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "02 Literature/papers/input validation/ZigZag. Automatically hardening web applications against client-side validation vulnerabilities.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -12238,6 +12157,87 @@
       "createdDate": 1767798565164,
       "modifiedDate": 1767798565164,
       "sizeInBytes": 1936,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "02 Literature/papers/history sniffing/Interactive History Sniffing with Dynamically-Generated QR Codes and CSS Difference Blending.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565164,
+      "modifiedDate": 1767798565164,
+      "sizeInBytes": 227,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "02 Literature/papers/history sniffing/Cookies from the Past. Timing Server-side Request Processing Code for History Sniffing.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565163,
+      "modifiedDate": 1767798565164,
+      "sizeInBytes": 233,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "02 Literature/papers/history sniffing/Browser history revisited.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1767798565163,
+      "modifiedDate": 1767798565163,
+      "sizeInBytes": 6229,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -15094,7 +15094,7 @@
       "nonWhitespaceCharacterCount": 828,
       "newlineCount": 34,
       "readingTimeInMinutes": 0.3283018867924528,
-      "linkCount": 29,
+      "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1767798565160,
@@ -22132,28 +22132,35 @@
     "01 Notes/CDP (Chrome DevTools Protocol).md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
+      "noteCount": 1,
+      "wordCount": 79,
       "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
+      "wordGoal": null,
+      "pageCount": 0.2633333333333333,
+      "characterCount": 602,
+      "nonWhitespaceCharacterCount": 514,
+      "newlineCount": 12,
+      "readingTimeInMinutes": 0.2981132075471698,
+      "linkCount": 2,
       "embedCount": 0,
-      "aliases": [],
+      "aliases": null,
       "createdDate": 1767798565154,
       "modifiedDate": 1767798565154,
       "sizeInBytes": 666,
       "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "noteCount": 1,
+        "pageCount": 0.2633333333333333,
+        "wordCount": 79,
+        "characterCount": 602,
+        "nonWhitespaceCharacterCount": 514,
+        "newlineCount": 12
+      },
+      "frontmatter": {
+        "ID": "2025-02-04-09:45",
+        "tags": [
+          "#definition",
+          "webTool"
+        ]
       }
     },
     "01 Notes/CDN (Content Delivery Network).md": {
@@ -22993,7 +23000,7 @@
         "newlineCount": 0
       }
     },
-    "00 Antilibrary/overfitting.md": {
+    "00 Antilibrary/micro-service architecture.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -23020,7 +23027,7 @@
         "newlineCount": 0
       }
     },
-    "00 Antilibrary/micro-service architecture.md": {
+    "00 Antilibrary/overfitting.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
