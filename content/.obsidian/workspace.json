@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "04 Canvases/mind maps/CSS security implication/Automated Detection of CSS Scope Escapes in Web Rendering Libraries.canvas",
+                "file": "04 Canvases/mind maps/instrumenting SPA framework.canvas",
                 "viewState": {
-                  "x": 277.08632191459833,
-                  "y": 184.02062125937044,
-                  "zoom": 0.09243376040416884
+                  "x": -410,
+                  "y": 1621.31332547608,
+                  "zoom": -0.4
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Automated Detection of CSS Scope Escapes in Web Rendering Libraries"
+              "title": "instrumenting SPA framework"
             }
           }
         ]
@@ -192,20 +192,24 @@
   },
   "active": "82834acb334dead7",
   "lastOpenFiles": [
-    "01 Notes/CDP (Chrome DevTools Protocol).md",
+    "97 Assets/mr_example.png",
+    "97 Assets/era_track.png",
+    "97 Assets/react_devtools_example.png",
+    "97 Assets/html_example.png",
+    "04 Canvases/mind maps/instrumenting SPA framework.canvas",
+    "97 Assets/icse_review_strengths.png",
     "04 Canvases/models/research model.canvas",
     "04 Canvases/mind maps/taint analysis in the web.canvas",
     "04 Canvases/mind maps/social engineering techniques.canvas",
     "04 Canvases/mind maps/props tampering.canvas",
-    "04 Canvases/mind maps/input analysis.canvas",
-    "04 Canvases/mind maps/front end security category.canvas",
-    "04 Canvases/mind maps/cross-domain policies.canvas",
-    "04 Canvases/mind maps/IDOR scanner in SPA/Mining SPA for accessing restricted resources.canvas",
+    "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
+    "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
     "04 Canvases/mind maps/Empirical Study/visual regression approach.canvas",
     "04 Canvases/mind maps/Empirical Study/page-agent approach.canvas",
+    "04 Canvases/mind maps/Empirical Study/Language Learning Platforms.canvas",
+    "01 Notes/CDP (Chrome DevTools Protocol).md",
     "index.md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
-    "97 Assets/Pasted image 20260825105859.png",
     "97 Assets/proxy-server-python.png",
     "01 Notes/CodeQL.md",
     "97 Assets/workflow_example.png",
@@ -230,16 +234,12 @@
     "01 Notes/daikon engine.md",
     "02 Literature/papers/logic flow tampering/LogicScope. automatic discovery of logic vulnerabilities within web applications.md",
     "03 References/(Li, Xue, et al., 2013).md",
-    "03 References/(Pellegrino, Balzarotti, 2014).md",
     "00 Antilibrary/Untitled.base",
     "97 Assets/google-chrome-web-browser-logo-computer-icons-chrome-9391b0cd7c3be9a1b753ac6778214fe9.png",
     "chrome_icon_png.png",
     "06 Courses, webinars/CodeQL",
     "97 Assets/misskey_injection_3.png",
     "97 Assets/misskey_css_injection_2.png",
-    "97 Assets/misskey_css_injection.png",
-    "97 Assets/proof_network_request_attr_extraction.png",
-    "97 Assets/vue_sink_css_injection.png",
     "04 Canvases/mind maps/IDOR scanner in SPA",
     "02 Literature/papers/SPA applications",
     "02 Literature/papers/browser fingerprinting",

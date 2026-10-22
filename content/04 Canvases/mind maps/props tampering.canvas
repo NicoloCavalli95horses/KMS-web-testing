@@ -286,17 +286,6 @@
 			"height":160
 		},
 		{
-			"id":"27f4044565654348",
-			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"text":"divergence point in the source code is identified",
-			"type":"text",
-			"x":2255,
-			"y":2290,
-			"width":240,
-			"height":100,
-			"color":"2"
-		},
-		{
 			"id":"594e2fbdcd4d360f",
 			"styleAttributes":{"textAlign":"center"},
 			"text":"IN PROGRESS ⚠️",
@@ -338,19 +327,6 @@
 			"height":120
 		},
 		{
-			"id":"6aa00fe914d1c2b5",
-			"styleAttributes":{
-				"border":"invisible",
-				"textAlign":null
-			},
-			"text":"Different candidate functions may be found. Functions are executed with different inputs. If the output of the function is the same with the two different inputs, the function is discarded because is not the divergence point",
-			"type":"text",
-			"x":2105,
-			"y":3120,
-			"width":340,
-			"height":321
-		},
-		{
 			"id":"0f3e9c0750075959",
 			"styleAttributes":{
 				"border":"invisible",
@@ -390,25 +366,37 @@
 			"height":80
 		},
 		{
-			"id":"cc8440fcb6b2ee0f",
-			"styleAttributes":{"textAlign":"center"},
-			"text":"divergence point",
+			"id":"ad2c1d379953200e",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"text":"HTTP traces are gathered and analyzed. The goal is to find the final array of objects that include sensitive information (e.g., whether the item is premium)",
 			"type":"text",
-			"x":2275,
-			"y":429,
-			"width":210,
-			"height":60,
-			"color":"2"
+			"x":1275,
+			"y":3177,
+			"width":360,
+			"height":205
 		},
 		{
-			"id":"a50606349d778d86",
-			"styleAttributes":{"border":"invisible"},
-			"text":"Components props can be tampered at run-time",
+			"id":"451373fc69afe302",
+			"styleAttributes":{},
+			"text":"## Benefits\n- semi-automatic flow\n- framework independent",
 			"type":"text",
-			"x":2340,
-			"y":1400,
-			"width":310,
-			"height":81
+			"x":1335,
+			"y":3480,
+			"width":360,
+			"height":180
+		},
+		{
+			"id":"627d50e6c18f5bfe",
+			"styleAttributes":{},
+			"text":"## Limits\n- manual user navigation is required to gather HTTP traces",
+			"type":"text",
+			"x":1735,
+			"y":3480,
+			"width":370,
+			"height":180
 		},
 		{
 			"id":"6c62d3c338107474",
@@ -452,6 +440,48 @@
 			"height":120
 		},
 		{
+			"id":"bbaf99635a02d2cb",
+			"styleAttributes":{},
+			"text":"# Comparison of JavaScript web frameworks regarding [[BFT (business flow tampering)]]",
+			"type":"text",
+			"x":5280,
+			"y":1160,
+			"width":960,
+			"height":160
+		},
+		{
+			"id":"9321762a0e5a186c",
+			"styleAttributes":{
+				"textAlign":null
+			},
+			"text":"\n| Framework | DevTool | Component name visible | Props name visible |\n| --------- | ------- | ---------------------- | ------------------ |\n| Vue       | ✅       | ✅                      | ❌                  |\n| React     | ✅       | ❌                      | ❌                  |\n| Angular   | ✅       |                        |                    |\n| Svelte    |         |                        |                    |\n| SolidJS   |         |                        |                    |\n| Qwik      |         |                        |                    |\n",
+			"type":"text",
+			"x":5280,
+			"y":1400,
+			"width":790,
+			"height":380
+		},
+		{
+			"id":"53cbe586c9deb113",
+			"styleAttributes":{"border":"invisible"},
+			"text":"This can be automated with `TamperMonkey`",
+			"type":"text",
+			"x":2745,
+			"y":1400,
+			"width":310,
+			"height":81
+		},
+		{
+			"id":"a50606349d778d86",
+			"styleAttributes":{"border":"invisible"},
+			"text":"Components props can be tampered at run-time",
+			"type":"text",
+			"x":2340,
+			"y":1400,
+			"width":310,
+			"height":81
+		},
+		{
 			"id":"736486ed2aba4957",
 			"styleAttributes":{},
 			"text":"## Limits\n- based on a very manual process\n- not scalable\n- application dependent approach",
@@ -475,6 +505,37 @@
 			"height":127
 		},
 		{
+			"id":"27f4044565654348",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"text":"divergence point in the source code is identified",
+			"type":"text",
+			"x":2255,
+			"y":2290,
+			"width":240,
+			"height":100,
+			"color":"2"
+		},
+		{
+			"id":"45abbb7bdd24a511",
+			"styleAttributes":{"border":"dashed"},
+			"text":"generation of new test",
+			"type":"text",
+			"x":2935,
+			"y":2295,
+			"width":200,
+			"height":90
+		},
+		{
+			"id":"5c30d13e072b2550",
+			"styleAttributes":{},
+			"text":"## Challenges\n- how to taint objects?\n- how to collect candidate functions?",
+			"type":"text",
+			"x":2155,
+			"y":3480,
+			"width":420,
+			"height":180
+		},
+		{
 			"id":"7652a2d64794cb09",
 			"styleAttributes":{"border":"invisible"},
 			"text":" [[(Kim, Wang, Kwon, et al., 2023)]] logic tampering considering divergence points",
@@ -483,28 +544,6 @@
 			"y":564,
 			"width":360,
 			"height":120
-		},
-		{
-			"id":"bbaf99635a02d2cb",
-			"styleAttributes":{},
-			"text":"# Comparison of JavaScript web frameworks regarding [[BFT (business flow tampering)]]",
-			"type":"text",
-			"x":5280,
-			"y":1160,
-			"width":960,
-			"height":160
-		},
-		{
-			"id":"9321762a0e5a186c",
-			"styleAttributes":{
-				"textAlign":null
-			},
-			"text":"\n| Framework | DevTool | Component name visible | Props name visible |\n| --------- | ------- | ---------------------- | ------------------ |\n| Vue       | ✅       | ✅                      | ❌                  |\n| React     | ✅       | ❌                      | ❌                  |\n| Angular   | ✅       |                        |                    |\n| Svelte    |         |                        |                    |\n| SolidJS   |         |                        |                    |\n| Qwik      |         |                        |                    |\n",
-			"type":"text",
-			"x":5280,
-			"y":1400,
-			"width":790,
-			"height":380
 		},
 		{
 			"id":"7879ed6f817800ac",
@@ -520,14 +559,15 @@
 			"height":200
 		},
 		{
-			"id":"53cbe586c9deb113",
-			"styleAttributes":{"border":"invisible"},
-			"text":"This can be automated with `TamperMonkey`",
+			"id":"cc8440fcb6b2ee0f",
+			"styleAttributes":{"textAlign":"center"},
+			"text":"divergence point",
 			"type":"text",
-			"x":2745,
-			"y":1400,
-			"width":310,
-			"height":81
+			"x":2275,
+			"y":429,
+			"width":210,
+			"height":60,
+			"color":"2"
 		},
 		{
 			"id":"5a121e188afba673",
@@ -570,6 +610,40 @@
 			"height":90
 		},
 		{
+			"id":"4d63e9375ff1f2a6",
+			"styleAttributes":{
+				"border":null,
+				"shape":null,
+				"textAlign":"center"
+			},
+			"text":"`<Component />`",
+			"type":"text",
+			"x":1800,
+			"y":219,
+			"width":220,
+			"height":90
+		},
+		{
+			"id":"f18ddeb37f2ac701",
+			"styleAttributes":{"border":"dashed","textAlign":"center"},
+			"text":"`onClick`",
+			"type":"text",
+			"x":2080,
+			"y":234,
+			"width":160,
+			"height":60
+		},
+		{
+			"id":"a6416b6e99773ab5",
+			"styleAttributes":{"border":"invisible"},
+			"text":"\n```json\n{\n  a: 1,\n  b: true,\n  c: null,\n  d: \"premium\"\n}\n```",
+			"type":"text",
+			"x":1360,
+			"y":144,
+			"width":260,
+			"height":240
+		},
+		{
 			"id":"00ba7557960e926b",
 			"styleAttributes":{
 				"border":null,
@@ -604,30 +678,6 @@
 			"height":230
 		},
 		{
-			"id":"4d63e9375ff1f2a6",
-			"styleAttributes":{
-				"border":null,
-				"shape":null,
-				"textAlign":"center"
-			},
-			"text":"`<Component />`",
-			"type":"text",
-			"x":1800,
-			"y":219,
-			"width":220,
-			"height":90
-		},
-		{
-			"id":"f18ddeb37f2ac701",
-			"styleAttributes":{"border":"dashed","textAlign":"center"},
-			"text":"`onClick`",
-			"type":"text",
-			"x":2080,
-			"y":234,
-			"width":160,
-			"height":60
-		},
-		{
 			"id":"0df28b3a538c6604",
 			"styleAttributes":{"border":"invisible","textAlign":"center"},
 			"text":"`<Component />`",
@@ -646,16 +696,6 @@
 			"y":-490,
 			"width":140,
 			"height":60
-		},
-		{
-			"id":"a6416b6e99773ab5",
-			"styleAttributes":{"border":"invisible"},
-			"text":"\n```json\n{\n  a: 1,\n  b: true,\n  c: null,\n  d: \"premium\"\n}\n```",
-			"type":"text",
-			"x":1360,
-			"y":144,
-			"width":260,
-			"height":240
 		},
 		{
 			"id":"de0726bcb83986ca",
@@ -708,6 +748,50 @@
 			"height":60
 		},
 		{
+			"id":"0a28549fe7841f4b",
+			"styleAttributes":{"border":"invisible","textAlign":"center"},
+			"text":"divergence point in the source code is identified",
+			"type":"text",
+			"x":2535,
+			"y":3229,
+			"width":240,
+			"height":100,
+			"color":"2"
+		},
+		{
+			"id":"32ad5cec658d3ad9",
+			"styleAttributes":{"border":"dashed"},
+			"text":"generation of new test",
+			"type":"text",
+			"x":3215,
+			"y":3233,
+			"width":200,
+			"height":90
+		},
+		{
+			"id":"b9307e9f013b7685",
+			"styleAttributes":{"border":"invisible"},
+			"text":"code at the divergence point can be automatically tampered: invalid scenarios are generated",
+			"type":"text",
+			"x":2835,
+			"y":3193,
+			"width":310,
+			"height":170
+		},
+		{
+			"id":"6aa00fe914d1c2b5",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"text":"Different candidate functions may be found. Functions are executed with different inputs. If the output of the function is the same with the two different inputs, the function is discarded because is not the divergence point",
+			"type":"text",
+			"x":2105,
+			"y":3120,
+			"width":340,
+			"height":321
+		},
+		{
 			"id":"e2616f0aab214d2a",
 			"styleAttributes":{"border":"invisible"},
 			"text":"- minified code\n- control-flow may be obscured",
@@ -746,90 +830,6 @@
 			"y":40,
 			"width":740,
 			"height":380
-		},
-		{
-			"id":"45abbb7bdd24a511",
-			"styleAttributes":{"border":"dashed"},
-			"text":"generation of new test",
-			"type":"text",
-			"x":2935,
-			"y":2295,
-			"width":200,
-			"height":90
-		},
-		{
-			"id":"ad2c1d379953200e",
-			"styleAttributes":{
-				"border":"invisible",
-				"textAlign":null
-			},
-			"text":"HTTP traces are gathered and analyzed. The goal is to find the final array of objects that include sensitive information (e.g., whether the item is premium)",
-			"type":"text",
-			"x":1275,
-			"y":3177,
-			"width":360,
-			"height":205
-		},
-		{
-			"id":"451373fc69afe302",
-			"styleAttributes":{},
-			"text":"## Benefits\n- semi-automatic flow\n- framework independent",
-			"type":"text",
-			"x":1335,
-			"y":3480,
-			"width":360,
-			"height":180
-		},
-		{
-			"id":"627d50e6c18f5bfe",
-			"styleAttributes":{},
-			"text":"## Limits\n- manual user navigation is required to gather HTTP traces",
-			"type":"text",
-			"x":1735,
-			"y":3480,
-			"width":370,
-			"height":180
-		},
-		{
-			"id":"32ad5cec658d3ad9",
-			"styleAttributes":{"border":"dashed"},
-			"text":"generation of new test",
-			"type":"text",
-			"x":3215,
-			"y":3233,
-			"width":200,
-			"height":90
-		},
-		{
-			"id":"5c30d13e072b2550",
-			"styleAttributes":{},
-			"text":"## Challenges\n- how to taint objects?\n- how to collect candidate functions?",
-			"type":"text",
-			"x":2155,
-			"y":3480,
-			"width":420,
-			"height":180
-		},
-		{
-			"id":"0a28549fe7841f4b",
-			"styleAttributes":{"border":"invisible","textAlign":"center"},
-			"text":"divergence point in the source code is identified",
-			"type":"text",
-			"x":2535,
-			"y":3229,
-			"width":240,
-			"height":100,
-			"color":"2"
-		},
-		{
-			"id":"b9307e9f013b7685",
-			"styleAttributes":{"border":"invisible"},
-			"text":"code at the divergence point can be automatically tampered: invalid scenarios are generated",
-			"type":"text",
-			"x":2835,
-			"y":3193,
-			"width":310,
-			"height":170
 		},
 		{
 			"id":"6af2c2d510d52052",

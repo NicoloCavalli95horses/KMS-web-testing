@@ -1,19 +1,9 @@
 {
 	"nodes":[
 		{"id":"2d9248db5afc6d72","type":"group","x":-1160,"y":-140,"width":1760,"height":1120,"label":"Exploration phase"},
-		{"id":"4256e0362fa4bf8b","type":"group","x":-1160,"y":-460,"width":980,"height":220,"label":"input"},
 		{"id":"33523b1cb0e0e17b","type":"group","x":-1160,"y":1060,"width":2020,"height":520,"label":"Tampering phase"},
 		{"id":"5676fb2288dc7c90","type":"group","x":-1160,"y":1680,"width":2020,"height":440,"label":"Results validation"},
-		{
-			"id":"c952e4ed325788cc",
-			"type":"text",
-			"text":"compare HTTP data\n- workflow 1\n- workflow 2",
-			"styleAttributes":{},
-			"x":-1110,
-			"y":1720,
-			"width":260,
-			"height":180
-		},
+		{"id":"4256e0362fa4bf8b","type":"group","x":-1160,"y":-460,"width":980,"height":220,"label":"input"},
 		{
 			"id":"36116938774c339f",
 			"type":"text",
@@ -22,26 +12,6 @@
 			"x":-760,
 			"y":1280,
 			"width":260,
-			"height":60
-		},
-		{
-			"id":"aae58593540d2340",
-			"type":"text",
-			"text":"AUT",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-89,
-			"y":1280,
-			"width":140,
-			"height":60
-		},
-		{
-			"id":"b0486c9768485993",
-			"type":"text",
-			"text":"collect HTTP messages",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-790,
-			"y":1440,
-			"width":320,
 			"height":60
 		},
 		{
@@ -55,6 +25,36 @@
 			"height":60
 		},
 		{
+			"id":"6153aaa75404816a",
+			"type":"text",
+			"text":"proxy-server",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-760,
+			"y":0,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"c952e4ed325788cc",
+			"type":"text",
+			"text":"compare HTTP data\n- workflow 1\n- workflow 2",
+			"styleAttributes":{},
+			"x":-1110,
+			"y":1720,
+			"width":260,
+			"height":180
+		},
+		{
+			"id":"b0486c9768485993",
+			"type":"text",
+			"text":"collect HTTP messages",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-790,
+			"y":1440,
+			"width":320,
+			"height":60
+		},
+		{
 			"id":"47ac7e47083dacc3",
 			"type":"text",
 			"text":"### Workflow 2 reaches new endpoints which are only accessible as a consequence of tampering?",
@@ -63,6 +63,37 @@
 			"y":1740,
 			"width":740,
 			"height":140
+		},
+		{"id":"f8a4bbc04b670cc4","type":"file","file":"97 Assets/workflow_example.png","x":-1110,"y":280,"width":1460,"height":462},
+		{
+			"id":"f3dfbfb728f89fee",
+			"type":"text",
+			"text":"internet",
+			"styleAttributes":{"textAlign":"center","shape":"circle"},
+			"x":-1140,
+			"y":0,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"5eb8313e0ab76d9d",
+			"type":"text",
+			"text":"- # Page URL\n- # prompt: \"try to access a premium graphic material\"",
+			"styleAttributes":{"textAlign":"center","border":"invisible"},
+			"x":-1140,
+			"y":-440,
+			"width":920,
+			"height":180
+		},
+		{
+			"id":"aae58593540d2340",
+			"type":"text",
+			"text":"AUT",
+			"styleAttributes":{"textAlign":"center"},
+			"x":-89,
+			"y":1280,
+			"width":140,
+			"height":60
 		},
 		{
 			"id":"0e1b52b11ced2149",
@@ -146,27 +177,6 @@
 			"width":320,
 			"height":100
 		},
-		{"id":"f8a4bbc04b670cc4","type":"file","file":"97 Assets/workflow_example.png","x":-1110,"y":280,"width":1460,"height":462},
-		{
-			"id":"6153aaa75404816a",
-			"type":"text",
-			"text":"proxy-server",
-			"styleAttributes":{"textAlign":"center"},
-			"x":-760,
-			"y":0,
-			"width":260,
-			"height":60
-		},
-		{
-			"id":"f3dfbfb728f89fee",
-			"type":"text",
-			"text":"internet",
-			"styleAttributes":{"textAlign":"center","shape":"circle"},
-			"x":-1140,
-			"y":0,
-			"width":260,
-			"height":60
-		},
 		{
 			"id":"d7317132ed10fd51",
 			"type":"text",
@@ -176,16 +186,6 @@
 			"y":160,
 			"width":320,
 			"height":60
-		},
-		{
-			"id":"5eb8313e0ab76d9d",
-			"type":"text",
-			"text":"- # Page URL\n- # prompt: \"try to access a premium graphic material\"",
-			"styleAttributes":{"textAlign":"center","border":"invisible"},
-			"x":-1140,
-			"y":-440,
-			"width":920,
-			"height":180
 		}
 	],
 	"edges":[
