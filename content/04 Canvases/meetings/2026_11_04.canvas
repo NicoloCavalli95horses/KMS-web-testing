@@ -1,0 +1,62 @@
+{
+	"nodes":[
+		{
+			"id":"6c9ab0691b143004",
+			"type":"text",
+			"text":"## What we had before\n- plug-and-play browser extension that can find paid-resource IDOR by manually interacting with the target app\n- sensitive keys within props object are found with regex rules considering a reference list of sensitive keywords\n\n## Limits\n- approach does not scale\n- low replicability of results\n- depends on manual exploration\n- comparison with BFTDetector not done\n",
+			"styleAttributes":{},
+			"x":-1280,
+			"y":700,
+			"width":540,
+			"height":400
+		},
+		{
+			"id":"4037fedb56ce88ed",
+			"type":"text",
+			"text":"# ICSE paper\n",
+			"styleAttributes":{
+				"border":"invisible",
+				"textAlign":null
+			},
+			"x":-1280,
+			"y":600,
+			"width":240,
+			"height":60
+		},
+		{
+			"id":"7391477957e9538b",
+			"type":"text",
+			"text":"## What we have now\n- SPA-web crawler that automatically explores a web application with an efficient DFS exploration algorithm\n- supports ==parallel exploration on N tabs==\n- gathers all the required data (HTTP events, React states from a minimal version of RAPIDOR that is launched with the browser) and performs the analysis on the back-end at the end of the exploration\n- data stored on SQLlite and stats are calculated automatically after each run\n- improved ==extraction algorithm== (it considers multiple segments from the URL, not only one)\n- improved ==detection of sensitive keys using hugging-face transformers== (we compare embeddings of keys within props objects to a reference set of embeddings)\n\n## Limits\n- authentication is still required (bottleneck that aligns with SOTA tools) but it is the only thing needed",
+			"styleAttributes":{},
+			"x":-620,
+			"y":700,
+			"width":880,
+			"height":480
+		},
+		{
+			"id":"2185425d819ef8a2",
+			"type":"text",
+			"text":"## WIP\n- Automatic identification of likely relevant websites from Tranco's top N. We consider only React app, that have in `html` information about freemium business model and have scripts related to payments, eg `js.stripe.com`)\n- It still requires manual check but it is a great filter\n- We can fallback to our list of 15 apps if no positive results \n- We can now fix the BFTDetector project with Claude Code assistance and use it as a real baseline",
+			"styleAttributes":{},
+			"x":-620,
+			"y":1240,
+			"width":560,
+			"height":300
+		},
+		{
+			"id":"5f5f909607cee891",
+			"type":"text",
+			"text":"# Deadline to fix (pref. before 2027): journal? conference?",
+			"styleAttributes":{"border":"invisible"},
+			"x":-1280,
+			"y":1660,
+			"width":360,
+			"height":240
+		}
+	],
+	"edges":[],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}
