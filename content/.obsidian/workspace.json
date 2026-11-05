@@ -23,8 +23,21 @@
               "icon": "lucide-layout-dashboard",
               "title": "2026_11_04"
             }
+          },
+          {
+            "id": "57a0a6b0f6f4fb14",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.15.0"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.15.0"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,7 +203,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "82834acb334dead7",
+  "active": "57a0a6b0f6f4fb14",
   "lastOpenFiles": [
     "04 Canvases/meetings/2026_09_23.canvas",
     "04 Canvases/meetings/2026_11_04.canvas",
