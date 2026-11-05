@@ -11,33 +11,18 @@
             "id": "82834acb334dead7",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "04 Canvases/meetings/2026_11_04.canvas",
-                "viewState": {
-                  "x": -583.5521057046927,
-                  "y": 1038.6666476364549,
-                  "zoom": -0.45523829960216333
-                }
+                "file": "01 Notes/DTO (Data Transfert Object).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "2026_11_04"
-            }
-          },
-          {
-            "id": "57a0a6b0f6f4fb14",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.15.0"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.15.0"
+              "icon": "lucide-file",
+              "title": "DTO (Data Transfert Object)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,10 +188,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "57a0a6b0f6f4fb14",
+  "active": "82834acb334dead7",
   "lastOpenFiles": [
-    "04 Canvases/meetings/2026_09_23.canvas",
+    "01 Notes/DDT (dependency detection tool).md",
+    "01 Notes/DTO (Data Transfert Object).md",
     "04 Canvases/meetings/2026_11_04.canvas",
+    "04 Canvases/meetings/2026_09_23.canvas",
     "04 Canvases/mind maps/instrumenting SPA framework.canvas",
     "97 Assets/mr_example.png",
     "97 Assets/era_track.png",
@@ -220,7 +207,6 @@
     "04 Canvases/mind maps/Empirical Study/Front-End role in BAC.canvas",
     "04 Canvases/mind maps/Empirical Study/Examples of empirical studies.canvas",
     "04 Canvases/mind maps/Empirical Study/visual regression approach.canvas",
-    "04 Canvases/mind maps/Empirical Study/page-agent approach.canvas",
     "01 Notes/CDP (Chrome DevTools Protocol).md",
     "index.md",
     "02 Literature/papers/CSS (Cascading Style Sheets)/Scriptless attacks. Stealing the pie without touching the sill.md",
@@ -247,7 +233,6 @@
     "01 Notes/DSL (Domain Specific Language).md",
     "01 Notes/daikon engine.md",
     "02 Literature/papers/logic flow tampering/LogicScope. automatic discovery of logic vulnerabilities within web applications.md",
-    "03 References/(Li, Xue, et al., 2013).md",
     "00 Antilibrary/Untitled.base",
     "97 Assets/google-chrome-web-browser-logo-computer-icons-chrome-9391b0cd7c3be9a1b753ac6778214fe9.png",
     "chrome_icon_png.png",
